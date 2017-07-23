@@ -1,3 +1,9 @@
+ubuntu-system-settings (0.5+ubports) vivid; urgency=medium
+
+  * Imported to UBports
+
+ -- UBports auto importer <infra@ubports.com>  Mon, 24 Jul 2017 00:09:04 +0200
+
 ubuntu-system-settings (0.4+17.04.20161129-0ubuntu1) zesty; urgency=medium
 
   [ Daniel van Vugt ]
