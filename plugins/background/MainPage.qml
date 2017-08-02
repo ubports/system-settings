@@ -28,6 +28,7 @@ import Ubuntu.Components.Popups 1.3
 import Ubuntu.SystemSettings.Background 1.0
 import "utilities.js" as Utilities
 
+
 ItemPage {
     id: mainPage
     objectName: "backgroundPage"
@@ -47,6 +48,11 @@ ItemPage {
         onTriggered: {
             pageStack.push(picker);
         }
+    }
+
+    GSettings {
+        id: settings
+        schema.id: "com.ubuntu.touch.system-settings"
     }
 
     // qml bindings for background stuff
@@ -106,6 +112,17 @@ ItemPage {
             }
 
             ListItem.ThinDivider {}
+
+            ListItem.Standard {
+                text: i18n.tr("Dash background")
+
+                control: Switch {
+                    property bool serverChecked: settings.dashBackground
+                    onServerCheckedChanged: checked = serverChecked
+                    Component.onCompleted: checked = serverChecked
+                    onTriggered: settings.dashBackground = checked
+                }
+            }
 
         }
     }
