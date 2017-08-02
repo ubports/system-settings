@@ -94,6 +94,12 @@ public:
     QDateTime lastUpdateDate() const;
     QDateTime lastCheckDate() const;
 
+    Q_INVOKABLE QStringList getChannels();
+    Q_INVOKABLE void setSwitchChannel(QString channel);
+    Q_INVOKABLE void setSwitchBuild(int build);
+    Q_INVOKABLE int getSwitchBuild();
+    Q_INVOKABLE QString getSwitchChannel();
+
     Q_INVOKABLE void checkForUpdate();
     Q_INVOKABLE void downloadUpdate();
     Q_INVOKABLE void forceAllowGSMDownload();
@@ -191,6 +197,9 @@ private:
     bool m_downloading = false;
     int m_updateSize = 0;
     QString m_errorReason = QString::null;
+
+    QString m_switchChannel;
+    int m_switchBuild;
 };
 
 #endif // QSYSTEMIMAGE_H

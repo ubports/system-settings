@@ -9,6 +9,8 @@ set(QML_SOURCES
     NotAuthenticatedNotification.qml
     PageComponent.qml
     UpdateDelegate.qml
+    UpdateSettings.qml
+    ChannelSettings.qml
 )
 
 include_directories(
