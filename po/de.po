@@ -1258,7 +1258,7 @@ msgstr "Lass das Telefon den Standort bestimmen"
 
 #: ../plugins/security-privacy/Location.qml:173
 msgid "Using GPS only (less accurate)"
-msgstr ""
+msgstr "Verwende nur GPS (weniger genau)"
 
 #: ../plugins/security-privacy/Location.qml:174
 msgid "Using GPS"
