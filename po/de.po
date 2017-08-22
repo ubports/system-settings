@@ -120,7 +120,7 @@ msgstr ""
 
 #: ../plugins/phone/CallForwarding.qml:166
 msgid "Forward incoming calls when:"
-msgstr "Leitet eingehende Anrufe weiter wenn:"
+msgstr "Leitet eingehende Anrufe weiter, wenn:"
 
 #: ../plugins/phone/CallForwarding.qml:176
 msgid "I’m on another call"
