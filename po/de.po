@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-16 14:42-0500\n"
-"PO-Revision-Date: 2017-08-22 19:09+0000\n"
+"PO-Revision-Date: 2017-08-23 18:07+0000\n"
 "Last-Translator: Byteschubse <usoltau@mail.de>\n"
 "Language-Team: German <https://ubpweblate.tnvcomp.com/projects/ubports"
 "/system-settings/de/>\n"
@@ -684,7 +684,7 @@ msgstr "Passphrase auswählen"
 
 #: ../plugins/hotspot/HotspotSetup.qml:217
 msgid "Require a password (recommended):"
-msgstr ""
+msgstr "benötigt ein Passwort (empfohlen)"
 
 #: ../plugins/hotspot/HotspotSetup.qml:270
 msgid "Starting the hotspot will turn on Wi-Fi."
@@ -1262,7 +1262,7 @@ msgstr "Verwende nur GPS (weniger genau)"
 
 #: ../plugins/security-privacy/Location.qml:174
 msgid "Using GPS"
-msgstr ""
+msgstr "GPS verwenden"
 
 #. TRANSLATORS: %1 is the resource wherein HERE
 #. terms and conditions reside (typically a qml file).
@@ -1274,6 +1274,9 @@ msgid ""
 "Using GPS, anonymized Wi-Fi and cellular network info.<br>By selecting this "
 "option you accept the <a href='%1'>Nokia HERE terms and conditions</a>."
 msgstr ""
+"Die Verwendung von GPS, anonymisiertes WLAN und ein "
+"Mobilfunknetzinformationen. Mit der Wahl dieser Option akzeptierst du die "
+"Nutzungsbedingungen von Nokia HERE."
 
 #: ../plugins/security-privacy/Location.qml:191
 msgid "Not at all"
@@ -1362,7 +1365,7 @@ msgstr "Klingelton:"
 
 #: ../plugins/sound/PageComponent.qml:129
 msgid "High volume can damage your hearing."
-msgstr ""
+msgstr "hohe Lautstärke kann dein Gehör schädigen"
 
 #: ../plugins/sound/PageComponent.qml:133
 msgid "Phone calls:"
@@ -1607,7 +1610,7 @@ msgstr "Automatisch"
 
 #: ../plugins/cellular/PageApnEditor.qml:70
 msgid "Edit"
-msgstr ""
+msgstr "Bearbeiten"
 
 #: ../plugins/cellular/PageApnEditor.qml:70
 #, fuzzy
@@ -1616,13 +1619,12 @@ msgstr "%1-Zugangspunkt"
 
 #: ../plugins/cellular/PageApnEditor.qml:156
 msgid "Used for:"
-msgstr ""
+msgstr "gebraucht für"
 
 #: ../plugins/cellular/PageApnEditor.qml:160
 #: ../plugins/cellular/PageChooseApn.qml:85
-#, fuzzy
 msgid "Internet and MMS"
-msgstr "Internet"
+msgstr "Internet und MMS"
 
 #: ../plugins/cellular/PageApnEditor.qml:161
 #: ../plugins/cellular/PageChooseApn.qml:87
