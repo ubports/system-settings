@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-16 14:42-0500\n"
-"PO-Revision-Date: 2017-08-22 18:40+0000\n"
+"PO-Revision-Date: 2017-08-26 16:55+0000\n"
 "Last-Translator: Walter Garcia-Fontes <walter.garcia@upf.edu>\n"
 "Language-Team: Catalan <https://ubpweblate.tnvcomp.com/projects/ubports"
 "/system-settings/ca/>\n"
@@ -72,13 +72,12 @@ msgid "Forward to"
 msgstr "Reenvia a"
 
 #: ../plugins/phone/CallForwardItem.qml:171
-#, fuzzy
 msgid "Enter a number"
-msgstr "Número de telèfon"
+msgstr "Introduïu un número"
 
 #: ../plugins/phone/CallForwardItem.qml:222
 msgid "Call forwarding can’t be changed right now."
-msgstr ""
+msgstr "En aquest moment no es pot canviar el reenviament de trucades."
 
 #: ../plugins/phone/SingleSim.qml:29
 msgid "SIM"
@@ -109,37 +108,35 @@ msgstr "Trucada"
 
 #: ../plugins/phone/CallForwarding.qml:131
 msgid "Forward every incoming call"
-msgstr ""
+msgstr "Reenvia totes les trucades entrants"
 
 #: ../plugins/phone/CallForwarding.qml:146
 msgid "Redirects all phone calls to another number."
-msgstr ""
+msgstr "Reenvia totes les trucades de telèfon a un altre número."
 
 #: ../plugins/phone/CallForwarding.qml:158
 msgid "Call forwarding status can’t be checked "
-msgstr ""
+msgstr "No es pot verificar l'estat del reenviament de trucades "
 
 #: ../plugins/phone/CallForwarding.qml:166
-#, fuzzy
 msgid "Forward incoming calls when:"
-msgstr "Per a les trucades sortints, utilitza:"
+msgstr "Reenvia les trucades entrants quan:"
 
 #: ../plugins/phone/CallForwarding.qml:176
 msgid "I’m on another call"
-msgstr ""
+msgstr "Estic en una altra trucada"
 
 #: ../plugins/phone/CallForwarding.qml:187
 msgid "I don’t answer"
-msgstr ""
+msgstr "No responc"
 
 #: ../plugins/phone/CallForwarding.qml:198
-#, fuzzy
 msgid "My phone is unreachable"
-msgstr "El ModemManager no està disponible"
+msgstr "No es pot accedir al meu telèfon"
 
 #: ../plugins/phone/CallForwarding.qml:228
 msgid "Contacts…"
-msgstr ""
+msgstr "Contactes…"
 
 #: ../plugins/phone/CallForwarding.qml:241 ../plugins/wifi/CertDialog.qml:65
 #: ../plugins/wifi/OtherNetwork.qml:890 ../plugins/hotspot/HotspotSetup.qml:288
@@ -177,22 +174,20 @@ msgid "Set"
 msgstr "Estableix"
 
 #: ../plugins/phone/CallForwarding.qml:275
-#, fuzzy
 msgid "Please select a phone number"
-msgstr "Número de telèfon"
+msgstr "Si us plau trieu un número de telèfon"
 
 #: ../plugins/phone/CallForwarding.qml:284
-#, fuzzy
 msgid "Numbers"
-msgstr "números"
+msgstr "Números"
 
 #: ../plugins/phone/CallForwarding.qml:303
 msgid "Could not forward to this contact"
-msgstr ""
+msgstr "No s'ha pogut desviar aquest contacte"
 
 #: ../plugins/phone/CallForwarding.qml:304
 msgid "Contact not associated with any phone number."
-msgstr ""
+msgstr "Aquest contacte no està associat a cap número de telèfon."
 
 #: ../plugins/phone/CallForwarding.qml:306
 #: ../plugins/system-update/PageComponent.qml:135
@@ -201,14 +196,12 @@ msgid "OK"
 msgstr "D’acord"
 
 #: ../plugins/phone/CallForwarding.qml:383
-#, fuzzy
 msgid "All calls"
-msgstr "truca"
+msgstr "Totes les trucades"
 
 #: ../plugins/phone/CallForwarding.qml:385
-#, fuzzy
 msgid "Some calls"
-msgstr "Trucades:"
+msgstr "Algunes trucades"
 
 #: ../plugins/phone/CallForwarding.qml:387
 #: ../plugins/security-privacy/PageComponent.qml:134
@@ -225,15 +218,13 @@ msgstr "Telèfon"
 
 #: ../plugins/phone/PageComponent.qml:102
 #: ../plugins/sound/PageComponent.qml:180
-#, fuzzy
 msgid "Dialpad tones"
-msgstr "Tons del marcador de telèfon"
+msgstr "Tons del teclat"
 
 #: ../plugins/wifi/NetworkDetailsBrief.qml:54
 #: ../plugins/wifi/NetworkDetails.qml:100
-#, fuzzy
 msgid "Forget this network"
-msgstr "Oblida la xarxa"
+msgstr "Oblida aquesta xarxa"
 
 #: ../plugins/wifi/NetworkDetailsBrief.qml:69
 msgid "IP address"
@@ -241,25 +232,23 @@ msgstr "Adreça IP"
 
 #: ../plugins/wifi/CertDialog.qml:22
 msgid "Add certificate?"
-msgstr ""
+msgstr "Voleu afegir el certificat?"
 
 #: ../plugins/wifi/CertDialog.qml:24
 msgid "Add key?"
-msgstr ""
+msgstr "Voleu afegir la clau?"
 
 #: ../plugins/wifi/CertDialog.qml:26
 msgid "Add pac file?"
-msgstr ""
+msgstr "Voleu afegir el fitxer pac?"
 
 #: ../plugins/wifi/CertDialog.qml:36
-#, fuzzy
 msgid "Content:"
-msgstr "Continua"
+msgstr "Contingut:"
 
 #: ../plugins/wifi/CertDialog.qml:49
-#, fuzzy
 msgid "No data available."
-msgstr "Actualitzacions disponibles"
+msgstr "No hi ha dades disponibles."
 
 #: ../plugins/wifi/CertDialog.qml:74
 msgid "Save"
@@ -314,7 +303,7 @@ msgstr "Nom de la xarxa"
 
 #: ../plugins/wifi/OtherNetwork.qml:299
 msgid "SSID"
-msgstr ""
+msgstr "SSID"
 
 #: ../plugins/wifi/OtherNetwork.qml:308
 #: ../plugins/security-privacy/PageComponent.qml:115
@@ -343,9 +332,8 @@ msgid "WPA & WPA2 Personal"
 msgstr "WPA i WPA2 personal"
 
 #: ../plugins/wifi/OtherNetwork.qml:321
-#, fuzzy
 msgid "WPA & WPA2 Enterprise"
-msgstr "WPA i WPA2 personal"
+msgstr "WPA/WPA2 corporativa"
 
 #: ../plugins/wifi/OtherNetwork.qml:322
 msgid "WEP"
@@ -353,29 +341,28 @@ msgstr "WEP"
 
 #: ../plugins/wifi/OtherNetwork.qml:323
 msgid "Dynamic WEP (802.1x)"
-msgstr ""
+msgstr "WEP dinàmica (802.1x)"
 
 #: ../plugins/wifi/OtherNetwork.qml:324
 msgid "LEAP"
-msgstr ""
+msgstr "LEAP"
 
 #: ../plugins/wifi/OtherNetwork.qml:333
 msgid "This network is insecure."
-msgstr ""
+msgstr "Aquesta xarxa no és segura."
 
 #: ../plugins/wifi/OtherNetwork.qml:339
 #: ../plugins/cellular/PageApnEditor.qml:384
-#, fuzzy
 msgid "Authentication"
-msgstr "notificacions"
+msgstr "Autenticació"
 
 #: ../plugins/wifi/OtherNetwork.qml:364
 msgid "Inner authentication"
-msgstr ""
+msgstr "Autenticació interna"
 
 #: ../plugins/wifi/OtherNetwork.qml:397
 msgid "CA certificate"
-msgstr ""
+msgstr "Certificat de CA"
 
 #. TRANSLATORS: %1 is the name of a certificate file.
 #. The ellipsis indicates that the file name has been
@@ -383,14 +370,14 @@ msgstr ""
 #: ../plugins/wifi/OtherNetwork.qml:451
 #, qt-format
 msgid "%1…"
-msgstr ""
+msgstr "%1…"
 
 #: ../plugins/wifi/OtherNetwork.qml:459 ../plugins/wifi/OtherNetwork.qml:576
 #: ../plugins/wifi/certhandler.cpp:106 ../plugins/wifi/certhandler.cpp:141
 #: ../plugins/wifi/certhandler.cpp:193 ../plugins/wifi/certhandler.cpp:225
 #: ../plugins/wifi/certhandler.cpp:290 ../plugins/wifi/certhandler.cpp:319
 msgid "Choose…"
-msgstr ""
+msgstr "Escolliu…"
 
 #. TRANSLATORS: The first position is the name of
 #. the organization that has issued the certificate.
@@ -400,7 +387,7 @@ msgstr ""
 #: ../plugins/wifi/OtherNetwork.qml:466
 #, qt-format
 msgid "%1…, Exp.: %2"
-msgstr ""
+msgstr "%1…, Caduca: %2"
 
 #. TRANSLATORS: The first position is the name of
 #. the organization that has issued the certificate.
@@ -409,15 +396,15 @@ msgstr ""
 #: ../plugins/wifi/OtherNetwork.qml:474
 #, qt-format
 msgid "%1, Exp.: %2"
-msgstr ""
+msgstr "%1, Caduca: %2"
 
 #: ../plugins/wifi/OtherNetwork.qml:495
 msgid "Using certificates is recommend as it increases security."
-msgstr ""
+msgstr "Es recomana usar certificats atès que incrementa la seguretat."
 
 #: ../plugins/wifi/OtherNetwork.qml:513
 msgid "Client certificate"
-msgstr ""
+msgstr "Certificat de client"
 
 #: ../plugins/wifi/OtherNetwork.qml:555
 msgid "User private key"

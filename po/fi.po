@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-16 14:42-0500\n"
-"PO-Revision-Date: 2017-08-24 14:51+0000\n"
+"PO-Revision-Date: 2017-08-25 08:13+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://ubpweblate.tnvcomp.com/projects/ubports"
 "/system-settings/fi/>\n"
@@ -407,11 +407,11 @@ msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:513
 msgid "Client certificate"
-msgstr ""
+msgstr "Asiakasvarmenne"
 
 #: ../plugins/wifi/OtherNetwork.qml:555
 msgid "User private key"
-msgstr ""
+msgstr "Käyttäjän yksityinen avain"
 
 #. TRANSLATORS: The first position is the type of
 #. private key, second the key algorithm, and third the
@@ -419,7 +419,7 @@ msgstr ""
 #: ../plugins/wifi/OtherNetwork.qml:580
 #, qt-format
 msgid "%1, %2, %3 bit"
-msgstr ""
+msgstr "%1, %2, %3 bit"
 
 #: ../plugins/wifi/OtherNetwork.qml:623
 msgid "Pac file"
@@ -882,18 +882,16 @@ msgid "Microphone"
 msgstr "Mikrofoni"
 
 #: ../plugins/security-privacy/AppAccess.qml:63
-#, fuzzy
 msgid "Apps that have requested access to your microphone"
-msgstr "Sovellukset jotka ovat pyytäneet pääsyä mikrofoniin"
+msgstr "Sovellukset jotka ovat pyytäneet lupaa käyttää mikrofonia"
 
 #: ../plugins/security-privacy/AppAccess.qml:67
 msgid "In-App Purchases"
 msgstr "Sovellusten sisäiset ostot"
 
 #: ../plugins/security-privacy/AppAccess.qml:68
-#, fuzzy
 msgid "Apps that have requested access for in-app purchases"
-msgstr "Sovellukset jotka ovat pyytäneet pääsyä kameraan"
+msgstr "Sovellukset jotka ovat pyytäneet lupaa sovellusten sisäisiin ostoksiin"
 
 #: ../plugins/security-privacy/AppAccess.qml:81
 #, qt-format
@@ -905,9 +903,8 @@ msgid "0"
 msgstr "0"
 
 #: ../plugins/security-privacy/AppAccess.qml:97
-#, fuzzy
 msgid "Apps may also request access to online accounts."
-msgstr "Sovellukset jotka ovat pyytäneet pääsyä mikrofoniin"
+msgstr "Sovellukset voivat pyytää myös lupaa käyttää verkkotilejä."
 
 #: ../plugins/security-privacy/AppAccess.qml:102
 msgid "Online Accounts…"
@@ -1212,15 +1209,15 @@ msgstr "Ei lähetetä"
 
 #: ../plugins/security-privacy/Location.qml:94
 msgid "Let the phone detect your location:"
-msgstr ""
+msgstr "Salli puhelimen havaita sijaintisi:"
 
 #: ../plugins/security-privacy/Location.qml:173
 msgid "Using GPS only (less accurate)"
-msgstr ""
+msgstr "Vain GPS:ää käyttäen (vähemmän tarkka)"
 
 #: ../plugins/security-privacy/Location.qml:174
 msgid "Using GPS"
-msgstr ""
+msgstr "GPS:ää käyttäen"
 
 #. TRANSLATORS: %1 is the resource wherein HERE
 #. terms and conditions reside (typically a qml file).
@@ -1232,10 +1229,12 @@ msgid ""
 "Using GPS, anonymized Wi-Fi and cellular network info.<br>By selecting this "
 "option you accept the <a href='%1'>Nokia HERE terms and conditions</a>."
 msgstr ""
+"Käyttäen GPS:ää sekä anonymisoitua wifi- ja matkapuhelinverkon tietoja.<br>"
+"Valitsemalla tämän hyväksyt <a href='%1'>Nokia HERE -käyttöehdot</a>."
 
 #: ../plugins/security-privacy/Location.qml:191
 msgid "Not at all"
-msgstr ""
+msgstr "Ei lainkaan"
 
 #: ../plugins/security-privacy/Location.qml:208
 msgid ""
@@ -1322,7 +1321,7 @@ msgstr "Soittoäänen voimakkuus:"
 
 #: ../plugins/sound/PageComponent.qml:129
 msgid "High volume can damage your hearing."
-msgstr ""
+msgstr "Suuri äänenvoimakkuus saattaa vahingoittaa kuuloaistia."
 
 #: ../plugins/sound/PageComponent.qml:133
 msgid "Phone calls:"
@@ -1375,14 +1374,12 @@ msgid "Other vibrations"
 msgstr "värinä"
 
 #: ../plugins/sound/SoundsList.qml:127
-#, fuzzy
 msgid "Custom Ringtone"
-msgstr "Soittoääni"
+msgstr "Omavalintainen soittoääni"
 
 #: ../plugins/sound/SoundsList.qml:207
-#, fuzzy
 msgid "Choose from"
-msgstr "Valitse operaattori:"
+msgstr "Valitse"
 
 #: ../plugins/about/DevMode.qml:35 ../plugins/about/DevMode.qml:90
 msgid "Developer Mode"
@@ -1573,7 +1570,7 @@ msgstr "Uusi APN"
 
 #: ../plugins/cellular/PageApnEditor.qml:156
 msgid "Used for:"
-msgstr ""
+msgstr "Käyttökohde:"
 
 #: ../plugins/cellular/PageApnEditor.qml:160
 #: ../plugins/cellular/PageChooseApn.qml:85
@@ -1597,7 +1594,7 @@ msgstr "LTE"
 
 #: ../plugins/cellular/PageApnEditor.qml:189
 msgid "Enter a name describing the APN"
-msgstr ""
+msgstr "Anna APN:lle kuvaava nimi"
 
 #: ../plugins/cellular/PageApnEditor.qml:214
 msgid "Enter the name of the access point"
@@ -1632,9 +1629,8 @@ msgid "User name"
 msgstr "Käyttäjätunnus"
 
 #: ../plugins/cellular/PageApnEditor.qml:346
-#, fuzzy
 msgid "Enter username"
-msgstr "Anna tunnuslause"
+msgstr "Anna käyttäjätunnus"
 
 #: ../plugins/cellular/PageApnEditor.qml:370
 msgid "Enter password"
@@ -1684,9 +1680,8 @@ msgid "LTE APN"
 msgstr "%1 APN"
 
 #: ../plugins/cellular/PageChooseApn.qml:149
-#, fuzzy
 msgid "Reset All APN Settings…"
-msgstr "Palauta APN-asetukset"
+msgstr "Nollaa kaikki APN-asetukset…"
 
 #: ../plugins/cellular/PageChooseApn.qml:158
 msgid "Reset APN Settings"
@@ -1708,7 +1703,7 @@ msgstr "Palauta"
 #: ../plugins/cellular/PageChooseApn.qml:216
 #, qt-format
 msgid "Prefer %1"
-msgstr ""
+msgstr "Suosi %1"
 
 #. TRANSLATORS: %1 is the MMS APN that the user has chosen to be
 #. “preferred”, i.e. used to retrieve MMS messages. %2 is the Internet
@@ -1829,11 +1824,8 @@ msgid "Auto punctuation"
 msgstr "Automaattiset välimerkit"
 
 #: ../plugins/language/PageComponent.qml:209
-#, fuzzy
 msgid "Inserts a period when you tap Space twice."
-msgstr ""
-"Lisää pisteen sekä puuttuvat lainausmerkit ja sulut, kun painat välilyöntiä "
-"kahdesti."
+msgstr "Lisää pisteen, kun painat välilyöntiä kahdesti."
 
 #: ../plugins/language/PageComponent.qml:227
 msgid "Keyboard vibration"
@@ -1884,7 +1876,6 @@ msgid "Please enter the following PIN on %1 and press “Enter” on the keyboar
 msgstr ""
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:26
-#, fuzzy
 msgid "Bluetooth Pairing Authorization Request"
 msgstr "Bluetooth-parituspyyntö"
 
@@ -1894,6 +1885,7 @@ msgstr "Bluetooth-parituspyyntö"
 msgid ""
 "The device %1 wants to pair with this device. Do you want to allow this?"
 msgstr ""
+"Laite %1 haluaa muodostaa parin tämän laitteen kanssa. Sallitko parituksen?"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:39
 msgid "Allow"
@@ -2334,7 +2326,6 @@ msgid "Notifications"
 msgstr "Ilmoitukset"
 
 #: ../plugins/notifications/PageComponent.qml:40
-#, fuzzy
 msgid ""
 "Selected apps can alert you using notification bubbles, sounds, vibrations, "
 "and the Notifications list."
@@ -3225,9 +3216,8 @@ msgstr "Nykyistä pyyntöä ei voi keskeyttää (ei yhteyttä palveluun)"
 #: ../plugins/system-update/system_update.cpp:167
 #: ../plugins/system-update/system_update.cpp:174
 #: ../plugins/system-update/system_update.cpp:181
-#, fuzzy
 msgid "Unavailable"
-msgstr "Päivityksiä saatavilla"
+msgstr "Ei saatavilla"
 
 #: ../push-helper/software_updates_helper.py:159
 msgid "There's an updated system image."
