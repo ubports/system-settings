@@ -409,19 +409,9 @@ ItemPage {
 
         ListItem.SingleValue {
             objectName: "configuration"
-            text: i18n.tr("Auto download")
-            value: {
-                if (SystemImage.downloadMode === 0)
-                    return i18n.tr("Never")
-                else if (SystemImage.downloadMode === 1)
-                    return i18n.tr("On wi-fi")
-                else if (SystemImage.downloadMode === 2)
-                    return i18n.tr("Always")
-                else
-                    return i18n.tr("Unknown")
-            }
+            text: i18n.tr("Update settngs")
             progression: true
-            onClicked: pageStack.push(Qt.resolvedUrl("Configuration.qml"))
+            onClicked: pageStack.push(Qt.resolvedUrl("UpdateSettings.qml"))
         }
     }
 
