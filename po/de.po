@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-16 14:42-0500\n"
-"PO-Revision-Date: 2017-08-28 22:10+0000\n"
-"Last-Translator: Jan Sprinz <neo@neothethird.de>\n"
+"PO-Revision-Date: 2017-09-04 23:17+0000\n"
+"Last-Translator: Bjarne Roß <ross.b@freenet.de>\n"
 "Language-Team: German <https://ubpweblate.tnvcomp.com/projects/ubports"
 "/system-settings/de/>\n"
 "Language: de\n"
@@ -116,7 +116,7 @@ msgstr "Leitet alle Anrufe an eine andere Rufnummer weiter."
 
 #: ../plugins/phone/CallForwarding.qml:158
 msgid "Call forwarding status can’t be checked "
-msgstr ""
+msgstr "Status für Rufweiterleitung nicht abrufbar "
 
 #: ../plugins/phone/CallForwarding.qml:166
 msgid "Forward incoming calls when:"
