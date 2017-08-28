@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-16 14:42-0500\n"
-"PO-Revision-Date: 2017-09-04 23:20+0000\n"
+"PO-Revision-Date: 2017-09-04 23:21+0000\n"
 "Last-Translator: Bjarne Roß <ross.b@freenet.de>\n"
 "Language-Team: German <https://ubpweblate.tnvcomp.com/projects/ubports"
 "/system-settings/de/>\n"
@@ -406,7 +406,7 @@ msgstr "Wähle…"
 #: ../plugins/wifi/OtherNetwork.qml:466
 #, qt-format
 msgid "%1…, Exp.: %2"
-msgstr ""
+msgstr "%1…, Läuft ab: %2"
 
 #. TRANSLATORS: The first position is the name of
 #. the organization that has issued the certificate.
