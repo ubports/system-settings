@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-16 14:42-0500\n"
-"PO-Revision-Date: 2017-09-04 23:18+0000\n"
+"PO-Revision-Date: 2017-09-04 23:19+0000\n"
 "Last-Translator: Bjarne Roß <ross.b@freenet.de>\n"
 "Language-Team: German <https://ubpweblate.tnvcomp.com/projects/ubports"
 "/system-settings/de/>\n"
@@ -356,7 +356,7 @@ msgstr "WEP"
 
 #: ../plugins/wifi/OtherNetwork.qml:323
 msgid "Dynamic WEP (802.1x)"
-msgstr ""
+msgstr "Dynamisches WEP (802.1x)"
 
 #: ../plugins/wifi/OtherNetwork.qml:324
 msgid "LEAP"
