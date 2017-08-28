@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-16 14:42-0500\n"
-"PO-Revision-Date: 2017-08-23 18:07+0000\n"
-"Last-Translator: Byteschubse <usoltau@mail.de>\n"
+"PO-Revision-Date: 2017-08-28 22:10+0000\n"
+"Last-Translator: Jan Sprinz <neo@neothethird.de>\n"
 "Language-Team: German <https://ubpweblate.tnvcomp.com/projects/ubports"
 "/system-settings/de/>\n"
 "Language: de\n"
@@ -1079,10 +1079,10 @@ msgstr "Sicherheit nach dem Sperren"
 #. TRANSLATORS: %1 is the number of minutes
 #: ../plugins/security-privacy/PhoneLocking.qml:87
 #: ../plugins/security-privacy/PhoneLocking.qml:96
-#, fuzzy, qt-format
+#, qt-format
 msgid "%1 minute"
 msgid_plural "%1 minutes"
-msgstr[0] "ist die Anzahl der Minuten"
+msgstr[0] "eine Minute"
 msgstr[1] "%1 Minuten"
 
 #: ../plugins/security-privacy/PhoneLocking.qml:113
