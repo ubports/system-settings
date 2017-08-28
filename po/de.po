@@ -380,7 +380,7 @@ msgstr "Innere Authentifizierung"
 
 #: ../plugins/wifi/OtherNetwork.qml:397
 msgid "CA certificate"
-msgstr ""
+msgstr "CA Zertifikat"
 
 #. TRANSLATORS: %1 is the name of a certificate file.
 #. The ellipsis indicates that the file name has been
