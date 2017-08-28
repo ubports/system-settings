@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-16 14:42-0500\n"
-"PO-Revision-Date: 2017-09-04 23:17+0000\n"
+"PO-Revision-Date: 2017-09-04 23:18+0000\n"
 "Last-Translator: Bjarne Roß <ross.b@freenet.de>\n"
 "Language-Team: German <https://ubpweblate.tnvcomp.com/projects/ubports"
 "/system-settings/de/>\n"
@@ -124,7 +124,7 @@ msgstr "Leitet eingehende Anrufe weiter, wenn:"
 
 #: ../plugins/phone/CallForwarding.qml:176
 msgid "I’m on another call"
-msgstr ""
+msgstr "Besetzt"
 
 #: ../plugins/phone/CallForwarding.qml:187
 #, fuzzy
