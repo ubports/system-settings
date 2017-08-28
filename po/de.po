@@ -374,8 +374,9 @@ msgid "Authentication"
 msgstr "Authentifizierung"
 
 #: ../plugins/wifi/OtherNetwork.qml:364
+#, fuzzy
 msgid "Inner authentication"
-msgstr ""
+msgstr "Innere Authentifizierung"
 
 #: ../plugins/wifi/OtherNetwork.qml:397
 msgid "CA certificate"
