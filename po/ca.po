@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-16 14:42-0500\n"
-"PO-Revision-Date: 2017-08-26 16:55+0000\n"
+"PO-Revision-Date: 2017-08-28 05:31+0000\n"
 "Last-Translator: Walter Garcia-Fontes <walter.garcia@upf.edu>\n"
 "Language-Team: Catalan <https://ubpweblate.tnvcomp.com/projects/ubports"
 "/system-settings/ca/>\n"
@@ -95,7 +95,7 @@ msgid ""
 "between them"
 msgstr ""
 "Us permet contestar o iniciar una trucada nova mentre estigueu en una altra "
-"trucada, i intercanviar entre elles."
+"trucada, i intercanviar entre elles"
 
 #: ../plugins/phone/ServiceInfo.qml:109
 #, qt-format
@@ -193,7 +193,7 @@ msgstr "Aquest contacte no està associat a cap número de telèfon."
 #: ../plugins/system-update/PageComponent.qml:135
 #: ../plugins/cellular/Components/SimEditor.qml:215
 msgid "OK"
-msgstr "D’acord"
+msgstr "D'acord"
 
 #: ../plugins/phone/CallForwarding.qml:383
 msgid "All calls"
@@ -291,7 +291,7 @@ msgstr "Mostra la contrasenya"
 
 #: ../plugins/wifi/OtherNetwork.qml:93
 msgid "Connect to Wi‑Fi"
-msgstr "Connecta't a la Wi-Fi"
+msgstr "Connecta't a la xarxa sense fil"
 
 #: ../plugins/wifi/OtherNetwork.qml:94
 msgid "Connect to Hidden Network"
@@ -408,7 +408,7 @@ msgstr "Certificat de client"
 
 #: ../plugins/wifi/OtherNetwork.qml:555
 msgid "User private key"
-msgstr ""
+msgstr "Clau privada d'usuari"
 
 #. TRANSLATORS: The first position is the type of
 #. private key, second the key algorithm, and third the
@@ -416,60 +416,55 @@ msgstr ""
 #: ../plugins/wifi/OtherNetwork.qml:580
 #, qt-format
 msgid "%1, %2, %3 bit"
-msgstr ""
+msgstr "%1, %2, %3 bit"
 
 #: ../plugins/wifi/OtherNetwork.qml:623
 msgid "Pac file"
-msgstr ""
+msgstr "Fitxer pac"
 
 #: ../plugins/wifi/OtherNetwork.qml:673
 msgid "Pac provisioning"
-msgstr ""
+msgstr "Aprovisionament pac"
 
 #: ../plugins/wifi/OtherNetwork.qml:687
-#, fuzzy
 msgid "Disabled"
-msgstr "inhabilita"
+msgstr "Inhabilitat"
 
 #: ../plugins/wifi/OtherNetwork.qml:688
 msgid "Anonymous"
-msgstr ""
+msgstr "Anònim"
 
 #: ../plugins/wifi/OtherNetwork.qml:689
 msgid "Authenticated"
-msgstr ""
+msgstr "Autenticat"
 
 #: ../plugins/wifi/OtherNetwork.qml:690
 msgid "Both"
-msgstr ""
+msgstr "Ambdós"
 
 #: ../plugins/wifi/OtherNetwork.qml:700
-#, fuzzy
 msgid "PEAP version"
-msgstr "versió"
+msgstr "Versió de PEAP"
 
 #: ../plugins/wifi/OtherNetwork.qml:714
-#, fuzzy
 msgid "Version 0"
-msgstr "Versió: "
+msgstr "Versió 0"
 
 #: ../plugins/wifi/OtherNetwork.qml:715
-#, fuzzy
 msgid "Version 1"
-msgstr "Versió: "
+msgstr "Versió 1"
 
 #: ../plugins/wifi/OtherNetwork.qml:716
-#, fuzzy
 msgid "Automatic"
-msgstr "automàtic"
+msgstr "Automàtic"
 
 #: ../plugins/wifi/OtherNetwork.qml:726
 msgid "Anonymous identity"
-msgstr ""
+msgstr "Identitat anònima"
 
 #: ../plugins/wifi/OtherNetwork.qml:753
 msgid "Identity"
-msgstr ""
+msgstr "Identitat"
 
 #: ../plugins/wifi/OtherNetwork.qml:755
 msgid "Username"
@@ -477,12 +472,11 @@ msgstr "Nom d'usuari"
 
 #: ../plugins/wifi/OtherNetwork.qml:785
 msgid "Private key password"
-msgstr ""
+msgstr "Contrasenya de la clau privada"
 
 #: ../plugins/wifi/OtherNetwork.qml:858
-#, fuzzy
 msgid "Remember password"
-msgstr "contrasenya"
+msgstr "Recorda la contrasenya"
 
 #: ../plugins/wifi/OtherNetwork.qml:906 ../plugins/bluetooth/DevicePage.qml:168
 msgid "Connect"
@@ -611,7 +605,7 @@ msgstr "El ModemManager no està disponible"
 
 #: ../plugins/wifi/Common.qml:92 ../plugins/hotspot/Common.qml:90
 msgid "The Wi-Fi network could not be found"
-msgstr "No s'ha trobat la xarxa Wi-Fi"
+msgstr "No s'ha trobat la xarxa sense fil"
 
 #: ../plugins/wifi/Common.qml:94 ../plugins/hotspot/Common.qml:92
 msgid "A secondary connection of the base connection failed"
@@ -630,19 +624,17 @@ msgstr "Wi-Fi"
 
 #: ../plugins/wifi/PageComponent.qml:138
 msgid "Connect to hidden network…"
-msgstr "Connecta't a una xarxa oculta..."
+msgstr "Connecta't a una xarxa oculta…"
 
 #: ../plugins/wifi/RemoveBackground.qml:28
 msgid "Clear"
 msgstr "Neteja-ho"
 
 #: ../plugins/hotspot/HotspotSetup.qml:60
-#, fuzzy
 msgid "Change Hotspot Setup"
 msgstr "Canvia la configuració del punt d'accés Wi-Fi"
 
 #: ../plugins/hotspot/HotspotSetup.qml:60
-#, fuzzy
 msgid "Set Up Hotspot"
 msgstr "Configura el punt d'accés Wi-Fi"
 
@@ -651,17 +643,16 @@ msgid "Hotspot name"
 msgstr "Nom del punt d'accés Wi-Fi"
 
 #: ../plugins/hotspot/HotspotSetup.qml:175
-#, fuzzy
 msgid "Choose a name"
-msgstr "Escolliu una contrasenya"
+msgstr "Escolliu un nom"
 
 #: ../plugins/hotspot/HotspotSetup.qml:217
 msgid "Require a password (recommended):"
-msgstr ""
+msgstr "Requereix una contrasenya (recomanat):"
 
 #: ../plugins/hotspot/HotspotSetup.qml:270
 msgid "Starting the hotspot will turn on Wi-Fi."
-msgstr ""
+msgstr "En iniciar el punt d'accés s'activarà la xarxa sense fil."
 
 #: ../plugins/hotspot/HotspotSetup.qml:299
 #: ../plugins/security-privacy/SimPin.qml:186
@@ -671,7 +662,7 @@ msgstr "Canvia-ho"
 
 #: ../plugins/hotspot/HotspotSetup.qml:300
 msgid "Start"
-msgstr ""
+msgstr "Inicia"
 
 #. TRANSLATORS: This is a keyword or name for the hotspot plugin which is used while searching
 #: ../plugins/hotspot/PageComponent.qml:32
@@ -685,8 +676,8 @@ msgid ""
 "Wi-Fi. Normal data charges apply."
 msgstr ""
 "Quan el punt d'accés Wi-Fi està activat altres dispositius poden utilitzar "
-"la connexió de dades mòbils a través de la Wi-Fi. S'aplicaran els càrrecs "
-"per a dades habituals."
+"la connexió de dades mòbils a través de la xarxa sense fil. S'aplicaran els "
+"càrrecs per a dades habituals."
 
 #: ../plugins/hotspot/PageComponent.qml:111
 msgid ""
@@ -694,31 +685,28 @@ msgid ""
 "Normal data charges apply."
 msgstr ""
 "Altres dispositius poden utilitzar la connexió de dades mòbils a través de "
-"la Wi-Fi. S'aplicaran els càrrecs per a dades habituals."
+"la xarxa sense fil. S'aplicaran els càrrecs per a dades habituals."
 
 #: ../plugins/hotspot/PageComponent.qml:120
-#, fuzzy
 msgid "Change Password/Setup…"
-msgstr "Canvia el codi d'accés..."
+msgstr "Canvia la contrasenya/configuració…"
 
 #: ../plugins/hotspot/PageComponent.qml:120
-#, fuzzy
 msgid "Set Up Hotspot…"
-msgstr "Configura el punt d'accés Wi-Fi"
+msgstr "Configura el punt d'accés Wi-Fi…"
 
 #: ../plugins/hotspot/PageComponent.qml:151
-#, fuzzy
 msgid "Wi-Fi is off"
-msgstr "Punt d'accés Wi-Fi"
+msgstr "El punt d'accés Wi-Fi està desactivat"
 
 #: ../plugins/hotspot/PageComponent.qml:152
 msgid "In order to create a hotspot, you need to turn Wi-Fi on."
 msgstr ""
+"Per poder crear un punt d'accés Wi-Fi heu d'activar la xarxa sense fill."
 
 #: ../plugins/hotspot/PageComponent.qml:161
-#, fuzzy
 msgid "Turn on Wi-Fi"
-msgstr "Quan s'utilitzi una connexió Wi-Fi"
+msgstr "Activeu la xarxa sense fil"
 
 #: ../plugins/battery/SleepValues.qml:78
 msgid "Lock the phone when it's not in use:"
@@ -837,9 +825,8 @@ msgstr "Atura temporalment en inactivitat"
 
 #. TRANSLATORS: “Wi-Fi used for hotspot” is hidden.
 #: ../plugins/battery/PageComponent.qml:342
-#, fuzzy
 msgid "Wi-Fi used for hotspot"
-msgstr "Punt d'accés Wi-Fi"
+msgstr "Xarxa sense fil usada per al punt d'accés Wi-Fi"
 
 #. TRANSLATORS: This is a keyword or name for the bluetooth plugin which is used while searching
 #: ../plugins/battery/PageComponent.qml:376
@@ -855,22 +842,21 @@ msgstr "GPS"
 #: ../plugins/battery/PageComponent.qml:430
 msgid "Accurate location detection requires GPS and/or Wi-Fi."
 msgstr ""
-"Cal el GPS i/o la connexió Wi-Fi per detectar la ubicació amb precisió."
+"Cal el GPS i/o la connexió a la xarxa sense fil per detectar la ubicació amb "
+"precisió."
 
 #: ../plugins/security-privacy/here-terms.qml:24
 msgid "Nokia HERE"
-msgstr ""
+msgstr "Nokia HERE"
 
 #: ../plugins/security-privacy/AppAccess.qml:28
 #: ../plugins/security-privacy/PageComponent.qml:208
-#, fuzzy
 msgid "App permissions"
-msgstr "permisos"
+msgstr "Permisos de les aplicacions"
 
 #: ../plugins/security-privacy/AppAccess.qml:46
-#, fuzzy
 msgid "Apps that you have granted access to:"
-msgstr "Aplicacions a què heu atorgat i sol·licitat accés a:"
+msgstr "Aplicacions a les quals heu donat permís d'accés:"
 
 #: ../plugins/security-privacy/AppAccess.qml:52
 #: ../plugins/bluetooth/DevicePage.qml:60
@@ -888,28 +874,24 @@ msgid "Location"
 msgstr "Ubicació"
 
 #: ../plugins/security-privacy/AppAccess.qml:58
-#, fuzzy
 msgid "Apps that have requested access to your location"
-msgstr "Aplicacions que han sol·licitat accés al micròfon"
+msgstr "Aplicacions que han sol·licitat accés a la vostra ubicació"
 
 #: ../plugins/security-privacy/AppAccess.qml:62
-#, fuzzy
 msgid "Microphone"
-msgstr "telèfon"
+msgstr "Micròfon"
 
 #: ../plugins/security-privacy/AppAccess.qml:63
-#, fuzzy
 msgid "Apps that have requested access to your microphone"
 msgstr "Aplicacions que han sol·licitat accés al micròfon"
 
 #: ../plugins/security-privacy/AppAccess.qml:67
 msgid "In-App Purchases"
-msgstr ""
+msgstr "Compres a l'aplicació"
 
 #: ../plugins/security-privacy/AppAccess.qml:68
-#, fuzzy
 msgid "Apps that have requested access for in-app purchases"
-msgstr "Aplicacions que han sol·licitat accés a la càmera"
+msgstr "Aplicacions que han sol·licitat accés a compres a l'aplicació"
 
 #: ../plugins/security-privacy/AppAccess.qml:81
 #, qt-format
@@ -921,13 +903,12 @@ msgid "0"
 msgstr "0"
 
 #: ../plugins/security-privacy/AppAccess.qml:97
-#, fuzzy
 msgid "Apps may also request access to online accounts."
-msgstr "Aplicacions que han sol·licitat accés al micròfon"
+msgstr "Les aplicacions també poden sol·licitar accés als comptes en línia."
 
 #: ../plugins/security-privacy/AppAccess.qml:102
 msgid "Online Accounts…"
-msgstr ""
+msgstr "Comptes en línia…"
 
 #: ../plugins/security-privacy/SimPin.qml:36
 #: ../plugins/security-privacy/SimPin.qml:397
@@ -951,9 +932,8 @@ msgstr[1] "El codi PIN és incorrecte. Resten %1 intents."
 #: ../plugins/security-privacy/SimPin.qml:118
 #: ../plugins/security-privacy/SimPin.qml:223
 #: ../plugins/security-privacy/SimPin.qml:296
-#, fuzzy
 msgid "No more attempts allowed"
-msgstr "Es permeten %1 intents"
+msgstr "No es permeten més intents"
 
 #: ../plugins/security-privacy/SimPin.qml:91
 msgid "Current PIN:"
@@ -996,23 +976,20 @@ msgid "Lock"
 msgstr "Bloca"
 
 #: ../plugins/security-privacy/SimPin.qml:412
-#, fuzzy
 msgid "Unlocked"
-msgstr "Desbloca"
+msgstr "Desblocat"
 
 #: ../plugins/security-privacy/SimPin.qml:415
 msgid "Change PIN…"
-msgstr "Canvia el codi PIN..."
+msgstr "Canvia el codi PIN…"
 
 #: ../plugins/security-privacy/SimPin.qml:426
-#, fuzzy
 msgid "Locked"
-msgstr "Bloca"
+msgstr "Blocat"
 
 #: ../plugins/security-privacy/SimPin.qml:430
-#, fuzzy
 msgid "Unlock…"
-msgstr "Desbloca"
+msgstr "Desbloca…"
 
 #: ../plugins/security-privacy/SimPin.qml:444
 msgid ""
@@ -1032,7 +1009,7 @@ msgstr ""
 #: ../plugins/security-privacy/PhoneLocking.qml:31
 #: ../plugins/security-privacy/PageComponent.qml:120
 msgid "Locking and unlocking"
-msgstr ""
+msgstr "Bloqueig i desbloqueig"
 
 #: ../plugins/security-privacy/PhoneLocking.qml:56
 msgctxt "Unlock with swipe"
@@ -1092,12 +1069,12 @@ msgstr "Altres aplicacions i funcions sol·licitaran el desbloqueig."
 #: ../plugins/security-privacy/LockSecurity.qml:128
 #: ../plugins/security-privacy/LockSecurity.qml:497
 msgid "Change passcode…"
-msgstr "Canvia el codi d'accés..."
+msgstr "Canvia el codi d'accés…"
 
 #: ../plugins/security-privacy/LockSecurity.qml:130
 #: ../plugins/security-privacy/LockSecurity.qml:498
 msgid "Change passphrase…"
-msgstr "Canvia la contrasenya..."
+msgstr "Canvia la contrasenya…"
 
 #: ../plugins/security-privacy/LockSecurity.qml:137
 msgid "Switch to swipe"
@@ -1165,11 +1142,11 @@ msgstr "Lliscament del dit (sense seguretat)... "
 
 #: ../plugins/security-privacy/LockSecurity.qml:453
 msgid "4-digit passcode…"
-msgstr "Codi d'accés de 4 dígits..."
+msgstr "Codi d'accés de 4 dígits…"
 
 #: ../plugins/security-privacy/LockSecurity.qml:454
 msgid "Passphrase…"
-msgstr "Contrasenya..."
+msgstr "Contrasenya…"
 
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../plugins/security-privacy/PageComponent.qml:37 ../build/po/settings.js:96
@@ -1216,7 +1193,7 @@ msgstr "Missatges a la pantalla de benvinguda"
 #: ../plugins/security-privacy/PageComponent.qml:213
 #: ../plugins/security-privacy/diagnostics/PageComponent.qml:30
 msgid "Diagnostics"
-msgstr "Diagnostics"
+msgstr "Diagnosis"
 
 #. TRANSLATORS: This string is shown when crash
 #. reports are to be sent by the system.
@@ -1232,15 +1209,15 @@ msgstr "No n'enviïs"
 
 #: ../plugins/security-privacy/Location.qml:94
 msgid "Let the phone detect your location:"
-msgstr ""
+msgstr "Permet que el telèfon detecti la ubicació:"
 
 #: ../plugins/security-privacy/Location.qml:173
 msgid "Using GPS only (less accurate)"
-msgstr ""
+msgstr "Ús únicament del GPS (menys precís)"
 
 #: ../plugins/security-privacy/Location.qml:174
 msgid "Using GPS"
-msgstr ""
+msgstr "Ús del GPS"
 
 #. TRANSLATORS: %1 is the resource wherein HERE
 #. terms and conditions reside (typically a qml file).
@@ -1252,10 +1229,13 @@ msgid ""
 "Using GPS, anonymized Wi-Fi and cellular network info.<br>By selecting this "
 "option you accept the <a href='%1'>Nokia HERE terms and conditions</a>."
 msgstr ""
+"Ús d'informació del GPS, xarxes sense fil anònimes i xarxes mòbils.<br>En "
+"triar aquesta opció accepteu <a href='%1'>els termes i les condicions de "
+"Nokia HERE</a>."
 
 #: ../plugins/security-privacy/Location.qml:191
 msgid "Not at all"
-msgstr ""
+msgstr "De cap manera"
 
 #: ../plugins/security-privacy/Location.qml:208
 msgid ""
@@ -1270,44 +1250,44 @@ msgid ""
 "Uses wi-fi and GPS to detect your rough location. Turning off location "
 "detection saves battery."
 msgstr ""
-"Utilitza la connexió Wi-Fi i el GPS per detectar la ubicació aproximada. "
-"Estalviareu bateria si inhabiliteu la detecció de la ubicació."
+"Utilitza la connexió a la xarxa sense fil i el GPS per detectar la ubicació "
+"aproximada. Estalviareu bateria si inhabiliteu la detecció de la ubicació."
 
 #: ../plugins/security-privacy/Location.qml:212
 msgid ""
 "Uses wi-fi (currently off) and GPS to detect your rough location. Turning "
 "off location detection saves battery."
 msgstr ""
-"Utilitza la connexió Wi-Fi (actualment inactiva) i el GPS per detectar la "
-"ubicació aproximada. Estalviareu bateria si inhabiliteu la detecció de la "
-"ubicació."
+"Utilitza la connexió a la xarxa sense fil (actualment inactiva) i el GPS per "
+"detectar la ubicació aproximada. Estalviareu bateria si inhabiliteu la "
+"detecció de la ubicació."
 
 #: ../plugins/security-privacy/Location.qml:214
 msgid ""
 "Uses wi-fi, cell tower locations, and GPS to detect your rough location. "
 "Turning off location detection saves battery."
 msgstr ""
-"Usa la connexió Wi-Fi, la ubicació de torres de telefonia mòbil i el GPS per "
-"detectar la ubicació aproximada. Estalviareu bateria si inhabiliteu la "
-"detecció de la ubicació."
+"Usa la connexió a la xarxa sense fil, la ubicació de torres de telefonia "
+"mòbil i el GPS per detectar la ubicació aproximada. Estalviareu bateria si "
+"inhabiliteu la detecció de la ubicació."
 
 #: ../plugins/security-privacy/Location.qml:216
 msgid ""
 "Uses wi-fi, cell tower locations (no current cellular connection), and GPS "
 "to detect your rough location. Turning off location detection saves battery."
 msgstr ""
-"Usa la connexió Wi-Fi, la ubicació de torres de telefonia mòbil (actualment "
-"sense connexió) i el GPS per detectar la ubicació aproximada. Estalviareu "
-"bateria si inhabiliteu la detecció de la ubicació."
+"Usa la connexió a la xarxa sense fil, la ubicació de torres de telefonia "
+"mòbil (actualment sense connexió) i el GPS per detectar la ubicació "
+"aproximada. Estalviareu bateria si inhabiliteu la detecció de la ubicació."
 
 #: ../plugins/security-privacy/Location.qml:218
 msgid ""
 "Uses wi-fi (currently off), cell tower locations, and GPS to detect your "
 "rough location. Turning off location detection saves battery."
 msgstr ""
-"Utilitza la connexió Wi-Fi (actualment inactiva), la ubicació de torres de "
-"telefonia mòbil i el GPS per detectar la ubicació aproximada. Estalviareu "
-"bateria si inhabiliteu la detecció de la ubicació."
+"Utilitza la connexió a la xarxa sense fil (actualment inactiva), la ubicació "
+"de torres de telefonia mòbil i el GPS per detectar la ubicació aproximada. "
+"Estalviareu bateria si inhabiliteu la detecció de la ubicació."
 
 #: ../plugins/security-privacy/Location.qml:220
 msgid ""
@@ -1315,20 +1295,18 @@ msgid ""
 "connection), and GPS to detect your rough location. Turning off location "
 "detection saves battery."
 msgstr ""
-"Utilitza la connexió Wi-Fi (actualment inactiva), la ubicació de torres de "
-"telefonia mòbil (actualment sense connexió) i el GPS per detectar la "
-"ubicació aproximada. Estalviareu bateria si inhabiliteu la detecció de la "
-"ubicació."
+"Utilitza la connexió a la xarxa sense fil (actualment inactiva), la ubicació "
+"de torres de telefonia mòbil (actualment sense connexió) i el GPS per "
+"detectar la ubicació aproximada. Estalviareu bateria si inhabiliteu la "
+"detecció de la ubicació."
 
 #: ../plugins/security-privacy/Location.qml:227
-#, fuzzy
 msgid "Let apps access this location:"
-msgstr "Permet l'accés a la ubicació:"
+msgstr "Permet a les aplicacions accedir a aquesta ubicació:"
 
 #: ../plugins/security-privacy/Location.qml:250
-#, fuzzy
 msgid "None requested"
-msgstr "No s'ha detectat cap dispositiu"
+msgstr "Cap sol·licitat"
 
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../plugins/sound/PageComponent.qml:38 ../build/po/settings.js:120
@@ -1345,7 +1323,7 @@ msgstr "To de trucada:"
 
 #: ../plugins/sound/PageComponent.qml:129
 msgid "High volume can damage your hearing."
-msgstr ""
+msgstr "Un volum alt pot danyar la vostra oïda."
 
 #: ../plugins/sound/PageComponent.qml:133
 msgid "Phone calls:"
@@ -1357,9 +1335,8 @@ msgid "Ringtone"
 msgstr "So de trucada"
 
 #: ../plugins/sound/PageComponent.qml:158
-#, fuzzy
 msgid "Vibrate on ring"
-msgstr "Vibra quan s'estigui trucant"
+msgstr "Vibra en trucar"
 
 #: ../plugins/sound/PageComponent.qml:169
 #: ../plugins/sound/PageComponent.qml:219
@@ -1393,19 +1370,16 @@ msgid "Lock sound"
 msgstr "So de bloqueig"
 
 #: ../plugins/sound/PageComponent.qml:250
-#, fuzzy
 msgid "Other vibrations"
-msgstr "vibració"
+msgstr "Altes vibracions"
 
 #: ../plugins/sound/SoundsList.qml:127
-#, fuzzy
 msgid "Custom Ringtone"
-msgstr "So de trucada"
+msgstr "To de trucada personalitzat"
 
 #: ../plugins/sound/SoundsList.qml:207
-#, fuzzy
 msgid "Choose from"
-msgstr "Escull l'operador:"
+msgstr "Trieu entre"
 
 #: ../plugins/about/DevMode.qml:35 ../plugins/about/DevMode.qml:90
 msgid "Developer Mode"
@@ -1513,7 +1487,7 @@ msgstr "Número de sèrie"
 
 #: ../plugins/about/PageComponent.qml:130
 msgid "Wi-Fi address"
-msgstr "Adreça Wi-Fi"
+msgstr "Adreça de la xarxa sense fil"
 
 #: ../plugins/about/PageComponent.qml:138
 msgid "Bluetooth address"
@@ -1555,7 +1529,7 @@ msgstr "Mode de desenvolupador"
 
 #: ../plugins/about/License.qml:30
 msgid "Sorry, this license could not be displayed."
-msgstr "No es pot mostrar aquesta llicència"
+msgstr "Ho sentim, aquesta llicència no es pot mostrar."
 
 #: ../plugins/cellular/PageCarriersAndApns.qml:27
 #: ../plugins/cellular/Components/MultiSim.qml:66
@@ -1594,19 +1568,17 @@ msgid "Edit"
 msgstr "Edita"
 
 #: ../plugins/cellular/PageApnEditor.qml:70
-#, fuzzy
 msgid "New APN"
-msgstr "APN per a %1"
+msgstr "Nova APN"
 
 #: ../plugins/cellular/PageApnEditor.qml:156
 msgid "Used for:"
-msgstr ""
+msgstr "Usat per a:"
 
 #: ../plugins/cellular/PageApnEditor.qml:160
 #: ../plugins/cellular/PageChooseApn.qml:85
-#, fuzzy
 msgid "Internet and MMS"
-msgstr "Internet"
+msgstr "Internet i MMS"
 
 #: ../plugins/cellular/PageApnEditor.qml:161
 #: ../plugins/cellular/PageChooseApn.qml:87
@@ -1621,15 +1593,15 @@ msgstr "MMS"
 #: ../plugins/cellular/PageApnEditor.qml:163
 #: ../plugins/cellular/PageChooseApn.qml:89
 msgid "LTE"
-msgstr ""
+msgstr "LTE"
 
 #: ../plugins/cellular/PageApnEditor.qml:189
 msgid "Enter a name describing the APN"
-msgstr ""
+msgstr "Entreu un nom que descrigui l'APN"
 
 #: ../plugins/cellular/PageApnEditor.qml:214
 msgid "Enter the name of the access point"
-msgstr ""
+msgstr "Entreu el nom del punt d'accés"
 
 #: ../plugins/cellular/PageApnEditor.qml:228
 msgid "MMSC"
@@ -1637,7 +1609,7 @@ msgstr "MMSC"
 
 #: ../plugins/cellular/PageApnEditor.qml:237
 msgid "Enter message center"
-msgstr ""
+msgstr "Entreu el centre de missatges"
 
 #: ../plugins/cellular/PageApnEditor.qml:255
 msgid "Proxy"
@@ -1645,81 +1617,71 @@ msgstr "Servidor intermediari"
 
 #: ../plugins/cellular/PageApnEditor.qml:264
 msgid "Enter message proxy"
-msgstr ""
+msgstr "Entreu el servidor intermediari de missatges"
 
 #: ../plugins/cellular/PageApnEditor.qml:309
-#, fuzzy
 msgid "Proxy port"
-msgstr "Servidor intermediari"
+msgstr "Port del servidor intermediari"
 
 #: ../plugins/cellular/PageApnEditor.qml:319
 msgid "Enter message proxy port"
-msgstr ""
+msgstr "Entreu el port del servidor intermediari de missatges"
 
 #: ../plugins/cellular/PageApnEditor.qml:337
-#, fuzzy
 msgid "User name"
 msgstr "Nom d'usuari"
 
 #: ../plugins/cellular/PageApnEditor.qml:346
-#, fuzzy
 msgid "Enter username"
-msgstr "Introduïu la contrasenya"
+msgstr "Entreu el nom d'usuari"
 
 #: ../plugins/cellular/PageApnEditor.qml:370
-#, fuzzy
 msgid "Enter password"
 msgstr "Introduïu la contrasenya"
 
 #: ../plugins/cellular/PageApnEditor.qml:389
 msgid "PAP or CHAP"
-msgstr ""
+msgstr "PAP o CHAP"
 
 #: ../plugins/cellular/PageApnEditor.qml:390
-#, fuzzy
 msgid "PAP only"
-msgstr "Només el telèfon"
+msgstr "Sols PAP"
 
 #: ../plugins/cellular/PageApnEditor.qml:391
-#, fuzzy
 msgid "CHAP only"
-msgstr "Només el telèfon"
+msgstr "Sols CHAP"
 
 #: ../plugins/cellular/PageApnEditor.qml:402
 msgid "Protocol"
-msgstr ""
+msgstr "Protocol"
 
 #: ../plugins/cellular/PageApnEditor.qml:406
 msgid "IPv4"
-msgstr ""
+msgstr "IPv4"
 
 #: ../plugins/cellular/PageApnEditor.qml:407
 msgid "IPv6"
-msgstr ""
+msgstr "IPv6"
 
 #: ../plugins/cellular/PageApnEditor.qml:408
 msgid "IPv4v6"
-msgstr ""
+msgstr "IPv4v6"
 
 #: ../plugins/cellular/PageChooseApn.qml:63
-#, fuzzy
 msgid "MMS APN"
-msgstr "APN per a MMS:"
+msgstr "APN per a MMS"
 
 #: ../plugins/cellular/PageChooseApn.qml:69
-#, fuzzy
 msgid "Internet APN"
-msgstr "API d'Internet"
+msgstr "APN d'Internet"
 
 #: ../plugins/cellular/PageChooseApn.qml:75
-#, fuzzy
 msgid "LTE APN"
-msgstr "APN per a %1"
+msgstr "APN de LTE"
 
 #: ../plugins/cellular/PageChooseApn.qml:149
-#, fuzzy
 msgid "Reset All APN Settings…"
-msgstr "Reinicialitza els paràmetres de l'APN"
+msgstr "Reinicialitza tots els paràmetres de l'APN…"
 
 #: ../plugins/cellular/PageChooseApn.qml:158
 msgid "Reset APN Settings"
@@ -1741,7 +1703,7 @@ msgstr "Reinicia"
 #: ../plugins/cellular/PageChooseApn.qml:216
 #, qt-format
 msgid "Prefer %1"
-msgstr ""
+msgstr "Prefereix %1"
 
 #. TRANSLATORS: %1 is the MMS APN that the user has chosen to be
 #. “preferred”, i.e. used to retrieve MMS messages. %2 is the Internet
@@ -1749,7 +1711,7 @@ msgstr ""
 #: ../plugins/cellular/PageChooseApn.qml:189
 #, qt-format
 msgid "You have chosen %1 as your preferred MMS APN. "
-msgstr ""
+msgstr "Heu triat %1 com la vostra APN de missatges preferida. "
 
 #: ../plugins/cellular/PageChooseApn.qml:194
 #: ../plugins/cellular/PageChooseApn.qml:259
@@ -1763,33 +1725,32 @@ msgstr "Desconnecta"
 #: ../plugins/cellular/PageChooseApn.qml:220
 #, qt-format
 msgid "You have chosen %1 as your preferred Internet APN. "
-msgstr ""
+msgstr "Heu triat %1 com la vostra APN d'Internet preferida. "
 
 #: ../plugins/cellular/PageChooseApn.qml:225
 #: ../plugins/cellular/PageChooseApn.qml:258
-#, fuzzy
 msgid "Disable"
-msgstr "inhabilita"
+msgstr "Inhabilita"
 
 #: ../plugins/cellular/PageChooseApn.qml:247
-#, fuzzy, qt-format
+#, qt-format
 msgid "Disconnect %1"
-msgstr "Desconnecta"
+msgstr "Desconnecta %1"
 
 #: ../plugins/cellular/PageChooseApn.qml:248
-#, fuzzy, qt-format
+#, qt-format
 msgid "Disable %1"
-msgstr "inhabilita"
+msgstr "Inhabilita %1"
 
 #: ../plugins/cellular/PageChooseApn.qml:253
-#, fuzzy, qt-format
+#, qt-format
 msgid "This disconnects %1."
-msgstr "desconnecta"
+msgstr "Això desconnecta %1."
 
 #: ../plugins/cellular/PageChooseApn.qml:254
 #, qt-format
 msgid "This disables %1."
-msgstr ""
+msgstr "Aixà deshabilita a %1."
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../plugins/cellular/PageComponent.qml:33 ../build/po/settings.js:186
@@ -1832,7 +1793,7 @@ msgstr "Llengua i text"
 
 #: ../plugins/language/PageComponent.qml:101
 msgid "Display language…"
-msgstr "Llengua..."
+msgstr "Llengua…"
 
 #: ../plugins/language/PageComponent.qml:133
 #: ../plugins/language/PageComponent.qml:143
@@ -1864,11 +1825,8 @@ msgid "Auto punctuation"
 msgstr "Puntuació automàtica"
 
 #: ../plugins/language/PageComponent.qml:209
-#, fuzzy
 msgid "Inserts a period when you tap Space twice."
-msgstr ""
-"Afegeix un punt i tanca cometes o parèntesis en fer un toc doble a la tecla "
-"Espai."
+msgstr "Afegeix un punt en fer un toc doble a la tecla Espai."
 
 #: ../plugins/language/PageComponent.qml:227
 msgid "Keyboard vibration"
@@ -1876,7 +1834,7 @@ msgstr "Vibració del teclat"
 
 #: ../plugins/language/SpellChecking.qml:62
 msgid "Current spelling languages:"
-msgstr "Llengües actuals amb comprovació ortogràfica"
+msgstr "Llengües actuals amb comprovació ortogràfica:"
 
 #: ../plugins/language/SpellChecking.qml:63
 msgid "All languages available:"
@@ -1916,12 +1874,11 @@ msgstr "Sol·licitud d'aparellament del Bluetooth"
 #: ../plugins/bluetooth/DisplayPasskeyDialog.qml:35
 #, qt-format
 msgid "Please enter the following PIN on %1 and press “Enter” on the keyboard:"
-msgstr ""
+msgstr "Si us plau entre el PIN següent a %1 i premeu «Intro» al teclat:"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:26
-#, fuzzy
 msgid "Bluetooth Pairing Authorization Request"
-msgstr "Sol·licitud d'aparellament del Bluetooth"
+msgstr "Sol·licitud d'autorització  d'aparellament del Bluetooth"
 
 #. TRANSLATORS: %1 is the name of the bluetooth device which requires authorization
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:34
@@ -1929,15 +1886,16 @@ msgstr "Sol·licitud d'aparellament del Bluetooth"
 msgid ""
 "The device %1 wants to pair with this device. Do you want to allow this?"
 msgstr ""
+"El dispositiu %1 vol emparellar-se amb aquest dispositiu. Voleu permetre "
+"això?"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:39
-#, fuzzy
 msgid "Allow"
-msgstr "permet"
+msgstr "Permet"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:46
 msgid "Refuse"
-msgstr ""
+msgstr "Rebutja"
 
 #: ../plugins/bluetooth/ProvidePinCodeDialog.qml:36
 #: ../plugins/bluetooth/ProvidePasskeyDialog.qml:36
@@ -1960,7 +1918,7 @@ msgstr "S'està connectant…"
 
 #: ../plugins/bluetooth/DevicePage.qml:39
 msgid "Disconnecting…"
-msgstr "S'està desconnectant..."
+msgstr "S'està desconnectant…"
 
 #: ../plugins/bluetooth/DevicePage.qml:40
 msgid "Disconnected"
@@ -2016,7 +1974,7 @@ msgstr "Impressora"
 
 #: ../plugins/bluetooth/DevicePage.qml:61
 msgid "Watch"
-msgstr ""
+msgstr "Rellotge"
 
 #: ../plugins/bluetooth/DevicePage.qml:62
 msgid "Other"
@@ -2179,11 +2137,11 @@ msgstr "Reinicialitza el telèfon"
 
 #: ../plugins/reset/PageComponent.qml:87
 msgid "Reset all system settings…"
-msgstr "Reinicialitza tots els paràmetres del sistema..."
+msgstr "Reinicialitza tots els paràmetres del sistema…"
 
 #: ../plugins/reset/PageComponent.qml:101
 msgid "Erase & Reset Everything…"
-msgstr "Suprimeix i reinicialitza-ho tot..."
+msgstr "Suprimeix i reinicialitza-ho tot…"
 
 #: ../plugins/reset/ResetAllSettings.qml:29
 msgid ""
@@ -2220,7 +2178,7 @@ msgstr "Descarrega les actualitzacions futures automàticament:"
 
 #: ../plugins/system-update/Configuration.qml:53
 msgid "When on wi-fi"
-msgstr "Quan s'utilitzi una connexió Wi-Fi"
+msgstr "Quan s'utilitzi una connexió a la xarxa sense fil"
 
 #: ../plugins/system-update/Configuration.qml:54
 msgid "On any data connection"
@@ -2251,11 +2209,11 @@ msgstr ""
 
 #: ../plugins/system-update/PageComponent.qml:100
 msgid "Restart & Install"
-msgstr ""
+msgstr "Reinicia i reinstal·la"
 
 #: ../plugins/system-update/PageComponent.qml:116
 msgid "Install"
-msgstr "Instal·la-la"
+msgstr "Instal·la"
 
 #: ../plugins/system-update/PageComponent.qml:131
 msgid "Installation failed"
@@ -2272,11 +2230,11 @@ msgstr "Ha fallat l'actualització del sistema."
 
 #: ../plugins/system-update/PageComponent.qml:238
 msgid "Restarting…"
-msgstr "S'està reiniciant..."
+msgstr "S'està reiniciant…"
 
 #: ../plugins/system-update/PageComponent.qml:282
 msgid "Checking for updates…"
-msgstr "S'estan comprovant les actualitzacions..."
+msgstr "S'estan comprovant les actualitzacions…"
 
 #: ../plugins/system-update/PageComponent.qml:282
 msgid "Connect to the Internet to check for updates"
@@ -2286,8 +2244,8 @@ msgstr "Connecta't a Internet per comprovar les actualitzacions"
 #, qt-format
 msgid "Install %1 update…"
 msgid_plural "Install %1 updates…"
-msgstr[0] "Instal·la %1 actualització..."
-msgstr[1] "Instal·la %1 actualitzacions..."
+msgstr[0] "Instal·la %1 actualització…"
+msgstr[1] "Instal·la %1 actualitzacions…"
 
 #: ../plugins/system-update/PageComponent.qml:304
 #, qt-format
@@ -2306,7 +2264,7 @@ msgstr "Torna-ho a provar"
 
 #: ../plugins/system-update/PageComponent.qml:442
 msgid "Install…"
-msgstr "Instal·la..."
+msgstr "Instal·la…"
 
 #: ../plugins/system-update/PageComponent.qml:444
 msgid "Download"
@@ -2347,19 +2305,19 @@ msgstr "Versió: "
 
 #: ../plugins/system-update/PageComponent.qml:639
 msgid "Sign in to Ubuntu One to receive updates for apps."
-msgstr "Entra a l'Ubuntu One per rebre actualitzacions d'aplicacions"
+msgstr "Entra a l'Ubuntu One per rebre actualitzacions d'aplicacions."
 
 #: ../plugins/system-update/PageComponent.qml:648
 msgid "Sign In…"
-msgstr "Entra..."
+msgstr "Entra…"
 
 #: ../plugins/system-update/PageComponent.qml:692
 msgid "Installing update…"
-msgstr "S'està instal·lant l'actualització..."
+msgstr "S'està instal·lant l'actualització…"
 
 #: ../plugins/system-update/PageComponent.qml:738
 msgid "On wi-fi"
-msgstr "En connexió Wi-Fi"
+msgstr "En connexió a la xarxa sense fil"
 
 #: ../plugins/system-update/PageComponent.qml:740
 msgid "Always"
@@ -2371,13 +2329,12 @@ msgid "Notifications"
 msgstr "Notificacions"
 
 #: ../plugins/notifications/PageComponent.qml:40
-#, fuzzy
 msgid ""
 "Selected apps can alert you using notification bubbles, sounds, vibrations, "
 "and the Notifications list."
 msgstr ""
-"Algunes aplicacions us poden alertar utilitzant bombolles de notificació, "
-"sons, vibració i el Centre de notificacions."
+"Algunes aplicacions seleccionades us poden alertar utilitzant bombolles de "
+"notificació, sons, vibració i el Centre de notificacions."
 
 #: ../plugins/security-privacy/diagnostics/PageComponent.qml:58
 msgid "Privacy policy"
@@ -2443,9 +2400,8 @@ msgstr "Estadístiques d'ús de dades"
 
 #: ../plugins/cellular/Components/MultiSim.qml:92
 #: ../plugins/cellular/Components/RadioSingleSim.qml:31
-#, fuzzy
 msgid "Connection type:"
-msgstr "Connectat"
+msgstr "Tipus de connexió:"
 
 #: ../plugins/cellular/Components/SingleSim.qml:37
 #: ../plugins/cellular/Components/DataMultiSim.qml:39
@@ -2461,16 +2417,15 @@ msgstr "Itinerància de dades"
 #. this word must be less than 5 characters
 #: ../plugins/cellular/Components/LabelTextField.qml:51
 msgid "Next"
-msgstr ""
+msgstr "Seg."
 
 #: ../plugins/cellular/Components/NoSim.qml:36
-#, fuzzy
 msgid "No SIM detected"
-msgstr "No s'ha detectat cap dispositiu"
+msgstr "No s'ha detectat la targeta SIM"
 
 #: ../plugins/cellular/Components/NoSim.qml:45
 msgid "Insert a SIM, then restart the phone."
-msgstr ""
+msgstr "Inseriu una targeta SIM, i després reinicieu el telèfon."
 
 #: ../plugins/background/Components/AddRemove.qml:52
 msgid "No images selected"
@@ -2485,11 +2440,11 @@ msgstr[1] "Suprimeix %1 imatges"
 
 #: ../plugins/background/Components/AddRemove.qml:80
 msgid "Add an image…"
-msgstr "Afegeix una imatge..."
+msgstr "Afegeix una imatge…"
 
 #: ../plugins/background/Components/AddRemove.qml:91
 msgid "Remove images…"
-msgstr "Suprimeix imatges..."
+msgstr "Suprimeix imatges…"
 
 #: ../src/qml/MainWindow.qml:132
 msgid "Search"
@@ -2631,9 +2586,8 @@ msgstr "adreça"
 
 #. TRANSLATORS: This is a keyword or name for the orientation-lock plugin which is used while searching
 #: ../build/po/settings.js:52
-#, fuzzy
 msgid "Rotation Lock"
-msgstr "Bloqueig de l'orientació"
+msgstr "Bloqueig de la rotació"
 
 #. TRANSLATORS: This is a keyword or name for the orientation-lock plugin which is used while searching
 #: ../build/po/settings.js:54
@@ -2663,14 +2617,13 @@ msgstr "aplicacions"
 
 #. TRANSLATORS: This is a keyword or name for the hotspot plugin which is used while searching
 #: ../build/po/settings.js:68
-#, fuzzy
 msgid "hotspot"
-msgstr "Punt d'accés Wi-Fi"
+msgstr "punt d'accés Wi-Fi"
 
 #. TRANSLATORS: This is a keyword or name for the hotspot plugin which is used while searching
 #: ../build/po/settings.js:70
 msgid "tethering"
-msgstr ""
+msgstr "punt d'accés WI-FI"
 
 #. TRANSLATORS: This is a keyword or name for the example plugin which is used while searching
 #: ../build/po/settings.js:72
@@ -3155,9 +3108,8 @@ msgstr "actualitza"
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../build/po/settings.js:320
-#, fuzzy
 msgid "application"
-msgstr "majúscules"
+msgstr "aplicació"
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../build/po/settings.js:324
@@ -3220,17 +3172,16 @@ msgid "gmail"
 msgstr "gmail"
 
 #: ../plugins/wifi/certhandler.cpp:258
-#, fuzzy
 msgid "Private key"
-msgstr "Privadesa"
+msgstr "Clau privada"
 
 #: ../plugins/wifi/certhandler.cpp:259
 msgid "Public key"
-msgstr ""
+msgstr "Clau pública"
 
 #: ../plugins/wifi/certhandler.cpp:264
 msgid "Opaque"
-msgstr ""
+msgstr "Opac"
 
 #: ../plugins/security-privacy/securityprivacy.cpp:347
 msgid "Incorrect passcode. Try again."
@@ -3270,9 +3221,8 @@ msgstr ""
 #: ../plugins/system-update/system_update.cpp:167
 #: ../plugins/system-update/system_update.cpp:174
 #: ../plugins/system-update/system_update.cpp:181
-#, fuzzy
 msgid "Unavailable"
-msgstr "Actualitzacions disponibles"
+msgstr "No disponible"
 
 #: ../push-helper/software_updates_helper.py:159
 msgid "There's an updated system image."
