@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-16 14:42-0500\n"
-"PO-Revision-Date: 2017-08-29 20:51+0000\n"
-"Last-Translator: Mike <miguel2000@livecom.it>\n"
+"PO-Revision-Date: 2017-08-29 20:52+0000\n"
+"Last-Translator: Gianmarco <gianmarcoesgarix@gmail.com>\n"
 "Language-Team: Italian <https://ubpweblate.tnvcomp.com/projects/ubports"
 "/system-settings/it/>\n"
 "Language: it\n"
@@ -406,7 +406,7 @@ msgstr "Scegli…"
 #: ../plugins/wifi/OtherNetwork.qml:466
 #, qt-format
 msgid "%1…, Exp.: %2"
-msgstr ""
+msgstr "%1..., Scad.: %2"
 
 #. TRANSLATORS: The first position is the name of
 #. the organization that has issued the certificate.
@@ -415,7 +415,7 @@ msgstr ""
 #: ../plugins/wifi/OtherNetwork.qml:474
 #, qt-format
 msgid "%1, Exp.: %2"
-msgstr ""
+msgstr "%1, Scad.: %2"
 
 #: ../plugins/wifi/OtherNetwork.qml:495
 #, fuzzy
@@ -1366,7 +1366,7 @@ msgstr "Suoneria:"
 
 #: ../plugins/sound/PageComponent.qml:129
 msgid "High volume can damage your hearing."
-msgstr ""
+msgstr "Un volume troppo alto può danneggiare l'udito"
 
 #: ../plugins/sound/PageComponent.qml:133
 msgid "Phone calls:"
