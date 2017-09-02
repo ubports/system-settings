@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-16 14:42-0500\n"
-"PO-Revision-Date: 2017-08-25 08:13+0000\n"
+"PO-Revision-Date: 2017-09-02 17:53+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://ubpweblate.tnvcomp.com/projects/ubports"
 "/system-settings/fi/>\n"
@@ -476,7 +476,7 @@ msgstr "Käyttäjätunnus"
 
 #: ../plugins/wifi/OtherNetwork.qml:785
 msgid "Private key password"
-msgstr ""
+msgstr "Yksityisen avaimen salasana"
 
 #: ../plugins/wifi/OtherNetwork.qml:858
 msgid "Remember password"
@@ -873,9 +873,8 @@ msgid "Location"
 msgstr "Sijainti"
 
 #: ../plugins/security-privacy/AppAccess.qml:58
-#, fuzzy
 msgid "Apps that have requested access to your location"
-msgstr "Sovellukset jotka ovat pyytäneet pääsyä mikrofoniin"
+msgstr "Sovellukset, jotka ovat pyytäneet pääsyä sijaintitietoosi"
 
 #: ../plugins/security-privacy/AppAccess.qml:62
 msgid "Microphone"
