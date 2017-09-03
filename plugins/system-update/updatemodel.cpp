@@ -518,7 +518,7 @@ void UpdateModel::setImageUpdate(const QString &id, const int &version,
     update->setIdentifier(id);
     update->setKind(Update::Kind::KindImage);
     update->setProgress(0);
-    update->setTitle("Ubuntu");
+    update->setTitle("UBports");
     update->setRevision((uint) version);
     update->setBinaryFilesize((int) updateSize);
     update->setRemoteVersion(QString::number(version));
