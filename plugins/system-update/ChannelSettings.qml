@@ -43,6 +43,9 @@ ItemPage {
         }
         aIndicator.visible = false;
         channelSelector.visible = true;
+
+        if (channelSelectorModel.count !== 0)
+          return;
         appendChannels()
         setSelectedChannel()
         return;
@@ -50,6 +53,8 @@ ItemPage {
     }
 
     function appendChannels() {
+      if (channelSelectorModel.count !== 0)
+        return;
       var prettyChannels = {"stable": i18n.tr("Stable"), "rc": i18n.tr("Release candidate"), "devel": i18n.tr("Development")}
       SystemImage.getChannels().forEach(function (_channel) {
           var channel = _channel.split("/");
