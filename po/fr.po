@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-16 14:42-0500\n"
-"PO-Revision-Date: 2017-08-22 21:13+0000\n"
-"Last-Translator: Anne017 <anneonyme017@openmailbox.org>\n"
+"PO-Revision-Date: 2017-09-04 17:24+0000\n"
+"Last-Translator: Anne Onyme <anneonyme017@openmailbox.org>\n"
 "Language-Team: French <https://ubpweblate.tnvcomp.com/projects/ubports"
 "/system-settings/fr/>\n"
 "Language: fr\n"
@@ -2308,7 +2308,7 @@ msgstr "%1 sur %2"
 
 #: ../plugins/system-update/PageComponent.qml:607
 msgid "Version: "
-msgstr "Version : "
+msgstr "Version : "
 
 #: ../plugins/system-update/PageComponent.qml:639
 msgid "Sign in to Ubuntu One to receive updates for apps."
