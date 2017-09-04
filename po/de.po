@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-16 14:42-0500\n"
-"PO-Revision-Date: 2017-09-04 23:21+0000\n"
+"PO-Revision-Date: 2017-09-04 23:36+0000\n"
 "Last-Translator: Bjarne Roß <ross.b@freenet.de>\n"
 "Language-Team: German <https://ubpweblate.tnvcomp.com/projects/ubports"
 "/system-settings/de/>\n"
@@ -360,7 +360,7 @@ msgstr "Dynamisches WEP (802.1x)"
 
 #: ../plugins/wifi/OtherNetwork.qml:324
 msgid "LEAP"
-msgstr ""
+msgstr "LEAP"
 
 #: ../plugins/wifi/OtherNetwork.qml:333
 #, fuzzy
@@ -428,11 +428,11 @@ msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:513
 msgid "Client certificate"
-msgstr ""
+msgstr "Client Zertifikat"
 
 #: ../plugins/wifi/OtherNetwork.qml:555
 msgid "User private key"
-msgstr ""
+msgstr "Privater Schlüssel des Nutzers"
 
 #. TRANSLATORS: The first position is the type of
 #. private key, second the key algorithm, and third the
@@ -440,15 +440,16 @@ msgstr ""
 #: ../plugins/wifi/OtherNetwork.qml:580
 #, qt-format
 msgid "%1, %2, %3 bit"
-msgstr ""
+msgstr "%1, %2, %3 bit"
 
 #: ../plugins/wifi/OtherNetwork.qml:623
 msgid "Pac file"
-msgstr ""
+msgstr "Pac Datei"
 
 #: ../plugins/wifi/OtherNetwork.qml:673
+#, fuzzy
 msgid "Pac provisioning"
-msgstr ""
+msgstr "Pac Zugang"
 
 #: ../plugins/wifi/OtherNetwork.qml:687
 #, fuzzy
@@ -492,7 +493,7 @@ msgstr "automatisch"
 
 #: ../plugins/wifi/OtherNetwork.qml:726
 msgid "Anonymous identity"
-msgstr ""
+msgstr "Anonyme Identität"
 
 #: ../plugins/wifi/OtherNetwork.qml:753
 #, fuzzy
@@ -505,7 +506,7 @@ msgstr "Benutzername"
 
 #: ../plugins/wifi/OtherNetwork.qml:785
 msgid "Private key password"
-msgstr ""
+msgstr "Passwort für privaten Schlüssel"
 
 #: ../plugins/wifi/OtherNetwork.qml:858
 #, fuzzy
@@ -932,7 +933,7 @@ msgstr "Apps die Zugriff auf das Mikrofon wünschen"
 
 #: ../plugins/security-privacy/AppAccess.qml:67
 msgid "In-App Purchases"
-msgstr ""
+msgstr "In-App Einkäufe"
 
 #: ../plugins/security-privacy/AppAccess.qml:68
 #, fuzzy
@@ -1055,7 +1056,7 @@ msgstr ""
 #: ../plugins/security-privacy/PhoneLocking.qml:31
 #: ../plugins/security-privacy/PageComponent.qml:120
 msgid "Locking and unlocking"
-msgstr ""
+msgstr "Sperren und Entsperren"
 
 #: ../plugins/security-privacy/PhoneLocking.qml:56
 msgctxt "Unlock with swipe"
@@ -1281,7 +1282,7 @@ msgstr ""
 
 #: ../plugins/security-privacy/Location.qml:191
 msgid "Not at all"
-msgstr ""
+msgstr "Nie"
 
 #: ../plugins/security-privacy/Location.qml:208
 msgid ""
@@ -1640,23 +1641,24 @@ msgstr "MMS"
 #: ../plugins/cellular/PageApnEditor.qml:163
 #: ../plugins/cellular/PageChooseApn.qml:89
 msgid "LTE"
-msgstr ""
+msgstr "LTE"
 
 #: ../plugins/cellular/PageApnEditor.qml:189
 msgid "Enter a name describing the APN"
-msgstr ""
+msgstr "Umschreibender Name für APN"
 
 #: ../plugins/cellular/PageApnEditor.qml:214
 msgid "Enter the name of the access point"
-msgstr ""
+msgstr "Name des Access Points"
 
 #: ../plugins/cellular/PageApnEditor.qml:228
 msgid "MMSC"
 msgstr "MMSC"
 
 #: ../plugins/cellular/PageApnEditor.qml:237
+#, fuzzy
 msgid "Enter message center"
-msgstr ""
+msgstr "Nachrichten-Zentrum"
 
 #: ../plugins/cellular/PageApnEditor.qml:255
 msgid "Proxy"
@@ -1664,7 +1666,7 @@ msgstr "Proxy"
 
 #: ../plugins/cellular/PageApnEditor.qml:264
 msgid "Enter message proxy"
-msgstr ""
+msgstr "Nachrichten-Proxy"
 
 #: ../plugins/cellular/PageApnEditor.qml:309
 #, fuzzy
@@ -1673,7 +1675,7 @@ msgstr "Proxy"
 
 #: ../plugins/cellular/PageApnEditor.qml:319
 msgid "Enter message proxy port"
-msgstr ""
+msgstr "Nachrichten-Proxy Port"
 
 #: ../plugins/cellular/PageApnEditor.qml:337
 #, fuzzy
@@ -1692,7 +1694,7 @@ msgstr "Passphrase eingeben"
 
 #: ../plugins/cellular/PageApnEditor.qml:389
 msgid "PAP or CHAP"
-msgstr ""
+msgstr "PAP oder CHAP"
 
 #: ../plugins/cellular/PageApnEditor.qml:390
 #, fuzzy
@@ -1706,19 +1708,19 @@ msgstr "Nur Telefon"
 
 #: ../plugins/cellular/PageApnEditor.qml:402
 msgid "Protocol"
-msgstr ""
+msgstr "Protokol"
 
 #: ../plugins/cellular/PageApnEditor.qml:406
 msgid "IPv4"
-msgstr ""
+msgstr "IPv4"
 
 #: ../plugins/cellular/PageApnEditor.qml:407
 msgid "IPv6"
-msgstr ""
+msgstr "IPv6"
 
 #: ../plugins/cellular/PageApnEditor.qml:408
 msgid "IPv4v6"
-msgstr ""
+msgstr "IPv4v6"
 
 #: ../plugins/cellular/PageChooseApn.qml:63
 #, fuzzy
@@ -1761,7 +1763,7 @@ msgstr "Zurücksetzen"
 #: ../plugins/cellular/PageChooseApn.qml:216
 #, qt-format
 msgid "Prefer %1"
-msgstr ""
+msgstr "%1 bevorzugen"
 
 #. TRANSLATORS: %1 is the MMS APN that the user has chosen to be
 #. “preferred”, i.e. used to retrieve MMS messages. %2 is the Internet
@@ -1769,7 +1771,7 @@ msgstr ""
 #: ../plugins/cellular/PageChooseApn.qml:189
 #, qt-format
 msgid "You have chosen %1 as your preferred MMS APN. "
-msgstr ""
+msgstr "Sie haben %1 als bevorzugten MMS APN ausgewählt. "
 
 #: ../plugins/cellular/PageChooseApn.qml:194
 #: ../plugins/cellular/PageChooseApn.qml:259
@@ -1783,7 +1785,7 @@ msgstr "Verbindung trennen"
 #: ../plugins/cellular/PageChooseApn.qml:220
 #, qt-format
 msgid "You have chosen %1 as your preferred Internet APN. "
-msgstr ""
+msgstr "Sie haben %1 als bevorzugten Internet APN ausgewählt. "
 
 #: ../plugins/cellular/PageChooseApn.qml:225
 #: ../plugins/cellular/PageChooseApn.qml:258
@@ -1809,7 +1811,7 @@ msgstr "trennen"
 #: ../plugins/cellular/PageChooseApn.qml:254
 #, qt-format
 msgid "This disables %1."
-msgstr ""
+msgstr "Dies deaktiviert %1."
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../plugins/cellular/PageComponent.qml:33 ../build/po/settings.js:186
@@ -1936,7 +1938,7 @@ msgstr "Bluetooth-Kopplungsanfrage"
 #: ../plugins/bluetooth/DisplayPasskeyDialog.qml:35
 #, qt-format
 msgid "Please enter the following PIN on %1 and press “Enter” on the keyboard:"
-msgstr ""
+msgstr "Geben Sie Folgenden PIN auf %1 ein und drücke Enter auf der Tastatur."
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:26
 #, fuzzy
@@ -1948,7 +1950,7 @@ msgstr "Bluetooth-Kopplungsanfrage"
 #, qt-format
 msgid ""
 "The device %1 wants to pair with this device. Do you want to allow this?"
-msgstr ""
+msgstr "Das Gerät %1 möchte sich mit diesem Gerät verbinden. Zulassen?"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:39
 #, fuzzy
@@ -1957,7 +1959,7 @@ msgstr "erlauben"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:46
 msgid "Refuse"
-msgstr ""
+msgstr "Ablehnen"
 
 #: ../plugins/bluetooth/ProvidePinCodeDialog.qml:36
 #: ../plugins/bluetooth/ProvidePasskeyDialog.qml:36
@@ -2036,7 +2038,7 @@ msgstr "Drucker"
 
 #: ../plugins/bluetooth/DevicePage.qml:61
 msgid "Watch"
-msgstr ""
+msgstr "Beobachten"
 
 #: ../plugins/bluetooth/DevicePage.qml:62
 msgid "Other"
@@ -2274,7 +2276,7 @@ msgstr ""
 
 #: ../plugins/system-update/PageComponent.qml:100
 msgid "Restart & Install"
-msgstr ""
+msgstr "Neustarten & Installieren"
 
 #: ../plugins/system-update/PageComponent.qml:116
 msgid "Install"
@@ -2483,7 +2485,7 @@ msgstr "Daten-Roaming"
 #. this word must be less than 5 characters
 #: ../plugins/cellular/Components/LabelTextField.qml:51
 msgid "Next"
-msgstr ""
+msgstr "Weiter"
 
 #: ../plugins/cellular/Components/NoSim.qml:36
 #, fuzzy
@@ -2492,7 +2494,7 @@ msgstr "Keines gefunden"
 
 #: ../plugins/cellular/Components/NoSim.qml:45
 msgid "Insert a SIM, then restart the phone."
-msgstr ""
+msgstr "Setzte eine SIM-Karte ein und starte das Gerät neu."
 
 #: ../plugins/background/Components/AddRemove.qml:52
 msgid "No images selected"
@@ -2692,7 +2694,7 @@ msgstr "Hotspot"
 #. TRANSLATORS: This is a keyword or name for the hotspot plugin which is used while searching
 #: ../build/po/settings.js:70
 msgid "tethering"
-msgstr ""
+msgstr "Tunnelung"
 
 #. TRANSLATORS: This is a keyword or name for the example plugin which is used while searching
 #: ../build/po/settings.js:72
@@ -3248,11 +3250,11 @@ msgstr "Datenschutz"
 
 #: ../plugins/wifi/certhandler.cpp:259
 msgid "Public key"
-msgstr ""
+msgstr "Öffentlicher Schlüssel"
 
 #: ../plugins/wifi/certhandler.cpp:264
 msgid "Opaque"
-msgstr ""
+msgstr "Transparenz"
 
 #: ../plugins/security-privacy/securityprivacy.cpp:347
 msgid "Incorrect passcode. Try again."
