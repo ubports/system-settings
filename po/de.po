@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-16 14:42-0500\n"
-"PO-Revision-Date: 2017-09-05 17:18+0000\n"
-"Last-Translator: Gerd Sänger <gerdsaenger@t-online.de>\n"
+"PO-Revision-Date: 2017-09-05 21:27+0000\n"
+"Last-Translator: Florian Leeber <flori@bin.org.in>\n"
 "Language-Team: German <https://ubpweblate.tnvcomp.com/projects/ubports"
 "/system-settings/de/>\n"
 "Language: de\n"
@@ -127,7 +127,6 @@ msgid "I’m on another call"
 msgstr "Besetzt"
 
 #: ../plugins/phone/CallForwarding.qml:187
-#, fuzzy
 msgid "I don’t answer"
 msgstr "Ich antworte nicht"
 
@@ -136,9 +135,8 @@ msgid "My phone is unreachable"
 msgstr "Mein Telefon ist nicht erreichbar"
 
 #: ../plugins/phone/CallForwarding.qml:228
-#, fuzzy
 msgid "Contacts…"
-msgstr "Kontakte …"
+msgstr "Kontakte…"
 
 #: ../plugins/phone/CallForwarding.qml:241 ../plugins/wifi/CertDialog.qml:65
 #: ../plugins/wifi/OtherNetwork.qml:890 ../plugins/hotspot/HotspotSetup.qml:288
@@ -180,7 +178,6 @@ msgid "Please select a phone number"
 msgstr "Bitte eine Telefonnummer auswählen"
 
 #: ../plugins/phone/CallForwarding.qml:284
-#, fuzzy
 msgid "Numbers"
 msgstr "Nummern"
 
@@ -189,9 +186,8 @@ msgid "Could not forward to this contact"
 msgstr "Ich konnte an diesen Kontakt nicht weiterleiten"
 
 #: ../plugins/phone/CallForwarding.qml:304
-#, fuzzy
 msgid "Contact not associated with any phone number."
-msgstr "Der Kontakt ist mit keiner Nummer verknüpft"
+msgstr "Der Kontakt ist mit keiner Nummer verknüpft."
 
 #: ../plugins/phone/CallForwarding.qml:306
 #: ../plugins/system-update/PageComponent.qml:135
@@ -200,14 +196,12 @@ msgid "OK"
 msgstr "OK"
 
 #: ../plugins/phone/CallForwarding.qml:383
-#, fuzzy
 msgid "All calls"
-msgstr "alle Anrufe"
+msgstr "Alle Anrufe"
 
 #: ../plugins/phone/CallForwarding.qml:385
-#, fuzzy
 msgid "Some calls"
-msgstr "Einige Telefonanrufe:"
+msgstr "Einige Telefonanrufe"
 
 #: ../plugins/phone/CallForwarding.qml:387
 #: ../plugins/security-privacy/PageComponent.qml:134
@@ -224,13 +218,11 @@ msgstr "Telefon"
 
 #: ../plugins/phone/PageComponent.qml:102
 #: ../plugins/sound/PageComponent.qml:180
-#, fuzzy
 msgid "Dialpad tones"
 msgstr "Tonwahlgeräusche"
 
 #: ../plugins/wifi/NetworkDetailsBrief.qml:54
 #: ../plugins/wifi/NetworkDetails.qml:100
-#, fuzzy
 msgid "Forget this network"
 msgstr "Netzwerk vergessen"
 
@@ -244,7 +236,6 @@ msgid "Add certificate?"
 msgstr "Ein Zertifikat hinzufügen?"
 
 #: ../plugins/wifi/CertDialog.qml:24
-#, fuzzy
 msgid "Add key?"
 msgstr "Schlüssel hinzufügen?"
 
