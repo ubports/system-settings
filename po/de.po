@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-16 14:42-0500\n"
-"PO-Revision-Date: 2017-09-05 21:27+0000\n"
-"Last-Translator: Florian Leeber <flori@bin.org.in>\n"
+"PO-Revision-Date: 2017-09-06 21:17+0000\n"
+"Last-Translator: Weblate Admin <flori-weblate@bin.org.in>\n"
 "Language-Team: German <https://ubpweblate.tnvcomp.com/projects/ubports"
 "/system-settings/de/>\n"
 "Language: de\n"
@@ -680,7 +680,7 @@ msgstr "benötigt ein Passwort (empfohlen)"
 
 #: ../plugins/hotspot/HotspotSetup.qml:270
 msgid "Starting the hotspot will turn on Wi-Fi."
-msgstr "Verwendung des Hotspots startet das WLAN"
+msgstr "Verwendung des Hotspots startet das WLAN."
 
 #: ../plugins/hotspot/HotspotSetup.qml:299
 #: ../plugins/security-privacy/SimPin.qml:186
@@ -941,7 +941,7 @@ msgstr "0"
 
 #: ../plugins/security-privacy/AppAccess.qml:97
 msgid "Apps may also request access to online accounts."
-msgstr "Apps die Zugriff auf Online-Accounts erfordern"
+msgstr "Apps können auch Zugriff auf Onlinekonten anfordern."
 
 #: ../plugins/security-privacy/AppAccess.qml:102
 msgid "Online Accounts…"
@@ -1060,7 +1060,7 @@ msgstr "PIN"
 #: ../plugins/security-privacy/PhoneLocking.qml:58
 #: ../plugins/security-privacy/LockSecurity.qml:451
 msgid "Passphrase"
-msgstr "Passphrase"
+msgstr "Passwort"
 
 #: ../plugins/security-privacy/PhoneLocking.qml:61
 #: ../plugins/security-privacy/LockSecurity.qml:33
@@ -1357,7 +1357,7 @@ msgstr "Klingelton:"
 
 #: ../plugins/sound/PageComponent.qml:129
 msgid "High volume can damage your hearing."
-msgstr "hohe Lautstärke kann dein Gehör schädigen"
+msgstr "Hohe Lautstärke kann Ihr Gehör schädigen."
 
 #: ../plugins/sound/PageComponent.qml:133
 msgid "Phone calls:"
@@ -1928,7 +1928,8 @@ msgstr "Bluetooth-Kopplungsanfrage"
 #: ../plugins/bluetooth/DisplayPasskeyDialog.qml:35
 #, qt-format
 msgid "Please enter the following PIN on %1 and press “Enter” on the keyboard:"
-msgstr "Geben Sie Folgenden PIN auf %1 ein und drücke Enter auf der Tastatur."
+msgstr ""
+"Geben Sie folgenden PIN auf %1 ein und drücken Sie Enter auf der Tastatur:"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:26
 #, fuzzy
