@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-16 14:42-0500\n"
-"PO-Revision-Date: 2017-09-07 20:48+0000\n"
-"Last-Translator: Gianmarco <gianmarcoesgarix@gmail.com>\n"
+"PO-Revision-Date: 2017-09-07 21:27+0000\n"
+"Last-Translator: Mike <miguel2000@livecom.it>\n"
 "Language-Team: Italian <https://translate.ubports.com/projects/ubports"
 "/system-settings/it/>\n"
 "Language: it\n"
@@ -239,8 +239,9 @@ msgid "Add key?"
 msgstr "Aggiungere la chiave?"
 
 #: ../plugins/wifi/CertDialog.qml:26
+#, fuzzy
 msgid "Add pac file?"
-msgstr ""
+msgstr "Aggiungere file pac?"
 
 #: ../plugins/wifi/CertDialog.qml:36
 msgid "Content:"
@@ -344,8 +345,9 @@ msgid "Dynamic WEP (802.1x)"
 msgstr "WEP dinamico (802.1x)"
 
 #: ../plugins/wifi/OtherNetwork.qml:324
+#, fuzzy
 msgid "LEAP"
-msgstr ""
+msgstr "LEAP"
 
 #: ../plugins/wifi/OtherNetwork.qml:333
 msgid "This network is insecure."
@@ -400,18 +402,15 @@ msgstr "%1, Scad.: %2"
 
 #: ../plugins/wifi/OtherNetwork.qml:495
 msgid "Using certificates is recommend as it increases security."
-msgstr ""
-"L'utilizzo di certificati è consigliato perché garantisce una maggiore "
-"sicurezza."
+msgstr "L'utilizzo di certificati è consigliato per una maggiore sicurezza."
 
 #: ../plugins/wifi/OtherNetwork.qml:513
 msgid "Client certificate"
 msgstr "Certificato del Client"
 
 #: ../plugins/wifi/OtherNetwork.qml:555
-#, fuzzy
 msgid "User private key"
-msgstr "Chiave privata"
+msgstr "Chiave privata dell'utente"
 
 #. TRANSLATORS: The first position is the type of
 #. private key, second the key algorithm, and third the
@@ -422,8 +421,9 @@ msgid "%1, %2, %3 bit"
 msgstr "%1, %2, %3 bit"
 
 #: ../plugins/wifi/OtherNetwork.qml:623
+#, fuzzy
 msgid "Pac file"
-msgstr ""
+msgstr "file pac"
 
 #: ../plugins/wifi/OtherNetwork.qml:673
 msgid "Pac provisioning"
@@ -434,7 +434,6 @@ msgid "Disabled"
 msgstr "Disabilitato"
 
 #: ../plugins/wifi/OtherNetwork.qml:688
-#, fuzzy
 msgid "Anonymous"
 msgstr "Anonimo"
 
@@ -447,7 +446,6 @@ msgid "Both"
 msgstr "Entrambi"
 
 #: ../plugins/wifi/OtherNetwork.qml:700
-#, fuzzy
 msgid "PEAP version"
 msgstr "versione PEAP"
 
@@ -829,7 +827,6 @@ msgstr "Sospendi quando inattivo"
 
 #. TRANSLATORS: “Wi-Fi used for hotspot” is hidden.
 #: ../plugins/battery/PageComponent.qml:342
-#, fuzzy
 msgid "Wi-Fi used for hotspot"
 msgstr "Hotspot Wi-Fi"
 
@@ -854,12 +851,10 @@ msgstr "Nokia HERE"
 
 #: ../plugins/security-privacy/AppAccess.qml:28
 #: ../plugins/security-privacy/PageComponent.qml:208
-#, fuzzy
 msgid "App permissions"
-msgstr "permessi"
+msgstr "Permessi delle app"
 
 #: ../plugins/security-privacy/AppAccess.qml:46
-#, fuzzy
 msgid "Apps that you have granted access to:"
 msgstr "App alle quali hai consentito di accedere a:"
 
@@ -937,9 +932,8 @@ msgstr[1] "PIN errato. %1 tentativi rimasti."
 #: ../plugins/security-privacy/SimPin.qml:118
 #: ../plugins/security-privacy/SimPin.qml:223
 #: ../plugins/security-privacy/SimPin.qml:296
-#, fuzzy
 msgid "No more attempts allowed"
-msgstr "%1 tentativi rimasti."
+msgstr "Nessun tentativo permesso"
 
 #: ../plugins/security-privacy/SimPin.qml:91
 msgid "Current PIN:"
@@ -1340,9 +1334,8 @@ msgid "Ringtone"
 msgstr "Suoneria"
 
 #: ../plugins/sound/PageComponent.qml:158
-#, fuzzy
 msgid "Vibrate on ring"
-msgstr "Vibra e suona"
+msgstr "Vibra alla chiamata"
 
 #: ../plugins/sound/PageComponent.qml:169
 #: ../plugins/sound/PageComponent.qml:219
@@ -1376,18 +1369,16 @@ msgid "Lock sound"
 msgstr "Suono di blocco"
 
 #: ../plugins/sound/PageComponent.qml:250
-#, fuzzy
 msgid "Other vibrations"
-msgstr "vibrazione"
+msgstr "Altre vibrazioni"
 
 #: ../plugins/sound/SoundsList.qml:127
 msgid "Custom Ringtone"
 msgstr "Suoneria personalizzata"
 
 #: ../plugins/sound/SoundsList.qml:207
-#, fuzzy
 msgid "Choose from"
-msgstr "Scegli tra:"
+msgstr "Scegli tra"
 
 #: ../plugins/about/DevMode.qml:35 ../plugins/about/DevMode.qml:90
 msgid "Developer Mode"
@@ -1651,12 +1642,10 @@ msgid "PAP or CHAP"
 msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:390
-#, fuzzy
 msgid "PAP only"
 msgstr "Solo PAP"
 
 #: ../plugins/cellular/PageApnEditor.qml:391
-#, fuzzy
 msgid "CHAP only"
 msgstr "Solo CHAP"
 
@@ -1689,9 +1678,8 @@ msgid "LTE APN"
 msgstr "Punto di accesso LTE"
 
 #: ../plugins/cellular/PageChooseApn.qml:149
-#, fuzzy
 msgid "Reset All APN Settings…"
-msgstr "Ripristina punti di accesso"
+msgstr "Resetta le impostazioni dei punti di acesso…"
 
 #: ../plugins/cellular/PageChooseApn.qml:158
 msgid "Reset APN Settings"
@@ -1753,7 +1741,7 @@ msgid "Disable %1"
 msgstr "Disattiva %1"
 
 #: ../plugins/cellular/PageChooseApn.qml:253
-#, fuzzy, qt-format
+#, qt-format
 msgid "This disconnects %1."
 msgstr "Questo disconnette %1."
 
@@ -2338,7 +2326,6 @@ msgid "Notifications"
 msgstr "Notifiche"
 
 #: ../plugins/notifications/PageComponent.qml:40
-#, fuzzy
 msgid ""
 "Selected apps can alert you using notification bubbles, sounds, vibrations, "
 "and the Notifications list."
@@ -2628,7 +2615,6 @@ msgstr "app"
 
 #. TRANSLATORS: This is a keyword or name for the hotspot plugin which is used while searching
 #: ../build/po/settings.js:68
-#, fuzzy
 msgid "hotspot"
 msgstr "Hotspot"
 
@@ -3120,9 +3106,8 @@ msgstr "aggiornamento"
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../build/po/settings.js:320
-#, fuzzy
 msgid "application"
-msgstr "applicazioni"
+msgstr "applicazione"
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../build/po/settings.js:324
