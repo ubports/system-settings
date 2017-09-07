@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-16 14:42-0500\n"
 "PO-Revision-Date: 2017-09-07 20:48+0000\n"
-"Last-Translator: Mike <miguel2000@livecom.it>\n"
+"Last-Translator: Gianmarco <gianmarcoesgarix@gmail.com>\n"
 "Language-Team: Italian <https://translate.ubports.com/projects/ubports"
 "/system-settings/it/>\n"
 "Language: it\n"
@@ -399,9 +399,10 @@ msgid "%1, Exp.: %2"
 msgstr "%1, Scad.: %2"
 
 #: ../plugins/wifi/OtherNetwork.qml:495
-#, fuzzy
 msgid "Using certificates is recommend as it increases security."
-msgstr "L'utilizzo di certificati garantisce una maggiore sicurezza."
+msgstr ""
+"L'utilizzo di certificati è consigliato perché garantisce una maggiore "
+"sicurezza."
 
 #: ../plugins/wifi/OtherNetwork.qml:513
 msgid "Client certificate"
