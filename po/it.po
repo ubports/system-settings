@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-16 14:42-0500\n"
-"PO-Revision-Date: 2017-09-07 20:44+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2017-09-07 20:47+0000\n"
+"Last-Translator: Mike <miguel2000@livecom.it>\n"
 "Language-Team: Italian <https://translate.ubports.com/projects/ubports"
 "/system-settings/it/>\n"
 "Language: it\n"
@@ -115,7 +115,6 @@ msgid "Redirects all phone calls to another number."
 msgstr "Inoltra tutte le chiamate ad un altro numero."
 
 #: ../plugins/phone/CallForwarding.qml:158
-#, fuzzy
 msgid "Call forwarding status can’t be checked "
 msgstr "Lo stato dell'inoltro di chiamata non può essere verificato "
 
@@ -132,9 +131,8 @@ msgid "I don’t answer"
 msgstr "Non rispondo"
 
 #: ../plugins/phone/CallForwarding.qml:198
-#, fuzzy
 msgid "My phone is unreachable"
-msgstr "ModemManager non è disponibile"
+msgstr "Il mio telefono è irraggiungibile"
 
 #: ../plugins/phone/CallForwarding.qml:228
 msgid "Contacts…"
@@ -176,12 +174,10 @@ msgid "Set"
 msgstr "Imposta"
 
 #: ../plugins/phone/CallForwarding.qml:275
-#, fuzzy
 msgid "Please select a phone number"
-msgstr "Numero di telefono"
+msgstr "Seleziona un numero di telefono"
 
 #: ../plugins/phone/CallForwarding.qml:284
-#, fuzzy
 msgid "Numbers"
 msgstr "Numeri"
 
@@ -190,7 +186,6 @@ msgid "Could not forward to this contact"
 msgstr "Non è possibile l'inoltro a questo contatto"
 
 #: ../plugins/phone/CallForwarding.qml:304
-#, fuzzy
 msgid "Contact not associated with any phone number."
 msgstr "Contatto non associato ad un numero di telefono."
 
@@ -205,7 +200,6 @@ msgid "All calls"
 msgstr "Tutte le chiamate"
 
 #: ../plugins/phone/CallForwarding.qml:385
-#, fuzzy
 msgid "Some calls"
 msgstr "Alcune chiamate"
 
@@ -224,24 +218,21 @@ msgstr "Telefono"
 
 #: ../plugins/phone/PageComponent.qml:102
 #: ../plugins/sound/PageComponent.qml:180
-#, fuzzy
 msgid "Dialpad tones"
-msgstr "Suoni tastiera"
+msgstr "Suoni tastierino numerico"
 
 #: ../plugins/wifi/NetworkDetailsBrief.qml:54
 #: ../plugins/wifi/NetworkDetails.qml:100
-#, fuzzy
 msgid "Forget this network"
-msgstr "Dimentica rete"
+msgstr "Dimentica questa rete"
 
 #: ../plugins/wifi/NetworkDetailsBrief.qml:69
 msgid "IP address"
 msgstr "Indirizzo IP"
 
 #: ../plugins/wifi/CertDialog.qml:22
-#, fuzzy
 msgid "Add certificate?"
-msgstr "Aggiungi il certificato?"
+msgstr "Aggiungere il certificato?"
 
 #: ../plugins/wifi/CertDialog.qml:24
 #, fuzzy
