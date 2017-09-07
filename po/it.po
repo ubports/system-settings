@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-16 14:42-0500\n"
 "PO-Revision-Date: 2017-09-07 21:27+0000\n"
-"Last-Translator: Gianmarco <gianmarcoesgarix@gmail.com>\n"
+"Last-Translator: Mike <miguel2000@livecom.it>\n"
 "Language-Team: Italian <https://translate.ubports.com/projects/ubports"
 "/system-settings/it/>\n"
 "Language: it\n"
@@ -1008,7 +1008,7 @@ msgstr ""
 #: ../plugins/security-privacy/PhoneLocking.qml:31
 #: ../plugins/security-privacy/PageComponent.qml:120
 msgid "Locking and unlocking"
-msgstr ""
+msgstr "bloccando e sbloccando"
 
 #: ../plugins/security-privacy/PhoneLocking.qml:56
 msgctxt "Unlock with swipe"
