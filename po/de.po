@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-16 14:42-0500\n"
-"PO-Revision-Date: 2017-09-07 20:16+0000\n"
+"PO-Revision-Date: 2017-09-07 20:26+0000\n"
 "Last-Translator: Alois Nebel <kunze.freyburg@freenet.de>\n"
 "Language-Team: German <https://translate.ubports.com/projects/ubports/system-"
 "settings/de/>\n"
@@ -354,12 +354,10 @@ msgstr "Dieses Netzwerk ist nicht sicher."
 
 #: ../plugins/wifi/OtherNetwork.qml:339
 #: ../plugins/cellular/PageApnEditor.qml:384
-#, fuzzy
 msgid "Authentication"
 msgstr "Authentifizierung"
 
 #: ../plugins/wifi/OtherNetwork.qml:364
-#, fuzzy
 msgid "Inner authentication"
 msgstr "Innere Authentifizierung"
 
@@ -379,7 +377,6 @@ msgstr "%1…"
 #: ../plugins/wifi/certhandler.cpp:106 ../plugins/wifi/certhandler.cpp:141
 #: ../plugins/wifi/certhandler.cpp:193 ../plugins/wifi/certhandler.cpp:225
 #: ../plugins/wifi/certhandler.cpp:290 ../plugins/wifi/certhandler.cpp:319
-#, fuzzy
 msgid "Choose…"
 msgstr "Wähle…"
 
@@ -391,27 +388,24 @@ msgstr "Wähle…"
 #: ../plugins/wifi/OtherNetwork.qml:466
 #, qt-format
 msgid "%1…, Exp.: %2"
-msgstr "%1…, Läuft ab: %2"
+msgstr "%1…, gültig bis: %2"
 
 #. TRANSLATORS: The first position is the name of
 #. the organization that has issued the certificate.
 #. The latter position is the expiry date of the
 #. certificate.
 #: ../plugins/wifi/OtherNetwork.qml:474
-#, fuzzy, qt-format
+#, qt-format
 msgid "%1, Exp.: %2"
-msgstr ""
-"Die erste Position ist der Name der Organisation, die das Zertifikat "
-"ausgestellt hat, die letzte ist das Ablaufdatum des Zertifikat."
+msgstr "%1, gültig bis: %2"
 
 #: ../plugins/wifi/OtherNetwork.qml:495
-#, fuzzy
 msgid "Using certificates is recommend as it increases security."
 msgstr ""
-"Es wird empfohlen Zertifikate zu verwenden, da die Verwendung die Sicherheit "
-"erhöht."
+"Die Verwendung von Zertifikaten wird empfohlen, um die Sicherheit zu erhöhen."
 
 #: ../plugins/wifi/OtherNetwork.qml:513
+#, fuzzy
 msgid "Client certificate"
 msgstr "Client Zertifikat"
 
