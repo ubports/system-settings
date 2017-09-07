@@ -349,9 +349,8 @@ msgid "LEAP"
 msgstr "LEAP"
 
 #: ../plugins/wifi/OtherNetwork.qml:333
-#, fuzzy
 msgid "This network is insecure."
-msgstr "Das Netzwerk ist nicht sicher"
+msgstr "Dieses Netzwerk ist nicht sicher."
 
 #: ../plugins/wifi/OtherNetwork.qml:339
 #: ../plugins/cellular/PageApnEditor.qml:384
