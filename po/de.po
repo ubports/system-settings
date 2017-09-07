@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-16 14:42-0500\n"
-"PO-Revision-Date: 2017-09-07 16:54+0000\n"
-"Last-Translator: Florian Leeber <flori@bin.org.in>\n"
-"Language-Team: German <https://ubpweblate.tnvcomp.com/projects/ubports"
-"/system-settings/de/>\n"
+"PO-Revision-Date: 2017-09-07 20:13+0000\n"
+"Last-Translator: Alois Nebel <kunze.freyburg@freenet.de>\n"
+"Language-Team: German <https://translate.ubports.com/projects/ubports/system-"
+"settings/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -243,7 +243,6 @@ msgid "Add pac file?"
 msgstr "pac-Datei hinzufügen?"
 
 #: ../plugins/wifi/CertDialog.qml:36
-#, fuzzy
 msgid "Content:"
 msgstr "Inhalt:"
 
