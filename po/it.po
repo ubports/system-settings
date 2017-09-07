@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-16 14:42-0500\n"
-"PO-Revision-Date: 2017-08-29 21:36+0000\n"
-"Last-Translator: Gianmarco <gianmarcoesgarix@gmail.com>\n"
-"Language-Team: Italian <https://ubpweblate.tnvcomp.com/projects/ubports"
+"PO-Revision-Date: 2017-09-07 20:23+0000\n"
+"Last-Translator: Mike <miguel2000@livecom.it>\n"
+"Language-Team: Italian <https://translate.ubports.com/projects/ubports"
 "/system-settings/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -1327,7 +1327,7 @@ msgstr "Nessuno richiesto"
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../plugins/sound/PageComponent.qml:38 ../build/po/settings.js:120
 msgid "Sound"
-msgstr "Audio"
+msgstr "Suono"
 
 #: ../plugins/sound/PageComponent.qml:84
 msgid "Silent Mode"
@@ -2291,7 +2291,7 @@ msgstr "Scarica"
 
 #: ../plugins/system-update/PageComponent.qml:448
 msgid "Pause"
-msgstr "Sospendi"
+msgstr "Pausa"
 
 #: ../plugins/system-update/PageComponent.qml:450
 msgid "Resume"
@@ -2439,7 +2439,7 @@ msgstr "Roaming dati"
 #. this word must be less than 5 characters
 #: ../plugins/cellular/Components/LabelTextField.qml:51
 msgid "Next"
-msgstr ""
+msgstr "Successivo"
 
 #: ../plugins/cellular/Components/NoSim.qml:36
 msgid "No SIM detected"
