@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-16 14:42-0500\n"
-"PO-Revision-Date: 2017-09-08 08:05+0000\n"
+"PO-Revision-Date: 2017-09-08 15:19+0000\n"
 "Last-Translator: Florian Leeber <flori@bin.org.in>\n"
 "Language-Team: German <https://translate.ubports.com/projects/ubports/system-"
 "settings/de/>\n"
@@ -277,7 +277,7 @@ msgstr "Letzte Verbindung"
 #: ../plugins/system-update/Configuration.qml:52
 #: ../plugins/system-update/PageComponent.qml:736
 msgid "Never"
-msgstr "Niemals"
+msgstr "Nie"
 
 #: ../plugins/wifi/NetworkDetails.qml:76 ../plugins/wifi/OtherNetwork.qml:787
 #: ../plugins/cellular/PageApnEditor.qml:359
@@ -404,9 +404,8 @@ msgstr ""
 "Die Verwendung von Zertifikaten wird empfohlen, um die Sicherheit zu erhöhen."
 
 #: ../plugins/wifi/OtherNetwork.qml:513
-#, fuzzy
 msgid "Client certificate"
-msgstr "Client Zertifikat"
+msgstr "Client-Zertifikat"
 
 #: ../plugins/wifi/OtherNetwork.qml:555
 msgid "User private key"
@@ -425,55 +424,46 @@ msgid "Pac file"
 msgstr "Pac Datei"
 
 #: ../plugins/wifi/OtherNetwork.qml:673
-#, fuzzy
 msgid "Pac provisioning"
-msgstr "Pac Zugang"
+msgstr "Pac-Provisionierung"
 
 #: ../plugins/wifi/OtherNetwork.qml:687
 msgid "Disabled"
 msgstr "ausgeschaltet"
 
 #: ../plugins/wifi/OtherNetwork.qml:688
-#, fuzzy
 msgid "Anonymous"
 msgstr "Anonym"
 
 #: ../plugins/wifi/OtherNetwork.qml:689
-#, fuzzy
 msgid "Authenticated"
 msgstr "Authentifiziert"
 
 #: ../plugins/wifi/OtherNetwork.qml:690
-#, fuzzy
 msgid "Both"
 msgstr "Beide"
 
 #: ../plugins/wifi/OtherNetwork.qml:700
-#, fuzzy
 msgid "PEAP version"
-msgstr "PEAP Version"
+msgstr "PEAP-Version"
 
 #: ../plugins/wifi/OtherNetwork.qml:714
-#, fuzzy
 msgid "Version 0"
-msgstr "Version 0:"
+msgstr "Version 0"
 
 #: ../plugins/wifi/OtherNetwork.qml:715
-#, fuzzy
 msgid "Version 1"
-msgstr "Version 1:"
+msgstr "Version 1"
 
 #: ../plugins/wifi/OtherNetwork.qml:716
-#, fuzzy
 msgid "Automatic"
-msgstr "automatisch"
+msgstr "Automatisch"
 
 #: ../plugins/wifi/OtherNetwork.qml:726
 msgid "Anonymous identity"
 msgstr "Anonyme Identität"
 
 #: ../plugins/wifi/OtherNetwork.qml:753
-#, fuzzy
 msgid "Identity"
 msgstr "Identität"
 
@@ -486,9 +476,8 @@ msgid "Private key password"
 msgstr "Passwort für privaten Schlüssel"
 
 #: ../plugins/wifi/OtherNetwork.qml:858
-#, fuzzy
 msgid "Remember password"
-msgstr "Passwort"
+msgstr "Passwort merken"
 
 #: ../plugins/wifi/OtherNetwork.qml:906 ../plugins/bluetooth/DevicePage.qml:168
 msgid "Connect"
@@ -643,12 +632,10 @@ msgid "Clear"
 msgstr "Zurücksetzen"
 
 #: ../plugins/hotspot/HotspotSetup.qml:60
-#, fuzzy
 msgid "Change Hotspot Setup"
 msgstr "Hotspot-Einstellungen ändern"
 
 #: ../plugins/hotspot/HotspotSetup.qml:60
-#, fuzzy
 msgid "Set Up Hotspot"
 msgstr "Hotspot einrichten"
 
@@ -657,9 +644,8 @@ msgid "Hotspot name"
 msgstr "Name des Hotspots"
 
 #: ../plugins/hotspot/HotspotSetup.qml:175
-#, fuzzy
 msgid "Choose a name"
-msgstr "Passphrase auswählen"
+msgstr "Einen Namen auswählen"
 
 #: ../plugins/hotspot/HotspotSetup.qml:217
 msgid "Require a password (recommended):"
@@ -694,7 +680,6 @@ msgstr ""
 "nutzen. Dafür entstehen normale Kosten."
 
 #: ../plugins/hotspot/PageComponent.qml:111
-#, fuzzy
 msgid ""
 "Other devices can use your cellular data connection over the Wi-Fi network. "
 "Normal data charges apply."
