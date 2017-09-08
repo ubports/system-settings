@@ -31,6 +31,58 @@ ItemPage {
     objectName: "channelSettingsPage"
     title: i18n.tr("Channel settings")
 
+    Connections {
+      target: UpdateManager
+      onStatusChanged: {
+        switch (UpdateManager.status) {
+        case UpdateManager.StatusCheckingImageUpdates:
+        case UpdateManager.StatusCheckingAllUpdates:
+            aIndicator.visible = true;
+            channelSelector.visible = false;
+            return;
+        }
+        aIndicator.visible = false;
+        channelSelector.visible = true;
+
+        if (channelSelectorModel.count !== 0)
+          return;
+        appendChannels()
+        setSelectedChannel()
+        return;
+      }
+    }
+
+    function appendChannels() {
+      if (channelSelectorModel.count !== 0)
+        return;
+      var prettyChannels = {"stable": i18n.tr("Stable"), "rc": i18n.tr("Release candidate"), "devel": i18n.tr("Development")}
+      SystemImage.getChannels().forEach(function (_channel) {
+          var channel = _channel.split("/");
+
+          // Do not show other ubuntu series then current
+          if (SystemImage.getSwitchChannel().indexOf(channel[1]) == -1)
+            return;
+
+          var prettyChannel = prettyChannels[channel[channel.length-1]] ? prettyChannels[channel[channel.length-1]] : channel[channel.length-1];
+          channelSelectorModel.append({ name: prettyChannel, description: "", channel: _channel});
+      });
+    }
+
+    function setSelectedChannel() {
+      var channel = SystemImage.getSwitchChannel().split("/");
+      channelSelector.selectedIndex = channel[channel.length-1];
+      return channel[channel.length-1];
+    }
+
+    ActivityIndicator {
+      id: aIndicator
+      opacity: visible ? 1 : 0
+      visible: false
+      running: visible
+      anchors.horizontalCenter: parent.horizontalCenter
+      anchors.verticalCenter: parent.verticalCenter
+    }
+
     ListItem.ItemSelector {
         id: channelSelector
         expanded: true
@@ -38,9 +90,7 @@ ItemPage {
         model: channelSelectorModel
         delegate: selectorDelegate
         selectedIndex: {
-          var channel = SystemImage.getSwitchChannel().split("/");
-          channel[channel.length-1] = "stable"
-          return channel[channel.length-1];
+          setSelectedChannel()
         }
         onSelectedIndexChanged: {
           SystemImage.setSwitchChannel(channelSelectorModel.get(selectedIndex).channel);
@@ -48,9 +98,7 @@ ItemPage {
           UpdateManager.check(UpdateManager.CheckImage);
         }
         Component.onCompleted: {
-          var channel = SystemImage.getSwitchChannel().split("/");
-          channel[channel.length-1] = "stable"
-          selectedIndex = channel[channel.length-1];
+          setSelectedChannel()
         }
     }
 
@@ -62,17 +110,21 @@ ItemPage {
     ListModel {
         id: channelSelectorModel
         Component.onCompleted: {
-            var prettyChannels = {"stable": i18n.tr("Stable"), "rc": i18n.tr("Release candidate"), "devel": i18n.tr("Development")}
-            SystemImage.getChannels().forEach(function (_channel) {
-                var channel = _channel.split("/");
-
-                // Do not show other ubuntu series then current
-                if (SystemImage.getSwitchChannel().indexOf(channel[1]) == -1)
-                  return;
-
-                var prettyChannel = prettyChannels[channel[channel.length-1]] ? prettyChannels[channel[channel.length-1]] : channel[channel.length-1];
-                append({ name: prettyChannel, description: "", channel: _channel});
-            });
+          console.error(UpdateManager)
+          switch (UpdateManager.status) {
+          case UpdateManager.StatusCheckingImageUpdates:
+          case UpdateManager.StatusCheckingAllUpdates:
+              aIndicator.visible = true;
+              channelSelector.visible = false;
+              return;
+          }
+          if (SystemImage.getChannels().length !== 0){
+            appendChannels()
+            setSelectedChannel()
+            return;
+          }
+          UpdateManager.check(UpdateManager.CheckImage);
+          return;
         }
     }
 }
