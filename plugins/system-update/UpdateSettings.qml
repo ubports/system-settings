@@ -29,7 +29,7 @@ import Ubuntu.SystemSettings.Update 1.0
 ItemPage {
     id: root
     objectName: "updateSettingsPage"
-    title: i18n.tr("Update Settings")
+    title: i18n.tr("Update settings")
 
     Column {
         id: configuration
