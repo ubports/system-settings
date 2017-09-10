@@ -409,7 +409,7 @@ ItemPage {
 
         ListItem.SingleValue {
             objectName: "configuration"
-            text: i18n.tr("Update settngs")
+            text: i18n.tr("Update settings")
             progression: true
             onClicked: pageStack.push(Qt.resolvedUrl("UpdateSettings.qml"))
         }
