@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-16 14:42-0500\n"
-"PO-Revision-Date: 2017-08-28 05:31+0000\n"
+"PO-Revision-Date: 2017-09-07 17:36+0000\n"
 "Last-Translator: Walter Garcia-Fontes <walter.garcia@upf.edu>\n"
-"Language-Team: Catalan <https://ubpweblate.tnvcomp.com/projects/ubports"
+"Language-Team: Catalan <https://translate.ubports.com/projects/ubports"
 "/system-settings/ca/>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -658,7 +658,7 @@ msgstr "En iniciar el punt d'accés s'activarà la xarxa sense fil."
 #: ../plugins/security-privacy/SimPin.qml:186
 #: ../plugins/security-privacy/LockSecurity.qml:376
 msgid "Change"
-msgstr "Canvia-ho"
+msgstr "Canvia"
 
 #: ../plugins/hotspot/HotspotSetup.qml:300
 msgid "Start"
@@ -2272,7 +2272,7 @@ msgstr "Baixada"
 
 #: ../plugins/system-update/PageComponent.qml:448
 msgid "Pause"
-msgstr "Fes una pausa"
+msgstr "Posa en pausa"
 
 #: ../plugins/system-update/PageComponent.qml:450
 msgid "Resume"
@@ -2417,7 +2417,7 @@ msgstr "Itinerància de dades"
 #. this word must be less than 5 characters
 #: ../plugins/cellular/Components/LabelTextField.qml:51
 msgid "Next"
-msgstr "Seg."
+msgstr "Següent"
 
 #: ../plugins/cellular/Components/NoSim.qml:36
 msgid "No SIM detected"

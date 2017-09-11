@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-16 14:42-0500\n"
-"PO-Revision-Date: 2017-08-22 11:48+0000\n"
+"PO-Revision-Date: 2017-09-07 17:28+0000\n"
 "Last-Translator: advocatux <advocatux@airpost.net>\n"
-"Language-Team: Spanish <https://ubpweblate.tnvcomp.com/projects/ubports"
+"Language-Team: Spanish <https://translate.ubports.com/projects/ubports"
 "/system-settings/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -175,7 +175,7 @@ msgstr "Definir"
 
 #: ../plugins/phone/CallForwarding.qml:275
 msgid "Please select a phone number"
-msgstr "Por favor seleccione un número de teléfono"
+msgstr "Seleccione un número de teléfono"
 
 #: ../plugins/phone/CallForwarding.qml:284
 msgid "Numbers"
@@ -2244,7 +2244,7 @@ msgstr "Pausar todo"
 
 #: ../plugins/system-update/PageComponent.qml:439
 msgid "Retry"
-msgstr "Reintentar"
+msgstr "Volver a intentar"
 
 #: ../plugins/system-update/PageComponent.qml:442
 msgid "Install…"

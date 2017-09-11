@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-16 14:42-0500\n"
-"PO-Revision-Date: 2017-08-28 23:59+0000\n"
+"PO-Revision-Date: 2017-09-08 06:56+0000\n"
 "Last-Translator: Milan Korecký <milan.korecky@gmail.com>\n"
-"Language-Team: Czech <https://ubpweblate.tnvcomp.com/projects/ubports/system-"
+"Language-Team: Czech <https://translate.ubports.com/projects/ubports/system-"
 "settings/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -69,7 +69,7 @@ msgstr "Služby"
 #: ../plugins/phone/CallForwardItem.qml:157
 #: ../plugins/phone/CallForwardItem.qml:206
 msgid "Forward to"
-msgstr "Přeposlat"
+msgstr "Přesměrovat"
 
 #: ../plugins/phone/CallForwardItem.qml:171
 msgid "Enter a number"
@@ -94,12 +94,12 @@ msgid ""
 "Lets you answer or start a new call while on another call, and switch "
 "between them"
 msgstr ""
-"Dovolí začít jiný hovor, když právě telefonujete, a přepínat se mezi nimi"
+"Povolí zahájit další hovor když právě telefonujete, a přepínat mezi nimi"
 
 #: ../plugins/phone/ServiceInfo.qml:109
 #, qt-format
 msgid "Last called %1"
-msgstr "Poslední volaní %1"
+msgstr "Poslední hovor %1"
 
 #: ../plugins/phone/ServiceInfo.qml:119
 msgid "Call"
@@ -123,7 +123,7 @@ msgstr "Příchozí hovory přesměrovat když:"
 
 #: ../plugins/phone/CallForwarding.qml:176
 msgid "I’m on another call"
-msgstr "Jsem na dalším hovoru"
+msgstr "Mám další hovor"
 
 #: ../plugins/phone/CallForwarding.qml:187
 msgid "I don’t answer"
@@ -182,7 +182,7 @@ msgstr "Čísla"
 
 #: ../plugins/phone/CallForwarding.qml:303
 msgid "Could not forward to this contact"
-msgstr "Nelze předat tomuto kontaktu"
+msgstr "Nelze přesměrovat na tento kontakt"
 
 #: ../plugins/phone/CallForwarding.qml:304
 msgid "Contact not associated with any phone number."
@@ -235,7 +235,7 @@ msgstr "Přidat certifikát?"
 
 #: ../plugins/wifi/CertDialog.qml:24
 msgid "Add key?"
-msgstr "Přidat heslo?"
+msgstr "Přidat kód?"
 
 #: ../plugins/wifi/CertDialog.qml:26
 msgid "Add pac file?"
@@ -247,7 +247,7 @@ msgstr "Obsah:"
 
 #: ../plugins/wifi/CertDialog.qml:49
 msgid "No data available."
-msgstr "Žádná data nejsou dostupná."
+msgstr "Nejsou dostupná žádná data."
 
 #: ../plugins/wifi/CertDialog.qml:74
 msgid "Save"
@@ -255,7 +255,7 @@ msgstr "Uložit"
 
 #: ../plugins/wifi/NetworkDetails.qml:38
 msgid "Network details"
-msgstr "Detaily sítě"
+msgstr "Údaje o síti"
 
 #: ../plugins/wifi/NetworkDetails.qml:57
 #: ../plugins/cellular/PageApnEditor.qml:181
@@ -265,7 +265,7 @@ msgstr "Název"
 
 #: ../plugins/wifi/NetworkDetails.qml:65
 msgid "Last connected"
-msgstr "Naposledy připojená síť"
+msgstr "Naposledy připojeno"
 
 #: ../plugins/wifi/NetworkDetails.qml:70 ../plugins/battery/SleepValues.qml:113
 #: ../plugins/battery/PageComponent.qml:313
@@ -290,7 +290,7 @@ msgstr "Zobrazit heslo"
 
 #: ../plugins/wifi/OtherNetwork.qml:93
 msgid "Connect to Wi‑Fi"
-msgstr "Připojte se k Wi-Fi"
+msgstr "Připojit k Wi-Fi"
 
 #: ../plugins/wifi/OtherNetwork.qml:94
 msgid "Connect to Hidden Network"
@@ -399,15 +399,15 @@ msgstr "%1, Exp.: %2"
 
 #: ../plugins/wifi/OtherNetwork.qml:495
 msgid "Using certificates is recommend as it increases security."
-msgstr "Používání certifikátů se doporučuje, protože zvyšuje bezpečnost."
+msgstr "Používání certifikátů doporučeno, neboť zvyšuje bezpečnost."
 
 #: ../plugins/wifi/OtherNetwork.qml:513
 msgid "Client certificate"
-msgstr "Klientský certifikát"
+msgstr "Certifikát klienta"
 
 #: ../plugins/wifi/OtherNetwork.qml:555
 msgid "User private key"
-msgstr "Uživatelské soukromé heslo"
+msgstr "Osobní kód uživatele"
 
 #. TRANSLATORS: The first position is the type of
 #. private key, second the key algorithm, and third the
@@ -471,7 +471,7 @@ msgstr "Uživatelské jméno"
 
 #: ../plugins/wifi/OtherNetwork.qml:785
 msgid "Private key password"
-msgstr "Klíč k soukromému heslo"
+msgstr "Heslo k osobnímu kódu"
 
 #: ../plugins/wifi/OtherNetwork.qml:858
 msgid "Remember password"
@@ -479,7 +479,7 @@ msgstr "Pamatovat si heslo"
 
 #: ../plugins/wifi/OtherNetwork.qml:906 ../plugins/bluetooth/DevicePage.qml:168
 msgid "Connect"
-msgstr "Připojit se"
+msgstr "Připojit"
 
 #: ../plugins/wifi/PreviousNetworks.qml:27
 #: ../plugins/wifi/PageComponent.qml:131
@@ -496,15 +496,15 @@ msgstr "Nebyl udán žádný důvod"
 
 #: ../plugins/wifi/Common.qml:40 ../plugins/hotspot/Common.qml:38
 msgid "Device is now managed"
-msgstr "Zařízení je nyní spravováno"
+msgstr "Správce zařízení je aktivní"
 
 #: ../plugins/wifi/Common.qml:42 ../plugins/hotspot/Common.qml:40
 msgid "Device is now unmanaged"
-msgstr "Zařízení již není spravováno"
+msgstr "Správce zařízení již není aktivní"
 
 #: ../plugins/wifi/Common.qml:44 ../plugins/hotspot/Common.qml:42
 msgid "The device could not be readied for configuration"
-msgstr "Zařízení nelze připravit na konfiguraci"
+msgstr "Zařízení nelze připravit ke konfiguraci"
 
 #: ../plugins/wifi/Common.qml:46 ../plugins/hotspot/Common.qml:44
 msgid ""
@@ -519,11 +519,11 @@ msgstr "IP konfigurace již není platná"
 
 #: ../plugins/wifi/Common.qml:50 ../plugins/hotspot/Common.qml:48
 msgid "Your authentication details were incorrect"
-msgstr "Vaše autentifikační údaje byly nesprávné"
+msgstr "Vaše ověřovací údaje byly nesprávné"
 
 #: ../plugins/wifi/Common.qml:52 ../plugins/hotspot/Common.qml:50
 msgid "802.1X supplicant disconnected"
-msgstr "Zařízení pro WiFi komunikaci odpojeno"
+msgstr "802.1X zařízení odpojeno"
 
 #: ../plugins/wifi/Common.qml:54 ../plugins/hotspot/Common.qml:52
 msgid "802.1X supplicant configuration failed"
@@ -531,11 +531,11 @@ msgstr "Konfigurace zařízení pro WiFi komunikaci selhala"
 
 #: ../plugins/wifi/Common.qml:56 ../plugins/hotspot/Common.qml:54
 msgid "802.1X supplicant failed"
-msgstr "Zařízení pro WiFi selhalo"
+msgstr "802.1X zařízení selhalo"
 
 #: ../plugins/wifi/Common.qml:58 ../plugins/hotspot/Common.qml:56
 msgid "802.1X supplicant took too long to authenticate"
-msgstr "Zařízení pro WiFi trvá příliš dlouho se přihlásit"
+msgstr "Zařízení 802.1X trvalo příliš dlouho se přihlásit"
 
 #: ../plugins/wifi/Common.qml:60 ../plugins/hotspot/Common.qml:58
 msgid "DHCP client failed to start"
@@ -567,7 +567,7 @@ msgstr "Zařízení bylo odebráno"
 
 #: ../plugins/wifi/Common.qml:74 ../plugins/hotspot/Common.qml:72
 msgid "NetworkManager went to sleep"
-msgstr "NetworkManager se uspal"
+msgstr "NetworkManager je neaktivní"
 
 #: ../plugins/wifi/Common.qml:76 ../plugins/hotspot/Common.qml:74
 msgid "The device's active connection disappeared"
@@ -674,7 +674,7 @@ msgid ""
 "Wi-Fi. Normal data charges apply."
 msgstr ""
 "Pokud je Hotspot aktivní, ostatní zařízení mohou používat vaše mobilní "
-"internetové připojení pomocí Wi-Fi. Data jsou počítany dle vašeho tarifu."
+"internetové připojení pomocí Wi-Fi. Data jsou účtována dle vašeho tarifu."
 
 #: ../plugins/hotspot/PageComponent.qml:111
 msgid ""
@@ -682,7 +682,7 @@ msgid ""
 "Normal data charges apply."
 msgstr ""
 "Ostatní zařízení mohou využívat vašeho mobilního internetového připojení. "
-"Data jsou počítany dle vašeho tarifu."
+"Data jsou účtována dle vašeho tarifu."
 
 #: ../plugins/hotspot/PageComponent.qml:120
 msgid "Change Password/Setup…"
@@ -731,8 +731,8 @@ msgid ""
 "Shorter times are more secure. Phone won't lock during calls or video "
 "playback."
 msgstr ""
-"Kratší časové úseky je bezpečnější. Telefon nebude uzamčen během hovoru nebo "
-"přehrávání videa."
+"Kratší časové úseky jsou bezpečnější. Telefon nebude uzamčen během hovoru "
+"nebo přehrávání videa."
 
 #: ../plugins/battery/SleepValues.qml:125
 msgid "Phone won’t sleep during calls or video playback."
@@ -814,12 +814,12 @@ msgstr "Možnosti snížení spotřeby energie:"
 #: ../plugins/battery/PageComponent.qml:304
 #: ../plugins/security-privacy/PhoneLocking.qml:80
 msgid "Lock when idle"
-msgstr "Uzamknout při nečinosti"
+msgstr "Uzamknout při nečinnosti"
 
 #: ../plugins/battery/PageComponent.qml:304
 #: ../plugins/security-privacy/PhoneLocking.qml:81
 msgid "Sleep when idle"
-msgstr "Uspat při nečinosti"
+msgstr "Uspat při nečinnosti"
 
 #. TRANSLATORS: “Wi-Fi used for hotspot” is hidden.
 #: ../plugins/battery/PageComponent.qml:342
@@ -904,7 +904,7 @@ msgstr "Aplikace, které mohou požadovat přístup k online účtům."
 
 #: ../plugins/security-privacy/AppAccess.qml:102
 msgid "Online Accounts…"
-msgstr "Online účty …"
+msgstr "Online účty…"
 
 #: ../plugins/security-privacy/SimPin.qml:36
 #: ../plugins/security-privacy/SimPin.qml:397
@@ -995,7 +995,7 @@ msgid ""
 "restarting the phone or swapping the SIM."
 msgstr ""
 "Je-li nastaven PIN kód pro SIM kartu, je potřeba jej zadat při každém "
-"restartování nebo výměne SIM karty."
+"restartování nebo výměně SIM karty."
 
 #: ../plugins/security-privacy/SimPin.qml:448
 msgid "Entering an incorrect PIN repeatedly may lock the SIM permanently."
@@ -1025,7 +1025,7 @@ msgstr "Přístupové heslo"
 #: ../plugins/security-privacy/LockSecurity.qml:33
 #: ../plugins/about/DevMode.qml:116
 msgid "Lock security"
-msgstr "Bepečnostní zámek"
+msgstr "Bezpečnostní zámek"
 
 #. TRANSLATORS: %1 is the number of minutes
 #: ../plugins/security-privacy/PhoneLocking.qml:87
@@ -1047,7 +1047,7 @@ msgstr "Při zamčení, povolit:"
 
 #: ../plugins/security-privacy/PhoneLocking.qml:122
 msgid "Launcher"
-msgstr "Launcher"
+msgstr "Spouštěcí panel"
 
 #: ../plugins/security-privacy/PhoneLocking.qml:135
 msgid "Notifications and quick settings"
@@ -1060,7 +1060,7 @@ msgstr ""
 
 #: ../plugins/security-privacy/PhoneLocking.qml:150
 msgid "Other apps and functions will prompt you to unlock."
-msgstr "Ostatní aplikace a funkce budou povolený po odemčení."
+msgstr "Ostatní aplikace a funkce budou povoleny po odemčení."
 
 #: ../plugins/security-privacy/LockSecurity.qml:128
 #: ../plugins/security-privacy/LockSecurity.qml:497
@@ -1074,7 +1074,7 @@ msgstr "Změnit přístupové heslo…"
 
 #: ../plugins/security-privacy/LockSecurity.qml:137
 msgid "Switch to swipe"
-msgstr "Přepnout na přejetí prstem"
+msgstr "Přepnout na ovládání posunem"
 
 #: ../plugins/security-privacy/LockSecurity.qml:139
 msgid "Switch to passcode"
@@ -1110,11 +1110,11 @@ msgstr "Potvrďte přístupové heslo"
 
 #: ../plugins/security-privacy/LockSecurity.qml:339
 msgid "Those passcodes don't match. Try again."
-msgstr "Tyto číselné heslo jsou nesprávná. Zkuste to znovu."
+msgstr "Číselné heslo není správné. Zkuste to znovu."
 
 #: ../plugins/security-privacy/LockSecurity.qml:342
 msgid "Those passphrases don't match. Try again."
-msgstr "Tato přístupová heslo jsou nesprávná. Zkuste to znovu."
+msgstr "Tato přístupová hesla nejsou správná. Zkuste to znovu."
 
 #: ../plugins/security-privacy/LockSecurity.qml:373
 msgid "Unset"
@@ -1126,7 +1126,7 @@ msgstr "Odemknout telefon pomocí:"
 
 #: ../plugins/security-privacy/LockSecurity.qml:449
 msgid "Swipe (no security)"
-msgstr "Přepnout (žádné zabezpečení)"
+msgstr "Posunem (žádné zabezpečení)"
 
 #: ../plugins/security-privacy/LockSecurity.qml:450
 msgid "4-digit passcode"
@@ -1134,7 +1134,7 @@ msgstr "čtyř číselné heslo"
 
 #: ../plugins/security-privacy/LockSecurity.qml:452
 msgid "Swipe (no security)… "
-msgstr "Přepnout (žádné zabezpečení)... "
+msgstr "Posunem (žádné zabezpečení)... "
 
 #: ../plugins/security-privacy/LockSecurity.qml:453
 msgid "4-digit passcode…"
@@ -1180,7 +1180,7 @@ msgstr "Soukromí"
 
 #: ../plugins/security-privacy/PageComponent.qml:157
 msgid "Stats on welcome screen"
-msgstr "Údaje na uvítací obrazovce"
+msgstr "Statistiky na uvítací obrazovce"
 
 #: ../plugins/security-privacy/PageComponent.qml:167
 msgid "Messages on welcome screen"
@@ -1195,13 +1195,13 @@ msgstr "Diagnostika"
 #. reports are to be sent by the system.
 #: ../plugins/security-privacy/PageComponent.qml:218
 msgid "Sent"
-msgstr "Odeslat"
+msgstr "Odeslané"
 
 #. TRANSLATORS: This string is shown when crash
 #. reports are not to be sent by the system
 #: ../plugins/security-privacy/PageComponent.qml:221
 msgid "Not sent"
-msgstr "Neodesílat"
+msgstr "Neodeslané"
 
 #: ../plugins/security-privacy/Location.qml:94
 msgid "Let the phone detect your location:"
@@ -1226,7 +1226,7 @@ msgid ""
 "option you accept the <a href='%1'>Nokia HERE terms and conditions</a>."
 msgstr ""
 "Použití GPS, anonymní Wifi a info o mobilní síti. <Bar> Výběrem této "
-"možnosti akceptujete <a href='%1'> podmínky společnosti Nokia ZDE </a>."
+"možnosti přijímáte <a href='%1'> podmínky společnosti Nokia HERE </a>."
 
 #: ../plugins/security-privacy/Location.qml:191
 msgid "Not at all"
@@ -1506,7 +1506,7 @@ msgstr "Zkontrolovat aktualizace"
 
 #: ../plugins/about/PageComponent.qml:209
 msgid "Legal:"
-msgstr "Právní:"
+msgstr "Právní ustanovení:"
 
 #: ../plugins/about/PageComponent.qml:222
 msgid "Regulatory info"
@@ -1670,15 +1670,15 @@ msgstr "LTE APN"
 
 #: ../plugins/cellular/PageChooseApn.qml:149
 msgid "Reset All APN Settings…"
-msgstr "Resetovat všechna APN nastavení…"
+msgstr "Obnovit všechna APN nastavení…"
 
 #: ../plugins/cellular/PageChooseApn.qml:158
 msgid "Reset APN Settings"
-msgstr "Resetovat nastavení APN"
+msgstr "Obnovit nastavení APN"
 
 #: ../plugins/cellular/PageChooseApn.qml:159
 msgid "Are you sure that you want to Reset APN Settings?"
-msgstr "Jste si jistí, že chcete resetovat nastavení APN?"
+msgstr "Opravdu chcete obnovit nastavení APN?"
 
 #: ../plugins/cellular/PageChooseApn.qml:162
 msgid "Reset"
@@ -1692,7 +1692,7 @@ msgstr "Obnovit"
 #: ../plugins/cellular/PageChooseApn.qml:216
 #, qt-format
 msgid "Prefer %1"
-msgstr "Preferuj% 1"
+msgstr "Preferuj % 1"
 
 #. TRANSLATORS: %1 is the MMS APN that the user has chosen to be
 #. “preferred”, i.e. used to retrieve MMS messages. %2 is the Internet
@@ -1700,7 +1700,7 @@ msgstr "Preferuj% 1"
 #: ../plugins/cellular/PageChooseApn.qml:189
 #, qt-format
 msgid "You have chosen %1 as your preferred MMS APN. "
-msgstr "Vybrali jste% 1 jako preferovaný MMS APN. "
+msgstr "Vybrali jste %1 jako preferovaný MMS APN. "
 
 #: ../plugins/cellular/PageChooseApn.qml:194
 #: ../plugins/cellular/PageChooseApn.qml:259
@@ -1739,7 +1739,7 @@ msgstr "Dojde k odpojení %1."
 #: ../plugins/cellular/PageChooseApn.qml:254
 #, qt-format
 msgid "This disables %1."
-msgstr "Zakáže se% 1."
+msgstr "Zakáže se % 1."
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../plugins/cellular/PageComponent.qml:33 ../build/po/settings.js:186
@@ -1812,10 +1812,9 @@ msgid "Auto punctuation"
 msgstr "Automatická interpunkce"
 
 #: ../plugins/language/PageComponent.qml:209
-#, fuzzy
 msgid "Inserts a period when you tap Space twice."
 msgstr ""
-"Přidá tečku, chybějící uvozovky nebo závorky, když klepnete dvakrát na "
+"Přidá tečku, chybějící uvozovky nebo závorky, když kliknete dvakrát na "
 "mezeru."
 
 #: ../plugins/language/PageComponent.qml:227
@@ -1828,7 +1827,7 @@ msgstr "Aktuální kontrola pravopisu:"
 
 #: ../plugins/language/SpellChecking.qml:63
 msgid "All languages available:"
-msgstr "Všchny dostupné jazyky:"
+msgstr "Všechny dostupné jazyky:"
 
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../plugins/background/MainPage.qml:35 ../build/po/settings.js:246
@@ -1864,8 +1863,7 @@ msgstr "Žádost o spárování bluetooth"
 #: ../plugins/bluetooth/DisplayPasskeyDialog.qml:35
 #, qt-format
 msgid "Please enter the following PIN on %1 and press “Enter” on the keyboard:"
-msgstr ""
-"Zadejte následující kód PIN% 1 a stiskněte klávesu \"Enter\" na klávesnici:"
+msgstr "Zadejte následující kód PIN %1 a stiskněte \"Enter\" na klávesnici:"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:26
 msgid "Bluetooth Pairing Authorization Request"
@@ -1876,7 +1874,7 @@ msgstr "Žádost o autorizaci spárování bluetooth"
 #, qt-format
 msgid ""
 "The device %1 wants to pair with this device. Do you want to allow this?"
-msgstr "Zařízení% 1 se chce spárovat s tímto zařízením. Chcete to povolit?"
+msgstr "Zařízení %1 se chce spárovat s tímto zařízením. Chcete to povolit?"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:39
 msgid "Allow"
@@ -1890,7 +1888,7 @@ msgstr "Odmítnout"
 #: ../plugins/bluetooth/ProvidePasskeyDialog.qml:36
 #, qt-format
 msgid "PIN for '%1'"
-msgstr "PIN pro %1"
+msgstr "PIN pro ‘%1‘"
 
 #: ../plugins/bluetooth/ProvidePinCodeDialog.qml:63
 #: ../plugins/bluetooth/ProvidePasskeyDialog.qml:62
@@ -2112,37 +2110,37 @@ msgstr "Žádné odpovídající místo"
 
 #: ../plugins/reset/ResetLauncherHome.qml:40
 msgid "The Launcher will be returned to its original contents."
-msgstr "Launcher bude navrácen do původního stavu."
+msgstr "Spouštěcí panel bude navrácen do původního stavu."
 
 #: ../plugins/reset/ResetLauncherHome.qml:44
 #: ../plugins/reset/PageComponent.qml:73
 msgid "Reset Launcher"
-msgstr "Resetovat launcher"
+msgstr "Obnovit spouštěcí panel"
 
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../plugins/reset/PageComponent.qml:32 ../build/po/settings.js:296
 msgid "Reset phone"
-msgstr "Resetovat telefon"
+msgstr "Obnovit telefon"
 
 #: ../plugins/reset/PageComponent.qml:87
 msgid "Reset all system settings…"
-msgstr "Resetovat všechna systémová nastavení…"
+msgstr "Obnovit všechna systémová nastavení…"
 
 #: ../plugins/reset/PageComponent.qml:101
 msgid "Erase & Reset Everything…"
-msgstr "Vymazat a resetovat vše…"
+msgstr "Vymazat a obnovit vše…"
 
 #: ../plugins/reset/ResetAllSettings.qml:29
 msgid ""
 "The contents and layout of the launcher, and the filters in the home screen "
 "will be returned to their original settings."
 msgstr ""
-"Obsah a nastavení launcheru a filtry na domovské obrazovce budou nastaveny "
-"do výchozího nastavení."
+"Obsah a nastavení spouštěče a filtrů na domovské obrazovce budou uvedeny do "
+"výchozího nastavení."
 
 #: ../plugins/reset/ResetAllSettings.qml:31
 msgid "Reset all system settings"
-msgstr "Resetovat všechna systémová nastavení"
+msgstr "Obnovit všechna systémová nastavení"
 
 #: ../plugins/reset/EraseEverything.qml:41
 msgid ""
@@ -2154,7 +2152,7 @@ msgstr ""
 
 #: ../plugins/reset/EraseEverything.qml:44
 msgid "Erase & Reset Everything"
-msgstr "Vymazat & Resetovat vše"
+msgstr "Vymazat & obnovit vše"
 
 #: ../plugins/system-update/Configuration.qml:29
 #: ../plugins/system-update/PageComponent.qml:733
@@ -2249,7 +2247,7 @@ msgstr "Pozastavit vše"
 
 #: ../plugins/system-update/PageComponent.qml:439
 msgid "Retry"
-msgstr "Opakovat"
+msgstr "Zkusit znovu"
 
 #: ../plugins/system-update/PageComponent.qml:442
 msgid "Install…"
@@ -2257,7 +2255,7 @@ msgstr "Instalovat…"
 
 #: ../plugins/system-update/PageComponent.qml:444
 msgid "Download"
-msgstr "Stažení"
+msgstr "Stahnout"
 
 #: ../plugins/system-update/PageComponent.qml:448
 msgid "Pause"
@@ -2322,8 +2320,8 @@ msgid ""
 "Selected apps can alert you using notification bubbles, sounds, vibrations, "
 "and the Notifications list."
 msgstr ""
-"Vybrané aplikace Vás můžou upozorňovat prostřednictvím notifikací, zvuků, "
-"vibrací a centra notifikací."
+"Vybrané aplikace Vás můžou upozorňovat prostřednictvím oznámení, zvuků, "
+"vibrací a centra oznámení."
 
 #: ../plugins/security-privacy/diagnostics/PageComponent.qml:58
 msgid "Privacy policy"
@@ -2339,11 +2337,11 @@ msgstr "Chyba a problémy s aplikací"
 
 #: ../plugins/security-privacy/diagnostics/PageComponent.qml:86
 msgid "Previous error reports"
-msgstr "Přechozí hlášení chyb"
+msgstr "Předchozí hlášení chyb"
 
 #: ../plugins/security-privacy/diagnostics/PageComponent.qml:97
 msgid "Includes info about what an app was doing when it failed."
-msgstr "Obrasuje informace o tom, co aplikace dělala, když selhala."
+msgstr "Obsahuje informace o tom, co aplikace dělala, když selhala."
 
 #: ../plugins/cellular/Components/DefaultSim.qml:32
 msgid "Ask me each time"
@@ -2441,7 +2439,7 @@ msgstr "Hledat"
 
 #: ../src/qml/MainWindow.qml:151
 msgid "Personal"
-msgstr "Osobní"
+msgstr "Vlastní"
 
 #: ../src/qml/MainWindow.qml:156
 msgid "System"
@@ -2476,7 +2474,7 @@ msgstr "automatické"
 #. TRANSLATORS: This is a keyword or name for the brightness plugin which is used while searching
 #: ../build/po/settings.js:12
 msgid "adjust"
-msgstr "přizpůsobení"
+msgstr "přizpůsobit"
 
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
@@ -2502,7 +2500,7 @@ msgstr "čekání"
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../build/po/settings.js:24
 msgid "call"
-msgstr "Volání"
+msgstr "hovor"
 
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
@@ -2533,7 +2531,7 @@ msgstr "síť"
 #. TRANSLATORS: This is a keyword or name for the bluetooth plugin which is used while searching
 #: ../build/po/settings.js:36 ../build/po/settings.js:278
 msgid "wireless"
-msgstr "bezdrát"
+msgstr "bezdrátová"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../build/po/settings.js:38
@@ -2575,14 +2573,13 @@ msgstr "adresa"
 
 #. TRANSLATORS: This is a keyword or name for the orientation-lock plugin which is used while searching
 #: ../build/po/settings.js:52
-#, fuzzy
 msgid "Rotation Lock"
-msgstr "Směrový zámek"
+msgstr "Zámek otáčení"
 
 #. TRANSLATORS: This is a keyword or name for the orientation-lock plugin which is used while searching
 #: ../build/po/settings.js:54
 msgid "rotation"
-msgstr "otočení"
+msgstr "otáčení"
 
 #. TRANSLATORS: This is a keyword or name for the orientation-lock plugin which is used while searching
 #: ../build/po/settings.js:56
@@ -2608,13 +2605,12 @@ msgstr "aplikace"
 #. TRANSLATORS: This is a keyword or name for the hotspot plugin which is used while searching
 #: ../build/po/settings.js:68
 msgid "hotspot"
-msgstr "hotspot"
+msgstr "Hotspot"
 
 #. TRANSLATORS: This is a keyword or name for the hotspot plugin which is used while searching
 #: ../build/po/settings.js:70
-#, fuzzy
 msgid "tethering"
-msgstr "tethering"
+msgstr "připojování"
 
 #. TRANSLATORS: This is a keyword or name for the example plugin which is used while searching
 #: ../build/po/settings.js:72
@@ -2654,22 +2650,22 @@ msgstr "nabít"
 #. TRANSLATORS: This is a keyword or name for the battery plugin which is used while searching
 #: ../build/po/settings.js:88
 msgid "idle"
-msgstr "nečinost"
+msgstr "nečinná"
 
 #. TRANSLATORS: This is a keyword or name for the battery plugin which is used while searching
 #: ../build/po/settings.js:92
 msgid "disable"
-msgstr "zakázání"
+msgstr "zakázat"
 
 #. TRANSLATORS: This is a keyword or name for the battery plugin which is used while searching
 #: ../build/po/settings.js:94
 msgid "enable"
-msgstr "povolení"
+msgstr "povolit"
 
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../build/po/settings.js:98
 msgid "security"
-msgstr "bezpečnost"
+msgstr "zabezpečení"
 
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../build/po/settings.js:100
@@ -2680,12 +2676,12 @@ msgstr "soukromí"
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../build/po/settings.js:104 ../build/po/settings.js:212
 msgid "sim"
-msgstr "sim"
+msgstr "SIM"
 
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../build/po/settings.js:106
 msgid "pin"
-msgstr "pin"
+msgstr "PIN"
 
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../build/po/settings.js:108
@@ -2700,12 +2696,12 @@ msgstr "heslo"
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../build/po/settings.js:112
 msgid "passphrase"
-msgstr "heslo"
+msgstr "přístupové heslo"
 
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../build/po/settings.js:114
 msgid "swipe"
-msgstr "potažení"
+msgstr "posunout"
 
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../build/po/settings.js:116
@@ -2781,7 +2777,7 @@ msgstr "letadlo"
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../build/po/settings.js:152
 msgid "about"
-msgstr "o"
+msgstr "o aplikaci"
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the bluetooth plugin which is used while searching
@@ -2822,7 +2818,7 @@ msgstr "licence"
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../build/po/settings.js:172
 msgid "developer"
-msgstr "developer vývojář"
+msgstr "vývojář"
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
@@ -2870,7 +2866,7 @@ msgstr "mobilní"
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../build/po/settings.js:194
 msgid "gsm"
-msgstr "gsm"
+msgstr "GSM"
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../build/po/settings.js:196
@@ -2885,32 +2881,32 @@ msgstr "operátor"
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../build/po/settings.js:200
 msgid "4g"
-msgstr "4g"
+msgstr "4G"
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../build/po/settings.js:202
 msgid "3g"
-msgstr "3g"
+msgstr "3G"
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../build/po/settings.js:204
 msgid "2g"
-msgstr "2g"
+msgstr "2G"
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../build/po/settings.js:206
 msgid "lte"
-msgstr "lte"
+msgstr "LTE"
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../build/po/settings.js:208
 msgid "apn"
-msgstr "apn"
+msgstr "APN"
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../build/po/settings.js:210
 msgid "roam"
-msgstr "roam"
+msgstr "ROAM"
 
 #. TRANSLATORS: This is a keyword or name for the accessibility plugin which is used while searching
 #: ../build/po/settings.js:214
@@ -2935,12 +2931,12 @@ msgstr "jazyk"
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../build/po/settings.js:226
 msgid "spellcheck"
-msgstr "kontrola"
+msgstr "kontrola pravopisu"
 
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../build/po/settings.js:230
 msgid "correct"
-msgstr "korektní"
+msgstr "opravit"
 
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../build/po/settings.js:232
@@ -2950,7 +2946,7 @@ msgstr "návrhy"
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../build/po/settings.js:234
 msgid "capitalization"
-msgstr "kapitalizace"
+msgstr "velká písmena"
 
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../build/po/settings.js:236
@@ -2960,7 +2956,7 @@ msgstr "interpunkce"
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../build/po/settings.js:238
 msgid "layout"
-msgstr "dispozice"
+msgstr "uspořádání"
 
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../build/po/settings.js:242
@@ -2990,7 +2986,7 @@ msgstr "tapeta"
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../build/po/settings.js:254
 msgid "art"
-msgstr "umění"
+msgstr "art"
 
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../build/po/settings.js:256
@@ -3035,7 +3031,7 @@ msgstr "auto"
 #. TRANSLATORS: This is a keyword or name for the bluetooth plugin which is used while searching
 #: ../build/po/settings.js:276
 msgid "handsfree"
-msgstr "handsfree"
+msgstr "Handsfree"
 
 #. TRANSLATORS: This is a keyword or name for the bluetooth plugin which is used while searching
 #: ../build/po/settings.js:284
@@ -3060,7 +3056,7 @@ msgstr "časové pásmo"
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../build/po/settings.js:298
 msgid "reset"
-msgstr "reset"
+msgstr "obnovit"
 
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../build/po/settings.js:300
@@ -3105,12 +3101,12 @@ msgstr "aplikace"
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../build/po/settings.js:324
 msgid "download"
-msgstr "stažení"
+msgstr "stahovat"
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../build/po/settings.js:326
 msgid "upgrade"
-msgstr "aktualizace"
+msgstr "aktualizovat"
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../build/po/settings.js:328
@@ -3140,27 +3136,27 @@ msgstr "oprávnění"
 #. TRANSLATORS: This is a keyword or name for the notifications plugin which is used while searching
 #: ../build/po/settings.js:344
 msgid "badges"
-msgstr "odznaky"
+msgstr "značky"
 
 #. TRANSLATORS: This is a keyword or name for the notifications plugin which is used while searching
 #: ../build/po/settings.js:346
 msgid "facebook"
-msgstr "facebook"
+msgstr "Facebook"
 
 #. TRANSLATORS: This is a keyword or name for the notifications plugin which is used while searching
 #: ../build/po/settings.js:348
 msgid "twitter"
-msgstr "twitter"
+msgstr "Twitter"
 
 #. TRANSLATORS: This is a keyword or name for the notifications plugin which is used while searching
 #: ../build/po/settings.js:350
 msgid "flickr"
-msgstr "flickr"
+msgstr "Flickr"
 
 #. TRANSLATORS: This is a keyword or name for the notifications plugin which is used while searching
 #: ../build/po/settings.js:352
 msgid "gmail"
-msgstr "gmail"
+msgstr "Gmail"
 
 #: ../plugins/wifi/certhandler.cpp:258
 msgid "Private key"
@@ -3171,9 +3167,8 @@ msgid "Public key"
 msgstr "Veřejný klíč"
 
 #: ../plugins/wifi/certhandler.cpp:264
-#, fuzzy
 msgid "Opaque"
-msgstr "Neprůhledný"
+msgstr "Matný"
 
 #: ../plugins/security-privacy/securityprivacy.cpp:347
 msgid "Incorrect passcode. Try again."
@@ -3181,7 +3176,7 @@ msgstr "Nesprávné číselné heslo. Zkuste to znovu."
 
 #: ../plugins/security-privacy/securityprivacy.cpp:349
 msgid "Incorrect passphrase. Try again."
-msgstr "Nesprávné heslo. Zkuste to znovu."
+msgstr "Nesprávné přístupové heslo. Zkuste to znovu."
 
 #: ../plugins/security-privacy/securityprivacy.cpp:352
 msgid "Could not set security mode"
@@ -3189,11 +3184,11 @@ msgstr "Nelze nastavit režim zabezpečení"
 
 #: ../plugins/security-privacy/securityprivacy.cpp:377
 msgid "Could not set security display hint"
-msgstr "Nelze nastavit řežim zabežpečení obrazovky"
+msgstr "Nelze nastavit režim zabezpečení obrazovky"
 
 #: ../plugins/security-privacy/securityprivacy.cpp:388
 msgid "Authentication token manipulation error"
-msgstr "Chyba manipulace autentizačního tokenu"
+msgstr "Chyba správce ověřovací zprávy"
 
 #: ../plugins/about/click.cpp:168
 msgid "Unknown title"
@@ -3215,11 +3210,11 @@ msgstr "Nedostupné"
 
 #: ../push-helper/software_updates_helper.py:159
 msgid "There's an updated system image."
-msgstr "Je k dispozici aktualizační systémový obraz."
+msgstr "Je k dispozici aktualizace systémového obrazu."
 
 #: ../push-helper/software_updates_helper.py:160
 msgid "Tap to open the system updater."
-msgstr "Klepněte k otevření systémové aktualizace."
+msgstr "Klikněte k otevření systémové aktualizace."
 
 #~ msgid "Stop playing"
 #~ msgstr "Zastavit přehrávání"
