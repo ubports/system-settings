@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-16 14:42-0500\n"
-"PO-Revision-Date: 2017-09-09 17:22+0000\n"
+"PO-Revision-Date: 2017-09-15 20:50+0000\n"
 "Last-Translator: Jeff <jeffi27@live.at>\n"
 "Language-Team: Albanian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sq/>\n"
@@ -48,7 +48,7 @@ msgstr "Rregullo automatikisht"
 
 #: ../plugins/brightness/PageComponent.qml:103
 msgid "Brightens and dims the display to suit the surroundings."
-msgstr "Zmadhon dhe zvogëlon ekranin për t'iu përshtatur mjedisit."
+msgstr "Zmadhon dhe zvogëlon ndriqimin për t'iu përshtatur mjedisit."
 
 #: ../plugins/phone/MultiSim.qml:42 ../plugins/phone/SingleSim.qml:34
 #: ../plugins/phone/CallWaiting.qml:31 ../plugins/phone/CallWaiting.qml:81
@@ -3039,7 +3039,7 @@ msgstr "stereo"
 #. TRANSLATORS: This is a keyword or name for the time-date plugin which is used while searching
 #: ../build/po/settings.js:288
 msgid "time"
-msgstr "koha"
+msgstr "Koha"
 
 #. TRANSLATORS: This is a keyword or name for the time-date plugin which is used while searching
 #: ../build/po/settings.js:290
