@@ -112,6 +112,8 @@ public:
     Q_INVOKABLE void cancelUpdate(const QString &id, const uint &rev);
     Q_INVOKABLE void setImageUpdate(const QString &id, const int &version,
                                     const int &updateSize);
+    Q_INVOKABLE void setImageUpdateChangelog(const QString &id, const uint &rev,
+                                    const QString &changelog);
     static bool contains(const UpdateList &list,
                          const QSharedPointer<Update> &update);
 public Q_SLOTS:
