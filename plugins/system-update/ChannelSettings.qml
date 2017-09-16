@@ -47,7 +47,6 @@ ItemPage {
         if (channelSelectorModel.count !== 0)
           return;
         appendChannels()
-        setSelectedChannel()
         return;
       }
     }
@@ -66,22 +65,43 @@ ItemPage {
           var prettyChannel = prettyChannels[channel[channel.length-1]] ? prettyChannels[channel[channel.length-1]] : channel[channel.length-1];
           channelSelectorModel.append({ name: prettyChannel, description: "", channel: _channel});
       });
+      setSelectedChannel();
     }
 
     function setSelectedChannel() {
-      var channel = SystemImage.getSwitchChannel().split("/");
-      channelSelector.selectedIndex = channel[channel.length-1];
-      return channel[channel.length-1];
+      var selNum = 0;
+      var channel = SystemImage.getSwitchChannel();
+      for (var i = 0; i <= channelSelectorModel.count; i++) {
+        if (channelSelectorModel.get(i).channel === channel){
+            selNum = i;
+            break;
+        }
+      }
+      channelSelector.selectedIndex = selNum;
+      return selNum;
     }
 
-    ActivityIndicator {
-      id: aIndicator
-      opacity: visible ? 1 : 0
-      visible: false
-      running: visible
-      anchors.horizontalCenter: parent.horizontalCenter
-      anchors.verticalCenter: parent.verticalCenter
+    Column {
+        id: aIndicator
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.verticalCenter: parent.verticalCenter
+        visible: false
+
+        ActivityIndicator {
+            opacity: visible ? 1 : 0
+            visible: parent.visible
+            running: visible
+            anchors.horizontalCenter: parent.horizontalCenter
+        }
+
+        Label {
+            id: aIndicatorText
+            text: i18n.tr("Fetching channels")
+            visible: parent.visible
+        }
     }
+
+
 
     ListItem.ItemSelector {
         id: channelSelector
@@ -93,12 +113,16 @@ ItemPage {
           setSelectedChannel()
         }
         onSelectedIndexChanged: {
+          // Cancel all ongoing updates before switching
+          SystemImage.cancelUpdate()
           SystemImage.setSwitchChannel(channelSelectorModel.get(selectedIndex).channel);
-          SystemImage.setSwitchBuild(0);
+
+          if (channelSelectorModel.get(selectedIndex).channel === SystemImage.channelName)
+            SystemImage.setSwitchBuild(SystemImage.currentBuildNumber);
+          else
+            SystemImage.setSwitchBuild(0);
           UpdateManager.check(UpdateManager.CheckImage);
-        }
-        Component.onCompleted: {
-          setSelectedChannel()
+          aIndicatorText.text = i18n.tr("Switching channel");
         }
     }
 
@@ -110,7 +134,6 @@ ItemPage {
     ListModel {
         id: channelSelectorModel
         Component.onCompleted: {
-          console.error(UpdateManager)
           switch (UpdateManager.status) {
           case UpdateManager.StatusCheckingImageUpdates:
           case UpdateManager.StatusCheckingAllUpdates:
@@ -120,7 +143,6 @@ ItemPage {
           }
           if (SystemImage.getChannels().length !== 0){
             appendChannels()
-            setSelectedChannel()
             return;
           }
           UpdateManager.check(UpdateManager.CheckImage);
