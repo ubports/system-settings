@@ -37,7 +37,7 @@ ManagerImpl::ManagerImpl(QSystemImage *si, UpdateModel *model, QObject *parent)
     , m_si(si)
 {
 
-    // TODO Move this to use own accessmanager class
+    // Move this to use own accessmanager class
     m_manager = new QNetworkAccessManager();
     connect(m_manager, SIGNAL(finished(QNetworkReply*)), this,
                  SLOT(replyFinished(QNetworkReply*)));
