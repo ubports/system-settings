@@ -18,6 +18,7 @@
  */
 
 #include "imagemanager_impl.h"
+
         #include <QDebug>
 namespace UpdatePlugin
 {
@@ -35,6 +36,12 @@ ManagerImpl::ManagerImpl(QSystemImage *si, UpdateModel *model, QObject *parent)
     , m_model(model)
     , m_si(si)
 {
+
+    // Move this to use own accessmanager class
+    m_manager = new QNetworkAccessManager();
+    connect(m_manager, SIGNAL(finished(QNetworkReply*)), this,
+                 SLOT(replyFinished(QNetworkReply*)));
+
     connect(m_si, SIGNAL(checkingForUpdatesChanged()),
             this, SLOT(handleCheckingForUpdatesChanged()));
     connect(
@@ -78,6 +85,36 @@ ManagerImpl::ManagerImpl(QSystemImage *si, UpdateModel *model, QObject *parent)
     handleCurrentBuildNumberChanged();
 }
 
+void ManagerImpl::requestChangelog(const QString &id, const uint &rev)
+{
+    QString url = "http://cdimage.ubports.com/changelog/"+m_si->channelName().replace("/", "-")+QString::number(rev);
+    QNetworkRequest request;
+    request.setUrl(QUrl(url));
+    request.setOriginatingObject(this);
+
+    QNetworkReply *reply = m_manager->get(request);
+    reply->setProperty("id", id);
+    reply->setProperty("rev", rev);
+}
+
+void ManagerImpl::replyFinished(QNetworkReply *reply)
+{
+    QVariant statusCode = reply->attribute( QNetworkRequest::HttpStatusCodeAttribute );
+    if (!statusCode.isValid())
+        return;
+
+    int status = statusCode.toInt();
+    qWarning() << status;
+
+    if (status != 200)
+        return;
+
+    QString rep = reply->readAll();
+    const QString id = reply->property("id").toString();
+    const uint rev = reply->property("rev").toInt();
+    m_model->setImageUpdateChangelog(id, rev, rep);
+}
+
 void ManagerImpl::handleUpdateAvailableStatus(const bool isAvailable,
                                               const bool downloading,
                                               const QString &availableVersion,
@@ -96,6 +133,7 @@ void ManagerImpl::handleUpdateAvailableStatus(const bool isAvailable,
     }
     if (isAvailable) {
         m_model->setImageUpdate(ubuntuId, rev, updateSize);
+        requestChangelog(ubuntuId, rev);
         bool automatic = m_si->downloadMode() > 0;
         if (downloading) {
             m_model->startUpdate(ubuntuId, rev, automatic);

@@ -23,6 +23,9 @@
 #include "systemimage.h"
 #include "updatemodel.h"
 
+#include <QtNetwork/QNetworkReply>
+#include <QtNetwork/QNetworkRequest>
+
 namespace UpdatePlugin
 {
 namespace Image
@@ -57,9 +60,13 @@ private Q_SLOTS:
     void handleUpdateProcessing();
     void handleUpdateProcessFailed(const QString &reason);
     void handleCheckingForUpdatesChanged();
+    void replyFinished(QNetworkReply *reply);
 private:
+    void requestChangelog(const QString &id, const uint &rev);
+
     UpdateModel *m_model;
     QSystemImage *m_si;
+    QNetworkAccessManager *m_manager;
 };
 } // Image
 } // UpdatePlugin
