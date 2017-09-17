@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-16 14:42-0500\n"
-"PO-Revision-Date: 2017-09-08 06:56+0000\n"
+"PO-Revision-Date: 2017-09-15 08:32+0000\n"
 "Last-Translator: Milan Korecký <milan.korecky@gmail.com>\n"
 "Language-Team: Czech <https://translate.ubports.com/projects/ubports/system-"
 "settings/cs/>\n"
@@ -2803,7 +2803,7 @@ msgstr "imei"
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../build/po/settings.js:164
 msgid "serial"
-msgstr "serial"
+msgstr "Sériové číslo"
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../build/po/settings.js:168

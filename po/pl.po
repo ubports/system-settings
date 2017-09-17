@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-16 14:42-0500\n"
-"PO-Revision-Date: 2017-09-01 21:13+0000\n"
-"Last-Translator: Daniel Frańczak <danielfranczak5@wp.pl>\n"
-"Language-Team: Polish <https://ubpweblate.tnvcomp.com/projects/ubports"
-"/system-settings/pl/>\n"
+"PO-Revision-Date: 2017-09-16 23:31+0000\n"
+"Last-Translator: Beton <betonn@protonmail.com>\n"
+"Language-Team: Polish <https://translate.ubports.com/projects/ubports/system-"
+"settings/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -78,7 +78,7 @@ msgstr "Numer telefonu"
 
 #: ../plugins/phone/CallForwardItem.qml:222
 msgid "Call forwarding can’t be changed right now."
-msgstr ""
+msgstr "Przekazywanie połączeń nie może być teraz zmienione."
 
 #: ../plugins/phone/SingleSim.qml:29
 msgid "SIM"
@@ -109,37 +109,35 @@ msgstr "Połączenie"
 
 #: ../plugins/phone/CallForwarding.qml:131
 msgid "Forward every incoming call"
-msgstr ""
+msgstr "Przekaż każde połączenie przychodzące"
 
 #: ../plugins/phone/CallForwarding.qml:146
 msgid "Redirects all phone calls to another number."
-msgstr ""
+msgstr "Przekierowuje wszystkie połączenia na inny numer."
 
 #: ../plugins/phone/CallForwarding.qml:158
 msgid "Call forwarding status can’t be checked "
-msgstr ""
+msgstr "Nie można sprawdzić stanu przekazywania połączeń "
 
 #: ../plugins/phone/CallForwarding.qml:166
-#, fuzzy
 msgid "Forward incoming calls when:"
-msgstr "Do połączeń wychodzących używaj:"
+msgstr "Przekaż połączenia przychodzące, gdy:"
 
 #: ../plugins/phone/CallForwarding.qml:176
 msgid "I’m on another call"
-msgstr ""
+msgstr "Jestem na kolejnym wezwaniu"
 
 #: ../plugins/phone/CallForwarding.qml:187
 msgid "I don’t answer"
-msgstr ""
+msgstr "Nie odpowiadam"
 
 #: ../plugins/phone/CallForwarding.qml:198
-#, fuzzy
 msgid "My phone is unreachable"
-msgstr "Usługa ModemManager jest niedostępna"
+msgstr "Mój telefon jest nieosiągalny"
 
 #: ../plugins/phone/CallForwarding.qml:228
 msgid "Contacts…"
-msgstr ""
+msgstr "Kontakty…"
 
 #: ../plugins/phone/CallForwarding.qml:241 ../plugins/wifi/CertDialog.qml:65
 #: ../plugins/wifi/OtherNetwork.qml:890 ../plugins/hotspot/HotspotSetup.qml:288
@@ -177,22 +175,20 @@ msgid "Set"
 msgstr "Ustaw"
 
 #: ../plugins/phone/CallForwarding.qml:275
-#, fuzzy
 msgid "Please select a phone number"
-msgstr "Numer telefonu"
+msgstr "Proszę wybrać numer telefonu"
 
 #: ../plugins/phone/CallForwarding.qml:284
-#, fuzzy
 msgid "Numbers"
 msgstr "Numery"
 
 #: ../plugins/phone/CallForwarding.qml:303
 msgid "Could not forward to this contact"
-msgstr ""
+msgstr "Nie można przekazać do tego kontaktu"
 
 #: ../plugins/phone/CallForwarding.qml:304
 msgid "Contact not associated with any phone number."
-msgstr ""
+msgstr "Kontakt nie skojarzony z żadnym numerem telefonu."
 
 #: ../plugins/phone/CallForwarding.qml:306
 #: ../plugins/system-update/PageComponent.qml:135
@@ -201,9 +197,8 @@ msgid "OK"
 msgstr "OK"
 
 #: ../plugins/phone/CallForwarding.qml:383
-#, fuzzy
 msgid "All calls"
-msgstr "Połączenie"
+msgstr "Wszystkie połączenia"
 
 #: ../plugins/phone/CallForwarding.qml:385
 #, fuzzy
@@ -225,9 +220,8 @@ msgstr "Telefon"
 
 #: ../plugins/phone/PageComponent.qml:102
 #: ../plugins/sound/PageComponent.qml:180
-#, fuzzy
 msgid "Dialpad tones"
-msgstr "Dźwięki wybierania numeru"
+msgstr "Dźwięk wybierania numeru"
 
 #: ../plugins/wifi/NetworkDetailsBrief.qml:54
 #: ../plugins/wifi/NetworkDetails.qml:100
@@ -241,25 +235,23 @@ msgstr "Adres IP"
 
 #: ../plugins/wifi/CertDialog.qml:22
 msgid "Add certificate?"
-msgstr ""
+msgstr "Dodać certyfikat?"
 
 #: ../plugins/wifi/CertDialog.qml:24
 msgid "Add key?"
-msgstr ""
+msgstr "Dodać klucz?"
 
 #: ../plugins/wifi/CertDialog.qml:26
 msgid "Add pac file?"
 msgstr ""
 
 #: ../plugins/wifi/CertDialog.qml:36
-#, fuzzy
 msgid "Content:"
-msgstr "Kontynuuj"
+msgstr "Zawartość:"
 
 #: ../plugins/wifi/CertDialog.qml:49
-#, fuzzy
 msgid "No data available."
-msgstr "Dostępne aktualizacje"
+msgstr "Brak dostępnych danych."
 
 #: ../plugins/wifi/CertDialog.qml:74
 msgid "Save"
@@ -343,9 +335,8 @@ msgid "WPA & WPA2 Personal"
 msgstr "WPA i WPA2 Personal"
 
 #: ../plugins/wifi/OtherNetwork.qml:321
-#, fuzzy
 msgid "WPA & WPA2 Enterprise"
-msgstr "WPA i WPA2 Personal"
+msgstr "WPA i WPA2 Enterprise"
 
 #: ../plugins/wifi/OtherNetwork.qml:322
 msgid "WEP"
@@ -361,21 +352,20 @@ msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:333
 msgid "This network is insecure."
-msgstr ""
+msgstr "Ta sieć jest niebezpieczna."
 
 #: ../plugins/wifi/OtherNetwork.qml:339
 #: ../plugins/cellular/PageApnEditor.qml:384
-#, fuzzy
 msgid "Authentication"
-msgstr "Powiadomienia"
+msgstr "Autoryzacja"
 
 #: ../plugins/wifi/OtherNetwork.qml:364
 msgid "Inner authentication"
-msgstr ""
+msgstr "Wewnętrzna autoryzacja"
 
 #: ../plugins/wifi/OtherNetwork.qml:397
 msgid "CA certificate"
-msgstr ""
+msgstr "Certyfikat CA"
 
 #. TRANSLATORS: %1 is the name of a certificate file.
 #. The ellipsis indicates that the file name has been
@@ -390,7 +380,7 @@ msgstr ""
 #: ../plugins/wifi/certhandler.cpp:193 ../plugins/wifi/certhandler.cpp:225
 #: ../plugins/wifi/certhandler.cpp:290 ../plugins/wifi/certhandler.cpp:319
 msgid "Choose…"
-msgstr ""
+msgstr "Wybierz…"
 
 #. TRANSLATORS: The first position is the name of
 #. the organization that has issued the certificate.
@@ -413,15 +403,15 @@ msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:495
 msgid "Using certificates is recommend as it increases security."
-msgstr ""
+msgstr "Użycie certyfikatu jest zalecane, ponieważ podnosi bezpieczeństwo."
 
 #: ../plugins/wifi/OtherNetwork.qml:513
 msgid "Client certificate"
-msgstr ""
+msgstr "Certyfikat klienta"
 
 #: ../plugins/wifi/OtherNetwork.qml:555
 msgid "User private key"
-msgstr ""
+msgstr "Klucz prywatny użytkownika"
 
 #. TRANSLATORS: The first position is the type of
 #. private key, second the key algorithm, and third the
@@ -440,36 +430,32 @@ msgid "Pac provisioning"
 msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:687
-#, fuzzy
 msgid "Disabled"
-msgstr "Dezaktywacja"
+msgstr "Wyłączony"
 
 #: ../plugins/wifi/OtherNetwork.qml:688
 msgid "Anonymous"
-msgstr ""
+msgstr "Anonimowy"
 
 #: ../plugins/wifi/OtherNetwork.qml:689
 msgid "Authenticated"
-msgstr ""
+msgstr "Uwierzytelniony"
 
 #: ../plugins/wifi/OtherNetwork.qml:690
 msgid "Both"
-msgstr ""
+msgstr "Oba"
 
 #: ../plugins/wifi/OtherNetwork.qml:700
-#, fuzzy
 msgid "PEAP version"
-msgstr "Wersja"
+msgstr "Wersja PEAP"
 
 #: ../plugins/wifi/OtherNetwork.qml:714
-#, fuzzy
 msgid "Version 0"
-msgstr "Wersja: "
+msgstr "Wersja 0"
 
 #: ../plugins/wifi/OtherNetwork.qml:715
-#, fuzzy
 msgid "Version 1"
-msgstr "Wersja: "
+msgstr "Wersja 1"
 
 #: ../plugins/wifi/OtherNetwork.qml:716
 #, fuzzy
@@ -478,11 +464,11 @@ msgstr "Automatycznie"
 
 #: ../plugins/wifi/OtherNetwork.qml:726
 msgid "Anonymous identity"
-msgstr ""
+msgstr "Anonimowy identyfikator"
 
 #: ../plugins/wifi/OtherNetwork.qml:753
 msgid "Identity"
-msgstr ""
+msgstr "Identyfikator"
 
 #: ../plugins/wifi/OtherNetwork.qml:755
 msgid "Username"
@@ -490,12 +476,11 @@ msgstr "Nazwa użytkownika"
 
 #: ../plugins/wifi/OtherNetwork.qml:785
 msgid "Private key password"
-msgstr ""
+msgstr "Hasło klucza prywatnego"
 
 #: ../plugins/wifi/OtherNetwork.qml:858
-#, fuzzy
 msgid "Remember password"
-msgstr "Hasło"
+msgstr "Zapamiętaj hasło"
 
 #: ../plugins/wifi/OtherNetwork.qml:906 ../plugins/bluetooth/DevicePage.qml:168
 msgid "Connect"
@@ -649,31 +634,28 @@ msgid "Clear"
 msgstr "Wyczyść"
 
 #: ../plugins/hotspot/HotspotSetup.qml:60
-#, fuzzy
 msgid "Change Hotspot Setup"
-msgstr "Zmiana ustawień hotspot"
+msgstr "Zmiana ustawień hotspota"
 
 #: ../plugins/hotspot/HotspotSetup.qml:60
-#, fuzzy
 msgid "Set Up Hotspot"
-msgstr "Ustaw hotspot"
+msgstr "Skonfiguruj hotspot"
 
 #: ../plugins/hotspot/HotspotSetup.qml:174
 msgid "Hotspot name"
 msgstr "Nazwa hotspotu"
 
 #: ../plugins/hotspot/HotspotSetup.qml:175
-#, fuzzy
 msgid "Choose a name"
-msgstr "Wprowadź hasło"
+msgstr "Wybierz nazwę"
 
 #: ../plugins/hotspot/HotspotSetup.qml:217
 msgid "Require a password (recommended):"
-msgstr ""
+msgstr "Wymagaj hasła (zalecane):"
 
 #: ../plugins/hotspot/HotspotSetup.qml:270
 msgid "Starting the hotspot will turn on Wi-Fi."
-msgstr ""
+msgstr "Uruchomienie hotspota spowoduje włączenie Wi-Fi."
 
 #: ../plugins/hotspot/HotspotSetup.qml:299
 #: ../plugins/security-privacy/SimPin.qml:186
@@ -683,7 +665,7 @@ msgstr "Zmień"
 
 #: ../plugins/hotspot/HotspotSetup.qml:300
 msgid "Start"
-msgstr ""
+msgstr "Włącz"
 
 #. TRANSLATORS: This is a keyword or name for the hotspot plugin which is used while searching
 #: ../plugins/hotspot/PageComponent.qml:32
@@ -709,28 +691,24 @@ msgstr ""
 "Wi-Fi, obciążając twoje konto lub ewentualne limity przesyłu danych."
 
 #: ../plugins/hotspot/PageComponent.qml:120
-#, fuzzy
 msgid "Change Password/Setup…"
-msgstr "Zmień kod..."
+msgstr "Zmień hasło/konfigurację…"
 
 #: ../plugins/hotspot/PageComponent.qml:120
-#, fuzzy
 msgid "Set Up Hotspot…"
-msgstr "Ustaw hotspot"
+msgstr "Skonfiguruj hotspot…"
 
 #: ../plugins/hotspot/PageComponent.qml:151
-#, fuzzy
 msgid "Wi-Fi is off"
-msgstr "Wi-Fi hotspot"
+msgstr "Wi-Fi jest wyłączone"
 
 #: ../plugins/hotspot/PageComponent.qml:152
 msgid "In order to create a hotspot, you need to turn Wi-Fi on."
-msgstr ""
+msgstr "Aby utworzyć hotspot, musisz włączyć Wi-Fi."
 
 #: ../plugins/hotspot/PageComponent.qml:161
-#, fuzzy
 msgid "Turn on Wi-Fi"
-msgstr "Gdy podłączony do Wi-Fi"
+msgstr "Włącz Wi-Fi"
 
 #: ../plugins/battery/SleepValues.qml:78
 msgid "Lock the phone when it's not in use:"
@@ -852,9 +830,8 @@ msgstr "Uśpij gdy bezczynny"
 
 #. TRANSLATORS: “Wi-Fi used for hotspot” is hidden.
 #: ../plugins/battery/PageComponent.qml:342
-#, fuzzy
 msgid "Wi-Fi used for hotspot"
-msgstr "Wi-Fi hotspot"
+msgstr "Wi-Fi użyte do hotspota"
 
 #. TRANSLATORS: This is a keyword or name for the bluetooth plugin which is used while searching
 #: ../plugins/battery/PageComponent.qml:376
@@ -877,9 +854,8 @@ msgstr ""
 
 #: ../plugins/security-privacy/AppAccess.qml:28
 #: ../plugins/security-privacy/PageComponent.qml:208
-#, fuzzy
 msgid "App permissions"
-msgstr "zezwolenia"
+msgstr "Zezwolenia aplikacji"
 
 #: ../plugins/security-privacy/AppAccess.qml:46
 #, fuzzy
@@ -902,14 +878,12 @@ msgid "Location"
 msgstr "Lokalizacja"
 
 #: ../plugins/security-privacy/AppAccess.qml:58
-#, fuzzy
 msgid "Apps that have requested access to your location"
-msgstr "Aplikacje, które poprosiły o dostęp do mikrofonu"
+msgstr "Aplikacje, które poprosiły o dostęp do Twojej lokalizacji"
 
 #: ../plugins/security-privacy/AppAccess.qml:62
-#, fuzzy
 msgid "Microphone"
-msgstr "telefon"
+msgstr "Mikrofon"
 
 #: ../plugins/security-privacy/AppAccess.qml:63
 #, fuzzy
@@ -918,12 +892,11 @@ msgstr "Aplikacje, które poprosiły o dostęp do mikrofonu"
 
 #: ../plugins/security-privacy/AppAccess.qml:67
 msgid "In-App Purchases"
-msgstr ""
+msgstr "Zakupy In-App"
 
 #: ../plugins/security-privacy/AppAccess.qml:68
-#, fuzzy
 msgid "Apps that have requested access for in-app purchases"
-msgstr "Aplikacje, które poprosiły o dostęp do aparatu"
+msgstr "Aplikacje, które poprosiły o dostęp do zakupów In-App"
 
 #: ../plugins/security-privacy/AppAccess.qml:81
 #, qt-format
@@ -935,13 +908,12 @@ msgid "0"
 msgstr "0"
 
 #: ../plugins/security-privacy/AppAccess.qml:97
-#, fuzzy
 msgid "Apps may also request access to online accounts."
-msgstr "Aplikacje, które poprosiły o dostęp do mikrofonu"
+msgstr "Aplikacje mogą również prosić o dostęp do kont online."
 
 #: ../plugins/security-privacy/AppAccess.qml:102
 msgid "Online Accounts…"
-msgstr ""
+msgstr "Konta online…"
 
 #: ../plugins/security-privacy/SimPin.qml:36
 #: ../plugins/security-privacy/SimPin.qml:397
@@ -1012,18 +984,16 @@ msgid "Lock"
 msgstr "Blokada"
 
 #: ../plugins/security-privacy/SimPin.qml:412
-#, fuzzy
 msgid "Unlocked"
-msgstr "Odblokuj"
+msgstr "Odblokowany"
 
 #: ../plugins/security-privacy/SimPin.qml:415
 msgid "Change PIN…"
 msgstr "Zmień PIN..."
 
 #: ../plugins/security-privacy/SimPin.qml:426
-#, fuzzy
 msgid "Locked"
-msgstr "Blokada"
+msgstr "Zablokowany"
 
 #: ../plugins/security-privacy/SimPin.qml:430
 #, fuzzy
@@ -1046,7 +1016,7 @@ msgstr "Wpisywanie niepoprawnego kodu PIN może zablokować na stałe kartę SIM
 #: ../plugins/security-privacy/PhoneLocking.qml:31
 #: ../plugins/security-privacy/PageComponent.qml:120
 msgid "Locking and unlocking"
-msgstr ""
+msgstr "Blokada i odblokowywanie"
 
 #: ../plugins/security-privacy/PhoneLocking.qml:56
 msgctxt "Unlock with swipe"
@@ -1245,15 +1215,15 @@ msgstr "Nie wysłano"
 
 #: ../plugins/security-privacy/Location.qml:94
 msgid "Let the phone detect your location:"
-msgstr ""
+msgstr "Pozwól na wykrywanie Twojej lokalizacji:"
 
 #: ../plugins/security-privacy/Location.qml:173
 msgid "Using GPS only (less accurate)"
-msgstr ""
+msgstr "Używaj tylko GPS (mniejsza dokładność)"
 
 #: ../plugins/security-privacy/Location.qml:174
 msgid "Using GPS"
-msgstr ""
+msgstr "Używaj GPS"
 
 #. TRANSLATORS: %1 is the resource wherein HERE
 #. terms and conditions reside (typically a qml file).
@@ -1265,6 +1235,8 @@ msgid ""
 "Using GPS, anonymized Wi-Fi and cellular network info.<br>By selecting this "
 "option you accept the <a href='%1'>Nokia HERE terms and conditions</a>."
 msgstr ""
+"Używanie GPS, anonimowych informacji o sieci Wi-Fi, oraz sieci komórkowej. "
+"<br>Zaznaczając tą opcję akceptujesz <a href='%1'>regulamin Nokia HERE</a>."
 
 #: ../plugins/security-privacy/Location.qml:191
 msgid "Not at all"
@@ -1332,9 +1304,8 @@ msgstr ""
 "wykrywania lokalizacji oszczędza baterię."
 
 #: ../plugins/security-privacy/Location.qml:227
-#, fuzzy
 msgid "Let apps access this location:"
-msgstr "Zezwól na dostęp do lokalizacji:"
+msgstr "Zezwól aplikacjom na dostęp do lokalizacji:"
 
 #: ../plugins/security-privacy/Location.qml:250
 #, fuzzy
@@ -1356,7 +1327,7 @@ msgstr "Dzwonek:"
 
 #: ../plugins/sound/PageComponent.qml:129
 msgid "High volume can damage your hearing."
-msgstr ""
+msgstr "Zbyt wysoki poziom dźwięku może powodować uszkodzenie słuchu."
 
 #: ../plugins/sound/PageComponent.qml:133
 msgid "Phone calls:"
@@ -1404,9 +1375,8 @@ msgid "Lock sound"
 msgstr "Dźwięk blokady"
 
 #: ../plugins/sound/PageComponent.qml:250
-#, fuzzy
 msgid "Other vibrations"
-msgstr "Wibracje"
+msgstr "Inne wibracje"
 
 #: ../plugins/sound/SoundsList.qml:127
 #, fuzzy
@@ -1602,9 +1572,8 @@ msgid "Edit"
 msgstr "Edytuj"
 
 #: ../plugins/cellular/PageApnEditor.qml:70
-#, fuzzy
 msgid "New APN"
-msgstr "%1 APN"
+msgstr "Nowy APN"
 
 #: ../plugins/cellular/PageApnEditor.qml:156
 msgid "Used for:"
@@ -1612,9 +1581,8 @@ msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:160
 #: ../plugins/cellular/PageChooseApn.qml:85
-#, fuzzy
 msgid "Internet and MMS"
-msgstr "Internet"
+msgstr "Internet i MMS"
 
 #: ../plugins/cellular/PageApnEditor.qml:161
 #: ../plugins/cellular/PageChooseApn.qml:87
