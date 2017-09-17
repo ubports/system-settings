@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-17 09:56+0000\n"
+"PO-Revision-Date: 2017-09-17 13:32+0000\n"
 "Last-Translator: advocatux <advocatux@airpost.net>\n"
 "Language-Team: Spanish <https://translate.ubports.com/projects/ubports"
 "/system-settings/es/>\n"
@@ -38,32 +38,30 @@ msgstr "Configuración del canal"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
-#, fuzzy
 msgid "Stable"
-msgstr "Tableta"
+msgstr "Estable"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
 msgid "Release candidate"
-msgstr ""
+msgstr "Versión candidata"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
-#, fuzzy
 msgid "Development"
-msgstr "Modo de desarrollador"
+msgstr "Desarrollo"
 
 #: ../plugins/system-update//ChannelSettings.qml:99
 msgid "Fetching channels"
-msgstr ""
+msgstr "Buscar canales"
 
 #: ../plugins/system-update//ChannelSettings.qml:109
 msgid "Channel to get updates from:"
-msgstr ""
+msgstr "Canal del que obtener actualizaciones:"
 
 #: ../plugins/system-update//ChannelSettings.qml:125
 msgid "Switching channel"
-msgstr ""
+msgstr "Cambio de canal"
 
 #: ../plugins/system-update//Configuration.qml:30
 #: ../plugins/system-update//UpdateSettings.qml:42
@@ -104,9 +102,8 @@ msgid "Updates"
 msgstr "Actualizaciones"
 
 #: ../plugins/system-update//PageComponent.qml:182
-#, fuzzy
 msgid "Connect to the Internet to check for updates."
-msgstr "Conectar a Internet para comprobar las actualizaciones"
+msgstr "Conectar a Internet para buscar actualizaciones."
 
 #: ../plugins/system-update//PageComponent.qml:184
 msgid "Software is up to date"
@@ -115,22 +112,20 @@ msgstr "El software está actualizado"
 #: ../plugins/system-update//PageComponent.qml:187
 msgid "The update server is not responding. Try again later."
 msgstr ""
+"El servidor de actualización no responde. Vuelva a intentarlo más tarde."
 
 #: ../plugins/system-update//PageComponent.qml:196
-#, fuzzy
 msgid "Updates Available"
 msgstr "Actualizaciones disponibles"
 
 #: ../plugins/system-update//PageComponent.qml:349
-#, fuzzy
 msgid "Recent updates"
-msgstr "Comprobar actualizaciones"
+msgstr "Actualizaciones recientes"
 
 #: ../plugins/system-update//PageComponent.qml:412
 #: ../plugins/system-update//UpdateSettings.qml:32
-#, fuzzy
 msgid "Update settings"
-msgstr "Configuración del sistema"
+msgstr "Actualizar configuración"
 
 #: ../plugins/system-update//DownloadHandler.qml:174
 #: ../plugins/system-update//InstallationFailed.qml:25
@@ -152,15 +147,13 @@ msgstr "Actualizar sistema"
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:32
 #: ../plugins/system-update//ImageUpdatePrompt.qml:32
-#, fuzzy
 msgid "The device needs to restart to install the system update."
-msgstr "Debe reiniciar el teléfono para instalar la actualización del sistema."
+msgstr "El aparato debe reiniciarse para instalar la actualización del sistema."
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:33
 #: ../plugins/system-update//ImageUpdatePrompt.qml:33
-#, fuzzy
 msgid "Connect the device to power before installing the system update."
-msgstr "Enchufe el teléfono antes de instalar una actualización del sistema."
+msgstr "Enchufe el aparato antes de instalar la actualización del sistema."
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:38
 #: ../plugins/system-update//ImageUpdatePrompt.qml:38
@@ -207,9 +200,9 @@ msgid "Sign In…"
 msgstr "Registrarse…"
 
 #: ../plugins/system-update//ChangelogExpander.qml:42
-#, fuzzy, qt-format
+#, qt-format
 msgid "Version %1"
-msgstr "Versión 1"
+msgstr "Versión %1"
 
 #: ../plugins/system-update//UpdateSettings.qml:47
 msgid "On wi-fi"
@@ -226,9 +219,8 @@ msgid "Unknown"
 msgstr "Desconocido"
 
 #: ../plugins/system-update//UpdateSettings.qml:61
-#, fuzzy
 msgid "Channels"
-msgstr "Cambiar"
+msgstr "Canales"
 
 #: ../plugins/system-update//Global.qml:84
 msgid "Checking for updates…"
@@ -236,25 +228,23 @@ msgstr "Comprobando actualizaciones…"
 
 #: ../plugins/system-update//Global.qml:89
 msgid "Stop"
-msgstr ""
+msgstr "Detener"
 
 #. TRANSLATORS: %1 is number of software updates available.
 #: ../plugins/system-update//Global.qml:116
-#, fuzzy, qt-format
+#, qt-format
 msgid "%1 update available"
 msgid_plural "%1 updates available"
-msgstr[0] "Actualizaciones disponibles"
-msgstr[1] "Actualizaciones disponibles"
+msgstr[0] "%1 actualización disponible"
+msgstr[1] "%1 actualizaciones disponibles"
 
 #: ../plugins/system-update//Global.qml:126
-#, fuzzy
 msgid "Update all…"
-msgstr "Actualizaciones disponibles"
+msgstr "Actualizar todo…"
 
 #: ../plugins/system-update//Global.qml:128
-#, fuzzy
 msgid "Update all"
-msgstr "Actualizar"
+msgstr "Actualizar todo"
 
 #: ../plugins/system-update//UpdateDelegate.qml:119
 msgid "Retry"
@@ -286,21 +276,19 @@ msgstr "Instalar"
 
 #: ../plugins/system-update//UpdateDelegate.qml:149
 msgid "Open"
-msgstr ""
+msgstr "Abrir"
 
 #: ../plugins/system-update//UpdateDelegate.qml:228
 msgid "Installing"
 msgstr "Instalando"
 
 #: ../plugins/system-update//UpdateDelegate.qml:232
-#, fuzzy
 msgid "Paused"
-msgstr "Pausar"
+msgstr "En pausa"
 
 #: ../plugins/system-update//UpdateDelegate.qml:235
-#, fuzzy
 msgid "Waiting to download"
-msgstr "Descarga automática"
+msgstr "Esperando para descargar"
 
 #: ../plugins/system-update//UpdateDelegate.qml:238
 msgid "Downloading"
@@ -315,9 +303,8 @@ msgid "%1 of %2"
 msgstr "%1 de %2"
 
 #: ../plugins/system-update//UpdateDelegate.qml:278
-#, fuzzy
 msgid "Downloaded"
-msgstr "Descargar"
+msgstr "Descargado"
 
 #: ../plugins/system-update//UpdateDelegate.qml:281
 msgid "Installed"
@@ -326,14 +313,13 @@ msgstr "Instalado"
 #. TRANSLATORS: %1 is the date at which this
 #. update was applied.
 #: ../plugins/system-update//UpdateDelegate.qml:286
-#, fuzzy, qt-format
+#, qt-format
 msgid "Updated %1"
-msgstr "Actualizar"
+msgstr "Actualizado el %1"
 
 #: ../plugins/system-update//UpdateDelegate.qml:310
-#, fuzzy
 msgid "Update failed"
-msgstr "Actualizaciones disponibles"
+msgstr "Falló la actualización"
 
 #. TRANSLATORS: This is a keyword or name for the hotspot plugin which is used while searching
 #: ../plugins/hotspot//PageComponent.qml:33
@@ -541,22 +527,20 @@ msgid "Start"
 msgstr "Iniciar"
 
 #: ../plugins/battery//SleepValues.qml:74
-#, fuzzy
 msgid "Lock the device when it's not in use:"
-msgstr "Bloquear el teléfono cuando no esté en uso:"
+msgstr "Bloquear el aparato cuando no esté en uso:"
 
 #: ../plugins/battery//SleepValues.qml:75
-#, fuzzy
 msgid "Put the device to sleep when it is not in use:"
-msgstr "Suspender el teléfono cuando no esté en uso:"
+msgstr "Poner el aparato en reposo cuando no esté en uso:"
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery//SleepValues.qml:86
-#, fuzzy, qt-format
+#, qt-format
 msgid "After %1 seconds"
 msgid_plural "After %1 seconds"
-msgstr[0] "Tras %1 minuto"
-msgstr[1] "Tras %1 minutos"
+msgstr[0] "Tras %1 segundo"
+msgstr[1] "Tras %1 segundos"
 
 #. TRANSLATORS: %1 is the number of minutes
 #: ../plugins/battery//SleepValues.qml:90
@@ -576,19 +560,18 @@ msgstr[0] "Tras %1 minuto"
 msgstr[1] "Tras %1 minutos"
 
 #: ../plugins/battery//SleepValues.qml:130
-#, fuzzy
 msgid ""
 "Shorter times are more secure. Device won't lock during calls or video "
 "playback."
 msgstr ""
-"Los periodos más cortos son más seguros. El teléfono no se bloqueará durante "
-"las llamadas o al reproducir vídeos."
+"Los tiempos más cortos son más seguros. El aparato no se bloqueará durante "
+"las llamadas o la reproducción de vídeo."
 
 #: ../plugins/battery//SleepValues.qml:130
-#, fuzzy
 msgid "Device won’t sleep during calls or video playback."
 msgstr ""
-"El teléfono no se suspenderá durante llamadas o reproducción de vídeos."
+"El aparato no entrará en reposo durante las llamadas o la reproducción de "
+"vídeos."
 
 #. TRANSLATORS: This is a keyword or name for the battery plugin which is used while searching
 #: ../plugins/battery//PageComponent.qml:35 ../build/po/settings.js:38
@@ -678,11 +661,11 @@ msgstr "Suspender cuando esté inactivo"
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery//PageComponent.qml:321
 #: ../plugins/security-privacy//PhoneLocking.qml:94
-#, fuzzy, qt-format
+#, qt-format
 msgid "After %1 second"
 msgid_plural "After %1 seconds"
-msgstr[0] "Tras %1 minuto"
-msgstr[1] "Tras %1 minutos"
+msgstr[0] "Tras %1 segundo"
+msgstr[1] "Tras %1 segundos"
 
 #. TRANSLATORS: “Wi-Fi used for hotspot” is hidden.
 #: ../plugins/battery//PageComponent.qml:364
@@ -710,77 +693,67 @@ msgid "Notifications"
 msgstr "Notificaciones"
 
 #: ../plugins/notifications//PageComponent.qml:74
-#, fuzzy
 msgid ""
 "Apps can alert you using sounds, vibrations, notification bubbles and the "
 "Notification list."
 msgstr ""
-"Algunas aplicaciones pueden avisarle usando burbujas de notificación, "
-"sonidos, vibraciones y la lista de notificaciones."
+"Las aplicaciones pueden alertarle usando sonidos, vibraciones, burbujas de "
+"notificaciones y la lista de notificaciones."
 
 #: ../plugins/notifications//PageComponent.qml:90
 msgid "Apps that notify with sound"
-msgstr ""
+msgstr "Aplicaciones que notifican con sonido"
 
 #: ../plugins/notifications//PageComponent.qml:115
 msgid "Apps that notify with vibration"
-msgstr ""
+msgstr "Aplicaciones que notifican con vibración"
 
 #: ../plugins/notifications//PageComponent.qml:140
-#, fuzzy
 msgid "Applications:"
-msgstr "solicitud"
+msgstr "Aplicaciones:"
 
 #: ../plugins/notifications//PageComponent.qml:169
-#, fuzzy
 msgid "No notifications"
-msgstr "notificaciones"
+msgstr "No hay notificaciones"
 
 #: ../plugins/notifications//PageComponent.qml:174
 #: ../plugins/notifications//ClickAppNotifications.qml:81
-#, fuzzy
 msgid "Sounds"
-msgstr "Sonido"
+msgstr "Sonidos"
 
 #: ../plugins/notifications//PageComponent.qml:177
 #: ../plugins/notifications//ClickAppNotifications.qml:103
-#, fuzzy
 msgid "Vibrations"
-msgstr "vibración"
+msgstr "Vibraciones"
 
 #: ../plugins/notifications//PageComponent.qml:180
 msgid "Bubbles"
-msgstr ""
+msgstr "Burbujas"
 
 #: ../plugins/notifications//PageComponent.qml:183
 #: ../plugins/notifications//ClickAppNotifications.qml:147
-#, fuzzy
 msgid "Notification List"
-msgstr "Notificaciones"
+msgstr "Lista de notificaciones"
 
 #: ../plugins/notifications//ClickAppsVibrationsNotify.qml:30
-#, fuzzy
 msgid "Vibration"
-msgstr "vibración"
+msgstr "Vibración"
 
 #: ../plugins/notifications//ClickAppsVibrationsNotify.qml:54
-#, fuzzy
 msgid "When in Silent mode:"
-msgstr "Vibrar en modo silencioso"
+msgstr "Cuando está en modo silencioso:"
 
 #: ../plugins/notifications//ClickAppsVibrationsNotify.qml:72
-#, fuzzy
 msgid "Vibrate as normal"
-msgstr "Vibrar con el timbre de llamada"
+msgstr "Vibrar como es normal"
 
 #: ../plugins/notifications//ClickAppsVibrationsNotify.qml:73
-#, fuzzy
 msgid "Don't vibrate"
-msgstr "vibrar"
+msgstr "No vibrar"
 
 #: ../plugins/notifications//ClickAppsVibrationsNotify.qml:89
 msgid "Apps that notify with vibrations:"
-msgstr ""
+msgstr "Aplicaciones que notifican con vibraciones:"
 
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../plugins/notifications//ClickAppsSoundsNotify.qml:30
@@ -790,16 +763,15 @@ msgstr "Sonido"
 
 #: ../plugins/notifications//ClickAppsSoundsNotify.qml:48
 msgid "Apps that notify with sound:"
-msgstr ""
+msgstr "Aplicaciones que notifican con sonido:"
 
 #: ../plugins/notifications//ClickAppNotifications.qml:72
 msgid "Let this app alert me using:"
-msgstr ""
+msgstr "Permitir a esta aplicación avisarme usando:"
 
 #: ../plugins/notifications//ClickAppNotifications.qml:125
-#, fuzzy
 msgid "Notification Bubbles"
-msgstr "Notificaciones"
+msgstr "Burbujas de notificaciones"
 
 #: ../plugins/background//Preview.qml:69
 msgid "Preview"
@@ -830,9 +802,8 @@ msgid "Custom"
 msgstr "Personalizado"
 
 #: ../plugins/background//MainPage.qml:117
-#, fuzzy
 msgid "Dash background"
-msgstr "fondo"
+msgstr "Fondo guión"
 
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../plugins/language//PageComponent.qml:35 ../build/po/settings.js:106
@@ -844,9 +815,8 @@ msgid "Display language…"
 msgstr "Idioma para mostrar…"
 
 #: ../plugins/language//PageComponent.qml:155
-#, fuzzy
 msgid "On-screen keyboard"
-msgstr "teclado"
+msgstr "Teclado en pantalla"
 
 #: ../plugins/language//PageComponent.qml:156
 #: ../plugins/language//KeyboardLayouts.qml:29
@@ -854,9 +824,8 @@ msgid "Keyboard layouts"
 msgstr "Distribuciones de teclado"
 
 #: ../plugins/language//PageComponent.qml:167
-#, fuzzy
 msgid "External keyboard"
-msgstr "teclado"
+msgstr "Teclado externo"
 
 #: ../plugins/language//PageComponent.qml:181
 #: ../plugins/language//PageComponent.qml:191
@@ -915,9 +884,8 @@ msgid "All layouts available:"
 msgstr "Todas las distribuciones disponibles:"
 
 #: ../plugins/language//RebootNecessary.qml:34
-#, fuzzy
 msgid "The device needs to restart for changes to take effect."
-msgstr "El teléfono necesita reiniciarse para aplicar los cambios."
+msgstr "El aparato necesita reiniciarse para aplicar los cambios."
 
 #: ../plugins/language//RebootNecessary.qml:38
 msgid "Restart Now"
@@ -932,13 +900,12 @@ msgid "All languages available:"
 msgstr "Todos los idiomas disponibles:"
 
 #: ../plugins/language//PageHardwareKeyboard.qml:33
-#, fuzzy
 msgid "Hardware keyboard"
-msgstr "teclado"
+msgstr "Teclado físico"
 
 #: ../plugins/language//PageHardwareKeyboard.qml:61
 msgid "Layouts and other sources"
-msgstr ""
+msgstr "Diseños y otras fuentes"
 
 #: ../plugins/about//Storage.qml:32 ../plugins/about//PageComponent.qml:150
 msgid "Storage"
@@ -946,7 +913,7 @@ msgstr "Almacenamiento"
 
 #: ../plugins/about//Storage.qml:44
 msgid "Scanning"
-msgstr ""
+msgstr "Escaneando"
 
 #: ../plugins/about//Storage.qml:111
 msgid "Used by Ubuntu"
@@ -990,9 +957,8 @@ msgstr "Por tamaño"
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../plugins/about//PageComponent.qml:35 ../build/po/settings.js:132
-#, fuzzy
 msgid "About"
-msgstr "acerca de"
+msgstr "Acerca de"
 
 #: ../plugins/about//PageComponent.qml:99
 msgid "Serial"
@@ -1098,13 +1064,12 @@ msgid "Developer Mode"
 msgstr "Modo de desarrollador"
 
 #: ../plugins/about//DevMode.qml:84
-#, fuzzy
 msgid ""
 "In Developer Mode, anyone can access, change or delete anything on this "
 "device by connecting it to another device."
 msgstr ""
-"En el modo de desarrollador cualquiera podrá acceder, modificar o eliminar "
-"todo lo que hay en el teléfono al conectarlo con otro dispositivo."
+"En el modo de desarrollador, cualquiera puede acceder, cambiar o eliminar "
+"cualquier elemento de este aparato conectándolo a otro aparato."
 
 #: ../plugins/about//DevMode.qml:110
 msgid "You need a passcode or passphrase set to use Developer Mode."
@@ -1175,9 +1140,8 @@ msgid "Unset"
 msgstr "Quitar"
 
 #: ../plugins/security-privacy//LockSecurity.qml:461
-#, fuzzy
 msgid "Unlock the device using:"
-msgstr "Desbloquear el teléfono mediante:"
+msgstr "Desbloquear el aparato utilizando:"
 
 #: ../plugins/security-privacy//LockSecurity.qml:465
 msgid "Swipe (no security)"
@@ -1195,7 +1159,7 @@ msgstr "Contraseña"
 #: ../plugins/security-privacy//LockSecurity.qml:468
 #: ../plugins/security-privacy//PhoneLocking.qml:60
 msgid "Fingerprint"
-msgstr ""
+msgstr "Huella dactilar"
 
 #: ../plugins/security-privacy//LockSecurity.qml:469
 msgid "Swipe (no security)… "
@@ -1230,7 +1194,7 @@ msgstr "Seguridad"
 
 #: ../plugins/security-privacy//PageComponent.qml:160
 msgid "Fingerprint ID"
-msgstr ""
+msgstr "Identificación de huella dactilar"
 
 #: ../plugins/security-privacy//PageComponent.qml:180
 #: ../plugins/security-privacy//PhoneLocking.qml:32
@@ -1307,9 +1271,8 @@ msgid "Not sent"
 msgstr "No enviados"
 
 #: ../plugins/security-privacy//Location.qml:96
-#, fuzzy
 msgid "Let the device detect your location:"
-msgstr "Permita que el teléfono detecte su ubicación:"
+msgstr "Permita que el aparato detecte su ubicación:"
 
 #: ../plugins/security-privacy//Location.qml:175
 msgid "Using GPS only (less accurate)"
@@ -1330,14 +1293,13 @@ msgstr ""
 "condiciones de Nokia HERE</a>."
 
 #: ../plugins/security-privacy//Location.qml:189
-#, fuzzy, qt-format
+#, qt-format
 msgid ""
 "Using GPS and anonymized Wi-Fi info.<br>By selecting this option you accept "
 "the <a href='%1'>Nokia HERE terms and conditions</a>."
 msgstr ""
-"Uso del GPS, red inalámbrica anonimizada e información de la red móvil."
-"<br>Seleccionando esta opción usted acepta los <a href='%1'>términos y "
-"condiciones de Nokia HERE</a>."
+"Uso de GPS e información de Wi-Fi anonimizada.<br>Seleccionando esta opción "
+"acepta los <a href='%1'>términos y condiciones de Nokia HERE</a>."
 
 #: ../plugins/security-privacy//Location.qml:195
 msgid "Not at all"
@@ -1489,10 +1451,9 @@ msgid "Notifications and quick settings"
 msgstr "Notificaciones y configuración rápida"
 
 #: ../plugins/security-privacy//PhoneLocking.qml:158
-#, fuzzy
 msgid "Turn on lock security to restrict access when the device is locked."
 msgstr ""
-"Active el bloqueo de seguridad para restringir el acceso cuando el teléfono "
+"Active la seguridad de bloqueo para restringir el acceso cuando el aparato "
 "está bloqueado."
 
 #: ../plugins/security-privacy//PhoneLocking.qml:159
@@ -1579,13 +1540,13 @@ msgid "Unlock…"
 msgstr "Desbloquear…"
 
 #: ../plugins/security-privacy//SimPin.qml:443
-#, fuzzy
 msgid ""
 "When a SIM PIN is set, it must be entered to access cellular services after "
 "restarting the device or swapping the SIM."
 msgstr ""
-"Al establecer un PIN de la SIM, este deberá introducirse para acceder a los "
-"servicios telefónicos tras reiniciar el teléfono o cambiar la tarjeta SIM."
+"Cuando se establece un PIN en la tarjeta SIM, se debe introducir para "
+"acceder a los servicios móviles después de reiniciar el aparato o de cambiar "
+"la tarjeta SIM."
 
 #: ../plugins/security-privacy//SimPin.qml:447
 msgid "Entering an incorrect PIN repeatedly may lock the SIM permanently."
@@ -1595,34 +1556,33 @@ msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../plugins/vpn//PageComponent.qml:31 ../build/po/settings.js:192
-#, fuzzy
 msgid "VPN"
-msgstr "APN"
+msgstr "VPN"
 
 #: ../plugins/vpn//PageComponent.qml:76
 msgid ""
 "To add a VPN configuration, download its config file or configure it "
 "manually."
 msgstr ""
+"Para añadir una configuración de la VPN, descargue su archivo de "
+"configuración o configúrela manualmente."
 
 #: ../plugins/vpn//PageComponent.qml:82
 msgid "Add Manual Configuration…"
-msgstr ""
+msgstr "Añadir configuración manual…"
 
 #: ../plugins/vpn//PageComponent.qml:115
-#, fuzzy
 msgid "VPN reconnection required."
-msgstr "Falló el servicio de conexión compartida"
+msgstr "Es necesaria la reconexión de la VPN."
 
 #: ../plugins/vpn//PageComponent.qml:116
-#, fuzzy
 msgid "You need to reconnect for changes to have an effect."
-msgstr "El teléfono necesita reiniciarse para aplicar los cambios."
+msgstr "Debe reconectarse para que los cambios tengan efecto."
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../plugins/mouse//PageComponent.qml:29 ../build/po/settings.js:210
 msgid "Mouse & Touchpad"
-msgstr ""
+msgstr "Ratón y panel táctil"
 
 #: ../plugins/mouse//None.qml:34
 msgid ""
@@ -1630,12 +1590,17 @@ msgid ""
 "Bluetooth device isn’t detected, make sure it is turned on and its batteries "
 "are charged."
 msgstr ""
+"Conecte un ratón o panel táctil mediante USB o use un aparato Bluetooth. Si "
+"un aparato Bluetooth no es detectado, asegúrese de que está encendido y de "
+"que su batería está cargada."
 
 #: ../plugins/mouse//None.qml:36
 msgid ""
 "You need to use a Bluetooth mouse or touchpad with this display. Make sure "
 "it is close to the device and its batteries are charged."
 msgstr ""
+"Necesita usar un ratón Bluetooth o panel táctil con esta pantalla. Asegúrese "
+"de que está cercano al aparato y de que su batería está cargada."
 
 #: ../plugins/mouse//Connected.qml:48 ../plugins/bluetooth//DevicePage.qml:59
 msgid "Mouse"
@@ -1643,70 +1608,67 @@ msgstr "Ratón"
 
 #: ../plugins/mouse//Connected.qml:62 ../plugins/mouse//Connected.qml:228
 msgid "Cursor speed:"
-msgstr ""
+msgstr "Velocidad del puntero:"
 
 #: ../plugins/mouse//Connected.qml:98
 msgid "Wheel scrolling speed:"
-msgstr ""
+msgstr "Velocidad de desplazamiento de la rueda:"
 
 #: ../plugins/mouse//Connected.qml:134 ../plugins/mouse//Connected.qml:301
 msgid "Double-click speed:"
-msgstr ""
+msgstr "Velocidad de doble pulsación:"
 
 #: ../plugins/mouse//Connected.qml:168 ../plugins/mouse//Connected.qml:335
 msgid "Test double-click:"
-msgstr ""
+msgstr "Probar doble pulsación:"
 
 #: ../plugins/mouse//Connected.qml:214
 msgid "Touchpad"
-msgstr ""
+msgstr "Panel táctil"
 
 #: ../plugins/mouse//Connected.qml:264
 msgid "Finger scrolling speed:"
-msgstr ""
+msgstr "Velocidad de desplazamiento con el dedo:"
 
 #: ../plugins/mouse//Connected.qml:389
 msgid "Tap to click"
-msgstr ""
+msgstr "Toque para pulsar"
 
 #: ../plugins/mouse//Connected.qml:403
 msgid "Scroll with two fingers"
-msgstr ""
+msgstr "Desplazamiento con dos dedos"
 
 #: ../plugins/mouse//Connected.qml:410
 msgid "Ignore touchpad when:"
-msgstr ""
+msgstr "Ignorar el panel táctil cuando:"
 
 #: ../plugins/mouse//Connected.qml:432
 msgid "Typing"
-msgstr ""
+msgstr "Teclear"
 
 #: ../plugins/mouse//Connected.qml:446
-#, fuzzy
 msgid "A mouse is connected"
-msgstr "Desconectado"
+msgstr "Un ratón está conectado"
 
 #: ../plugins/mouse//PrimaryButtonSelector.qml:42
 msgid "Primary button:"
-msgstr ""
+msgstr "Botón primario:"
 
 #: ../plugins/mouse//PrimaryButtonSelector.qml:72
 msgid "Left"
-msgstr ""
+msgstr "Izquierdo"
 
 #: ../plugins/mouse//PrimaryButtonSelector.qml:89
-#, fuzzy
 msgid "Right"
-msgstr "vuelo"
+msgstr "Derecho"
 
 #: ../plugins/mouse//TapArea.qml:38
-#, fuzzy
 msgid "Not fast enough"
-msgstr "No enviados"
+msgstr "No suficientemente rápido"
 
 #: ../plugins/mouse//TapArea.qml:77
 msgid "Double-clicked"
-msgstr ""
+msgstr "Pulsado doble"
 
 #: ../plugins/reset//ResetAllSettings.qml:29
 msgid ""
@@ -1721,9 +1683,8 @@ msgid "Reset all system settings"
 msgstr "Restablecer toda la configuración"
 
 #: ../plugins/reset//PageComponent.qml:32
-#, fuzzy
 msgid "Reset device"
-msgstr "dispositivo"
+msgstr "Reiniciar el aparato"
 
 #: ../plugins/reset//PageComponent.qml:75
 #: ../plugins/reset//PageComponent.qml:86
@@ -1738,22 +1699,20 @@ msgstr "Restablecer toda la configuración del sistema…"
 
 #: ../plugins/reset//PageComponent.qml:126
 #: ../plugins/reset//PageComponent.qml:138
-#, fuzzy
 msgid "Erase & Reset All"
-msgstr "Eliminar y reiniciar todo"
+msgstr "Borrar y reiniciar todo"
 
 #: ../plugins/reset//ResetLauncherHome.qml:40
 msgid "The Launcher will be returned to its original contents."
 msgstr "El lanzador volverá a su contenido original."
 
 #: ../plugins/reset//EraseEverything.qml:41
-#, fuzzy
 msgid ""
 "All documents, saved games, settings, and other items will be permanently "
 "deleted from this device."
 msgstr ""
-"Se eliminarán permanentemente del teléfono todos los documentos, partidas "
-"guardadas, configuraciones y otros elementos."
+"Todos los documentos, juegos salvados, configuraciones y otros elementos "
+"serán eliminados permanentemente de este aparato."
 
 #: ../plugins/reset//EraseEverything.qml:44
 msgid "Erase & Reset Everything"
@@ -1944,7 +1903,7 @@ msgstr "Esto inhabilita %1."
 
 #: ../plugins/cellular//PageChooseApn.qml:302
 msgid "Delete"
-msgstr ""
+msgstr "Eliminar"
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../plugins/cellular//PageComponent.qml:32 ../build/po/settings.js:254
@@ -2053,9 +2012,8 @@ msgstr "IPv4v6"
 
 #: ../plugins/cellular//PageCarrierAndApn.qml:27
 #: ../plugins/cellular//Components//SingleSim.qml:110
-#, fuzzy
 msgid "Carrier & APN"
-msgstr "Operador"
+msgstr "Operador y nombre del punto de acceso"
 
 #: ../plugins/cellular//PageCarrierAndApn.qml:44
 #: ../plugins/cellular//PageCarrierAndApn.qml:52
@@ -2066,9 +2024,8 @@ msgid "Carrier"
 msgstr "Operador"
 
 #: ../plugins/cellular//PageCarriersAndApns.qml:27
-#, fuzzy
 msgid "Carriers & APNs"
-msgstr "Operadores"
+msgstr "Operadores y nombres de los puntos de acceso"
 
 #: ../plugins/cellular//PageChooseCarrier.qml:153
 #: ../plugins/time-date//ChooseTimeZone.qml:50
@@ -2378,19 +2335,19 @@ msgstr "Año"
 
 #: ../plugins/launcher//PageComponent.qml:64
 msgid "On large screens:"
-msgstr ""
+msgstr "En pantallas grandes:"
 
 #: ../plugins/launcher//PageComponent.qml:72
 msgid "Always show the launcher"
-msgstr ""
+msgstr "Mostrar siempre el lanzador"
 
 #: ../plugins/launcher//PageComponent.qml:73
 msgid "Videos and full-screen games may hide it temporarily."
-msgstr ""
+msgstr "Vídeos y juegos a pantalla completa pueden ocultarlo temporalmente."
 
 #: ../plugins/launcher//PageComponent.qml:84
 msgid "Icon size:"
-msgstr ""
+msgstr "Tamaño de icono:"
 
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../plugins/phone//PageComponent.qml:32
@@ -2512,19 +2469,18 @@ msgid "Some calls"
 msgstr "Algunas llamadas"
 
 #: ../plugins/brightness//WifiDisplaysAlert.qml:32
-#, fuzzy, qt-format
+#, qt-format
 msgid "This device failed to connect to %1."
-msgstr "Esto desconecta %1."
+msgstr "Este aparato no pudo conectarse a %1."
 
 #: ../plugins/brightness//WifiDisplaysAlert.qml:34
 #, qt-format
 msgid "There was an unknown error connecting to %1."
-msgstr ""
+msgstr "Hubo un error desconocido conectando a %1."
 
 #: ../plugins/brightness//PageComponent.qml:35
-#, fuzzy
 msgid "Brightness & Display"
-msgstr "Brillo"
+msgstr "Brillo y pantalla"
 
 #. TRANSLATORS: This is a keyword or name for the brightness plugin which is used while searching
 #: ../plugins/brightness//PageComponent.qml:35 ../build/po/settings.js:344
@@ -2540,50 +2496,42 @@ msgid "Brightens and dims the display to suit the surroundings."
 msgstr "Aumenta o disminuye el brillo de la pantalla según la luz ambiental."
 
 #: ../plugins/brightness//PageComponent.qml:140
-#, fuzzy
 msgid "External display"
-msgstr "mostrar"
+msgstr "Pantalla externa"
 
 #: ../plugins/brightness//PageComponent.qml:158
-#, fuzzy
 msgid "Wireless display"
-msgstr "mostrar"
+msgstr "Pantalla inalámbrica"
 
 #: ../plugins/brightness//PageComponent.qml:159
 #: ../plugins/brightness//WifiDisplays.qml:127
 #: ../plugins/brightness//WifiDisplays.qml:171
-#, fuzzy
 msgid "Not connected"
-msgstr "Última conexión"
+msgstr "No conectado"
 
 #: ../plugins/brightness//WifiDisplays.qml:27
 msgid "Wireless Display"
-msgstr ""
+msgstr "Pantalla inalámbrica"
 
 #: ../plugins/brightness//WifiDisplays.qml:99
-#, fuzzy
 msgid "No displays detected"
-msgstr "Ninguna tarjeta SIM detectada"
+msgstr "Ninguna pantalla detectada"
 
 #: ../plugins/brightness//WifiDisplays.qml:112
-#, fuzzy
 msgid "Connected display:"
-msgstr "Dispositivos conectados:"
+msgstr "Pantalla conectada:"
 
 #: ../plugins/brightness//WifiDisplays.qml:127
-#, fuzzy
 msgid "Connecting"
-msgstr "Conectando…"
+msgstr "Conectando"
 
 #: ../plugins/brightness//WifiDisplays.qml:145
-#, fuzzy
 msgid "Use another display:"
-msgstr "Conectar otro dispositivo:"
+msgstr "Usar otra pantalla:"
 
 #: ../plugins/brightness//WifiDisplays.qml:145
-#, fuzzy
 msgid "Choose a display:"
-msgstr "Elegir un nombre"
+msgstr "Elegir una pantalla:"
 
 #: ../plugins/bluetooth//DisplayPasskeyDialog.qml:26
 #: ../plugins/bluetooth//ProvidePasskeyDialog.qml:28
@@ -2612,9 +2560,8 @@ msgstr "No visible"
 
 #: ../plugins/bluetooth//PageComponent.qml:263
 #: ../plugins/bluetooth//PageComponent.qml:320
-#, fuzzy
 msgid "Searching…"
-msgstr "Reiniciando…"
+msgstr "Buscando…"
 
 #: ../plugins/bluetooth//PageComponent.qml:272
 msgid "Connected devices:"
@@ -2821,14 +2768,12 @@ msgstr "Ninguna tarjeta SIM detectada"
 
 #: ../plugins/cellular//Components//NoSim.qml:45
 #: ../plugins/cellular//Components//DataMultiSim.qml:81
-#, fuzzy
 msgid "Insert a SIM, then restart the device."
-msgstr "Inserte una tarjeta SIM, después reinicie el teléfono."
+msgstr "Inserte una tarjeta SIM, después reinicie el aparato."
 
 #: ../plugins/cellular//Components//DataMultiSim.qml:36
-#, fuzzy
 msgid "Cellular data"
-msgstr "Datos móviles:"
+msgstr "Datos del móvil"
 
 #: ../plugins/cellular//Components//DataMultiSim.qml:147
 #: ../plugins/cellular//Components//SingleSim.qml:92
@@ -3358,14 +3303,13 @@ msgstr "desconectar"
 
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../build/po/settings.js:200
-#, fuzzy
 msgid "vpn"
-msgstr "pin"
+msgstr "vpn"
 
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../build/po/settings.js:202
 msgid "openvpn"
-msgstr ""
+msgstr "openvpn"
 
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
@@ -3376,34 +3320,32 @@ msgstr "ip"
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../build/po/settings.js:208
 msgid "routing"
-msgstr ""
+msgstr "encaminamiento"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../build/po/settings.js:212
-#, fuzzy
 msgid "mouse"
-msgstr "Ratón"
+msgstr "ratón"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../build/po/settings.js:214
 msgid "touchpad"
-msgstr ""
+msgstr "panel táctil"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../build/po/settings.js:216
-#, fuzzy
 msgid "tap"
-msgstr "APN"
+msgstr "pulsar"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../build/po/settings.js:218
 msgid "touch"
-msgstr ""
+msgstr "tocar"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../build/po/settings.js:222
 msgid "input"
-msgstr ""
+msgstr "entrada"
 
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../build/po/settings.js:226
@@ -3579,9 +3521,8 @@ msgstr "zona horaria"
 
 #. TRANSLATORS: This is a keyword or name for the launcher plugin which is used while searching
 #: ../build/po/settings.js:322
-#, fuzzy
 msgid "launcher"
-msgstr "Lanzador"
+msgstr "lanzador"
 
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../build/po/settings.js:330
