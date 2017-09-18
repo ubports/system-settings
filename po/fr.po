@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
 "PO-Revision-Date: 2017-09-18 19:49+0000\n"
-"Last-Translator: Anne Onyme <anneonyme017@openmailbox.org>\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: French <https://translate.ubports.com/projects/ubports/system-"
 "settings/fr/>\n"
 "Language: fr\n"
@@ -817,9 +817,8 @@ msgid "Display language…"
 msgstr "Afficher la langue…"
 
 #: ../plugins/language//PageComponent.qml:155
-#, fuzzy
 msgid "On-screen keyboard"
-msgstr "clavier"
+msgstr "Clavier virtuel"
 
 #: ../plugins/language//PageComponent.qml:156
 #: ../plugins/language//KeyboardLayouts.qml:29
@@ -827,9 +826,8 @@ msgid "Keyboard layouts"
 msgstr "Agencements du clavier"
 
 #: ../plugins/language//PageComponent.qml:167
-#, fuzzy
 msgid "External keyboard"
-msgstr "clavier"
+msgstr "Clavier externe"
 
 #: ../plugins/language//PageComponent.qml:181
 #: ../plugins/language//PageComponent.qml:191
@@ -890,9 +888,8 @@ msgid "All layouts available:"
 msgstr "Tous les agencements disponibles :"
 
 #: ../plugins/language//RebootNecessary.qml:34
-#, fuzzy
 msgid "The device needs to restart for changes to take effect."
-msgstr "Le téléphone doit redémarrer pour que les changements prennent effet."
+msgstr "L'appareil doit redémarrer pour que les changements prennent effet."
 
 #: ../plugins/language//RebootNecessary.qml:38
 msgid "Restart Now"
@@ -907,13 +904,12 @@ msgid "All languages available:"
 msgstr "Toutes les langues disponibles :"
 
 #: ../plugins/language//PageHardwareKeyboard.qml:33
-#, fuzzy
 msgid "Hardware keyboard"
-msgstr "clavier"
+msgstr "Clavier physique"
 
 #: ../plugins/language//PageHardwareKeyboard.qml:61
 msgid "Layouts and other sources"
-msgstr ""
+msgstr "Agencement et autres sources"
 
 #: ../plugins/about//Storage.qml:32 ../plugins/about//PageComponent.qml:150
 msgid "Storage"
