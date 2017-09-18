@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-18 20:02+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2017-09-18 20:03+0000\n"
+"Last-Translator: Anne Onyme <anneonyme017@openmailbox.org>\n"
 "Language-Team: French <https://translate.ubports.com/projects/ubports/system-"
 "settings/fr/>\n"
 "Language: fr\n"
@@ -1656,11 +1656,11 @@ msgstr "Faire défiler avec deux doigts"
 
 #: ../plugins/mouse//Connected.qml:410
 msgid "Ignore touchpad when:"
-msgstr "Ignorer le pavé tactile quand:"
+msgstr "Ignorer le pavé tactile quand :"
 
 #: ../plugins/mouse//Connected.qml:432
 msgid "Typing"
-msgstr ""
+msgstr "Une saisie est effectuée"
 
 #: ../plugins/mouse//Connected.qml:446
 #, fuzzy
