@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
 "PO-Revision-Date: 2017-09-18 19:57+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"Last-Translator: Anne Onyme <anneonyme017@openmailbox.org>\n"
 "Language-Team: French <https://translate.ubports.com/projects/ubports/system-"
 "settings/fr/>\n"
 "Language: fr\n"
@@ -1588,7 +1588,7 @@ msgstr "Ajouter une configuration manuelle..."
 
 #: ../plugins/vpn//PageComponent.qml:115
 msgid "VPN reconnection required."
-msgstr "Reconnexion au VPN requise."
+msgstr "Reconnexion au RPV nécessaire."
 
 #: ../plugins/vpn//PageComponent.qml:116
 #, fuzzy
