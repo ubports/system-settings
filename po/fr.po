@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-18 19:45+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2017-09-18 19:46+0000\n"
+"Last-Translator: Anne Onyme <anneonyme017@openmailbox.org>\n"
 "Language-Team: French <https://translate.ubports.com/projects/ubports/system-"
 "settings/fr/>\n"
 "Language: fr\n"
@@ -755,7 +755,7 @@ msgstr "Ne pas vibrer"
 
 #: ../plugins/notifications//ClickAppsVibrationsNotify.qml:89
 msgid "Apps that notify with vibrations:"
-msgstr "Applications qui signalent les notifications en vibrant"
+msgstr "Applications qui signalent les notifications en vibrant :"
 
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../plugins/notifications//ClickAppsSoundsNotify.qml:30
