@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-18 19:54+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2017-09-18 19:56+0000\n"
+"Last-Translator: Anne Onyme <anneonyme017@openmailbox.org>\n"
 "Language-Team: French <https://translate.ubports.com/projects/ubports/system-"
 "settings/fr/>\n"
 "Language: fr\n"
@@ -1466,11 +1466,10 @@ msgid "Notifications and quick settings"
 msgstr "Notifications et réglages rapides"
 
 #: ../plugins/security-privacy//PhoneLocking.qml:158
-#, fuzzy
 msgid "Turn on lock security to restrict access when the device is locked."
 msgstr ""
-"Activez la sécurité de verrouillage pour restreindre les accès lorsque le "
-"téléphone est verrouillé."
+"Activer la sécurité de verrouillage pour restreindre l'accès lorsque "
+"l'appareil est verrouillé."
 
 #: ../plugins/security-privacy//PhoneLocking.qml:159
 msgid "Other apps and functions will prompt you to unlock."
@@ -1556,14 +1555,13 @@ msgid "Unlock…"
 msgstr "Déverrouiller…"
 
 #: ../plugins/security-privacy//SimPin.qml:443
-#, fuzzy
 msgid ""
 "When a SIM PIN is set, it must be entered to access cellular services after "
 "restarting the device or swapping the SIM."
 msgstr ""
-"Lorsqu'un code PIN de carte SIM est définit, il doit être saisi pour accéder "
-"aux services du portable après le redémarrage du téléphone ou après "
-"l'échange de carte SIM."
+"Lorsqu'un code PIN de carte SIM est défini, il doit être saisi pour accéder "
+"aux services du portable après le redémarrage de l'appareil ou après "
+"l'échange de la carte SIM."
 
 #: ../plugins/security-privacy//SimPin.qml:447
 msgid "Entering an incorrect PIN repeatedly may lock the SIM permanently."
@@ -1573,9 +1571,8 @@ msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../plugins/vpn//PageComponent.qml:31 ../build/po/settings.js:192
-#, fuzzy
 msgid "VPN"
-msgstr "Nom du point d'accès"
+msgstr "RPV"
 
 #: ../plugins/vpn//PageComponent.qml:76
 msgid ""
