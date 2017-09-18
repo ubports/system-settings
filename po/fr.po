@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-18 20:15+0000\n"
+"PO-Revision-Date: 2017-09-18 20:18+0000\n"
 "Last-Translator: Anne Onyme <anneonyme017@openmailbox.org>\n"
 "Language-Team: French <https://translate.ubports.com/projects/ubports/system-"
 "settings/fr/>\n"
@@ -44,7 +44,7 @@ msgstr "Stable"
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
 msgid "Release candidate"
-msgstr "Version admissible"
+msgstr "Candidate"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
@@ -57,7 +57,7 @@ msgstr "Recherche de canaux"
 
 #: ../plugins/system-update//ChannelSettings.qml:109
 msgid "Channel to get updates from:"
-msgstr "Canal sur lequel obtenir les mises à jour:"
+msgstr "Canal à partir duquel obtenir des mises à jour :"
 
 #: ../plugins/system-update//ChannelSettings.qml:125
 msgid "Switching channel"
@@ -1584,7 +1584,7 @@ msgstr ""
 
 #: ../plugins/vpn//PageComponent.qml:82
 msgid "Add Manual Configuration…"
-msgstr "Ajouter une configuration manuelle..."
+msgstr "Ajouter une configuration manuelle…"
 
 #: ../plugins/vpn//PageComponent.qml:115
 msgid "VPN reconnection required."
@@ -2363,7 +2363,7 @@ msgstr "Toujours afficher le lanceur"
 
 #: ../plugins/launcher//PageComponent.qml:73
 msgid "Videos and full-screen games may hide it temporarily."
-msgstr "Les vidéos et les jeux en plein écran peuvent le cacher temporairement"
+msgstr "Les vidéos et les jeux en plein écran peuvent le cacher temporairement."
 
 #: ../plugins/launcher//PageComponent.qml:84
 msgid "Icon size:"
