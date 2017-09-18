@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-07 19:36+0000\n"
-"Last-Translator: Anne Onyme <anneonyme017@openmailbox.org>\n"
-"Language-Team: French <https://ubpweblate.tnvcomp.com/projects/ubports/"
-"system-settings/fr/>\n"
+"PO-Revision-Date: 2017-09-18 09:17+0000\n"
+"Last-Translator: RedXXIII <adered7@gmail.com>\n"
+"Language-Team: French <https://translate.ubports.com/projects/ubports/system-"
+"settings/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -238,7 +238,7 @@ msgstr "Vérification des mises à jour…"
 
 #: ../plugins/system-update//Global.qml:89
 msgid "Stop"
-msgstr ""
+msgstr "Arrêter"
 
 #. TRANSLATORS: %1 is number of software updates available.
 #: ../plugins/system-update//Global.qml:116
@@ -288,7 +288,7 @@ msgstr "Installer"
 
 #: ../plugins/system-update//UpdateDelegate.qml:149
 msgid "Open"
-msgstr ""
+msgstr "Ouvrir"
 
 #: ../plugins/system-update//UpdateDelegate.qml:228
 msgid "Installing"
@@ -996,9 +996,8 @@ msgstr "Par taille"
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../plugins/about//PageComponent.qml:35 ../build/po/settings.js:132
-#, fuzzy
 msgid "About"
-msgstr "à propos"
+msgstr "A propos de"
 
 #: ../plugins/about//PageComponent.qml:99
 msgid "Serial"
@@ -1964,7 +1963,7 @@ msgstr "Ceci désactive %1."
 
 #: ../plugins/cellular//PageChooseApn.qml:302
 msgid "Delete"
-msgstr ""
+msgstr "Supprimer"
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../plugins/cellular//PageComponent.qml:32 ../build/po/settings.js:254
