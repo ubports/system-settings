@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
 "PO-Revision-Date: 2017-09-18 20:21+0000\n"
-"Last-Translator: Anne Onyme <anneonyme017@openmailbox.org>\n"
+"Last-Translator: RedXXIII <adered7@gmail.com>\n"
 "Language-Team: French <https://translate.ubports.com/projects/ubports/system-"
 "settings/fr/>\n"
 "Language: fr\n"
@@ -573,7 +573,7 @@ msgstr ""
 #: ../plugins/battery//SleepValues.qml:130
 msgid "Device won’t sleep during calls or video playback."
 msgstr ""
-"L'appareil ne se mettra pas en veille pendant les appels ou la lecture d'une "
+"L'appareil ne se mettra pas en veille lors d'un appel ou de la lecture d'une "
 "vidéo."
 
 #. TRANSLATORS: This is a keyword or name for the battery plugin which is used while searching
