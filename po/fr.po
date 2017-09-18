@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-18 20:12+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2017-09-18 20:13+0000\n"
+"Last-Translator: Anne Onyme <anneonyme017@openmailbox.org>\n"
 "Language-Team: French <https://translate.ubports.com/projects/ubports/system-"
 "settings/fr/>\n"
 "Language: fr\n"
@@ -2772,11 +2772,11 @@ msgstr "Signaler à Canonical :"
 
 #: ../plugins/security-privacy//diagnostics//PageComponent.qml:80
 msgid "App crashes and errors"
-msgstr "les plantages et les erreurs des applications"
+msgstr "Les plantages et les erreurs des applications"
 
 #: ../plugins/security-privacy//diagnostics//PageComponent.qml:86
 msgid "Previous error reports"
-msgstr "les rapports d'erreur précédents"
+msgstr "Les rapports d'erreur précédents"
 
 #: ../plugins/security-privacy//diagnostics//PageComponent.qml:96
 msgid "Includes info about what an app was doing when it failed."
@@ -2791,14 +2791,12 @@ msgstr "Aucune carte SIM détectée"
 
 #: ../plugins/cellular//Components//NoSim.qml:45
 #: ../plugins/cellular//Components//DataMultiSim.qml:81
-#, fuzzy
 msgid "Insert a SIM, then restart the device."
-msgstr "Insérez une carte SIM, puis redémarrez le téléphone."
+msgstr "Insérez une carte SIM, puis redémarrez l'appareil."
 
 #: ../plugins/cellular//Components//DataMultiSim.qml:36
-#, fuzzy
 msgid "Cellular data"
-msgstr "Données cellulaires :"
+msgstr "Données cellulaires"
 
 #: ../plugins/cellular//Components//DataMultiSim.qml:147
 #: ../plugins/cellular//Components//SingleSim.qml:92
@@ -3329,9 +3327,8 @@ msgstr "déconnecter"
 
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../build/po/settings.js:200
-#, fuzzy
 msgid "vpn"
-msgstr "pin"
+msgstr "rpv"
 
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../build/po/settings.js:202
