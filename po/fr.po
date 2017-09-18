@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
 "PO-Revision-Date: 2017-09-18 19:59+0000\n"
-"Last-Translator: Anne Onyme <anneonyme017@openmailbox.org>\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: French <https://translate.ubports.com/projects/ubports/system-"
 "settings/fr/>\n"
 "Language: fr\n"
@@ -1614,6 +1614,9 @@ msgid ""
 "You need to use a Bluetooth mouse or touchpad with this display. Make sure "
 "it is close to the device and its batteries are charged."
 msgstr ""
+"Vous devez utiliser une souris ou un pavé tactile Bluetooth avec cet "
+"affichage. Assurez-vous qu'il est à proximité de l'appareil et que sa "
+"batterie est chargée."
 
 #: ../plugins/mouse//Connected.qml:48 ../plugins/bluetooth//DevicePage.qml:59
 msgid "Mouse"
@@ -1621,7 +1624,7 @@ msgstr "Souris"
 
 #: ../plugins/mouse//Connected.qml:62 ../plugins/mouse//Connected.qml:228
 msgid "Cursor speed:"
-msgstr ""
+msgstr "Vitesse du pointeur:"
 
 #: ../plugins/mouse//Connected.qml:98
 msgid "Wheel scrolling speed:"
