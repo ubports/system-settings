@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-18 20:05+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2017-09-18 20:07+0000\n"
+"Last-Translator: Anne Onyme <anneonyme017@openmailbox.org>\n"
 "Language-Team: French <https://translate.ubports.com/projects/ubports/system-"
 "settings/fr/>\n"
 "Language: fr\n"
@@ -1715,7 +1715,6 @@ msgstr "Réinitialiser tous les paramètres du système…"
 
 #: ../plugins/reset//PageComponent.qml:126
 #: ../plugins/reset//PageComponent.qml:138
-#, fuzzy
 msgid "Erase & Reset All"
 msgstr "Effacer et tout réinitialiser"
 
@@ -1724,13 +1723,12 @@ msgid "The Launcher will be returned to its original contents."
 msgstr "Le contenu initial du lanceur sera restauré."
 
 #: ../plugins/reset//EraseEverything.qml:41
-#, fuzzy
 msgid ""
 "All documents, saved games, settings, and other items will be permanently "
 "deleted from this device."
 msgstr ""
-"Tous les documents, sauvegardes de jeux, paramètres et autres éléments vont "
-"être supprimés définitivement de ce téléphone."
+"Tous les documents, les sauvegardes de jeux, les paramètres et les autres "
+"éléments vont être supprimés définitivement de cet appareil."
 
 #: ../plugins/reset//EraseEverything.qml:44
 msgid "Erase & Reset Everything"
@@ -2033,9 +2031,8 @@ msgstr "IPv4v6"
 
 #: ../plugins/cellular//PageCarrierAndApn.qml:27
 #: ../plugins/cellular//Components//SingleSim.qml:110
-#, fuzzy
 msgid "Carrier & APN"
-msgstr "Opérateur"
+msgstr "Opérateur et nom du point d'accès"
 
 #: ../plugins/cellular//PageCarrierAndApn.qml:44
 #: ../plugins/cellular//PageCarrierAndApn.qml:52
@@ -2046,9 +2043,8 @@ msgid "Carrier"
 msgstr "Opérateur"
 
 #: ../plugins/cellular//PageCarriersAndApns.qml:27
-#, fuzzy
 msgid "Carriers & APNs"
-msgstr "Opérateurs"
+msgstr "Opérateurs et noms des points d'accès"
 
 #: ../plugins/cellular//PageChooseCarrier.qml:153
 #: ../plugins/time-date//ChooseTimeZone.qml:50
