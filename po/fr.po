@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-18 20:04+0000\n"
-"Last-Translator: Anne Onyme <anneonyme017@openmailbox.org>\n"
+"PO-Revision-Date: 2017-09-18 20:05+0000\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: French <https://translate.ubports.com/projects/ubports/system-"
 "settings/fr/>\n"
 "Language: fr\n"
@@ -1672,21 +1672,19 @@ msgstr "Bouton principal :"
 
 #: ../plugins/mouse//PrimaryButtonSelector.qml:72
 msgid "Left"
-msgstr ""
+msgstr "Gauche"
 
 #: ../plugins/mouse//PrimaryButtonSelector.qml:89
-#, fuzzy
 msgid "Right"
-msgstr "vol"
+msgstr "Droit"
 
 #: ../plugins/mouse//TapArea.qml:38
-#, fuzzy
 msgid "Not fast enough"
-msgstr "Non envoyé"
+msgstr "Pas assez rapide"
 
 #: ../plugins/mouse//TapArea.qml:77
 msgid "Double-clicked"
-msgstr ""
+msgstr "Double-cliqué"
 
 #: ../plugins/reset//ResetAllSettings.qml:29
 msgid ""
@@ -1701,9 +1699,8 @@ msgid "Reset all system settings"
 msgstr "Réinitialiser tous les paramètres du système"
 
 #: ../plugins/reset//PageComponent.qml:32
-#, fuzzy
 msgid "Reset device"
-msgstr "périphérique"
+msgstr "Réinitialiser l'appareil"
 
 #: ../plugins/reset//PageComponent.qml:75
 #: ../plugins/reset//PageComponent.qml:86
