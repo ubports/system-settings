@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-18 20:14+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2017-09-18 20:15+0000\n"
+"Last-Translator: Anne Onyme <anneonyme017@openmailbox.org>\n"
 "Language-Team: French <https://translate.ubports.com/projects/ubports/system-"
 "settings/fr/>\n"
 "Language: fr\n"
@@ -3359,7 +3359,7 @@ msgstr "pavé tactile"
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../build/po/settings.js:216
 msgid "tap"
-msgstr "toucher"
+msgstr "appuyer"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../build/po/settings.js:218
