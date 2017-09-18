@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-18 20:10+0000\n"
-"Last-Translator: Anne Onyme <anneonyme017@openmailbox.org>\n"
+"PO-Revision-Date: 2017-09-18 20:11+0000\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: French <https://translate.ubports.com/projects/ubports/system-"
 "settings/fr/>\n"
 "Language: fr\n"
@@ -2542,14 +2542,12 @@ msgid "Connected display:"
 msgstr "Écran connecté :"
 
 #: ../plugins/brightness//WifiDisplays.qml:127
-#, fuzzy
 msgid "Connecting"
-msgstr "Connexion…"
+msgstr "Connexion"
 
 #: ../plugins/brightness//WifiDisplays.qml:145
-#, fuzzy
 msgid "Use another display:"
-msgstr "Connecter un autre appareil :"
+msgstr "Utiliser un autre écran:"
 
 #: ../plugins/brightness//WifiDisplays.qml:145
 #, fuzzy
