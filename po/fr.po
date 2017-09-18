@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-18 19:53+0000\n"
-"Last-Translator: Anne Onyme <anneonyme017@openmailbox.org>\n"
+"PO-Revision-Date: 2017-09-18 19:54+0000\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: French <https://translate.ubports.com/projects/ubports/system-"
 "settings/fr/>\n"
 "Language: fr\n"
@@ -1277,9 +1277,8 @@ msgid "Not sent"
 msgstr "Non envoyé"
 
 #: ../plugins/security-privacy//Location.qml:96
-#, fuzzy
 msgid "Let the device detect your location:"
-msgstr "Laisser le téléphone détecter votre position :"
+msgstr "Laisser l'appareil détecter votre position :"
 
 #: ../plugins/security-privacy//Location.qml:175
 msgid "Using GPS only (less accurate)"
@@ -1300,14 +1299,14 @@ msgstr ""
 "href='%1'>conditions d'utilisation de Nokia HERE</a>."
 
 #: ../plugins/security-privacy//Location.qml:189
-#, fuzzy, qt-format
+#, qt-format
 msgid ""
 "Using GPS and anonymized Wi-Fi info.<br>By selecting this option you accept "
 "the <a href='%1'>Nokia HERE terms and conditions</a>."
 msgstr ""
-"Utilisation des informations du GPS, du Wi-Fi anonymisé et du réseau "
-"cellulaire. <br>En sélectionnant cette option, vous acceptez les <a "
-"href='%1'>conditions d'utilisation de Nokia HERE</a>."
+"Utilisation du GPS et des données Wi-Fi rendues anonymes. <br>En "
+"sélectionnant cette option, vous acceptez les <a href='%1'>conditions "
+"d'utilisation de Nokia HERE</a>."
 
 #: ../plugins/security-privacy//Location.qml:195
 msgid "Not at all"
