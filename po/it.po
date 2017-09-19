@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-17 21:46+0000\n"
-"Last-Translator: Gabriele <gabrielemartelli@tiscali.it>\n"
+"PO-Revision-Date: 2017-09-19 16:06+0000\n"
+"Last-Translator: Mike <miguel2000@livecom.it>\n"
 "Language-Team: Italian <https://translate.ubports.com/projects/ubports"
 "/system-settings/it/>\n"
 "Language: it\n"
@@ -34,7 +34,7 @@ msgstr "Preferenze;Impostazioni;"
 
 #: ../plugins/system-update//ChannelSettings.qml:32
 msgid "Channel settings"
-msgstr ""
+msgstr "Impostazioni canale"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
@@ -54,16 +54,17 @@ msgid "Development"
 msgstr "Modalità sviluppatore"
 
 #: ../plugins/system-update//ChannelSettings.qml:99
+#, fuzzy
 msgid "Fetching channels"
-msgstr ""
+msgstr "Recuperando canali"
 
 #: ../plugins/system-update//ChannelSettings.qml:109
 msgid "Channel to get updates from:"
-msgstr ""
+msgstr "Canale da cui prendere gli aggiornamenti:"
 
 #: ../plugins/system-update//ChannelSettings.qml:125
 msgid "Switching channel"
-msgstr ""
+msgstr "Cambiando canale"
 
 #: ../plugins/system-update//Configuration.qml:30
 #: ../plugins/system-update//UpdateSettings.qml:42
@@ -113,8 +114,9 @@ msgid "Software is up to date"
 msgstr "Il software è aggiornato"
 
 #: ../plugins/system-update//PageComponent.qml:187
+#, fuzzy
 msgid "The update server is not responding. Try again later."
-msgstr ""
+msgstr "Il server di aggiornamento non sta rispondendo. Riprova più tardi."
 
 #: ../plugins/system-update//PageComponent.qml:196
 #, fuzzy
@@ -168,7 +170,7 @@ msgstr ""
 #: ../plugins/system-update//ImageSwitchPrompt.qml:38
 #: ../plugins/system-update//ImageUpdatePrompt.qml:38
 msgid "Restart & Install"
-msgstr ""
+msgstr "Riavvia & Installa"
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:48
 #: ../plugins/system-update//ImageUpdatePrompt.qml:48
