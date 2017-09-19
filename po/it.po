@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-19 16:28+0000\n"
-"Last-Translator: Gianmarco <gianmarcoesgarix@gmail.com>\n"
+"PO-Revision-Date: 2017-09-19 16:31+0000\n"
+"Last-Translator: Mike <miguel2000@livecom.it>\n"
 "Language-Team: Italian <https://translate.ubports.com/projects/ubports"
 "/system-settings/it/>\n"
 "Language: it\n"
@@ -2410,19 +2410,19 @@ msgstr "Anno"
 
 #: ../plugins/launcher//PageComponent.qml:64
 msgid "On large screens:"
-msgstr ""
+msgstr "Su schermi grandi:"
 
 #: ../plugins/launcher//PageComponent.qml:72
 msgid "Always show the launcher"
-msgstr ""
+msgstr "Mostra sempre il launcher"
 
 #: ../plugins/launcher//PageComponent.qml:73
 msgid "Videos and full-screen games may hide it temporarily."
-msgstr ""
+msgstr "Video e giochi fullscreen potrebbero nasconderlo temporaneamente."
 
 #: ../plugins/launcher//PageComponent.qml:84
 msgid "Icon size:"
-msgstr ""
+msgstr "Dimensione icona:"
 
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../plugins/phone//PageComponent.qml:32
@@ -2551,7 +2551,7 @@ msgstr "Questo disconnette %1."
 #: ../plugins/brightness//WifiDisplaysAlert.qml:34
 #, qt-format
 msgid "There was an unknown error connecting to %1."
-msgstr ""
+msgstr "C'è stato un errore sconosciuto connettendosi a %1."
 
 #: ../plugins/brightness//PageComponent.qml:35
 #, fuzzy
@@ -2590,7 +2590,7 @@ msgstr "Ultima rete connessa"
 
 #: ../plugins/brightness//WifiDisplays.qml:27
 msgid "Wireless Display"
-msgstr ""
+msgstr "Display Wireless"
 
 #: ../plugins/brightness//WifiDisplays.qml:99
 #, fuzzy
