@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
 "PO-Revision-Date: 2017-09-20 15:18+0000\n"
-"Last-Translator: Stefano Verzegnassi <verzegnassi.stefano@gmail.com>\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Italian <https://translate.ubports.com/projects/ubports"
 "/system-settings/it/>\n"
 "Language: it\n"
@@ -2455,7 +2455,7 @@ msgstr "Inserisci numero di telefono"
 
 #: ../plugins/phone//CallForwardItem.qml:218
 msgid "Call forwarding can’t be changed right now."
-msgstr "L'inoltro di chiamata non può essere combiato adesso."
+msgstr "L'inoltro di chiamata non può essere cambiato adesso."
 
 #: ../plugins/phone//SingleSim.qml:29
 msgid "SIM"
