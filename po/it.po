@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-19 16:35+0000\n"
-"Last-Translator: Gianmarco <gianmarcoesgarix@gmail.com>\n"
+"PO-Revision-Date: 2017-09-20 15:18+0000\n"
+"Last-Translator: Stefano Verzegnassi <verzegnassi.stefano@gmail.com>\n"
 "Language-Team: Italian <https://translate.ubports.com/projects/ubports"
 "/system-settings/it/>\n"
 "Language: it\n"
@@ -38,25 +38,22 @@ msgstr "Impostazioni canale"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
-#, fuzzy
 msgid "Stable"
-msgstr "Tablet"
+msgstr "Stabile"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
 msgid "Release candidate"
-msgstr ""
+msgstr "Release candidate"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
-#, fuzzy
 msgid "Development"
-msgstr "Modalità sviluppatore"
+msgstr "Sviluppo"
 
 #: ../plugins/system-update//ChannelSettings.qml:99
-#, fuzzy
 msgid "Fetching channels"
-msgstr "Recuperando canali"
+msgstr "Recuperando informazioni sui canali di rilascio"
 
 #: ../plugins/system-update//ChannelSettings.qml:109
 msgid "Channel to get updates from:"
@@ -105,34 +102,29 @@ msgid "Updates"
 msgstr "Aggiornamenti"
 
 #: ../plugins/system-update//PageComponent.qml:182
-#, fuzzy
 msgid "Connect to the Internet to check for updates."
-msgstr "Connettersi a Internet per cercare aggiornamenti"
+msgstr "Connettersi a Internet per cercare aggiornamenti."
 
 #: ../plugins/system-update//PageComponent.qml:184
 msgid "Software is up to date"
 msgstr "Il software è aggiornato"
 
 #: ../plugins/system-update//PageComponent.qml:187
-#, fuzzy
 msgid "The update server is not responding. Try again later."
-msgstr "Il server di aggiornamento non sta rispondendo. Riprova più tardi."
+msgstr "Il server degli aggiornamenti non sta rispondendo. Riprova più tardi."
 
 #: ../plugins/system-update//PageComponent.qml:196
-#, fuzzy
 msgid "Updates Available"
 msgstr "Aggiornamenti disponibili"
 
 #: ../plugins/system-update//PageComponent.qml:349
-#, fuzzy
 msgid "Recent updates"
-msgstr "Controlla aggiornamenti"
+msgstr "Aggiornamenti recenti"
 
 #: ../plugins/system-update//PageComponent.qml:412
 #: ../plugins/system-update//UpdateSettings.qml:32
-#, fuzzy
 msgid "Update settings"
-msgstr "Impostazioni"
+msgstr "Impostazioni degli aggiornamenti"
 
 #: ../plugins/system-update//DownloadHandler.qml:174
 #: ../plugins/system-update//InstallationFailed.qml:25
@@ -154,14 +146,12 @@ msgstr "Aggiorna sistema"
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:32
 #: ../plugins/system-update//ImageUpdatePrompt.qml:32
-#, fuzzy
 msgid "The device needs to restart to install the system update."
 msgstr ""
 "Il telefono deve essere riavviato per installare l'aggiornamento di sistema."
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:33
 #: ../plugins/system-update//ImageUpdatePrompt.qml:33
-#, fuzzy
 msgid "Connect the device to power before installing the system update."
 msgstr ""
 "Collegare il telefono all'alimentazione prima di installare l'aggiornamento "
@@ -212,9 +202,9 @@ msgid "Sign In…"
 msgstr "Accedi…"
 
 #: ../plugins/system-update//ChangelogExpander.qml:42
-#, fuzzy, qt-format
+#, qt-format
 msgid "Version %1"
-msgstr "Versione 1"
+msgstr "Versione %1"
 
 #: ../plugins/system-update//UpdateSettings.qml:47
 msgid "On wi-fi"
@@ -231,9 +221,8 @@ msgid "Unknown"
 msgstr "Sconosciuto"
 
 #: ../plugins/system-update//UpdateSettings.qml:61
-#, fuzzy
 msgid "Channels"
-msgstr "Modifica"
+msgstr "Canali"
 
 #: ../plugins/system-update//Global.qml:84
 msgid "Checking for updates…"
@@ -245,21 +234,19 @@ msgstr "Ferma"
 
 #. TRANSLATORS: %1 is number of software updates available.
 #: ../plugins/system-update//Global.qml:116
-#, fuzzy, qt-format
+#, qt-format
 msgid "%1 update available"
 msgid_plural "%1 updates available"
-msgstr[0] "Aggiornamenti disponibili"
-msgstr[1] "Aggiornamenti disponibili"
+msgstr[0] "%1 aggiornamento disponibile"
+msgstr[1] "%1 aggiornamenti disponibili"
 
 #: ../plugins/system-update//Global.qml:126
-#, fuzzy
 msgid "Update all…"
-msgstr "Aggiornamenti disponibili"
+msgstr "Aggiorna tutto…"
 
 #: ../plugins/system-update//Global.qml:128
-#, fuzzy
 msgid "Update all"
-msgstr "Aggiorna"
+msgstr "Aggiorna tutto"
 
 #: ../plugins/system-update//UpdateDelegate.qml:119
 msgid "Retry"
@@ -298,14 +285,12 @@ msgid "Installing"
 msgstr "Installazione"
 
 #: ../plugins/system-update//UpdateDelegate.qml:232
-#, fuzzy
 msgid "Paused"
-msgstr "Pausa"
+msgstr "In pausa"
 
 #: ../plugins/system-update//UpdateDelegate.qml:235
-#, fuzzy
 msgid "Waiting to download"
-msgstr "Scaricamento automatico"
+msgstr "In attesa del download"
 
 #: ../plugins/system-update//UpdateDelegate.qml:238
 msgid "Downloading"
@@ -320,9 +305,8 @@ msgid "%1 of %2"
 msgstr "%1 su %2"
 
 #: ../plugins/system-update//UpdateDelegate.qml:278
-#, fuzzy
 msgid "Downloaded"
-msgstr "Scarica"
+msgstr "Scaricato"
 
 #: ../plugins/system-update//UpdateDelegate.qml:281
 msgid "Installed"
@@ -331,14 +315,13 @@ msgstr "Installato"
 #. TRANSLATORS: %1 is the date at which this
 #. update was applied.
 #: ../plugins/system-update//UpdateDelegate.qml:286
-#, fuzzy, qt-format
+#, qt-format
 msgid "Updated %1"
-msgstr "Aggiorna"
+msgstr "Aggiornato il %1"
 
 #: ../plugins/system-update//UpdateDelegate.qml:310
-#, fuzzy
 msgid "Update failed"
-msgstr "Aggiornamenti disponibili"
+msgstr "Aggiornamento fallito"
 
 #. TRANSLATORS: This is a keyword or name for the hotspot plugin which is used while searching
 #: ../plugins/hotspot//PageComponent.qml:33
@@ -548,7 +531,6 @@ msgid "Start"
 msgstr "Avvia"
 
 #: ../plugins/battery//SleepValues.qml:74
-#, fuzzy
 msgid "Lock the device when it's not in use:"
 msgstr "Bloccare il telefono quando non è in uso:"
 
@@ -559,11 +541,11 @@ msgstr "Sospendere il telefono quando non è in uso:"
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery//SleepValues.qml:86
-#, fuzzy, qt-format
+#, qt-format
 msgid "After %1 seconds"
 msgid_plural "After %1 seconds"
-msgstr[0] "Dopo %1 minuto"
-msgstr[1] "Dopo %1 minuti"
+msgstr[0] "Dopo %1 secondo"
+msgstr[1] "Dopo %1 secondi"
 
 #. TRANSLATORS: %1 is the number of minutes
 #: ../plugins/battery//SleepValues.qml:90
@@ -583,7 +565,6 @@ msgstr[0] "Dopo %1 minuto"
 msgstr[1] "Dopo %1 minuti"
 
 #: ../plugins/battery//SleepValues.qml:130
-#, fuzzy
 msgid ""
 "Shorter times are more secure. Device won't lock during calls or video "
 "playback."
@@ -1641,9 +1622,8 @@ msgstr "È necessario riavviare il telefono per rendere effettive le modifiche."
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../plugins/mouse//PageComponent.qml:29 ../build/po/settings.js:210
-#, fuzzy
 msgid "Mouse & Touchpad"
-msgstr "Mouse & Touchpad"
+msgstr "Mouse e touchpad"
 
 #: ../plugins/mouse//None.qml:34
 #, fuzzy
