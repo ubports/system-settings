@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-20 20:46+0000\n"
+"PO-Revision-Date: 2017-09-20 20:48+0000\n"
 "Last-Translator: Stefano Melchior <stefano.melchior@me.com>\n"
 "Language-Team: Italian <https://translate.ubports.com/projects/ubports"
 "/system-settings/it/>\n"
@@ -44,7 +44,7 @@ msgstr "Stabile"
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
 msgid "Release candidate"
-msgstr "Release candidate"
+msgstr "Versione candidata"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
@@ -360,7 +360,7 @@ msgstr "Il Wi-Fi è spento"
 
 #: ../plugins/hotspot//PageComponent.qml:155
 msgid "In order to create a hotspot, you need to turn Wi-Fi on."
-msgstr "Per creare un hotspot, devi accendere il Wi-Fi."
+msgstr "Per creare un hotspot, è necessario attivare il Wi-Fi."
 
 #: ../plugins/hotspot//PageComponent.qml:164
 msgid "Turn on Wi-Fi"
@@ -1206,7 +1206,7 @@ msgstr "ID dell'impronta digitale"
 #: ../plugins/security-privacy//PageComponent.qml:180
 #: ../plugins/security-privacy//PhoneLocking.qml:32
 msgid "Locking and unlocking"
-msgstr "bloccando e sbloccando"
+msgstr "Blocco e sblocco"
 
 #: ../plugins/security-privacy//PageComponent.qml:191
 #: ../plugins/security-privacy//SimPin.qml:37
