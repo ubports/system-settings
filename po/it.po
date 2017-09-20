@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-20 20:51+0000\n"
+"PO-Revision-Date: 2017-09-20 20:52+0000\n"
 "Last-Translator: Stefano Melchior <stefano.melchior@me.com>\n"
 "Language-Team: Italian <https://translate.ubports.com/projects/ubports"
 "/system-settings/it/>\n"
@@ -2531,7 +2531,7 @@ msgstr "Schermo connesso:"
 
 #: ../plugins/brightness//WifiDisplays.qml:127
 msgid "Connecting"
-msgstr "Connessione in corso…"
+msgstr "Connessione in corso"
 
 #: ../plugins/brightness//WifiDisplays.qml:145
 msgid "Use another display:"
