@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-20 20:52+0000\n"
+"PO-Revision-Date: 2017-09-20 21:04+0000\n"
 "Last-Translator: Stefano Melchior <stefano.melchior@me.com>\n"
 "Language-Team: Italian <https://translate.ubports.com/projects/ubports"
 "/system-settings/it/>\n"
@@ -254,7 +254,7 @@ msgstr "Riprova"
 
 #: ../plugins/system-update//UpdateDelegate.qml:124
 msgid "Update"
-msgstr "Aggiorna"
+msgstr "Aggiornare"
 
 #: ../plugins/system-update//UpdateDelegate.qml:126
 msgid "Download"
@@ -364,7 +364,7 @@ msgstr "Per creare un hotspot, è necessario attivare il Wi-Fi."
 
 #: ../plugins/hotspot//PageComponent.qml:164
 msgid "Turn on Wi-Fi"
-msgstr "Accendi il Wi-Fi"
+msgstr "Accendere il Wi-Fi"
 
 #: ../plugins/hotspot//Common.qml:34 ../plugins/wifi//Common.qml:36
 msgid "Unknown error"
@@ -894,7 +894,7 @@ msgstr ""
 
 #: ../plugins/language//RebootNecessary.qml:38
 msgid "Restart Now"
-msgstr "Riavvia adesso"
+msgstr "Riavviare adesso"
 
 #: ../plugins/language//SpellChecking.qml:62
 msgid "Current spelling languages:"
@@ -1038,7 +1038,7 @@ msgstr "Dettagli versione (build) SO"
 
 #: ../plugins/about//Version.qml:62
 msgid "OS build number"
-msgstr "Numero versione (build) SO"
+msgstr "Versione (build) del SO"
 
 #: ../plugins/about//Version.qml:68
 msgid "Ubuntu Image part"
@@ -1253,7 +1253,7 @@ msgstr "Messaggi sulla schermata di accesso"
 #: ../plugins/security-privacy//Location.qml:34
 #: ../plugins/security-privacy//AppAccess.qml:74
 msgid "Location"
-msgstr "Luogo"
+msgstr "Ubicazione"
 
 #: ../plugins/security-privacy//PageComponent.qml:277
 #: ../plugins/security-privacy//AppAccess.qml:29
@@ -1317,8 +1317,8 @@ msgid ""
 "Uses GPS to detect your rough location. When off, GPS turns off to save "
 "battery."
 msgstr ""
-"Usare il GPS per rilevare la posizione approssimativa. Se disattivato, il "
-"GPS verrà spento per risparmiare batteria."
+"Usare il GPS per rilevare la posizione approssimata. Se disattivata, il GPS "
+"sarà spento per risparmiare batteria."
 
 #: ../plugins/security-privacy//Location.qml:214
 msgid ""
@@ -1384,7 +1384,7 @@ msgstr "Nessuno richiesto"
 
 #: ../plugins/security-privacy//AppAccess.qml:62
 msgid "Apps that you have granted access to:"
-msgstr "App alle quali hai consentito di accedere a:"
+msgstr "App a cui si è consentito di accedere a:"
 
 #: ../plugins/security-privacy//AppAccess.qml:68
 #: ../plugins/bluetooth//DevicePage.qml:61
@@ -1490,7 +1490,7 @@ msgstr[1] "PIN errato. %1 tentativi rimasti."
 #: ../plugins/security-privacy//SimPin.qml:223
 #: ../plugins/security-privacy//SimPin.qml:296
 msgid "No more attempts allowed"
-msgstr "Nessun tentativo permesso"
+msgstr "Nessun altro tentativo disponibile"
 
 #: ../plugins/security-privacy//SimPin.qml:92
 msgid "Current PIN:"
@@ -1845,7 +1845,7 @@ msgstr "Ripristina punti di accesso"
 
 #: ../plugins/cellular//PageChooseApn.qml:165
 msgid "Are you sure that you want to Reset APN Settings?"
-msgstr "Ripristinare i punti di accesso?"
+msgstr "Sicuro di voler fare il reset della configurazione dell'APN?"
 
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../plugins/cellular//PageChooseApn.qml:168 ../build/po/settings.js:224
@@ -2043,7 +2043,7 @@ msgstr "Automaticamente"
 
 #: ../plugins/wifi//PageComponent.qml:128
 msgid "Connect to hidden network…"
-msgstr "Connetti a una rete nascosta…"
+msgstr "Connettere a una rete nascosta…"
 
 #: ../plugins/wifi//PageComponent.qml:138
 #: ../plugins/wifi//PreviousNetworks.qml:27
@@ -2307,7 +2307,7 @@ msgstr "Imposta ora e data:"
 
 #: ../plugins/time-date//TimePicker.qml:25
 msgid "Set time & date"
-msgstr "Imposta ora e data"
+msgstr "Impostare data e ora"
 
 #: ../plugins/time-date//TimePicker.qml:67
 msgid "Time"
@@ -2323,7 +2323,7 @@ msgstr "Minuti"
 
 #: ../plugins/time-date//TimePicker.qml:108
 msgid "Second"
-msgstr "Secondi"
+msgstr "Secondo"
 
 #: ../plugins/time-date//TimePicker.qml:117
 msgid "Date"
@@ -2393,8 +2393,8 @@ msgid ""
 "Lets you answer or start a new call while on another call, and switch "
 "between them"
 msgstr ""
-"Permette, durante una chiamata, di rispondere o effettuare nuove chiamate e "
-"di passare da una all'altra"
+"Permettere di rispondere o di iniziare una nuova chiamata, mentre un'altra è "
+"in corso chiamata, e di passare da una all'altra"
 
 #. TRANSLATORS: This string will be truncated on smaller displays.
 #: ../plugins/phone//CallForwardItem.qml:157
@@ -2831,7 +2831,7 @@ msgstr "Dati mobili:"
 #: ../plugins/cellular//Components//SingleSim.qml:105
 #: ../plugins/cellular//Components//MultiSim.qml:55
 msgid "Data usage statistics"
-msgstr "Statistiche utilizzo dati"
+msgstr "Statistiche di utilizzo dei dati"
 
 #: ../plugins/cellular//Components//MultiSim.qml:60
 msgid "Carriers"
@@ -2890,7 +2890,7 @@ msgstr "aggiornamento"
 #: ../build/po/settings.js:12 ../build/po/settings.js:60
 #: ../build/po/settings.js:390
 msgid "apps"
-msgstr "app"
+msgstr "apps"
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../build/po/settings.js:14
@@ -3278,7 +3278,7 @@ msgstr "password"
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../build/po/settings.js:184
 msgid "passphrase"
-msgstr "passphrase"
+msgstr "frase di accesso"
 
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../build/po/settings.js:186
@@ -3578,7 +3578,7 @@ msgstr "schermo"
 #. TRANSLATORS: This is a keyword or name for the brightness plugin which is used while searching
 #: ../build/po/settings.js:354
 msgid "adjust"
-msgstr "regola"
+msgstr "regolare"
 
 #. TRANSLATORS: This is a keyword or name for the bluetooth plugin which is used while searching
 #: ../build/po/settings.js:358
