@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-14 20:00+0000\n"
-"Last-Translator: Sander <sander.k1007@kpnmail.nl>\n"
+"PO-Revision-Date: 2017-09-21 14:54+0000\n"
+"Last-Translator: Andrzej Stamburski <stambur@wp.pl>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/system-"
 "settings/nl/>\n"
 "Language: nl\n"
@@ -34,13 +34,12 @@ msgstr "Preferences;Settings;Voorkeuren;Instellingen;"
 
 #: ../plugins/system-update//ChannelSettings.qml:32
 msgid "Channel settings"
-msgstr ""
+msgstr "Kanaalinstellingen"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
-#, fuzzy
 msgid "Stable"
-msgstr "Tablet"
+msgstr "Stabiel"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
@@ -49,9 +48,8 @@ msgstr ""
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
-#, fuzzy
 msgid "Development"
-msgstr "Ontwikkelaarsmodus"
+msgstr "Ontwikkelaarsversie"
 
 #: ../plugins/system-update//ChannelSettings.qml:99
 msgid "Fetching channels"
@@ -130,7 +128,7 @@ msgstr "Controleren op updates"
 #: ../plugins/system-update//UpdateSettings.qml:32
 #, fuzzy
 msgid "Update settings"
-msgstr "Systeeminstellingen"
+msgstr "Updatesinstellingen"
 
 #: ../plugins/system-update//DownloadHandler.qml:174
 #: ../plugins/system-update//InstallationFailed.qml:25
@@ -154,8 +152,7 @@ msgstr "Systeem bijwerken"
 #: ../plugins/system-update//ImageUpdatePrompt.qml:32
 #, fuzzy
 msgid "The device needs to restart to install the system update."
-msgstr ""
-"De telefoon moet worden herstart om de systeemopwaardering te installeren."
+msgstr "De telefoon moet worden herstart om de systeem updates te installeren."
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:33
 #: ../plugins/system-update//ImageUpdatePrompt.qml:33
@@ -167,7 +164,7 @@ msgstr ""
 #: ../plugins/system-update//ImageSwitchPrompt.qml:38
 #: ../plugins/system-update//ImageUpdatePrompt.qml:38
 msgid "Restart & Install"
-msgstr ""
+msgstr "Herstarten en Installeren"
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:48
 #: ../plugins/system-update//ImageUpdatePrompt.qml:48
@@ -208,9 +205,9 @@ msgid "Sign In…"
 msgstr "Aanmelden…"
 
 #: ../plugins/system-update//ChangelogExpander.qml:42
-#, fuzzy, qt-format
+#, qt-format
 msgid "Version %1"
-msgstr "Versie: "
+msgstr "Versie %1"
 
 #: ../plugins/system-update//UpdateSettings.qml:47
 msgid "On wi-fi"
@@ -227,9 +224,8 @@ msgid "Unknown"
 msgstr "Onbekend"
 
 #: ../plugins/system-update//UpdateSettings.qml:61
-#, fuzzy
 msgid "Channels"
-msgstr "Wijzigen"
+msgstr "Kanalen"
 
 #: ../plugins/system-update//Global.qml:84
 msgid "Checking for updates…"
@@ -237,25 +233,25 @@ msgstr "Controleren op updates…"
 
 #: ../plugins/system-update//Global.qml:89
 msgid "Stop"
-msgstr ""
+msgstr "Stoppen"
 
 #. TRANSLATORS: %1 is number of software updates available.
 #: ../plugins/system-update//Global.qml:116
-#, fuzzy, qt-format
+#, qt-format
 msgid "%1 update available"
 msgid_plural "%1 updates available"
-msgstr[0] "Updates beschikbaar"
+msgstr[0] "Update beschikbaar"
 msgstr[1] "Updates beschikbaar"
 
 #: ../plugins/system-update//Global.qml:126
 #, fuzzy
 msgid "Update all…"
-msgstr "Updates beschikbaar"
+msgstr "Alles installeren"
 
 #: ../plugins/system-update//Global.qml:128
 #, fuzzy
 msgid "Update all"
-msgstr "Bijwerken"
+msgstr "Alles bijwerken"
 
 #: ../plugins/system-update//UpdateDelegate.qml:119
 msgid "Retry"
@@ -286,8 +282,9 @@ msgid "Install"
 msgstr "Installeren"
 
 #: ../plugins/system-update//UpdateDelegate.qml:149
+#, fuzzy
 msgid "Open"
-msgstr ""
+msgstr "Openen"
 
 #: ../plugins/system-update//UpdateDelegate.qml:228
 msgid "Installing"
@@ -301,7 +298,7 @@ msgstr "Pauzeren"
 #: ../plugins/system-update//UpdateDelegate.qml:235
 #, fuzzy
 msgid "Waiting to download"
-msgstr "Autom. downloaden"
+msgstr "Wacht op downloaden"
 
 #: ../plugins/system-update//UpdateDelegate.qml:238
 msgid "Downloading"
@@ -318,7 +315,7 @@ msgstr "%1 van %2"
 #: ../plugins/system-update//UpdateDelegate.qml:278
 #, fuzzy
 msgid "Downloaded"
-msgstr "Downloaden"
+msgstr "Gedownload"
 
 #: ../plugins/system-update//UpdateDelegate.qml:281
 msgid "Installed"
@@ -329,16 +326,17 @@ msgstr "Geïnstalleerd"
 #: ../plugins/system-update//UpdateDelegate.qml:286
 #, fuzzy, qt-format
 msgid "Updated %1"
-msgstr "Bijwerken"
+msgstr "Bijgewerked %1"
 
 #: ../plugins/system-update//UpdateDelegate.qml:310
 #, fuzzy
 msgid "Update failed"
-msgstr "Updates beschikbaar"
+msgstr "Updates mislukt"
 
 #. TRANSLATORS: This is a keyword or name for the hotspot plugin which is used while searching
 #: ../plugins/hotspot//PageComponent.qml:33
 #: ../plugins/hotspot//PageComponent.qml:84 ../build/po/settings.js:24
+#, fuzzy
 msgid "Hotspot"
 msgstr "Hotspot"
 
@@ -372,16 +370,17 @@ msgstr "Hotspot instellen"
 #: ../plugins/hotspot//PageComponent.qml:154
 #, fuzzy
 msgid "Wi-Fi is off"
-msgstr "Wi-Fihotspot"
+msgstr "Wi-Fi is uitgeschakeld"
 
 #: ../plugins/hotspot//PageComponent.qml:155
+#, fuzzy
 msgid "In order to create a hotspot, you need to turn Wi-Fi on."
-msgstr ""
+msgstr "U moet WiFi inschakelen om hotspot te maken."
 
 #: ../plugins/hotspot//PageComponent.qml:164
 #, fuzzy
 msgid "Turn on Wi-Fi"
-msgstr "Alleen bij een Wi-Fiverbinding"
+msgstr "Wi-Fi inschakelen"
 
 #: ../plugins/hotspot//Common.qml:34 ../plugins/wifi//Common.qml:36
 msgid "Unknown error"
