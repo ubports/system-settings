@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-20 22:47+0000\n"
-"Last-Translator: Daniel Frańczak <danielfranczak5@wp.pl>\n"
+"PO-Revision-Date: 2017-09-21 14:27+0000\n"
+"Last-Translator: Andrzej Stamburski <stambur@wp.pl>\n"
 "Language-Team: Polish <https://translate.ubports.com/projects/ubports/system-"
 "settings/pl/>\n"
 "Language: pl\n"
@@ -45,12 +45,12 @@ msgstr "Stabilny"
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
 msgid "Release candidate"
-msgstr "Zwolnienie kandydata"
+msgstr "Wersja RC (przygotowana do wydania)"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
 msgid "Development"
-msgstr "Tryb programisty"
+msgstr "Wersja dla programisty"
 
 #: ../plugins/system-update//ChannelSettings.qml:99
 msgid "Fetching channels"
