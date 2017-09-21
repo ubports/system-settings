@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-19 07:09+0000\n"
+"PO-Revision-Date: 2017-09-21 19:49+0000\n"
 "Last-Translator: Milan Korecký <milan.korecky@gmail.com>\n"
 "Language-Team: Czech <https://translate.ubports.com/projects/ubports/system-"
 "settings/cs/>\n"
@@ -528,20 +528,20 @@ msgstr "Spustit"
 
 #: ../plugins/battery//SleepValues.qml:74
 msgid "Lock the device when it's not in use:"
-msgstr "Uzamknout telefon po dobu nečinnosti:"
+msgstr "Uzamknout zařízení po dobu nečinnosti:"
 
 #: ../plugins/battery//SleepValues.qml:75
 msgid "Put the device to sleep when it is not in use:"
-msgstr "Uspat telefon po dobu nečinnosti:"
+msgstr "Uspat zařízení po dobu nečinnosti:"
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery//SleepValues.qml:86
 #, qt-format
 msgid "After %1 seconds"
 msgid_plural "After %1 seconds"
-msgstr[0] "Po %1 minutě"
-msgstr[1] "Po %1 minutách"
-msgstr[2] "Po %1 minutách"
+msgstr[0] "Po %1 vteřině"
+msgstr[1] "Po %1 vteřinách"
+msgstr[2] "Po %1 vteřinách"
 
 #. TRANSLATORS: %1 is the number of minutes
 #: ../plugins/battery//SleepValues.qml:90
@@ -566,12 +566,12 @@ msgid ""
 "Shorter times are more secure. Device won't lock during calls or video "
 "playback."
 msgstr ""
-"Kratší časové úseky jsou bezpečnější. Telefon nebude uzamčen během hovoru "
+"Kratší časové úseky jsou bezpečnější. Zařízení nebude uzamčeno během hovoru "
 "nebo přehrávání videa."
 
 #: ../plugins/battery//SleepValues.qml:130
 msgid "Device won’t sleep during calls or video playback."
-msgstr "Telefon se neuspí během hovoru nebo přehrávání videa."
+msgstr "Zařízení se neuspí během hovoru nebo přehrávání videa."
 
 #. TRANSLATORS: This is a keyword or name for the battery plugin which is used while searching
 #: ../plugins/battery//PageComponent.qml:35 ../build/po/settings.js:38
@@ -667,9 +667,9 @@ msgstr "Uspat při nečinnosti"
 #, qt-format
 msgid "After %1 second"
 msgid_plural "After %1 seconds"
-msgstr[0] "Po %1 minutě"
-msgstr[1] "Po %1 minutách"
-msgstr[2] "Po %1 minutách"
+msgstr[0] "Po %1 vteřině"
+msgstr[1] "Po %1 vteřinách"
+msgstr[2] "Po %1 vteřinách"
 
 #. TRANSLATORS: “Wi-Fi used for hotspot” is hidden.
 #: ../plugins/battery//PageComponent.qml:364
@@ -860,9 +860,7 @@ msgstr "Automatická interpunkce"
 
 #: ../plugins/language//PageComponent.qml:257
 msgid "Inserts a period when you tap Space twice."
-msgstr ""
-"Přidá tečku, chybějící uvozovky nebo závorky, když kliknete dvakrát na "
-"mezeru."
+msgstr "Přidá tečku, když kliknete dvakrát na mezerník."
 
 #: ../plugins/language//PageComponent.qml:264
 #: ../plugins/sound//PageComponent.qml:250
@@ -891,7 +889,7 @@ msgstr "Dostupná rozložení:"
 
 #: ../plugins/language//RebootNecessary.qml:34
 msgid "The device needs to restart for changes to take effect."
-msgstr "Pro uplatnění změn je potřeba zařzení restartovat."
+msgstr "Pro uplatnění změn je potřeba zařízení restartovat."
 
 #: ../plugins/language//RebootNecessary.qml:38
 msgid "Restart Now"
@@ -1075,7 +1073,7 @@ msgid ""
 "device by connecting it to another device."
 msgstr ""
 "V režimu vývojáře má každý přístup ke všem souborům, které může měnit nebo "
-"mazat po připojení telefonu k jinému zařízení."
+"mazat po připojení zařízení k jinému."
 
 #: ../plugins/about//DevMode.qml:110
 msgid "You need a passcode or passphrase set to use Developer Mode."
@@ -1148,7 +1146,7 @@ msgstr "Nenastaveno"
 
 #: ../plugins/security-privacy//LockSecurity.qml:461
 msgid "Unlock the device using:"
-msgstr "Odemknout telefon pomocí:"
+msgstr "Odemknout zařízení pomocí:"
 
 #: ../plugins/security-privacy//LockSecurity.qml:465
 msgid "Swipe (no security)"
@@ -1279,7 +1277,7 @@ msgstr "Neodeslané"
 
 #: ../plugins/security-privacy//Location.qml:96
 msgid "Let the device detect your location:"
-msgstr "Umožnit telefonu zjistit Vaši polohu:"
+msgstr "Umožnit zařízení zjistit Vaši polohu:"
 
 #: ../plugins/security-privacy//Location.qml:175
 msgid "Using GPS only (less accurate)"
@@ -1457,7 +1455,8 @@ msgstr "Upozornění a rychlé nastavení"
 
 #: ../plugins/security-privacy//PhoneLocking.qml:158
 msgid "Turn on lock security to restrict access when the device is locked."
-msgstr "Zapnout bezpečnostní zámek omezeného přístupu pokud je telefon zamčený."
+msgstr ""
+"Zapnout bezpečnostní zámek omezeného přístupu pokud je zařízení uzamčeno."
 
 #: ../plugins/security-privacy//PhoneLocking.qml:159
 msgid "Other apps and functions will prompt you to unlock."
@@ -1678,7 +1677,7 @@ msgid ""
 "will be returned to their original settings."
 msgstr ""
 "Obsah a nastavení spouštěcího panelu včetně filtrů na domovské obrazovce "
-"budou uvedeny do výchozího nastavení."
+"bude uveden do výchozího nastavení."
 
 #: ../plugins/reset//ResetAllSettings.qml:31
 msgid "Reset all system settings"
@@ -1686,13 +1685,13 @@ msgstr "Obnovit všechna systémová nastavení"
 
 #: ../plugins/reset//PageComponent.qml:32
 msgid "Reset device"
-msgstr "Restartovat telefon"
+msgstr "Restartovat zařízení"
 
 #: ../plugins/reset//PageComponent.qml:75
 #: ../plugins/reset//PageComponent.qml:86
 #: ../plugins/reset//ResetLauncherHome.qml:44
 msgid "Reset Launcher"
-msgstr "Obnovit spouštěcí panel"
+msgstr "Resetovat spouštěcí panel"
 
 #: ../plugins/reset//PageComponent.qml:101
 #: ../plugins/reset//PageComponent.qml:112
@@ -2472,7 +2471,7 @@ msgstr "Některé hovory"
 #: ../plugins/brightness//WifiDisplaysAlert.qml:32
 #, qt-format
 msgid "This device failed to connect to %1."
-msgstr "Spojení telefonu s %1 selhalo."
+msgstr "Spojení zařízení s %1 selhalo."
 
 #: ../plugins/brightness//WifiDisplaysAlert.qml:34
 #, qt-format
@@ -2768,7 +2767,7 @@ msgstr "Žádná SIM detekována"
 #: ../plugins/cellular//Components//NoSim.qml:45
 #: ../plugins/cellular//Components//DataMultiSim.qml:81
 msgid "Insert a SIM, then restart the device."
-msgstr "Vložte kartu SIM a poté telefon znovu restartujte."
+msgstr "Vložte kartu SIM a poté zařízení znovu restartujte."
 
 #: ../plugins/cellular//Components//DataMultiSim.qml:36
 msgid "Cellular data"
@@ -3522,7 +3521,7 @@ msgstr "časové pásmo"
 #. TRANSLATORS: This is a keyword or name for the launcher plugin which is used while searching
 #: ../build/po/settings.js:322
 msgid "launcher"
-msgstr "Spouštěcí panel"
+msgstr "spouštěcí panel"
 
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../build/po/settings.js:330
