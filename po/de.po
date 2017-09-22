@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-22 15:09+0000\n"
-"Last-Translator: Twinkybot <me@twinkybot.org>\n"
+"PO-Revision-Date: 2017-09-22 15:15+0000\n"
+"Last-Translator: Philipp Leibelt <dickerwels@gmail.com>\n"
 "Language-Team: German <https://translate.ubports.com/projects/ubports/system-"
 "settings/de/>\n"
 "Language: de\n"
@@ -49,9 +49,8 @@ msgstr "Release-Kandidat"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
-#, fuzzy
 msgid "Development"
-msgstr "Entwicklermodus"
+msgstr "Entwicklung"
 
 #: ../plugins/system-update//ChannelSettings.qml:99
 msgid "Fetching channels"
