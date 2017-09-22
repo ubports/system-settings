@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-22 15:00+0000\n"
+"PO-Revision-Date: 2017-09-22 15:09+0000\n"
 "Last-Translator: Twinkybot <me@twinkybot.org>\n"
 "Language-Team: German <https://translate.ubports.com/projects/ubports/system-"
 "settings/de/>\n"
@@ -361,7 +361,7 @@ msgstr "Hotspot einrichten…"
 
 #: ../plugins/hotspot//PageComponent.qml:154
 msgid "Wi-Fi is off"
-msgstr "WLAN ausgeschalten"
+msgstr "WLAN ist aus"
 
 #: ../plugins/hotspot//PageComponent.qml:155
 msgid "In order to create a hotspot, you need to turn Wi-Fi on."
@@ -535,23 +535,20 @@ msgid "Start"
 msgstr "Start"
 
 #: ../plugins/battery//SleepValues.qml:74
-#, fuzzy
 msgid "Lock the device when it's not in use:"
-msgstr "Das Telefon sperren, wenn nicht verwendet:"
+msgstr "Telefon sperren, wenn es nicht verwendet wird:"
 
 #: ../plugins/battery//SleepValues.qml:75
-#, fuzzy
 msgid "Put the device to sleep when it is not in use:"
-msgstr ""
-"Das Telefon in den Ruhezustand versetzen, wenn es nicht verwendet wird:"
+msgstr "Telefon in den Ruhezustand versetzen, wenn es nicht verwendet wird:"
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery//SleepValues.qml:86
-#, fuzzy, qt-format
+#, qt-format
 msgid "After %1 seconds"
 msgid_plural "After %1 seconds"
-msgstr[0] "1 ist die Anzahl von Minuten"
-msgstr[1] "Nach %1 Minuten"
+msgstr[0] "Nach %1 Sekunde"
+msgstr[1] "Nach %1 Sekunden"
 
 #. TRANSLATORS: %1 is the number of minutes
 #: ../plugins/battery//SleepValues.qml:90
