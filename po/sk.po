@@ -8,66 +8,68 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2017-09-23 14:39+0000\n"
+"Last-Translator: Peter Valachovič <peter.valachovic@gmail.com>\n"
+"Language-Team: Slovak <https://translate.ubports.com/projects/ubports/system-"
+"settings/sk/>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 2.15\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:116
 msgid "System Settings"
-msgstr ""
+msgstr "Systémové nastavenia"
 
 #: ubuntu-system-settings.desktop.in.in.h:2
 msgid "System;"
-msgstr ""
+msgstr "Systém;"
 
 #: ubuntu-system-settings.desktop.in.in.h:3
 msgid "Preferences;Settings;"
-msgstr ""
+msgstr "Predvoľby;Nastavenia;"
 
 #: ../plugins/system-update//ChannelSettings.qml:32
 msgid "Channel settings"
-msgstr ""
+msgstr "Nastavenia kanálu"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
 msgid "Stable"
-msgstr ""
+msgstr "Stabilný"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
 msgid "Release candidate"
-msgstr ""
+msgstr "Kandidát na vydanie"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
 msgid "Development"
-msgstr ""
+msgstr "Vývojársky mód"
 
 #: ../plugins/system-update//ChannelSettings.qml:99
 msgid "Fetching channels"
-msgstr ""
+msgstr "Načítanie kanálov"
 
 #: ../plugins/system-update//ChannelSettings.qml:109
 msgid "Channel to get updates from:"
-msgstr ""
+msgstr "Kanál, z ktorého sa získavajú aktualizácie:"
 
 #: ../plugins/system-update//ChannelSettings.qml:125
 msgid "Switching channel"
-msgstr ""
+msgstr "Prepnutie kanálu"
 
 #: ../plugins/system-update//Configuration.qml:30
 #: ../plugins/system-update//UpdateSettings.qml:42
 msgid "Auto download"
-msgstr ""
+msgstr "Automatické stiahnutie"
 
 #: ../plugins/system-update//Configuration.qml:35
 msgid "Download future updates automatically:"
-msgstr ""
+msgstr "Ďalšie aktualizácie sťahovať automaticky:"
 
 #: ../plugins/system-update//Configuration.qml:53
 #: ../plugins/system-update//UpdateSettings.qml:45
@@ -79,54 +81,54 @@ msgstr ""
 #: ../plugins/security-privacy//PhoneLocking.qml:109
 #: ../plugins/wifi//NetworkDetails.qml:65
 msgid "Never"
-msgstr ""
+msgstr "Nikdy"
 
 #: ../plugins/system-update//Configuration.qml:54
 msgid "When on wi-fi"
-msgstr ""
+msgstr "Cez Wi-Fi"
 
 #: ../plugins/system-update//Configuration.qml:56
 msgid "On any data connection"
-msgstr ""
+msgstr "Cez akékoľvek dátové pripojenie"
 
 #: ../plugins/system-update//Configuration.qml:57
 msgid "Data charges may apply."
-msgstr ""
+msgstr "Prenášanie údajov môže byť spoplatnené."
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../plugins/system-update//PageComponent.qml:38 ../build/po/settings.js:4
 msgid "Updates"
-msgstr ""
+msgstr "Aktualizácie"
 
 #: ../plugins/system-update//PageComponent.qml:182
 msgid "Connect to the Internet to check for updates."
-msgstr ""
+msgstr "Pripojiť sa na internet pre kontrolu aktualizácii."
 
 #: ../plugins/system-update//PageComponent.qml:184
 msgid "Software is up to date"
-msgstr ""
+msgstr "Programy sú aktuálne"
 
 #: ../plugins/system-update//PageComponent.qml:187
 msgid "The update server is not responding. Try again later."
-msgstr ""
+msgstr "Server pre aktualizácie neodpovedá. Skúste to neskôr."
 
 #: ../plugins/system-update//PageComponent.qml:196
 msgid "Updates Available"
-msgstr ""
+msgstr "Dostupné aktualizácie"
 
 #: ../plugins/system-update//PageComponent.qml:349
 msgid "Recent updates"
-msgstr ""
+msgstr "Nedávne aktualizácie"
 
 #: ../plugins/system-update//PageComponent.qml:412
 #: ../plugins/system-update//UpdateSettings.qml:32
 msgid "Update settings"
-msgstr ""
+msgstr "Aktualizovať nastavenia"
 
 #: ../plugins/system-update//DownloadHandler.qml:174
 #: ../plugins/system-update//InstallationFailed.qml:25
 msgid "Installation failed"
-msgstr ""
+msgstr "Inštalácia zlyhala"
 
 #: ../plugins/system-update//InstallationFailed.qml:28
 #: ../plugins/vpn//PageComponent.qml:121
@@ -134,27 +136,28 @@ msgstr ""
 #: ../plugins/brightness//WifiDisplaysAlert.qml:38
 #: ../plugins/cellular//Components//SimEditor.qml:214
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:30
 #: ../plugins/system-update//ImageUpdatePrompt.qml:30
 msgid "Update System"
-msgstr ""
+msgstr "Aktualizovať systém"
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:32
 #: ../plugins/system-update//ImageUpdatePrompt.qml:32
 msgid "The device needs to restart to install the system update."
-msgstr ""
+msgstr "Pre aktualizáciu systému je potrebné reštartovať prístroj."
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:33
 #: ../plugins/system-update//ImageUpdatePrompt.qml:33
 msgid "Connect the device to power before installing the system update."
 msgstr ""
+"Pred spustením systémovej aktualizácie pripojte prístroj k elektrickej sieti."
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:38
 #: ../plugins/system-update//ImageUpdatePrompt.qml:38
 msgid "Restart & Install"
-msgstr ""
+msgstr "Reštartovať a inštalovať"
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:48
 #: ../plugins/system-update//ImageUpdatePrompt.qml:48
@@ -184,111 +187,111 @@ msgstr ""
 #: ../plugins/background//Components//AddRemove.qml:42
 #: ../plugins/cellular//Components//SimEditor.qml:203
 msgid "Cancel"
-msgstr ""
+msgstr "Zrušiť"
 
 #: ../plugins/system-update//NotAuthenticatedNotification.qml:37
 msgid "Sign in to Ubuntu One to receive updates for apps."
-msgstr ""
+msgstr "Pre prijatie aktualizácií aplikácii sa prihláste do Ubuntu One."
 
 #: ../plugins/system-update//NotAuthenticatedNotification.qml:54
 msgid "Sign In…"
-msgstr ""
+msgstr "Prihlásiť sa…"
 
 #: ../plugins/system-update//ChangelogExpander.qml:42
 #, qt-format
 msgid "Version %1"
-msgstr ""
+msgstr "Verzia %1"
 
 #: ../plugins/system-update//UpdateSettings.qml:47
 msgid "On wi-fi"
-msgstr ""
+msgstr "Cez Wi-Fi"
 
 #: ../plugins/system-update//UpdateSettings.qml:49
 msgid "Always"
-msgstr ""
+msgstr "Vždy"
 
 #: ../plugins/system-update//UpdateSettings.qml:51
 #: ../plugins/hotspot//Common.qml:94 ../plugins/wifi//Common.qml:96
 #: ../plugins/bluetooth//DevicePage.qml:41
 msgid "Unknown"
-msgstr ""
+msgstr "Neznáme"
 
 #: ../plugins/system-update//UpdateSettings.qml:61
 msgid "Channels"
-msgstr ""
+msgstr "Kanály"
 
 #: ../plugins/system-update//Global.qml:84
 msgid "Checking for updates…"
-msgstr ""
+msgstr "Kontrola aktualizácii…"
 
 #: ../plugins/system-update//Global.qml:89
 msgid "Stop"
-msgstr ""
+msgstr "Zastaviť"
 
 #. TRANSLATORS: %1 is number of software updates available.
 #: ../plugins/system-update//Global.qml:116
 #, qt-format
 msgid "%1 update available"
 msgid_plural "%1 updates available"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%1 dostupná aktualizácia"
+msgstr[1] "%1 dostupné aktualizácie"
+msgstr[2] "%1 dostupných aktualizácii"
 
 #: ../plugins/system-update//Global.qml:126
 msgid "Update all…"
-msgstr ""
+msgstr "Aktualizovať všetko…"
 
 #: ../plugins/system-update//Global.qml:128
 msgid "Update all"
-msgstr ""
+msgstr "Aktualizovať všetko"
 
 #: ../plugins/system-update//UpdateDelegate.qml:119
 msgid "Retry"
-msgstr ""
+msgstr "Skúsiť znova"
 
 #: ../plugins/system-update//UpdateDelegate.qml:124
 msgid "Update"
-msgstr ""
+msgstr "Aktualizovať"
 
 #: ../plugins/system-update//UpdateDelegate.qml:126
 msgid "Download"
-msgstr ""
+msgstr "Stiahnuť"
 
 #: ../plugins/system-update//UpdateDelegate.qml:132
 msgid "Resume"
-msgstr ""
+msgstr "Obnoviť"
 
 #: ../plugins/system-update//UpdateDelegate.qml:139
 msgid "Pause"
-msgstr ""
+msgstr "Pauza"
 
 #: ../plugins/system-update//UpdateDelegate.qml:143
 msgid "Install…"
-msgstr ""
+msgstr "Inštalovať…"
 
 #: ../plugins/system-update//UpdateDelegate.qml:145
 msgid "Install"
-msgstr ""
+msgstr "Inštalovať"
 
 #: ../plugins/system-update//UpdateDelegate.qml:149
 msgid "Open"
-msgstr ""
+msgstr "Otvoriť"
 
 #: ../plugins/system-update//UpdateDelegate.qml:228
 msgid "Installing"
-msgstr ""
+msgstr "Inštaluje sa"
 
 #: ../plugins/system-update//UpdateDelegate.qml:232
 msgid "Paused"
-msgstr ""
+msgstr "Pozastavené"
 
 #: ../plugins/system-update//UpdateDelegate.qml:235
 msgid "Waiting to download"
-msgstr ""
+msgstr "Čaká sa na stiahnutie"
 
 #: ../plugins/system-update//UpdateDelegate.qml:238
 msgid "Downloading"
-msgstr ""
+msgstr "Sťahuje sa"
 
 #. TRANSLATORS: %1 is the human readable amount
 #. of bytes downloaded, and %2 is the total to be
@@ -296,242 +299,246 @@ msgstr ""
 #: ../plugins/system-update//UpdateDelegate.qml:274
 #, qt-format
 msgid "%1 of %2"
-msgstr ""
+msgstr "%1 z %2"
 
 #: ../plugins/system-update//UpdateDelegate.qml:278
 msgid "Downloaded"
-msgstr ""
+msgstr "Stiahnuté"
 
 #: ../plugins/system-update//UpdateDelegate.qml:281
 msgid "Installed"
-msgstr ""
+msgstr "Nainštalované"
 
 #. TRANSLATORS: %1 is the date at which this
 #. update was applied.
 #: ../plugins/system-update//UpdateDelegate.qml:286
 #, qt-format
 msgid "Updated %1"
-msgstr ""
+msgstr "Aktualizované %1"
 
 #: ../plugins/system-update//UpdateDelegate.qml:310
 msgid "Update failed"
-msgstr ""
+msgstr "Aktualizácia zlyhala"
 
 #. TRANSLATORS: This is a keyword or name for the hotspot plugin which is used while searching
 #: ../plugins/hotspot//PageComponent.qml:33
 #: ../plugins/hotspot//PageComponent.qml:84 ../build/po/settings.js:24
 msgid "Hotspot"
-msgstr ""
+msgstr "Hotspot"
 
 #: ../plugins/hotspot//PageComponent.qml:113
 msgid ""
 "When hotspot is on, other devices can use your cellular data connection over "
 "Wi-Fi. Normal data charges apply."
 msgstr ""
+"Keď je aktívny hotspot, iné zariadenia môžu využívať mobilné dáta cez Wi-Fi. "
+"Účtované sú bežné tarifné ceny."
 
 #: ../plugins/hotspot//PageComponent.qml:114
 msgid ""
 "Other devices can use your cellular data connection over the Wi-Fi network. "
 "Normal data charges apply."
 msgstr ""
+"Iné zariadenia môžu využívať mobilné dáta cez sieť Wi-Fi. Účtované sú bežné "
+"tarifné ceny."
 
 #: ../plugins/hotspot//PageComponent.qml:123
 msgid "Change Password/Setup…"
-msgstr ""
+msgstr "Zmeniť heslo/nastavenia…"
 
 #: ../plugins/hotspot//PageComponent.qml:123
 msgid "Set Up Hotspot…"
-msgstr ""
+msgstr "Nastavenia pre hotspot…"
 
 #: ../plugins/hotspot//PageComponent.qml:154
 msgid "Wi-Fi is off"
-msgstr ""
+msgstr "Wi-Fi je vypnuté"
 
 #: ../plugins/hotspot//PageComponent.qml:155
 msgid "In order to create a hotspot, you need to turn Wi-Fi on."
-msgstr ""
+msgstr "Pre vytvorenie hotspot-u je potrebné zapnúť Wi-Fi."
 
 #: ../plugins/hotspot//PageComponent.qml:164
 msgid "Turn on Wi-Fi"
-msgstr ""
+msgstr "Zapnúť Wi-Fi"
 
 #: ../plugins/hotspot//Common.qml:34 ../plugins/wifi//Common.qml:36
 msgid "Unknown error"
-msgstr ""
+msgstr "Neznáma chyba"
 
 #: ../plugins/hotspot//Common.qml:36 ../plugins/wifi//Common.qml:38
 msgid "No reason given"
-msgstr ""
+msgstr "Bez udania dôvodu"
 
 #: ../plugins/hotspot//Common.qml:38 ../plugins/wifi//Common.qml:40
 msgid "Device is now managed"
-msgstr ""
+msgstr "Zariadenie je teraz spravované"
 
 #: ../plugins/hotspot//Common.qml:40 ../plugins/wifi//Common.qml:42
 msgid "Device is now unmanaged"
-msgstr ""
+msgstr "Zariadenie teraz nie je spravované"
 
 #: ../plugins/hotspot//Common.qml:42 ../plugins/wifi//Common.qml:44
 msgid "The device could not be readied for configuration"
-msgstr ""
+msgstr "Zariadenie sa nepodarilo pripraviť pre konfiguráciu"
 
 #: ../plugins/hotspot//Common.qml:44 ../plugins/wifi//Common.qml:46
 msgid ""
 "IP configuration could not be reserved (no available address, timeout, etc.)"
-msgstr ""
+msgstr "Nastavenie IP sa nepodarilo (nepridelená adresa, časový limit, a.i.)"
 
 #: ../plugins/hotspot//Common.qml:46 ../plugins/wifi//Common.qml:48
 msgid "The IP configuration is no longer valid"
-msgstr ""
+msgstr "Nastavenie IP už nie je platné"
 
 #: ../plugins/hotspot//Common.qml:48 ../plugins/wifi//Common.qml:50
 msgid "Your authentication details were incorrect"
-msgstr ""
+msgstr "Vaše prihlasovacie údaje boli nesprávne"
 
 #: ../plugins/hotspot//Common.qml:50 ../plugins/wifi//Common.qml:52
 msgid "802.1X supplicant disconnected"
-msgstr ""
+msgstr "Zariadenie 802.1X odpojené"
 
 #: ../plugins/hotspot//Common.qml:52 ../plugins/wifi//Common.qml:54
 msgid "802.1X supplicant configuration failed"
-msgstr ""
+msgstr "Nastavenie zariadenia 802.1X zlyhalo"
 
 #: ../plugins/hotspot//Common.qml:54 ../plugins/wifi//Common.qml:56
 msgid "802.1X supplicant failed"
-msgstr ""
+msgstr "Zariadenie 802.1X zlyhalo"
 
 #: ../plugins/hotspot//Common.qml:56 ../plugins/wifi//Common.qml:58
 msgid "802.1X supplicant took too long to authenticate"
-msgstr ""
+msgstr "Pokus o prihlásenie sa zariadenia 802.1X trval pridlho"
 
 #: ../plugins/hotspot//Common.qml:58 ../plugins/wifi//Common.qml:60
 msgid "DHCP client failed to start"
-msgstr ""
+msgstr "Spustenie DHCP klienta zlyhalo"
 
 #: ../plugins/hotspot//Common.qml:60 ../plugins/wifi//Common.qml:62
 msgid "DHCP client error"
-msgstr ""
+msgstr "Chyba DHCP klienta"
 
 #: ../plugins/hotspot//Common.qml:62 ../plugins/wifi//Common.qml:64
 msgid "DHCP client failed"
-msgstr ""
+msgstr "DHCP klient zlyhal"
 
 #: ../plugins/hotspot//Common.qml:64 ../plugins/wifi//Common.qml:66
 msgid "Shared connection service failed to start"
-msgstr ""
+msgstr "Službu zdieľaného pripojenia sa nepodarilo spustiť"
 
 #: ../plugins/hotspot//Common.qml:66 ../plugins/wifi//Common.qml:68
 msgid "Shared connection service failed"
-msgstr ""
+msgstr "Služba zdieľaného pripojenia zlyhala"
 
 #: ../plugins/hotspot//Common.qml:68 ../plugins/wifi//Common.qml:70
 msgid "Necessary firmware for the device may be missing"
-msgstr ""
+msgstr "Nevyhnutné ovládače pre zariadenie môžu chýbať"
 
 #: ../plugins/hotspot//Common.qml:70 ../plugins/wifi//Common.qml:72
 msgid "The device was removed"
-msgstr ""
+msgstr "Zariadenie bolo odstránené"
 
 #: ../plugins/hotspot//Common.qml:72 ../plugins/wifi//Common.qml:74
 msgid "NetworkManager went to sleep"
-msgstr ""
+msgstr "NetworkManager deaktivovaný"
 
 #: ../plugins/hotspot//Common.qml:74 ../plugins/wifi//Common.qml:76
 msgid "The device's active connection disappeared"
-msgstr ""
+msgstr "Aktívne pripojenie zariadenia sa stratilo"
 
 #: ../plugins/hotspot//Common.qml:76 ../plugins/wifi//Common.qml:78
 msgid "Device disconnected by user or client"
-msgstr ""
+msgstr "Zariadenie odpojené užívateľom alebo klientom"
 
 #: ../plugins/hotspot//Common.qml:78 ../plugins/wifi//Common.qml:80
 msgid "The device's existing connection was assumed"
-msgstr ""
+msgstr "Existujúce pripojenie zariadenia bolo prevzaté"
 
 #: ../plugins/hotspot//Common.qml:80 ../plugins/wifi//Common.qml:82
 msgid "The supplicant is now available"
-msgstr ""
+msgstr "Zariadenie dostupné"
 
 #: ../plugins/hotspot//Common.qml:82 ../plugins/wifi//Common.qml:84
 msgid "The modem could not be found"
-msgstr ""
+msgstr "Modem nenájdený"
 
 #: ../plugins/hotspot//Common.qml:84 ../plugins/wifi//Common.qml:86
 msgid "The Bluetooth connection failed or timed out"
-msgstr ""
+msgstr "Pripojenie Bluetooth zlyhalo alebo vypršal čas"
 
 #: ../plugins/hotspot//Common.qml:86 ../plugins/wifi//Common.qml:88
 msgid "A dependency of the connection failed"
-msgstr ""
+msgstr "Závislé pripojenie zlyhalo"
 
 #: ../plugins/hotspot//Common.qml:88 ../plugins/wifi//Common.qml:90
 msgid "ModemManager is unavailable"
-msgstr ""
+msgstr "ModemManager nie je dostupný"
 
 #: ../plugins/hotspot//Common.qml:90 ../plugins/wifi//Common.qml:92
 msgid "The Wi-Fi network could not be found"
-msgstr ""
+msgstr "Sieť Wi-Fi nenájdená"
 
 #: ../plugins/hotspot//Common.qml:92 ../plugins/wifi//Common.qml:94
 msgid "A secondary connection of the base connection failed"
-msgstr ""
+msgstr "Druhotné pripojenie základného pripojenia zlyhalo"
 
 #: ../plugins/hotspot//HotspotSetup.qml:61
 msgid "Change Hotspot Setup"
-msgstr ""
+msgstr "Zmeniť nastavenia Hotspot-u"
 
 #: ../plugins/hotspot//HotspotSetup.qml:61
 msgid "Set Up Hotspot"
-msgstr ""
+msgstr "Nastavenia Hotspot-u"
 
 #: ../plugins/hotspot//HotspotSetup.qml:175
 msgid "Hotspot name"
-msgstr ""
+msgstr "Názov hotspot-u"
 
 #: ../plugins/hotspot//HotspotSetup.qml:176
 msgid "Choose a name"
-msgstr ""
+msgstr "Vyber názov"
 
 #: ../plugins/hotspot//HotspotSetup.qml:193
 msgid "Require a password (recommended):"
-msgstr ""
+msgstr "Vyžadovať heslo (odporúčané):"
 
 #: ../plugins/hotspot//HotspotSetup.qml:224
 #: ../plugins/wifi//NetworkDetails.qml:84
 #: ../plugins/wifi//OtherNetwork.qml:821
 msgid "Show password"
-msgstr ""
+msgstr "Zobraz heslo"
 
 #: ../plugins/hotspot//HotspotSetup.qml:245
 msgid "Starting the hotspot will turn on Wi-Fi."
-msgstr ""
+msgstr "Zapnutie hotspot-u aktibuje Wi-Fi."
 
 #: ../plugins/hotspot//HotspotSetup.qml:274
 #: ../plugins/security-privacy//LockSecurity.qml:388
 #: ../plugins/security-privacy//SimPin.qml:186
 msgid "Change"
-msgstr ""
+msgstr "Zmeniť"
 
 #: ../plugins/hotspot//HotspotSetup.qml:275
 msgid "Start"
-msgstr ""
+msgstr "Štart"
 
 #: ../plugins/battery//SleepValues.qml:74
 msgid "Lock the device when it's not in use:"
-msgstr ""
+msgstr "Zamknúť zariadenie ak sa nepoužíva:"
 
 #: ../plugins/battery//SleepValues.qml:75
 msgid "Put the device to sleep when it is not in use:"
-msgstr ""
+msgstr "Uspať zariadenie ak je neaktivne:"
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery//SleepValues.qml:86
 #, qt-format
 msgid "After %1 seconds"
 msgid_plural "After %1 seconds"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Po %1 sekunde"
+msgstr[1] "Za %1 sekundy"
+msgstr[2] "Po %1 sekundách"
 
 #. TRANSLATORS: %1 is the number of minutes
 #: ../plugins/battery//SleepValues.qml:90
@@ -547,107 +554,109 @@ msgstr[2] ""
 #, qt-format
 msgid "After %1 minute"
 msgid_plural "After %1 minutes"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Po %1 minute"
+msgstr[1] "Za %1 minuty"
+msgstr[2] "Po %1 minútach"
 
 #: ../plugins/battery//SleepValues.qml:130
 msgid ""
 "Shorter times are more secure. Device won't lock during calls or video "
 "playback."
 msgstr ""
+"Kratšie časy sú bezpečnejšie. Zariadenie sa nezamkne počas telefonovania a "
+"pozerania videa."
 
 #: ../plugins/battery//SleepValues.qml:130
 msgid "Device won’t sleep during calls or video playback."
-msgstr ""
+msgstr "Zariadenie sa neuspí počas telefonovania a pozerania videa."
 
 #. TRANSLATORS: This is a keyword or name for the battery plugin which is used while searching
 #: ../plugins/battery//PageComponent.qml:35 ../build/po/settings.js:38
 msgid "Battery"
-msgstr ""
+msgstr "Bateria"
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery//PageComponent.qml:44
 #, qt-format
 msgid "%1 second ago"
 msgid_plural "%1 seconds ago"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Pred %1 sekundou"
+msgstr[1] "%1 sekundy dozadu"
+msgstr[2] "Pred %1 sekundami"
 
 #. TRANSLATORS: %1 is the number of minutes
 #: ../plugins/battery//PageComponent.qml:47
 #, qt-format
 msgid "%1 minute ago"
 msgid_plural "%1 minutes ago"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Pred minútou"
+msgstr[1] "Pred %1 minútami"
+msgstr[2] "%1 minút dozadu"
 
 #. TRANSLATORS: %1 is the number of hours
 #: ../plugins/battery//PageComponent.qml:50
 #, qt-format
 msgid "%1 hour ago"
 msgid_plural "%1 hours ago"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Pred hodinou"
+msgstr[1] "Pred %1 hodinami"
+msgstr[2] "%1 hodín dozadu"
 
 #: ../plugins/battery//PageComponent.qml:104
 msgid "Charge level"
-msgstr ""
+msgstr "Úroveň batérie"
 
 #: ../plugins/battery//PageComponent.qml:109
 #: ../plugins/battery//PageComponent.qml:283 ../plugins/about//Storage.qml:225
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 #. TRANSLATORS: %1 refers to a percentage that indicates the charging level of the battery
 #: ../plugins/battery//PageComponent.qml:112
 #, qt-format
 msgid "%1%"
-msgstr ""
+msgstr "%1 %"
 
 #: ../plugins/battery//PageComponent.qml:190
 #: ../plugins/battery//PageComponent.qml:192
 msgid "Yesterday"
-msgstr ""
+msgstr "Včera"
 
 #: ../plugins/battery//PageComponent.qml:198
 #: ../plugins/battery//PageComponent.qml:200
 msgid "Today"
-msgstr ""
+msgstr "Dnes"
 
 #: ../plugins/battery//PageComponent.qml:269
 msgid "Charging now"
-msgstr ""
+msgstr "Nabíja sa"
 
 #: ../plugins/battery//PageComponent.qml:271
 msgid "Last full charge"
-msgstr ""
+msgstr "Posledné plné nabitie"
 
 #: ../plugins/battery//PageComponent.qml:273
 msgid "Fully charged"
-msgstr ""
+msgstr "Plne nabité"
 
 #: ../plugins/battery//PageComponent.qml:292
 msgid "Ways to reduce battery use:"
-msgstr ""
+msgstr "Možnosti zníženia spotreby batérie:"
 
 #: ../plugins/battery//PageComponent.qml:296
 #: ../plugins/brightness//PageComponent.qml:84
 msgid "Display brightness"
-msgstr ""
+msgstr "Jas obrazovky"
 
 #: ../plugins/battery//PageComponent.qml:313
 #: ../plugins/security-privacy//PhoneLocking.qml:85
 msgid "Lock when idle"
-msgstr ""
+msgstr "Zamknúť keď neaktívne"
 
 #: ../plugins/battery//PageComponent.qml:313
 #: ../plugins/security-privacy//PhoneLocking.qml:86
 msgid "Sleep when idle"
-msgstr ""
+msgstr "Uspať keď neaktívne"
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery//PageComponent.qml:321
@@ -655,304 +664,306 @@ msgstr ""
 #, qt-format
 msgid "After %1 second"
 msgid_plural "After %1 seconds"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Po sekunde"
+msgstr[1] "Za %1 sekundy"
+msgstr[2] "Po %1 sekundách"
 
 #. TRANSLATORS: “Wi-Fi used for hotspot” is hidden.
 #: ../plugins/battery//PageComponent.qml:364
 msgid "Wi-Fi used for hotspot"
-msgstr ""
+msgstr "Wi-Fi sa používa ako hotpot"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../plugins/battery//PageComponent.qml:364
 #: ../plugins/wifi//PageComponent.qml:28 ../build/po/settings.js:282
 msgid "Wi-Fi"
-msgstr ""
+msgstr "Wi-Fi"
 
 #. TRANSLATORS: This is a keyword or name for the bluetooth plugin which is used while searching
 #: ../plugins/battery//PageComponent.qml:400
 #: ../plugins/bluetooth//PageComponent.qml:33
 #: ../plugins/bluetooth//PageComponent.qml:233 ../build/po/settings.js:356
 msgid "Bluetooth"
-msgstr ""
+msgstr "Bluetooth"
 
 #. TRANSLATORS: This is a keyword or name for the notifications plugin which is used while searching
 #: ../plugins/notifications//PageComponent.qml:29
 #: ../plugins/notifications//ClickAppNotifications.qml:54
 #: ../build/po/settings.js:54
 msgid "Notifications"
-msgstr ""
+msgstr "Notifikácie"
 
 #: ../plugins/notifications//PageComponent.qml:74
 msgid ""
 "Apps can alert you using sounds, vibrations, notification bubbles and the "
 "Notification list."
 msgstr ""
+"Aplikácie, ktoré Vás môžu upozorňovať použtím zvuku, vibrácii ainých "
+"oznámení."
 
 #: ../plugins/notifications//PageComponent.qml:90
 msgid "Apps that notify with sound"
-msgstr ""
+msgstr "Aplikácie so zvukovou notifikáciou"
 
 #: ../plugins/notifications//PageComponent.qml:115
 msgid "Apps that notify with vibration"
-msgstr ""
+msgstr "Aplikácie s vibračnou notifikáciou"
 
 #: ../plugins/notifications//PageComponent.qml:140
 msgid "Applications:"
-msgstr ""
+msgstr "Aplikácie:"
 
 #: ../plugins/notifications//PageComponent.qml:169
 msgid "No notifications"
-msgstr ""
+msgstr "Žiadne notifikácie"
 
 #: ../plugins/notifications//PageComponent.qml:174
 #: ../plugins/notifications//ClickAppNotifications.qml:81
 msgid "Sounds"
-msgstr ""
+msgstr "Zvuky"
 
 #: ../plugins/notifications//PageComponent.qml:177
 #: ../plugins/notifications//ClickAppNotifications.qml:103
 msgid "Vibrations"
-msgstr ""
+msgstr "Vibrácie"
 
 #: ../plugins/notifications//PageComponent.qml:180
 msgid "Bubbles"
-msgstr ""
+msgstr "Bubliny"
 
 #: ../plugins/notifications//PageComponent.qml:183
 #: ../plugins/notifications//ClickAppNotifications.qml:147
 msgid "Notification List"
-msgstr ""
+msgstr "Notifikačný zoznam"
 
 #: ../plugins/notifications//ClickAppsVibrationsNotify.qml:30
 msgid "Vibration"
-msgstr ""
+msgstr "Vibrácia"
 
 #: ../plugins/notifications//ClickAppsVibrationsNotify.qml:54
 msgid "When in Silent mode:"
-msgstr ""
+msgstr "V tichom režime:"
 
 #: ../plugins/notifications//ClickAppsVibrationsNotify.qml:72
 msgid "Vibrate as normal"
-msgstr ""
+msgstr "Vibrovať ako zvyčajne"
 
 #: ../plugins/notifications//ClickAppsVibrationsNotify.qml:73
 msgid "Don't vibrate"
-msgstr ""
+msgstr "Nevibrovať"
 
 #: ../plugins/notifications//ClickAppsVibrationsNotify.qml:89
 msgid "Apps that notify with vibrations:"
-msgstr ""
+msgstr "Aplikácie s vibračným oznámením:"
 
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../plugins/notifications//ClickAppsSoundsNotify.qml:30
 #: ../plugins/sound//PageComponent.qml:39 ../build/po/settings.js:236
 msgid "Sound"
-msgstr ""
+msgstr "Zvuk"
 
 #: ../plugins/notifications//ClickAppsSoundsNotify.qml:48
 msgid "Apps that notify with sound:"
-msgstr ""
+msgstr "Aplikácie so zvukovou notifikáciou:"
 
 #: ../plugins/notifications//ClickAppNotifications.qml:72
 msgid "Let this app alert me using:"
-msgstr ""
+msgstr "Táto aplikácia ma môže upozorniť pomocou:"
 
 #: ../plugins/notifications//ClickAppNotifications.qml:125
 msgid "Notification Bubbles"
-msgstr ""
+msgstr "Notifikačné bubliny"
 
 #: ../plugins/background//Preview.qml:69
 msgid "Preview"
-msgstr ""
+msgstr "Náhľad"
 
 #: ../plugins/background//Preview.qml:101
 msgid "Remove image"
-msgstr ""
+msgstr "Odstrániť obrázok"
 
 #: ../plugins/background//Preview.qml:107
 #: ../plugins/security-privacy//LockSecurity.qml:390
 #: ../plugins/time-date//TimePicker.qml:181
 #: ../plugins/phone//CallForwarding.qml:253
 msgid "Set"
-msgstr ""
+msgstr "Nastaviť"
 
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../plugins/background//MainPage.qml:36 ../build/po/settings.js:78
 msgid "Background"
-msgstr ""
+msgstr "Pozadie"
 
 #: ../plugins/background//MainPage.qml:88
 msgid "Ubuntu Art"
-msgstr ""
+msgstr "Ubuntu Art"
 
 #: ../plugins/background//MainPage.qml:104
 msgid "Custom"
-msgstr ""
+msgstr "Vlastné"
 
 #: ../plugins/background//MainPage.qml:117
 msgid "Dash background"
-msgstr ""
+msgstr "Pozadie zariadenia"
 
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../plugins/language//PageComponent.qml:35 ../build/po/settings.js:106
 msgid "Language & Text"
-msgstr ""
+msgstr "Jazyk a text"
 
 #: ../plugins/language//PageComponent.qml:139
 msgid "Display language…"
-msgstr ""
+msgstr "Jazyk zobrazenia…"
 
 #: ../plugins/language//PageComponent.qml:155
 msgid "On-screen keyboard"
-msgstr ""
+msgstr "Obrazovková klávesnica"
 
 #: ../plugins/language//PageComponent.qml:156
 #: ../plugins/language//KeyboardLayouts.qml:29
 msgid "Keyboard layouts"
-msgstr ""
+msgstr "Rozloženia klávesnice"
 
 #: ../plugins/language//PageComponent.qml:167
 msgid "External keyboard"
-msgstr ""
+msgstr "Externá klávesnica"
 
 #: ../plugins/language//PageComponent.qml:181
 #: ../plugins/language//PageComponent.qml:191
 #: ../plugins/language//SpellChecking.qml:29
 #: ../plugins/language//SpellChecking.qml:44
 msgid "Spell checking"
-msgstr ""
+msgstr "Kontrola pravopisu"
 
 #: ../plugins/language//PageComponent.qml:202
 msgid "Auto correction"
-msgstr ""
+msgstr "Auto-korekcie"
 
 #: ../plugins/language//PageComponent.qml:213
 msgid "Word suggestions"
-msgstr ""
+msgstr "Návrhy slov"
 
 #: ../plugins/language//PageComponent.qml:227
 msgid "Auto capitalization"
-msgstr ""
+msgstr "Automatické veľké písmená"
 
 #: ../plugins/language//PageComponent.qml:238
 msgid "Turns on Shift to capitalize the first letter of each sentence."
-msgstr ""
+msgstr "Zapína klávesu Shift, pre prvé písmeno vo vete."
 
 #: ../plugins/language//PageComponent.qml:245
 msgid "Auto punctuation"
-msgstr ""
+msgstr "Automatická interpunkcia"
 
 #: ../plugins/language//PageComponent.qml:257
 msgid "Inserts a period when you tap Space twice."
-msgstr ""
+msgstr "Pri dvojkliku medzerníkom vloží bodku."
 
 #: ../plugins/language//PageComponent.qml:264
 #: ../plugins/sound//PageComponent.qml:250
 msgid "Keyboard sound"
-msgstr ""
+msgstr "Zvuk klávesnice"
 
 #: ../plugins/language//PageComponent.qml:275
 msgid "Keyboard vibration"
-msgstr ""
+msgstr "Vibrovanie klávesnice"
 
 #: ../plugins/language//DisplayLanguage.qml:36
 msgid "Display language"
-msgstr ""
+msgstr "Zobrazovací jazyk"
 
 #: ../plugins/language//DisplayLanguage.qml:116
 msgid "Confirm"
-msgstr ""
+msgstr "Potvrdiť"
 
 #: ../plugins/language//KeyboardLayouts.qml:48
 msgid "Current layouts:"
-msgstr ""
+msgstr "Aktuálne rozloženia:"
 
 #: ../plugins/language//KeyboardLayouts.qml:48
 msgid "All layouts available:"
-msgstr ""
+msgstr "Všetky dostupné rozloženia:"
 
 #: ../plugins/language//RebootNecessary.qml:34
 msgid "The device needs to restart for changes to take effect."
-msgstr ""
+msgstr "Na aktiváciu zmien je potrebný reštart zariadenia."
 
 #: ../plugins/language//RebootNecessary.qml:38
 msgid "Restart Now"
-msgstr ""
+msgstr "Reštartovať teraz"
 
 #: ../plugins/language//SpellChecking.qml:62
 msgid "Current spelling languages:"
-msgstr ""
+msgstr "Jazyky kontroly pravopisu:"
 
 #: ../plugins/language//SpellChecking.qml:63
 msgid "All languages available:"
-msgstr ""
+msgstr "Všetky dostupné jazyky:"
 
 #: ../plugins/language//PageHardwareKeyboard.qml:33
 msgid "Hardware keyboard"
-msgstr ""
+msgstr "Hardvérová klávesnica"
 
 #: ../plugins/language//PageHardwareKeyboard.qml:61
 msgid "Layouts and other sources"
-msgstr ""
+msgstr "Rozloženia a iné zdroje"
 
 #: ../plugins/about//Storage.qml:32 ../plugins/about//PageComponent.qml:150
 msgid "Storage"
-msgstr ""
+msgstr "Úložisko"
 
 #: ../plugins/about//Storage.qml:44
 msgid "Scanning"
-msgstr ""
+msgstr "Skenovanie"
 
 #: ../plugins/about//Storage.qml:111
 msgid "Used by Ubuntu"
-msgstr ""
+msgstr "Používané Ubuntu"
 
 #: ../plugins/about//Storage.qml:112
 msgid "Videos"
-msgstr ""
+msgstr "Videá"
 
 #: ../plugins/about//Storage.qml:113
 msgid "Audio"
-msgstr ""
+msgstr "Audio"
 
 #: ../plugins/about//Storage.qml:114
 msgid "Pictures"
-msgstr ""
+msgstr "Obrázky"
 
 #: ../plugins/about//Storage.qml:115
 msgid "Other files"
-msgstr ""
+msgstr "Ostatné súbory"
 
 #: ../plugins/about//Storage.qml:116
 msgid "Used by apps"
-msgstr ""
+msgstr "Použité aplikáciami"
 
 #: ../plugins/about//Storage.qml:162
 msgid "Total storage"
-msgstr ""
+msgstr "Celková kapacita"
 
 #: ../plugins/about//Storage.qml:174
 msgid "Free space"
-msgstr ""
+msgstr "Voľné miesto"
 
 #: ../plugins/about//Storage.qml:194
 msgid "By name"
-msgstr ""
+msgstr "Podľa mena"
 
 #: ../plugins/about//Storage.qml:194
 msgid "By size"
-msgstr ""
+msgstr "Podľa veľkosti"
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../plugins/about//PageComponent.qml:35 ../build/po/settings.js:132
 msgid "About"
-msgstr ""
+msgstr "O Aplikácii"
 
 #: ../plugins/about//PageComponent.qml:99
 msgid "Serial"
-msgstr ""
+msgstr "Sériové číslo"
 
 #: ../plugins/about//PageComponent.qml:109
 #: ../plugins/about//PageComponent.qml:110
@@ -969,304 +980,310 @@ msgstr ""
 #: ../plugins/wifi//certhandler.cpp:192 ../plugins/wifi//certhandler.cpp:224
 #: ../plugins/wifi//certhandler.cpp:289 ../plugins/wifi//certhandler.cpp:318
 msgid "None"
-msgstr ""
+msgstr "Nič"
 
 #: ../plugins/about//PageComponent.qml:131
 msgid "Wi-Fi address"
-msgstr ""
+msgstr "Adresa Wi-Fi"
 
 #: ../plugins/about//PageComponent.qml:139
 msgid "Bluetooth address"
-msgstr ""
+msgstr "Adresa Bluetooth"
 
 #. TRANSLATORS: that's the free disk space, indicated in the most appropriate storage unit
 #: ../plugins/about//PageComponent.qml:152
 #, qt-format
 msgid "%1 free"
-msgstr ""
+msgstr "%1 voľného miesta"
 
 #: ../plugins/about//PageComponent.qml:160
 msgid "Software:"
-msgstr ""
+msgstr "Softvér:"
 
 #: ../plugins/about//PageComponent.qml:172
 msgid "OS"
-msgstr ""
+msgstr "Operačný systém"
 
 #: ../plugins/about//PageComponent.qml:184
 msgid "Last updated"
-msgstr ""
+msgstr "Naposledy aktualizované"
 
 #: ../plugins/about//PageComponent.qml:194
 msgid "Check for updates"
-msgstr ""
+msgstr "Skontrolovať aktualizácie"
 
 #: ../plugins/about//PageComponent.qml:219
 msgid "Legal:"
-msgstr ""
+msgstr "Právne informácie:"
 
 #: ../plugins/about//PageComponent.qml:224 ../plugins/about//Software.qml:11
 msgid "Software licenses"
-msgstr ""
+msgstr "Softvérové licencie"
 
 #: ../plugins/about//PageComponent.qml:231
 msgid "Regulatory info"
-msgstr ""
+msgstr "Regulačné informácie"
 
 #: ../plugins/about//PageComponent.qml:238
 msgid "Developer mode"
-msgstr ""
+msgstr "Vývojársky režim"
 
 #: ../plugins/about//Version.qml:35
 msgid "OS Build Details"
-msgstr ""
+msgstr "Podrobnosti zostavy OS"
 
 #: ../plugins/about//Version.qml:62
 msgid "OS build number"
-msgstr ""
+msgstr "Číslo zostavy OS"
 
 #: ../plugins/about//Version.qml:68
 msgid "Ubuntu Image part"
-msgstr ""
+msgstr "Čast pre Ubuntu obraz"
 
 #: ../plugins/about//Version.qml:76
 msgid "Ubuntu build description"
-msgstr ""
+msgstr "Popis Ubuntu zostavy"
 
 #: ../plugins/about//Version.qml:82
 msgid "Device Image part"
-msgstr ""
+msgstr "Časť pre obraz zariadenia"
 
 #: ../plugins/about//Version.qml:89
 msgid "Device build description"
-msgstr ""
+msgstr "Popis zostavy zariadenia"
 
 #: ../plugins/about//Version.qml:96
 msgid "Customization Image part"
-msgstr ""
+msgstr "Čast pre obraz pripôsobení"
 
 #: ../plugins/about//License.qml:30
 msgid "Sorry, this license could not be displayed."
-msgstr ""
+msgstr "Prepáčte, túto licenciu sa nepodarilo zobraziť."
 
 #: ../plugins/about//DevMode.qml:35 ../plugins/about//DevMode.qml:90
 msgid "Developer Mode"
-msgstr ""
+msgstr "Vývojársky režim"
 
 #: ../plugins/about//DevMode.qml:84
 msgid ""
 "In Developer Mode, anyone can access, change or delete anything on this "
 "device by connecting it to another device."
 msgstr ""
+"Vo vývojárskom režime, ktokoľvek môže zmeniť alebo zmazať čokoľvek na tomto "
+"zariadení, ak ho pripojí k inému."
 
 #: ../plugins/about//DevMode.qml:110
 msgid "You need a passcode or passphrase set to use Developer Mode."
 msgstr ""
+"Pre používanie vývojárskeho režimu je nevyhnutné používať číselný kód alebo "
+"heslo."
 
 #: ../plugins/about//DevMode.qml:116
 #: ../plugins/security-privacy//LockSecurity.qml:36
 #: ../plugins/security-privacy//PhoneLocking.qml:63
 msgid "Lock security"
-msgstr ""
+msgstr "Bezpečnostný zámok"
 
 #: ../plugins/security-privacy//LockSecurity.qml:136
 #: ../plugins/security-privacy//LockSecurity.qml:561
 msgid "Change passcode…"
-msgstr ""
+msgstr "Zmeniť číselný kód…"
 
 #: ../plugins/security-privacy//LockSecurity.qml:138
 #: ../plugins/security-privacy//LockSecurity.qml:562
 msgid "Change passphrase…"
-msgstr ""
+msgstr "Zmeniť heslo…"
 
 #: ../plugins/security-privacy//LockSecurity.qml:145
 msgid "Switch to swipe"
-msgstr ""
+msgstr "Prepnúť na potiahnutie"
 
 #: ../plugins/security-privacy//LockSecurity.qml:147
 msgid "Switch to passcode"
-msgstr ""
+msgstr "Prepnúť na číselný kód"
 
 #: ../plugins/security-privacy//LockSecurity.qml:149
 msgid "Switch to passphrase"
-msgstr ""
+msgstr "Prepnúť na heslo"
 
 #: ../plugins/security-privacy//LockSecurity.qml:158
 msgid "Existing passcode"
-msgstr ""
+msgstr "Aktuálny číselný kód"
 
 #: ../plugins/security-privacy//LockSecurity.qml:160
 msgid "Existing passphrase"
-msgstr ""
+msgstr "Aktuálne heslo"
 
 #: ../plugins/security-privacy//LockSecurity.qml:230
 msgid "Choose passcode"
-msgstr ""
+msgstr "Zvoľte číselný kód"
 
 #: ../plugins/security-privacy//LockSecurity.qml:232
 msgid "Choose passphrase"
-msgstr ""
+msgstr "Zvoľte heslo"
 
 #: ../plugins/security-privacy//LockSecurity.qml:290
 msgid "Confirm passcode"
-msgstr ""
+msgstr "Potvrďte číselný kód"
 
 #: ../plugins/security-privacy//LockSecurity.qml:292
 msgid "Confirm passphrase"
-msgstr ""
+msgstr "Potvrďte heslo"
 
 #: ../plugins/security-privacy//LockSecurity.qml:347
 msgid "Those passcodes don't match. Try again."
-msgstr ""
+msgstr "Číselné kódy sú rozličné. Skúste ešte raz."
 
 #: ../plugins/security-privacy//LockSecurity.qml:350
 msgid "Those passphrases don't match. Try again."
-msgstr ""
+msgstr "Heslá sú rozlišné. Skúste ešte raz."
 
 #: ../plugins/security-privacy//LockSecurity.qml:385
 msgid "Unset"
-msgstr ""
+msgstr "Nenastavené"
 
 #: ../plugins/security-privacy//LockSecurity.qml:461
 msgid "Unlock the device using:"
-msgstr ""
+msgstr "Odomkmúť zariadenie pomocou:"
 
 #: ../plugins/security-privacy//LockSecurity.qml:465
 msgid "Swipe (no security)"
-msgstr ""
+msgstr "Potiahnutie (žiadne zabezpečenie)"
 
 #: ../plugins/security-privacy//LockSecurity.qml:466
 msgid "4-digit passcode"
-msgstr ""
+msgstr "Štvormiestny číselný kód"
 
 #: ../plugins/security-privacy//LockSecurity.qml:467
 #: ../plugins/security-privacy//PhoneLocking.qml:59
 msgid "Passphrase"
-msgstr ""
+msgstr "Heslo"
 
 #: ../plugins/security-privacy//LockSecurity.qml:468
 #: ../plugins/security-privacy//PhoneLocking.qml:60
 msgid "Fingerprint"
-msgstr ""
+msgstr "Snímač otlačku prstu"
 
 #: ../plugins/security-privacy//LockSecurity.qml:469
 msgid "Swipe (no security)… "
-msgstr ""
+msgstr "Potiahnutie (žiadne zabezpečenie)... "
 
 #: ../plugins/security-privacy//LockSecurity.qml:470
 msgid "4-digit passcode…"
-msgstr ""
+msgstr "Štvormiestny číselný kód…"
 
 #: ../plugins/security-privacy//LockSecurity.qml:471
 msgid "Passphrase…"
-msgstr ""
+msgstr "Heslo…"
 
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../plugins/security-privacy//PageComponent.qml:40
 #: ../build/po/settings.js:168
 msgid "Security & Privacy"
-msgstr ""
+msgstr "Bezpečnosť a súkromie"
 
 #: ../plugins/security-privacy//PageComponent.qml:128
 msgid "Phone and Internet"
-msgstr ""
+msgstr "Telefón a internet"
 
 #: ../plugins/security-privacy//PageComponent.qml:130
 msgid "Phone only"
-msgstr ""
+msgstr "Iba telefón"
 
 #: ../plugins/security-privacy//PageComponent.qml:154
 #: ../plugins/wifi//OtherNetwork.qml:307
 msgid "Security"
-msgstr ""
+msgstr "Bezpečnosť"
 
 #: ../plugins/security-privacy//PageComponent.qml:160
 msgid "Fingerprint ID"
-msgstr ""
+msgstr "ID snímky prstu"
 
 #: ../plugins/security-privacy//PageComponent.qml:180
 #: ../plugins/security-privacy//PhoneLocking.qml:32
 msgid "Locking and unlocking"
-msgstr ""
+msgstr "Zamknutie a odomknutie"
 
 #: ../plugins/security-privacy//PageComponent.qml:191
 #: ../plugins/security-privacy//SimPin.qml:37
 #: ../plugins/security-privacy//SimPin.qml:396
 msgid "SIM PIN"
-msgstr ""
+msgstr "PIM pre SIMkartu"
 
 #: ../plugins/security-privacy//PageComponent.qml:194
 #: ../plugins/security-privacy//PageComponent.qml:266
 msgid "On"
-msgstr ""
+msgstr "Zapnuté"
 
 #: ../plugins/security-privacy//PageComponent.qml:198
 #: ../plugins/security-privacy//PageComponent.qml:266
 #: ../plugins/phone//CallForwarding.qml:386
 msgid "Off"
-msgstr ""
+msgstr "Vypnuté"
 
 #: ../plugins/security-privacy//PageComponent.qml:205
 msgid "Encryption"
-msgstr ""
+msgstr "Šifrovanie"
 
 #: ../plugins/security-privacy//PageComponent.qml:215
 msgid ""
 "Encryption protects against access to phone data when the phone is connected "
 "to a PC or other device."
 msgstr ""
+"Šifrovanie chráni proti neoprávnenému pristupu k údajom zariadenia, keď je "
+"pripojené k počítaču alebo inému zariadeniu."
 
 #: ../plugins/security-privacy//PageComponent.qml:220
 msgid "Privacy"
-msgstr ""
+msgstr "Súkromie"
 
 #: ../plugins/security-privacy//PageComponent.qml:224
 msgid "Stats on welcome screen"
-msgstr ""
+msgstr "Štatistiky na uvítacej obrazovke"
 
 #: ../plugins/security-privacy//PageComponent.qml:234
 msgid "Messages on welcome screen"
-msgstr ""
+msgstr "Správy na uvítacej obrazovke"
 
 #: ../plugins/security-privacy//PageComponent.qml:258
 #: ../plugins/security-privacy//Location.qml:34
 #: ../plugins/security-privacy//AppAccess.qml:74
 msgid "Location"
-msgstr ""
+msgstr "Poloha"
 
 #: ../plugins/security-privacy//PageComponent.qml:277
 #: ../plugins/security-privacy//AppAccess.qml:29
 msgid "App permissions"
-msgstr ""
+msgstr "Oprávnenia aplikácií"
 
 #: ../plugins/security-privacy//PageComponent.qml:282
 #: ../plugins/security-privacy//diagnostics//PageComponent.qml:31
 msgid "Diagnostics"
-msgstr ""
+msgstr "Diagnostika"
 
 #. TRANSLATORS: This string is shown when crash
 #. reports are to be sent by the system.
 #: ../plugins/security-privacy//PageComponent.qml:286
 msgid "Sent"
-msgstr ""
+msgstr "Odoslané"
 
 #. TRANSLATORS: This string is shown when crash
 #. reports are not to be sent by the system
 #: ../plugins/security-privacy//PageComponent.qml:289
 msgid "Not sent"
-msgstr ""
+msgstr "Neodoslané"
 
 #: ../plugins/security-privacy//Location.qml:96
 msgid "Let the device detect your location:"
-msgstr ""
+msgstr "Dovoliť zariadeniu zistiť Vašu polohu:"
 
 #: ../plugins/security-privacy//Location.qml:175
 msgid "Using GPS only (less accurate)"
-msgstr ""
+msgstr "Použit iba GPS (menej presné)"
 
 #: ../plugins/security-privacy//Location.qml:176
 msgid "Using GPS"
-msgstr ""
+msgstr "Použiť GPS"
 
 #: ../plugins/security-privacy//Location.qml:188
 #, qt-format
@@ -1274,6 +1291,8 @@ msgid ""
 "Using GPS, anonymized Wi-Fi and cellular network info.<br>By selecting this "
 "option you accept the <a href='%1'>Nokia HERE terms and conditions</a>."
 msgstr ""
+"Použiť GPS, anonymné Wi-Fi a info z mobilnej siete. <br> Výberom yejto "
+"možnosti prijímate <a href='%1'> podmienky spoločnosti Nokia HERE</a>."
 
 #: ../plugins/security-privacy//Location.qml:189
 #, qt-format
@@ -1281,46 +1300,60 @@ msgid ""
 "Using GPS and anonymized Wi-Fi info.<br>By selecting this option you accept "
 "the <a href='%1'>Nokia HERE terms and conditions</a>."
 msgstr ""
+"Použiť GPS a anonymné Wi-Fi. <br> Výberom yejto možnosti prijímate <a "
+"href='%1'> podmienky spoločnosti Nokia HERE</a>."
 
 #: ../plugins/security-privacy//Location.qml:195
 msgid "Not at all"
-msgstr ""
+msgstr "Vôbec nie"
 
 #: ../plugins/security-privacy//Location.qml:212
 msgid ""
 "Uses GPS to detect your rough location. When off, GPS turns off to save "
 "battery."
 msgstr ""
+"Používa GPS pre približné určenie vašej polohy. Ak vypnuté, vypne GPS, aby "
+"šetril batériu."
 
 #: ../plugins/security-privacy//Location.qml:214
 msgid ""
 "Uses wi-fi and GPS to detect your rough location. Turning off location "
 "detection saves battery."
 msgstr ""
+"Používa Wi-Fi a GPS pre približné určenie vašej polohy. Vypnutie určovania "
+"polohy šetrí batériu."
 
 #: ../plugins/security-privacy//Location.qml:216
 msgid ""
 "Uses wi-fi (currently off) and GPS to detect your rough location. Turning "
 "off location detection saves battery."
 msgstr ""
+"Používa Wi-Fi (akuálne vypnuté) a GPS pre približné určenie vašej polohy. "
+"Vypnutie určovania polohy šetrí batériu."
 
 #: ../plugins/security-privacy//Location.qml:218
 msgid ""
 "Uses wi-fi, cell tower locations, and GPS to detect your rough location. "
 "Turning off location detection saves battery."
 msgstr ""
+"Používa Wi-Fi, mobilnú sieť a GPS pre približné určenie vašej polohy. "
+"Vypnutie určovania polohy šetrí batériu."
 
 #: ../plugins/security-privacy//Location.qml:220
 msgid ""
 "Uses wi-fi, cell tower locations (no current cellular connection), and GPS "
 "to detect your rough location. Turning off location detection saves battery."
 msgstr ""
+"Používa Wi-Fi, mobilnú sieť (aktuálne bez signálu) a GPS pre približné "
+"určenie vašej polohy. Vypnutie určovania polohy šetrí batériu."
 
 #: ../plugins/security-privacy//Location.qml:222
 msgid ""
 "Uses wi-fi (currently off), cell tower locations, and GPS to detect your "
 "rough location. Turning off location detection saves battery."
 msgstr ""
+"Používa Wi-Fi (aktuálne vypnuté), mobilnú sieť a GPS pre približné určenie "
+"vašej polohy. Vypnutie určovania polohy šetrí batériu."
 
 #: ../plugins/security-privacy//Location.qml:224
 msgid ""
@@ -1328,27 +1361,29 @@ msgid ""
 "connection), and GPS to detect your rough location. Turning off location "
 "detection saves battery."
 msgstr ""
+"Používa Wi-Fi (aktuálne vypnuté), mobilnú sieť (aktuálne bez signálu) a GPS "
+"pre približné určenie vašej polohy. Vypnutie určovania polohy šetrí batériu."
 
 #: ../plugins/security-privacy//Location.qml:231
 msgid "Let apps access this location:"
-msgstr ""
+msgstr "Povoliť aplikáciam prístup k tejto polohe:"
 
 #: ../plugins/security-privacy//Location.qml:254
 msgid "None requested"
-msgstr ""
+msgstr "Žiadna požiadavka"
 
 #: ../plugins/security-privacy//AppAccess.qml:62
 msgid "Apps that you have granted access to:"
-msgstr ""
+msgstr "Aplikácie,  ktorým ste pridelili prístup:"
 
 #: ../plugins/security-privacy//AppAccess.qml:68
 #: ../plugins/bluetooth//DevicePage.qml:61
 msgid "Camera"
-msgstr ""
+msgstr "Fotoaparát"
 
 #: ../plugins/security-privacy//AppAccess.qml:69
 msgid "Apps that have requested access to your camera"
-msgstr ""
+msgstr "Aplikácie, ktoré žiadajú pristup k vášmu fotoaparátu"
 
 #: ../plugins/security-privacy//AppAccess.qml:75
 msgid "Apps that have requested access to your location"
