@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-21 19:49+0000\n"
-"Last-Translator: Milan Korecký <milan.korecky@gmail.com>\n"
+"PO-Revision-Date: 2017-09-23 14:49+0000\n"
+"Last-Translator: Peter Valachovič <peter.valachovic@gmail.com>\n"
 "Language-Team: Czech <https://translate.ubports.com/projects/ubports/system-"
 "settings/cs/>\n"
 "Language: cs\n"
@@ -1420,7 +1420,7 @@ msgstr "0"
 
 #: ../plugins/security-privacy//AppAccess.qml:116
 msgid "Apps may also request access to online accounts."
-msgstr "Aplikace, které mohou požadovat přístup k online účtům."
+msgstr "Aplikace mohou také požadovat přístup k online účtům."
 
 #: ../plugins/security-privacy//AppAccess.qml:121
 msgid "Online Accounts…"
