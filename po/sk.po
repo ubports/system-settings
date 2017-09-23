@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-23 15:06+0000\n"
+"PO-Revision-Date: 2017-09-23 15:19+0000\n"
 "Last-Translator: Peter Valachovič <peter.valachovic@gmail.com>\n"
 "Language-Team: Slovak <https://translate.ubports.com/projects/ubports/system-"
 "settings/sk/>\n"
@@ -1471,45 +1471,45 @@ msgstr "Zmeniť PIN na SIM karte"
 #, qt-format
 msgid "Incorrect PIN. %1 attempt remaining."
 msgid_plural "Incorrect PIN. %1 attempts remaining."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Nesprávny PIN. Zostáva ešte posledný pokus."
+msgstr[1] "Nesprávny PIN. Zostávajú %1 pokusy."
+msgstr[2] "Nesprávny PIN. Zostáva %1 pokusov."
 
 #: ../plugins/security-privacy//SimPin.qml:57
 #: ../plugins/security-privacy//SimPin.qml:119
 #: ../plugins/security-privacy//SimPin.qml:223
 #: ../plugins/security-privacy//SimPin.qml:296
 msgid "No more attempts allowed"
-msgstr ""
+msgstr "Žiadne ďalšie pokusy nie sú dovolené"
 
 #: ../plugins/security-privacy//SimPin.qml:92
 msgid "Current PIN:"
-msgstr ""
+msgstr "Aktuálny PIN:"
 
 #: ../plugins/security-privacy//SimPin.qml:114
 #: ../plugins/security-privacy//SimPin.qml:291
 #, qt-format
 msgid "%1 attempt allowed."
 msgid_plural "%1 attempts allowed."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Jeden dovolený pokus."
+msgstr[1] "%1 dovolené pokusy."
+msgstr[2] "%1 dovolených pokusov."
 
 #: ../plugins/security-privacy//SimPin.qml:134
 msgid "Choose new PIN:"
-msgstr ""
+msgstr "Zvoľte nový PIN:"
 
 #: ../plugins/security-privacy//SimPin.qml:145
 msgid "Confirm new PIN:"
-msgstr ""
+msgstr "Potvrďte nový PIN:"
 
 #: ../plugins/security-privacy//SimPin.qml:167
 msgid "PINs don't match. Try again."
-msgstr ""
+msgstr "PIN kódy sú rozličné. Skúste znova."
 
 #: ../plugins/security-privacy//SimPin.qml:212
 msgid "Enter SIM PIN"
-msgstr ""
+msgstr "Zadajte PIN pre SIM kartu"
 
 #: ../plugins/security-privacy//SimPin.qml:213
 msgid "Enter Previous SIM PIN"
