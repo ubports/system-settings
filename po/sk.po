@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-23 14:39+0000\n"
+"PO-Revision-Date: 2017-09-23 15:06+0000\n"
 "Last-Translator: Peter Valachovič <peter.valachovic@gmail.com>\n"
 "Language-Team: Slovak <https://translate.ubports.com/projects/ubports/system-"
 "settings/sk/>\n"
@@ -1387,83 +1387,84 @@ msgstr "Aplikácie, ktoré žiadajú pristup k vášmu fotoaparátu"
 
 #: ../plugins/security-privacy//AppAccess.qml:75
 msgid "Apps that have requested access to your location"
-msgstr ""
+msgstr "Aplikácie, ktoré žiadajú pristup k vašej polohe"
 
 #: ../plugins/security-privacy//AppAccess.qml:80
 msgid "Microphone"
-msgstr ""
+msgstr "Mikrofón"
 
 #: ../plugins/security-privacy//AppAccess.qml:81
 msgid "Apps that have requested access to your microphone"
-msgstr ""
+msgstr "Aplikácie, ktoré žiadajú pristup k vášmu mikrofónu"
 
 #: ../plugins/security-privacy//AppAccess.qml:86
 msgid "In-App Purchases"
-msgstr ""
+msgstr "Nákupy v aplikácii"
 
 #: ../plugins/security-privacy//AppAccess.qml:87
 msgid "Apps that have requested access for in-app purchases"
-msgstr ""
+msgstr "Aplikácie, ktoré žiadajú pristup k nákupom v aplikácii"
 
 #: ../plugins/security-privacy//AppAccess.qml:100
 #, qt-format
 msgid "%1/%2"
-msgstr ""
+msgstr "%1/%2"
 
 #: ../plugins/security-privacy//AppAccess.qml:101
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: ../plugins/security-privacy//AppAccess.qml:116
 msgid "Apps may also request access to online accounts."
-msgstr ""
+msgstr "Aplikácie môžu tiež požadovať prístup ku online účtom."
 
 #: ../plugins/security-privacy//AppAccess.qml:121
 msgid "Online Accounts…"
-msgstr ""
+msgstr "Online účty…"
 
 #: ../plugins/security-privacy//PhoneLocking.qml:57
 msgctxt "Unlock with swipe"
 msgid "None"
-msgstr ""
+msgstr "Žiadne"
 
 #: ../plugins/security-privacy//PhoneLocking.qml:58
 msgid "Passcode"
-msgstr ""
+msgstr "Číselný kód"
 
 #: ../plugins/security-privacy//PhoneLocking.qml:122
 msgid "Sleep locks immediately"
-msgstr ""
+msgstr "Uspanie aj okamžite zamyká"
 
 #: ../plugins/security-privacy//PhoneLocking.qml:127
 msgid "When locked, allow:"
-msgstr ""
+msgstr "Ak zamknuté, dovoľ:"
 
 #. TRANSLATORS: This is a keyword or name for the launcher plugin which is used while searching
 #: ../plugins/security-privacy//PhoneLocking.qml:131
 #: ../plugins/launcher//PageComponent.qml:31 ../build/po/settings.js:320
 msgid "Launcher"
-msgstr ""
+msgstr "Spúšťací panel"
 
 #: ../plugins/security-privacy//PhoneLocking.qml:144
 msgid "Notifications and quick settings"
-msgstr ""
+msgstr "Notifikácie a rýchle nastavenia"
 
 #: ../plugins/security-privacy//PhoneLocking.qml:158
 msgid "Turn on lock security to restrict access when the device is locked."
 msgstr ""
+"Zapnúť bezpečnostný zámok na obmedzenie prístupu, keď je zariadenie zamknuté."
 
 #: ../plugins/security-privacy//PhoneLocking.qml:159
 msgid "Other apps and functions will prompt you to unlock."
-msgstr ""
+msgstr "Ostatné apky a funkcie budú potrebovať odomknutie."
 
 #: ../plugins/security-privacy//here-terms.qml:24
 msgid "Nokia HERE"
-msgstr ""
+msgstr "Nokia HERE"
 
 #: ../plugins/security-privacy//SimPin.qml:47
 msgid "Change SIM PIN"
-msgstr ""
+msgstr "Zmeniť PIN na SIM karte"
 
 #: ../plugins/security-privacy//SimPin.qml:52
 #: ../plugins/security-privacy//SimPin.qml:218
