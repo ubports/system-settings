@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-22 15:15+0000\n"
-"Last-Translator: Philipp Leibelt <dickerwels@gmail.com>\n"
+"PO-Revision-Date: 2017-09-23 10:35+0000\n"
+"Last-Translator: Twinkybot <me@twinkybot.org>\n"
 "Language-Team: German <https://translate.ubports.com/projects/ubports/system-"
 "settings/de/>\n"
 "Language: de\n"
@@ -38,7 +38,6 @@ msgstr "Kanal Einstellungen"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
-#, fuzzy
 msgid "Stable"
 msgstr "Stabil"
 
@@ -104,8 +103,7 @@ msgstr "Aktualisierungen"
 
 #: ../plugins/system-update//PageComponent.qml:182
 msgid "Connect to the Internet to check for updates."
-msgstr ""
-"Verbinde das Gerät mit dem Internet, um nach Aktualisierungen zu suchen."
+msgstr "Bitte mit dem Internet verbinden, um nach Aktualisierungen zu suchen."
 
 #: ../plugins/system-update//PageComponent.qml:184
 msgid "Software is up to date"
@@ -120,9 +118,8 @@ msgid "Updates Available"
 msgstr "Aktualisierungen verfügbar"
 
 #: ../plugins/system-update//PageComponent.qml:349
-#, fuzzy
 msgid "Recent updates"
-msgstr "Letzte Änderungen"
+msgstr "Letzten Änderungen"
 
 #: ../plugins/system-update//PageComponent.qml:412
 #: ../plugins/system-update//UpdateSettings.qml:32
@@ -149,18 +146,14 @@ msgstr "System aktualisieren"
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:32
 #: ../plugins/system-update//ImageUpdatePrompt.qml:32
-#, fuzzy
 msgid "The device needs to restart to install the system update."
 msgstr ""
-"Das Telefon muss neugestartet werden, um die Systemaktualisierung zu "
-"installieren."
+"Ein Neustart ist notwendig, um die Systemaktualisierung zu installieren."
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:33
 #: ../plugins/system-update//ImageUpdatePrompt.qml:33
 msgid "Connect the device to power before installing the system update."
-msgstr ""
-"Verbinden Sie das Telefon vor dem Installieren der Aktualisierung mit einem "
-"Ladekabel."
+msgstr "Bitte vor der Aktualisierung des Geräts, dieses am Strom anschließen."
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:38
 #: ../plugins/system-update//ImageUpdatePrompt.qml:38
@@ -200,7 +193,7 @@ msgstr "Abbrechen"
 #: ../plugins/system-update//NotAuthenticatedNotification.qml:37
 msgid "Sign in to Ubuntu One to receive updates for apps."
 msgstr ""
-"Bei »Ubuntu One« anmelden, um Aktualisierungen für Anwendungen zu erhalten."
+"Bei Ubuntu One anmelden, um Aktualisierungen für Anwendungen zu erhalten."
 
 #: ../plugins/system-update//NotAuthenticatedNotification.qml:54
 msgid "Sign In…"
@@ -242,7 +235,7 @@ msgstr "Stopp"
 #, qt-format
 msgid "%1 update available"
 msgid_plural "%1 updates available"
-msgstr[0] "Eine Aktualisierung verfügbar"
+msgstr[0] "%1 Aktualisierung verfügbar"
 msgstr[1] "%1 Aktualisierungen verfügbar"
 
 #: ../plugins/system-update//Global.qml:126
@@ -275,7 +268,7 @@ msgstr "Pause"
 
 #: ../plugins/system-update//UpdateDelegate.qml:143
 msgid "Install…"
-msgstr "Installieren …"
+msgstr "Installieren…"
 
 #: ../plugins/system-update//UpdateDelegate.qml:145
 msgid "Install"
@@ -322,7 +315,7 @@ msgstr "Installiert"
 #: ../plugins/system-update//UpdateDelegate.qml:286
 #, qt-format
 msgid "Updated %1"
-msgstr "Aktualisit am %1"
+msgstr "Aktualisiert am %1"
 
 #: ../plugins/system-update//UpdateDelegate.qml:310
 msgid "Update failed"
@@ -339,16 +332,16 @@ msgid ""
 "When hotspot is on, other devices can use your cellular data connection over "
 "Wi-Fi. Normal data charges apply."
 msgstr ""
-"Mit einem Hotspot können andere Geräte die mobile Datenverbindung über WLAN "
-"nutzen. Dafür entstehen normale Kosten."
+"Wenn der Hotspot aktiviert ist, können andere Geräte Ihre mobile "
+"Datenverbindung über das WLAN nutzen. Hierbei entstehen die üblichen Kosten."
 
 #: ../plugins/hotspot//PageComponent.qml:114
 msgid ""
 "Other devices can use your cellular data connection over the Wi-Fi network. "
 "Normal data charges apply."
 msgstr ""
-"Andere Geräte können die mobile Datenverbindung über WLAN nutzen. Dafür "
-"können Kosten entstehen."
+"Andere Geräte können Ihre mobile Datenverbindung über WLAN nutzen. Hierbei "
+"enstehen die üblichen Kosten."
 
 #: ../plugins/hotspot//PageComponent.qml:123
 msgid "Change Password/Setup…"
@@ -364,7 +357,7 @@ msgstr "WLAN ist aus"
 
 #: ../plugins/hotspot//PageComponent.qml:155
 msgid "In order to create a hotspot, you need to turn Wi-Fi on."
-msgstr "Um einen Hotspot einzurichten muss WLAN eingeschaltet sein."
+msgstr "Um einen Hotspot einzurichten, muss das WLAN eingeschaltet sein."
 
 #: ../plugins/hotspot//PageComponent.qml:164
 msgid "Turn on Wi-Fi"
@@ -443,7 +436,7 @@ msgstr "Dienst für geteilte Verbindung fehlgeschlagen"
 
 #: ../plugins/hotspot//Common.qml:68 ../plugins/wifi//Common.qml:70
 msgid "Necessary firmware for the device may be missing"
-msgstr "Notwendige Firmware des Geräts fehlt möglicherweise"
+msgstr "Möglicherweise fehlt die notwendige Firmware für das Gerät"
 
 #: ../plugins/hotspot//Common.qml:70 ../plugins/wifi//Common.qml:72
 msgid "The device was removed"
@@ -454,8 +447,9 @@ msgid "NetworkManager went to sleep"
 msgstr "NetworkManager ging in den Schlafmodus"
 
 #: ../plugins/hotspot//Common.qml:74 ../plugins/wifi//Common.qml:76
+#, fuzzy
 msgid "The device's active connection disappeared"
-msgstr "Die aktive Verbindung des Geräts verschwand"
+msgstr "Die aktive Verbindung ist abgebrochen"
 
 #: ../plugins/hotspot//Common.qml:76 ../plugins/wifi//Common.qml:78
 msgid "Device disconnected by user or client"
@@ -463,7 +457,7 @@ msgstr "Das Gerät wurde durch den Benutzer oder das Programm getrennt"
 
 #: ../plugins/hotspot//Common.qml:78 ../plugins/wifi//Common.qml:80
 msgid "The device's existing connection was assumed"
-msgstr "Die bestehende Verbindung des Geräts wurde angenommen"
+msgstr "Es wurde eine bestehende Verbindung angenommen"
 
 #: ../plugins/hotspot//Common.qml:80 ../plugins/wifi//Common.qml:82
 msgid "The supplicant is now available"
@@ -521,7 +515,7 @@ msgstr "Passwort anzeigen"
 
 #: ../plugins/hotspot//HotspotSetup.qml:245
 msgid "Starting the hotspot will turn on Wi-Fi."
-msgstr "Verwendung des Hotspots startet das WLAN."
+msgstr "Verwendung des Hotspots aktiviert das WLAN."
 
 #: ../plugins/hotspot//HotspotSetup.qml:274
 #: ../plugins/security-privacy//LockSecurity.qml:388
@@ -567,16 +561,14 @@ msgstr[0] "Nach %1 Minute"
 msgstr[1] "Nach %1 Minuten"
 
 #: ../plugins/battery//SleepValues.qml:130
-#, fuzzy
 msgid ""
 "Shorter times are more secure. Device won't lock during calls or video "
 "playback."
 msgstr ""
-"Kürzere Zeiten sind sicherer. Das Telefon wird während Telefonaten oder "
+"Kürzere Zeiträume sind sicherer. Das Telefon wird bei Telefonaten oder "
 "Videowiedergaben nicht gesperrt."
 
 #: ../plugins/battery//SleepValues.qml:130
-#, fuzzy
 msgid "Device won’t sleep during calls or video playback."
 msgstr ""
 "Das Telefon wird bei Telefonaten und Videowiedergaben nicht in den "
@@ -589,11 +581,11 @@ msgstr "Akku"
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery//PageComponent.qml:44
-#, fuzzy, qt-format
+#, qt-format
 msgid "%1 second ago"
 msgid_plural "%1 seconds ago"
-msgstr[0] "1 ist die Anzahl von Sekunden"
-msgstr[1] "vor %1 Sekunden"
+msgstr[0] "Vor 1 Sekunde"
+msgstr[1] "Vor %1 Sekunden"
 
 #. TRANSLATORS: %1 is the number of minutes
 #: ../plugins/battery//PageComponent.qml:47
@@ -670,16 +662,16 @@ msgstr "Ruhezustand aktivieren,  wenn inaktiv"
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery//PageComponent.qml:321
 #: ../plugins/security-privacy//PhoneLocking.qml:94
-#, fuzzy, qt-format
+#, qt-format
 msgid "After %1 second"
 msgid_plural "After %1 seconds"
-msgstr[0] "1 ist die Anzahl von Minuten"
-msgstr[1] "Nach %1 Minuten"
+msgstr[0] "Nach %1 Sekunde"
+msgstr[1] "Nach %1 Sekunden"
 
 #. TRANSLATORS: “Wi-Fi used for hotspot” is hidden.
 #: ../plugins/battery//PageComponent.qml:364
 msgid "Wi-Fi used for hotspot"
-msgstr "für den Hotspot verwendete WLAN ist verstecktt"
+msgstr "Das für den Hotspot verwendete WLAN ist verborgen"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../plugins/battery//PageComponent.qml:364
@@ -702,13 +694,12 @@ msgid "Notifications"
 msgstr "Benach­rich­ti­gungen"
 
 #: ../plugins/notifications//PageComponent.qml:74
-#, fuzzy
 msgid ""
 "Apps can alert you using sounds, vibrations, notification bubbles and the "
 "Notification list."
 msgstr ""
-"Ausgewählte Anwendungen können sie über Meldungen, Töne, Vibrationen und die "
-"Benachrichtigungsleiste benachrichtigen."
+"Ausgewählte Anwendungen können Sie über Meldungen durch Töne, Vibrationen "
+"und die Benachrichtigungsleiste benachrichtigen."
 
 #: ../plugins/notifications//PageComponent.qml:90
 msgid "Apps that notify with sound"
@@ -719,14 +710,12 @@ msgid "Apps that notify with vibration"
 msgstr "Apps mit Vibrationsbenachrichtigung"
 
 #: ../plugins/notifications//PageComponent.qml:140
-#, fuzzy
 msgid "Applications:"
-msgstr "Großschreibung"
+msgstr "Programme:"
 
 #: ../plugins/notifications//PageComponent.qml:169
-#, fuzzy
 msgid "No notifications"
-msgstr "Benachrichtigungen"
+msgstr "Keine Benachrichtigungen"
 
 #: ../plugins/notifications//PageComponent.qml:174
 #: ../plugins/notifications//ClickAppNotifications.qml:81
@@ -736,7 +725,6 @@ msgstr "Audio"
 
 #: ../plugins/notifications//PageComponent.qml:177
 #: ../plugins/notifications//ClickAppNotifications.qml:103
-#, fuzzy
 msgid "Vibrations"
 msgstr "Vibration"
 
@@ -746,29 +734,24 @@ msgstr "Blasen"
 
 #: ../plugins/notifications//PageComponent.qml:183
 #: ../plugins/notifications//ClickAppNotifications.qml:147
-#, fuzzy
 msgid "Notification List"
-msgstr "Benach­rich­ti­gungen"
+msgstr "Benach­rich­ti­gungsliste"
 
 #: ../plugins/notifications//ClickAppsVibrationsNotify.qml:30
-#, fuzzy
 msgid "Vibration"
 msgstr "Vibration"
 
 #: ../plugins/notifications//ClickAppsVibrationsNotify.qml:54
-#, fuzzy
 msgid "When in Silent mode:"
-msgstr "Bei »Lautlos« vibrieren"
+msgstr "Im Lautlos Modus:"
 
 #: ../plugins/notifications//ClickAppsVibrationsNotify.qml:72
-#, fuzzy
 msgid "Vibrate as normal"
-msgstr "Vibrieren, wenn es klingelt"
+msgstr "Als Standard Vibrieren"
 
 #: ../plugins/notifications//ClickAppsVibrationsNotify.qml:73
-#, fuzzy
 msgid "Don't vibrate"
-msgstr "Vibrieren"
+msgstr "Nicht Vibrieren"
 
 #: ../plugins/notifications//ClickAppsVibrationsNotify.qml:89
 msgid "Apps that notify with vibrations:"
@@ -836,9 +819,8 @@ msgid "Display language…"
 msgstr "Sprache anzeigen …"
 
 #: ../plugins/language//PageComponent.qml:155
-#, fuzzy
 msgid "On-screen keyboard"
-msgstr "Tastatur"
+msgstr "Bildschirmtastatur"
 
 #: ../plugins/language//PageComponent.qml:156
 #: ../plugins/language//KeyboardLayouts.qml:29
@@ -846,9 +828,8 @@ msgid "Keyboard layouts"
 msgstr "Tastaturbelegungen"
 
 #: ../plugins/language//PageComponent.qml:167
-#, fuzzy
 msgid "External keyboard"
-msgstr "Tastatur"
+msgstr "Externe Tastatur"
 
 #: ../plugins/language//PageComponent.qml:181
 #: ../plugins/language//PageComponent.qml:191
@@ -880,7 +861,6 @@ msgid "Auto punctuation"
 msgstr "Automatische Satzzeichen"
 
 #: ../plugins/language//PageComponent.qml:257
-#, fuzzy
 msgid "Inserts a period when you tap Space twice."
 msgstr ""
 "Fügt einen Punkt und fehlende Anführungszeichen ein, wenn Sie zweimal "
@@ -912,9 +892,8 @@ msgid "All layouts available:"
 msgstr "Alle verfügbaren Erscheinungsbilder:"
 
 #: ../plugins/language//RebootNecessary.qml:34
-#, fuzzy
 msgid "The device needs to restart for changes to take effect."
-msgstr "Das Telefon muss dafür neu gestartet werden."
+msgstr "Telefon muss neu gestartet werden, um die Änderungen zu übernehmen."
 
 #: ../plugins/language//RebootNecessary.qml:38
 msgid "Restart Now"
@@ -987,9 +966,8 @@ msgstr "Nach Größe"
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../plugins/about//PageComponent.qml:35 ../build/po/settings.js:132
-#, fuzzy
 msgid "About"
-msgstr "Info"
+msgstr "Über"
 
 #: ../plugins/about//PageComponent.qml:99
 msgid "Serial"
@@ -1095,13 +1073,12 @@ msgid "Developer Mode"
 msgstr "Entwicklermodus"
 
 #: ../plugins/about//DevMode.qml:84
-#, fuzzy
 msgid ""
 "In Developer Mode, anyone can access, change or delete anything on this "
 "device by connecting it to another device."
 msgstr ""
 "Im Entwicklermodus können alle Daten auf diesem Telefon gelesen, geändert "
-"oder gelöscht werden, wenn es mit einem Rechner verbunden wird."
+"oder gelöscht werden, wenn es mit einem anderen Gerät verbunden wird."
 
 #: ../plugins/about//DevMode.qml:110
 msgid "You need a passcode or passphrase set to use Developer Mode."
@@ -1174,9 +1151,8 @@ msgid "Unset"
 msgstr "Zurücksetzen"
 
 #: ../plugins/security-privacy//LockSecurity.qml:461
-#, fuzzy
 msgid "Unlock the device using:"
-msgstr "Entsperrt das Telefon unter Benutzung von:"
+msgstr "Telefon entsperren durch:"
 
 #: ../plugins/security-privacy//LockSecurity.qml:465
 msgid "Swipe (no security)"
@@ -1285,9 +1261,8 @@ msgstr "Standort"
 
 #: ../plugins/security-privacy//PageComponent.qml:277
 #: ../plugins/security-privacy//AppAccess.qml:29
-#, fuzzy
 msgid "App permissions"
-msgstr "Berechtigungen"
+msgstr "App Berechtigungen"
 
 #: ../plugins/security-privacy//PageComponent.qml:282
 #: ../plugins/security-privacy//diagnostics//PageComponent.qml:31
@@ -1307,9 +1282,8 @@ msgid "Not sent"
 msgstr "Nicht senden"
 
 #: ../plugins/security-privacy//Location.qml:96
-#, fuzzy
 msgid "Let the device detect your location:"
-msgstr "Lass das Telefon den Standort bestimmen"
+msgstr "Standorterkennung durchs Telefon erlauben:"
 
 #: ../plugins/security-privacy//Location.qml:175
 msgid "Using GPS only (less accurate)"
@@ -1330,14 +1304,14 @@ msgstr ""
 "Nutzungsbedingungen von Nokia HERE."
 
 #: ../plugins/security-privacy//Location.qml:189
-#, fuzzy, qt-format
+#, qt-format
 msgid ""
 "Using GPS and anonymized Wi-Fi info.<br>By selecting this option you accept "
 "the <a href='%1'>Nokia HERE terms and conditions</a>."
 msgstr ""
-"Die Verwendung von GPS, anonymisiertes WLAN und ein "
-"Mobilfunknetzinformationen. Mit der Wahl dieser Option akzeptierst du die "
-"Nutzungsbedingungen von Nokia HERE."
+"Verwenden von GPS und anonymisiertes WLAN-Informationen. Mit der Wahl dieser "
+"Option akzeptieren Sie die <a href='%1'>Nutzungsbedingungen von Nokia "
+"HERE</a>."
 
 #: ../plugins/security-privacy//Location.qml:195
 msgid "Not at all"
@@ -1402,19 +1376,16 @@ msgstr ""
 "Positionsbestimmung spart Energie."
 
 #: ../plugins/security-privacy//Location.qml:231
-#, fuzzy
 msgid "Let apps access this location:"
 msgstr "Erlaube den Zugriff auf Ihre Position:"
 
 #: ../plugins/security-privacy//Location.qml:254
-#, fuzzy
 msgid "None requested"
-msgstr "Keines gefunden"
+msgstr "Keine gefunden"
 
 #: ../plugins/security-privacy//AppAccess.qml:62
-#, fuzzy
 msgid "Apps that you have granted access to:"
-msgstr "Beantragte und erteilte App-Berechtigungen:"
+msgstr "Erteilte App-Berechtigungen:"
 
 #: ../plugins/security-privacy//AppAccess.qml:68
 #: ../plugins/bluetooth//DevicePage.qml:61
@@ -1426,19 +1397,16 @@ msgid "Apps that have requested access to your camera"
 msgstr "Apps die Zugriff auf die Kamera wünschen"
 
 #: ../plugins/security-privacy//AppAccess.qml:75
-#, fuzzy
 msgid "Apps that have requested access to your location"
-msgstr "Apps die Zugriff auf das Mikrofon wünschen"
+msgstr "Apps, die Zugriff auf Ihren Standort ergefragt haben"
 
 #: ../plugins/security-privacy//AppAccess.qml:80
-#, fuzzy
 msgid "Microphone"
-msgstr "Telefon"
+msgstr "Mikrofon"
 
 #: ../plugins/security-privacy//AppAccess.qml:81
-#, fuzzy
 msgid "Apps that have requested access to your microphone"
-msgstr "Apps die Zugriff auf das Mikrofon wünschen"
+msgstr "Apps, die Zugriff auf das Mikrofon erfragt haben"
 
 #: ../plugins/security-privacy//AppAccess.qml:86
 msgid "In-App Purchases"
@@ -1447,7 +1415,7 @@ msgstr "In-App Einkäufe"
 #: ../plugins/security-privacy//AppAccess.qml:87
 #, fuzzy
 msgid "Apps that have requested access for in-app purchases"
-msgstr "Apps die Zugriff auf die Kamera wünschen"
+msgstr "Apps, die Zugriff auf In-Appkäufe ergefragt haben"
 
 #: ../plugins/security-privacy//AppAccess.qml:100
 #, qt-format
@@ -1494,11 +1462,10 @@ msgid "Notifications and quick settings"
 msgstr "Benachrichtigungen und Schnelleinstellungen"
 
 #: ../plugins/security-privacy//PhoneLocking.qml:158
-#, fuzzy
 msgid "Turn on lock security to restrict access when the device is locked."
 msgstr ""
-"Sicherheitssperre einschalten um Zugriff zu beschränken wenn das Telefon "
-"gesperrt ist."
+"Sicherheitssperre einschalten, um bei gesperrtem Telefon den Zugriff zu "
+"beschränken."
 
 #: ../plugins/security-privacy//PhoneLocking.qml:159
 msgid "Other apps and functions will prompt you to unlock."
@@ -1568,9 +1535,8 @@ msgid "Lock"
 msgstr "Sperren"
 
 #: ../plugins/security-privacy//SimPin.qml:411
-#, fuzzy
 msgid "Unlocked"
-msgstr "Entsperren"
+msgstr "Entsperrt"
 
 #: ../plugins/security-privacy//SimPin.qml:414
 msgid "Change PIN…"
@@ -1581,18 +1547,16 @@ msgid "Locked"
 msgstr "Gesperrt"
 
 #: ../plugins/security-privacy//SimPin.qml:429
-#, fuzzy
 msgid "Unlock…"
-msgstr "Entsperren"
+msgstr "Entsperren…"
 
 #: ../plugins/security-privacy//SimPin.qml:443
-#, fuzzy
 msgid ""
 "When a SIM PIN is set, it must be entered to access cellular services after "
 "restarting the device or swapping the SIM."
 msgstr ""
-"Wenn eine SIM-PIN gesetzt ist, muss sie nach dem Neustart oder SIM-Tausch "
-"eingegeben werden um Mobilfunk zu nutzen."
+"Ist eine SIM-PIN gesetzt, muss diese nach einem Neustart oder nach einem SIM-"
+"Tausch eingegeben werden, um Mobilfunkdienste nutzen zu können."
 
 #: ../plugins/security-privacy//SimPin.qml:447
 msgid "Entering an incorrect PIN repeatedly may lock the SIM permanently."
@@ -1601,9 +1565,8 @@ msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../plugins/vpn//PageComponent.qml:31 ../build/po/settings.js:192
-#, fuzzy
 msgid "VPN"
-msgstr "Zugangspunkt"
+msgstr "VPN"
 
 #: ../plugins/vpn//PageComponent.qml:76
 msgid ""
@@ -1619,14 +1582,12 @@ msgid "Add Manual Configuration…"
 msgstr "Manuelle konfigurieren…"
 
 #: ../plugins/vpn//PageComponent.qml:115
-#, fuzzy
 msgid "VPN reconnection required."
-msgstr "Dienst für geteilte Verbindung fehlgeschlagen"
+msgstr "Erneuter Verbindungsaufsbau mit dem VPN notwendig."
 
 #: ../plugins/vpn//PageComponent.qml:116
-#, fuzzy
 msgid "You need to reconnect for changes to have an effect."
-msgstr "Das Telefon muss dafür neu gestartet werden."
+msgstr "Bitte erneut verbinden, um die Änderungen zu übernehmen."
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../plugins/mouse//PageComponent.qml:29 ../build/po/settings.js:210
@@ -1750,7 +1711,6 @@ msgstr "Alle Systemeinstellungen zurücksetzen …"
 
 #: ../plugins/reset//PageComponent.qml:126
 #: ../plugins/reset//PageComponent.qml:138
-#, fuzzy
 msgid "Erase & Reset All"
 msgstr "Alles löschen und zurücksetzen"
 
@@ -1792,7 +1752,6 @@ msgid "Ringtone"
 msgstr "Klingelton"
 
 #: ../plugins/sound//PageComponent.qml:171
-#, fuzzy
 msgid "Vibrate on ring"
 msgstr "Vibrieren, wenn es klingelt"
 
@@ -1828,19 +1787,17 @@ msgid "Lock sound"
 msgstr "Sperrton"
 
 #: ../plugins/sound//PageComponent.qml:277
-#, fuzzy
 msgid "Other vibrations"
-msgstr "Vibration"
+msgstr "Andere Vibrationsmuster"
 
 #: ../plugins/sound//SoundsList.qml:128
-#, fuzzy
 msgid "Custom Ringtone"
-msgstr "Klingelton"
+msgstr "Standard Klingelton"
 
 #: ../plugins/sound//SoundsList.qml:208
 #, fuzzy
 msgid "Choose from"
-msgstr "Wählen Sie einen Betreiber:"
+msgstr "Wählen Sie von"
 
 #. TRANSLATORS: This string is a description of a text
 #. field and should thus be concise.
@@ -1852,19 +1809,16 @@ msgid "APN"
 msgstr "Zugangspunkt"
 
 #: ../plugins/cellular//PageChooseApn.qml:63
-#, fuzzy
 msgid "MMS APN"
-msgstr "MMS-Zugangspunkt:"
+msgstr "MMS-Zugangspunkt"
 
 #: ../plugins/cellular//PageChooseApn.qml:69
-#, fuzzy
 msgid "Internet APN"
-msgstr "Internetzugangspunkt:"
+msgstr "Internetzugangspunkt"
 
 #: ../plugins/cellular//PageChooseApn.qml:75
-#, fuzzy
 msgid "LTE APN"
-msgstr "%1-Zugangspunkt"
+msgstr "LTE-Zugangspunkt"
 
 #: ../plugins/cellular//PageChooseApn.qml:85
 #: ../plugins/cellular//PageApnEditor.qml:159
@@ -1887,9 +1841,8 @@ msgid "MMS"
 msgstr "MMS"
 
 #: ../plugins/cellular//PageChooseApn.qml:155
-#, fuzzy
 msgid "Reset All APN Settings…"
-msgstr "Zugangspunkteinstellungen zurücksetzen"
+msgstr "Alle Zugangspunkteinstellungen zurücksetzen"
 
 #: ../plugins/cellular//PageChooseApn.qml:164
 msgid "Reset APN Settings"
@@ -1939,24 +1892,23 @@ msgstr "Sie haben %1 als bevorzugten Internet APN ausgewählt. "
 
 #: ../plugins/cellular//PageChooseApn.qml:231
 #: ../plugins/cellular//PageChooseApn.qml:264
-#, fuzzy
 msgid "Disable"
-msgstr "deaktivieren"
+msgstr "Deaktivieren"
 
 #: ../plugins/cellular//PageChooseApn.qml:253
-#, fuzzy, qt-format
+#, qt-format
 msgid "Disconnect %1"
-msgstr "Verbindung trennen"
+msgstr "Verbindung %1 trennen"
 
 #: ../plugins/cellular//PageChooseApn.qml:254
-#, fuzzy, qt-format
+#, qt-format
 msgid "Disable %1"
-msgstr "deaktivieren"
+msgstr "Deaktiviere %1"
 
 #: ../plugins/cellular//PageChooseApn.qml:259
-#, fuzzy, qt-format
+#, qt-format
 msgid "This disconnects %1."
-msgstr "trennen"
+msgstr "%1 trennen."
 
 #: ../plugins/cellular//PageChooseApn.qml:260
 #, qt-format
@@ -1977,9 +1929,8 @@ msgid "Edit"
 msgstr "Bearbeiten"
 
 #: ../plugins/cellular//PageApnEditor.qml:69
-#, fuzzy
 msgid "New APN"
-msgstr "%1-Zugangspunkt"
+msgstr "Neuer Zugangspunkt"
 
 #: ../plugins/cellular//PageApnEditor.qml:155
 msgid "Used for:"
@@ -2017,23 +1968,20 @@ msgid "Enter message proxy"
 msgstr "Nachrichten-Proxy"
 
 #: ../plugins/cellular//PageApnEditor.qml:308
-#, fuzzy
 msgid "Proxy port"
-msgstr "Proxy"
+msgstr "Proxyport"
 
 #: ../plugins/cellular//PageApnEditor.qml:318
 msgid "Enter message proxy port"
 msgstr "Nachrichten-Proxy Port"
 
 #: ../plugins/cellular//PageApnEditor.qml:336
-#, fuzzy
 msgid "User name"
 msgstr "Benutzername"
 
 #: ../plugins/cellular//PageApnEditor.qml:345
-#, fuzzy
 msgid "Enter username"
-msgstr "Passphrase eingeben"
+msgstr "Benutzername eingeben"
 
 #: ../plugins/cellular//PageApnEditor.qml:358
 #: ../plugins/wifi//NetworkDetails.qml:70 ../plugins/wifi//OtherNetwork.qml:786
@@ -2041,9 +1989,8 @@ msgid "Password"
 msgstr "Passwort"
 
 #: ../plugins/cellular//PageApnEditor.qml:369
-#, fuzzy
 msgid "Enter password"
-msgstr "Passphrase eingeben"
+msgstr "Passwort eingeben"
 
 #: ../plugins/cellular//PageApnEditor.qml:383
 #: ../plugins/wifi//OtherNetwork.qml:338
@@ -2055,9 +2002,8 @@ msgid "PAP or CHAP"
 msgstr "PAP oder CHAP"
 
 #: ../plugins/cellular//PageApnEditor.qml:389
-#, fuzzy
 msgid "PAP only"
-msgstr "Nur Telefon"
+msgstr "Nur PAP"
 
 #: ../plugins/cellular//PageApnEditor.qml:390
 #, fuzzy
