@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-08-26 13:20+0000\n"
+"PO-Revision-Date: 2017-09-24 07:37+0000\n"
 "Last-Translator: Mutse Young <yyhoo2.young@gmail.com>\n"
-"Language-Team: Chinese (Simplified) <https://ubpweblate.tnvcomp.com/projects/"
-"ubports/system-settings/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified) "
+"<https://translate.ubports.com/projects/ubports/system-settings/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,7 +34,7 @@ msgstr "首选项；设置；"
 
 #: ../plugins/system-update//ChannelSettings.qml:32
 msgid "Channel settings"
-msgstr ""
+msgstr "通道设置"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
@@ -45,7 +45,7 @@ msgstr "手写板"
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
 msgid "Release candidate"
-msgstr ""
+msgstr "候选发布版"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
@@ -55,15 +55,15 @@ msgstr "开发者模式"
 
 #: ../plugins/system-update//ChannelSettings.qml:99
 msgid "Fetching channels"
-msgstr ""
+msgstr "获取通道"
 
 #: ../plugins/system-update//ChannelSettings.qml:109
 msgid "Channel to get updates from:"
-msgstr ""
+msgstr "获取更新的通道："
 
 #: ../plugins/system-update//ChannelSettings.qml:125
 msgid "Switching channel"
-msgstr ""
+msgstr "切换通道"
 
 #: ../plugins/system-update//Configuration.qml:30
 #: ../plugins/system-update//UpdateSettings.qml:42
@@ -114,7 +114,7 @@ msgstr "软件已是最新"
 
 #: ../plugins/system-update//PageComponent.qml:187
 msgid "The update server is not responding. Try again later."
-msgstr ""
+msgstr "更新服务器未相应，请稍后重试。"
 
 #: ../plugins/system-update//PageComponent.qml:196
 #, fuzzy
@@ -165,7 +165,7 @@ msgstr "安装系统更新之前，请将手机连接到电源。"
 #: ../plugins/system-update//ImageSwitchPrompt.qml:38
 #: ../plugins/system-update//ImageUpdatePrompt.qml:38
 msgid "Restart & Install"
-msgstr ""
+msgstr "重启和安装"
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:48
 #: ../plugins/system-update//ImageUpdatePrompt.qml:48
@@ -235,7 +235,7 @@ msgstr "正在检查更新…"
 
 #: ../plugins/system-update//Global.qml:89
 msgid "Stop"
-msgstr ""
+msgstr "停止"
 
 #. TRANSLATORS: %1 is number of software updates available.
 #: ../plugins/system-update//Global.qml:116
@@ -284,7 +284,7 @@ msgstr "安装"
 
 #: ../plugins/system-update//UpdateDelegate.qml:149
 msgid "Open"
-msgstr ""
+msgstr "打开"
 
 #: ../plugins/system-update//UpdateDelegate.qml:228
 msgid "Installing"
@@ -372,7 +372,7 @@ msgstr "Wi-Fi 热点"
 
 #: ../plugins/hotspot//PageComponent.qml:155
 msgid "In order to create a hotspot, you need to turn Wi-Fi on."
-msgstr ""
+msgstr "为了创建一个热点，您需要打开 Wifi。"
 
 #: ../plugins/hotspot//PageComponent.qml:164
 #, fuzzy
@@ -521,7 +521,7 @@ msgstr "选择口令密语"
 
 #: ../plugins/hotspot//HotspotSetup.qml:193
 msgid "Require a password (recommended):"
-msgstr ""
+msgstr "需要一个密码（推荐）："
 
 #: ../plugins/hotspot//HotspotSetup.qml:224
 #: ../plugins/wifi//NetworkDetails.qml:84 ../plugins/wifi//OtherNetwork.qml:821
@@ -530,7 +530,7 @@ msgstr "显示密码"
 
 #: ../plugins/hotspot//HotspotSetup.qml:245
 msgid "Starting the hotspot will turn on Wi-Fi."
-msgstr ""
+msgstr "启动热点将打开 Wifi。"
 
 #: ../plugins/hotspot//HotspotSetup.qml:274
 #: ../plugins/security-privacy//LockSecurity.qml:388
@@ -540,7 +540,7 @@ msgstr "更改"
 
 #: ../plugins/hotspot//HotspotSetup.qml:275
 msgid "Start"
-msgstr ""
+msgstr "启动"
 
 #: ../plugins/battery//SleepValues.qml:74
 #, fuzzy
@@ -712,11 +712,11 @@ msgstr "选中的应用会通过气泡、声音、振动和通知中心来提醒
 
 #: ../plugins/notifications//PageComponent.qml:90
 msgid "Apps that notify with sound"
-msgstr ""
+msgstr "用声音通知应用程序"
 
 #: ../plugins/notifications//PageComponent.qml:115
 msgid "Apps that notify with vibration"
-msgstr ""
+msgstr "用震动通知应用程序"
 
 #: ../plugins/notifications//PageComponent.qml:140
 #, fuzzy
@@ -742,7 +742,7 @@ msgstr "振动"
 
 #: ../plugins/notifications//PageComponent.qml:180
 msgid "Bubbles"
-msgstr ""
+msgstr "气泡声"
 
 #: ../plugins/notifications//PageComponent.qml:183
 #: ../plugins/notifications//ClickAppNotifications.qml:147
@@ -772,7 +772,7 @@ msgstr "震动"
 
 #: ../plugins/notifications//ClickAppsVibrationsNotify.qml:89
 msgid "Apps that notify with vibrations:"
-msgstr ""
+msgstr "震动通知应用程序："
 
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../plugins/notifications//ClickAppsSoundsNotify.qml:30
@@ -782,11 +782,11 @@ msgstr "声音"
 
 #: ../plugins/notifications//ClickAppsSoundsNotify.qml:48
 msgid "Apps that notify with sound:"
-msgstr ""
+msgstr "声音通知应用程序："
 
 #: ../plugins/notifications//ClickAppNotifications.qml:72
 msgid "Let this app alert me using:"
-msgstr ""
+msgstr "让这个应用提醒我使用："
 
 #: ../plugins/notifications//ClickAppNotifications.qml:125
 #, fuzzy
@@ -931,7 +931,7 @@ msgstr "键盘"
 
 #: ../plugins/language//PageHardwareKeyboard.qml:61
 msgid "Layouts and other sources"
-msgstr ""
+msgstr "布局和其它来源"
 
 #: ../plugins/about//Storage.qml:32 ../plugins/about//PageComponent.qml:150
 msgid "Storage"
@@ -939,7 +939,7 @@ msgstr "储存空间"
 
 #: ../plugins/about//Storage.qml:44
 msgid "Scanning"
-msgstr ""
+msgstr "扫描"
 
 #: ../plugins/about//Storage.qml:111
 msgid "Used by Ubuntu"
@@ -1188,7 +1188,7 @@ msgstr "口令"
 #: ../plugins/security-privacy//LockSecurity.qml:468
 #: ../plugins/security-privacy//PhoneLocking.qml:60
 msgid "Fingerprint"
-msgstr ""
+msgstr "指纹"
 
 #: ../plugins/security-privacy//LockSecurity.qml:469
 msgid "Swipe (no security)… "
@@ -1223,12 +1223,12 @@ msgstr "安全"
 
 #: ../plugins/security-privacy//PageComponent.qml:160
 msgid "Fingerprint ID"
-msgstr ""
+msgstr "指纹 ID"
 
 #: ../plugins/security-privacy//PageComponent.qml:180
 #: ../plugins/security-privacy//PhoneLocking.qml:32
 msgid "Locking and unlocking"
-msgstr ""
+msgstr "锁定和解锁"
 
 #: ../plugins/security-privacy//PageComponent.qml:191
 #: ../plugins/security-privacy//SimPin.qml:37
@@ -1305,11 +1305,11 @@ msgstr "已请求使用您手机上麦克风的应用"
 
 #: ../plugins/security-privacy//Location.qml:175
 msgid "Using GPS only (less accurate)"
-msgstr ""
+msgstr "置使用 GSP（不太准确）"
 
 #: ../plugins/security-privacy//Location.qml:176
 msgid "Using GPS"
-msgstr ""
+msgstr "使用 GPS"
 
 #: ../plugins/security-privacy//Location.qml:188
 #, qt-format
@@ -1424,7 +1424,7 @@ msgstr "已请求使用您手机上麦克风的应用"
 
 #: ../plugins/security-privacy//AppAccess.qml:86
 msgid "In-App Purchases"
-msgstr ""
+msgstr "应用内购买"
 
 #: ../plugins/security-privacy//AppAccess.qml:87
 #, fuzzy
@@ -1447,7 +1447,7 @@ msgstr "已请求使用您手机上麦克风的应用"
 
 #: ../plugins/security-privacy//AppAccess.qml:121
 msgid "Online Accounts…"
-msgstr ""
+msgstr "在线账户…"
 
 #: ../plugins/security-privacy//PhoneLocking.qml:57
 msgctxt "Unlock with swipe"
@@ -1588,11 +1588,11 @@ msgstr "APN"
 msgid ""
 "To add a VPN configuration, download its config file or configure it "
 "manually."
-msgstr ""
+msgstr "要添加 VPN 配置，请下载其配置文件或手动配置。"
 
 #: ../plugins/vpn//PageComponent.qml:82
 msgid "Add Manual Configuration…"
-msgstr ""
+msgstr "添加手动配置…"
 
 #: ../plugins/vpn//PageComponent.qml:115
 #, fuzzy
@@ -1607,7 +1607,7 @@ msgstr "本手机需要重启以使改动生效。"
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../plugins/mouse//PageComponent.qml:29 ../build/po/settings.js:210
 msgid "Mouse & Touchpad"
-msgstr ""
+msgstr "鼠标和触控板"
 
 #: ../plugins/mouse//None.qml:34
 msgid ""
