@@ -2839,6 +2839,7 @@ msgstr "2G/3G (más rápido)"
 msgid "2G/3G/4G (faster)"
 msgstr "2G/3G/4G (más rápido)"
 
+<<<<<<< HEAD
 #: ../src/qml/MainWindow.qml:150
 msgid "Search"
 msgstr "Buscar"
