@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-23 15:19+0000\n"
+"PO-Revision-Date: 2017-09-26 11:35+0000\n"
 "Last-Translator: Peter Valachovič <peter.valachovic@gmail.com>\n"
 "Language-Team: Slovak <https://translate.ubports.com/projects/ubports/system-"
 "settings/sk/>\n"
@@ -1403,7 +1403,7 @@ msgstr "Nákupy v aplikácii"
 
 #: ../plugins/security-privacy//AppAccess.qml:87
 msgid "Apps that have requested access for in-app purchases"
-msgstr "Aplikácie, ktoré žiadajú pristup k nákupom v aplikácii"
+msgstr "Aplikácie, ktoré žiadajú prístup k nákupom v aplikácii"
 
 #: ../plugins/security-privacy//AppAccess.qml:100
 #, qt-format
@@ -1513,69 +1513,72 @@ msgstr "Zadajte PIN pre SIM kartu"
 
 #: ../plugins/security-privacy//SimPin.qml:213
 msgid "Enter Previous SIM PIN"
-msgstr ""
+msgstr "Vložte predchádzajúci PIN SIM karty"
 
 #: ../plugins/security-privacy//SimPin.qml:333
 msgid "Unlock"
-msgstr ""
+msgstr "Odomknúť"
 
 #: ../plugins/security-privacy//SimPin.qml:333
 msgid "Lock"
-msgstr ""
+msgstr "Zamknúť"
 
 #: ../plugins/security-privacy//SimPin.qml:411
 msgid "Unlocked"
-msgstr ""
+msgstr "Odomknuté"
 
 #: ../plugins/security-privacy//SimPin.qml:414
 msgid "Change PIN…"
-msgstr ""
+msgstr "Zmeniť PIN…"
 
 #: ../plugins/security-privacy//SimPin.qml:425
 msgid "Locked"
-msgstr ""
+msgstr "Zamknuté"
 
 #: ../plugins/security-privacy//SimPin.qml:429
 msgid "Unlock…"
-msgstr ""
+msgstr "Odomknúť…"
 
 #: ../plugins/security-privacy//SimPin.qml:443
 msgid ""
 "When a SIM PIN is set, it must be entered to access cellular services after "
 "restarting the device or swapping the SIM."
 msgstr ""
+"Ak je PIN na karte SIM nastavený, je nevyhnutné ho zadať pre prístup k "
+"mobilnej sieť po reštarte zariadenia alebo výmene SIM karty."
 
 #: ../plugins/security-privacy//SimPin.qml:447
 msgid "Entering an incorrect PIN repeatedly may lock the SIM permanently."
-msgstr ""
+msgstr "Opakované zadanie nesprávneho PIN môže SIM kartu zamknúť natrvalo."
 
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../plugins/vpn//PageComponent.qml:31 ../build/po/settings.js:192
 msgid "VPN"
-msgstr ""
+msgstr "VPN"
 
 #: ../plugins/vpn//PageComponent.qml:76
 msgid ""
 "To add a VPN configuration, download its config file or configure it "
 "manually."
 msgstr ""
+"Pre pridanie konfigurácie VPN, stiahnite jej nastavenia alebo nastavte ručne."
 
 #: ../plugins/vpn//PageComponent.qml:82
 msgid "Add Manual Configuration…"
-msgstr ""
+msgstr "Pridať ručné nastavenie…"
 
 #: ../plugins/vpn//PageComponent.qml:115
 msgid "VPN reconnection required."
-msgstr ""
+msgstr "Je potrebné znovu pripojiť VPN."
 
 #: ../plugins/vpn//PageComponent.qml:116
 msgid "You need to reconnect for changes to have an effect."
-msgstr ""
+msgstr "Aby sa zmeny prejavili, je potrebné sa znovu pripojiť."
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../plugins/mouse//PageComponent.qml:29 ../build/po/settings.js:210
 msgid "Mouse & Touchpad"
-msgstr ""
+msgstr "Myš a Touchpad"
 
 #: ../plugins/mouse//None.qml:34
 msgid ""
@@ -1583,86 +1586,92 @@ msgid ""
 "Bluetooth device isn’t detected, make sure it is turned on and its batteries "
 "are charged."
 msgstr ""
+"Myš alebo touchpad pripojte cez USB alebo Bluetooth. Ak sa zariadenie "
+"Bluetooth nenašlo, presvedčte sa, či je zapnuté a jeho batérie nabité."
 
 #: ../plugins/mouse//None.qml:36
 msgid ""
 "You need to use a Bluetooth mouse or touchpad with this display. Make sure "
 "it is close to the device and its batteries are charged."
 msgstr ""
+"S týmto displejom potrebujete použiť Bluetooth myš alebo touchpad. Uistite "
+"sa, že je v dosahu zariadenia a jeho batérie sú nabité."
 
 #: ../plugins/mouse//Connected.qml:48 ../plugins/bluetooth//DevicePage.qml:59
 msgid "Mouse"
-msgstr ""
+msgstr "Myš"
 
 #: ../plugins/mouse//Connected.qml:62 ../plugins/mouse//Connected.qml:228
 msgid "Cursor speed:"
-msgstr ""
+msgstr "Rýchlosť kurzoru:"
 
 #: ../plugins/mouse//Connected.qml:98
 msgid "Wheel scrolling speed:"
-msgstr ""
+msgstr "Rýchlosť rolovacieho kolieska:"
 
 #: ../plugins/mouse//Connected.qml:134 ../plugins/mouse//Connected.qml:301
 msgid "Double-click speed:"
-msgstr ""
+msgstr "Rýchlosť dvojkliku:"
 
 #: ../plugins/mouse//Connected.qml:168 ../plugins/mouse//Connected.qml:335
 msgid "Test double-click:"
-msgstr ""
+msgstr "Odskúšať dvojklik:"
 
 #: ../plugins/mouse//Connected.qml:214
 msgid "Touchpad"
-msgstr ""
+msgstr "Touchpad"
 
 #: ../plugins/mouse//Connected.qml:264
 msgid "Finger scrolling speed:"
-msgstr ""
+msgstr "Rýchlosť rolovania prstom:"
 
 #: ../plugins/mouse//Connected.qml:389
 msgid "Tap to click"
-msgstr ""
+msgstr "Klepnite pre kliknutie"
 
 #: ../plugins/mouse//Connected.qml:403
 msgid "Scroll with two fingers"
-msgstr ""
+msgstr "Rolovať pomocou dvoch prstov"
 
 #: ../plugins/mouse//Connected.qml:410
 msgid "Ignore touchpad when:"
-msgstr ""
+msgstr "Ignorovať touchpad keď:"
 
 #: ../plugins/mouse//Connected.qml:432
 msgid "Typing"
-msgstr ""
+msgstr "Píše"
 
 #: ../plugins/mouse//Connected.qml:446
 msgid "A mouse is connected"
-msgstr ""
+msgstr "Myš pripojená"
 
 #: ../plugins/mouse//PrimaryButtonSelector.qml:42
 msgid "Primary button:"
-msgstr ""
+msgstr "Hlavné tlačítko:"
 
 #: ../plugins/mouse//PrimaryButtonSelector.qml:72
 msgid "Left"
-msgstr ""
+msgstr "Ľavé"
 
 #: ../plugins/mouse//PrimaryButtonSelector.qml:89
 msgid "Right"
-msgstr ""
+msgstr "Pravé"
 
 #: ../plugins/mouse//TapArea.qml:38
 msgid "Not fast enough"
-msgstr ""
+msgstr "Nie dosť rýchlo"
 
 #: ../plugins/mouse//TapArea.qml:77
 msgid "Double-clicked"
-msgstr ""
+msgstr "Dvojkliknuté"
 
 #: ../plugins/reset//ResetAllSettings.qml:29
 msgid ""
 "The contents and layout of the launcher, and the filters in the home screen "
 "will be returned to their original settings."
 msgstr ""
+"Obsah a vzhľad ako spúšťača, tak aj filtrov na domácej obrazovke budú "
+"vrátené do originálnych nastavení."
 
 #: ../plugins/reset//ResetAllSettings.qml:31
 msgid "Reset all system settings"
