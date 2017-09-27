@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-27 20:30+0000\n"
-"Last-Translator: Weblate Admin <flori-weblate@bin.org.in>\n"
+"PO-Revision-Date: 2017-09-27 21:51+0000\n"
+"Last-Translator: Florian Leeber <flori@bin.org.in>\n"
 "Language-Team: German <https://translate.ubports.com/projects/ubports/system-"
 "settings/de/>\n"
 "Language: de\n"
@@ -2382,7 +2382,7 @@ msgstr "Dienste"
 #: ../plugins/phone//ServiceInfo.qml:109
 #, qt-format
 msgid "Last called %1"
-msgstr "Zuletzt angerufen: %1"
+msgstr "Zuletzt angerufen %1"
 
 #: ../plugins/phone//ServiceInfo.qml:119
 msgid "Call"
@@ -2418,7 +2418,7 @@ msgstr "SIM"
 #: ../plugins/phone//SingleSim.qml:53 ../plugins/phone//Services.qml:35
 #, qt-format
 msgid "%1 Services"
-msgstr "%1 Dienstleistungen"
+msgstr "%1 Dienste"
 
 #: ../plugins/phone//CallForwarding.qml:131
 msgid "Forward every incoming call"
@@ -2434,7 +2434,7 @@ msgstr "Status für die Rufweiterleitung konnte nicht geprüft werden "
 
 #: ../plugins/phone//CallForwarding.qml:166
 msgid "Forward incoming calls when:"
-msgstr "Leitet eingehende Anrufe weiter, wenn:"
+msgstr "Eingehende Anrufe weiterleiten wenn:"
 
 #: ../plugins/phone//CallForwarding.qml:175
 msgid "I’m on another call"
@@ -2462,11 +2462,11 @@ msgstr "Nummern"
 
 #: ../plugins/phone//CallForwarding.qml:302
 msgid "Could not forward to this contact"
-msgstr "Weiterleitung zum Kontakt war nicht möglich"
+msgstr "Konnte zu diesem Kontakt nicht weiterleiten"
 
 #: ../plugins/phone//CallForwarding.qml:303
 msgid "Contact not associated with any phone number."
-msgstr "Der Kontakt ist mit keiner Nummer verknüpft."
+msgstr "Kontakt ist mit keiner Telefonnummer verknüpft."
 
 #: ../plugins/phone//CallForwarding.qml:382
 msgid "All calls"
@@ -2474,7 +2474,7 @@ msgstr "Alle Anrufe"
 
 #: ../plugins/phone//CallForwarding.qml:384
 msgid "Some calls"
-msgstr "Einige Telefonanrufe"
+msgstr "Einige Anrufe"
 
 #: ../plugins/brightness//WifiDisplaysAlert.qml:32
 #, qt-format
