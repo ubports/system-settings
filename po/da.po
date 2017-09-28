@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-25 20:06+0000\n"
+"PO-Revision-Date: 2017-09-28 20:32+0000\n"
 "Last-Translator: Henrik Holm <hbir@post10.tele.dk>\n"
 "Language-Team: Danish <https://translate.ubports.com/projects/ubports/system-"
 "settings/da/>\n"
@@ -273,7 +273,7 @@ msgstr "Hent"
 
 #: ../plugins/system-update//UpdateDelegate.qml:132
 msgid "Resume"
-msgstr "Resumé"
+msgstr "Genoptag"
 
 #: ../plugins/system-update//UpdateDelegate.qml:139
 msgid "Pause"
@@ -1274,7 +1274,7 @@ msgstr "Meddelelser på velkomstskærm"
 #: ../plugins/security-privacy//Location.qml:34
 #: ../plugins/security-privacy//AppAccess.qml:74
 msgid "Location"
-msgstr "Sted"
+msgstr "Placering"
 
 #: ../plugins/security-privacy//PageComponent.qml:277
 #: ../plugins/security-privacy//AppAccess.qml:29
@@ -1540,7 +1540,7 @@ msgstr ""
 
 #: ../plugins/security-privacy//SimPin.qml:333
 msgid "Unlock"
-msgstr ""
+msgstr "Lås op"
 
 #: ../plugins/security-privacy//SimPin.qml:333
 msgid "Lock"
@@ -1941,7 +1941,7 @@ msgstr "Mobil"
 
 #: ../plugins/cellular//PageApnEditor.qml:69
 msgid "Edit"
-msgstr ""
+msgstr "Redigér"
 
 #: ../plugins/cellular//PageApnEditor.qml:69
 msgid "New APN"
