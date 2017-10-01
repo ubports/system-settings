@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-30 06:52+0000\n"
+"PO-Revision-Date: 2017-10-01 12:25+0000\n"
 "Last-Translator: Peter Valachovič <peter.valachovic@gmail.com>\n"
 "Language-Team: Slovak <https://translate.ubports.com/projects/ubports/system-"
 "settings/sk/>\n"
@@ -1675,109 +1675,111 @@ msgstr ""
 
 #: ../plugins/reset//ResetAllSettings.qml:31
 msgid "Reset all system settings"
-msgstr ""
+msgstr "Obnoviť všetky systémové nastavenia"
 
 #: ../plugins/reset//PageComponent.qml:32
 msgid "Reset device"
-msgstr ""
+msgstr "Reset zariadenia"
 
 #: ../plugins/reset//PageComponent.qml:75
 #: ../plugins/reset//PageComponent.qml:86
 #: ../plugins/reset//ResetLauncherHome.qml:44
 msgid "Reset Launcher"
-msgstr ""
+msgstr "Reset spúšťača"
 
 #: ../plugins/reset//PageComponent.qml:101
 #: ../plugins/reset//PageComponent.qml:112
 msgid "Reset all system settings…"
-msgstr ""
+msgstr "Obnova všetkých systémových nastavení…"
 
 #: ../plugins/reset//PageComponent.qml:126
 #: ../plugins/reset//PageComponent.qml:138
 msgid "Erase & Reset All"
-msgstr ""
+msgstr "Zmazať a obnoviť všetko"
 
 #: ../plugins/reset//ResetLauncherHome.qml:40
 msgid "The Launcher will be returned to its original contents."
-msgstr ""
+msgstr "Spúšťač bude vrátený do jeho výrobného nastavenia."
 
 #: ../plugins/reset//EraseEverything.qml:41
 msgid ""
 "All documents, saved games, settings, and other items will be permanently "
 "deleted from this device."
 msgstr ""
+"Všetky dokumenty, uložené hry, nastavenia a všetky ostatné položky budú zo "
+"zariadenia natrvalo odstránené."
 
 #: ../plugins/reset//EraseEverything.qml:44
 msgid "Erase & Reset Everything"
-msgstr ""
+msgstr "Zmazať a obnoviť všetko"
 
 #: ../plugins/sound//PageComponent.qml:76
 msgid "Silent Mode"
-msgstr ""
+msgstr "Tichý režim"
 
 #: ../plugins/sound//PageComponent.qml:100
 msgid "Ringer:"
-msgstr ""
+msgstr "Zvonenie:"
 
 #: ../plugins/sound//PageComponent.qml:141
 msgid "High volume can damage your hearing."
-msgstr ""
+msgstr "Vysoká hlasitosť môže poškodiť Váš sluch."
 
 #: ../plugins/sound//PageComponent.qml:145
 msgid "Phone calls:"
-msgstr ""
+msgstr "Telefónne hovory:"
 
 #: ../plugins/sound//PageComponent.qml:149
 #: ../plugins/sound//PageComponent.qml:154
 msgid "Ringtone"
-msgstr ""
+msgstr "Zvonenie"
 
 #: ../plugins/sound//PageComponent.qml:171
 msgid "Vibrate on ring"
-msgstr ""
+msgstr "Vibrovať keď zvoní"
 
 #: ../plugins/sound//PageComponent.qml:183
 #: ../plugins/sound//PageComponent.qml:241
 msgid "Vibrate in Silent Mode"
-msgstr ""
+msgstr "Vibrovať v tichom režime"
 
 #: ../plugins/sound//PageComponent.qml:194
 #: ../plugins/phone//PageComponent.qml:102
 msgid "Dialpad tones"
-msgstr ""
+msgstr "Tóny číslic"
 
 #: ../plugins/sound//PageComponent.qml:203
 msgid "Messages:"
-msgstr ""
+msgstr "Správy:"
 
 #: ../plugins/sound//PageComponent.qml:209
 #: ../plugins/sound//PageComponent.qml:214
 msgid "Message received"
-msgstr ""
+msgstr "Prišla správa"
 
 #: ../plugins/sound//PageComponent.qml:229
 msgid "Vibrate with message sound"
-msgstr ""
+msgstr "Vibrovať so zvukom správy"
 
 #: ../plugins/sound//PageComponent.qml:246
 msgid "Other sounds:"
-msgstr ""
+msgstr "Ostatné zvuky:"
 
 #: ../plugins/sound//PageComponent.qml:267
 msgid "Lock sound"
-msgstr ""
+msgstr "Zvuk zamknutia"
 
 #: ../plugins/sound//PageComponent.qml:277
 msgid "Other vibrations"
-msgstr ""
+msgstr "Ostatné vibrácie"
 
 #: ../plugins/sound//SoundsList.qml:128
 msgid "Custom Ringtone"
-msgstr ""
+msgstr "Vlastné nastavenia zvonenia"
 
 #: ../plugins/sound//SoundsList.qml:208
 msgid "Choose from"
-msgstr ""
+msgstr "Vybrať z"
 
 #. TRANSLATORS: This string is a description of a text
 #. field and should thus be concise.
@@ -1786,34 +1788,34 @@ msgstr ""
 #: ../plugins/cellular//PageCarrierAndApn.qml:57
 #: ../plugins/cellular//PageCarriersAndApns.qml:69
 msgid "APN"
-msgstr ""
+msgstr "APN"
 
 #: ../plugins/cellular//PageChooseApn.qml:63
 msgid "MMS APN"
-msgstr ""
+msgstr "MMS APN"
 
 #: ../plugins/cellular//PageChooseApn.qml:69
 msgid "Internet APN"
-msgstr ""
+msgstr "Internetové APN"
 
 #: ../plugins/cellular//PageChooseApn.qml:75
 msgid "LTE APN"
-msgstr ""
+msgstr "LTE APN"
 
 #: ../plugins/cellular//PageChooseApn.qml:85
 #: ../plugins/cellular//PageApnEditor.qml:159
 msgid "Internet and MMS"
-msgstr ""
+msgstr "Internet a MMS"
 
 #: ../plugins/cellular//PageChooseApn.qml:87
 #: ../plugins/cellular//PageApnEditor.qml:160
 msgid "Internet"
-msgstr ""
+msgstr "Internet"
 
 #: ../plugins/cellular//PageChooseApn.qml:89
 #: ../plugins/cellular//PageApnEditor.qml:162
 msgid "LTE"
-msgstr ""
+msgstr "LTE"
 
 #: ../plugins/cellular//PageChooseApn.qml:91
 #: ../plugins/cellular//PageApnEditor.qml:161
@@ -1822,20 +1824,20 @@ msgstr "MMS"
 
 #: ../plugins/cellular//PageChooseApn.qml:155
 msgid "Reset All APN Settings…"
-msgstr ""
+msgstr "Obnoviť všetky nastavenia APN…"
 
 #: ../plugins/cellular//PageChooseApn.qml:164
 msgid "Reset APN Settings"
-msgstr ""
+msgstr "Obnoviť nastavenia APN"
 
 #: ../plugins/cellular//PageChooseApn.qml:165
 msgid "Are you sure that you want to Reset APN Settings?"
-msgstr ""
+msgstr "Naozaj chcete obnoviť nastavenia APN?"
 
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../plugins/cellular//PageChooseApn.qml:168 ../build/po/settings.js:224
 msgid "Reset"
-msgstr ""
+msgstr "Obnoviť"
 
 #. TRANSLATORS: %1 is the MMS APN that the user has chosen to be
 #. “preferred”.
@@ -1845,7 +1847,7 @@ msgstr ""
 #: ../plugins/cellular//PageChooseApn.qml:222
 #, qt-format
 msgid "Prefer %1"
-msgstr ""
+msgstr "Uprednostni %1"
 
 #. TRANSLATORS: %1 is the MMS APN that the user has chosen to be
 #. “preferred”, i.e. used to retrieve MMS messages. %2 is the Internet
@@ -1853,13 +1855,13 @@ msgstr ""
 #: ../plugins/cellular//PageChooseApn.qml:195
 #, qt-format
 msgid "You have chosen %1 as your preferred MMS APN. "
-msgstr ""
+msgstr "Zvolili ste %1 ako svoju usprednostnenú MMS APN. "
 
 #: ../plugins/cellular//PageChooseApn.qml:200
 #: ../plugins/cellular//PageChooseApn.qml:265
 #: ../plugins/bluetooth//DevicePage.qml:145
 msgid "Disconnect"
-msgstr ""
+msgstr "Odpojiť"
 
 #. TRANSLATORS: %1 is the Internet APN that the user has chosen to
 #. be “preferred”, i.e. used to connect to the Internet. %2 is the MMS
@@ -1867,7 +1869,7 @@ msgstr ""
 #: ../plugins/cellular//PageChooseApn.qml:226
 #, qt-format
 msgid "You have chosen %1 as your preferred Internet APN. "
-msgstr ""
+msgstr "Zvolili ste %1 ako svoju usprednostnenú Internetovú APN. "
 
 #: ../plugins/cellular//PageChooseApn.qml:231
 #: ../plugins/cellular//PageChooseApn.qml:264
@@ -1877,22 +1879,22 @@ msgstr "Vypnúť"
 #: ../plugins/cellular//PageChooseApn.qml:253
 #, qt-format
 msgid "Disconnect %1"
-msgstr ""
+msgstr "Odpojiť %1"
 
 #: ../plugins/cellular//PageChooseApn.qml:254
 #, qt-format
 msgid "Disable %1"
-msgstr ""
+msgstr "Zakázať %1"
 
 #: ../plugins/cellular//PageChooseApn.qml:259
 #, qt-format
 msgid "This disconnects %1."
-msgstr ""
+msgstr "Týmto odpojíte %1."
 
 #: ../plugins/cellular//PageChooseApn.qml:260
 #, qt-format
 msgid "This disables %1."
-msgstr ""
+msgstr "Týmto zakážete %1."
 
 #: ../plugins/cellular//PageChooseApn.qml:302
 msgid "Delete"
@@ -1901,7 +1903,7 @@ msgstr "Vymazať"
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../plugins/cellular//PageComponent.qml:32 ../build/po/settings.js:254
 msgid "Cellular"
-msgstr ""
+msgstr "Mobilné"
 
 #: ../plugins/cellular//PageApnEditor.qml:69
 msgid "Edit"
@@ -1909,11 +1911,11 @@ msgstr "Upraviť"
 
 #: ../plugins/cellular//PageApnEditor.qml:69
 msgid "New APN"
-msgstr ""
+msgstr "Nová APN"
 
 #: ../plugins/cellular//PageApnEditor.qml:155
 msgid "Used for:"
-msgstr ""
+msgstr "Použité pre:"
 
 #: ../plugins/cellular//PageApnEditor.qml:180
 #: ../plugins/wifi//NetworkDetails.qml:57
@@ -1923,43 +1925,43 @@ msgstr "Názov"
 
 #: ../plugins/cellular//PageApnEditor.qml:188
 msgid "Enter a name describing the APN"
-msgstr ""
+msgstr "Zadajte meno popisujúce APN"
 
 #: ../plugins/cellular//PageApnEditor.qml:213
 msgid "Enter the name of the access point"
-msgstr ""
+msgstr "Zadajte meno prístupového bodu"
 
 #: ../plugins/cellular//PageApnEditor.qml:227
 msgid "MMSC"
-msgstr ""
+msgstr "MMSC"
 
 #: ../plugins/cellular//PageApnEditor.qml:236
 msgid "Enter message center"
-msgstr ""
+msgstr "Zadajte centrum správ"
 
 #: ../plugins/cellular//PageApnEditor.qml:254
 msgid "Proxy"
-msgstr ""
+msgstr "Proxy"
 
 #: ../plugins/cellular//PageApnEditor.qml:263
 msgid "Enter message proxy"
-msgstr ""
+msgstr "Zadajte proxy pre správy"
 
 #: ../plugins/cellular//PageApnEditor.qml:308
 msgid "Proxy port"
-msgstr ""
+msgstr "Port proxy"
 
 #: ../plugins/cellular//PageApnEditor.qml:318
 msgid "Enter message proxy port"
-msgstr ""
+msgstr "Zadajte port proxy pre správy"
 
 #: ../plugins/cellular//PageApnEditor.qml:336
 msgid "User name"
-msgstr ""
+msgstr "Užívateľské meno"
 
 #: ../plugins/cellular//PageApnEditor.qml:345
 msgid "Enter username"
-msgstr ""
+msgstr "Zadajte užívateľské meno"
 
 #: ../plugins/cellular//PageApnEditor.qml:358
 #: ../plugins/wifi//NetworkDetails.qml:70
@@ -1974,40 +1976,40 @@ msgstr "Vložte heslo"
 #: ../plugins/cellular//PageApnEditor.qml:383
 #: ../plugins/wifi//OtherNetwork.qml:338
 msgid "Authentication"
-msgstr ""
+msgstr "Autentifikácia"
 
 #: ../plugins/cellular//PageApnEditor.qml:388
 msgid "PAP or CHAP"
-msgstr ""
+msgstr "PAP alebo CHAP"
 
 #: ../plugins/cellular//PageApnEditor.qml:389
 msgid "PAP only"
-msgstr ""
+msgstr "Iba PAP"
 
 #: ../plugins/cellular//PageApnEditor.qml:390
 msgid "CHAP only"
-msgstr ""
+msgstr "Iba CHAP"
 
 #: ../plugins/cellular//PageApnEditor.qml:401
 msgid "Protocol"
-msgstr ""
+msgstr "Protokol"
 
 #: ../plugins/cellular//PageApnEditor.qml:405
 msgid "IPv4"
-msgstr ""
+msgstr "IPv4"
 
 #: ../plugins/cellular//PageApnEditor.qml:406
 msgid "IPv6"
-msgstr ""
+msgstr "IPv6"
 
 #: ../plugins/cellular//PageApnEditor.qml:407
 msgid "IPv4v6"
-msgstr ""
+msgstr "IPv4v6"
 
 #: ../plugins/cellular//PageCarrierAndApn.qml:27
 #: ../plugins/cellular//Components//SingleSim.qml:110
 msgid "Carrier & APN"
-msgstr ""
+msgstr "Operátor a APN"
 
 #: ../plugins/cellular//PageCarrierAndApn.qml:44
 #: ../plugins/cellular//PageCarrierAndApn.qml:52
@@ -2015,21 +2017,21 @@ msgstr ""
 #: ../plugins/cellular//PageChooseCarrier.qml:32
 #: ../plugins/cellular//PageChooseCarrier.qml:129
 msgid "Carrier"
-msgstr ""
+msgstr "Operátor"
 
 #: ../plugins/cellular//PageCarriersAndApns.qml:27
 msgid "Carriers & APNs"
-msgstr ""
+msgstr "Operátori a APN"
 
 #: ../plugins/cellular//PageChooseCarrier.qml:153
 #: ../plugins/time-date//ChooseTimeZone.qml:50
 #: ../plugins/time-date//PageComponent.qml:83
 msgid "Automatically"
-msgstr ""
+msgstr "Automaticky"
 
 #: ../plugins/wifi//PageComponent.qml:128
 msgid "Connect to hidden network…"
-msgstr ""
+msgstr "Pripojiť sa k skrytej sieti…"
 
 #: ../plugins/wifi//PageComponent.qml:138
 #: ../plugins/wifi//PreviousNetworks.qml:27
