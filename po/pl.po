@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-27 22:21+0000\n"
-"Last-Translator: Daniel Frańczak <danielfranczak5@wp.pl>\n"
+"PO-Revision-Date: 2017-10-02 19:17+0000\n"
+"Last-Translator: Paweł Cieniek <cieniek@wp.pl>\n"
 "Language-Team: Polish <https://translate.ubports.com/projects/ubports/system-"
 "settings/pl/>\n"
 "Language: pl\n"
@@ -1672,13 +1672,12 @@ msgid "Right"
 msgstr "Prawo"
 
 #: ../plugins/mouse//TapArea.qml:38
-#, fuzzy
 msgid "Not fast enough"
-msgstr "Nie wysłano"
+msgstr "Niewystarczająco szybko"
 
 #: ../plugins/mouse//TapArea.qml:77
 msgid "Double-clicked"
-msgstr ""
+msgstr "Podwójnie kliknięte"
 
 #: ../plugins/reset//ResetAllSettings.qml:29
 msgid ""
@@ -1693,9 +1692,8 @@ msgid "Reset all system settings"
 msgstr "Resetuj wszystkie ustawienia systemu"
 
 #: ../plugins/reset//PageComponent.qml:32
-#, fuzzy
 msgid "Reset device"
-msgstr "urządzenie"
+msgstr "Resetuj urządzenie"
 
 #: ../plugins/reset//PageComponent.qml:75
 #: ../plugins/reset//PageComponent.qml:86
@@ -1719,13 +1717,12 @@ msgid "The Launcher will be returned to its original contents."
 msgstr "Pasek uruchamiania zostanie przywrócony do pierwotnej postaci."
 
 #: ../plugins/reset//EraseEverything.qml:41
-#, fuzzy
 msgid ""
 "All documents, saved games, settings, and other items will be permanently "
 "deleted from this device."
 msgstr ""
-"Wszystkie dokumenty, zapisane gry, ustawienia oraz tym podobne zostaną "
-"bezpowrotnie usunięte."
+"Wszystkie dokumenty, zapisane gry, ustawienia oraz inne elementy zostaną "
+"bezpowrotnie usunięte z tego urządzenia."
 
 #: ../plugins/reset//EraseEverything.qml:44
 msgid "Erase & Reset Everything"
@@ -1839,7 +1836,7 @@ msgstr "Internet"
 #: ../plugins/cellular//PageChooseApn.qml:89
 #: ../plugins/cellular//PageApnEditor.qml:162
 msgid "LTE"
-msgstr ""
+msgstr "LTE"
 
 #: ../plugins/cellular//PageChooseApn.qml:91
 #: ../plugins/cellular//PageApnEditor.qml:161
@@ -1847,9 +1844,8 @@ msgid "MMS"
 msgstr "MMS"
 
 #: ../plugins/cellular//PageChooseApn.qml:155
-#, fuzzy
 msgid "Reset All APN Settings…"
-msgstr "Skasuj ustawienia APN"
+msgstr "Skasuj wszystkie ustawienia APN…"
 
 #: ../plugins/cellular//PageChooseApn.qml:164
 msgid "Reset APN Settings"
@@ -1872,7 +1868,7 @@ msgstr "Zresetuj"
 #: ../plugins/cellular//PageChooseApn.qml:222
 #, qt-format
 msgid "Prefer %1"
-msgstr ""
+msgstr "Preferuj %1"
 
 #. TRANSLATORS: %1 is the MMS APN that the user has chosen to be
 #. “preferred”, i.e. used to retrieve MMS messages. %2 is the Internet
@@ -1880,7 +1876,7 @@ msgstr ""
 #: ../plugins/cellular//PageChooseApn.qml:195
 #, qt-format
 msgid "You have chosen %1 as your preferred MMS APN. "
-msgstr ""
+msgstr "Wybrałeś %1 jako preferowany MMS APN. "
 
 #: ../plugins/cellular//PageChooseApn.qml:200
 #: ../plugins/cellular//PageChooseApn.qml:265
@@ -1894,7 +1890,7 @@ msgstr "Rozłącz"
 #: ../plugins/cellular//PageChooseApn.qml:226
 #, qt-format
 msgid "You have chosen %1 as your preferred Internet APN. "
-msgstr ""
+msgstr "Wybrałeś %1 jako preferowany Internet APN. "
 
 #: ../plugins/cellular//PageChooseApn.qml:231
 #: ../plugins/cellular//PageChooseApn.qml:264
@@ -1902,24 +1898,24 @@ msgid "Disable"
 msgstr "Wyłącz"
 
 #: ../plugins/cellular//PageChooseApn.qml:253
-#, fuzzy, qt-format
+#, qt-format
 msgid "Disconnect %1"
-msgstr "Rozłącz"
+msgstr "Rozłącz %1"
 
 #: ../plugins/cellular//PageChooseApn.qml:254
-#, fuzzy, qt-format
+#, qt-format
 msgid "Disable %1"
-msgstr "Dezaktywacja"
+msgstr "Wyłącz %1"
 
 #: ../plugins/cellular//PageChooseApn.qml:259
-#, fuzzy, qt-format
+#, qt-format
 msgid "This disconnects %1."
-msgstr "Rozłącz"
+msgstr "Rozłącza %1."
 
 #: ../plugins/cellular//PageChooseApn.qml:260
 #, qt-format
 msgid "This disables %1."
-msgstr ""
+msgstr "Wyłącza %1."
 
 #: ../plugins/cellular//PageChooseApn.qml:302
 msgid "Delete"
@@ -1940,7 +1936,7 @@ msgstr "Nowy APN"
 
 #: ../plugins/cellular//PageApnEditor.qml:155
 msgid "Used for:"
-msgstr ""
+msgstr "Użyte do:"
 
 #: ../plugins/cellular//PageApnEditor.qml:180
 #: ../plugins/wifi//NetworkDetails.qml:57
@@ -1950,36 +1946,38 @@ msgstr "Nazwa"
 
 #: ../plugins/cellular//PageApnEditor.qml:188
 msgid "Enter a name describing the APN"
-msgstr ""
+msgstr "Wprowadź nazwę opisującą APN"
 
 #: ../plugins/cellular//PageApnEditor.qml:213
+#, fuzzy
 msgid "Enter the name of the access point"
-msgstr ""
+msgstr "Wprowadź nazwę punktu dostępowego"
 
 #: ../plugins/cellular//PageApnEditor.qml:227
 msgid "MMSC"
 msgstr "MMSC"
 
 #: ../plugins/cellular//PageApnEditor.qml:236
+#, fuzzy
 msgid "Enter message center"
-msgstr ""
+msgstr "Wprowadź centrum wiadomości"
 
 #: ../plugins/cellular//PageApnEditor.qml:254
 msgid "Proxy"
 msgstr "Proxy"
 
 #: ../plugins/cellular//PageApnEditor.qml:263
+#, fuzzy
 msgid "Enter message proxy"
-msgstr ""
+msgstr "Wprowadź proxy wiadomości"
 
 #: ../plugins/cellular//PageApnEditor.qml:308
-#, fuzzy
 msgid "Proxy port"
-msgstr "Proxy"
+msgstr "Port proxy"
 
 #: ../plugins/cellular//PageApnEditor.qml:318
 msgid "Enter message proxy port"
-msgstr ""
+msgstr "Wprowadź port proxy wiadomości"
 
 #: ../plugins/cellular//PageApnEditor.qml:336
 #, fuzzy
@@ -1987,9 +1985,8 @@ msgid "User name"
 msgstr "Nazwa użytkownika"
 
 #: ../plugins/cellular//PageApnEditor.qml:345
-#, fuzzy
 msgid "Enter username"
-msgstr "Wprowadź hasło"
+msgstr "Wprowadź użytkownika"
 
 #: ../plugins/cellular//PageApnEditor.qml:358
 #: ../plugins/wifi//NetworkDetails.qml:70 ../plugins/wifi//OtherNetwork.qml:786
@@ -1997,50 +1994,46 @@ msgid "Password"
 msgstr "Hasło"
 
 #: ../plugins/cellular//PageApnEditor.qml:369
-#, fuzzy
 msgid "Enter password"
 msgstr "Wprowadź hasło"
 
 #: ../plugins/cellular//PageApnEditor.qml:383
 #: ../plugins/wifi//OtherNetwork.qml:338
 msgid "Authentication"
-msgstr "Autoryzacja"
+msgstr "Autentykacja"
 
 #: ../plugins/cellular//PageApnEditor.qml:388
 msgid "PAP or CHAP"
-msgstr ""
+msgstr "PAP lub CHAP"
 
 #: ../plugins/cellular//PageApnEditor.qml:389
-#, fuzzy
 msgid "PAP only"
-msgstr "Tylko z telefonu"
+msgstr "Tylko PAP"
 
 #: ../plugins/cellular//PageApnEditor.qml:390
-#, fuzzy
 msgid "CHAP only"
-msgstr "Tylko z telefonu"
+msgstr "Tylko CHAP"
 
 #: ../plugins/cellular//PageApnEditor.qml:401
 msgid "Protocol"
-msgstr ""
+msgstr "Protokół"
 
 #: ../plugins/cellular//PageApnEditor.qml:405
 msgid "IPv4"
-msgstr ""
+msgstr "IPv4"
 
 #: ../plugins/cellular//PageApnEditor.qml:406
 msgid "IPv6"
-msgstr ""
+msgstr "IPv6"
 
 #: ../plugins/cellular//PageApnEditor.qml:407
 msgid "IPv4v6"
-msgstr ""
+msgstr "IPv4v6"
 
 #: ../plugins/cellular//PageCarrierAndApn.qml:27
 #: ../plugins/cellular//Components//SingleSim.qml:110
-#, fuzzy
 msgid "Carrier & APN"
-msgstr "Operator"
+msgstr "Operator i APN"
 
 #: ../plugins/cellular//PageCarrierAndApn.qml:44
 #: ../plugins/cellular//PageCarrierAndApn.qml:52
@@ -2051,9 +2044,8 @@ msgid "Carrier"
 msgstr "Operator"
 
 #: ../plugins/cellular//PageCarriersAndApns.qml:27
-#, fuzzy
 msgid "Carriers & APNs"
-msgstr "Operatorzy"
+msgstr "Operatorzy i APNy"
 
 #: ../plugins/cellular//PageChooseCarrier.qml:153
 #: ../plugins/time-date//ChooseTimeZone.qml:50
@@ -2072,9 +2064,8 @@ msgstr "Poprzednie sieci"
 
 #: ../plugins/wifi//NetworkDetailsBrief.qml:53
 #: ../plugins/wifi//NetworkDetails.qml:96
-#, fuzzy
 msgid "Forget this network"
-msgstr "Nie pamiętaj sieci"
+msgstr "Zapomnij tę sieć"
 
 #: ../plugins/wifi//NetworkDetailsBrief.qml:69
 msgid "IP address"
@@ -2111,7 +2102,7 @@ msgstr "Dodać klucz?"
 
 #: ../plugins/wifi//CertDialog.qml:26
 msgid "Add pac file?"
-msgstr ""
+msgstr "Dodać plik pac?"
 
 #: ../plugins/wifi//CertDialog.qml:36
 msgid "Content:"
@@ -2139,7 +2130,7 @@ msgstr "Nazwa sieci"
 
 #: ../plugins/wifi//OtherNetwork.qml:298
 msgid "SSID"
-msgstr ""
+msgstr "SSID"
 
 #: ../plugins/wifi//OtherNetwork.qml:319
 msgid "WPA & WPA2 Personal"
@@ -2155,19 +2146,19 @@ msgstr "WEP"
 
 #: ../plugins/wifi//OtherNetwork.qml:322
 msgid "Dynamic WEP (802.1x)"
-msgstr ""
+msgstr "Dynamic WEP (802.1x)"
 
 #: ../plugins/wifi//OtherNetwork.qml:323
 msgid "LEAP"
-msgstr ""
+msgstr "LEAP"
 
 #: ../plugins/wifi//OtherNetwork.qml:332
 msgid "This network is insecure."
-msgstr "Ta sieć jest niebezpieczna."
+msgstr "Ta sieć jest niezabezpieczona."
 
 #: ../plugins/wifi//OtherNetwork.qml:363
 msgid "Inner authentication"
-msgstr "Wewnętrzna autoryzacja"
+msgstr "Wewnętrzna autentykacja"
 
 #: ../plugins/wifi//OtherNetwork.qml:396
 msgid "CA certificate"
@@ -2179,7 +2170,7 @@ msgstr "Certyfikat CA"
 #: ../plugins/wifi//OtherNetwork.qml:450
 #, qt-format
 msgid "%1…"
-msgstr ""
+msgstr "%1…"
 
 #: ../plugins/wifi//OtherNetwork.qml:458 ../plugins/wifi//OtherNetwork.qml:575
 #: ../plugins/wifi//certhandler.cpp:106 ../plugins/wifi//certhandler.cpp:141
@@ -2196,7 +2187,7 @@ msgstr "Wybierz…"
 #: ../plugins/wifi//OtherNetwork.qml:465
 #, qt-format
 msgid "%1…, Exp.: %2"
-msgstr ""
+msgstr "%1…, wygasa: %2"
 
 #. TRANSLATORS: The first position is the name of
 #. the organization that has issued the certificate.
@@ -2205,11 +2196,11 @@ msgstr ""
 #: ../plugins/wifi//OtherNetwork.qml:473
 #, qt-format
 msgid "%1, Exp.: %2"
-msgstr ""
+msgstr "%1, wygasa: %2"
 
 #: ../plugins/wifi//OtherNetwork.qml:494
 msgid "Using certificates is recommend as it increases security."
-msgstr "Użycie certyfikatu jest zalecane, ponieważ podnosi bezpieczeństwo."
+msgstr "Używanie certyfikatów jest zalecane, ponieważ podnosi bezpieczeństwo."
 
 #: ../plugins/wifi//OtherNetwork.qml:512
 msgid "Client certificate"
@@ -2225,15 +2216,15 @@ msgstr "Klucz prywatny użytkownika"
 #: ../plugins/wifi//OtherNetwork.qml:579
 #, qt-format
 msgid "%1, %2, %3 bit"
-msgstr ""
+msgstr "%1, %2, %3 bity(ów)"
 
 #: ../plugins/wifi//OtherNetwork.qml:622
 msgid "Pac file"
-msgstr ""
+msgstr "Plik PAC"
 
 #: ../plugins/wifi//OtherNetwork.qml:672
 msgid "Pac provisioning"
-msgstr ""
+msgstr "Dostarczanie PAC"
 
 #: ../plugins/wifi//OtherNetwork.qml:686
 msgid "Disabled"
