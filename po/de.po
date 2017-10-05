@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-27 21:51+0000\n"
-"Last-Translator: Florian Leeber <flori@bin.org.in>\n"
+"PO-Revision-Date: 2017-10-05 19:01+0000\n"
+"Last-Translator: Twinkybot <me@twinkybot.org>\n"
 "Language-Team: German <https://translate.ubports.com/projects/ubports/system-"
 "settings/de/>\n"
 "Language: de\n"
@@ -1268,7 +1268,7 @@ msgstr "Fehlerdiagnose"
 #. reports are to be sent by the system.
 #: ../plugins/security-privacy//PageComponent.qml:286
 msgid "Sent"
-msgstr "Senden"
+msgstr "Gesendet"
 
 #. TRANSLATORS: This string is shown when crash
 #. reports are not to be sent by the system
@@ -2382,7 +2382,7 @@ msgstr "Dienste"
 #: ../plugins/phone//ServiceInfo.qml:109
 #, qt-format
 msgid "Last called %1"
-msgstr "Zuletzt angerufen %1"
+msgstr "Zuletzt %1 angerufen"
 
 #: ../plugins/phone//ServiceInfo.qml:119
 msgid "Call"
