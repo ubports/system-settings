@@ -10,7 +10,7 @@ pipeline {
     }
     stage('Build binary - armhf') {
       steps {
-        node(label: 'xenial-arm64') {
+        node(label: 'xenial-arm') {
           unstash 'source'
           sh '''export architecture="armhf"
 export BUILD_ONLY=true
