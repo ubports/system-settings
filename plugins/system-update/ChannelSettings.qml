@@ -101,8 +101,6 @@ ItemPage {
         }
     }
 
-
-
     ListItem.ItemSelector {
         id: channelSelector
         expanded: true
