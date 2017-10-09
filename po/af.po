@@ -8,68 +8,76 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2014-07-16 18:33+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Afrikaans <af@li.org>\n"
+"PO-Revision-Date: 2017-10-09 09:37+0000\n"
+"Last-Translator: Jean Joubert <developer-jsj@ourbillion.net>\n"
+"Language-Team: Afrikaans <https://translate.ubports.com/projects/ubports"
+"/system-settings/af/>\n"
 "Language: af\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.15\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:39+0000\n"
-"X-Generator: Launchpad (build 17628)\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:116
 msgid "System Settings"
-msgstr ""
+msgstr "Stelsel Instellings"
 
 #: ubuntu-system-settings.desktop.in.in.h:2
 msgid "System;"
-msgstr ""
+msgstr "Stelsel;"
 
 #: ubuntu-system-settings.desktop.in.in.h:3
+#, fuzzy
 msgid "Preferences;Settings;"
-msgstr ""
+msgstr "Voorkeure;Instellings;"
 
 #: ../plugins/system-update//ChannelSettings.qml:32
+#, fuzzy
 msgid "Channel settings"
-msgstr ""
+msgstr "Kanaal instellings"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
+#, fuzzy
 msgid "Stable"
-msgstr ""
+msgstr "Stabiel"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
+#, fuzzy
 msgid "Release candidate"
-msgstr ""
+msgstr "Vrystelling Kandidaat"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
 msgid "Development"
-msgstr ""
+msgstr "Ontwikkeling"
 
 #: ../plugins/system-update//ChannelSettings.qml:99
+#, fuzzy
 msgid "Fetching channels"
-msgstr ""
+msgstr "Haal Kanale"
 
 #: ../plugins/system-update//ChannelSettings.qml:109
+#, fuzzy
 msgid "Channel to get updates from:"
-msgstr ""
+msgstr "Kanaal om van op te dateer:"
 
 #: ../plugins/system-update//ChannelSettings.qml:125
+#, fuzzy
 msgid "Switching channel"
-msgstr ""
+msgstr "Verander Kanaal"
 
 #: ../plugins/system-update//Configuration.qml:30
 #: ../plugins/system-update//UpdateSettings.qml:42
 msgid "Auto download"
-msgstr ""
+msgstr "Outo aflaai"
 
 #: ../plugins/system-update//Configuration.qml:35
 msgid "Download future updates automatically:"
-msgstr ""
+msgstr "Laai toekomstige opdaterings outomaties:"
 
 #: ../plugins/system-update//Configuration.qml:53
 #: ../plugins/system-update//UpdateSettings.qml:45
@@ -81,24 +89,24 @@ msgstr ""
 #: ../plugins/security-privacy//PhoneLocking.qml:109
 #: ../plugins/wifi//NetworkDetails.qml:65
 msgid "Never"
-msgstr ""
+msgstr "Nooit"
 
 #: ../plugins/system-update//Configuration.qml:54
 msgid "When on wi-fi"
-msgstr ""
+msgstr "Wanneer op wi-fi"
 
 #: ../plugins/system-update//Configuration.qml:56
 msgid "On any data connection"
-msgstr ""
+msgstr "Op enige data konneksie"
 
 #: ../plugins/system-update//Configuration.qml:57
 msgid "Data charges may apply."
-msgstr ""
+msgstr "Datakoste mag van toepassing wees."
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../plugins/system-update//PageComponent.qml:38 ../build/po/settings.js:4
 msgid "Updates"
-msgstr ""
+msgstr "Opdateer"
 
 #: ../plugins/system-update//PageComponent.qml:182
 msgid "Connect to the Internet to check for updates."
@@ -135,8 +143,9 @@ msgstr ""
 #: ../plugins/phone//CallForwarding.qml:305
 #: ../plugins/brightness//WifiDisplaysAlert.qml:38
 #: ../plugins/cellular//Components//SimEditor.qml:214
+#, fuzzy
 msgid "OK"
-msgstr ""
+msgstr "Selekteer"
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:30
 #: ../plugins/system-update//ImageUpdatePrompt.qml:30
@@ -186,7 +195,7 @@ msgstr ""
 #: ../plugins/background//Components//AddRemove.qml:42
 #: ../plugins/cellular//Components//SimEditor.qml:203
 msgid "Cancel"
-msgstr ""
+msgstr "Kanselleer"
 
 #: ../plugins/system-update//NotAuthenticatedNotification.qml:37
 msgid "Sign in to Ubuntu One to receive updates for apps."
@@ -611,7 +620,7 @@ msgstr ""
 #: ../plugins/battery//PageComponent.qml:198
 #: ../plugins/battery//PageComponent.qml:200
 msgid "Today"
-msgstr ""
+msgstr "Vandag"
 
 #: ../plugins/battery//PageComponent.qml:269
 msgid "Charging now"
@@ -1226,7 +1235,7 @@ msgstr ""
 #: ../plugins/security-privacy//Location.qml:34
 #: ../plugins/security-privacy//AppAccess.qml:74
 msgid "Location"
-msgstr ""
+msgstr "Ligging"
 
 #: ../plugins/security-privacy//PageComponent.qml:277
 #: ../plugins/security-privacy//AppAccess.qml:29
@@ -1843,7 +1852,7 @@ msgstr ""
 
 #: ../plugins/cellular//PageChooseApn.qml:302
 msgid "Delete"
-msgstr ""
+msgstr "Verwyder"
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../plugins/cellular//PageComponent.qml:32 ../build/po/settings.js:254
@@ -2034,7 +2043,7 @@ msgstr ""
 
 #: ../plugins/wifi//CertDialog.qml:74
 msgid "Save"
-msgstr ""
+msgstr "Stoor"
 
 #: ../plugins/wifi//OtherNetwork.qml:92
 msgid "Connect to Wi‑Fi"
