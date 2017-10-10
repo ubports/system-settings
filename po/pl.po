@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-10-05 18:45+0000\n"
-"Last-Translator: Jonasz Potoniec <joni311099@gmail.com>\n"
+"PO-Revision-Date: 2017-10-10 11:06+0000\n"
+"Last-Translator: Daniel Frańczak <danielfranczak5@wp.pl>\n"
 "Language-Team: Polish <https://translate.ubports.com/projects/ubports/system-"
 "settings/pl/>\n"
 "Language: pl\n"
@@ -1792,9 +1792,8 @@ msgid "Custom Ringtone"
 msgstr "Własny dzwonek"
 
 #: ../plugins/sound//SoundsList.qml:208
-#, fuzzy
 msgid "Choose from"
-msgstr "Wybierz operatora:"
+msgstr "Wybierz z"
 
 #. TRANSLATORS: This string is a description of a text
 #. field and should thus be concise.
@@ -3664,7 +3663,6 @@ msgid "Public key"
 msgstr "Klucz publiczny"
 
 #: ../plugins/wifi//certhandler.cpp:264
-#, fuzzy
 msgid "Opaque"
 msgstr "Nieprzejrzysty"
 
