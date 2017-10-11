@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-22 05:18+0000\n"
+"PO-Revision-Date: 2017-10-11 10:04+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://translate.ubports.com/projects/ubports"
 "/system-settings/fi/>\n"
@@ -1743,7 +1743,6 @@ msgstr "Värinä äänettömässä tilassa"
 
 #: ../plugins/sound//PageComponent.qml:194
 #: ../plugins/phone//PageComponent.qml:102
-#, fuzzy
 msgid "Dialpad tones"
 msgstr "Valintanäppäinten äänet"
 
@@ -2402,7 +2401,7 @@ msgstr "Soitonsiirtoa ei voi muuttaa juuri nyt."
 
 #: ../plugins/phone//SingleSim.qml:29
 msgid "SIM"
-msgstr "SIM-kortti"
+msgstr "SIM"
 
 #. TRANSLATORS: %1 is the name of the (network) carrier
 #: ../plugins/phone//SingleSim.qml:53 ../plugins/phone//Services.qml:35
@@ -2416,7 +2415,7 @@ msgstr "Siirrä jokainen saapuva puhelu"
 
 #: ../plugins/phone//CallForwarding.qml:146
 msgid "Redirects all phone calls to another number."
-msgstr "Ohjaa kaikki puhelut toiseen numeroon."
+msgstr "Välittää kaikki puhelut toiseen numeroon."
 
 #: ../plugins/phone//CallForwarding.qml:158
 msgid "Call forwarding status can’t be checked "
