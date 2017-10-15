@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-28 20:32+0000\n"
+"PO-Revision-Date: 2017-10-15 13:32+0000\n"
 "Last-Translator: Henrik Holm <hbir@post10.tele.dk>\n"
 "Language-Team: Danish <https://translate.ubports.com/projects/ubports/system-"
 "settings/da/>\n"
@@ -2458,7 +2458,7 @@ msgstr "SIM"
 #: ../plugins/phone//SingleSim.qml:53 ../plugins/phone//Services.qml:35
 #, qt-format
 msgid "%1 Services"
-msgstr "%1-tjenester"
+msgstr "%1 tjenester"
 
 #: ../plugins/phone//CallForwarding.qml:131
 msgid "Forward every incoming call"
@@ -2511,7 +2511,7 @@ msgstr ""
 
 #: ../plugins/phone//CallForwarding.qml:382
 msgid "All calls"
-msgstr ""
+msgstr "Alle opkald"
 
 #: ../plugins/phone//CallForwarding.qml:384
 #, fuzzy
