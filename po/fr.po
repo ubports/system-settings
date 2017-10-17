@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-10-10 09:57+0000\n"
+"PO-Revision-Date: 2017-10-17 09:45+0000\n"
 "Last-Translator: RedXXIII <adered7@gmail.com>\n"
 "Language-Team: French <https://translate.ubports.com/projects/ubports/system-"
 "settings/fr/>\n"
@@ -2811,8 +2811,9 @@ msgstr "Modifier le nom de la carte SIM"
 #. TRANSLATORS: This is the text that will be used on the "return" key for the virtual keyboard,
 #. this word must be less than 5 characters
 #: ../plugins/cellular//Components//LabelTextField.qml:51
+#, fuzzy
 msgid "Next"
-msgstr "Entr."
+msgstr "Suiv"
 
 #: ../plugins/cellular//Components//RadioSingleSim.qml:31
 #: ../plugins/cellular//Components//MultiSim.qml:84
