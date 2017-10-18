@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-10-18 10:56+0000\n"
+"PO-Revision-Date: 2017-10-18 12:30+0000\n"
 "Last-Translator: Ivo Xavier <ivofernandes12@gmail.com>\n"
 "Language-Team: Portuguese <https://translate.ubports.com/projects/ubports"
 "/system-settings/pt/>\n"
@@ -39,17 +39,17 @@ msgstr "Definições de canal"
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
 msgid "Stable"
-msgstr "Stable"
+msgstr "Estável"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
 msgid "Release candidate"
-msgstr "Release candidate"
+msgstr "Pré-lançamento"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
 msgid "Development"
-msgstr "Development"
+msgstr "Desenvolvimento"
 
 #: ../plugins/system-update//ChannelSettings.qml:99
 msgid "Fetching channels"
@@ -325,7 +325,7 @@ msgstr "Atualização falhou"
 #: ../plugins/hotspot//PageComponent.qml:33
 #: ../plugins/hotspot//PageComponent.qml:84 ../build/po/settings.js:24
 msgid "Hotspot"
-msgstr "Hotspot"
+msgstr "Ponto de acesso"
 
 #: ../plugins/hotspot//PageComponent.qml:113
 msgid ""
@@ -1443,7 +1443,7 @@ msgstr "Quando bloqueado permite:"
 #: ../plugins/security-privacy//PhoneLocking.qml:131
 #: ../plugins/launcher//PageComponent.qml:31 ../build/po/settings.js:320
 msgid "Launcher"
-msgstr "Launcher"
+msgstr "Lançador"
 
 #: ../plugins/security-privacy//PhoneLocking.qml:144
 msgid "Notifications and quick settings"
@@ -2380,8 +2380,8 @@ msgid ""
 "Lets you answer or start a new call while on another call, and switch "
 "between them"
 msgstr ""
-"Permite-lhe atender ou iniciar nova chamada noutra chamada e alternar entre "
-"elas."
+"Permite-lhe atender ou iniciar nova chamada noutra chamada, e alternar entre "
+"elas"
 
 #. TRANSLATORS: This string will be truncated on smaller displays.
 #: ../plugins/phone//CallForwardItem.qml:157
@@ -2874,7 +2874,7 @@ msgstr "atualização"
 #: ../build/po/settings.js:12 ../build/po/settings.js:60
 #: ../build/po/settings.js:390
 msgid "apps"
-msgstr "apps"
+msgstr "aplicações"
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../build/po/settings.js:14
