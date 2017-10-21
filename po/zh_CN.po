@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-24 07:37+0000\n"
+"PO-Revision-Date: 2017-10-21 05:43+0000\n"
 "Last-Translator: Mutse Young <yyhoo2.young@gmail.com>\n"
 "Language-Team: Chinese (Simplified) "
 "<https://translate.ubports.com/projects/ubports/system-settings/zh_Hans/>\n"
@@ -636,7 +636,7 @@ msgstr "昨天"
 #: ../plugins/battery//PageComponent.qml:198
 #: ../plugins/battery//PageComponent.qml:200
 msgid "Today"
-msgstr "今日"
+msgstr "今天"
 
 #: ../plugins/battery//PageComponent.qml:269
 msgid "Charging now"
@@ -1636,19 +1636,19 @@ msgstr ""
 
 #: ../plugins/mouse//Connected.qml:134 ../plugins/mouse//Connected.qml:301
 msgid "Double-click speed:"
-msgstr ""
+msgstr "双击速度："
 
 #: ../plugins/mouse//Connected.qml:168 ../plugins/mouse//Connected.qml:335
 msgid "Test double-click:"
-msgstr ""
+msgstr "测试双击："
 
 #: ../plugins/mouse//Connected.qml:214
 msgid "Touchpad"
-msgstr ""
+msgstr "触摸板"
 
 #: ../plugins/mouse//Connected.qml:264
 msgid "Finger scrolling speed:"
-msgstr ""
+msgstr "手指滑动速度："
 
 #: ../plugins/mouse//Connected.qml:389
 msgid "Tap to click"
@@ -1656,7 +1656,7 @@ msgstr ""
 
 #: ../plugins/mouse//Connected.qml:403
 msgid "Scroll with two fingers"
-msgstr ""
+msgstr "双手指滑动"
 
 #: ../plugins/mouse//Connected.qml:410
 msgid "Ignore touchpad when:"
@@ -1667,9 +1667,8 @@ msgid "Typing"
 msgstr ""
 
 #: ../plugins/mouse//Connected.qml:446
-#, fuzzy
 msgid "A mouse is connected"
-msgstr "已断开"
+msgstr "鼠标已连接"
 
 #: ../plugins/mouse//PrimaryButtonSelector.qml:42
 msgid "Primary button:"
@@ -1677,21 +1676,19 @@ msgstr ""
 
 #: ../plugins/mouse//PrimaryButtonSelector.qml:72
 msgid "Left"
-msgstr ""
+msgstr "左"
 
 #: ../plugins/mouse//PrimaryButtonSelector.qml:89
-#, fuzzy
 msgid "Right"
-msgstr "飞行"
+msgstr "右"
 
 #: ../plugins/mouse//TapArea.qml:38
-#, fuzzy
 msgid "Not fast enough"
-msgstr "不发送"
+msgstr "不够快"
 
 #: ../plugins/mouse//TapArea.qml:77
 msgid "Double-clicked"
-msgstr ""
+msgstr "双击"
 
 #: ../plugins/reset//ResetAllSettings.qml:29
 msgid ""
@@ -1704,9 +1701,8 @@ msgid "Reset all system settings"
 msgstr "重置全部系统设置"
 
 #: ../plugins/reset//PageComponent.qml:32
-#, fuzzy
 msgid "Reset device"
-msgstr "设备"
+msgstr "重置设备"
 
 #: ../plugins/reset//PageComponent.qml:75
 #: ../plugins/reset//PageComponent.qml:86
@@ -1730,7 +1726,6 @@ msgid "The Launcher will be returned to its original contents."
 msgstr "启动器会恢复到它的初始内容。"
 
 #: ../plugins/reset//EraseEverything.qml:41
-#, fuzzy
 msgid ""
 "All documents, saved games, settings, and other items will be permanently "
 "deleted from this device."
@@ -1750,7 +1745,7 @@ msgstr "铃声："
 
 #: ../plugins/sound//PageComponent.qml:141
 msgid "High volume can damage your hearing."
-msgstr ""
+msgstr "音量大会损伤您的听力。"
 
 #: ../plugins/sound//PageComponent.qml:145
 msgid "Phone calls:"
@@ -1762,7 +1757,6 @@ msgid "Ringtone"
 msgstr "铃声"
 
 #: ../plugins/sound//PageComponent.qml:171
-#, fuzzy
 msgid "Vibrate on ring"
 msgstr "响铃时震动"
 
@@ -1773,7 +1767,6 @@ msgstr "静音模式开启振动"
 
 #: ../plugins/sound//PageComponent.qml:194
 #: ../plugins/phone//PageComponent.qml:102
-#, fuzzy
 msgid "Dialpad tones"
 msgstr "拨号盘音效"
 
@@ -1799,14 +1792,12 @@ msgid "Lock sound"
 msgstr "锁屏提示音"
 
 #: ../plugins/sound//PageComponent.qml:277
-#, fuzzy
 msgid "Other vibrations"
-msgstr "振动"
+msgstr "其它振动"
 
 #: ../plugins/sound//SoundsList.qml:128
-#, fuzzy
 msgid "Custom Ringtone"
-msgstr "铃声"
+msgstr "自定义铃声"
 
 #: ../plugins/sound//SoundsList.qml:208
 #, fuzzy
@@ -1823,25 +1814,21 @@ msgid "APN"
 msgstr "APN"
 
 #: ../plugins/cellular//PageChooseApn.qml:63
-#, fuzzy
 msgid "MMS APN"
-msgstr "MMS APN:"
+msgstr "彩信设置"
 
 #: ../plugins/cellular//PageChooseApn.qml:69
-#, fuzzy
 msgid "Internet APN"
-msgstr "互联网APN:"
+msgstr "互联网设置"
 
 #: ../plugins/cellular//PageChooseApn.qml:75
-#, fuzzy
 msgid "LTE APN"
-msgstr "%1 APN"
+msgstr "LTE 接入"
 
 #: ../plugins/cellular//PageChooseApn.qml:85
 #: ../plugins/cellular//PageApnEditor.qml:159
-#, fuzzy
 msgid "Internet and MMS"
-msgstr "互联网"
+msgstr "互联网和彩信"
 
 #: ../plugins/cellular//PageChooseApn.qml:87
 #: ../plugins/cellular//PageApnEditor.qml:160
@@ -1851,21 +1838,20 @@ msgstr "互联网"
 #: ../plugins/cellular//PageChooseApn.qml:89
 #: ../plugins/cellular//PageApnEditor.qml:162
 msgid "LTE"
-msgstr ""
+msgstr "LTE"
 
 #: ../plugins/cellular//PageChooseApn.qml:91
 #: ../plugins/cellular//PageApnEditor.qml:161
 msgid "MMS"
-msgstr "MMS"
+msgstr "彩信"
 
 #: ../plugins/cellular//PageChooseApn.qml:155
-#, fuzzy
 msgid "Reset All APN Settings…"
-msgstr "重置APN设置"
+msgstr "重置所有接入设置…"
 
 #: ../plugins/cellular//PageChooseApn.qml:164
 msgid "Reset APN Settings"
-msgstr "重置APN设置"
+msgstr "重置接入设置"
 
 #: ../plugins/cellular//PageChooseApn.qml:165
 msgid "Are you sure that you want to Reset APN Settings?"
@@ -1884,7 +1870,7 @@ msgstr "重置"
 #: ../plugins/cellular//PageChooseApn.qml:222
 #, qt-format
 msgid "Prefer %1"
-msgstr ""
+msgstr "首选 %1"
 
 #. TRANSLATORS: %1 is the MMS APN that the user has chosen to be
 #. “preferred”, i.e. used to retrieve MMS messages. %2 is the Internet
@@ -1892,7 +1878,7 @@ msgstr ""
 #: ../plugins/cellular//PageChooseApn.qml:195
 #, qt-format
 msgid "You have chosen %1 as your preferred MMS APN. "
-msgstr ""
+msgstr "选择 %1 作为您首选的彩信接入。 "
 
 #: ../plugins/cellular//PageChooseApn.qml:200
 #: ../plugins/cellular//PageChooseApn.qml:265
@@ -1906,37 +1892,36 @@ msgstr "断开"
 #: ../plugins/cellular//PageChooseApn.qml:226
 #, qt-format
 msgid "You have chosen %1 as your preferred Internet APN. "
-msgstr ""
+msgstr "选择 %1 作为您首选的互联网接入。 "
 
 #: ../plugins/cellular//PageChooseApn.qml:231
 #: ../plugins/cellular//PageChooseApn.qml:264
-#, fuzzy
 msgid "Disable"
 msgstr "禁用"
 
 #: ../plugins/cellular//PageChooseApn.qml:253
-#, fuzzy, qt-format
+#, qt-format
 msgid "Disconnect %1"
-msgstr "断开"
+msgstr "断开 %1"
 
 #: ../plugins/cellular//PageChooseApn.qml:254
-#, fuzzy, qt-format
+#, qt-format
 msgid "Disable %1"
-msgstr "禁用"
+msgstr "禁用 %1"
 
 #: ../plugins/cellular//PageChooseApn.qml:259
-#, fuzzy, qt-format
+#, qt-format
 msgid "This disconnects %1."
-msgstr "断开连接"
+msgstr "%1 断开连接。"
 
 #: ../plugins/cellular//PageChooseApn.qml:260
 #, qt-format
 msgid "This disables %1."
-msgstr ""
+msgstr "禁用 %1。"
 
 #: ../plugins/cellular//PageChooseApn.qml:302
 msgid "Delete"
-msgstr ""
+msgstr "删除"
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../plugins/cellular//PageComponent.qml:32 ../build/po/settings.js:254
@@ -1948,13 +1933,12 @@ msgid "Edit"
 msgstr "编辑"
 
 #: ../plugins/cellular//PageApnEditor.qml:69
-#, fuzzy
 msgid "New APN"
-msgstr "%1 APN"
+msgstr "新建接入"
 
 #: ../plugins/cellular//PageApnEditor.qml:155
 msgid "Used for:"
-msgstr ""
+msgstr "用于："
 
 #: ../plugins/cellular//PageApnEditor.qml:180
 #: ../plugins/wifi//NetworkDetails.qml:57
@@ -1964,11 +1948,11 @@ msgstr "名称"
 
 #: ../plugins/cellular//PageApnEditor.qml:188
 msgid "Enter a name describing the APN"
-msgstr ""
+msgstr "输入描述接入名称"
 
 #: ../plugins/cellular//PageApnEditor.qml:213
 msgid "Enter the name of the access point"
-msgstr ""
+msgstr "输入接入点名称"
 
 #: ../plugins/cellular//PageApnEditor.qml:227
 msgid "MMSC"
@@ -1976,7 +1960,7 @@ msgstr "MMSC"
 
 #: ../plugins/cellular//PageApnEditor.qml:236
 msgid "Enter message center"
-msgstr ""
+msgstr "输入消息中心"
 
 #: ../plugins/cellular//PageApnEditor.qml:254
 msgid "Proxy"
@@ -1984,26 +1968,23 @@ msgstr "代理"
 
 #: ../plugins/cellular//PageApnEditor.qml:263
 msgid "Enter message proxy"
-msgstr ""
+msgstr "输入消息代理"
 
 #: ../plugins/cellular//PageApnEditor.qml:308
-#, fuzzy
 msgid "Proxy port"
-msgstr "代理"
+msgstr "代理端口"
 
 #: ../plugins/cellular//PageApnEditor.qml:318
 msgid "Enter message proxy port"
-msgstr ""
+msgstr "输入消息代理端口"
 
 #: ../plugins/cellular//PageApnEditor.qml:336
-#, fuzzy
 msgid "User name"
 msgstr "用户名"
 
 #: ../plugins/cellular//PageApnEditor.qml:345
-#, fuzzy
 msgid "Enter username"
-msgstr "输入口令密语"
+msgstr "输入用户名"
 
 #: ../plugins/cellular//PageApnEditor.qml:358
 #: ../plugins/wifi//NetworkDetails.qml:70 ../plugins/wifi//OtherNetwork.qml:786
@@ -2011,51 +1992,46 @@ msgid "Password"
 msgstr "密码"
 
 #: ../plugins/cellular//PageApnEditor.qml:369
-#, fuzzy
 msgid "Enter password"
-msgstr "输入口令密语"
+msgstr "输入密码"
 
 #: ../plugins/cellular//PageApnEditor.qml:383
 #: ../plugins/wifi//OtherNetwork.qml:338
-#, fuzzy
 msgid "Authentication"
-msgstr "通知"
+msgstr "验证"
 
 #: ../plugins/cellular//PageApnEditor.qml:388
 msgid "PAP or CHAP"
-msgstr ""
+msgstr "PAP 或 CHAP"
 
 #: ../plugins/cellular//PageApnEditor.qml:389
-#, fuzzy
 msgid "PAP only"
-msgstr "仅手机"
+msgstr "仅 PAP 认证"
 
 #: ../plugins/cellular//PageApnEditor.qml:390
-#, fuzzy
 msgid "CHAP only"
-msgstr "仅手机"
+msgstr "仅 CHAP 认证"
 
 #: ../plugins/cellular//PageApnEditor.qml:401
 msgid "Protocol"
-msgstr ""
+msgstr "协议"
 
 #: ../plugins/cellular//PageApnEditor.qml:405
 msgid "IPv4"
-msgstr ""
+msgstr "IPv4"
 
 #: ../plugins/cellular//PageApnEditor.qml:406
 msgid "IPv6"
-msgstr ""
+msgstr "IPv6"
 
 #: ../plugins/cellular//PageApnEditor.qml:407
 msgid "IPv4v6"
-msgstr ""
+msgstr "IPv4v6"
 
 #: ../plugins/cellular//PageCarrierAndApn.qml:27
 #: ../plugins/cellular//Components//SingleSim.qml:110
-#, fuzzy
 msgid "Carrier & APN"
-msgstr "运营商"
+msgstr "运营商和接入"
 
 #: ../plugins/cellular//PageCarrierAndApn.qml:44
 #: ../plugins/cellular//PageCarrierAndApn.qml:52
@@ -2066,9 +2042,8 @@ msgid "Carrier"
 msgstr "运营商"
 
 #: ../plugins/cellular//PageCarriersAndApns.qml:27
-#, fuzzy
 msgid "Carriers & APNs"
-msgstr "运营商"
+msgstr "运营商和接入"
 
 #: ../plugins/cellular//PageChooseCarrier.qml:153
 #: ../plugins/time-date//ChooseTimeZone.qml:50
@@ -2078,7 +2053,7 @@ msgstr "自动"
 
 #: ../plugins/wifi//PageComponent.qml:128
 msgid "Connect to hidden network…"
-msgstr "连接到隐藏网络..."
+msgstr "连接到隐藏网络…"
 
 #: ../plugins/wifi//PageComponent.qml:138
 #: ../plugins/wifi//PreviousNetworks.qml:27
