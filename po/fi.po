@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-22 05:18+0000\n"
+"PO-Revision-Date: 2017-10-20 07:25+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://translate.ubports.com/projects/ubports"
 "/system-settings/fi/>\n"
@@ -1743,7 +1743,6 @@ msgstr "Värinä äänettömässä tilassa"
 
 #: ../plugins/sound//PageComponent.qml:194
 #: ../plugins/phone//PageComponent.qml:102
-#, fuzzy
 msgid "Dialpad tones"
 msgstr "Valintanäppäinten äänet"
 
@@ -2363,7 +2362,7 @@ msgstr "Soitonsiirto"
 #: ../plugins/phone//CallWaiting.qml:81 ../plugins/phone//SingleSim.qml:34
 #: ../plugins/phone//MultiSim.qml:42
 msgid "Call waiting"
-msgstr "Koputuspalvelu"
+msgstr "Koputus"
 
 #: ../plugins/phone//NoSims.qml:42 ../plugins/phone//MultiSim.qml:63
 msgid "Services"
@@ -2383,14 +2382,14 @@ msgid ""
 "Lets you answer or start a new call while on another call, and switch "
 "between them"
 msgstr ""
-"Mahdollistaa uuden puhelun soittamisen tai vastaamisen saapuvaan puheluun, "
-"kun meneillään on jo puhelu."
+"Mahdollistaa vastaamisen tai toisen puhelun soittamisen, kun puhelu on "
+"kesken, ja vaihtamisen puhelujen välillä"
 
 #. TRANSLATORS: This string will be truncated on smaller displays.
 #: ../plugins/phone//CallForwardItem.qml:157
 #: ../plugins/phone//CallForwardItem.qml:202
 msgid "Forward to"
-msgstr "Välitä"
+msgstr "Siirrä"
 
 #: ../plugins/phone//CallForwardItem.qml:171
 msgid "Enter a number"
@@ -2402,7 +2401,7 @@ msgstr "Soitonsiirtoa ei voi muuttaa juuri nyt."
 
 #: ../plugins/phone//SingleSim.qml:29
 msgid "SIM"
-msgstr "SIM-kortti"
+msgstr "SIM"
 
 #. TRANSLATORS: %1 is the name of the (network) carrier
 #: ../plugins/phone//SingleSim.qml:53 ../plugins/phone//Services.qml:35
@@ -2416,7 +2415,7 @@ msgstr "Siirrä jokainen saapuva puhelu"
 
 #: ../plugins/phone//CallForwarding.qml:146
 msgid "Redirects all phone calls to another number."
-msgstr "Ohjaa kaikki puhelut toiseen numeroon."
+msgstr "Välittää kaikki puhelut toiseen numeroon."
 
 #: ../plugins/phone//CallForwarding.qml:158
 msgid "Call forwarding status can’t be checked "
@@ -2424,7 +2423,7 @@ msgstr "Soitonsiirron tilaa ei voi tarkistaa "
 
 #: ../plugins/phone//CallForwarding.qml:166
 msgid "Forward incoming calls when:"
-msgstr "Siirrä saapuvat puhelut kun:"
+msgstr "Siirrä saapuvat puhelut:"
 
 #: ../plugins/phone//CallForwarding.qml:175
 msgid "I’m on another call"
@@ -2436,7 +2435,7 @@ msgstr "En vastaa puheluun"
 
 #: ../plugins/phone//CallForwarding.qml:197
 msgid "My phone is unreachable"
-msgstr "Puhelimeni ei ole tavoitettavissa"
+msgstr "kun puhelin ei ole tavoitettavissa"
 
 #: ../plugins/phone//CallForwarding.qml:227
 msgid "Contacts…"
@@ -2452,11 +2451,11 @@ msgstr "Numerot"
 
 #: ../plugins/phone//CallForwarding.qml:302
 msgid "Could not forward to this contact"
-msgstr "Puheluja ei voitu siirtää tälle yhteystiedolle"
+msgstr "Ei voitu siirtää tälle yhteystiedolle"
 
 #: ../plugins/phone//CallForwarding.qml:303
 msgid "Contact not associated with any phone number."
-msgstr "Yhteystietoon ei liity yhtäkään puhelinnumeroa."
+msgstr "Yhteystietoa ei ole yhdistetty mihinkään puhelinnumeroon."
 
 #: ../plugins/phone//CallForwarding.qml:382
 msgid "All calls"

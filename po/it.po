@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-27 10:56+0000\n"
-"Last-Translator: Stefano Melchior <stefano.melchior@me.com>\n"
+"PO-Revision-Date: 2017-10-02 18:33+0000\n"
+"Last-Translator: Mike <miguel2000@livecom.it>\n"
 "Language-Team: Italian <https://translate.ubports.com/projects/ubports"
 "/system-settings/it/>\n"
 "Language: it\n"
@@ -1269,7 +1269,7 @@ msgstr "Statistiche"
 #. reports are to be sent by the system.
 #: ../plugins/security-privacy//PageComponent.qml:286
 msgid "Sent"
-msgstr "Inviate"
+msgstr "Inviato"
 
 #. TRANSLATORS: This string is shown when crash
 #. reports are not to be sent by the system
@@ -1887,7 +1887,7 @@ msgstr "Hai scelto %1 come APN preferito per Internet. "
 #: ../plugins/cellular//PageChooseApn.qml:231
 #: ../plugins/cellular//PageChooseApn.qml:264
 msgid "Disable"
-msgstr "Disattiva"
+msgstr "Disabilita"
 
 #: ../plugins/cellular//PageChooseApn.qml:253
 #, qt-format
@@ -2386,7 +2386,7 @@ msgstr "Ultima chiamata %1"
 
 #: ../plugins/phone//ServiceInfo.qml:119
 msgid "Call"
-msgstr "Chiama"
+msgstr "Chiamata"
 
 #: ../plugins/phone//CallWaiting.qml:96
 msgid ""
@@ -2394,7 +2394,7 @@ msgid ""
 "between them"
 msgstr ""
 "Permettere di rispondere o di iniziare una nuova chiamata, mentre un'altra è "
-"in corso chiamata, e di passare da una all'altra"
+"in corso, e di passare da una all'altra"
 
 #. TRANSLATORS: This string will be truncated on smaller displays.
 #: ../plugins/phone//CallForwardItem.qml:157
@@ -2404,7 +2404,7 @@ msgstr "Inoltra a"
 
 #: ../plugins/phone//CallForwardItem.qml:171
 msgid "Enter a number"
-msgstr "Inserisci numero di telefono"
+msgstr "Inserire un numero"
 
 #: ../plugins/phone//CallForwardItem.qml:218
 msgid "Call forwarding can’t be changed right now."
@@ -2691,7 +2691,7 @@ msgstr "Stampante"
 
 #: ../plugins/bluetooth//DevicePage.qml:62
 msgid "Watch"
-msgstr "Osservare"
+msgstr "Osserva"
 
 #: ../plugins/bluetooth//DevicePage.qml:63
 msgid "Other"
@@ -2797,7 +2797,7 @@ msgstr "Modifica nome SIM"
 #. this word must be less than 5 characters
 #: ../plugins/cellular//Components//LabelTextField.qml:51
 msgid "Next"
-msgstr "Successivo"
+msgstr "Avanti"
 
 #: ../plugins/cellular//Components//RadioSingleSim.qml:31
 #: ../plugins/cellular//Components//MultiSim.qml:84

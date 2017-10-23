@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-18 18:29+0000\n"
+"PO-Revision-Date: 2017-09-29 07:41+0000\n"
 "Last-Translator: Jeff <jeffi27@live.at>\n"
 "Language-Team: Albanian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sq/>\n"
@@ -247,7 +247,7 @@ msgstr "Përditëso të gjitha"
 
 #: ../plugins/system-update//UpdateDelegate.qml:119
 msgid "Retry"
-msgstr "Përsërit"
+msgstr "Riprovo"
 
 #: ../plugins/system-update//UpdateDelegate.qml:124
 msgid "Update"
@@ -623,7 +623,7 @@ msgstr "Dje"
 #: ../plugins/battery//PageComponent.qml:198
 #: ../plugins/battery//PageComponent.qml:200
 msgid "Today"
-msgstr "Sotë"
+msgstr "Sot"
 
 #: ../plugins/battery//PageComponent.qml:269
 msgid "Charging now"
@@ -1910,7 +1910,7 @@ msgstr "Celular"
 
 #: ../plugins/cellular//PageApnEditor.qml:69
 msgid "Edit"
-msgstr "Redakto"
+msgstr "Ndrysho"
 
 #: ../plugins/cellular//PageApnEditor.qml:69
 msgid "New APN"

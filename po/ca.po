@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-19 11:52+0000\n"
-"Last-Translator: Walter Garcia-Fontes <walter.garcia@upf.edu>\n"
+"PO-Revision-Date: 2017-09-30 19:15+0000\n"
+"Last-Translator: Stefano Melchior <stefano.melchior@me.com>\n"
 "Language-Team: Catalan <https://translate.ubports.com/projects/ubports"
 "/system-settings/ca/>\n"
 "Language: ca\n"
@@ -1269,7 +1269,7 @@ msgstr "Diagnosis"
 #. reports are to be sent by the system.
 #: ../plugins/security-privacy//PageComponent.qml:286
 msgid "Sent"
-msgstr "Envia'n"
+msgstr "Enviat"
 
 #. TRANSLATORS: This string is shown when crash
 #. reports are not to be sent by the system
@@ -1891,7 +1891,7 @@ msgstr "Heu triat %1 com la vostra APN d'Internet preferida. "
 #: ../plugins/cellular//PageChooseApn.qml:231
 #: ../plugins/cellular//PageChooseApn.qml:264
 msgid "Disable"
-msgstr "Inhabilita"
+msgstr "Inhabilita'l"
 
 #: ../plugins/cellular//PageChooseApn.qml:253
 #, qt-format
@@ -1915,7 +1915,7 @@ msgstr "Aixà deshabilita a %1."
 
 #: ../plugins/cellular//PageChooseApn.qml:302
 msgid "Delete"
-msgstr "Suprimeix-lo"
+msgstr "Suprimeix"
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../plugins/cellular//PageComponent.qml:32 ../build/po/settings.js:254
@@ -2386,11 +2386,11 @@ msgstr "Serveis"
 #: ../plugins/phone//ServiceInfo.qml:109
 #, qt-format
 msgid "Last called %1"
-msgstr "Darrera trucada a %1"
+msgstr "Última trucada %1"
 
 #: ../plugins/phone//ServiceInfo.qml:119
 msgid "Call"
-msgstr "Trucada"
+msgstr "Truca-hi"
 
 #: ../plugins/phone//CallWaiting.qml:96
 msgid ""
@@ -2470,7 +2470,7 @@ msgstr "No s'ha pogut desviar aquest contacte"
 
 #: ../plugins/phone//CallForwarding.qml:303
 msgid "Contact not associated with any phone number."
-msgstr "Aquest contacte no està associat a cap número de telèfon."
+msgstr "Cap numero de telefon associat al contacte."
 
 #: ../plugins/phone//CallForwarding.qml:382
 msgid "All calls"
@@ -2699,7 +2699,7 @@ msgstr "Rellotge"
 
 #: ../plugins/bluetooth//DevicePage.qml:63
 msgid "Other"
-msgstr "Altres"
+msgstr "Un altre"
 
 #: ../plugins/bluetooth//DevicePage.qml:69
 msgid "Excellent"

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-23 15:03+0000\n"
+"PO-Revision-Date: 2017-10-02 13:58+0000\n"
 "Last-Translator: Milan Korecký <milan.korecky@gmail.com>\n"
 "Language-Team: Czech <https://translate.ubports.com/projects/ubports/system-"
 "settings/cs/>\n"
@@ -216,7 +216,7 @@ msgstr "Vždy"
 #: ../plugins/hotspot//Common.qml:94 ../plugins/wifi//Common.qml:96
 #: ../plugins/bluetooth//DevicePage.qml:41
 msgid "Unknown"
-msgstr "Neznámý"
+msgstr "Neznámé"
 
 #: ../plugins/system-update//UpdateSettings.qml:61
 msgid "Channels"
@@ -333,16 +333,16 @@ msgid ""
 "When hotspot is on, other devices can use your cellular data connection over "
 "Wi-Fi. Normal data charges apply."
 msgstr ""
-"Pokud je Hotspot aktivní, ostatní zařízení mohou používat Vaše mobilní "
-"internetové připojení pomocí Wi-Fi. Data jsou účtována dle Vašeho tarifu."
+"Pokud je Hotspot aktivní, ostatní zařízení mohou používat vaše mobilní "
+"internetové připojení pomocí Wi-Fi. Data jsou účtována dle vašeho tarifu."
 
 #: ../plugins/hotspot//PageComponent.qml:114
 msgid ""
 "Other devices can use your cellular data connection over the Wi-Fi network. "
 "Normal data charges apply."
 msgstr ""
-"Ostatní zařízení mohou využívat Vašeho mobilního internetového připojení. "
-"Data jsou účtována dle Vašeho tarifu."
+"Ostatní zařízení mohou využívat vašeho mobilního internetového připojení. "
+"Data jsou účtována dle vašeho tarifu."
 
 #: ../plugins/hotspot//PageComponent.qml:123
 msgid "Change Password/Setup…"
@@ -524,7 +524,7 @@ msgstr "Změnit"
 
 #: ../plugins/hotspot//HotspotSetup.qml:275
 msgid "Start"
-msgstr "Spustit"
+msgstr "Start"
 
 #: ../plugins/battery//SleepValues.qml:74
 msgid "Lock the device when it's not in use:"
@@ -790,7 +790,7 @@ msgstr "Odstranit obrázek"
 #: ../plugins/time-date//TimePicker.qml:181
 #: ../plugins/phone//CallForwarding.qml:253
 msgid "Set"
-msgstr "Nastavit"
+msgstr "Vybrat"
 
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../plugins/background//MainPage.qml:36 ../build/po/settings.js:78
@@ -1277,7 +1277,7 @@ msgstr "Neodeslané"
 
 #: ../plugins/security-privacy//Location.qml:96
 msgid "Let the device detect your location:"
-msgstr "Umožnit zařízení zjistit Vaši polohu:"
+msgstr "Umožnit zařízení zjistit vaši polohu:"
 
 #: ../plugins/security-privacy//Location.qml:175
 msgid "Using GPS only (less accurate)"
@@ -1315,7 +1315,7 @@ msgid ""
 "battery."
 msgstr ""
 "Používá GPS ke zjištění vaší přibližné polohy. Je-li vypnuta, GPS se vypne, "
-"vypne, aby se šetřila baterie."
+"aby se šetřila baterie."
 
 #: ../plugins/security-privacy//Location.qml:214
 msgid ""
@@ -1391,7 +1391,7 @@ msgstr "Aplikace, která potřebuje přístup ke fotoaparátu"
 
 #: ../plugins/security-privacy//AppAccess.qml:75
 msgid "Apps that have requested access to your location"
-msgstr "Aplikace, které požadovaly přístup k Vaší poloze"
+msgstr "Aplikace, které požadovaly přístup k vaší poloze"
 
 #: ../plugins/security-privacy//AppAccess.qml:80
 msgid "Microphone"
@@ -1729,7 +1729,7 @@ msgstr "Vyzvánění:"
 
 #: ../plugins/sound//PageComponent.qml:141
 msgid "High volume can damage your hearing."
-msgstr "Vysoká hlasitost může poškodit Váš sluch."
+msgstr "Vysoká hlasitost může poškodit váš sluch."
 
 #: ../plugins/sound//PageComponent.qml:145
 msgid "Phone calls:"
@@ -1880,7 +1880,7 @@ msgstr "Vybrali jste% 1 jako svůj preferovaný internetový APN. "
 #: ../plugins/cellular//PageChooseApn.qml:231
 #: ../plugins/cellular//PageChooseApn.qml:264
 msgid "Disable"
-msgstr "Zakázat"
+msgstr "Vypnout"
 
 #: ../plugins/cellular//PageChooseApn.qml:253
 #, qt-format
@@ -2054,7 +2054,7 @@ msgstr "IP adresa"
 
 #: ../plugins/wifi//RemoveBackground.qml:28
 msgid "Clear"
-msgstr "Smazat"
+msgstr "Vyčistit"
 
 #: ../plugins/wifi//AccessPoint.qml:51 ../plugins/wifi//StandardMenuItem.qml:31
 #: ../plugins/brightness//PageComponent.qml:159
@@ -2237,7 +2237,7 @@ msgstr "Verze 1"
 
 #: ../plugins/wifi//OtherNetwork.qml:715
 msgid "Automatic"
-msgstr "Automatické"
+msgstr "Automaticky"
 
 #: ../plugins/wifi//OtherNetwork.qml:725
 msgid "Anonymous identity"
@@ -2360,7 +2360,7 @@ msgstr "Telefon"
 #: ../plugins/phone//NoSims.qml:28 ../plugins/phone//SingleSim.qml:41
 #: ../plugins/phone//MultiSim.qml:52 ../plugins/phone//CallForwarding.qml:45
 msgid "Call forwarding"
-msgstr "Přesměrování hovorů"
+msgstr "Přesměrování hovoru"
 
 #: ../plugins/phone//NoSims.qml:34 ../plugins/phone//CallWaiting.qml:31
 #: ../plugins/phone//CallWaiting.qml:81 ../plugins/phone//SingleSim.qml:34
@@ -2375,28 +2375,29 @@ msgstr "Služby"
 #: ../plugins/phone//ServiceInfo.qml:109
 #, qt-format
 msgid "Last called %1"
-msgstr "Poslední hovor %1"
+msgstr "Naposledy volané %1"
 
 #: ../plugins/phone//ServiceInfo.qml:119
 msgid "Call"
-msgstr "Hovor"
+msgstr "Volat"
 
 #: ../plugins/phone//CallWaiting.qml:96
 msgid ""
 "Lets you answer or start a new call while on another call, and switch "
 "between them"
 msgstr ""
-"Povolí zahájit další hovor když právě telefonujete, a přepínat mezi nimi"
+"Umožní vám odpovědět anebo zahájit nový hovor zatímco telefonujete a "
+"přepínat mezi nimi"
 
 #. TRANSLATORS: This string will be truncated on smaller displays.
 #: ../plugins/phone//CallForwardItem.qml:157
 #: ../plugins/phone//CallForwardItem.qml:202
 msgid "Forward to"
-msgstr "Přesměrovat"
+msgstr "Přesměrovat na"
 
 #: ../plugins/phone//CallForwardItem.qml:171
 msgid "Enter a number"
-msgstr "Vložit číslo"
+msgstr "Zadejte číslo"
 
 #: ../plugins/phone//CallForwardItem.qml:218
 msgid "Call forwarding can’t be changed right now."
@@ -2410,7 +2411,7 @@ msgstr "SIM"
 #: ../plugins/phone//SingleSim.qml:53 ../plugins/phone//Services.qml:35
 #, qt-format
 msgid "%1 Services"
-msgstr "%1 Služby"
+msgstr "Služby %1"
 
 #: ../plugins/phone//CallForwarding.qml:131
 msgid "Forward every incoming call"
@@ -2418,7 +2419,7 @@ msgstr "Přesměrovat všechny příchozí hovory"
 
 #: ../plugins/phone//CallForwarding.qml:146
 msgid "Redirects all phone calls to another number."
-msgstr "Přesměrovat všechny hovory na jiné číslo."
+msgstr "Přesměruje všechny hovory na jiné číslo."
 
 #: ../plugins/phone//CallForwarding.qml:158
 msgid "Call forwarding status can’t be checked "
@@ -2426,7 +2427,7 @@ msgstr "Stav přesměrování nelze ověřit "
 
 #: ../plugins/phone//CallForwarding.qml:166
 msgid "Forward incoming calls when:"
-msgstr "Příchozí hovory přesměrovat když:"
+msgstr "Přesměrovat příchozí hovory pokud:"
 
 #: ../plugins/phone//CallForwarding.qml:175
 msgid "I’m on another call"
@@ -2446,7 +2447,7 @@ msgstr "Kontakty…"
 
 #: ../plugins/phone//CallForwarding.qml:274
 msgid "Please select a phone number"
-msgstr "Prosím zvolte telefonní číslo"
+msgstr "Zvolte telefonní číslo"
 
 #: ../plugins/phone//CallForwarding.qml:283
 msgid "Numbers"
@@ -2454,11 +2455,11 @@ msgstr "Čísla"
 
 #: ../plugins/phone//CallForwarding.qml:302
 msgid "Could not forward to this contact"
-msgstr "Nelze přesměrovat na tento kontakt"
+msgstr "Nelze přeposlat tomuto kontaktu"
 
 #: ../plugins/phone//CallForwarding.qml:303
 msgid "Contact not associated with any phone number."
-msgstr "Kontakt není přidružen k žádnému telefonnímu číslu."
+msgstr "Kontakt nemá přidružené žádné telefonní číslo."
 
 #: ../plugins/phone//CallForwarding.qml:382
 msgid "All calls"
@@ -2466,7 +2467,7 @@ msgstr "Všechny hovory"
 
 #: ../plugins/phone//CallForwarding.qml:384
 msgid "Some calls"
-msgstr "Některé hovory"
+msgstr "Několik hovorů"
 
 #: ../plugins/brightness//WifiDisplaysAlert.qml:32
 #, qt-format
@@ -2893,12 +2894,12 @@ msgstr "aplikace"
 #: ../build/po/settings.js:16 ../build/po/settings.js:114
 #: ../build/po/settings.js:318 ../build/po/settings.js:352
 msgid "automatic"
-msgstr "automatické"
+msgstr "automaticky"
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../build/po/settings.js:18
 msgid "download"
-msgstr "stahovat"
+msgstr "stahnout"
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../build/po/settings.js:20
