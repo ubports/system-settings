@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-14 20:00+0000\n"
-"Last-Translator: Sander <sander.k1007@kpnmail.nl>\n"
+"PO-Revision-Date: 2017-11-01 23:34+0000\n"
+"Last-Translator: Terence Sambo <arubislander@zonnet.nl>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/system-"
 "settings/nl/>\n"
 "Language: nl\n"
@@ -1577,7 +1577,7 @@ msgstr "Voer oude simpincode in"
 
 #: ../plugins/security-privacy//SimPin.qml:333
 msgid "Unlock"
-msgstr "Deblokkeren"
+msgstr "Ontgrendelen"
 
 #: ../plugins/security-privacy//SimPin.qml:333
 msgid "Lock"
@@ -1981,7 +1981,7 @@ msgstr ""
 
 #: ../plugins/cellular//PageChooseApn.qml:302
 msgid "Delete"
-msgstr ""
+msgstr "Verwijderen"
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../plugins/cellular//PageComponent.qml:32 ../build/po/settings.js:254
@@ -2493,9 +2493,8 @@ msgid "Forward to"
 msgstr "Doorschakelen naar"
 
 #: ../plugins/phone//CallForwardItem.qml:171
-#, fuzzy
 msgid "Enter a number"
-msgstr "Telefoonnummer"
+msgstr "Voer een nummer in"
 
 #: ../plugins/phone//CallForwardItem.qml:218
 msgid "Call forwarding can’t be changed right now."
@@ -2802,7 +2801,7 @@ msgstr ""
 
 #: ../plugins/bluetooth//DevicePage.qml:63
 msgid "Other"
-msgstr "Overige"
+msgstr "Overig"
 
 #: ../plugins/bluetooth//DevicePage.qml:69
 msgid "Excellent"
@@ -2905,7 +2904,7 @@ msgstr "Simnaam bewerken"
 #. this word must be less than 5 characters
 #: ../plugins/cellular//Components//LabelTextField.qml:51
 msgid "Next"
-msgstr ""
+msgstr "Volg."
 
 #: ../plugins/cellular//Components//RadioSingleSim.qml:31
 #: ../plugins/cellular//Components//MultiSim.qml:84
