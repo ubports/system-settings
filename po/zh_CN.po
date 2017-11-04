@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-10-21 05:43+0000\n"
+"PO-Revision-Date: 2017-11-04 05:43+0000\n"
 "Last-Translator: Mutse Young <yyhoo2.young@gmail.com>\n"
 "Language-Team: Chinese (Simplified) "
 "<https://translate.ubports.com/projects/ubports/system-settings/zh_Hans/>\n"
@@ -1299,13 +1299,12 @@ msgid "Not sent"
 msgstr "不发送"
 
 #: ../plugins/security-privacy//Location.qml:96
-#, fuzzy
 msgid "Let the device detect your location:"
-msgstr "已请求使用您手机上麦克风的应用"
+msgstr "让设备检测您的位置："
 
 #: ../plugins/security-privacy//Location.qml:175
 msgid "Using GPS only (less accurate)"
-msgstr "置使用 GSP（不太准确）"
+msgstr "只使用 GSP（不太准确）"
 
 #: ../plugins/security-privacy//Location.qml:176
 msgid "Using GPS"
@@ -1316,18 +1315,19 @@ msgstr "使用 GPS"
 msgid ""
 "Using GPS, anonymized Wi-Fi and cellular network info.<br>By selecting this "
 "option you accept the <a href='%1'>Nokia HERE terms and conditions</a>."
-msgstr ""
+msgstr "使用 GPS，匿名 Wi-Fi 和移动网络信息。<br>通过选择这个选项，您接受了<a href='%1'>诺基亚在这项的条款和条件</a>。"
 
 #: ../plugins/security-privacy//Location.qml:189
 #, qt-format
 msgid ""
 "Using GPS and anonymized Wi-Fi info.<br>By selecting this option you accept "
 "the <a href='%1'>Nokia HERE terms and conditions</a>."
-msgstr ""
+msgstr "使用 GPS，匿名 Wi-Fi 。<br>通过选择这个选项，您接受了<a href='%1'>诺基亚在这项的条款和条件</a>。"
 
 #: ../plugins/security-privacy//Location.qml:195
+#, fuzzy
 msgid "Not at all"
-msgstr ""
+msgstr "根本没有"
 
 #: ../plugins/security-privacy//Location.qml:212
 msgid ""
@@ -1384,19 +1384,16 @@ msgstr ""
 "定您的位置。关闭定位功能可以节省电池电量。"
 
 #: ../plugins/security-privacy//Location.qml:231
-#, fuzzy
 msgid "Let apps access this location:"
-msgstr "允许访问位置："
+msgstr "允许应用程序访问位置："
 
 #: ../plugins/security-privacy//Location.qml:254
-#, fuzzy
 msgid "None requested"
-msgstr "侦测不到任何设备"
+msgstr "无要求"
 
 #: ../plugins/security-privacy//AppAccess.qml:62
-#, fuzzy
 msgid "Apps that you have granted access to:"
-msgstr "下列应用已通过您的授权以访问："
+msgstr "已通过授权访问的应用程序："
 
 #: ../plugins/security-privacy//AppAccess.qml:68
 #: ../plugins/bluetooth//DevicePage.qml:61
@@ -1405,31 +1402,27 @@ msgstr "相机"
 
 #: ../plugins/security-privacy//AppAccess.qml:69
 msgid "Apps that have requested access to your camera"
-msgstr "已请求使用您手机上相机的应用"
+msgstr "请求使用手机上相机的应用程序"
 
 #: ../plugins/security-privacy//AppAccess.qml:75
-#, fuzzy
 msgid "Apps that have requested access to your location"
-msgstr "已请求使用您手机上麦克风的应用"
+msgstr "请求访问位置的应用程序"
 
 #: ../plugins/security-privacy//AppAccess.qml:80
-#, fuzzy
 msgid "Microphone"
-msgstr "电话"
+msgstr "麦克风"
 
 #: ../plugins/security-privacy//AppAccess.qml:81
-#, fuzzy
 msgid "Apps that have requested access to your microphone"
-msgstr "已请求使用您手机上麦克风的应用"
+msgstr "已请求使用手机上麦克风的应用程序"
 
 #: ../plugins/security-privacy//AppAccess.qml:86
 msgid "In-App Purchases"
 msgstr "应用内购买"
 
 #: ../plugins/security-privacy//AppAccess.qml:87
-#, fuzzy
 msgid "Apps that have requested access for in-app purchases"
-msgstr "已请求使用您手机上相机的应用"
+msgstr "已请求使用手机上相机的应用程序"
 
 #: ../plugins/security-privacy//AppAccess.qml:100
 #, qt-format
@@ -1441,9 +1434,8 @@ msgid "0"
 msgstr "0"
 
 #: ../plugins/security-privacy//AppAccess.qml:116
-#, fuzzy
 msgid "Apps may also request access to online accounts."
-msgstr "已请求使用您手机上麦克风的应用"
+msgstr "应用程序也可以请求访问在线账户。"
 
 #: ../plugins/security-privacy//AppAccess.qml:121
 msgid "Online Accounts…"
@@ -1477,9 +1469,8 @@ msgid "Notifications and quick settings"
 msgstr "通知和快速设置"
 
 #: ../plugins/security-privacy//PhoneLocking.qml:158
-#, fuzzy
 msgid "Turn on lock security to restrict access when the device is locked."
-msgstr "手机屏幕关闭时，开启锁定限制。"
+msgstr "手机屏幕关闭时，开启锁屏限制。"
 
 #: ../plugins/security-privacy//PhoneLocking.qml:159
 msgid "Other apps and functions will prompt you to unlock."
@@ -1487,7 +1478,7 @@ msgstr "其他应用程序和功能会提示你进行解锁。"
 
 #: ../plugins/security-privacy//here-terms.qml:24
 msgid "Nokia HERE"
-msgstr ""
+msgstr "诺基亚 HERE"
 
 #: ../plugins/security-privacy//SimPin.qml:47
 msgid "Change SIM PIN"
@@ -1504,9 +1495,8 @@ msgstr[0] "不正确的PIN。尚有 %1 次尝试机会。"
 #: ../plugins/security-privacy//SimPin.qml:119
 #: ../plugins/security-privacy//SimPin.qml:223
 #: ../plugins/security-privacy//SimPin.qml:296
-#, fuzzy
 msgid "No more attempts allowed"
-msgstr "剩余 %1 尝试机会。"
+msgstr "不允许更多的尝试"
 
 #: ../plugins/security-privacy//SimPin.qml:92
 msgid "Current PIN:"
@@ -1548,7 +1538,6 @@ msgid "Lock"
 msgstr "锁定"
 
 #: ../plugins/security-privacy//SimPin.qml:411
-#, fuzzy
 msgid "Unlocked"
 msgstr "解锁"
 
@@ -1557,22 +1546,18 @@ msgid "Change PIN…"
 msgstr "更改PIN码..."
 
 #: ../plugins/security-privacy//SimPin.qml:425
-#, fuzzy
 msgid "Locked"
 msgstr "锁定"
 
 #: ../plugins/security-privacy//SimPin.qml:429
-#, fuzzy
 msgid "Unlock…"
-msgstr "解锁"
+msgstr "解锁…"
 
 #: ../plugins/security-privacy//SimPin.qml:443
-#, fuzzy
 msgid ""
 "When a SIM PIN is set, it must be entered to access cellular services after "
 "restarting the device or swapping the SIM."
-msgstr ""
-"当SIM卡设置了PIN码后，您在重启手机或切换SIM卡后需要输入PIN码以使用通信服务。"
+msgstr "当给一个 SIM 卡设置 PIN 码后，在重启设备或切换 SIM 卡后，需要输入 PIN码 以访问通信服务。"
 
 #: ../plugins/security-privacy//SimPin.qml:447
 msgid "Entering an incorrect PIN repeatedly may lock the SIM permanently."
@@ -1580,9 +1565,8 @@ msgstr "多次输入错误的PIN码可能使SIM卡永久锁定。"
 
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../plugins/vpn//PageComponent.qml:31 ../build/po/settings.js:192
-#, fuzzy
 msgid "VPN"
-msgstr "APN"
+msgstr "VPN"
 
 #: ../plugins/vpn//PageComponent.qml:76
 msgid ""
@@ -1595,14 +1579,12 @@ msgid "Add Manual Configuration…"
 msgstr "添加手动配置…"
 
 #: ../plugins/vpn//PageComponent.qml:115
-#, fuzzy
 msgid "VPN reconnection required."
-msgstr "共享连接服务失败"
+msgstr "需要重新连接 VPN。"
 
 #: ../plugins/vpn//PageComponent.qml:116
-#, fuzzy
 msgid "You need to reconnect for changes to have an effect."
-msgstr "本手机需要重启以使改动生效。"
+msgstr "需要重新连接以使改动生效。"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../plugins/mouse//PageComponent.qml:29 ../build/po/settings.js:210
@@ -1614,13 +1596,13 @@ msgid ""
 "Connect a mouse or touchpad via USB, or use a Bluetooth device. If a "
 "Bluetooth device isn’t detected, make sure it is turned on and its batteries "
 "are charged."
-msgstr ""
+msgstr "通过USB连接鼠标或触摸板，或者使用蓝牙设备。如果没有检测到一个蓝牙设备，请确保打开它，且电池已充电。"
 
 #: ../plugins/mouse//None.qml:36
 msgid ""
 "You need to use a Bluetooth mouse or touchpad with this display. Make sure "
 "it is close to the device and its batteries are charged."
-msgstr ""
+msgstr "该显示器需要使用蓝牙鼠标或触摸板，并确保它靠近设备，电池已充电。"
 
 #: ../plugins/mouse//Connected.qml:48 ../plugins/bluetooth//DevicePage.qml:59
 msgid "Mouse"
@@ -1628,11 +1610,11 @@ msgstr "鼠标"
 
 #: ../plugins/mouse//Connected.qml:62 ../plugins/mouse//Connected.qml:228
 msgid "Cursor speed:"
-msgstr ""
+msgstr "光标的速度："
 
 #: ../plugins/mouse//Connected.qml:98
 msgid "Wheel scrolling speed:"
-msgstr ""
+msgstr "滚轮速度："
 
 #: ../plugins/mouse//Connected.qml:134 ../plugins/mouse//Connected.qml:301
 msgid "Double-click speed:"
@@ -1652,7 +1634,7 @@ msgstr "手指滑动速度："
 
 #: ../plugins/mouse//Connected.qml:389
 msgid "Tap to click"
-msgstr ""
+msgstr "按下点击"
 
 #: ../plugins/mouse//Connected.qml:403
 msgid "Scroll with two fingers"
@@ -1664,7 +1646,7 @@ msgstr ""
 
 #: ../plugins/mouse//Connected.qml:432
 msgid "Typing"
-msgstr ""
+msgstr "键入"
 
 #: ../plugins/mouse//Connected.qml:446
 msgid "A mouse is connected"
@@ -1672,15 +1654,15 @@ msgstr "鼠标已连接"
 
 #: ../plugins/mouse//PrimaryButtonSelector.qml:42
 msgid "Primary button:"
-msgstr ""
+msgstr "主键："
 
 #: ../plugins/mouse//PrimaryButtonSelector.qml:72
 msgid "Left"
-msgstr "左"
+msgstr "左键"
 
 #: ../plugins/mouse//PrimaryButtonSelector.qml:89
 msgid "Right"
-msgstr "右"
+msgstr "右键"
 
 #: ../plugins/mouse//TapArea.qml:38
 msgid "Not fast enough"
@@ -1717,9 +1699,8 @@ msgstr "重置所有系统设置…"
 
 #: ../plugins/reset//PageComponent.qml:126
 #: ../plugins/reset//PageComponent.qml:138
-#, fuzzy
 msgid "Erase & Reset All"
-msgstr "删除并重置所有信息"
+msgstr "删除并重置全部"
 
 #: ../plugins/reset//ResetLauncherHome.qml:40
 msgid "The Launcher will be returned to its original contents."
@@ -2093,25 +2074,23 @@ msgstr "最后连接"
 
 #: ../plugins/wifi//CertDialog.qml:22
 msgid "Add certificate?"
-msgstr ""
+msgstr "添加证书？"
 
 #: ../plugins/wifi//CertDialog.qml:24
 msgid "Add key?"
-msgstr ""
+msgstr "添加密钥？"
 
 #: ../plugins/wifi//CertDialog.qml:26
 msgid "Add pac file?"
-msgstr ""
+msgstr "添加 pac 文件？"
 
 #: ../plugins/wifi//CertDialog.qml:36
-#, fuzzy
 msgid "Content:"
-msgstr "继续"
+msgstr "内容："
 
 #: ../plugins/wifi//CertDialog.qml:49
-#, fuzzy
 msgid "No data available."
-msgstr "有可用的更新"
+msgstr "无数据可用。"
 
 #: ../plugins/wifi//CertDialog.qml:74
 msgid "Save"
@@ -2131,16 +2110,15 @@ msgstr "网络名称"
 
 #: ../plugins/wifi//OtherNetwork.qml:298
 msgid "SSID"
-msgstr ""
+msgstr "SSID"
 
 #: ../plugins/wifi//OtherNetwork.qml:319
 msgid "WPA & WPA2 Personal"
-msgstr "WPA 及 WPA2 个人级"
+msgstr "WPA 及 WPA2 个人"
 
 #: ../plugins/wifi//OtherNetwork.qml:320
-#, fuzzy
 msgid "WPA & WPA2 Enterprise"
-msgstr "WPA 及 WPA2 个人级"
+msgstr "WPA 及 WPA2 企业"
 
 #: ../plugins/wifi//OtherNetwork.qml:321
 msgid "WEP"
@@ -2148,7 +2126,7 @@ msgstr "WEP"
 
 #: ../plugins/wifi//OtherNetwork.qml:322
 msgid "Dynamic WEP (802.1x)"
-msgstr ""
+msgstr "动态 WEP（802.1x）"
 
 #: ../plugins/wifi//OtherNetwork.qml:323
 msgid "LEAP"
@@ -2156,11 +2134,11 @@ msgstr ""
 
 #: ../plugins/wifi//OtherNetwork.qml:332
 msgid "This network is insecure."
-msgstr ""
+msgstr "这个网络不安全。"
 
 #: ../plugins/wifi//OtherNetwork.qml:363
 msgid "Inner authentication"
-msgstr ""
+msgstr "内部验证"
 
 #: ../plugins/wifi//OtherNetwork.qml:396
 msgid "CA certificate"
@@ -2202,15 +2180,15 @@ msgstr ""
 
 #: ../plugins/wifi//OtherNetwork.qml:494
 msgid "Using certificates is recommend as it increases security."
-msgstr ""
+msgstr "使用证书可以提高安全性。"
 
 #: ../plugins/wifi//OtherNetwork.qml:512
 msgid "Client certificate"
-msgstr ""
+msgstr "客户端证书"
 
 #: ../plugins/wifi//OtherNetwork.qml:554
 msgid "User private key"
-msgstr ""
+msgstr "用户私钥"
 
 #. TRANSLATORS: The first position is the type of
 #. private key, second the key algorithm, and third the
@@ -2222,20 +2200,19 @@ msgstr ""
 
 #: ../plugins/wifi//OtherNetwork.qml:622
 msgid "Pac file"
-msgstr ""
+msgstr "Pac 文件"
 
 #: ../plugins/wifi//OtherNetwork.qml:672
 msgid "Pac provisioning"
-msgstr ""
+msgstr "Pac 提供"
 
 #: ../plugins/wifi//OtherNetwork.qml:686
-#, fuzzy
 msgid "Disabled"
 msgstr "禁用"
 
 #: ../plugins/wifi//OtherNetwork.qml:687
 msgid "Anonymous"
-msgstr ""
+msgstr "匿名"
 
 #: ../plugins/wifi//OtherNetwork.qml:688
 msgid "Authenticated"
@@ -2261,9 +2238,8 @@ msgid "Version 1"
 msgstr "版本： "
 
 #: ../plugins/wifi//OtherNetwork.qml:715
-#, fuzzy
 msgid "Automatic"
-msgstr "自动"
+msgstr "自动的"
 
 #: ../plugins/wifi//OtherNetwork.qml:725
 msgid "Anonymous identity"
