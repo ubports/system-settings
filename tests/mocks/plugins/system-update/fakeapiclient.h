@@ -40,19 +40,9 @@ public:
         requestedPackages = packages;
     }
 
-    virtual void requestToken(const QUrl &url) override
-    {
-        requestedUrl = url;
-    }
-
     void mockMetadataRequestSucceeded(const QJsonArray &metadata)
     {
         Q_EMIT metadataRequestSucceeded(metadata);
-    }
-
-    void mockTokenRequestSucceeded(const QString &token)
-    {
-        Q_EMIT tokenRequestSucceeded(token);
     }
 
     void mockNetworkError()

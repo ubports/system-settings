@@ -24,10 +24,6 @@
 #include "click/apiclient.h"
 #include "click/manager.h"
 #include "click/manifest.h"
-#include "click/sso.h"
-#include "click/sessiontoken.h"
-#include "click/tokendownloader.h"
-#include "click/tokendownloader_factory.h"
 
 #include "network/accessmanager.h"
 
@@ -53,9 +49,6 @@ public:
                          Network::Manager *nam,
                          ApiClient *client,
                          Manifest *manifest,
-                         SSO *sso,
-                         TokenDownloaderFactory *tokenDownloadFactory,
-                         SessionToken *token,
                          QObject *parent = nullptr);
     ~ManagerImpl();
 
@@ -69,11 +62,6 @@ public:
 private Q_SLOTS:
     void parseMetadata(const QJsonArray &array);
     void handleManifest(const QJsonArray &manifest);
-    void handleTokenDownload(QSharedPointer<Update> update);
-    void handleTokenDownloadFailure(QSharedPointer<Update> update);
-    void handleCredentials(SessionToken *token);
-    void handleCredentialsAbsence();
-    void handleCredentialsFailed();
     void requestMetadata();
     void completionCheck();
     void handleStateChange();
@@ -86,9 +74,6 @@ private:
     void setState(const State &state);
     State state() const;
     void setAuthenticated(const bool authenticated);
-
-    /* Set up connections on a TokenDownloader. */
-    void setup(const TokenDownloader *downloader);
 
     /* Synchronize db updates with a manifest.
      *
@@ -108,10 +93,7 @@ private:
     Network::Manager *m_nam;
     ApiClient *m_client;
     Manifest *m_manifest;
-    SSO *m_sso;
-    std::unique_ptr<TokenDownloaderFactory> m_tokenDownloadFactory;
     QMap<QString, QSharedPointer<Update>> m_candidates;
-    std::unique_ptr<SessionToken> m_sessionToken;
     bool m_authenticated = true;
     State m_state = State::Idle;
     QMap<State, QList<State> > m_transitions;

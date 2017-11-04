@@ -22,6 +22,7 @@
 #include <sstream>
 #include <vector>
 #include <QString>
+#include <QStringList>
 #include <QDebug>
 #include <QDir>
 
@@ -31,7 +32,7 @@ class Helpers
 {
 public:
     static QString getFrameworksDir();
-    static std::vector<std::string> getAvailableFrameworks();
+    static QStringList getAvailableFrameworks();
     static std::string getArchitecture();
     static QString clickMetadataUrl();
     static bool isIgnoringCredentials();
