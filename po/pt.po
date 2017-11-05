@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-10-18 12:30+0000\n"
+"PO-Revision-Date: 2017-11-02 15:17+0000\n"
 "Last-Translator: Ivo Xavier <ivofernandes12@gmail.com>\n"
 "Language-Team: Portuguese <https://translate.ubports.com/projects/ubports"
 "/system-settings/pt/>\n"
@@ -2744,7 +2744,7 @@ msgstr "Reportar à Canonical:"
 
 #: ../plugins/security-privacy//diagnostics//PageComponent.qml:80
 msgid "App crashes and errors"
-msgstr "Falhas e erros de aplicaçaões"
+msgstr "Falhas e erros de aplicações"
 
 #: ../plugins/security-privacy//diagnostics//PageComponent.qml:86
 msgid "Previous error reports"

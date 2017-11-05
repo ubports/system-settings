@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-07 16:48+0000\n"
+"PO-Revision-Date: 2017-10-28 07:56+0000\n"
 "Last-Translator: Aayush Gupta <Aayushgupta219@gmail.com>\n"
-"Language-Team: Hindi <https://ubpweblate.tnvcomp.com/projects/ubports/system-"
+"Language-Team: Hindi <https://translate.ubports.com/projects/ubports/system-"
 "settings/hi/>\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
@@ -189,7 +189,7 @@ msgstr ""
 #: ../plugins/background//Components//AddRemove.qml:42
 #: ../plugins/cellular//Components//SimEditor.qml:203
 msgid "Cancel"
-msgstr "रद्द करें"
+msgstr "रद्द"
 
 #: ../plugins/system-update//NotAuthenticatedNotification.qml:37
 msgid "Sign in to Ubuntu One to receive updates for apps."
@@ -1862,7 +1862,7 @@ msgstr ""
 
 #: ../plugins/cellular//PageChooseApn.qml:302
 msgid "Delete"
-msgstr ""
+msgstr "हटा दें"
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../plugins/cellular//PageComponent.qml:32 ../build/po/settings.js:254
@@ -1871,7 +1871,7 @@ msgstr "Cellular"
 
 #: ../plugins/cellular//PageApnEditor.qml:69
 msgid "Edit"
-msgstr ""
+msgstr "संपादित करें"
 
 #: ../plugins/cellular//PageApnEditor.qml:69
 msgid "New APN"
