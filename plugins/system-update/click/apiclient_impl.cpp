@@ -27,6 +27,7 @@
 #include <QJsonValue>
 #include <QJsonParseError>
 #include <QScopedPointer>
+#include <QUrlQuery>
 
 #define X_CLICK_TOKEN "X-Click-Token"
 
@@ -52,43 +53,29 @@ ApiClientImpl::~ApiClientImpl()
 void ApiClientImpl::requestMetadata(const QUrl &url,
                                     const QList<QString> &packages)
 {
+    QUrlQuery query(url);
+
     // Create list of frameworks.
-    std::stringstream frameworks;
-    Q_FOREACH(auto f, Helpers::getAvailableFrameworks()) {
-        frameworks << "," << f;
-    }
+    QString frameworks = Helpers::getAvailableFrameworks().join(',');
+    query.addQueryItem("frameworks", frameworks);
 
-    // Create JSON bytearray of packages.
-    QJsonObject serializer;
-    QJsonArray array;
-    Q_FOREACH(auto name, packages) {
-        array.append(QJsonValue(name));
-    }
-    serializer.insert("name", array);
+    query.addQueryItem("architecture",
+                       QByteArray::fromStdString(Helpers::getArchitecture()));
 
-    QJsonDocument doc(serializer);
-    QByteArray content = doc.toJson();
+    /* TODO: use the packages list once
+     *   https://github.com/UbuntuOpenStore/openstore-meta/issues/156
+     * is fixed.
+     */
+    Q_UNUSED(packages);
 
+    QUrl u(url);
+    u.setQuery(query);
     QNetworkRequest request;
-    request.setHeader(QNetworkRequest::ContentTypeHeader, "application/json");
-    request.setRawHeader(QByteArray("X-Ubuntu-Frameworks"),
-            QByteArray::fromStdString(frameworks.str()));
-    request.setRawHeader(QByteArray("X-Ubuntu-Architecture"),
-            QByteArray::fromStdString(Helpers::getArchitecture()));
-    request.setUrl(url);
+    request.setUrl(u);
     request.setOriginatingObject(this);
     request.setAttribute(QNetworkRequest::User, "metadata-request");
 
-    initializeReply(m_nam->post(request, content));
-}
-
-void ApiClientImpl::requestToken(const QUrl &url)
-{
-    QNetworkRequest request;
-    request.setUrl(url);
-    request.setOriginatingObject(this);
-    request.setAttribute(QNetworkRequest::User, "token-request");
-    initializeReply(m_nam->head(request));
+    initializeReply(m_nam->get(request));
 }
 
 void ApiClientImpl::initializeReply(QNetworkReply *reply)
@@ -141,14 +128,7 @@ void ApiClientImpl::requestFinished(QNetworkReply *reply)
 void ApiClientImpl::requestSucceeded(QNetworkReply *reply)
 {
     QString rtp = reply->request().attribute(QNetworkRequest::User).toString();
-    if (rtp == "token-request") {
-        if (reply->hasRawHeader(X_CLICK_TOKEN)) {
-            QString header(reply->rawHeader(X_CLICK_TOKEN));
-            Q_EMIT tokenRequestSucceeded(header);
-        } else {
-            Q_EMIT tokenRequestSucceeded("");
-        }
-    } else if (rtp == "metadata-request") {
+    if (rtp == "metadata-request") {
         handleMetadataReply(reply);
     } else {
         // We are not to handle this reply, so do an early return.
@@ -163,9 +143,10 @@ void ApiClientImpl::handleMetadataReply(QNetworkReply *reply)
     QScopedPointer<QJsonParseError> jsonError(new QJsonParseError);
     auto document = QJsonDocument::fromJson(reply->readAll(),
                                             jsonError.data());
+    QJsonValue packages = document.object()["data"].toObject()["packages"];
 
-    if (document.isArray()) {
-        Q_EMIT metadataRequestSucceeded(document.array());
+    if (packages.isArray()) {
+        Q_EMIT metadataRequestSucceeded(packages.toArray());
     } else {
         qCritical() << Q_FUNC_INFO << "Got invalid click metadata.";
         Q_EMIT serverError();

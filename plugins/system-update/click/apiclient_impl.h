@@ -37,7 +37,6 @@ public slots:
     virtual void cancel() override;
     virtual void requestMetadata(const QUrl &url,
                                  const QList<QString> &packages) override;
-    virtual void requestToken(const QUrl &url) override;
 protected slots:
     void requestSucceeded(QNetworkReply *reply);
     void requestFinished(QNetworkReply *reply);

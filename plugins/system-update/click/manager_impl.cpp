@@ -20,9 +20,6 @@
 #include "click/apiclient_impl.h"
 #include "click/manager_impl.h"
 #include "click/manifest_impl.h"
-#include "click/sessiontoken_impl.h"
-#include "click/sso_impl.h"
-#include "click/tokendownloader_factory_impl.h"
 #include "network/accessmanager_impl.h"
 #include "../../src/i18n.h"
 
@@ -45,32 +42,22 @@ ManagerImpl::ManagerImpl(UpdateModel *model, Network::Manager *nam,
                   nam,
                   new ApiClientImpl(nam),
                   new ManifestImpl,
-                  new SSOImpl,
-                  new TokenDownloaderFactoryImpl,
-                  new SessionTokenImpl,
                   parent)
 {
     m_client->setParent(this);
     m_manifest->setParent(this);
-    m_sso->setParent(this);
 }
 
 ManagerImpl::ManagerImpl(UpdateModel *model,
                          Network::Manager *nam,
                          ApiClient *client,
                          Manifest *manifest,
-                         SSO *sso,
-                         TokenDownloaderFactory *tokenDownloadFactory,
-                         SessionToken *token,
                          QObject *parent)
     : Manager(parent)
     , m_model(model)
     , m_nam(nam)
     , m_client(client)
     , m_manifest(manifest)
-    , m_sso(sso)
-    , m_tokenDownloadFactory(tokenDownloadFactory)
-    , m_sessionToken(token)
 {
     /* Request a manifest.
      *
@@ -93,8 +80,6 @@ ManagerImpl::ManagerImpl(UpdateModel *model,
     connect(m_client, &ApiClient::networkError, this, [this]() {
         setState(State::Failed);
     });
-    connect(m_client, SIGNAL(credentialError()),
-            this, SLOT(handleCredentialsFailed()));
     connect(this, SIGNAL(checkCanceled()), m_client, SLOT(cancel()));
 
     connect(m_manifest, SIGNAL(requestSucceeded(const QJsonArray&)),
@@ -102,12 +87,6 @@ ManagerImpl::ManagerImpl(UpdateModel *model,
     connect(m_manifest, &Manifest::requestFailed, this, [this]() {
         setState(State::Complete);
     });
-    connect(m_sso, SIGNAL(credentialsFound(SessionToken*)),
-            this, SLOT(handleCredentials(SessionToken*)));
-    connect(m_sso, SIGNAL(credentialsNotFound()),
-            this, SLOT(handleCredentialsAbsence()));
-    connect(m_sso, SIGNAL(credentialsDeleted()),
-            this, SLOT(handleCredentialsAbsence()));
 
     /* Describes a state machine for checking. The rationale for these
     transitions are that
@@ -148,6 +127,8 @@ ManagerImpl::ManagerImpl(UpdateModel *model,
     m_transitions[State::Complete]      << State::Idle;
     m_transitions[State::Canceled]      << State::Idle;
     m_transitions[State::Failed]        << State::Idle;
+
+    check();
 }
 
 ManagerImpl::~ManagerImpl()
@@ -195,27 +176,10 @@ void ManagerImpl::handleStateChange()
     }
 }
 
-void ManagerImpl::setup(const TokenDownloader *downloader)
-{
-    connect(downloader, SIGNAL(downloadSucceeded(QSharedPointer<Update>)),
-            this, SLOT(handleTokenDownload(QSharedPointer<Update>)));
-    connect(downloader, SIGNAL(downloadFailed(QSharedPointer<Update>)),
-            this, SLOT(handleTokenDownloadFailure(QSharedPointer<Update>)));
-    connect(downloader, SIGNAL(credentialError()),
-            this, SLOT(handleCredentialsFailed()));
-    connect(this, SIGNAL(checkCanceled()), downloader, SLOT(cancel()));
-}
-
 void ManagerImpl::check()
 {
     if (checkingForUpdates()) {
         qWarning() << Q_FUNC_INFO << "Check was already in progress.";
-        return;
-    }
-
-    if (!m_sessionToken->isValid() && !Helpers::isIgnoringCredentials()) {
-        qWarning() << Q_FUNC_INFO << "Can't check: invalid session token.";
-        m_sso->requestCredentials();
         return;
     }
 
@@ -229,20 +193,8 @@ void ManagerImpl::retry(const QString &identifier, const uint &revision)
     UDM download. */
     auto update = m_model->get(identifier, revision);
     if (update) {
-        if (m_sessionToken->isValid() && !Helpers::isIgnoringCredentials()) {
-            QString url = m_sessionToken->signUrl(
-                update->downloadUrl(), QStringLiteral("GET"), true
-            );
-            update->setSignedDownloadUrl(
-                QString("%1?%2").arg(update->downloadUrl(), url)
-            );
-            update->setError("");
-            update->setState(Update::State::StateAvailable);
-        } else {
-            qWarning() << Q_FUNC_INFO << "Can't retry: invalid session token.";
-            update->setError(SystemSettings::_("Installation failed."));
-            update->setState(Update::State::StateFailed);
-        }
+        update->setError("");
+        update->setState(Update::State::StateAvailable);
         update->setProgress(0);
         update->setToken("");
         update->setDownloadId("");
@@ -369,11 +321,10 @@ QList<QSharedPointer<Update> > ManagerImpl::parseManifest(const QJsonArray &mani
 
 void ManagerImpl::completionCheck()
 {
-    /* Check if tokens are all fetched, or any update has since been marked as
+    /* Check if update has since been marked as
     installed. Return early if that's the case. */
     Q_FOREACH(const auto &identifier, m_candidates.keys()) {
-        if (m_candidates[identifier]->token().isEmpty() ||
-            m_candidates[identifier]->installed()) {
+        if (m_candidates[identifier]->installed()) {
             setState(State::Tokens);
             return;
         }
@@ -382,96 +333,10 @@ void ManagerImpl::completionCheck()
     setState(State::Complete);
 }
 
-void ManagerImpl::handleTokenDownload(QSharedPointer<Update> update)
-{
-    auto dl = qobject_cast<TokenDownloader*>(QObject::sender());
-    dl->disconnect();
-
-    // Token reported as downloaded, but empty so discard it as a candidate.
-    if (update->token().isEmpty()) {
-        m_candidates.remove(update->identifier());
-    }
-
-    /* Assume the original update was changed during the download of token and
-    fetch a new one from the database. */
-    auto freshUpdate = m_model->fetch(update);
-    if (freshUpdate) {
-        freshUpdate->setToken(update->token());
-        m_model->add(freshUpdate);
-    } else {
-        m_model->add(update);
-    }
-
-    setState(State::TokenComplete);
-    dl->deleteLater();
-}
-
-void ManagerImpl::handleTokenDownloadFailure(QSharedPointer<Update> update)
-{
-    auto dl = qobject_cast<TokenDownloader*>(QObject::sender());
-
-    // Assume the original update was changed during the download of token.
-    auto freshUpdate = m_model->get(update);
-    if (freshUpdate) {
-        freshUpdate->setToken("");
-        m_model->add(freshUpdate);
-    } else {
-        update->setToken("");
-        m_model->add(update);
-    }
-
-    // We're done with it.
-    m_candidates.remove(update->identifier());
-    setState(State::TokenComplete);
-
-    dl->deleteLater();
-}
-
-void ManagerImpl::handleCredentials(SessionToken *token)
-{
-    // We'll take ownership of this token.
-    m_sessionToken = std::unique_ptr<SessionToken>(token);
-
-    if (!m_sessionToken->isValid() && !Helpers::isIgnoringCredentials()) {
-        qWarning() << Q_FUNC_INFO << "Got invalid session token.";
-        setAuthenticated(false);
-        return;
-    }
-
-    setAuthenticated(true);
-
-    cancel();
-    check();
-}
-
-void ManagerImpl::handleCredentialsAbsence()
-{
-    m_sessionToken = std::unique_ptr<SessionToken>(new SessionTokenImpl());
-    setAuthenticated(false);
-    cancel();
-}
-
-void ManagerImpl::handleCredentialsFailed()
-{
-    m_sso->invalidateCredentials();
-    m_sessionToken = std::unique_ptr<SessionToken>(new SessionTokenImpl());
-
-    // We've invalidated the token, and the user is now not authenticated.
-    setAuthenticated(false);
-    cancel();
-}
-
 void ManagerImpl::requestMetadata()
 {
     QString urlApps = Helpers::clickMetadataUrl();
-    QString authHeader;
-    if (!Helpers::isIgnoringCredentials()) {
-        authHeader = m_sessionToken->signUrl(
-            urlApps, QStringLiteral("POST"), true
-        );
-    }
     QUrl url(urlApps);
-    url.setQuery(authHeader);
     m_client->requestMetadata(url, m_candidates.keys());
 }
 
@@ -480,7 +345,7 @@ void ManagerImpl::parseMetadata(const QJsonArray &array)
     auto now = QDateTime::currentDateTimeUtc();
     for (int i = 0; i < array.size(); i++) {
         auto object = array.at(i).toObject();
-        auto identifier = object["name"].toString();
+        auto identifier = object["id"].toString();
         auto revision = object["revision"].toInt();
         // Check if we already have it's metadata.
         auto dbUpdate = m_model->get(identifier, revision);
@@ -490,18 +355,17 @@ void ManagerImpl::parseMetadata(const QJsonArray &array)
             if (dbUpdate->createdAt().secsTo(now) <= 86400
                 && !dbUpdate->token().isEmpty()) {
                 m_candidates.remove(identifier);
-                setState(State::TokenComplete);
                 continue;
             }
         }
 
         auto version = object["version"].toString();
-        auto icon_url = object["icon_url"].toString();
-        auto url = object["download_url"].toString();
+        auto icon_url = object["icon"].toString();
+        auto url = object["download"].toString();
         auto download_sha512 = object["download_sha512"].toString();
         auto changelog = object["changelog"].toString();
-        auto size = object["binary_filesize"].toInt();
-        auto title = object["title"].toString();
+        auto size = object["filesize"].toInt();
+        auto title = object["name"].toString();
 
         if (m_candidates.contains(identifier)) {
             auto update = m_candidates.value(identifier);
@@ -518,21 +382,16 @@ void ManagerImpl::parseMetadata(const QJsonArray &array)
                 update->setState(Update::State::StateAvailable);
 
                 QStringList command;
+                /* TODO: remove "--allow-untrusted" once this is fixed:
+                 *   https://github.com/UbuntuOpenStore/openstore-meta/issues/157
+                 */
                 command << Helpers::whichPkcon()
-                    << "-p" << "install-local" << "$file";
+                    << "-p" << "--allow-untrusted" << "install-local" << "$file";
                 update->setCommand(command);
-
-                // Download a token.
-                QString signedHeaderUrl(m_sessionToken->signUrl(
-                    update->downloadUrl(), QStringLiteral("HEAD"), true
-                ));
-                auto dl = m_tokenDownloadFactory->create(m_nam, update);
-                setup(dl);
-                dl->download(signedHeaderUrl);
+                m_model->add(update);
             } else {
                 // Update not required, let's remove it.
                 m_candidates.remove(update->identifier());
-                setState(State::TokenComplete);
             }
         }
     }
@@ -542,10 +401,9 @@ void ManagerImpl::parseMetadata(const QJsonArray &array)
     foreach (const auto &identifier, m_candidates.keys()) {
         if (m_candidates.value(identifier)->remoteVersion().isEmpty()) {
             m_candidates.remove(identifier);
-            setState(State::TokenComplete);
         }
     }
-    setState(State::Tokens);
+    setState(State::TokenComplete);
 }
 
 bool ManagerImpl::authenticated() const
