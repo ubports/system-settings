@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-11-02 15:17+0000\n"
+"PO-Revision-Date: 2017-11-06 14:17+0000\n"
 "Last-Translator: Ivo Xavier <ivofernandes12@gmail.com>\n"
 "Language-Team: Portuguese <https://translate.ubports.com/projects/ubports"
 "/system-settings/pt/>\n"
@@ -70,7 +70,7 @@ msgstr "Transferência automática"
 
 #: ../plugins/system-update//Configuration.qml:35
 msgid "Download future updates automatically:"
-msgstr "Transferir atualizações automaticamente:"
+msgstr "Transferir as atualizações automaticamente:"
 
 #: ../plugins/system-update//Configuration.qml:53
 #: ../plugins/system-update//UpdateSettings.qml:45
@@ -125,7 +125,7 @@ msgstr "Procurar atualizações"
 #: ../plugins/system-update//PageComponent.qml:412
 #: ../plugins/system-update//UpdateSettings.qml:32
 msgid "Update settings"
-msgstr "Definições de atualizações"
+msgstr "Definições das atualizações"
 
 #: ../plugins/system-update//DownloadHandler.qml:174
 #: ../plugins/system-update//InstallationFailed.qml:25
@@ -154,7 +154,8 @@ msgstr "Precisa de reiniciar para instalar a atualização do sistema."
 #: ../plugins/system-update//ImageUpdatePrompt.qml:33
 msgid "Connect the device to power before installing the system update."
 msgstr ""
-"Ligue o telemóvel à corrente antes de instalar as atualizações do sistema."
+"Ligue o dispositivo a uma fonte de energia antes de instalar as atualizações "
+"do sistema."
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:38
 #: ../plugins/system-update//ImageUpdatePrompt.qml:38
@@ -224,7 +225,7 @@ msgstr "Canais"
 
 #: ../plugins/system-update//Global.qml:84
 msgid "Checking for updates…"
-msgstr "A procurar atualizações…"
+msgstr "A procurar por atualizações…"
 
 #: ../plugins/system-update//Global.qml:89
 msgid "Stop"
