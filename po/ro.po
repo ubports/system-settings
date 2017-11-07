@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-11-04 23:11+0000\n"
+"PO-Revision-Date: 2017-11-07 23:34+0000\n"
 "Last-Translator: Brînzariu Cristian <info@ebeton.ro>\n"
 "Language-Team: Romanian <https://translate.ubports.com/projects/ubports"
 "/system-settings/ro/>\n"
@@ -50,7 +50,7 @@ msgstr "Candidat pentru stabil"
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
 msgid "Development"
-msgstr "Dezoltare"
+msgstr "Dezvoltare"
 
 #: ../plugins/system-update//ChannelSettings.qml:99
 msgid "Fetching channels"
@@ -87,11 +87,11 @@ msgstr "Niciodată"
 
 #: ../plugins/system-update//Configuration.qml:54
 msgid "When on wi-fi"
-msgstr "Numai prin rețeaua fără fir"
+msgstr "Numai prin wi-fi"
 
 #: ../plugins/system-update//Configuration.qml:56
 msgid "On any data connection"
-msgstr "Folosind conexiunea de date disponibilă"
+msgstr "Folosind orice conexiune de date"
 
 #: ../plugins/system-update//Configuration.qml:57
 msgid "Data charges may apply."
@@ -104,7 +104,7 @@ msgstr "Actualizări"
 
 #: ../plugins/system-update//PageComponent.qml:182
 msgid "Connect to the Internet to check for updates."
-msgstr "Conectați-vă la internet pentru a verifica pentru actualizări."
+msgstr "Conectați-vă la internet pentru a verifica dacă există actualizări."
 
 #: ../plugins/system-update//PageComponent.qml:184
 msgid "Software is up to date"
@@ -200,7 +200,7 @@ msgstr ""
 
 #: ../plugins/system-update//NotAuthenticatedNotification.qml:54
 msgid "Sign In…"
-msgstr "Autentificare..."
+msgstr "Autentificare…"
 
 #: ../plugins/system-update//ChangelogExpander.qml:42
 #, qt-format
@@ -209,7 +209,7 @@ msgstr "Versiune %1"
 
 #: ../plugins/system-update//UpdateSettings.qml:47
 msgid "On wi-fi"
-msgstr "Prin rețeaua fără fir"
+msgstr "Prin rețeaua wi-fi"
 
 #: ../plugins/system-update//UpdateSettings.qml:49
 msgid "Always"
@@ -227,7 +227,7 @@ msgstr "Canale"
 
 #: ../plugins/system-update//Global.qml:84
 msgid "Checking for updates…"
-msgstr "Căutare actualizări..."
+msgstr "Căutare actualizări…"
 
 #: ../plugins/system-update//Global.qml:89
 msgid "Stop"
@@ -238,9 +238,9 @@ msgstr "Oprește"
 #, qt-format
 msgid "%1 update available"
 msgid_plural "%1 updates available"
-msgstr[0] "O actualizare disponibilă"
+msgstr[0] "%1 actualizare disponibilă"
 msgstr[1] "%1 actualizări disponibile"
-msgstr[2] "%1de actualizări disponibile"
+msgstr[2] "%1 de actualizări disponibile"
 
 #: ../plugins/system-update//Global.qml:126
 msgid "Update all…"
@@ -272,7 +272,7 @@ msgstr "Pauză"
 
 #: ../plugins/system-update//UpdateDelegate.qml:143
 msgid "Install…"
-msgstr "Instalare..."
+msgstr "Instalare…"
 
 #: ../plugins/system-update//UpdateDelegate.qml:145
 msgid "Install"
@@ -337,15 +337,15 @@ msgid ""
 "Wi-Fi. Normal data charges apply."
 msgstr ""
 "Dacă hotspotul este pornit, alte dispozitive pot utiliza conexiunea de date "
-"gsm prin rețeaua fără fir. Se aplică abonamentul standard."
+"gsm prin rețeaua wi-fi.  Se aplică abonamentul standard."
 
 #: ../plugins/hotspot//PageComponent.qml:114
 msgid ""
 "Other devices can use your cellular data connection over the Wi-Fi network. "
 "Normal data charges apply."
 msgstr ""
-"Alte dispozitive pot utiliza conexiunea de date gsm prin rețeaua fără fir. "
-"Se aplică abonamentul standard."
+"Alte dispozitive pot utiliza conexiunea de date gsm prin rețeaua wi-fi. Se "
+"aplică abonamentul standard."
 
 #: ../plugins/hotspot//PageComponent.qml:123
 msgid "Change Password/Setup…"
@@ -377,11 +377,11 @@ msgstr "Nici un motiv dat"
 
 #: ../plugins/hotspot//Common.qml:38 ../plugins/wifi//Common.qml:40
 msgid "Device is now managed"
-msgstr "Acum dispozitivul este administrat"
+msgstr "Dispozitivul este administrat acum"
 
 #: ../plugins/hotspot//Common.qml:40 ../plugins/wifi//Common.qml:42
 msgid "Device is now unmanaged"
-msgstr "Acum dispozitivul nu este administrat"
+msgstr "Dispozitivul nu este administrat acum"
 
 #: ../plugins/hotspot//Common.qml:42 ../plugins/wifi//Common.qml:44
 msgid "The device could not be readied for configuration"
@@ -450,7 +450,7 @@ msgstr "Dispozitivul a fost scos"
 
 #: ../plugins/hotspot//Common.qml:72 ../plugins/wifi//Common.qml:74
 msgid "NetworkManager went to sleep"
-msgstr "NetworkManager a intrat în adormire"
+msgstr "NetworkManager a intrat în modul de așteptare"
 
 #: ../plugins/hotspot//Common.qml:74 ../plugins/wifi//Common.qml:76
 msgid "The device's active connection disappeared"
@@ -482,7 +482,7 @@ msgstr "O dependență a conexiunii a eșuat"
 
 #: ../plugins/hotspot//Common.qml:88 ../plugins/wifi//Common.qml:90
 msgid "ModemManager is unavailable"
-msgstr "ModemManager este nedisponibil"
+msgstr "ModemManager este indisponibil"
 
 #: ../plugins/hotspot//Common.qml:90 ../plugins/wifi//Common.qml:92
 msgid "The Wi-Fi network could not be found"
@@ -687,7 +687,7 @@ msgstr "Wi-Fi-ul este folosit pentru hotspot"
 #: ../plugins/battery//PageComponent.qml:364
 #: ../plugins/wifi//PageComponent.qml:28 ../build/po/settings.js:282
 msgid "Wi-Fi"
-msgstr "Rețea fără fir"
+msgstr "Wi-Fi"
 
 #. TRANSLATORS: This is a keyword or name for the bluetooth plugin which is used while searching
 #: ../plugins/battery//PageComponent.qml:400
@@ -1099,12 +1099,12 @@ msgstr "Blocare de securitate"
 #: ../plugins/security-privacy//LockSecurity.qml:136
 #: ../plugins/security-privacy//LockSecurity.qml:561
 msgid "Change passcode…"
-msgstr "Modificare cod de acces..."
+msgstr "Modificare cod de acces…"
 
 #: ../plugins/security-privacy//LockSecurity.qml:138
 #: ../plugins/security-privacy//LockSecurity.qml:562
 msgid "Change passphrase…"
-msgstr "Schimbă fraza parolă..."
+msgstr "Schimbă parola…"
 
 #: ../plugins/security-privacy//LockSecurity.qml:145
 msgid "Switch to swipe"
@@ -1182,25 +1182,25 @@ msgstr "Glisare (fără securizare)… "
 
 #: ../plugins/security-privacy//LockSecurity.qml:470
 msgid "4-digit passcode…"
-msgstr "Codul de acces din 4 cifre..."
+msgstr "Cod de acces din 4 cifre…"
 
 #: ../plugins/security-privacy//LockSecurity.qml:471
 msgid "Passphrase…"
-msgstr "Frază parolă..."
+msgstr "Parola…"
 
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../plugins/security-privacy//PageComponent.qml:40
 #: ../build/po/settings.js:168
 msgid "Security & Privacy"
-msgstr "Securitate și confidențialitate"
+msgstr "Securitate și Confidențialitate"
 
 #: ../plugins/security-privacy//PageComponent.qml:128
 msgid "Phone and Internet"
-msgstr "Din telefon și Internet"
+msgstr "Telefon și Internet"
 
 #: ../plugins/security-privacy//PageComponent.qml:130
 msgid "Phone only"
-msgstr "Numai din telefon"
+msgstr "Numai telefon"
 
 #: ../plugins/security-privacy//PageComponent.qml:154
 #: ../plugins/wifi//OtherNetwork.qml:307
@@ -1333,7 +1333,7 @@ msgid ""
 "Uses wi-fi and GPS to detect your rough location. Turning off location "
 "detection saves battery."
 msgstr ""
-"Utilizează rețele fără fir și senzorul GPS pentru detectarea localizării "
+"Utilizează rețele ei-fi și senzorul GPS pentru detectarea localizării "
 "geografice. Oprirea funcției de localizare geografică economisește bateria."
 
 #: ../plugins/security-privacy//Location.qml:216
@@ -1341,7 +1341,7 @@ msgid ""
 "Uses wi-fi (currently off) and GPS to detect your rough location. Turning "
 "off location detection saves battery."
 msgstr ""
-"Utilizează rețele fără fir (acum oprit) și senzorul GPS pentru detectarea "
+"Utilizează rețele wi-fi (acum oprite) și senzorul GPS pentru detectarea "
 "localizării geografice. Oprirea funcției de localizare geografică "
 "economisește bateria."
 
@@ -1350,7 +1350,7 @@ msgid ""
 "Uses wi-fi, cell tower locations, and GPS to detect your rough location. "
 "Turning off location detection saves battery."
 msgstr ""
-"Utilizează rețele fără fir, celulele gsm și senzorul GPS pentru detectarea "
+"Utilizează rețele wi-fi, celulele gsm și senzorul GPS pentru detectarea "
 "localizării geografice. Oprirea funcției de localizare geografică "
 "economisește bateria."
 
@@ -1359,7 +1359,7 @@ msgid ""
 "Uses wi-fi, cell tower locations (no current cellular connection), and GPS "
 "to detect your rough location. Turning off location detection saves battery."
 msgstr ""
-"Utilizează rețele fără fir, celulele gsm (acum nu există conexiune gsm) și "
+"Utilizează rețele wi-fi, celulele gsm (acum nu există conexiune gsm) și "
 "senzorul GPS pentru detectarea localizării geografice. Oprirea funcției de "
 "localizare geografică economisește bateria."
 
@@ -1368,7 +1368,7 @@ msgid ""
 "Uses wi-fi (currently off), cell tower locations, and GPS to detect your "
 "rough location. Turning off location detection saves battery."
 msgstr ""
-"Utilizează rețele fără fir (acum oprit), celulele gsm și senzorul GPS pentru "
+"Utilizează rețele wi-fi (acum oprit), celulele gsm și senzorul GPS pentru "
 "detectarea localizării geografice. Oprirea funcției de localizare geografică "
 "economisește bateria."
 
@@ -1378,9 +1378,9 @@ msgid ""
 "connection), and GPS to detect your rough location. Turning off location "
 "detection saves battery."
 msgstr ""
-"Utilizează rețele fără fir (acum oprit), celulele gsm (acum fără conexiune "
-"gsm) și senzorul GPS pentru detectarea localizării geografice. Oprirea "
-"funcției de localizare geografică economisește bateria."
+"Utilizează rețelewi-fi (acum oprit), celulele gsm (acum fără conexiune gsm) "
+"și senzorul GPS pentru detectarea localizării geografice. Oprirea funcției "
+"de localizare geografică economisește bateria."
 
 #: ../plugins/security-privacy//Location.qml:231
 msgid "Let apps access this location:"
@@ -1438,7 +1438,7 @@ msgstr "Aplicații care au solicitat accesul la conturile online."
 
 #: ../plugins/security-privacy//AppAccess.qml:121
 msgid "Online Accounts…"
-msgstr "Conturile Online…"
+msgstr "Conturi Online…"
 
 #: ../plugins/security-privacy//PhoneLocking.qml:57
 msgctxt "Unlock with swipe"
@@ -1536,7 +1536,7 @@ msgstr "Introduceți codul PIN anterior pentru SIM"
 
 #: ../plugins/security-privacy//SimPin.qml:333
 msgid "Unlock"
-msgstr "Deblochează"
+msgstr "Deplocare"
 
 #: ../plugins/security-privacy//SimPin.qml:333
 msgid "Lock"
@@ -1548,7 +1548,7 @@ msgstr "Deblochează"
 
 #: ../plugins/security-privacy//SimPin.qml:414
 msgid "Change PIN…"
-msgstr "Modificare PIN..."
+msgstr "Modificare PIN…"
 
 #: ../plugins/security-privacy//SimPin.qml:425
 msgid "Locked"
@@ -1714,7 +1714,7 @@ msgstr "Resetare Lansator"
 #: ../plugins/reset//PageComponent.qml:101
 #: ../plugins/reset//PageComponent.qml:112
 msgid "Reset all system settings…"
-msgstr "Resetează toate configurările de sistem..."
+msgstr "Resetează toate configurările de sistem…"
 
 #: ../plugins/reset//PageComponent.qml:126
 #: ../plugins/reset//PageComponent.qml:138
@@ -1756,7 +1756,7 @@ msgstr "Apeluri:"
 #: ../plugins/sound//PageComponent.qml:149
 #: ../plugins/sound//PageComponent.qml:154
 msgid "Ringtone"
-msgstr "Ton sonerie"
+msgstr "Ton de apel"
 
 #: ../plugins/sound//PageComponent.qml:171
 msgid "Vibrate on ring"
@@ -1791,7 +1791,7 @@ msgstr "Alte sunete:"
 
 #: ../plugins/sound//PageComponent.qml:267
 msgid "Lock sound"
-msgstr "Feedback audio la blocare"
+msgstr "Sunet la blocare"
 
 #: ../plugins/sound//PageComponent.qml:277
 msgid "Other vibrations"
@@ -1848,15 +1848,15 @@ msgstr "MMS"
 
 #: ../plugins/cellular//PageChooseApn.qml:155
 msgid "Reset All APN Settings…"
-msgstr "Resetează toate configurări APN…"
+msgstr "Resetează toate configurările APN…"
 
 #: ../plugins/cellular//PageChooseApn.qml:164
 msgid "Reset APN Settings"
-msgstr "Resetare configurări APN"
+msgstr "Resetare configurările APN"
 
 #: ../plugins/cellular//PageChooseApn.qml:165
 msgid "Are you sure that you want to Reset APN Settings?"
-msgstr "Sunteți sigur că doriți să resetați configurarile APN?"
+msgstr "Sunteți sigur că doriți să resetați configurările APN?"
 
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../plugins/cellular//PageChooseApn.qml:168 ../build/po/settings.js:224
@@ -1913,7 +1913,7 @@ msgstr "Dezactivează %1"
 #: ../plugins/cellular//PageChooseApn.qml:259
 #, qt-format
 msgid "This disconnects %1."
-msgstr "Se deconectează %1."
+msgstr "Asta deconectează %1."
 
 #: ../plugins/cellular//PageChooseApn.qml:260
 #, qt-format
@@ -1927,7 +1927,7 @@ msgstr "Șterge"
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../plugins/cellular//PageComponent.qml:32 ../build/po/settings.js:254
 msgid "Cellular"
-msgstr "Celulară"
+msgstr "Rețea mobilă"
 
 #: ../plugins/cellular//PageApnEditor.qml:69
 msgid "Edit"
@@ -1953,14 +1953,13 @@ msgstr "Scrie un nume care să descrie APN-ul"
 
 #: ../plugins/cellular//PageApnEditor.qml:213
 msgid "Enter the name of the access point"
-msgstr "Scrie un nume pentru access point"
+msgstr "Scrie un nume pentru punctul de acces"
 
 #: ../plugins/cellular//PageApnEditor.qml:227
 msgid "MMSC"
 msgstr "MMSC"
 
 #: ../plugins/cellular//PageApnEditor.qml:236
-#, fuzzy
 msgid "Enter message center"
 msgstr "Scrie numărul centrului de mesaje"
 
@@ -2055,7 +2054,7 @@ msgstr "Automat"
 
 #: ../plugins/wifi//PageComponent.qml:128
 msgid "Connect to hidden network…"
-msgstr "Conectare la o rețea ascunsă...."
+msgstr "Conectare la o rețea ascunsă…"
 
 #: ../plugins/wifi//PageComponent.qml:138
 #: ../plugins/wifi//PreviousNetworks.qml:27
@@ -2379,7 +2378,7 @@ msgstr "Telefon"
 #: ../plugins/phone//NoSims.qml:28 ../plugins/phone//SingleSim.qml:41
 #: ../plugins/phone//MultiSim.qml:52 ../plugins/phone//CallForwarding.qml:45
 msgid "Call forwarding"
-msgstr "Derivare apel"
+msgstr "Redirecționare apel"
 
 #: ../plugins/phone//NoSims.qml:34 ../plugins/phone//CallWaiting.qml:31
 #: ../plugins/phone//CallWaiting.qml:81 ../plugins/phone//SingleSim.qml:34
@@ -2566,7 +2565,7 @@ msgstr "Solicitare asociere Bluetooth"
 #: ../plugins/bluetooth//DisplayPinCodeDialog.qml:34
 #, qt-format
 msgid "Please enter the following PIN on %1 and press “Enter” on the keyboard:"
-msgstr ""
+msgstr "Tastează următorul PIN %1 si apasă tasta ”Enter” de pe tastatură:"
 
 #: ../plugins/bluetooth//PageComponent.qml:250
 msgid "Discoverable"
@@ -2578,9 +2577,8 @@ msgstr "Invizibil"
 
 #: ../plugins/bluetooth//PageComponent.qml:263
 #: ../plugins/bluetooth//PageComponent.qml:320
-#, fuzzy
 msgid "Searching…"
-msgstr "Se repornește..."
+msgstr "Caut…"
 
 #: ../plugins/bluetooth//PageComponent.qml:272
 msgid "Connected devices:"
@@ -2630,7 +2628,6 @@ msgid "Confirm PIN"
 msgstr "Confirmare PIN"
 
 #: ../plugins/bluetooth//AuthorizationRequestDialog.qml:26
-#, fuzzy
 msgid "Bluetooth Pairing Authorization Request"
 msgstr "Solicitare asociere Bluetooth"
 
@@ -2640,19 +2637,20 @@ msgstr "Solicitare asociere Bluetooth"
 msgid ""
 "The device %1 wants to pair with this device. Do you want to allow this?"
 msgstr ""
+"Dispozitivul %1 vrea să se conecteze la dispozitivul tău. Dorești să permiți "
+"acest lucru?"
 
 #: ../plugins/bluetooth//AuthorizationRequestDialog.qml:39
-#, fuzzy
 msgid "Allow"
-msgstr "permite"
+msgstr "Permite"
 
 #: ../plugins/bluetooth//AuthorizationRequestDialog.qml:46
 msgid "Refuse"
-msgstr ""
+msgstr "Refuză"
 
 #: ../plugins/bluetooth//DevicePage.qml:39
 msgid "Disconnecting…"
-msgstr "Se deconectează..."
+msgstr "Se deconectează…"
 
 #: ../plugins/bluetooth//DevicePage.qml:40
 msgid "Disconnected"
@@ -2704,7 +2702,7 @@ msgstr "Imprimantă"
 
 #: ../plugins/bluetooth//DevicePage.qml:62
 msgid "Watch"
-msgstr ""
+msgstr "Vezi"
 
 #: ../plugins/bluetooth//DevicePage.qml:63
 msgid "Other"
@@ -2786,20 +2784,17 @@ msgstr ""
 
 #: ../plugins/cellular//Components//NoSim.qml:36
 #: ../plugins/cellular//Components//DataMultiSim.qml:73
-#, fuzzy
 msgid "No SIM detected"
-msgstr "Nimic detectat"
+msgstr "Nu sa detectat un SIM"
 
 #: ../plugins/cellular//Components//NoSim.qml:45
 #: ../plugins/cellular//Components//DataMultiSim.qml:81
-#, fuzzy
 msgid "Insert a SIM, then restart the device."
-msgstr "Adăugați un card SIM și reporniți dispozitivul dumneavoastră"
+msgstr "Adaugă un card SIM și repornește dispozitivul."
 
 #: ../plugins/cellular//Components//DataMultiSim.qml:36
-#, fuzzy
 msgid "Cellular data"
-msgstr "Date celulare:"
+msgstr "Date celulare"
 
 #: ../plugins/cellular//Components//DataMultiSim.qml:147
 #: ../plugins/cellular//Components//SingleSim.qml:92
@@ -2814,13 +2809,12 @@ msgstr "Editați numele cartelei SIM"
 #. this word must be less than 5 characters
 #: ../plugins/cellular//Components//LabelTextField.qml:51
 msgid "Next"
-msgstr ""
+msgstr "Următorul"
 
 #: ../plugins/cellular//Components//RadioSingleSim.qml:31
 #: ../plugins/cellular//Components//MultiSim.qml:84
-#, fuzzy
 msgid "Connection type:"
-msgstr "Conectat"
+msgstr "Tip conexiune:"
 
 #: ../plugins/cellular//Components//DefaultSim.qml:33
 msgid "Ask me each time"
@@ -2912,9 +2906,8 @@ msgstr "aplicații"
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../build/po/settings.js:14
-#, fuzzy
 msgid "application"
-msgstr "capitalizare"
+msgstr "aplicație"
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
@@ -2954,14 +2947,13 @@ msgstr "rețea"
 
 #. TRANSLATORS: This is a keyword or name for the hotspot plugin which is used while searching
 #: ../build/po/settings.js:28
-#, fuzzy
 msgid "hotspot"
-msgstr "Hotspot"
+msgstr "hotspot"
 
 #. TRANSLATORS: This is a keyword or name for the hotspot plugin which is used while searching
 #: ../build/po/settings.js:30
 msgid "tethering"
-msgstr ""
+msgstr "tethering"
 
 #. TRANSLATORS: This is a keyword or name for the accessibility plugin which is used while searching
 #: ../build/po/settings.js:32
@@ -3293,7 +3285,7 @@ msgstr "cod"
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../build/po/settings.js:182
 msgid "password"
-msgstr "parolă"
+msgstr "parola"
 
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../build/po/settings.js:184
@@ -3333,14 +3325,13 @@ msgstr "deconectare"
 
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../build/po/settings.js:200
-#, fuzzy
 msgid "vpn"
-msgstr "pin"
+msgstr "vpn"
 
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../build/po/settings.js:202
 msgid "openvpn"
-msgstr ""
+msgstr "openvpn"
 
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
@@ -3351,34 +3342,32 @@ msgstr "ip"
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../build/po/settings.js:208
 msgid "routing"
-msgstr ""
+msgstr "rutare"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../build/po/settings.js:212
-#, fuzzy
 msgid "mouse"
-msgstr "Mouse"
+msgstr "mouse"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../build/po/settings.js:214
 msgid "touchpad"
-msgstr ""
+msgstr "touchpad"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../build/po/settings.js:216
-#, fuzzy
 msgid "tap"
-msgstr "apn"
+msgstr "apasă"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../build/po/settings.js:218
 msgid "touch"
-msgstr ""
+msgstr "atinge"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../build/po/settings.js:222
 msgid "input"
-msgstr ""
+msgstr "input"
 
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../build/po/settings.js:226
@@ -3554,9 +3543,8 @@ msgstr "fus orar"
 
 #. TRANSLATORS: This is a keyword or name for the launcher plugin which is used while searching
 #: ../build/po/settings.js:322
-#, fuzzy
 msgid "launcher"
-msgstr "Lansator"
+msgstr "lansator"
 
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../build/po/settings.js:330
@@ -3641,7 +3629,6 @@ msgstr "stereo"
 
 #. TRANSLATORS: This is a keyword or name for the orientation-lock plugin which is used while searching
 #: ../build/po/settings.js:380
-#, fuzzy
 msgid "Rotation Lock"
 msgstr "Blocare orientare"
 
@@ -3680,17 +3667,16 @@ msgid "Authentication token manipulation error"
 msgstr "Eroare manipulare jeton de autentificare"
 
 #: ../plugins/wifi//certhandler.cpp:258
-#, fuzzy
 msgid "Private key"
-msgstr "Confidențialitate"
+msgstr "Cheie privată"
 
 #: ../plugins/wifi//certhandler.cpp:259
 msgid "Public key"
-msgstr ""
+msgstr "Cheie publică"
 
 #: ../plugins/wifi//certhandler.cpp:264
 msgid "Opaque"
-msgstr ""
+msgstr "Opac"
 
 #: ../src/systemimage.cpp:181
 msgid "Can't cancel current request (can't contact service)"
@@ -3705,9 +3691,8 @@ msgstr ""
 
 #: ../src/systemimage.cpp:318 ../src/systemimage.cpp:324
 #: ../src/systemimage.cpp:330
-#, fuzzy
 msgid "Unavailable"
-msgstr "Actualizări disponibile"
+msgstr "Indisponibil"
 
 #: ../push-helper/software_updates_helper.py:159
 msgid "There's an updated system image."
