@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
 "PO-Revision-Date: 2017-11-09 15:39+0000\n"
-"Last-Translator: Stefano Melchior <stefano.melchior@me.com>\n"
+"Last-Translator: Mike <miguel2000@livecom.it>\n"
 "Language-Team: Italian <https://translate.ubports.com/projects/ubports"
 "/system-settings/it/>\n"
 "Language: it\n"
@@ -731,7 +731,7 @@ msgstr "Vibrazioni"
 
 #: ../plugins/notifications//PageComponent.qml:180
 msgid "Bubbles"
-msgstr "Popup a bolla"
+msgstr "Bolle"
 
 #: ../plugins/notifications//PageComponent.qml:183
 #: ../plugins/notifications//ClickAppNotifications.qml:147
