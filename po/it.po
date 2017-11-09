@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-11-09 15:36+0000\n"
-"Last-Translator: Stefano Melchior <stefano.melchior@me.com>\n"
+"PO-Revision-Date: 2017-11-09 15:39+0000\n"
+"Last-Translator: Gianmarco <gianmarcoesgarix@gmail.com>\n"
 "Language-Team: Italian <https://translate.ubports.com/projects/ubports"
 "/system-settings/it/>\n"
 "Language: it\n"
@@ -360,7 +360,7 @@ msgstr "Il Wi-Fi è spento"
 
 #: ../plugins/hotspot//PageComponent.qml:155
 msgid "In order to create a hotspot, you need to turn Wi-Fi on."
-msgstr "Per creare un hotspot, è necessario attivare il Wi-Fi."
+msgstr "Per creare un hotspot devi accendere il Wi-Fi"
 
 #: ../plugins/hotspot//PageComponent.qml:164
 msgid "Turn on Wi-Fi"
