@@ -80,7 +80,7 @@ std::string Helpers::architectureFromDpkg()
 QString Helpers::clickMetadataUrl()
 {
     QString url = QStringLiteral(
-        "https://openstore.ubports.com/api/v1/apps"
+        "https://open.uappexplorer.com/api/v2/apps"
     );
     QProcessEnvironment environment = QProcessEnvironment::systemEnvironment();
     return environment.value("URL_APPS", url);

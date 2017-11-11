@@ -55,27 +55,28 @@ void ApiClientImpl::requestMetadata(const QUrl &url,
 {
     QUrlQuery query(url);
 
-    // Create list of frameworks.
-    QString frameworks = Helpers::getAvailableFrameworks().join(',');
-    query.addQueryItem("frameworks", frameworks);
+    QJsonObject body;
 
-    query.addQueryItem("architecture",
-                       QByteArray::fromStdString(Helpers::getArchitecture()));
+    QStringList frameworks = Helpers::getAvailableFrameworks();
+    body.insert("frameworks", QJsonArray::fromStringList(frameworks));
 
-    /* TODO: use the packages list once
-     *   https://github.com/UbuntuOpenStore/openstore-meta/issues/156
-     * is fixed.
-     */
-    Q_UNUSED(packages);
+    body.insert("architecture",
+                QString::fromStdString(Helpers::getArchitecture()));
+
+    body.insert("apps", QJsonArray::fromStringList(packages));
+
+    QJsonDocument doc(body);
+    QByteArray content = doc.toJson();
 
     QUrl u(url);
     u.setQuery(query);
     QNetworkRequest request;
+    request.setHeader(QNetworkRequest::ContentTypeHeader, "application/json");
     request.setUrl(u);
     request.setOriginatingObject(this);
     request.setAttribute(QNetworkRequest::User, "metadata-request");
 
-    initializeReply(m_nam->get(request));
+    initializeReply(m_nam->post(request, content));
 }
 
 void ApiClientImpl::initializeReply(QNetworkReply *reply)
@@ -143,7 +144,7 @@ void ApiClientImpl::handleMetadataReply(QNetworkReply *reply)
     QScopedPointer<QJsonParseError> jsonError(new QJsonParseError);
     auto document = QJsonDocument::fromJson(reply->readAll(),
                                             jsonError.data());
-    QJsonValue packages = document.object()["data"].toObject()["packages"];
+    QJsonValue packages = document.object()["data"];
 
     if (packages.isArray()) {
         Q_EMIT metadataRequestSucceeded(packages.toArray());
