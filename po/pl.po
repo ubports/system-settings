@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-10-10 11:09+0000\n"
+"PO-Revision-Date: 2017-11-07 11:10+0000\n"
 "Last-Translator: Daniel Frańczak <danielfranczak5@wp.pl>\n"
 "Language-Team: Polish <https://translate.ubports.com/projects/ubports/system-"
 "settings/pl/>\n"
@@ -969,7 +969,7 @@ msgstr "Według rozmiaru"
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../plugins/about//PageComponent.qml:35 ../build/po/settings.js:132
 msgid "About"
-msgstr "O"
+msgstr "O urządzeniu"
 
 #: ../plugins/about//PageComponent.qml:99
 msgid "Serial"
