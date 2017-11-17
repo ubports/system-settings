@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-11-17 16:58+0000\n"
-"Last-Translator: Mike <miguel2000@livecom.it>\n"
+"PO-Revision-Date: 2017-11-17 17:35+0000\n"
+"Last-Translator: Stefano Melchior <stefano.melchior@me.com>\n"
 "Language-Team: Italian <https://translate.ubports.com/projects/ubports"
 "/system-settings/it/>\n"
 "Language: it\n"
@@ -282,7 +282,7 @@ msgstr "Apri"
 
 #: ../plugins/system-update//UpdateDelegate.qml:228
 msgid "Installing"
-msgstr "Installazione"
+msgstr "Installando"
 
 #: ../plugins/system-update//UpdateDelegate.qml:232
 msgid "Paused"
