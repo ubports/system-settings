@@ -335,9 +335,17 @@ void ManagerImpl::completionCheck()
 
 void ManagerImpl::requestMetadata()
 {
-    QString urlApps = Helpers::clickMetadataUrl();
+    QString urlApps = Helpers::clickRevisionUrl();
     QUrl url(urlApps);
-    m_client->requestMetadata(url, m_candidates.keys());
+    QStringList appsWithVersion;
+    for (auto i = m_candidates.constBegin();
+         i != m_candidates.constEnd();
+         i++) {
+        QString appWithVersion =
+            QString("%1@%2").arg(i.key()).arg(i.value()->localVersion());
+        appsWithVersion.append(appWithVersion);
+    }
+    m_client->requestMetadata(url, appsWithVersion);
 }
 
 void ManagerImpl::parseMetadata(const QJsonArray &array)
@@ -371,28 +379,23 @@ void ManagerImpl::parseMetadata(const QJsonArray &array)
             auto update = m_candidates.value(identifier);
             update->setRemoteVersion(version);
 
-            if (update->isUpdateRequired()) {
-                update->setIconUrl(icon_url);
-                update->setDownloadUrl(url);
-                update->setBinaryFilesize(size);
-                update->setDownloadHash(download_sha512);
-                update->setChangelog(changelog);
-                update->setTitle(title);
-                update->setRevision(revision);
-                update->setState(Update::State::StateAvailable);
+            update->setIconUrl(icon_url);
+            update->setDownloadUrl(url);
+            update->setBinaryFilesize(size);
+            update->setDownloadHash(download_sha512);
+            update->setChangelog(changelog);
+            update->setTitle(title);
+            update->setRevision(revision);
+            update->setState(Update::State::StateAvailable);
 
-                QStringList command;
-                /* TODO: remove "--allow-untrusted" once this is fixed:
-                 *   https://github.com/UbuntuOpenStore/openstore-meta/issues/157
-                 */
-                command << Helpers::whichPkcon()
-                    << "-p" << "--allow-untrusted" << "install-local" << "$file";
-                update->setCommand(command);
-                m_model->add(update);
-            } else {
-                // Update not required, let's remove it.
-                m_candidates.remove(update->identifier());
-            }
+            QStringList command;
+            /* TODO: remove "--allow-untrusted" once this is fixed:
+             *   https://github.com/UbuntuOpenStore/openstore-meta/issues/157
+             */
+            command << Helpers::whichPkcon()
+                << "-p" << "--allow-untrusted" << "install-local" << "$file";
+            update->setCommand(command);
+            m_model->add(update);
         }
     }
 

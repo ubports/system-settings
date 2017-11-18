@@ -86,6 +86,15 @@ QString Helpers::clickMetadataUrl()
     return environment.value("URL_APPS", url);
 }
 
+QString Helpers::clickRevisionUrl()
+{
+    QString url = QStringLiteral(
+        "https://open.uappexplorer.com/api/v2/apps/revision"
+    );
+    QProcessEnvironment environment = QProcessEnvironment::systemEnvironment();
+    return environment.value("URL_REVISION", url);
+}
+
 bool Helpers::isIgnoringCredentials()
 {
     QProcessEnvironment environment = QProcessEnvironment::systemEnvironment();

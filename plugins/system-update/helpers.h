@@ -35,6 +35,7 @@ public:
     static QStringList getAvailableFrameworks();
     static std::string getArchitecture();
     static QString clickMetadataUrl();
+    static QString clickRevisionUrl();
     static bool isIgnoringCredentials();
     static QString whichClick();
     static QString whichPkcon();
