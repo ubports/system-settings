@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-10-15 13:32+0000\n"
+"PO-Revision-Date: 2017-11-15 20:26+0000\n"
 "Last-Translator: Henrik Holm <hbir@post10.tele.dk>\n"
 "Language-Team: Danish <https://translate.ubports.com/projects/ubports/system-"
 "settings/da/>\n"
@@ -39,7 +39,7 @@ msgstr "Indstillinger;Opsætning;"
 
 #: ../plugins/system-update//ChannelSettings.qml:32
 msgid "Channel settings"
-msgstr ""
+msgstr "Kanal indstilling"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
@@ -50,7 +50,7 @@ msgstr "Tavle-pc"
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
 msgid "Release candidate"
-msgstr ""
+msgstr "Release kandidat"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
@@ -60,15 +60,15 @@ msgstr "Udviklertilstand"
 
 #: ../plugins/system-update//ChannelSettings.qml:99
 msgid "Fetching channels"
-msgstr ""
+msgstr "Henter kanaler"
 
 #: ../plugins/system-update//ChannelSettings.qml:109
 msgid "Channel to get updates from:"
-msgstr ""
+msgstr "Kanal der hentes opdateringer fra:"
 
 #: ../plugins/system-update//ChannelSettings.qml:125
 msgid "Switching channel"
-msgstr ""
+msgstr "Skifter kanal"
 
 #: ../plugins/system-update//Configuration.qml:30
 #: ../plugins/system-update//UpdateSettings.qml:42
@@ -110,7 +110,7 @@ msgstr "Opdateringer"
 
 #: ../plugins/system-update//PageComponent.qml:182
 msgid "Connect to the Internet to check for updates."
-msgstr ""
+msgstr "Opret forbindelse til internettet for at se efter opdateringer."
 
 #: ../plugins/system-update//PageComponent.qml:184
 msgid "Software is up to date"
@@ -118,7 +118,7 @@ msgstr "Softwaren er fuldt opdateret"
 
 #: ../plugins/system-update//PageComponent.qml:187
 msgid "The update server is not responding. Try again later."
-msgstr ""
+msgstr "Opdateringsserveren reagerer ikke. Prøv igen senere."
 
 #: ../plugins/system-update//PageComponent.qml:196
 #, fuzzy
@@ -126,20 +126,18 @@ msgid "Updates Available"
 msgstr "Opdateringer tilgængelige"
 
 #: ../plugins/system-update//PageComponent.qml:349
-#, fuzzy
 msgid "Recent updates"
-msgstr "Tjek efter opdateringer"
+msgstr "Seneste opdateringer"
 
 #: ../plugins/system-update//PageComponent.qml:412
 #: ../plugins/system-update//UpdateSettings.qml:32
-#, fuzzy
 msgid "Update settings"
-msgstr "Systemindstillinger"
+msgstr "Opdater indstillinger"
 
 #: ../plugins/system-update//DownloadHandler.qml:174
 #: ../plugins/system-update//InstallationFailed.qml:25
 msgid "Installation failed"
-msgstr ""
+msgstr "Installation fejlet"
 
 #: ../plugins/system-update//InstallationFailed.qml:28
 #: ../plugins/vpn//PageComponent.qml:121
@@ -156,20 +154,18 @@ msgstr "Opdatér systemet"
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:32
 #: ../plugins/system-update//ImageUpdatePrompt.qml:32
-#, fuzzy
 msgid "The device needs to restart to install the system update."
-msgstr "Telefonen skal genstartes for at systemopdateringen kan installeres."
+msgstr "Enheden skal genstartes for at systemopdateringen kan installeres."
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:33
 #: ../plugins/system-update//ImageUpdatePrompt.qml:33
-#, fuzzy
 msgid "Connect the device to power before installing the system update."
-msgstr "Telefonen skal genstartes for at systemopdateringen kan installeres."
+msgstr "Slut enheden til el-nettet, inden du installerer systemopdateringen."
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:38
 #: ../plugins/system-update//ImageUpdatePrompt.qml:38
 msgid "Restart & Install"
-msgstr ""
+msgstr "Genstart & installer"
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:48
 #: ../plugins/system-update//ImageUpdatePrompt.qml:48
@@ -203,16 +199,16 @@ msgstr "Annullér"
 
 #: ../plugins/system-update//NotAuthenticatedNotification.qml:37
 msgid "Sign in to Ubuntu One to receive updates for apps."
-msgstr ""
+msgstr "Log ind på Ubuntu One for at modtage opdateringer til apps."
 
 #: ../plugins/system-update//NotAuthenticatedNotification.qml:54
 msgid "Sign In…"
-msgstr ""
+msgstr "Log ind…"
 
 #: ../plugins/system-update//ChangelogExpander.qml:42
-#, fuzzy, qt-format
+#, qt-format
 msgid "Version %1"
-msgstr "Version: "
+msgstr "Version %1"
 
 #: ../plugins/system-update//UpdateSettings.qml:47
 msgid "On wi-fi"
@@ -239,20 +235,19 @@ msgstr "Kontrollerer om der er opdateringer…"
 
 #: ../plugins/system-update//Global.qml:89
 msgid "Stop"
-msgstr ""
+msgstr "Stop"
 
 #. TRANSLATORS: %1 is number of software updates available.
 #: ../plugins/system-update//Global.qml:116
-#, fuzzy, qt-format
+#, qt-format
 msgid "%1 update available"
 msgid_plural "%1 updates available"
-msgstr[0] "Opdateringer tilgængelige"
-msgstr[1] "Opdateringer tilgængelige"
+msgstr[0] "%1 opdatering tilgængelig"
+msgstr[1] "%1 opdateringer tilgængelige"
 
 #: ../plugins/system-update//Global.qml:126
-#, fuzzy
 msgid "Update all…"
-msgstr "Opdateringer tilgængelige"
+msgstr "Opdater alt…"
 
 #: ../plugins/system-update//Global.qml:128
 #, fuzzy
@@ -289,7 +284,7 @@ msgstr "Installér"
 
 #: ../plugins/system-update//UpdateDelegate.qml:149
 msgid "Open"
-msgstr ""
+msgstr "Åben"
 
 #: ../plugins/system-update//UpdateDelegate.qml:228
 msgid "Installing"
@@ -810,8 +805,9 @@ msgstr "Fjern billede"
 #: ../plugins/security-privacy//LockSecurity.qml:390
 #: ../plugins/time-date//TimePicker.qml:181
 #: ../plugins/phone//CallForwarding.qml:253
+#, fuzzy
 msgid "Set"
-msgstr "Indstil"
+msgstr "Vælg"
 
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../plugins/background//MainPage.qml:36 ../build/po/settings.js:78
@@ -1246,7 +1242,7 @@ msgstr ""
 #: ../plugins/security-privacy//PageComponent.qml:266
 #: ../plugins/phone//CallForwarding.qml:386
 msgid "Off"
-msgstr ""
+msgstr "Sluk"
 
 #: ../plugins/security-privacy//PageComponent.qml:205
 msgid "Encryption"
@@ -1438,7 +1434,7 @@ msgstr ""
 
 #: ../plugins/security-privacy//AppAccess.qml:101
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: ../plugins/security-privacy//AppAccess.qml:116
 msgid "Apps may also request access to online accounts."
@@ -1906,9 +1902,8 @@ msgstr ""
 
 #: ../plugins/cellular//PageChooseApn.qml:231
 #: ../plugins/cellular//PageChooseApn.qml:264
-#, fuzzy
 msgid "Disable"
-msgstr "Kan detekteres"
+msgstr "Slå fra"
 
 #: ../plugins/cellular//PageChooseApn.qml:253
 #, fuzzy, qt-format
@@ -1921,14 +1916,14 @@ msgid "Disable %1"
 msgstr "Kan detekteres"
 
 #: ../plugins/cellular//PageChooseApn.qml:259
-#, fuzzy, qt-format
+#, qt-format
 msgid "This disconnects %1."
-msgstr "Afbryd forbindelse"
+msgstr "Dette afbryder %1."
 
 #: ../plugins/cellular//PageChooseApn.qml:260
 #, qt-format
 msgid "This disables %1."
-msgstr ""
+msgstr "Dette afbryder %1."
 
 #: ../plugins/cellular//PageChooseApn.qml:302
 msgid "Delete"
@@ -1945,11 +1940,11 @@ msgstr "Redigér"
 
 #: ../plugins/cellular//PageApnEditor.qml:69
 msgid "New APN"
-msgstr ""
+msgstr "Ny APN"
 
 #: ../plugins/cellular//PageApnEditor.qml:155
 msgid "Used for:"
-msgstr ""
+msgstr "Bruges til:"
 
 #: ../plugins/cellular//PageApnEditor.qml:180
 #: ../plugins/wifi//NetworkDetails.qml:57
@@ -2412,11 +2407,11 @@ msgstr "Opkaldsomstilling"
 #: ../plugins/phone//CallWaiting.qml:81 ../plugins/phone//SingleSim.qml:34
 #: ../plugins/phone//MultiSim.qml:42
 msgid "Call waiting"
-msgstr "Opkaldsventetid"
+msgstr "Opkald venter"
 
 #: ../plugins/phone//NoSims.qml:42 ../plugins/phone//MultiSim.qml:63
 msgid "Services"
-msgstr ""
+msgstr "Services"
 
 #: ../plugins/phone//ServiceInfo.qml:109
 #, qt-format
@@ -2439,12 +2434,11 @@ msgstr ""
 #: ../plugins/phone//CallForwardItem.qml:157
 #: ../plugins/phone//CallForwardItem.qml:202
 msgid "Forward to"
-msgstr "Videresend til"
+msgstr "Viderestil til"
 
 #: ../plugins/phone//CallForwardItem.qml:171
-#, fuzzy
 msgid "Enter a number"
-msgstr "Telefonnummer"
+msgstr "Indtast nummer"
 
 #: ../plugins/phone//CallForwardItem.qml:218
 msgid "Call forwarding can’t be changed right now."
@@ -2462,11 +2456,11 @@ msgstr "%1 tjenester"
 
 #: ../plugins/phone//CallForwarding.qml:131
 msgid "Forward every incoming call"
-msgstr ""
+msgstr "Viderestil alle opkald"
 
 #: ../plugins/phone//CallForwarding.qml:146
 msgid "Redirects all phone calls to another number."
-msgstr ""
+msgstr "Omstil alle opkald til andet nummer."
 
 #: ../plugins/phone//CallForwarding.qml:158
 msgid "Call forwarding status can’t be checked "
@@ -2474,7 +2468,7 @@ msgstr ""
 
 #: ../plugins/phone//CallForwarding.qml:166
 msgid "Forward incoming calls when:"
-msgstr ""
+msgstr "Viderestil opkald når:"
 
 #: ../plugins/phone//CallForwarding.qml:175
 msgid "I’m on another call"
@@ -2486,28 +2480,27 @@ msgstr ""
 
 #: ../plugins/phone//CallForwarding.qml:197
 msgid "My phone is unreachable"
-msgstr ""
+msgstr "Min telefon er ikke tilgængelig"
 
 #: ../plugins/phone//CallForwarding.qml:227
 msgid "Contacts…"
 msgstr ""
 
 #: ../plugins/phone//CallForwarding.qml:274
-#, fuzzy
 msgid "Please select a phone number"
-msgstr "Telefonnummer"
+msgstr "Vælg telefonnummer"
 
 #: ../plugins/phone//CallForwarding.qml:283
 msgid "Numbers"
-msgstr ""
+msgstr "Numre"
 
 #: ../plugins/phone//CallForwarding.qml:302
 msgid "Could not forward to this contact"
-msgstr ""
+msgstr "Kunne ikke viderestille til denne kontakt"
 
 #: ../plugins/phone//CallForwarding.qml:303
 msgid "Contact not associated with any phone number."
-msgstr ""
+msgstr "Kontakt er ikke tilknyttet noget nummer."
 
 #: ../plugins/phone//CallForwarding.qml:382
 msgid "All calls"
@@ -2846,7 +2839,7 @@ msgstr ""
 #. this word must be less than 5 characters
 #: ../plugins/cellular//Components//LabelTextField.qml:51
 msgid "Next"
-msgstr ""
+msgstr "Næste"
 
 #: ../plugins/cellular//Components//RadioSingleSim.qml:31
 #: ../plugins/cellular//Components//MultiSim.qml:84

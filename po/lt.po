@@ -8,17 +8,18 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2014-05-19 17:27+0000\n"
-"Last-Translator: Mantas Kriaučiūnas <mantas@akl.lt>\n"
-"Language-Team: Lithuanian <lt@li.org>\n"
+"PO-Revision-Date: 2017-11-17 13:30+0000\n"
+"Last-Translator: Domantas <domantas.mauruca@gmail.com>\n"
+"Language-Team: Lithuanian <https://translate.ubports.com/projects/ubports"
+"/system-settings/lt/>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
-"%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"(n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2.15\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:41+0000\n"
-"X-Generator: Launchpad (build 17628)\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:116
 msgid "System Settings"
@@ -26,20 +27,21 @@ msgstr "Sistemos nustatymai"
 
 #: ubuntu-system-settings.desktop.in.in.h:2
 msgid "System;"
-msgstr ""
+msgstr "Sistema;"
 
 #: ubuntu-system-settings.desktop.in.in.h:3
 msgid "Preferences;Settings;"
-msgstr ""
+msgstr "Parinktys;Nustatymai;"
 
 #: ../plugins/system-update//ChannelSettings.qml:32
 msgid "Channel settings"
-msgstr ""
+msgstr "Kanalo nustatymai"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
+#, fuzzy
 msgid "Stable"
-msgstr ""
+msgstr "Stabilus"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
@@ -48,29 +50,31 @@ msgstr ""
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
+#, fuzzy
 msgid "Development"
-msgstr ""
+msgstr "Kūrimas"
 
 #: ../plugins/system-update//ChannelSettings.qml:99
+#, fuzzy
 msgid "Fetching channels"
-msgstr ""
+msgstr "Parsiųsti kanalus"
 
 #: ../plugins/system-update//ChannelSettings.qml:109
 msgid "Channel to get updates from:"
-msgstr ""
+msgstr "Kanalai iš kūrių gausite atnaujinimus:"
 
 #: ../plugins/system-update//ChannelSettings.qml:125
 msgid "Switching channel"
-msgstr ""
+msgstr "Pakeisti kanalą"
 
 #: ../plugins/system-update//Configuration.qml:30
 #: ../plugins/system-update//UpdateSettings.qml:42
 msgid "Auto download"
-msgstr ""
+msgstr "Automatinis parsiuntimas"
 
 #: ../plugins/system-update//Configuration.qml:35
 msgid "Download future updates automatically:"
-msgstr ""
+msgstr "Parsiųsti būsimus atnaujinimus automatiškai:"
 
 #: ../plugins/system-update//Configuration.qml:53
 #: ../plugins/system-update//UpdateSettings.qml:45
@@ -82,11 +86,11 @@ msgstr ""
 #: ../plugins/security-privacy//PhoneLocking.qml:109
 #: ../plugins/wifi//NetworkDetails.qml:65
 msgid "Never"
-msgstr ""
+msgstr "Niekada"
 
 #: ../plugins/system-update//Configuration.qml:54
 msgid "When on wi-fi"
-msgstr ""
+msgstr "Jei naudojama WiFi"
 
 #: ../plugins/system-update//Configuration.qml:56
 msgid "On any data connection"
@@ -94,44 +98,42 @@ msgstr ""
 
 #: ../plugins/system-update//Configuration.qml:57
 msgid "Data charges may apply."
-msgstr ""
+msgstr "Gali būti taikomas duomenų mokestis."
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../plugins/system-update//PageComponent.qml:38 ../build/po/settings.js:4
 msgid "Updates"
-msgstr ""
+msgstr "Naujiniai"
 
 #: ../plugins/system-update//PageComponent.qml:182
 msgid "Connect to the Internet to check for updates."
-msgstr ""
+msgstr "Norėdami rasti naujinius prisijunkite prie interneto."
 
 #: ../plugins/system-update//PageComponent.qml:184
 msgid "Software is up to date"
-msgstr ""
+msgstr "Programinė įranga pilnai atnaujinta"
 
 #: ../plugins/system-update//PageComponent.qml:187
 msgid "The update server is not responding. Try again later."
-msgstr ""
+msgstr "Atnaujinimo serveris laikinai neveikia. Bandykite vėliau."
 
 #: ../plugins/system-update//PageComponent.qml:196
-#, fuzzy
 msgid "Updates Available"
-msgstr "Visi prieinami išdėstymai:"
+msgstr "Prieinami atnaujinimai"
 
 #: ../plugins/system-update//PageComponent.qml:349
 msgid "Recent updates"
-msgstr ""
+msgstr "Naujausi atnaujinimai"
 
 #: ../plugins/system-update//PageComponent.qml:412
 #: ../plugins/system-update//UpdateSettings.qml:32
-#, fuzzy
 msgid "Update settings"
-msgstr "Sistemos nustatymai"
+msgstr "Atnaujinimų nustatymai"
 
 #: ../plugins/system-update//DownloadHandler.qml:174
 #: ../plugins/system-update//InstallationFailed.qml:25
 msgid "Installation failed"
-msgstr ""
+msgstr "Diegimo klaida"
 
 #: ../plugins/system-update//InstallationFailed.qml:28
 #: ../plugins/vpn//PageComponent.qml:121
@@ -139,27 +141,27 @@ msgstr ""
 #: ../plugins/brightness//WifiDisplaysAlert.qml:38
 #: ../plugins/cellular//Components//SimEditor.qml:214
 msgid "OK"
-msgstr ""
+msgstr "Gerai"
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:30
 #: ../plugins/system-update//ImageUpdatePrompt.qml:30
 msgid "Update System"
-msgstr ""
+msgstr "Atnaujinti sistemą"
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:32
 #: ../plugins/system-update//ImageUpdatePrompt.qml:32
 msgid "The device needs to restart to install the system update."
-msgstr ""
+msgstr "Įrenginys privalo būti perkrautas norint atnaujinti programinę įrangą."
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:33
 #: ../plugins/system-update//ImageUpdatePrompt.qml:33
 msgid "Connect the device to power before installing the system update."
-msgstr ""
+msgstr "Prijunkite įrenginė krautis prieš pradėdami atnaujinimą."
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:38
 #: ../plugins/system-update//ImageUpdatePrompt.qml:38
 msgid "Restart & Install"
-msgstr ""
+msgstr "Perkrauti ir instaliuoti"
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:48
 #: ../plugins/system-update//ImageUpdatePrompt.qml:48
@@ -189,111 +191,112 @@ msgstr ""
 #: ../plugins/background//Components//AddRemove.qml:42
 #: ../plugins/cellular//Components//SimEditor.qml:203
 msgid "Cancel"
-msgstr "Atsisakyti"
+msgstr "Atšaukti"
 
 #: ../plugins/system-update//NotAuthenticatedNotification.qml:37
 msgid "Sign in to Ubuntu One to receive updates for apps."
-msgstr ""
+msgstr "Prisijunkite prie Ubuntu One norint gauti atnaujinimus."
 
 #: ../plugins/system-update//NotAuthenticatedNotification.qml:54
 msgid "Sign In…"
-msgstr ""
+msgstr "Prisijunkite…"
 
 #: ../plugins/system-update//ChangelogExpander.qml:42
 #, qt-format
 msgid "Version %1"
-msgstr ""
+msgstr "Versija %1"
 
 #: ../plugins/system-update//UpdateSettings.qml:47
 msgid "On wi-fi"
-msgstr ""
+msgstr "Naudojamas Wi-Fi ryšys"
 
 #: ../plugins/system-update//UpdateSettings.qml:49
 msgid "Always"
-msgstr ""
+msgstr "Visada"
 
 #: ../plugins/system-update//UpdateSettings.qml:51
 #: ../plugins/hotspot//Common.qml:94 ../plugins/wifi//Common.qml:96
 #: ../plugins/bluetooth//DevicePage.qml:41
 msgid "Unknown"
-msgstr ""
+msgstr "Nežinomas"
 
 #: ../plugins/system-update//UpdateSettings.qml:61
+#, fuzzy
 msgid "Channels"
-msgstr ""
+msgstr "Kanalai"
 
 #: ../plugins/system-update//Global.qml:84
 msgid "Checking for updates…"
-msgstr ""
+msgstr "Ieškoma naujinių…"
 
 #: ../plugins/system-update//Global.qml:89
 msgid "Stop"
-msgstr ""
+msgstr "Stabdyti"
 
 #. TRANSLATORS: %1 is number of software updates available.
 #: ../plugins/system-update//Global.qml:116
-#, fuzzy, qt-format
+#, qt-format
 msgid "%1 update available"
 msgid_plural "%1 updates available"
-msgstr[0] "Visi prieinami išdėstymai:"
-msgstr[1] "Visi prieinami išdėstymai:"
-msgstr[2] "Visi prieinami išdėstymai:"
+msgstr[0] "%1 prieinamas atnaujinimas"
+msgstr[1] "%1 prieinami atnaujinimai"
+msgstr[2] "%1 prieinamų atnaujinimų"
 
 #: ../plugins/system-update//Global.qml:126
 msgid "Update all…"
-msgstr ""
+msgstr "Atnaujinti viską…"
 
 #: ../plugins/system-update//Global.qml:128
 msgid "Update all"
-msgstr ""
+msgstr "Atnaujinti viską"
 
 #: ../plugins/system-update//UpdateDelegate.qml:119
 msgid "Retry"
-msgstr ""
+msgstr "Bandyti vėl"
 
 #: ../plugins/system-update//UpdateDelegate.qml:124
 msgid "Update"
-msgstr ""
+msgstr "Atnaujinti"
 
 #: ../plugins/system-update//UpdateDelegate.qml:126
 msgid "Download"
-msgstr ""
+msgstr "Parsiųsti"
 
 #: ../plugins/system-update//UpdateDelegate.qml:132
 msgid "Resume"
-msgstr ""
+msgstr "Tęsti"
 
 #: ../plugins/system-update//UpdateDelegate.qml:139
 msgid "Pause"
-msgstr ""
+msgstr "Sustabdyti"
 
 #: ../plugins/system-update//UpdateDelegate.qml:143
 msgid "Install…"
-msgstr ""
+msgstr "Instaliuoti…"
 
 #: ../plugins/system-update//UpdateDelegate.qml:145
 msgid "Install"
-msgstr ""
+msgstr "Įdiegti"
 
 #: ../plugins/system-update//UpdateDelegate.qml:149
 msgid "Open"
-msgstr ""
+msgstr "Atidaryti"
 
 #: ../plugins/system-update//UpdateDelegate.qml:228
 msgid "Installing"
-msgstr ""
+msgstr "Instaliuojama"
 
 #: ../plugins/system-update//UpdateDelegate.qml:232
 msgid "Paused"
-msgstr ""
+msgstr "Sustabdyta"
 
 #: ../plugins/system-update//UpdateDelegate.qml:235
 msgid "Waiting to download"
-msgstr ""
+msgstr "Laukiama kol prasidės siuntimas"
 
 #: ../plugins/system-update//UpdateDelegate.qml:238
 msgid "Downloading"
-msgstr ""
+msgstr "Siunčiama"
 
 #. TRANSLATORS: %1 is the human readable amount
 #. of bytes downloaded, and %2 is the total to be
@@ -301,26 +304,26 @@ msgstr ""
 #: ../plugins/system-update//UpdateDelegate.qml:274
 #, qt-format
 msgid "%1 of %2"
-msgstr ""
+msgstr "%1 iš %2"
 
 #: ../plugins/system-update//UpdateDelegate.qml:278
 msgid "Downloaded"
-msgstr ""
+msgstr "Parsiųsta"
 
 #: ../plugins/system-update//UpdateDelegate.qml:281
 msgid "Installed"
-msgstr ""
+msgstr "Įdiegta"
 
 #. TRANSLATORS: %1 is the date at which this
 #. update was applied.
 #: ../plugins/system-update//UpdateDelegate.qml:286
 #, qt-format
 msgid "Updated %1"
-msgstr ""
+msgstr "Atnaujinta %1"
 
 #: ../plugins/system-update//UpdateDelegate.qml:310
 msgid "Update failed"
-msgstr ""
+msgstr "Atnaujinimas nepavyko"
 
 #. TRANSLATORS: This is a keyword or name for the hotspot plugin which is used while searching
 #: ../plugins/hotspot//PageComponent.qml:33
@@ -339,10 +342,12 @@ msgid ""
 "Other devices can use your cellular data connection over the Wi-Fi network. "
 "Normal data charges apply."
 msgstr ""
+"Kiti įrenginiai gali naudotis jūsų internetu. Duomenų ryšio mokesčiai "
+"išlieka nepakitę."
 
 #: ../plugins/hotspot//PageComponent.qml:123
 msgid "Change Password/Setup…"
-msgstr ""
+msgstr "Pakeisti slaptažodį/Nustatyti…"
 
 #: ../plugins/hotspot//PageComponent.qml:123
 msgid "Set Up Hotspot…"
@@ -350,7 +355,7 @@ msgstr ""
 
 #: ../plugins/hotspot//PageComponent.qml:154
 msgid "Wi-Fi is off"
-msgstr ""
+msgstr "Wi-Fi išjungtas"
 
 #: ../plugins/hotspot//PageComponent.qml:155
 msgid "In order to create a hotspot, you need to turn Wi-Fi on."
@@ -358,15 +363,15 @@ msgstr ""
 
 #: ../plugins/hotspot//PageComponent.qml:164
 msgid "Turn on Wi-Fi"
-msgstr ""
+msgstr "Įjungti Wi-Fi"
 
 #: ../plugins/hotspot//Common.qml:34 ../plugins/wifi//Common.qml:36
 msgid "Unknown error"
-msgstr ""
+msgstr "Nežinoma klaida"
 
 #: ../plugins/hotspot//Common.qml:36 ../plugins/wifi//Common.qml:38
 msgid "No reason given"
-msgstr ""
+msgstr "Nežinoma priežastis"
 
 #: ../plugins/hotspot//Common.qml:38 ../plugins/wifi//Common.qml:40
 msgid "Device is now managed"
@@ -387,11 +392,11 @@ msgstr ""
 
 #: ../plugins/hotspot//Common.qml:46 ../plugins/wifi//Common.qml:48
 msgid "The IP configuration is no longer valid"
-msgstr ""
+msgstr "IP konfiguracija negalima"
 
 #: ../plugins/hotspot//Common.qml:48 ../plugins/wifi//Common.qml:50
 msgid "Your authentication details were incorrect"
-msgstr ""
+msgstr "Jūsų prisijungimo duomenys yra klaidingi"
 
 #: ../plugins/hotspot//Common.qml:50 ../plugins/wifi//Common.qml:52
 msgid "802.1X supplicant disconnected"
@@ -431,15 +436,15 @@ msgstr ""
 
 #: ../plugins/hotspot//Common.qml:68 ../plugins/wifi//Common.qml:70
 msgid "Necessary firmware for the device may be missing"
-msgstr ""
+msgstr "Reikalingi įrenginio failai gali būti nerasti"
 
 #: ../plugins/hotspot//Common.qml:70 ../plugins/wifi//Common.qml:72
 msgid "The device was removed"
-msgstr ""
+msgstr "Įrenginys panaikintas"
 
 #: ../plugins/hotspot//Common.qml:72 ../plugins/wifi//Common.qml:74
 msgid "NetworkManager went to sleep"
-msgstr ""
+msgstr "Interneto tvarkyklė sustabdyta"
 
 #: ../plugins/hotspot//Common.qml:74 ../plugins/wifi//Common.qml:76
 msgid "The device's active connection disappeared"
@@ -447,7 +452,7 @@ msgstr ""
 
 #: ../plugins/hotspot//Common.qml:76 ../plugins/wifi//Common.qml:78
 msgid "Device disconnected by user or client"
-msgstr ""
+msgstr "Įrenginys atjungtas vartotojo"
 
 #: ../plugins/hotspot//Common.qml:78 ../plugins/wifi//Common.qml:80
 msgid "The device's existing connection was assumed"
@@ -459,11 +464,11 @@ msgstr ""
 
 #: ../plugins/hotspot//Common.qml:82 ../plugins/wifi//Common.qml:84
 msgid "The modem could not be found"
-msgstr ""
+msgstr "Modemas nerastas"
 
 #: ../plugins/hotspot//Common.qml:84 ../plugins/wifi//Common.qml:86
 msgid "The Bluetooth connection failed or timed out"
-msgstr ""
+msgstr "Bluetooth sistemai nepavyko prisijungti"
 
 #: ../plugins/hotspot//Common.qml:86 ../plugins/wifi//Common.qml:88
 msgid "A dependency of the connection failed"
@@ -471,11 +476,11 @@ msgstr ""
 
 #: ../plugins/hotspot//Common.qml:88 ../plugins/wifi//Common.qml:90
 msgid "ModemManager is unavailable"
-msgstr ""
+msgstr "Nepavyko pasiekti Modemo tvarkyklę"
 
 #: ../plugins/hotspot//Common.qml:90 ../plugins/wifi//Common.qml:92
 msgid "The Wi-Fi network could not be found"
-msgstr ""
+msgstr "Nepavyko rasti Wi-Fi  ryšio"
 
 #: ../plugins/hotspot//Common.qml:92 ../plugins/wifi//Common.qml:94
 msgid "A secondary connection of the base connection failed"
@@ -495,16 +500,16 @@ msgstr ""
 
 #: ../plugins/hotspot//HotspotSetup.qml:176
 msgid "Choose a name"
-msgstr ""
+msgstr "Pasirinkite vardą"
 
 #: ../plugins/hotspot//HotspotSetup.qml:193
 msgid "Require a password (recommended):"
-msgstr ""
+msgstr "Reikalauti slaptažodžio (patariama):"
 
 #: ../plugins/hotspot//HotspotSetup.qml:224
 #: ../plugins/wifi//NetworkDetails.qml:84 ../plugins/wifi//OtherNetwork.qml:821
 msgid "Show password"
-msgstr ""
+msgstr "Rodyti slaptažodį"
 
 #: ../plugins/hotspot//HotspotSetup.qml:245
 msgid "Starting the hotspot will turn on Wi-Fi."
@@ -514,28 +519,28 @@ msgstr ""
 #: ../plugins/security-privacy//LockSecurity.qml:388
 #: ../plugins/security-privacy//SimPin.qml:186
 msgid "Change"
-msgstr ""
+msgstr "Keisti"
 
 #: ../plugins/hotspot//HotspotSetup.qml:275
 msgid "Start"
-msgstr ""
+msgstr "Pradėti"
 
 #: ../plugins/battery//SleepValues.qml:74
 msgid "Lock the device when it's not in use:"
-msgstr ""
+msgstr "Užrakinti įrenginio kol šis nėra naudojamas:"
 
 #: ../plugins/battery//SleepValues.qml:75
 msgid "Put the device to sleep when it is not in use:"
-msgstr ""
+msgstr "Užmigdyti įrenginį kol šis nėra naudojamas:"
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery//SleepValues.qml:86
 #, qt-format
 msgid "After %1 seconds"
 msgid_plural "After %1 seconds"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Po %1 sekundės"
+msgstr[1] "Po %1 sekundžių"
+msgstr[2] "Po %1 sekundžių"
 
 #. TRANSLATORS: %1 is the number of minutes
 #: ../plugins/battery//SleepValues.qml:90
@@ -551,76 +556,82 @@ msgstr[2] ""
 #, qt-format
 msgid "After %1 minute"
 msgid_plural "After %1 minutes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Po %1 minutės"
+msgstr[1] "Po %1 minučių"
+msgstr[2] "Po %1 minučių"
 
 #: ../plugins/battery//SleepValues.qml:130
 msgid ""
 "Shorter times are more secure. Device won't lock during calls or video "
 "playback."
 msgstr ""
+"Trumpesnis laikas yra saugiau. Įrenginys neišsijungs pokalbio arba vaizdo "
+"įrašo metu."
 
 #: ../plugins/battery//SleepValues.qml:130
 msgid "Device won’t sleep during calls or video playback."
-msgstr ""
+msgstr "Įrenginys neužmigs pokalbio ar vaizdo įrašo metu."
 
 #. TRANSLATORS: This is a keyword or name for the battery plugin which is used while searching
 #: ../plugins/battery//PageComponent.qml:35 ../build/po/settings.js:38
 msgid "Battery"
-msgstr ""
+msgstr "Baterija"
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery//PageComponent.qml:44
 #, qt-format
 msgid "%1 second ago"
 msgid_plural "%1 seconds ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Prieš %1 sekundę"
+msgstr[1] "Prieš %1 sekundes"
+msgstr[2] "Prieš %1 sekundžių"
 
 #. TRANSLATORS: %1 is the number of minutes
 #: ../plugins/battery//PageComponent.qml:47
 #, qt-format
 msgid "%1 minute ago"
 msgid_plural "%1 minutes ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Prieš %1 minutę"
+msgstr[1] "Prieš %1 minutes"
+msgstr[2] "Prieš %1 minučių"
 
 #. TRANSLATORS: %1 is the number of hours
 #: ../plugins/battery//PageComponent.qml:50
 #, qt-format
 msgid "%1 hour ago"
 msgid_plural "%1 hours ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Prieš %1 valandą"
+msgstr[1] "Prieš %1 valandas"
+msgstr[2] "Prieš %1 valandų"
 
 #: ../plugins/battery//PageComponent.qml:104
 msgid "Charge level"
-msgstr ""
+msgstr "Baterijos lygis"
 
 #: ../plugins/battery//PageComponent.qml:109
 #: ../plugins/battery//PageComponent.qml:283 ../plugins/about//Storage.qml:225
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 #. TRANSLATORS: %1 refers to a percentage that indicates the charging level of the battery
 #: ../plugins/battery//PageComponent.qml:112
 #, qt-format
 msgid "%1%"
-msgstr ""
+msgstr "%1%"
 
 #: ../plugins/battery//PageComponent.qml:190
 #: ../plugins/battery//PageComponent.qml:192
 msgid "Yesterday"
-msgstr ""
+msgstr "Vakar"
 
 #: ../plugins/battery//PageComponent.qml:198
 #: ../plugins/battery//PageComponent.qml:200
 msgid "Today"
-msgstr ""
+msgstr "Šiandien"
 
 #: ../plugins/battery//PageComponent.qml:269
 msgid "Charging now"
-msgstr ""
+msgstr "Įkraunama"
 
 #: ../plugins/battery//PageComponent.qml:271
 msgid "Last full charge"
@@ -682,7 +693,7 @@ msgstr ""
 #: ../plugins/notifications//ClickAppNotifications.qml:54
 #: ../build/po/settings.js:54
 msgid "Notifications"
-msgstr ""
+msgstr "Pranešimai"
 
 #: ../plugins/notifications//PageComponent.qml:74
 msgid ""
@@ -1856,7 +1867,7 @@ msgstr ""
 
 #: ../plugins/cellular//PageChooseApn.qml:302
 msgid "Delete"
-msgstr ""
+msgstr "Ištrinti"
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../plugins/cellular//PageComponent.qml:32 ../build/po/settings.js:254
@@ -1924,7 +1935,7 @@ msgstr ""
 #: ../plugins/cellular//PageApnEditor.qml:358
 #: ../plugins/wifi//NetworkDetails.qml:70 ../plugins/wifi//OtherNetwork.qml:786
 msgid "Password"
-msgstr ""
+msgstr "Slaptažodis"
 
 #: ../plugins/cellular//PageApnEditor.qml:369
 msgid "Enter password"
@@ -2048,7 +2059,7 @@ msgstr "Visi prieinami išdėstymai:"
 
 #: ../plugins/wifi//CertDialog.qml:74
 msgid "Save"
-msgstr ""
+msgstr "Išsaugoti"
 
 #: ../plugins/wifi//OtherNetwork.qml:92
 msgid "Connect to Wi‑Fi"
@@ -2202,7 +2213,7 @@ msgstr ""
 
 #: ../plugins/wifi//OtherNetwork.qml:754
 msgid "Username"
-msgstr ""
+msgstr "Vartotojo vardas"
 
 #: ../plugins/wifi//OtherNetwork.qml:784
 msgid "Private key password"
@@ -2308,7 +2319,7 @@ msgstr ""
 #: ../plugins/bluetooth//DevicePage.qml:48
 #: ../plugins/bluetooth//DevicePage.qml:49 ../build/po/settings.js:326
 msgid "Phone"
-msgstr ""
+msgstr "Telefonas"
 
 #: ../plugins/phone//NoSims.qml:28 ../plugins/phone//SingleSim.qml:41
 #: ../plugins/phone//MultiSim.qml:52 ../plugins/phone//CallForwarding.qml:45
@@ -2789,7 +2800,7 @@ msgstr ""
 
 #: ../src/qml/MainWindow.qml:150
 msgid "Search"
-msgstr ""
+msgstr "Paieška"
 
 #: ../src/qml/MainWindow.qml:170
 msgid "Personal"
