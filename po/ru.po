@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-10-15 10:13+0000\n"
-"Last-Translator: Ivan Semkin <ivan@semkin.ru>\n"
+"PO-Revision-Date: 2017-11-22 00:51+0000\n"
+"Last-Translator: Alexey Balmashnov <a.balmashnov@gmail.com>\n"
 "Language-Team: Russian <https://translate.ubports.com/projects/ubports"
 "/system-settings/ru/>\n"
 "Language: ru\n"
@@ -35,36 +35,34 @@ msgstr "Настройки;Параметры;"
 
 #: ../plugins/system-update//ChannelSettings.qml:32
 msgid "Channel settings"
-msgstr ""
+msgstr "Выбор канала обновлений"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
-#, fuzzy
 msgid "Stable"
-msgstr "Планшет"
+msgstr "Стабильный"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
 msgid "Release candidate"
-msgstr ""
+msgstr "Релиз-кандидат"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
-#, fuzzy
 msgid "Development"
-msgstr "Режим разработчика"
+msgstr "Канал разработки"
 
 #: ../plugins/system-update//ChannelSettings.qml:99
 msgid "Fetching channels"
-msgstr ""
+msgstr "Скачиваю список каналов"
 
 #: ../plugins/system-update//ChannelSettings.qml:109
 msgid "Channel to get updates from:"
-msgstr ""
+msgstr "Канал для скачивания обновлений:"
 
 #: ../plugins/system-update//ChannelSettings.qml:125
 msgid "Switching channel"
-msgstr ""
+msgstr "Переключение канала"
 
 #: ../plugins/system-update//Configuration.qml:30
 #: ../plugins/system-update//UpdateSettings.qml:42
@@ -105,9 +103,8 @@ msgid "Updates"
 msgstr "Обновления"
 
 #: ../plugins/system-update//PageComponent.qml:182
-#, fuzzy
 msgid "Connect to the Internet to check for updates."
-msgstr "Подключитесь к интернету, чтобы проверить наличие обновлений"
+msgstr "Подключитесь к интернету для проверки обновлений."
 
 #: ../plugins/system-update//PageComponent.qml:184
 msgid "Software is up to date"
@@ -115,23 +112,20 @@ msgstr "Программное обеспечение актуально."
 
 #: ../plugins/system-update//PageComponent.qml:187
 msgid "The update server is not responding. Try again later."
-msgstr ""
+msgstr "Сервер обновлений не отвечает. Попробуйте ещё раз попозже."
 
 #: ../plugins/system-update//PageComponent.qml:196
-#, fuzzy
 msgid "Updates Available"
-msgstr "Доступные обновления"
+msgstr "Доступны обновления"
 
 #: ../plugins/system-update//PageComponent.qml:349
-#, fuzzy
 msgid "Recent updates"
-msgstr "Проверить обновления"
+msgstr "Последние обновления"
 
 #: ../plugins/system-update//PageComponent.qml:412
 #: ../plugins/system-update//UpdateSettings.qml:32
-#, fuzzy
 msgid "Update settings"
-msgstr "Настройки системы"
+msgstr "Настройки обновлений системы"
 
 #: ../plugins/system-update//DownloadHandler.qml:174
 #: ../plugins/system-update//InstallationFailed.qml:25
@@ -144,7 +138,7 @@ msgstr "Сбой установки"
 #: ../plugins/brightness//WifiDisplaysAlert.qml:38
 #: ../plugins/cellular//Components//SimEditor.qml:214
 msgid "OK"
-msgstr "OK"
+msgstr "ОК"
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:30
 #: ../plugins/system-update//ImageUpdatePrompt.qml:30
@@ -153,13 +147,11 @@ msgstr "Обновить систему"
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:32
 #: ../plugins/system-update//ImageUpdatePrompt.qml:32
-#, fuzzy
 msgid "The device needs to restart to install the system update."
-msgstr "Требуется перезагрузка, чтобы установить системные обновления."
+msgstr "Требуется перезагрузка для установки обновления системы."
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:33
 #: ../plugins/system-update//ImageUpdatePrompt.qml:33
-#, fuzzy
 msgid "Connect the device to power before installing the system update."
 msgstr ""
 "Подключите телефон к источнику питания перед установкой обновлений системы."
@@ -167,7 +159,7 @@ msgstr ""
 #: ../plugins/system-update//ImageSwitchPrompt.qml:38
 #: ../plugins/system-update//ImageUpdatePrompt.qml:38
 msgid "Restart & Install"
-msgstr ""
+msgstr "Перезагрузить и установить"
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:48
 #: ../plugins/system-update//ImageUpdatePrompt.qml:48
@@ -197,7 +189,7 @@ msgstr ""
 #: ../plugins/background//Components//AddRemove.qml:42
 #: ../plugins/cellular//Components//SimEditor.qml:203
 msgid "Cancel"
-msgstr "Отмена"
+msgstr "Отменить"
 
 #: ../plugins/system-update//NotAuthenticatedNotification.qml:37
 msgid "Sign in to Ubuntu One to receive updates for apps."
@@ -208,9 +200,9 @@ msgid "Sign In…"
 msgstr "Вход..."
 
 #: ../plugins/system-update//ChangelogExpander.qml:42
-#, fuzzy, qt-format
+#, qt-format
 msgid "Version %1"
-msgstr "Версия: "
+msgstr "Версия %1"
 
 #: ../plugins/system-update//UpdateSettings.qml:47
 msgid "On wi-fi"
@@ -227,9 +219,8 @@ msgid "Unknown"
 msgstr "Неизвестный"
 
 #: ../plugins/system-update//UpdateSettings.qml:61
-#, fuzzy
 msgid "Channels"
-msgstr "Изменить"
+msgstr "Каналы"
 
 #: ../plugins/system-update//Global.qml:84
 msgid "Checking for updates…"
@@ -237,30 +228,28 @@ msgstr "Проверка обновлений..."
 
 #: ../plugins/system-update//Global.qml:89
 msgid "Stop"
-msgstr ""
+msgstr "Прервать"
 
 #. TRANSLATORS: %1 is number of software updates available.
 #: ../plugins/system-update//Global.qml:116
-#, fuzzy, qt-format
+#, qt-format
 msgid "%1 update available"
 msgid_plural "%1 updates available"
-msgstr[0] "Доступные обновления"
-msgstr[1] "Доступные обновления"
-msgstr[2] "Доступные обновления"
+msgstr[0] "Доступно %1 обновление"
+msgstr[1] "Доступно %2 обновления"
+msgstr[2] "Доступно %1 обновлений"
 
 #: ../plugins/system-update//Global.qml:126
-#, fuzzy
 msgid "Update all…"
-msgstr "Доступные обновления"
+msgstr "Обновить всё…"
 
 #: ../plugins/system-update//Global.qml:128
-#, fuzzy
 msgid "Update all"
-msgstr "Обновить"
+msgstr "Обновить всё"
 
 #: ../plugins/system-update//UpdateDelegate.qml:119
 msgid "Retry"
-msgstr "Повторить попытку"
+msgstr "Повторить"
 
 #: ../plugins/system-update//UpdateDelegate.qml:124
 msgid "Update"
@@ -288,21 +277,19 @@ msgstr "Установить"
 
 #: ../plugins/system-update//UpdateDelegate.qml:149
 msgid "Open"
-msgstr ""
+msgstr "Открыть"
 
 #: ../plugins/system-update//UpdateDelegate.qml:228
 msgid "Installing"
 msgstr "Установка"
 
 #: ../plugins/system-update//UpdateDelegate.qml:232
-#, fuzzy
 msgid "Paused"
 msgstr "Приостановить"
 
 #: ../plugins/system-update//UpdateDelegate.qml:235
-#, fuzzy
 msgid "Waiting to download"
-msgstr "Автозагрузка"
+msgstr "Ожидание скачивания"
 
 #: ../plugins/system-update//UpdateDelegate.qml:238
 msgid "Downloading"
@@ -317,9 +304,8 @@ msgid "%1 of %2"
 msgstr "%1 из %2"
 
 #: ../plugins/system-update//UpdateDelegate.qml:278
-#, fuzzy
 msgid "Downloaded"
-msgstr "Загрузка"
+msgstr "Скачано"
 
 #: ../plugins/system-update//UpdateDelegate.qml:281
 msgid "Installed"
@@ -328,14 +314,13 @@ msgstr "Установлено"
 #. TRANSLATORS: %1 is the date at which this
 #. update was applied.
 #: ../plugins/system-update//UpdateDelegate.qml:286
-#, fuzzy, qt-format
+#, qt-format
 msgid "Updated %1"
-msgstr "Обновить"
+msgstr "Обновлено %1"
 
 #: ../plugins/system-update//UpdateDelegate.qml:310
-#, fuzzy
 msgid "Update failed"
-msgstr "Доступные обновления"
+msgstr "Ошибка обновления"
 
 #. TRANSLATORS: This is a keyword or name for the hotspot plugin which is used while searching
 #: ../plugins/hotspot//PageComponent.qml:33
@@ -360,28 +345,24 @@ msgstr ""
 "взиматься дополнительная плата."
 
 #: ../plugins/hotspot//PageComponent.qml:123
-#, fuzzy
 msgid "Change Password/Setup…"
-msgstr "Изменение секретного кода..."
+msgstr "Изменение пароля/Настроек…"
 
 #: ../plugins/hotspot//PageComponent.qml:123
-#, fuzzy
 msgid "Set Up Hotspot…"
-msgstr "Настройка точки доступа"
+msgstr "Настройки точки доступа…"
 
 #: ../plugins/hotspot//PageComponent.qml:154
-#, fuzzy
 msgid "Wi-Fi is off"
-msgstr "Wi-Fi точка доступа"
+msgstr "Wi-Fi отключен"
 
 #: ../plugins/hotspot//PageComponent.qml:155
 msgid "In order to create a hotspot, you need to turn Wi-Fi on."
-msgstr ""
+msgstr "Для создания точки доступа необходимо включить Wi-Fi."
 
 #: ../plugins/hotspot//PageComponent.qml:164
-#, fuzzy
 msgid "Turn on Wi-Fi"
-msgstr "При wi-fi подключении"
+msgstr "Включить Wi-Fi"
 
 #: ../plugins/hotspot//Common.qml:34 ../plugins/wifi//Common.qml:36
 msgid "Unknown error"
@@ -507,12 +488,10 @@ msgid "A secondary connection of the base connection failed"
 msgstr "Сбой вторичного подключения основого соединения"
 
 #: ../plugins/hotspot//HotspotSetup.qml:61
-#, fuzzy
 msgid "Change Hotspot Setup"
 msgstr "Изменение настроек точки доступа"
 
 #: ../plugins/hotspot//HotspotSetup.qml:61
-#, fuzzy
 msgid "Set Up Hotspot"
 msgstr "Настройка точки доступа"
 
@@ -521,13 +500,12 @@ msgid "Hotspot name"
 msgstr "Имя точки доступа"
 
 #: ../plugins/hotspot//HotspotSetup.qml:176
-#, fuzzy
 msgid "Choose a name"
-msgstr "Введите кодовую фразу"
+msgstr "Выберите имя"
 
 #: ../plugins/hotspot//HotspotSetup.qml:193
 msgid "Require a password (recommended):"
-msgstr ""
+msgstr "Использовать пароль (рекомендуется):"
 
 #: ../plugins/hotspot//HotspotSetup.qml:224
 #: ../plugins/wifi//NetworkDetails.qml:84 ../plugins/wifi//OtherNetwork.qml:821
@@ -536,7 +514,7 @@ msgstr "Показать пароль"
 
 #: ../plugins/hotspot//HotspotSetup.qml:245
 msgid "Starting the hotspot will turn on Wi-Fi."
-msgstr ""
+msgstr "Включение точки доступа также включит и Wi-Fi."
 
 #: ../plugins/hotspot//HotspotSetup.qml:274
 #: ../plugins/security-privacy//LockSecurity.qml:388
@@ -546,26 +524,24 @@ msgstr "Изменить"
 
 #: ../plugins/hotspot//HotspotSetup.qml:275
 msgid "Start"
-msgstr ""
+msgstr "Начать"
 
 #: ../plugins/battery//SleepValues.qml:74
-#, fuzzy
 msgid "Lock the device when it's not in use:"
-msgstr "Блокировать устройство когда оно не используется:"
+msgstr "Блокировать устройство, когда оно не используется:"
 
 #: ../plugins/battery//SleepValues.qml:75
-#, fuzzy
 msgid "Put the device to sleep when it is not in use:"
-msgstr "Переводить телефон в спящий режим, когда он не используется:"
+msgstr "Переводить устройство в спящий режим, когда он не используется:"
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery//SleepValues.qml:86
-#, fuzzy, qt-format
+#, qt-format
 msgid "After %1 seconds"
 msgid_plural "After %1 seconds"
-msgstr[0] "Через %1 минуту"
-msgstr[1] "Через %1 минуты"
-msgstr[2] "Через %1 минут"
+msgstr[0] "Через %1 секунду"
+msgstr[1] "Через %1 секунды"
+msgstr[2] "Через %1 секунд"
 
 #. TRANSLATORS: %1 is the number of minutes
 #: ../plugins/battery//SleepValues.qml:90
@@ -586,7 +562,6 @@ msgstr[1] "Через %1 минуты"
 msgstr[2] "Через %1 минут"
 
 #: ../plugins/battery//SleepValues.qml:130
-#, fuzzy
 msgid ""
 "Shorter times are more secure. Device won't lock during calls or video "
 "playback."
@@ -595,7 +570,6 @@ msgstr ""
 "время звонков или во время просмотра видео."
 
 #: ../plugins/battery//SleepValues.qml:130
-#, fuzzy
 msgid "Device won’t sleep during calls or video playback."
 msgstr ""
 "Устройство не будет блокироваться во время звонков или во время просмотра "
@@ -692,18 +666,17 @@ msgstr "Засыпать в режиме ожидания"
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery//PageComponent.qml:321
 #: ../plugins/security-privacy//PhoneLocking.qml:94
-#, fuzzy, qt-format
+#, qt-format
 msgid "After %1 second"
 msgid_plural "After %1 seconds"
-msgstr[0] "Через %1 минуту"
-msgstr[1] "Через %1 минуты"
-msgstr[2] "Через %1 минут"
+msgstr[0] "Через %1 секунду"
+msgstr[1] "Через %1 секунды"
+msgstr[2] "Через %1 секунд"
 
 #. TRANSLATORS: “Wi-Fi used for hotspot” is hidden.
 #: ../plugins/battery//PageComponent.qml:364
-#, fuzzy
 msgid "Wi-Fi used for hotspot"
-msgstr "Wi-Fi точка доступа"
+msgstr "Wi-Fi используется для точки доступа"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../plugins/battery//PageComponent.qml:364
@@ -726,77 +699,67 @@ msgid "Notifications"
 msgstr "Уведомления"
 
 #: ../plugins/notifications//PageComponent.qml:74
-#, fuzzy
 msgid ""
 "Apps can alert you using sounds, vibrations, notification bubbles and the "
 "Notification list."
 msgstr ""
-"Некоторые приложения могут оповещать вас с помощью всплывающих уведомлений, "
-"звуковых сигналов, вибрации и Центра уведомлений."
+"Приложения могут оповещать вас с помощью всплывающих уведомлений, звуковых "
+"сигналов, вибрации и списка в области уведомлений."
 
 #: ../plugins/notifications//PageComponent.qml:90
 msgid "Apps that notify with sound"
-msgstr ""
+msgstr "Приложения, уведомляющие звуком"
 
 #: ../plugins/notifications//PageComponent.qml:115
 msgid "Apps that notify with vibration"
-msgstr ""
+msgstr "Приложения, уведомляющие вибрацией"
 
 #: ../plugins/notifications//PageComponent.qml:140
-#, fuzzy
 msgid "Applications:"
-msgstr "заглавные буквы"
+msgstr "Приложения:"
 
 #: ../plugins/notifications//PageComponent.qml:169
-#, fuzzy
 msgid "No notifications"
-msgstr "уведомления"
+msgstr "Нет уведомлений"
 
 #: ../plugins/notifications//PageComponent.qml:174
 #: ../plugins/notifications//ClickAppNotifications.qml:81
-#, fuzzy
 msgid "Sounds"
-msgstr "Звук"
+msgstr "Звуки"
 
 #: ../plugins/notifications//PageComponent.qml:177
 #: ../plugins/notifications//ClickAppNotifications.qml:103
-#, fuzzy
 msgid "Vibrations"
-msgstr "вибро"
+msgstr "Вибрация"
 
 #: ../plugins/notifications//PageComponent.qml:180
 msgid "Bubbles"
-msgstr ""
+msgstr "Всплывающие уведомления"
 
 #: ../plugins/notifications//PageComponent.qml:183
 #: ../plugins/notifications//ClickAppNotifications.qml:147
-#, fuzzy
 msgid "Notification List"
-msgstr "Уведомления"
+msgstr "Список уведомлений"
 
 #: ../plugins/notifications//ClickAppsVibrationsNotify.qml:30
-#, fuzzy
 msgid "Vibration"
-msgstr "вибро"
+msgstr "Вибрация"
 
 #: ../plugins/notifications//ClickAppsVibrationsNotify.qml:54
-#, fuzzy
 msgid "When in Silent mode:"
-msgstr "Вибрация при бесшумном режиме"
+msgstr "В бесшумном режиме:"
 
 #: ../plugins/notifications//ClickAppsVibrationsNotify.qml:72
-#, fuzzy
 msgid "Vibrate as normal"
-msgstr "Вибрация при звонке"
+msgstr "Вибрация как обычно"
 
 #: ../plugins/notifications//ClickAppsVibrationsNotify.qml:73
-#, fuzzy
 msgid "Don't vibrate"
-msgstr "вибрация"
+msgstr "Нет вибрации"
 
 #: ../plugins/notifications//ClickAppsVibrationsNotify.qml:89
 msgid "Apps that notify with vibrations:"
-msgstr ""
+msgstr "Приложения уведомляющие вибрацией:"
 
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../plugins/notifications//ClickAppsSoundsNotify.qml:30
@@ -806,16 +769,15 @@ msgstr "Звук"
 
 #: ../plugins/notifications//ClickAppsSoundsNotify.qml:48
 msgid "Apps that notify with sound:"
-msgstr ""
+msgstr "Приложения уведомляющие звуком:"
 
 #: ../plugins/notifications//ClickAppNotifications.qml:72
 msgid "Let this app alert me using:"
-msgstr ""
+msgstr "Разрешить этому приложению уведомлять:"
 
 #: ../plugins/notifications//ClickAppNotifications.qml:125
-#, fuzzy
 msgid "Notification Bubbles"
-msgstr "Уведомления"
+msgstr "Всплывающими уведомлениями"
 
 #: ../plugins/background//Preview.qml:69
 msgid "Preview"
@@ -846,9 +808,8 @@ msgid "Custom"
 msgstr "Пользовательские"
 
 #: ../plugins/background//MainPage.qml:117
-#, fuzzy
 msgid "Dash background"
-msgstr "фон"
+msgstr "Фон панели приложений"
 
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../plugins/language//PageComponent.qml:35 ../build/po/settings.js:106
@@ -860,9 +821,8 @@ msgid "Display language…"
 msgstr "Выбранный язык..."
 
 #: ../plugins/language//PageComponent.qml:155
-#, fuzzy
 msgid "On-screen keyboard"
-msgstr "клавиатура"
+msgstr "Экранная клавиатура"
 
 #: ../plugins/language//PageComponent.qml:156
 #: ../plugins/language//KeyboardLayouts.qml:29
@@ -870,9 +830,8 @@ msgid "Keyboard layouts"
 msgstr "Раскладки клавиатуры"
 
 #: ../plugins/language//PageComponent.qml:167
-#, fuzzy
 msgid "External keyboard"
-msgstr "клавиатура"
+msgstr "Внешняя клавиатура"
 
 #: ../plugins/language//PageComponent.qml:181
 #: ../plugins/language//PageComponent.qml:191
@@ -903,11 +862,8 @@ msgid "Auto punctuation"
 msgstr "Пунктуация (автоматически)"
 
 #: ../plugins/language//PageComponent.qml:257
-#, fuzzy
 msgid "Inserts a period when you tap Space twice."
-msgstr ""
-"Добавление точек и отсутствующих кавычек или скобок при двойном нажатии "
-"пробела."
+msgstr "Добавляет точку точку при двойном нажатии пробела."
 
 #: ../plugins/language//PageComponent.qml:264
 #: ../plugins/sound//PageComponent.qml:250
@@ -935,9 +891,8 @@ msgid "All layouts available:"
 msgstr "Все доступные раскладки:"
 
 #: ../plugins/language//RebootNecessary.qml:34
-#, fuzzy
 msgid "The device needs to restart for changes to take effect."
-msgstr "Чтобы изменения вступили в силу, необходимо перезагрузить телефон."
+msgstr "Чтобы изменения вступили в силу, необходимо перезагрузить устройство."
 
 #: ../plugins/language//RebootNecessary.qml:38
 msgid "Restart Now"
@@ -952,13 +907,12 @@ msgid "All languages available:"
 msgstr "Все доступные языки:"
 
 #: ../plugins/language//PageHardwareKeyboard.qml:33
-#, fuzzy
 msgid "Hardware keyboard"
-msgstr "клавиатура"
+msgstr "Клавиатура"
 
 #: ../plugins/language//PageHardwareKeyboard.qml:61
 msgid "Layouts and other sources"
-msgstr ""
+msgstr "Раскладки клавиатуры и другие источники"
 
 #: ../plugins/about//Storage.qml:32 ../plugins/about//PageComponent.qml:150
 msgid "Storage"
@@ -966,7 +920,7 @@ msgstr "Хранилище"
 
 #: ../plugins/about//Storage.qml:44
 msgid "Scanning"
-msgstr ""
+msgstr "Сканирование"
 
 #: ../plugins/about//Storage.qml:111
 msgid "Used by Ubuntu"
@@ -1117,13 +1071,12 @@ msgid "Developer Mode"
 msgstr "Режим разработчика"
 
 #: ../plugins/about//DevMode.qml:84
-#, fuzzy
 msgid ""
 "In Developer Mode, anyone can access, change or delete anything on this "
 "device by connecting it to another device."
 msgstr ""
-"В режиме разработчика, любой может иметь доступ, изменять или удалять любые "
-"данные на вашем устройстве при подключении к другому."
+"В режиме разработчика, любой может получить доступ, изменять или удалять "
+"любые данные на вашем устройстве при его подключении к другому устройству."
 
 #: ../plugins/about//DevMode.qml:110
 msgid "You need a passcode or passphrase set to use Developer Mode."
@@ -1196,9 +1149,8 @@ msgid "Unset"
 msgstr "Отключить"
 
 #: ../plugins/security-privacy//LockSecurity.qml:461
-#, fuzzy
 msgid "Unlock the device using:"
-msgstr "Разблокировать телефон с помощью:"
+msgstr "Разблокировать устройство с помощью:"
 
 #: ../plugins/security-privacy//LockSecurity.qml:465
 msgid "Swipe (no security)"
@@ -1216,7 +1168,7 @@ msgstr "Кодовая фраза"
 #: ../plugins/security-privacy//LockSecurity.qml:468
 #: ../plugins/security-privacy//PhoneLocking.qml:60
 msgid "Fingerprint"
-msgstr ""
+msgstr "Отпечатка пальца"
 
 #: ../plugins/security-privacy//LockSecurity.qml:469
 msgid "Swipe (no security)… "
@@ -1251,12 +1203,12 @@ msgstr "Безопасность"
 
 #: ../plugins/security-privacy//PageComponent.qml:160
 msgid "Fingerprint ID"
-msgstr ""
+msgstr "Идентификатор отпечатка пальца"
 
 #: ../plugins/security-privacy//PageComponent.qml:180
 #: ../plugins/security-privacy//PhoneLocking.qml:32
 msgid "Locking and unlocking"
-msgstr ""
+msgstr "Блокирование и разблокирование"
 
 #: ../plugins/security-privacy//PageComponent.qml:191
 #: ../plugins/security-privacy//SimPin.qml:37
@@ -1307,9 +1259,8 @@ msgstr "Местоположение"
 
 #: ../plugins/security-privacy//PageComponent.qml:277
 #: ../plugins/security-privacy//AppAccess.qml:29
-#, fuzzy
 msgid "App permissions"
-msgstr "разрешения"
+msgstr "Разрешения приложений"
 
 #: ../plugins/security-privacy//PageComponent.qml:282
 #: ../plugins/security-privacy//diagnostics//PageComponent.qml:31
@@ -1329,17 +1280,16 @@ msgid "Not sent"
 msgstr "Не отправлено"
 
 #: ../plugins/security-privacy//Location.qml:96
-#, fuzzy
 msgid "Let the device detect your location:"
-msgstr "Приложения, запросившие доступ к микрофону"
+msgstr "Разрешить устройству определять ваше местоположение:"
 
 #: ../plugins/security-privacy//Location.qml:175
 msgid "Using GPS only (less accurate)"
-msgstr ""
+msgstr "Используя только GPS (пониженная точность)"
 
 #: ../plugins/security-privacy//Location.qml:176
 msgid "Using GPS"
-msgstr ""
+msgstr "Используя GPS"
 
 #: ../plugins/security-privacy//Location.qml:188
 #, qt-format
@@ -1347,6 +1297,9 @@ msgid ""
 "Using GPS, anonymized Wi-Fi and cellular network info.<br>By selecting this "
 "option you accept the <a href='%1'>Nokia HERE terms and conditions</a>."
 msgstr ""
+"Используя GPS, анонимизированную информацию Wi-Fi и мобильных сетей.<br>"
+"Выбирая эту опцию вы соглашаетесь с <a href='%1'>Условиями использования "
+"Nokia HERE</a>."
 
 #: ../plugins/security-privacy//Location.qml:189
 #, qt-format
@@ -1354,10 +1307,12 @@ msgid ""
 "Using GPS and anonymized Wi-Fi info.<br>By selecting this option you accept "
 "the <a href='%1'>Nokia HERE terms and conditions</a>."
 msgstr ""
+"Используя GPS и анонимизированную информацию Wi-Fi.<br>Выбирая эту опцию вы "
+"соглашаетесь с <a href='%1'>Условиями использования Nokia HERE</a>."
 
 #: ../plugins/security-privacy//Location.qml:195
 msgid "Not at all"
-msgstr ""
+msgstr "Нет"
 
 #: ../plugins/security-privacy//Location.qml:212
 msgid ""
@@ -1421,19 +1376,16 @@ msgstr ""
 "Отключение этой опции позволяет продлить жизнь батареи."
 
 #: ../plugins/security-privacy//Location.qml:231
-#, fuzzy
 msgid "Let apps access this location:"
-msgstr "Разрешить доступ к вашему местоположению:"
+msgstr "Разрешить приложениям доступ к местоположению:"
 
 #: ../plugins/security-privacy//Location.qml:254
-#, fuzzy
 msgid "None requested"
 msgstr "Не обнаружено"
 
 #: ../plugins/security-privacy//AppAccess.qml:62
-#, fuzzy
 msgid "Apps that you have granted access to:"
-msgstr "Приложения, к которым вы предоставили доступ и запросили доступ:"
+msgstr "Приложения, которым вы предоставили доступ к:"
 
 #: ../plugins/security-privacy//AppAccess.qml:68
 #: ../plugins/bluetooth//DevicePage.qml:61
@@ -1445,28 +1397,24 @@ msgid "Apps that have requested access to your camera"
 msgstr "Приложения, запросившие доступ к камере"
 
 #: ../plugins/security-privacy//AppAccess.qml:75
-#, fuzzy
 msgid "Apps that have requested access to your location"
-msgstr "Приложения, запросившие доступ к микрофону"
+msgstr "Приложения, запросившие доступ информации о местоположении"
 
 #: ../plugins/security-privacy//AppAccess.qml:80
-#, fuzzy
 msgid "Microphone"
-msgstr "телефон"
+msgstr "Микрофон"
 
 #: ../plugins/security-privacy//AppAccess.qml:81
-#, fuzzy
 msgid "Apps that have requested access to your microphone"
 msgstr "Приложения, запросившие доступ к микрофону"
 
 #: ../plugins/security-privacy//AppAccess.qml:86
 msgid "In-App Purchases"
-msgstr ""
+msgstr "Внутри-программные покупки"
 
 #: ../plugins/security-privacy//AppAccess.qml:87
-#, fuzzy
 msgid "Apps that have requested access for in-app purchases"
-msgstr "Приложения, запросившие доступ к камере"
+msgstr "Приложения, запросившие доступ к внутри-программным покупкам"
 
 #: ../plugins/security-privacy//AppAccess.qml:100
 #, qt-format
@@ -1478,13 +1426,12 @@ msgid "0"
 msgstr "0"
 
 #: ../plugins/security-privacy//AppAccess.qml:116
-#, fuzzy
 msgid "Apps may also request access to online accounts."
-msgstr "Приложения, запросившие доступ к микрофону"
+msgstr "Приложения могут также запрашивать доступ к сетевым учётным записям."
 
 #: ../plugins/security-privacy//AppAccess.qml:121
 msgid "Online Accounts…"
-msgstr ""
+msgstr "Сетевые учётные записи…"
 
 #: ../plugins/security-privacy//PhoneLocking.qml:57
 msgctxt "Unlock with swipe"
@@ -1514,10 +1461,10 @@ msgid "Notifications and quick settings"
 msgstr "Уведомления и быстрые настройки"
 
 #: ../plugins/security-privacy//PhoneLocking.qml:158
-#, fuzzy
 msgid "Turn on lock security to restrict access when the device is locked."
 msgstr ""
-"Включите блокировку для ограничения доступа, когда телефон заблокирован."
+"Включите блокировку с паролем для ограничения доступа, когда устройство "
+"заблокировано."
 
 #: ../plugins/security-privacy//PhoneLocking.qml:159
 msgid "Other apps and functions will prompt you to unlock."
@@ -1525,7 +1472,7 @@ msgstr "Другие приложения и функции запросят у 
 
 #: ../plugins/security-privacy//here-terms.qml:24
 msgid "Nokia HERE"
-msgstr ""
+msgstr "Nokia HERE"
 
 #: ../plugins/security-privacy//SimPin.qml:47
 msgid "Change SIM PIN"
@@ -1544,9 +1491,8 @@ msgstr[2] "Неверный ПИН. Осталось %1 попыток."
 #: ../plugins/security-privacy//SimPin.qml:119
 #: ../plugins/security-privacy//SimPin.qml:223
 #: ../plugins/security-privacy//SimPin.qml:296
-#, fuzzy
 msgid "No more attempts allowed"
-msgstr "Количество попыток: %1."
+msgstr "Превышено количество разрешённых попыток"
 
 #: ../plugins/security-privacy//SimPin.qml:92
 msgid "Current PIN:"
@@ -1590,32 +1536,28 @@ msgid "Lock"
 msgstr "Заблокировать"
 
 #: ../plugins/security-privacy//SimPin.qml:411
-#, fuzzy
 msgid "Unlocked"
-msgstr "Разблокировать"
+msgstr "Разблокировано"
 
 #: ../plugins/security-privacy//SimPin.qml:414
 msgid "Change PIN…"
 msgstr "Смена ПИН-кода..."
 
 #: ../plugins/security-privacy//SimPin.qml:425
-#, fuzzy
 msgid "Locked"
-msgstr "Заблокировать"
+msgstr "Заблокировано"
 
 #: ../plugins/security-privacy//SimPin.qml:429
-#, fuzzy
 msgid "Unlock…"
-msgstr "Разблокировать"
+msgstr "Разблокировать…"
 
 #: ../plugins/security-privacy//SimPin.qml:443
-#, fuzzy
 msgid ""
 "When a SIM PIN is set, it must be entered to access cellular services after "
 "restarting the device or swapping the SIM."
 msgstr ""
 "Когда PIN-код SIM-карты установлен, он должен быть введен для доступа к "
-"сотовой связи после перезапуска телефона или смены SIM."
+"сотовой сети после перезапуска телефона или смены SIM-карты."
 
 #: ../plugins/security-privacy//SimPin.qml:447
 msgid "Entering an incorrect PIN repeatedly may lock the SIM permanently."
@@ -1625,34 +1567,33 @@ msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../plugins/vpn//PageComponent.qml:31 ../build/po/settings.js:192
-#, fuzzy
 msgid "VPN"
-msgstr "APN"
+msgstr "VPN"
 
 #: ../plugins/vpn//PageComponent.qml:76
 msgid ""
 "To add a VPN configuration, download its config file or configure it "
 "manually."
 msgstr ""
+"Для добавления конфигурации VPN, скачайте файл конфигурации либо настройте "
+"VPN самостоятельно."
 
 #: ../plugins/vpn//PageComponent.qml:82
 msgid "Add Manual Configuration…"
-msgstr ""
+msgstr "Настроить самостоятельно…"
 
 #: ../plugins/vpn//PageComponent.qml:115
-#, fuzzy
 msgid "VPN reconnection required."
-msgstr "Ошибка службы общедоступного соединения"
+msgstr "Необходимо заново установить VPN соединение."
 
 #: ../plugins/vpn//PageComponent.qml:116
-#, fuzzy
 msgid "You need to reconnect for changes to have an effect."
-msgstr "Чтобы изменения вступили в силу, необходимо перезагрузить телефон."
+msgstr "Чтобы изменения вступили в силу, необходимо заново подключиться к сети."
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../plugins/mouse//PageComponent.qml:29 ../build/po/settings.js:210
 msgid "Mouse & Touchpad"
-msgstr ""
+msgstr "Мышь и сенсорная панель"
 
 #: ../plugins/mouse//None.qml:34
 msgid ""
@@ -1660,12 +1601,19 @@ msgid ""
 "Bluetooth device isn’t detected, make sure it is turned on and its batteries "
 "are charged."
 msgstr ""
+"Подключите мышь или сенсорную панель к USB порту, или воспользуйтесь "
+"устройством с возможностью подключения по Bluetooth. Если устройство "
+"Bluetooth не распознаётся системой, убедитесь что оно включено и батарея "
+"заряжена."
 
 #: ../plugins/mouse//None.qml:36
 msgid ""
 "You need to use a Bluetooth mouse or touchpad with this display. Make sure "
 "it is close to the device and its batteries are charged."
 msgstr ""
+"Для работы с экраном этого устройства вам понадобится мышь или сенсорная "
+"панель с возможностью Bluetooth подключения. Убедитесь что мышь или панель "
+"заряжены и находятся рядом с устройством."
 
 #: ../plugins/mouse//Connected.qml:48 ../plugins/bluetooth//DevicePage.qml:59
 msgid "Mouse"
@@ -1673,70 +1621,67 @@ msgstr "Мышь"
 
 #: ../plugins/mouse//Connected.qml:62 ../plugins/mouse//Connected.qml:228
 msgid "Cursor speed:"
-msgstr ""
+msgstr "Скорость перемещения указателя:"
 
 #: ../plugins/mouse//Connected.qml:98
 msgid "Wheel scrolling speed:"
-msgstr ""
+msgstr "Скорость прокрутки колёсиком:"
 
 #: ../plugins/mouse//Connected.qml:134 ../plugins/mouse//Connected.qml:301
 msgid "Double-click speed:"
-msgstr ""
+msgstr "Скорость двойного щелчка:"
 
 #: ../plugins/mouse//Connected.qml:168 ../plugins/mouse//Connected.qml:335
 msgid "Test double-click:"
-msgstr ""
+msgstr "Протестируйте двойное щелчок:"
 
 #: ../plugins/mouse//Connected.qml:214
 msgid "Touchpad"
-msgstr ""
+msgstr "Сенсорная панель"
 
 #: ../plugins/mouse//Connected.qml:264
 msgid "Finger scrolling speed:"
-msgstr ""
+msgstr "Скорость прокрутки пальцем:"
 
 #: ../plugins/mouse//Connected.qml:389
 msgid "Tap to click"
-msgstr ""
+msgstr "Нажатие работает как щелчок"
 
 #: ../plugins/mouse//Connected.qml:403
 msgid "Scroll with two fingers"
-msgstr ""
+msgstr "Прокрутка активируется нажатием двумя пальцами"
 
 #: ../plugins/mouse//Connected.qml:410
 msgid "Ignore touchpad when:"
-msgstr ""
+msgstr "Игнорировать сенсорную панель:"
 
 #: ../plugins/mouse//Connected.qml:432
 msgid "Typing"
-msgstr ""
+msgstr "При печати"
 
 #: ../plugins/mouse//Connected.qml:446
-#, fuzzy
 msgid "A mouse is connected"
-msgstr "Отключено"
+msgstr "При подключенной мыши"
 
 #: ../plugins/mouse//PrimaryButtonSelector.qml:42
 msgid "Primary button:"
-msgstr ""
+msgstr "Основная кнопка:"
 
 #: ../plugins/mouse//PrimaryButtonSelector.qml:72
 msgid "Left"
-msgstr ""
+msgstr "Левая"
 
 #: ../plugins/mouse//PrimaryButtonSelector.qml:89
-#, fuzzy
 msgid "Right"
-msgstr "полёт"
+msgstr "Правая"
 
 #: ../plugins/mouse//TapArea.qml:38
-#, fuzzy
 msgid "Not fast enough"
-msgstr "Не отправлено"
+msgstr "Недостаточно быстрый"
 
 #: ../plugins/mouse//TapArea.qml:77
 msgid "Double-clicked"
-msgstr ""
+msgstr "Двойной щелчок"
 
 #: ../plugins/reset//ResetAllSettings.qml:29
 msgid ""
@@ -1751,9 +1696,8 @@ msgid "Reset all system settings"
 msgstr "Сбросить все системные настройки"
 
 #: ../plugins/reset//PageComponent.qml:32
-#, fuzzy
 msgid "Reset device"
-msgstr "устройство"
+msgstr "Сбросить настройки устройства"
 
 #: ../plugins/reset//PageComponent.qml:75
 #: ../plugins/reset//PageComponent.qml:86
@@ -1768,22 +1712,20 @@ msgstr "Сбросить все системные настройки..."
 
 #: ../plugins/reset//PageComponent.qml:126
 #: ../plugins/reset//PageComponent.qml:138
-#, fuzzy
 msgid "Erase & Reset All"
-msgstr "Полностью удалить и сбросить"
+msgstr "Очистить и сбросить все настройки"
 
 #: ../plugins/reset//ResetLauncherHome.qml:40
 msgid "The Launcher will be returned to its original contents."
 msgstr "Панель запуска будет возвращена в исходное состояние."
 
 #: ../plugins/reset//EraseEverything.qml:41
-#, fuzzy
 msgid ""
 "All documents, saved games, settings, and other items will be permanently "
 "deleted from this device."
 msgstr ""
 "Все документы, сохранённые игры, настройки и другие объекты, будут "
-"безвозвратно удалены из этого телефона."
+"безвозвратно удалены с этого устройства."
 
 #: ../plugins/reset//EraseEverything.qml:44
 msgid "Erase & Reset Everything"
@@ -1799,7 +1741,7 @@ msgstr "Звонок:"
 
 #: ../plugins/sound//PageComponent.qml:141
 msgid "High volume can damage your hearing."
-msgstr ""
+msgstr "Высокий уровень звука может повредить слух."
 
 #: ../plugins/sound//PageComponent.qml:145
 msgid "Phone calls:"
@@ -1811,7 +1753,6 @@ msgid "Ringtone"
 msgstr "Мелодия вызова"
 
 #: ../plugins/sound//PageComponent.qml:171
-#, fuzzy
 msgid "Vibrate on ring"
 msgstr "Вибрация при звонке"
 
@@ -1822,9 +1763,8 @@ msgstr "Вибрация при бесшумном режиме"
 
 #: ../plugins/sound//PageComponent.qml:194
 #: ../plugins/phone//PageComponent.qml:102
-#, fuzzy
 msgid "Dialpad tones"
-msgstr "Звуки номеронабирателя"
+msgstr "Звук при наборе номера"
 
 #: ../plugins/sound//PageComponent.qml:203
 msgid "Messages:"
@@ -1848,19 +1788,16 @@ msgid "Lock sound"
 msgstr "Звук блокировки"
 
 #: ../plugins/sound//PageComponent.qml:277
-#, fuzzy
 msgid "Other vibrations"
-msgstr "вибро"
+msgstr "Другие вибрации"
 
 #: ../plugins/sound//SoundsList.qml:128
-#, fuzzy
 msgid "Custom Ringtone"
-msgstr "Мелодия вызова"
+msgstr "Собственная мелодия вызова"
 
 #: ../plugins/sound//SoundsList.qml:208
-#, fuzzy
 msgid "Choose from"
-msgstr "Выберите оператора связи:"
+msgstr "Выберите из"
 
 #. TRANSLATORS: This string is a description of a text
 #. field and should thus be concise.
@@ -1872,25 +1809,21 @@ msgid "APN"
 msgstr "APN"
 
 #: ../plugins/cellular//PageChooseApn.qml:63
-#, fuzzy
 msgid "MMS APN"
-msgstr "MMS APN:"
+msgstr "MMS APN"
 
 #: ../plugins/cellular//PageChooseApn.qml:69
-#, fuzzy
 msgid "Internet APN"
-msgstr "Интернет APN:"
+msgstr "Интернет APN"
 
 #: ../plugins/cellular//PageChooseApn.qml:75
-#, fuzzy
 msgid "LTE APN"
-msgstr "%1 APN"
+msgstr "LTE APN"
 
 #: ../plugins/cellular//PageChooseApn.qml:85
 #: ../plugins/cellular//PageApnEditor.qml:159
-#, fuzzy
 msgid "Internet and MMS"
-msgstr "Интернет"
+msgstr "Интернет и MMS"
 
 #: ../plugins/cellular//PageChooseApn.qml:87
 #: ../plugins/cellular//PageApnEditor.qml:160
@@ -1900,7 +1833,7 @@ msgstr "Интернет"
 #: ../plugins/cellular//PageChooseApn.qml:89
 #: ../plugins/cellular//PageApnEditor.qml:162
 msgid "LTE"
-msgstr ""
+msgstr "LTE"
 
 #: ../plugins/cellular//PageChooseApn.qml:91
 #: ../plugins/cellular//PageApnEditor.qml:161
@@ -1908,9 +1841,8 @@ msgid "MMS"
 msgstr "MMS"
 
 #: ../plugins/cellular//PageChooseApn.qml:155
-#, fuzzy
 msgid "Reset All APN Settings…"
-msgstr "Сброс настроек APN"
+msgstr "Сбросить настройки APN…"
 
 #: ../plugins/cellular//PageChooseApn.qml:164
 msgid "Reset APN Settings"
@@ -1933,7 +1865,7 @@ msgstr "Сбросить"
 #: ../plugins/cellular//PageChooseApn.qml:222
 #, qt-format
 msgid "Prefer %1"
-msgstr ""
+msgstr "Предпочитать %1"
 
 #. TRANSLATORS: %1 is the MMS APN that the user has chosen to be
 #. “preferred”, i.e. used to retrieve MMS messages. %2 is the Internet
@@ -1941,7 +1873,7 @@ msgstr ""
 #: ../plugins/cellular//PageChooseApn.qml:195
 #, qt-format
 msgid "You have chosen %1 as your preferred MMS APN. "
-msgstr ""
+msgstr "Вы выбрали %1 в качестве предпочтительной службы MMS APN. "
 
 #: ../plugins/cellular//PageChooseApn.qml:200
 #: ../plugins/cellular//PageChooseApn.qml:265
@@ -1955,33 +1887,32 @@ msgstr "Отключиться"
 #: ../plugins/cellular//PageChooseApn.qml:226
 #, qt-format
 msgid "You have chosen %1 as your preferred Internet APN. "
-msgstr ""
+msgstr "Вы выбрали %1 в качестве предпочтительной службы Интернет APN. "
 
 #: ../plugins/cellular//PageChooseApn.qml:231
 #: ../plugins/cellular//PageChooseApn.qml:264
-#, fuzzy
 msgid "Disable"
-msgstr "отключить"
+msgstr "Отключить"
 
 #: ../plugins/cellular//PageChooseApn.qml:253
-#, fuzzy, qt-format
+#, qt-format
 msgid "Disconnect %1"
-msgstr "Отключиться"
+msgstr "Разъединить %1"
 
 #: ../plugins/cellular//PageChooseApn.qml:254
-#, fuzzy, qt-format
+#, qt-format
 msgid "Disable %1"
-msgstr "отключить"
+msgstr "Отключить %1"
 
 #: ../plugins/cellular//PageChooseApn.qml:259
-#, fuzzy, qt-format
+#, qt-format
 msgid "This disconnects %1."
-msgstr "отключить"
+msgstr "Это разорвёт соединение %1."
 
 #: ../plugins/cellular//PageChooseApn.qml:260
 #, qt-format
 msgid "This disables %1."
-msgstr ""
+msgstr "Это отключит %1."
 
 #: ../plugins/cellular//PageChooseApn.qml:302
 msgid "Delete"
@@ -1994,30 +1925,29 @@ msgstr "Связь"
 
 #: ../plugins/cellular//PageApnEditor.qml:69
 msgid "Edit"
-msgstr ""
+msgstr "Правка"
 
 #: ../plugins/cellular//PageApnEditor.qml:69
-#, fuzzy
 msgid "New APN"
-msgstr "%1 APN"
+msgstr "Создать APN"
 
 #: ../plugins/cellular//PageApnEditor.qml:155
 msgid "Used for:"
-msgstr ""
+msgstr "Используется:"
 
 #: ../plugins/cellular//PageApnEditor.qml:180
 #: ../plugins/wifi//NetworkDetails.qml:57
 #: ../plugins/bluetooth//DevicePage.qml:101
 msgid "Name"
-msgstr "Имя"
+msgstr "Название"
 
 #: ../plugins/cellular//PageApnEditor.qml:188
 msgid "Enter a name describing the APN"
-msgstr ""
+msgstr "Введите имя, описывающее этот APN сервис"
 
 #: ../plugins/cellular//PageApnEditor.qml:213
 msgid "Enter the name of the access point"
-msgstr ""
+msgstr "Введите название точки доступа"
 
 #: ../plugins/cellular//PageApnEditor.qml:227
 msgid "MMSC"
@@ -2025,7 +1955,7 @@ msgstr "Системный центр мультимедийных сообще�
 
 #: ../plugins/cellular//PageApnEditor.qml:236
 msgid "Enter message center"
-msgstr ""
+msgstr "Введите центр передачи сообщений"
 
 #: ../plugins/cellular//PageApnEditor.qml:254
 msgid "Proxy"
@@ -2033,26 +1963,23 @@ msgstr "Прокси"
 
 #: ../plugins/cellular//PageApnEditor.qml:263
 msgid "Enter message proxy"
-msgstr ""
+msgstr "Введите прокси-сервис передачи сообщений"
 
 #: ../plugins/cellular//PageApnEditor.qml:308
-#, fuzzy
 msgid "Proxy port"
-msgstr "Прокси"
+msgstr "Порт прокси"
 
 #: ../plugins/cellular//PageApnEditor.qml:318
 msgid "Enter message proxy port"
-msgstr ""
+msgstr "Введите порт, используемый прокси-сервисом"
 
 #: ../plugins/cellular//PageApnEditor.qml:336
-#, fuzzy
 msgid "User name"
 msgstr "Имя пользователя"
 
 #: ../plugins/cellular//PageApnEditor.qml:345
-#, fuzzy
 msgid "Enter username"
-msgstr "Введите кодовую фразу"
+msgstr "Введите имя пользователя"
 
 #: ../plugins/cellular//PageApnEditor.qml:358
 #: ../plugins/wifi//NetworkDetails.qml:70 ../plugins/wifi//OtherNetwork.qml:786
@@ -2060,51 +1987,46 @@ msgid "Password"
 msgstr "Пароль"
 
 #: ../plugins/cellular//PageApnEditor.qml:369
-#, fuzzy
 msgid "Enter password"
-msgstr "Введите кодовую фразу"
+msgstr "Введите пароль"
 
 #: ../plugins/cellular//PageApnEditor.qml:383
 #: ../plugins/wifi//OtherNetwork.qml:338
-#, fuzzy
 msgid "Authentication"
-msgstr "уведомления"
+msgstr "Авторизация"
 
 #: ../plugins/cellular//PageApnEditor.qml:388
 msgid "PAP or CHAP"
-msgstr ""
+msgstr "PAP или CHAP"
 
 #: ../plugins/cellular//PageApnEditor.qml:389
-#, fuzzy
 msgid "PAP only"
-msgstr "Только из устройства"
+msgstr "Только PAP"
 
 #: ../plugins/cellular//PageApnEditor.qml:390
-#, fuzzy
 msgid "CHAP only"
-msgstr "Только из устройства"
+msgstr "Только CHAP"
 
 #: ../plugins/cellular//PageApnEditor.qml:401
 msgid "Protocol"
-msgstr ""
+msgstr "Протокол"
 
 #: ../plugins/cellular//PageApnEditor.qml:405
 msgid "IPv4"
-msgstr ""
+msgstr "IPv4"
 
 #: ../plugins/cellular//PageApnEditor.qml:406
 msgid "IPv6"
-msgstr ""
+msgstr "IPv6"
 
 #: ../plugins/cellular//PageApnEditor.qml:407
 msgid "IPv4v6"
-msgstr ""
+msgstr "IPv4v6"
 
 #: ../plugins/cellular//PageCarrierAndApn.qml:27
 #: ../plugins/cellular//Components//SingleSim.qml:110
-#, fuzzy
 msgid "Carrier & APN"
-msgstr "Доставка"
+msgstr "Оператор и APN"
 
 #: ../plugins/cellular//PageCarrierAndApn.qml:44
 #: ../plugins/cellular//PageCarrierAndApn.qml:52
@@ -2115,9 +2037,8 @@ msgid "Carrier"
 msgstr "Доставка"
 
 #: ../plugins/cellular//PageCarriersAndApns.qml:27
-#, fuzzy
 msgid "Carriers & APNs"
-msgstr "Операторы"
+msgstr "Операторы и APN-ы"
 
 #: ../plugins/cellular//PageChooseCarrier.qml:153
 #: ../plugins/time-date//ChooseTimeZone.qml:50
@@ -2136,9 +2057,8 @@ msgstr "Предыдущие сети"
 
 #: ../plugins/wifi//NetworkDetailsBrief.qml:53
 #: ../plugins/wifi//NetworkDetails.qml:96
-#, fuzzy
 msgid "Forget this network"
-msgstr "Забыть сеть"
+msgstr "Забыть данную сеть"
 
 #: ../plugins/wifi//NetworkDetailsBrief.qml:69
 msgid "IP address"
@@ -2167,25 +2087,23 @@ msgstr "Последнее подключение"
 
 #: ../plugins/wifi//CertDialog.qml:22
 msgid "Add certificate?"
-msgstr ""
+msgstr "Добавить сертификат?"
 
 #: ../plugins/wifi//CertDialog.qml:24
 msgid "Add key?"
-msgstr ""
+msgstr "Добавить ключ?"
 
 #: ../plugins/wifi//CertDialog.qml:26
 msgid "Add pac file?"
-msgstr ""
+msgstr "Добавить pac-файл?"
 
 #: ../plugins/wifi//CertDialog.qml:36
-#, fuzzy
 msgid "Content:"
-msgstr "Продолжить"
+msgstr "Содержимое:"
 
 #: ../plugins/wifi//CertDialog.qml:49
-#, fuzzy
 msgid "No data available."
-msgstr "Доступные обновления"
+msgstr "Нет данных."
 
 #: ../plugins/wifi//CertDialog.qml:74
 msgid "Save"
@@ -2205,16 +2123,15 @@ msgstr "Имя сети"
 
 #: ../plugins/wifi//OtherNetwork.qml:298
 msgid "SSID"
-msgstr ""
+msgstr "SSID"
 
 #: ../plugins/wifi//OtherNetwork.qml:319
 msgid "WPA & WPA2 Personal"
 msgstr "WPA и WPA2 Personal"
 
 #: ../plugins/wifi//OtherNetwork.qml:320
-#, fuzzy
 msgid "WPA & WPA2 Enterprise"
-msgstr "WPA и WPA2 Personal"
+msgstr "WPA и WPA2 Enterprise"
 
 #: ../plugins/wifi//OtherNetwork.qml:321
 msgid "WEP"
@@ -2222,23 +2139,23 @@ msgstr "WEP"
 
 #: ../plugins/wifi//OtherNetwork.qml:322
 msgid "Dynamic WEP (802.1x)"
-msgstr ""
+msgstr "Динамический WEP (802.1x)"
 
 #: ../plugins/wifi//OtherNetwork.qml:323
 msgid "LEAP"
-msgstr ""
+msgstr "LEAP"
 
 #: ../plugins/wifi//OtherNetwork.qml:332
 msgid "This network is insecure."
-msgstr ""
+msgstr "Незащищённая сеть."
 
 #: ../plugins/wifi//OtherNetwork.qml:363
 msgid "Inner authentication"
-msgstr ""
+msgstr "Внутренняя авторизация"
 
 #: ../plugins/wifi//OtherNetwork.qml:396
 msgid "CA certificate"
-msgstr ""
+msgstr "сертификат CA"
 
 #. TRANSLATORS: %1 is the name of a certificate file.
 #. The ellipsis indicates that the file name has been
@@ -2246,14 +2163,14 @@ msgstr ""
 #: ../plugins/wifi//OtherNetwork.qml:450
 #, qt-format
 msgid "%1…"
-msgstr ""
+msgstr "%1…"
 
 #: ../plugins/wifi//OtherNetwork.qml:458 ../plugins/wifi//OtherNetwork.qml:575
 #: ../plugins/wifi//certhandler.cpp:106 ../plugins/wifi//certhandler.cpp:141
 #: ../plugins/wifi//certhandler.cpp:193 ../plugins/wifi//certhandler.cpp:225
 #: ../plugins/wifi//certhandler.cpp:290 ../plugins/wifi//certhandler.cpp:319
 msgid "Choose…"
-msgstr ""
+msgstr "Выбрать…"
 
 #. TRANSLATORS: The first position is the name of
 #. the organization that has issued the certificate.
@@ -2263,7 +2180,7 @@ msgstr ""
 #: ../plugins/wifi//OtherNetwork.qml:465
 #, qt-format
 msgid "%1…, Exp.: %2"
-msgstr ""
+msgstr "%1…, Истекает: %2"
 
 #. TRANSLATORS: The first position is the name of
 #. the organization that has issued the certificate.
@@ -2272,19 +2189,20 @@ msgstr ""
 #: ../plugins/wifi//OtherNetwork.qml:473
 #, qt-format
 msgid "%1, Exp.: %2"
-msgstr ""
+msgstr "%1, Истекает: %2"
 
 #: ../plugins/wifi//OtherNetwork.qml:494
 msgid "Using certificates is recommend as it increases security."
 msgstr ""
+"Для повышения уровня безопасности рекомендуется использовать сертификаты."
 
 #: ../plugins/wifi//OtherNetwork.qml:512
 msgid "Client certificate"
-msgstr ""
+msgstr "Сертификат клиента"
 
 #: ../plugins/wifi//OtherNetwork.qml:554
 msgid "User private key"
-msgstr ""
+msgstr "Персональный ключ пользователя"
 
 #. TRANSLATORS: The first position is the type of
 #. private key, second the key algorithm, and third the
@@ -2292,15 +2210,15 @@ msgstr ""
 #: ../plugins/wifi//OtherNetwork.qml:579
 #, qt-format
 msgid "%1, %2, %3 bit"
-msgstr ""
+msgstr "%1, %2, %3 бит"
 
 #: ../plugins/wifi//OtherNetwork.qml:622
 msgid "Pac file"
-msgstr ""
+msgstr "Pac файл"
 
 #: ../plugins/wifi//OtherNetwork.qml:672
 msgid "Pac provisioning"
-msgstr ""
+msgstr "Pac подтверждение"
 
 #: ../plugins/wifi//OtherNetwork.qml:686
 msgid "Disabled"
@@ -2308,43 +2226,39 @@ msgstr "Выключено"
 
 #: ../plugins/wifi//OtherNetwork.qml:687
 msgid "Anonymous"
-msgstr ""
+msgstr "Анонимно"
 
 #: ../plugins/wifi//OtherNetwork.qml:688
 msgid "Authenticated"
-msgstr ""
+msgstr "Авторизован"
 
 #: ../plugins/wifi//OtherNetwork.qml:689
 msgid "Both"
-msgstr ""
+msgstr "И то и другое"
 
 #: ../plugins/wifi//OtherNetwork.qml:699
-#, fuzzy
 msgid "PEAP version"
-msgstr "версия"
+msgstr "версия PEAP"
 
 #: ../plugins/wifi//OtherNetwork.qml:713
-#, fuzzy
 msgid "Version 0"
-msgstr "Версия: "
+msgstr "Версия 0"
 
 #: ../plugins/wifi//OtherNetwork.qml:714
-#, fuzzy
 msgid "Version 1"
-msgstr "Версия: "
+msgstr "Версия 1"
 
 #: ../plugins/wifi//OtherNetwork.qml:715
-#, fuzzy
 msgid "Automatic"
-msgstr "автоматический"
+msgstr "Автоматически"
 
 #: ../plugins/wifi//OtherNetwork.qml:725
 msgid "Anonymous identity"
-msgstr ""
+msgstr "Анонимный идентификатор"
 
 #: ../plugins/wifi//OtherNetwork.qml:752
 msgid "Identity"
-msgstr ""
+msgstr "Идентификатор"
 
 #: ../plugins/wifi//OtherNetwork.qml:754
 msgid "Username"
@@ -2352,12 +2266,11 @@ msgstr "Имя пользователя"
 
 #: ../plugins/wifi//OtherNetwork.qml:784
 msgid "Private key password"
-msgstr ""
+msgstr "Пароль персонального ключа"
 
 #: ../plugins/wifi//OtherNetwork.qml:857
-#, fuzzy
 msgid "Remember password"
-msgstr "пароль"
+msgstr "Запомнить пароль"
 
 #: ../plugins/wifi//OtherNetwork.qml:905
 #: ../plugins/bluetooth//DevicePage.qml:145
@@ -2436,19 +2349,21 @@ msgstr "Год"
 
 #: ../plugins/launcher//PageComponent.qml:64
 msgid "On large screens:"
-msgstr ""
+msgstr "На больших экранах:"
 
 #: ../plugins/launcher//PageComponent.qml:72
 msgid "Always show the launcher"
-msgstr ""
+msgstr "Всегда отображать панель запуска"
 
 #: ../plugins/launcher//PageComponent.qml:73
 msgid "Videos and full-screen games may hide it temporarily."
 msgstr ""
+"Просмотр видео и игры, использующие весь экран, могут временно перекрывать "
+"её."
 
 #: ../plugins/launcher//PageComponent.qml:84
 msgid "Icon size:"
-msgstr ""
+msgstr "Размер пиктограмм:"
 
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../plugins/phone//PageComponent.qml:32
@@ -2479,7 +2394,7 @@ msgstr "Последний вызов %1"
 
 #: ../plugins/phone//ServiceInfo.qml:119
 msgid "Call"
-msgstr "Телефонный звонок"
+msgstr "Позвонить"
 
 #: ../plugins/phone//CallWaiting.qml:96
 msgid ""
@@ -2496,9 +2411,8 @@ msgid "Forward to"
 msgstr "Переадресовать"
 
 #: ../plugins/phone//CallForwardItem.qml:171
-#, fuzzy
 msgid "Enter a number"
-msgstr "Номер телефона"
+msgstr "Введите номер"
 
 #: ../plugins/phone//CallForwardItem.qml:218
 msgid "Call forwarding can’t be changed right now."
@@ -2506,91 +2420,83 @@ msgstr "В данный момент переадресация вызовов �
 
 #: ../plugins/phone//SingleSim.qml:29
 msgid "SIM"
-msgstr "SIM"
+msgstr "SIM карта"
 
 #. TRANSLATORS: %1 is the name of the (network) carrier
 #: ../plugins/phone//SingleSim.qml:53 ../plugins/phone//Services.qml:35
 #, qt-format
 msgid "%1 Services"
-msgstr "Сервисы от %1"
+msgstr "Услуги провайдера %1"
 
 #: ../plugins/phone//CallForwarding.qml:131
 msgid "Forward every incoming call"
-msgstr "Переадресовывать кадждый входящий вызов"
+msgstr "Переадресовывать все входящие звонки"
 
 #: ../plugins/phone//CallForwarding.qml:146
-#, fuzzy
 msgid "Redirects all phone calls to another number."
 msgstr "Перенаправляет все вызовы на другой номер."
 
 #: ../plugins/phone//CallForwarding.qml:158
 msgid "Call forwarding status can’t be checked "
-msgstr ""
+msgstr "Невозможно проверить состояние переадресации вызовов "
 
 #: ../plugins/phone//CallForwarding.qml:166
-#, fuzzy
 msgid "Forward incoming calls when:"
-msgstr "Для исходящих вызовов использовать:"
+msgstr "Переадресовывать входящие звонки если:"
 
 #: ../plugins/phone//CallForwarding.qml:175
 msgid "I’m on another call"
-msgstr ""
+msgstr "Разговариваю по другой линии"
 
 #: ../plugins/phone//CallForwarding.qml:186
 msgid "I don’t answer"
-msgstr ""
+msgstr "Не снимать трубку"
 
 #: ../plugins/phone//CallForwarding.qml:197
-#, fuzzy
 msgid "My phone is unreachable"
-msgstr "ModemManager недоступен"
+msgstr "Мой телефон вне сети"
 
 #: ../plugins/phone//CallForwarding.qml:227
 msgid "Contacts…"
-msgstr ""
+msgstr "Контакты…"
 
 #: ../plugins/phone//CallForwarding.qml:274
-#, fuzzy
 msgid "Please select a phone number"
-msgstr "Номер телефона"
+msgstr "Выберите телефонный номер"
 
 #: ../plugins/phone//CallForwarding.qml:283
-#, fuzzy
 msgid "Numbers"
-msgstr "числа"
+msgstr "Номера"
 
 #: ../plugins/phone//CallForwarding.qml:302
 msgid "Could not forward to this contact"
-msgstr ""
+msgstr "Не удалось переадресовать вызов выбранному контакту"
 
 #: ../plugins/phone//CallForwarding.qml:303
 msgid "Contact not associated with any phone number."
-msgstr ""
+msgstr "Нет информации о телефонных номерах данного контакта."
 
 #: ../plugins/phone//CallForwarding.qml:382
-#, fuzzy
 msgid "All calls"
-msgstr "вызов"
+msgstr "Все вызовы"
 
 #: ../plugins/phone//CallForwarding.qml:384
-#, fuzzy
 msgid "Some calls"
-msgstr "Телефонные вызовы:"
+msgstr "Некоторые звонки"
 
 #: ../plugins/brightness//WifiDisplaysAlert.qml:32
-#, fuzzy, qt-format
+#, qt-format
 msgid "This device failed to connect to %1."
-msgstr "отключить"
+msgstr "Не удалось подключиться к %1."
 
 #: ../plugins/brightness//WifiDisplaysAlert.qml:34
 #, qt-format
 msgid "There was an unknown error connecting to %1."
-msgstr ""
+msgstr "Произошла непонятная ошибка при подключении к %1."
 
 #: ../plugins/brightness//PageComponent.qml:35
-#, fuzzy
 msgid "Brightness & Display"
-msgstr "Яркость"
+msgstr "Яркость и экран"
 
 #. TRANSLATORS: This is a keyword or name for the brightness plugin which is used while searching
 #: ../plugins/brightness//PageComponent.qml:35 ../build/po/settings.js:344
@@ -2606,50 +2512,42 @@ msgid "Brightens and dims the display to suit the surroundings."
 msgstr "Автонастройка яркости экрана в зависимости от освещённости."
 
 #: ../plugins/brightness//PageComponent.qml:140
-#, fuzzy
 msgid "External display"
-msgstr "отображение"
+msgstr "Внешний экран"
 
 #: ../plugins/brightness//PageComponent.qml:158
-#, fuzzy
 msgid "Wireless display"
-msgstr "отображение"
+msgstr "Беспроводный экран"
 
 #: ../plugins/brightness//PageComponent.qml:159
 #: ../plugins/brightness//WifiDisplays.qml:127
 #: ../plugins/brightness//WifiDisplays.qml:171
-#, fuzzy
 msgid "Not connected"
-msgstr "Последнее подключение"
+msgstr "Отключен"
 
 #: ../plugins/brightness//WifiDisplays.qml:27
 msgid "Wireless Display"
-msgstr ""
+msgstr "Беспроводный экран"
 
 #: ../plugins/brightness//WifiDisplays.qml:99
-#, fuzzy
 msgid "No displays detected"
-msgstr "Не обнаружено"
+msgstr "Не удалось определить экран"
 
 #: ../plugins/brightness//WifiDisplays.qml:112
-#, fuzzy
 msgid "Connected display:"
-msgstr "Подключённые устройства:"
+msgstr "Подключенный экран:"
 
 #: ../plugins/brightness//WifiDisplays.qml:127
-#, fuzzy
 msgid "Connecting"
-msgstr "Подключение..."
+msgstr "Идёт подключение"
 
 #: ../plugins/brightness//WifiDisplays.qml:145
-#, fuzzy
 msgid "Use another display:"
-msgstr "Подключить другое устройство:"
+msgstr "Использовать другой экран:"
 
 #: ../plugins/brightness//WifiDisplays.qml:145
-#, fuzzy
 msgid "Choose a display:"
-msgstr "Введите кодовую фразу"
+msgstr "Выберите экран:"
 
 #: ../plugins/bluetooth//DisplayPasskeyDialog.qml:26
 #: ../plugins/bluetooth//ProvidePasskeyDialog.qml:28
@@ -2665,6 +2563,7 @@ msgstr "Запрос соединения по Bluetooth"
 #, qt-format
 msgid "Please enter the following PIN on %1 and press “Enter” on the keyboard:"
 msgstr ""
+"Введите нижеприведённый PIN на устройстве %1 и нажмите «Ввод» на клавиатуре:"
 
 #: ../plugins/bluetooth//PageComponent.qml:250
 msgid "Discoverable"
@@ -2676,9 +2575,8 @@ msgstr "Скрытый"
 
 #: ../plugins/bluetooth//PageComponent.qml:263
 #: ../plugins/bluetooth//PageComponent.qml:320
-#, fuzzy
 msgid "Searching…"
-msgstr "Повторный запуск..."
+msgstr "Идёт поиск…"
 
 #: ../plugins/bluetooth//PageComponent.qml:272
 msgid "Connected devices:"
@@ -2728,25 +2626,23 @@ msgid "Confirm PIN"
 msgstr "Подтвердите ПИН-код"
 
 #: ../plugins/bluetooth//AuthorizationRequestDialog.qml:26
-#, fuzzy
 msgid "Bluetooth Pairing Authorization Request"
-msgstr "Запрос соединения по Bluetooth"
+msgstr "Запрос авторизации для сопряжения по Bluetooth"
 
 #. TRANSLATORS: %1 is the name of the bluetooth device which requires authorization
 #: ../plugins/bluetooth//AuthorizationRequestDialog.qml:34
 #, qt-format
 msgid ""
 "The device %1 wants to pair with this device. Do you want to allow this?"
-msgstr ""
+msgstr "%1 запрашивает разрешение на сопряжение с этим устройством. Разрешить?"
 
 #: ../plugins/bluetooth//AuthorizationRequestDialog.qml:39
-#, fuzzy
 msgid "Allow"
-msgstr "разрешить"
+msgstr "Разрешить"
 
 #: ../plugins/bluetooth//AuthorizationRequestDialog.qml:46
 msgid "Refuse"
-msgstr ""
+msgstr "Отклонить"
 
 #: ../plugins/bluetooth//DevicePage.qml:39
 msgid "Disconnecting…"
@@ -2802,11 +2698,11 @@ msgstr "Принтер"
 
 #: ../plugins/bluetooth//DevicePage.qml:62
 msgid "Watch"
-msgstr ""
+msgstr "Часы"
 
 #: ../plugins/bluetooth//DevicePage.qml:63
 msgid "Other"
-msgstr "Прочее"
+msgstr "Другой"
 
 #: ../plugins/bluetooth//DevicePage.qml:69
 msgid "Excellent"
@@ -2882,20 +2778,17 @@ msgstr "Включает информацию о приложении на мо�
 
 #: ../plugins/cellular//Components//NoSim.qml:36
 #: ../plugins/cellular//Components//DataMultiSim.qml:73
-#, fuzzy
 msgid "No SIM detected"
-msgstr "Не обнаружено"
+msgstr "SIM-карта не обнаружена"
 
 #: ../plugins/cellular//Components//NoSim.qml:45
 #: ../plugins/cellular//Components//DataMultiSim.qml:81
-#, fuzzy
 msgid "Insert a SIM, then restart the device."
-msgstr "Вставьте SIM-карту и перезапустите устройство"
+msgstr "Вставьте SIM-карту и перезапустите устройство."
 
 #: ../plugins/cellular//Components//DataMultiSim.qml:36
-#, fuzzy
 msgid "Cellular data"
-msgstr "Данные сотовой сети:"
+msgstr "Данные сотовой сети"
 
 #: ../plugins/cellular//Components//DataMultiSim.qml:147
 #: ../plugins/cellular//Components//SingleSim.qml:92
@@ -2910,13 +2803,12 @@ msgstr "Свойства названия SIM-карты"
 #. this word must be less than 5 characters
 #: ../plugins/cellular//Components//LabelTextField.qml:51
 msgid "Next"
-msgstr ""
+msgstr "Далее"
 
 #: ../plugins/cellular//Components//RadioSingleSim.qml:31
 #: ../plugins/cellular//Components//MultiSim.qml:84
-#, fuzzy
 msgid "Connection type:"
-msgstr "Подключено"
+msgstr "Тип подключения:"
 
 #: ../plugins/cellular//Components//DefaultSim.qml:33
 msgid "Ask me each time"
@@ -3008,9 +2900,8 @@ msgstr "приложения"
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../build/po/settings.js:14
-#, fuzzy
 msgid "application"
-msgstr "заглавные буквы"
+msgstr "приложение"
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
@@ -3050,14 +2941,13 @@ msgstr "сеть"
 
 #. TRANSLATORS: This is a keyword or name for the hotspot plugin which is used while searching
 #: ../build/po/settings.js:28
-#, fuzzy
 msgid "hotspot"
-msgstr "Точка доступа"
+msgstr "точка доступа"
 
 #. TRANSLATORS: This is a keyword or name for the hotspot plugin which is used while searching
 #: ../build/po/settings.js:30
 msgid "tethering"
-msgstr ""
+msgstr "tethering"
 
 #. TRANSLATORS: This is a keyword or name for the accessibility plugin which is used while searching
 #: ../build/po/settings.js:32
@@ -3196,7 +3086,7 @@ msgstr "изображение"
 #. TRANSLATORS: This is a keyword or name for the flight-mode plugin which is used while searching
 #: ../build/po/settings.js:94
 msgid "Flight Mode"
-msgstr "Авиарежим"
+msgstr "Режим полёта"
 
 #. TRANSLATORS: This is a keyword or name for the flight-mode plugin which is used while searching
 #: ../build/po/settings.js:96
@@ -3429,14 +3319,13 @@ msgstr "отключить"
 
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../build/po/settings.js:200
-#, fuzzy
 msgid "vpn"
-msgstr "пин"
+msgstr "vpn"
 
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../build/po/settings.js:202
 msgid "openvpn"
-msgstr ""
+msgstr "openvpn"
 
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
@@ -3447,34 +3336,32 @@ msgstr "ip"
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../build/po/settings.js:208
 msgid "routing"
-msgstr ""
+msgstr "маршрутизация"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../build/po/settings.js:212
-#, fuzzy
 msgid "mouse"
-msgstr "Мышь"
+msgstr "мышь"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../build/po/settings.js:214
 msgid "touchpad"
-msgstr ""
+msgstr "сенсорная панель"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../build/po/settings.js:216
-#, fuzzy
 msgid "tap"
-msgstr "apn"
+msgstr "нажмите"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../build/po/settings.js:218
 msgid "touch"
-msgstr ""
+msgstr "дотроньтесь"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../build/po/settings.js:222
 msgid "input"
-msgstr ""
+msgstr "ввод"
 
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../build/po/settings.js:226
@@ -3650,9 +3537,8 @@ msgstr "часовая зона"
 
 #. TRANSLATORS: This is a keyword or name for the launcher plugin which is used while searching
 #: ../build/po/settings.js:322
-#, fuzzy
 msgid "launcher"
-msgstr "Панель запуска"
+msgstr "панель запуска"
 
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../build/po/settings.js:330
@@ -3737,9 +3623,8 @@ msgstr "стерео"
 
 #. TRANSLATORS: This is a keyword or name for the orientation-lock plugin which is used while searching
 #: ../build/po/settings.js:380
-#, fuzzy
 msgid "Rotation Lock"
-msgstr "Запрет автоповорота экрана"
+msgstr "Блокировка поворота экрана"
 
 #. TRANSLATORS: This is a keyword or name for the orientation-lock plugin which is used while searching
 #: ../build/po/settings.js:382
@@ -3776,31 +3661,29 @@ msgid "Authentication token manipulation error"
 msgstr "Ошибка при операциях с маркером проверки подлинности"
 
 #: ../plugins/wifi//certhandler.cpp:258
-#, fuzzy
 msgid "Private key"
-msgstr "Конфиденциальность"
+msgstr "Закрытый ключ"
 
 #: ../plugins/wifi//certhandler.cpp:259
 msgid "Public key"
-msgstr ""
+msgstr "Открытый ключ"
 
 #: ../plugins/wifi//certhandler.cpp:264
 msgid "Opaque"
-msgstr ""
+msgstr "Непрозрачный"
 
 #: ../src/systemimage.cpp:181
 msgid "Can't cancel current request (can't contact service)"
-msgstr "Нельзя отменить текущий запрос (нельзя связаться со службой)"
+msgstr "Текущий запрос не может быть отменён (служба недоступна)"
 
 #: ../src/systemimage.cpp:194
 msgid "Can't pause current request (can't contact service)"
-msgstr "Нельзя поставить на паузу текущий запрос (нельзя связаться со службой)"
+msgstr "Текущий запрос нельзя поставить на паузу (служба недоступна)"
 
 #: ../src/systemimage.cpp:318 ../src/systemimage.cpp:324
 #: ../src/systemimage.cpp:330
-#, fuzzy
 msgid "Unavailable"
-msgstr "Доступные обновления"
+msgstr "Недоступно"
 
 #: ../push-helper/software_updates_helper.py:159
 msgid "There's an updated system image."
