@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-11-22 00:51+0000\n"
+"PO-Revision-Date: 2017-11-22 23:53+0000\n"
 "Last-Translator: Alexey Balmashnov <a.balmashnov@gmail.com>\n"
 "Language-Team: Russian <https://translate.ubports.com/projects/ubports"
 "/system-settings/ru/>\n"
@@ -95,7 +95,7 @@ msgstr "При любом типе подключения к сети Интер
 
 #: ../plugins/system-update//Configuration.qml:57
 msgid "Data charges may apply."
-msgstr "Внимание! Может взиматься плата!"
+msgstr "Внимание! Может взиматься плата."
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../plugins/system-update//PageComponent.qml:38 ../build/po/settings.js:4
@@ -108,7 +108,7 @@ msgstr "Подключитесь к интернету для проверки �
 
 #: ../plugins/system-update//PageComponent.qml:184
 msgid "Software is up to date"
-msgstr "Программное обеспечение актуально."
+msgstr "Программное обеспечение актуально"
 
 #: ../plugins/system-update//PageComponent.qml:187
 msgid "The update server is not responding. Try again later."
@@ -197,7 +197,7 @@ msgstr "Войдите в Ubuntu One, чтобы получить обновле
 
 #: ../plugins/system-update//NotAuthenticatedNotification.qml:54
 msgid "Sign In…"
-msgstr "Вход..."
+msgstr "Вход…"
 
 #: ../plugins/system-update//ChangelogExpander.qml:42
 #, qt-format
@@ -224,7 +224,7 @@ msgstr "Каналы"
 
 #: ../plugins/system-update//Global.qml:84
 msgid "Checking for updates…"
-msgstr "Проверка обновлений..."
+msgstr "Проверка обновлений…"
 
 #: ../plugins/system-update//Global.qml:89
 msgid "Stop"
@@ -265,11 +265,11 @@ msgstr "Продолжить"
 
 #: ../plugins/system-update//UpdateDelegate.qml:139
 msgid "Pause"
-msgstr "Приостановить"
+msgstr "Пауза"
 
 #: ../plugins/system-update//UpdateDelegate.qml:143
 msgid "Install…"
-msgstr "Установить..."
+msgstr "Установить…"
 
 #: ../plugins/system-update//UpdateDelegate.qml:145
 msgid "Install"
@@ -634,7 +634,7 @@ msgstr "Сегодня"
 
 #: ../plugins/battery//PageComponent.qml:269
 msgid "Charging now"
-msgstr "Заряжается..."
+msgstr "Заряжается"
 
 #: ../plugins/battery//PageComponent.qml:271
 msgid "Last full charge"
@@ -792,7 +792,7 @@ msgstr "Удалить файл образа"
 #: ../plugins/time-date//TimePicker.qml:181
 #: ../plugins/phone//CallForwarding.qml:253
 msgid "Set"
-msgstr "Установить"
+msgstr "Выбрать"
 
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../plugins/background//MainPage.qml:36 ../build/po/settings.js:78
@@ -818,7 +818,7 @@ msgstr "Язык и текст"
 
 #: ../plugins/language//PageComponent.qml:139
 msgid "Display language…"
-msgstr "Выбранный язык..."
+msgstr "Выбранный язык…"
 
 #: ../plugins/language//PageComponent.qml:155
 msgid "On-screen keyboard"
@@ -1082,7 +1082,7 @@ msgstr ""
 msgid "You need a passcode or passphrase set to use Developer Mode."
 msgstr ""
 "Вам необходимо установить код-пароль или фразу-пароль для того чтобы "
-"использовать режим Разработчик"
+"использовать режим Разработчика."
 
 #: ../plugins/about//DevMode.qml:116
 #: ../plugins/security-privacy//LockSecurity.qml:36
@@ -1093,16 +1093,16 @@ msgstr "Защита блокировки"
 #: ../plugins/security-privacy//LockSecurity.qml:136
 #: ../plugins/security-privacy//LockSecurity.qml:561
 msgid "Change passcode…"
-msgstr "Изменение секретного кода..."
+msgstr "Изменение секретного кода…"
 
 #: ../plugins/security-privacy//LockSecurity.qml:138
 #: ../plugins/security-privacy//LockSecurity.qml:562
 msgid "Change passphrase…"
-msgstr "Изменить кодовую фразу..."
+msgstr "Изменить кодовую фразу…"
 
 #: ../plugins/security-privacy//LockSecurity.qml:145
 msgid "Switch to swipe"
-msgstr "Переключить на свайп"
+msgstr "Использовать сдвиг"
 
 #: ../plugins/security-privacy//LockSecurity.qml:147
 msgid "Switch to passcode"
@@ -1154,7 +1154,7 @@ msgstr "Разблокировать устройство с помощью:"
 
 #: ../plugins/security-privacy//LockSecurity.qml:465
 msgid "Swipe (no security)"
-msgstr "Свайп (небезопасно)"
+msgstr "Сдвиг (не обеспечивает безопасность)"
 
 #: ../plugins/security-privacy//LockSecurity.qml:466
 msgid "4-digit passcode"
@@ -1172,15 +1172,15 @@ msgstr "Отпечатка пальца"
 
 #: ../plugins/security-privacy//LockSecurity.qml:469
 msgid "Swipe (no security)… "
-msgstr "Свайп (небезопасно)... "
+msgstr "Сдвиг (не обеспечивает безопасность)… "
 
 #: ../plugins/security-privacy//LockSecurity.qml:470
 msgid "4-digit passcode…"
-msgstr "4-значный код..."
+msgstr "4-значный код…"
 
 #: ../plugins/security-privacy//LockSecurity.qml:471
 msgid "Passphrase…"
-msgstr "Кодовая фраза..."
+msgstr "Кодовая фраза…"
 
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../plugins/security-privacy//PageComponent.qml:40
@@ -1468,7 +1468,7 @@ msgstr ""
 
 #: ../plugins/security-privacy//PhoneLocking.qml:159
 msgid "Other apps and functions will prompt you to unlock."
-msgstr "Другие приложения и функции запросят у вас разблокировать"
+msgstr "Другие приложения и функции запросят у вас разблокировать."
 
 #: ../plugins/security-privacy//here-terms.qml:24
 msgid "Nokia HERE"
@@ -1541,7 +1541,7 @@ msgstr "Разблокировано"
 
 #: ../plugins/security-privacy//SimPin.qml:414
 msgid "Change PIN…"
-msgstr "Смена ПИН-кода..."
+msgstr "Смена PIN-кода…"
 
 #: ../plugins/security-privacy//SimPin.qml:425
 msgid "Locked"
@@ -1708,7 +1708,7 @@ msgstr "Сброс панели запуска"
 #: ../plugins/reset//PageComponent.qml:101
 #: ../plugins/reset//PageComponent.qml:112
 msgid "Reset all system settings…"
-msgstr "Сбросить все системные настройки..."
+msgstr "Сбросить все системные настройки…"
 
 #: ../plugins/reset//PageComponent.qml:126
 #: ../plugins/reset//PageComponent.qml:138
@@ -2048,7 +2048,7 @@ msgstr "Автоматически"
 
 #: ../plugins/wifi//PageComponent.qml:128
 msgid "Connect to hidden network…"
-msgstr "Подключиться к скрытой сети..."
+msgstr "Подключиться к скрытой сети…"
 
 #: ../plugins/wifi//PageComponent.qml:138
 #: ../plugins/wifi//PreviousNetworks.qml:27
@@ -2292,7 +2292,7 @@ msgstr "Вручную"
 
 #: ../plugins/time-date//ChooseTimeZone.qml:129
 msgid "Enter your current location."
-msgstr "Введите ваше текущее местоположение"
+msgstr "Введите ваше текущее местоположение."
 
 #: ../plugins/time-date//ChooseTimeZone.qml:130
 msgid "No matching place"
@@ -2375,7 +2375,7 @@ msgstr "Телефон"
 #: ../plugins/phone//NoSims.qml:28 ../plugins/phone//SingleSim.qml:41
 #: ../plugins/phone//MultiSim.qml:52 ../plugins/phone//CallForwarding.qml:45
 msgid "Call forwarding"
-msgstr "Переадресация звонка"
+msgstr "Переадресация вызовов"
 
 #: ../plugins/phone//NoSims.qml:34 ../plugins/phone//CallWaiting.qml:31
 #: ../plugins/phone//CallWaiting.qml:81 ../plugins/phone//SingleSim.qml:34
@@ -2416,7 +2416,7 @@ msgstr "Введите номер"
 
 #: ../plugins/phone//CallForwardItem.qml:218
 msgid "Call forwarding can’t be changed right now."
-msgstr "В данный момент переадресация вызовов не может быть изменена"
+msgstr "В данный момент переадресация вызовов не может быть изменена."
 
 #: ../plugins/phone//SingleSim.qml:29
 msgid "SIM"
@@ -2585,7 +2585,7 @@ msgstr "Подключённые устройства:"
 #: ../plugins/bluetooth//PageComponent.qml:293
 #: ../plugins/bluetooth//DevicePage.qml:38
 msgid "Connecting…"
-msgstr "Подключение..."
+msgstr "Подключение…"
 
 #: ../plugins/bluetooth//PageComponent.qml:310
 msgid "Connect another device:"
@@ -2619,7 +2619,7 @@ msgstr "Сопряжение"
 #: ../plugins/bluetooth//ConfirmPasskeyDialog.qml:37
 #, qt-format
 msgid "Please confirm that the PIN displayed on '%1' matches this one"
-msgstr "Подтвердите, что ПИН-код, отображаемый на '%1', совпадает с данным."
+msgstr "Подтвердите, что PIN-код, отображаемый на '%1', совпадает с данным"
 
 #: ../plugins/bluetooth//ConfirmPasskeyDialog.qml:57
 msgid "Confirm PIN"
@@ -2646,7 +2646,7 @@ msgstr "Отклонить"
 
 #: ../plugins/bluetooth//DevicePage.qml:39
 msgid "Disconnecting…"
-msgstr "Отключение..."
+msgstr "Отключение…"
 
 #: ../plugins/bluetooth//DevicePage.qml:40
 msgid "Disconnected"
@@ -2750,11 +2750,11 @@ msgstr[2] "Удалить %1 изображений"
 
 #: ../plugins/background//Components//AddRemove.qml:79
 msgid "Add an image…"
-msgstr "Добавить изображение ..."
+msgstr "Добавить изображение…"
 
 #: ../plugins/background//Components//AddRemove.qml:89
 msgid "Remove images…"
-msgstr "Удалить изображения..."
+msgstr "Удалить изображения…"
 
 #: ../plugins/security-privacy//diagnostics//PageComponent.qml:59
 msgid "Privacy policy"
@@ -3289,7 +3289,7 @@ msgstr "кодовая фраза"
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../build/po/settings.js:186
 msgid "swipe"
-msgstr "смахивание"
+msgstr "сдвиг"
 
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../build/po/settings.js:188
