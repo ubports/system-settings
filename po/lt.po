@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-11-17 13:30+0000\n"
+"PO-Revision-Date: 2017-11-22 10:56+0000\n"
 "Last-Translator: Domantas <domantas.mauruca@gmail.com>\n"
 "Language-Team: Lithuanian <https://translate.ubports.com/projects/ubports"
 "/system-settings/lt/>\n"
@@ -2173,7 +2173,7 @@ msgstr ""
 
 #: ../plugins/wifi//OtherNetwork.qml:686
 msgid "Disabled"
-msgstr ""
+msgstr "Išjungta"
 
 #: ../plugins/wifi//OtherNetwork.qml:687
 msgid "Anonymous"
@@ -2343,7 +2343,7 @@ msgstr ""
 
 #: ../plugins/phone//ServiceInfo.qml:119
 msgid "Call"
-msgstr ""
+msgstr "Skambinti"
 
 #: ../plugins/phone//CallWaiting.qml:96
 msgid ""
@@ -2620,7 +2620,7 @@ msgstr ""
 
 #: ../plugins/bluetooth//DevicePage.qml:54
 msgid "Video"
-msgstr ""
+msgstr "Video klipai"
 
 #: ../plugins/bluetooth//DevicePage.qml:55
 msgid "Other Audio"
