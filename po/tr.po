@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-11-25 19:34+0000\n"
-"Last-Translator: Taka Turgut <takaturgut@gmail.com>\n"
+"PO-Revision-Date: 2017-11-25 21:03+0000\n"
+"Last-Translator: Arda Canbolat <oardacn@gmail.com>\n"
 "Language-Team: Turkish <https://translate.ubports.com/projects/ubports"
 "/system-settings/tr/>\n"
 "Language: tr\n"
@@ -1980,7 +1980,7 @@ msgstr "Hücresel"
 
 #: ../plugins/cellular//PageApnEditor.qml:69
 msgid "Edit"
-msgstr ""
+msgstr "Düzenle"
 
 #: ../plugins/cellular//PageApnEditor.qml:69
 #, fuzzy
