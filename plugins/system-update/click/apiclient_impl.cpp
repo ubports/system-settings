@@ -205,7 +205,7 @@ void ApiClientImpl::handleMetadataReply(QNetworkReply *reply)
     QScopedPointer<QJsonParseError> jsonError(new QJsonParseError);
     auto document = QJsonDocument::fromJson(reply->readAll(),
                                             jsonError.data());
-    QJsonValue packages = document.object()["data"];
+    QJsonValue packages = document.object()["data"].toObject()["packages"];
 
     if (packages.isArray()) {
         Q_EMIT metadataRequestSucceeded(packages.toArray());
