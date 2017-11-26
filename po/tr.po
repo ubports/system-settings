@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-11-26 19:35+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2017-11-26 19:39+0000\n"
+"Last-Translator: Arda Canbolat <oardacn@gmail.com>\n"
 "Language-Team: Turkish <https://translate.ubports.com/projects/ubports"
 "/system-settings/tr/>\n"
 "Language: tr\n"
@@ -102,9 +102,8 @@ msgid "Updates"
 msgstr "Güncelleştirmeler"
 
 #: ../plugins/system-update//PageComponent.qml:182
-#, fuzzy
 msgid "Connect to the Internet to check for updates."
-msgstr "Güncellemeleri denetlemek için İnternet'e bağlanın"
+msgstr "Güncellemeleri denetlemek için İnternet'e bağlanın."
 
 #: ../plugins/system-update//PageComponent.qml:184
 msgid "Software is up to date"
@@ -115,20 +114,17 @@ msgid "The update server is not responding. Try again later."
 msgstr "Güncelleme sunucusu yanıt vermiyor. Daha sonra tekrar deneyin."
 
 #: ../plugins/system-update//PageComponent.qml:196
-#, fuzzy
 msgid "Updates Available"
-msgstr "Güncelleştirmeler mevcut"
+msgstr "Güncelleştirmeler Mevcut"
 
 #: ../plugins/system-update//PageComponent.qml:349
-#, fuzzy
 msgid "Recent updates"
-msgstr "Güncelleştirmeleri denetle"
+msgstr "Son güncellemeler"
 
 #: ../plugins/system-update//PageComponent.qml:412
 #: ../plugins/system-update//UpdateSettings.qml:32
-#, fuzzy
 msgid "Update settings"
-msgstr "Sistem Ayarları"
+msgstr "Günceleme Ayarları"
 
 #: ../plugins/system-update//DownloadHandler.qml:174
 #: ../plugins/system-update//InstallationFailed.qml:25
@@ -150,14 +146,12 @@ msgstr "Sistemi Güncelle"
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:32
 #: ../plugins/system-update//ImageUpdatePrompt.qml:32
-#, fuzzy
 msgid "The device needs to restart to install the system update."
 msgstr ""
-"Telefon sistem güncellemesini kurmak için yeniden başlatma gerektiriyor"
+"Sistem güncellemesini yüklemek için aygıtın yeniden başlatılması gerekiyor."
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:33
 #: ../plugins/system-update//ImageUpdatePrompt.qml:33
-#, fuzzy
 msgid "Connect the device to power before installing the system update."
 msgstr "Sistem güncelleştirmelerini yüklemeden önce cihazı güce bağlayın."
 
