@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-11-26 00:07+0000\n"
+"PO-Revision-Date: 2017-11-26 14:15+0000\n"
 "Last-Translator: Arda Canbolat <oardacn@gmail.com>\n"
 "Language-Team: Turkish <https://translate.ubports.com/projects/ubports"
 "/system-settings/tr/>\n"
@@ -1943,9 +1943,8 @@ msgstr ""
 
 #: ../plugins/cellular//PageChooseApn.qml:231
 #: ../plugins/cellular//PageChooseApn.qml:264
-#, fuzzy
 msgid "Disable"
-msgstr "devre dışı"
+msgstr "Devre dışı bırak"
 
 #: ../plugins/cellular//PageChooseApn.qml:253
 #, fuzzy, qt-format
@@ -2318,9 +2317,8 @@ msgid "Version 1"
 msgstr "Sürüm: "
 
 #: ../plugins/wifi//OtherNetwork.qml:715
-#, fuzzy
 msgid "Automatic"
-msgstr "otomatik"
+msgstr "Otomatik"
 
 #: ../plugins/wifi//OtherNetwork.qml:725
 msgid "Anonymous identity"
@@ -2444,13 +2442,13 @@ msgstr "Telefon"
 #: ../plugins/phone//NoSims.qml:28 ../plugins/phone//SingleSim.qml:41
 #: ../plugins/phone//MultiSim.qml:52 ../plugins/phone//CallForwarding.qml:45
 msgid "Call forwarding"
-msgstr "Arama aktarma"
+msgstr "Çağrı yönlendirme"
 
 #: ../plugins/phone//NoSims.qml:34 ../plugins/phone//CallWaiting.qml:31
 #: ../plugins/phone//CallWaiting.qml:81 ../plugins/phone//SingleSim.qml:34
 #: ../plugins/phone//MultiSim.qml:42
 msgid "Call waiting"
-msgstr "Arama bekletme"
+msgstr "Çağrı bekletme"
 
 #: ../plugins/phone//NoSims.qml:42 ../plugins/phone//MultiSim.qml:63
 msgid "Services"
@@ -2459,7 +2457,7 @@ msgstr "Hizmetler"
 #: ../plugins/phone//ServiceInfo.qml:109
 #, qt-format
 msgid "Last called %1"
-msgstr "Son arama %1"
+msgstr "Son aranan %1"
 
 #: ../plugins/phone//ServiceInfo.qml:119
 msgid "Call"
@@ -2470,19 +2468,18 @@ msgid ""
 "Lets you answer or start a new call while on another call, and switch "
 "between them"
 msgstr ""
-"Bir görüşme yaparken başka bir arama yapmanızı, başka bir aramaya cevap "
-"vermenizi veya aralarında geçiş yapmanızı sağlar"
+"Başka bir görüşme yaparken cevaplamanızı veya yeni bir çağrı başlatmanızı ve "
+"aralarında geçiş yapmanızı sağlar"
 
 #. TRANSLATORS: This string will be truncated on smaller displays.
 #: ../plugins/phone//CallForwardItem.qml:157
 #: ../plugins/phone//CallForwardItem.qml:202
 msgid "Forward to"
-msgstr "Yönlendir"
+msgstr "Yönledirme"
 
 #: ../plugins/phone//CallForwardItem.qml:171
-#, fuzzy
 msgid "Enter a number"
-msgstr "Telefon numarası"
+msgstr "Bir numara girin"
 
 #: ../plugins/phone//CallForwardItem.qml:218
 msgid "Call forwarding can’t be changed right now."
@@ -2496,24 +2493,23 @@ msgstr "SIM"
 #: ../plugins/phone//SingleSim.qml:53 ../plugins/phone//Services.qml:35
 #, qt-format
 msgid "%1 Services"
-msgstr "%1 Servisleri"
+msgstr "%1 Hizmetleri"
 
 #: ../plugins/phone//CallForwarding.qml:131
 msgid "Forward every incoming call"
-msgstr ""
+msgstr "Gelen her çağrıyı yönlendir"
 
 #: ../plugins/phone//CallForwarding.qml:146
 msgid "Redirects all phone calls to another number."
-msgstr ""
+msgstr "Tüm aramaları başka bir numaraya yönlendirir."
 
 #: ../plugins/phone//CallForwarding.qml:158
 msgid "Call forwarding status can’t be checked "
 msgstr ""
 
 #: ../plugins/phone//CallForwarding.qml:166
-#, fuzzy
 msgid "Forward incoming calls when:"
-msgstr "Giden aramalar için şunu kullan:"
+msgstr "Gelen çağrıları şu durumlarda yönlendir:"
 
 #: ../plugins/phone//CallForwarding.qml:175
 msgid "I’m on another call"
@@ -2524,41 +2520,36 @@ msgid "I don’t answer"
 msgstr ""
 
 #: ../plugins/phone//CallForwarding.qml:197
-#, fuzzy
 msgid "My phone is unreachable"
-msgstr "ModemYönetici kullanılamıyor"
+msgstr "Telefonuma erişilemiyor"
 
 #: ../plugins/phone//CallForwarding.qml:227
 msgid "Contacts…"
 msgstr ""
 
 #: ../plugins/phone//CallForwarding.qml:274
-#, fuzzy
 msgid "Please select a phone number"
-msgstr "Telefon numarası"
+msgstr "Lütfen bir telefon numarası seçin"
 
 #: ../plugins/phone//CallForwarding.qml:283
-#, fuzzy
 msgid "Numbers"
-msgstr "numara"
+msgstr "Sayılar"
 
 #: ../plugins/phone//CallForwarding.qml:302
 msgid "Could not forward to this contact"
-msgstr ""
+msgstr "Bu kişiye iletilemedi"
 
 #: ../plugins/phone//CallForwarding.qml:303
 msgid "Contact not associated with any phone number."
-msgstr ""
+msgstr "Kişi herhangi bir telefon numarası ile ilişkili değil."
 
 #: ../plugins/phone//CallForwarding.qml:382
-#, fuzzy
 msgid "All calls"
-msgstr "çağrı"
+msgstr "Tüm çağrılar"
 
 #: ../plugins/phone//CallForwarding.qml:384
-#, fuzzy
 msgid "Some calls"
-msgstr "Telefon çağrıları:"
+msgstr "Bazı çağrılar"
 
 #: ../plugins/brightness//WifiDisplaysAlert.qml:32
 #, fuzzy, qt-format
