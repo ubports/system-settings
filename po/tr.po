@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-11-26 20:05+0000\n"
-"Last-Translator: Arda Canbolat <oardacn@gmail.com>\n"
+"PO-Revision-Date: 2017-11-26 20:17+0000\n"
+"Last-Translator: Ataberk Özen <ataberkozen123@gmail.com>\n"
 "Language-Team: Turkish <https://translate.ubports.com/projects/ubports"
 "/system-settings/tr/>\n"
 "Language: tr\n"
@@ -199,9 +199,9 @@ msgid "Sign In…"
 msgstr "Oturum Aç…"
 
 #: ../plugins/system-update//ChangelogExpander.qml:42
-#, fuzzy, qt-format
+#, qt-format
 msgid "Version %1"
-msgstr "Sürüm: "
+msgstr "Sürüm %1"
 
 #: ../plugins/system-update//UpdateSettings.qml:47
 msgid "On wi-fi"
@@ -218,9 +218,8 @@ msgid "Unknown"
 msgstr "Bilinmeyen"
 
 #: ../plugins/system-update//UpdateSettings.qml:61
-#, fuzzy
 msgid "Channels"
-msgstr "Değiştir"
+msgstr "Kanallar"
 
 #: ../plugins/system-update//Global.qml:84
 msgid "Checking for updates…"
@@ -232,21 +231,19 @@ msgstr "Durdur"
 
 #. TRANSLATORS: %1 is number of software updates available.
 #: ../plugins/system-update//Global.qml:116
-#, fuzzy, qt-format
+#, qt-format
 msgid "%1 update available"
 msgid_plural "%1 updates available"
-msgstr[0] "Güncelleştirmeler mevcut"
-msgstr[1] "Güncelleştirmeler mevcut"
+msgstr[0] "%1 güncelleştirme mevcut"
+msgstr[1] "%1 güncelleştirmeler mevcut"
 
 #: ../plugins/system-update//Global.qml:126
-#, fuzzy
 msgid "Update all…"
-msgstr "Güncelleştirmeler mevcut"
+msgstr "Hepsini güncelle…"
 
 #: ../plugins/system-update//Global.qml:128
-#, fuzzy
 msgid "Update all"
-msgstr "Güncelle"
+msgstr "Hepsini güncelle"
 
 #: ../plugins/system-update//UpdateDelegate.qml:119
 msgid "Retry"
@@ -285,14 +282,12 @@ msgid "Installing"
 msgstr "Kuruluyor"
 
 #: ../plugins/system-update//UpdateDelegate.qml:232
-#, fuzzy
 msgid "Paused"
-msgstr "Duraklat"
+msgstr "Duraklatıldı"
 
 #: ../plugins/system-update//UpdateDelegate.qml:235
-#, fuzzy
 msgid "Waiting to download"
-msgstr "Otomatik indirme"
+msgstr "İndirme için bekleniyor"
 
 #: ../plugins/system-update//UpdateDelegate.qml:238
 msgid "Downloading"
@@ -307,9 +302,8 @@ msgid "%1 of %2"
 msgstr "%1 / %2"
 
 #: ../plugins/system-update//UpdateDelegate.qml:278
-#, fuzzy
 msgid "Downloaded"
-msgstr "İndir"
+msgstr "İndirildi"
 
 #: ../plugins/system-update//UpdateDelegate.qml:281
 msgid "Installed"
@@ -318,9 +312,9 @@ msgstr "Kuruldu"
 #. TRANSLATORS: %1 is the date at which this
 #. update was applied.
 #: ../plugins/system-update//UpdateDelegate.qml:286
-#, fuzzy, qt-format
+#, qt-format
 msgid "Updated %1"
-msgstr "Güncelle"
+msgstr "%1 güncellendi"
 
 #: ../plugins/system-update//UpdateDelegate.qml:310
 #, fuzzy
@@ -2245,7 +2239,7 @@ msgstr "Seç…"
 #: ../plugins/wifi//OtherNetwork.qml:465
 #, qt-format
 msgid "%1…, Exp.: %2"
-msgstr ""
+msgstr "%1…, Örn.: %2"
 
 #. TRANSLATORS: The first position is the name of
 #. the organization that has issued the certificate.
