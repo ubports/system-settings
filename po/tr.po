@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-11-27 05:19+0000\n"
-"Last-Translator: Mevlüt Erdem Güven <merdem2002@yandex.com>\n"
+"PO-Revision-Date: 2017-11-27 16:50+0000\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Turkish <https://translate.ubports.com/projects/ubports"
 "/system-settings/tr/>\n"
 "Language: tr\n"
@@ -486,14 +486,12 @@ msgid "A secondary connection of the base connection failed"
 msgstr "Temel bağlantının ikincil bağlantısı başarısız"
 
 #: ../plugins/hotspot//HotspotSetup.qml:61
-#, fuzzy
 msgid "Change Hotspot Setup"
-msgstr "Taşınabilir nokta ayarlarını değiştir"
+msgstr "Hotspot ayarlarını değiştir"
 
 #: ../plugins/hotspot//HotspotSetup.qml:61
-#, fuzzy
 msgid "Set Up Hotspot"
-msgstr "Taşınabilir nokta ayarla"
+msgstr "Taşınabilir Wi-Fi Hotspot ayarla"
 
 #: ../plugins/hotspot//HotspotSetup.qml:175
 msgid "Hotspot name"
