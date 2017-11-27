@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-11-27 18:08+0000\n"
+"PO-Revision-Date: 2017-11-27 18:14+0000\n"
 "Last-Translator: Arda Canbolat <oardacn@gmail.com>\n"
 "Language-Team: Turkish <https://translate.ubports.com/projects/ubports"
 "/system-settings/tr/>\n"
@@ -3017,12 +3017,12 @@ msgstr "twitter"
 #. TRANSLATORS: This is a keyword or name for the notifications plugin which is used while searching
 #: ../build/po/settings.js:74
 msgid "flickr"
-msgstr "flickr"
+msgstr "Flickr"
 
 #. TRANSLATORS: This is a keyword or name for the notifications plugin which is used while searching
 #: ../build/po/settings.js:76
 msgid "gmail"
-msgstr "gmail"
+msgstr "Gmail"
 
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the launcher plugin which is used while searching
@@ -3190,7 +3190,7 @@ msgstr "adres"
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../build/po/settings.js:150
 msgid "mac"
-msgstr "mac"
+msgstr "Mac"
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../build/po/settings.js:152
@@ -3210,7 +3210,7 @@ msgstr "depolama"
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../build/po/settings.js:160
 msgid "disk"
-msgstr "disk"
+msgstr "Disk"
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../build/po/settings.js:162
@@ -3414,7 +3414,7 @@ msgstr "mobil"
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../build/po/settings.js:262
 msgid "gsm"
-msgstr "gsm"
+msgstr "GSM"
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../build/po/settings.js:264
