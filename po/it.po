@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-11-27 08:02+0000\n"
-"Last-Translator: sambuccid <sambuccid@gmail.com>\n"
+"PO-Revision-Date: 2017-11-30 14:28+0000\n"
+"Last-Translator: Mike <miguel2000@livecom.it>\n"
 "Language-Team: Italian <https://translate.ubports.com/projects/ubports"
 "/system-settings/it/>\n"
 "Language: it\n"
@@ -1288,7 +1288,7 @@ msgstr "Usa solo il GPS (meno preciso)"
 
 #: ../plugins/security-privacy//Location.qml:176
 msgid "Using GPS"
-msgstr "Usando il GPS"
+msgstr "Usa il GPS"
 
 #: ../plugins/security-privacy//Location.qml:188
 #, qt-format
