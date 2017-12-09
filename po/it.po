@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-12-03 10:50+0000\n"
-"Last-Translator: Federico Vittorio Lupo <federicovittoriolupo@gmail.com>\n"
+"PO-Revision-Date: 2017-12-09 20:15+0000\n"
+"Last-Translator: Stefano Melchior <stefano.melchior@me.com>\n"
 "Language-Team: Italian <https://translate.ubports.com/projects/ubports"
 "/system-settings/it/>\n"
 "Language: it\n"
@@ -281,9 +281,8 @@ msgid "Open"
 msgstr "Apri"
 
 #: ../plugins/system-update//UpdateDelegate.qml:228
-#, fuzzy
 msgid "Installing"
-msgstr "Installazione"
+msgstr "Installando"
 
 #: ../plugins/system-update//UpdateDelegate.qml:232
 msgid "Paused"
@@ -331,23 +330,21 @@ msgid "Hotspot"
 msgstr "Hotspot"
 
 #: ../plugins/hotspot//PageComponent.qml:113
-#, fuzzy
 msgid ""
 "When hotspot is on, other devices can use your cellular data connection over "
 "Wi-Fi. Normal data charges apply."
 msgstr ""
-"Quando l'hotspot è acceso, altri dispositivi possono usare la connessione "
+"Quando l'hotspot è attivo, altri dispositivi possono usare la connessione "
 "dati del cellulare attraverso il Wi-Fi. Si applicano le normali tariffe per "
 "la connessione dati."
 
 #: ../plugins/hotspot//PageComponent.qml:114
-#, fuzzy
 msgid ""
 "Other devices can use your cellular data connection over the Wi-Fi network. "
 "Normal data charges apply."
 msgstr ""
 "Altri dispositivi possono usare la connessione dati del cellulare attraverso "
-"il Wi-Fi. Si applicano le normali tariffe per la connessione dati."
+"la rete Wi-Fi. Si applicano le normali tariffe per la connessione dati."
 
 #: ../plugins/hotspot//PageComponent.qml:123
 msgid "Change Password/Setup…"
