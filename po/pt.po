@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-11-06 14:17+0000\n"
+"PO-Revision-Date: 2017-12-12 12:09+0000\n"
 "Last-Translator: Ivo Xavier <ivofernandes12@gmail.com>\n"
 "Language-Team: Portuguese <https://translate.ubports.com/projects/ubports"
 "/system-settings/pt/>\n"
@@ -203,7 +203,7 @@ msgstr "Entrar…"
 #: ../plugins/system-update//ChangelogExpander.qml:42
 #, qt-format
 msgid "Version %1"
-msgstr "Versão: %1"
+msgstr "Versão %1"
 
 #: ../plugins/system-update//UpdateSettings.qml:47
 msgid "On wi-fi"
