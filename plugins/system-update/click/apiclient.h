@@ -48,11 +48,8 @@ public Q_SLOTS:
     virtual void requestMetadata(const QUrl &url,
                                  const QList<QString> &packages) = 0;
 
-    // Request a token, see lp:1231422.
-    virtual void requestToken(const QUrl &url) = 0;
 Q_SIGNALS:
     void metadataRequestSucceeded(const QJsonArray &metadata);
-    void tokenRequestSucceeded(const QString &token);
     void networkError();
     void serverError();
     void credentialError();

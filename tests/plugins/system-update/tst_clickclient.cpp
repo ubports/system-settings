@@ -60,23 +60,6 @@ private slots:
         m_instance->deleteLater();
         QTRY_COMPARE(destroyedSpy.count(), 1);
     }
-    void testTokenRequestSuccess()
-    {
-        QSignalSpy tokenRequestSucceededSpy(m_instance, SIGNAL(tokenRequestSucceeded(const QString)));
-        QUrl query("http://localhost:9009/download");
-        m_instance->requestToken(query);
-        QVERIFY(tokenRequestSucceededSpy.wait());
-        QList<QVariant> args = tokenRequestSucceededSpy.takeFirst();
-        QCOMPARE(args.at(0).toString(), QString("Mock-X-Click-Token"));
-    }
-    void testTokenRequestFailure()
-    {
-        QSignalSpy credentialErrorSpy(m_instance, SIGNAL(tokenRequestSucceeded(const QString)));
-        QUrl query("http://localhost:9009/403");
-        m_instance->requestToken(query);
-        QVERIFY(credentialErrorSpy.wait());
-        QCOMPARE(credentialErrorSpy.count(), 1);
-    }
     void testMetadataRequestSuccess_data()
     {
         QTest::addColumn<QList<QString> >("names");
@@ -116,23 +99,6 @@ private slots:
         m_instance->requestMetadata(query, QList<QString>());
         QVERIFY(serverErrorSpy.wait());
         QCOMPARE(serverErrorSpy.count(), 1);
-    }
-    void testTokenRequestDispatching()
-    {
-        Click::ApiClientImpl *a = new Click::ApiClientImpl(m_nam);
-        Click::ApiClientImpl *b = new Click::ApiClientImpl(m_nam);
-
-        // We only want “a” to receive a signal.
-        QSignalSpy aSuccessSpy(a, SIGNAL(tokenRequestSucceeded(const QString)));
-        QSignalSpy bSuccessSpy(b, SIGNAL(tokenRequestSucceeded(const QString)));
-        QUrl query("http://localhost:9009/download");
-        a->requestToken(query);
-        QVERIFY(aSuccessSpy.wait());
-        QCOMPARE(aSuccessSpy.count(), 1);
-        QCOMPARE(bSuccessSpy.count(), 0);
-
-        a->deleteLater();
-        b->deleteLater();
     }
     void testMetadataRequestDispatching()
     {

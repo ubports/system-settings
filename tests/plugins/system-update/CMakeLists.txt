@@ -9,15 +9,13 @@ include_directories(
 
 pkg_check_modules(UAL REQUIRED ubuntu-app-launch-2)
 add_definitions(${UAL_CFLAGS} ${UAL_CFLAGS_OTHER})
-pkg_check_modules(UBUNTUONEAUTH REQUIRED ubuntuoneauth-2.0)
-add_definitions(${UBUNTUONEAUTH_CFLAGS} ${UBUNTUONEAUTH_CFLAGS_OTHER})
 
 find_package(Qt5Test REQUIRED)
 find_package(Qt5Sql REQUIRED)
 
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
-set(PLUGIN_LIBS UpdatePlugin Qt5::Test Qt5::Sql ${UAL_LDFLAGS} ${UBUNTUONEAUTH_LDFLAGS})
+set(PLUGIN_LIBS UpdatePlugin Qt5::Test Qt5::Sql ${UAL_LDFLAGS})
 
 file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/mockclickserver.py DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
 
@@ -28,15 +26,6 @@ set_tests_properties(
     tst-clickclient
         PROPERTIES
         ENVIRONMENT "IGNORE_CREDENTIALS=1;URL_APPS=http://127.0.0.1:9009/metadata;QT_QPA_PLATFORM=minimal"
-)
-
-add_executable(tst-tokendownloader tst_tokendownloader.cpp)
-add_test(tst-tokendownloader tst-tokendownloader)
-target_link_libraries(tst-tokendownloader ${PLUGIN_LIBS})
-set_tests_properties(
-    tst-tokendownloader
-        PROPERTIES
-        ENVIRONMENT "IGNORE_CREDENTIALS=1;URL_APPS=http://127.0.0.1:9009/metadata;"
 )
 
 add_executable(tst-clickmanager tst_clickmanager.cpp)
