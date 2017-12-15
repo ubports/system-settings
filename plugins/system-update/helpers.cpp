@@ -29,11 +29,11 @@ QString Helpers::getFrameworksDir()
             QStringLiteral("/usr/share/click/frameworks/"));
 }
 
-std::vector<std::string> Helpers::getAvailableFrameworks()
+QStringList Helpers::getAvailableFrameworks()
 {
-    std::vector<std::string> result;
+    QStringList result;
     for (auto f : listFolder(getFrameworksDir().toStdString(), "*.framework")) {
-        result.push_back(f.substr(0, f.size() - 10));
+        result.append(QString::fromStdString(f.substr(0, f.size() - 10)));
     }
     return result;
 }
@@ -80,10 +80,19 @@ std::string Helpers::architectureFromDpkg()
 QString Helpers::clickMetadataUrl()
 {
     QString url = QStringLiteral(
-        "https://search.apps.ubuntu.com/api/v1/click-metadata"
+        "https://open.uappexplorer.com/api/v2/apps"
     );
     QProcessEnvironment environment = QProcessEnvironment::systemEnvironment();
     return environment.value("URL_APPS", url);
+}
+
+QString Helpers::clickRevisionUrl()
+{
+    QString url = QStringLiteral(
+        "https://open.uappexplorer.com/api/v2/apps/revision"
+    );
+    QProcessEnvironment environment = QProcessEnvironment::systemEnvironment();
+    return environment.value("URL_REVISION", url);
 }
 
 bool Helpers::isIgnoringCredentials()

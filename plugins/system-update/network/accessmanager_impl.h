@@ -31,6 +31,7 @@ public:
     ManagerImpl(QObject *parent = nullptr);
     virtual ~ManagerImpl() {};
     virtual QNetworkReply* post(const QNetworkRequest &request, const QByteArray &data) override;
+    virtual QNetworkReply* get(const QNetworkRequest &request) override;
     virtual QNetworkReply* head(const QNetworkRequest &request) override;
 private:
     QNetworkAccessManager m_impl;
