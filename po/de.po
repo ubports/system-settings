@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-10-05 19:01+0000\n"
-"Last-Translator: Twinkybot <me@twinkybot.org>\n"
+"PO-Revision-Date: 2017-12-21 19:08+0000\n"
+"Last-Translator: Peter Nerlich <peter.nerlich+ubports@googlemail.com>\n"
 "Language-Team: German <https://translate.ubports.com/projects/ubports/system-"
 "settings/de/>\n"
 "Language: de\n"
@@ -1785,7 +1785,7 @@ msgstr "Andere Vibrationsmuster"
 
 #: ../plugins/sound//SoundsList.qml:128
 msgid "Custom Ringtone"
-msgstr "Standard Klingelton"
+msgstr "Benutzerdefinierter Klingelton"
 
 #: ../plugins/sound//SoundsList.qml:208
 msgid "Choose from"
