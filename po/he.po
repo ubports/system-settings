@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-12-10 10:38+0000\n"
+"PO-Revision-Date: 2017-12-21 16:43+0000\n"
 "Last-Translator: Eran <etherpulse@gmail.com>\n"
 "Language-Team: Hebrew <https://translate.ubports.com/projects/ubports/system-"
 "settings/he/>\n"
@@ -247,7 +247,7 @@ msgstr "עדכן הכל"
 
 #: ../plugins/system-update//UpdateDelegate.qml:119
 msgid "Retry"
-msgstr "ניסיון חוזר"
+msgstr "ניסיון מחדש"
 
 #: ../plugins/system-update//UpdateDelegate.qml:124
 msgid "Update"
