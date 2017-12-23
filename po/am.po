@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-12-23 18:50+0000\n"
-"Last-Translator: Samson <sambelet@yahoo.com>\n"
+"PO-Revision-Date: 2017-12-23 18:51+0000\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Amharic <https://translate.ubports.com/projects/ubports"
 "/system-settings/am/>\n"
 "Language: am\n"
@@ -58,11 +58,11 @@ msgstr "ጣቢያ በ መፈለግ ላይ"
 
 #: ../plugins/system-update//ChannelSettings.qml:109
 msgid "Channel to get updates from:"
-msgstr ""
+msgstr "የሚሻሻለው ጣቢያ ከ: "
 
 #: ../plugins/system-update//ChannelSettings.qml:125
 msgid "Switching channel"
-msgstr ""
+msgstr "ጣቢያ በ መቀየር ላይ"
 
 #: ../plugins/system-update//Configuration.qml:30
 #: ../plugins/system-update//UpdateSettings.qml:42
@@ -113,7 +113,7 @@ msgstr "ሶፍትዌሩ ዘመናዊ ነው"
 
 #: ../plugins/system-update//PageComponent.qml:187
 msgid "The update server is not responding. Try again later."
-msgstr ""
+msgstr "የ ማሻሻያ ሰርቨር አይመልስም: እባክዎን በኋላ ይሞክሩ"
 
 #: ../plugins/system-update//PageComponent.qml:196
 #, fuzzy
@@ -151,9 +151,8 @@ msgstr "ስርአት ማሻሻያ"
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:32
 #: ../plugins/system-update//ImageUpdatePrompt.qml:32
-#, fuzzy
 msgid "The device needs to restart to install the system update."
-msgstr "የ ስርአቱን ማሻሻያ ለመግጠም ስልኩን እንደገና ማስነሳት ያስፈልጋል"
+msgstr "የ ስርአቱን ማሻሻያ ለ መግጠም ስልኩን እንደገና ማስነሳት ያስፈልጋል"
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:33
 #: ../plugins/system-update//ImageUpdatePrompt.qml:33
@@ -164,7 +163,7 @@ msgstr "የ ስርአቱን ማሻሻያ ከ መግጠሞ በፊት ስልኩን
 #: ../plugins/system-update//ImageSwitchPrompt.qml:38
 #: ../plugins/system-update//ImageUpdatePrompt.qml:38
 msgid "Restart & Install"
-msgstr ""
+msgstr "እንደገና ማስጀመሪያ & መግጠሚያ"
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:48
 #: ../plugins/system-update//ImageUpdatePrompt.qml:48
@@ -207,7 +206,7 @@ msgstr "መግቢያ…"
 #: ../plugins/system-update//ChangelogExpander.qml:42
 #, qt-format
 msgid "Version %1"
-msgstr "እትም %1"
+msgstr "እትም  %1 "
 
 #: ../plugins/system-update//UpdateSettings.qml:47
 msgid "On wi-fi"
