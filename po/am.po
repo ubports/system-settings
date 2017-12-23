@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2015-03-10 01:43+0000\n"
-"Last-Translator: samson <Unknown>\n"
-"Language-Team: Amharic <am@li.org>\n"
+"PO-Revision-Date: 2017-12-23 18:50+0000\n"
+"Last-Translator: Samson <sambelet@yahoo.com>\n"
+"Language-Team: Amharic <https://translate.ubports.com/projects/ubports"
+"/system-settings/am/>\n"
 "Language: am\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 2.15\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:39+0000\n"
-"X-Generator: Launchpad (build 17628)\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:116
 msgid "System Settings"
@@ -33,13 +34,12 @@ msgstr "ምርጫዎች: ማሰናጃዎች:"
 
 #: ../plugins/system-update//ChannelSettings.qml:32
 msgid "Channel settings"
-msgstr ""
+msgstr "ጣቢያ ማሰናጃ"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
-#, fuzzy
 msgid "Stable"
-msgstr "ታብሌት"
+msgstr "የ ተረጋጋ"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
@@ -54,7 +54,7 @@ msgstr "የ አበልጻጊ ዘዴ"
 
 #: ../plugins/system-update//ChannelSettings.qml:99
 msgid "Fetching channels"
-msgstr ""
+msgstr "ጣቢያ በ መፈለግ ላይ"
 
 #: ../plugins/system-update//ChannelSettings.qml:109
 msgid "Channel to get updates from:"
@@ -205,9 +205,9 @@ msgid "Sign In…"
 msgstr "መግቢያ…"
 
 #: ../plugins/system-update//ChangelogExpander.qml:42
-#, fuzzy, qt-format
+#, qt-format
 msgid "Version %1"
-msgstr "እትም: "
+msgstr "እትም %1"
 
 #: ../plugins/system-update//UpdateSettings.qml:47
 msgid "On wi-fi"
@@ -234,7 +234,7 @@ msgstr "ማሻሻያዎችን በመፈለግ ላይ…"
 
 #: ../plugins/system-update//Global.qml:89
 msgid "Stop"
-msgstr ""
+msgstr "ማስቆሚያ"
 
 #. TRANSLATORS: %1 is number of software updates available.
 #: ../plugins/system-update//Global.qml:116
@@ -256,7 +256,7 @@ msgstr "ማሻሻያ"
 
 #: ../plugins/system-update//UpdateDelegate.qml:119
 msgid "Retry"
-msgstr "እንደገና ይሞክሩ"
+msgstr "እንደገና መሞከሪያ"
 
 #: ../plugins/system-update//UpdateDelegate.qml:124
 msgid "Update"
@@ -284,7 +284,7 @@ msgstr "መግጠሚያ"
 
 #: ../plugins/system-update//UpdateDelegate.qml:149
 msgid "Open"
-msgstr ""
+msgstr "መክፈቻ"
 
 #: ../plugins/system-update//UpdateDelegate.qml:228
 msgid "Installing"
@@ -539,7 +539,7 @@ msgstr "መቀየሪያ"
 
 #: ../plugins/hotspot//HotspotSetup.qml:275
 msgid "Start"
-msgstr ""
+msgstr "መጀመሪያ"
 
 #: ../plugins/battery//SleepValues.qml:74
 #, fuzzy
@@ -635,7 +635,7 @@ msgstr "%1%"
 #: ../plugins/battery//PageComponent.qml:190
 #: ../plugins/battery//PageComponent.qml:192
 msgid "Yesterday"
-msgstr "ትናንት"
+msgstr "ትናንትና"
 
 #: ../plugins/battery//PageComponent.qml:198
 #: ../plugins/battery//PageComponent.qml:200
@@ -1946,7 +1946,7 @@ msgstr ""
 
 #: ../plugins/cellular//PageChooseApn.qml:302
 msgid "Delete"
-msgstr ""
+msgstr "ማጥፊያ"
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../plugins/cellular//PageComponent.qml:32 ../build/po/settings.js:254
@@ -1955,7 +1955,7 @@ msgstr "ሴሉላር"
 
 #: ../plugins/cellular//PageApnEditor.qml:69
 msgid "Edit"
-msgstr ""
+msgstr "ማረሚያ"
 
 #: ../plugins/cellular//PageApnEditor.qml:69
 #, fuzzy
@@ -2018,7 +2018,7 @@ msgstr "የ ማለፊያ ሀረግ ያስገቡ"
 #: ../plugins/cellular//PageApnEditor.qml:358
 #: ../plugins/wifi//NetworkDetails.qml:70 ../plugins/wifi//OtherNetwork.qml:786
 msgid "Password"
-msgstr "የመግቢያ ቃል"
+msgstr "የ መግቢያ ቃል"
 
 #: ../plugins/cellular//PageApnEditor.qml:369
 #, fuzzy
@@ -2264,9 +2264,8 @@ msgid "Pac provisioning"
 msgstr ""
 
 #: ../plugins/wifi//OtherNetwork.qml:686
-#, fuzzy
 msgid "Disabled"
-msgstr "ማሰናከያ"
+msgstr "ተሰናክሏል"
 
 #: ../plugins/wifi//OtherNetwork.qml:687
 msgid "Anonymous"
@@ -2456,9 +2455,8 @@ msgid "Forward to"
 msgstr "ወደ ፊት ወደ"
 
 #: ../plugins/phone//CallForwardItem.qml:171
-#, fuzzy
 msgid "Enter a number"
-msgstr "የ ስልክ ቁጥር"
+msgstr "ቁጥር ያስገቡ"
 
 #: ../plugins/phone//CallForwardItem.qml:218
 msgid "Call forwarding can’t be changed right now."
@@ -2868,7 +2866,7 @@ msgstr "የ ሲም ስም ማረሚያ"
 #. this word must be less than 5 characters
 #: ../plugins/cellular//Components//LabelTextField.qml:51
 msgid "Next"
-msgstr ""
+msgstr "ይቀጥሉ"
 
 #: ../plugins/cellular//Components//RadioSingleSim.qml:31
 #: ../plugins/cellular//Components//MultiSim.qml:84
