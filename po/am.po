@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
 "PO-Revision-Date: 2017-12-23 18:55+0000\n"
-"Last-Translator: Samson <sambelet@yahoo.com>\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Amharic <https://translate.ubports.com/projects/ubports"
 "/system-settings/am/>\n"
 "Language: am\n"
@@ -49,7 +49,7 @@ msgstr "የሚለቀቀው እትም"
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
 msgid "Development"
-msgstr "አበልጻጊ"
+msgstr "አበልጻጊ "
 
 #: ../plugins/system-update//ChannelSettings.qml:99
 msgid "Fetching channels"
