@@ -18,6 +18,10 @@
             <default>false</default>
             <description>If true, the unity-dash will use user selected background</description>
         </key>
+        <key name="background-opacity" type="d">
+            <default>0.6</default>
+            <description>Opacity of the user selected background</description>
+        </key>
         <key name="background-set-last" enum="enum-background-set-last">
             <default>"home"</default>
             <description>The most recently changed screen.</description>
