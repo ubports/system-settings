@@ -49,4 +49,4 @@ override_dh_makeshlibs:
 	dh_makeshlibs -Xusr/lib/$(DEB_HOST_MULTIARCH)/ubuntu-system-settings
 
 %:
-	dh $@ --fail-missing --with python3,migrations
+	dh $@ --fail-missing --with python3,migrations --parallel
