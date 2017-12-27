@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-12-25 02:15+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2017-12-27 14:48+0000\n"
+"Last-Translator: Samson <sambelet@yahoo.com>\n"
 "Language-Team: Amharic <https://translate.ubports.com/projects/ubports"
 "/system-settings/am/>\n"
 "Language: am\n"
@@ -508,7 +508,7 @@ msgstr "የመግቢያ ቃል ማሳያ"
 
 #: ../plugins/hotspot//HotspotSetup.qml:245
 msgid "Starting the hotspot will turn on Wi-Fi."
-msgstr ""
+msgstr "ሆት ስፖት ማስጀመር ዋይ-ፋይን ያበራዋል:"
 
 #: ../plugins/hotspot//HotspotSetup.qml:274
 #: ../plugins/security-privacy//LockSecurity.qml:388
@@ -691,11 +691,11 @@ msgstr ""
 
 #: ../plugins/notifications//PageComponent.qml:90
 msgid "Apps that notify with sound"
-msgstr ""
+msgstr "መተግበሪያ በ ድምፅ የሚያስታውቅ:"
 
 #: ../plugins/notifications//PageComponent.qml:115
 msgid "Apps that notify with vibration"
-msgstr ""
+msgstr "መተግበሪያ በ ማንቀጥቀጥ የሚያስታውቅ:"
 
 #: ../plugins/notifications//PageComponent.qml:140
 msgid "Applications:"
@@ -717,7 +717,7 @@ msgstr "ማንቀጥቀጫ"
 
 #: ../plugins/notifications//PageComponent.qml:180
 msgid "Bubbles"
-msgstr ""
+msgstr "አረፋ"
 
 #: ../plugins/notifications//PageComponent.qml:183
 #: ../plugins/notifications//ClickAppNotifications.qml:147
@@ -742,7 +742,7 @@ msgstr "አታንቀጥቅጥ"
 
 #: ../plugins/notifications//ClickAppsVibrationsNotify.qml:89
 msgid "Apps that notify with vibrations:"
-msgstr ""
+msgstr "መተግበሪያ በ ማንቀጥቀጥ የሚያስታውቅ:"
 
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../plugins/notifications//ClickAppsSoundsNotify.qml:30
@@ -752,11 +752,11 @@ msgstr "ድምፅ"
 
 #: ../plugins/notifications//ClickAppsSoundsNotify.qml:48
 msgid "Apps that notify with sound:"
-msgstr ""
+msgstr "መተግበሪያ በ ድም የሚያስታውቅ:"
 
 #: ../plugins/notifications//ClickAppNotifications.qml:72
 msgid "Let this app alert me using:"
-msgstr ""
+msgstr "እኔን ይህ መተግበሪያ ያስጠንቅቀኝ በ መጠቀም:"
 
 #: ../plugins/notifications//ClickAppNotifications.qml:125
 msgid "Notification Bubbles"
@@ -894,7 +894,7 @@ msgstr "የ ፊደል ገበታ ጠንካራ አካል"
 
 #: ../plugins/language//PageHardwareKeyboard.qml:61
 msgid "Layouts and other sources"
-msgstr ""
+msgstr "እቅድ እና ሌሎች ምንጮች"
 
 #: ../plugins/about//Storage.qml:32 ../plugins/about//PageComponent.qml:150
 msgid "Storage"
@@ -902,7 +902,7 @@ msgstr "ማጠራቀሚያ"
 
 #: ../plugins/about//Storage.qml:44
 msgid "Scanning"
-msgstr ""
+msgstr "በ ማሰስ ላይ"
 
 #: ../plugins/about//Storage.qml:111
 msgid "Used by Ubuntu"
@@ -1148,7 +1148,7 @@ msgstr "የማለፊያ ሐረግ"
 #: ../plugins/security-privacy//LockSecurity.qml:468
 #: ../plugins/security-privacy//PhoneLocking.qml:60
 msgid "Fingerprint"
-msgstr ""
+msgstr "የ ጣት አሻራ"
 
 #: ../plugins/security-privacy//LockSecurity.qml:469
 msgid "Swipe (no security)… "
@@ -1183,12 +1183,12 @@ msgstr "ደህንነት"
 
 #: ../plugins/security-privacy//PageComponent.qml:160
 msgid "Fingerprint ID"
-msgstr ""
+msgstr "የ ጣት አሻራ መለያ"
 
 #: ../plugins/security-privacy//PageComponent.qml:180
 #: ../plugins/security-privacy//PhoneLocking.qml:32
 msgid "Locking and unlocking"
-msgstr ""
+msgstr "መቆለፊያ እና መክፈቻ"
 
 #: ../plugins/security-privacy//PageComponent.qml:191
 #: ../plugins/security-privacy//SimPin.qml:37
@@ -1269,7 +1269,7 @@ msgstr ""
 
 #: ../plugins/security-privacy//Location.qml:176
 msgid "Using GPS"
-msgstr ""
+msgstr "ጂፒኤስ መጠቀሚያ"
 
 #: ../plugins/security-privacy//Location.qml:188
 #, qt-format
@@ -1287,28 +1287,29 @@ msgstr ""
 
 #: ../plugins/security-privacy//Location.qml:195
 msgid "Not at all"
-msgstr ""
+msgstr "ምንም አይደል"
 
 #: ../plugins/security-privacy//Location.qml:212
 msgid ""
 "Uses GPS to detect your rough location. When off, GPS turns off to save "
 "battery."
-msgstr "ይጠቀሙ ጂፒኤስ ያሉበትን አካባቢ በግምት ለማወቅ: ጂፒኤስ ማጥፋት የ ባትሪውን ሐይል ይቆጥባል"
+msgstr "ይጠቀሙ ጂፒኤስ ያሉበትን አካባቢ በ ግምት ለ ማወቅ: ጂፒኤስ ማጥፋት የ ባትሪውን ሐይል ይቆጥባል:"
 
 #: ../plugins/security-privacy//Location.qml:214
 msgid ""
 "Uses wi-fi and GPS to detect your rough location. Turning off location "
 "detection saves battery."
 msgstr ""
-"ይጠቀሙ ዋይ-ፋይ እና ጂፒኤስ ያሉበትን አካባቢ በግምት ለማወቅ: የ አካባቢ ማግኛውን ማጥፋት የ ባትሪውን ሐይል ይቆጥባል"
+"ይጠቀሙ ዋይ-ፋይ እና ጂፒኤስ ያሉበትን አካባቢ በ ግምት ለ ማወቅ: የ አካባቢ ማግኛውን ማጥፋት የ ባትሪውን ሐይል "
+"ይቆጥባል:"
 
 #: ../plugins/security-privacy//Location.qml:216
 msgid ""
 "Uses wi-fi (currently off) and GPS to detect your rough location. Turning "
 "off location detection saves battery."
 msgstr ""
-"ይጠቀሙ ዋይ-ፋይ (አሁን ጠፍቷል) እና ጂፒኤስ ያሉበትን አካባቢ በግምት ለማወቅ: የ አካባቢ ማግኛውን ማጥፋት የ "
-"ባትሪውን ሐይል ይቆጥባል"
+"ይጠቀሙ ዋይ-ፋይ (አሁን ጠፍቷል) እና ጂፒኤስ ያሉበትን አካባቢ በ ግምት ለ ማወቅ: የ አካባቢ ማግኛውን ማጥፋት የ "
+"ባትሪውን ሐይል ይቆጥባል:"
 
 #: ../plugins/security-privacy//Location.qml:218
 msgid ""
@@ -1316,7 +1317,7 @@ msgid ""
 "Turning off location detection saves battery."
 msgstr ""
 "የ ዋይ-ፋይ: የ ሴል ምሶሶ አካባቢዎችን: እና ጂፒኤስን ይጠቀማል እርስዎ ያሉበትን አካባቢ በቅርብ እርቀት ለመገመት: የ "
-"አካባቢ ፈልጎ ማግኛን ዘዴን ማጥፋት የ ባትሪውን ሀይል ይቆጥባል"
+"አካባቢ ፈልጎ ማግኛን ዘዴን ማጥፋት የ ባትሪውን ሀይል ይቆጥባል:"
 
 #: ../plugins/security-privacy//Location.qml:220
 msgid ""
@@ -1332,7 +1333,7 @@ msgid ""
 "rough location. Turning off location detection saves battery."
 msgstr ""
 "የ ዋይ-ፋይ (አሁን ጠፍቷል): የ ሴል ምሶሶ አካባቢዎችን: እና ጂፒኤስን ይጠቀማል እርስዎ ያሉበትን አካባቢ በቅርብ "
-"እርቀት ለመገመት: የ አካባቢ ፈልጎ ማግኛን ዘዴን ማጥፋት የ ባትሪውን ሀይል ይቆጥባል"
+"እርቀት ለ መገመት: የ አካባቢ ፈልጎ ማግኛን ዘዴን ማጥፋት የ ባትሪውን ሀይል ይቆጥባል:"
 
 #: ../plugins/security-privacy//Location.qml:224
 msgid ""
@@ -1657,9 +1658,8 @@ msgid "Reset all system settings"
 msgstr "ሁሉንም የ ስርአት ማሰናጃ እንደ ነበር መመለሻ"
 
 #: ../plugins/reset//PageComponent.qml:32
-#, fuzzy
 msgid "Reset device"
-msgstr "አካል"
+msgstr "አካል እንደ ነበር መመለሻ"
 
 #: ../plugins/reset//PageComponent.qml:75
 #: ../plugins/reset//PageComponent.qml:86
@@ -1703,7 +1703,7 @@ msgstr "ደዋይ:"
 
 #: ../plugins/sound//PageComponent.qml:141
 msgid "High volume can damage your hearing."
-msgstr ""
+msgstr "በ ከፍተኛ መጠን ማድመጥ የ እርስዎን ጆሮ ሊያሳምም ይችላል"
 
 #: ../plugins/sound//PageComponent.qml:145
 msgid "Phone calls:"
@@ -2417,20 +2417,19 @@ msgstr "%1 ግልጋሎቶች"
 
 #: ../plugins/phone//CallForwarding.qml:131
 msgid "Forward every incoming call"
-msgstr ""
+msgstr "ሁሉንም የሚመጣ ጥሪ ወደ ፊት ማስተላለፊያ"
 
 #: ../plugins/phone//CallForwarding.qml:146
 msgid "Redirects all phone calls to another number."
-msgstr ""
+msgstr "ሁሉንም የ ስልክ ጥሪዎች ወደ ሌላ ቁጥር እንደገና ይመራል:"
 
 #: ../plugins/phone//CallForwarding.qml:158
 msgid "Call forwarding status can’t be checked "
 msgstr ""
 
 #: ../plugins/phone//CallForwarding.qml:166
-#, fuzzy
 msgid "Forward incoming calls when:"
-msgstr "ወደ ውጪ ለሚላኩ ጥሪዎች: ይጠቀሙ:"
+msgstr "የሚመጣውን ጥሪ ወደ ፊት ማስተላለፊያ:"
 
 #: ../plugins/phone//CallForwarding.qml:175
 msgid "I’m on another call"
@@ -2441,21 +2440,18 @@ msgid "I don’t answer"
 msgstr ""
 
 #: ../plugins/phone//CallForwarding.qml:197
-#, fuzzy
 msgid "My phone is unreachable"
-msgstr "የ ሞደም አስተዳዳሪ አልተገኘም"
+msgstr "የ እኔ ስልክ ጋር መድረስ አይቻልም"
 
 #: ../plugins/phone//CallForwarding.qml:227
 msgid "Contacts…"
 msgstr ""
 
 #: ../plugins/phone//CallForwarding.qml:274
-#, fuzzy
 msgid "Please select a phone number"
-msgstr "የ ስልክ ቁጥር"
+msgstr "እባክዎን የ ስልክ ቁጥር ይምረጡ"
 
 #: ../plugins/phone//CallForwarding.qml:283
-#, fuzzy
 msgid "Numbers"
 msgstr "ቁጥሮች"
 
