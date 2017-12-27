@@ -1,4 +1,4 @@
-ubuntu-system-settings (0.4+17.04.20170406-0ubuntu1) zesty; urgency=medium
+ubuntu-system-settings (0.4.1+ubports1) xenial; urgency=medium
 
   [ Jonas G. Drange ]
   * fixes qml test mesa error caused by some form of change
