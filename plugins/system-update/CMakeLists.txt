@@ -9,6 +9,8 @@ set(QML_SOURCES
     NotAuthenticatedNotification.qml
     PageComponent.qml
     UpdateDelegate.qml
+    UpdateSettings.qml
+    ChannelSettings.qml
 )
 
 include_directories(
@@ -19,24 +21,14 @@ include_directories(
 
 pkg_check_modules(UAL REQUIRED ubuntu-app-launch-2)
 add_definitions(${UAL_CFLAGS} ${UAL_CFLAGS_OTHER})
-pkg_check_modules(UBUNTUONEAUTH REQUIRED ubuntuoneauth-2.0)
-add_definitions(${UBUNTUONEAUTH_CFLAGS} ${UBUNTUONEAUTH_CFLAGS_OTHER})
 
 add_library(UpdatePlugin SHARED
     click/apiclient.h
     click/manager.h
     click/manifest.h
-    click/sessiontoken.h
-    click/sso.h
-    click/tokendownloader.h
-    click/tokendownloader_factory.h
 
     click/apiclient_impl.cpp
     click/manifest_impl.cpp
-    click/sessiontoken_impl.cpp
-    click/sso_impl.cpp
-    click/tokendownloader_impl.cpp
-    click/tokendownloader_factory_impl.cpp
     click/manager_impl.cpp
 
     image/imagemanager.h
@@ -57,14 +49,13 @@ target_link_libraries(UpdatePlugin
     apt-pkg
     uss-systemimage
     ${UAL_LDFLAGS}
-    ${UBUNTUONEAUTH_LDFLAGS}
 )
 
 add_library(UbuntuUpdatePanel MODULE
     plugin.cpp
     ${QML_SOURCES}
 )
-qt5_use_modules(UbuntuUpdatePanel Qml Quick)
+qt5_use_modules(UbuntuUpdatePanel Qml Quick DBus)
 target_link_libraries(UbuntuUpdatePanel UpdatePlugin)
 
 set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Ubuntu/SystemSettings/Update)

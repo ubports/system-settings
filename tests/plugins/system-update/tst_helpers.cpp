@@ -34,7 +34,7 @@ private slots:
     {
         QString target("ubuntu-sdk-15.04");
         for(auto const& value: UpdatePlugin::Helpers::getAvailableFrameworks())
-             QCOMPARE(QString::fromStdString(value), target);
+             QCOMPARE(value, target);
     }
     void testGetArchitecture()
     {

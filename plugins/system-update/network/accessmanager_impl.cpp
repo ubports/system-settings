@@ -39,6 +39,11 @@ QNetworkReply* ManagerImpl::post(const QNetworkRequest &request,
     return m_impl.post(request, data);
 }
 
+QNetworkReply* ManagerImpl::get(const QNetworkRequest &request)
+{
+    return m_impl.get(request);
+}
+
 QNetworkReply* ManagerImpl::head(const QNetworkRequest &request)
 {
     return m_impl.head(request);

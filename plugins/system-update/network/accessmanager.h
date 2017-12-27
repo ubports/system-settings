@@ -35,6 +35,7 @@ public:
     explicit Manager(QObject *parent = nullptr) : QObject(parent) {};
     virtual ~Manager() {};
     virtual QNetworkReply* post(const QNetworkRequest &request, const QByteArray &data) = 0;
+    virtual QNetworkReply* get(const QNetworkRequest &request) = 0;
     virtual QNetworkReply* head(const QNetworkRequest &request) = 0;
 Q_SIGNALS:
     void finished(QNetworkReply *);

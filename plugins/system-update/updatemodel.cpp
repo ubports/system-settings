@@ -511,6 +511,15 @@ void UpdateModel::cancelUpdate(const QString &id, const uint &rev)
     }
 }
 
+void UpdateModel::setImageUpdateChangelog(const QString &id, const uint &rev, const QString &changelog)
+{
+    auto update = find(id, rev);
+    if (!update.isNull()) {
+        update->setChangelog(changelog);
+        m_db->update(update);
+    }
+}
+
 void UpdateModel::setImageUpdate(const QString &id, const int &version,
                                  const int &updateSize)
 {
@@ -518,7 +527,7 @@ void UpdateModel::setImageUpdate(const QString &id, const int &version,
     update->setIdentifier(id);
     update->setKind(Update::Kind::KindImage);
     update->setProgress(0);
-    update->setTitle("Ubuntu");
+    update->setTitle("Ubuntu touch");
     update->setRevision((uint) version);
     update->setBinaryFilesize((int) updateSize);
     update->setRemoteVersion(QString::number(version));

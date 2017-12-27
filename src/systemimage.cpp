@@ -130,6 +130,36 @@ void QSystemImage::forceAllowGSMDownload() {
     m_iface.asyncCall("ForceAllowGSMDownload");
 }
 
+QStringList QSystemImage::getChannels()
+{
+    QDBusReply<QStringList> answer = m_iface.call("GetChannels");
+    return answer.value();
+}
+
+void QSystemImage::setSwitchChannel(QString channel)
+{
+    m_iface.asyncCall("SetChannel", channel);
+    m_switchChannel = channel;
+}
+
+void QSystemImage::setSwitchBuild(int build)
+{
+    m_iface.asyncCall("SetBuild", build);
+    m_switchBuild = build;
+}
+
+int QSystemImage::getSwitchBuild()
+{
+  QDBusReply<int> answer = m_iface.call("GetBuild");
+  return answer.value();
+}
+
+QString QSystemImage::getSwitchChannel()
+{
+  QDBusReply<QString> answer = m_iface.call("GetChannel");
+  return answer.value();
+}
+
 void QSystemImage::applyUpdate() {
     QDBusReply<QString> reply = m_iface.call("ApplyUpdate");
     if (reply.isValid()) {
@@ -484,4 +514,3 @@ void QSystemImage::setErrorReason(const QString &errorReason)
         Q_EMIT errorReasonChanged();
     }
 }
-

@@ -6,12 +6,9 @@ include_directories(
     /usr/include/apt-pkg/
 )
 
-pkg_check_modules(UBUNTUONEAUTH REQUIRED ubuntuoneauth-2.0)
-add_definitions(${UBUNTUONEAUTH_CFLAGS} ${UBUNTUONEAUTH_CFLAGS_OTHER})
 set(PLUGIN_LIBS
     UpdatePlugin
     apt-pkg
-    ${UBUNTUONEAUTH_LDFLAGS}
 )
 
 set(MOCK_SYSTEMUPDATE_SRCS
