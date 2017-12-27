@@ -7,7 +7,7 @@ export DH_VERBOSE=1
 DEB_HOST_ARCH := $(shell dpkg-architecture -qDEB_HOST_ARCH)
 # Skip tests on the archs they are known to be broken with current configuration
 # Ref.: https://bugs.launchpad.net/ubuntu/+source/qtdeclarative-opensource-src/+bug/1606927
-testskip_architectures := powerpc ppc64el s390x
+testskip_architectures := powerpc
 
 include /usr/share/dpkg/buildflags.mk
 include /usr/share/dpkg/architecture.mk
@@ -25,7 +25,7 @@ override_dh_auto_configure:
 
 override_dh_auto_build:
 	dh_auto_build
-	$(MAKE) -C obj-$(DEB_HOST_GNU_TYPE) pot
+	$(MAKE) -j$(nproc) -C obj-$(DEB_HOST_GNU_TYPE) pot
 
 override_dh_clean:
 	dh_clean
@@ -49,4 +49,4 @@ override_dh_makeshlibs:
 	dh_makeshlibs -Xusr/lib/$(DEB_HOST_MULTIARCH)/ubuntu-system-settings
 
 %:
-	dh $@ --fail-missing --with python3,migrations
+	dh $@ --fail-missing --with python3,migrations --parallel

@@ -185,6 +185,11 @@ LanguagePlugin::updateLanguageNamesAndCodes()
         if (languageLocale.displayName.isEmpty())
             continue;
 
+        // Ignore "C"
+        // https://github.com/ubports/ubports-touch/issues/182
+        if (languageLocale.displayName == "C")
+            continue;
+
         QLocale tmpLoc(languageLocale.locale.getLanguage());
         languageLocale.likely = tmpLoc.name() == loc.left(loc.indexOf('.')) || // likely if: en_US -> en -> en_US, NOT likely if: en_GB -> en -> en_US
                 (loc.startsWith("pt_PT") && !loc.startsWith("pt_BR")); // "pt" work around for https://bugreports.qt.io/browse/QTBUG-47891
