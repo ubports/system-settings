@@ -25,6 +25,8 @@ import Ubuntu.Content 1.3
 import Ubuntu.Components 1.3
 import Ubuntu.Components.ListItems 1.3 as ListItem
 import Ubuntu.Components.Popups 1.3
+import Ubuntu.Settings.Menus 0.1 as Menus
+import Ubuntu.Settings.Components 0.1 as USC
 import Ubuntu.SystemSettings.Background 1.0
 import "utilities.js" as Utilities
 
@@ -120,6 +122,32 @@ ItemPage {
                     onServerCheckedChanged: checked = serverChecked
                     Component.onCompleted: checked = serverChecked
                     onTriggered: settings.dashBackground = checked
+                }
+            }
+
+            Menus.SliderMenu {
+                /* FIXME: No appropriate icons exist yet, also SliderMenu lacks
+                          support for text labels on the ends. */
+                text: i18n.tr("Opacity:")
+                anchors { 
+                    left: parent.left
+                    right: parent.right
+                }
+                id: backgroundOpacity
+                objectName: "backgroundOpacity"
+                minimumValue: 0.0
+                maximumValue: 1.0
+                value: settings.backgroundOpacity
+                live: true
+                property real serverValue: enabled ? settings.backgroundOpacity : 0.6
+                USC.ServerPropertySynchroniser {
+                    userTarget: backgroundOpacity
+                    userProperty: "value"
+                    serverTarget: backgroundOpacity
+                    serverProperty: "serverValue"
+                    maximumWaitBufferInterval: 16
+                    
+                    onSyncTriggered: settings.backgroundOpacity = value
                 }
             }
 
