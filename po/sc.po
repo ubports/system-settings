@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-11-29 16:31+0000\n"
+"PO-Revision-Date: 2017-12-29 17:10+0000\n"
 "Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
@@ -1418,7 +1418,7 @@ msgstr ""
 
 #: ../plugins/security-privacy//AppAccess.qml:101
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: ../plugins/security-privacy//AppAccess.qml:116
 msgid "Apps may also request access to online accounts."
@@ -1866,7 +1866,7 @@ msgstr ""
 #: ../plugins/cellular//PageChooseApn.qml:231
 #: ../plugins/cellular//PageChooseApn.qml:264
 msgid "Disable"
-msgstr ""
+msgstr "Disativa"
 
 #: ../plugins/cellular//PageChooseApn.qml:253
 #, qt-format
@@ -2083,7 +2083,7 @@ msgstr ""
 
 #: ../plugins/wifi//CertDialog.qml:74
 msgid "Save"
-msgstr ""
+msgstr "Sarva"
 
 #: ../plugins/wifi//OtherNetwork.qml:92
 msgid "Connect to Wi‑Fi"
@@ -2343,31 +2343,32 @@ msgstr ""
 #: ../plugins/bluetooth//DevicePage.qml:48
 #: ../plugins/bluetooth//DevicePage.qml:49 ../build/po/settings.js:326
 msgid "Phone"
-msgstr ""
+msgstr "Telèfonu"
 
 #: ../plugins/phone//NoSims.qml:28 ../plugins/phone//SingleSim.qml:41
 #: ../plugins/phone//MultiSim.qml:52 ../plugins/phone//CallForwarding.qml:45
 msgid "Call forwarding"
-msgstr ""
+msgstr "Deviatzione de mutidas"
 
 #: ../plugins/phone//NoSims.qml:34 ../plugins/phone//CallWaiting.qml:31
 #: ../plugins/phone//CallWaiting.qml:81 ../plugins/phone//SingleSim.qml:34
 #: ../plugins/phone//MultiSim.qml:42
 msgid "Call waiting"
-msgstr ""
+msgstr "Mutida in ispera"
 
 #: ../plugins/phone//NoSims.qml:42 ../plugins/phone//MultiSim.qml:63
 msgid "Services"
-msgstr ""
+msgstr "Servìtzios"
 
 #: ../plugins/phone//ServiceInfo.qml:109
 #, qt-format
 msgid "Last called %1"
-msgstr ""
+msgstr "Ùrtima mutida %1"
 
 #: ../plugins/phone//ServiceInfo.qml:119
+#, fuzzy
 msgid "Call"
-msgstr ""
+msgstr "Muti"
 
 #: ../plugins/phone//CallWaiting.qml:96
 msgid ""
@@ -2378,12 +2379,13 @@ msgstr ""
 #. TRANSLATORS: This string will be truncated on smaller displays.
 #: ../plugins/phone//CallForwardItem.qml:157
 #: ../plugins/phone//CallForwardItem.qml:202
+#, fuzzy
 msgid "Forward to"
-msgstr ""
+msgstr "Devia a"
 
 #: ../plugins/phone//CallForwardItem.qml:171
 msgid "Enter a number"
-msgstr ""
+msgstr "Inserta·nche unu nùmeru"
 
 #: ../plugins/phone//CallForwardItem.qml:218
 msgid "Call forwarding can’t be changed right now."
@@ -2391,21 +2393,21 @@ msgstr ""
 
 #: ../plugins/phone//SingleSim.qml:29
 msgid "SIM"
-msgstr ""
+msgstr "SIM"
 
 #. TRANSLATORS: %1 is the name of the (network) carrier
 #: ../plugins/phone//SingleSim.qml:53 ../plugins/phone//Services.qml:35
 #, qt-format
 msgid "%1 Services"
-msgstr ""
+msgstr "Servìtzios de %1"
 
 #: ../plugins/phone//CallForwarding.qml:131
 msgid "Forward every incoming call"
-msgstr ""
+msgstr "Devia totu is mutidas"
 
 #: ../plugins/phone//CallForwarding.qml:146
 msgid "Redirects all phone calls to another number."
-msgstr ""
+msgstr "Devia totu is mutidas a un'àteru nùmeru."
 
 #: ../plugins/phone//CallForwarding.qml:158
 msgid "Call forwarding status can’t be checked "
@@ -2413,7 +2415,7 @@ msgstr ""
 
 #: ../plugins/phone//CallForwarding.qml:166
 msgid "Forward incoming calls when:"
-msgstr ""
+msgstr "Devia is mutidas cando:"
 
 #: ../plugins/phone//CallForwarding.qml:175
 msgid "I’m on another call"
@@ -2433,23 +2435,23 @@ msgstr ""
 
 #: ../plugins/phone//CallForwarding.qml:274
 msgid "Please select a phone number"
-msgstr ""
+msgstr "Seletziona unu nùmeru de telèfonu"
 
 #: ../plugins/phone//CallForwarding.qml:283
 msgid "Numbers"
-msgstr ""
+msgstr "Nùmeros"
 
 #: ../plugins/phone//CallForwarding.qml:302
 msgid "Could not forward to this contact"
-msgstr ""
+msgstr "Impossìbile desviare a custu cuntatu"
 
 #: ../plugins/phone//CallForwarding.qml:303
 msgid "Contact not associated with any phone number."
-msgstr ""
+msgstr "Perunu nùmeru de telèfonu assotziadu a su cuntatu."
 
 #: ../plugins/phone//CallForwarding.qml:382
 msgid "All calls"
-msgstr ""
+msgstr "Totu is mutidas"
 
 #: ../plugins/phone//CallForwarding.qml:384
 msgid "Some calls"
@@ -2824,7 +2826,7 @@ msgstr ""
 
 #: ../src/qml/MainWindow.qml:150
 msgid "Search"
-msgstr ""
+msgstr "Chirca"
 
 #: ../src/qml/MainWindow.qml:170
 msgid "Personal"
@@ -3053,7 +3055,7 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the flight-mode plugin which is used while searching
 #: ../build/po/settings.js:94
 msgid "Flight Mode"
-msgstr ""
+msgstr "Modalidade aèreu"
 
 #. TRANSLATORS: This is a keyword or name for the flight-mode plugin which is used while searching
 #: ../build/po/settings.js:96
