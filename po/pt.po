@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-12-12 12:09+0000\n"
+"PO-Revision-Date: 2018-01-07 20:36+0000\n"
 "Last-Translator: Ivo Xavier <ivofernandes12@gmail.com>\n"
 "Language-Team: Portuguese <https://translate.ubports.com/projects/ubports"
 "/system-settings/pt/>\n"
@@ -539,8 +539,8 @@ msgstr "Pôr o telemóvel a hibernar quando inativo:"
 #, qt-format
 msgid "After %1 seconds"
 msgid_plural "After %1 seconds"
-msgstr[0] "Após %1 minuto"
-msgstr[1] "Após %1 minutos"
+msgstr[0] "Após %1 segundo"
+msgstr[1] "Após %1 segundos"
 
 #. TRANSLATORS: %1 is the number of minutes
 #: ../plugins/battery//SleepValues.qml:90
