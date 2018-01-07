@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-11-06 08:09+0000\n"
+"PO-Revision-Date: 2018-01-07 08:13+0000\n"
 "Last-Translator: Mutse Young <yyhoo2.young@gmail.com>\n"
 "Language-Team: Chinese (Simplified) "
 "<https://translate.ubports.com/projects/ubports/system-settings/zh_Hans/>\n"
@@ -206,9 +206,9 @@ msgid "Sign In…"
 msgstr "登录..."
 
 #: ../plugins/system-update//ChangelogExpander.qml:42
-#, fuzzy, qt-format
+#, qt-format
 msgid "Version %1"
-msgstr "版本： "
+msgstr "版本 %1"
 
 #: ../plugins/system-update//UpdateSettings.qml:47
 msgid "On wi-fi"
@@ -2328,7 +2328,7 @@ msgstr "日期"
 
 #: ../plugins/time-date//TimePicker.qml:129
 msgid "Day"
-msgstr "天"
+msgstr "日"
 
 #: ../plugins/time-date//TimePicker.qml:143
 msgid "Month"
