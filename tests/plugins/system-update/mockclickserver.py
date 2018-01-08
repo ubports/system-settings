@@ -75,70 +75,67 @@ class Manager(object):
                     'content_type': 'application/json',
                     'content': {
                         "success": True,
-                        "data": {
-                            "count": 4,
-                            "packages": [{
-                                "id": "com.ubuntu.dropping-letters",
-                                "version": "0.1.2.3",
-                                "icon": (
-                                    "https://raw.githubusercontent.com/"
-                                    "ninja-ide/ninja-ide/master/ninja_ide/"
-                                    "img/ninja_icon.png"
-                                ),
-                                "download": "http://%s/download:%d" % (
-                                    server_address,
-                                    server_port
-                                ),
-                                "filesize": 23820.0 * 1000.0,
-                                "download_sha512": "foo",
-                                "changelog": "New Dropping Letters.",
-                                "name": "Dropping Letters game"
-                            }, {
-                                "id": "com.ubuntu.stock-ticker-mobile",
-                                "version": "0.4.0ubuntu1",
-                                "icon": (
-                                    "https://upload.wikimedia.org/wikipedia/"
-                                    "commons/a/ab/"
-                                    "Logo-ubuntu_cof-orange-hex.svg"
-                                ),
-                                "download": "http://%s/download:%d" % (
-                                    server_address,
-                                    server_port
-                                ),
-                                "filesize": 5015.2 * 1000.0,
-                                "download_sha512": "489478",
-                                "changelog": "Foo",
-                                "name": "A stock trading app with charts, news, and management"  # noqa
-                            }, {
-                                "id": "com.ubuntu.sudoku",
-                                "version": "0.4.2ubuntu3",
-                                "icon": (
-                                    "https://upload.wikimedia.org/wikipedia/"
-                                    "commons/a/ab/"
-                                    "Logo-ubuntu_cof-orange-hex.svg"
-                                ),
-                                "download": "http://%s/download:%d" % (
-                                    server_address,
-                                    server_port
-                                ),
-                                "filesize": 5015.2 * 1000.0,
-                                "download_sha512": "489478",
-                                "changelog": "Foo",
-                                "name": "Sudoku game for Ubuntu devices"
-                            }, {
-                                "id": "com.ubuntu.developer.xda-app",
-                                "version": "0.4.2ubuntu2",
-                                "download": "http://%s/download:%d" % (
-                                    server_address,
-                                    server_port
-                                ),
-                                "filesize": 5015.2 * 1000.0,
-                                "download_sha512": "489478",
-                                "changelog": "Foo",
-                                "name": "XDA Developers App"
-                            }
-                            ]
+                        "data": [{
+                            "id": "com.ubuntu.dropping-letters",
+                            "version": "0.1.2.3",
+                            "icon": (
+                                "https://raw.githubusercontent.com/"
+                                "ninja-ide/ninja-ide/master/ninja_ide/"
+                                "img/ninja_icon.png"
+                            ),
+                            "download": "http://%s/download:%d" % (
+                                server_address,
+                                server_port
+                            ),
+                            "filesize": 23820.0 * 1000.0,
+                            "download_sha512": "foo",
+                            "changelog": "New Dropping Letters.",
+                            "name": "Dropping Letters game"
+                        }, {
+                            "id": "com.ubuntu.stock-ticker-mobile",
+                            "version": "0.4.0ubuntu1",
+                            "icon": (
+                                "https://upload.wikimedia.org/wikipedia/"
+                                "commons/a/ab/"
+                                "Logo-ubuntu_cof-orange-hex.svg"
+                            ),
+                            "download": "http://%s/download:%d" % (
+                                server_address,
+                                server_port
+                            ),
+                            "filesize": 5015.2 * 1000.0,
+                            "download_sha512": "489478",
+                            "changelog": "Foo",
+                            "name": "A stock trading app with charts, news, and management"  # noqa
+                        }, {
+                            "id": "com.ubuntu.sudoku",
+                            "version": "0.4.2ubuntu3",
+                            "icon": (
+                                "https://upload.wikimedia.org/wikipedia/"
+                                "commons/a/ab/"
+                                "Logo-ubuntu_cof-orange-hex.svg"
+                            ),
+                            "download": "http://%s/download:%d" % (
+                                server_address,
+                                server_port
+                            ),
+                            "filesize": 5015.2 * 1000.0,
+                            "download_sha512": "489478",
+                            "changelog": "Foo",
+                            "name": "Sudoku game for Ubuntu devices"
+                        }, {
+                            "id": "com.ubuntu.developer.xda-app",
+                            "version": "0.4.2ubuntu2",
+                            "download": "http://%s/download:%d" % (
+                                server_address,
+                                server_port
+                            ),
+                            "filesize": 5015.2 * 1000.0,
+                            "download_sha512": "489478",
+                            "changelog": "Foo",
+                            "name": "XDA Developers App"
                         }
+                        ]
                     }
                 },
                 {
