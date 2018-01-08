@@ -246,7 +246,12 @@ void TrustStoreModelPrivate::update()
         }
     }
 
-    applications = appMap.values();
+    applications.clear();
+    for (auto i = appMap.constBegin(); i != appMap.constEnd(); i++) {
+        const Application &app = i.value();
+        if (app.displayName.isEmpty()) continue;
+        applications.append(app);
+    }
     updateGrantedCount();
 
     q->endResetModel();
