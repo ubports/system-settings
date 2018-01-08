@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-12-27 14:48+0000\n"
+"PO-Revision-Date: 2018-01-08 06:08+0000\n"
 "Last-Translator: Samson <sambelet@yahoo.com>\n"
 "Language-Team: Amharic <https://translate.ubports.com/projects/ubports"
 "/system-settings/am/>\n"
@@ -1265,7 +1265,7 @@ msgstr "የ እርስዎን አካባቢ አካሉ ፈልጎ ያግኝ"
 
 #: ../plugins/security-privacy//Location.qml:175
 msgid "Using GPS only (less accurate)"
-msgstr ""
+msgstr "GPS ብቻ (መጠቀም ብዙ አያስተማምንm)"
 
 #: ../plugins/security-privacy//Location.qml:176
 msgid "Using GPS"
@@ -1400,7 +1400,7 @@ msgstr "የ እርስዎን የ መስመር ላይ መግለጫ ለ መጠቀ�
 
 #: ../plugins/security-privacy//AppAccess.qml:121
 msgid "Online Accounts…"
-msgstr ""
+msgstr "የ መስመር ላይ መግለጫ…"
 
 #: ../plugins/security-privacy//PhoneLocking.qml:57
 msgctxt "Unlock with swipe"
@@ -1546,7 +1546,7 @@ msgstr ""
 
 #: ../plugins/vpn//PageComponent.qml:82
 msgid "Add Manual Configuration…"
-msgstr ""
+msgstr "በ እጅ ማሰናጃ መጨመሪያ…"
 
 #: ../plugins/vpn//PageComponent.qml:115
 #, fuzzy
@@ -1561,7 +1561,7 @@ msgstr "ለውጦቹን ተግባራዊ ለማድረግ ስልኩን እንደ�
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../plugins/mouse//PageComponent.qml:29 ../build/po/settings.js:210
 msgid "Mouse & Touchpad"
-msgstr ""
+msgstr "አይጥ & ተችፓድ"
 
 #: ../plugins/mouse//None.qml:34
 msgid ""
@@ -1582,23 +1582,23 @@ msgstr "አይጥ"
 
 #: ../plugins/mouse//Connected.qml:62 ../plugins/mouse//Connected.qml:228
 msgid "Cursor speed:"
-msgstr ""
+msgstr "የ መጠቆሚያ ፍጥነት:"
 
 #: ../plugins/mouse//Connected.qml:98
 msgid "Wheel scrolling speed:"
-msgstr ""
+msgstr "የ ጎማ መሸብለያ ፍጥነት:"
 
 #: ../plugins/mouse//Connected.qml:134 ../plugins/mouse//Connected.qml:301
 msgid "Double-click speed:"
-msgstr ""
+msgstr "ሁለት ጊዜ-መጫኛ ፍጥነት:"
 
 #: ../plugins/mouse//Connected.qml:168 ../plugins/mouse//Connected.qml:335
 msgid "Test double-click:"
-msgstr ""
+msgstr "ሁለት ጊዜ-መጫኛ መሞከሪያ:"
 
 #: ../plugins/mouse//Connected.qml:214
 msgid "Touchpad"
-msgstr ""
+msgstr "ተችፓድ"
 
 #: ../plugins/mouse//Connected.qml:264
 msgid "Finger scrolling speed:"
