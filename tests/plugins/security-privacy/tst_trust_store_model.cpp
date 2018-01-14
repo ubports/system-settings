@@ -241,6 +241,8 @@ void TrustStoreModelTest::init()
 {
     m_store = std::shared_ptr<mock::Store>(new mock::Store);
     mock::Store::setInstance(m_store);
+
+    qputenv("XDG_DATA_HOME", DATA_DIR);
 }
 
 void TrustStoreModelTest::cleanup()
@@ -285,6 +287,12 @@ void TrustStoreModelTest::testList_data()
         (QList<bool>() << true << false << true << false) <<
         (QStringList() << "Calendar" << "Gallery" << "MyApp") <<
         (QList<bool>() << false << false << true);
+
+    QTest::newRow("Invalid app") <<
+        (QStringList() << "Calendar" << "SuperTool" << "MyApp") <<
+        (QList<bool>() << true << false << true) <<
+        (QStringList() << "Calendar" << "MyApp") <<
+        (QList<bool>() << true << true);
 }
 
 void TrustStoreModelTest::testList()
