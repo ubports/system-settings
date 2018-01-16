@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-11-30 19:00+0000\n"
-"Last-Translator: Mappack Owner <mappack@null.net>\n"
+"PO-Revision-Date: 2018-01-16 09:16+0000\n"
+"Last-Translator: Mathijs Verbeek <m.verbeek@boboti.nl>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/system-"
 "settings/nl/>\n"
 "Language: nl\n"
@@ -34,7 +34,7 @@ msgstr "Preferences;Settings;Voorkeuren;Instellingen;"
 
 #: ../plugins/system-update//ChannelSettings.qml:32
 msgid "Channel settings"
-msgstr ""
+msgstr "Kanaalinstellingen"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
