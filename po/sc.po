@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2018-01-03 13:49+0000\n"
+"PO-Revision-Date: 2018-01-21 19:12+0000\n"
 "Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
@@ -2401,7 +2401,6 @@ msgid "Last called %1"
 msgstr "Ùrtima mutida %1"
 
 #: ../plugins/phone//ServiceInfo.qml:119
-#, fuzzy
 msgid "Call"
 msgstr "Muti"
 
