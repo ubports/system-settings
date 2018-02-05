@@ -8,17 +8,18 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2014-03-21 12:38+0000\n"
-"Last-Translator: Ibrahim Saed <ibraheem5000@gmail.com>\n"
-"Language-Team: Arabic <ar@li.org>\n"
+"PO-Revision-Date: 2018-02-05 05:25+0000\n"
+"Last-Translator: ubports_arabic <ubportsarabic@gmail.com>\n"
+"Language-Team: Arabic <https://translate.ubports.com/projects/ubports/system-"
+"settings/ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n % 100 >= "
-"3 && n % 100 <= 10 ? 3 : n % 100 >= 11 && n % 100 <= 99 ? 4 : 5;\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Weblate 2.15\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:39+0000\n"
-"X-Generator: Launchpad (build 17628)\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:116
 msgid "System Settings"
@@ -26,43 +27,42 @@ msgstr "إعدادات النظام"
 
 #: ubuntu-system-settings.desktop.in.in.h:2
 msgid "System;"
-msgstr ""
+msgstr "النظام;"
 
 #: ubuntu-system-settings.desktop.in.in.h:3
 msgid "Preferences;Settings;"
-msgstr ""
+msgstr "تفضيلات;الضبط;"
 
 #: ../plugins/system-update//ChannelSettings.qml:32
 msgid "Channel settings"
-msgstr ""
+msgstr "اعدادات القناة"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
-#, fuzzy
 msgid "Stable"
-msgstr "لوحي"
+msgstr "مستقر"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
 msgid "Release candidate"
-msgstr ""
+msgstr "اصدار مرشح"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
 msgid "Development"
-msgstr ""
+msgstr "تطوير"
 
 #: ../plugins/system-update//ChannelSettings.qml:99
 msgid "Fetching channels"
-msgstr ""
+msgstr "جلب القنوات"
 
 #: ../plugins/system-update//ChannelSettings.qml:109
 msgid "Channel to get updates from:"
-msgstr ""
+msgstr "الحصول علي تحديث من قناة :"
 
 #: ../plugins/system-update//ChannelSettings.qml:125
 msgid "Switching channel"
-msgstr ""
+msgstr "تبديل القناة"
 
 #: ../plugins/system-update//Configuration.qml:30
 #: ../plugins/system-update//UpdateSettings.qml:42
@@ -104,7 +104,7 @@ msgstr "التحديثات"
 
 #: ../plugins/system-update//PageComponent.qml:182
 msgid "Connect to the Internet to check for updates."
-msgstr ""
+msgstr "الاتصال بالإنترنت للتحقق من وجود تحديثات."
 
 #: ../plugins/system-update//PageComponent.qml:184
 msgid "Software is up to date"
@@ -112,7 +112,7 @@ msgstr "البرمجيات مُحدّثة"
 
 #: ../plugins/system-update//PageComponent.qml:187
 msgid "The update server is not responding. Try again later."
-msgstr ""
+msgstr "ملقم التحديث لا يستجيب. حاول مرة أخرى في وقت لاحق."
 
 #: ../plugins/system-update//PageComponent.qml:196
 #, fuzzy
@@ -133,7 +133,7 @@ msgstr "إعدادات النظام"
 #: ../plugins/system-update//DownloadHandler.qml:174
 #: ../plugins/system-update//InstallationFailed.qml:25
 msgid "Installation failed"
-msgstr ""
+msgstr "أخفق التثبيت"
 
 #: ../plugins/system-update//InstallationFailed.qml:28
 #: ../plugins/vpn//PageComponent.qml:121
@@ -141,7 +141,7 @@ msgstr ""
 #: ../plugins/brightness//WifiDisplaysAlert.qml:38
 #: ../plugins/cellular//Components//SimEditor.qml:214
 msgid "OK"
-msgstr ""
+msgstr "موافق"
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:30
 #: ../plugins/system-update//ImageUpdatePrompt.qml:30
@@ -163,7 +163,7 @@ msgstr "يحتاج الهاتف لإعادة تشغيله لتثبيت تحدي�
 #: ../plugins/system-update//ImageSwitchPrompt.qml:38
 #: ../plugins/system-update//ImageUpdatePrompt.qml:38
 msgid "Restart & Install"
-msgstr ""
+msgstr "إعادة التشغيل والتثبيت"
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:48
 #: ../plugins/system-update//ImageUpdatePrompt.qml:48
@@ -193,20 +193,20 @@ msgstr ""
 #: ../plugins/background//Components//AddRemove.qml:42
 #: ../plugins/cellular//Components//SimEditor.qml:203
 msgid "Cancel"
-msgstr "ألغِ"
+msgstr "ألغاء"
 
 #: ../plugins/system-update//NotAuthenticatedNotification.qml:37
 msgid "Sign in to Ubuntu One to receive updates for apps."
-msgstr ""
+msgstr "سجل الدخول إلى أوبونتو وان لتلقي تحديثات للتطبيقات."
 
 #: ../plugins/system-update//NotAuthenticatedNotification.qml:54
 msgid "Sign In…"
-msgstr ""
+msgstr "تسجيل الدخول…"
 
 #: ../plugins/system-update//ChangelogExpander.qml:42
-#, fuzzy, qt-format
+#, qt-format
 msgid "Version %1"
-msgstr "الإصدارة: "
+msgstr "النسخة 1"
 
 #: ../plugins/system-update//UpdateSettings.qml:47
 msgid "On wi-fi"
@@ -220,11 +220,11 @@ msgstr "دائما"
 #: ../plugins/hotspot//Common.qml:94 ../plugins/wifi//Common.qml:96
 #: ../plugins/bluetooth//DevicePage.qml:41
 msgid "Unknown"
-msgstr ""
+msgstr "غير معروف"
 
 #: ../plugins/system-update//UpdateSettings.qml:61
 msgid "Channels"
-msgstr ""
+msgstr "قنوات"
 
 #: ../plugins/system-update//Global.qml:84
 msgid "Checking for updates…"
@@ -232,7 +232,7 @@ msgstr "يبحث عن تحديثات..."
 
 #: ../plugins/system-update//Global.qml:89
 msgid "Stop"
-msgstr ""
+msgstr "توقف"
 
 #. TRANSLATORS: %1 is number of software updates available.
 #: ../plugins/system-update//Global.qml:116
@@ -278,7 +278,7 @@ msgstr "إلباث"
 
 #: ../plugins/system-update//UpdateDelegate.qml:143
 msgid "Install…"
-msgstr ""
+msgstr "التثبت…"
 
 #: ../plugins/system-update//UpdateDelegate.qml:145
 msgid "Install"
@@ -286,11 +286,11 @@ msgstr "تثبيت"
 
 #: ../plugins/system-update//UpdateDelegate.qml:149
 msgid "Open"
-msgstr ""
+msgstr "افتح"
 
 #: ../plugins/system-update//UpdateDelegate.qml:228
 msgid "Installing"
-msgstr ""
+msgstr "تثبيت"
 
 #: ../plugins/system-update//UpdateDelegate.qml:232
 #, fuzzy
@@ -304,7 +304,7 @@ msgstr "التنزيل التلقائي"
 
 #: ../plugins/system-update//UpdateDelegate.qml:238
 msgid "Downloading"
-msgstr ""
+msgstr "جارى التحميل"
 
 #. TRANSLATORS: %1 is the human readable amount
 #. of bytes downloaded, and %2 is the total to be
@@ -312,7 +312,7 @@ msgstr ""
 #: ../plugins/system-update//UpdateDelegate.qml:274
 #, qt-format
 msgid "%1 of %2"
-msgstr ""
+msgstr "٪1 من 2%"
 
 #: ../plugins/system-update//UpdateDelegate.qml:278
 #, fuzzy
@@ -321,7 +321,7 @@ msgstr "تنزيل"
 
 #: ../plugins/system-update//UpdateDelegate.qml:281
 msgid "Installed"
-msgstr ""
+msgstr "تم التثبيت"
 
 #. TRANSLATORS: %1 is the date at which this
 #. update was applied.
@@ -339,19 +339,23 @@ msgstr "تحديث"
 #: ../plugins/hotspot//PageComponent.qml:33
 #: ../plugins/hotspot//PageComponent.qml:84 ../build/po/settings.js:24
 msgid "Hotspot"
-msgstr ""
+msgstr "نقطة ساخنة"
 
 #: ../plugins/hotspot//PageComponent.qml:113
 msgid ""
 "When hotspot is on, other devices can use your cellular data connection over "
 "Wi-Fi. Normal data charges apply."
 msgstr ""
+"عند تشغيل نقطة الاتصال، يمكن للأجهزة الأخرى استخدام اتصال البيانات الخلوية "
+"عبر واي-في. يتم تطبيق رسوم البيانات العادية."
 
 #: ../plugins/hotspot//PageComponent.qml:114
 msgid ""
 "Other devices can use your cellular data connection over the Wi-Fi network. "
 "Normal data charges apply."
 msgstr ""
+"يمكن للأجهزة الأخرى استخدام اتصال البيانات الخلوية عبر شبكة واي-في. يتم "
+"تطبيق رسوم البيانات العادية."
 
 #: ../plugins/hotspot//PageComponent.qml:123
 #, fuzzy
@@ -360,15 +364,15 @@ msgstr "تغيير العبارة السرية..."
 
 #: ../plugins/hotspot//PageComponent.qml:123
 msgid "Set Up Hotspot…"
-msgstr ""
+msgstr "إعداد نقطة اتصال …"
 
 #: ../plugins/hotspot//PageComponent.qml:154
 msgid "Wi-Fi is off"
-msgstr ""
+msgstr "واي فاي مغلق"
 
 #: ../plugins/hotspot//PageComponent.qml:155
 msgid "In order to create a hotspot, you need to turn Wi-Fi on."
-msgstr ""
+msgstr "لإنشاء نقطة اتصال، يجب تشغيل واي-في."
 
 #: ../plugins/hotspot//PageComponent.qml:164
 #, fuzzy
@@ -377,136 +381,136 @@ msgstr "عندما يكون على الواي-فاي"
 
 #: ../plugins/hotspot//Common.qml:34 ../plugins/wifi//Common.qml:36
 msgid "Unknown error"
-msgstr ""
+msgstr "خطأ غير معروف"
 
 #: ../plugins/hotspot//Common.qml:36 ../plugins/wifi//Common.qml:38
 msgid "No reason given"
-msgstr ""
+msgstr "لا يوجد سبب معين"
 
 #: ../plugins/hotspot//Common.qml:38 ../plugins/wifi//Common.qml:40
 msgid "Device is now managed"
-msgstr ""
+msgstr "تتم إدارة الجهاز الآن"
 
 #: ../plugins/hotspot//Common.qml:40 ../plugins/wifi//Common.qml:42
 msgid "Device is now unmanaged"
-msgstr ""
+msgstr "الجهاز غير مدار الآن"
 
 #: ../plugins/hotspot//Common.qml:42 ../plugins/wifi//Common.qml:44
 msgid "The device could not be readied for configuration"
-msgstr ""
+msgstr "تعذر تهيئة الجهاز للتكوين"
 
 #: ../plugins/hotspot//Common.qml:44 ../plugins/wifi//Common.qml:46
 msgid ""
 "IP configuration could not be reserved (no available address, timeout, etc.)"
-msgstr ""
+msgstr "تعذر حجز تهيئة عنوان IP (لا يتوفر عنوان أو مهلة أو ما إلى ذلك)"
 
 #: ../plugins/hotspot//Common.qml:46 ../plugins/wifi//Common.qml:48
 msgid "The IP configuration is no longer valid"
-msgstr ""
+msgstr "لم يعد تكوين IP صالحا"
 
 #: ../plugins/hotspot//Common.qml:48 ../plugins/wifi//Common.qml:50
 msgid "Your authentication details were incorrect"
-msgstr ""
+msgstr "تفاصيل المصادقة غير صحيحة"
 
 #: ../plugins/hotspot//Common.qml:50 ../plugins/wifi//Common.qml:52
 msgid "802.1X supplicant disconnected"
-msgstr ""
+msgstr "802.1X قطع الدعوى"
 
 #: ../plugins/hotspot//Common.qml:52 ../plugins/wifi//Common.qml:54
 msgid "802.1X supplicant configuration failed"
-msgstr ""
+msgstr "فشل تكوين المكون الإضافي 802.1X"
 
 #: ../plugins/hotspot//Common.qml:54 ../plugins/wifi//Common.qml:56
 msgid "802.1X supplicant failed"
-msgstr ""
+msgstr "فشل 802.1X سوبليكانت"
 
 #: ../plugins/hotspot//Common.qml:56 ../plugins/wifi//Common.qml:58
 msgid "802.1X supplicant took too long to authenticate"
-msgstr ""
+msgstr "استغرق مقدم الطلب 802.1X وقتا طويلا للمصادقة"
 
 #: ../plugins/hotspot//Common.qml:58 ../plugins/wifi//Common.qml:60
 msgid "DHCP client failed to start"
-msgstr ""
+msgstr "فشل عميل DHCP  للبدء"
 
 #: ../plugins/hotspot//Common.qml:60 ../plugins/wifi//Common.qml:62
 msgid "DHCP client error"
-msgstr ""
+msgstr "خطأ عميل DHCP"
 
 #: ../plugins/hotspot//Common.qml:62 ../plugins/wifi//Common.qml:64
 msgid "DHCP client failed"
-msgstr ""
+msgstr "فشل عميل DHCP"
 
 #: ../plugins/hotspot//Common.qml:64 ../plugins/wifi//Common.qml:66
 msgid "Shared connection service failed to start"
-msgstr ""
+msgstr "أخفقت خدمة الاتصال المشتركة"
 
 #: ../plugins/hotspot//Common.qml:66 ../plugins/wifi//Common.qml:68
 msgid "Shared connection service failed"
-msgstr ""
+msgstr "أخفقت خدمة الاتصال المشتركة"
 
 #: ../plugins/hotspot//Common.qml:68 ../plugins/wifi//Common.qml:70
 msgid "Necessary firmware for the device may be missing"
-msgstr ""
+msgstr "قد تكون البرامج الثابتة الضرورية للجهاز مفقودة"
 
 #: ../plugins/hotspot//Common.qml:70 ../plugins/wifi//Common.qml:72
 msgid "The device was removed"
-msgstr ""
+msgstr "تمت إزالة الجهاز"
 
 #: ../plugins/hotspot//Common.qml:72 ../plugins/wifi//Common.qml:74
 msgid "NetworkManager went to sleep"
-msgstr ""
+msgstr "ذهب مدير الشبكة إلى النوم"
 
 #: ../plugins/hotspot//Common.qml:74 ../plugins/wifi//Common.qml:76
 msgid "The device's active connection disappeared"
-msgstr ""
+msgstr "اختفى اتصال الجهاز النشط"
 
 #: ../plugins/hotspot//Common.qml:76 ../plugins/wifi//Common.qml:78
 msgid "Device disconnected by user or client"
-msgstr ""
+msgstr "الجهاز مفصول بواسطة المستخدم أو العميل"
 
 #: ../plugins/hotspot//Common.qml:78 ../plugins/wifi//Common.qml:80
 msgid "The device's existing connection was assumed"
-msgstr ""
+msgstr "تم افتراض اتصال الجهاز الحالي"
 
 #: ../plugins/hotspot//Common.qml:80 ../plugins/wifi//Common.qml:82
 msgid "The supplicant is now available"
-msgstr ""
+msgstr "المدعى هو متاح الآن"
 
 #: ../plugins/hotspot//Common.qml:82 ../plugins/wifi//Common.qml:84
 msgid "The modem could not be found"
-msgstr ""
+msgstr "تعذر العثور على المودم"
 
 #: ../plugins/hotspot//Common.qml:84 ../plugins/wifi//Common.qml:86
 msgid "The Bluetooth connection failed or timed out"
-msgstr ""
+msgstr "أخفق اتصال البلوتوث أو انتهت مهلته"
 
 #: ../plugins/hotspot//Common.qml:86 ../plugins/wifi//Common.qml:88
 msgid "A dependency of the connection failed"
-msgstr ""
+msgstr "أخفق اعتماد الاتصال"
 
 #: ../plugins/hotspot//Common.qml:88 ../plugins/wifi//Common.qml:90
 msgid "ModemManager is unavailable"
-msgstr ""
+msgstr "مدير المودم غير متاح"
 
 #: ../plugins/hotspot//Common.qml:90 ../plugins/wifi//Common.qml:92
 msgid "The Wi-Fi network could not be found"
-msgstr ""
+msgstr "تعذر العثور على شبكة واي-في"
 
 #: ../plugins/hotspot//Common.qml:92 ../plugins/wifi//Common.qml:94
 msgid "A secondary connection of the base connection failed"
-msgstr ""
+msgstr "فشل اتصال ثانوي لاتصال القاعدة"
 
 #: ../plugins/hotspot//HotspotSetup.qml:61
 msgid "Change Hotspot Setup"
-msgstr ""
+msgstr "تغيير إعداد نقطة ساخنة"
 
 #: ../plugins/hotspot//HotspotSetup.qml:61
 msgid "Set Up Hotspot"
-msgstr ""
+msgstr "إعداد نقطة ساخنة"
 
 #: ../plugins/hotspot//HotspotSetup.qml:175
 msgid "Hotspot name"
-msgstr ""
+msgstr "اسم نقطة ساخنة"
 
 #: ../plugins/hotspot//HotspotSetup.qml:176
 #, fuzzy
@@ -515,26 +519,26 @@ msgstr "اختيار عبارة سرية"
 
 #: ../plugins/hotspot//HotspotSetup.qml:193
 msgid "Require a password (recommended):"
-msgstr ""
+msgstr "طلب كلمة مرور (مستحسن):"
 
 #: ../plugins/hotspot//HotspotSetup.qml:224
 #: ../plugins/wifi//NetworkDetails.qml:84 ../plugins/wifi//OtherNetwork.qml:821
 msgid "Show password"
-msgstr ""
+msgstr "عرض كلمة المرور"
 
 #: ../plugins/hotspot//HotspotSetup.qml:245
 msgid "Starting the hotspot will turn on Wi-Fi."
-msgstr ""
+msgstr "سيؤدي تشغيل نقطة الاتصال إلى تشغيل واي-في."
 
 #: ../plugins/hotspot//HotspotSetup.qml:274
 #: ../plugins/security-privacy//LockSecurity.qml:388
 #: ../plugins/security-privacy//SimPin.qml:186
 msgid "Change"
-msgstr ""
+msgstr "تغير"
 
 #: ../plugins/hotspot//HotspotSetup.qml:275
 msgid "Start"
-msgstr ""
+msgstr "بداية"
 
 #: ../plugins/battery//SleepValues.qml:74
 #, fuzzy
@@ -652,12 +656,12 @@ msgstr "%1%"
 #: ../plugins/battery//PageComponent.qml:190
 #: ../plugins/battery//PageComponent.qml:192
 msgid "Yesterday"
-msgstr ""
+msgstr "امس"
 
 #: ../plugins/battery//PageComponent.qml:198
 #: ../plugins/battery//PageComponent.qml:200
 msgid "Today"
-msgstr ""
+msgstr "اليوم"
 
 #: ../plugins/battery//PageComponent.qml:269
 msgid "Charging now"
@@ -678,7 +682,7 @@ msgstr "طرق للحد من استهلاك البطارية:"
 #: ../plugins/battery//PageComponent.qml:296
 #: ../plugins/brightness//PageComponent.qml:84
 msgid "Display brightness"
-msgstr ""
+msgstr "سطوع الشاشة"
 
 #: ../plugins/battery//PageComponent.qml:313
 #: ../plugins/security-privacy//PhoneLocking.qml:85
@@ -706,7 +710,7 @@ msgstr[5] "بعد %1 دقيقة"
 #. TRANSLATORS: “Wi-Fi used for hotspot” is hidden.
 #: ../plugins/battery//PageComponent.qml:364
 msgid "Wi-Fi used for hotspot"
-msgstr ""
+msgstr "واي فاي المستخدمة للنقطة الساخنة"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../plugins/battery//PageComponent.qml:364
@@ -726,21 +730,23 @@ msgstr "بلوتوث"
 #: ../plugins/notifications//ClickAppNotifications.qml:54
 #: ../build/po/settings.js:54
 msgid "Notifications"
-msgstr ""
+msgstr "إخطارات"
 
 #: ../plugins/notifications//PageComponent.qml:74
 msgid ""
 "Apps can alert you using sounds, vibrations, notification bubbles and the "
 "Notification list."
 msgstr ""
+"يمكن تطبيقات تنبيهك باستخدام الأصوات والاهتزازات، فقاعات الإخطار وقائمة "
+"الإعلام."
 
 #: ../plugins/notifications//PageComponent.qml:90
 msgid "Apps that notify with sound"
-msgstr ""
+msgstr "التطبيقات التي تخطر بالصوت"
 
 #: ../plugins/notifications//PageComponent.qml:115
 msgid "Apps that notify with vibration"
-msgstr ""
+msgstr "التطبيقات التي تخطر بالاهتزاز"
 
 #: ../plugins/notifications//PageComponent.qml:140
 #, fuzzy
@@ -766,7 +772,7 @@ msgstr "أصوات أخرى:"
 
 #: ../plugins/notifications//PageComponent.qml:180
 msgid "Bubbles"
-msgstr ""
+msgstr "فقاعات"
 
 #: ../plugins/notifications//PageComponent.qml:183
 #: ../plugins/notifications//ClickAppNotifications.qml:147
@@ -791,11 +797,11 @@ msgstr "اهتزاز عند الرنين"
 
 #: ../plugins/notifications//ClickAppsVibrationsNotify.qml:73
 msgid "Don't vibrate"
-msgstr ""
+msgstr "لا يهتز"
 
 #: ../plugins/notifications//ClickAppsVibrationsNotify.qml:89
 msgid "Apps that notify with vibrations:"
-msgstr ""
+msgstr "التطبيقات التي تخطر بالاهتزازات:"
 
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../plugins/notifications//ClickAppsSoundsNotify.qml:30
@@ -805,30 +811,30 @@ msgstr "الصوت"
 
 #: ../plugins/notifications//ClickAppsSoundsNotify.qml:48
 msgid "Apps that notify with sound:"
-msgstr ""
+msgstr "التطبيقات التي تخطر بالصوت:"
 
 #: ../plugins/notifications//ClickAppNotifications.qml:72
 msgid "Let this app alert me using:"
-msgstr ""
+msgstr "السماح لهذا التطبيق تنبيه لي باستخدام:"
 
 #: ../plugins/notifications//ClickAppNotifications.qml:125
 msgid "Notification Bubbles"
-msgstr ""
+msgstr "فقاعات إعلام"
 
 #: ../plugins/background//Preview.qml:69
 msgid "Preview"
-msgstr ""
+msgstr "معاينة"
 
 #: ../plugins/background//Preview.qml:101
 msgid "Remove image"
-msgstr ""
+msgstr "إزالة الصورة"
 
 #: ../plugins/background//Preview.qml:107
 #: ../plugins/security-privacy//LockSecurity.qml:390
 #: ../plugins/time-date//TimePicker.qml:181
 #: ../plugins/phone//CallForwarding.qml:253
 msgid "Set"
-msgstr "عيّن"
+msgstr "طقم"
 
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../plugins/background//MainPage.qml:36 ../build/po/settings.js:78
@@ -841,7 +847,7 @@ msgstr "فنون أوبونتو"
 
 #: ../plugins/background//MainPage.qml:104
 msgid "Custom"
-msgstr ""
+msgstr "العادة"
 
 #: ../plugins/background//MainPage.qml:117
 #, fuzzy
@@ -859,7 +865,7 @@ msgstr "لغة العرض..."
 
 #: ../plugins/language//PageComponent.qml:155
 msgid "On-screen keyboard"
-msgstr ""
+msgstr "لوحة المفاتيح على الشاشة"
 
 #: ../plugins/language//PageComponent.qml:156
 #: ../plugins/language//KeyboardLayouts.qml:29
@@ -868,7 +874,7 @@ msgstr "تخطيط لوحة المفاتيح"
 
 #: ../plugins/language//PageComponent.qml:167
 msgid "External keyboard"
-msgstr ""
+msgstr "لوحة مفاتيح خارجية"
 
 #: ../plugins/language//PageComponent.qml:181
 #: ../plugins/language//PageComponent.qml:191
@@ -879,7 +885,7 @@ msgstr "التدقيق الإملائي"
 
 #: ../plugins/language//PageComponent.qml:202
 msgid "Auto correction"
-msgstr ""
+msgstr "تصحيح تلقائي"
 
 #: ../plugins/language//PageComponent.qml:213
 msgid "Word suggestions"
@@ -895,11 +901,11 @@ msgstr "شغّل مفتاح Shift لتكبير الأحرف الأولية من 
 
 #: ../plugins/language//PageComponent.qml:245
 msgid "Auto punctuation"
-msgstr ""
+msgstr "علامات الترقيم التلقائية"
 
 #: ../plugins/language//PageComponent.qml:257
 msgid "Inserts a period when you tap Space twice."
-msgstr ""
+msgstr "إدراج فترة عند النقر فوق الفضاء مرتين."
 
 #: ../plugins/language//PageComponent.qml:264
 #: ../plugins/sound//PageComponent.qml:250
@@ -1260,7 +1266,7 @@ msgstr ""
 #: ../plugins/security-privacy//PageComponent.qml:266
 #: ../plugins/phone//CallForwarding.qml:386
 msgid "Off"
-msgstr ""
+msgstr "مغلق"
 
 #: ../plugins/security-privacy//PageComponent.qml:205
 msgid "Encryption"
@@ -1555,7 +1561,7 @@ msgstr ""
 
 #: ../plugins/security-privacy//SimPin.qml:333
 msgid "Unlock"
-msgstr ""
+msgstr "مفتوح"
 
 #: ../plugins/security-privacy//SimPin.qml:333
 msgid "Lock"
@@ -1917,9 +1923,8 @@ msgstr ""
 
 #: ../plugins/cellular//PageChooseApn.qml:231
 #: ../plugins/cellular//PageChooseApn.qml:264
-#, fuzzy
 msgid "Disable"
-msgstr "لوحي"
+msgstr "تعطيل"
 
 #: ../plugins/cellular//PageChooseApn.qml:253
 #, fuzzy, qt-format
@@ -1952,7 +1957,7 @@ msgstr "شبكة الاتصال الخلوي"
 
 #: ../plugins/cellular//PageApnEditor.qml:69
 msgid "Edit"
-msgstr ""
+msgstr "تحرير"
 
 #: ../plugins/cellular//PageApnEditor.qml:69
 msgid "New APN"
@@ -1966,7 +1971,7 @@ msgstr ""
 #: ../plugins/wifi//NetworkDetails.qml:57
 #: ../plugins/bluetooth//DevicePage.qml:101
 msgid "Name"
-msgstr "الاسم"
+msgstr "اسم"
 
 #: ../plugins/cellular//PageApnEditor.qml:188
 msgid "Enter a name describing the APN"
@@ -2140,7 +2145,7 @@ msgstr "جميع التخطيطات المتوفرة:"
 
 #: ../plugins/wifi//CertDialog.qml:74
 msgid "Save"
-msgstr ""
+msgstr "حفظ"
 
 #: ../plugins/wifi//OtherNetwork.qml:92
 msgid "Connect to Wi‑Fi"
@@ -2368,7 +2373,7 @@ msgstr "الثانية"
 
 #: ../plugins/time-date//TimePicker.qml:117
 msgid "Date"
-msgstr "التاريخ"
+msgstr "تاريخ"
 
 #: ../plugins/time-date//TimePicker.qml:129
 msgid "Day"
@@ -2403,7 +2408,7 @@ msgstr ""
 #: ../plugins/bluetooth//DevicePage.qml:48
 #: ../plugins/bluetooth//DevicePage.qml:49 ../build/po/settings.js:326
 msgid "Phone"
-msgstr "الهاتف"
+msgstr "هاتف"
 
 #: ../plugins/phone//NoSims.qml:28 ../plugins/phone//SingleSim.qml:41
 #: ../plugins/phone//MultiSim.qml:52 ../plugins/phone//CallForwarding.qml:45
@@ -2418,7 +2423,7 @@ msgstr "انتظار المكالمات"
 
 #: ../plugins/phone//NoSims.qml:42 ../plugins/phone//MultiSim.qml:63
 msgid "Services"
-msgstr ""
+msgstr "خدمات"
 
 #: ../plugins/phone//ServiceInfo.qml:109
 #, qt-format
@@ -2426,6 +2431,7 @@ msgid "Last called %1"
 msgstr ""
 
 #: ../plugins/phone//ServiceInfo.qml:119
+#, fuzzy
 msgid "Call"
 msgstr "اتصال"
 
@@ -2433,15 +2439,13 @@ msgstr "اتصال"
 msgid ""
 "Lets you answer or start a new call while on another call, and switch "
 "between them"
-msgstr ""
-"يتيح لك الإجابة على المكالمات أو بدء مكالمة جديدة أثناء إجرائك للمكالمات، "
-"والتبديل بينها."
+msgstr "يتيح لك الرد أو بدء مكالمة جديدة أثناء مكالمة أخرى، والتبديل بينهما"
 
 #. TRANSLATORS: This string will be truncated on smaller displays.
 #: ../plugins/phone//CallForwardItem.qml:157
 #: ../plugins/phone//CallForwardItem.qml:202
 msgid "Forward to"
-msgstr ""
+msgstr "الي"
 
 #: ../plugins/phone//CallForwardItem.qml:171
 msgid "Enter a number"
@@ -2453,21 +2457,21 @@ msgstr ""
 
 #: ../plugins/phone//SingleSim.qml:29
 msgid "SIM"
-msgstr "شريحة الهاتف"
+msgstr "اس اي ام"
 
 #. TRANSLATORS: %1 is the name of the (network) carrier
 #: ../plugins/phone//SingleSim.qml:53 ../plugins/phone//Services.qml:35
 #, qt-format
 msgid "%1 Services"
-msgstr "خدمات %1"
+msgstr "خدمات 1%"
 
 #: ../plugins/phone//CallForwarding.qml:131
 msgid "Forward every incoming call"
-msgstr ""
+msgstr "إعادة توجيه كل مكالمة واردة"
 
 #: ../plugins/phone//CallForwarding.qml:146
 msgid "Redirects all phone calls to another number."
-msgstr ""
+msgstr "إعادة توجيه جميع المكالمات الهاتفية إلى رقم آخر."
 
 #: ../plugins/phone//CallForwarding.qml:158
 msgid "Call forwarding status can’t be checked "
@@ -2475,7 +2479,7 @@ msgstr ""
 
 #: ../plugins/phone//CallForwarding.qml:166
 msgid "Forward incoming calls when:"
-msgstr ""
+msgstr "إعادة توجيه المكالمات الواردة عند:"
 
 #: ../plugins/phone//CallForwarding.qml:175
 msgid "I’m on another call"
@@ -2487,7 +2491,7 @@ msgstr ""
 
 #: ../plugins/phone//CallForwarding.qml:197
 msgid "My phone is unreachable"
-msgstr ""
+msgstr "لا يمكن الوصول إلى هاتفي"
 
 #: ../plugins/phone//CallForwarding.qml:227
 msgid "Contacts…"
@@ -2495,23 +2499,23 @@ msgstr ""
 
 #: ../plugins/phone//CallForwarding.qml:274
 msgid "Please select a phone number"
-msgstr ""
+msgstr "الرجاء تحديد رقم هاتف"
 
 #: ../plugins/phone//CallForwarding.qml:283
 msgid "Numbers"
-msgstr ""
+msgstr "الارقام"
 
 #: ../plugins/phone//CallForwarding.qml:302
 msgid "Could not forward to this contact"
-msgstr ""
+msgstr "تعذرت إعادة التوجيه إلى جهة الاتصال هذه"
 
 #: ../plugins/phone//CallForwarding.qml:303
 msgid "Contact not associated with any phone number."
-msgstr ""
+msgstr "جهة الاتصال غير مرتبطة بأي رقم هاتف"
 
 #: ../plugins/phone//CallForwarding.qml:382
 msgid "All calls"
-msgstr ""
+msgstr "لكل المكالمات"
 
 #: ../plugins/phone//CallForwarding.qml:384
 #, fuzzy
@@ -2702,7 +2706,7 @@ msgstr "مودم"
 
 #: ../plugins/bluetooth//DevicePage.qml:51 ../src/qml/MainWindow.qml:165
 msgid "Network"
-msgstr "الشبكة"
+msgstr "شبكة الاتصال"
 
 #: ../plugins/bluetooth//DevicePage.qml:52
 msgid "Headset"
@@ -3319,7 +3323,7 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../build/po/settings.js:182
 msgid "password"
-msgstr ""
+msgstr "كلمه السر"
 
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../build/po/settings.js:184
