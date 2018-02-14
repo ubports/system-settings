@@ -19,7 +19,7 @@ include_directories(
     /usr/include/apt-pkg/
 )
 
-pkg_check_modules(UAL REQUIRED ubuntu-app-launch-2)
+pkg_check_modules(UAL REQUIRED ubuntu-app-launch-3)
 add_definitions(${UAL_CFLAGS} ${UAL_CFLAGS_OTHER})
 
 add_library(UpdatePlugin SHARED
