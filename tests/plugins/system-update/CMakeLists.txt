@@ -7,7 +7,7 @@ include_directories(
     ${QTDBUSTEST_INCLUDE_DIRS}
 )
 
-pkg_check_modules(UAL REQUIRED ubuntu-app-launch-2)
+pkg_check_modules(UAL REQUIRED ubuntu-app-launch-3)
 add_definitions(${UAL_CFLAGS} ${UAL_CFLAGS_OTHER})
 
 find_package(Qt5Test REQUIRED)
