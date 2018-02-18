@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-11-07 23:38+0000\n"
+"PO-Revision-Date: 2017-12-10 10:04+0000\n"
 "Last-Translator: Brînzariu Cristian <info@ebeton.ro>\n"
 "Language-Team: Romanian <https://translate.ubports.com/projects/ubports"
 "/system-settings/ro/>\n"
@@ -205,7 +205,7 @@ msgstr "Autentificare…"
 #: ../plugins/system-update//ChangelogExpander.qml:42
 #, qt-format
 msgid "Version %1"
-msgstr "Versiune %1"
+msgstr "Versiunea %1"
 
 #: ../plugins/system-update//UpdateSettings.qml:47
 msgid "On wi-fi"

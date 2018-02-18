@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2015-06-16 09:34+0000\n"
-"Last-Translator: Marcos Lans <Unknown>\n"
-"Language-Team: Galician <gl@li.org>\n"
-"Language: Galician\n"
+"PO-Revision-Date: 2018-01-23 21:55+0000\n"
+"Last-Translator: hensip <hensip@gmail.com>\n"
+"Language-Team: Galician <https://translate.ubports.com/projects/ubports"
+"/system-settings/gl/>\n"
+"Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.15\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:40+0000\n"
-"X-Generator: Launchpad (build 17628)\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:116
 msgid "System Settings"
@@ -37,9 +38,8 @@ msgstr ""
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
-#, fuzzy
 msgid "Stable"
-msgstr "Tableta"
+msgstr "Estábel"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
@@ -103,9 +103,8 @@ msgid "Updates"
 msgstr "Actualizar"
 
 #: ../plugins/system-update//PageComponent.qml:182
-#, fuzzy
 msgid "Connect to the Internet to check for updates."
-msgstr "Conectar a internet para buscar actualizacións"
+msgstr "Conectar a internet para buscar actualizacións."
 
 #: ../plugins/system-update//PageComponent.qml:184
 msgid "Software is up to date"
@@ -116,20 +115,17 @@ msgid "The update server is not responding. Try again later."
 msgstr ""
 
 #: ../plugins/system-update//PageComponent.qml:196
-#, fuzzy
 msgid "Updates Available"
 msgstr "Actualizacións dispoñíbeis"
 
 #: ../plugins/system-update//PageComponent.qml:349
-#, fuzzy
 msgid "Recent updates"
-msgstr "Buscar actualizacións"
+msgstr "Actualizacións recentes"
 
 #: ../plugins/system-update//PageComponent.qml:412
 #: ../plugins/system-update//UpdateSettings.qml:32
-#, fuzzy
 msgid "Update settings"
-msgstr "Axustes do sistema"
+msgstr "Axustes de actualizacións"
 
 #: ../plugins/system-update//DownloadHandler.qml:174
 #: ../plugins/system-update//InstallationFailed.qml:25
@@ -151,16 +147,14 @@ msgstr "Actualizar o sistema"
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:32
 #: ../plugins/system-update//ImageUpdatePrompt.qml:32
-#, fuzzy
 msgid "The device needs to restart to install the system update."
 msgstr ""
-"O teléfono precisa reiniciarse para instalar a actualización do sistema."
+"O dispositivo precisa reiniciarse para instalar a actualización do sistema."
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:33
 #: ../plugins/system-update//ImageUpdatePrompt.qml:33
-#, fuzzy
 msgid "Connect the device to power before installing the system update."
-msgstr "Conectar o teléfono á corrente antes de actualizar o sistema."
+msgstr "Conectar o dispositivo á corrente antes de actualizar o sistema."
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:38
 #: ../plugins/system-update//ImageUpdatePrompt.qml:38
@@ -207,9 +201,9 @@ msgid "Sign In…"
 msgstr "Iniciar sesión..."
 
 #: ../plugins/system-update//ChangelogExpander.qml:42
-#, fuzzy, qt-format
+#, qt-format
 msgid "Version %1"
-msgstr "Versión: "
+msgstr "Versión %1"
 
 #: ../plugins/system-update//UpdateSettings.qml:47
 msgid "On wi-fi"
@@ -223,12 +217,11 @@ msgstr "Sempre"
 #: ../plugins/hotspot//Common.qml:94 ../plugins/wifi//Common.qml:96
 #: ../plugins/bluetooth//DevicePage.qml:41
 msgid "Unknown"
-msgstr "Descoñecida"
+msgstr "Descoñecido"
 
 #: ../plugins/system-update//UpdateSettings.qml:61
-#, fuzzy
 msgid "Channels"
-msgstr "Cambiar"
+msgstr "Canles"
 
 #: ../plugins/system-update//Global.qml:84
 msgid "Checking for updates…"
@@ -236,25 +229,23 @@ msgstr "Buscando actualizacións..."
 
 #: ../plugins/system-update//Global.qml:89
 msgid "Stop"
-msgstr ""
+msgstr "Deter"
 
 #. TRANSLATORS: %1 is number of software updates available.
 #: ../plugins/system-update//Global.qml:116
-#, fuzzy, qt-format
+#, qt-format
 msgid "%1 update available"
 msgid_plural "%1 updates available"
-msgstr[0] "Actualizacións dispoñíbeis"
-msgstr[1] "Actualizacións dispoñíbeis"
+msgstr[0] "%1 actualización dispoñíbel"
+msgstr[1] "%1 actualizacións dispoñíbeis"
 
 #: ../plugins/system-update//Global.qml:126
-#, fuzzy
 msgid "Update all…"
-msgstr "Actualizacións dispoñíbeis"
+msgstr "Actualizar todo…"
 
 #: ../plugins/system-update//Global.qml:128
-#, fuzzy
 msgid "Update all"
-msgstr "Actualizar"
+msgstr "Actualizar todo"
 
 #: ../plugins/system-update//UpdateDelegate.qml:119
 msgid "Retry"
@@ -293,14 +284,12 @@ msgid "Installing"
 msgstr "Instalando"
 
 #: ../plugins/system-update//UpdateDelegate.qml:232
-#, fuzzy
 msgid "Paused"
-msgstr "Deter"
+msgstr "En pausa"
 
 #: ../plugins/system-update//UpdateDelegate.qml:235
-#, fuzzy
 msgid "Waiting to download"
-msgstr "Descarga automática"
+msgstr "Agardando para descargar"
 
 #: ../plugins/system-update//UpdateDelegate.qml:238
 msgid "Downloading"
@@ -315,9 +304,8 @@ msgid "%1 of %2"
 msgstr "%1 de %2"
 
 #: ../plugins/system-update//UpdateDelegate.qml:278
-#, fuzzy
 msgid "Downloaded"
-msgstr "Descargar"
+msgstr "Baixado"
 
 #: ../plugins/system-update//UpdateDelegate.qml:281
 msgid "Installed"
@@ -326,14 +314,13 @@ msgstr "Instalado"
 #. TRANSLATORS: %1 is the date at which this
 #. update was applied.
 #: ../plugins/system-update//UpdateDelegate.qml:286
-#, fuzzy, qt-format
+#, qt-format
 msgid "Updated %1"
-msgstr "Actualizar"
+msgstr "Actualizado o %1"
 
 #: ../plugins/system-update//UpdateDelegate.qml:310
-#, fuzzy
 msgid "Update failed"
-msgstr "Actualizacións dispoñíbeis"
+msgstr "Fallou a actualización"
 
 #. TRANSLATORS: This is a keyword or name for the hotspot plugin which is used while searching
 #: ../plugins/hotspot//PageComponent.qml:33
@@ -545,7 +532,7 @@ msgstr "Cambiar"
 
 #: ../plugins/hotspot//HotspotSetup.qml:275
 msgid "Start"
-msgstr ""
+msgstr "Comezar"
 
 #: ../plugins/battery//SleepValues.qml:74
 #, fuzzy
@@ -766,9 +753,8 @@ msgid "Notification List"
 msgstr "Notificacións"
 
 #: ../plugins/notifications//ClickAppsVibrationsNotify.qml:30
-#, fuzzy
 msgid "Vibration"
-msgstr "vibración"
+msgstr "Vibración"
 
 #: ../plugins/notifications//ClickAppsVibrationsNotify.qml:54
 #, fuzzy
@@ -821,7 +807,7 @@ msgstr "Retirar a imaxe"
 #: ../plugins/time-date//TimePicker.qml:181
 #: ../plugins/phone//CallForwarding.qml:253
 msgid "Set"
-msgstr "Estabelecer"
+msgstr "Precisar"
 
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../plugins/background//MainPage.qml:36 ../build/po/settings.js:78
@@ -1972,7 +1958,7 @@ msgstr ""
 
 #: ../plugins/cellular//PageChooseApn.qml:302
 msgid "Delete"
-msgstr ""
+msgstr "Eliminar"
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../plugins/cellular//PageComponent.qml:32 ../build/po/settings.js:254
@@ -1981,7 +1967,7 @@ msgstr "Teléfono móbil"
 
 #: ../plugins/cellular//PageApnEditor.qml:69
 msgid "Edit"
-msgstr ""
+msgstr "Editar"
 
 #: ../plugins/cellular//PageApnEditor.qml:69
 #, fuzzy
@@ -2133,7 +2119,7 @@ msgstr "Enderezo IP"
 
 #: ../plugins/wifi//RemoveBackground.qml:28
 msgid "Clear"
-msgstr "Eliminar"
+msgstr "Limpar"
 
 #: ../plugins/wifi//AccessPoint.qml:51 ../plugins/wifi//StandardMenuItem.qml:31
 #: ../plugins/brightness//PageComponent.qml:159
@@ -2290,9 +2276,8 @@ msgid "Pac provisioning"
 msgstr ""
 
 #: ../plugins/wifi//OtherNetwork.qml:686
-#, fuzzy
 msgid "Disabled"
-msgstr "desactivar"
+msgstr "Desactivado"
 
 #: ../plugins/wifi//OtherNetwork.qml:687
 msgid "Anonymous"
@@ -2448,7 +2433,7 @@ msgstr "Teléfono"
 #: ../plugins/phone//NoSims.qml:28 ../plugins/phone//SingleSim.qml:41
 #: ../plugins/phone//MultiSim.qml:52 ../plugins/phone//CallForwarding.qml:45
 msgid "Call forwarding"
-msgstr "Redireccionar chamadas"
+msgstr "Redireccionamento de chamadas"
 
 #: ../plugins/phone//NoSims.qml:34 ../plugins/phone//CallWaiting.qml:31
 #: ../plugins/phone//CallWaiting.qml:81 ../plugins/phone//SingleSim.qml:34
@@ -2555,14 +2540,12 @@ msgid "Contact not associated with any phone number."
 msgstr ""
 
 #: ../plugins/phone//CallForwarding.qml:382
-#, fuzzy
 msgid "All calls"
-msgstr "chamar"
+msgstr "Tódalas chamadas"
 
 #: ../plugins/phone//CallForwarding.qml:384
-#, fuzzy
 msgid "Some calls"
-msgstr "Chamadas de teléfono:"
+msgstr "Algunhas chamadas"
 
 #: ../plugins/brightness//WifiDisplaysAlert.qml:32
 #, fuzzy, qt-format

@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-30 19:15+0000\n"
-"Last-Translator: Stefano Melchior <stefano.melchior@me.com>\n"
+"PO-Revision-Date: 2018-01-02 20:15+0000\n"
+"Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
 "Language-Team: Catalan <https://translate.ubports.com/projects/ubports"
 "/system-settings/ca/>\n"
 "Language: ca\n"
@@ -1788,7 +1788,7 @@ msgstr "So de bloqueig"
 
 #: ../plugins/sound//PageComponent.qml:277
 msgid "Other vibrations"
-msgstr "Altes vibracions"
+msgstr "Altres vibracions"
 
 #: ../plugins/sound//SoundsList.qml:128
 msgid "Custom Ringtone"
@@ -2558,7 +2558,7 @@ msgstr "Sol·licitud d'aparellament del Bluetooth"
 #: ../plugins/bluetooth//DisplayPinCodeDialog.qml:34
 #, qt-format
 msgid "Please enter the following PIN on %1 and press “Enter” on the keyboard:"
-msgstr "Si us plau entre el PIN següent a %1 i premeu «Intro» al teclat:"
+msgstr "Introduïu el PIN següent a %1 i premeu «Intro» al teclat:"
 
 #: ../plugins/bluetooth//PageComponent.qml:250
 msgid "Discoverable"

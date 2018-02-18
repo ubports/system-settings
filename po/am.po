@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2015-03-10 01:43+0000\n"
-"Last-Translator: samson <Unknown>\n"
-"Language-Team: Amharic <am@li.org>\n"
+"PO-Revision-Date: 2018-01-08 06:08+0000\n"
+"Last-Translator: Samson <sambelet@yahoo.com>\n"
+"Language-Team: Amharic <https://translate.ubports.com/projects/ubports"
+"/system-settings/am/>\n"
 "Language: am\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 2.15\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:39+0000\n"
-"X-Generator: Launchpad (build 17628)\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:116
 msgid "System Settings"
@@ -25,44 +26,42 @@ msgstr "ስርአት ማሰናጃ"
 
 #: ubuntu-system-settings.desktop.in.in.h:2
 msgid "System;"
-msgstr "ስርአት:"
+msgstr "ስርአት;"
 
 #: ubuntu-system-settings.desktop.in.in.h:3
 msgid "Preferences;Settings;"
-msgstr "ምርጫዎች: ማሰናጃዎች:"
+msgstr "ምርጫዎች; ማሰናጃዎች;"
 
 #: ../plugins/system-update//ChannelSettings.qml:32
 msgid "Channel settings"
-msgstr ""
+msgstr "ጣቢያ ማሰናጃ"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
-#, fuzzy
 msgid "Stable"
-msgstr "ታብሌት"
+msgstr "የ ተረጋጋ"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
 msgid "Release candidate"
-msgstr ""
+msgstr "የሚለቀቀው እትም"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
-#, fuzzy
 msgid "Development"
-msgstr "የ አበልጻጊ ዘዴ"
+msgstr "አበልጻጊ"
 
 #: ../plugins/system-update//ChannelSettings.qml:99
 msgid "Fetching channels"
-msgstr ""
+msgstr "ጣቢያ በ መፈለግ ላይ"
 
 #: ../plugins/system-update//ChannelSettings.qml:109
 msgid "Channel to get updates from:"
-msgstr ""
+msgstr "የሚሻሻለው ጣቢያ ከ:"
 
 #: ../plugins/system-update//ChannelSettings.qml:125
 msgid "Switching channel"
-msgstr ""
+msgstr "ጣቢያ በ መቀየር ላይ"
 
 #: ../plugins/system-update//Configuration.qml:30
 #: ../plugins/system-update//UpdateSettings.qml:42
@@ -95,7 +94,7 @@ msgstr "በማንኛውም የዳታ ግንኙነት"
 
 #: ../plugins/system-update//Configuration.qml:57
 msgid "Data charges may apply."
-msgstr "የ ዳታ ክፍያ ሊጠየቁ ይችላሉ"
+msgstr "የ ዳታ ክፍያ ሊጠየቁ ይችላሉ:"
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../plugins/system-update//PageComponent.qml:38 ../build/po/settings.js:4
@@ -103,9 +102,8 @@ msgid "Updates"
 msgstr "ማሻሻያዎች"
 
 #: ../plugins/system-update//PageComponent.qml:182
-#, fuzzy
 msgid "Connect to the Internet to check for updates."
-msgstr "ከ ኢንተርኔት ጋር ይገናኙ ማሻሻያ ለመፈለግ"
+msgstr "ከ ኢንተርኔት ጋር ይገናኙ ማሻሻያ ለ መፈለግ:"
 
 #: ../plugins/system-update//PageComponent.qml:184
 msgid "Software is up to date"
@@ -113,23 +111,20 @@ msgstr "ሶፍትዌሩ ዘመናዊ ነው"
 
 #: ../plugins/system-update//PageComponent.qml:187
 msgid "The update server is not responding. Try again later."
-msgstr ""
+msgstr "የ ማሻሻያ ሰርቨር አይመልስም: እባክዎን በኋላ ይሞክሩ:"
 
 #: ../plugins/system-update//PageComponent.qml:196
-#, fuzzy
 msgid "Updates Available"
 msgstr "ማሻሻያው ዝግጁ ነው"
 
 #: ../plugins/system-update//PageComponent.qml:349
-#, fuzzy
 msgid "Recent updates"
-msgstr "ማሻሻያዎች መፈለጊያ"
+msgstr "የ ቅርብ ጊዜ ማሻሻያዎች"
 
 #: ../plugins/system-update//PageComponent.qml:412
 #: ../plugins/system-update//UpdateSettings.qml:32
-#, fuzzy
 msgid "Update settings"
-msgstr "ስርአት ማሰናጃ"
+msgstr "ማሻሻያ ማሰናጃ"
 
 #: ../plugins/system-update//DownloadHandler.qml:174
 #: ../plugins/system-update//InstallationFailed.qml:25
@@ -151,20 +146,18 @@ msgstr "ስርአት ማሻሻያ"
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:32
 #: ../plugins/system-update//ImageUpdatePrompt.qml:32
-#, fuzzy
 msgid "The device needs to restart to install the system update."
-msgstr "የ ስርአቱን ማሻሻያ ለመግጠም ስልኩን እንደገና ማስነሳት ያስፈልጋል"
+msgstr "የ ስርአቱን ማሻሻያ ለ መግጠም ስልኩን እንደገና ማስነሳት ያስፈልጋል:"
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:33
 #: ../plugins/system-update//ImageUpdatePrompt.qml:33
-#, fuzzy
 msgid "Connect the device to power before installing the system update."
-msgstr "የ ስርአቱን ማሻሻያ ከ መግጠሞ በፊት ስልኩን ከ ሐይል ጋር ያገናኙ"
+msgstr "የ ስርአቱን ማሻሻያ ከ መግጠሞ በፊት ስልኩን ከ ሐይል ጋር ያገናኙ:"
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:38
 #: ../plugins/system-update//ImageUpdatePrompt.qml:38
 msgid "Restart & Install"
-msgstr ""
+msgstr "እንደገና ማስጀመሪያ & መግጠሚያ"
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:48
 #: ../plugins/system-update//ImageUpdatePrompt.qml:48
@@ -198,16 +191,16 @@ msgstr "መሰረዣ"
 
 #: ../plugins/system-update//NotAuthenticatedNotification.qml:37
 msgid "Sign in to Ubuntu One to receive updates for apps."
-msgstr "የ መተግበሪያዎች ማሻሻያ ለማግኘት ወደ ኡቡንቱ ዋን ይግቡ"
+msgstr "የ መተግበሪያዎች ማሻሻያ ለማግኘት ወደ ኡቡንቱ ዋን ይግቡ:"
 
 #: ../plugins/system-update//NotAuthenticatedNotification.qml:54
 msgid "Sign In…"
 msgstr "መግቢያ…"
 
 #: ../plugins/system-update//ChangelogExpander.qml:42
-#, fuzzy, qt-format
+#, qt-format
 msgid "Version %1"
-msgstr "እትም: "
+msgstr "እትም  %1"
 
 #: ../plugins/system-update//UpdateSettings.qml:47
 msgid "On wi-fi"
@@ -224,9 +217,8 @@ msgid "Unknown"
 msgstr "ያልታወቀ"
 
 #: ../plugins/system-update//UpdateSettings.qml:61
-#, fuzzy
 msgid "Channels"
-msgstr "መቀየሪያ"
+msgstr "ጣቢያዎች"
 
 #: ../plugins/system-update//Global.qml:84
 msgid "Checking for updates…"
@@ -234,29 +226,27 @@ msgstr "ማሻሻያዎችን በመፈለግ ላይ…"
 
 #: ../plugins/system-update//Global.qml:89
 msgid "Stop"
-msgstr ""
+msgstr "ማስቆሚያ"
 
 #. TRANSLATORS: %1 is number of software updates available.
 #: ../plugins/system-update//Global.qml:116
-#, fuzzy, qt-format
+#, qt-format
 msgid "%1 update available"
 msgid_plural "%1 updates available"
-msgstr[0] "ማሻሻያው ዝግጁ ነው"
-msgstr[1] "ማሻሻያው ዝግጁ ነው"
+msgstr[0] "%1 ማሻሻያው ዝግጁ ነው"
+msgstr[1] "%1 ማሻሻያዎች ዝግጁ ናቸው"
 
 #: ../plugins/system-update//Global.qml:126
-#, fuzzy
 msgid "Update all…"
-msgstr "ማሻሻያው ዝግጁ ነው"
+msgstr "ሁሉንም ማሻሻያl…"
 
 #: ../plugins/system-update//Global.qml:128
-#, fuzzy
 msgid "Update all"
-msgstr "ማሻሻያ"
+msgstr "ሁሉንም ማሻሻያ"
 
 #: ../plugins/system-update//UpdateDelegate.qml:119
 msgid "Retry"
-msgstr "እንደገና ይሞክሩ"
+msgstr "እንደገና መሞከሪያ"
 
 #: ../plugins/system-update//UpdateDelegate.qml:124
 msgid "Update"
@@ -284,21 +274,19 @@ msgstr "መግጠሚያ"
 
 #: ../plugins/system-update//UpdateDelegate.qml:149
 msgid "Open"
-msgstr ""
+msgstr "መክፈቻ"
 
 #: ../plugins/system-update//UpdateDelegate.qml:228
 msgid "Installing"
 msgstr "በመግጠም ላይ"
 
 #: ../plugins/system-update//UpdateDelegate.qml:232
-#, fuzzy
 msgid "Paused"
 msgstr "ማስቆሚያ"
 
 #: ../plugins/system-update//UpdateDelegate.qml:235
-#, fuzzy
 msgid "Waiting to download"
-msgstr "በራሱ ማውረጃ"
+msgstr "ለ ማውረድ በ መጠበቅ ላይ"
 
 #: ../plugins/system-update//UpdateDelegate.qml:238
 msgid "Downloading"
@@ -313,9 +301,8 @@ msgid "%1 of %2"
 msgstr "%1 ከ %2"
 
 #: ../plugins/system-update//UpdateDelegate.qml:278
-#, fuzzy
 msgid "Downloaded"
-msgstr "የወረደ"
+msgstr "የ ወረዱ"
 
 #: ../plugins/system-update//UpdateDelegate.qml:281
 msgid "Installed"
@@ -324,14 +311,13 @@ msgstr "ተገጥሟል"
 #. TRANSLATORS: %1 is the date at which this
 #. update was applied.
 #: ../plugins/system-update//UpdateDelegate.qml:286
-#, fuzzy, qt-format
+#, qt-format
 msgid "Updated %1"
-msgstr "ማሻሻያ"
+msgstr "ተሻሽሏል %1"
 
 #: ../plugins/system-update//UpdateDelegate.qml:310
-#, fuzzy
 msgid "Update failed"
-msgstr "ማሻሻያው ዝግጁ ነው"
+msgstr "ማሻሻል አልተሳካም"
 
 #. TRANSLATORS: This is a keyword or name for the hotspot plugin which is used while searching
 #: ../plugins/hotspot//PageComponent.qml:33
@@ -345,38 +331,34 @@ msgid ""
 "Wi-Fi. Normal data charges apply."
 msgstr ""
 "ሆት ስፖት በሚበራ ጊዜ ሌሎች አካሎች የ እርስዎን ሴሉላር ዳታ ግንኙነት መጠቀም ይችላሉ በ ዋይ-ፋይ ኔትዎርክ: መደበኛ "
-"የ ዳታ ክፍያ ያስከትላል"
+"የ ዳታ ክፍያ ያስከትላል:"
 
 #: ../plugins/hotspot//PageComponent.qml:114
 msgid ""
 "Other devices can use your cellular data connection over the Wi-Fi network. "
 "Normal data charges apply."
 msgstr ""
-"ሌሎች አካሎች የ እርስዎን ሴሉላር ዳታ ግንኙነት መጠቀም ይችላሉ በ ዋይ-ፋይ ኔትዎርክ: መደበኛ የ ዳታ ክፍያ ያስከትላል"
+"ሌሎች አካሎች የ እርስዎን ሴሉላር ዳታ ግንኙነት መጠቀም ይችላሉ በ ዋይ-ፋይ ኔትዎርክ: መደበኛ የ ዳታ ክፍያ ያስከትላል:"
 
 #: ../plugins/hotspot//PageComponent.qml:123
-#, fuzzy
 msgid "Change Password/Setup…"
-msgstr "መቀየሪያ የማለፊያ ኮድ…"
+msgstr "የ መግቢያ ቃል መቀየሪያ/ማሰናጃ…"
 
 #: ../plugins/hotspot//PageComponent.qml:123
-#, fuzzy
 msgid "Set Up Hotspot…"
-msgstr "ሆትስፖት ማሰናጃ"
+msgstr "ሆትስፖት ማሰናጃ…"
 
 #: ../plugins/hotspot//PageComponent.qml:154
-#, fuzzy
 msgid "Wi-Fi is off"
-msgstr "ዋይ-ፋይ ሆትስፖት"
+msgstr "ዋይ-ፋይ ጠፍቷል"
 
 #: ../plugins/hotspot//PageComponent.qml:155
 msgid "In order to create a hotspot, you need to turn Wi-Fi on."
-msgstr ""
+msgstr "ሆት ስፖት ለ መፍጠር: እርስዎ ዋይ-ፋይ ማብራት አለብዎት:"
 
 #: ../plugins/hotspot//PageComponent.qml:164
-#, fuzzy
 msgid "Turn on Wi-Fi"
-msgstr "በ ዋይ-ፋይ ላይ በሚሆን ጊዜ"
+msgstr "ዋይ-ፋይ ማብሪያ"
 
 #: ../plugins/hotspot//Common.qml:34 ../plugins/wifi//Common.qml:36
 msgid "Unknown error"
@@ -500,12 +482,10 @@ msgid "A secondary connection of the base connection failed"
 msgstr "ሁለተኛው ግንኙነት ከ መሰረታዊ ግንኙነት ወድቋል"
 
 #: ../plugins/hotspot//HotspotSetup.qml:61
-#, fuzzy
 msgid "Change Hotspot Setup"
 msgstr "የ ሆትስፖት ማሰናጃ መቀየሪያ"
 
 #: ../plugins/hotspot//HotspotSetup.qml:61
-#, fuzzy
 msgid "Set Up Hotspot"
 msgstr "ሆትስፖት ማሰናጃ"
 
@@ -514,13 +494,12 @@ msgid "Hotspot name"
 msgstr "የ ሆትስፖት ስም"
 
 #: ../plugins/hotspot//HotspotSetup.qml:176
-#, fuzzy
 msgid "Choose a name"
-msgstr "የ ማለፊያ ሐረግ ይምረጡ"
+msgstr "ስም ይምረጡ"
 
 #: ../plugins/hotspot//HotspotSetup.qml:193
 msgid "Require a password (recommended):"
-msgstr ""
+msgstr "የ መግቢያ ቃል ያስፈልጋል (እንመክራለን):"
 
 #: ../plugins/hotspot//HotspotSetup.qml:224
 #: ../plugins/wifi//NetworkDetails.qml:84 ../plugins/wifi//OtherNetwork.qml:821
@@ -529,7 +508,7 @@ msgstr "የመግቢያ ቃል ማሳያ"
 
 #: ../plugins/hotspot//HotspotSetup.qml:245
 msgid "Starting the hotspot will turn on Wi-Fi."
-msgstr ""
+msgstr "ሆት ስፖት ማስጀመር ዋይ-ፋይን ያበራዋል:"
 
 #: ../plugins/hotspot//HotspotSetup.qml:274
 #: ../plugins/security-privacy//LockSecurity.qml:388
@@ -539,21 +518,19 @@ msgstr "መቀየሪያ"
 
 #: ../plugins/hotspot//HotspotSetup.qml:275
 msgid "Start"
-msgstr ""
+msgstr "መጀመሪያ"
 
 #: ../plugins/battery//SleepValues.qml:74
-#, fuzzy
 msgid "Lock the device when it's not in use:"
-msgstr "ስልኩን መቆለፊያ በማይጠቀሙበት ጊዜ:"
+msgstr "ስልኩን በማይጠቀሙበት ጊዜ መቆለፊያ:"
 
 #: ../plugins/battery//SleepValues.qml:75
-#, fuzzy
 msgid "Put the device to sleep when it is not in use:"
-msgstr "ስልኩን ማስተኛ በማይጠቀሙበት ጊዜ:"
+msgstr "ስልኩን በማይጠቀሙበት ጊዜ ማስተኛ:"
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery//SleepValues.qml:86
-#, fuzzy, qt-format
+#, qt-format
 msgid "After %1 seconds"
 msgid_plural "After %1 seconds"
 msgstr[0] "ከ %1 ደቂቃ በኋላ"
@@ -577,16 +554,14 @@ msgstr[0] "ከ %1 ደቂቃ በኋላ"
 msgstr[1] "ከ %1 ደቂቆች በኋላ"
 
 #: ../plugins/battery//SleepValues.qml:130
-#, fuzzy
 msgid ""
 "Shorter times are more secure. Device won't lock during calls or video "
 "playback."
-msgstr "ስልኩ ወደ ማስተኛ ዘዴ አይሄድም በ ጥሪ ላይ ወይንም ቪዲዮ በድጋሚ ሲያጫውቱ አጭር ጊዜ ለደህንነት ጥሩ ነው"
+msgstr "ስልኩ ወደ ማስተኛ ዘዴ አይሄድም በ ጥሪ ላይ ወይንም ቪዲዮ በ ድጋሚ ሲያጫውቱ አጭር ጊዜ ለ ደህንነት ጥሩ ነው"
 
 #: ../plugins/battery//SleepValues.qml:130
-#, fuzzy
 msgid "Device won’t sleep during calls or video playback."
-msgstr "ስልኩ ወደ ማስተኛ ዘዴ አይሄድም በ ጥሪ ላይ ወይንም ቪዲዮ በድጋሚ ሲያጫውቱ"
+msgstr "ስልኩ ወደ ማስተኛ ዘዴ አይሄድም በ ጥሪ ላይ ወይንም ቪዲዮ በ ድጋሚ ሲያጫውቱ"
 
 #. TRANSLATORS: This is a keyword or name for the battery plugin which is used while searching
 #: ../plugins/battery//PageComponent.qml:35 ../build/po/settings.js:38
@@ -635,7 +610,7 @@ msgstr "%1%"
 #: ../plugins/battery//PageComponent.qml:190
 #: ../plugins/battery//PageComponent.qml:192
 msgid "Yesterday"
-msgstr "ትናንት"
+msgstr "ትናንትና"
 
 #: ../plugins/battery//PageComponent.qml:198
 #: ../plugins/battery//PageComponent.qml:200
@@ -676,7 +651,7 @@ msgstr "በማይሰራ ጊዜ ማስተኛ"
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery//PageComponent.qml:321
 #: ../plugins/security-privacy//PhoneLocking.qml:94
-#, fuzzy, qt-format
+#, qt-format
 msgid "After %1 second"
 msgid_plural "After %1 seconds"
 msgstr[0] "ከ %1 ደቂቃ በኋላ"
@@ -684,7 +659,6 @@ msgstr[1] "ከ %1 ደቂቆች በኋላ"
 
 #. TRANSLATORS: “Wi-Fi used for hotspot” is hidden.
 #: ../plugins/battery//PageComponent.qml:364
-#, fuzzy
 msgid "Wi-Fi used for hotspot"
 msgstr "ዋይ-ፋይ ሆትስፖት"
 
@@ -709,75 +683,66 @@ msgid "Notifications"
 msgstr "ማስታወቂያዎች"
 
 #: ../plugins/notifications//PageComponent.qml:74
-#, fuzzy
 msgid ""
 "Apps can alert you using sounds, vibrations, notification bubbles and the "
 "Notification list."
-msgstr "የተመረጡት መተግበሪያዎች ያስጠነቅቃሉ የማስታወቂያ አረፋ: ድምጾች: ማንቀጥቀጥ እና የማስታወቂያ ክፍል በመጠቀም"
+msgstr ""
+"የተመረጡት መተግበሪያዎች ያስጠነቅቃሉ የ ማስታወቂያ አረፋ: ድምጾች: ማንቀጥቀጥ እና የ ማስታወቂያ ክፍል በ መጠቀም"
 
 #: ../plugins/notifications//PageComponent.qml:90
 msgid "Apps that notify with sound"
-msgstr ""
+msgstr "መተግበሪያ በ ድምፅ የሚያስታውቅ:"
 
 #: ../plugins/notifications//PageComponent.qml:115
 msgid "Apps that notify with vibration"
-msgstr ""
+msgstr "መተግበሪያ በ ማንቀጥቀጥ የሚያስታውቅ:"
 
 #: ../plugins/notifications//PageComponent.qml:140
-#, fuzzy
 msgid "Applications:"
-msgstr "በ አቢይ ፊደል"
+msgstr "መተግበሪያ"
 
 #: ../plugins/notifications//PageComponent.qml:169
-#, fuzzy
 msgid "No notifications"
-msgstr "ማስታወቂያዎች"
+msgstr "ማስታወቂያ የለም"
 
 #: ../plugins/notifications//PageComponent.qml:174
 #: ../plugins/notifications//ClickAppNotifications.qml:81
-#, fuzzy
 msgid "Sounds"
 msgstr "ድምፅ"
 
 #: ../plugins/notifications//PageComponent.qml:177
 #: ../plugins/notifications//ClickAppNotifications.qml:103
-#, fuzzy
 msgid "Vibrations"
 msgstr "ማንቀጥቀጫ"
 
 #: ../plugins/notifications//PageComponent.qml:180
 msgid "Bubbles"
-msgstr ""
+msgstr "አረፋ"
 
 #: ../plugins/notifications//PageComponent.qml:183
 #: ../plugins/notifications//ClickAppNotifications.qml:147
-#, fuzzy
 msgid "Notification List"
-msgstr "ማስታወቂያዎች"
+msgstr "የ ማስታወቂያ ዝርዝር"
 
 #: ../plugins/notifications//ClickAppsVibrationsNotify.qml:30
-#, fuzzy
 msgid "Vibration"
 msgstr "ማንቀጥቀጫ"
 
 #: ../plugins/notifications//ClickAppsVibrationsNotify.qml:54
-#, fuzzy
 msgid "When in Silent mode:"
 msgstr "በ ዝምታ ዘዴ ማንቀጥቀጫ"
 
 #: ../plugins/notifications//ClickAppsVibrationsNotify.qml:72
-#, fuzzy
 msgid "Vibrate as normal"
 msgstr "በሚደወል ጊዜ ማንቀጥቀጫ"
 
 #: ../plugins/notifications//ClickAppsVibrationsNotify.qml:73
-#, fuzzy
 msgid "Don't vibrate"
-msgstr "ማንቀጥቀጫ"
+msgstr "አታንቀጥቅጥ"
 
 #: ../plugins/notifications//ClickAppsVibrationsNotify.qml:89
 msgid "Apps that notify with vibrations:"
-msgstr ""
+msgstr "መተግበሪያ በ ማንቀጥቀጥ የሚያስታውቅ:"
 
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../plugins/notifications//ClickAppsSoundsNotify.qml:30
@@ -787,16 +752,15 @@ msgstr "ድምፅ"
 
 #: ../plugins/notifications//ClickAppsSoundsNotify.qml:48
 msgid "Apps that notify with sound:"
-msgstr ""
+msgstr "መተግበሪያ በ ድም የሚያስታውቅ:"
 
 #: ../plugins/notifications//ClickAppNotifications.qml:72
 msgid "Let this app alert me using:"
-msgstr ""
+msgstr "እኔን ይህ መተግበሪያ ያስጠንቅቀኝ በ መጠቀም:"
 
 #: ../plugins/notifications//ClickAppNotifications.qml:125
-#, fuzzy
 msgid "Notification Bubbles"
-msgstr "ማስታወቂያዎች"
+msgstr "የ ማስታወቂያ አረፋ"
 
 #: ../plugins/background//Preview.qml:69
 msgid "Preview"
@@ -827,9 +791,8 @@ msgid "Custom"
 msgstr "የተለመደ"
 
 #: ../plugins/background//MainPage.qml:117
-#, fuzzy
 msgid "Dash background"
-msgstr "መደብ"
+msgstr "የ ጭረት መደብ"
 
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../plugins/language//PageComponent.qml:35 ../build/po/settings.js:106
@@ -841,9 +804,8 @@ msgid "Display language…"
 msgstr "ቋንቋ ማሳያ…"
 
 #: ../plugins/language//PageComponent.qml:155
-#, fuzzy
 msgid "On-screen keyboard"
-msgstr "የ ፊደል ገበታ"
+msgstr "የ ፊደል ገበታ በ መመልከቻ ላይ"
 
 #: ../plugins/language//PageComponent.qml:156
 #: ../plugins/language//KeyboardLayouts.qml:29
@@ -851,9 +813,8 @@ msgid "Keyboard layouts"
 msgstr "የ ፊደል ገበታ አቀራረብ"
 
 #: ../plugins/language//PageComponent.qml:167
-#, fuzzy
 msgid "External keyboard"
-msgstr "የ ፊደል ገበታ"
+msgstr "የ ውጪ የ ፊደል ገበታ"
 
 #: ../plugins/language//PageComponent.qml:181
 #: ../plugins/language//PageComponent.qml:191
@@ -876,14 +837,13 @@ msgstr "በራሱ በ አቢይ ፊደል መጻፊያ"
 
 #: ../plugins/language//PageComponent.qml:238
 msgid "Turns on Shift to capitalize the first letter of each sentence."
-msgstr "የ እያብዳንዱን አረፍተ ነገር መጀመሪያ በ አቢይ ፊደል ለመጻፍ የ ሺፍት ቁልፍን ያብሩ"
+msgstr "የ እያንዳንዱን አረፍተ ነገር መጀመሪያ በ አቢይ ፊደል ለ መጻፍ የ ሺፍት ቁልፍን ያብሩ"
 
 #: ../plugins/language//PageComponent.qml:245
 msgid "Auto punctuation"
 msgstr "በራሱ ነጥቦች ማስገቢያ"
 
 #: ../plugins/language//PageComponent.qml:257
-#, fuzzy
 msgid "Inserts a period when you tap Space twice."
 msgstr "መጨመሪያ ነጥብ እና የጎደሉ ትምህርተ ጥቅስ: የ ክፍተት ቁልፍን ሁለት ጊዜ መታ ሲያደርጉ"
 
@@ -913,9 +873,8 @@ msgid "All layouts available:"
 msgstr "ሁሉም እቅዶች ዝግጁ ናቸው:"
 
 #: ../plugins/language//RebootNecessary.qml:34
-#, fuzzy
 msgid "The device needs to restart for changes to take effect."
-msgstr "ለውጦቹን ተግባራዊ ለማድረግ ስልኩን እንደገና ማስነሳት ያስፈልጋል"
+msgstr "ለውጦቹን ተግባራዊ ለ ማድረግ ስልኩን እንደገና ማስነሳት ያስፈልጋል"
 
 #: ../plugins/language//RebootNecessary.qml:38
 msgid "Restart Now"
@@ -930,13 +889,12 @@ msgid "All languages available:"
 msgstr "ሁሉም ቋንቋዎች ዝግጁ ናቸው:"
 
 #: ../plugins/language//PageHardwareKeyboard.qml:33
-#, fuzzy
 msgid "Hardware keyboard"
-msgstr "የ ፊደል ገበታ"
+msgstr "የ ፊደል ገበታ ጠንካራ አካል"
 
 #: ../plugins/language//PageHardwareKeyboard.qml:61
 msgid "Layouts and other sources"
-msgstr ""
+msgstr "እቅድ እና ሌሎች ምንጮች"
 
 #: ../plugins/about//Storage.qml:32 ../plugins/about//PageComponent.qml:150
 msgid "Storage"
@@ -944,7 +902,7 @@ msgstr "ማጠራቀሚያ"
 
 #: ../plugins/about//Storage.qml:44
 msgid "Scanning"
-msgstr ""
+msgstr "በ ማሰስ ላይ"
 
 #: ../plugins/about//Storage.qml:111
 msgid "Used by Ubuntu"
@@ -988,7 +946,6 @@ msgstr "በ መጠን"
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../plugins/about//PageComponent.qml:35 ../build/po/settings.js:132
-#, fuzzy
 msgid "About"
 msgstr "ስለ"
 
@@ -1096,12 +1053,11 @@ msgid "Developer Mode"
 msgstr "የ አበልጻጊ ዘዴ"
 
 #: ../plugins/about//DevMode.qml:84
-#, fuzzy
 msgid ""
 "In Developer Mode, anyone can access, change or delete anything on this "
 "device by connecting it to another device."
 msgstr ""
-"በ አበልጻጊ ዘዴ ማንም ሰው መድረስ ይችላል: ለመቀየር ወይንም ለማጥፋት በስልኩ ላይ ያሉ ነገሮችን ስልኩን ከ ሌሎች "
+"በ አበልጻጊ ዘዴ ማንም ሰው መድረስ ይችላል: ለ መቀየር ወይንም ለ ማጥፋት በ ስልኩ ላይ ያሉ ነገሮችን ስልኩን ከ ሌሎች "
 "አካሎች ጋር በማገናኘት"
 
 #: ../plugins/about//DevMode.qml:110
@@ -1162,20 +1118,19 @@ msgstr "የ ማለፊያ ሐረግ ማረጋገጫ"
 
 #: ../plugins/security-privacy//LockSecurity.qml:347
 msgid "Those passcodes don't match. Try again."
-msgstr "እነዚህ የማለፊያ ኮዶች አይመሳሰሉም: እባክዎን እንደገና ይሞክሩ"
+msgstr "እነዚህ የ ማለፊያ ኮዶች አይመሳሰሉም: እባክዎን እንደገና ይሞክሩ"
 
 #: ../plugins/security-privacy//LockSecurity.qml:350
 msgid "Those passphrases don't match. Try again."
-msgstr "እነዚህ ማለፊያ ሐረጎች አይመሳሰሉም: እባክዎን እንደገና ይሞክሩ"
+msgstr "እነዚህ የ ማለፊያ ሐረጎች አይመሳሰሉም: እባክዎን እንደገና ይሞክሩ"
 
 #: ../plugins/security-privacy//LockSecurity.qml:385
 msgid "Unset"
 msgstr "ያልተዘጋጀ"
 
 #: ../plugins/security-privacy//LockSecurity.qml:461
-#, fuzzy
 msgid "Unlock the device using:"
-msgstr "ስልኩን መክፈቻ በመጠቀም:"
+msgstr "ስልኩን መክፈቻ በ መጠቀም:"
 
 #: ../plugins/security-privacy//LockSecurity.qml:465
 msgid "Swipe (no security)"
@@ -1193,7 +1148,7 @@ msgstr "የማለፊያ ሐረግ"
 #: ../plugins/security-privacy//LockSecurity.qml:468
 #: ../plugins/security-privacy//PhoneLocking.qml:60
 msgid "Fingerprint"
-msgstr ""
+msgstr "የ ጣት አሻራ"
 
 #: ../plugins/security-privacy//LockSecurity.qml:469
 msgid "Swipe (no security)… "
@@ -1228,12 +1183,12 @@ msgstr "ደህንነት"
 
 #: ../plugins/security-privacy//PageComponent.qml:160
 msgid "Fingerprint ID"
-msgstr ""
+msgstr "የ ጣት አሻራ መለያ"
 
 #: ../plugins/security-privacy//PageComponent.qml:180
 #: ../plugins/security-privacy//PhoneLocking.qml:32
 msgid "Locking and unlocking"
-msgstr ""
+msgstr "መቆለፊያ እና መክፈቻ"
 
 #: ../plugins/security-privacy//PageComponent.qml:191
 #: ../plugins/security-privacy//SimPin.qml:37
@@ -1284,9 +1239,8 @@ msgstr "አካባቢ"
 
 #: ../plugins/security-privacy//PageComponent.qml:277
 #: ../plugins/security-privacy//AppAccess.qml:29
-#, fuzzy
 msgid "App permissions"
-msgstr "ፍቃዶች"
+msgstr "የ መተግበሪያ ፍቃዶች"
 
 #: ../plugins/security-privacy//PageComponent.qml:282
 #: ../plugins/security-privacy//diagnostics//PageComponent.qml:31
@@ -1306,17 +1260,16 @@ msgid "Not sent"
 msgstr "አልተላከም"
 
 #: ../plugins/security-privacy//Location.qml:96
-#, fuzzy
 msgid "Let the device detect your location:"
-msgstr "የ እርስዎን ማይክ ለመጠቀም ፍቃድ የጠየቁ መተግበሪያዎች"
+msgstr "የ እርስዎን አካባቢ አካሉ ፈልጎ ያግኝ"
 
 #: ../plugins/security-privacy//Location.qml:175
 msgid "Using GPS only (less accurate)"
-msgstr ""
+msgstr "GPS ብቻ (መጠቀም ብዙ አያስተማምንm)"
 
 #: ../plugins/security-privacy//Location.qml:176
 msgid "Using GPS"
-msgstr ""
+msgstr "ጂፒኤስ መጠቀሚያ"
 
 #: ../plugins/security-privacy//Location.qml:188
 #, qt-format
@@ -1334,28 +1287,29 @@ msgstr ""
 
 #: ../plugins/security-privacy//Location.qml:195
 msgid "Not at all"
-msgstr ""
+msgstr "ምንም አይደል"
 
 #: ../plugins/security-privacy//Location.qml:212
 msgid ""
 "Uses GPS to detect your rough location. When off, GPS turns off to save "
 "battery."
-msgstr "ይጠቀሙ ጂፒኤስ ያሉበትን አካባቢ በግምት ለማወቅ: ጂፒኤስ ማጥፋት የ ባትሪውን ሐይል ይቆጥባል"
+msgstr "ይጠቀሙ ጂፒኤስ ያሉበትን አካባቢ በ ግምት ለ ማወቅ: ጂፒኤስ ማጥፋት የ ባትሪውን ሐይል ይቆጥባል:"
 
 #: ../plugins/security-privacy//Location.qml:214
 msgid ""
 "Uses wi-fi and GPS to detect your rough location. Turning off location "
 "detection saves battery."
 msgstr ""
-"ይጠቀሙ ዋይ-ፋይ እና ጂፒኤስ ያሉበትን አካባቢ በግምት ለማወቅ: የ አካባቢ ማግኛውን ማጥፋት የ ባትሪውን ሐይል ይቆጥባል"
+"ይጠቀሙ ዋይ-ፋይ እና ጂፒኤስ ያሉበትን አካባቢ በ ግምት ለ ማወቅ: የ አካባቢ ማግኛውን ማጥፋት የ ባትሪውን ሐይል "
+"ይቆጥባል:"
 
 #: ../plugins/security-privacy//Location.qml:216
 msgid ""
 "Uses wi-fi (currently off) and GPS to detect your rough location. Turning "
 "off location detection saves battery."
 msgstr ""
-"ይጠቀሙ ዋይ-ፋይ (አሁን ጠፍቷል) እና ጂፒኤስ ያሉበትን አካባቢ በግምት ለማወቅ: የ አካባቢ ማግኛውን ማጥፋት የ "
-"ባትሪውን ሐይል ይቆጥባል"
+"ይጠቀሙ ዋይ-ፋይ (አሁን ጠፍቷል) እና ጂፒኤስ ያሉበትን አካባቢ በ ግምት ለ ማወቅ: የ አካባቢ ማግኛውን ማጥፋት የ "
+"ባትሪውን ሐይል ይቆጥባል:"
 
 #: ../plugins/security-privacy//Location.qml:218
 msgid ""
@@ -1363,7 +1317,7 @@ msgid ""
 "Turning off location detection saves battery."
 msgstr ""
 "የ ዋይ-ፋይ: የ ሴል ምሶሶ አካባቢዎችን: እና ጂፒኤስን ይጠቀማል እርስዎ ያሉበትን አካባቢ በቅርብ እርቀት ለመገመት: የ "
-"አካባቢ ፈልጎ ማግኛን ዘዴን ማጥፋት የ ባትሪውን ሀይል ይቆጥባል"
+"አካባቢ ፈልጎ ማግኛን ዘዴን ማጥፋት የ ባትሪውን ሀይል ይቆጥባል:"
 
 #: ../plugins/security-privacy//Location.qml:220
 msgid ""
@@ -1379,7 +1333,7 @@ msgid ""
 "rough location. Turning off location detection saves battery."
 msgstr ""
 "የ ዋይ-ፋይ (አሁን ጠፍቷል): የ ሴል ምሶሶ አካባቢዎችን: እና ጂፒኤስን ይጠቀማል እርስዎ ያሉበትን አካባቢ በቅርብ "
-"እርቀት ለመገመት: የ አካባቢ ፈልጎ ማግኛን ዘዴን ማጥፋት የ ባትሪውን ሀይል ይቆጥባል"
+"እርቀት ለ መገመት: የ አካባቢ ፈልጎ ማግኛን ዘዴን ማጥፋት የ ባትሪውን ሀይል ይቆጥባል:"
 
 #: ../plugins/security-privacy//Location.qml:224
 msgid ""
@@ -1391,19 +1345,16 @@ msgstr ""
 "እርስዎ ያሉበትን አካባቢ በቅርብ እርቀት ለመገመት: የ አካባቢ ፈልጎ ማግኛን ዘዴን ማጥፋት የ ባትሪውን ሀይል ይቆጥባል"
 
 #: ../plugins/security-privacy//Location.qml:231
-#, fuzzy
 msgid "Let apps access this location:"
-msgstr "ለ አካባቢው ፍቃድ መፍቀጃ:"
+msgstr "መተግበሪያው አካባቢው ጋር እንዲደርስ  መፍቀጃ:"
 
 #: ../plugins/security-privacy//Location.qml:254
-#, fuzzy
 msgid "None requested"
-msgstr "ምንም አልተገኘ"
+msgstr "ምንም አልተጠየቀም"
 
 #: ../plugins/security-privacy//AppAccess.qml:62
-#, fuzzy
 msgid "Apps that you have granted access to:"
-msgstr "ለመጠቀም ፍቃድ የጠየቁ መተግበሪያዎች እና የተፈቀደላቸው:"
+msgstr "ለ መጠቀም ፍቃድ የጠየቁ መተግበሪያዎች እና የተፈቀደላቸው:"
 
 #: ../plugins/security-privacy//AppAccess.qml:68
 #: ../plugins/bluetooth//DevicePage.qml:61
@@ -1415,28 +1366,24 @@ msgid "Apps that have requested access to your camera"
 msgstr "የ እርስዎን ካሜራ ለመጠቀም ፍቃድ የጠየቁ መተግበሪያዎች"
 
 #: ../plugins/security-privacy//AppAccess.qml:75
-#, fuzzy
 msgid "Apps that have requested access to your location"
-msgstr "የ እርስዎን ማይክ ለመጠቀም ፍቃድ የጠየቁ መተግበሪያዎች"
+msgstr "የ እርስዎን አካባቢ ፍቃድ የ ጠየቁ መተግበሪያዎች"
 
 #: ../plugins/security-privacy//AppAccess.qml:80
-#, fuzzy
 msgid "Microphone"
-msgstr "ስልክ"
+msgstr "ማይክሮፎን"
 
 #: ../plugins/security-privacy//AppAccess.qml:81
-#, fuzzy
 msgid "Apps that have requested access to your microphone"
-msgstr "የ እርስዎን ማይክ ለመጠቀም ፍቃድ የጠየቁ መተግበሪያዎች"
+msgstr "የ እርስዎን ማይክ ለ መጠቀም ፍቃድ የ ጠየቁ መተግበሪያዎች"
 
 #: ../plugins/security-privacy//AppAccess.qml:86
 msgid "In-App Purchases"
 msgstr ""
 
 #: ../plugins/security-privacy//AppAccess.qml:87
-#, fuzzy
 msgid "Apps that have requested access for in-app purchases"
-msgstr "የ እርስዎን ካሜራ ለመጠቀም ፍቃድ የጠየቁ መተግበሪያዎች"
+msgstr "መተግበሪያዎች  ለ መጠቀም ፍቃድ የ ጠየቁ ይህ-መተግበሪያ እንዲገዛ"
 
 #: ../plugins/security-privacy//AppAccess.qml:100
 #, qt-format
@@ -1448,13 +1395,12 @@ msgid "0"
 msgstr "0"
 
 #: ../plugins/security-privacy//AppAccess.qml:116
-#, fuzzy
 msgid "Apps may also request access to online accounts."
-msgstr "የ እርስዎን ማይክ ለመጠቀም ፍቃድ የጠየቁ መተግበሪያዎች"
+msgstr "የ እርስዎን የ መስመር ላይ መግለጫ ለ መጠቀም ፍቃድ የ ጠየቁ መተግበሪያዎች"
 
 #: ../plugins/security-privacy//AppAccess.qml:121
 msgid "Online Accounts…"
-msgstr ""
+msgstr "የ መስመር ላይ መግለጫ…"
 
 #: ../plugins/security-privacy//PhoneLocking.qml:57
 msgctxt "Unlock with swipe"
@@ -1484,17 +1430,16 @@ msgid "Notifications and quick settings"
 msgstr "ማስታወቂያዎች እና በፍጥነት ማሰናጃዎች"
 
 #: ../plugins/security-privacy//PhoneLocking.qml:158
-#, fuzzy
 msgid "Turn on lock security to restrict access when the device is locked."
-msgstr "የ ደህንነት መቆለፊያውን ያብሩ ፍቃድ ለመከልከል ስልኩ በተዘጋ ጊዜ"
+msgstr "የ ደህንነት መቆለፊያውን ያብሩ ፍቃድ ለ መከልከል ስልኩ በተዘጋ ጊዜ"
 
 #: ../plugins/security-privacy//PhoneLocking.qml:159
 msgid "Other apps and functions will prompt you to unlock."
-msgstr "ሌሎች መትግበሪያዎች እና ተግባሮች እንዳይቆለፍ ይጠይቃሉ"
+msgstr "ሌሎች መተግበሪያዎች እና ተግባሮች እንዳይቆለፍ ይጠይቃሉ"
 
 #: ../plugins/security-privacy//here-terms.qml:24
 msgid "Nokia HERE"
-msgstr ""
+msgstr "Nokia HERE"
 
 #: ../plugins/security-privacy//SimPin.qml:47
 msgid "Change SIM PIN"
@@ -1512,9 +1457,8 @@ msgstr[1] "የተሳሳተ ፒን %1 ሙከራዎች ይቀራል"
 #: ../plugins/security-privacy//SimPin.qml:119
 #: ../plugins/security-privacy//SimPin.qml:223
 #: ../plugins/security-privacy//SimPin.qml:296
-#, fuzzy
 msgid "No more attempts allowed"
-msgstr "%1 የተፈቀዱት ሙከራዎች"
+msgstr "ምንም ሙከራ አይፈቀድም"
 
 #: ../plugins/security-privacy//SimPin.qml:92
 msgid "Current PIN:"
@@ -1602,7 +1546,7 @@ msgstr ""
 
 #: ../plugins/vpn//PageComponent.qml:82
 msgid "Add Manual Configuration…"
-msgstr ""
+msgstr "በ እጅ ማሰናጃ መጨመሪያ…"
 
 #: ../plugins/vpn//PageComponent.qml:115
 #, fuzzy
@@ -1617,7 +1561,7 @@ msgstr "ለውጦቹን ተግባራዊ ለማድረግ ስልኩን እንደ�
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../plugins/mouse//PageComponent.qml:29 ../build/po/settings.js:210
 msgid "Mouse & Touchpad"
-msgstr ""
+msgstr "አይጥ & ተችፓድ"
 
 #: ../plugins/mouse//None.qml:34
 msgid ""
@@ -1638,23 +1582,23 @@ msgstr "አይጥ"
 
 #: ../plugins/mouse//Connected.qml:62 ../plugins/mouse//Connected.qml:228
 msgid "Cursor speed:"
-msgstr ""
+msgstr "የ መጠቆሚያ ፍጥነት:"
 
 #: ../plugins/mouse//Connected.qml:98
 msgid "Wheel scrolling speed:"
-msgstr ""
+msgstr "የ ጎማ መሸብለያ ፍጥነት:"
 
 #: ../plugins/mouse//Connected.qml:134 ../plugins/mouse//Connected.qml:301
 msgid "Double-click speed:"
-msgstr ""
+msgstr "ሁለት ጊዜ-መጫኛ ፍጥነት:"
 
 #: ../plugins/mouse//Connected.qml:168 ../plugins/mouse//Connected.qml:335
 msgid "Test double-click:"
-msgstr ""
+msgstr "ሁለት ጊዜ-መጫኛ መሞከሪያ:"
 
 #: ../plugins/mouse//Connected.qml:214
 msgid "Touchpad"
-msgstr ""
+msgstr "ተችፓድ"
 
 #: ../plugins/mouse//Connected.qml:264
 msgid "Finger scrolling speed:"
@@ -1714,9 +1658,8 @@ msgid "Reset all system settings"
 msgstr "ሁሉንም የ ስርአት ማሰናጃ እንደ ነበር መመለሻ"
 
 #: ../plugins/reset//PageComponent.qml:32
-#, fuzzy
 msgid "Reset device"
-msgstr "አካል"
+msgstr "አካል እንደ ነበር መመለሻ"
 
 #: ../plugins/reset//PageComponent.qml:75
 #: ../plugins/reset//PageComponent.qml:86
@@ -1760,7 +1703,7 @@ msgstr "ደዋይ:"
 
 #: ../plugins/sound//PageComponent.qml:141
 msgid "High volume can damage your hearing."
-msgstr ""
+msgstr "በ ከፍተኛ መጠን ማድመጥ የ እርስዎን ጆሮ ሊያሳምም ይችላል"
 
 #: ../plugins/sound//PageComponent.qml:145
 msgid "Phone calls:"
@@ -1946,7 +1889,7 @@ msgstr ""
 
 #: ../plugins/cellular//PageChooseApn.qml:302
 msgid "Delete"
-msgstr ""
+msgstr "ማጥፊያ"
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../plugins/cellular//PageComponent.qml:32 ../build/po/settings.js:254
@@ -1955,7 +1898,7 @@ msgstr "ሴሉላር"
 
 #: ../plugins/cellular//PageApnEditor.qml:69
 msgid "Edit"
-msgstr ""
+msgstr "ማረሚያ"
 
 #: ../plugins/cellular//PageApnEditor.qml:69
 #, fuzzy
@@ -2018,7 +1961,7 @@ msgstr "የ ማለፊያ ሀረግ ያስገቡ"
 #: ../plugins/cellular//PageApnEditor.qml:358
 #: ../plugins/wifi//NetworkDetails.qml:70 ../plugins/wifi//OtherNetwork.qml:786
 msgid "Password"
-msgstr "የመግቢያ ቃል"
+msgstr "የ መግቢያ ቃል"
 
 #: ../plugins/cellular//PageApnEditor.qml:369
 #, fuzzy
@@ -2264,9 +2207,8 @@ msgid "Pac provisioning"
 msgstr ""
 
 #: ../plugins/wifi//OtherNetwork.qml:686
-#, fuzzy
 msgid "Disabled"
-msgstr "ማሰናከያ"
+msgstr "ተሰናክሏል"
 
 #: ../plugins/wifi//OtherNetwork.qml:687
 msgid "Anonymous"
@@ -2310,7 +2252,7 @@ msgstr ""
 
 #: ../plugins/wifi//OtherNetwork.qml:754
 msgid "Username"
-msgstr "የተጠቃሚ ስም"
+msgstr "የ ተጠቃሚ ስም"
 
 #: ../plugins/wifi//OtherNetwork.qml:784
 msgid "Private key password"
@@ -2456,9 +2398,8 @@ msgid "Forward to"
 msgstr "ወደ ፊት ወደ"
 
 #: ../plugins/phone//CallForwardItem.qml:171
-#, fuzzy
 msgid "Enter a number"
-msgstr "የ ስልክ ቁጥር"
+msgstr "ቁጥር ያስገቡ"
 
 #: ../plugins/phone//CallForwardItem.qml:218
 msgid "Call forwarding can’t be changed right now."
@@ -2476,20 +2417,19 @@ msgstr "%1 ግልጋሎቶች"
 
 #: ../plugins/phone//CallForwarding.qml:131
 msgid "Forward every incoming call"
-msgstr ""
+msgstr "ሁሉንም የሚመጣ ጥሪ ወደ ፊት ማስተላለፊያ"
 
 #: ../plugins/phone//CallForwarding.qml:146
 msgid "Redirects all phone calls to another number."
-msgstr ""
+msgstr "ሁሉንም የ ስልክ ጥሪዎች ወደ ሌላ ቁጥር እንደገና ይመራል:"
 
 #: ../plugins/phone//CallForwarding.qml:158
 msgid "Call forwarding status can’t be checked "
 msgstr ""
 
 #: ../plugins/phone//CallForwarding.qml:166
-#, fuzzy
 msgid "Forward incoming calls when:"
-msgstr "ወደ ውጪ ለሚላኩ ጥሪዎች: ይጠቀሙ:"
+msgstr "የሚመጣውን ጥሪ ወደ ፊት ማስተላለፊያ:"
 
 #: ../plugins/phone//CallForwarding.qml:175
 msgid "I’m on another call"
@@ -2500,21 +2440,18 @@ msgid "I don’t answer"
 msgstr ""
 
 #: ../plugins/phone//CallForwarding.qml:197
-#, fuzzy
 msgid "My phone is unreachable"
-msgstr "የ ሞደም አስተዳዳሪ አልተገኘም"
+msgstr "የ እኔ ስልክ ጋር መድረስ አይቻልም"
 
 #: ../plugins/phone//CallForwarding.qml:227
 msgid "Contacts…"
 msgstr ""
 
 #: ../plugins/phone//CallForwarding.qml:274
-#, fuzzy
 msgid "Please select a phone number"
-msgstr "የ ስልክ ቁጥር"
+msgstr "እባክዎን የ ስልክ ቁጥር ይምረጡ"
 
 #: ../plugins/phone//CallForwarding.qml:283
-#, fuzzy
 msgid "Numbers"
 msgstr "ቁጥሮች"
 
@@ -2532,24 +2469,22 @@ msgid "All calls"
 msgstr "ጥሪ"
 
 #: ../plugins/phone//CallForwarding.qml:384
-#, fuzzy
 msgid "Some calls"
 msgstr "የ ስልክ ጥሪዎች:"
 
 #: ../plugins/brightness//WifiDisplaysAlert.qml:32
-#, fuzzy, qt-format
+#, qt-format
 msgid "This device failed to connect to %1."
-msgstr "መለያያ"
+msgstr "ይህ አካል መገናኘት አልቻለም ወደ %1."
 
 #: ../plugins/brightness//WifiDisplaysAlert.qml:34
 #, qt-format
 msgid "There was an unknown error connecting to %1."
-msgstr ""
+msgstr "ያልታወቀ ስህተት ስህተት ተፈጥሯል በ መገናኘት ላትይ እንዳለ ወደ %1."
 
 #: ../plugins/brightness//PageComponent.qml:35
-#, fuzzy
 msgid "Brightness & Display"
-msgstr "ብሩህነት"
+msgstr "ብሩህነት & ማሳያ"
 
 #. TRANSLATORS: This is a keyword or name for the brightness plugin which is used while searching
 #: ../plugins/brightness//PageComponent.qml:35 ../build/po/settings.js:344
@@ -2562,53 +2497,45 @@ msgstr "ራሱ በራሱ ማስተካከያ"
 
 #: ../plugins/brightness//PageComponent.qml:131
 msgid "Brightens and dims the display to suit the surroundings."
-msgstr "ብርሁነት እና ማደብዘዣ ማሳያው ለ አካባቢው እንዲስማማ"
+msgstr "ብርሁነት እና ማደብዘዣ ማሳያው ለ አካባቢው እንዲስማማ ማድረጊያ"
 
 #: ../plugins/brightness//PageComponent.qml:140
-#, fuzzy
 msgid "External display"
-msgstr "ማሳያ"
+msgstr "የ ውጪ ማሳያ"
 
 #: ../plugins/brightness//PageComponent.qml:158
-#, fuzzy
 msgid "Wireless display"
-msgstr "ማሳያ"
+msgstr "ሽቦ አልባ ማሳያ"
 
 #: ../plugins/brightness//PageComponent.qml:159
 #: ../plugins/brightness//WifiDisplays.qml:127
 #: ../plugins/brightness//WifiDisplays.qml:171
-#, fuzzy
 msgid "Not connected"
-msgstr "መጨረሻ የተገናኘው"
+msgstr "አልተገናኘም"
 
 #: ../plugins/brightness//WifiDisplays.qml:27
 msgid "Wireless Display"
-msgstr ""
+msgstr "ሽቦ አልባ ማሳያ"
 
 #: ../plugins/brightness//WifiDisplays.qml:99
-#, fuzzy
 msgid "No displays detected"
-msgstr "ምንም አልተገኘ"
+msgstr "ምንም ማሳያ አልተገኘም"
 
 #: ../plugins/brightness//WifiDisplays.qml:112
-#, fuzzy
 msgid "Connected display:"
-msgstr "የተገናኙ አካሎች:"
+msgstr "የተገናኘ ማሳያ:"
 
 #: ../plugins/brightness//WifiDisplays.qml:127
-#, fuzzy
 msgid "Connecting"
-msgstr "በመገናኘት ላይ…"
+msgstr "በ መገናኘት ላይ"
 
 #: ../plugins/brightness//WifiDisplays.qml:145
-#, fuzzy
 msgid "Use another display:"
-msgstr "ሌላ አካል መገናኛ:"
+msgstr "ሌላ ማሳያ ይጠቀሙ:"
 
 #: ../plugins/brightness//WifiDisplays.qml:145
-#, fuzzy
 msgid "Choose a display:"
-msgstr "የ ማለፊያ ሐረግ ይምረጡ"
+msgstr "ማሳያ ይምረጡ:"
 
 #: ../plugins/bluetooth//DisplayPasskeyDialog.qml:26
 #: ../plugins/bluetooth//ProvidePasskeyDialog.qml:28
@@ -2623,11 +2550,11 @@ msgstr "የ ብሉቱዝ ማጣመሪያ ጥያቄ"
 #: ../plugins/bluetooth//DisplayPinCodeDialog.qml:34
 #, qt-format
 msgid "Please enter the following PIN on %1 and press “Enter” on the keyboard:"
-msgstr ""
+msgstr "እባክዎን የሚቀጥለውን ፒን ያስገቡ በ %1 እና ይጫኑ “ማስገቢያ” በ ፊደል ገበታ ላይ:"
 
 #: ../plugins/bluetooth//PageComponent.qml:250
 msgid "Discoverable"
-msgstr "ማግኛ"
+msgstr "ሊገኝ የሚችል"
 
 #: ../plugins/bluetooth//PageComponent.qml:250
 msgid "Not discoverable"
@@ -2635,9 +2562,8 @@ msgstr "ማግኘት አይቻልም"
 
 #: ../plugins/bluetooth//PageComponent.qml:263
 #: ../plugins/bluetooth//PageComponent.qml:320
-#, fuzzy
 msgid "Searching…"
-msgstr "እንደገና በማስጀመር ላይ…"
+msgstr "በ መፈለግ ላይ…"
 
 #: ../plugins/bluetooth//PageComponent.qml:272
 msgid "Connected devices:"
@@ -2646,7 +2572,7 @@ msgstr "የተገናኙ አካሎች:"
 #: ../plugins/bluetooth//PageComponent.qml:293
 #: ../plugins/bluetooth//DevicePage.qml:38
 msgid "Connecting…"
-msgstr "በመገናኘት ላይ…"
+msgstr "በ መገናኘት ላይ…"
 
 #: ../plugins/bluetooth//PageComponent.qml:310
 msgid "Connect another device:"
@@ -2687,7 +2613,6 @@ msgid "Confirm PIN"
 msgstr "ማረጋገጫ ፒን"
 
 #: ../plugins/bluetooth//AuthorizationRequestDialog.qml:26
-#, fuzzy
 msgid "Bluetooth Pairing Authorization Request"
 msgstr "የ ብሉቱዝ ማጣመሪያ ጥያቄ"
 
@@ -2699,13 +2624,12 @@ msgid ""
 msgstr ""
 
 #: ../plugins/bluetooth//AuthorizationRequestDialog.qml:39
-#, fuzzy
 msgid "Allow"
 msgstr "መፍቀጃ"
 
 #: ../plugins/bluetooth//AuthorizationRequestDialog.qml:46
 msgid "Refuse"
-msgstr ""
+msgstr "መከልከያ"
 
 #: ../plugins/bluetooth//DevicePage.qml:39
 msgid "Disconnecting…"
@@ -2868,7 +2792,7 @@ msgstr "የ ሲም ስም ማረሚያ"
 #. this word must be less than 5 characters
 #: ../plugins/cellular//Components//LabelTextField.qml:51
 msgid "Next"
-msgstr ""
+msgstr "ይቀጥሉ"
 
 #: ../plugins/cellular//Components//RadioSingleSim.qml:31
 #: ../plugins/cellular//Components//MultiSim.qml:84
@@ -3764,7 +3688,7 @@ msgstr "ለ ስርአቱ ምስል ማሻሻያ ዝግጁ ነው"
 
 #: ../push-helper/software_updates_helper.py:160
 msgid "Tap to open the system updater."
-msgstr "የ ስርአት ማሻሻያውን ለመክፈት መታ ያድርጉ"
+msgstr "የ ስርአት ማሻሻያውን ለ መክፈት መታ ያድርጉ"
 
 #~ msgid "GPS"
 #~ msgstr "ጂፒኤስ"

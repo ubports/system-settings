@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-10-05 19:01+0000\n"
-"Last-Translator: Twinkybot <me@twinkybot.org>\n"
+"PO-Revision-Date: 2018-01-03 12:41+0000\n"
+"Last-Translator: Peter Nerlich <peter.nerlich+ubports@googlemail.com>\n"
 "Language-Team: German <https://translate.ubports.com/projects/ubports/system-"
 "settings/de/>\n"
 "Language: de\n"
@@ -505,7 +505,7 @@ msgstr "Einen Namen auswählen"
 
 #: ../plugins/hotspot//HotspotSetup.qml:193
 msgid "Require a password (recommended):"
-msgstr "Benötigt ein Passwort (empfohlen):"
+msgstr "Erfordere Passwort (empfohlen):"
 
 #: ../plugins/hotspot//HotspotSetup.qml:224
 #: ../plugins/wifi//NetworkDetails.qml:84 ../plugins/wifi//OtherNetwork.qml:821
@@ -771,7 +771,7 @@ msgstr "Die App soll mich benachrichtigen per:"
 
 #: ../plugins/notifications//ClickAppNotifications.qml:125
 msgid "Notification Bubbles"
-msgstr "Benach­rich­ti­gungen"
+msgstr "Benach­rich­ti­gungsblasen"
 
 #: ../plugins/background//Preview.qml:69
 msgid "Preview"
@@ -953,7 +953,7 @@ msgstr "Freier Speicher"
 
 #: ../plugins/about//Storage.qml:194
 msgid "By name"
-msgstr "Nach  Name"
+msgstr "Nach Name"
 
 #: ../plugins/about//Storage.qml:194
 msgid "By size"
@@ -1785,7 +1785,7 @@ msgstr "Andere Vibrationsmuster"
 
 #: ../plugins/sound//SoundsList.qml:128
 msgid "Custom Ringtone"
-msgstr "Standard Klingelton"
+msgstr "Benutzerdefinierter Klingelton"
 
 #: ../plugins/sound//SoundsList.qml:208
 msgid "Choose from"
@@ -2216,7 +2216,7 @@ msgstr "Pac Provisionierung"
 
 #: ../plugins/wifi//OtherNetwork.qml:686
 msgid "Disabled"
-msgstr "ausgeschaltet"
+msgstr "Deaktiviert"
 
 #: ../plugins/wifi//OtherNetwork.qml:687
 msgid "Anonymous"
@@ -2568,7 +2568,7 @@ msgstr "Nicht feststellbar"
 #: ../plugins/bluetooth//PageComponent.qml:263
 #: ../plugins/bluetooth//PageComponent.qml:320
 msgid "Searching…"
-msgstr "Am suchen…"
+msgstr "Suche…"
 
 #: ../plugins/bluetooth//PageComponent.qml:272
 msgid "Connected devices:"

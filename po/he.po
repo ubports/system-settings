@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2017-09-20 00:07+0000\n"
+"PO-Revision-Date: 2018-02-09 09:11+0000\n"
 "Last-Translator: Eran <etherpulse@gmail.com>\n"
 "Language-Team: Hebrew <https://translate.ubports.com/projects/ubports/system-"
 "settings/he/>\n"
@@ -201,7 +201,7 @@ msgstr "כניסה…"
 #: ../plugins/system-update//ChangelogExpander.qml:42
 #, qt-format
 msgid "Version %1"
-msgstr "גרסה %1"
+msgstr "גירסא %1"
 
 #: ../plugins/system-update//UpdateSettings.qml:47
 msgid "On wi-fi"
@@ -247,7 +247,7 @@ msgstr "עדכן הכל"
 
 #: ../plugins/system-update//UpdateDelegate.qml:119
 msgid "Retry"
-msgstr "ניסיון חוזר"
+msgstr "ניסיון מחדש"
 
 #: ../plugins/system-update//UpdateDelegate.qml:124
 msgid "Update"
@@ -739,9 +739,8 @@ msgid "Notification List"
 msgstr "התרעות"
 
 #: ../plugins/notifications//ClickAppsVibrationsNotify.qml:30
-#, fuzzy
 msgid "Vibration"
-msgstr "הטייה"
+msgstr "רטט"
 
 #: ../plugins/notifications//ClickAppsVibrationsNotify.qml:54
 #, fuzzy
