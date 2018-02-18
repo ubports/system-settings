@@ -22,10 +22,6 @@
 
 #include "plugins/system-update/fakeapiclient.h"
 #include "plugins/system-update/fakemanifest.h"
-#include "plugins/system-update/fakesessiontoken.h"
-#include "plugins/system-update/fakesso.h"
-#include "plugins/system-update/faketokendownloader.h"
-#include "plugins/system-update/faketokendownloader_factory.h"
 
 #include <QDateTime>
 #include <QDir>
@@ -40,7 +36,6 @@ using namespace UpdatePlugin;
 typedef QList<QSharedPointer<Update>> UpdateList;
 
 Q_DECLARE_METATYPE(UpdateList)
-Q_DECLARE_METATYPE(MockSessionToken*)
 
 class TstClickManager : public QObject
 {
@@ -54,21 +49,12 @@ private slots:
 
         m_mockclient = new MockApiClient;
         m_mockmanifest = new MockManifest;
-        m_mocksso = new MockSSO;
-        m_mockdownloadfactory = new MockTokenDownloaderFactory;
-
-        // The Manager will take ownership of this object.
-        m_mocksessiontoken = new MockSessionToken;
-        m_mocksessiontoken->valid = true;
 
         m_instance = new Click::ManagerImpl(m_model, nullptr, m_mockclient,
-                                            m_mockmanifest, m_mocksso,
-                                            m_mockdownloadfactory,
-                                            m_mocksessiontoken);
+                                            m_mockmanifest);
         m_model->setParent(m_instance);
         m_mockclient->setParent(m_instance);
         m_mockmanifest->setParent(m_instance);
-        m_mocksso->setParent(m_instance);
     }
     void cleanup()
     {
@@ -87,18 +73,8 @@ private slots:
         update->setRemoteVersion(version);
         return update;
     }
-    void testCheckRequestsCredentialsWhenNone()
+    void testCheckRequestsStartsImmediately()
     {
-        m_mocksso->mockCredentialsDeleted();
-        m_instance->check();
-        QVERIFY(m_mocksso->requestCredentialsCalled);
-    }
-    void testCheckRequestsStartsAfterCredentials()
-    {
-        // The Manager will take ownership of this object.
-        auto token = new MockSessionToken;
-        token->valid = true;
-        m_mocksso->mockCredentialsFound(token);
         QTRY_VERIFY(m_instance->checkingForUpdates());
 
         // Make sure Manager asked for a manifest as well.
@@ -260,8 +236,7 @@ private slots:
     {
         /* At start-up, we want to test the manifest against our database,
         independent of whether or not a check should be started. This test
-        ensures that 1) a check is not started, 2) our database is
-        synchronized. */
+        ensures that our database is synchronized. */
         QFETCH(QJsonArray, manifest);
         QFETCH(UpdateList, existingUpdates);
         QFETCH(UpdateList, markedInstalled);
@@ -288,9 +263,6 @@ private slots:
         Q_FOREACH(auto update, targetUpdates) {
             QVERIFY(!m_model->fetch(update).isNull());
         }
-
-        // Assert no client interaction after synchronizing.
-        QVERIFY(m_mockclient->requestedUrl.isEmpty());
     }
     void testManifestFailureCompletesCheck()
     {
@@ -317,19 +289,6 @@ private slots:
         QTRY_COMPARE(checkCanceledSpy.count(), 1);
         QTRY_COMPARE(serverErrorSpy.count(), 1);
     }
-    void testClientCredentialErrorAbortsCheck()
-    {
-        m_instance->check();
-        QSignalSpy credentialErrorSpy(m_instance, SIGNAL(credentialError()));
-        QSignalSpy checkCanceledSpy(m_instance, SIGNAL(checkCanceled()));
-        QSignalSpy authenticatedChangedSpy(m_instance, SIGNAL(authenticatedChanged()));
-        m_mockclient->mockCredentialError();
-        QTRY_COMPARE(checkCanceledSpy.count(), 1);
-        QTRY_COMPARE(credentialErrorSpy.count(), 1);
-
-        // This should also de authenticate the user.
-        QTRY_COMPARE(authenticatedChangedSpy.count(), 1);
-    }
     void testClientSignalForwarding()
     {
         QSignalSpy networkErrorSpy(m_instance, SIGNAL(networkError()));
@@ -344,45 +303,6 @@ private slots:
         m_mockclient->mockCredentialError();
         QTRY_COMPARE(credentialErrorSpy.count(), 1);
     }
-    void testSSOCredentialsNotFound()
-    {
-        QSignalSpy authenticatedChangedSpy(m_instance, SIGNAL(authenticatedChanged()));
-        m_mocksso->mockCredentialsNotFound();
-        QTRY_COMPARE(authenticatedChangedSpy.count(), 1);
-        QCOMPARE(m_instance->authenticated(), false);
-    }
-    void testSSOCredentialsDeleted()
-    {
-        QSignalSpy authenticatedChangedSpy(m_instance, SIGNAL(authenticatedChanged()));
-        m_mocksso->mockCredentialsDeleted();
-        QTRY_COMPARE(authenticatedChangedSpy.count(), 1);
-        QCOMPARE(m_instance->authenticated(), false);
-    }
-    void testSSOCredentialsFound_data()
-    {
-        QTest::addColumn<MockSessionToken*>("token");
-        QTest::addColumn<bool>("targetAuthenticated");
-        {
-            // Manager will assume ownership over the token.
-            auto token = new MockSessionToken();
-            token->valid = false;
-            QTest::newRow("Invalid") << token << false;
-        }
-        {
-            // Manager will assume ownership over the token.
-            auto token = new MockSessionToken();
-            token->valid = true;
-            QTest::newRow("Valid") << token << true;
-        }
-    }
-    void testSSOCredentialsFound()
-    {
-        QFETCH(MockSessionToken*, token);
-        QFETCH(bool, targetAuthenticated);
-
-        m_mocksso->mockCredentialsFound(token);
-        QTRY_COMPARE(m_instance->authenticated(), targetAuthenticated);
-    }
     void testManifestParser()
     {
         QByteArray manifest("[{"
@@ -395,7 +315,7 @@ private slots:
         "}]");
 
         QByteArray metadata("[{"
-            "\"name\": \"a\","
+            "\"id\": \"a\","
             "\"version\": \"1\","
             "\"revision\": \"1\""
         "}]");
@@ -405,8 +325,6 @@ private slots:
         // Transition the manifest data all the way to the model.
         m_mockmanifest->mockSuccess(JSONfromQByteArray(manifest));
         m_mockclient->mockMetadataRequestSucceeded(JSONfromQByteArray(metadata));
-        auto dl = m_mockdownloadfactory->created.at(0);
-        dl->mockDownloadSucceeded("token");
 
         // Update now in model, assert that the manifest data has been captured.
         auto u = m_model->get("a", 0);
@@ -425,72 +343,6 @@ private slots:
         m_mockmanifest->mockSuccess(JSONfromQByteArray(manifest));
         QVERIFY(m_model->get("a", 1).isNull());
     }
-    void testTokenDownload_data()
-    {
-        QTest::addColumn<QJsonArray>("metadata");
-        QTest::addColumn<QJsonArray>("manifest");
-        QTest::addColumn<QString>("outCome");
-        QTest::addColumn<QString>("downloadedToken");
-
-        QByteArray metaJson("[{"
-            "\"name\": \"a\","
-            "\"version\": \"1\", \"download_url\": \"download_url\""
-        "}]");
-        auto metadata = JSONfromQByteArray(metaJson);
-
-        QByteArray manifestJson("[{"
-            "\"name\": \"a\","
-            "\"version\": \"0\""
-        "}]");
-        auto manifest = JSONfromQByteArray(manifestJson);
-
-        {
-            QString token("token");
-            QTest::newRow("Success")
-                << metadata << manifest << "success" << token;
-        }
-        {
-            QString token("");
-            QTest::newRow("Success (empty token)")
-                << metadata << manifest << "success" << token;
-        }
-        {
-            QString token("");
-            QTest::newRow("Failure")
-                << metadata << manifest << "failure" << token;
-        }
-        {
-            QString token("");
-            QTest::newRow("Credential error")
-                << metadata << manifest << "credentialError" << token;
-        }
-    }
-    void testTokenDownload()
-    {
-        QFETCH(QJsonArray, metadata);
-        QFETCH(QJsonArray, manifest);
-        QFETCH(QString, outCome);
-        QFETCH(QString, downloadedToken);
-
-        m_instance->check();
-        m_mockmanifest->mockSuccess(manifest);
-        m_mockclient->mockMetadataRequestSucceeded(metadata);
-
-        QTRY_COMPARE(m_mockdownloadfactory->created.size(), 1);
-        auto *dl = m_mockdownloadfactory->created.at(0);
-        QCOMPARE(dl->downloadUrl, QString("download_url"));
-
-        QSignalSpy checkCompletesSpy(m_instance, SIGNAL(checkCompleted()));
-        if (outCome == "success") {
-            dl->mockDownloadSucceeded(downloadedToken);
-        } else if (outCome == "failure") {
-            dl->mockDownloadFailed();
-        } else if (outCome == "credentialError") {
-            dl->mockCredentialError();
-            QTRY_VERIFY(!m_instance->authenticated());
-        }
-        QTRY_COMPARE(checkCompletesSpy.count(), 1);
-    }
     void testRemotelyUpdatedApp()
     {
         /* Tests that apps that are remotely updated, get marked as such. */
@@ -507,9 +359,6 @@ private slots:
         m_mockmanifest->mockSuccess(JSONfromQByteArray(manifest));
 
         QVERIFY(m_model->get("a", 0)->installed());
-
-        // Assert no client interaction while not checking.
-        QVERIFY(m_mockclient->requestedUrl.isEmpty());
     }
     void testRetryWithoutHavingRunCheck()
     {
@@ -559,9 +408,6 @@ private:
     }
     MockApiClient *m_mockclient = nullptr;
     MockManifest *m_mockmanifest = nullptr;
-    MockSSO *m_mocksso = nullptr;
-    MockTokenDownloaderFactory *m_mockdownloadfactory = nullptr;
-    MockSessionToken *m_mocksessiontoken = nullptr;
     Click::Manager *m_instance = nullptr;
     UpdateModel *m_model = nullptr;
     QTemporaryDir *m_dir;
