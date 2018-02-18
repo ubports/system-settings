@@ -20,6 +20,7 @@
 
 #include "keyboard-layout.h"
 #include <unicode/locid.h>
+#include <unicode/unistr.h>
 
 KeyboardLayout::KeyboardLayout(const QString &name,
                                const QString &language,
