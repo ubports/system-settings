@@ -24,6 +24,7 @@
 
 #include <act/act.h>
 #include <unicode/locid.h>
+#include <unicode/unistr.h>
 
 struct LanguageLocale
 {
