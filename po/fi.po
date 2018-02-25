@@ -2283,7 +2283,7 @@ msgstr "Ei vastaavaa paikkaa"
 
 #. TRANSLATORS: This is a keyword or name for the time-date plugin which is used while searching
 #: ../plugins/time-date//PageComponent.qml:31 ../build/po/settings.js:310
-msgid "Time & Date"
+msgid "Time and Date"
 msgstr "Aika ja päiväys"
 
 #: ../plugins/time-date//PageComponent.qml:64

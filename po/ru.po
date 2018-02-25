@@ -2300,7 +2300,7 @@ msgstr "Нет подходящих результатов"
 
 #. TRANSLATORS: This is a keyword or name for the time-date plugin which is used while searching
 #: ../plugins/time-date//PageComponent.qml:31 ../build/po/settings.js:310
-msgid "Time & Date"
+msgid "Time and Date"
 msgstr "Дата и время"
 
 #: ../plugins/time-date//PageComponent.qml:64

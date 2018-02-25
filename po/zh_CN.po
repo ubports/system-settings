@@ -2291,7 +2291,7 @@ msgstr "没有符合的地点"
 
 #. TRANSLATORS: This is a keyword or name for the time-date plugin which is used while searching
 #: ../plugins/time-date//PageComponent.qml:31 ../build/po/settings.js:310
-msgid "Time & Date"
+msgid "Time and Date"
 msgstr "时间和日期"
 
 #: ../plugins/time-date//PageComponent.qml:64

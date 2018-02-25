@@ -2352,7 +2352,7 @@ msgstr "場所が一致しません"
 
 #. TRANSLATORS: This is a keyword or name for the time-date plugin which is used while searching
 #: ../plugins/time-date//PageComponent.qml:31 ../build/po/settings.js:310
-msgid "Time & Date"
+msgid "Time and Date"
 msgstr "時刻と日付"
 
 #: ../plugins/time-date//PageComponent.qml:64

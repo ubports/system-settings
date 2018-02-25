@@ -2356,7 +2356,7 @@ msgstr "ਕੋਈ ਮੇਲ ਵਾਲੀ ਥਾਂ ਨਹੀਂ"
 
 #. TRANSLATORS: This is a keyword or name for the time-date plugin which is used while searching
 #: ../plugins/time-date//PageComponent.qml:31 ../build/po/settings.js:310
-msgid "Time & Date"
+msgid "Time and Date"
 msgstr "ਸਮਾਂ ਤੇ ਮਿਤੀ"
 
 #: ../plugins/time-date//PageComponent.qml:64
