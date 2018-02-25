@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2015-03-14 15:53+0000\n"
-"Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
-"Language-Team: Chinese (Traditional) <zh_TW@li.org>\n"
+"PO-Revision-Date: 2018-02-23 09:40+0000\n"
+"Last-Translator: P.-H. Lin <cypressyew@gmail.com>\n"
+"Language-Team: Chinese (Traditional) "
+"<https://translate.ubports.com/projects/ubports/system-settings/zh_Hant/>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2.15\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:42+0000\n"
-"X-Generator: Launchpad (build 17628)\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:116
 msgid "System Settings"
@@ -205,9 +206,9 @@ msgid "Sign In…"
 msgstr "登入…"
 
 #: ../plugins/system-update//ChangelogExpander.qml:42
-#, fuzzy, qt-format
+#, qt-format
 msgid "Version %1"
-msgstr "版本： "
+msgstr "版本 %1"
 
 #: ../plugins/system-update//UpdateSettings.qml:47
 msgid "On wi-fi"
@@ -234,14 +235,14 @@ msgstr "正在檢查是否有更新…"
 
 #: ../plugins/system-update//Global.qml:89
 msgid "Stop"
-msgstr ""
+msgstr "停止"
 
 #. TRANSLATORS: %1 is number of software updates available.
 #: ../plugins/system-update//Global.qml:116
-#, fuzzy, qt-format
+#, qt-format
 msgid "%1 update available"
 msgid_plural "%1 updates available"
-msgstr[0] "有可用的更新"
+msgstr[0] "有 %1 項可用的更新"
 
 #: ../plugins/system-update//Global.qml:126
 #, fuzzy
@@ -748,9 +749,8 @@ msgid "Notification List"
 msgstr "通知"
 
 #: ../plugins/notifications//ClickAppsVibrationsNotify.qml:30
-#, fuzzy
 msgid "Vibration"
-msgstr "vibration"
+msgstr "振動"
 
 #: ../plugins/notifications//ClickAppsVibrationsNotify.qml:54
 #, fuzzy
@@ -1930,7 +1930,7 @@ msgstr ""
 
 #: ../plugins/cellular//PageChooseApn.qml:302
 msgid "Delete"
-msgstr ""
+msgstr "刪除"
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../plugins/cellular//PageComponent.qml:32 ../build/po/settings.js:254
@@ -1939,7 +1939,7 @@ msgstr "行動網路"
 
 #: ../plugins/cellular//PageApnEditor.qml:69
 msgid "Edit"
-msgstr ""
+msgstr "編輯"
 
 #: ../plugins/cellular//PageApnEditor.qml:69
 #, fuzzy
@@ -2401,7 +2401,7 @@ msgstr ""
 #: ../plugins/bluetooth//DevicePage.qml:48
 #: ../plugins/bluetooth//DevicePage.qml:49 ../build/po/settings.js:326
 msgid "Phone"
-msgstr "手機"
+msgstr "電話"
 
 #: ../plugins/phone//NoSims.qml:28 ../plugins/phone//SingleSim.qml:41
 #: ../plugins/phone//MultiSim.qml:52 ../plugins/phone//CallForwarding.qml:45
@@ -2440,9 +2440,8 @@ msgid "Forward to"
 msgstr "轉接至"
 
 #: ../plugins/phone//CallForwardItem.qml:171
-#, fuzzy
 msgid "Enter a number"
-msgstr "電話號碼"
+msgstr "請輸入號碼"
 
 #: ../plugins/phone//CallForwardItem.qml:218
 msgid "Call forwarding can’t be changed right now."

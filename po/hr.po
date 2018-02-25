@@ -8,17 +8,18 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2014-08-26 14:40+0000\n"
-"Last-Translator: Ante Karamatić <ante.karamatic@canonical.com>\n"
-"Language-Team: Croatian <hr@li.org>\n"
+"PO-Revision-Date: 2018-02-18 21:55+0000\n"
+"Last-Translator: gogogogi <trebelnik2@gmail.com>\n"
+"Language-Team: Croatian <https://translate.ubports.com/projects/ubports"
+"/system-settings/hr/>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2.15\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:41+0000\n"
-"X-Generator: Launchpad (build 17628)\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:116
 msgid "System Settings"
@@ -1513,7 +1514,7 @@ msgstr ""
 
 #: ../plugins/security-privacy//SimPin.qml:333
 msgid "Unlock"
-msgstr ""
+msgstr "Otključaj"
 
 #: ../plugins/security-privacy//SimPin.qml:333
 msgid "Lock"
@@ -1899,7 +1900,7 @@ msgstr ""
 
 #: ../plugins/cellular//PageChooseApn.qml:302
 msgid "Delete"
-msgstr ""
+msgstr "Obriši"
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../plugins/cellular//PageComponent.qml:32 ../build/po/settings.js:254
@@ -1908,7 +1909,7 @@ msgstr "Mobilno"
 
 #: ../plugins/cellular//PageApnEditor.qml:69
 msgid "Edit"
-msgstr ""
+msgstr "Uredi"
 
 #: ../plugins/cellular//PageApnEditor.qml:69
 msgid "New APN"
@@ -2099,7 +2100,7 @@ msgstr "Svi dostupni rasporedi:"
 
 #: ../plugins/wifi//CertDialog.qml:74
 msgid "Save"
-msgstr ""
+msgstr "Spremi"
 
 #: ../plugins/wifi//OtherNetwork.qml:92
 msgid "Connect to Wi‑Fi"
@@ -2406,7 +2407,7 @@ msgstr "Proslijedi prema"
 
 #: ../plugins/phone//CallForwardItem.qml:171
 msgid "Enter a number"
-msgstr ""
+msgstr "Upišite broj"
 
 #: ../plugins/phone//CallForwardItem.qml:218
 msgid "Call forwarding can’t be changed right now."
@@ -2805,7 +2806,7 @@ msgstr ""
 #. this word must be less than 5 characters
 #: ../plugins/cellular//Components//LabelTextField.qml:51
 msgid "Next"
-msgstr ""
+msgstr "Sljedeće"
 
 #: ../plugins/cellular//Components//RadioSingleSim.qml:31
 #: ../plugins/cellular//Components//MultiSim.qml:84
@@ -2858,7 +2859,7 @@ msgstr ""
 
 #: ../src/qml/MainWindow.qml:150
 msgid "Search"
-msgstr ""
+msgstr "Pretraži"
 
 #: ../src/qml/MainWindow.qml:170
 msgid "Personal"

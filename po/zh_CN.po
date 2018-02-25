@@ -1,15 +1,10 @@
-# Chinese (Simplified) translation for ubuntu-system-settings
-# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
-# This file is distributed under the same license as the ubuntu-system-settings package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: ubuntu-system-settings\n"
+"Project-Id-Version: Chinese (Simplified) (UBports)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2018-01-07 08:13+0000\n"
-"Last-Translator: Mutse Young <yyhoo2.young@gmail.com>\n"
+"POT-Creation-Date: 2018-02-24 06:52+0000\n"
+"PO-Revision-Date: 2018-02-24 15:02+0800\n"
+"Last-Translator: Luo Yufan <njlyf2011@hotmail.com>\n"
 "Language-Team: Chinese (Simplified) "
 "<https://translate.ubports.com/projects/ubports/system-settings/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -17,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.15\n"
+"X-Generator: Poedit 2.0.6\n"
 "X-Launchpad-Export-Date: 2015-07-24 05:41+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:116
@@ -38,9 +33,8 @@ msgstr "通道设置"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
-#, fuzzy
 msgid "Stable"
-msgstr "手写板"
+msgstr "稳定版"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
@@ -49,9 +43,8 @@ msgstr "候选发布版"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
-#, fuzzy
 msgid "Development"
-msgstr "开发者模式"
+msgstr "开发"
 
 #: ../plugins/system-update//ChannelSettings.qml:99
 msgid "Fetching channels"
@@ -104,7 +97,6 @@ msgid "Updates"
 msgstr "更新"
 
 #: ../plugins/system-update//PageComponent.qml:182
-#, fuzzy
 msgid "Connect to the Internet to check for updates."
 msgstr "连接到互联网以检查更新"
 
@@ -122,15 +114,13 @@ msgid "Updates Available"
 msgstr "有可用的更新"
 
 #: ../plugins/system-update//PageComponent.qml:349
-#, fuzzy
 msgid "Recent updates"
-msgstr "检查更新"
+msgstr "最近更新"
 
 #: ../plugins/system-update//PageComponent.qml:412
 #: ../plugins/system-update//UpdateSettings.qml:32
-#, fuzzy
 msgid "Update settings"
-msgstr "系统设置"
+msgstr "更新设置"
 
 #: ../plugins/system-update//DownloadHandler.qml:174
 #: ../plugins/system-update//InstallationFailed.qml:25
@@ -152,20 +142,18 @@ msgstr "更新系统"
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:32
 #: ../plugins/system-update//ImageUpdatePrompt.qml:32
-#, fuzzy
 msgid "The device needs to restart to install the system update."
-msgstr "手机需要重新启动来安装系统更新"
+msgstr "设备需要重新启动来安装系统更新"
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:33
 #: ../plugins/system-update//ImageUpdatePrompt.qml:33
-#, fuzzy
 msgid "Connect the device to power before installing the system update."
-msgstr "安装系统更新之前，请将手机连接到电源。"
+msgstr "安装系统更新之前，请将设备连接到电源。"
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:38
 #: ../plugins/system-update//ImageUpdatePrompt.qml:38
 msgid "Restart & Install"
-msgstr "重启和安装"
+msgstr "重启并安装"
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:48
 #: ../plugins/system-update//ImageUpdatePrompt.qml:48
@@ -225,9 +213,8 @@ msgid "Unknown"
 msgstr "未知"
 
 #: ../plugins/system-update//UpdateSettings.qml:61
-#, fuzzy
 msgid "Channels"
-msgstr "更改"
+msgstr "通道"
 
 #: ../plugins/system-update//Global.qml:84
 msgid "Checking for updates…"
@@ -239,20 +226,18 @@ msgstr "停止"
 
 #. TRANSLATORS: %1 is number of software updates available.
 #: ../plugins/system-update//Global.qml:116
-#, fuzzy, qt-format
+#, qt-format
 msgid "%1 update available"
 msgid_plural "%1 updates available"
-msgstr[0] "有可用的更新"
+msgstr[0] "有可用的更新 %1"
 
 #: ../plugins/system-update//Global.qml:126
-#, fuzzy
 msgid "Update all…"
-msgstr "有可用的更新"
+msgstr "全部更新..."
 
 #: ../plugins/system-update//Global.qml:128
-#, fuzzy
 msgid "Update all"
-msgstr "更新"
+msgstr "全部更新"
 
 #: ../plugins/system-update//UpdateDelegate.qml:119
 msgid "Retry"
@@ -291,14 +276,12 @@ msgid "Installing"
 msgstr "正在安装"
 
 #: ../plugins/system-update//UpdateDelegate.qml:232
-#, fuzzy
 msgid "Paused"
-msgstr "暂停"
+msgstr "已暂停"
 
 #: ../plugins/system-update//UpdateDelegate.qml:235
-#, fuzzy
 msgid "Waiting to download"
-msgstr "自动下载"
+msgstr "正在等待下载"
 
 #: ../plugins/system-update//UpdateDelegate.qml:238
 msgid "Downloading"
@@ -313,9 +296,8 @@ msgid "%1 of %2"
 msgstr "第 %1 项，共 %2 项"
 
 #: ../plugins/system-update//UpdateDelegate.qml:278
-#, fuzzy
 msgid "Downloaded"
-msgstr "下载"
+msgstr "已下载"
 
 #: ../plugins/system-update//UpdateDelegate.qml:281
 msgid "Installed"
@@ -324,14 +306,13 @@ msgstr "已安装"
 #. TRANSLATORS: %1 is the date at which this
 #. update was applied.
 #: ../plugins/system-update//UpdateDelegate.qml:286
-#, fuzzy, qt-format
+#, qt-format
 msgid "Updated %1"
-msgstr "更新"
+msgstr "更新 %1"
 
 #: ../plugins/system-update//UpdateDelegate.qml:310
-#, fuzzy
 msgid "Update failed"
-msgstr "有可用的更新"
+msgstr "更新失败"
 
 #. TRANSLATORS: This is a keyword or name for the hotspot plugin which is used while searching
 #: ../plugins/hotspot//PageComponent.qml:33
@@ -356,28 +337,24 @@ msgstr ""
 "用。"
 
 #: ../plugins/hotspot//PageComponent.qml:123
-#, fuzzy
 msgid "Change Password/Setup…"
-msgstr "修改密码..."
+msgstr "修改/设置密码..."
 
 #: ../plugins/hotspot//PageComponent.qml:123
-#, fuzzy
 msgid "Set Up Hotspot…"
-msgstr "设置热点"
+msgstr "设置热点..."
 
 #: ../plugins/hotspot//PageComponent.qml:154
-#, fuzzy
 msgid "Wi-Fi is off"
-msgstr "Wi-Fi 热点"
+msgstr "Wi-Fi 已关闭"
 
 #: ../plugins/hotspot//PageComponent.qml:155
 msgid "In order to create a hotspot, you need to turn Wi-Fi on."
 msgstr "为了创建一个热点，您需要打开 Wifi。"
 
 #: ../plugins/hotspot//PageComponent.qml:164
-#, fuzzy
 msgid "Turn on Wi-Fi"
-msgstr "当连接至 Wi-Fi 时"
+msgstr "打开 Wi-Fi"
 
 #: ../plugins/hotspot//Common.qml:34 ../plugins/wifi//Common.qml:36
 msgid "Unknown error"
@@ -385,7 +362,7 @@ msgstr "未知错误"
 
 #: ../plugins/hotspot//Common.qml:36 ../plugins/wifi//Common.qml:38
 msgid "No reason given"
-msgstr "[沒有說明原因]"
+msgstr "[沒有说明原因]"
 
 #: ../plugins/hotspot//Common.qml:38 ../plugins/wifi//Common.qml:40
 msgid "Device is now managed"
@@ -501,12 +478,10 @@ msgid "A secondary connection of the base connection failed"
 msgstr "基本连接的辅助连接失败"
 
 #: ../plugins/hotspot//HotspotSetup.qml:61
-#, fuzzy
 msgid "Change Hotspot Setup"
 msgstr "更改热点设置"
 
 #: ../plugins/hotspot//HotspotSetup.qml:61
-#, fuzzy
 msgid "Set Up Hotspot"
 msgstr "设置热点"
 
@@ -515,9 +490,8 @@ msgid "Hotspot name"
 msgstr "热点名称"
 
 #: ../plugins/hotspot//HotspotSetup.qml:176
-#, fuzzy
 msgid "Choose a name"
-msgstr "选择口令密语"
+msgstr "选择一个名字"
 
 #: ../plugins/hotspot//HotspotSetup.qml:193
 msgid "Require a password (recommended):"
@@ -543,21 +517,19 @@ msgid "Start"
 msgstr "启动"
 
 #: ../plugins/battery//SleepValues.qml:74
-#, fuzzy
 msgid "Lock the device when it's not in use:"
 msgstr "当手机闲置时锁定："
 
 #: ../plugins/battery//SleepValues.qml:75
-#, fuzzy
 msgid "Put the device to sleep when it is not in use:"
 msgstr "当手机闲置时进入睡眠状态："
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery//SleepValues.qml:86
-#, fuzzy, qt-format
+#, qt-format
 msgid "After %1 seconds"
 msgid_plural "After %1 seconds"
-msgstr[0] "%1分钟后"
+msgstr[0] "%1 秒后"
 
 #. TRANSLATORS: %1 is the number of minutes
 #: ../plugins/battery//SleepValues.qml:90
@@ -573,17 +545,15 @@ msgstr[0] "%1分钟后"
 #, qt-format
 msgid "After %1 minute"
 msgid_plural "After %1 minutes"
-msgstr[0] "%1分钟后"
+msgstr[0] "%1 分钟后"
 
 #: ../plugins/battery//SleepValues.qml:130
-#, fuzzy
 msgid ""
 "Shorter times are more secure. Device won't lock during calls or video "
 "playback."
 msgstr "更短的时间将会更加安全。手机不会在通话或视频播放期间锁定。"
 
 #: ../plugins/battery//SleepValues.qml:130
-#, fuzzy
 msgid "Device won’t sleep during calls or video playback."
 msgstr "手机不会在通话或视频播放期间睡眠。"
 
@@ -672,14 +642,13 @@ msgstr "闲置时休眠"
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery//PageComponent.qml:321
 #: ../plugins/security-privacy//PhoneLocking.qml:94
-#, fuzzy, qt-format
+#, qt-format
 msgid "After %1 second"
 msgid_plural "After %1 seconds"
-msgstr[0] "%1分钟后"
+msgstr[0] "%1 秒钟后"
 
 #. TRANSLATORS: “Wi-Fi used for hotspot” is hidden.
 #: ../plugins/battery//PageComponent.qml:364
-#, fuzzy
 msgid "Wi-Fi used for hotspot"
 msgstr "Wi-Fi 热点"
 
@@ -719,9 +688,8 @@ msgid "Apps that notify with vibration"
 msgstr "用震动通知应用程序"
 
 #: ../plugins/notifications//PageComponent.qml:140
-#, fuzzy
 msgid "Applications:"
-msgstr "大写"
+msgstr "应用："
 
 #: ../plugins/notifications//PageComponent.qml:169
 #, fuzzy
@@ -730,7 +698,6 @@ msgstr "通知"
 
 #: ../plugins/notifications//PageComponent.qml:174
 #: ../plugins/notifications//ClickAppNotifications.qml:81
-#, fuzzy
 msgid "Sounds"
 msgstr "声音"
 
@@ -756,9 +723,8 @@ msgid "Vibration"
 msgstr "振动"
 
 #: ../plugins/notifications//ClickAppsVibrationsNotify.qml:54
-#, fuzzy
 msgid "When in Silent mode:"
-msgstr "静音模式开启振动"
+msgstr "当处于静音模式时："
 
 #: ../plugins/notifications//ClickAppsVibrationsNotify.qml:72
 #, fuzzy
@@ -822,9 +788,8 @@ msgid "Custom"
 msgstr "自定义"
 
 #: ../plugins/background//MainPage.qml:117
-#, fuzzy
 msgid "Dash background"
-msgstr "背景"
+msgstr "Dash 背景"
 
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../plugins/language//PageComponent.qml:35 ../build/po/settings.js:106
@@ -836,9 +801,8 @@ msgid "Display language…"
 msgstr "显示语言…"
 
 #: ../plugins/language//PageComponent.qml:155
-#, fuzzy
 msgid "On-screen keyboard"
-msgstr "键盘"
+msgstr "屏幕键盘"
 
 #: ../plugins/language//PageComponent.qml:156
 #: ../plugins/language//KeyboardLayouts.qml:29
@@ -908,9 +872,8 @@ msgid "All layouts available:"
 msgstr "所有可用的布局："
 
 #: ../plugins/language//RebootNecessary.qml:34
-#, fuzzy
 msgid "The device needs to restart for changes to take effect."
-msgstr "本手机需要重启以使改动生效。"
+msgstr "设备需要重启以使改动生效。"
 
 #: ../plugins/language//RebootNecessary.qml:38
 msgid "Restart Now"
@@ -925,7 +888,6 @@ msgid "All languages available:"
 msgstr "所有可用的语言："
 
 #: ../plugins/language//PageHardwareKeyboard.qml:33
-#, fuzzy
 msgid "Hardware keyboard"
 msgstr "键盘"
 
@@ -1091,13 +1053,10 @@ msgid "Developer Mode"
 msgstr "开发者模式"
 
 #: ../plugins/about//DevMode.qml:84
-#, fuzzy
 msgid ""
 "In Developer Mode, anyone can access, change or delete anything on this "
 "device by connecting it to another device."
-msgstr ""
-"在开发者模式下，任何人都可以通过将本手机与其他设备连接来访问、修改或者删除本"
-"手机内的任何内容。"
+msgstr "在开发者模式下，任何人都可以通过将本手机与其他设备连接来访问、修改或者删除本手机内的任何内容。"
 
 #: ../plugins/about//DevMode.qml:110
 msgid "You need a passcode or passphrase set to use Developer Mode."
@@ -1277,9 +1236,8 @@ msgstr "位置"
 
 #: ../plugins/security-privacy//PageComponent.qml:277
 #: ../plugins/security-privacy//AppAccess.qml:29
-#, fuzzy
 msgid "App permissions"
-msgstr "权限"
+msgstr "应用权限"
 
 #: ../plugins/security-privacy//PageComponent.qml:282
 #: ../plugins/security-privacy//diagnostics//PageComponent.qml:31
@@ -1641,7 +1599,6 @@ msgid "Scroll with two fingers"
 msgstr "双手指滑动"
 
 #: ../plugins/mouse//Connected.qml:410
-#, fuzzy
 msgid "Ignore touchpad when:"
 msgstr "忽略触摸板时："
 
@@ -2044,7 +2001,6 @@ msgstr "前一网络"
 
 #: ../plugins/wifi//NetworkDetailsBrief.qml:53
 #: ../plugins/wifi//NetworkDetails.qml:96
-#, fuzzy
 msgid "Forget this network"
 msgstr "忘记网络"
 
@@ -2221,22 +2177,19 @@ msgstr "通过身份认证"
 
 #: ../plugins/wifi//OtherNetwork.qml:689
 msgid "Both"
-msgstr ""
+msgstr "所有"
 
 #: ../plugins/wifi//OtherNetwork.qml:699
-#, fuzzy
 msgid "PEAP version"
-msgstr "版本"
+msgstr "PEAP 版本"
 
 #: ../plugins/wifi//OtherNetwork.qml:713
-#, fuzzy
 msgid "Version 0"
-msgstr "版本： "
+msgstr "版本 0"
 
 #: ../plugins/wifi//OtherNetwork.qml:714
-#, fuzzy
 msgid "Version 1"
-msgstr "版本： "
+msgstr "版本 1"
 
 #: ../plugins/wifi//OtherNetwork.qml:715
 msgid "Automatic"
@@ -2259,9 +2212,8 @@ msgid "Private key password"
 msgstr "私钥密码"
 
 #: ../plugins/wifi//OtherNetwork.qml:857
-#, fuzzy
 msgid "Remember password"
-msgstr "密码"
+msgstr "记住密码"
 
 #: ../plugins/wifi//OtherNetwork.qml:905
 #: ../plugins/bluetooth//DevicePage.qml:145
@@ -2398,9 +2350,8 @@ msgid "Forward to"
 msgstr "转发至"
 
 #: ../plugins/phone//CallForwardItem.qml:171
-#, fuzzy
 msgid "Enter a number"
-msgstr "电话号码"
+msgstr "输入电话号码"
 
 #: ../plugins/phone//CallForwardItem.qml:218
 msgid "Call forwarding can’t be changed right now."
@@ -2469,7 +2420,6 @@ msgid "All calls"
 msgstr "所有通话"
 
 #: ../plugins/phone//CallForwarding.qml:384
-#, fuzzy
 msgid "Some calls"
 msgstr "一些通话"
 
@@ -2527,9 +2477,8 @@ msgid "Connected display:"
 msgstr "已连接显示器："
 
 #: ../plugins/brightness//WifiDisplays.qml:127
-#, fuzzy
 msgid "Connecting"
-msgstr "正在连接…"
+msgstr "正在连接"
 
 #: ../plugins/brightness//WifiDisplays.qml:145
 msgid "Use another display:"
@@ -2615,7 +2564,6 @@ msgid "Confirm PIN"
 msgstr "确认 PIN 码"
 
 #: ../plugins/bluetooth//AuthorizationRequestDialog.qml:26
-#, fuzzy
 msgid "Bluetooth Pairing Authorization Request"
 msgstr "蓝牙配对请求"
 
@@ -2766,9 +2714,8 @@ msgstr "包含上关于应用崩溃时的正在执行的信息"
 
 #: ../plugins/cellular//Components//NoSim.qml:36
 #: ../plugins/cellular//Components//DataMultiSim.qml:73
-#, fuzzy
 msgid "No SIM detected"
-msgstr "侦测不到任何设备"
+msgstr "侦测不到 SIM 卡"
 
 #: ../plugins/cellular//Components//NoSim.qml:45
 #: ../plugins/cellular//Components//DataMultiSim.qml:81
@@ -2777,7 +2724,6 @@ msgid "Insert a SIM, then restart the device."
 msgstr "插入 SIM 卡并重启你的设备"
 
 #: ../plugins/cellular//Components//DataMultiSim.qml:36
-#, fuzzy
 msgid "Cellular data"
 msgstr "蜂窝数据"
 
@@ -2798,9 +2744,8 @@ msgstr "下一个"
 
 #: ../plugins/cellular//Components//RadioSingleSim.qml:31
 #: ../plugins/cellular//Components//MultiSim.qml:84
-#, fuzzy
 msgid "Connection type:"
-msgstr "已连接"
+msgstr "连接类型"
 
 #: ../plugins/cellular//Components//DefaultSim.qml:33
 msgid "Ask me each time"
@@ -2890,9 +2835,8 @@ msgstr "应用"
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../build/po/settings.js:14
-#, fuzzy
 msgid "application"
-msgstr "大写"
+msgstr "应用"
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
@@ -3343,19 +3287,18 @@ msgstr "触摸板"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../build/po/settings.js:216
-#, fuzzy
 msgid "tap"
-msgstr "接入点名称"
+msgstr "轻触"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../build/po/settings.js:218
 msgid "touch"
-msgstr ""
+msgstr "触摸"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../build/po/settings.js:222
 msgid "input"
-msgstr ""
+msgstr "输入"
 
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../build/po/settings.js:226
@@ -3618,9 +3561,8 @@ msgstr "立体声"
 
 #. TRANSLATORS: This is a keyword or name for the orientation-lock plugin which is used while searching
 #: ../build/po/settings.js:380
-#, fuzzy
 msgid "Rotation Lock"
-msgstr "屏幕方向锁定"
+msgstr "旋转锁定"
 
 #. TRANSLATORS: This is a keyword or name for the orientation-lock plugin which is used while searching
 #: ../build/po/settings.js:382
@@ -3657,9 +3599,8 @@ msgid "Authentication token manipulation error"
 msgstr "认证令牌操作错误"
 
 #: ../plugins/wifi//certhandler.cpp:258
-#, fuzzy
 msgid "Private key"
-msgstr "隐私设置"
+msgstr "密钥"
 
 #: ../plugins/wifi//certhandler.cpp:259
 msgid "Public key"
@@ -3679,9 +3620,8 @@ msgstr "无法暂停当前请求（无法连接服务）"
 
 #: ../src/systemimage.cpp:318 ../src/systemimage.cpp:324
 #: ../src/systemimage.cpp:330
-#, fuzzy
 msgid "Unavailable"
-msgstr "有可用的更新"
+msgstr "不可用"
 
 #: ../push-helper/software_updates_helper.py:159
 msgid "There's an updated system image."

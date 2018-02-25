@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2018-01-16 09:16+0000\n"
-"Last-Translator: Mathijs Verbeek <m.verbeek@boboti.nl>\n"
+"PO-Revision-Date: 2018-02-23 10:36+0000\n"
+"Last-Translator: Stefan <spleyte@gmail.com>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/system-"
 "settings/nl/>\n"
 "Language: nl\n"
@@ -208,9 +208,9 @@ msgid "Sign In…"
 msgstr "Aanmelden…"
 
 #: ../plugins/system-update//ChangelogExpander.qml:42
-#, fuzzy, qt-format
+#, qt-format
 msgid "Version %1"
-msgstr "Versie: "
+msgstr "Versie %1"
 
 #: ../plugins/system-update//UpdateSettings.qml:47
 msgid "On wi-fi"
