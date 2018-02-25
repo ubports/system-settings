@@ -86,7 +86,7 @@ msgid "Never"
 msgstr "절대로 사용하지 않음"
 
 #: ../plugins/system-update//Configuration.qml:54
-msgid "When on wi-fi"
+msgid "When on WiFi"
 msgstr "Wi-Fi에 연결되어 있을때"
 
 #: ../plugins/system-update//Configuration.qml:56
@@ -211,7 +211,7 @@ msgid "Version %1"
 msgstr "버전: "
 
 #: ../plugins/system-update//UpdateSettings.qml:47
-msgid "On wi-fi"
+msgid "On WiFi"
 msgstr "Wi-Fi 에서"
 
 #: ../plugins/system-update//UpdateSettings.qml:49
@@ -1348,7 +1348,7 @@ msgstr ""
 
 #: ../plugins/security-privacy//Location.qml:214
 msgid ""
-"Uses wi-fi and GPS to detect your rough location. Turning off location "
+"Uses WiFi and GPS to detect your rough location. Turning off location "
 "detection saves battery."
 msgstr ""
 "Wi-Fi와 GPS를 사용하여 대략적인 위치를 감지합니다. 이 설정을 해제하면 배터리"
@@ -1356,7 +1356,7 @@ msgstr ""
 
 #: ../plugins/security-privacy//Location.qml:216
 msgid ""
-"Uses wi-fi (currently off) and GPS to detect your rough location. Turning "
+"Uses WiFi (currently off) and GPS to detect your rough location. Turning "
 "off location detection saves battery."
 msgstr ""
 "Wi-Fi (현재 해제됨)와 GPS를 사용하여 대략적인 위치를 감지합니다. 이 설정을 해"
@@ -1364,7 +1364,7 @@ msgstr ""
 
 #: ../plugins/security-privacy//Location.qml:218
 msgid ""
-"Uses wi-fi, cell tower locations, and GPS to detect your rough location. "
+"Uses WiFi, cell tower locations, and GPS to detect your rough location. "
 "Turning off location detection saves battery."
 msgstr ""
 "Wi-Fi, 셀타워 위치, GPS를 사용하여 대략적인 위치를 감지합니다. 이 설정을 해제"
@@ -1372,7 +1372,7 @@ msgstr ""
 
 #: ../plugins/security-privacy//Location.qml:220
 msgid ""
-"Uses wi-fi, cell tower locations (no current cellular connection), and GPS "
+"Uses WiFi, cell tower locations (no current cellular connection), and GPS "
 "to detect your rough location. Turning off location detection saves battery."
 msgstr ""
 "Wi-Fi, 셀타워 위치 (현재 셀룰러 네트워크에 연결되지 않음), GPS를 사용하여 대"
@@ -1380,7 +1380,7 @@ msgstr ""
 
 #: ../plugins/security-privacy//Location.qml:222
 msgid ""
-"Uses wi-fi (currently off), cell tower locations, and GPS to detect your "
+"Uses WiFi (currently off), cell tower locations, and GPS to detect your "
 "rough location. Turning off location detection saves battery."
 msgstr ""
 "Wi-Fi (현재 해제됨), 셀타워 위치, GPS를 사용하여 대략적인 위치를 감지합니다. "
@@ -1388,7 +1388,7 @@ msgstr ""
 
 #: ../plugins/security-privacy//Location.qml:224
 msgid ""
-"Uses wi-fi (currently off), cell tower locations (no current cellular "
+"Uses WiFi (currently off), cell tower locations (no current cellular "
 "connection), and GPS to detect your rough location. Turning off location "
 "detection saves battery."
 msgstr ""
@@ -3570,7 +3570,7 @@ msgstr "와이파이"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../build/po/settings.js:290
-msgid "wi-fi"
+msgid "WiFi"
 msgstr "Wi-Fi"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching

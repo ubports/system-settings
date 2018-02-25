@@ -86,8 +86,8 @@ msgid "Never"
 msgstr "Morse"
 
 #: ../plugins/system-update//Configuration.qml:54
-msgid "When on wi-fi"
-msgstr "Pa vezer gant ar wi-fi"
+msgid "When on WiFi"
+msgstr "Pa vezer gant ar WiFi"
 
 #: ../plugins/system-update//Configuration.qml:56
 msgid "On any data connection"
@@ -211,8 +211,8 @@ msgid "Version %1"
 msgstr "Doare : "
 
 #: ../plugins/system-update//UpdateSettings.qml:47
-msgid "On wi-fi"
-msgstr "Gant ar wi-fi"
+msgid "On WiFi"
+msgstr "Gant ar WiFi"
 
 #: ../plugins/system-update//UpdateSettings.qml:49
 msgid "Always"
@@ -378,7 +378,7 @@ msgstr ""
 #: ../plugins/hotspot//PageComponent.qml:164
 #, fuzzy
 msgid "Turn on Wi-Fi"
-msgstr "Pa vezer gant ar wi-fi"
+msgstr "Pa vezer gant ar WiFi"
 
 #: ../plugins/hotspot//Common.qml:34 ../plugins/wifi//Common.qml:36
 msgid "Unknown error"
@@ -1363,7 +1363,7 @@ msgstr ""
 
 #: ../plugins/security-privacy//Location.qml:214
 msgid ""
-"Uses wi-fi and GPS to detect your rough location. Turning off location "
+"Uses WiFi and GPS to detect your rough location. Turning off location "
 "detection saves battery."
 msgstr ""
 "Implijout ar Wi-Fi hag ar GPS evit gouzout pelec'h emaoc'h tost da vat. Ma "
@@ -1371,7 +1371,7 @@ msgstr ""
 
 #: ../plugins/security-privacy//Location.qml:216
 msgid ""
-"Uses wi-fi (currently off) and GPS to detect your rough location. Turning "
+"Uses WiFi (currently off) and GPS to detect your rough location. Turning "
 "off location detection saves battery."
 msgstr ""
 "Implijout ar Wi-Fi (diweredekaet bremañ) hag ar GPS evit gouzout pelec'h "
@@ -1380,7 +1380,7 @@ msgstr ""
 
 #: ../plugins/security-privacy//Location.qml:218
 msgid ""
-"Uses wi-fi, cell tower locations, and GPS to detect your rough location. "
+"Uses WiFi, cell tower locations, and GPS to detect your rough location. "
 "Turning off location detection saves battery."
 msgstr ""
 "Implijout ar Wi-Fi, lec'h an tourioù-stign hag ar GPS evit gouzout pelec'h "
@@ -1389,7 +1389,7 @@ msgstr ""
 
 #: ../plugins/security-privacy//Location.qml:220
 msgid ""
-"Uses wi-fi, cell tower locations (no current cellular connection), and GPS "
+"Uses WiFi, cell tower locations (no current cellular connection), and GPS "
 "to detect your rough location. Turning off location detection saves battery."
 msgstr ""
 "Implijout ar Wi-Fi, lec'h an tourioù-stign (n'eo ket kevreet ar pellgomzer "
@@ -1398,7 +1398,7 @@ msgstr ""
 
 #: ../plugins/security-privacy//Location.qml:222
 msgid ""
-"Uses wi-fi (currently off), cell tower locations, and GPS to detect your "
+"Uses WiFi (currently off), cell tower locations, and GPS to detect your "
 "rough location. Turning off location detection saves battery."
 msgstr ""
 "Implijout ar Wi-Fi (diweredekaet bremañ), lec'h an tourioù-stign hag ar GPS "
@@ -1407,7 +1407,7 @@ msgstr ""
 
 #: ../plugins/security-privacy//Location.qml:224
 msgid ""
-"Uses wi-fi (currently off), cell tower locations (no current cellular "
+"Uses WiFi (currently off), cell tower locations (no current cellular "
 "connection), and GPS to detect your rough location. Turning off location "
 "detection saves battery."
 msgstr ""
@@ -3604,8 +3604,8 @@ msgstr "wifi"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../build/po/settings.js:290
-msgid "wi-fi"
-msgstr "wi-fi"
+msgid "WiFi"
+msgstr "WiFi"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../build/po/settings.js:296
