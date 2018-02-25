@@ -51,7 +51,7 @@ ItemPage {
            see https://bugreports.qt-project.org/browse/QTBUG-20631 */
         Component.onCompleted: {
             insert(0, { name: i18n.tr("Never"), description: "" })
-            insert(1, { name: i18n.tr("When on wi-fi"), description: "" })
+            insert(1, { name: i18n.tr("When on WiFi"), description: "" })
             if (NetworkingStatus.modemAvailable) {
                 insert(2, { name: i18n.tr("On any data connection"),
                        description: i18n.tr("Data charges may apply.") })

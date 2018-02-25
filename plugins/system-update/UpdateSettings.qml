@@ -44,7 +44,7 @@ ItemPage {
                 if (SystemImage.downloadMode === 0)
                     return i18n.tr("Never")
                 else if (SystemImage.downloadMode === 1)
-                    return i18n.tr("On wi-fi")
+                    return i18n.tr("On WiFi")
                 else if (SystemImage.downloadMode === 2)
                     return i18n.tr("Always")
                 else
