@@ -2295,7 +2295,7 @@ msgstr "பொருந்திய இடங்கள் காணவில�
 
 #. TRANSLATORS: This is a keyword or name for the time-date plugin which is used while searching
 #: ../plugins/time-date//PageComponent.qml:31 ../build/po/settings.js:310
-msgid "Time & Date"
+msgid "Time and Date"
 msgstr "நேரம் மற்றும் தேதி"
 
 #: ../plugins/time-date//PageComponent.qml:64

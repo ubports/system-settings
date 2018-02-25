@@ -117,7 +117,7 @@ class SystemSettingsTestCases(UbuntuSystemSettingsTestCase):
         self.assertThat(plugin, NotEquals(None))
 
     def test_timedate_plugin(self):
-        """ Checks whether the Time & Date plugin is available """
+        """ Checks whether the Time and Date plugin is available """
         plugin = self.main_view.select_single(
             objectName='entryComponent-time-date'
         )

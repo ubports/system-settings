@@ -1,6 +1,6 @@
 {
     "icon": "preferences-system-time-symbolic",
-    "name": "Time & Date",
+    "name": "Time and Date",
     "translations": "ubuntu-system-settings",
     "category": "system",
     "priority": 3,

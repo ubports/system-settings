@@ -20,7 +20,7 @@ from ubuntuuitoolkit import emulators as toolkit_emulators
 
 class TimeDateTestCase(UbuntuSystemSettingsTestCase,
                        dbusmock.DBusTestCase):
-    """ Tests for the Time & Date Page """
+    """ Tests for the Time and Date Page """
 
     @classmethod
     def setUpClass(cls):
@@ -33,7 +33,7 @@ class TimeDateTestCase(UbuntuSystemSettingsTestCase,
         super(TimeDateTestCase, self).tearDown()
 
     def setUp(self):
-        """ Go to Time & Date page """
+        """ Go to Time and Date page """
         (self.p_mock, self.obj_timedate1) = self.spawn_server_template(
             'timedated', {}, stdout=subprocess.PIPE
         )
@@ -77,8 +77,8 @@ class TimeDateTestCase(UbuntuSystemSettingsTestCase,
         )
 
     def test_time_date_page(self):
-        """ Checks whether Time & Date page is available """
-        self.assertEqual(self.page.title, _('Time & Date'))
+        """ Checks whether Time and Date page is available """
+        self.assertEqual(self.page.title, _('Time and Date'))
 
     def test_tz_list_initially_empty(self):
         """ Checks that no list is displayed initially """
