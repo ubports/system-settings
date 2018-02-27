@@ -63,7 +63,7 @@ Column {
         progressionVisible: enabled
         showDivider: false
         onClicked: {
-            pageStack.addPageToNextColumn(multiSim,
+            pageStack.addPageToNextColumn(root,
                 Qt.resolvedUrl("../PageCarriersAndApns.qml"), { sims: sims });
         }
     }

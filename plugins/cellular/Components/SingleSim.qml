@@ -111,7 +111,7 @@ Column {
         id: chooseCarrier
         objectName: "carrierApnEntry"
         value: sim.netReg.name || ""
-        onClicked: pageStack.addPageToNextColumn(singlesim,
+        onClicked: pageStack.addPageToNextColumn(root,
             Qt.resolvedUrl("../PageCarrierAndApn.qml"), { sim: sim })
     }
 
