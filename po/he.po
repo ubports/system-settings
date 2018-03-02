@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2018-02-09 09:11+0000\n"
-"Last-Translator: Eran <etherpulse@gmail.com>\n"
+"PO-Revision-Date: 2018-03-02 09:57+0000\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://translate.ubports.com/projects/ubports/system-"
 "settings/he/>\n"
 "Language: he\n"
@@ -201,7 +201,7 @@ msgstr "כניסה…"
 #: ../plugins/system-update//ChangelogExpander.qml:42
 #, qt-format
 msgid "Version %1"
-msgstr "גירסא %1"
+msgstr "גרסה %1"
 
 #: ../plugins/system-update//UpdateSettings.qml:47
 msgid "On wi-fi"
@@ -764,7 +764,7 @@ msgstr "אפליקציות אשר מתריעות באמצעות רטט:"
 #: ../plugins/notifications//ClickAppsSoundsNotify.qml:30
 #: ../plugins/sound//PageComponent.qml:39 ../build/po/settings.js:236
 msgid "Sound"
-msgstr "שמע"
+msgstr "צליל"
 
 #: ../plugins/notifications//ClickAppsSoundsNotify.qml:48
 msgid "Apps that notify with sound:"
@@ -965,7 +965,6 @@ msgstr "לפי גודל"
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../plugins/about//PageComponent.qml:35 ../build/po/settings.js:132
-#, fuzzy
 msgid "About"
 msgstr "על אודות"
 
@@ -1226,7 +1225,7 @@ msgstr "דלוק"
 #: ../plugins/security-privacy//PageComponent.qml:266
 #: ../plugins/phone//CallForwarding.qml:386
 msgid "Off"
-msgstr "מכובה"
+msgstr "כבוי"
 
 #: ../plugins/security-privacy//PageComponent.qml:205
 msgid "Encryption"
@@ -2470,9 +2469,8 @@ msgid "Contacts…"
 msgstr "אנשי קשר…"
 
 #: ../plugins/phone//CallForwarding.qml:274
-#, fuzzy
 msgid "Please select a phone number"
-msgstr "מספר טלפון"
+msgstr "נא לבחור מספר טלפון"
 
 #: ../plugins/phone//CallForwarding.qml:283
 msgid "Numbers"
@@ -2806,14 +2804,13 @@ msgid "Insert a SIM, then restart the device."
 msgstr ""
 
 #: ../plugins/cellular//Components//DataMultiSim.qml:36
-#, fuzzy
 msgid "Cellular data"
-msgstr "סלולרי"
+msgstr "נתונים סלולריים"
 
 #: ../plugins/cellular//Components//DataMultiSim.qml:147
 #: ../plugins/cellular//Components//SingleSim.qml:92
 msgid "Data roaming"
-msgstr ""
+msgstr "נתונים בנדידה"
 
 #: ../plugins/cellular//Components//SimEditor.qml:88
 msgid "Edit SIM Name"
@@ -2823,17 +2820,16 @@ msgstr "עריכת שם ה־SIM"
 #. this word must be less than 5 characters
 #: ../plugins/cellular//Components//LabelTextField.qml:51
 msgid "Next"
-msgstr ""
+msgstr "הבא"
 
 #: ../plugins/cellular//Components//RadioSingleSim.qml:31
 #: ../plugins/cellular//Components//MultiSim.qml:84
-#, fuzzy
 msgid "Connection type:"
-msgstr "בהתחברות…"
+msgstr "סוג החיבור:"
 
 #: ../plugins/cellular//Components//DefaultSim.qml:33
 msgid "Ask me each time"
-msgstr ""
+msgstr "לשאול אותי כל פעם"
 
 #: ../plugins/cellular//Components//DefaultSim.qml:40
 msgid "For outgoing calls, use:"
@@ -2851,7 +2847,7 @@ msgstr "להודעות יש להשתמש ב־:"
 
 #: ../plugins/cellular//Components//SingleSim.qml:69
 msgid "Cellular data:"
-msgstr ""
+msgstr "נתונים סלולריים:"
 
 #: ../plugins/cellular//Components//SingleSim.qml:105
 #: ../plugins/cellular//Components//MultiSim.qml:55
@@ -2864,15 +2860,15 @@ msgstr "ספקים"
 
 #: ../plugins/cellular//Components//Sim.qml:46
 msgid "2G only (saves battery)"
-msgstr ""
+msgstr "דור שני בלבד (לחסכון בסוללה)"
 
 #: ../plugins/cellular//Components//Sim.qml:47
 msgid "2G/3G (faster)"
-msgstr ""
+msgstr "דור שני/שלישי (מהיר יותר)"
 
 #: ../plugins/cellular//Components//Sim.qml:48
 msgid "2G/3G/4G (faster)"
-msgstr ""
+msgstr "דור שני/שלישי/רביעי (מהיר יותר)"
 
 #: ../src/qml/MainWindow.qml:150
 msgid "Search"
