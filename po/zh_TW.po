@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2018-02-23 09:40+0000\n"
+"PO-Revision-Date: 2018-03-02 08:31+0000\n"
 "Last-Translator: P.-H. Lin <cypressyew@gmail.com>\n"
 "Language-Team: Chinese (Traditional) "
 "<https://translate.ubports.com/projects/ubports/system-settings/zh_Hant/>\n"
@@ -1287,7 +1287,7 @@ msgstr "診斷"
 #. reports are to be sent by the system.
 #: ../plugins/security-privacy//PageComponent.qml:286
 msgid "Sent"
-msgstr "會傳送"
+msgstr "已送出"
 
 #. TRANSLATORS: This string is shown when crash
 #. reports are not to be sent by the system
