@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2018-03-02 09:57+0000\n"
+"PO-Revision-Date: 2018-03-04 21:16+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://translate.ubports.com/projects/ubports/system-"
 "settings/he/>\n"
@@ -1525,7 +1525,7 @@ msgstr ""
 
 #: ../plugins/security-privacy//SimPin.qml:333
 msgid "Unlock"
-msgstr "שיחורר"
+msgstr "שחרור"
 
 #: ../plugins/security-privacy//SimPin.qml:333
 msgid "Lock"
@@ -1832,8 +1832,9 @@ msgstr ""
 
 #: ../plugins/cellular//PageChooseApn.qml:91
 #: ../plugins/cellular//PageApnEditor.qml:161
+#, fuzzy
 msgid "MMS"
-msgstr ""
+msgstr "MMS"
 
 #: ../plugins/cellular//PageChooseApn.qml:155
 msgid "Reset All APN Settings…"
@@ -1887,7 +1888,7 @@ msgstr ""
 #: ../plugins/cellular//PageChooseApn.qml:231
 #: ../plugins/cellular//PageChooseApn.qml:264
 msgid "Disable"
-msgstr ""
+msgstr "השבתה"
 
 #: ../plugins/cellular//PageChooseApn.qml:253
 #, qt-format
@@ -2383,7 +2384,7 @@ msgstr "טלפון"
 #: ../plugins/phone//NoSims.qml:28 ../plugins/phone//SingleSim.qml:41
 #: ../plugins/phone//MultiSim.qml:52 ../plugins/phone//CallForwarding.qml:45
 msgid "Call forwarding"
-msgstr "הפניית שיחות"
+msgstr "העברת שיחות"
 
 #: ../plugins/phone//NoSims.qml:34 ../plugins/phone//CallWaiting.qml:31
 #: ../plugins/phone//CallWaiting.qml:81 ../plugins/phone//SingleSim.qml:34
@@ -2398,17 +2399,17 @@ msgstr "שירותים"
 #: ../plugins/phone//ServiceInfo.qml:109
 #, qt-format
 msgid "Last called %1"
-msgstr "שיחה אחרונה: %1"
+msgstr "שיחה אחרונה ב־%1"
 
 #: ../plugins/phone//ServiceInfo.qml:119
 msgid "Call"
-msgstr "להתקשר"
+msgstr "התקשרות"
 
 #: ../plugins/phone//CallWaiting.qml:96
 msgid ""
 "Lets you answer or start a new call while on another call, and switch "
 "between them"
-msgstr "מאפשר לך לענות או לפתוח בשיחה חדש במהלך שיחה אחרת ולהחליף ביניהן."
+msgstr "מתן האפשרות לענות או לפתוח בשיחה חדשה במהלך שיחה אחרת ולהחליף ביניהן"
 
 #. TRANSLATORS: This string will be truncated on smaller displays.
 #: ../plugins/phone//CallForwardItem.qml:157
@@ -2417,15 +2418,15 @@ msgid "Forward to"
 msgstr "העברה אל"
 
 #: ../plugins/phone//CallForwardItem.qml:171
-#, fuzzy
 msgid "Enter a number"
-msgstr "מספר טלפון"
+msgstr "נא להקליד מספר"
 
 #: ../plugins/phone//CallForwardItem.qml:218
 msgid "Call forwarding can’t be changed right now."
 msgstr ""
 
 #: ../plugins/phone//SingleSim.qml:29
+#, fuzzy
 msgid "SIM"
 msgstr "SIM"
 
@@ -2437,20 +2438,19 @@ msgstr "שירותי %1"
 
 #: ../plugins/phone//CallForwarding.qml:131
 msgid "Forward every incoming call"
-msgstr ""
+msgstr "העברה כל שיחה נכנסת"
 
 #: ../plugins/phone//CallForwarding.qml:146
 msgid "Redirects all phone calls to another number."
-msgstr ""
+msgstr "העברת כל שיחות הטלפון למספר אחר."
 
 #: ../plugins/phone//CallForwarding.qml:158
 msgid "Call forwarding status can’t be checked "
 msgstr ""
 
 #: ../plugins/phone//CallForwarding.qml:166
-#, fuzzy
 msgid "Forward incoming calls when:"
-msgstr "לשיחות יוצאות יש להשתמש ב־:"
+msgstr "להעביר שיחות נכנסות כאשר:"
 
 #: ../plugins/phone//CallForwarding.qml:175
 msgid "I’m on another call"
@@ -2462,7 +2462,7 @@ msgstr ""
 
 #: ../plugins/phone//CallForwarding.qml:197
 msgid "My phone is unreachable"
-msgstr "הטלפון שלי אינו נגיש"
+msgstr "הטלפון שלי אינו זמין"
 
 #: ../plugins/phone//CallForwarding.qml:227
 msgid "Contacts…"
@@ -2478,20 +2478,19 @@ msgstr "מספרים"
 
 #: ../plugins/phone//CallForwarding.qml:302
 msgid "Could not forward to this contact"
-msgstr ""
+msgstr "לא ניתן להעביר שיחה לאיש קשר זה"
 
 #: ../plugins/phone//CallForwarding.qml:303
 msgid "Contact not associated with any phone number."
-msgstr ""
+msgstr "איש הקשר אינו משויך לאף מספר טלפון."
 
 #: ../plugins/phone//CallForwarding.qml:382
 msgid "All calls"
 msgstr "כל השיחות"
 
 #: ../plugins/phone//CallForwarding.qml:384
-#, fuzzy
 msgid "Some calls"
-msgstr "שיחות טלפון:"
+msgstr "חלק מהשיחות"
 
 #: ../plugins/brightness//WifiDisplaysAlert.qml:32
 #, fuzzy, qt-format
@@ -2679,7 +2678,7 @@ msgstr "מודם"
 
 #: ../plugins/bluetooth//DevicePage.qml:51 ../src/qml/MainWindow.qml:165
 msgid "Network"
-msgstr "תקשורת"
+msgstr "רשת"
 
 #: ../plugins/bluetooth//DevicePage.qml:52
 msgid "Headset"
@@ -2691,7 +2690,7 @@ msgstr "אוזניות"
 
 #: ../plugins/bluetooth//DevicePage.qml:54
 msgid "Video"
-msgstr "וידאו"
+msgstr "סרטון"
 
 #: ../plugins/bluetooth//DevicePage.qml:55
 msgid "Other Audio"
@@ -3296,7 +3295,7 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../build/po/settings.js:182
 msgid "password"
-msgstr ""
+msgstr "ססמה"
 
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../build/po/settings.js:184
