@@ -86,8 +86,8 @@ msgid "Never"
 msgstr "Nunquam"
 
 #: ../plugins/system-update//Configuration.qml:54
-msgid "When on wi-fi"
-msgstr "Quando connectite per wi-fi"
+msgid "When on WiFi"
+msgstr "Quando connectite per WiFi"
 
 #: ../plugins/system-update//Configuration.qml:56
 msgid "On any data connection"
@@ -214,8 +214,8 @@ msgid "Version %1"
 msgstr "Version: "
 
 #: ../plugins/system-update//UpdateSettings.qml:47
-msgid "On wi-fi"
-msgstr "Sur le wi-fi"
+msgid "On WiFi"
+msgstr "Sur le WiFi"
 
 #: ../plugins/system-update//UpdateSettings.qml:49
 msgid "Always"
@@ -381,7 +381,7 @@ msgstr ""
 #: ../plugins/hotspot//PageComponent.qml:164
 #, fuzzy
 msgid "Turn on Wi-Fi"
-msgstr "Quando connectite per wi-fi"
+msgstr "Quando connectite per WiFi"
 
 #: ../plugins/hotspot//Common.qml:34 ../plugins/wifi//Common.qml:36
 msgid "Unknown error"
@@ -1362,53 +1362,53 @@ msgstr ""
 
 #: ../plugins/security-privacy//Location.qml:214
 msgid ""
-"Uses wi-fi and GPS to detect your rough location. Turning off location "
+"Uses WiFi and GPS to detect your rough location. Turning off location "
 "detection saves battery."
 msgstr ""
-"Usar le wi-fi, e le GPS pro discoperir tu grosse ubication. Stoppar le "
+"Usar le WiFi, e le GPS pro discoperir tu grosse ubication. Stoppar le "
 "detection del ubication sparnia le batteria"
 
 #: ../plugins/security-privacy//Location.qml:216
 msgid ""
-"Uses wi-fi (currently off) and GPS to detect your rough location. Turning "
+"Uses WiFi (currently off) and GPS to detect your rough location. Turning "
 "off location detection saves battery."
 msgstr ""
-"Usar le wi-fi (actualmente stoppate), e le GPS pro discoperir tu grosse "
+"Usar le WiFi (actualmente stoppate), e le GPS pro discoperir tu grosse "
 "ubication. Stoppar le detection del ubication sparnia le batteria"
 
 #: ../plugins/security-privacy//Location.qml:218
 msgid ""
-"Uses wi-fi, cell tower locations, and GPS to detect your rough location. "
+"Uses WiFi, cell tower locations, and GPS to detect your rough location. "
 "Turning off location detection saves battery."
 msgstr ""
-"Usar le wi-fi, le ubication del turre del cella, e le GPS pro discoperir tu "
+"Usar le WiFi, le ubication del turre del cella, e le GPS pro discoperir tu "
 "grosse ubication. Stoppar le detection del ubication sparnia le batteria"
 
 #: ../plugins/security-privacy//Location.qml:220
 msgid ""
-"Uses wi-fi, cell tower locations (no current cellular connection), and GPS "
+"Uses WiFi, cell tower locations (no current cellular connection), and GPS "
 "to detect your rough location. Turning off location detection saves battery."
 msgstr ""
-"Usar le wi-fi, le ubication del turre del cella (nulle connexion actual del "
+"Usar le WiFi, le ubication del turre del cella (nulle connexion actual del "
 "cellular), e le GPS pro discoperir tu grosse ubication. Stoppar le detection "
 "del ubication sparnia le batteria"
 
 #: ../plugins/security-privacy//Location.qml:222
 msgid ""
-"Uses wi-fi (currently off), cell tower locations, and GPS to detect your "
+"Uses WiFi (currently off), cell tower locations, and GPS to detect your "
 "rough location. Turning off location detection saves battery."
 msgstr ""
-"Usar le wi-fi (actualmente stoppate), le ubication del turre del cella, e le "
+"Usar le WiFi (actualmente stoppate), le ubication del turre del cella, e le "
 "GPS pro discoperir tu grosse ubication. Stoppar le detection del ubication "
 "sparnia le batteria"
 
 #: ../plugins/security-privacy//Location.qml:224
 msgid ""
-"Uses wi-fi (currently off), cell tower locations (no current cellular "
+"Uses WiFi (currently off), cell tower locations (no current cellular "
 "connection), and GPS to detect your rough location. Turning off location "
 "detection saves battery."
 msgstr ""
-"Usar le wi-fi (actualmente stoppate), le ubication del turre del cella "
+"Usar le WiFi (actualmente stoppate), le ubication del turre del cella "
 "(nulle connexion actual del cellular), e le GPS pro discoperir tu grosse "
 "ubication. Stoppar le detection del ubication sparnia le batteria"
 
@@ -2379,7 +2379,7 @@ msgstr "Nulle posto que concorda"
 
 #. TRANSLATORS: This is a keyword or name for the time-date plugin which is used while searching
 #: ../plugins/time-date//PageComponent.qml:31 ../build/po/settings.js:310
-msgid "Time & Date"
+msgid "Time and Date"
 msgstr "Tempore & data"
 
 #: ../plugins/time-date//PageComponent.qml:64
@@ -3596,8 +3596,8 @@ msgstr "wifi"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../build/po/settings.js:290
-msgid "wi-fi"
-msgstr "wi-fi"
+msgid "WiFi"
+msgstr "WiFi"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../build/po/settings.js:296

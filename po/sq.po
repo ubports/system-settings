@@ -85,7 +85,7 @@ msgid "Never"
 msgstr "Kurrë"
 
 #: ../plugins/system-update//Configuration.qml:54
-msgid "When on wi-fi"
+msgid "When on WiFi"
 msgstr "Nese Wi-Fi i kyqur"
 
 #: ../plugins/system-update//Configuration.qml:56
@@ -204,8 +204,8 @@ msgid "Version %1"
 msgstr "Versioni %1"
 
 #: ../plugins/system-update//UpdateSettings.qml:47
-msgid "On wi-fi"
-msgstr "Në wi-fi"
+msgid "On WiFi"
+msgstr "Në WiFi"
 
 #: ../plugins/system-update//UpdateSettings.qml:49
 msgid "Always"
@@ -1314,7 +1314,7 @@ msgstr ""
 
 #: ../plugins/security-privacy//Location.qml:214
 msgid ""
-"Uses wi-fi and GPS to detect your rough location. Turning off location "
+"Uses WiFi and GPS to detect your rough location. Turning off location "
 "detection saves battery."
 msgstr ""
 "Përdor Wi-Fi dhe GPS për të zbuluar vendndodhjen tuaj të përafërt. "
@@ -1322,7 +1322,7 @@ msgstr ""
 
 #: ../plugins/security-privacy//Location.qml:216
 msgid ""
-"Uses wi-fi (currently off) and GPS to detect your rough location. Turning "
+"Uses WiFi (currently off) and GPS to detect your rough location. Turning "
 "off location detection saves battery."
 msgstr ""
 "Përdor Wi-Fi (aktualisht i fikur) dhe GPS për të zbuluar vendndodhjen tuaj "
@@ -1330,37 +1330,37 @@ msgstr ""
 
 #: ../plugins/security-privacy//Location.qml:218
 msgid ""
-"Uses wi-fi, cell tower locations, and GPS to detect your rough location. "
+"Uses WiFi, cell tower locations, and GPS to detect your rough location. "
 "Turning off location detection saves battery."
 msgstr ""
-"Përdor zonat wi-fi, kullë qelizore dhe GPS për të zbuluar vendndodhjen tuaj "
+"Përdor zonat WiFi, kullë qelizore dhe GPS për të zbuluar vendndodhjen tuaj "
 "të përafërt. Çaktivizimi i zbulimit të vendndodhjes kursen baterinë."
 
 #: ../plugins/security-privacy//Location.qml:220
 msgid ""
-"Uses wi-fi, cell tower locations (no current cellular connection), and GPS "
+"Uses WiFi, cell tower locations (no current cellular connection), and GPS "
 "to detect your rough location. Turning off location detection saves battery."
 msgstr ""
-"Përdor wi-fi, vendndodhjet e kullave qelizore (nuk ka lidhje celulare "
+"Përdor WiFi, vendndodhjet e kullave qelizore (nuk ka lidhje celulare "
 "aktuale), dhe GPS për të zbuluar vendndodhjen tuaj të përafërt. Çaktivizimi "
 "i zbulimit të vendndodhjes kursen baterinë."
 
 #: ../plugins/security-privacy//Location.qml:222
 msgid ""
-"Uses wi-fi (currently off), cell tower locations, and GPS to detect your "
+"Uses WiFi (currently off), cell tower locations, and GPS to detect your "
 "rough location. Turning off location detection saves battery."
 msgstr ""
-"Përdor wi-fi (aktualisht i fikur), vendndodhjet e kullave qelizore dhe GPS "
+"Përdor WiFi (aktualisht i fikur), vendndodhjet e kullave qelizore dhe GPS "
 "për të zbuluar vendndodhjen tuaj të përafërt. Çaktivizimi i zbulimit të "
 "vendndodhjes kursen baterinë."
 
 #: ../plugins/security-privacy//Location.qml:224
 msgid ""
-"Uses wi-fi (currently off), cell tower locations (no current cellular "
+"Uses WiFi (currently off), cell tower locations (no current cellular "
 "connection), and GPS to detect your rough location. Turning off location "
 "detection saves battery."
 msgstr ""
-"Përdor wi-fi (aktualisht i fikur), vendndodhjet e kullave të qelizore (pa "
+"Përdor WiFi (aktualisht i fikur), vendndodhjet e kullave të qelizore (pa "
 "lidhje aktuale celulare) dhe GPS për të zbuluar vendndodhjen tuaj të "
 "përafërt. Çaktivizimi i zbulimit të vendndodhjes kursen baterinë."
 
@@ -2284,7 +2284,7 @@ msgstr "Nuk ka vend të adekuat"
 
 #. TRANSLATORS: This is a keyword or name for the time-date plugin which is used while searching
 #: ../plugins/time-date//PageComponent.qml:31 ../build/po/settings.js:310
-msgid "Time & Date"
+msgid "Time and Date"
 msgstr "Ora dhe Data"
 
 #: ../plugins/time-date//PageComponent.qml:64
@@ -3474,8 +3474,8 @@ msgstr "WiFi"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../build/po/settings.js:290
-msgid "wi-fi"
-msgstr "wi-fi"
+msgid "WiFi"
+msgstr "WiFi"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../build/po/settings.js:296

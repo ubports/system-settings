@@ -86,8 +86,8 @@ msgid "Never"
 msgstr "Enxamás"
 
 #: ../plugins/system-update//Configuration.qml:54
-msgid "When on wi-fi"
-msgstr "Al tar na wi-fi"
+msgid "When on WiFi"
+msgstr "Al tar na WiFi"
 
 #: ../plugins/system-update//Configuration.qml:56
 msgid "On any data connection"
@@ -212,7 +212,7 @@ msgid "Version %1"
 msgstr "Versión: "
 
 #: ../plugins/system-update//UpdateSettings.qml:47
-msgid "On wi-fi"
+msgid "On WiFi"
 msgstr "Con wifi"
 
 #: ../plugins/system-update//UpdateSettings.qml:49
@@ -379,7 +379,7 @@ msgstr ""
 #: ../plugins/hotspot//PageComponent.qml:164
 #, fuzzy
 msgid "Turn on Wi-Fi"
-msgstr "Al tar na wi-fi"
+msgstr "Al tar na WiFi"
 
 #: ../plugins/hotspot//Common.qml:34 ../plugins/wifi//Common.qml:36
 msgid "Unknown error"
@@ -1358,7 +1358,7 @@ msgstr ""
 
 #: ../plugins/security-privacy//Location.qml:214
 msgid ""
-"Uses wi-fi and GPS to detect your rough location. Turning off location "
+"Uses WiFi and GPS to detect your rough location. Turning off location "
 "detection saves battery."
 msgstr ""
 "Usa wifi y GPS pa deteutar la llocalización aproximada. Apagando la "
@@ -1366,7 +1366,7 @@ msgstr ""
 
 #: ../plugins/security-privacy//Location.qml:216
 msgid ""
-"Uses wi-fi (currently off) and GPS to detect your rough location. Turning "
+"Uses WiFi (currently off) and GPS to detect your rough location. Turning "
 "off location detection saves battery."
 msgstr ""
 "Usa wifi (anguaño apagada), y GPS pa deteutar la to llocalización "
@@ -1374,7 +1374,7 @@ msgstr ""
 
 #: ../plugins/security-privacy//Location.qml:218
 msgid ""
-"Uses wi-fi, cell tower locations, and GPS to detect your rough location. "
+"Uses WiFi, cell tower locations, and GPS to detect your rough location. "
 "Turning off location detection saves battery."
 msgstr ""
 "Usa wifi, llocalizaciones por antenes de telefonía y GPS pa deteutar la to "
@@ -1383,7 +1383,7 @@ msgstr ""
 
 #: ../plugins/security-privacy//Location.qml:220
 msgid ""
-"Uses wi-fi, cell tower locations (no current cellular connection), and GPS "
+"Uses WiFi, cell tower locations (no current cellular connection), and GPS "
 "to detect your rough location. Turning off location detection saves battery."
 msgstr ""
 "Usa wifi, llocalizaciones por antenes de telefonía (anguaño ensin conexón "
@@ -1392,7 +1392,7 @@ msgstr ""
 
 #: ../plugins/security-privacy//Location.qml:222
 msgid ""
-"Uses wi-fi (currently off), cell tower locations, and GPS to detect your "
+"Uses WiFi (currently off), cell tower locations, and GPS to detect your "
 "rough location. Turning off location detection saves battery."
 msgstr ""
 "Usa wifi (anguaño apagada) llocalizaciones por antenes de telefonía y GPS pa "
@@ -1401,7 +1401,7 @@ msgstr ""
 
 #: ../plugins/security-privacy//Location.qml:224
 msgid ""
-"Uses wi-fi (currently off), cell tower locations (no current cellular "
+"Uses WiFi (currently off), cell tower locations (no current cellular "
 "connection), and GPS to detect your rough location. Turning off location "
 "detection saves battery."
 msgstr ""
@@ -2375,7 +2375,7 @@ msgstr "Nun hai llugares que concasen"
 
 #. TRANSLATORS: This is a keyword or name for the time-date plugin which is used while searching
 #: ../plugins/time-date//PageComponent.qml:31 ../build/po/settings.js:310
-msgid "Time & Date"
+msgid "Time and Date"
 msgstr "Hora y data"
 
 #: ../plugins/time-date//PageComponent.qml:64
@@ -3592,8 +3592,8 @@ msgstr "wifi"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../build/po/settings.js:290
-msgid "wi-fi"
-msgstr "wi-fi"
+msgid "WiFi"
+msgstr "WiFi"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../build/po/settings.js:296
@@ -3931,7 +3931,7 @@ msgstr "Calca p'abrir l'anovador del sistema."
 #~ msgstr " Gb"
 
 #~ msgid "Hotspot disabled because Wi-Fi is off."
-#~ msgstr "Deshabilitóse'l puntu d'accesu porque'l wi-fi ta apagáu"
+#~ msgstr "Deshabilitóse'l puntu d'accesu porque'l WiFi ta apagáu"
 
 #~ msgid "Please select how you’d like to unlock your phone."
 #~ msgstr "Por favor, esbilla como te prestaría desbloquiar el teléfonu."
@@ -4010,7 +4010,7 @@ msgstr "Calca p'abrir l'anovador del sistema."
 #~ "Allow apps to use your mobile and Wi-Fi networks to determine your "
 #~ "location."
 #~ msgstr ""
-#~ "Permitir a les aplicaciones usar la to rede móvil y wi-fi pa determinar "
+#~ "Permitir a les aplicaciones usar la to rede móvil y WiFi pa determinar "
 #~ "el to allugamientu."
 
 #~ msgid ""

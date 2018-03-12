@@ -86,7 +86,7 @@ msgid "Never"
 msgstr "በፍጹም"
 
 #: ../plugins/system-update//Configuration.qml:54
-msgid "When on wi-fi"
+msgid "When on WiFi"
 msgstr "በ ዋይ-ፋይ ላይ በሚሆን ጊዜ"
 
 #: ../plugins/system-update//Configuration.qml:56
@@ -210,7 +210,7 @@ msgid "Version %1"
 msgstr "እትም: "
 
 #: ../plugins/system-update//UpdateSettings.qml:47
-msgid "On wi-fi"
+msgid "On WiFi"
 msgstr "በ ዋይ-ፋይ ላይ"
 
 #: ../plugins/system-update//UpdateSettings.qml:49
@@ -1344,14 +1344,14 @@ msgstr "ይጠቀሙ ጂፒኤስ ያሉበትን አካባቢ በግምት ለ�
 
 #: ../plugins/security-privacy//Location.qml:214
 msgid ""
-"Uses wi-fi and GPS to detect your rough location. Turning off location "
+"Uses WiFi and GPS to detect your rough location. Turning off location "
 "detection saves battery."
 msgstr ""
 "ይጠቀሙ ዋይ-ፋይ እና ጂፒኤስ ያሉበትን አካባቢ በግምት ለማወቅ: የ አካባቢ ማግኛውን ማጥፋት የ ባትሪውን ሐይል ይቆጥባል"
 
 #: ../plugins/security-privacy//Location.qml:216
 msgid ""
-"Uses wi-fi (currently off) and GPS to detect your rough location. Turning "
+"Uses WiFi (currently off) and GPS to detect your rough location. Turning "
 "off location detection saves battery."
 msgstr ""
 "ይጠቀሙ ዋይ-ፋይ (አሁን ጠፍቷል) እና ጂፒኤስ ያሉበትን አካባቢ በግምት ለማወቅ: የ አካባቢ ማግኛውን ማጥፋት የ "
@@ -1359,7 +1359,7 @@ msgstr ""
 
 #: ../plugins/security-privacy//Location.qml:218
 msgid ""
-"Uses wi-fi, cell tower locations, and GPS to detect your rough location. "
+"Uses WiFi, cell tower locations, and GPS to detect your rough location. "
 "Turning off location detection saves battery."
 msgstr ""
 "የ ዋይ-ፋይ: የ ሴል ምሶሶ አካባቢዎችን: እና ጂፒኤስን ይጠቀማል እርስዎ ያሉበትን አካባቢ በቅርብ እርቀት ለመገመት: የ "
@@ -1367,7 +1367,7 @@ msgstr ""
 
 #: ../plugins/security-privacy//Location.qml:220
 msgid ""
-"Uses wi-fi, cell tower locations (no current cellular connection), and GPS "
+"Uses WiFi, cell tower locations (no current cellular connection), and GPS "
 "to detect your rough location. Turning off location detection saves battery."
 msgstr ""
 "የ ዋይ-ፋይ: የ ሴል ምሶሶ አካባቢዎችን(አሁን የ ሴሉላር ግንኙነት የለም): እና ጂፒኤስን ይጠቀማል እርስዎ ያሉበትን "
@@ -1375,7 +1375,7 @@ msgstr ""
 
 #: ../plugins/security-privacy//Location.qml:222
 msgid ""
-"Uses wi-fi (currently off), cell tower locations, and GPS to detect your "
+"Uses WiFi (currently off), cell tower locations, and GPS to detect your "
 "rough location. Turning off location detection saves battery."
 msgstr ""
 "የ ዋይ-ፋይ (አሁን ጠፍቷል): የ ሴል ምሶሶ አካባቢዎችን: እና ጂፒኤስን ይጠቀማል እርስዎ ያሉበትን አካባቢ በቅርብ "
@@ -1383,7 +1383,7 @@ msgstr ""
 
 #: ../plugins/security-privacy//Location.qml:224
 msgid ""
-"Uses wi-fi (currently off), cell tower locations (no current cellular "
+"Uses WiFi (currently off), cell tower locations (no current cellular "
 "connection), and GPS to detect your rough location. Turning off location "
 "detection saves battery."
 msgstr ""
@@ -2349,7 +2349,7 @@ msgstr "ተመሳሳይ ቦታ የለም"
 
 #. TRANSLATORS: This is a keyword or name for the time-date plugin which is used while searching
 #: ../plugins/time-date//PageComponent.qml:31 ../build/po/settings.js:310
-msgid "Time & Date"
+msgid "Time and Date"
 msgstr "ሰአት & ቀን"
 
 #: ../plugins/time-date//PageComponent.qml:64
@@ -3561,7 +3561,7 @@ msgstr "ዋይፋይ"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../build/po/settings.js:290
-msgid "wi-fi"
+msgid "WiFi"
 msgstr "ዋይ-ፋይ"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching

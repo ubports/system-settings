@@ -210,18 +210,18 @@ ItemPage {
                 text: {
                     if (locationInfo === 0) /* GPS only */
                         return i18n.tr("Uses GPS to detect your rough location. When off, GPS turns off to save battery.")
-                    else if (locationInfo === 1) /* GPS, wi-fi on */
-                        return i18n.tr("Uses wi-fi and GPS to detect your rough location. Turning off location detection saves battery.")
-                    else if (locationInfo === 2) /* GPS, wi-fi off */
-                        return i18n.tr("Uses wi-fi (currently off) and GPS to detect your rough location. Turning off location detection saves battery.")
-                    else if (locationInfo === 3) /* GPS, wi-fi and cellular on */
-                        return i18n.tr("Uses wi-fi, cell tower locations, and GPS to detect your rough location. Turning off location detection saves battery.")
-                    else if (locationInfo === 4) /* GPS, wi-fi on, cellular off */
-                        return i18n.tr("Uses wi-fi, cell tower locations (no current cellular connection), and GPS to detect your rough location. Turning off location detection saves battery.")
-                    else if (locationInfo === 5) /* GPS, wi-fi off, cellular on */
-                        return i18n.tr("Uses wi-fi (currently off), cell tower locations, and GPS to detect your rough location. Turning off location detection saves battery.")
-                    else if (locationInfo === 6) /* GPS, wi-fi and cellular off */
-                        return i18n.tr("Uses wi-fi (currently off), cell tower locations (no current cellular connection), and GPS to detect your rough location. Turning off location detection saves battery.")
+                    else if (locationInfo === 1) /* GPS, WiFi on */
+                        return i18n.tr("Uses WiFi and GPS to detect your rough location. Turning off location detection saves battery.")
+                    else if (locationInfo === 2) /* GPS, WiFi off */
+                        return i18n.tr("Uses WiFi (currently off) and GPS to detect your rough location. Turning off location detection saves battery.")
+                    else if (locationInfo === 3) /* GPS, WiFi and cellular on */
+                        return i18n.tr("Uses WiFi, cell tower locations, and GPS to detect your rough location. Turning off location detection saves battery.")
+                    else if (locationInfo === 4) /* GPS, WiFi on, cellular off */
+                        return i18n.tr("Uses WiFi, cell tower locations (no current cellular connection), and GPS to detect your rough location. Turning off location detection saves battery.")
+                    else if (locationInfo === 5) /* GPS, WiFi off, cellular on */
+                        return i18n.tr("Uses WiFi (currently off), cell tower locations, and GPS to detect your rough location. Turning off location detection saves battery.")
+                    else if (locationInfo === 6) /* GPS, WiFi and cellular off */
+                        return i18n.tr("Uses WiFi (currently off), cell tower locations (no current cellular connection), and GPS to detect your rough location. Turning off location detection saves battery.")
                 }
 
                 visible: showAllUI /* hide until the information is real */

@@ -86,8 +86,8 @@ msgid "Never"
 msgstr "Никогда"
 
 #: ../plugins/system-update//Configuration.qml:54
-msgid "When on wi-fi"
-msgstr "При wi-fi подключении"
+msgid "When on WiFi"
+msgstr "При WiFi подключении"
 
 #: ../plugins/system-update//Configuration.qml:56
 msgid "On any data connection"
@@ -205,8 +205,8 @@ msgid "Version %1"
 msgstr "Версия %1"
 
 #: ../plugins/system-update//UpdateSettings.qml:47
-msgid "On wi-fi"
-msgstr "Через wi-fi"
+msgid "On WiFi"
+msgstr "Через WiFi"
 
 #: ../plugins/system-update//UpdateSettings.qml:49
 msgid "Always"
@@ -1324,54 +1324,54 @@ msgstr ""
 
 #: ../plugins/security-privacy//Location.qml:214
 msgid ""
-"Uses wi-fi and GPS to detect your rough location. Turning off location "
+"Uses WiFi and GPS to detect your rough location. Turning off location "
 "detection saves battery."
 msgstr ""
-"Использует wi-fi и GPS/ГЛОНАСС для определения вашей вашего местоположения. "
+"Использует WiFi и GPS/ГЛОНАСС для определения вашей вашего местоположения. "
 "Отключение этой опции позволяет продлить жизнь батареи."
 
 #: ../plugins/security-privacy//Location.qml:216
 msgid ""
-"Uses wi-fi (currently off) and GPS to detect your rough location. Turning "
+"Uses WiFi (currently off) and GPS to detect your rough location. Turning "
 "off location detection saves battery."
 msgstr ""
-"Использует wi-fi (на данный момент устройство не подключено к какой-либо "
+"Использует WiFi (на данный момент устройство не подключено к какой-либо "
 "сети) и GPS/ГЛОНАСС для определения вашей вашего местоположения. Отключение "
 "этой опции позволяет продлить жизнь батареи."
 
 #: ../plugins/security-privacy//Location.qml:218
 msgid ""
-"Uses wi-fi, cell tower locations, and GPS to detect your rough location. "
+"Uses WiFi, cell tower locations, and GPS to detect your rough location. "
 "Turning off location detection saves battery."
 msgstr ""
-"Использует wi-fi, данные сотового оператора и GPS/ГЛОНАСС для определения "
+"Использует WiFi, данные сотового оператора и GPS/ГЛОНАСС для определения "
 "вашей локации. Отключение этой опции позволяет продлить жизнь батареи."
 
 #: ../plugins/security-privacy//Location.qml:220
 msgid ""
-"Uses wi-fi, cell tower locations (no current cellular connection), and GPS "
+"Uses WiFi, cell tower locations (no current cellular connection), and GPS "
 "to detect your rough location. Turning off location detection saves battery."
 msgstr ""
-"Использует wi-fi, данные сотового оператора (на данный момент соединения "
+"Использует WiFi, данные сотового оператора (на данный момент соединения "
 "нет) и GPS/ГЛОНАСС для определения вашей локации. Отключение этой опции "
 "позволяет продлить жизнь батареи."
 
 #: ../plugins/security-privacy//Location.qml:222
 msgid ""
-"Uses wi-fi (currently off), cell tower locations, and GPS to detect your "
+"Uses WiFi (currently off), cell tower locations, and GPS to detect your "
 "rough location. Turning off location detection saves battery."
 msgstr ""
-"Использует wi-fi (сейчас он отключен), данные сотового оператора и GPS/"
+"Использует WiFi (сейчас он отключен), данные сотового оператора и GPS/"
 "ГЛОНАСС для определения вашей локации. Отключение этой опции позволяет "
 "продлить жизнь батареи."
 
 #: ../plugins/security-privacy//Location.qml:224
 msgid ""
-"Uses wi-fi (currently off), cell tower locations (no current cellular "
+"Uses WiFi (currently off), cell tower locations (no current cellular "
 "connection), and GPS to detect your rough location. Turning off location "
 "detection saves battery."
 msgstr ""
-"Использует wi-fi (сейчас он отключен), данные сотового оператора (на данный "
+"Использует WiFi (сейчас он отключен), данные сотового оператора (на данный "
 "момент соединения нет) и GPS/ГЛОНАСС для определения вашей локации. "
 "Отключение этой опции позволяет продлить жизнь батареи."
 
@@ -2300,7 +2300,7 @@ msgstr "Нет подходящих результатов"
 
 #. TRANSLATORS: This is a keyword or name for the time-date plugin which is used while searching
 #: ../plugins/time-date//PageComponent.qml:31 ../build/po/settings.js:310
-msgid "Time & Date"
+msgid "Time and Date"
 msgstr "Дата и время"
 
 #: ../plugins/time-date//PageComponent.qml:64
@@ -3492,8 +3492,8 @@ msgstr "wifi"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../build/po/settings.js:290
-msgid "wi-fi"
-msgstr "wi-fi"
+msgid "WiFi"
+msgstr "WiFi"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../build/po/settings.js:296

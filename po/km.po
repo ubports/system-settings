@@ -86,7 +86,7 @@ msgid "Never"
 msgstr "កុំ"
 
 #: ../plugins/system-update//Configuration.qml:54
-msgid "When on wi-fi"
+msgid "When on WiFi"
 msgstr "ពេល​បើក​វ៉ាយហ្វាយ"
 
 #: ../plugins/system-update//Configuration.qml:56
@@ -209,7 +209,7 @@ msgid "Version %1"
 msgstr "កំណែ៖ "
 
 #: ../plugins/system-update//UpdateSettings.qml:47
-msgid "On wi-fi"
+msgid "On WiFi"
 msgstr "បើក​វ៉ាយហ្វាយ"
 
 #: ../plugins/system-update//UpdateSettings.qml:49
@@ -1330,20 +1330,20 @@ msgstr "ប្រើជីភីអេស ដើម្បី​រកមើល�
 
 #: ../plugins/security-privacy//Location.qml:214
 msgid ""
-"Uses wi-fi and GPS to detect your rough location. Turning off location "
+"Uses WiFi and GPS to detect your rough location. Turning off location "
 "detection saves battery."
 msgstr "ប្រើ​វ៉ាយហ្វាយ និង​ជីភីអេស​ដើម្បី​រកមើល​ទីតាំង​របស់​អ្នក បិទ​ការ​រក​មើល​ទីតាំង​ដើម្បី​សន្សំ​ថ្មី។."
 
 #: ../plugins/security-privacy//Location.qml:216
 msgid ""
-"Uses wi-fi (currently off) and GPS to detect your rough location. Turning "
+"Uses WiFi (currently off) and GPS to detect your rough location. Turning "
 "off location detection saves battery."
 msgstr ""
 "ការ​ប្រើ​វ៉ាយហ្វាយ (បច្ចុប្បន្ន​បិទ) ហើយ GPS រក​ឃើញ​ទីតាំង​ពិបាក​របស់​អ្នក។ បិទ​ការ​រក​ឃើញ​ទីតាំង​សន្សំ​ថ្ម។"
 
 #: ../plugins/security-privacy//Location.qml:218
 msgid ""
-"Uses wi-fi, cell tower locations, and GPS to detect your rough location. "
+"Uses WiFi, cell tower locations, and GPS to detect your rough location. "
 "Turning off location detection saves battery."
 msgstr ""
 "ការ​ប្រើ​វ៉ាយហ្វាយ, ទីតាំង​បង្គោល​​អង់តែន​, និង GPS ដើម្បី​រក​ឃើញ​ទីតាំង​ពិបាក​របស់​អ្នក។ បិទ​ការ​រក​ឃើញ​ទីតាំង​"
@@ -1351,7 +1351,7 @@ msgstr ""
 
 #: ../plugins/security-privacy//Location.qml:220
 msgid ""
-"Uses wi-fi, cell tower locations (no current cellular connection), and GPS "
+"Uses WiFi, cell tower locations (no current cellular connection), and GPS "
 "to detect your rough location. Turning off location detection saves battery."
 msgstr ""
 "ប្រើ​វ៉ាយហ្វាយ, ទីតាំង​បង្គោល​អង់តែន (គ្មាន​ការ​តភ្ជាប់​ចល័ត​បច្ចុប្បន្ន), ហើយ GPS រក​ឃើញ​ទីតាំង​ពិបាក​របស់​"
@@ -1359,7 +1359,7 @@ msgstr ""
 
 #: ../plugins/security-privacy//Location.qml:222
 msgid ""
-"Uses wi-fi (currently off), cell tower locations, and GPS to detect your "
+"Uses WiFi (currently off), cell tower locations, and GPS to detect your "
 "rough location. Turning off location detection saves battery."
 msgstr ""
 "ការ​ប្រើ​វ៉ាយហ្វាយ (បច្ចុប្បន្ន​បិទ), ទីតាំង​បង្គោល​អង់តែន ហើយ GPS រក​ឃើញ​ទីតាំង​ពិបាក​របស់​អ្នក។ បិទ​ការ​"
@@ -1367,7 +1367,7 @@ msgstr ""
 
 #: ../plugins/security-privacy//Location.qml:224
 msgid ""
-"Uses wi-fi (currently off), cell tower locations (no current cellular "
+"Uses WiFi (currently off), cell tower locations (no current cellular "
 "connection), and GPS to detect your rough location. Turning off location "
 "detection saves battery."
 msgstr ""
@@ -2326,7 +2326,7 @@ msgstr "គ្មាន​ទីតាំង​ផ្គូផ្គង"
 
 #. TRANSLATORS: This is a keyword or name for the time-date plugin which is used while searching
 #: ../plugins/time-date//PageComponent.qml:31 ../build/po/settings.js:310
-msgid "Time & Date"
+msgid "Time and Date"
 msgstr "ពេលវេលា និង​កាល​បរិច្ឆេទ"
 
 #: ../plugins/time-date//PageComponent.qml:64
@@ -3528,7 +3528,7 @@ msgstr "វ៉ាយហ្វាយ"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../build/po/settings.js:290
-msgid "wi-fi"
+msgid "WiFi"
 msgstr "វ៉ាយហ្វាយ"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching

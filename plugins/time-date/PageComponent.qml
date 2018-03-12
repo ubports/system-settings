@@ -28,7 +28,7 @@ import Ubuntu.SystemSettings.TimeDate 1.1
 
 ItemPage {
     id: root
-    title: i18n.tr("Time & Date")
+    title: i18n.tr("Time and Date")
     objectName: "timeDatePage"
     flickable: scrollWidget
 

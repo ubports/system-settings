@@ -86,8 +86,8 @@ msgid "Never"
 msgstr "Aldrig"
 
 #: ../plugins/system-update//Configuration.qml:54
-msgid "When on wi-fi"
-msgstr "Om wi-fi ansluten"
+msgid "When on WiFi"
+msgstr "Om WiFi ansluten"
 
 #: ../plugins/system-update//Configuration.qml:56
 msgid "On any data connection"
@@ -211,8 +211,8 @@ msgid "Version %1"
 msgstr "Version: "
 
 #: ../plugins/system-update//UpdateSettings.qml:47
-msgid "On wi-fi"
-msgstr "På wi-fi"
+msgid "On WiFi"
+msgstr "På WiFi"
 
 #: ../plugins/system-update//UpdateSettings.qml:49
 msgid "Always"
@@ -378,7 +378,7 @@ msgstr ""
 #: ../plugins/hotspot//PageComponent.qml:164
 #, fuzzy
 msgid "Turn on Wi-Fi"
-msgstr "Om wi-fi ansluten"
+msgstr "Om WiFi ansluten"
 
 #: ../plugins/hotspot//Common.qml:34 ../plugins/wifi//Common.qml:36
 msgid "Unknown error"
@@ -1360,52 +1360,52 @@ msgstr ""
 
 #: ../plugins/security-privacy//Location.qml:214
 msgid ""
-"Uses wi-fi and GPS to detect your rough location. Turning off location "
+"Uses WiFi and GPS to detect your rough location. Turning off location "
 "detection saves battery."
 msgstr ""
-"Använder wi-fi och GPS för att bestämma din ungefärliga plats. Att slå av "
+"Använder WiFi och GPS för att bestämma din ungefärliga plats. Att slå av "
 "platsbestämning sparar batteri."
 
 #: ../plugins/security-privacy//Location.qml:216
 msgid ""
-"Uses wi-fi (currently off) and GPS to detect your rough location. Turning "
+"Uses WiFi (currently off) and GPS to detect your rough location. Turning "
 "off location detection saves battery."
 msgstr ""
-"Använder wi-fi (avstängd) och GPS för att bestämma din ungefärliga plats. "
+"Använder WiFi (avstängd) och GPS för att bestämma din ungefärliga plats. "
 "Att slå av platsbestämning sparar batteri."
 
 #: ../plugins/security-privacy//Location.qml:218
 msgid ""
-"Uses wi-fi, cell tower locations, and GPS to detect your rough location. "
+"Uses WiFi, cell tower locations, and GPS to detect your rough location. "
 "Turning off location detection saves battery."
 msgstr ""
-"Använder wi-fi, mastlokalisering och GPS för att bestämma din ungefärliga "
+"Använder WiFi, mastlokalisering och GPS för att bestämma din ungefärliga "
 "plats. Att slå av platsbestämning sparar batteri."
 
 #: ../plugins/security-privacy//Location.qml:220
 msgid ""
-"Uses wi-fi, cell tower locations (no current cellular connection), and GPS "
+"Uses WiFi, cell tower locations (no current cellular connection), and GPS "
 "to detect your rough location. Turning off location detection saves battery."
 msgstr ""
-"Använder wi-fi, mastlokalisering (ingen aktuell anslutning till mast) och "
+"Använder WiFi, mastlokalisering (ingen aktuell anslutning till mast) och "
 "GPS för att bestämma din ungefärliga plats. Att slå av platsbestämning "
 "sparar batteri."
 
 #: ../plugins/security-privacy//Location.qml:222
 msgid ""
-"Uses wi-fi (currently off), cell tower locations, and GPS to detect your "
+"Uses WiFi (currently off), cell tower locations, and GPS to detect your "
 "rough location. Turning off location detection saves battery."
 msgstr ""
-"Använder wi-fi (för tillfället avstängd), mastlokalisering och GPS för att "
+"Använder WiFi (för tillfället avstängd), mastlokalisering och GPS för att "
 "bestämma din ungefärliga plats. Att slå av platsbestämning sparar batteri."
 
 #: ../plugins/security-privacy//Location.qml:224
 msgid ""
-"Uses wi-fi (currently off), cell tower locations (no current cellular "
+"Uses WiFi (currently off), cell tower locations (no current cellular "
 "connection), and GPS to detect your rough location. Turning off location "
 "detection saves battery."
 msgstr ""
-"Använder wi-fi (för tillfället avstängt), mastlokalisering (ingen aktuell "
+"Använder WiFi (för tillfället avstängt), mastlokalisering (ingen aktuell "
 "anslutning till mast) och GPS för att bestämma din ungefärliga plats. Att "
 "slå av platsbestämning sparar batteri."
 
@@ -2373,7 +2373,7 @@ msgstr "Ingen matchande plats"
 
 #. TRANSLATORS: This is a keyword or name for the time-date plugin which is used while searching
 #: ../plugins/time-date//PageComponent.qml:31 ../build/po/settings.js:310
-msgid "Time & Date"
+msgid "Time and Date"
 msgstr "Tid & Datum"
 
 #: ../plugins/time-date//PageComponent.qml:64
@@ -3589,8 +3589,8 @@ msgstr "wifi"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../build/po/settings.js:290
-msgid "wi-fi"
-msgstr "wi-fi"
+msgid "WiFi"
+msgstr "WiFi"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../build/po/settings.js:296

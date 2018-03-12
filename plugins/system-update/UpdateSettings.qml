@@ -37,10 +37,11 @@ ItemPage {
         anchors.fill: parent
         contentWidth: parent.width
         contentHeight: contentItem.childrenRect.height
-        
+
         // Only allow flicking if the content doesn't fit on the page
         boundsBehavior: (contentHeight > root.height) ?
                          Flickable.DragAndOvershootBounds : Flickable.StopAtBounds
+
 
         Column {
             anchors {
