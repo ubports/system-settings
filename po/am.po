@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2018-01-08 06:08+0000\n"
+"PO-Revision-Date: 2018-03-21 15:45+0000\n"
 "Last-Translator: Samson <sambelet@yahoo.com>\n"
 "Language-Team: Amharic <https://translate.ubports.com/projects/ubports"
 "/system-settings/am/>\n"
@@ -1670,7 +1670,7 @@ msgstr "ማስነሻውን እንደ ነበር መመለሻ"
 #: ../plugins/reset//PageComponent.qml:101
 #: ../plugins/reset//PageComponent.qml:112
 msgid "Reset all system settings…"
-msgstr "ሁሉንም የ ስርአት ማሰናጃ እንደ ነበር መመለሻ"
+msgstr "ሁሉንም የ ስርአት ማሰናጃ እንደ ነበር መመለሻ…"
 
 #: ../plugins/reset//PageComponent.qml:126
 #: ../plugins/reset//PageComponent.qml:138
