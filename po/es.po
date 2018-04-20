@@ -159,7 +159,7 @@ msgstr "Enchufe el aparato antes de instalar la actualización del sistema."
 #: ../plugins/system-update//ImageSwitchPrompt.qml:38
 #: ../plugins/system-update//ImageUpdatePrompt.qml:38
 msgid "Restart & Install"
-msgstr "Reiniciar e instalar"
+msgstr "Reiniciar y instalar"
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:48
 #: ../plugins/system-update//ImageUpdatePrompt.qml:48
