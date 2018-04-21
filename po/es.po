@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2018-04-20 19:20+0000\n"
-"Last-Translator: Tommaso Pelà <tom_pla@yahoo.it>\n"
+"PO-Revision-Date: 2018-04-21 07:12+0000\n"
+"Last-Translator: advocatux <advocatux@airpost.net>\n"
 "Language-Team: Spanish <https://translate.ubports.com/projects/ubports"
 "/system-settings/es/>\n"
 "Language: es\n"
@@ -159,7 +159,7 @@ msgstr "Enchufe el aparato antes de instalar la actualización del sistema."
 #: ../plugins/system-update//ImageSwitchPrompt.qml:38
 #: ../plugins/system-update//ImageUpdatePrompt.qml:38
 msgid "Restart & Install"
-msgstr "Reiniciar y instalar"
+msgstr "Reiniciar e instalar"
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:48
 #: ../plugins/system-update//ImageUpdatePrompt.qml:48
