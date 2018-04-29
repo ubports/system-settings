@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2018-04-29 10:28+0000\n"
-"Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
+"PO-Revision-Date: 2018-04-29 10:29+0000\n"
+"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -1756,7 +1756,7 @@ msgstr "Reseta su dispositivu"
 #: ../plugins/reset//PageComponent.qml:86
 #: ../plugins/reset//ResetLauncherHome.qml:44
 msgid "Reset Launcher"
-msgstr ""
+msgstr "Reseta su Launcher "
 
 #: ../plugins/reset//PageComponent.qml:101
 #: ../plugins/reset//PageComponent.qml:112
