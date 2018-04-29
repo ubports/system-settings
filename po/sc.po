@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2018-04-29 10:13+0000\n"
-"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
+"PO-Revision-Date: 2018-04-29 10:18+0000\n"
+"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -1501,7 +1501,7 @@ msgstr "Cando est blocadu, permite:"
 #: ../plugins/security-privacy//PhoneLocking.qml:131
 #: ../plugins/launcher//PageComponent.qml:31 ../build/po/settings.js:320
 msgid "Launcher"
-msgstr ""
+msgstr "Launcher"
 
 #: ../plugins/security-privacy//PhoneLocking.qml:144
 #, fuzzy
