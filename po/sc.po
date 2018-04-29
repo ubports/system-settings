@@ -345,8 +345,13 @@ msgid ""
 "Normal data charges apply."
 msgstr ""
 "Àteros dispositivos podent usare sa connessione de datos de su tzellulare "
+<<<<<<< b4b3119dd2523b45cf5c184050842fe22719398b
 "tuo tràmite sa rete Wi-Fi. S'àplicant is tarifas normales pro sa connessione "
 "de datos."
+=======
+"tràmite sa retze Wi-Fi. S'àplicant is tarifas normales pro sa connessione de "
+"datos."
+>>>>>>> Translated using Weblate (Sardinian)
 
 #: ../plugins/hotspot//PageComponent.qml:123
 msgid "Change Password/Setup…"
