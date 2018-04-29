@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2018-04-29 10:37+0000\n"
-"Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
+"PO-Revision-Date: 2018-04-29 10:38+0000\n"
+"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -2732,7 +2732,7 @@ msgstr "Microauricolare"
 
 #: ../plugins/bluetooth//DevicePage.qml:53
 msgid "Headphones"
-msgstr ""
+msgstr "Auricolares "
 
 #: ../plugins/bluetooth//DevicePage.qml:54
 msgid "Video"
