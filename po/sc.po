@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
 "PO-Revision-Date: 2018-04-29 10:27+0000\n"
-"Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
+"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -1660,6 +1660,9 @@ msgid ""
 "You need to use a Bluetooth mouse or touchpad with this display. Make sure "
 "it is close to the device and its batteries are charged."
 msgstr ""
+"Tocat a impreare unu sòrighe o unu sòrighe tàtile Bluetooth cun custu "
+"ischermu. Assegura·ti chi siat acanta de su dispositivu e chi is baterias "
+"siant càrrigas."
 
 #: ../plugins/mouse//Connected.qml:48 ../plugins/bluetooth//DevicePage.qml:59
 msgid "Mouse"
@@ -1699,7 +1702,7 @@ msgstr "Iscurre cun duos didos"
 
 #: ../plugins/mouse//Connected.qml:410
 msgid "Ignore touchpad when:"
-msgstr ""
+msgstr "Iscaressi·ti de su sòrighe tàtile cando: "
 
 #: ../plugins/mouse//Connected.qml:432
 msgid "Typing"
