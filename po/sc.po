@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2018-04-29 09:29+0000\n"
-"Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
+"PO-Revision-Date: 2018-04-29 09:35+0000\n"
+"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -397,6 +397,8 @@ msgstr "Impossìbile preparare su dispositivu pro sa cunfiguratzione"
 msgid ""
 "IP configuration could not be reserved (no available address, timeout, etc.)"
 msgstr ""
+"Sa configuratzione IP non podet èssere riservada (niunu indiritzu "
+"disponìbile, interrutzione, etc.)"
 
 #: ../plugins/hotspot//Common.qml:46 ../plugins/wifi//Common.qml:48
 msgid "The IP configuration is no longer valid"
@@ -421,7 +423,7 @@ msgstr "Faddina de su suplicante de protocollu 802.1X"
 
 #: ../plugins/hotspot//Common.qml:56 ../plugins/wifi//Common.qml:58
 msgid "802.1X supplicant took too long to authenticate"
-msgstr ""
+msgstr "S'autenticatzione de su suplicante 802.1X at impreadu tropu tempus"
 
 #: ../plugins/hotspot//Common.qml:58 ../plugins/wifi//Common.qml:60
 #, fuzzy
