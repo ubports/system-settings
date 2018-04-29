@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2018-04-29 09:43+0000\n"
-"Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
+"PO-Revision-Date: 2018-04-29 09:46+0000\n"
+"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -720,6 +720,8 @@ msgid ""
 "Apps can alert you using sounds, vibrations, notification bubbles and the "
 "Notification list."
 msgstr ""
+"Is aplicatziones t'ant a pòdere avèrtere cun sonos, vibratziones, bussicas e "
+"su tzentru notìficas."
 
 #: ../plugins/notifications//PageComponent.qml:90
 #, fuzzy
@@ -768,7 +770,7 @@ msgstr "Vibra in modalidade silentziosa:"
 
 #: ../plugins/notifications//ClickAppsVibrationsNotify.qml:72
 msgid "Vibrate as normal"
-msgstr ""
+msgstr "Vibra che a su sòlitu"
 
 #: ../plugins/notifications//ClickAppsVibrationsNotify.qml:73
 msgid "Don't vibrate"
@@ -795,7 +797,7 @@ msgstr "Permite chi custa aplicatzione imbie notìficas cun:"
 
 #: ../plugins/notifications//ClickAppNotifications.qml:125
 msgid "Notification Bubbles"
-msgstr ""
+msgstr "Bussicas de notìfica"
 
 #: ../plugins/background//Preview.qml:69
 msgid "Preview"
@@ -1106,6 +1108,9 @@ msgid ""
 "In Developer Mode, anyone can access, change or delete anything on this "
 "device by connecting it to another device."
 msgstr ""
+"In modalidade isvilupadore, totus podent atzèdere, modificare o eliminare "
+"calesi siat cosa presente in custu dispositivu connetende·lu a un'àteru "
+"aparatu."
 
 #: ../plugins/about//DevMode.qml:110
 #, fuzzy
