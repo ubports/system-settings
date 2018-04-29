@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
 "PO-Revision-Date: 2018-04-29 10:31+0000\n"
-"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
+"Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -1770,7 +1770,7 @@ msgstr "Cantzella e reseta totu"
 
 #: ../plugins/reset//ResetLauncherHome.qml:40
 msgid "The Launcher will be returned to its original contents."
-msgstr "Su Launcher at a èssere batidu a is contenutos originales suos. "
+msgstr "Su Launcher at a èssere batidu a is cuntenutos originales suos."
 
 #: ../plugins/reset//EraseEverything.qml:41
 msgid ""
