@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2018-04-29 11:06+0000\n"
-"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
+"PO-Revision-Date: 2018-04-29 11:07+0000\n"
+"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -3719,7 +3719,7 @@ msgstr "Impossìbile impostare sa modalidade de seguresa"
 
 #: ../plugins/security-privacy//securityprivacy.cpp:399
 msgid "Could not set security display hint"
-msgstr ""
+msgstr "Impossìbile impostare s'impòsitu in s'ischermu de seguresa"
 
 #: ../plugins/security-privacy//securityprivacy.cpp:413
 msgid "Authentication token manipulation error"
@@ -3740,10 +3740,12 @@ msgstr "Opacu"
 #: ../src/systemimage.cpp:181
 msgid "Can't cancel current request (can't contact service)"
 msgstr ""
+"Sa recherta atuale no si podet cantzellare (impossìbile mutire su servìtziu)"
 
 #: ../src/systemimage.cpp:194
 msgid "Can't pause current request (can't contact service)"
 msgstr ""
+"Sa recherta atuale no si podet suspèndere (impossìbile mutire su servìtziu)"
 
 #: ../src/systemimage.cpp:318 ../src/systemimage.cpp:324
 #: ../src/systemimage.cpp:330
