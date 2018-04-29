@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
 "PO-Revision-Date: 2018-04-29 10:33+0000\n"
-"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
+"Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -2411,7 +2411,7 @@ msgstr "In ischermos mannos:"
 
 #: ../plugins/launcher//PageComponent.qml:72
 msgid "Always show the launcher"
-msgstr "Ammustrare semper su launcher "
+msgstr "Ammustra semper su launcher"
 
 #: ../plugins/launcher//PageComponent.qml:73
 #, fuzzy
