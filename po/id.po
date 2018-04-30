@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2015-02-15 02:12+0000\n"
-"Last-Translator: Dirgita <Unknown>\n"
-"Language-Team: Indonesian <id@li.org>\n"
+"PO-Revision-Date: 2018-04-30 13:55+0000\n"
+"Last-Translator: Dito Kurnia P <ditokpl@gmail.com>\n"
+"Language-Team: Indonesian <https://translate.ubports.com/projects/ubports"
+"/system-settings/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2.15\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:40+0000\n"
-"X-Generator: Launchpad (build 17628)\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:116
 msgid "System Settings"
@@ -83,7 +84,7 @@ msgstr ""
 #: ../plugins/security-privacy//PhoneLocking.qml:109
 #: ../plugins/wifi//NetworkDetails.qml:65
 msgid "Never"
-msgstr "Tak pernah"
+msgstr "Tidak pernah"
 
 #: ../plugins/system-update//Configuration.qml:54
 msgid "When on wi-fi"
@@ -204,9 +205,9 @@ msgid "Sign In…"
 msgstr ""
 
 #: ../plugins/system-update//ChangelogExpander.qml:42
-#, fuzzy, qt-format
+#, qt-format
 msgid "Version %1"
-msgstr "Versi: "
+msgstr "Versi %1"
 
 #: ../plugins/system-update//UpdateSettings.qml:47
 msgid "On wi-fi"
@@ -220,7 +221,7 @@ msgstr "Selalu"
 #: ../plugins/hotspot//Common.qml:94 ../plugins/wifi//Common.qml:96
 #: ../plugins/bluetooth//DevicePage.qml:41
 msgid "Unknown"
-msgstr "Tak diketahui"
+msgstr "Tidak diketahui"
 
 #: ../plugins/system-update//UpdateSettings.qml:61
 #, fuzzy
@@ -233,7 +234,7 @@ msgstr "Memeriksa pemutakhiran..."
 
 #: ../plugins/system-update//Global.qml:89
 msgid "Stop"
-msgstr ""
+msgstr "Stop"
 
 #. TRANSLATORS: %1 is number of software updates available.
 #: ../plugins/system-update//Global.qml:116
@@ -282,7 +283,7 @@ msgstr "Pasang"
 
 #: ../plugins/system-update//UpdateDelegate.qml:149
 msgid "Open"
-msgstr ""
+msgstr "Buka"
 
 #: ../plugins/system-update//UpdateDelegate.qml:228
 msgid "Installing"
@@ -534,7 +535,7 @@ msgstr "Ubah"
 
 #: ../plugins/hotspot//HotspotSetup.qml:275
 msgid "Start"
-msgstr ""
+msgstr "Mulai"
 
 #: ../plugins/battery//SleepValues.qml:74
 #, fuzzy
@@ -693,7 +694,7 @@ msgstr "Bluetooth"
 #: ../plugins/notifications//ClickAppNotifications.qml:54
 #: ../build/po/settings.js:54
 msgid "Notifications"
-msgstr "Notifikasi"
+msgstr "Pemberitahuan"
 
 #: ../plugins/notifications//PageComponent.qml:74
 msgid ""
@@ -742,9 +743,8 @@ msgid "Notification List"
 msgstr "Notifikasi"
 
 #: ../plugins/notifications//ClickAppsVibrationsNotify.qml:30
-#, fuzzy
 msgid "Vibration"
-msgstr "rotasi"
+msgstr "Getaran"
 
 #: ../plugins/notifications//ClickAppsVibrationsNotify.qml:54
 #, fuzzy
@@ -809,7 +809,7 @@ msgstr "Seni Ubuntu"
 
 #: ../plugins/background//MainPage.qml:104
 msgid "Custom"
-msgstr "Tersuai"
+msgstr "Kustom"
 
 #: ../plugins/background//MainPage.qml:117
 #, fuzzy
@@ -1229,7 +1229,7 @@ msgstr "Nyala"
 #: ../plugins/security-privacy//PageComponent.qml:266
 #: ../plugins/phone//CallForwarding.qml:386
 msgid "Off"
-msgstr "Mati"
+msgstr "Matikan"
 
 #: ../plugins/security-privacy//PageComponent.qml:205
 msgid "Encryption"
@@ -1506,7 +1506,7 @@ msgstr "Masukkan PIN SIM Sebelumnya"
 
 #: ../plugins/security-privacy//SimPin.qml:333
 msgid "Unlock"
-msgstr "Buka kunci"
+msgstr "Buka Kunci"
 
 #: ../plugins/security-privacy//SimPin.qml:333
 msgid "Lock"
@@ -1876,9 +1876,8 @@ msgstr ""
 
 #: ../plugins/cellular//PageChooseApn.qml:231
 #: ../plugins/cellular//PageChooseApn.qml:264
-#, fuzzy
 msgid "Disable"
-msgstr "Tablet"
+msgstr "Nonaktifkan"
 
 #: ../plugins/cellular//PageChooseApn.qml:253
 #, fuzzy, qt-format
@@ -1902,7 +1901,7 @@ msgstr ""
 
 #: ../plugins/cellular//PageChooseApn.qml:302
 msgid "Delete"
-msgstr ""
+msgstr "Hapus"
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../plugins/cellular//PageComponent.qml:32 ../build/po/settings.js:254
@@ -1911,7 +1910,7 @@ msgstr "Seluler"
 
 #: ../plugins/cellular//PageApnEditor.qml:69
 msgid "Edit"
-msgstr ""
+msgstr "Sunting"
 
 #: ../plugins/cellular//PageApnEditor.qml:69
 #, fuzzy
@@ -1972,7 +1971,7 @@ msgstr ""
 #: ../plugins/cellular//PageApnEditor.qml:358
 #: ../plugins/wifi//NetworkDetails.qml:70 ../plugins/wifi//OtherNetwork.qml:786
 msgid "Password"
-msgstr "Sandi"
+msgstr "Kata sandi"
 
 #: ../plugins/cellular//PageApnEditor.qml:369
 #, fuzzy
@@ -2102,7 +2101,7 @@ msgstr "Tersedia pembaruan"
 
 #: ../plugins/wifi//CertDialog.qml:74
 msgid "Save"
-msgstr ""
+msgstr "Simpan"
 
 #: ../plugins/wifi//OtherNetwork.qml:92
 msgid "Connect to Wi‑Fi"
@@ -2217,7 +2216,7 @@ msgstr ""
 
 #: ../plugins/wifi//OtherNetwork.qml:686
 msgid "Disabled"
-msgstr ""
+msgstr "Dinonaktifkan"
 
 #: ../plugins/wifi//OtherNetwork.qml:687
 msgid "Anonymous"
@@ -2260,7 +2259,7 @@ msgstr ""
 
 #: ../plugins/wifi//OtherNetwork.qml:754
 msgid "Username"
-msgstr ""
+msgstr "Nama Pengguna"
 
 #: ../plugins/wifi//OtherNetwork.qml:784
 msgid "Private key password"
@@ -2382,12 +2381,12 @@ msgstr ""
 
 #: ../plugins/phone//NoSims.qml:42 ../plugins/phone//MultiSim.qml:63
 msgid "Services"
-msgstr "Layanan"
+msgstr "Servis"
 
 #: ../plugins/phone//ServiceInfo.qml:109
 #, qt-format
 msgid "Last called %1"
-msgstr "Terakhir dipanggil %1"
+msgstr "Panggilan terakhir %1"
 
 #: ../plugins/phone//ServiceInfo.qml:119
 msgid "Call"
@@ -2398,6 +2397,8 @@ msgid ""
 "Lets you answer or start a new call while on another call, and switch "
 "between them"
 msgstr ""
+"Jawab atau mulai panggilan baru ketika sedang ada panggilan lainnya, dan "
+"berpindah antar panggilan"
 
 #. TRANSLATORS: This string will be truncated on smaller displays.
 #: ../plugins/phone//CallForwardItem.qml:157
@@ -2406,9 +2407,8 @@ msgid "Forward to"
 msgstr "Teruskan ke"
 
 #: ../plugins/phone//CallForwardItem.qml:171
-#, fuzzy
 msgid "Enter a number"
-msgstr "Nomor telepon"
+msgstr "Masukkan nomor"
 
 #: ../plugins/phone//CallForwardItem.qml:218
 msgid "Call forwarding can’t be changed right now."
@@ -2420,17 +2420,17 @@ msgstr "SIM"
 
 #. TRANSLATORS: %1 is the name of the (network) carrier
 #: ../plugins/phone//SingleSim.qml:53 ../plugins/phone//Services.qml:35
-#, qt-format
+#, fuzzy, qt-format
 msgid "%1 Services"
-msgstr "Layanan %1"
+msgstr "Servis %1"
 
 #: ../plugins/phone//CallForwarding.qml:131
 msgid "Forward every incoming call"
-msgstr ""
+msgstr "Teruskan setiap panggilan masuk"
 
 #: ../plugins/phone//CallForwarding.qml:146
 msgid "Redirects all phone calls to another number."
-msgstr ""
+msgstr "Mengalihkan semua panggilan ke nomor lainnya."
 
 #: ../plugins/phone//CallForwarding.qml:158
 msgid "Call forwarding status can’t be checked "
@@ -2438,7 +2438,7 @@ msgstr ""
 
 #: ../plugins/phone//CallForwarding.qml:166
 msgid "Forward incoming calls when:"
-msgstr ""
+msgstr "Teruskan panggilan masuk ketika:"
 
 #: ../plugins/phone//CallForwarding.qml:175
 msgid "I’m on another call"
@@ -2449,30 +2449,28 @@ msgid "I don’t answer"
 msgstr ""
 
 #: ../plugins/phone//CallForwarding.qml:197
-#, fuzzy
 msgid "My phone is unreachable"
-msgstr "ModemManager tak tersedia"
+msgstr "Ponsel saya tidak dapat dijangkau"
 
 #: ../plugins/phone//CallForwarding.qml:227
 msgid "Contacts…"
 msgstr ""
 
 #: ../plugins/phone//CallForwarding.qml:274
-#, fuzzy
 msgid "Please select a phone number"
-msgstr "Nomor telepon"
+msgstr "Tolong pilih nomor ponsel"
 
 #: ../plugins/phone//CallForwarding.qml:283
 msgid "Numbers"
-msgstr ""
+msgstr "Nomor"
 
 #: ../plugins/phone//CallForwarding.qml:302
 msgid "Could not forward to this contact"
-msgstr ""
+msgstr "Tidak bisa meneruskan ke kontak ini"
 
 #: ../plugins/phone//CallForwarding.qml:303
 msgid "Contact not associated with any phone number."
-msgstr ""
+msgstr "Kontak tidak terkait dengan semua nomor telepon."
 
 #: ../plugins/phone//CallForwarding.qml:382
 msgid "All calls"
@@ -2807,7 +2805,7 @@ msgstr "Sunting Nama SIM"
 #. this word must be less than 5 characters
 #: ../plugins/cellular//Components//LabelTextField.qml:51
 msgid "Next"
-msgstr ""
+msgstr "Selanjutnya"
 
 #: ../plugins/cellular//Components//RadioSingleSim.qml:31
 #: ../plugins/cellular//Components//MultiSim.qml:84
@@ -3091,7 +3089,7 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the flight-mode plugin which is used while searching
 #: ../build/po/settings.js:94
 msgid "Flight Mode"
-msgstr ""
+msgstr "Mode Penerbangan"
 
 #. TRANSLATORS: This is a keyword or name for the flight-mode plugin which is used while searching
 #: ../build/po/settings.js:96
@@ -3284,7 +3282,7 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../build/po/settings.js:182
 msgid "password"
-msgstr ""
+msgstr "kata sandi"
 
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../build/po/settings.js:184
