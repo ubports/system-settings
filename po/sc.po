@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2018-04-29 11:07+0000\n"
-"Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
+"PO-Revision-Date: 2018-04-30 15:20+0000\n"
+"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -42,6 +42,7 @@ msgstr "Istàbile"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
+#, fuzzy
 msgid "Release candidate"
 msgstr ""
 
@@ -55,7 +56,6 @@ msgid "Fetching channels"
 msgstr "Retzende is canales"
 
 #: ../plugins/system-update//ChannelSettings.qml:109
-#, fuzzy
 msgid "Channel to get updates from:"
 msgstr "Canale pro otènnere atualizatziones:"
 
@@ -85,7 +85,6 @@ msgid "Never"
 msgstr "Mai"
 
 #: ../plugins/system-update//Configuration.qml:54
-#, fuzzy
 msgid "When on wi-fi"
 msgstr "Cando so impreende wi-fi"
 
@@ -147,7 +146,6 @@ msgstr "Atualiza su sistema"
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:32
 #: ../plugins/system-update//ImageUpdatePrompt.qml:32
-#, fuzzy
 msgid "The device needs to restart to install the system update."
 msgstr ""
 "Su dispositivu depet èssere torradu a aviare pro installare s'atualizatzione "
@@ -155,7 +153,6 @@ msgstr ""
 
 #: ../plugins/system-update//ImageSwitchPrompt.qml:33
 #: ../plugins/system-update//ImageUpdatePrompt.qml:33
-#, fuzzy
 msgid "Connect the device to power before installing the system update."
 msgstr ""
 "Connete su dispositivu a sa currente in antis de installare "
@@ -197,7 +194,6 @@ msgid "Cancel"
 msgstr "Annulla"
 
 #: ../plugins/system-update//NotAuthenticatedNotification.qml:37
-#, fuzzy
 msgid "Sign in to Ubuntu One to receive updates for apps."
 msgstr ""
 "Identìfica·ti in Ubuntu One pro retzire atualizatziones de aplicatziones."
@@ -466,7 +462,6 @@ msgid "The device's active connection disappeared"
 msgstr "Sa connessione ativa de su dispositivu est isparida"
 
 #: ../plugins/hotspot//Common.qml:76 ../plugins/wifi//Common.qml:78
-#, fuzzy
 msgid "Device disconnected by user or client"
 msgstr "Dispositivu disconnètidu dae s'utente o cliente"
 
@@ -530,6 +525,7 @@ msgid "Show password"
 msgstr "Ammustra sa crae"
 
 #: ../plugins/hotspot//HotspotSetup.qml:245
+#, fuzzy
 msgid "Starting the hotspot will turn on Wi-Fi."
 msgstr ""
 
@@ -544,7 +540,6 @@ msgid "Start"
 msgstr "Cumintza"
 
 #: ../plugins/battery//SleepValues.qml:74
-#, fuzzy
 msgid "Lock the device when it's not in use:"
 msgstr "Bloca su dispositivu cando no est in impreu"
 
@@ -651,7 +646,6 @@ msgid "Charging now"
 msgstr "Carrighende"
 
 #: ../plugins/battery//PageComponent.qml:271
-#, fuzzy
 msgid "Last full charge"
 msgstr "Ùrtima càrriga cumpleta"
 
@@ -704,7 +698,6 @@ msgstr "Wi-Fi"
 #: ../plugins/battery//PageComponent.qml:400
 #: ../plugins/bluetooth//PageComponent.qml:33
 #: ../plugins/bluetooth//PageComponent.qml:233 ../build/po/settings.js:356
-#, fuzzy
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
@@ -724,7 +717,6 @@ msgstr ""
 "su tzentru notìficas."
 
 #: ../plugins/notifications//PageComponent.qml:90
-#, fuzzy
 msgid "Apps that notify with sound"
 msgstr "Aplicatziones chi impreant notìficas de sonos"
 
@@ -751,7 +743,6 @@ msgid "Vibrations"
 msgstr "Vibratziones"
 
 #: ../plugins/notifications//PageComponent.qml:180
-#, fuzzy
 msgid "Bubbles"
 msgstr "Bussicas"
 
@@ -791,7 +782,6 @@ msgid "Apps that notify with sound:"
 msgstr "Aplicatziones chi impreant notìficas cun sonos:"
 
 #: ../plugins/notifications//ClickAppNotifications.qml:72
-#, fuzzy
 msgid "Let this app alert me using:"
 msgstr "Permite chi custa aplicatzione imbie notìficas cun:"
 
@@ -847,7 +837,6 @@ msgstr "Tastiera"
 
 #: ../plugins/language//PageComponent.qml:156
 #: ../plugins/language//KeyboardLayouts.qml:29
-#, fuzzy
 msgid "Keyboard layouts"
 msgstr "Dispositziones de tastiera"
 
@@ -867,7 +856,6 @@ msgid "Auto correction"
 msgstr "Curretzione automàtica"
 
 #: ../plugins/language//PageComponent.qml:213
-#, fuzzy
 msgid "Word suggestions"
 msgstr "Cussìgios de paràulas"
 
@@ -882,12 +870,10 @@ msgstr ""
 "cada frase."
 
 #: ../plugins/language//PageComponent.qml:245
-#, fuzzy
 msgid "Auto punctuation"
 msgstr "Puntegiadura in automàticu"
 
 #: ../plugins/language//PageComponent.qml:257
-#, fuzzy
 msgid "Inserts a period when you tap Space twice."
 msgstr "Insertat unu puntu cando si tocat duas bortas su tastu Ispàtziu."
 
@@ -917,7 +903,6 @@ msgid "All layouts available:"
 msgstr "Totu is dispositziones de tastiera a disponimentu:"
 
 #: ../plugins/language//RebootNecessary.qml:34
-#, fuzzy
 msgid "The device needs to restart for changes to take effect."
 msgstr ""
 "Su dispositivu depet èssere torradu a aviare pro chi is modìficas tèngiant "
@@ -949,7 +934,6 @@ msgid "Storage"
 msgstr "Memòria"
 
 #: ../plugins/about//Storage.qml:44
-#, fuzzy
 msgid "Scanning"
 msgstr "Iscannerizande"
 
@@ -1058,7 +1042,6 @@ msgid "Software licenses"
 msgstr "Lissèntzias de programmas"
 
 #: ../plugins/about//PageComponent.qml:231
-#, fuzzy
 msgid "Regulatory info"
 msgstr "Informatzione normativa"
 
@@ -1095,7 +1078,6 @@ msgid "Customization Image part"
 msgstr "Parte de sa personalizatzione de s'imàgine"
 
 #: ../plugins/about//License.qml:30
-#, fuzzy
 msgid "Sorry, this license could not be displayed."
 msgstr "Custa lissèntzia non podet èssere ammustrada."
 
@@ -1113,7 +1095,6 @@ msgstr ""
 "dispositivu."
 
 #: ../plugins/about//DevMode.qml:110
-#, fuzzy
 msgid "You need a passcode or passphrase set to use Developer Mode."
 msgstr ""
 "Depes cunfigurare unu còdighe de atzessu o una crae pro impreare sa "
@@ -1281,7 +1262,6 @@ msgid "Privacy"
 msgstr "Riservadesa"
 
 #: ../plugins/security-privacy//PageComponent.qml:224
-#, fuzzy
 msgid "Stats on welcome screen"
 msgstr "Istatìsticas in s'ischermu de benebènnidu"
 
@@ -2463,7 +2443,6 @@ msgstr ""
 #. TRANSLATORS: This string will be truncated on smaller displays.
 #: ../plugins/phone//CallForwardItem.qml:157
 #: ../plugins/phone//CallForwardItem.qml:202
-#, fuzzy
 msgid "Forward to"
 msgstr "Devia a"
 
@@ -3750,7 +3729,7 @@ msgstr ""
 #: ../src/systemimage.cpp:318 ../src/systemimage.cpp:324
 #: ../src/systemimage.cpp:330
 msgid "Unavailable"
-msgstr ""
+msgstr "Non disponìbile "
 
 #: ../push-helper/software_updates_helper.py:159
 msgid "There's an updated system image."
