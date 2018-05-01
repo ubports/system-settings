@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2018-01-21 19:12+0000\n"
+"PO-Revision-Date: 2018-04-27 21:28+0000\n"
 "Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
@@ -1258,6 +1258,8 @@ msgid ""
 "Encryption protects against access to phone data when the phone is connected "
 "to a PC or other device."
 msgstr ""
+"Sa codìfica amparat s'atzessu a is datos de su telèfono cando benit "
+"connètidu a un'ordenadore o a un'àteru dispositivu."
 
 #: ../plugins/security-privacy//PageComponent.qml:220
 msgid "Privacy"
@@ -2409,6 +2411,8 @@ msgid ""
 "Lets you answer or start a new call while on another call, and switch "
 "between them"
 msgstr ""
+"Permitit de rispòndere o de incumentzare una mutida noa, in su mentras chi "
+"nde ses faghende un'àtera, e de passare de s'una a s'àtera"
 
 #. TRANSLATORS: This string will be truncated on smaller displays.
 #: ../plugins/phone//CallForwardItem.qml:157
@@ -2489,7 +2493,7 @@ msgstr "Totu is mutidas"
 
 #: ../plugins/phone//CallForwarding.qml:384
 msgid "Some calls"
-msgstr ""
+msgstr "Carchi mutidas "
 
 #: ../plugins/brightness//WifiDisplaysAlert.qml:32
 #, fuzzy, qt-format
