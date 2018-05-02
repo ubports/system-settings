@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-16 03:48+0000\n"
-"PO-Revision-Date: 2018-03-04 21:16+0000\n"
-"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"PO-Revision-Date: 2018-04-30 22:39+0000\n"
+"Last-Translator: Eran <etherpulse@gmail.com>\n"
 "Language-Team: Hebrew <https://translate.ubports.com/projects/ubports/system-"
 "settings/he/>\n"
 "Language: he\n"
@@ -38,8 +38,9 @@ msgstr "הגדרות ערוצים"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
+#, fuzzy
 msgid "Stable"
-msgstr ""
+msgstr "יציב"
 
 #: ../plugins/system-update//ChannelSettings.qml:57
 #: ../plugins/system-update//UpdateSettings.qml:63
@@ -118,9 +119,8 @@ msgid "Updates Available"
 msgstr "ישנם עדכונים זמינים"
 
 #: ../plugins/system-update//PageComponent.qml:349
-#, fuzzy
 msgid "Recent updates"
-msgstr "בדיקת עדכונים"
+msgstr "עדכונים אחרונים"
 
 #: ../plugins/system-update//PageComponent.qml:412
 #: ../plugins/system-update//UpdateSettings.qml:32
@@ -347,7 +347,6 @@ msgid "Change Password/Setup…"
 msgstr "החלפת מילת הצופן…"
 
 #: ../plugins/hotspot//PageComponent.qml:123
-#, fuzzy
 msgid "Set Up Hotspot…"
 msgstr "הגדרת נקודת גישה…"
 
@@ -524,7 +523,6 @@ msgid "Start"
 msgstr "התחלה"
 
 #: ../plugins/battery//SleepValues.qml:74
-#, fuzzy
 msgid "Lock the device when it's not in use:"
 msgstr "נעילת הטלפון בהעדר פעילות:"
 
