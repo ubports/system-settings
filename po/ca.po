@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-04 14:50+0000\n"
+"PO-Revision-Date: 2018-05-10 13:53+0000\n"
 "Last-Translator: Walter Garcia-Fontes <walter.garcia@upf.edu>\n"
 "Language-Team: Catalan <https://translate.ubports.com/projects/ubports"
 "/system-settings/ca/>\n"
@@ -806,7 +806,7 @@ msgstr "Aprovisionament pac"
 
 #: ../plugins/wifi/OtherNetwork.qml:686
 msgid "Disabled"
-msgstr "Inhabilitat"
+msgstr "Desactivat"
 
 #: ../plugins/wifi/OtherNetwork.qml:687
 msgid "Anonymous"
