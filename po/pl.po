@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-02 18:23+0000\n"
+"PO-Revision-Date: 2018-05-06 19:28+0000\n"
 "Last-Translator: Daniel Frańczak <danielfranczak5@wp.pl>\n"
 "Language-Team: Polish <https://translate.ubports.com/projects/ubports/system-"
 "settings/pl/>\n"
@@ -2078,7 +2078,7 @@ msgstr "Do korzystania z trybu dewelopera wymagane jest hasło lub kod."
 #: ../plugins/about/PageComponent.qml:35
 #: ../obj-x86_64-linux-gnu/po/settings.js:222
 msgid "About"
-msgstr "O urządzeniu"
+msgstr "Informacje"
 
 #: ../plugins/about/PageComponent.qml:99
 msgid "Serial"
