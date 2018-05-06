@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-06 12:13+0000\n"
-"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
+"PO-Revision-Date: 2018-05-06 12:17+0000\n"
+"Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -800,7 +800,7 @@ msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:686
 msgid "Disabled"
-msgstr ""
+msgstr "Disativadu"
 
 #: ../plugins/wifi/OtherNetwork.qml:687
 msgid "Anonymous"
@@ -844,12 +844,12 @@ msgstr "Nùmene utente"
 
 #: ../plugins/wifi/OtherNetwork.qml:784
 msgid "Private key password"
-msgstr "Crae privada "
+msgstr "Crae privada"
 
 #: ../plugins/wifi/OtherNetwork.qml:786 ../plugins/wifi/NetworkDetails.qml:70
 #: ../plugins/cellular/PageApnEditor.qml:357
 msgid "Password"
-msgstr ""
+msgstr "Crae"
 
 #: ../plugins/wifi/OtherNetwork.qml:821 ../plugins/wifi/NetworkDetails.qml:84
 #: ../plugins/hotspot/HotspotSetup.qml:224
@@ -2379,7 +2379,7 @@ msgstr ""
 
 #: ../plugins/bluetooth/DevicePage.qml:54
 msgid "Video"
-msgstr ""
+msgstr "Vìdeu"
 
 #: ../plugins/bluetooth/DevicePage.qml:55
 msgid "Other Audio"
