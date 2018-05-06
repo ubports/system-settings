@@ -66,47 +66,25 @@ ItemPage {
     // When user cancels.
     signal canceled ()
 
-    title: contextQML ? i18n.tr("Edit") : i18n.tr("New APN")
-    flickable: scrollArea
-    state: "default"
-    states: [
-        PageHeadState {
-            name: "default"
-            head: root.head
+    header: PageHeader {
+        id: chooseApnHeader
+        title: contextQML ? i18n.tr("Edit") : i18n.tr("New APN")
+        flickable: scrollArea
+        trailingActionBar {
             actions: [
                 Action {
                     objectName: "saveApn"
                     iconName: "ok"
-                    enabled: isValid
+                    enabled: isValid && state != "busy"
                     onTriggered: Editor.saving()
                 }
             ]
-        },
-        PageHeadState {
-            name: "busy"
-            head: root.head
-            actions: [
-                Action {
-                    iconName: "ok"
-                    enabled: false
-                }
-            ]
-        },
-        State {
-            name: "busy"
-            PropertyChanges { target: name; enabled: false; }
-            PropertyChanges { target: accessPointName; enabled: false; }
-            PropertyChanges { target: username; enabled: false; }
-            PropertyChanges { target: password; enabled: false; }
-            PropertyChanges { target: messageCenter; enabled: false; }
-            PropertyChanges { target: messageProxy; enabled: false; }
-            PropertyChanges { target: port; enabled: false; }
         }
-    ]
+    }
 
     onSaving: state = "busy"
-    onSaved: pageStack.pop();
-    onCanceled: pageStack.pop();
+    onSaved: pageStack.removePages(root);
+    onCanceled: pageStack.removePages(root);
     onNewContext: Editor.newContext(context);
 
     Component.onCompleted: {
@@ -181,6 +159,7 @@ ItemPage {
 
                 LocalComponents.LabelTextField {
                     id: name
+                    enabled: state != "busy"
                     objectName: "name"
                     inputMethodHints: Qt.ImhNoAutoUppercase |
                                       Qt.ImhNoPredictiveText
@@ -205,6 +184,7 @@ ItemPage {
 
                 LocalComponents.LabelTextField {
                     id: accessPointName
+                    enabled: state != "busy"
                     objectName: "accessPointName"
                     inputMethodHints: Qt.ImhUrlCharactersOnly |
                                       Qt.ImhNoAutoUppercase |
@@ -228,6 +208,7 @@ ItemPage {
 
                 LocalComponents.LabelTextField {
                     id: messageCenter
+                    enabled: state != "busy"
                     objectName: "messageCenter"
                     inputMethodHints: Qt.ImhUrlCharactersOnly |
                                       Qt.ImhNoAutoUppercase |
@@ -255,6 +236,7 @@ ItemPage {
 
                 LocalComponents.LabelTextField {
                     id: messageProxy
+                    enabled: state != "busy"
                     objectName: "messageProxy"
                     inputMethodHints: Qt.ImhUrlCharactersOnly |
                                       Qt.ImhNoAutoUppercase |
@@ -309,6 +291,7 @@ ItemPage {
 
                 LocalComponents.LabelTextField {
                     id: port
+                    enabled: state != "busy"
                     objectName: "port"
                     maximumLength: 5
                     inputMethodHints: Qt.ImhNoAutoUppercase |
@@ -337,6 +320,7 @@ ItemPage {
 
                 LocalComponents.LabelTextField {
                     id: username
+                    enabled: state != "busy"
                     objectName: "username"
                     inputMethodHints: Qt.ImhNoAutoUppercase |
                                       Qt.ImhNoPredictiveText |
@@ -359,6 +343,7 @@ ItemPage {
 
                 LocalComponents.LabelTextField {
                     id: password
+                    enabled: state != "busy"
                     objectName: "password"
                     width: parent.width
                     echoMode: TextInput.Normal
