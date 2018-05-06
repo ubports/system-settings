@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-04 13:41+0000\n"
-"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
+"PO-Revision-Date: 2018-05-06 12:12+0000\n"
+"Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -649,7 +649,7 @@ msgstr ""
 
 #: ../plugins/wifi/CertDialog.qml:74
 msgid "Save"
-msgstr ""
+msgstr "Sarva"
 
 #: ../plugins/wifi/AccessPoint.qml:51 ../plugins/wifi/StandardMenuItem.qml:31
 #: ../plugins/bluetooth/DevicePage.qml:37
@@ -840,7 +840,7 @@ msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:754
 msgid "Username"
-msgstr ""
+msgstr "Nùmene utente"
 
 #: ../plugins/wifi/OtherNetwork.qml:784
 msgid "Private key password"
@@ -1062,7 +1062,7 @@ msgstr "Descrie imprentadora"
 
 #: ../plugins/printing/AddPrinterDetails.qml:44
 msgid "Back"
-msgstr ""
+msgstr "In segus"
 
 #: ../plugins/printing/AddPrinterDetails.qml:137
 #, fuzzy
@@ -1081,9 +1081,8 @@ msgstr ""
 #: ../plugins/printing/AddPrinterDetails.qml:202
 #: ../plugins/printing/printer-sub-pages/Status.qml:66
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:32
-#, fuzzy
 msgid "Description"
-msgstr "Critografia"
+msgstr "Descritzione"
 
 #: ../plugins/printing/AddPrinterDetails.qml:204
 #: ../plugins/printing/AddPrinterDetails.qml:211
@@ -1305,7 +1304,7 @@ msgstr ""
 #: ../plugins/cellular/PageChooseApn.qml:234
 #: ../plugins/cellular/PageChooseApn.qml:267
 msgid "Disable"
-msgstr ""
+msgstr "Disativa"
 
 #: ../plugins/cellular/PageChooseApn.qml:256
 #, qt-format
@@ -1448,7 +1447,7 @@ msgstr ""
 
 #: ../plugins/security-privacy/AppAccess.qml:103
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: ../plugins/security-privacy/AppAccess.qml:118
 msgid "Apps may also request access to online accounts."
@@ -1945,19 +1944,19 @@ msgstr ""
 
 #: ../plugins/time-date/TimePicker.qml:117
 msgid "Date"
-msgstr ""
+msgstr "Data"
 
 #: ../plugins/time-date/TimePicker.qml:129
 msgid "Day"
-msgstr ""
+msgstr "Die"
 
 #: ../plugins/time-date/TimePicker.qml:143
 msgid "Month"
-msgstr ""
+msgstr "Mese"
 
 #: ../plugins/time-date/TimePicker.qml:161
 msgid "Year"
-msgstr ""
+msgstr "Annu"
 
 #: ../plugins/about/Version.qml:35
 msgid "OS Build Details"
@@ -2124,26 +2123,26 @@ msgstr "Modalidade de isvilupadore"
 #: ../plugins/phone/NoSims.qml:34 ../plugins/phone/CallWaiting.qml:31
 #: ../plugins/phone/CallWaiting.qml:81
 msgid "Call waiting"
-msgstr ""
+msgstr "Mutida in ispera"
 
 #: ../plugins/phone/MultiSim.qml:54 ../plugins/phone/SingleSim.qml:42
 #: ../plugins/phone/NoSims.qml:28 ../plugins/phone/CallForwarding.qml:45
 msgid "Call forwarding"
-msgstr ""
+msgstr "Deviatzione de mutidas"
 
 #: ../plugins/phone/MultiSim.qml:67 ../plugins/phone/NoSims.qml:42
 msgid "Services"
-msgstr ""
+msgstr "Servìtzios"
 
 #. TRANSLATORS: This string will be truncated on smaller displays.
 #: ../plugins/phone/CallForwardItem.qml:157
 #: ../plugins/phone/CallForwardItem.qml:202
 msgid "Forward to"
-msgstr ""
+msgstr "Devia a"
 
 #: ../plugins/phone/CallForwardItem.qml:171
 msgid "Enter a number"
-msgstr ""
+msgstr "Inserta·nche unu nùmeru"
 
 #: ../plugins/phone/CallForwardItem.qml:218
 msgid "Call forwarding can’t be changed right now."
@@ -2151,43 +2150,45 @@ msgstr ""
 
 #: ../plugins/phone/SingleSim.qml:29
 msgid "SIM"
-msgstr ""
+msgstr "SIM"
 
 #. TRANSLATORS: %1 is the name of the (network) carrier
 #: ../plugins/phone/SingleSim.qml:55 ../plugins/phone/Services.qml:36
 #, qt-format
 msgid "%1 Services"
-msgstr ""
+msgstr "Servìtzios de %1"
 
 #: ../plugins/phone/ServiceInfo.qml:109
 #, qt-format
 msgid "Last called %1"
-msgstr ""
+msgstr "Ùrtima mutida %1"
 
 #: ../plugins/phone/ServiceInfo.qml:119
 msgid "Call"
-msgstr ""
+msgstr "Muti"
 
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../plugins/phone/PageComponent.qml:32 ../plugins/bluetooth/DevicePage.qml:48
 #: ../plugins/bluetooth/DevicePage.qml:49
 #: ../obj-x86_64-linux-gnu/po/settings.js:266
 msgid "Phone"
-msgstr ""
+msgstr "Telèfonu"
 
 #: ../plugins/phone/CallWaiting.qml:96
 msgid ""
 "Lets you answer or start a new call while on another call, and switch "
 "between them"
 msgstr ""
+"Permitit de rispòndere o de incumentzare una mutida noa, in su mentras chi "
+"nde ses faghende un'àtera, e de passare de s'una a s'àtera"
 
 #: ../plugins/phone/CallForwarding.qml:131
 msgid "Forward every incoming call"
-msgstr ""
+msgstr "Devia totu is mutidas"
 
 #: ../plugins/phone/CallForwarding.qml:146
 msgid "Redirects all phone calls to another number."
-msgstr ""
+msgstr "Devia totu is mutidas a un'àteru nùmeru."
 
 #: ../plugins/phone/CallForwarding.qml:158
 msgid "Call forwarding status can’t be checked "
@@ -2195,7 +2196,7 @@ msgstr ""
 
 #: ../plugins/phone/CallForwarding.qml:166
 msgid "Forward incoming calls when:"
-msgstr ""
+msgstr "Devia is mutidas cando:"
 
 #: ../plugins/phone/CallForwarding.qml:175
 msgid "I’m on another call"
@@ -2207,35 +2208,35 @@ msgstr ""
 
 #: ../plugins/phone/CallForwarding.qml:197
 msgid "My phone is unreachable"
-msgstr ""
+msgstr "Su telèfonu meu no est atzessìbile"
 
 #: ../plugins/phone/CallForwarding.qml:227
 msgid "Contacts…"
-msgstr ""
+msgstr "Cuntatos…"
 
 #: ../plugins/phone/CallForwarding.qml:274
 msgid "Please select a phone number"
-msgstr ""
+msgstr "Seletziona unu nùmeru de telèfonu"
 
 #: ../plugins/phone/CallForwarding.qml:283
 msgid "Numbers"
-msgstr ""
+msgstr "Nùmeros"
 
 #: ../plugins/phone/CallForwarding.qml:302
 msgid "Could not forward to this contact"
-msgstr ""
+msgstr "Non s'est pòdidu deviare a custu cuntatu"
 
 #: ../plugins/phone/CallForwarding.qml:303
 msgid "Contact not associated with any phone number."
-msgstr ""
+msgstr "Perunu nùmeru de telèfonu assotziadu a su cuntatu."
 
 #: ../plugins/phone/CallForwarding.qml:382
 msgid "All calls"
-msgstr ""
+msgstr "Totu is mutidas"
 
 #: ../plugins/phone/CallForwarding.qml:384
 msgid "Some calls"
-msgstr ""
+msgstr "Carchi mutidas"
 
 #: ../plugins/hotspot/HotspotSetup.qml:61
 msgid "Change Hotspot Setup"
@@ -2801,11 +2802,11 @@ msgstr ""
 #: ../plugins/brightness/PageComponent.qml:35
 #: ../obj-x86_64-linux-gnu/po/settings.js:376
 msgid "Brightness"
-msgstr ""
+msgstr "Lugore"
 
 #: ../plugins/brightness/PageComponent.qml:116
 msgid "Adjust automatically"
-msgstr ""
+msgstr "Acontza in automàticu"
 
 #: ../plugins/brightness/PageComponent.qml:131
 msgid "Brightens and dims the display to suit the surroundings."
@@ -2879,7 +2880,7 @@ msgstr "Istàbile"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:46
 msgid "Default"
-msgstr ""
+msgstr "Predefinidu"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:47
 msgid "This is the default printer."
@@ -2911,7 +2912,7 @@ msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:34
 msgid "Active"
-msgstr ""
+msgstr "Ativa"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:36
 #, fuzzy
@@ -3030,7 +3031,7 @@ msgstr ""
 #. this word must be less than 5 characters
 #: ../plugins/cellular/Components/LabelTextField.qml:51
 msgid "Next"
-msgstr ""
+msgstr "Imbeniente"
 
 #: ../plugins/cellular/Components/Sim.qml:46
 msgid "2G only (saves battery)"
@@ -3066,20 +3067,20 @@ msgstr ""
 
 #: ../src/qml/MainWindow.qml:203
 msgid "Search"
-msgstr ""
+msgstr "Chirca"
 
 #: ../src/qml/MainWindow.qml:246
 msgid "Personal"
-msgstr ""
+msgstr "Informatzione personale"
 
 #: ../src/qml/MainWindow.qml:251
 msgid "System"
-msgstr ""
+msgstr "Sistema"
 
 #. TRANSLATORS: This is a keyword or name for the flight-mode plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:2
 msgid "Flight Mode"
-msgstr ""
+msgstr "Modalidade aèreu"
 
 #. TRANSLATORS: This is a keyword or name for the flight-mode plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:4
