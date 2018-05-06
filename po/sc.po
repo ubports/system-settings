@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-06 12:19+0000\n"
-"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
+"PO-Revision-Date: 2018-05-06 12:49+0000\n"
+"Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -3547,22 +3547,22 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:202
 msgid "password"
-msgstr ""
+msgstr "crae"
 
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:204
 msgid "passphrase"
-msgstr ""
+msgstr "crae"
 
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:206
 msgid "swipe"
-msgstr ""
+msgstr "iscurre"
 
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:208
 msgid "allow"
-msgstr ""
+msgstr "permite"
 
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:210
