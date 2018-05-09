@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-09 19:56+0000\n"
-"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
+"PO-Revision-Date: 2018-05-09 20:02+0000\n"
+"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -252,6 +252,8 @@ msgstr ""
 #: ../plugins/system-update/ImageUpdatePrompt.qml:33
 msgid "Connect the device to power before installing the system update."
 msgstr ""
+"Collega su dispositivu a su carrigadore in antis de installare "
+"s'atualizatzione de su sistema."
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:38
 msgid "Restart & Install"
@@ -340,11 +342,11 @@ msgstr ""
 
 #: ../plugins/launcher/PageComponent.qml:85
 msgid "Icon size:"
-msgstr ""
+msgstr "Mannària de is iconas:"
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:42
 msgid "Primary button:"
-msgstr ""
+msgstr "Pulsante primàriu: "
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:72
 msgid "Left"
@@ -358,7 +360,7 @@ msgstr ""
 #: ../plugins/mouse/PageComponent.qml:29
 #: ../obj-x86_64-linux-gnu/po/settings.js:42
 msgid "Mouse & Touchpad"
-msgstr ""
+msgstr "Sòrighe e sòrighe tàtile "
 
 #: ../plugins/mouse/None.qml:34
 msgid ""
