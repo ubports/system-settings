@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-09 20:39+0000\n"
-"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
+"PO-Revision-Date: 2018-05-09 21:03+0000\n"
+"Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -1257,7 +1257,7 @@ msgstr ""
 #: ../plugins/cellular/PageChooseApn.qml:92
 #: ../plugins/cellular/PageApnEditor.qml:160
 msgid "MMS"
-msgstr ""
+msgstr "MMS"
 
 #: ../plugins/cellular/PageChooseApn.qml:158
 msgid "Reset All APN Settings…"
@@ -1632,7 +1632,7 @@ msgstr "Diagnòsticos"
 #. reports are to be sent by the system.
 #: ../plugins/security-privacy/PageComponent.qml:273
 msgid "Sent"
-msgstr "Imbia·nde"
+msgstr "Imbiadu"
 
 #. TRANSLATORS: This string is shown when crash
 #. reports are not to be sent by the system
@@ -2440,7 +2440,7 @@ msgstr ""
 #: ../plugins/bluetooth/DevicePage.qml:124
 #: ../plugins/printing/printer-sub-pages/Status.qml:26
 msgid "Status"
-msgstr ""
+msgstr "Istadu"
 
 #: ../plugins/bluetooth/DevicePage.qml:128
 msgid "Signal Strength"
