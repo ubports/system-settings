@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2015-02-15 02:12+0000\n"
-"Last-Translator: Dirgita <Unknown>\n"
-"Language-Team: Indonesian <id@li.org>\n"
+"PO-Revision-Date: 2018-05-09 08:31+0000\n"
+"Last-Translator: Dito Kurnia P <ditokpl@gmail.com>\n"
+"Language-Team: Indonesian <https://translate.ubports.com/projects/ubports"
+"/system-settings/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2.15\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:40+0000\n"
-"X-Generator: Launchpad (build 17628)\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
 msgid "System Settings"
@@ -61,7 +62,7 @@ msgstr "Pasang"
 
 #: ../plugins/system-update/UpdateDelegate.qml:149
 msgid "Open"
-msgstr ""
+msgstr "Buka"
 
 #: ../plugins/system-update/UpdateDelegate.qml:228
 msgid "Installing"
@@ -129,7 +130,7 @@ msgstr ""
 #: ../plugins/battery/PageComponent.qml:318
 #: ../plugins/battery/PageComponent.qml:336
 msgid "Never"
-msgstr "Tak pernah"
+msgstr "Tidak pernah"
 
 #: ../plugins/system-update/Configuration.qml:54
 msgid "When on WiFi"
@@ -173,7 +174,7 @@ msgstr "Selalu"
 #: ../plugins/system-update/UpdateSettings.qml:64 ../plugins/wifi/Common.qml:96
 #: ../plugins/hotspot/Common.qml:94 ../plugins/bluetooth/DevicePage.qml:41
 msgid "Unknown"
-msgstr "Tak diketahui"
+msgstr "Tidak diketahui"
 
 #: ../plugins/system-update/UpdateSettings.qml:71
 #, fuzzy
@@ -198,9 +199,9 @@ msgid "Development"
 msgstr "Mode pengembang"
 
 #: ../plugins/system-update/ChangelogExpander.qml:42
-#, fuzzy, qt-format
+#, qt-format
 msgid "Version %1"
-msgstr "Versi: "
+msgstr "Versi %1"
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../plugins/system-update/PageComponent.qml:38
@@ -307,7 +308,7 @@ msgstr "Memeriksa pemutakhiran..."
 
 #: ../plugins/system-update/Global.qml:89
 msgid "Stop"
-msgstr ""
+msgstr "Berhenti"
 
 #. TRANSLATORS: %1 is number of software updates available.
 #: ../plugins/system-update/Global.qml:116
@@ -443,7 +444,7 @@ msgstr "Terputus"
 #: ../plugins/notifications/PageComponent.qml:29
 #: ../obj-x86_64-linux-gnu/po/settings.js:56
 msgid "Notifications"
-msgstr "Notifikasi"
+msgstr "Pemberitahuan"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:72
 msgid "Let this app alert me using:"
@@ -512,9 +513,8 @@ msgid "Apps that notify with sound:"
 msgstr ""
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:30
-#, fuzzy
 msgid "Vibration"
-msgstr "rotasi"
+msgstr "Getaran"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:54
 #, fuzzy
@@ -546,7 +546,7 @@ msgstr "Seni Ubuntu"
 
 #: ../plugins/background/MainPage.qml:108
 msgid "Custom"
-msgstr "Tersuai"
+msgstr "Kustom"
 
 #: ../plugins/background/MainPage.qml:118
 #, fuzzy
@@ -674,7 +674,7 @@ msgstr "Tersedia pembaruan"
 
 #: ../plugins/wifi/CertDialog.qml:74
 msgid "Save"
-msgstr ""
+msgstr "Simpan"
 
 #: ../plugins/wifi/AccessPoint.qml:51 ../plugins/wifi/StandardMenuItem.qml:31
 #: ../plugins/bluetooth/DevicePage.qml:37
@@ -856,9 +856,8 @@ msgid "Version 1"
 msgstr "Versi: "
 
 #: ../plugins/wifi/OtherNetwork.qml:715
-#, fuzzy
 msgid "Automatic"
-msgstr "Secara otomatis"
+msgstr "Otomatis"
 
 #: ../plugins/wifi/OtherNetwork.qml:725
 msgid "Anonymous identity"
@@ -870,7 +869,7 @@ msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:754
 msgid "Username"
-msgstr ""
+msgstr "Nama Pengguna"
 
 #: ../plugins/wifi/OtherNetwork.qml:784
 msgid "Private key password"
@@ -879,7 +878,7 @@ msgstr ""
 #: ../plugins/wifi/OtherNetwork.qml:786 ../plugins/wifi/NetworkDetails.qml:70
 #: ../plugins/cellular/PageApnEditor.qml:357
 msgid "Password"
-msgstr "Sandi"
+msgstr "Kata sandi"
 
 #: ../plugins/wifi/OtherNetwork.qml:821 ../plugins/wifi/NetworkDetails.qml:84
 #: ../plugins/hotspot/HotspotSetup.qml:224
@@ -1090,7 +1089,7 @@ msgstr ""
 
 #: ../plugins/printing/AddPrinterDetails.qml:44
 msgid "Back"
-msgstr ""
+msgstr "Kembali"
 
 #: ../plugins/printing/AddPrinterDetails.qml:137
 #, fuzzy
@@ -1110,9 +1109,8 @@ msgstr "Pencetak"
 #: ../plugins/printing/AddPrinterDetails.qml:202
 #: ../plugins/printing/printer-sub-pages/Status.qml:66
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:32
-#, fuzzy
 msgid "Description"
-msgstr "Enkripsi"
+msgstr "Deskripsi"
 
 #: ../plugins/printing/AddPrinterDetails.qml:204
 #: ../plugins/printing/AddPrinterDetails.qml:211
@@ -1178,7 +1176,7 @@ msgstr ""
 #: ../plugins/printing/PageComponent.qml:136
 #: ../plugins/cellular/PageChooseApn.qml:305
 msgid "Delete"
-msgstr ""
+msgstr "Hapus"
 
 #: ../plugins/printing/PageComponent.qml:149
 #: ../plugins/printing/printer-sub-pages/Policies.qml:50
@@ -1341,9 +1339,8 @@ msgstr ""
 
 #: ../plugins/cellular/PageChooseApn.qml:234
 #: ../plugins/cellular/PageChooseApn.qml:267
-#, fuzzy
 msgid "Disable"
-msgstr "Tablet"
+msgstr "Nonaktifkan"
 
 #: ../plugins/cellular/PageChooseApn.qml:256
 #, fuzzy, qt-format
@@ -1367,7 +1364,7 @@ msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:69
 msgid "Edit"
-msgstr ""
+msgstr "Sunting"
 
 #: ../plugins/cellular/PageApnEditor.qml:69
 #, fuzzy
@@ -1637,7 +1634,7 @@ msgstr "Nyala"
 #: ../plugins/security-privacy/PageComponent.qml:253
 #: ../plugins/phone/CallForwarding.qml:386
 msgid "Off"
-msgstr "Mati"
+msgstr "Matikan"
 
 #: ../plugins/security-privacy/PageComponent.qml:192
 msgid "Encryption"
@@ -2095,9 +2092,8 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../plugins/about/PageComponent.qml:35
 #: ../obj-x86_64-linux-gnu/po/settings.js:222
-#, fuzzy
 msgid "About"
-msgstr "tentang"
+msgstr "Tentang"
 
 #: ../plugins/about/PageComponent.qml:99
 msgid "Serial"
@@ -2149,7 +2145,7 @@ msgstr "Mode pengembang"
 #: ../plugins/phone/NoSims.qml:34 ../plugins/phone/CallWaiting.qml:31
 #: ../plugins/phone/CallWaiting.qml:81
 msgid "Call waiting"
-msgstr ""
+msgstr "Penungguan panggilan"
 
 #: ../plugins/phone/MultiSim.qml:54 ../plugins/phone/SingleSim.qml:42
 #: ../plugins/phone/NoSims.qml:28 ../plugins/phone/CallForwarding.qml:45
@@ -2158,7 +2154,7 @@ msgstr "Penerusan panggilan"
 
 #: ../plugins/phone/MultiSim.qml:67 ../plugins/phone/NoSims.qml:42
 msgid "Services"
-msgstr "Layanan"
+msgstr "Servis"
 
 #. TRANSLATORS: This string will be truncated on smaller displays.
 #: ../plugins/phone/CallForwardItem.qml:157
@@ -2167,9 +2163,8 @@ msgid "Forward to"
 msgstr "Teruskan ke"
 
 #: ../plugins/phone/CallForwardItem.qml:171
-#, fuzzy
 msgid "Enter a number"
-msgstr "Nomor telepon"
+msgstr "Masukkan nomor"
 
 #: ../plugins/phone/CallForwardItem.qml:218
 msgid "Call forwarding can’t be changed right now."
@@ -2183,12 +2178,12 @@ msgstr "SIM"
 #: ../plugins/phone/SingleSim.qml:55 ../plugins/phone/Services.qml:36
 #, qt-format
 msgid "%1 Services"
-msgstr "Layanan %1"
+msgstr "Servis %1"
 
 #: ../plugins/phone/ServiceInfo.qml:109
 #, qt-format
 msgid "Last called %1"
-msgstr "Terakhir dipanggil %1"
+msgstr "Panggilan terakhir %1"
 
 #: ../plugins/phone/ServiceInfo.qml:119
 msgid "Call"
@@ -2206,14 +2201,16 @@ msgid ""
 "Lets you answer or start a new call while on another call, and switch "
 "between them"
 msgstr ""
+"Jawab atau mulai panggilan baru ketika sedang ada panggilan lainnya, dan "
+"berpindah antar panggilan"
 
 #: ../plugins/phone/CallForwarding.qml:131
 msgid "Forward every incoming call"
-msgstr ""
+msgstr "Teruskan setiap panggilan masuk"
 
 #: ../plugins/phone/CallForwarding.qml:146
 msgid "Redirects all phone calls to another number."
-msgstr ""
+msgstr "Mengalihkan semua panggilan ke nomor lainnya."
 
 #: ../plugins/phone/CallForwarding.qml:158
 msgid "Call forwarding status can’t be checked "
@@ -2221,7 +2218,7 @@ msgstr ""
 
 #: ../plugins/phone/CallForwarding.qml:166
 msgid "Forward incoming calls when:"
-msgstr ""
+msgstr "Teruskan panggilan masuk ketika:"
 
 #: ../plugins/phone/CallForwarding.qml:175
 msgid "I’m on another call"
@@ -2232,39 +2229,36 @@ msgid "I don’t answer"
 msgstr ""
 
 #: ../plugins/phone/CallForwarding.qml:197
-#, fuzzy
 msgid "My phone is unreachable"
-msgstr "ModemManager tak tersedia"
+msgstr "Ponsel saya tidak dapat dijangkau"
 
 #: ../plugins/phone/CallForwarding.qml:227
 msgid "Contacts…"
 msgstr ""
 
 #: ../plugins/phone/CallForwarding.qml:274
-#, fuzzy
 msgid "Please select a phone number"
-msgstr "Nomor telepon"
+msgstr "Tolong pilih nomor ponsel"
 
 #: ../plugins/phone/CallForwarding.qml:283
 msgid "Numbers"
-msgstr ""
+msgstr "Nomor"
 
 #: ../plugins/phone/CallForwarding.qml:302
 msgid "Could not forward to this contact"
-msgstr ""
+msgstr "Tidak bisa meneruskan ke kontak ini"
 
 #: ../plugins/phone/CallForwarding.qml:303
 msgid "Contact not associated with any phone number."
-msgstr ""
+msgstr "Kontak tidak terkait dengan semua nomor telepon."
 
 #: ../plugins/phone/CallForwarding.qml:382
 msgid "All calls"
-msgstr ""
+msgstr "Semua panggilan"
 
 #: ../plugins/phone/CallForwarding.qml:384
-#, fuzzy
 msgid "Some calls"
-msgstr "Panggilan telepon:"
+msgstr "Beberapa panggilan"
 
 #: ../plugins/hotspot/HotspotSetup.qml:61
 #, fuzzy
@@ -2295,7 +2289,7 @@ msgstr ""
 
 #: ../plugins/hotspot/HotspotSetup.qml:275
 msgid "Start"
-msgstr ""
+msgstr "Mulai"
 
 #. TRANSLATORS: This is a keyword or name for the hotspot plugin which is used while searching
 #: ../plugins/hotspot/PageComponent.qml:33
@@ -2919,7 +2913,7 @@ msgstr "Tablet"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:46
 msgid "Default"
-msgstr ""
+msgstr "Default"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:47
 msgid "This is the default printer."
@@ -2943,19 +2937,19 @@ msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:30
 msgid "Idle"
-msgstr ""
+msgstr "Diam"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:32
 msgid "Aborted"
-msgstr ""
+msgstr "Batalkan"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:34
 msgid "Active"
-msgstr ""
+msgstr "Aktif"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:36
 msgid "Stopped"
-msgstr ""
+msgstr "Berhenti"
 
 #. TRANSLATORS: %1 is the overall state of the printer, %2 is a more
 #. detailed message from the printer itself.
@@ -2965,9 +2959,8 @@ msgid "%1 — %2"
 msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:43
-#, fuzzy
 msgid "No messages"
-msgstr "Pesan:"
+msgstr "Tak ada pesan"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:48
 msgid "Jobs"
@@ -2978,9 +2971,8 @@ msgid "Manage Print Jobs"
 msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:78
-#, fuzzy
 msgid "Address"
-msgstr "Alamat IP"
+msgstr "Alamat"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:84
 #, fuzzy
@@ -3073,7 +3065,7 @@ msgstr "Sunting Nama SIM"
 #. this word must be less than 5 characters
 #: ../plugins/cellular/Components/LabelTextField.qml:51
 msgid "Next"
-msgstr ""
+msgstr "Selanjutnya"
 
 #: ../plugins/cellular/Components/Sim.qml:46
 msgid "2G only (saves battery)"
@@ -3122,7 +3114,7 @@ msgstr "Sistem"
 #. TRANSLATORS: This is a keyword or name for the flight-mode plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:2
 msgid "Flight Mode"
-msgstr ""
+msgstr "Mode Penerbangan"
 
 #. TRANSLATORS: This is a keyword or name for the flight-mode plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:4
@@ -3594,7 +3586,7 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:202
 msgid "password"
-msgstr ""
+msgstr "kata sandi"
 
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:204
