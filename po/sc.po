@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-09 20:02+0000\n"
-"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
+"PO-Revision-Date: 2018-05-09 20:03+0000\n"
+"Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -360,7 +360,7 @@ msgstr ""
 #: ../plugins/mouse/PageComponent.qml:29
 #: ../obj-x86_64-linux-gnu/po/settings.js:42
 msgid "Mouse & Touchpad"
-msgstr "Sòrighe e sòrighe tàtile "
+msgstr "Sòrighe e sòrighe tàtile"
 
 #: ../plugins/mouse/None.qml:34
 msgid ""
