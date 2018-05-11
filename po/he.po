@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-03 22:45+0000\n"
+"PO-Revision-Date: 2018-05-11 20:54+0000\n"
 "Last-Translator: Eran <etherpulse@gmail.com>\n"
 "Language-Team: Hebrew <https://translate.ubports.com/projects/ubports/system-"
 "settings/he/>\n"
@@ -151,7 +151,7 @@ msgstr "התקנה נכשלה"
 #: ../plugins/vpn/PageComponent.qml:123
 #: ../plugins/cellular/Components/SimEditor.qml:214
 msgid "OK"
-msgstr "אישור"
+msgstr "בסדר"
 
 #: ../plugins/system-update/UpdateSettings.qml:32
 #: ../plugins/system-update/PageComponent.qml:412
@@ -1142,9 +1142,8 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../plugins/printing/PageComponent.qml:32
 #: ../obj-x86_64-linux-gnu/po/settings.js:134
-#, fuzzy
 msgid "Printing"
-msgstr "מדפסת"
+msgstr "הדפסה"
 
 #: ../plugins/printing/PageComponent.qml:45
 msgid "Manager Printer Jobs"
@@ -2948,7 +2947,7 @@ msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/CopiesAndPages.qml:26
 msgid "Copies"
-msgstr ""
+msgstr "עותקים"
 
 #: ../plugins/printing/printer-sub-pages/CopiesAndPages.qml:46
 msgid "Paper size"
@@ -2964,7 +2963,7 @@ msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:34
 msgid "Active"
-msgstr ""
+msgstr "פעיל"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:36
 #, fuzzy
@@ -3020,7 +3019,7 @@ msgstr "מצב פיתוח"
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:75
 msgid "Quality"
-msgstr ""
+msgstr "איכות"
 
 #: ../plugins/cellular/Components/RadioSingleSim.qml:31
 #: ../plugins/cellular/Components/MultiSim.qml:83
