@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-03 12:56+0000\n"
+"PO-Revision-Date: 2018-05-11 20:21+0000\n"
 "Last-Translator: Ivo Xavier <ivofernandes12@gmail.com>\n"
 "Language-Team: Portuguese <https://translate.ubports.com/projects/ubports"
 "/system-settings/pt/>\n"
@@ -70,7 +70,7 @@ msgstr "A instalar"
 
 #: ../plugins/system-update/UpdateDelegate.qml:232
 msgid "Paused"
-msgstr "Em pausa"
+msgstr "Pausado"
 
 #: ../plugins/system-update/UpdateDelegate.qml:235
 msgid "Waiting to download"
@@ -1120,7 +1120,7 @@ msgstr "Ficheiro PPD"
 #: ../plugins/printing/PageComponent.qml:32
 #: ../obj-x86_64-linux-gnu/po/settings.js:134
 msgid "Printing"
-msgstr "Imprimir"
+msgstr "Impressão"
 
 #: ../plugins/printing/PageComponent.qml:45
 msgid "Manager Printer Jobs"
@@ -2403,7 +2403,7 @@ msgstr "Tablet"
 
 #: ../plugins/bluetooth/DevicePage.qml:60
 msgid "Printer"
-msgstr "Impressora"
+msgstr "Impressão"
 
 #: ../plugins/bluetooth/DevicePage.qml:62
 msgid "Watch"
