@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-10 13:53+0000\n"
+"PO-Revision-Date: 2018-05-13 19:31+0000\n"
 "Last-Translator: Walter Garcia-Fontes <walter.garcia@upf.edu>\n"
 "Language-Team: Catalan <https://translate.ubports.com/projects/ubports"
 "/system-settings/ca/>\n"
@@ -1085,7 +1085,7 @@ msgstr "Descripció"
 #: ../plugins/printing/AddPrinterDetails.qml:204
 #: ../plugins/printing/AddPrinterDetails.qml:211
 msgid "Optional"
-msgstr ""
+msgstr "Opcional"
 
 #: ../plugins/printing/AddPrinterDetails.qml:209
 #: ../plugins/security-privacy/AppAccess.qml:81
@@ -1097,52 +1097,49 @@ msgstr "Ubicació"
 
 #: ../plugins/printing/AddPrinterDetails.qml:219
 msgid "Driver"
-msgstr ""
+msgstr "Controlador"
 
 #: ../plugins/printing/AddPrinterDetails.qml:225
-#, fuzzy
 msgid "Choose driver"
-msgstr "Trieu entre"
+msgstr "Trieu un controlador"
 
 #: ../plugins/printing/AddPrinterDetails.qml:227
 msgid "Select printer from database"
-msgstr ""
+msgstr "Trieu una impressora de la base de dades"
 
 #: ../plugins/printing/AddPrinterDetails.qml:228
 msgid "Provide PPD file"
-msgstr ""
+msgstr "Proporcioneu un fitxer PPD"
 
 #: ../plugins/printing/AddPrinterDetails.qml:235
 msgid "Filter drivers"
-msgstr ""
+msgstr "Filtra els controladors"
 
 #: ../plugins/printing/AddPrinterDetails.qml:304
-#, fuzzy
 msgid "PPD file"
-msgstr "Fitxer pac"
+msgstr "Fitxer PPD"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../plugins/printing/PageComponent.qml:32
 #: ../obj-x86_64-linux-gnu/po/settings.js:134
-#, fuzzy
 msgid "Printing"
-msgstr "Impressora"
+msgstr "Imprimint"
 
 #: ../plugins/printing/PageComponent.qml:45
 msgid "Manager Printer Jobs"
-msgstr ""
+msgstr "Tasques d'impressió del gestor"
 
 #: ../plugins/printing/PageComponent.qml:106
 msgid "Default printer"
-msgstr ""
+msgstr "Impressora predeterminada"
 
 #: ../plugins/printing/PageComponent.qml:107
 msgid "Configured printers"
-msgstr ""
+msgstr "Impressores configurades"
 
 #: ../plugins/printing/PageComponent.qml:115
 msgid "Discovered printers"
-msgstr ""
+msgstr "Impressores descobertes"
 
 #: ../plugins/printing/PageComponent.qml:136
 #: ../plugins/cellular/PageChooseApn.qml:305
@@ -1152,34 +1149,31 @@ msgstr "Suprimeix"
 #: ../plugins/printing/PageComponent.qml:149
 #: ../plugins/printing/printer-sub-pages/Policies.qml:50
 msgid "Set as Default"
-msgstr ""
+msgstr "Estableix com a predeterminada"
 
 #: ../plugins/printing/PageComponent.qml:190
 msgid "There are no printers configured yet."
-msgstr ""
+msgstr "No hi ha cap impressora configurada encara."
 
 #: ../plugins/printing/PrinterConnection.qml:67
 msgid "Host"
-msgstr ""
+msgstr "Amfitrió"
 
 #: ../plugins/printing/Printer.qml:42
-#, fuzzy
 msgid "Printer status"
-msgstr "Impressora"
+msgstr "Estat de la impressora"
 
 #: ../plugins/printing/Printer.qml:43
-#, fuzzy
 msgid "General settings"
-msgstr "Configuració dels canals"
+msgstr "Configuració general"
 
 #: ../plugins/printing/Printer.qml:44
 msgid "Policies"
-msgstr ""
+msgstr "Directives"
 
 #: ../plugins/printing/Printer.qml:47
-#, fuzzy
 msgid "Copies and pages"
-msgstr "Data i hora"
+msgstr "Còpies i pàgines"
 
 #: ../plugins/cellular/PageChooseCarrier.qml:32
 #: ../plugins/cellular/PageChooseCarrier.qml:129
@@ -2555,9 +2549,8 @@ msgid "Display language…"
 msgstr "Llengua…"
 
 #: ../plugins/language/PageComponent.qml:149
-#, fuzzy
 msgid "Enable on-screen keyboard"
-msgstr "Teclat en pantalla"
+msgstr "Habilita el teclat en pantalla"
 
 #: ../plugins/language/PageComponent.qml:161
 msgid "On-screen keyboard"
@@ -2610,9 +2603,8 @@ msgid "Keyboard vibration"
 msgstr "Vibració del teclat"
 
 #: ../plugins/language/PageComponent.qml:290
-#, fuzzy
 msgid "Keyboard opacity"
-msgstr "Disposicions de teclat"
+msgstr "Opacitat del teclat"
 
 #: ../plugins/language/KeyboardLayouts.qml:49
 msgid "Current layouts:"
@@ -2903,9 +2895,8 @@ msgid "Remove images…"
 msgstr "Suprimeix imatges…"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:27
-#, fuzzy
 msgid "Enabled"
-msgstr "habilita"
+msgstr "Habilitat"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:46
 msgid "Default"
@@ -2913,23 +2904,23 @@ msgstr "Predeterminat"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:47
 msgid "This is the default printer."
-msgstr ""
+msgstr "Aquesta és la impressora predeterminada."
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:60
 msgid "Accepting jobs"
-msgstr ""
+msgstr "Accepta tasques"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:69
 msgid "Shared"
-msgstr ""
+msgstr "Compartida"
 
 #: ../plugins/printing/printer-sub-pages/CopiesAndPages.qml:26
 msgid "Copies"
-msgstr ""
+msgstr "Còpies"
 
 #: ../plugins/printing/printer-sub-pages/CopiesAndPages.qml:46
 msgid "Paper size"
-msgstr ""
+msgstr "Mida del paper"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:30
 msgid "Idle"
@@ -2952,7 +2943,7 @@ msgstr "Aturada"
 #: ../plugins/printing/printer-sub-pages/Status.qml:40
 #, qt-format
 msgid "%1 — %2"
-msgstr ""
+msgstr "%1 — %2"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:43
 msgid "No messages"
@@ -2960,42 +2951,39 @@ msgstr "Cap missatge"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:48
 msgid "Jobs"
-msgstr ""
+msgstr "Tasques"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:53
 msgid "Manage Print Jobs"
-msgstr ""
+msgstr "Gestiona les tasques d'impressió"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:78
-#, fuzzy
 msgid "Address"
-msgstr "adreça"
+msgstr "Adreça"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:84
-#, fuzzy
 msgid "Model"
-msgstr "Mòdem"
+msgstr "Model"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:85
 msgid "Local Raw Printer"
-msgstr ""
+msgstr "Impressora en brut local"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:88
 msgid "Print test page"
-msgstr ""
+msgstr "Imprimeix una pàgina de prova"
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:43
 msgid "Duplex"
-msgstr ""
+msgstr "Dúplex"
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:59
-#, fuzzy
 msgid "Color model"
-msgstr "Mode de desenvolupador"
+msgstr "Model de color"
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:75
 msgid "Quality"
-msgstr ""
+msgstr "Qualitat"
 
 #: ../plugins/cellular/Components/RadioSingleSim.qml:31
 #: ../plugins/cellular/Components/MultiSim.qml:83
@@ -3427,67 +3415,63 @@ msgstr "adreça"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:136
-#, fuzzy
 msgid "printer"
-msgstr "Impressora"
+msgstr "impressora"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:138
-#, fuzzy
 msgid "printers"
-msgstr "Impressora"
+msgstr "impressores"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:140
-#, fuzzy
 msgid "printing"
-msgstr "encaminament"
+msgstr "impressió"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:142
 msgid "pdf"
-msgstr ""
+msgstr "pdf"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:144
 msgid "ppd"
-msgstr ""
+msgstr "ppd"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:146
 msgid "collate"
-msgstr ""
+msgstr "intercala"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:148
 msgid "copies"
-msgstr ""
+msgstr "còpies"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:150
 msgid "colormodel"
-msgstr ""
+msgstr "modelcolor"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:152
 msgid "greyscale"
-msgstr ""
+msgstr "escaladegrisos"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:154
 msgid "color"
-msgstr ""
+msgstr "color"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:156
 msgid "laser"
-msgstr ""
+msgstr "làser"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:158
-#, fuzzy
 msgid "ink"
-msgstr "pin"
+msgstr "tinta"
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:162
