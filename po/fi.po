@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-11 21:11+0000\n"
-"Last-Translator: Tatuus <tatuus@riseup.net>\n"
+"PO-Revision-Date: 2018-05-14 12:15+0000\n"
+"Last-Translator: Veli-Matti Rautiainen <velraut@gmail.com>\n"
 "Language-Team: Finnish <https://translate.ubports.com/projects/ubports"
 "/system-settings/fi/>\n"
 "Language: fi\n"
@@ -69,9 +69,8 @@ msgid "Installing"
 msgstr "Asennetaan"
 
 #: ../plugins/system-update/UpdateDelegate.qml:232
-#, fuzzy
 msgid "Paused"
-msgstr "Tauolla"
+msgstr "Keskeytetty"
 
 #: ../plugins/system-update/UpdateDelegate.qml:235
 msgid "Waiting to download"
@@ -151,7 +150,6 @@ msgstr "Asennus epäonnistui"
 #: ../plugins/brightness/WifiDisplaysAlert.qml:38
 #: ../plugins/vpn/PageComponent.qml:123
 #: ../plugins/cellular/Components/SimEditor.qml:214
-#, fuzzy
 msgid "OK"
 msgstr "Selvä"
 
@@ -281,9 +279,8 @@ msgstr "Käynnistä uudelleen ja asenna"
 #: ../plugins/reset/EraseEverything.qml:54
 #: ../plugins/background/Components/AddRemove.qml:42
 #: ../plugins/cellular/Components/SimEditor.qml:203
-#, fuzzy
 msgid "Cancel"
-msgstr "Keskeytä"
+msgstr "Peruuta"
 
 #: ../plugins/system-update/NotAuthenticatedNotification.qml:37
 msgid "Sign in to Ubuntu One to receive updates for apps."
@@ -1132,7 +1129,6 @@ msgstr "Pac-tiedosto"
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../plugins/printing/PageComponent.qml:32
 #: ../obj-x86_64-linux-gnu/po/settings.js:134
-#, fuzzy
 msgid "Printing"
 msgstr "Tulostaa"
 
@@ -2425,7 +2421,6 @@ msgid "Tablet"
 msgstr "Piirtopöytä"
 
 #: ../plugins/bluetooth/DevicePage.qml:60
-#, fuzzy
 msgid "Printer"
 msgstr "Tulostin"
 
@@ -2922,7 +2917,6 @@ msgid "Shared"
 msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/CopiesAndPages.qml:26
-#, fuzzy
 msgid "Copies"
 msgstr "Kopiot"
 
@@ -2939,7 +2933,6 @@ msgid "Aborted"
 msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:34
-#, fuzzy
 msgid "Active"
 msgstr "Aktiivinen"
 
@@ -2996,7 +2989,6 @@ msgid "Color model"
 msgstr "Kehittäjätila"
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:75
-#, fuzzy
 msgid "Quality"
 msgstr "Laatu"
 
