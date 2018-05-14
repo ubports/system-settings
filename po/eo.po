@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2017-11-25 14:58+0000\n"
-"Last-Translator: Pablo Foche <pablo.foche@gmail.com>\n"
-"Language-Team: Esperanto <https://translate.ubports.com/projects/ubports/"
-"system-settings/eo/>\n"
+"PO-Revision-Date: 2018-05-14 13:30+0000\n"
+"Last-Translator: nuramo <larugxakoro@protonmail.com>\n"
+"Language-Team: Esperanto <https://translate.ubports.com/projects/ubports"
+"/system-settings/eo/>\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2919,11 +2919,11 @@ msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:32
 msgid "Aborted"
-msgstr ""
+msgstr "Abortigita"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:34
 msgid "Active"
-msgstr ""
+msgstr "Aktiva"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:36
 #, fuzzy
@@ -2938,9 +2938,8 @@ msgid "%1 — %2"
 msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:43
-#, fuzzy
 msgid "No messages"
-msgstr "mesaĝo"
+msgstr "Ne mesaĝoj"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:48
 msgid "Jobs"
