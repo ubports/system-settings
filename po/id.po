@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-09 08:31+0000\n"
+"PO-Revision-Date: 2018-05-15 09:57+0000\n"
 "Last-Translator: Dito Kurnia P <ditokpl@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.ubports.com/projects/ubports"
 "/system-settings/id/>\n"
@@ -38,7 +38,7 @@ msgstr "Coba lagi"
 
 #: ../plugins/system-update/UpdateDelegate.qml:124
 msgid "Update"
-msgstr ""
+msgstr "Pembaruan"
 
 #: ../plugins/system-update/UpdateDelegate.qml:126
 msgid "Download"
@@ -54,7 +54,7 @@ msgstr "Jeda"
 
 #: ../plugins/system-update/UpdateDelegate.qml:143
 msgid "Install…"
-msgstr ""
+msgstr "Pasang…"
 
 #: ../plugins/system-update/UpdateDelegate.qml:145
 msgid "Install"
@@ -66,21 +66,19 @@ msgstr "Buka"
 
 #: ../plugins/system-update/UpdateDelegate.qml:228
 msgid "Installing"
-msgstr "Memasang..."
+msgstr "Memasang"
 
 #: ../plugins/system-update/UpdateDelegate.qml:232
-#, fuzzy
 msgid "Paused"
 msgstr "Jeda"
 
 #: ../plugins/system-update/UpdateDelegate.qml:235
-#, fuzzy
 msgid "Waiting to download"
-msgstr "Unduh otomatis"
+msgstr "Menunggu untuk di unduh"
 
 #: ../plugins/system-update/UpdateDelegate.qml:238
 msgid "Downloading"
-msgstr ""
+msgstr "Mengunduh"
 
 #. TRANSLATORS: %1 is the human readable amount
 #. of bytes downloaded, and %2 is the total to be
@@ -88,12 +86,11 @@ msgstr ""
 #: ../plugins/system-update/UpdateDelegate.qml:274
 #, qt-format
 msgid "%1 of %2"
-msgstr ""
+msgstr "%1 dari %2"
 
 #: ../plugins/system-update/UpdateDelegate.qml:278
-#, fuzzy
 msgid "Downloaded"
-msgstr "Unduh"
+msgstr "Terunduh"
 
 #: ../plugins/system-update/UpdateDelegate.qml:281
 msgid "Installed"
@@ -102,14 +99,13 @@ msgstr "Terpasang"
 #. TRANSLATORS: %1 is the date at which this
 #. update was applied.
 #: ../plugins/system-update/UpdateDelegate.qml:286
-#, fuzzy, qt-format
+#, qt-format
 msgid "Updated %1"
-msgstr "Pemutakhiran"
+msgstr "Diperbarui pada %1"
 
 #: ../plugins/system-update/UpdateDelegate.qml:310
-#, fuzzy
 msgid "Update failed"
-msgstr "Tersedia pembaruan"
+msgstr "Pembaruan gagal"
 
 #: ../plugins/system-update/Configuration.qml:30
 #: ../plugins/system-update/UpdateSettings.qml:55
@@ -118,7 +114,7 @@ msgstr "Unduh otomatis"
 
 #: ../plugins/system-update/Configuration.qml:35
 msgid "Download future updates automatically:"
-msgstr ""
+msgstr "Unduh pembaharuan secara otomatis:"
 
 #: ../plugins/system-update/Configuration.qml:53
 #: ../plugins/system-update/UpdateSettings.qml:58
@@ -134,20 +130,20 @@ msgstr "Tidak pernah"
 
 #: ../plugins/system-update/Configuration.qml:54
 msgid "When on WiFi"
-msgstr ""
+msgstr "Ketika dengan WiFi"
 
 #: ../plugins/system-update/Configuration.qml:56
 msgid "On any data connection"
-msgstr ""
+msgstr "Dengan koneksi data"
 
 #: ../plugins/system-update/Configuration.qml:57
 msgid "Data charges may apply."
-msgstr ""
+msgstr "Biaya data mungkin diterapkan."
 
 #: ../plugins/system-update/InstallationFailed.qml:25
 #: ../plugins/system-update/DownloadHandler.qml:174
 msgid "Installation failed"
-msgstr ""
+msgstr "Pemasangan gagal"
 
 #: ../plugins/system-update/InstallationFailed.qml:28
 #: ../plugins/phone/CallForwarding.qml:305
@@ -155,17 +151,16 @@ msgstr ""
 #: ../plugins/vpn/PageComponent.qml:123
 #: ../plugins/cellular/Components/SimEditor.qml:214
 msgid "OK"
-msgstr "OK"
+msgstr "OKE"
 
 #: ../plugins/system-update/UpdateSettings.qml:32
 #: ../plugins/system-update/PageComponent.qml:412
-#, fuzzy
 msgid "Update settings"
-msgstr "Pengaturan Sistem"
+msgstr "Pengaturan pembaharuan"
 
 #: ../plugins/system-update/UpdateSettings.qml:60
 msgid "On WiFi"
-msgstr ""
+msgstr "Dengan WiFi"
 
 #: ../plugins/system-update/UpdateSettings.qml:62
 msgid "Always"
@@ -177,26 +172,23 @@ msgid "Unknown"
 msgstr "Tidak diketahui"
 
 #: ../plugins/system-update/UpdateSettings.qml:71
-#, fuzzy
 msgid "Channels"
-msgstr "Ubah"
+msgstr "Saluran"
 
 #: ../plugins/system-update/UpdateSettings.qml:73
 #: ../plugins/system-update/ChannelSettings.qml:57
-#, fuzzy
 msgid "Stable"
-msgstr "Tablet"
+msgstr "Stabil"
 
 #: ../plugins/system-update/UpdateSettings.qml:73
 #: ../plugins/system-update/ChannelSettings.qml:57
 msgid "Release candidate"
-msgstr ""
+msgstr "Kandidat rilis"
 
 #: ../plugins/system-update/UpdateSettings.qml:73
 #: ../plugins/system-update/ChannelSettings.qml:57
-#, fuzzy
 msgid "Development"
-msgstr "Mode pengembang"
+msgstr "Pengembangan"
 
 #: ../plugins/system-update/ChangelogExpander.qml:42
 #, qt-format
@@ -211,7 +203,7 @@ msgstr "Pemutakhiran"
 
 #: ../plugins/system-update/PageComponent.qml:182
 msgid "Connect to the Internet to check for updates."
-msgstr ""
+msgstr "Hubungkan ke internet untuk mengecek pembaharuan."
 
 #: ../plugins/system-update/PageComponent.qml:184
 msgid "Software is up to date"
@@ -219,51 +211,48 @@ msgstr "Perangkat lunak mutakhir"
 
 #: ../plugins/system-update/PageComponent.qml:187
 msgid "The update server is not responding. Try again later."
-msgstr ""
+msgstr "Server pembaharuan tidak merespon. Coba lagi nanti."
 
 #: ../plugins/system-update/PageComponent.qml:196
-#, fuzzy
 msgid "Updates Available"
 msgstr "Tersedia pembaruan"
 
 #: ../plugins/system-update/PageComponent.qml:349
-#, fuzzy
 msgid "Recent updates"
-msgstr "Periksa pembaruan"
+msgstr "Pembaruan terakhir"
 
 #: ../plugins/system-update/ChannelSettings.qml:32
 msgid "Channel settings"
-msgstr ""
+msgstr "Pengaturan saluran"
 
 #: ../plugins/system-update/ChannelSettings.qml:99
 msgid "Fetching channels"
-msgstr ""
+msgstr "Mengambil saluran"
 
 #: ../plugins/system-update/ChannelSettings.qml:107
 msgid "Channel to get updates from:"
-msgstr ""
+msgstr "Saluran untuk mendapatkan pembaruan dari:"
 
 #: ../plugins/system-update/ChannelSettings.qml:123
 msgid "Switching channel"
-msgstr ""
+msgstr "Mengganti saluran"
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:30
 msgid "Update System"
 msgstr "Mutakhirkan Sistem"
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:32
-#, fuzzy
 msgid "The device needs to restart to install the system update."
-msgstr "Telepon perlu distart ulang untuk memasang pemutakhiran sistem."
+msgstr "Perangkat perlu di nyalakan ulang untuk memasang pembaruan sistem."
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:33
-#, fuzzy
 msgid "Connect the device to power before installing the system update."
-msgstr "Telepon perlu distart ulang untuk memasang pemutakhiran sistem."
+msgstr ""
+"Hubungkan perangkat ke sumber listrik sebelum memasang pembaruan sistem."
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:38
 msgid "Restart & Install"
-msgstr ""
+msgstr "Nyalakan Ulang & Pasang"
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:48
 #: ../plugins/background/Preview.qml:107 ../plugins/wifi/CertDialog.qml:65
@@ -296,15 +285,15 @@ msgstr "Batal"
 
 #: ../plugins/system-update/NotAuthenticatedNotification.qml:37
 msgid "Sign in to Ubuntu One to receive updates for apps."
-msgstr ""
+msgstr "Masuk ke Ubuntu One untuk mendapatkan pembaruan aplikasi."
 
 #: ../plugins/system-update/NotAuthenticatedNotification.qml:54
 msgid "Sign In…"
-msgstr ""
+msgstr "Masuk…"
 
 #: ../plugins/system-update/Global.qml:84
 msgid "Checking for updates…"
-msgstr "Memeriksa pemutakhiran..."
+msgstr "Memeriksa pembaruan…"
 
 #: ../plugins/system-update/Global.qml:89
 msgid "Stop"
@@ -312,20 +301,18 @@ msgstr "Berhenti"
 
 #. TRANSLATORS: %1 is number of software updates available.
 #: ../plugins/system-update/Global.qml:116
-#, fuzzy, qt-format
+#, qt-format
 msgid "%1 update available"
 msgid_plural "%1 updates available"
-msgstr[0] "Tersedia pembaruan"
+msgstr[0] "Tersedia %1 pembaruan"
 
 #: ../plugins/system-update/Global.qml:126
-#, fuzzy
 msgid "Update all…"
-msgstr "Tersedia pembaruan"
+msgstr "Perbarui semua…"
 
 #: ../plugins/system-update/Global.qml:128
-#, fuzzy
 msgid "Update all"
-msgstr "Tersedia pembaruan"
+msgstr "Perbarui semua"
 
 #. TRANSLATORS: This is a keyword or name for the launcher plugin which is used while searching
 #: ../plugins/launcher/PageComponent.qml:31
@@ -336,37 +323,38 @@ msgstr "Peluncur"
 
 #: ../plugins/launcher/PageComponent.qml:65
 msgid "On large screens:"
-msgstr ""
+msgstr "Pada layar besar:"
 
 #: ../plugins/launcher/PageComponent.qml:73
 msgid "Always show the launcher"
-msgstr ""
+msgstr "Selalu perlihatkan peluncur"
 
 #: ../plugins/launcher/PageComponent.qml:74
 msgid "Videos and full-screen games may hide it temporarily."
 msgstr ""
+"Video dan permainan layar penuh mungkin menyembunyikannya untuk sementara."
 
 #: ../plugins/launcher/PageComponent.qml:85
 msgid "Icon size:"
-msgstr ""
+msgstr "Ukuran ikon:"
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:42
 msgid "Primary button:"
-msgstr ""
+msgstr "Tombol utama:"
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:72
 msgid "Left"
-msgstr ""
+msgstr "Kiri"
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:89
 msgid "Right"
-msgstr ""
+msgstr "Kanan"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../plugins/mouse/PageComponent.qml:29
 #: ../obj-x86_64-linux-gnu/po/settings.js:42
 msgid "Mouse & Touchpad"
-msgstr ""
+msgstr "Tetikus & Touchpad"
 
 #: ../plugins/mouse/None.qml:34
 msgid ""
@@ -374,21 +362,25 @@ msgid ""
 "Bluetooth device isn’t detected, make sure it is turned on and its batteries "
 "are charged."
 msgstr ""
+"Hubungkan tetikus atau touchpad dengan USB, atau dengan perangkat Bluetooth. "
+"Jika perangkat Bluetooth tidak terdeteksi, pastikan sudah nyala dan "
+"baterainya tidak habis."
 
 #: ../plugins/mouse/None.qml:36
 msgid ""
 "You need to use a Bluetooth mouse or touchpad with this display. Make sure "
 "it is close to the device and its batteries are charged."
 msgstr ""
+"Anda perlu menggunakan tetikus Bluetooth atau touchpad dengan layar ini. "
+"Pastikan perangkatnya berdekatan dan baterainya tidak habis."
 
 #: ../plugins/mouse/TapArea.qml:38
-#, fuzzy
 msgid "Not fast enough"
-msgstr "Tak terkirim"
+msgstr "Tidak cukup cepat"
 
 #: ../plugins/mouse/TapArea.qml:77
 msgid "Double-clicked"
-msgstr ""
+msgstr "Klik dua kali"
 
 #: ../plugins/mouse/Connected.qml:48 ../plugins/bluetooth/DevicePage.qml:59
 msgid "Mouse"
@@ -396,48 +388,47 @@ msgstr "Tetikus"
 
 #: ../plugins/mouse/Connected.qml:62 ../plugins/mouse/Connected.qml:228
 msgid "Cursor speed:"
-msgstr ""
+msgstr "Kecepatan Kursor:"
 
 #: ../plugins/mouse/Connected.qml:98
 msgid "Wheel scrolling speed:"
-msgstr ""
+msgstr "Kecepatan pengguliran roda:"
 
 #: ../plugins/mouse/Connected.qml:134 ../plugins/mouse/Connected.qml:301
 msgid "Double-click speed:"
-msgstr ""
+msgstr "Kecepatan klik dua kali:"
 
 #: ../plugins/mouse/Connected.qml:168 ../plugins/mouse/Connected.qml:335
 msgid "Test double-click:"
-msgstr ""
+msgstr "Coba klik dua kali:"
 
 #: ../plugins/mouse/Connected.qml:214
 msgid "Touchpad"
-msgstr ""
+msgstr "Touchpad"
 
 #: ../plugins/mouse/Connected.qml:264
 msgid "Finger scrolling speed:"
-msgstr ""
+msgstr "Kecepatan jari bergulir:"
 
 #: ../plugins/mouse/Connected.qml:389
 msgid "Tap to click"
-msgstr ""
+msgstr "Tap untuk mengklik"
 
 #: ../plugins/mouse/Connected.qml:403
 msgid "Scroll with two fingers"
-msgstr ""
+msgstr "Bergulir dengan dua jari"
 
 #: ../plugins/mouse/Connected.qml:410
 msgid "Ignore touchpad when:"
-msgstr ""
+msgstr "Abaikan touchpad ketika:"
 
 #: ../plugins/mouse/Connected.qml:432
 msgid "Typing"
-msgstr ""
+msgstr "Mengetik"
 
 #: ../plugins/mouse/Connected.qml:446
-#, fuzzy
 msgid "A mouse is connected"
-msgstr "Terputus"
+msgstr "Tetikus terhubung"
 
 #. TRANSLATORS: This is a keyword or name for the notifications plugin which is used while searching
 #: ../plugins/notifications/ClickAppNotifications.qml:54
@@ -448,58 +439,54 @@ msgstr "Pemberitahuan"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:72
 msgid "Let this app alert me using:"
-msgstr ""
+msgstr "Biarkan aplikasi ini memperingatkan saya menggunakan:"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:81
 #: ../plugins/notifications/PageComponent.qml:177
-#, fuzzy
 msgid "Sounds"
 msgstr "Suara"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:103
 #: ../plugins/notifications/PageComponent.qml:180
-#, fuzzy
 msgid "Vibrations"
-msgstr "Vibrasi papan tik"
+msgstr "Getaran"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:125
-#, fuzzy
 msgid "Notification Bubbles"
-msgstr "Notifikasi"
+msgstr "Gelembung Notifikasi"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:147
 #: ../plugins/notifications/PageComponent.qml:186
-#, fuzzy
 msgid "Notification List"
-msgstr "Notifikasi"
+msgstr "Daftar Notifikasi"
 
 #: ../plugins/notifications/PageComponent.qml:75
 msgid ""
 "Apps can alert you using sounds, vibrations, notification bubbles and the "
 "Notification list."
 msgstr ""
+"Aplikasi dapat memperingatkan Anda dengan suara, getaran, gelembung "
+"notifikasi dan daftar notifikasi."
 
 #: ../plugins/notifications/PageComponent.qml:91
 msgid "Apps that notify with sound"
-msgstr ""
+msgstr "Aplikasi yang memberitahu dengan suara"
 
 #: ../plugins/notifications/PageComponent.qml:117
 msgid "Apps that notify with vibration"
-msgstr ""
+msgstr "Aplikasi yang memberitahu dengan getaran"
 
 #: ../plugins/notifications/PageComponent.qml:143
-#, fuzzy
 msgid "Applications:"
-msgstr "Lokasi"
+msgstr "Aplikasi:"
 
 #: ../plugins/notifications/PageComponent.qml:172
-#, fuzzy
 msgid "No notifications"
-msgstr "notifikasi"
+msgstr "Tidak ada notifikasi"
 
 #: ../plugins/notifications/PageComponent.qml:183
 msgid "Bubbles"
-msgstr ""
+msgstr "Gelembung"
 
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../plugins/notifications/ClickAppsSoundsNotify.qml:30
@@ -510,29 +497,27 @@ msgstr "Suara"
 
 #: ../plugins/notifications/ClickAppsSoundsNotify.qml:48
 msgid "Apps that notify with sound:"
-msgstr ""
+msgstr "Aplikasi yang memberitahu dengan suara:"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:30
 msgid "Vibration"
 msgstr "Getaran"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:54
-#, fuzzy
 msgid "When in Silent mode:"
-msgstr "Getar dalam Modus Senyap"
+msgstr "Ketika dalam mode Diam:"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:72
-#, fuzzy
 msgid "Vibrate as normal"
-msgstr "Getar ketika berdering"
+msgstr "Getar secara normal"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:73
 msgid "Don't vibrate"
-msgstr ""
+msgstr "Jangan bergetar"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:89
 msgid "Apps that notify with vibrations:"
-msgstr ""
+msgstr "Aplikasi yang memberitahu dengan getaran:"
 
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../plugins/background/MainPage.qml:38
@@ -549,13 +534,12 @@ msgid "Custom"
 msgstr "Kustom"
 
 #: ../plugins/background/MainPage.qml:118
-#, fuzzy
 msgid "Dash background"
-msgstr "latar belakang"
+msgstr "Latar belakang dash"
 
 #: ../plugins/background/MainPage.qml:131
 msgid "Opacity:"
-msgstr ""
+msgstr "Kegelapan:"
 
 #: ../plugins/background/Preview.qml:69
 msgid "Preview"
@@ -578,11 +562,11 @@ msgstr "Mode Senyap"
 
 #: ../plugins/sound/PageComponent.qml:100
 msgid "Ringer:"
-msgstr ""
+msgstr "Dering:"
 
 #: ../plugins/sound/PageComponent.qml:141
 msgid "High volume can damage your hearing."
-msgstr ""
+msgstr "Volume tinggi dapat merusak telinga Anda."
 
 #: ../plugins/sound/PageComponent.qml:145
 msgid "Phone calls:"
@@ -594,7 +578,6 @@ msgid "Ringtone"
 msgstr "Nada dering"
 
 #: ../plugins/sound/PageComponent.qml:171
-#, fuzzy
 msgid "Vibrate on ring"
 msgstr "Getar ketika berdering"
 
@@ -605,9 +588,8 @@ msgstr "Getar dalam Modus Senyap"
 
 #: ../plugins/sound/PageComponent.qml:194
 #: ../plugins/phone/PageComponent.qml:102
-#, fuzzy
 msgid "Dialpad tones"
-msgstr "Suara papan tombol"
+msgstr "Suara dialpad"
 
 #: ../plugins/sound/PageComponent.qml:203
 msgid "Messages:"
@@ -636,41 +618,36 @@ msgid "Lock sound"
 msgstr "Suara kunci"
 
 #: ../plugins/sound/PageComponent.qml:278
-#, fuzzy
 msgid "Other vibrations"
-msgstr "Vibrasi papan tik"
+msgstr "Getaran yang lain"
 
 #: ../plugins/sound/SoundsList.qml:128
-#, fuzzy
 msgid "Custom Ringtone"
-msgstr "Nada dering"
+msgstr "Nada dering kustom"
 
 #: ../plugins/sound/SoundsList.qml:206
-#, fuzzy
 msgid "Choose from"
-msgstr "Pilih operator:"
+msgstr "Pilih dari"
 
 #: ../plugins/wifi/CertDialog.qml:22
 msgid "Add certificate?"
-msgstr ""
+msgstr "Tambah sertifikat?"
 
 #: ../plugins/wifi/CertDialog.qml:24
 msgid "Add key?"
-msgstr ""
+msgstr "Tambah kunci?"
 
 #: ../plugins/wifi/CertDialog.qml:26
 msgid "Add pac file?"
-msgstr ""
+msgstr "Tambah file pac?"
 
 #: ../plugins/wifi/CertDialog.qml:36
-#, fuzzy
 msgid "Content:"
-msgstr "Lanjutkan"
+msgstr "Konten:"
 
 #: ../plugins/wifi/CertDialog.qml:49
-#, fuzzy
 msgid "No data available."
-msgstr "Tersedia pembaruan"
+msgstr "Tidak ada data tersedia."
 
 #: ../plugins/wifi/CertDialog.qml:74
 msgid "Save"
@@ -699,7 +676,7 @@ msgstr "Nama jaringan"
 
 #: ../plugins/wifi/OtherNetwork.qml:298
 msgid "SSID"
-msgstr ""
+msgstr "SSID"
 
 #: ../plugins/wifi/OtherNetwork.qml:307
 #: ../plugins/security-privacy/PageComponent.qml:142
@@ -726,12 +703,11 @@ msgstr "Nihil"
 
 #: ../plugins/wifi/OtherNetwork.qml:319
 msgid "WPA & WPA2 Personal"
-msgstr "WPA & WPA2 Personal"
+msgstr "WPA & WPA2 Pribadi"
 
 #: ../plugins/wifi/OtherNetwork.qml:320
-#, fuzzy
 msgid "WPA & WPA2 Enterprise"
-msgstr "WPA & WPA2 Personal"
+msgstr "WPA & WPA2 Perusahaan"
 
 #: ../plugins/wifi/OtherNetwork.qml:321
 msgid "WEP"
@@ -739,29 +715,28 @@ msgstr "WEP"
 
 #: ../plugins/wifi/OtherNetwork.qml:322
 msgid "Dynamic WEP (802.1x)"
-msgstr ""
+msgstr "WEP dinamis (802.1x)"
 
 #: ../plugins/wifi/OtherNetwork.qml:323
 msgid "LEAP"
-msgstr ""
+msgstr "LEAP"
 
 #: ../plugins/wifi/OtherNetwork.qml:332
 msgid "This network is insecure."
-msgstr ""
+msgstr "Jaringan ini tidak aman."
 
 #: ../plugins/wifi/OtherNetwork.qml:338
 #: ../plugins/cellular/PageApnEditor.qml:382
-#, fuzzy
 msgid "Authentication"
-msgstr "notifikasi"
+msgstr "Autentikasi"
 
 #: ../plugins/wifi/OtherNetwork.qml:363
 msgid "Inner authentication"
-msgstr ""
+msgstr "Autentikasi internal"
 
 #: ../plugins/wifi/OtherNetwork.qml:396
 msgid "CA certificate"
-msgstr ""
+msgstr "Sertifikat CA"
 
 #. TRANSLATORS: %1 is the name of a certificate file.
 #. The ellipsis indicates that the file name has been
@@ -769,14 +744,14 @@ msgstr ""
 #: ../plugins/wifi/OtherNetwork.qml:450
 #, qt-format
 msgid "%1…"
-msgstr ""
+msgstr "%1…"
 
 #: ../plugins/wifi/OtherNetwork.qml:458 ../plugins/wifi/OtherNetwork.qml:575
 #: ../plugins/wifi/certhandler.cpp:106 ../plugins/wifi/certhandler.cpp:141
 #: ../plugins/wifi/certhandler.cpp:193 ../plugins/wifi/certhandler.cpp:225
 #: ../plugins/wifi/certhandler.cpp:290 ../plugins/wifi/certhandler.cpp:319
 msgid "Choose…"
-msgstr ""
+msgstr "Pilih…"
 
 #. TRANSLATORS: The first position is the name of
 #. the organization that has issued the certificate.
@@ -786,7 +761,7 @@ msgstr ""
 #: ../plugins/wifi/OtherNetwork.qml:465
 #, qt-format
 msgid "%1…, Exp.: %2"
-msgstr ""
+msgstr "%1…, Exp.: %2"
 
 #. TRANSLATORS: The first position is the name of
 #. the organization that has issued the certificate.
@@ -795,19 +770,21 @@ msgstr ""
 #: ../plugins/wifi/OtherNetwork.qml:473
 #, qt-format
 msgid "%1, Exp.: %2"
-msgstr ""
+msgstr "%1, Exp.: %2"
 
 #: ../plugins/wifi/OtherNetwork.qml:494
 msgid "Using certificates is recommended as it increases security."
 msgstr ""
+"Menggunakan sertifikat sangat direkomendasikan karena dapat mempertambah "
+"keamanan."
 
 #: ../plugins/wifi/OtherNetwork.qml:512
 msgid "Client certificate"
-msgstr ""
+msgstr "Sertifikat klien"
 
 #: ../plugins/wifi/OtherNetwork.qml:554
 msgid "User private key"
-msgstr ""
+msgstr "Kunci privasi pengguna"
 
 #. TRANSLATORS: The first position is the type of
 #. private key, second the key algorithm, and third the
@@ -815,45 +792,43 @@ msgstr ""
 #: ../plugins/wifi/OtherNetwork.qml:579
 #, qt-format
 msgid "%1, %2, %3 bit"
-msgstr ""
+msgstr "%1, %2, %3 bit"
 
 #: ../plugins/wifi/OtherNetwork.qml:622
 msgid "Pac file"
-msgstr ""
+msgstr "File Pac"
 
 #: ../plugins/wifi/OtherNetwork.qml:672
 msgid "Pac provisioning"
-msgstr ""
+msgstr "Penyediaan Pac"
 
 #: ../plugins/wifi/OtherNetwork.qml:686
 msgid "Disabled"
-msgstr ""
+msgstr "Dinonaktifkan"
 
 #: ../plugins/wifi/OtherNetwork.qml:687
 msgid "Anonymous"
-msgstr ""
+msgstr "Anonim"
 
 #: ../plugins/wifi/OtherNetwork.qml:688
 msgid "Authenticated"
-msgstr ""
+msgstr "Di autentikasi"
 
 #: ../plugins/wifi/OtherNetwork.qml:689
 msgid "Both"
-msgstr ""
+msgstr "Keduanya"
 
 #: ../plugins/wifi/OtherNetwork.qml:699
 msgid "PEAP version"
-msgstr ""
+msgstr "Versi PEAP"
 
 #: ../plugins/wifi/OtherNetwork.qml:713
-#, fuzzy
 msgid "Version 0"
-msgstr "Versi: "
+msgstr "Versi 0"
 
 #: ../plugins/wifi/OtherNetwork.qml:714
-#, fuzzy
 msgid "Version 1"
-msgstr "Versi: "
+msgstr "Versi 1"
 
 #: ../plugins/wifi/OtherNetwork.qml:715
 msgid "Automatic"
@@ -861,11 +836,11 @@ msgstr "Otomatis"
 
 #: ../plugins/wifi/OtherNetwork.qml:725
 msgid "Anonymous identity"
-msgstr ""
+msgstr "Identitas anonim"
 
 #: ../plugins/wifi/OtherNetwork.qml:752
 msgid "Identity"
-msgstr ""
+msgstr "Identitas"
 
 #: ../plugins/wifi/OtherNetwork.qml:754
 msgid "Username"
@@ -873,7 +848,7 @@ msgstr "Nama Pengguna"
 
 #: ../plugins/wifi/OtherNetwork.qml:784
 msgid "Private key password"
-msgstr ""
+msgstr "Kata sandi kunci privasi"
 
 #: ../plugins/wifi/OtherNetwork.qml:786 ../plugins/wifi/NetworkDetails.qml:70
 #: ../plugins/cellular/PageApnEditor.qml:357
@@ -886,9 +861,8 @@ msgid "Show password"
 msgstr "Tampilkan sandi"
 
 #: ../plugins/wifi/OtherNetwork.qml:857
-#, fuzzy
 msgid "Remember password"
-msgstr "Tampilkan sandi"
+msgstr "Ingat kata sandi"
 
 #: ../plugins/wifi/OtherNetwork.qml:905 ../plugins/bluetooth/DevicePage.qml:150
 msgid "Connect"
@@ -1035,7 +1009,7 @@ msgstr "Wi-Fi"
 
 #: ../plugins/wifi/PageComponent.qml:129
 msgid "Connect to hidden network…"
-msgstr "Menyambung ke jaringan tersembunyi..."
+msgstr "Menyambung ke jaringan tersembunyi…"
 
 #: ../plugins/wifi/NetworkDetails.qml:38
 msgid "Network details"
@@ -1054,9 +1028,8 @@ msgstr "Terakhir tersambung"
 
 #: ../plugins/wifi/NetworkDetails.qml:96
 #: ../plugins/wifi/NetworkDetailsBrief.qml:53
-#, fuzzy
 msgid "Forget this network"
-msgstr "Lupakan jaringan"
+msgstr "Lupakan jaringan ini"
 
 #: ../plugins/wifi/NetworkDetailsBrief.qml:69
 msgid "IP address"
@@ -1065,46 +1038,40 @@ msgstr "Alamat IP"
 #: ../plugins/printing/AddPrinter.qml:34
 #: ../plugins/printing/AddPrinterDetails.qml:54
 #: ../plugins/printing/PageComponent.qml:38
-#, fuzzy
 msgid "Add printer"
-msgstr "Pencetak"
+msgstr "Tambahkan printer"
 
 #: ../plugins/printing/AddPrinter.qml:65
-#, fuzzy
 msgid "Enter URI"
-msgstr "Masukkan PIN SIM"
+msgstr "Masukkan URI"
 
 #: ../plugins/printing/AddPrinter.qml:78
-#, fuzzy
 msgid "Devices"
-msgstr "Layanan"
+msgstr "Perangkat"
 
 #: ../plugins/printing/AddPrinter.qml:133
 msgid "No devices found."
-msgstr ""
+msgstr "Tak ada perangkat yang ditemukan."
 
 #: ../plugins/printing/AddPrinterDetails.qml:37
 msgid "Describe printer"
-msgstr ""
+msgstr "Deskripsi printer"
 
 #: ../plugins/printing/AddPrinterDetails.qml:44
 msgid "Back"
 msgstr "Kembali"
 
 #: ../plugins/printing/AddPrinterDetails.qml:137
-#, fuzzy
 msgid "Connection"
-msgstr "Menyambung..."
+msgstr "Koneksi"
 
 #: ../plugins/printing/AddPrinterDetails.qml:139
-#, fuzzy
 msgid "Choose a connection"
-msgstr "Pilih frasa sandi"
+msgstr "Pilih koneksi"
 
 #: ../plugins/printing/AddPrinterDetails.qml:165
-#, fuzzy
 msgid "Printer name"
-msgstr "Pencetak"
+msgstr "Nama printer"
 
 #: ../plugins/printing/AddPrinterDetails.qml:202
 #: ../plugins/printing/printer-sub-pages/Status.qml:66
@@ -1115,7 +1082,7 @@ msgstr "Deskripsi"
 #: ../plugins/printing/AddPrinterDetails.qml:204
 #: ../plugins/printing/AddPrinterDetails.qml:211
 msgid "Optional"
-msgstr ""
+msgstr "Opsional"
 
 #: ../plugins/printing/AddPrinterDetails.qml:209
 #: ../plugins/security-privacy/AppAccess.qml:81
@@ -1127,51 +1094,49 @@ msgstr "Lokasi"
 
 #: ../plugins/printing/AddPrinterDetails.qml:219
 msgid "Driver"
-msgstr ""
+msgstr "Driver"
 
 #: ../plugins/printing/AddPrinterDetails.qml:225
-#, fuzzy
 msgid "Choose driver"
-msgstr "Pilih operator:"
+msgstr "Pilih driver"
 
 #: ../plugins/printing/AddPrinterDetails.qml:227
 msgid "Select printer from database"
-msgstr ""
+msgstr "Pilih printer dari basis data"
 
 #: ../plugins/printing/AddPrinterDetails.qml:228
 msgid "Provide PPD file"
-msgstr ""
+msgstr "Menyediakan filde PPD"
 
 #: ../plugins/printing/AddPrinterDetails.qml:235
 msgid "Filter drivers"
-msgstr ""
+msgstr "Saring driver"
 
 #: ../plugins/printing/AddPrinterDetails.qml:304
 msgid "PPD file"
-msgstr ""
+msgstr "File PPD"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../plugins/printing/PageComponent.qml:32
 #: ../obj-x86_64-linux-gnu/po/settings.js:134
-#, fuzzy
 msgid "Printing"
-msgstr "Pencetak"
+msgstr "Memprint"
 
 #: ../plugins/printing/PageComponent.qml:45
 msgid "Manager Printer Jobs"
-msgstr ""
+msgstr "Pengelola Pekerjaan Printer"
 
 #: ../plugins/printing/PageComponent.qml:106
 msgid "Default printer"
-msgstr ""
+msgstr "Printer bawaan"
 
 #: ../plugins/printing/PageComponent.qml:107
 msgid "Configured printers"
-msgstr ""
+msgstr "Printer terkonfigurasi"
 
 #: ../plugins/printing/PageComponent.qml:115
 msgid "Discovered printers"
-msgstr ""
+msgstr "Printer yang ditemukan"
 
 #: ../plugins/printing/PageComponent.qml:136
 #: ../plugins/cellular/PageChooseApn.qml:305
@@ -1181,34 +1146,31 @@ msgstr "Hapus"
 #: ../plugins/printing/PageComponent.qml:149
 #: ../plugins/printing/printer-sub-pages/Policies.qml:50
 msgid "Set as Default"
-msgstr ""
+msgstr "Atur sebagai Bawaan"
 
 #: ../plugins/printing/PageComponent.qml:190
 msgid "There are no printers configured yet."
-msgstr ""
+msgstr "Belum ada printer yang terkonfigurasi."
 
 #: ../plugins/printing/PrinterConnection.qml:67
 msgid "Host"
-msgstr ""
+msgstr "Host"
 
 #: ../plugins/printing/Printer.qml:42
-#, fuzzy
 msgid "Printer status"
-msgstr "Pencetak"
+msgstr "Status printer"
 
 #: ../plugins/printing/Printer.qml:43
-#, fuzzy
 msgid "General settings"
-msgstr "Pengaturan Sistem"
+msgstr "Pengaturan umum"
 
 #: ../plugins/printing/Printer.qml:44
 msgid "Policies"
-msgstr ""
+msgstr "Kebijakan"
 
 #: ../plugins/printing/Printer.qml:47
-#, fuzzy
 msgid "Copies and pages"
-msgstr "Waktu & Tanggal"
+msgstr "Salin dan halaman"
 
 #: ../plugins/cellular/PageChooseCarrier.qml:32
 #: ../plugins/cellular/PageChooseCarrier.qml:129
@@ -1226,9 +1188,8 @@ msgstr "Secara otomatis"
 
 #: ../plugins/cellular/PageCarrierAndApn.qml:27
 #: ../plugins/cellular/Components/SingleSim.qml:110
-#, fuzzy
 msgid "Carrier & APN"
-msgstr "Operator"
+msgstr "Carrier & APN"
 
 #. TRANSLATORS: This string is a description of a text
 #. field and should thus be concise.
@@ -1246,30 +1207,25 @@ msgid "Cellular"
 msgstr "Seluler"
 
 #: ../plugins/cellular/PageCarriersAndApns.qml:27
-#, fuzzy
 msgid "Carriers & APNs"
-msgstr "Operator"
+msgstr "Carriers & APNs"
 
 #: ../plugins/cellular/PageChooseApn.qml:64
-#, fuzzy
 msgid "MMS APN"
-msgstr "APN MMS:"
+msgstr "MMS APN"
 
 #: ../plugins/cellular/PageChooseApn.qml:70
-#, fuzzy
 msgid "Internet APN"
-msgstr "APN Internet:"
+msgstr "APN Internet"
 
 #: ../plugins/cellular/PageChooseApn.qml:76
-#, fuzzy
 msgid "LTE APN"
-msgstr "APN %1"
+msgstr "APN LTE"
 
 #: ../plugins/cellular/PageChooseApn.qml:86
 #: ../plugins/cellular/PageApnEditor.qml:158
-#, fuzzy
 msgid "Internet and MMS"
-msgstr "Internet"
+msgstr "Internet dan MMS"
 
 #: ../plugins/cellular/PageChooseApn.qml:88
 #: ../plugins/cellular/PageApnEditor.qml:159
@@ -1279,7 +1235,7 @@ msgstr "Internet"
 #: ../plugins/cellular/PageChooseApn.qml:90
 #: ../plugins/cellular/PageApnEditor.qml:161
 msgid "LTE"
-msgstr ""
+msgstr "LTE"
 
 #: ../plugins/cellular/PageChooseApn.qml:92
 #: ../plugins/cellular/PageApnEditor.qml:160
@@ -1287,9 +1243,8 @@ msgid "MMS"
 msgstr "MMS"
 
 #: ../plugins/cellular/PageChooseApn.qml:158
-#, fuzzy
 msgid "Reset All APN Settings…"
-msgstr "Setel Ulang APN"
+msgstr "Atur Ulang Semua Pengaturan APN…"
 
 #: ../plugins/cellular/PageChooseApn.qml:167
 msgid "Reset APN Settings"
@@ -1313,7 +1268,7 @@ msgstr "Setel Ulang"
 #: ../plugins/cellular/PageChooseApn.qml:225
 #, qt-format
 msgid "Prefer %1"
-msgstr ""
+msgstr "Memilih %1"
 
 #. TRANSLATORS: %1 is the MMS APN that the user has chosen to be
 #. “preferred”, i.e. used to retrieve MMS messages. %2 is the Internet
@@ -1321,7 +1276,7 @@ msgstr ""
 #: ../plugins/cellular/PageChooseApn.qml:198
 #, qt-format
 msgid "You have chosen %1 as your preferred MMS APN. "
-msgstr ""
+msgstr "Anda telah memilih %1 sebagai pilihan MMS APN Anda. "
 
 #: ../plugins/cellular/PageChooseApn.qml:203
 #: ../plugins/cellular/PageChooseApn.qml:268
@@ -1335,7 +1290,7 @@ msgstr "Putuskan"
 #: ../plugins/cellular/PageChooseApn.qml:229
 #, qt-format
 msgid "You have chosen %1 as your preferred Internet APN. "
-msgstr ""
+msgstr "Anda telah memilih %1 sebagai pilihan Internet APN Anda. "
 
 #: ../plugins/cellular/PageChooseApn.qml:234
 #: ../plugins/cellular/PageChooseApn.qml:267
@@ -1343,45 +1298,44 @@ msgid "Disable"
 msgstr "Nonaktifkan"
 
 #: ../plugins/cellular/PageChooseApn.qml:256
-#, fuzzy, qt-format
+#, qt-format
 msgid "Disconnect %1"
-msgstr "Putuskan"
+msgstr "Putus %1"
 
 #: ../plugins/cellular/PageChooseApn.qml:257
 #, qt-format
 msgid "Disable %1"
-msgstr ""
+msgstr "Nonaktifkan %1"
 
 #: ../plugins/cellular/PageChooseApn.qml:262
-#, fuzzy, qt-format
+#, qt-format
 msgid "This disconnects %1."
-msgstr "Putuskan"
+msgstr "Ini putus %1."
 
 #: ../plugins/cellular/PageChooseApn.qml:263
 #, qt-format
 msgid "This disables %1."
-msgstr ""
+msgstr "Ini menonaktifkan %1."
 
 #: ../plugins/cellular/PageApnEditor.qml:69
 msgid "Edit"
 msgstr "Sunting"
 
 #: ../plugins/cellular/PageApnEditor.qml:69
-#, fuzzy
 msgid "New APN"
-msgstr "APN %1"
+msgstr "APN Baru"
 
 #: ../plugins/cellular/PageApnEditor.qml:154
 msgid "Used for:"
-msgstr ""
+msgstr "Digunakan untuk:"
 
 #: ../plugins/cellular/PageApnEditor.qml:187
 msgid "Enter a name describing the APN"
-msgstr ""
+msgstr "Masukkan nama yang mendeskripsikan APN"
 
 #: ../plugins/cellular/PageApnEditor.qml:212
 msgid "Enter the name of the access point"
-msgstr ""
+msgstr "Masukkan nama access point"
 
 #: ../plugins/cellular/PageApnEditor.qml:226
 msgid "MMSC"
@@ -1389,74 +1343,72 @@ msgstr "MMSC"
 
 #: ../plugins/cellular/PageApnEditor.qml:235
 msgid "Enter message center"
-msgstr ""
+msgstr "Masukkan pusat pesan"
 
 #: ../plugins/cellular/PageApnEditor.qml:253
 msgid "Proxy"
-msgstr ""
+msgstr "Proxy"
 
 #: ../plugins/cellular/PageApnEditor.qml:262
 msgid "Enter message proxy"
-msgstr ""
+msgstr "Masukkan pesan proxy"
 
 #: ../plugins/cellular/PageApnEditor.qml:307
 msgid "Proxy port"
-msgstr ""
+msgstr "Port proxy"
 
 #: ../plugins/cellular/PageApnEditor.qml:317
 msgid "Enter message proxy port"
-msgstr ""
+msgstr "Masukkan pesan port proxy"
 
 #: ../plugins/cellular/PageApnEditor.qml:335
-#, fuzzy
 msgid "User name"
-msgstr "Nama jaringan"
+msgstr "Nama pengguna"
 
 #: ../plugins/cellular/PageApnEditor.qml:344
 msgid "Enter username"
-msgstr ""
+msgstr "Masukkan nama pengguna"
 
 #: ../plugins/cellular/PageApnEditor.qml:368
-#, fuzzy
 msgid "Enter password"
-msgstr "Tampilkan sandi"
+msgstr "Masukkan kata sandi"
 
 #: ../plugins/cellular/PageApnEditor.qml:387
 msgid "PAP or CHAP"
-msgstr ""
+msgstr "PAP atau CHAP"
 
 #: ../plugins/cellular/PageApnEditor.qml:388
 msgid "PAP only"
-msgstr ""
+msgstr "Hanya PAP"
 
 #: ../plugins/cellular/PageApnEditor.qml:389
 msgid "CHAP only"
-msgstr ""
+msgstr "Hanya CHAP"
 
 #: ../plugins/cellular/PageApnEditor.qml:400
 msgid "Protocol"
-msgstr ""
+msgstr "Protokol"
 
 #: ../plugins/cellular/PageApnEditor.qml:404
 msgid "IPv4"
-msgstr ""
+msgstr "IPv4"
 
 #: ../plugins/cellular/PageApnEditor.qml:405
 msgid "IPv6"
-msgstr ""
+msgstr "IPv6"
 
 #: ../plugins/cellular/PageApnEditor.qml:406
 msgid "IPv4v6"
-msgstr ""
+msgstr "IPv4v6"
 
 #: ../plugins/security-privacy/AppAccess.qml:29
 #: ../plugins/security-privacy/PageComponent.qml:264
 msgid "App permissions"
-msgstr ""
+msgstr "Izin aplikasi"
 
 #: ../plugins/security-privacy/AppAccess.qml:69
 msgid "Apps that you have granted access to:"
-msgstr ""
+msgstr "Aplikasi yang Anda beri akses ke:"
 
 #: ../plugins/security-privacy/AppAccess.qml:75
 #: ../plugins/bluetooth/DevicePage.qml:61
@@ -1465,20 +1417,19 @@ msgstr "Kamera"
 
 #: ../plugins/security-privacy/AppAccess.qml:76
 msgid "Apps that have requested access to your camera"
-msgstr ""
+msgstr "Aplikasi yang meminta permintaan akses ke kamera Anda"
 
 #: ../plugins/security-privacy/AppAccess.qml:82
 msgid "Apps that have requested access to your location"
-msgstr ""
+msgstr "Aplikasi yang meminta permintaan akses ke lokasi Anda"
 
 #: ../plugins/security-privacy/AppAccess.qml:87
-#, fuzzy
 msgid "Microphone"
-msgstr "telepon"
+msgstr "Mikrofon"
 
 #: ../plugins/security-privacy/AppAccess.qml:88
 msgid "Apps that have requested access to your microphone"
-msgstr ""
+msgstr "Aplikasi yang meminta permintaan akses ke mikrofon Anda"
 
 #: ../plugins/security-privacy/AppAccess.qml:102
 #, qt-format
@@ -1491,11 +1442,11 @@ msgstr "0"
 
 #: ../plugins/security-privacy/AppAccess.qml:118
 msgid "Apps may also request access to online accounts."
-msgstr ""
+msgstr "Aplikasi yang mungkin juga meminta akses ke akun daring."
 
 #: ../plugins/security-privacy/AppAccess.qml:123
 msgid "Online Accounts…"
-msgstr ""
+msgstr "Akun Daring…"
 
 #: ../plugins/security-privacy/SimPin.qml:37
 #: ../plugins/security-privacy/SimPin.qml:398
@@ -1512,16 +1463,14 @@ msgstr "Ubah PIN SIM"
 #, qt-format
 msgid "Incorrect PIN. %1 attempt remaining."
 msgid_plural "Incorrect PIN. %1 attempts remaining."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "PIN Salah. %1 upaya tersisa."
 
 #: ../plugins/security-privacy/SimPin.qml:58
 #: ../plugins/security-privacy/SimPin.qml:120
 #: ../plugins/security-privacy/SimPin.qml:224
 #: ../plugins/security-privacy/SimPin.qml:297
-#, fuzzy
 msgid "No more attempts allowed"
-msgstr "%1 percobaan diizinkan."
+msgstr "Tidak ada lagi upaya yang diizinkan"
 
 #: ../plugins/security-privacy/SimPin.qml:93
 msgid "Current PIN:"
@@ -1532,8 +1481,7 @@ msgstr "PIN Saat Ini:"
 #, qt-format
 msgid "%1 attempt allowed."
 msgid_plural "%1 attempts allowed."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 upaya diizinkan."
 
 #: ../plugins/security-privacy/SimPin.qml:135
 msgid "Choose new PIN:"
@@ -1545,7 +1493,7 @@ msgstr "Konfirmasikan PIN baru:"
 
 #: ../plugins/security-privacy/SimPin.qml:168
 msgid "PINs don't match. Try again."
-msgstr ""
+msgstr "PIN tidak cocok. Coba lagi."
 
 #: ../plugins/security-privacy/SimPin.qml:187
 #: ../plugins/security-privacy/LockSecurity.qml:388
@@ -1570,43 +1518,44 @@ msgid "Lock"
 msgstr "Kunci"
 
 #: ../plugins/security-privacy/SimPin.qml:413
-#, fuzzy
 msgid "Unlocked"
-msgstr "Buka kunci"
+msgstr "Terkunci"
 
 #: ../plugins/security-privacy/SimPin.qml:416
 msgid "Change PIN…"
-msgstr "Ubah PIN..."
+msgstr "Ubah PIN…"
 
 #: ../plugins/security-privacy/SimPin.qml:427
-#, fuzzy
 msgid "Locked"
-msgstr "Kunci"
+msgstr "Dikunci"
 
 #: ../plugins/security-privacy/SimPin.qml:431
-#, fuzzy
 msgid "Unlock…"
-msgstr "Buka kunci"
+msgstr "Membuka kunci…"
 
 #: ../plugins/security-privacy/SimPin.qml:445
 msgid ""
 "When a SIM PIN is set, it must be entered to access cellular services after "
 "restarting the device or swapping the SIM."
 msgstr ""
+"Ketika PIN SIM sudah diatur, PIN harus dimasukkan untuk mengakses layanan "
+"seluler setelah memulai ulang perangkat atau menukar SIM."
 
 #: ../plugins/security-privacy/SimPin.qml:449
 msgid "Entering an incorrect PIN repeatedly may lock the SIM permanently."
 msgstr ""
+"Memasukkan PIN yang salah berkali-kali mungkin akan mengunci SIM secara "
+"permanen."
 
 #: ../plugins/security-privacy/here-terms.qml:24
 msgid "Nokia HERE"
-msgstr ""
+msgstr "Nokia HERE"
 
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../plugins/security-privacy/PageComponent.qml:40
 #: ../obj-x86_64-linux-gnu/po/settings.js:188
 msgid "Security & Privacy"
-msgstr ""
+msgstr "Keamanan & Privasi"
 
 #: ../plugins/security-privacy/PageComponent.qml:116
 msgid "Phone and Internet"
@@ -1614,16 +1563,16 @@ msgstr "Telepon dan Internet"
 
 #: ../plugins/security-privacy/PageComponent.qml:118
 msgid "Phone only"
-msgstr ""
+msgstr "Hanya ponsel"
 
 #: ../plugins/security-privacy/PageComponent.qml:148
 msgid "Fingerprint ID"
-msgstr ""
+msgstr "ID Sidik Jari"
 
 #: ../plugins/security-privacy/PageComponent.qml:168
 #: ../plugins/security-privacy/PhoneLocking.qml:32
 msgid "Locking and unlocking"
-msgstr ""
+msgstr "Mengunci dan membuka kunci"
 
 #: ../plugins/security-privacy/PageComponent.qml:181
 #: ../plugins/security-privacy/PageComponent.qml:253
@@ -1645,6 +1594,8 @@ msgid ""
 "Encryption protects against access to phone data when the phone is connected "
 "to a PC or other device."
 msgstr ""
+"Enkripsi melindungi terhadap akses ke data ponsel ketika telepon terhubung "
+"ke PC atau perangkat lain."
 
 #: ../plugins/security-privacy/PageComponent.qml:207
 msgid "Privacy"
@@ -1652,11 +1603,11 @@ msgstr "Privasi"
 
 #: ../plugins/security-privacy/PageComponent.qml:211
 msgid "Stats on welcome screen"
-msgstr ""
+msgstr "Status pada layar selamat datang"
 
 #: ../plugins/security-privacy/PageComponent.qml:221
 msgid "Messages on welcome screen"
-msgstr ""
+msgstr "Pesan pada layar selamat datang"
 
 #: ../plugins/security-privacy/PageComponent.qml:269
 #: ../plugins/security-privacy/diagnostics/PageComponent.qml:31
@@ -1677,15 +1628,15 @@ msgstr "Tak terkirim"
 
 #: ../plugins/security-privacy/Location.qml:96
 msgid "Let the device detect your location:"
-msgstr ""
+msgstr "Biarkan perangkat mendeteksi lokasi Anda:"
 
 #: ../plugins/security-privacy/Location.qml:175
 msgid "Using GPS only (less accurate)"
-msgstr ""
+msgstr "Hanya menggunakan GPS (kurang akurat)"
 
 #: ../plugins/security-privacy/Location.qml:176
 msgid "Using GPS"
-msgstr ""
+msgstr "Gunakan GPS"
 
 #: ../plugins/security-privacy/Location.qml:188
 #, qt-format
@@ -1693,6 +1644,9 @@ msgid ""
 "Using GPS, anonymized Wi-Fi and cellular network info.<br>By selecting this "
 "option you accept the <a href='%1'>Nokia HERE terms and conditions</a>."
 msgstr ""
+"Menggunakan GPS, Wi-Fi dan informasi jaringan seluler anonim.<br>Dengan "
+"memilih opsi ini, Anda menerima <a href='%1'>syarat dan ketentuan Nokia "
+"HERE</a>."
 
 #: ../plugins/security-privacy/Location.qml:189
 #, qt-format
@@ -1700,46 +1654,61 @@ msgid ""
 "Using GPS and anonymized Wi-Fi info.<br>By selecting this option you accept "
 "the <a href='%1'>Nokia HERE terms and conditions</a>."
 msgstr ""
+"Menggunakan GPS dan info Wi-Fi anonim.<br>Dengan memilih opsi ini, Anda "
+"menerima <a href='%1'>syarat dan ketentuan Nokia HERE</a>."
 
 #: ../plugins/security-privacy/Location.qml:195
 msgid "Not at all"
-msgstr ""
+msgstr "Tidak semuanya"
 
 #: ../plugins/security-privacy/Location.qml:212
 msgid ""
 "Uses GPS to detect your rough location. When off, GPS turns off to save "
 "battery."
 msgstr ""
+"Menggunakan GPS untuk mendeteksi lokasi kasar Anda. Saat tidak aktif, GPS "
+"dinonaktifkan untuk menghemat baterai."
 
 #: ../plugins/security-privacy/Location.qml:214
 msgid ""
 "Uses WiFi and GPS to detect your rough location. Turning off location "
 "detection saves battery."
 msgstr ""
+"Menggunakan WiFi dan GPS untuk mendeteksi lokasi kasar Anda. Menonaktifkan "
+"deteksi lokasi akan menghemat bakteri."
 
 #: ../plugins/security-privacy/Location.qml:216
 msgid ""
 "Uses WiFi (currently off) and GPS to detect your rough location. Turning off "
 "location detection saves battery."
 msgstr ""
+"Menggunakan WiFi (tidak aktif) dan GPS untuk mendeteksi lokasi kasar Anda. "
+"Menonaktifkan deteksi lokasi akan menghemat baterai."
 
 #: ../plugins/security-privacy/Location.qml:218
 msgid ""
 "Uses WiFi, cell tower locations, and GPS to detect your rough location. "
 "Turning off location detection saves battery."
 msgstr ""
+"Menggunakan WiFi, lokasi menara seluler, dan GPS untuk mendeteksi lokasi "
+"kasar Anda. Menonaktifkan deteksi lokasi akan menghemat baterai."
 
 #: ../plugins/security-privacy/Location.qml:220
 msgid ""
 "Uses WiFi, cell tower locations (no current cellular connection), and GPS to "
 "detect your rough location. Turning off location detection saves battery."
 msgstr ""
+"Menggunakan WiFi, lokasi menara seluler (tidak ada koneksi seluler saat ini)"
+", dan GPS untuk mendeteksi lokasi kasar Anda. Menonaktifkan deteksi lokasi "
+"akan menghemat baterai."
 
 #: ../plugins/security-privacy/Location.qml:222
 msgid ""
 "Uses WiFi (currently off), cell tower locations, and GPS to detect your "
 "rough location. Turning off location detection saves battery."
 msgstr ""
+"Menggunakan WiFi (tidak aktif), lokasi menara sel, dan GPS untuk mendeteksi "
+"lokasi kasar Anda. Menonaktifkan deteksi lokasi akan menghemat baterai."
 
 #: ../plugins/security-privacy/Location.qml:224
 msgid ""
@@ -1747,54 +1716,57 @@ msgid ""
 "connection), and GPS to detect your rough location. Turning off location "
 "detection saves battery."
 msgstr ""
+"Menggunakan WiFi (tidak aktif), lokasi menara seluler (tidak ada koneksi "
+"seluler saat ini), dan GPS untuk mendeteksi lokasi kasar Anda. Menonaktifkan "
+"deteksi lokasi akan menghemat baterai."
 
 #: ../plugins/security-privacy/Location.qml:231
 msgid "Let apps access this location:"
-msgstr ""
+msgstr "Biarkan aplikasi mengakses lokasi ini:"
 
 #: ../plugins/security-privacy/Location.qml:254
 msgid "None requested"
-msgstr ""
+msgstr "Tidak ada yang diminta"
 
 #: ../plugins/security-privacy/LockSecurity.qml:36
 #: ../plugins/security-privacy/PhoneLocking.qml:66
 #: ../plugins/about/DevMode.qml:116
 msgid "Lock security"
-msgstr ""
+msgstr "Kunci keamanan"
 
 #: ../plugins/security-privacy/LockSecurity.qml:136
 #: ../plugins/security-privacy/LockSecurity.qml:561
 msgid "Change passcode…"
-msgstr ""
+msgstr "Ganti kata sandi…"
 
 #: ../plugins/security-privacy/LockSecurity.qml:138
 #: ../plugins/security-privacy/LockSecurity.qml:562
 msgid "Change passphrase…"
-msgstr "Ubah frasa sandi..."
+msgstr "Ubah kata sandi…"
 
 #: ../plugins/security-privacy/LockSecurity.qml:145
 msgid "Switch to swipe"
-msgstr ""
+msgstr "Beralih ke swipe"
 
 #: ../plugins/security-privacy/LockSecurity.qml:147
 msgid "Switch to passcode"
-msgstr ""
+msgstr "Beralih ke kode sandi"
 
 #: ../plugins/security-privacy/LockSecurity.qml:149
 msgid "Switch to passphrase"
-msgstr ""
+msgstr "Beralih ke frasa sandi"
 
 #: ../plugins/security-privacy/LockSecurity.qml:158
 msgid "Existing passcode"
-msgstr ""
+msgstr "Kode sandi yang ada"
 
 #: ../plugins/security-privacy/LockSecurity.qml:160
 msgid "Existing passphrase"
-msgstr ""
+msgstr "Frasa sandi yang ada"
 
 #: ../plugins/security-privacy/LockSecurity.qml:230
 msgid "Choose passcode"
-msgstr ""
+msgstr "Pilih kode sandi"
 
 #: ../plugins/security-privacy/LockSecurity.qml:232
 msgid "Choose passphrase"
@@ -1802,7 +1774,7 @@ msgstr "Pilih frasa sandi"
 
 #: ../plugins/security-privacy/LockSecurity.qml:290
 msgid "Confirm passcode"
-msgstr ""
+msgstr "Konfirmasi kode sandi"
 
 #: ../plugins/security-privacy/LockSecurity.qml:292
 msgid "Confirm passphrase"
@@ -1810,27 +1782,27 @@ msgstr "Konfirmasi frasa sandi"
 
 #: ../plugins/security-privacy/LockSecurity.qml:347
 msgid "Those passcodes don't match. Try again."
-msgstr ""
+msgstr "Kode sandi itu tidak cocok. Coba lagi."
 
 #: ../plugins/security-privacy/LockSecurity.qml:350
 msgid "Those passphrases don't match. Try again."
-msgstr ""
+msgstr "Frasa sandi itu tidak cocok. Coba lagi."
 
 #: ../plugins/security-privacy/LockSecurity.qml:385
 msgid "Unset"
-msgstr ""
+msgstr "Tidak diatur"
 
 #: ../plugins/security-privacy/LockSecurity.qml:461
 msgid "Unlock the device using:"
-msgstr ""
+msgstr "Buka kunci perangkat dengan:"
 
 #: ../plugins/security-privacy/LockSecurity.qml:465
 msgid "Swipe (no security)"
-msgstr ""
+msgstr "Digeser (tidak ada keamanan)"
 
 #: ../plugins/security-privacy/LockSecurity.qml:466
 msgid "4-digit passcode"
-msgstr ""
+msgstr "Kode sandi 4 digit"
 
 #: ../plugins/security-privacy/LockSecurity.qml:467
 #: ../plugins/security-privacy/PhoneLocking.qml:62
@@ -1840,28 +1812,28 @@ msgstr "Frasa sandi"
 #: ../plugins/security-privacy/LockSecurity.qml:468
 #: ../plugins/security-privacy/PhoneLocking.qml:63
 msgid "Fingerprint"
-msgstr ""
+msgstr "Sidik jari"
 
 #: ../plugins/security-privacy/LockSecurity.qml:469
 msgid "Swipe (no security)… "
-msgstr ""
+msgstr "Digeser (tidak ada keamanan)... "
 
 #: ../plugins/security-privacy/LockSecurity.qml:470
 msgid "4-digit passcode…"
-msgstr ""
+msgstr "Kode sandi 4 digit…"
 
 #: ../plugins/security-privacy/LockSecurity.qml:471
 msgid "Passphrase…"
-msgstr "Frasa sandi..."
+msgstr "Kata sandi…"
 
 #: ../plugins/security-privacy/PhoneLocking.qml:60
 msgctxt "Unlock with swipe"
 msgid "None"
-msgstr ""
+msgstr "Tidak ada"
 
 #: ../plugins/security-privacy/PhoneLocking.qml:61
 msgid "Passcode"
-msgstr ""
+msgstr "Kode sandi"
 
 #: ../plugins/security-privacy/PhoneLocking.qml:89
 #: ../plugins/battery/PageComponent.qml:313
@@ -1876,10 +1848,10 @@ msgstr "Tidur saat menganggur"
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/security-privacy/PhoneLocking.qml:98
 #: ../plugins/battery/PageComponent.qml:321
-#, fuzzy, qt-format
+#, qt-format
 msgid "After %1 second"
 msgid_plural "After %1 seconds"
-msgstr[0] "Setelah %1 menit"
+msgstr[0] "Setelah %1 detik"
 
 #. TRANSLATORS: %1 is the number of minutes
 #: ../plugins/security-privacy/PhoneLocking.qml:102
@@ -1897,23 +1869,24 @@ msgstr[0] "Setelah %1 menit"
 
 #: ../plugins/security-privacy/PhoneLocking.qml:126
 msgid "Sleep locks immediately"
-msgstr ""
+msgstr "Kunci tidur segera"
 
 #: ../plugins/security-privacy/PhoneLocking.qml:132
 msgid "When locked, allow:"
-msgstr ""
+msgstr "Ketika terkunci, izinkan:"
 
 #: ../plugins/security-privacy/PhoneLocking.qml:152
 msgid "Notifications and quick settings"
-msgstr ""
+msgstr "Notifikasi dan pengaturan cepat"
 
 #: ../plugins/security-privacy/PhoneLocking.qml:167
 msgid "Turn on lock security to restrict access when the device is locked."
 msgstr ""
+"Nyalakan kunci keamanan untuk membatasi akses ketika perangkat terkunci."
 
 #: ../plugins/security-privacy/PhoneLocking.qml:168
 msgid "Other apps and functions will prompt you to unlock."
-msgstr ""
+msgstr "Aplikasi dan fungsi lain akan meminta Anda untuk membuka kunci."
 
 #: ../plugins/time-date/ChooseTimeZone.qml:30
 msgid "Time zone"
@@ -1930,7 +1903,7 @@ msgstr "Secara manual"
 
 #: ../plugins/time-date/ChooseTimeZone.qml:130
 msgid "Enter your current location."
-msgstr "Masukkan lokasi Anda saat ini"
+msgstr "Masukkan lokasi Anda saat ini."
 
 #: ../plugins/time-date/ChooseTimeZone.qml:131
 msgid "No matching place"
@@ -1988,27 +1961,27 @@ msgstr "Tahun"
 
 #: ../plugins/about/Version.qml:35
 msgid "OS Build Details"
-msgstr ""
+msgstr "Detail Bangunan OS"
 
 #: ../plugins/about/Version.qml:62
 msgid "OS build number"
-msgstr ""
+msgstr "Nomor bangunan OS"
 
 #: ../plugins/about/Version.qml:68
 msgid "Ubuntu Image part"
-msgstr ""
+msgstr "Bagian Gambar Ubuntu"
 
 #: ../plugins/about/Version.qml:76
 msgid "Ubuntu build description"
-msgstr ""
+msgstr "Deskripsi bangunan Ubuntu"
 
 #: ../plugins/about/Version.qml:82
 msgid "Device Image part"
-msgstr ""
+msgstr "Bagian Gambar Perangkat"
 
 #: ../plugins/about/Version.qml:89
 msgid "Device build description"
-msgstr ""
+msgstr "Deskripsi bangunan perangkat"
 
 #: ../plugins/about/Version.qml:96
 msgid "Customization Image part"
@@ -2261,23 +2234,20 @@ msgid "Some calls"
 msgstr "Beberapa panggilan"
 
 #: ../plugins/hotspot/HotspotSetup.qml:61
-#, fuzzy
 msgid "Change Hotspot Setup"
-msgstr "Ubah penyiapan hotspot"
+msgstr "Ubah Penyiapan Hotspot"
 
 #: ../plugins/hotspot/HotspotSetup.qml:61
-#, fuzzy
 msgid "Set Up Hotspot"
-msgstr "Hotspot"
+msgstr "Menyiapkan Hotspot"
 
 #: ../plugins/hotspot/HotspotSetup.qml:175
 msgid "Hotspot name"
 msgstr "Nama hotspot"
 
 #: ../plugins/hotspot/HotspotSetup.qml:176
-#, fuzzy
 msgid "Choose a name"
-msgstr "Pilih frasa sandi"
+msgstr "Pilih nama"
 
 #: ../plugins/hotspot/HotspotSetup.qml:193
 msgid "Require a password (recommended):"
@@ -2311,18 +2281,16 @@ msgid ""
 msgstr ""
 
 #: ../plugins/hotspot/PageComponent.qml:124
-#, fuzzy
 msgid "Change Password/Setup…"
-msgstr "Ubah frasa sandi..."
+msgstr "Ubah Kata Sandi/Pengaturan…"
 
 #: ../plugins/hotspot/PageComponent.qml:124
 msgid "Set Up Hotspot…"
 msgstr ""
 
 #: ../plugins/hotspot/PageComponent.qml:155
-#, fuzzy
 msgid "Wi-Fi is off"
-msgstr "Hotspot Wi-Fi"
+msgstr "Wi-Fi mati"
 
 #: ../plugins/hotspot/PageComponent.qml:156
 msgid "In order to create a hotspot, you need to turn Wi-Fi on."
@@ -2373,11 +2341,11 @@ msgstr ""
 #: ../plugins/bluetooth/DevicePage.qml:38
 #: ../plugins/bluetooth/PageComponent.qml:290
 msgid "Connecting…"
-msgstr "Menyambung..."
+msgstr "Menyambungkan…"
 
 #: ../plugins/bluetooth/DevicePage.qml:39
 msgid "Disconnecting…"
-msgstr "Memutus..."
+msgstr "Memutuskan…"
 
 #: ../plugins/bluetooth/DevicePage.qml:40
 msgid "Disconnected"
@@ -2425,7 +2393,7 @@ msgstr "Tablet"
 
 #: ../plugins/bluetooth/DevicePage.qml:60
 msgid "Printer"
-msgstr "Pencetak"
+msgstr "Printer"
 
 #: ../plugins/bluetooth/DevicePage.qml:62
 msgid "Watch"
@@ -2498,9 +2466,8 @@ msgstr ""
 
 #: ../plugins/bluetooth/PageComponent.qml:260
 #: ../plugins/bluetooth/PageComponent.qml:319
-#, fuzzy
 msgid "Searching…"
-msgstr "Cari"
+msgstr "Mencari…"
 
 #: ../plugins/bluetooth/PageComponent.qml:269
 msgid "Connected devices:"
@@ -2529,9 +2496,8 @@ msgid "Confirm PIN"
 msgstr "Konfirmasikan PIN"
 
 #: ../plugins/language/RebootNecessary.qml:34
-#, fuzzy
 msgid "The device needs to restart for changes to take effect."
-msgstr "Telepon perlu distart ulang agar perubahan berdampak."
+msgstr "Perangkat perlu di nyalakan ulang agar perubahan berdampak."
 
 #: ../plugins/language/RebootNecessary.qml:38
 msgid "Restart Now"
@@ -2553,7 +2519,7 @@ msgstr "Bahasa & Teks"
 
 #: ../plugins/language/PageComponent.qml:133
 msgid "Display language…"
-msgstr "Bahasa tampilan..."
+msgstr "Bahasa tampilan…"
 
 #: ../plugins/language/PageComponent.qml:149
 msgid "Enable on-screen keyboard"
@@ -2610,9 +2576,8 @@ msgid "Keyboard vibration"
 msgstr "Vibrasi papan tik"
 
 #: ../plugins/language/PageComponent.qml:290
-#, fuzzy
 msgid "Keyboard opacity"
-msgstr "Tata letak papan tik"
+msgstr "Kegelapan papan tik"
 
 #: ../plugins/language/KeyboardLayouts.qml:49
 msgid "Current layouts:"
@@ -2639,21 +2604,19 @@ msgid "Confirm"
 msgstr "Konfirmasi"
 
 #: ../plugins/battery/SleepValues.qml:74
-#, fuzzy
 msgid "Lock the device when it's not in use:"
-msgstr "Kunci ponsel bila tak digunakan:"
+msgstr "Kunci perangkat bila tak digunakan:"
 
 #: ../plugins/battery/SleepValues.qml:75
-#, fuzzy
 msgid "Put the device to sleep when it is not in use:"
-msgstr "Tidurkan ponsel bila tak digunakan:"
+msgstr "Tidurkan perangkat bila tak digunakan:"
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery/SleepValues.qml:86
-#, fuzzy, qt-format
+#, qt-format
 msgid "After %1 seconds"
 msgid_plural "After %1 seconds"
-msgstr[0] "Setelah %1 menit"
+msgstr[0] "Setelah %1 detik"
 
 #: ../plugins/battery/SleepValues.qml:130
 msgid ""
@@ -2735,9 +2698,8 @@ msgstr "Kecerahan tampilan"
 
 #. TRANSLATORS: “Wi-Fi used for hotspot” is hidden.
 #: ../plugins/battery/PageComponent.qml:364
-#, fuzzy
 msgid "Wi-Fi used for hotspot"
-msgstr "Hotspot Wi-Fi"
+msgstr "Wi-Fi yang digunakan untuk hotspot"
 
 #: ../plugins/reset/ResetAllSettings.qml:29
 msgid ""
@@ -2761,33 +2723,30 @@ msgid "Reset Launcher"
 msgstr "Reset Peluncur"
 
 #: ../plugins/reset/EraseEverything.qml:41
-#, fuzzy
 msgid ""
 "All documents, saved games, settings, and other items will be permanently "
 "deleted from this device."
 msgstr ""
-"Semua dokumen, permainan tersimpan, pengaturan, dan item lain akan dihapus "
-"secara permanen dari telepon ini."
+"Semua dokumen, permainan yang tersimpan, pengaturan, dan item lain akan "
+"dihapus secara permanen dari perangkat ini."
 
 #: ../plugins/reset/EraseEverything.qml:44
 msgid "Erase & Reset Everything"
 msgstr "Hapus & Reset Segalanya"
 
 #: ../plugins/reset/PageComponent.qml:32
-#, fuzzy
 msgid "Reset device"
-msgstr "perangkat"
+msgstr "Atur ulang perangkat"
 
 #: ../plugins/reset/PageComponent.qml:101
 #: ../plugins/reset/PageComponent.qml:112
 msgid "Reset all system settings…"
-msgstr "Reset semua pengaturan sistem..."
+msgstr "Atur ulang semua pengaturan sistem…"
 
 #: ../plugins/reset/PageComponent.qml:126
 #: ../plugins/reset/PageComponent.qml:138
-#, fuzzy
 msgid "Erase & Reset All"
-msgstr "Hapus & Reset Segalanya"
+msgstr "Hapus & Atur Ulang Segalanya"
 
 #: ../plugins/brightness/WifiDisplays.qml:27
 msgid "Wireless Display"
@@ -2798,35 +2757,30 @@ msgid "No displays detected"
 msgstr ""
 
 #: ../plugins/brightness/WifiDisplays.qml:113
-#, fuzzy
 msgid "Connected display:"
-msgstr "Terhubung"
+msgstr "layar yang terhubung:"
 
 #: ../plugins/brightness/WifiDisplays.qml:128
-#, fuzzy
 msgid "Connecting"
-msgstr "Menyambung..."
+msgstr "Menyambungkan"
 
 #: ../plugins/brightness/WifiDisplays.qml:128
 #: ../plugins/brightness/WifiDisplays.qml:172
 #: ../plugins/brightness/PageComponent.qml:159
-#, fuzzy
 msgid "Not connected"
-msgstr "Terakhir tersambung"
+msgstr "Tidak tersambung"
 
 #: ../plugins/brightness/WifiDisplays.qml:146
 msgid "Use another display:"
 msgstr ""
 
 #: ../plugins/brightness/WifiDisplays.qml:146
-#, fuzzy
 msgid "Choose a display:"
-msgstr "Pilih frasa sandi"
+msgstr "Pilih tampilan:"
 
 #: ../plugins/brightness/PageComponent.qml:35
-#, fuzzy
 msgid "Brightness & Display"
-msgstr "Kecerahan"
+msgstr "Kecerahan & Tampilan"
 
 #. TRANSLATORS: This is a keyword or name for the brightness plugin which is used while searching
 #: ../plugins/brightness/PageComponent.qml:35
@@ -2851,9 +2805,9 @@ msgid "Wireless display"
 msgstr ""
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:32
-#, fuzzy, qt-format
+#, qt-format
 msgid "This device failed to connect to %1."
-msgstr "Putuskan"
+msgstr "Perangkat ini gagal menyambungkan ke %1."
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:34
 #, qt-format
@@ -2863,9 +2817,8 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../plugins/vpn/PageComponent.qml:31
 #: ../obj-x86_64-linux-gnu/po/settings.js:388
-#, fuzzy
 msgid "VPN"
-msgstr "APN"
+msgstr "VPN"
 
 #: ../plugins/vpn/PageComponent.qml:76
 msgid ""
@@ -2878,14 +2831,12 @@ msgid "Add Manual Configuration…"
 msgstr ""
 
 #: ../plugins/vpn/PageComponent.qml:117
-#, fuzzy
 msgid "VPN reconnection required."
-msgstr "Layanan koneksi bersama gagal"
+msgstr "Dibutuhkan mengkoneksi kembali VPN."
 
 #: ../plugins/vpn/PageComponent.qml:118
-#, fuzzy
 msgid "You need to reconnect for changes to have an effect."
-msgstr "Telepon perlu distart ulang agar perubahan berdampak."
+msgstr "Anda perlu mengkoneksikan kembali agar perubahan bisa berdampak."
 
 #: ../plugins/background/Components/AddRemove.qml:52
 msgid "No images selected"
@@ -2907,9 +2858,8 @@ msgid "Remove images…"
 msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:27
-#, fuzzy
 msgid "Enabled"
-msgstr "Tablet"
+msgstr "Nyala"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:46
 msgid "Default"
@@ -2929,7 +2879,7 @@ msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/CopiesAndPages.qml:26
 msgid "Copies"
-msgstr ""
+msgstr "Salin"
 
 #: ../plugins/printing/printer-sub-pages/CopiesAndPages.qml:46
 msgid "Paper size"
@@ -2975,9 +2925,8 @@ msgid "Address"
 msgstr "Alamat"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:84
-#, fuzzy
 msgid "Model"
-msgstr "Modem"
+msgstr "Model"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:85
 msgid "Local Raw Printer"
@@ -2992,19 +2941,17 @@ msgid "Duplex"
 msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:59
-#, fuzzy
 msgid "Color model"
-msgstr "Mode pengembang"
+msgstr "Model warna"
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:75
 msgid "Quality"
-msgstr ""
+msgstr "Kualitas"
 
 #: ../plugins/cellular/Components/RadioSingleSim.qml:31
 #: ../plugins/cellular/Components/MultiSim.qml:83
-#, fuzzy
 msgid "Connection type:"
-msgstr "Terhubung"
+msgstr "Tipe koneksi:"
 
 #: ../plugins/cellular/Components/MultiSim.qml:55
 #: ../plugins/cellular/Components/SingleSim.qml:105
@@ -3025,9 +2972,8 @@ msgid "Data roaming"
 msgstr "Roaming data"
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:36
-#, fuzzy
 msgid "Cellular data"
-msgstr "Data seluler:"
+msgstr "Data seluler"
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:73
 #: ../plugins/cellular/Components/NoSim.qml:36
@@ -3179,9 +3125,8 @@ msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:24
-#, fuzzy
 msgid "application"
-msgstr "Lokasi"
+msgstr "aplikasi"
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the time-date plugin which is used while searching
@@ -3218,9 +3163,8 @@ msgstr "Tersedia pembaruan"
 
 #. TRANSLATORS: This is a keyword or name for the launcher plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:38
-#, fuzzy
 msgid "launcher"
-msgstr "Peluncur"
+msgstr "peluncur"
 
 #. TRANSLATORS: This is a keyword or name for the launcher plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
@@ -3231,9 +3175,8 @@ msgstr "penampilan"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:44
-#, fuzzy
 msgid "mouse"
-msgstr "Tetikus"
+msgstr "tetikus"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:46
@@ -3432,15 +3375,13 @@ msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:136
-#, fuzzy
 msgid "printer"
-msgstr "Pencetak"
+msgstr "printer"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:138
-#, fuzzy
 msgid "printers"
-msgstr "Pencetak"
+msgstr "printer"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:140
@@ -3769,9 +3710,8 @@ msgstr "a11y"
 
 #. TRANSLATORS: This is a keyword or name for the hotspot plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:294
-#, fuzzy
 msgid "hotspot"
-msgstr "Hotspot"
+msgstr "hotspot"
 
 #. TRANSLATORS: This is a keyword or name for the hotspot plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:296
@@ -3954,7 +3894,6 @@ msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the orientation-lock plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:406
-#, fuzzy
 msgid "Rotation Lock"
 msgstr "Kunci Orientasi"
 
@@ -3969,9 +3908,8 @@ msgid "orientation"
 msgstr "orientasi"
 
 #: ../plugins/wifi/certhandler.cpp:258
-#, fuzzy
 msgid "Private key"
-msgstr "Privasi"
+msgstr "Kunci privasi"
 
 #: ../plugins/wifi/certhandler.cpp:259
 msgid "Public key"
@@ -4015,9 +3953,8 @@ msgstr ""
 
 #: ../src/systemimage.cpp:318 ../src/systemimage.cpp:324
 #: ../src/systemimage.cpp:330
-#, fuzzy
 msgid "Unavailable"
-msgstr "Tersedia pembaruan"
+msgstr "Tidak tersedia"
 
 #: ../push-helper/software_updates_helper.py:159
 msgid "There's an updated system image."
