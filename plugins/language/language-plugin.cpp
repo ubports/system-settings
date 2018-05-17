@@ -192,7 +192,7 @@ LanguagePlugin::updateLanguageNamesAndCodes()
 
         QLocale tmpLoc(languageLocale.locale.getLanguage());
         languageLocale.likely = tmpLoc.name() == loc.left(loc.indexOf('.')) || // likely if: en_US -> en -> en_US, NOT likely if: en_GB -> en -> en_US
-                (loc.startsWith("pt_PT") && !loc.startsWith("pt_BR")); // "pt" work around for https://bugreports.qt.io/browse/QTBUG-47891
+                (loc.startsWith("pt") && !loc.startsWith("pt_BR")); // "pt" work around for https://bugreports.qt.io/browse/QTBUG-47891
 
         languageLocales += languageLocale;
     }
