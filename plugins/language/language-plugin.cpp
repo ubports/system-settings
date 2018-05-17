@@ -203,7 +203,7 @@ LanguagePlugin::updateLanguageNamesAndCodes()
         const LanguageLocale &languageLocale(languageLocales[i]);
 
         // "pt" work around for https://bugreports.qt.io/browse/QTBUG-47891
-        m_languageNames += languageLocale.localeName == "pt" ? QLocale("pt_PT").displayName : languageLocale.displayName;
+        m_languageNames += languageLocale.localeName == "pt" ? QLocale("pt_PT").nativeLanguageName() : languageLocale.displayName;
         m_languageCodes += languageLocale.localeName;
 
         QString localeName(languageLocale.localeName);
