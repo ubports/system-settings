@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-12 12:39+0000\n"
-"Last-Translator: Alessandro Vinciguerra <alesvinciguerra@gmail.com>\n"
+"PO-Revision-Date: 2018-05-18 15:56+0000\n"
+"Last-Translator: Hugh Y <hugh_yan@live.com>\n"
 "Language-Team: Chinese (Simplified) "
 "<https://translate.ubports.com/projects/ubports/system-settings/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -69,9 +69,8 @@ msgid "Installing"
 msgstr "正在安装"
 
 #: ../plugins/system-update/UpdateDelegate.qml:232
-#, fuzzy
 msgid "Paused"
-msgstr "暂停"
+msgstr "已暂停"
 
 #: ../plugins/system-update/UpdateDelegate.qml:235
 #, fuzzy
@@ -1152,9 +1151,8 @@ msgstr "Pac 文件"
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../plugins/printing/PageComponent.qml:32
 #: ../obj-x86_64-linux-gnu/po/settings.js:134
-#, fuzzy
 msgid "Printing"
-msgstr "打印机"
+msgstr "正在打印"
 
 #: ../plugins/printing/PageComponent.qml:45
 msgid "Manager Printer Jobs"
@@ -2169,9 +2167,8 @@ msgid "Forward to"
 msgstr "转发至"
 
 #: ../plugins/phone/CallForwardItem.qml:171
-#, fuzzy
 msgid "Enter a number"
-msgstr "电话号码"
+msgstr "输入号码"
 
 #: ../plugins/phone/CallForwardItem.qml:218
 msgid "Call forwarding can’t be changed right now."
@@ -3003,8 +3000,9 @@ msgid "Color model"
 msgstr "开发者模式"
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:75
+#, fuzzy
 msgid "Quality"
-msgstr ""
+msgstr "质量"
 
 #: ../plugins/cellular/Components/RadioSingleSim.qml:31
 #: ../plugins/cellular/Components/MultiSim.qml:83
