@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
 "PO-Revision-Date: 2018-05-18 14:56+0000\n"
-"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
+"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -889,7 +889,7 @@ msgstr "Faddina disconnota"
 
 #: ../plugins/wifi/Common.qml:38 ../plugins/hotspot/Common.qml:36
 msgid "No reason given"
-msgstr ""
+msgstr "Perunu motivu inditadu"
 
 #: ../plugins/wifi/Common.qml:40 ../plugins/hotspot/Common.qml:38
 msgid "Device is now managed"
@@ -931,6 +931,7 @@ msgstr "Faddina de su suplicante de protocollu 802.1X"
 #: ../plugins/wifi/Common.qml:58 ../plugins/hotspot/Common.qml:56
 msgid "802.1X supplicant took too long to authenticate"
 msgstr ""
+"S'autenticatzione de su suplicante de protocollu 802.1X at trigadu tropu"
 
 #: ../plugins/wifi/Common.qml:60 ../plugins/hotspot/Common.qml:58
 msgid "DHCP client failed to start"
