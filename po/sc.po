@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-18 14:56+0000\n"
-"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
+"PO-Revision-Date: 2018-05-18 14:57+0000\n"
+"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -964,11 +964,11 @@ msgstr "Dispositivu eliminadu"
 
 #: ../plugins/wifi/Common.qml:74 ../plugins/hotspot/Common.qml:72
 msgid "NetworkManager went to sleep"
-msgstr ""
+msgstr "NetworkManager s'est asseliadu"
 
 #: ../plugins/wifi/Common.qml:76 ../plugins/hotspot/Common.qml:74
 msgid "The device's active connection disappeared"
-msgstr ""
+msgstr "Est isparèssida sa connessione ativa de su dispositivu"
 
 #: ../plugins/wifi/Common.qml:78 ../plugins/hotspot/Common.qml:76
 msgid "Device disconnected by user or client"
