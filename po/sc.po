@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-18 15:00+0000\n"
-"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
+"PO-Revision-Date: 2018-05-18 15:10+0000\n"
+"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -1115,7 +1115,7 @@ msgstr "Sèbera su còdighe de atzessu"
 
 #: ../plugins/printing/AddPrinterDetails.qml:227
 msgid "Select printer from database"
-msgstr ""
+msgstr "Seletziona imprentadora dae s'archìviu de datos"
 
 #: ../plugins/printing/AddPrinterDetails.qml:228
 msgid "Provide PPD file"
@@ -1127,7 +1127,7 @@ msgstr ""
 
 #: ../plugins/printing/AddPrinterDetails.qml:304
 msgid "PPD file"
-msgstr ""
+msgstr "Archìviu PPD"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../plugins/printing/PageComponent.qml:32
@@ -1141,15 +1141,15 @@ msgstr ""
 
 #: ../plugins/printing/PageComponent.qml:106
 msgid "Default printer"
-msgstr ""
+msgstr "Imprentadora predefinida"
 
 #: ../plugins/printing/PageComponent.qml:107
 msgid "Configured printers"
-msgstr ""
+msgstr "Imprentadoras cunfiguradas"
 
 #: ../plugins/printing/PageComponent.qml:115
 msgid "Discovered printers"
-msgstr ""
+msgstr "Imprentadoras agatadas"
 
 #: ../plugins/printing/PageComponent.qml:136
 #: ../plugins/cellular/PageChooseApn.qml:305
@@ -1159,7 +1159,7 @@ msgstr "Cantzella"
 #: ../plugins/printing/PageComponent.qml:149
 #: ../plugins/printing/printer-sub-pages/Policies.qml:50
 msgid "Set as Default"
-msgstr ""
+msgstr "Cunfigura comente predefinida"
 
 #: ../plugins/printing/PageComponent.qml:190
 msgid "There are no printers configured yet."
@@ -1171,7 +1171,7 @@ msgstr ""
 
 #: ../plugins/printing/Printer.qml:42
 msgid "Printer status"
-msgstr ""
+msgstr "Istadu de s'imprentadora"
 
 #: ../plugins/printing/Printer.qml:43
 #, fuzzy
@@ -1184,7 +1184,7 @@ msgstr ""
 
 #: ../plugins/printing/Printer.qml:47
 msgid "Copies and pages"
-msgstr ""
+msgstr "Còpias e pàginas"
 
 #: ../plugins/cellular/PageChooseCarrier.qml:32
 #: ../plugins/cellular/PageChooseCarrier.qml:129
@@ -1192,18 +1192,18 @@ msgstr ""
 #: ../plugins/cellular/PageCarrierAndApn.qml:54
 #: ../plugins/cellular/PageCarriersAndApns.qml:56
 msgid "Carrier"
-msgstr ""
+msgstr "Operadore"
 
 #: ../plugins/cellular/PageChooseCarrier.qml:153
 #: ../plugins/time-date/ChooseTimeZone.qml:51
 #: ../plugins/time-date/PageComponent.qml:85
 msgid "Automatically"
-msgstr ""
+msgstr "In automàticu "
 
 #: ../plugins/cellular/PageCarrierAndApn.qml:27
 #: ../plugins/cellular/Components/SingleSim.qml:110
 msgid "Carrier & APN"
-msgstr ""
+msgstr "Operadore e puntu de atzessu"
 
 #. TRANSLATORS: This string is a description of a text
 #. field and should thus be concise.
@@ -1212,7 +1212,7 @@ msgstr ""
 #: ../plugins/cellular/PageChooseApn.qml:37
 #: ../plugins/cellular/PageApnEditor.qml:203
 msgid "APN"
-msgstr ""
+msgstr "Puntu de atzessu "
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../plugins/cellular/PageComponent.qml:32
@@ -1222,7 +1222,7 @@ msgstr ""
 
 #: ../plugins/cellular/PageCarriersAndApns.qml:27
 msgid "Carriers & APNs"
-msgstr ""
+msgstr "Operadores e puntos de atzessu "
 
 #: ../plugins/cellular/PageChooseApn.qml:64
 msgid "MMS APN"
@@ -1244,12 +1244,12 @@ msgstr ""
 #: ../plugins/cellular/PageChooseApn.qml:88
 #: ../plugins/cellular/PageApnEditor.qml:159
 msgid "Internet"
-msgstr ""
+msgstr "Internet"
 
 #: ../plugins/cellular/PageChooseApn.qml:90
 #: ../plugins/cellular/PageApnEditor.qml:161
 msgid "LTE"
-msgstr ""
+msgstr "LTE"
 
 #: ../plugins/cellular/PageChooseApn.qml:92
 #: ../plugins/cellular/PageApnEditor.qml:160
@@ -1272,7 +1272,7 @@ msgstr ""
 #: ../plugins/cellular/PageChooseApn.qml:171
 #: ../obj-x86_64-linux-gnu/po/settings.js:364
 msgid "Reset"
-msgstr ""
+msgstr "Reseta"
 
 #. TRANSLATORS: %1 is the MMS APN that the user has chosen to be
 #. “preferred”.
@@ -1296,7 +1296,7 @@ msgstr ""
 #: ../plugins/cellular/PageChooseApn.qml:268
 #: ../plugins/bluetooth/DevicePage.qml:150
 msgid "Disconnect"
-msgstr ""
+msgstr "Disconneta"
 
 #. TRANSLATORS: %1 is the Internet APN that the user has chosen to
 #. be “preferred”, i.e. used to connect to the Internet. %2 is the MMS
@@ -1314,12 +1314,12 @@ msgstr "Disativa"
 #: ../plugins/cellular/PageChooseApn.qml:256
 #, qt-format
 msgid "Disconnect %1"
-msgstr ""
+msgstr "Disconnete %1"
 
 #: ../plugins/cellular/PageChooseApn.qml:257
 #, qt-format
 msgid "Disable %1"
-msgstr ""
+msgstr "Disativa %1"
 
 #: ../plugins/cellular/PageChooseApn.qml:262
 #, qt-format
@@ -1337,7 +1337,7 @@ msgstr "Modìfica"
 
 #: ../plugins/cellular/PageApnEditor.qml:69
 msgid "New APN"
-msgstr ""
+msgstr "Puntu de atzessu nou"
 
 #: ../plugins/cellular/PageApnEditor.qml:154
 msgid "Used for:"
@@ -1353,7 +1353,7 @@ msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:226
 msgid "MMSC"
-msgstr ""
+msgstr "MMSC"
 
 #: ../plugins/cellular/PageApnEditor.qml:235
 msgid "Enter message center"
@@ -1377,43 +1377,43 @@ msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:335
 msgid "User name"
-msgstr ""
+msgstr "Nùmene utente"
 
 #: ../plugins/cellular/PageApnEditor.qml:344
 msgid "Enter username"
-msgstr ""
+msgstr "Inserta su nùmene utente"
 
 #: ../plugins/cellular/PageApnEditor.qml:368
 msgid "Enter password"
-msgstr ""
+msgstr "Inserta sa crae"
 
 #: ../plugins/cellular/PageApnEditor.qml:387
 msgid "PAP or CHAP"
-msgstr ""
+msgstr "PAP o CHAP"
 
 #: ../plugins/cellular/PageApnEditor.qml:388
 msgid "PAP only"
-msgstr ""
+msgstr "PAP isceti"
 
 #: ../plugins/cellular/PageApnEditor.qml:389
 msgid "CHAP only"
-msgstr ""
+msgstr "CHAP isceti"
 
 #: ../plugins/cellular/PageApnEditor.qml:400
 msgid "Protocol"
-msgstr ""
+msgstr "Protocollu "
 
 #: ../plugins/cellular/PageApnEditor.qml:404
 msgid "IPv4"
-msgstr ""
+msgstr "IPv4"
 
 #: ../plugins/cellular/PageApnEditor.qml:405
 msgid "IPv6"
-msgstr ""
+msgstr "IPv6"
 
 #: ../plugins/cellular/PageApnEditor.qml:406
 msgid "IPv4v6"
-msgstr ""
+msgstr "IPv4v6"
 
 #: ../plugins/security-privacy/AppAccess.qml:29
 #: ../plugins/security-privacy/PageComponent.qml:264
@@ -1431,24 +1431,24 @@ msgstr "Fotocàmera"
 
 #: ../plugins/security-privacy/AppAccess.qml:76
 msgid "Apps that have requested access to your camera"
-msgstr ""
+msgstr "Aplicatziones chi ant pedidu s'atzessu a sa fotocàmera"
 
 #: ../plugins/security-privacy/AppAccess.qml:82
 msgid "Apps that have requested access to your location"
-msgstr ""
+msgstr "Aplicatziones chi ant pedidu s'atzessu a sa positzione"
 
 #: ../plugins/security-privacy/AppAccess.qml:87
 msgid "Microphone"
-msgstr ""
+msgstr "Micròfonu"
 
 #: ../plugins/security-privacy/AppAccess.qml:88
 msgid "Apps that have requested access to your microphone"
-msgstr ""
+msgstr "Aplicatziones chi ant pedidu s'atzessu a su micròfonu"
 
 #: ../plugins/security-privacy/AppAccess.qml:102
 #, qt-format
 msgid "%1/%2"
-msgstr ""
+msgstr "%1/%2"
 
 #: ../plugins/security-privacy/AppAccess.qml:103
 msgid "0"
@@ -1456,11 +1456,11 @@ msgstr "0"
 
 #: ../plugins/security-privacy/AppAccess.qml:118
 msgid "Apps may also request access to online accounts."
-msgstr ""
+msgstr "Is aplicatziones puru podent pedire s'atzessu a is contos in lìnea."
 
 #: ../plugins/security-privacy/AppAccess.qml:123
 msgid "Online Accounts…"
-msgstr ""
+msgstr "Contos in lìnea..."
 
 #: ../plugins/security-privacy/SimPin.qml:37
 #: ../plugins/security-privacy/SimPin.qml:398
@@ -1470,7 +1470,7 @@ msgstr "PIN de sa SIM"
 
 #: ../plugins/security-privacy/SimPin.qml:48
 msgid "Change SIM PIN"
-msgstr ""
+msgstr "Muda su PIN de s'ischeda SIM"
 
 #: ../plugins/security-privacy/SimPin.qml:53
 #: ../plugins/security-privacy/SimPin.qml:219
@@ -1489,7 +1489,7 @@ msgstr ""
 
 #: ../plugins/security-privacy/SimPin.qml:93
 msgid "Current PIN:"
-msgstr ""
+msgstr "Còdighe PIN atuale:"
 
 #: ../plugins/security-privacy/SimPin.qml:115
 #: ../plugins/security-privacy/SimPin.qml:292
@@ -1501,11 +1501,11 @@ msgstr[1] ""
 
 #: ../plugins/security-privacy/SimPin.qml:135
 msgid "Choose new PIN:"
-msgstr ""
+msgstr "Sèbera su còdighe PIN nou: "
 
 #: ../plugins/security-privacy/SimPin.qml:146
 msgid "Confirm new PIN:"
-msgstr ""
+msgstr "Cunfirma su còdighe PIN nou: "
 
 #: ../plugins/security-privacy/SimPin.qml:168
 msgid "PINs don't match. Try again."
@@ -1531,23 +1531,23 @@ msgstr ""
 
 #: ../plugins/security-privacy/SimPin.qml:334
 msgid "Lock"
-msgstr ""
+msgstr "Bloca"
 
 #: ../plugins/security-privacy/SimPin.qml:413
 msgid "Unlocked"
-msgstr ""
+msgstr "Isblocadu"
 
 #: ../plugins/security-privacy/SimPin.qml:416
 msgid "Change PIN…"
-msgstr ""
+msgstr "Muda su còdighe PIN..."
 
 #: ../plugins/security-privacy/SimPin.qml:427
 msgid "Locked"
-msgstr ""
+msgstr "Blocadu"
 
 #: ../plugins/security-privacy/SimPin.qml:431
 msgid "Unlock…"
-msgstr ""
+msgstr "Isbloca..."
 
 #: ../plugins/security-privacy/SimPin.qml:445
 msgid ""
