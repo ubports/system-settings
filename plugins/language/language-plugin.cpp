@@ -171,7 +171,7 @@ LanguagePlugin::updateLanguageNamesAndCodes()
 
     QStringList tmpLocales;
     Q_FOREACH(const QString &langpack, langpackNames) {
-        QLocale tmpLoc(langpack == "pt" ? "pt_PT" : langpack); // "pt" work around for https://bugreports.qt.io/browse/QTBUG-47891
+        QLocale tmpLoc(langpack);
         tmpLocales.append(tmpLoc.name() + QStringLiteral(".UTF-8"));
     }
 
@@ -192,7 +192,7 @@ LanguagePlugin::updateLanguageNamesAndCodes()
 
         QLocale tmpLoc(languageLocale.locale.getLanguage());
         languageLocale.likely = tmpLoc.name() == loc.left(loc.indexOf('.')) || // likely if: en_US -> en -> en_US, NOT likely if: en_GB -> en -> en_US
-                (loc.startsWith("pt_PT") && !loc.startsWith("pt_BR")); // "pt" work around for https://bugreports.qt.io/browse/QTBUG-47891
+                (loc.startsWith("pt") && !loc.startsWith("pt_BR")); // "pt" work around for https://bugreports.qt.io/browse/QTBUG-47891
 
         languageLocales += languageLocale;
     }
@@ -202,7 +202,8 @@ LanguagePlugin::updateLanguageNamesAndCodes()
     for (int i(0); i < languageLocales.length(); i++) {
         const LanguageLocale &languageLocale(languageLocales[i]);
 
-        m_languageNames += languageLocale.displayName;
+        // "pt" work around for https://bugreports.qt.io/browse/QTBUG-47891
+        m_languageNames += languageLocale.localeName == "pt" ? QLocale("pt_PT").nativeLanguageName() : languageLocale.displayName;
         m_languageCodes += languageLocale.localeName;
 
         QString localeName(languageLocale.localeName);
