@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
 "PO-Revision-Date: 2018-05-18 14:57+0000\n"
-"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
+"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -976,7 +976,7 @@ msgstr "Dispositivu disconnètidu dae s'utente o cliente"
 
 #: ../plugins/wifi/Common.qml:80 ../plugins/hotspot/Common.qml:78
 msgid "The device's existing connection was assumed"
-msgstr ""
+msgstr "S'est assùmida sa connessione ativa de su dispositivu"
 
 #: ../plugins/wifi/Common.qml:82 ../plugins/hotspot/Common.qml:80
 msgid "The supplicant is now available"
