@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-07 20:37+0000\n"
+"PO-Revision-Date: 2018-05-11 20:00+0000\n"
 "Last-Translator: Anne Onyme <anneonyme017@openmailbox.org>\n"
 "Language-Team: French <https://translate.ubports.com/projects/ubports/system-"
 "settings/fr/>\n"
@@ -283,7 +283,9 @@ msgstr "Redémarrer et installer"
 #: ../plugins/background/Components/AddRemove.qml:42
 #: ../plugins/cellular/Components/SimEditor.qml:203
 msgid "Cancel"
-msgstr "Annuler"
+msgstr ""
+"La couleur du texte est déterminée en fonction de l'arrière-plan, donc "
+"définie à partir du HTML"
 
 #: ../plugins/system-update/NotAuthenticatedNotification.qml:37
 msgid "Sign in to Ubuntu One to receive updates for apps."
@@ -2940,7 +2942,7 @@ msgstr "Interrompu"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:34
 msgid "Active"
-msgstr "Actif"
+msgstr "Active"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:36
 msgid "Stopped"

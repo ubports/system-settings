@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2017-11-30 19:00+0000\n"
-"Last-Translator: Mappack Owner <mappack@null.net>\n"
+"PO-Revision-Date: 2018-05-12 10:06+0000\n"
+"Last-Translator: Laurentijn Tilleman <laurentijn.tilleman@gmail.com>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/system-"
 "settings/nl/>\n"
 "Language: nl\n"
@@ -71,7 +71,7 @@ msgstr "Installeren"
 #: ../plugins/system-update/UpdateDelegate.qml:232
 #, fuzzy
 msgid "Paused"
-msgstr "Pauzeren"
+msgstr "Gepauseerd"
 
 #: ../plugins/system-update/UpdateDelegate.qml:235
 #, fuzzy
@@ -155,7 +155,7 @@ msgstr "Installatie mislukt"
 #: ../plugins/vpn/PageComponent.qml:123
 #: ../plugins/cellular/Components/SimEditor.qml:214
 msgid "OK"
-msgstr "Oké"
+msgstr "OK"
 
 #: ../plugins/system-update/UpdateSettings.qml:32
 #: ../plugins/system-update/PageComponent.qml:412
@@ -1168,7 +1168,7 @@ msgstr ""
 #: ../obj-x86_64-linux-gnu/po/settings.js:134
 #, fuzzy
 msgid "Printing"
-msgstr "Printer"
+msgstr "Afdrukken"
 
 #: ../plugins/printing/PageComponent.qml:45
 msgid "Manager Printer Jobs"
@@ -3047,7 +3047,7 @@ msgstr ""
 #: ../plugins/printing/printer-sub-pages/Status.qml:34
 #, fuzzy
 msgid "Active"
-msgstr "Activeren"
+msgstr "Actief"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:36
 msgid "Stopped"

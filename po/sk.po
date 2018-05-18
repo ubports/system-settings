@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2017-10-01 12:25+0000\n"
-"Last-Translator: Peter Valachovič <peter.valachovic@gmail.com>\n"
+"PO-Revision-Date: 2018-05-11 21:44+0000\n"
+"Last-Translator: jEzEk <jezek@chicki.sk>\n"
 "Language-Team: Slovak <https://translate.ubports.com/projects/ubports/system-"
 "settings/sk/>\n"
 "Language: sk\n"
@@ -1122,7 +1122,7 @@ msgstr ""
 #: ../plugins/printing/PageComponent.qml:32
 #: ../obj-x86_64-linux-gnu/po/settings.js:134
 msgid "Printing"
-msgstr ""
+msgstr "Tlačenie"
 
 #: ../plugins/printing/PageComponent.qml:45
 msgid "Manager Printer Jobs"
@@ -2407,7 +2407,7 @@ msgstr ""
 
 #: ../plugins/bluetooth/DevicePage.qml:60
 msgid "Printer"
-msgstr ""
+msgstr "Tlačiareň"
 
 #: ../plugins/bluetooth/DevicePage.qml:62
 msgid "Watch"
@@ -2906,7 +2906,7 @@ msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/CopiesAndPages.qml:26
 msgid "Copies"
-msgstr ""
+msgstr "Kópie"
 
 #: ../plugins/printing/printer-sub-pages/CopiesAndPages.qml:46
 msgid "Paper size"
@@ -2922,7 +2922,7 @@ msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:34
 msgid "Active"
-msgstr ""
+msgstr "Aktívne"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:36
 #, fuzzy
@@ -2977,7 +2977,7 @@ msgstr "Vývojársky režim"
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:75
 msgid "Quality"
-msgstr ""
+msgstr "Kvalita"
 
 #: ../plugins/cellular/Components/RadioSingleSim.qml:31
 #: ../plugins/cellular/Components/MultiSim.qml:83

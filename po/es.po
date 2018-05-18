@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-02 18:41+0000\n"
+"PO-Revision-Date: 2018-05-11 10:15+0000\n"
 "Last-Translator: advocatux <advocatux@airpost.net>\n"
 "Language-Team: Spanish <https://translate.ubports.com/projects/ubports"
 "/system-settings/es/>\n"
@@ -1120,7 +1120,7 @@ msgstr "Archivo PPD"
 #: ../plugins/printing/PageComponent.qml:32
 #: ../obj-x86_64-linux-gnu/po/settings.js:134
 msgid "Printing"
-msgstr "Impresión"
+msgstr "Imprimiendo"
 
 #: ../plugins/printing/PageComponent.qml:45
 msgid "Manager Printer Jobs"
