@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-18 14:57+0000\n"
-"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
+"PO-Revision-Date: 2018-05-18 15:00+0000\n"
+"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -1016,11 +1016,11 @@ msgstr "Wi-Fi"
 
 #: ../plugins/wifi/PageComponent.qml:129
 msgid "Connect to hidden network…"
-msgstr ""
+msgstr "Collega·ti a una rete cuada…"
 
 #: ../plugins/wifi/NetworkDetails.qml:38
 msgid "Network details"
-msgstr ""
+msgstr "Detàllios de sa rete "
 
 #: ../plugins/wifi/NetworkDetails.qml:57
 #: ../plugins/cellular/PageApnEditor.qml:179
@@ -1031,7 +1031,7 @@ msgstr ""
 
 #: ../plugins/wifi/NetworkDetails.qml:63
 msgid "Last connected"
-msgstr ""
+msgstr "Ùrtima connessione "
 
 #: ../plugins/wifi/NetworkDetails.qml:96
 #: ../plugins/wifi/NetworkDetailsBrief.qml:53
@@ -1040,31 +1040,26 @@ msgid "Forget this network"
 msgstr ""
 
 #: ../plugins/wifi/NetworkDetailsBrief.qml:69
-#, fuzzy
 msgid "IP address"
-msgstr ""
+msgstr "Indiritzu IP"
 
 #: ../plugins/printing/AddPrinter.qml:34
 #: ../plugins/printing/AddPrinterDetails.qml:54
 #: ../plugins/printing/PageComponent.qml:38
-#, fuzzy
 msgid "Add printer"
-msgstr ""
+msgstr "Agiunghe imprentadora"
 
 #: ../plugins/printing/AddPrinter.qml:65
-#, fuzzy
 msgid "Enter URI"
-msgstr ""
+msgstr "Inserta URI"
 
 #: ../plugins/printing/AddPrinter.qml:78
-#, fuzzy
 msgid "Devices"
-msgstr ""
+msgstr "Dispositivos "
 
 #: ../plugins/printing/AddPrinter.qml:133
-#, fuzzy
 msgid "No devices found."
-msgstr ""
+msgstr "Perunu dispositivu agatadu. "
 
 #: ../plugins/printing/AddPrinterDetails.qml:37
 #, fuzzy
@@ -1087,7 +1082,7 @@ msgstr "Sèbera unu nùmene"
 
 #: ../plugins/printing/AddPrinterDetails.qml:165
 msgid "Printer name"
-msgstr ""
+msgstr "Nùmene de s'imprentadora "
 
 #: ../plugins/printing/AddPrinterDetails.qml:202
 #: ../plugins/printing/printer-sub-pages/Status.qml:66
