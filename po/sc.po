@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-18 14:49+0000\n"
-"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
+"PO-Revision-Date: 2018-05-18 14:56+0000\n"
+"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -547,7 +547,7 @@ msgstr "Isfundu"
 
 #: ../plugins/background/MainPage.qml:131
 msgid "Opacity:"
-msgstr ""
+msgstr "Annapadura "
 
 #: ../plugins/background/Preview.qml:69
 msgid "Preview"
@@ -566,47 +566,47 @@ msgstr "Cunfigura"
 
 #: ../plugins/sound/PageComponent.qml:76
 msgid "Silent Mode"
-msgstr ""
+msgstr "Modalidade a sa muda"
 
 #: ../plugins/sound/PageComponent.qml:100
 msgid "Ringer:"
-msgstr ""
+msgstr "Tonu de mutida "
 
 #: ../plugins/sound/PageComponent.qml:141
 msgid "High volume can damage your hearing."
-msgstr ""
+msgstr "Su volume tropu artu podet iscalabrare s'uditu. "
 
 #: ../plugins/sound/PageComponent.qml:145
 msgid "Phone calls:"
-msgstr ""
+msgstr "Mutidas: "
 
 #: ../plugins/sound/PageComponent.qml:149
 #: ../plugins/sound/PageComponent.qml:154
 msgid "Ringtone"
-msgstr ""
+msgstr "Tonu de mutida "
 
 #: ../plugins/sound/PageComponent.qml:171
 msgid "Vibrate on ring"
-msgstr ""
+msgstr "Vibra a sa mutida"
 
 #: ../plugins/sound/PageComponent.qml:183
 #: ../plugins/sound/PageComponent.qml:242
 msgid "Vibrate in Silent Mode"
-msgstr ""
+msgstr "Vibra a modalidade a sa muda "
 
 #: ../plugins/sound/PageComponent.qml:194
 #: ../plugins/phone/PageComponent.qml:102
 msgid "Dialpad tones"
-msgstr ""
+msgstr "Tonos de sa tastiera "
 
 #: ../plugins/sound/PageComponent.qml:203
 msgid "Messages:"
-msgstr ""
+msgstr "Messàgios: "
 
 #: ../plugins/sound/PageComponent.qml:209
 #: ../plugins/sound/PageComponent.qml:214
 msgid "Message received"
-msgstr ""
+msgstr "Messàgiu retzidu "
 
 #: ../plugins/sound/PageComponent.qml:230
 msgid "Vibrate with message sound"
@@ -614,7 +614,7 @@ msgstr ""
 
 #: ../plugins/sound/PageComponent.qml:247
 msgid "Other sounds:"
-msgstr ""
+msgstr "Àteros sonos: "
 
 #: ../plugins/sound/PageComponent.qml:251
 #: ../plugins/language/PageComponent.qml:268
@@ -623,39 +623,39 @@ msgstr "Sonos de sa tastiera"
 
 #: ../plugins/sound/PageComponent.qml:268
 msgid "Lock sound"
-msgstr ""
+msgstr "Sonu de blocu "
 
 #: ../plugins/sound/PageComponent.qml:278
 msgid "Other vibrations"
-msgstr ""
+msgstr "Àteras vibratziones "
 
 #: ../plugins/sound/SoundsList.qml:128
 msgid "Custom Ringtone"
-msgstr ""
+msgstr "Tonu de mutida personalizadu "
 
 #: ../plugins/sound/SoundsList.qml:206
 msgid "Choose from"
-msgstr ""
+msgstr "Sèbera intre "
 
 #: ../plugins/wifi/CertDialog.qml:22
 msgid "Add certificate?"
-msgstr ""
+msgstr "Boles agiunghere su tzertificadu?"
 
 #: ../plugins/wifi/CertDialog.qml:24
 msgid "Add key?"
-msgstr ""
+msgstr "Boles agiunghere sa crae?"
 
 #: ../plugins/wifi/CertDialog.qml:26
 msgid "Add pac file?"
-msgstr ""
+msgstr "Boles agiunghere s'archìviu pac?"
 
 #: ../plugins/wifi/CertDialog.qml:36
 msgid "Content:"
-msgstr ""
+msgstr "Cuntenutu: "
 
 #: ../plugins/wifi/CertDialog.qml:49
 msgid "No data available."
-msgstr ""
+msgstr "Non bi sunt datos disponìbiles. "
 
 #: ../plugins/wifi/CertDialog.qml:74
 msgid "Save"
@@ -668,23 +668,23 @@ msgstr "Sarva"
 #: ../plugins/brightness/WifiDisplays.qml:172
 #: ../plugins/brightness/PageComponent.qml:159
 msgid "Connected"
-msgstr ""
+msgstr "Collegadu "
 
 #: ../plugins/wifi/OtherNetwork.qml:92
 msgid "Connect to Wi‑Fi"
-msgstr ""
+msgstr "Collega·ti a su Wi‑Fi"
 
 #: ../plugins/wifi/OtherNetwork.qml:93
 msgid "Connect to Hidden Network"
-msgstr ""
+msgstr "Collega·ti a una rete cuada "
 
 #: ../plugins/wifi/OtherNetwork.qml:285
 msgid "Network name"
-msgstr ""
+msgstr "Nùmene de sa rete "
 
 #: ../plugins/wifi/OtherNetwork.qml:298
 msgid "SSID"
-msgstr ""
+msgstr "SSID"
 
 #: ../plugins/wifi/OtherNetwork.qml:307
 #: ../plugins/security-privacy/PageComponent.qml:142
@@ -719,7 +719,7 @@ msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:321
 msgid "WEP"
-msgstr ""
+msgstr "WEP"
 
 #: ../plugins/wifi/OtherNetwork.qml:322
 msgid "Dynamic WEP (802.1x)"
@@ -727,24 +727,24 @@ msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:323
 msgid "LEAP"
-msgstr ""
+msgstr "LEAP"
 
 #: ../plugins/wifi/OtherNetwork.qml:332
 msgid "This network is insecure."
-msgstr ""
+msgstr "Custa rete no est segura. "
 
 #: ../plugins/wifi/OtherNetwork.qml:338
 #: ../plugins/cellular/PageApnEditor.qml:382
 msgid "Authentication"
-msgstr ""
+msgstr "Autenticatzione"
 
 #: ../plugins/wifi/OtherNetwork.qml:363
 msgid "Inner authentication"
-msgstr ""
+msgstr "Autenticatzione interna "
 
 #: ../plugins/wifi/OtherNetwork.qml:396
 msgid "CA certificate"
-msgstr ""
+msgstr "Tzertificadu CA "
 
 #. TRANSLATORS: %1 is the name of a certificate file.
 #. The ellipsis indicates that the file name has been
@@ -752,14 +752,14 @@ msgstr ""
 #: ../plugins/wifi/OtherNetwork.qml:450
 #, qt-format
 msgid "%1…"
-msgstr ""
+msgstr "%1..."
 
 #: ../plugins/wifi/OtherNetwork.qml:458 ../plugins/wifi/OtherNetwork.qml:575
 #: ../plugins/wifi/certhandler.cpp:106 ../plugins/wifi/certhandler.cpp:141
 #: ../plugins/wifi/certhandler.cpp:193 ../plugins/wifi/certhandler.cpp:225
 #: ../plugins/wifi/certhandler.cpp:290 ../plugins/wifi/certhandler.cpp:319
 msgid "Choose…"
-msgstr ""
+msgstr "Sèbera..."
 
 #. TRANSLATORS: The first position is the name of
 #. the organization that has issued the certificate.
@@ -769,7 +769,7 @@ msgstr ""
 #: ../plugins/wifi/OtherNetwork.qml:465
 #, qt-format
 msgid "%1…, Exp.: %2"
-msgstr ""
+msgstr "%1…, Iscad.: %2"
 
 #. TRANSLATORS: The first position is the name of
 #. the organization that has issued the certificate.
@@ -778,7 +778,7 @@ msgstr ""
 #: ../plugins/wifi/OtherNetwork.qml:473
 #, qt-format
 msgid "%1, Exp.: %2"
-msgstr ""
+msgstr "%1, Iscad.: %2"
 
 #: ../plugins/wifi/OtherNetwork.qml:494
 msgid "Using certificates is recommended as it increases security."
@@ -786,11 +786,11 @@ msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:512
 msgid "Client certificate"
-msgstr ""
+msgstr "Tzertificadu de su cliente "
 
 #: ../plugins/wifi/OtherNetwork.qml:554
 msgid "User private key"
-msgstr ""
+msgstr "Crae privada de s'utente "
 
 #. TRANSLATORS: The first position is the type of
 #. private key, second the key algorithm, and third the
@@ -802,7 +802,7 @@ msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:622
 msgid "Pac file"
-msgstr ""
+msgstr "Archìviu pac "
 
 #: ../plugins/wifi/OtherNetwork.qml:672
 msgid "Pac provisioning"
@@ -834,19 +834,19 @@ msgstr "Versione 0"
 
 #: ../plugins/wifi/OtherNetwork.qml:714
 msgid "Version 1"
-msgstr ""
+msgstr "Versione 1"
 
 #: ../plugins/wifi/OtherNetwork.qml:715
 msgid "Automatic"
-msgstr ""
+msgstr "Automàticu"
 
 #: ../plugins/wifi/OtherNetwork.qml:725
 msgid "Anonymous identity"
-msgstr ""
+msgstr "Identidade anònima "
 
 #: ../plugins/wifi/OtherNetwork.qml:752
 msgid "Identity"
-msgstr ""
+msgstr "Identidade "
 
 #: ../plugins/wifi/OtherNetwork.qml:754
 msgid "Username"
@@ -868,11 +868,11 @@ msgstr "Ammustra sa crae"
 
 #: ../plugins/wifi/OtherNetwork.qml:857
 msgid "Remember password"
-msgstr ""
+msgstr "Ammenta sa crae"
 
 #: ../plugins/wifi/OtherNetwork.qml:905 ../plugins/bluetooth/DevicePage.qml:150
 msgid "Connect"
-msgstr ""
+msgstr "Collega·ti"
 
 #: ../plugins/wifi/RemoveBackground.qml:28
 msgid "Clear"
@@ -881,7 +881,7 @@ msgstr ""
 #: ../plugins/wifi/PreviousNetworks.qml:27
 #: ../plugins/wifi/PageComponent.qml:139
 msgid "Previous networks"
-msgstr ""
+msgstr "Retes pretzedentes "
 
 #: ../plugins/wifi/Common.qml:36 ../plugins/hotspot/Common.qml:34
 msgid "Unknown error"
