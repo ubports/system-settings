@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
 "PO-Revision-Date: 2018-05-22 16:28+0000\n"
-"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
+"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -3059,7 +3059,7 @@ msgstr ""
 
 #: ../plugins/cellular/Components/DefaultSim.qml:62
 msgid "For messages, use:"
-msgstr "Pro is messàgius, imprea:"
+msgstr "Pro is messàgios, imprea:"
 
 #: ../plugins/cellular/Components/SimEditor.qml:88
 msgid "Edit SIM Name"
