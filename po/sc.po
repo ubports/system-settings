@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-22 14:12+0000\n"
-"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
+"PO-Revision-Date: 2018-05-22 14:15+0000\n"
+"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -1340,15 +1340,15 @@ msgstr "Puntu de atzessu nou"
 
 #: ../plugins/cellular/PageApnEditor.qml:154
 msgid "Used for:"
-msgstr ""
+msgstr "Impreadu pro:"
 
 #: ../plugins/cellular/PageApnEditor.qml:187
 msgid "Enter a name describing the APN"
-msgstr ""
+msgstr "Inserta unu nùmene chi descriat su puntu de atzessu"
 
 #: ../plugins/cellular/PageApnEditor.qml:212
 msgid "Enter the name of the access point"
-msgstr ""
+msgstr "Inserta su nùmene de su puntu de atzessu"
 
 #: ../plugins/cellular/PageApnEditor.qml:226
 msgid "MMSC"
@@ -1356,11 +1356,11 @@ msgstr "MMSC"
 
 #: ../plugins/cellular/PageApnEditor.qml:235
 msgid "Enter message center"
-msgstr ""
+msgstr "Inserta su tzentru de messàgios"
 
 #: ../plugins/cellular/PageApnEditor.qml:253
 msgid "Proxy"
-msgstr ""
+msgstr "Server intermediàriu"
 
 #: ../plugins/cellular/PageApnEditor.qml:262
 msgid "Enter message proxy"
@@ -1687,8 +1687,8 @@ msgid ""
 "Uses WiFi and GPS to detect your rough location. Turning off location "
 "detection saves battery."
 msgstr ""
-"Impreat su Wi-Fi e su GPS pro rilevare sa positzione aprossimativa. "
-"Istudende sa rilevatzione de positzione as a istraviare bateria."
+"Impreat su Wi-Fi e su GPS pro rilevare sa positzione aprossimativa. Istudare "
+"sa rilevatzione de positzione permite de istraviare bateria."
 
 #: ../plugins/security-privacy/Location.qml:216
 msgid ""
