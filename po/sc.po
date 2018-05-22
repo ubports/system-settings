@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-22 15:36+0000\n"
-"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
+"PO-Revision-Date: 2018-05-22 15:37+0000\n"
+"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -3825,39 +3825,39 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:332
 msgid "correct"
-msgstr ""
+msgstr "curretu"
 
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:334
 msgid "suggestions"
-msgstr ""
+msgstr "cussìgius"
 
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:336
 msgid "capitalization"
-msgstr ""
+msgstr "majùsculu"
 
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:338
 msgid "punctuation"
-msgstr ""
+msgstr "puntegiadura"
 
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:340
 msgid "layout"
-msgstr ""
+msgstr "dispositzione"
 
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the brightness plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:342
 #: ../obj-x86_64-linux-gnu/po/settings.js:380
 msgid "display"
-msgstr ""
+msgstr "ischermu"
 
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:344
 msgid "words"
-msgstr ""
+msgstr "faeddos"
 
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:346
