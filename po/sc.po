@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-22 15:16+0000\n"
-"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
+"PO-Revision-Date: 2018-05-22 15:19+0000\n"
+"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -3994,11 +3994,12 @@ msgstr ""
 
 #: ../plugins/security-privacy/securityprivacy.cpp:374
 msgid "Could not set security mode"
-msgstr ""
+msgstr "No s'est pòdida cunfigurare sa modalidade de seguresa"
 
 #: ../plugins/security-privacy/securityprivacy.cpp:399
 msgid "Could not set security display hint"
 msgstr ""
+"Non s'est pòdida cunfigurare sa visualizatzione de su cussìgiu de seguresa"
 
 #: ../plugins/security-privacy/securityprivacy.cpp:413
 msgid "Authentication token manipulation error"
@@ -4006,25 +4007,29 @@ msgstr ""
 
 #: ../plugins/about/click.cpp:168
 msgid "Unknown title"
-msgstr ""
+msgstr "Tìtulu disconnottu"
 
 #: ../src/systemimage.cpp:181
 msgid "Can't cancel current request (can't contact service)"
 msgstr ""
+"Non si podet annullare sa rechèdida atuale (no si podet cuntatare su "
+"servìtziu)"
 
 #: ../src/systemimage.cpp:194
 msgid "Can't pause current request (can't contact service)"
 msgstr ""
+"Non si podet firmare sa rechèdida atuale (non si podet cuntatare su "
+"servìtziu)"
 
 #: ../src/systemimage.cpp:318 ../src/systemimage.cpp:324
 #: ../src/systemimage.cpp:330
 msgid "Unavailable"
-msgstr ""
+msgstr "Non disponìbile"
 
 #: ../push-helper/software_updates_helper.py:159
 msgid "There's an updated system image."
-msgstr ""
+msgstr "B'est un'atualizatzione de sistema disponìbile."
 
 #: ../push-helper/software_updates_helper.py:160
 msgid "Tap to open the system updater."
-msgstr ""
+msgstr "Toca pro abrire s'atualizadore de sistema."
