@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-22 14:39+0000\n"
-"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
+"PO-Revision-Date: 2018-05-22 14:44+0000\n"
+"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -1518,15 +1518,15 @@ msgstr "Muda"
 
 #: ../plugins/security-privacy/SimPin.qml:213
 msgid "Enter SIM PIN"
-msgstr ""
+msgstr "Inserta su PIN de s'ischeda SIM"
 
 #: ../plugins/security-privacy/SimPin.qml:214
 msgid "Enter Previous SIM PIN"
-msgstr ""
+msgstr "Inserta su còdigu PIN pretzedente de s'ischeda SIM"
 
 #: ../plugins/security-privacy/SimPin.qml:334
 msgid "Unlock"
-msgstr ""
+msgstr "Isbloca"
 
 #: ../plugins/security-privacy/SimPin.qml:334
 msgid "Lock"
@@ -1553,6 +1553,9 @@ msgid ""
 "When a SIM PIN is set, it must be entered to access cellular services after "
 "restarting the device or swapping the SIM."
 msgstr ""
+"Si b'est unu còdighe PIN impostadu dae s'ischeda SIM, tocat a l'insertare "
+"pro atzèdere a is servìtzios de su mòbile a pustis de torrare a aviare su "
+"dispositivu o de iscambiare sa SIM."
 
 #: ../plugins/security-privacy/SimPin.qml:449
 msgid "Entering an incorrect PIN repeatedly may lock the SIM permanently."
@@ -1562,7 +1565,7 @@ msgstr ""
 
 #: ../plugins/security-privacy/here-terms.qml:24
 msgid "Nokia HERE"
-msgstr ""
+msgstr "Nokia HERE"
 
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../plugins/security-privacy/PageComponent.qml:40
@@ -1576,7 +1579,7 @@ msgstr "Telèfonu e internet"
 
 #: ../plugins/security-privacy/PageComponent.qml:118
 msgid "Phone only"
-msgstr ""
+msgstr "Su telèfono isceti"
 
 #: ../plugins/security-privacy/PageComponent.qml:148
 msgid "Fingerprint ID"
@@ -2198,10 +2201,12 @@ msgstr ""
 "nde ses faghende un'àtera, e de passare de s'una a s'àtera"
 
 #: ../plugins/phone/CallForwarding.qml:131
+#, fuzzy
 msgid "Forward every incoming call"
 msgstr "Devia totu is mutidas"
 
 #: ../plugins/phone/CallForwarding.qml:146
+#, fuzzy
 msgid "Redirects all phone calls to another number."
 msgstr "Devia totu is mutidas a un'àteru nùmeru."
 
