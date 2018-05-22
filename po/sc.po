@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-22 14:51+0000\n"
-"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
+"PO-Revision-Date: 2018-05-22 15:12+0000\n"
+"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -1685,7 +1685,7 @@ msgid ""
 "battery."
 msgstr ""
 "Impreat su GPS pro rilevare sa positzione aprossimativa tua. Cando est "
-"inativu, su GPS si disativat pro risparmiare bateria."
+"inativu, su GPS si disativat pro istraviare bateria."
 
 #: ../plugins/security-privacy/Location.qml:214
 msgid ""
@@ -2402,11 +2402,11 @@ msgstr "Rete"
 
 #: ../plugins/bluetooth/DevicePage.qml:52
 msgid "Headset"
-msgstr ""
+msgstr "Microauricolare"
 
 #: ../plugins/bluetooth/DevicePage.qml:53
 msgid "Headphones"
-msgstr ""
+msgstr "Auricolares"
 
 #: ../plugins/bluetooth/DevicePage.qml:54
 msgid "Video"
@@ -2414,7 +2414,7 @@ msgstr "Vìdeu"
 
 #: ../plugins/bluetooth/DevicePage.qml:55
 msgid "Other Audio"
-msgstr ""
+msgstr "Àteru àudio"
 
 #: ../plugins/bluetooth/DevicePage.qml:56
 msgid "Joypad"
@@ -2422,11 +2422,11 @@ msgstr ""
 
 #: ../plugins/bluetooth/DevicePage.qml:57
 msgid "Keyboard"
-msgstr ""
+msgstr "Tastiera"
 
 #: ../plugins/bluetooth/DevicePage.qml:58
 msgid "Tablet"
-msgstr ""
+msgstr "Tauledda"
 
 #: ../plugins/bluetooth/DevicePage.qml:60
 msgid "Printer"
@@ -2434,7 +2434,7 @@ msgstr "Imprentadora"
 
 #: ../plugins/bluetooth/DevicePage.qml:62
 msgid "Watch"
-msgstr ""
+msgstr "Rellògiu"
 
 #: ../plugins/bluetooth/DevicePage.qml:63
 msgid "Other"
@@ -2446,19 +2446,19 @@ msgstr ""
 
 #: ../plugins/bluetooth/DevicePage.qml:70
 msgid "Good"
-msgstr ""
+msgstr "Bona"
 
 #: ../plugins/bluetooth/DevicePage.qml:71
 msgid "Fair"
-msgstr ""
+msgstr "Discreta"
 
 #: ../plugins/bluetooth/DevicePage.qml:72
 msgid "Poor"
-msgstr ""
+msgstr "Iscarsa"
 
 #: ../plugins/bluetooth/DevicePage.qml:113
 msgid "Type"
-msgstr ""
+msgstr "Genia"
 
 #: ../plugins/bluetooth/DevicePage.qml:124
 #: ../plugins/printing/printer-sub-pages/Status.qml:26
