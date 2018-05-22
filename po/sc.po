@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
 "PO-Revision-Date: 2018-05-22 14:02+0000\n"
-"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
+"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -1211,7 +1211,7 @@ msgstr "Operadore e puntu de atzessu"
 #: ../plugins/cellular/PageChooseApn.qml:37
 #: ../plugins/cellular/PageApnEditor.qml:203
 msgid "APN"
-msgstr "Puntu de atzessu "
+msgstr "Puntu de atzessu"
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../plugins/cellular/PageComponent.qml:32
