@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-22 15:21+0000\n"
-"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
+"PO-Revision-Date: 2018-05-22 15:28+0000\n"
+"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -3957,7 +3957,7 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the orientation-lock plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:406
 msgid "Rotation Lock"
-msgstr ""
+msgstr "Blocu de sa rotatzione"
 
 #. TRANSLATORS: This is a keyword or name for the orientation-lock plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:408
@@ -3967,7 +3967,7 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the orientation-lock plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:410
 msgid "orientation"
-msgstr ""
+msgstr "orientatzione"
 
 #: ../plugins/wifi/certhandler.cpp:258
 msgid "Private key"
@@ -3975,7 +3975,7 @@ msgstr ""
 
 #: ../plugins/wifi/certhandler.cpp:259
 msgid "Public key"
-msgstr ""
+msgstr "Crae pùblica"
 
 #: ../plugins/wifi/certhandler.cpp:264
 msgid "Opaque"
@@ -3983,11 +3983,11 @@ msgstr ""
 
 #: ../plugins/security-privacy/securityprivacy.cpp:369
 msgid "Incorrect passcode. Try again."
-msgstr ""
+msgstr "Su còdighe de atzessu es isballiadu, torra a proare."
 
 #: ../plugins/security-privacy/securityprivacy.cpp:371
 msgid "Incorrect passphrase. Try again."
-msgstr ""
+msgstr "Sa crae est isballiada. Torra a proare."
 
 #: ../plugins/security-privacy/securityprivacy.cpp:374
 msgid "Could not set security mode"
