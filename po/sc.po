@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-22 14:09+0000\n"
-"Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
+"PO-Revision-Date: 2018-05-22 14:11+0000\n"
+"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -1303,7 +1303,7 @@ msgstr "Disconneta"
 #: ../plugins/cellular/PageChooseApn.qml:229
 #, qt-format
 msgid "You have chosen %1 as your preferred Internet APN. "
-msgstr ""
+msgstr "As seberadu %1 comente puntu de atzessu preferidu pro Internet. "
 
 #: ../plugins/cellular/PageChooseApn.qml:234
 #: ../plugins/cellular/PageChooseApn.qml:267
@@ -1323,12 +1323,12 @@ msgstr "Disativa %1"
 #: ../plugins/cellular/PageChooseApn.qml:262
 #, qt-format
 msgid "This disconnects %1."
-msgstr ""
+msgstr "Custu disconnetet %1."
 
 #: ../plugins/cellular/PageChooseApn.qml:263
 #, qt-format
 msgid "This disables %1."
-msgstr ""
+msgstr "Custu disativat %1."
 
 #: ../plugins/cellular/PageApnEditor.qml:69
 msgid "Edit"
@@ -1645,11 +1645,11 @@ msgstr "Permite chi custu dispositivu rilevet sa positzione tua:"
 
 #: ../plugins/security-privacy/Location.qml:175
 msgid "Using GPS only (less accurate)"
-msgstr "Cando impreat GPS isceti (prus pagu pretzisu)"
+msgstr "Cando impreat su GPS isceti (prus pagu pretzisu)"
 
 #: ../plugins/security-privacy/Location.qml:176
 msgid "Using GPS"
-msgstr "Cando impreat GPS"
+msgstr "Cando impreat su GPS"
 
 #: ../plugins/security-privacy/Location.qml:188
 #, fuzzy, qt-format
