@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-22 15:19+0000\n"
-"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
+"PO-Revision-Date: 2018-05-22 15:21+0000\n"
+"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -1837,9 +1837,8 @@ msgstr "Crae"
 
 #: ../plugins/security-privacy/LockSecurity.qml:468
 #: ../plugins/security-privacy/PhoneLocking.qml:63
-#, fuzzy
 msgid "Fingerprint"
-msgstr "Imprenta"
+msgstr "Istampa "
 
 #: ../plugins/security-privacy/LockSecurity.qml:469
 msgid "Swipe (no security)… "
@@ -1864,15 +1863,13 @@ msgstr ""
 
 #: ../plugins/security-privacy/PhoneLocking.qml:89
 #: ../plugins/battery/PageComponent.qml:313
-#, fuzzy
 msgid "Lock when idle"
-msgstr "Bloca cando siat inativu"
+msgstr "Bloca cando est inativu"
 
 #: ../plugins/security-privacy/PhoneLocking.qml:90
 #: ../plugins/battery/PageComponent.qml:313
-#, fuzzy
 msgid "Sleep when idle"
-msgstr "Suspende cando siat inativu"
+msgstr "Suspende cando est inativu"
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/security-privacy/PhoneLocking.qml:98
@@ -1900,15 +1897,15 @@ msgstr[1] "A pustis de %1 minutos"
 
 #: ../plugins/security-privacy/PhoneLocking.qml:126
 msgid "Sleep locks immediately"
-msgstr ""
+msgstr "Blocu in automàticu cando si ponet a asseliare"
 
 #: ../plugins/security-privacy/PhoneLocking.qml:132
 msgid "When locked, allow:"
-msgstr ""
+msgstr "Cando est blocadu, permite:"
 
 #: ../plugins/security-privacy/PhoneLocking.qml:152
 msgid "Notifications and quick settings"
-msgstr ""
+msgstr "Notìficas e cunfiguratzione lestra"
 
 #: ../plugins/security-privacy/PhoneLocking.qml:167
 msgid "Turn on lock security to restrict access when the device is locked."
