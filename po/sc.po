@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-22 15:32+0000\n"
-"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
+"PO-Revision-Date: 2018-05-22 15:33+0000\n"
+"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -3884,27 +3884,27 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the battery plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:356
 msgid "idle"
-msgstr ""
+msgstr "inativu"
 
 #. TRANSLATORS: This is a keyword or name for the battery plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:360
 msgid "disable"
-msgstr ""
+msgstr "disativa"
 
 #. TRANSLATORS: This is a keyword or name for the battery plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:362
 msgid "enable"
-msgstr ""
+msgstr "ativa"
 
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:366
 msgid "reset"
-msgstr ""
+msgstr "reseta"
 
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:368
 msgid "erase"
-msgstr ""
+msgstr "cantzella"
 
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:370
