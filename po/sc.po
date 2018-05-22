@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-22 13:25+0000\n"
-"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
+"PO-Revision-Date: 2018-05-22 13:27+0000\n"
+"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -902,7 +902,7 @@ msgstr "Su dispositivu immoe no est gestidu"
 
 #: ../plugins/wifi/Common.qml:44 ../plugins/hotspot/Common.qml:42
 msgid "The device could not be readied for configuration"
-msgstr ""
+msgstr "No s'est pòdidu preparare su dispositivu pro sa cunfiguratzione"
 
 #: ../plugins/wifi/Common.qml:46 ../plugins/hotspot/Common.qml:44
 msgid ""
