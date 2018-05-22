@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-22 14:04+0000\n"
-"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
+"PO-Revision-Date: 2018-05-22 14:05+0000\n"
+"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -1229,11 +1229,11 @@ msgstr "Puntu de atzessu pro MMS"
 
 #: ../plugins/cellular/PageChooseApn.qml:70
 msgid "Internet APN"
-msgstr ""
+msgstr "Puntu de atzessu pro Internet"
 
 #: ../plugins/cellular/PageChooseApn.qml:76
 msgid "LTE APN"
-msgstr ""
+msgstr "Puntu de atzessu pro LTE"
 
 #: ../plugins/cellular/PageChooseApn.qml:86
 #: ../plugins/cellular/PageApnEditor.qml:158
