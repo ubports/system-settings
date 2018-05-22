@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-22 14:37+0000\n"
-"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
+"PO-Revision-Date: 2018-05-22 14:39+0000\n"
+"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -1508,7 +1508,7 @@ msgstr "Cunfirma su còdighe PIN nou: "
 
 #: ../plugins/security-privacy/SimPin.qml:168
 msgid "PINs don't match. Try again."
-msgstr ""
+msgstr "Is còdigos PIN non crosant. Torra a proare."
 
 #: ../plugins/security-privacy/SimPin.qml:187
 #: ../plugins/security-privacy/LockSecurity.qml:388
@@ -2161,7 +2161,7 @@ msgstr "Inserta·nche unu nùmeru"
 
 #: ../plugins/phone/CallForwardItem.qml:218
 msgid "Call forwarding can’t be changed right now."
-msgstr ""
+msgstr "In custu momentu non si podet mudare sa deviatzione de mutidas."
 
 #: ../plugins/phone/SingleSim.qml:29
 msgid "SIM"
