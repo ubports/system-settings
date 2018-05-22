@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-22 15:28+0000\n"
-"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
+"PO-Revision-Date: 2018-05-22 15:31+0000\n"
+"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -2073,7 +2073,7 @@ msgstr "Pro mannària"
 #: ../plugins/about/Storage.qml:222 ../plugins/battery/PageComponent.qml:109
 #: ../plugins/battery/PageComponent.qml:283
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 #: ../plugins/about/Software.qml:11 ../plugins/about/PageComponent.qml:224
 msgid "Software licenses"
@@ -3920,24 +3920,24 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:374
 msgid "restore"
-msgstr ""
+msgstr "riprìstina"
 
 #. TRANSLATORS: This is a keyword or name for the brightness plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:378
 msgid "brightness"
-msgstr ""
+msgstr "lugore"
 
 #. TRANSLATORS: This is a keyword or name for the brightness plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the orientation-lock plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:382
 #: ../obj-x86_64-linux-gnu/po/settings.js:414
 msgid "screen"
-msgstr ""
+msgstr "ischermu"
 
 #. TRANSLATORS: This is a keyword or name for the brightness plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:386
 msgid "adjust"
-msgstr ""
+msgstr "acontza"
 
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:396
