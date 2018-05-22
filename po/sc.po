@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-22 14:45+0000\n"
-"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
+"PO-Revision-Date: 2018-05-22 14:46+0000\n"
+"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -1610,6 +1610,8 @@ msgid ""
 "Encryption protects against access to phone data when the phone is connected "
 "to a PC or other device."
 msgstr ""
+"Sa tzifradura amparat contras s'atzessu a is datos de su telèfono cando si "
+"collegat a un'ordinadore o a un'àteru dispositivu."
 
 #: ../plugins/security-privacy/PageComponent.qml:207
 msgid "Privacy"
@@ -2221,11 +2223,11 @@ msgstr "Devia is mutidas cando:"
 
 #: ../plugins/phone/CallForwarding.qml:175
 msgid "I’m on another call"
-msgstr ""
+msgstr "So faghende un'àtera mutida"
 
 #: ../plugins/phone/CallForwarding.qml:186
 msgid "I don’t answer"
-msgstr ""
+msgstr "Non respondo"
 
 #: ../plugins/phone/CallForwarding.qml:197
 msgid "My phone is unreachable"
