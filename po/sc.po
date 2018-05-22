@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-22 14:00+0000\n"
-"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
+"PO-Revision-Date: 2018-05-22 14:02+0000\n"
+"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -1557,8 +1557,8 @@ msgstr ""
 #: ../plugins/security-privacy/SimPin.qml:449
 msgid "Entering an incorrect PIN repeatedly may lock the SIM permanently."
 msgstr ""
-"Insertende prus bortas unu PIN chi no est curretu si diat pòdere blocare sa "
-"SIM in manera permanente."
+"Insertare prus bortas unu PIN chi no est curretu diat pòdere blocare sa SIM "
+"in manera permanente."
 
 #: ../plugins/security-privacy/here-terms.qml:24
 msgid "Nokia HERE"
@@ -1576,7 +1576,7 @@ msgstr "Telèfonu e internet"
 
 #: ../plugins/security-privacy/PageComponent.qml:118
 msgid "Phone only"
-msgstr "Petzi su telèfonu"
+msgstr ""
 
 #: ../plugins/security-privacy/PageComponent.qml:148
 msgid "Fingerprint ID"
