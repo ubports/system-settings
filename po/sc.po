@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-22 15:33+0000\n"
-"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
+"PO-Revision-Date: 2018-05-22 15:34+0000\n"
+"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -2215,14 +2215,12 @@ msgstr ""
 "nde ses faghende un'àtera, e de passare de s'una a s'àtera"
 
 #: ../plugins/phone/CallForwarding.qml:131
-#, fuzzy
 msgid "Forward every incoming call"
-msgstr "Devia totu is mutidas"
+msgstr "Dèvia totus is mutidas"
 
 #: ../plugins/phone/CallForwarding.qml:146
-#, fuzzy
 msgid "Redirects all phone calls to another number."
-msgstr "Devia totu is mutidas a un'àteru nùmeru."
+msgstr "Dèvia totus is mutidas a un'àteru nùmeru."
 
 #: ../plugins/phone/CallForwarding.qml:158
 msgid "Call forwarding status can’t be checked "
