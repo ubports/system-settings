@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-22 13:57+0000\n"
-"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
+"PO-Revision-Date: 2018-05-22 13:59+0000\n"
+"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -1163,11 +1163,11 @@ msgstr "Cunfigura comente predefinida"
 
 #: ../plugins/printing/PageComponent.qml:190
 msgid "There are no printers configured yet."
-msgstr ""
+msgstr "Non bi sunt ancora imprentadoras cunfiguradas."
 
 #: ../plugins/printing/PrinterConnection.qml:67
 msgid "Host"
-msgstr ""
+msgstr "Host"
 
 #: ../plugins/printing/Printer.qml:42
 msgid "Printer status"
