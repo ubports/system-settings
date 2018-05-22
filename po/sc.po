@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-22 14:03+0000\n"
-"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
+"PO-Revision-Date: 2018-05-22 14:04+0000\n"
+"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -1221,7 +1221,7 @@ msgstr "Mòbile"
 
 #: ../plugins/cellular/PageCarriersAndApns.qml:27
 msgid "Carriers & APNs"
-msgstr "Operadores e puntos de atzessu "
+msgstr "Operadores e puntos de atzessu"
 
 #: ../plugins/cellular/PageChooseApn.qml:64
 msgid "MMS APN"
