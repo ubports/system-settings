@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-22 14:31+0000\n"
-"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
+"PO-Revision-Date: 2018-05-22 14:32+0000\n"
+"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -1905,7 +1905,7 @@ msgstr "Fusu oràriu"
 
 #: ../plugins/time-date/ChooseTimeZone.qml:50
 msgid "Set the time zone:"
-msgstr ""
+msgstr "Imposta su (fusu oràriu?)"
 
 #: ../plugins/time-date/ChooseTimeZone.qml:51
 #: ../plugins/time-date/PageComponent.qml:85
