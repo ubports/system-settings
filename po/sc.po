@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-22 14:33+0000\n"
-"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
+"PO-Revision-Date: 2018-05-22 14:36+0000\n"
+"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -1940,19 +1940,19 @@ msgstr "Imposta data e oràriu"
 
 #: ../plugins/time-date/TimePicker.qml:67
 msgid "Time"
-msgstr ""
+msgstr "Oràriu"
 
 #: ../plugins/time-date/TimePicker.qml:80
 msgid "Hour"
-msgstr ""
+msgstr "Ora"
 
 #: ../plugins/time-date/TimePicker.qml:94
 msgid "Minute"
-msgstr ""
+msgstr "Minutu"
 
 #: ../plugins/time-date/TimePicker.qml:108
 msgid "Second"
-msgstr ""
+msgstr "Segundu"
 
 #: ../plugins/time-date/TimePicker.qml:117
 msgid "Date"
@@ -2070,6 +2070,9 @@ msgid ""
 "In Developer Mode, anyone can access, change or delete anything on this "
 "device by connecting it to another device."
 msgstr ""
+"In modalidade de isvilupadore, chiesi siat podet atzèdere, modificare o "
+"eliminare su contenutu de custu dispositivu colleghende·lu a un'àteru "
+"dispositivu."
 
 #: ../plugins/about/DevMode.qml:110
 #, fuzzy
