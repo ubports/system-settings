@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
 "PO-Revision-Date: 2018-05-22 16:25+0000\n"
-"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
+"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -3133,7 +3133,7 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the flight-mode plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:8
 msgid "offline"
-msgstr "Foras de lìnia"
+msgstr "foras de lìnia"
 
 #. TRANSLATORS: This is a keyword or name for the flight-mode plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:10
