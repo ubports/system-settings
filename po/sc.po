@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-22 14:05+0000\n"
-"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
+"PO-Revision-Date: 2018-05-22 14:09+0000\n"
+"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -1238,7 +1238,7 @@ msgstr "Puntu de atzessu pro LTE"
 #: ../plugins/cellular/PageChooseApn.qml:86
 #: ../plugins/cellular/PageApnEditor.qml:158
 msgid "Internet and MMS"
-msgstr ""
+msgstr "Internet e MMS"
 
 #: ../plugins/cellular/PageChooseApn.qml:88
 #: ../plugins/cellular/PageApnEditor.qml:159
@@ -1257,15 +1257,15 @@ msgstr "MMS"
 
 #: ../plugins/cellular/PageChooseApn.qml:158
 msgid "Reset All APN Settings…"
-msgstr ""
+msgstr "Reseta sa cunfiguratzione de su puntu de atzessu..."
 
 #: ../plugins/cellular/PageChooseApn.qml:167
 msgid "Reset APN Settings"
-msgstr ""
+msgstr "Reseta sa cunfiguratzione de su puntu de atzessu"
 
 #: ../plugins/cellular/PageChooseApn.qml:168
 msgid "Are you sure that you want to Reset APN Settings?"
-msgstr ""
+msgstr "Seguru chi boles resetare sa cunfiguratzione de su puntu de atzessu?"
 
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../plugins/cellular/PageChooseApn.qml:171
@@ -1281,7 +1281,7 @@ msgstr "Reseta"
 #: ../plugins/cellular/PageChooseApn.qml:225
 #, qt-format
 msgid "Prefer %1"
-msgstr ""
+msgstr "Preferi %1"
 
 #. TRANSLATORS: %1 is the MMS APN that the user has chosen to be
 #. “preferred”, i.e. used to retrieve MMS messages. %2 is the Internet
@@ -1289,7 +1289,7 @@ msgstr ""
 #: ../plugins/cellular/PageChooseApn.qml:198
 #, qt-format
 msgid "You have chosen %1 as your preferred MMS APN. "
-msgstr ""
+msgstr "As seberadu %1 comente puntu de atzessu pro MMS preferidu. "
 
 #: ../plugins/cellular/PageChooseApn.qml:203
 #: ../plugins/cellular/PageChooseApn.qml:268
@@ -1640,9 +1640,8 @@ msgid "Not sent"
 msgstr "Non nd'imbies"
 
 #: ../plugins/security-privacy/Location.qml:96
-#, fuzzy
 msgid "Let the device detect your location:"
-msgstr "Permite chi custu dispositivu rilevi sa positzione tua:"
+msgstr "Permite chi custu dispositivu rilevet sa positzione tua:"
 
 #: ../plugins/security-privacy/Location.qml:175
 #, fuzzy
