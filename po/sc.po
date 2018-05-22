@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-22 16:24+0000\n"
-"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
+"PO-Revision-Date: 2018-05-22 16:25+0000\n"
+"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -3133,12 +3133,12 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the flight-mode plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:8
 msgid "offline"
-msgstr ""
+msgstr "Foras de lìnia"
 
 #. TRANSLATORS: This is a keyword or name for the flight-mode plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:10
 msgid "airplane"
-msgstr ""
+msgstr "aèreu"
 
 #. TRANSLATORS: This is a keyword or name for the flight-mode plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
@@ -3151,12 +3151,12 @@ msgstr ""
 #: ../obj-x86_64-linux-gnu/po/settings.js:292
 #: ../obj-x86_64-linux-gnu/po/settings.js:390
 msgid "network"
-msgstr ""
+msgstr "rete"
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:16
 msgid "system"
-msgstr ""
+msgstr "sistema"
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the notifications plugin which is used while searching
