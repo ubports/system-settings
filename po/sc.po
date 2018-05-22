@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
 "PO-Revision-Date: 2018-05-22 14:09+0000\n"
-"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
+"Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -1644,9 +1644,8 @@ msgid "Let the device detect your location:"
 msgstr "Permite chi custu dispositivu rilevet sa positzione tua:"
 
 #: ../plugins/security-privacy/Location.qml:175
-#, fuzzy
 msgid "Using GPS only (less accurate)"
-msgstr "Petzi cando impreat GPS (prus pagu pretzissu)"
+msgstr "Cando impreat GPS isceti (prus pagu pretzisu)"
 
 #: ../plugins/security-privacy/Location.qml:176
 msgid "Using GPS"
