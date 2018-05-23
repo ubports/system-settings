@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-23 11:11+0000\n"
-"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
+"PO-Revision-Date: 2018-05-23 13:51+0000\n"
+"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -2358,7 +2358,7 @@ msgstr ""
 #: ../plugins/bluetooth/ProvidePasskeyDialog.qml:36
 #, qt-format
 msgid "PIN for '%1'"
-msgstr ""
+msgstr "PIN pro '%1'"
 
 #: ../plugins/bluetooth/ProvidePinCodeDialog.qml:63
 #: ../plugins/bluetooth/ProvidePasskeyDialog.qml:62
@@ -2767,44 +2767,46 @@ msgstr ""
 
 #: ../plugins/reset/ResetAllSettings.qml:31
 msgid "Reset all system settings"
-msgstr ""
+msgstr "Reseta totus is cunfiguratziones de sistema"
 
 #: ../plugins/reset/ResetLauncherHome.qml:40
 msgid "The Launcher will be returned to its original contents."
-msgstr ""
+msgstr "S'ant a resetare is cuntenutos originales de su launcher."
 
 #: ../plugins/reset/ResetLauncherHome.qml:44
 #: ../plugins/reset/PageComponent.qml:75 ../plugins/reset/PageComponent.qml:86
 msgid "Reset Launcher"
-msgstr ""
+msgstr "Reseta launcher"
 
 #: ../plugins/reset/EraseEverything.qml:41
 msgid ""
 "All documents, saved games, settings, and other items will be permanently "
 "deleted from this device."
 msgstr ""
+"Totus is documentos, giogos sarvados, cunfiguratziones e totus is àteros "
+"elementos s'ant a eliminare de manera definitiva dae custu dispositivu."
 
 #: ../plugins/reset/EraseEverything.qml:44
 msgid "Erase & Reset Everything"
-msgstr ""
+msgstr "Cantzella e reseta totu"
 
 #: ../plugins/reset/PageComponent.qml:32
 msgid "Reset device"
-msgstr ""
+msgstr "Reseta su dispositivu"
 
 #: ../plugins/reset/PageComponent.qml:101
 #: ../plugins/reset/PageComponent.qml:112
 msgid "Reset all system settings…"
-msgstr ""
+msgstr "Reseta totus is cunfiguratziones de sistema..."
 
 #: ../plugins/reset/PageComponent.qml:126
 #: ../plugins/reset/PageComponent.qml:138
 msgid "Erase & Reset All"
-msgstr ""
+msgstr "Cantzella e reseta totu"
 
 #: ../plugins/brightness/WifiDisplays.qml:27
 msgid "Wireless Display"
-msgstr ""
+msgstr "Ischermu sena filos"
 
 #: ../plugins/brightness/WifiDisplays.qml:100
 msgid "No displays detected"
@@ -2812,21 +2814,21 @@ msgstr ""
 
 #: ../plugins/brightness/WifiDisplays.qml:113
 msgid "Connected display:"
-msgstr ""
+msgstr "Ischermu collegadu:"
 
 #: ../plugins/brightness/WifiDisplays.qml:128
 msgid "Connecting"
-msgstr ""
+msgstr "Colleghende·si..."
 
 #: ../plugins/brightness/WifiDisplays.qml:128
 #: ../plugins/brightness/WifiDisplays.qml:172
 #: ../plugins/brightness/PageComponent.qml:159
 msgid "Not connected"
-msgstr ""
+msgstr "Non collegadu"
 
 #: ../plugins/brightness/WifiDisplays.qml:146
 msgid "Use another display:"
-msgstr ""
+msgstr "Imprea un'àteru ischermu:"
 
 #: ../plugins/brightness/WifiDisplays.qml:146
 msgid "Choose a display:"
