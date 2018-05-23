@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
 "PO-Revision-Date: 2018-05-23 14:09+0000\n"
-"Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
+"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -2682,6 +2682,8 @@ msgstr ""
 #: ../plugins/battery/SleepValues.qml:130
 msgid "Device won’t sleep during calls or video playback."
 msgstr ""
+"Su dispositivu no s'at a asseliare durante mutidas o riprodutziones de "
+"vìdeos."
 
 #. TRANSLATORS: This is a keyword or name for the battery plugin which is used while searching
 #: ../plugins/battery/PageComponent.qml:35
