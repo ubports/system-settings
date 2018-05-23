@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-23 10:55+0000\n"
-"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
+"PO-Revision-Date: 2018-05-23 10:57+0000\n"
+"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -2905,11 +2905,11 @@ msgstr[1] ""
 
 #: ../plugins/background/Components/AddRemove.qml:79
 msgid "Add an image…"
-msgstr ""
+msgstr "Agiunghe un'immàgine"
 
 #: ../plugins/background/Components/AddRemove.qml:89
 msgid "Remove images…"
-msgstr ""
+msgstr "Elìmina immàgines"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:27
 msgid "Enabled"
