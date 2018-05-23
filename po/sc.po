@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-23 10:42+0000\n"
-"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
+"PO-Revision-Date: 2018-05-23 10:43+0000\n"
+"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -3041,7 +3041,7 @@ msgstr ""
 #: ../plugins/cellular/Components/DataMultiSim.qml:81
 #: ../plugins/cellular/Components/NoSim.qml:45
 msgid "Insert a SIM, then restart the device."
-msgstr "Inserta una Sim e torra a aviare su dispositivu."
+msgstr "Inserta una SIM e torra a aviare su dispositivu."
 
 #: ../plugins/cellular/Components/DefaultSim.qml:33
 msgid "Ask me each time"
