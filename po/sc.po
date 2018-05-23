@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
 "PO-Revision-Date: 2018-05-23 14:16+0000\n"
-"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
+"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -2975,7 +2975,7 @@ msgstr "%1 — %2"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:43
 msgid "No messages"
-msgstr ""
+msgstr "Perunu messàgiu"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:48
 msgid "Jobs"
