@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-23 10:57+0000\n"
-"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
+"PO-Revision-Date: 2018-05-23 11:01+0000\n"
+"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -2882,11 +2882,11 @@ msgstr ""
 
 #: ../plugins/vpn/PageComponent.qml:82
 msgid "Add Manual Configuration…"
-msgstr ""
+msgstr "Agiunghe una configuratzione manuale"
 
 #: ../plugins/vpn/PageComponent.qml:117
 msgid "VPN reconnection required."
-msgstr ""
+msgstr "Tocat a si torrare a collegare a sa VPN."
 
 #: ../plugins/vpn/PageComponent.qml:118
 msgid "You need to reconnect for changes to have an effect."
@@ -2894,7 +2894,7 @@ msgstr ""
 
 #: ../plugins/background/Components/AddRemove.qml:52
 msgid "No images selected"
-msgstr ""
+msgstr "Peruna imàgine seletzionada"
 
 #: ../plugins/background/Components/AddRemove.qml:65
 #, qt-format
