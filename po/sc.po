@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-23 11:05+0000\n"
-"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
+"PO-Revision-Date: 2018-05-23 11:11+0000\n"
+"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -2830,11 +2830,11 @@ msgstr ""
 
 #: ../plugins/brightness/WifiDisplays.qml:146
 msgid "Choose a display:"
-msgstr ""
+msgstr "Sèbera un'ischermu"
 
 #: ../plugins/brightness/PageComponent.qml:35
 msgid "Brightness & Display"
-msgstr ""
+msgstr "Lugore e ischermu"
 
 #. TRANSLATORS: This is a keyword or name for the brightness plugin which is used while searching
 #: ../plugins/brightness/PageComponent.qml:35
@@ -2852,11 +2852,11 @@ msgstr ""
 
 #: ../plugins/brightness/PageComponent.qml:140
 msgid "External display"
-msgstr ""
+msgstr "Ischermu esternu"
 
 #: ../plugins/brightness/PageComponent.qml:158
 msgid "Wireless display"
-msgstr ""
+msgstr "Ischermu sena filos"
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:32
 #, qt-format
