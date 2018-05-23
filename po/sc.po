@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-23 10:44+0000\n"
-"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
+"PO-Revision-Date: 2018-05-23 10:53+0000\n"
+"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -2930,7 +2930,7 @@ msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:69
 msgid "Shared"
-msgstr ""
+msgstr "Cumpàrtziu"
 
 #: ../plugins/printing/printer-sub-pages/CopiesAndPages.qml:26
 msgid "Copies"
@@ -2942,7 +2942,7 @@ msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:30
 msgid "Idle"
-msgstr ""
+msgstr "Inativa"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:32
 msgid "Aborted"
@@ -2991,16 +2991,15 @@ msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:88
 msgid "Print test page"
-msgstr ""
+msgstr "Imprenta una pàgina de proa"
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:43
 msgid "Duplex"
 msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:59
-#, fuzzy
 msgid "Color model"
-msgstr "Modalidade de isvilupadore"
+msgstr "Modellu de colore"
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:75
 msgid "Quality"
@@ -3009,12 +3008,12 @@ msgstr "Calidade"
 #: ../plugins/cellular/Components/RadioSingleSim.qml:31
 #: ../plugins/cellular/Components/MultiSim.qml:83
 msgid "Connection type:"
-msgstr ""
+msgstr "Genia de connessione:"
 
 #: ../plugins/cellular/Components/MultiSim.qml:55
 #: ../plugins/cellular/Components/SingleSim.qml:105
 msgid "Data usage statistics"
-msgstr ""
+msgstr "Istatìsticas de impreu de datos"
 
 #: ../plugins/cellular/Components/MultiSim.qml:60
 msgid "Carriers"
