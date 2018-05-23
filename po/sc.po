@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-23 14:28+0000\n"
-"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
+"PO-Revision-Date: 2018-05-23 14:31+0000\n"
+"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -3470,7 +3470,7 @@ msgstr "ppd"
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:146
 msgid "collate"
-msgstr ""
+msgstr "òrdina"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:148
@@ -3485,7 +3485,7 @@ msgstr "modellu de colore"
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:152
 msgid "greyscale"
-msgstr "Iscala de murros"
+msgstr "iscala de murros"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:154
@@ -3505,12 +3505,12 @@ msgstr "tinta"
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:162
 msgid "cellular"
-msgstr ""
+msgstr "mòbile"
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:166
 msgid "mobile"
-msgstr ""
+msgstr "mòbile"
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:168
@@ -3648,14 +3648,14 @@ msgstr "dispositivu"
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:228
 msgid "info"
-msgstr ""
+msgstr "informatziones"
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:230
 #: ../obj-x86_64-linux-gnu/po/settings.js:268
 msgid "phone"
-msgstr ""
+msgstr "telèfono"
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:232
@@ -3665,7 +3665,7 @@ msgstr "nùmeru"
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:234
 msgid "imei"
-msgstr ""
+msgstr "imei"
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:236
@@ -3675,7 +3675,7 @@ msgstr "nùmeru de sèrie"
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:240
 msgid "mac"
-msgstr ""
+msgstr "mac"
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:242
