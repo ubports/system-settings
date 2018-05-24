@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-24 15:30+0000\n"
-"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
+"PO-Revision-Date: 2018-05-24 21:03+0000\n"
+"Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -2573,7 +2573,7 @@ msgstr "Tastiera"
 
 #: ../plugins/language/PageComponent.qml:161
 msgid "On-screen keyboard"
-msgstr "Tastiera in s'ischermu "
+msgstr "Tastiera in s'ischermu"
 
 #: ../plugins/language/PageComponent.qml:162
 #: ../plugins/language/KeyboardLayouts.qml:29
@@ -3651,7 +3651,7 @@ msgstr "informatziones"
 #: ../obj-x86_64-linux-gnu/po/settings.js:230
 #: ../obj-x86_64-linux-gnu/po/settings.js:268
 msgid "phone"
-msgstr "telèfono"
+msgstr "telèfonu"
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:232
