@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-23 14:40+0000\n"
-"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
+"PO-Revision-Date: 2018-05-24 15:30+0000\n"
+"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -960,9 +960,8 @@ msgstr ""
 "Pòdet èssere chi ammanchet su microprogramma rechèdidu pro su dispositivu "
 
 #: ../plugins/wifi/Common.qml:72 ../plugins/hotspot/Common.qml:70
-#, fuzzy
 msgid "The device was removed"
-msgstr "Dispositivu eliminadu"
+msgstr "Su dispositivu est istadu tiradu"
 
 #: ../plugins/wifi/Common.qml:74 ../plugins/hotspot/Common.qml:72
 msgid "NetworkManager went to sleep"
@@ -2227,9 +2226,8 @@ msgid "Call forwarding status can’t be checked "
 msgstr "Non si podet controllare s'istadu de deviatzione de mutidas"
 
 #: ../plugins/phone/CallForwarding.qml:166
-#, fuzzy
 msgid "Forward incoming calls when:"
-msgstr "Devia is mutidas cando:"
+msgstr "Dèvia is mutidas cando:"
 
 #: ../plugins/phone/CallForwarding.qml:175
 msgid "I’m on another call"
@@ -2240,9 +2238,8 @@ msgid "I don’t answer"
 msgstr "Non respondo"
 
 #: ../plugins/phone/CallForwarding.qml:197
-#, fuzzy
 msgid "My phone is unreachable"
-msgstr "Su telèfonu meu no est atzessìbile"
+msgstr "Su telèfono meu no est atzessìbile"
 
 #: ../plugins/phone/CallForwarding.qml:227
 msgid "Contacts…"
@@ -2265,9 +2262,8 @@ msgid "Contact not associated with any phone number."
 msgstr "Perunu nùmeru de telèfonu assotziadu a su cuntatu."
 
 #: ../plugins/phone/CallForwarding.qml:382
-#, fuzzy
 msgid "All calls"
-msgstr "Totu is mutidas"
+msgstr "Totus is mutidas"
 
 #: ../plugins/phone/CallForwarding.qml:384
 msgid "Some calls"
