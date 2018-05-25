@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-24 21:03+0000\n"
-"Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
+"PO-Revision-Date: 2018-05-25 10:27+0000\n"
+"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -325,7 +325,7 @@ msgstr "Atualiza totu"
 #: ../plugins/security-privacy/PhoneLocking.qml:138
 #: ../obj-x86_64-linux-gnu/po/settings.js:36
 msgid "Launcher"
-msgstr ""
+msgstr "Launcher"
 
 #: ../plugins/launcher/PageComponent.qml:65
 msgid "On large screens:"
@@ -351,11 +351,11 @@ msgstr "Pulsante primàriu: "
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:72
 msgid "Left"
-msgstr ""
+msgstr "Mancu"
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:89
 msgid "Right"
-msgstr ""
+msgstr "Deretu"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../plugins/mouse/PageComponent.qml:29
@@ -556,7 +556,7 @@ msgstr "Anteprima"
 
 #: ../plugins/background/Preview.qml:107
 msgid "Remove image"
-msgstr "Boga s'imàgine"
+msgstr "Fùlia s'imàgine"
 
 #: ../plugins/background/Preview.qml:113
 #: ../plugins/security-privacy/LockSecurity.qml:390
@@ -811,7 +811,7 @@ msgstr "Frunidura pac "
 
 #: ../plugins/wifi/OtherNetwork.qml:686
 msgid "Disabled"
-msgstr "Disativadu"
+msgstr "Inabilitadu "
 
 #: ../plugins/wifi/OtherNetwork.qml:687
 msgid "Anonymous"
@@ -2088,7 +2088,7 @@ msgid ""
 "device by connecting it to another device."
 msgstr ""
 "In modalidade de isvilupadore, chiesi siat podet atzèdere, modificare o "
-"eliminare su contenutu de custu dispositivu colleghende·lu a un'àteru "
+"cantzellare su contenutu de custu dispositivu colleghende·lu a un'àteru "
 "dispositivu."
 
 #: ../plugins/about/DevMode.qml:110
@@ -2785,7 +2785,7 @@ msgid ""
 "deleted from this device."
 msgstr ""
 "Totus is documentos, giogos sarvados, cunfiguratziones e totus is àteros "
-"elementos s'ant a eliminare de manera definitiva dae custu dispositivu."
+"elementos s'ant a cantzellare de manera definitiva dae custu dispositivu."
 
 #: ../plugins/reset/EraseEverything.qml:44
 msgid "Erase & Reset Everything"
@@ -2906,8 +2906,8 @@ msgstr "Peruna imàgine seletzionada"
 #, qt-format
 msgid "Remove %1 image"
 msgid_plural "Remove %1 images"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Fùlia %1 immàgine"
+msgstr[1] "Fùlia %1 immàgines"
 
 #: ../plugins/background/Components/AddRemove.qml:79
 msgid "Add an image…"
@@ -2915,7 +2915,7 @@ msgstr "Agiunghe un'immàgine…"
 
 #: ../plugins/background/Components/AddRemove.qml:89
 msgid "Remove images…"
-msgstr "Elìmina immàgines"
+msgstr "Fùlia immàgines…"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:27
 msgid "Enabled"
