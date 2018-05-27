@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-14 09:43+0000\n"
+"PO-Revision-Date: 2018-05-27 17:29+0000\n"
 "Last-Translator: Joachim Lazaroms <joachim.pc@gmail.com>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/system-"
 "settings/nl/>\n"
@@ -73,9 +73,8 @@ msgid "Paused"
 msgstr "Gepauseerd"
 
 #: ../plugins/system-update/UpdateDelegate.qml:235
-#, fuzzy
 msgid "Waiting to download"
-msgstr "Autom. downloaden"
+msgstr "Wachten om te downloaden"
 
 #: ../plugins/system-update/UpdateDelegate.qml:238
 msgid "Downloading"
@@ -90,9 +89,8 @@ msgid "%1 of %2"
 msgstr "%1 van %2"
 
 #: ../plugins/system-update/UpdateDelegate.qml:278
-#, fuzzy
 msgid "Downloaded"
-msgstr "Downloaden"
+msgstr "Gedownload"
 
 #: ../plugins/system-update/UpdateDelegate.qml:281
 msgid "Installed"
@@ -101,14 +99,13 @@ msgstr "Geïnstalleerd"
 #. TRANSLATORS: %1 is the date at which this
 #. update was applied.
 #: ../plugins/system-update/UpdateDelegate.qml:286
-#, fuzzy, qt-format
+#, qt-format
 msgid "Updated %1"
-msgstr "Bijwerken"
+msgstr "Bijgewerkt: %1"
 
 #: ../plugins/system-update/UpdateDelegate.qml:310
-#, fuzzy
 msgid "Update failed"
-msgstr "Updates beschikbaar"
+msgstr "Update mislukt"
 
 #: ../plugins/system-update/Configuration.qml:30
 #: ../plugins/system-update/UpdateSettings.qml:55
@@ -158,9 +155,8 @@ msgstr "OK"
 
 #: ../plugins/system-update/UpdateSettings.qml:32
 #: ../plugins/system-update/PageComponent.qml:412
-#, fuzzy
 msgid "Update settings"
-msgstr "Systeeminstellingen"
+msgstr "Update systeeminstellingen"
 
 #: ../plugins/system-update/UpdateSettings.qml:60
 msgid "On WiFi"
@@ -176,31 +172,28 @@ msgid "Unknown"
 msgstr "Onbekend"
 
 #: ../plugins/system-update/UpdateSettings.qml:71
-#, fuzzy
 msgid "Channels"
-msgstr "Wijzigen"
+msgstr "Kanaal"
 
 #: ../plugins/system-update/UpdateSettings.qml:73
 #: ../plugins/system-update/ChannelSettings.qml:57
-#, fuzzy
 msgid "Stable"
-msgstr "Tablet"
+msgstr "Stabiel"
 
 #: ../plugins/system-update/UpdateSettings.qml:73
 #: ../plugins/system-update/ChannelSettings.qml:57
 msgid "Release candidate"
-msgstr ""
+msgstr "Release candidate"
 
 #: ../plugins/system-update/UpdateSettings.qml:73
 #: ../plugins/system-update/ChannelSettings.qml:57
-#, fuzzy
 msgid "Development"
-msgstr "Ontwikkelaarsmodus"
+msgstr "In ontwikkeling"
 
 #: ../plugins/system-update/ChangelogExpander.qml:42
-#, fuzzy, qt-format
+#, qt-format
 msgid "Version %1"
-msgstr "Versie: "
+msgstr "Versie %1"
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../plugins/system-update/PageComponent.qml:38
@@ -209,9 +202,8 @@ msgid "Updates"
 msgstr "Updates"
 
 #: ../plugins/system-update/PageComponent.qml:182
-#, fuzzy
 msgid "Connect to the Internet to check for updates."
-msgstr "Maak verbinding met het internet om te controleren op updates"
+msgstr "Maak verbinding met het internet om te controleren op updates."
 
 #: ../plugins/system-update/PageComponent.qml:184
 msgid "Software is up to date"
@@ -219,53 +211,48 @@ msgstr "Software is bijgewerkt"
 
 #: ../plugins/system-update/PageComponent.qml:187
 msgid "The update server is not responding. Try again later."
-msgstr ""
+msgstr "De update sever geen geen reactie. Probeer het later nogmaals."
 
 #: ../plugins/system-update/PageComponent.qml:196
-#, fuzzy
 msgid "Updates Available"
 msgstr "Updates beschikbaar"
 
 #: ../plugins/system-update/PageComponent.qml:349
-#, fuzzy
 msgid "Recent updates"
-msgstr "Controleren op updates"
+msgstr "Recent bijgewerkt"
 
 #: ../plugins/system-update/ChannelSettings.qml:32
 msgid "Channel settings"
-msgstr ""
+msgstr "Kanaal instellingen"
 
 #: ../plugins/system-update/ChannelSettings.qml:99
 msgid "Fetching channels"
-msgstr ""
+msgstr "Kanalen ophalen"
 
 #: ../plugins/system-update/ChannelSettings.qml:107
 msgid "Channel to get updates from:"
-msgstr ""
+msgstr "Bron kanaal voor updates:"
 
 #: ../plugins/system-update/ChannelSettings.qml:123
 msgid "Switching channel"
-msgstr ""
+msgstr "Wissel van kanaal"
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:30
 msgid "Update System"
 msgstr "Systeem bijwerken"
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:32
-#, fuzzy
 msgid "The device needs to restart to install the system update."
-msgstr ""
-"De telefoon moet worden herstart om de systeemopwaardering te installeren."
+msgstr "Dit apparaat moet worden herstart om de systeemupdate te installeren."
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:33
-#, fuzzy
 msgid "Connect the device to power before installing the system update."
 msgstr ""
-"Sluit de telefoon aan aan de oplader voordat u de systeemupdate installeert."
+"Sluit dit apparaat aan aan de oplader voordat u de systeemupdate installeert."
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:38
 msgid "Restart & Install"
-msgstr ""
+msgstr "Herstart & installeer"
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:48
 #: ../plugins/background/Preview.qml:107 ../plugins/wifi/CertDialog.qml:65
@@ -314,21 +301,19 @@ msgstr "Stop"
 
 #. TRANSLATORS: %1 is number of software updates available.
 #: ../plugins/system-update/Global.qml:116
-#, fuzzy, qt-format
+#, qt-format
 msgid "%1 update available"
 msgid_plural "%1 updates available"
-msgstr[0] "Updates beschikbaar"
-msgstr[1] "Updates beschikbaar"
+msgstr[0] "%1 update beschikbaar"
+msgstr[1] "%1 updates beschikbaar"
 
 #: ../plugins/system-update/Global.qml:126
-#, fuzzy
 msgid "Update all…"
-msgstr "Updates beschikbaar"
+msgstr "Update alles…"
 
 #: ../plugins/system-update/Global.qml:128
-#, fuzzy
 msgid "Update all"
-msgstr "Bijwerken"
+msgstr "Update alles"
 
 #. TRANSLATORS: This is a keyword or name for the launcher plugin which is used while searching
 #: ../plugins/launcher/PageComponent.qml:31
@@ -339,38 +324,37 @@ msgstr "Starter"
 
 #: ../plugins/launcher/PageComponent.qml:65
 msgid "On large screens:"
-msgstr ""
+msgstr "Op een groot scherm:"
 
 #: ../plugins/launcher/PageComponent.qml:73
 msgid "Always show the launcher"
-msgstr ""
+msgstr "Startbalk altijd tonen"
 
 #: ../plugins/launcher/PageComponent.qml:74
 msgid "Videos and full-screen games may hide it temporarily."
-msgstr ""
+msgstr "Video’s en volledigscherm spellen verbergen het mogelijk tijdelijk."
 
 #: ../plugins/launcher/PageComponent.qml:85
 msgid "Icon size:"
-msgstr ""
+msgstr "Icoon formaat:"
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:42
 msgid "Primary button:"
-msgstr ""
+msgstr "Hoofd knop:"
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:72
 msgid "Left"
-msgstr ""
+msgstr "Links"
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:89
-#, fuzzy
 msgid "Right"
-msgstr "vlucht"
+msgstr "Rechts"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../plugins/mouse/PageComponent.qml:29
 #: ../obj-x86_64-linux-gnu/po/settings.js:42
 msgid "Mouse & Touchpad"
-msgstr ""
+msgstr "Muis & Touchpad"
 
 #: ../plugins/mouse/None.qml:34
 msgid ""
@@ -378,21 +362,25 @@ msgid ""
 "Bluetooth device isn’t detected, make sure it is turned on and its batteries "
 "are charged."
 msgstr ""
+"Sluit een muis aan of touchpad via USB, of gebruik een Bluetooth apparaat. "
+"Als een Bluetooth apparaat niet gvonden wordt, controleer dan of deze aan "
+"staat en de batterij vol is."
 
 #: ../plugins/mouse/None.qml:36
 msgid ""
 "You need to use a Bluetooth mouse or touchpad with this display. Make sure "
 "it is close to the device and its batteries are charged."
 msgstr ""
+"Voor dit scherm is een Bluetooth muis of touchpad vereist. Controleer of het "
+"apparaat dichtbij is en de batterij vol is."
 
 #: ../plugins/mouse/TapArea.qml:38
-#, fuzzy
 msgid "Not fast enough"
-msgstr "Niet verzonden"
+msgstr "Niet snel genoeg"
 
 #: ../plugins/mouse/TapArea.qml:77
 msgid "Double-clicked"
-msgstr ""
+msgstr "Dubbel geklikt"
 
 #: ../plugins/mouse/Connected.qml:48 ../plugins/bluetooth/DevicePage.qml:59
 msgid "Mouse"
@@ -400,48 +388,48 @@ msgstr "Muis"
 
 #: ../plugins/mouse/Connected.qml:62 ../plugins/mouse/Connected.qml:228
 msgid "Cursor speed:"
-msgstr ""
+msgstr "Muis snelheid:"
 
 #: ../plugins/mouse/Connected.qml:98
 msgid "Wheel scrolling speed:"
-msgstr ""
+msgstr "Scroll snelheid:"
 
 #: ../plugins/mouse/Connected.qml:134 ../plugins/mouse/Connected.qml:301
 msgid "Double-click speed:"
-msgstr ""
+msgstr "Dubbel klik snelheid:"
 
 #: ../plugins/mouse/Connected.qml:168 ../plugins/mouse/Connected.qml:335
 msgid "Test double-click:"
-msgstr ""
+msgstr "Test dubbel klik:"
 
 #: ../plugins/mouse/Connected.qml:214
 msgid "Touchpad"
-msgstr ""
+msgstr "Touchpad"
 
 #: ../plugins/mouse/Connected.qml:264
 msgid "Finger scrolling speed:"
-msgstr ""
+msgstr "Vinger scroll snelheid:"
 
 #: ../plugins/mouse/Connected.qml:389
 msgid "Tap to click"
-msgstr ""
+msgstr "Tappen om te klikken"
 
 #: ../plugins/mouse/Connected.qml:403
 msgid "Scroll with two fingers"
-msgstr ""
+msgstr "Scrollen met twee vingers"
 
 #: ../plugins/mouse/Connected.qml:410
 msgid "Ignore touchpad when:"
-msgstr ""
+msgstr "Negeer het touchpad als:"
 
 #: ../plugins/mouse/Connected.qml:432
+#, fuzzy
 msgid "Typing"
-msgstr ""
+msgstr "Aan het typen"
 
 #: ../plugins/mouse/Connected.qml:446
-#, fuzzy
 msgid "A mouse is connected"
-msgstr "Niet verbonden"
+msgstr "Een muis is aangesloten"
 
 #. TRANSLATORS: This is a keyword or name for the notifications plugin which is used while searching
 #: ../plugins/notifications/ClickAppNotifications.qml:54
@@ -452,39 +440,34 @@ msgstr "Mededelingen"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:72
 msgid "Let this app alert me using:"
-msgstr ""
+msgstr "Deze app mag meldingen geven als ik:"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:81
 #: ../plugins/notifications/PageComponent.qml:177
-#, fuzzy
 msgid "Sounds"
-msgstr "Geluid"
+msgstr "Geluiden"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:103
 #: ../plugins/notifications/PageComponent.qml:180
-#, fuzzy
 msgid "Vibrations"
-msgstr "trillen"
+msgstr "Trillingen"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:125
-#, fuzzy
 msgid "Notification Bubbles"
 msgstr "Notificaties"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:147
 #: ../plugins/notifications/PageComponent.qml:186
-#, fuzzy
 msgid "Notification List"
-msgstr "Notificaties"
+msgstr "Notificatiecentrum"
 
 #: ../plugins/notifications/PageComponent.qml:75
-#, fuzzy
 msgid ""
 "Apps can alert you using sounds, vibrations, notification bubbles and the "
 "Notification list."
 msgstr ""
-"Geselecteerde apps kunnen u waarschuwen d.m.v. notificatieballonnen, "
-"geluiden, trillingen, en het notificatiecentrum."
+"Geselecteerde apps kunnen u waarschuwen d.m.v. notificaties, geluiden, "
+"trillingen, en in het notificatiecentrum."
 
 #: ../plugins/notifications/PageComponent.qml:91
 msgid "Apps that notify with sound"
@@ -495,14 +478,12 @@ msgid "Apps that notify with vibration"
 msgstr ""
 
 #: ../plugins/notifications/PageComponent.qml:143
-#, fuzzy
 msgid "Applications:"
-msgstr "hoofdletters"
+msgstr "Programma’s:"
 
 #: ../plugins/notifications/PageComponent.qml:172
-#, fuzzy
 msgid "No notifications"
-msgstr "notificaties"
+msgstr "Geen notificaties"
 
 #: ../plugins/notifications/PageComponent.qml:183
 msgid "Bubbles"
@@ -525,19 +506,17 @@ msgid "Vibration"
 msgstr "trillen"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:54
-#, fuzzy
 msgid "When in Silent mode:"
-msgstr "Trillen in stille modus"
+msgstr "In stille modus:"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:72
 #, fuzzy
 msgid "Vibrate as normal"
-msgstr "Trillen als beltoon"
+msgstr "Trillen als normaal"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:73
-#, fuzzy
 msgid "Don't vibrate"
-msgstr "trillen"
+msgstr "Niet trillen"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:89
 msgid "Apps that notify with vibrations:"
@@ -564,7 +543,7 @@ msgstr "achtergrond"
 
 #: ../plugins/background/MainPage.qml:131
 msgid "Opacity:"
-msgstr ""
+msgstr "Doorzichtigheid:"
 
 #: ../plugins/background/Preview.qml:69
 msgid "Preview"
@@ -591,7 +570,7 @@ msgstr "Belvolume:"
 
 #: ../plugins/sound/PageComponent.qml:141
 msgid "High volume can damage your hearing."
-msgstr ""
+msgstr "Te hoog volume kan uw gehoor beschadigen."
 
 #: ../plugins/sound/PageComponent.qml:145
 msgid "Phone calls:"
@@ -1135,7 +1114,7 @@ msgstr ""
 #: ../plugins/security-privacy/Location.qml:34
 #: ../plugins/printing/printer-sub-pages/Status.qml:72
 msgid "Location"
-msgstr "Locatie"
+msgstr "Plaats"
 
 #: ../plugins/printing/AddPrinterDetails.qml:219
 msgid "Driver"
@@ -1350,9 +1329,8 @@ msgstr ""
 
 #: ../plugins/cellular/PageChooseApn.qml:234
 #: ../plugins/cellular/PageChooseApn.qml:267
-#, fuzzy
 msgid "Disable"
-msgstr "uitschakelen"
+msgstr "Inactief"
 
 #: ../plugins/cellular/PageChooseApn.qml:256
 #, fuzzy, qt-format
@@ -2232,18 +2210,18 @@ msgstr ""
 
 #: ../plugins/phone/SingleSim.qml:29
 msgid "SIM"
-msgstr "Sim"
+msgstr "SIM"
 
 #. TRANSLATORS: %1 is the name of the (network) carrier
 #: ../plugins/phone/SingleSim.qml:55 ../plugins/phone/Services.qml:36
 #, qt-format
 msgid "%1 Services"
-msgstr "%1 diensten"
+msgstr "Diensten van %1"
 
 #: ../plugins/phone/ServiceInfo.qml:109
 #, qt-format
 msgid "Last called %1"
-msgstr "Laatst gebeld %1"
+msgstr "Laatst gebeld: %1"
 
 #: ../plugins/phone/ServiceInfo.qml:119
 msgid "Call"
@@ -2266,20 +2244,19 @@ msgstr ""
 
 #: ../plugins/phone/CallForwarding.qml:131
 msgid "Forward every incoming call"
-msgstr ""
+msgstr "Alle inkomende oproepen doorschakelen"
 
 #: ../plugins/phone/CallForwarding.qml:146
 msgid "Redirects all phone calls to another number."
-msgstr ""
+msgstr "Alle oproepen doorsturen naar een ander nummer."
 
 #: ../plugins/phone/CallForwarding.qml:158
 msgid "Call forwarding status can’t be checked "
 msgstr ""
 
 #: ../plugins/phone/CallForwarding.qml:166
-#, fuzzy
 msgid "Forward incoming calls when:"
-msgstr "Gebruik voor uitgaande gesprekken:"
+msgstr "Schakel oproep door als:"
 
 #: ../plugins/phone/CallForwarding.qml:175
 msgid "I’m on another call"
@@ -2290,31 +2267,28 @@ msgid "I don’t answer"
 msgstr ""
 
 #: ../plugins/phone/CallForwarding.qml:197
-#, fuzzy
 msgid "My phone is unreachable"
-msgstr "Modembeheer is niet beschikbaar"
+msgstr "Telefoon functie is onbruikbaar"
 
 #: ../plugins/phone/CallForwarding.qml:227
 msgid "Contacts…"
 msgstr ""
 
 #: ../plugins/phone/CallForwarding.qml:274
-#, fuzzy
 msgid "Please select a phone number"
-msgstr "Telefoonnummer"
+msgstr "Selecteer een telefoon nummer"
 
 #: ../plugins/phone/CallForwarding.qml:283
-#, fuzzy
 msgid "Numbers"
-msgstr "nummers"
+msgstr "Nummers"
 
 #: ../plugins/phone/CallForwarding.qml:302
 msgid "Could not forward to this contact"
-msgstr ""
+msgstr "Doorsturen naar deze persoon onmogelijk"
 
 #: ../plugins/phone/CallForwarding.qml:303
 msgid "Contact not associated with any phone number."
-msgstr ""
+msgstr "Geen nummer gevonden bij deze persoon."
 
 #: ../plugins/phone/CallForwarding.qml:382
 #, fuzzy
@@ -3042,7 +3016,6 @@ msgid "Aborted"
 msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:34
-#, fuzzy
 msgid "Active"
 msgstr "Actief"
 
