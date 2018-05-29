@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-29 19:42+0000\n"
-"Last-Translator: Noock <nklowns@gmail.com>\n"
+"PO-Revision-Date: 2018-05-29 20:04+0000\n"
+"Last-Translator: Alexandre de Paula Bastos <xandebastos@yahoo.com.br>\n"
 "Language-Team: Portuguese (Brazil) "
 "<https://translate.ubports.com/projects/ubports/system-settings/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -299,11 +299,11 @@ msgstr "Entrar no Ubuntu One para receber atualizações de apps."
 
 #: ../plugins/system-update/NotAuthenticatedNotification.qml:54
 msgid "Sign In…"
-msgstr "Entrar em..."
+msgstr "Entrar em…"
 
 #: ../plugins/system-update/Global.qml:84
 msgid "Checking for updates…"
-msgstr "Verificando por atualizações..."
+msgstr "Verificando por atualizações…"
 
 #: ../plugins/system-update/Global.qml:89
 msgid "Stop"
@@ -1033,7 +1033,7 @@ msgstr "A rede sem fio não pôde ser encontrada"
 
 #: ../plugins/wifi/Common.qml:94 ../plugins/hotspot/Common.qml:92
 msgid "A secondary connection of the base connection failed"
-msgstr "Uma conexão secundária da conexão de base falhou."
+msgstr "Uma conexão secundária da conexão de base falhou"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../plugins/wifi/PageComponent.qml:28
@@ -1044,7 +1044,7 @@ msgstr "Rede sem fio"
 
 #: ../plugins/wifi/PageComponent.qml:129
 msgid "Connect to hidden network…"
-msgstr "Conecte a uma rede oculta..."
+msgstr "Conecte a uma rede oculta…"
 
 #: ../plugins/wifi/NetworkDetails.qml:38
 msgid "Network details"
@@ -1568,7 +1568,7 @@ msgstr "PINs não correspondem. Tente novamente."
 #: ../plugins/security-privacy/LockSecurity.qml:388
 #: ../plugins/hotspot/HotspotSetup.qml:274
 msgid "Change"
-msgstr "Mudar"
+msgstr "Alterar"
 
 #: ../plugins/security-privacy/SimPin.qml:213
 msgid "Enter SIM PIN"
@@ -1593,7 +1593,7 @@ msgstr "Desbloquear"
 
 #: ../plugins/security-privacy/SimPin.qml:416
 msgid "Change PIN…"
-msgstr "Alterar PIN..."
+msgstr "Alterar PIN…"
 
 #: ../plugins/security-privacy/SimPin.qml:427
 #, fuzzy
@@ -1808,12 +1808,12 @@ msgstr "Segurança do bloqueio"
 #: ../plugins/security-privacy/LockSecurity.qml:136
 #: ../plugins/security-privacy/LockSecurity.qml:561
 msgid "Change passcode…"
-msgstr "Alterar código de acesso..."
+msgstr "Alterar código de acesso…"
 
 #: ../plugins/security-privacy/LockSecurity.qml:138
 #: ../plugins/security-privacy/LockSecurity.qml:562
 msgid "Change passphrase…"
-msgstr "Alterar frase secreta..."
+msgstr "Alterar frase secreta…"
 
 #: ../plugins/security-privacy/LockSecurity.qml:145
 msgid "Switch to swipe"
@@ -1892,11 +1892,11 @@ msgstr "Deslizar (sem segurança)... "
 
 #: ../plugins/security-privacy/LockSecurity.qml:470
 msgid "4-digit passcode…"
-msgstr "Código de acesso de 4 dígitos..."
+msgstr "Código de acesso de 4 dígitos…"
 
 #: ../plugins/security-privacy/LockSecurity.qml:471
 msgid "Passphrase…"
-msgstr "Frase secreta..."
+msgstr "Frase secreta…"
 
 #: ../plugins/security-privacy/PhoneLocking.qml:60
 msgctxt "Unlock with swipe"
@@ -2255,25 +2255,24 @@ msgid ""
 "Lets you answer or start a new call while on another call, and switch "
 "between them"
 msgstr ""
-"Deixa você atender ou iniciar uma nova chamada durante outra chamada, e "
+"Permite responder ou iniciar uma nova chamada enquanto estiver em outra e "
 "alternar entre elas"
 
 #: ../plugins/phone/CallForwarding.qml:131
 msgid "Forward every incoming call"
-msgstr ""
+msgstr "Reencaminhar cada chamada recebida"
 
 #: ../plugins/phone/CallForwarding.qml:146
 msgid "Redirects all phone calls to another number."
-msgstr ""
+msgstr "Redireciona todos os telefonemas para outro número."
 
 #: ../plugins/phone/CallForwarding.qml:158
 msgid "Call forwarding status can’t be checked "
-msgstr ""
+msgstr "O status do encaminhamento de chamadas não pôde ser verificado "
 
 #: ../plugins/phone/CallForwarding.qml:166
-#, fuzzy
 msgid "Forward incoming calls when:"
-msgstr "Para saída de chamadas, use:"
+msgstr "Encaminhar chamadas recebidas quando:"
 
 #: ../plugins/phone/CallForwarding.qml:175
 msgid "I’m on another call"
@@ -2284,18 +2283,16 @@ msgid "I don’t answer"
 msgstr ""
 
 #: ../plugins/phone/CallForwarding.qml:197
-#, fuzzy
 msgid "My phone is unreachable"
-msgstr "ModemManager não está disponível"
+msgstr "Meu telefone está inacessível"
 
 #: ../plugins/phone/CallForwarding.qml:227
 msgid "Contacts…"
 msgstr ""
 
 #: ../plugins/phone/CallForwarding.qml:274
-#, fuzzy
 msgid "Please select a phone number"
-msgstr "Número de telefone"
+msgstr "Selecione um número de telefone"
 
 #: ../plugins/phone/CallForwarding.qml:283
 #, fuzzy
@@ -2315,9 +2312,8 @@ msgid "All calls"
 msgstr "Todas as chamadas"
 
 #: ../plugins/phone/CallForwarding.qml:384
-#, fuzzy
 msgid "Some calls"
-msgstr "Chamadas de telefone:"
+msgstr "Algumas chamadas"
 
 #: ../plugins/hotspot/HotspotSetup.qml:61
 #, fuzzy
@@ -2440,11 +2436,11 @@ msgstr ""
 #: ../plugins/bluetooth/DevicePage.qml:38
 #: ../plugins/bluetooth/PageComponent.qml:290
 msgid "Connecting…"
-msgstr "Conectando..."
+msgstr "Conectando…"
 
 #: ../plugins/bluetooth/DevicePage.qml:39
 msgid "Disconnecting…"
-msgstr "Desconectando..."
+msgstr "Desconectando…"
 
 #: ../plugins/bluetooth/DevicePage.qml:40
 msgid "Disconnected"
@@ -2622,7 +2618,7 @@ msgstr "Texto e idioma"
 
 #: ../plugins/language/PageComponent.qml:133
 msgid "Display language…"
-msgstr "Idioma de exibição..."
+msgstr "Idioma de exibição…"
 
 #: ../plugins/language/PageComponent.qml:149
 #, fuzzy
@@ -2862,7 +2858,7 @@ msgstr "dispositivo"
 #: ../plugins/reset/PageComponent.qml:101
 #: ../plugins/reset/PageComponent.qml:112
 msgid "Reset all system settings…"
-msgstr "Redefinir todas as configurações do sistema..."
+msgstr "Redefinir todas as configurações do sistema…"
 
 #: ../plugins/reset/PageComponent.qml:126
 #: ../plugins/reset/PageComponent.qml:138
@@ -2964,7 +2960,7 @@ msgstr ""
 
 #: ../plugins/vpn/PageComponent.qml:117
 msgid "VPN reconnection required."
-msgstr "Reconexão necessária."
+msgstr "Reconexão necessária da VPN."
 
 #: ../plugins/vpn/PageComponent.qml:118
 #, fuzzy
@@ -2985,11 +2981,11 @@ msgstr[1] "Remover %1 imagens"
 
 #: ../plugins/background/Components/AddRemove.qml:79
 msgid "Add an image…"
-msgstr "Adicione uma imagem..."
+msgstr "Adicione uma imagem…"
 
 #: ../plugins/background/Components/AddRemove.qml:89
 msgid "Remove images…"
-msgstr "Remover imagens..."
+msgstr "Remover imagens…"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:27
 #, fuzzy
@@ -3109,7 +3105,7 @@ msgstr "Dados móveis:"
 #: ../plugins/cellular/Components/SingleSim.qml:92
 #: ../plugins/cellular/Components/DataMultiSim.qml:147
 msgid "Data roaming"
-msgstr "Dados em roaming:"
+msgstr "Dados em roaming"
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:36
 #, fuzzy
