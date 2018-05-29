@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
 "PO-Revision-Date: 2018-05-29 20:04+0000\n"
-"Last-Translator: Alexandre de Paula Bastos <xandebastos@yahoo.com.br>\n"
+"Last-Translator: Noock <nklowns@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) "
 "<https://translate.ubports.com/projects/ubports/system-settings/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -3868,7 +3868,7 @@ msgstr "Hotspot"
 #. TRANSLATORS: This is a keyword or name for the hotspot plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:296
 msgid "tethering"
-msgstr ""
+msgstr "Ancoragem(tethering)"
 
 #. TRANSLATORS: This is a keyword or name for the bluetooth plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:300
