@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-05 20:41+0000\n"
-"Last-Translator: Jolan <jo@jolanberard.com>\n"
+"PO-Revision-Date: 2018-05-12 09:29+0000\n"
+"Last-Translator: Jonathan A <jarmit55@gmail.com>\n"
 "Language-Team: English (United Kingdom) "
 "<https://translate.ubports.com/projects/ubports/system-settings/en_GB/>\n"
 "Language: en_GB\n"
@@ -69,9 +69,8 @@ msgid "Installing"
 msgstr "Installing"
 
 #: ../plugins/system-update/UpdateDelegate.qml:232
-#, fuzzy
 msgid "Paused"
-msgstr "Pause"
+msgstr "Paused"
 
 #: ../plugins/system-update/UpdateDelegate.qml:235
 #, fuzzy
@@ -1160,9 +1159,8 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../plugins/printing/PageComponent.qml:32
 #: ../obj-x86_64-linux-gnu/po/settings.js:134
-#, fuzzy
 msgid "Printing"
-msgstr "Printer"
+msgstr "Printing"
 
 #: ../plugins/printing/PageComponent.qml:45
 msgid "Manager Printer Jobs"
@@ -3009,7 +3007,7 @@ msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/CopiesAndPages.qml:26
 msgid "Copies"
-msgstr ""
+msgstr "Copies"
 
 #: ../plugins/printing/printer-sub-pages/CopiesAndPages.qml:46
 msgid "Paper size"
@@ -3024,9 +3022,8 @@ msgid "Aborted"
 msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:34
-#, fuzzy
 msgid "Active"
-msgstr "Activate"
+msgstr "Active"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:36
 msgid "Stopped"
@@ -3081,7 +3078,7 @@ msgstr "Developer mode"
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:75
 msgid "Quality"
-msgstr ""
+msgstr "Quality"
 
 #: ../plugins/cellular/Components/RadioSingleSim.qml:31
 #: ../plugins/cellular/Components/MultiSim.qml:83

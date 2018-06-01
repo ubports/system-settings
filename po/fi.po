@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-11 21:11+0000\n"
-"Last-Translator: Tatuus <tatuus@riseup.net>\n"
+"PO-Revision-Date: 2018-05-19 13:23+0000\n"
+"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://translate.ubports.com/projects/ubports"
 "/system-settings/fi/>\n"
 "Language: fi\n"
@@ -69,9 +69,8 @@ msgid "Installing"
 msgstr "Asennetaan"
 
 #: ../plugins/system-update/UpdateDelegate.qml:232
-#, fuzzy
 msgid "Paused"
-msgstr "Tauolla"
+msgstr "Keskeytetty"
 
 #: ../plugins/system-update/UpdateDelegate.qml:235
 msgid "Waiting to download"
@@ -151,7 +150,6 @@ msgstr "Asennus epäonnistui"
 #: ../plugins/brightness/WifiDisplaysAlert.qml:38
 #: ../plugins/vpn/PageComponent.qml:123
 #: ../plugins/cellular/Components/SimEditor.qml:214
-#, fuzzy
 msgid "OK"
 msgstr "Selvä"
 
@@ -281,9 +279,8 @@ msgstr "Käynnistä uudelleen ja asenna"
 #: ../plugins/reset/EraseEverything.qml:54
 #: ../plugins/background/Components/AddRemove.qml:42
 #: ../plugins/cellular/Components/SimEditor.qml:203
-#, fuzzy
 msgid "Cancel"
-msgstr "Keskeytä"
+msgstr "Peruuta"
 
 #: ../plugins/system-update/NotAuthenticatedNotification.qml:37
 msgid "Sign in to Ubuntu One to receive updates for apps."
@@ -735,7 +732,7 @@ msgstr "Tunnistautuminen"
 
 #: ../plugins/wifi/OtherNetwork.qml:363
 msgid "Inner authentication"
-msgstr ""
+msgstr "Sisäinen tunnistautuminen"
 
 #: ../plugins/wifi/OtherNetwork.qml:396
 msgid "CA certificate"
@@ -776,10 +773,8 @@ msgid "%1, Exp.: %2"
 msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:494
-#, fuzzy
 msgid "Using certificates is recommended as it increases security."
-msgstr ""
-"Varmenteinen käyttäminen on suotavaa, sillä se lisää turvallisuuden tasoa."
+msgstr "Varmenteinen käyttäminen on suotavaa, sillä se lisää turvallisuutta."
 
 #: ../plugins/wifi/OtherNetwork.qml:512
 msgid "Client certificate"
@@ -806,9 +801,8 @@ msgid "Pac provisioning"
 msgstr "Pac-provisiointi"
 
 #: ../plugins/wifi/OtherNetwork.qml:686
-#, fuzzy
 msgid "Disabled"
-msgstr "pois"
+msgstr "Pois käytöstä"
 
 #: ../plugins/wifi/OtherNetwork.qml:687
 msgid "Anonymous"
@@ -1042,58 +1036,51 @@ msgstr "IP-osoite"
 #: ../plugins/printing/AddPrinter.qml:34
 #: ../plugins/printing/AddPrinterDetails.qml:54
 #: ../plugins/printing/PageComponent.qml:38
-#, fuzzy
 msgid "Add printer"
-msgstr "Tulostin"
+msgstr "Lisää tulostin"
 
 #: ../plugins/printing/AddPrinter.qml:65
-#, fuzzy
 msgid "Enter URI"
-msgstr "Anna SIM-kortin PIN-koodi"
+msgstr "Anna URI"
 
 #: ../plugins/printing/AddPrinter.qml:78
-#, fuzzy
 msgid "Devices"
-msgstr "Palvelut"
+msgstr "Laitteet"
 
 #: ../plugins/printing/AddPrinter.qml:133
 msgid "No devices found."
-msgstr ""
+msgstr "Laitteita ei löytynyt."
 
 #: ../plugins/printing/AddPrinterDetails.qml:37
 msgid "Describe printer"
-msgstr ""
+msgstr "Kuvaile tulostin"
 
 #: ../plugins/printing/AddPrinterDetails.qml:44
 msgid "Back"
 msgstr "Takaisin"
 
 #: ../plugins/printing/AddPrinterDetails.qml:137
-#, fuzzy
 msgid "Connection"
-msgstr "Yhdistetään"
+msgstr "Yhteys"
 
 #: ../plugins/printing/AddPrinterDetails.qml:139
-#, fuzzy
 msgid "Choose a connection"
-msgstr "Valitse nimi"
+msgstr "Valitse yhteys"
 
 #: ../plugins/printing/AddPrinterDetails.qml:165
-#, fuzzy
 msgid "Printer name"
-msgstr "Tulostin"
+msgstr "Tulostimen nimi"
 
 #: ../plugins/printing/AddPrinterDetails.qml:202
 #: ../plugins/printing/printer-sub-pages/Status.qml:66
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:32
-#, fuzzy
 msgid "Description"
-msgstr "Salaus"
+msgstr "Kuvaus"
 
 #: ../plugins/printing/AddPrinterDetails.qml:204
 #: ../plugins/printing/AddPrinterDetails.qml:211
 msgid "Optional"
-msgstr ""
+msgstr "Valinnainen"
 
 #: ../plugins/printing/AddPrinterDetails.qml:209
 #: ../plugins/security-privacy/AppAccess.qml:81
@@ -1105,52 +1092,49 @@ msgstr "Sijainti"
 
 #: ../plugins/printing/AddPrinterDetails.qml:219
 msgid "Driver"
-msgstr ""
+msgstr "Ajuri"
 
 #: ../plugins/printing/AddPrinterDetails.qml:225
-#, fuzzy
 msgid "Choose driver"
-msgstr "Valitse"
+msgstr "Valitse ajuri"
 
 #: ../plugins/printing/AddPrinterDetails.qml:227
 msgid "Select printer from database"
-msgstr ""
+msgstr "Valitse tulostin tietokannasta"
 
 #: ../plugins/printing/AddPrinterDetails.qml:228
 msgid "Provide PPD file"
-msgstr ""
+msgstr "Anna PPD-tiedosto"
 
 #: ../plugins/printing/AddPrinterDetails.qml:235
 msgid "Filter drivers"
-msgstr ""
+msgstr "Suodata ajureita"
 
 #: ../plugins/printing/AddPrinterDetails.qml:304
-#, fuzzy
 msgid "PPD file"
-msgstr "Pac-tiedosto"
+msgstr "PPD-tiedosto"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../plugins/printing/PageComponent.qml:32
 #: ../obj-x86_64-linux-gnu/po/settings.js:134
-#, fuzzy
 msgid "Printing"
 msgstr "Tulostaa"
 
 #: ../plugins/printing/PageComponent.qml:45
 msgid "Manager Printer Jobs"
-msgstr ""
+msgstr "Hallitse tulostustöitä"
 
 #: ../plugins/printing/PageComponent.qml:106
 msgid "Default printer"
-msgstr ""
+msgstr "Oletustulostin"
 
 #: ../plugins/printing/PageComponent.qml:107
 msgid "Configured printers"
-msgstr ""
+msgstr "Määritetyt tulostimet"
 
 #: ../plugins/printing/PageComponent.qml:115
 msgid "Discovered printers"
-msgstr ""
+msgstr "Löydetyt tulostimet"
 
 #: ../plugins/printing/PageComponent.qml:136
 #: ../plugins/cellular/PageChooseApn.qml:305
@@ -1160,34 +1144,31 @@ msgstr "Poista"
 #: ../plugins/printing/PageComponent.qml:149
 #: ../plugins/printing/printer-sub-pages/Policies.qml:50
 msgid "Set as Default"
-msgstr ""
+msgstr "Aseta oletukseksi"
 
 #: ../plugins/printing/PageComponent.qml:190
 msgid "There are no printers configured yet."
-msgstr ""
+msgstr "Tulostimia ei ole vielä määritetty."
 
 #: ../plugins/printing/PrinterConnection.qml:67
 msgid "Host"
 msgstr ""
 
 #: ../plugins/printing/Printer.qml:42
-#, fuzzy
 msgid "Printer status"
-msgstr "Tulostin"
+msgstr "Tulostimen tila"
 
 #: ../plugins/printing/Printer.qml:43
-#, fuzzy
 msgid "General settings"
-msgstr "Kanavan asetukset"
+msgstr "Yleiset asetukset"
 
 #: ../plugins/printing/Printer.qml:44
 msgid "Policies"
-msgstr ""
+msgstr "Käytännöt"
 
 #: ../plugins/printing/Printer.qml:47
-#, fuzzy
 msgid "Copies and pages"
-msgstr "Aika ja päiväys"
+msgstr "Kopiot ja sivut"
 
 #: ../plugins/cellular/PageChooseCarrier.qml:32
 #: ../plugins/cellular/PageChooseCarrier.qml:129
@@ -1311,9 +1292,8 @@ msgstr ""
 
 #: ../plugins/cellular/PageChooseApn.qml:234
 #: ../plugins/cellular/PageChooseApn.qml:267
-#, fuzzy
 msgid "Disable"
-msgstr "pois"
+msgstr "Poista käytöstä"
 
 #: ../plugins/cellular/PageChooseApn.qml:256
 #, fuzzy, qt-format
@@ -2425,7 +2405,6 @@ msgid "Tablet"
 msgstr "Piirtopöytä"
 
 #: ../plugins/bluetooth/DevicePage.qml:60
-#, fuzzy
 msgid "Printer"
 msgstr "Tulostin"
 
@@ -2558,9 +2537,8 @@ msgid "Display language…"
 msgstr "Kieli…"
 
 #: ../plugins/language/PageComponent.qml:149
-#, fuzzy
 msgid "Enable on-screen keyboard"
-msgstr "Näyttönäppäimistö"
+msgstr "Käytä näyttönäppäimistöä"
 
 #: ../plugins/language/PageComponent.qml:161
 msgid "On-screen keyboard"
@@ -2611,9 +2589,8 @@ msgid "Keyboard vibration"
 msgstr "Näppäimistön värinä"
 
 #: ../plugins/language/PageComponent.qml:290
-#, fuzzy
 msgid "Keyboard opacity"
-msgstr "Näppäimistöasettelut"
+msgstr "Näppäimistön peittokyky"
 
 #: ../plugins/language/KeyboardLayouts.qml:49
 msgid "Current layouts:"
@@ -2901,102 +2878,93 @@ msgid "Remove images…"
 msgstr "Poista kuvia…"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:27
-#, fuzzy
 msgid "Enabled"
-msgstr "päälle"
+msgstr "Käytössä"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:46
 msgid "Default"
-msgstr ""
+msgstr "Oletus"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:47
 msgid "This is the default printer."
-msgstr ""
+msgstr "Tämä on oletustulostin."
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:60
 msgid "Accepting jobs"
-msgstr ""
+msgstr "Hyväksyy töitä"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:69
 msgid "Shared"
-msgstr ""
+msgstr "Jaettu"
 
 #: ../plugins/printing/printer-sub-pages/CopiesAndPages.qml:26
-#, fuzzy
 msgid "Copies"
 msgstr "Kopiot"
 
 #: ../plugins/printing/printer-sub-pages/CopiesAndPages.qml:46
 msgid "Paper size"
-msgstr ""
+msgstr "Paperin koko"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:30
 msgid "Idle"
-msgstr ""
+msgstr "Jouten"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:32
 msgid "Aborted"
 msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:34
-#, fuzzy
 msgid "Active"
 msgstr "Aktiivinen"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:36
-#, fuzzy
 msgid "Stopped"
-msgstr "Pysäytä"
+msgstr "Pysäytetty"
 
 #. TRANSLATORS: %1 is the overall state of the printer, %2 is a more
 #. detailed message from the printer itself.
 #: ../plugins/printing/printer-sub-pages/Status.qml:40
 #, qt-format
 msgid "%1 — %2"
-msgstr ""
+msgstr "%1 — %2"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:43
-#, fuzzy
 msgid "No messages"
-msgstr "viesti"
+msgstr "Ei viestejä"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:48
 msgid "Jobs"
-msgstr ""
+msgstr "Työt"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:53
 msgid "Manage Print Jobs"
-msgstr ""
+msgstr "Hallitse tulostustöitä"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:78
-#, fuzzy
 msgid "Address"
-msgstr "osoite"
+msgstr "Osoite"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:84
-#, fuzzy
 msgid "Model"
-msgstr "Modeemi"
+msgstr "Malli"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:85
 msgid "Local Raw Printer"
-msgstr ""
+msgstr "Paikallinen raakatulostin"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:88
 msgid "Print test page"
-msgstr ""
+msgstr "Tulosta testisivu"
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:43
 msgid "Duplex"
 msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:59
-#, fuzzy
 msgid "Color model"
-msgstr "Kehittäjätila"
+msgstr "Värimalli"
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:75
-#, fuzzy
 msgid "Quality"
 msgstr "Laatu"
 
@@ -3431,31 +3399,28 @@ msgstr "osoite"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:136
-#, fuzzy
 msgid "printer"
-msgstr "Tulostin"
+msgstr "tulostin"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:138
-#, fuzzy
 msgid "printers"
-msgstr "Tulostin"
+msgstr "tulostimet"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:140
-#, fuzzy
 msgid "printing"
-msgstr "reititys"
+msgstr "tulostus"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:142
 msgid "pdf"
-msgstr ""
+msgstr "pdf"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:144
 msgid "ppd"
-msgstr ""
+msgstr "ppd"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:146
@@ -3465,22 +3430,22 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:148
 msgid "copies"
-msgstr ""
+msgstr "kopiot"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:150
 msgid "colormodel"
-msgstr ""
+msgstr "värimalli"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:152
 msgid "greyscale"
-msgstr ""
+msgstr "harmaasävy"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:154
 msgid "color"
-msgstr ""
+msgstr "väri"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:156

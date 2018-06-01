@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-03 18:09+0000\n"
+"PO-Revision-Date: 2018-05-27 14:26+0000\n"
 "Last-Translator: Samson <sambelet@yahoo.com>\n"
 "Language-Team: Amharic <https://translate.ubports.com/projects/ubports"
 "/system-settings/am/>\n"
@@ -62,21 +62,19 @@ msgstr "መግጠሚያ"
 
 #: ../plugins/system-update/UpdateDelegate.qml:149
 msgid "Open"
-msgstr ""
+msgstr "መክፈቻ"
 
 #: ../plugins/system-update/UpdateDelegate.qml:228
 msgid "Installing"
 msgstr "በመግጠም ላይ"
 
 #: ../plugins/system-update/UpdateDelegate.qml:232
-#, fuzzy
 msgid "Paused"
-msgstr "ማስቆሚያ"
+msgstr "ተቋርጧል"
 
 #: ../plugins/system-update/UpdateDelegate.qml:235
-#, fuzzy
 msgid "Waiting to download"
-msgstr "በራሱ ማውረጃ"
+msgstr "ለ  ማውረድ በ መጠበቅ ላይ"
 
 #: ../plugins/system-update/UpdateDelegate.qml:238
 msgid "Downloading"
@@ -91,9 +89,8 @@ msgid "%1 of %2"
 msgstr "%1 ከ %2"
 
 #: ../plugins/system-update/UpdateDelegate.qml:278
-#, fuzzy
 msgid "Downloaded"
-msgstr "የወረደ"
+msgstr "ወርዷል"
 
 #: ../plugins/system-update/UpdateDelegate.qml:281
 msgid "Installed"
@@ -102,14 +99,13 @@ msgstr "ተገጥሟል"
 #. TRANSLATORS: %1 is the date at which this
 #. update was applied.
 #: ../plugins/system-update/UpdateDelegate.qml:286
-#, fuzzy, qt-format
+#, qt-format
 msgid "Updated %1"
-msgstr "ማሻሻያ"
+msgstr "ተሻሽሏል %1"
 
 #: ../plugins/system-update/UpdateDelegate.qml:310
-#, fuzzy
 msgid "Update failed"
-msgstr "ማሻሻያው ዝግጁ ነው"
+msgstr "ማሻሻያው ወድቋል"
 
 #: ../plugins/system-update/Configuration.qml:30
 #: ../plugins/system-update/UpdateSettings.qml:55
@@ -159,9 +155,8 @@ msgstr "እሺ"
 
 #: ../plugins/system-update/UpdateSettings.qml:32
 #: ../plugins/system-update/PageComponent.qml:412
-#, fuzzy
 msgid "Update settings"
-msgstr "ስርአት ማሰናጃ"
+msgstr "ማሻሻያ ማሰናጃ"
 
 #: ../plugins/system-update/UpdateSettings.qml:60
 msgid "On WiFi"
@@ -177,31 +172,28 @@ msgid "Unknown"
 msgstr "ያልታወቀ"
 
 #: ../plugins/system-update/UpdateSettings.qml:71
-#, fuzzy
 msgid "Channels"
-msgstr "መቀየሪያ"
+msgstr "ጣቢያዎች"
 
 #: ../plugins/system-update/UpdateSettings.qml:73
 #: ../plugins/system-update/ChannelSettings.qml:57
-#, fuzzy
 msgid "Stable"
-msgstr "ታብሌት"
+msgstr "የ ተረጋጋ"
 
 #: ../plugins/system-update/UpdateSettings.qml:73
 #: ../plugins/system-update/ChannelSettings.qml:57
 msgid "Release candidate"
-msgstr ""
+msgstr "የሚለቀቀው እትም"
 
 #: ../plugins/system-update/UpdateSettings.qml:73
 #: ../plugins/system-update/ChannelSettings.qml:57
-#, fuzzy
 msgid "Development"
-msgstr "የ አበልጻጊ ዘዴ"
+msgstr "አበልጻጊ"
 
 #: ../plugins/system-update/ChangelogExpander.qml:42
-#, fuzzy, qt-format
+#, qt-format
 msgid "Version %1"
-msgstr "እትም: "
+msgstr "እትም %1"
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../plugins/system-update/PageComponent.qml:38
@@ -210,9 +202,8 @@ msgid "Updates"
 msgstr "ማሻሻያዎች"
 
 #: ../plugins/system-update/PageComponent.qml:182
-#, fuzzy
 msgid "Connect to the Internet to check for updates."
-msgstr "ከ ኢንተርኔት ጋር ይገናኙ ማሻሻያ ለመፈለግ"
+msgstr "ከ ኢንተርኔት ጋር ይገናኙ ማሻሻያ ለ መፈለግ"
 
 #: ../plugins/system-update/PageComponent.qml:184
 msgid "Software is up to date"
@@ -234,7 +225,7 @@ msgstr "ማሻሻያዎች መፈለጊያ"
 
 #: ../plugins/system-update/ChannelSettings.qml:32
 msgid "Channel settings"
-msgstr ""
+msgstr "ጣቢያ ማሰናጃ"
 
 #: ../plugins/system-update/ChannelSettings.qml:99
 msgid "Fetching channels"
@@ -246,7 +237,7 @@ msgstr ""
 
 #: ../plugins/system-update/ChannelSettings.qml:123
 msgid "Switching channel"
-msgstr ""
+msgstr "ጣቢያ በ መቀየር ላይ"
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:30
 msgid "Update System"
@@ -887,7 +878,7 @@ msgstr ""
 #: ../plugins/wifi/OtherNetwork.qml:786 ../plugins/wifi/NetworkDetails.qml:70
 #: ../plugins/cellular/PageApnEditor.qml:357
 msgid "Password"
-msgstr "የመግቢያ ቃል"
+msgstr "የ መግቢያ ቃል"
 
 #: ../plugins/wifi/OtherNetwork.qml:821 ../plugins/wifi/NetworkDetails.qml:84
 #: ../plugins/hotspot/HotspotSetup.qml:224
@@ -1116,9 +1107,8 @@ msgstr "ማተሚያ"
 #: ../plugins/printing/AddPrinterDetails.qml:202
 #: ../plugins/printing/printer-sub-pages/Status.qml:66
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:32
-#, fuzzy
 msgid "Description"
-msgstr "ምስጢር"
+msgstr "መግለጫ"
 
 #: ../plugins/printing/AddPrinterDetails.qml:204
 #: ../plugins/printing/AddPrinterDetails.qml:211
@@ -1161,9 +1151,8 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../plugins/printing/PageComponent.qml:32
 #: ../obj-x86_64-linux-gnu/po/settings.js:134
-#, fuzzy
 msgid "Printing"
-msgstr "ማተሚያ"
+msgstr "በ ማተም ላይ"
 
 #: ../plugins/printing/PageComponent.qml:45
 msgid "Manager Printer Jobs"
@@ -1373,7 +1362,7 @@ msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:69
 msgid "Edit"
-msgstr ""
+msgstr "ማረሚያ"
 
 #: ../plugins/cellular/PageApnEditor.qml:69
 #, fuzzy
@@ -1948,9 +1937,8 @@ msgid "Notifications and quick settings"
 msgstr "ማስታወቂያዎች እና በፍጥነት ማሰናጃዎች"
 
 #: ../plugins/security-privacy/PhoneLocking.qml:167
-#, fuzzy
 msgid "Turn on lock security to restrict access when the device is locked."
-msgstr "የ ደህንነት መቆለፊያውን ያብሩ ፍቃድ ለመከልከል ስልኩ በተዘጋ ጊዜ"
+msgstr "የ ደህንነት መቆለፊያውን ያብሩ ፍቃድ ለ መከልከል ስልኩ በተዘጋ ጊዜ"
 
 #: ../plugins/security-privacy/PhoneLocking.qml:168
 msgid "Other apps and functions will prompt you to unlock."
@@ -2136,7 +2124,6 @@ msgstr "የ ማለፊያ ኮድ ወይንም የ ማለፊያ ሀረግ ያስ�
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../plugins/about/PageComponent.qml:35
 #: ../obj-x86_64-linux-gnu/po/settings.js:222
-#, fuzzy
 msgid "About"
 msgstr "ስለ"
 
@@ -2208,9 +2195,8 @@ msgid "Forward to"
 msgstr "ወደ ፊት ወደ"
 
 #: ../plugins/phone/CallForwardItem.qml:171
-#, fuzzy
 msgid "Enter a number"
-msgstr "የ ስልክ ቁጥር"
+msgstr "ቁጥር ያስገቡ"
 
 #: ../plugins/phone/CallForwardItem.qml:218
 msgid "Call forwarding can’t be changed right now."
@@ -2995,7 +2981,7 @@ msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/CopiesAndPages.qml:26
 msgid "Copies"
-msgstr ""
+msgstr "ኮፒዎች"
 
 #: ../plugins/printing/printer-sub-pages/CopiesAndPages.qml:46
 msgid "Paper size"
@@ -3010,13 +2996,12 @@ msgid "Aborted"
 msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:34
-#, fuzzy
 msgid "Active"
-msgstr "ማስነሻ"
+msgstr "ንቁ"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:36
 msgid "Stopped"
-msgstr ""
+msgstr "ተቋርጧል"
 
 #. TRANSLATORS: %1 is the overall state of the printer, %2 is a more
 #. detailed message from the printer itself.
@@ -3039,9 +3024,8 @@ msgid "Manage Print Jobs"
 msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:78
-#, fuzzy
 msgid "Address"
-msgstr "አድራሻ"
+msgstr "አድራሻዎች"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:84
 #, fuzzy
@@ -3067,7 +3051,7 @@ msgstr "የ አበልጻጊ ዘዴ"
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:75
 msgid "Quality"
-msgstr ""
+msgstr "ጥራት"
 
 #: ../plugins/cellular/Components/RadioSingleSim.qml:31
 #: ../plugins/cellular/Components/MultiSim.qml:83
@@ -3136,7 +3120,7 @@ msgstr "የ ሲም ስም ማረሚያ"
 #. this word must be less than 5 characters
 #: ../plugins/cellular/Components/LabelTextField.qml:51
 msgid "Next"
-msgstr ""
+msgstr "ይቀጥሉ"
 
 #: ../plugins/cellular/Components/Sim.qml:46
 msgid "2G only (saves battery)"

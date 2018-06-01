@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-02 17:33+0000\n"
-"Last-Translator: Florian Leeber <flori@bin.org.in>\n"
+"PO-Revision-Date: 2018-05-12 09:46+0000\n"
+"Last-Translator: Rüdiger Kupper <ruediger.kupper+launchpad@gmail.com>\n"
 "Language-Team: German <https://translate.ubports.com/projects/ubports/system-"
 "settings/de/>\n"
 "Language: de\n"
@@ -156,7 +156,7 @@ msgstr "OK"
 #: ../plugins/system-update/UpdateSettings.qml:32
 #: ../plugins/system-update/PageComponent.qml:412
 msgid "Update settings"
-msgstr "Einstellungen aktualisieren"
+msgstr "Aktualisierungseinstellungen"
 
 #: ../plugins/system-update/UpdateSettings.qml:60
 msgid "On WiFi"
