@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2017-09-29 07:41+0000\n"
+"PO-Revision-Date: 2018-06-02 22:28+0000\n"
 "Last-Translator: Jeff <jeffi27@live.at>\n"
-"Language-Team: Albanian <https://translate.ubports.com/projects/ubports/"
-"system-settings/sq/>\n"
+"Language-Team: Albanian <https://translate.ubports.com/projects/ubports"
+"/system-settings/sq/>\n"
 "Language: sq\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -62,7 +62,7 @@ msgstr "Instalo"
 
 #: ../plugins/system-update/UpdateDelegate.qml:149
 msgid "Open"
-msgstr "Hap"
+msgstr "Hape"
 
 #: ../plugins/system-update/UpdateDelegate.qml:228
 msgid "Installing"
@@ -70,7 +70,7 @@ msgstr "Instalohet"
 
 #: ../plugins/system-update/UpdateDelegate.qml:232
 msgid "Paused"
-msgstr "Pauzuar"
+msgstr "I pauzuar"
 
 #: ../plugins/system-update/UpdateDelegate.qml:235
 msgid "Waiting to download"
@@ -151,7 +151,7 @@ msgstr "Instalimi dështoi"
 #: ../plugins/vpn/PageComponent.qml:123
 #: ../plugins/cellular/Components/SimEditor.qml:214
 msgid "OK"
-msgstr "Ok"
+msgstr "OK"
 
 #: ../plugins/system-update/UpdateSettings.qml:32
 #: ../plugins/system-update/PageComponent.qml:412
@@ -193,7 +193,7 @@ msgstr "Modusi i Zhvilluesit"
 #: ../plugins/system-update/ChangelogExpander.qml:42
 #, qt-format
 msgid "Version %1"
-msgstr "Versioni %1"
+msgstr "Verzioni %1"
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../plugins/system-update/PageComponent.qml:38
@@ -531,7 +531,7 @@ msgstr "Ubuntu"
 
 #: ../plugins/background/MainPage.qml:108
 msgid "Custom"
-msgstr "E Personalizuar"
+msgstr "E përsonalizuar"
 
 #: ../plugins/background/MainPage.qml:118
 msgid "Dash background"
@@ -539,7 +539,7 @@ msgstr "Prapaskena e ekranit"
 
 #: ../plugins/background/MainPage.qml:131
 msgid "Opacity:"
-msgstr ""
+msgstr "Transparenc:"
 
 #: ../plugins/background/Preview.qml:69
 msgid "Preview"
@@ -773,7 +773,6 @@ msgid "%1, Exp.: %2"
 msgstr "%1, Skadon: %2"
 
 #: ../plugins/wifi/OtherNetwork.qml:494
-#, fuzzy
 msgid "Using certificates is recommended as it increases security."
 msgstr "Përdorimi i certifikatave rekomandohet pasi rrit sigurinë."
 
@@ -869,7 +868,7 @@ msgstr "Lidhu"
 
 #: ../plugins/wifi/RemoveBackground.qml:28
 msgid "Clear"
-msgstr "Pastro"
+msgstr "Rikthe"
 
 #: ../plugins/wifi/PreviousNetworks.qml:27
 #: ../plugins/wifi/PageComponent.qml:139
@@ -1037,58 +1036,51 @@ msgstr "IP Adresa"
 #: ../plugins/printing/AddPrinter.qml:34
 #: ../plugins/printing/AddPrinterDetails.qml:54
 #: ../plugins/printing/PageComponent.qml:38
-#, fuzzy
 msgid "Add printer"
-msgstr "Printeri"
+msgstr "Shtoni një printer"
 
 #: ../plugins/printing/AddPrinter.qml:65
-#, fuzzy
 msgid "Enter URI"
-msgstr "Shtyp PIN-in e SIM-it"
+msgstr "Jep URI"
 
 #: ../plugins/printing/AddPrinter.qml:78
-#, fuzzy
 msgid "Devices"
-msgstr "Shërbimet"
+msgstr "Pajisjet"
 
 #: ../plugins/printing/AddPrinter.qml:133
 msgid "No devices found."
-msgstr ""
+msgstr "Asnjë pajisje nuk u gjet."
 
 #: ../plugins/printing/AddPrinterDetails.qml:37
 msgid "Describe printer"
-msgstr ""
+msgstr "Përshkruani printerin"
 
 #: ../plugins/printing/AddPrinterDetails.qml:44
 msgid "Back"
-msgstr ""
+msgstr "Mbrapa"
 
 #: ../plugins/printing/AddPrinterDetails.qml:137
-#, fuzzy
 msgid "Connection"
-msgstr "Duke u lidhur"
+msgstr "Lidhje"
 
 #: ../plugins/printing/AddPrinterDetails.qml:139
-#, fuzzy
 msgid "Choose a connection"
-msgstr "Zgjidhni një emër"
+msgstr "Zgjidhni një lidhje"
 
 #: ../plugins/printing/AddPrinterDetails.qml:165
-#, fuzzy
 msgid "Printer name"
-msgstr "Printeri"
+msgstr "Emri i printerit"
 
 #: ../plugins/printing/AddPrinterDetails.qml:202
 #: ../plugins/printing/printer-sub-pages/Status.qml:66
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:32
-#, fuzzy
 msgid "Description"
-msgstr "Kriptimi"
+msgstr "Përshkrimi"
 
 #: ../plugins/printing/AddPrinterDetails.qml:204
 #: ../plugins/printing/AddPrinterDetails.qml:211
 msgid "Optional"
-msgstr ""
+msgstr "Dëshirushëm"
 
 #: ../plugins/printing/AddPrinterDetails.qml:209
 #: ../plugins/security-privacy/AppAccess.qml:81
@@ -1100,52 +1092,49 @@ msgstr "Vendndodhja"
 
 #: ../plugins/printing/AddPrinterDetails.qml:219
 msgid "Driver"
-msgstr ""
+msgstr "Drajveri"
 
 #: ../plugins/printing/AddPrinterDetails.qml:225
-#, fuzzy
 msgid "Choose driver"
-msgstr "Zgjidh nga"
+msgstr "Zgjidhni drajverin"
 
 #: ../plugins/printing/AddPrinterDetails.qml:227
 msgid "Select printer from database"
-msgstr ""
+msgstr "Zgjidhni printerin nga databaza"
 
 #: ../plugins/printing/AddPrinterDetails.qml:228
 msgid "Provide PPD file"
-msgstr ""
+msgstr "Vendosni skedarin PPD"
 
 #: ../plugins/printing/AddPrinterDetails.qml:235
 msgid "Filter drivers"
-msgstr ""
+msgstr "Filteri i drajverit"
 
 #: ../plugins/printing/AddPrinterDetails.qml:304
-#, fuzzy
 msgid "PPD file"
-msgstr "Skedar-Pac"
+msgstr "Skedar PPD"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../plugins/printing/PageComponent.qml:32
 #: ../obj-x86_64-linux-gnu/po/settings.js:134
-#, fuzzy
 msgid "Printing"
-msgstr "Printeri"
+msgstr "Printo"
 
 #: ../plugins/printing/PageComponent.qml:45
 msgid "Manager Printer Jobs"
-msgstr ""
+msgstr "Menaxho punët e printimit"
 
 #: ../plugins/printing/PageComponent.qml:106
 msgid "Default printer"
-msgstr ""
+msgstr "Printeri standart"
 
 #: ../plugins/printing/PageComponent.qml:107
 msgid "Configured printers"
-msgstr ""
+msgstr "Printerë të konfiguruar"
 
 #: ../plugins/printing/PageComponent.qml:115
 msgid "Discovered printers"
-msgstr ""
+msgstr "Printerë të njohur"
 
 #: ../plugins/printing/PageComponent.qml:136
 #: ../plugins/cellular/PageChooseApn.qml:305
@@ -1155,34 +1144,31 @@ msgstr "Fshijë"
 #: ../plugins/printing/PageComponent.qml:149
 #: ../plugins/printing/printer-sub-pages/Policies.qml:50
 msgid "Set as Default"
-msgstr ""
+msgstr "Vendos si standart"
 
 #: ../plugins/printing/PageComponent.qml:190
 msgid "There are no printers configured yet."
-msgstr ""
+msgstr "Nuk ka printera të përcaktuar."
 
 #: ../plugins/printing/PrinterConnection.qml:67
 msgid "Host"
-msgstr ""
+msgstr "Host"
 
 #: ../plugins/printing/Printer.qml:42
-#, fuzzy
 msgid "Printer status"
-msgstr "Printeri"
+msgstr "Statusi i printerit"
 
 #: ../plugins/printing/Printer.qml:43
-#, fuzzy
 msgid "General settings"
-msgstr "Cilësimet e kanaleve"
+msgstr "Cilësimet e përgjithshëm"
 
 #: ../plugins/printing/Printer.qml:44
 msgid "Policies"
-msgstr ""
+msgstr "Polisat"
 
 #: ../plugins/printing/Printer.qml:47
-#, fuzzy
 msgid "Copies and pages"
-msgstr "Ora dhe Data"
+msgstr "Kopjet dhe faqet"
 
 #: ../plugins/cellular/PageChooseCarrier.qml:32
 #: ../plugins/cellular/PageChooseCarrier.qml:129
@@ -1966,7 +1952,7 @@ msgstr "Data"
 
 #: ../plugins/time-date/TimePicker.qml:129
 msgid "Day"
-msgstr "Dita"
+msgstr "Ditë"
 
 #: ../plugins/time-date/TimePicker.qml:143
 msgid "Month"
@@ -2087,7 +2073,7 @@ msgstr ""
 #: ../plugins/about/PageComponent.qml:35
 #: ../obj-x86_64-linux-gnu/po/settings.js:222
 msgid "About"
-msgstr "Rreth"
+msgstr "Përreth"
 
 #: ../plugins/about/PageComponent.qml:99
 msgid "Serial"
@@ -2139,12 +2125,12 @@ msgstr "Modusi i Zhvilluesit"
 #: ../plugins/phone/NoSims.qml:34 ../plugins/phone/CallWaiting.qml:31
 #: ../plugins/phone/CallWaiting.qml:81
 msgid "Call waiting"
-msgstr "Thirrje ne pritje"
+msgstr "Thirrje në pritje"
 
 #: ../plugins/phone/MultiSim.qml:54 ../plugins/phone/SingleSim.qml:42
 #: ../plugins/phone/NoSims.qml:28 ../plugins/phone/CallForwarding.qml:45
 msgid "Call forwarding"
-msgstr "Thirrje për përcjellje"
+msgstr "Përcjellja e thirrjes"
 
 #: ../plugins/phone/MultiSim.qml:67 ../plugins/phone/NoSims.qml:42
 msgid "Services"
@@ -2172,7 +2158,7 @@ msgstr "SIM"
 #: ../plugins/phone/SingleSim.qml:55 ../plugins/phone/Services.qml:36
 #, qt-format
 msgid "%1 Services"
-msgstr "%1 Rrjetet"
+msgstr "%1 shërbime"
 
 #: ../plugins/phone/ServiceInfo.qml:109
 #, qt-format
@@ -2195,8 +2181,8 @@ msgid ""
 "Lets you answer or start a new call while on another call, and switch "
 "between them"
 msgstr ""
-"Ju lejon të përgjigjeni një telefonatë të re ose të nisni një telefonatë të "
-"re ndërsa bëni një telefonatë tjetër dhe kaloni mes tyre"
+"Ju lejon të përgjigjeni ose të nisni një telefonatë të re gjatë një "
+"telefonate tjetër dhe të kaloni mes tyre"
 
 #: ../plugins/phone/CallForwarding.qml:131
 msgid "Forward every incoming call"
@@ -2204,7 +2190,7 @@ msgstr "Kalo gjdo thirrje hyrse"
 
 #: ../plugins/phone/CallForwarding.qml:146
 msgid "Redirects all phone calls to another number."
-msgstr "Riorienton të gjitha telefonatat në një numër tjetër."
+msgstr "Dërgon të gjitha telefonatat në një numër tjetër telefonik."
 
 #: ../plugins/phone/CallForwarding.qml:158
 msgid "Call forwarding status can’t be checked "
@@ -2449,7 +2435,7 @@ msgstr "E Dobët"
 
 #: ../plugins/bluetooth/DevicePage.qml:113
 msgid "Type"
-msgstr "Tipi"
+msgstr "Lloji"
 
 #: ../plugins/bluetooth/DevicePage.qml:124
 #: ../plugins/printing/printer-sub-pages/Status.qml:26
@@ -2550,9 +2536,8 @@ msgid "Display language…"
 msgstr "Shfaq gjuhën …"
 
 #: ../plugins/language/PageComponent.qml:149
-#, fuzzy
 msgid "Enable on-screen keyboard"
-msgstr "Tastiera në ekran"
+msgstr "Aktivizoni tastierën në ekran"
 
 #: ../plugins/language/PageComponent.qml:161
 msgid "On-screen keyboard"
@@ -2603,9 +2588,8 @@ msgid "Keyboard vibration"
 msgstr "Vibrimi i tastierit"
 
 #: ../plugins/language/PageComponent.qml:290
-#, fuzzy
 msgid "Keyboard opacity"
-msgstr "Formatet e tastierës"
+msgstr "Transparenca e tastierës"
 
 #: ../plugins/language/KeyboardLayouts.qml:49
 msgid "Current layouts:"
@@ -2894,102 +2878,95 @@ msgid "Remove images…"
 msgstr "Hiq imazhin…"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:27
-#, fuzzy
 msgid "Enabled"
-msgstr "aktivizo"
+msgstr "Aktivizo"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:46
 msgid "Default"
-msgstr ""
+msgstr "Standart"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:47
 msgid "This is the default printer."
-msgstr ""
+msgstr "Ky është printeri i standart."
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:60
 msgid "Accepting jobs"
-msgstr ""
+msgstr "Pranon urdhra"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:69
 msgid "Shared"
-msgstr ""
+msgstr "Shpërndar"
 
 #: ../plugins/printing/printer-sub-pages/CopiesAndPages.qml:26
 msgid "Copies"
-msgstr ""
+msgstr "Kopjet"
 
 #: ../plugins/printing/printer-sub-pages/CopiesAndPages.qml:46
 msgid "Paper size"
-msgstr ""
+msgstr "Madhësia e letrës"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:30
 msgid "Idle"
-msgstr ""
+msgstr "Në neutral"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:32
 msgid "Aborted"
-msgstr ""
+msgstr "I ndërprerë"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:34
-#, fuzzy
 msgid "Active"
-msgstr "Aktivizo"
+msgstr "Aktiv"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:36
-#, fuzzy
 msgid "Stopped"
-msgstr "Ndal"
+msgstr "Ndalur"
 
 #. TRANSLATORS: %1 is the overall state of the printer, %2 is a more
 #. detailed message from the printer itself.
 #: ../plugins/printing/printer-sub-pages/Status.qml:40
 #, qt-format
 msgid "%1 — %2"
-msgstr ""
+msgstr "%1 — %2"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:43
-#, fuzzy
 msgid "No messages"
-msgstr "mesazh"
+msgstr "Nuk ka mesazhe"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:48
 msgid "Jobs"
-msgstr ""
+msgstr "Urdhërat"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:53
 msgid "Manage Print Jobs"
-msgstr ""
+msgstr "Menaxho punët e printimit"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:78
-#, fuzzy
 msgid "Address"
-msgstr "adresa"
+msgstr "Adresa"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:84
-#, fuzzy
 msgid "Model"
-msgstr "Modemi"
+msgstr "Modeli"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:85
 msgid "Local Raw Printer"
-msgstr ""
+msgstr "Printer lokal i papërpunuar"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:88
 msgid "Print test page"
-msgstr ""
+msgstr "Printoni faqen e testimit"
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:43
 msgid "Duplex"
-msgstr ""
+msgstr "I dyfishtë"
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:59
-#, fuzzy
 msgid "Color model"
-msgstr "Modusi i Zhvilluesit"
+msgstr "Modeli i ngjyrave"
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:75
 msgid "Quality"
-msgstr ""
+msgstr "Cilësia"
 
 #: ../plugins/cellular/Components/RadioSingleSim.qml:31
 #: ../plugins/cellular/Components/MultiSim.qml:83
@@ -3106,7 +3083,7 @@ msgstr "Sistemi"
 #. TRANSLATORS: This is a keyword or name for the flight-mode plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:2
 msgid "Flight Mode"
-msgstr "Modus Fluturimi"
+msgstr "Modaliteti aeroplan"
 
 #. TRANSLATORS: This is a keyword or name for the flight-mode plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:4
@@ -3421,67 +3398,63 @@ msgstr "adresa"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:136
-#, fuzzy
 msgid "printer"
 msgstr "Printeri"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:138
-#, fuzzy
 msgid "printers"
-msgstr "Printeri"
+msgstr "Printeret"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:140
-#, fuzzy
 msgid "printing"
-msgstr "routing"
+msgstr "Printo"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:142
 msgid "pdf"
-msgstr ""
+msgstr "PDF"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:144
 msgid "ppd"
-msgstr ""
+msgstr "PPD"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:146
 msgid "collate"
-msgstr ""
+msgstr "Klasifiko"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:148
 msgid "copies"
-msgstr ""
+msgstr "Kopie"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:150
 msgid "colormodel"
-msgstr ""
+msgstr "Modeli i ngjyrave"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:152
 msgid "greyscale"
-msgstr ""
+msgstr "Nuancat e hirtë"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:154
 msgid "color"
-msgstr ""
+msgstr "Ngjyrë"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:156
 msgid "laser"
-msgstr ""
+msgstr "Lazer"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:158
-#, fuzzy
 msgid "ink"
-msgstr "pin-i"
+msgstr "Ngjyra"
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:162
