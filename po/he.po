@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-11 20:54+0000\n"
-"Last-Translator: Eran <etherpulse@gmail.com>\n"
+"PO-Revision-Date: 2018-06-03 17:37+0000\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://translate.ubports.com/projects/ubports/system-"
 "settings/he/>\n"
 "Language: he\n"
@@ -502,23 +502,20 @@ msgid "Apps that notify with sound:"
 msgstr "אפליקציות אשר מתריעות באמצעות קול:"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:30
-#, fuzzy
 msgid "Vibration"
-msgstr "הטייה"
+msgstr "רטט"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:54
-#, fuzzy
 msgid "When in Silent mode:"
-msgstr "לרטוט במצב שקט"
+msgstr "במצב שקט:"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:72
-#, fuzzy
 msgid "Vibrate as normal"
-msgstr "רטט עם הצלצול"
+msgstr "לרטוט כרגיל"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:73
 msgid "Don't vibrate"
-msgstr "ללא רטט"
+msgstr "לא לרטוט"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:89
 msgid "Apps that notify with vibrations:"
