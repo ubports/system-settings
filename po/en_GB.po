@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-12 09:29+0000\n"
-"Last-Translator: Jonathan A <jarmit55@gmail.com>\n"
+"PO-Revision-Date: 2018-06-06 17:24+0000\n"
+"Last-Translator: Rondy Andersson <rondarius@gmail.com>\n"
 "Language-Team: English (United Kingdom) "
 "<https://translate.ubports.com/projects/ubports/system-settings/en_GB/>\n"
 "Language: en_GB\n"
@@ -129,7 +129,7 @@ msgstr "Download future updates automatically:"
 #: ../plugins/battery/PageComponent.qml:318
 #: ../plugins/battery/PageComponent.qml:336
 msgid "Never"
-msgstr "Never"
+msgstr "Aldrig"
 
 #: ../plugins/system-update/Configuration.qml:54
 msgid "When on WiFi"
@@ -288,7 +288,7 @@ msgstr ""
 #: ../plugins/background/Components/AddRemove.qml:42
 #: ../plugins/cellular/Components/SimEditor.qml:203
 msgid "Cancel"
-msgstr "Cancel"
+msgstr "Avbryt"
 
 #: ../plugins/system-update/NotAuthenticatedNotification.qml:37
 msgid "Sign in to Ubuntu One to receive updates for apps."
@@ -677,7 +677,7 @@ msgstr "Updates available"
 
 #: ../plugins/wifi/CertDialog.qml:74
 msgid "Save"
-msgstr "Enregistrer"
+msgstr "Spara"
 
 #: ../plugins/wifi/AccessPoint.qml:51 ../plugins/wifi/StandardMenuItem.qml:31
 #: ../plugins/bluetooth/DevicePage.qml:37
@@ -1094,7 +1094,7 @@ msgstr ""
 
 #: ../plugins/printing/AddPrinterDetails.qml:44
 msgid "Back"
-msgstr "Back"
+msgstr "Tillbaka"
 
 #: ../plugins/printing/AddPrinterDetails.qml:137
 #, fuzzy
@@ -1114,9 +1114,8 @@ msgstr "Printer"
 #: ../plugins/printing/AddPrinterDetails.qml:202
 #: ../plugins/printing/printer-sub-pages/Status.qml:66
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:32
-#, fuzzy
 msgid "Description"
-msgstr "Encryption"
+msgstr "Beskrivning"
 
 #: ../plugins/printing/AddPrinterDetails.qml:204
 #: ../plugins/printing/AddPrinterDetails.qml:211
@@ -1129,7 +1128,7 @@ msgstr ""
 #: ../plugins/security-privacy/Location.qml:34
 #: ../plugins/printing/printer-sub-pages/Status.qml:72
 msgid "Location"
-msgstr "Location"
+msgstr "Plats"
 
 #: ../plugins/printing/AddPrinterDetails.qml:219
 msgid "Driver"
@@ -1181,7 +1180,7 @@ msgstr ""
 #: ../plugins/printing/PageComponent.qml:136
 #: ../plugins/cellular/PageChooseApn.qml:305
 msgid "Delete"
-msgstr "Supprimer"
+msgstr "Radera"
 
 #: ../plugins/printing/PageComponent.qml:149
 #: ../plugins/printing/printer-sub-pages/Policies.qml:50
@@ -2784,7 +2783,7 @@ msgstr "Yesterday"
 #: ../plugins/battery/PageComponent.qml:198
 #: ../plugins/battery/PageComponent.qml:200
 msgid "Today"
-msgstr "Today"
+msgstr "Idag"
 
 #: ../plugins/battery/PageComponent.qml:269
 msgid "Charging now"
