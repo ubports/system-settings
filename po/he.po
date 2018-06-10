@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-06-03 17:37+0000\n"
-"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"PO-Revision-Date: 2018-06-10 21:03+0000\n"
+"Last-Translator: Eran <etherpulse@gmail.com>\n"
 "Language-Team: Hebrew <https://translate.ubports.com/projects/ubports/system-"
 "settings/he/>\n"
 "Language: he\n"
@@ -2100,9 +2100,8 @@ msgstr "יש צורך בקוד או מילת צופן על מנת להשתמש �
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../plugins/about/PageComponent.qml:35
 #: ../obj-x86_64-linux-gnu/po/settings.js:222
-#, fuzzy
 msgid "About"
-msgstr "על אודות"
+msgstr "אודות"
 
 #: ../plugins/about/PageComponent.qml:99
 msgid "Serial"
@@ -2956,7 +2955,7 @@ msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:32
 msgid "Aborted"
-msgstr ""
+msgstr "בוטל"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:34
 msgid "Active"
@@ -2975,9 +2974,8 @@ msgid "%1 — %2"
 msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:43
-#, fuzzy
 msgid "No messages"
-msgstr "הודעות:"
+msgstr "אין הודעות"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:48
 msgid "Jobs"
