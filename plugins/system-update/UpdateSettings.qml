@@ -21,7 +21,7 @@
 import QtQuick 2.4
 import SystemSettings 1.0
 import Ubuntu.Components 1.3
-import Ubuntu.Components.ListItems 1.3 as ListItem
+import SystemSettings.ListItems 1.0 as SettingsListItems
 import Ubuntu.Connectivity 1.0
 import Ubuntu.SystemSettings.Update 1.0
 
@@ -30,43 +30,52 @@ ItemPage {
     id: root
     objectName: "updateSettingsPage"
     title: i18n.tr("Update settings")
+    flickable: pageFlickable
 
-    Column {
-        id: configuration
+    Flickable {
+        id: pageFlickable
         anchors.fill: parent
+        contentWidth: parent.width
+        contentHeight: contentItem.childrenRect.height
 
-        ListItem.ThinDivider {}
+        // Only allow flicking if the content doesn't fit on the page
+        boundsBehavior: (contentHeight > root.height) ?
+                         Flickable.DragAndOvershootBounds : Flickable.StopAtBounds
 
-        ListItem.SingleValue {
-            objectName: "configuration"
-            text: i18n.tr("Auto download")
-            value: {
-                if (SystemImage.downloadMode === 0)
-                    return i18n.tr("Never")
-                else if (SystemImage.downloadMode === 1)
-                    return i18n.tr("On WiFi")
-                else if (SystemImage.downloadMode === 2)
-                    return i18n.tr("Always")
-                else
-                    return i18n.tr("Unknown")
+
+        Column {
+            anchors {
+                left: parent.left
+                right: parent.right
+                top: parent.top
             }
-            progression: true
-            onClicked: pageStack.push(Qt.resolvedUrl("Configuration.qml"))
-        }
 
-        ListItem.ThinDivider {}
-
-        ListItem.SingleValue {
-            objectName: "channel"
-            text: i18n.tr("Channels")
-            property var channel: SystemImage.getSwitchChannel().split("/")
-            visible: channel.length < 2 ? false : true
-            value: {
-              var prettyChannels = {"stable": i18n.tr("Stable"), "rc": i18n.tr("Release candidate"), "devel": i18n.tr("Development")}
-              return prettyChannels[channel[channel.length-1]] ? prettyChannels[channel[channel.length-1]] : channel[channel.length-1]
+            SettingsListItems.SingleValueProgression {
+                objectName: "configuration"
+                text: i18n.tr("Auto download")
+                value: {
+                    if (SystemImage.downloadMode === 0)
+                        return i18n.tr("Never")
+                    else if (SystemImage.downloadMode === 1)
+                        return i18n.tr("On WiFi")
+                    else if (SystemImage.downloadMode === 2)
+                        return i18n.tr("Always")
+                    else
+                        return i18n.tr("Unknown")
+                }
+                onClicked: pageStack.addPageToNextColumn(root, Qt.resolvedUrl("Configuration.qml"))
             }
-            progression: true
-            onClicked: pageStack.push(Qt.resolvedUrl("ChannelSettings.qml"))
+            SettingsListItems.SingleValueProgression {
+                objectName: "channel"
+                text: i18n.tr("Channels")
+                property var channel: SystemImage.getSwitchChannel().split("/")
+                visible: channel.length < 2 ? false : true
+                value: {
+                  var prettyChannels = {"stable": i18n.tr("Stable"), "rc": i18n.tr("Release candidate"), "devel": i18n.tr("Development")}
+                  return prettyChannels[channel[channel.length-1]] ? prettyChannels[channel[channel.length-1]] : channel[channel.length-1]
+                }
+                onClicked: pageStack.addPageToNextColumn(root, Qt.resolvedUrl("ChannelSettings.qml"))
+            }
         }
     }
 }

@@ -34,9 +34,30 @@ import "apn_manager.js" as Manager
 
 ItemPage {
     id: root
-    title: i18n.tr("APN")
-    flickable: scrollWidget
     objectName: "apnPage"
+
+    header: PageHeader {
+        id: chooseApnHeader
+        title: i18n.tr("APN")
+        flickable: scrollWidget
+        trailingActionBar {
+            actions: [
+                Action {
+                  iconName: "add"
+                  objectName: "newApn"
+                  onTriggered: {
+                    editor = pageStack.addPageToNextColumn(root,
+                      pageApnEditor, {
+                        mmsModel:        mmsContexts,
+                        internetModel:   internetContexts,
+                        iaModel:         iaContexts
+                      }
+                    );
+                  }
+                }
+            ]
+        }
+    }
 
     property var sim
     property var editor
@@ -96,29 +117,6 @@ ItemPage {
             }
         }
     }
-
-    state: "default"
-    states: [
-        PageHeadState {
-            name: "default"
-            head: root.head
-            actions: [
-                Action {
-                    iconName: "add"
-                    objectName: "newApn"
-                    onTriggered: {
-                        editor = pageStack.addPageToNextColumn(root,
-                            pageApnEditor, {
-                                mmsModel:        mmsContexts,
-                                internetModel:   internetContexts,
-                                iaModel:         iaContexts
-                            }
-                        );
-                    }
-                }
-            ]
-        }
-    ]
 
     Component {
         id: pageApnEditor
