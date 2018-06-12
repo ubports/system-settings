@@ -65,13 +65,13 @@ ItemPage {
                 }
                 onClicked: pageStack.addPageToNextColumn(root, Qt.resolvedUrl("Configuration.qml"))
             }
-
             SettingsListItems.SingleValueProgression {
                 objectName: "channel"
                 text: i18n.tr("Channels")
+                property var channel: SystemImage.getSwitchChannel().split("/")
+                visible: channel.length < 2 ? false : true
                 value: {
                   var prettyChannels = {"stable": i18n.tr("Stable"), "rc": i18n.tr("Release candidate"), "devel": i18n.tr("Development")}
-                  var channel = SystemImage.getSwitchChannel().split("/");
                   return prettyChannels[channel[channel.length-1]] ? prettyChannels[channel[channel.length-1]] : channel[channel.length-1]
                 }
                 onClicked: pageStack.addPageToNextColumn(root, Qt.resolvedUrl("ChannelSettings.qml"))
