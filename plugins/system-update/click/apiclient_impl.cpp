@@ -58,6 +58,7 @@ void ApiClientImpl::requestMetadata(const QUrl &url,
     QJsonObject body;
 
     body.insert("apps", QJsonArray::fromStringList(packages));
+    body.insert("channel", Helpers::getSystemCodename());
 
     QJsonDocument doc(body);
     QByteArray content = doc.toJson();
@@ -87,6 +88,8 @@ void ApiClientImpl::requestUpdatesMetadata(const QStringList &packages)
                 QString::fromStdString(Helpers::getArchitecture()));
 
     body.insert("apps", QJsonArray::fromStringList(packages));
+
+    body.insert("channel", Helpers::getSystemCodename());
 
     QJsonDocument doc(body);
     QByteArray content = doc.toJson();

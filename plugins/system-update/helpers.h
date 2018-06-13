@@ -34,6 +34,7 @@ public:
     static QString getFrameworksDir();
     static QStringList getAvailableFrameworks();
     static std::string getArchitecture();
+    static QString getSystemCodename();
     static QString clickMetadataUrl();
     static QString clickRevisionUrl();
     static bool isIgnoringCredentials();

@@ -77,6 +77,25 @@ std::string Helpers::architectureFromDpkg()
     return ostr.trimmed().toStdString();
 }
 
+QString Helpers::getSystemCodename()
+{
+    QProcess lsb_release;
+    lsb_release.setProgram("lsb_release");
+    lsb_release.setArguments(QStringList() << "-c");
+
+    lsb_release.start();
+    lsb_release.waitForFinished();
+
+    QString output = QString::fromUtf8(lsb_release.readAllStandardOutput()).simplified();
+    output = output.remove(QStringLiteral("Codename:")).simplified();
+
+    if (output.isEmpty()) {
+        output = QString("xenial");
+    }
+
+    return output;
+}
+
 QString Helpers::clickMetadataUrl()
 {
     QString url = QStringLiteral(
