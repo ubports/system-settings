@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-27 17:29+0000\n"
+"PO-Revision-Date: 2018-06-03 17:23+0000\n"
 "Last-Translator: Joachim Lazaroms <joachim.pc@gmail.com>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/system-"
 "settings/nl/>\n"
@@ -624,27 +624,25 @@ msgid "Lock sound"
 msgstr "Vergrendeltoon"
 
 #: ../plugins/sound/PageComponent.qml:278
-#, fuzzy
 msgid "Other vibrations"
-msgstr "trillen"
+msgstr "Overige trillingen"
 
 #: ../plugins/sound/SoundsList.qml:128
-#, fuzzy
 msgid "Custom Ringtone"
-msgstr "Beltoon"
+msgstr "Aangepaste beltoon"
 
 #: ../plugins/sound/SoundsList.qml:206
 #, fuzzy
 msgid "Choose from"
-msgstr "Kies provider:"
+msgstr "Bron keuze"
 
 #: ../plugins/wifi/CertDialog.qml:22
 msgid "Add certificate?"
-msgstr ""
+msgstr "Certificaat toevoegen?"
 
 #: ../plugins/wifi/CertDialog.qml:24
 msgid "Add key?"
-msgstr ""
+msgstr "Sleutel toevoegen?"
 
 #: ../plugins/wifi/CertDialog.qml:26
 msgid "Add pac file?"

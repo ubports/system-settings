@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-29 20:04+0000\n"
-"Last-Translator: Noock <nklowns@gmail.com>\n"
+"PO-Revision-Date: 2018-06-07 08:15+0000\n"
+"Last-Translator: Danilo Alculete <dannyalculete@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) "
 "<https://translate.ubports.com/projects/ubports/system-settings/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -3022,7 +3022,7 @@ msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:32
 msgid "Aborted"
-msgstr ""
+msgstr "Interropido"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:34
 msgid "Active"
