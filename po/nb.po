@@ -2,7 +2,6 @@
 # Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
 # This file is distributed under the same license as the ubuntu-system-settings package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
@@ -130,7 +129,7 @@ msgstr "Aldri"
 
 #: ../plugins/system-update/Configuration.qml:54
 msgid "When on WiFi"
-msgstr "Når telefonen er koblet til et trådløst nettverk"
+msgstr "Når enheten er koblet til et trådløst nettverk"
 
 #: ../plugins/system-update/Configuration.qml:56
 msgid "On any data connection"
@@ -160,7 +159,7 @@ msgstr "Oppdateringsinnstillinger"
 
 #: ../plugins/system-update/UpdateSettings.qml:60
 msgid "On WiFi"
-msgstr "Når telefonen er koblet til trådløst nettverk"
+msgstr "Når enheten er koblet til trådløst nettverk"
 
 #: ../plugins/system-update/UpdateSettings.qml:62
 msgid "Always"
@@ -243,12 +242,11 @@ msgstr "Oppdater systemet"
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:32
 msgid "The device needs to restart to install the system update."
-msgstr "Telefonen må startes på nytt for å fullføre oppdateringa."
+msgstr "Enheten må startes på nytt for å fullføre oppdateringa."
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:33
 msgid "Connect the device to power before installing the system update."
-msgstr ""
-"Koble telefonen til en strømkilde før du installerer systemoppdateringa."
+msgstr "Koble enheten til en strømkilde før du installerer systemoppdateringa."
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:38
 msgid "Restart & Install"
@@ -362,8 +360,8 @@ msgid ""
 "Bluetooth device isn’t detected, make sure it is turned on and its batteries "
 "are charged."
 msgstr ""
-"Koble til ei mus eller pekeflate via USB, eller bruk en Blåtannsenhet. Hvis "
-"en Blåtannsenhet ikke oppdages, forsikre deg om at den er påslått og at dens "
+"Koble til ei mus eller pekeflate via USB, eller bruk en Blåtann-enhet. Hvis "
+"en Blåtann-enhet ikke oppdages, forsikre deg om at den er påslått og at dens "
 "batterier er oppladet."
 
 #: ../plugins/mouse/None.qml:36
@@ -371,8 +369,8 @@ msgid ""
 "You need to use a Bluetooth mouse or touchpad with this display. Make sure "
 "it is close to the device and its batteries are charged."
 msgstr ""
-"Du må bruke en Blåtanns-mus eller -pekeflate med denne skjermen. Forsikre "
-"deg om at den er nær enheten og at dens batterier er oppladet."
+"Du må bruke en Blåtann-mus eller -pekeflate med denne skjermen. Forsikre deg "
+"om at den er nær enheten og at dens batterier er oppladet."
 
 #: ../plugins/mouse/TapArea.qml:38
 msgid "Not fast enough"
@@ -980,7 +978,7 @@ msgstr "Fant ikke modemet"
 
 #: ../plugins/wifi/Common.qml:86 ../plugins/hotspot/Common.qml:84
 msgid "The Bluetooth connection failed or timed out"
-msgstr "Bluetooth-tilkoblinga mislyktes eller gikk ut på tid"
+msgstr "Blåtann-tilkoblinga mislyktes eller gikk ut på tid"
 
 #: ../plugins/wifi/Common.qml:88 ../plugins/hotspot/Common.qml:86
 msgid "A dependency of the connection failed"
@@ -1539,7 +1537,7 @@ msgid ""
 "restarting the device or swapping the SIM."
 msgstr ""
 "Hvis en PIN-kode er valgt for et SIM-kort, må denne tastes inn hver gang du "
-"starter telefonen på nytt og/eller setter inn SIM-kortet."
+"starter enheten på nytt og/eller setter inn SIM-kortet."
 
 #: ../plugins/security-privacy/SimPin.qml:449
 msgid "Entering an incorrect PIN repeatedly may lock the SIM permanently."
@@ -1593,8 +1591,8 @@ msgid ""
 "Encryption protects against access to phone data when the phone is connected "
 "to a PC or other device."
 msgstr ""
-"Kryptering beskytter mot lesing av telefondata når telefonen er koblet til "
-"en PC eller annen enhet."
+"Kryptering beskytter mot lesing av telefondata når enheten er koblet til en "
+"PC eller annen enhet."
 
 #: ../plugins/security-privacy/PageComponent.qml:207
 msgid "Privacy"
@@ -2081,7 +2079,7 @@ msgstr "Trådløs nettverksadresse"
 
 #: ../plugins/about/PageComponent.qml:139
 msgid "Bluetooth address"
-msgstr "Bluetooth-adresse"
+msgstr "Blåtann-adresse"
 
 #. TRANSLATORS: that's the free disk space, indicated in the most appropriate storage unit
 #: ../plugins/about/PageComponent.qml:152
@@ -2258,7 +2256,7 @@ msgstr "Krev passord (anbefales):"
 
 #: ../plugins/hotspot/HotspotSetup.qml:245
 msgid "Starting the hotspot will turn on Wi-Fi."
-msgstr "Aktivering av lokalt delt nettverk slår på Wi-Fi."
+msgstr "Aktivering av lokalt delt nettverk slår på trådløst nettverk."
 
 #: ../plugins/hotspot/HotspotSetup.qml:275
 msgid "Start"
@@ -2297,15 +2295,16 @@ msgstr "Sett opp deling av internettforbindelse…"
 
 #: ../plugins/hotspot/PageComponent.qml:155
 msgid "Wi-Fi is off"
-msgstr "Wifi er deaktivert"
+msgstr "Trådløst nettverk er deaktivert"
 
 #: ../plugins/hotspot/PageComponent.qml:156
 msgid "In order to create a hotspot, you need to turn Wi-Fi on."
-msgstr "For å kunne opprette et lokalt delt nettverk, må du skru på Wifi."
+msgstr ""
+"For å kunne opprette et lokalt delt nettverk, må du slå på trådløst nettverk."
 
 #: ../plugins/hotspot/PageComponent.qml:165
 msgid "Turn on Wi-Fi"
-msgstr "Slå på Wifi"
+msgstr "Slå på trådløst nettverk"
 
 #: ../plugins/bluetooth/ProvidePinCodeDialog.qml:28
 #: ../plugins/bluetooth/DisplayPasskeyDialog.qml:26
@@ -2711,7 +2710,7 @@ msgstr "Vis lysstyrke"
 #. TRANSLATORS: “Wi-Fi used for hotspot” is hidden.
 #: ../plugins/battery/PageComponent.qml:364
 msgid "Wi-Fi used for hotspot"
-msgstr "Deling av trådløst nett"
+msgstr "Deling av trådløst nettverk"
 
 #: ../plugins/reset/ResetAllSettings.qml:29
 msgid ""
