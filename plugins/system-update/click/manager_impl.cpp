@@ -376,8 +376,8 @@ void ManagerImpl::parseMetadata(const QJsonArray &array)
         foreach (const auto &value, downloads) {
             auto download_obj = value.toObject();
             if (download_obj["channel"].toString() == Helpers::getSystemCodename()) {
-              download = download_obj;
-              break;
+                download = download_obj;
+                break;
             }
         }
 
