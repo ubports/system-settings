@@ -375,9 +375,14 @@ void ManagerImpl::parseMetadata(const QJsonArray &array)
 
         foreach (const auto &value, downloads) {
             auto download_obj = value.toObject();
-            if (download_obj["channel"].toString() == Helpers::getSystemCodename())
+            if (download_obj["channel"].toString() == Helpers::getSystemCodename()) {
               download = download_obj;
+              break;
+            }
         }
+
+        // This should not happen, but better to be on the safe side
+        if (download.isEmpty()) continue;
 
         auto url = download["download_url"].toString();
         auto download_sha512 = download["download_sha512"].toString();
