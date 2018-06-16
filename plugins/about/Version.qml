@@ -64,10 +64,10 @@ ItemPage {
             }
 
             SingleValueStacked {
-                objectName: "ubuntuVersionBuildNumberItem"
-                text: i18n.tr("Ubuntu Image part")
-                value: SystemImage.currentUbuntuBuildNumber
-                visible: SystemImage.currentUbuntuBuildNumber
+                objectName: "ubportsVersionBuildNumberItem"
+                text: i18n.tr("UBports Image part")
+                value: SystemImage.currentUbportsBuildNumber
+                visible: SystemImage.currentUbportsBuildNumber
             }
 
             SingleValueStacked {
@@ -100,4 +100,3 @@ ItemPage {
         }
     }
 }
-

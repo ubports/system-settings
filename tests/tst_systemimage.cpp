@@ -37,7 +37,7 @@ private Q_SLOTS:
         parameters["build_number"] = 10;
         parameters["target_build_number"] = 42;
         parameters["version_detail"] =
-            "foo=bar,tag=OTA-100,ubuntu=101,device=102,custom=103";
+            "foo=bar,tag=OTA-100,ubports=101,device=102,custom=103";
 
         m_siMock = new FakeSystemImageDbus(parameters);
         m_dbus = new QDBusConnection(m_siMock->dbus());
@@ -167,7 +167,7 @@ private Q_SLOTS:
     }
     void testBuildNumbers()
     {
-        QCOMPARE(m_systemImage->currentUbuntuBuildNumber(), QString("101"));
+        QCOMPARE(m_systemImage->currentUbportsBuildNumber(), QString("101"));
         QCOMPARE(m_systemImage->currentDeviceBuildNumber(), QString("102"));
         QCOMPARE(m_systemImage->currentCustomBuildNumber(), QString("103"));
     }
