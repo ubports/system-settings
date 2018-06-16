@@ -353,22 +353,6 @@ void ManagerImpl::parseMetadata(const QJsonArray &array)
     auto now = QDateTime::currentDateTimeUtc();
     for (int i = 0; i < array.size(); i++) {
         auto object = array.at(i).toObject();
-        auto identifier = object["id"].toString();
-        auto revision = object["revision"].toInt();
-        // Check if we already have it's metadata.
-        auto dbUpdate = m_model->get(identifier, revision);
-        if (dbUpdate) {
-            /* If this update is less than 24 hours old (to us), and it has a
-            token, we ignore it. */
-            if (dbUpdate->createdAt().secsTo(now) <= 86400
-                && !dbUpdate->token().isEmpty()) {
-                m_candidates.remove(identifier);
-                continue;
-            }
-        }
-
-        auto version = object["version"].toString();
-        auto icon_url = object["icon"].toString();
 
         auto downloads = object["downloads"].toArray();
         QJsonObject download;
@@ -383,6 +367,23 @@ void ManagerImpl::parseMetadata(const QJsonArray &array)
 
         // This should not happen, but better to be on the safe side
         if (download.isEmpty()) continue;
+
+        auto identifier = object["id"].toString();
+        auto revision = download["revision"].toInt();
+        // Check if we already have it's metadata.
+        auto dbUpdate = m_model->get(identifier, revision);
+        if (dbUpdate) {
+            /* If this update is less than 24 hours old (to us), and it has a
+            token, we ignore it. */
+            if (dbUpdate->createdAt().secsTo(now) <= 86400
+                && !dbUpdate->token().isEmpty()) {
+                m_candidates.remove(identifier);
+                continue;
+            }
+        }
+
+        auto version = download["version"].toString();
+        auto icon_url = object["icon"].toString();
 
         auto url = download["download_url"].toString();
         auto download_sha512 = download["download_sha512"].toString();
