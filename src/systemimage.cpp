@@ -312,9 +312,9 @@ int QSystemImage::currentBuildNumber() const
     return m_currentBuildNumber;
 }
 
-QString QSystemImage::currentUbuntuBuildNumber() const
+QString QSystemImage::currentUbportsBuildNumber() const
 {
-    QString val = m_detailedVersion.value("ubuntu").toString();
+    QString val = m_detailedVersion.value("ubports").toString();
     return val.isEmpty() ? SystemSettings::_("Unavailable") : val;
 }
 
@@ -441,7 +441,7 @@ void QSystemImage::setDetailedVersionDetails(const QVariantMap &detailedVersionD
         Q_EMIT detailedVersionDetailsChanged();
 
         // These properties are read from m_detailedVersion, so notify.
-        Q_EMIT currentUbuntuBuildNumberChanged();
+        Q_EMIT currentUbportsBuildNumberChanged();
         Q_EMIT currentDeviceBuildNumberChanged();
         Q_EMIT currentCustomBuildNumberChanged();
 

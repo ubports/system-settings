@@ -45,8 +45,8 @@ class QSystemImage : public QObject
                NOTIFY currentBuildNumberChanged)
     Q_PROPERTY(int targetBuildNumber READ targetBuildNumber
                NOTIFY targetBuildNumberChanged)
-    Q_PROPERTY(QString currentUbuntuBuildNumber READ currentUbuntuBuildNumber
-               NOTIFY currentUbuntuBuildNumberChanged)
+    Q_PROPERTY(QString currentUbportsBuildNumber READ currentUbportsBuildNumber
+               NOTIFY currentUbportsBuildNumberChanged)
     Q_PROPERTY(QString currentDeviceBuildNumber READ currentDeviceBuildNumber
                NOTIFY currentDeviceBuildNumberChanged)
     Q_PROPERTY(QString currentCustomBuildNumber READ currentCustomBuildNumber
@@ -79,7 +79,7 @@ public:
 
     QString deviceName() const;
     QString channelName() const;
-    QString currentUbuntuBuildNumber() const;
+    QString currentUbportsBuildNumber() const;
     QString currentDeviceBuildNumber() const;
     QString currentCustomBuildNumber() const;
     QVariantMap detailedVersionDetails() const;
@@ -115,7 +115,7 @@ Q_SIGNALS:
     void currentBuildNumberChanged();
     void deviceNameChanged();
     void channelNameChanged();
-    void currentUbuntuBuildNumberChanged();
+    void currentUbportsBuildNumberChanged();
     void currentDeviceBuildNumberChanged();
     void currentCustomBuildNumberChanged();
     void targetBuildNumberChanged();
