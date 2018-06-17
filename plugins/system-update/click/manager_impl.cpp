@@ -353,8 +353,23 @@ void ManagerImpl::parseMetadata(const QJsonArray &array)
     auto now = QDateTime::currentDateTimeUtc();
     for (int i = 0; i < array.size(); i++) {
         auto object = array.at(i).toObject();
+
+        auto downloads = object["downloads"].toArray();
+        QJsonObject download;
+
+        foreach (const auto &value, downloads) {
+            auto download_obj = value.toObject();
+            if (download_obj["channel"].toString() == Helpers::getSystemCodename()) {
+                download = download_obj;
+                break;
+            }
+        }
+
+        // This should not happen, but better to be on the safe side
+        if (download.isEmpty()) continue;
+
         auto identifier = object["id"].toString();
-        auto revision = object["revision"].toInt();
+        auto revision = download["revision"].toInt();
         // Check if we already have it's metadata.
         auto dbUpdate = m_model->get(identifier, revision);
         if (dbUpdate) {
@@ -367,10 +382,12 @@ void ManagerImpl::parseMetadata(const QJsonArray &array)
             }
         }
 
-        auto version = object["version"].toString();
+        auto version = download["version"].toString();
         auto icon_url = object["icon"].toString();
-        auto url = object["download"].toString();
-        auto download_sha512 = object["download_sha512"].toString();
+
+        auto url = download["download_url"].toString();
+        auto download_sha512 = download["download_sha512"].toString();
+
         auto changelog = object["changelog"].toString();
         auto size = object["filesize"].toInt();
         auto title = object["name"].toString();
