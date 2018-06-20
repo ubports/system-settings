@@ -30,7 +30,14 @@ endif()
 
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++0x -fno-permissive -pedantic -Wall -Wextra")
+find_package(Qt5Concurrent REQUIRED)
+find_package(Qt5DBus REQUIRED)
+find_package(Qt5Qml REQUIRED)
+find_package(Qt5Quick REQUIRED)
+find_package(Qt5Sql REQUIRED)
+find_package(Qt5Test REQUIRED)
 find_package(Qt5Widgets REQUIRED)
+
 # Workaround for https://bugreports.qt-project.org/browse/QTBUG-29987
 set(QT_IMPORTS_DIR "${CMAKE_INSTALL_LIBDIR}/qt5/qml")
 set(CMAKE_AUTOMOC ON)

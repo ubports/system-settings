@@ -13,7 +13,7 @@ include_directories(
 
 add_library(UbuntuTestQml MODULE ${UbuntuTestQML_SOURCES})
 
-qt5_use_modules(UbuntuTestQml Core Quick Test)
+target_link_libraries(UbuntuTestQml Qt5::Core Qt5::Quick Qt5::Test)
 
 # copy qml files into build directory for shadow builds
 file(GLOB QML_JS_FILES *.js *.qml qmldir)

@@ -45,8 +45,8 @@ add_library(UpdatePlugin SHARED
     updatemanager.cpp
     ../../src/i18n.cpp
 )
-qt5_use_modules(UpdatePlugin Quick Core Network Sql)
 target_link_libraries(UpdatePlugin
+    Qt5::Quick Qt5::Core Qt5::Network Qt5::Sql
     apt-pkg
     uss-systemimage
     ${UAL_LDFLAGS}
@@ -56,8 +56,7 @@ add_library(UbuntuUpdatePanel MODULE
     plugin.cpp
     ${QML_SOURCES}
 )
-qt5_use_modules(UbuntuUpdatePanel Qml Quick DBus)
-target_link_libraries(UbuntuUpdatePanel UpdatePlugin)
+target_link_libraries(UbuntuUpdatePanel Qt5::Qml Qt5::Quick Qt5::DBus UpdatePlugin)
 
 set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Ubuntu/SystemSettings/Update)
 install(TARGETS UpdatePlugin DESTINATION ${PLUGIN_MODULE_DIR})

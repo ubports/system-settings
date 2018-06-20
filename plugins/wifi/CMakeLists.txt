@@ -36,7 +36,7 @@ add_library(UbuntuWifiPanel MODULE
   wifidbushelper.h
   ${QML_SOURCES}
 )
-qt5_use_modules(UbuntuWifiPanel Qml Quick DBus)
+target_link_libraries(UbuntuWifiPanel Qt5::Qml Qt5::Quick Qt5::DBus)
 
 set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Ubuntu/SystemSettings/Wifi)
 install(TARGETS UbuntuWifiPanel DESTINATION ${PLUG_DIR})

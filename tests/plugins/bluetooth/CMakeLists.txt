@@ -26,6 +26,7 @@ add_executable(tst-bluetooth
 target_link_libraries(tst-bluetooth
     ${QTDBUSMOCK_LIBRARIES}
     ${QTDBUSTEST_LIBRARIES}
+    Qt5::Qml Qt5::Quick Qt5::Core Qt5::DBus Qt5::Test
 )
 
 add_executable(tst-bluetooth-devicemodel
@@ -37,6 +38,7 @@ add_executable(tst-bluetooth-devicemodel
 target_link_libraries(tst-bluetooth-devicemodel
     ${QTDBUSMOCK_LIBRARIES}
     ${QTDBUSTEST_LIBRARIES}
+    Qt5::Qml Qt5::Quick Qt5::Core Qt5::DBus Qt5::Test
 )
 
 add_executable(tst-bluetooth-device
@@ -48,11 +50,8 @@ add_executable(tst-bluetooth-device
 target_link_libraries(tst-bluetooth-device
     ${QTDBUSMOCK_LIBRARIES}
     ${QTDBUSTEST_LIBRARIES}
+    Qt5::Qml Qt5::Quick Qt5::Core Qt5::DBus Qt5::Test
 )
-
-qt5_use_modules(tst-bluetooth Qml Quick Core DBus Test)
-qt5_use_modules(tst-bluetooth-devicemodel Qml Quick Core DBus Test)
-qt5_use_modules(tst-bluetooth-device Qml Quick Core DBus Test)
 
 add_test(NAME tst-bluetooth
          COMMAND ${XVFB_CMD} ${CMAKE_CURRENT_BINARY_DIR}/tst-bluetooth)
