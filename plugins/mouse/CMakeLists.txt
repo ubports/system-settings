@@ -18,7 +18,6 @@ set(PANEL_SOURCES
 
 add_definitions(-DQT_NO_KEYWORDS)
 add_library(UbuntuMousePanel MODULE ${PANEL_SOURCES} ${QML_SOURCES})
-qt5_use_modules(UbuntuMousePanel Qml Quick DBus)
 
 include_directories(${CMAKE_CURRENT_BINARY_DIR}
                     ${ACCOUNTSSERVICE_INCLUDE_DIRS}
@@ -26,6 +25,7 @@ include_directories(${CMAKE_CURRENT_BINARY_DIR}
 
 set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Ubuntu/SystemSettings/Mouse)
 target_link_libraries (UbuntuMousePanel
+    Qt5::Qml Qt5::Quick Qt5::DBus
     uss-accountsservice
     ${ACCOUNTSSERVICE_LDFLAGS}
     ${GOBJECT_LDFLAGS}

@@ -38,7 +38,7 @@ add_library(UbuntuBluetoothPanel MODULE
   ${QML_SOURCES}
 )
 
-qt5_use_modules(UbuntuBluetoothPanel Qml Quick DBus)
+target_link_libraries(UbuntuBluetoothPanel Qt5::Qml Qt5::Quick Qt5::DBus)
 
 set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Ubuntu/SystemSettings/Bluetooth)
 install(TARGETS UbuntuBluetoothPanel DESTINATION ${PLUG_DIR})
