@@ -12,7 +12,7 @@ add_library(FlightModeHelper MODULE
   urfkill-proxy.h
   ${QML_SOURCES}
 )
-qt5_use_modules(FlightModeHelper Qml Quick DBus)
+target_link_libraries(FlightModeHelper Qt5::Qml Qt5::Quick Qt5::DBus)
 set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Ubuntu/SystemSettings/FlightMode)
 
 install(FILES ${QML_SOURCES} DESTINATION ${PLUGIN_QML_DIR}/flight-mode)
