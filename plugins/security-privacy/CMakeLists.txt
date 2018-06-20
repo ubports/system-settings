@@ -44,7 +44,6 @@ set(PANEL_SOURCES
 )
 
 add_library(UbuntuSecurityPrivacyPanel MODULE ${PANEL_SOURCES} ${QML_SOURCES})
-qt5_use_modules(UbuntuSecurityPrivacyPanel Qml Quick DBus)
 
 pkg_check_modules(TRUST_STORE REQUIRED trust-store)
 
@@ -56,6 +55,7 @@ include_directories(
 
 set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Ubuntu/SystemSettings/SecurityPrivacy)
 target_link_libraries (UbuntuSecurityPrivacyPanel
+    Qt5::Qml Qt5::Quick Qt5::DBus
     uss-accountsservice
     ${ACCOUNTSSERVICE_LDFLAGS}
     ${GOBJECT_LDFLAGS}

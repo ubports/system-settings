@@ -4,7 +4,7 @@ VERSION 1.0.0
 SOVERSION 1
 )
 
-qt5_use_modules(SystemSettings Core Gui Quick Qml)
+target_link_libraries(SystemSettings Qt5::Core Qt5::Gui Qt5::Quick Qt5::Qml)
 
 install(TARGETS SystemSettings LIBRARY DESTINATION ${LIBDIR})
 install(FILES item-base.h ItemBase plugin-interface.h PluginInterface

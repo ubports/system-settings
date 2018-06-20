@@ -5,7 +5,7 @@ set(QML_SOURCES
 
 add_library(UbuntuDiagnostics MODULE plugin.h diagnostics.h plugin.cpp diagnostics.cpp
 ${QML_SOURCES})
-qt5_use_modules(UbuntuDiagnostics Qml Quick DBus)
+target_link_libraries(UbuntuDiagnostics Qt5::Qml Qt5::Quick Qt5::DBus)
 
 set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Ubuntu/SystemSettings/Diagnostics)
 install(TARGETS UbuntuDiagnostics DESTINATION ${PLUG_DIR})

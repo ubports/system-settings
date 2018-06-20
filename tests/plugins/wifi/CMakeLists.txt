@@ -18,6 +18,5 @@ add_executable(tst-wifidbushelper
     ${CMAKE_SOURCE_DIR}/plugins/wifi/wifidbushelper.cpp
     ${CMAKE_SOURCE_DIR}/tests/mocks/plugins/wifi/fakenetworkmanager.cpp
 )
-qt5_use_modules(tst-wifidbushelper Core DBus Network Test)
-target_link_libraries(tst-wifidbushelper ${QTDBUSMOCK_LIBRARIES} ${QTDBUSTEST_LIBRARIES})
+target_link_libraries(tst-wifidbushelper Qt5::Core Qt5::DBus Qt5::Network Qt5::Test ${QTDBUSMOCK_LIBRARIES} ${QTDBUSTEST_LIBRARIES})
 add_test(tst-wifidbushelper tst-wifidbushelper)
