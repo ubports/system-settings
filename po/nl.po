@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-06-03 17:23+0000\n"
+"PO-Revision-Date: 2018-06-16 23:39+0000\n"
 "Last-Translator: Joachim Lazaroms <joachim.pc@gmail.com>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/system-"
 "settings/nl/>\n"
@@ -423,7 +423,6 @@ msgid "Ignore touchpad when:"
 msgstr "Negeer het touchpad als:"
 
 #: ../plugins/mouse/Connected.qml:432
-#, fuzzy
 msgid "Typing"
 msgstr "Aan het typen"
 
@@ -471,11 +470,11 @@ msgstr ""
 
 #: ../plugins/notifications/PageComponent.qml:91
 msgid "Apps that notify with sound"
-msgstr ""
+msgstr "Apps die geluid maken bij notificaties"
 
 #: ../plugins/notifications/PageComponent.qml:117
 msgid "Apps that notify with vibration"
-msgstr ""
+msgstr "Apps die trillen bij notificaties"
 
 #: ../plugins/notifications/PageComponent.qml:143
 msgid "Applications:"
@@ -498,10 +497,9 @@ msgstr "Geluid"
 
 #: ../plugins/notifications/ClickAppsSoundsNotify.qml:48
 msgid "Apps that notify with sound:"
-msgstr ""
+msgstr "Apps die geluid maken bij notificaties:"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:30
-#, fuzzy
 msgid "Vibration"
 msgstr "trillen"
 
@@ -510,9 +508,8 @@ msgid "When in Silent mode:"
 msgstr "In stille modus:"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:72
-#, fuzzy
 msgid "Vibrate as normal"
-msgstr "Trillen als normaal"
+msgstr "Normaal trillen"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:73
 msgid "Don't vibrate"
@@ -520,7 +517,7 @@ msgstr "Niet trillen"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:89
 msgid "Apps that notify with vibrations:"
-msgstr ""
+msgstr "Apps die trillen bij notificaties:"
 
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../plugins/background/MainPage.qml:38
@@ -537,9 +534,8 @@ msgid "Custom"
 msgstr "Aangepast"
 
 #: ../plugins/background/MainPage.qml:118
-#, fuzzy
 msgid "Dash background"
-msgstr "achtergrond"
+msgstr "achtergrond van de Dash"
 
 #: ../plugins/background/MainPage.qml:131
 msgid "Opacity:"
@@ -582,9 +578,8 @@ msgid "Ringtone"
 msgstr "Beltoon"
 
 #: ../plugins/sound/PageComponent.qml:171
-#, fuzzy
 msgid "Vibrate on ring"
-msgstr "Trillen als beltoon"
+msgstr "Trillen tijdens het bellen"
 
 #: ../plugins/sound/PageComponent.qml:183
 #: ../plugins/sound/PageComponent.qml:242
@@ -593,7 +588,6 @@ msgstr "Trillen in stille modus"
 
 #: ../plugins/sound/PageComponent.qml:194
 #: ../plugins/phone/PageComponent.qml:102
-#, fuzzy
 msgid "Dialpad tones"
 msgstr "Toetsenblokgeluiden"
 
@@ -646,17 +640,15 @@ msgstr "Sleutel toevoegen?"
 
 #: ../plugins/wifi/CertDialog.qml:26
 msgid "Add pac file?"
-msgstr ""
+msgstr "Voeg “PAC” bestand toe?"
 
 #: ../plugins/wifi/CertDialog.qml:36
-#, fuzzy
 msgid "Content:"
-msgstr "Doorgaan"
+msgstr "Inhoud:"
 
 #: ../plugins/wifi/CertDialog.qml:49
-#, fuzzy
 msgid "No data available."
-msgstr "Updates beschikbaar"
+msgstr "Geen updates beschikbaar."
 
 #: ../plugins/wifi/CertDialog.qml:74
 msgid "Save"
@@ -685,7 +677,7 @@ msgstr "Netwerknaam"
 
 #: ../plugins/wifi/OtherNetwork.qml:298
 msgid "SSID"
-msgstr ""
+msgstr "WiFi naam(SSID)"
 
 #: ../plugins/wifi/OtherNetwork.qml:307
 #: ../plugins/security-privacy/PageComponent.qml:142
@@ -715,31 +707,31 @@ msgid "WPA & WPA2 Personal"
 msgstr "WPA & WPA2 persoonlijk"
 
 #: ../plugins/wifi/OtherNetwork.qml:320
-#, fuzzy
 msgid "WPA & WPA2 Enterprise"
-msgstr "WPA & WPA2 persoonlijk"
+msgstr "WPA & WPA2 Enterprise"
 
 #: ../plugins/wifi/OtherNetwork.qml:321
 msgid "WEP"
 msgstr "WEP"
 
 #: ../plugins/wifi/OtherNetwork.qml:322
+#, fuzzy
 msgid "Dynamic WEP (802.1x)"
-msgstr ""
+msgstr "Dynamisch WEP (802.1x)"
 
 #: ../plugins/wifi/OtherNetwork.qml:323
+#, fuzzy
 msgid "LEAP"
-msgstr ""
+msgstr "LEAP"
 
 #: ../plugins/wifi/OtherNetwork.qml:332
 msgid "This network is insecure."
-msgstr ""
+msgstr "Dit is een onveilig netwerk."
 
 #: ../plugins/wifi/OtherNetwork.qml:338
 #: ../plugins/cellular/PageApnEditor.qml:382
-#, fuzzy
 msgid "Authentication"
-msgstr "notificaties"
+msgstr "Autorisatie"
 
 #: ../plugins/wifi/OtherNetwork.qml:363
 msgid "Inner authentication"
@@ -762,7 +754,7 @@ msgstr ""
 #: ../plugins/wifi/certhandler.cpp:193 ../plugins/wifi/certhandler.cpp:225
 #: ../plugins/wifi/certhandler.cpp:290 ../plugins/wifi/certhandler.cpp:319
 msgid "Choose…"
-msgstr ""
+msgstr "Kies…"
 
 #. TRANSLATORS: The first position is the name of
 #. the organization that has issued the certificate.
@@ -786,14 +778,15 @@ msgstr ""
 #: ../plugins/wifi/OtherNetwork.qml:494
 msgid "Using certificates is recommended as it increases security."
 msgstr ""
+"Het gebruik van een certificaat verhoogd de veiligheid en daarom aanbevolen."
 
 #: ../plugins/wifi/OtherNetwork.qml:512
 msgid "Client certificate"
-msgstr ""
+msgstr "Cliënt certificaat"
 
 #: ../plugins/wifi/OtherNetwork.qml:554
 msgid "User private key"
-msgstr ""
+msgstr "Persoonlijke persoonlijke sleutel"
 
 #. TRANSLATORS: The first position is the type of
 #. private key, second the key algorithm, and third the
@@ -805,7 +798,7 @@ msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:622
 msgid "Pac file"
-msgstr ""
+msgstr "PAC bestand"
 
 #: ../plugins/wifi/OtherNetwork.qml:672
 msgid "Pac provisioning"
@@ -817,20 +810,19 @@ msgstr "Uitgeschakeld"
 
 #: ../plugins/wifi/OtherNetwork.qml:687
 msgid "Anonymous"
-msgstr ""
+msgstr "Anoniem"
 
 #: ../plugins/wifi/OtherNetwork.qml:688
 msgid "Authenticated"
-msgstr ""
+msgstr "Geautoriseerd"
 
 #: ../plugins/wifi/OtherNetwork.qml:689
 msgid "Both"
-msgstr ""
+msgstr "Beide"
 
 #: ../plugins/wifi/OtherNetwork.qml:699
-#, fuzzy
 msgid "PEAP version"
-msgstr "versie"
+msgstr "PEAP versie"
 
 #: ../plugins/wifi/OtherNetwork.qml:713
 #, fuzzy
@@ -843,17 +835,16 @@ msgid "Version 1"
 msgstr "Versie: "
 
 #: ../plugins/wifi/OtherNetwork.qml:715
-#, fuzzy
 msgid "Automatic"
 msgstr "automatisch"
 
 #: ../plugins/wifi/OtherNetwork.qml:725
 msgid "Anonymous identity"
-msgstr ""
+msgstr "Anonieme identiteit"
 
 #: ../plugins/wifi/OtherNetwork.qml:752
 msgid "Identity"
-msgstr ""
+msgstr "Indentiteit"
 
 #: ../plugins/wifi/OtherNetwork.qml:754
 msgid "Username"
@@ -861,7 +852,7 @@ msgstr "Gebruikersnaam"
 
 #: ../plugins/wifi/OtherNetwork.qml:784
 msgid "Private key password"
-msgstr ""
+msgstr "Wachtwoord van uw “Persoonlijke sleutel”"
 
 #: ../plugins/wifi/OtherNetwork.qml:786 ../plugins/wifi/NetworkDetails.qml:70
 #: ../plugins/cellular/PageApnEditor.qml:357
@@ -874,9 +865,8 @@ msgid "Show password"
 msgstr "Wachtwoord tonen"
 
 #: ../plugins/wifi/OtherNetwork.qml:857
-#, fuzzy
 msgid "Remember password"
-msgstr "wachtwoord"
+msgstr "wachtwoord onthouden"
 
 #: ../plugins/wifi/OtherNetwork.qml:905 ../plugins/bluetooth/DevicePage.qml:150
 msgid "Connect"
@@ -1042,9 +1032,8 @@ msgstr "Laatste keer verbonden"
 
 #: ../plugins/wifi/NetworkDetails.qml:96
 #: ../plugins/wifi/NetworkDetailsBrief.qml:53
-#, fuzzy
 msgid "Forget this network"
-msgstr "Netwerk vergeten"
+msgstr "Vergeet dit netwerk"
 
 #: ../plugins/wifi/NetworkDetailsBrief.qml:69
 msgid "IP address"
@@ -1053,9 +1042,8 @@ msgstr "IP-adres"
 #: ../plugins/printing/AddPrinter.qml:34
 #: ../plugins/printing/AddPrinterDetails.qml:54
 #: ../plugins/printing/PageComponent.qml:38
-#, fuzzy
 msgid "Add printer"
-msgstr "Printer"
+msgstr "Voeg printer toe"
 
 #: ../plugins/printing/AddPrinter.qml:65
 #, fuzzy
@@ -1063,48 +1051,44 @@ msgid "Enter URI"
 msgstr "Voer simpincode in"
 
 #: ../plugins/printing/AddPrinter.qml:78
-#, fuzzy
 msgid "Devices"
-msgstr "Diensten"
+msgstr "Apparaten"
 
 #: ../plugins/printing/AddPrinter.qml:133
 msgid "No devices found."
-msgstr ""
+msgstr "Geen apparaten gevonden."
 
 #: ../plugins/printing/AddPrinterDetails.qml:37
+#, fuzzy
 msgid "Describe printer"
-msgstr ""
+msgstr "Beschrijf de printer"
 
 #: ../plugins/printing/AddPrinterDetails.qml:44
 msgid "Back"
 msgstr "Vorige"
 
 #: ../plugins/printing/AddPrinterDetails.qml:137
-#, fuzzy
 msgid "Connection"
-msgstr "Verbinding maken…"
+msgstr "Verbinding"
 
 #: ../plugins/printing/AddPrinterDetails.qml:139
-#, fuzzy
 msgid "Choose a connection"
-msgstr "Kies een wachtwoordzin"
+msgstr "Kies een verbinding"
 
 #: ../plugins/printing/AddPrinterDetails.qml:165
-#, fuzzy
 msgid "Printer name"
-msgstr "Printer"
+msgstr "Printer naam"
 
 #: ../plugins/printing/AddPrinterDetails.qml:202
 #: ../plugins/printing/printer-sub-pages/Status.qml:66
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:32
-#, fuzzy
 msgid "Description"
-msgstr "Versleuteling"
+msgstr "Beschrijving"
 
 #: ../plugins/printing/AddPrinterDetails.qml:204
 #: ../plugins/printing/AddPrinterDetails.qml:211
 msgid "Optional"
-msgstr ""
+msgstr "Optioneel"
 
 #: ../plugins/printing/AddPrinterDetails.qml:209
 #: ../plugins/security-privacy/AppAccess.qml:81
@@ -1115,29 +1099,32 @@ msgid "Location"
 msgstr "Plaats"
 
 #: ../plugins/printing/AddPrinterDetails.qml:219
+#, fuzzy
 msgid "Driver"
-msgstr ""
+msgstr "Driver"
 
 #: ../plugins/printing/AddPrinterDetails.qml:225
 #, fuzzy
 msgid "Choose driver"
-msgstr "Kies provider:"
+msgstr "Kies driver"
 
 #: ../plugins/printing/AddPrinterDetails.qml:227
+#, fuzzy
 msgid "Select printer from database"
-msgstr ""
+msgstr "Kies een printer uit een lijst"
 
 #: ../plugins/printing/AddPrinterDetails.qml:228
 msgid "Provide PPD file"
-msgstr ""
+msgstr "Een PPD bestand is nodig. Geef een PPD bestand."
 
 #: ../plugins/printing/AddPrinterDetails.qml:235
+#, fuzzy
 msgid "Filter drivers"
-msgstr ""
+msgstr "Filter drivers"
 
 #: ../plugins/printing/AddPrinterDetails.qml:304
 msgid "PPD file"
-msgstr ""
+msgstr "PPD bestand"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../plugins/printing/PageComponent.qml:32

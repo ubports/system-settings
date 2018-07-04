@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2017-11-22 23:53+0000\n"
-"Last-Translator: Alexey Balmashnov <a.balmashnov@gmail.com>\n"
-"Language-Team: Russian <https://translate.ubports.com/projects/ubports/"
-"system-settings/ru/>\n"
+"PO-Revision-Date: 2018-07-04 13:01+0000\n"
+"Last-Translator: ierihon <idekovets@mail.ru>\n"
+"Language-Team: Russian <https://translate.ubports.com/projects/ubports"
+"/system-settings/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 2.15\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:41+0000\n"
 
@@ -545,7 +545,7 @@ msgstr "Фон панели приложений"
 
 #: ../plugins/background/MainPage.qml:131
 msgid "Opacity:"
-msgstr ""
+msgstr "Прозрачность:"
 
 #: ../plugins/background/Preview.qml:69
 msgid "Preview"
@@ -1044,27 +1044,24 @@ msgstr "IP-адрес"
 #: ../plugins/printing/AddPrinter.qml:34
 #: ../plugins/printing/AddPrinterDetails.qml:54
 #: ../plugins/printing/PageComponent.qml:38
-#, fuzzy
 msgid "Add printer"
-msgstr "Принтер"
+msgstr "Добавить принтер"
 
 #: ../plugins/printing/AddPrinter.qml:65
-#, fuzzy
 msgid "Enter URI"
-msgstr "Введите ПИН-код SIM-карты"
+msgstr "Введите URI"
 
 #: ../plugins/printing/AddPrinter.qml:78
-#, fuzzy
 msgid "Devices"
-msgstr "Службы"
+msgstr "Устройства"
 
 #: ../plugins/printing/AddPrinter.qml:133
 msgid "No devices found."
-msgstr ""
+msgstr "Устройства не найдены."
 
 #: ../plugins/printing/AddPrinterDetails.qml:37
 msgid "Describe printer"
-msgstr ""
+msgstr "Описание принтера"
 
 #: ../plugins/printing/AddPrinterDetails.qml:44
 msgid "Back"
@@ -1088,14 +1085,13 @@ msgstr "Принтер"
 #: ../plugins/printing/AddPrinterDetails.qml:202
 #: ../plugins/printing/printer-sub-pages/Status.qml:66
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:32
-#, fuzzy
 msgid "Description"
-msgstr "Шифрование"
+msgstr "Описание"
 
 #: ../plugins/printing/AddPrinterDetails.qml:204
 #: ../plugins/printing/AddPrinterDetails.qml:211
 msgid "Optional"
-msgstr ""
+msgstr "Дополнительно"
 
 #: ../plugins/printing/AddPrinterDetails.qml:209
 #: ../plugins/security-privacy/AppAccess.qml:81
@@ -1116,7 +1112,7 @@ msgstr "Выберите из"
 
 #: ../plugins/printing/AddPrinterDetails.qml:227
 msgid "Select printer from database"
-msgstr ""
+msgstr "Выбрать принтер из БД"
 
 #: ../plugins/printing/AddPrinterDetails.qml:228
 msgid "Provide PPD file"
@@ -1134,9 +1130,8 @@ msgstr "Pac файл"
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../plugins/printing/PageComponent.qml:32
 #: ../obj-x86_64-linux-gnu/po/settings.js:134
-#, fuzzy
 msgid "Printing"
-msgstr "Принтер"
+msgstr "Печать"
 
 #: ../plugins/printing/PageComponent.qml:45
 msgid "Manager Printer Jobs"
@@ -1162,25 +1157,23 @@ msgstr "Удалить"
 #: ../plugins/printing/PageComponent.qml:149
 #: ../plugins/printing/printer-sub-pages/Policies.qml:50
 msgid "Set as Default"
-msgstr ""
+msgstr "Установить по умолчанию"
 
 #: ../plugins/printing/PageComponent.qml:190
 msgid "There are no printers configured yet."
-msgstr ""
+msgstr "Нет настроенных принтеров."
 
 #: ../plugins/printing/PrinterConnection.qml:67
 msgid "Host"
 msgstr ""
 
 #: ../plugins/printing/Printer.qml:42
-#, fuzzy
 msgid "Printer status"
-msgstr "Принтер"
+msgstr "Состояние принтера"
 
 #: ../plugins/printing/Printer.qml:43
-#, fuzzy
 msgid "General settings"
-msgstr "Выбор канала обновлений"
+msgstr "Основные настройки"
 
 #: ../plugins/printing/Printer.qml:44
 msgid "Policies"
@@ -1189,7 +1182,7 @@ msgstr ""
 #: ../plugins/printing/Printer.qml:47
 #, fuzzy
 msgid "Copies and pages"
-msgstr "Дата и время"
+msgstr "Копии и страницы"
 
 #: ../plugins/cellular/PageChooseCarrier.qml:32
 #: ../plugins/cellular/PageChooseCarrier.qml:129
