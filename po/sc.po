@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-06-04 12:38+0000\n"
+"PO-Revision-Date: 2018-07-05 16:24+0000\n"
 "Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
@@ -230,7 +230,6 @@ msgid "Fetching channels"
 msgstr "Recuperende is canales"
 
 #: ../plugins/system-update/ChannelSettings.qml:107
-#, fuzzy
 msgid "Channel to get updates from:"
 msgstr "Canale pro otènnere atualizatziones:"
 
@@ -811,7 +810,7 @@ msgstr "Frunidura pac "
 
 #: ../plugins/wifi/OtherNetwork.qml:686
 msgid "Disabled"
-msgstr "Inabilitadu "
+msgstr "Inabilitadu"
 
 #: ../plugins/wifi/OtherNetwork.qml:687
 msgid "Anonymous"
