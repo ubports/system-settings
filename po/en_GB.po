@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-07-05 21:05+0000\n"
+"PO-Revision-Date: 2018-07-06 12:41+0000\n"
 "Last-Translator: konrad <kohofer@gmail.com>\n"
 "Language-Team: English (United Kingdom) "
 "<https://translate.ubports.com/projects/ubports/system-settings/en_GB/>\n"
@@ -2135,7 +2135,7 @@ msgstr "Forward to"
 
 #: ../plugins/phone/CallForwardItem.qml:171
 msgid "Enter a number"
-msgstr "Entrer un nombre"
+msgstr "Enter a number"
 
 #: ../plugins/phone/CallForwardItem.qml:218
 msgid "Call forwarding can’t be changed right now."
@@ -3022,7 +3022,7 @@ msgstr "Edit SIM Name"
 #. this word must be less than 5 characters
 #: ../plugins/cellular/Components/LabelTextField.qml:51
 msgid "Next"
-msgstr "Suiv."
+msgstr "Next"
 
 #: ../plugins/cellular/Components/Sim.qml:46
 msgid "2G only (saves battery)"
