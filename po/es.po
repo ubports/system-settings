@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-12 09:04+0000\n"
-"Last-Translator: Francisco Molinero <paco@byasl.com>\n"
+"PO-Revision-Date: 2018-07-08 08:32+0000\n"
+"Last-Translator: advocatux <advocatux@airpost.net>\n"
 "Language-Team: Spanish <https://translate.ubports.com/projects/ubports"
 "/system-settings/es/>\n"
 "Language: es\n"
@@ -245,11 +245,11 @@ msgstr "Actualizar sistema"
 #: ../plugins/system-update/ImageUpdatePrompt.qml:32
 msgid "The device needs to restart to install the system update."
 msgstr ""
-"El aparato debe reiniciarse para instalar la actualización del sistema."
+"Debe reiniciar el dispositivo para instalar la actualización del sistema."
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:33
 msgid "Connect the device to power before installing the system update."
-msgstr "Enchufe el aparato antes de instalar la actualización del sistema."
+msgstr "Enchufe el dispositivo antes de instalar la actualización del sistema."
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:38
 msgid "Restart & Install"
@@ -364,9 +364,9 @@ msgid ""
 "Bluetooth device isn’t detected, make sure it is turned on and its batteries "
 "are charged."
 msgstr ""
-"Conecte un ratón o panel táctil mediante USB o use un aparato Bluetooth. Si "
-"un aparato Bluetooth no es detectado, asegúrese de que está encendido y de "
-"que su batería está cargada."
+"Conecte un ratón o panel táctil mediante USB o use un dispositivo Bluetooth. "
+"Si un dispositivo Bluetooth no es detectado, asegúrese de que está encendido "
+"y de que su batería está cargada."
 
 #: ../plugins/mouse/None.qml:36
 msgid ""
@@ -374,7 +374,7 @@ msgid ""
 "it is close to the device and its batteries are charged."
 msgstr ""
 "Necesita usar un ratón Bluetooth o panel táctil con esta pantalla. Asegúrese "
-"de que está cercano al aparato y de que su batería está cargada."
+"de que está cerca del dispositivo y de que su batería está cargada."
 
 #: ../plugins/mouse/TapArea.qml:38
 msgid "Not fast enough"
@@ -1541,8 +1541,8 @@ msgid ""
 "restarting the device or swapping the SIM."
 msgstr ""
 "Cuando se establece un PIN en la tarjeta SIM, se debe introducir para "
-"acceder a los servicios móviles después de reiniciar el aparato o de cambiar "
-"la tarjeta SIM."
+"acceder a los servicios móviles después de reiniciar el dispositivo o de "
+"cambiar la tarjeta SIM."
 
 #: ../plugins/security-privacy/SimPin.qml:449
 msgid "Entering an incorrect PIN repeatedly may lock the SIM permanently."
@@ -1631,7 +1631,7 @@ msgstr "No enviados"
 
 #: ../plugins/security-privacy/Location.qml:96
 msgid "Let the device detect your location:"
-msgstr "Permita que el aparato detecte su ubicación:"
+msgstr "Permita que el dispositivo detecte su ubicación:"
 
 #: ../plugins/security-privacy/Location.qml:175
 msgid "Using GPS only (less accurate)"
@@ -1798,7 +1798,7 @@ msgstr "Quitar"
 
 #: ../plugins/security-privacy/LockSecurity.qml:461
 msgid "Unlock the device using:"
-msgstr "Desbloquear el aparato utilizando:"
+msgstr "Desbloquear el dispositivo utilizando:"
 
 #: ../plugins/security-privacy/LockSecurity.qml:465
 msgid "Swipe (no security)"
@@ -1888,8 +1888,8 @@ msgstr "Notificaciones y configuración rápida"
 #: ../plugins/security-privacy/PhoneLocking.qml:167
 msgid "Turn on lock security to restrict access when the device is locked."
 msgstr ""
-"Active la seguridad de bloqueo para restringir el acceso cuando el aparato "
-"está bloqueado."
+"Active la seguridad de bloqueo para restringir el acceso cuando el "
+"dispositivo está bloqueado."
 
 #: ../plugins/security-privacy/PhoneLocking.qml:168
 msgid "Other apps and functions will prompt you to unlock."
@@ -2065,7 +2065,7 @@ msgid ""
 "device by connecting it to another device."
 msgstr ""
 "En el modo de desarrollador, cualquiera puede acceder, cambiar o eliminar "
-"cualquier elemento de este aparato conectándolo a otro aparato."
+"cualquier elemento de este dispositivo conectándolo a otro."
 
 #: ../plugins/about/DevMode.qml:110
 msgid "You need a passcode or passphrase set to use Developer Mode."
@@ -2514,7 +2514,7 @@ msgstr "Confirmar PIN"
 
 #: ../plugins/language/RebootNecessary.qml:34
 msgid "The device needs to restart for changes to take effect."
-msgstr "El aparato necesita reiniciarse para aplicar los cambios."
+msgstr "El dispositivo necesita reiniciarse para aplicar los cambios."
 
 #: ../plugins/language/RebootNecessary.qml:38
 msgid "Restart Now"
@@ -2620,11 +2620,11 @@ msgstr "Confirmar"
 
 #: ../plugins/battery/SleepValues.qml:74
 msgid "Lock the device when it's not in use:"
-msgstr "Bloquear el aparato cuando no esté en uso:"
+msgstr "Bloquear el dispositivo cuando no esté en uso:"
 
 #: ../plugins/battery/SleepValues.qml:75
 msgid "Put the device to sleep when it is not in use:"
-msgstr "Poner el aparato en reposo cuando no esté en uso:"
+msgstr "Poner el dispositivo en reposo cuando no esté en uso:"
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery/SleepValues.qml:86
@@ -2639,14 +2639,14 @@ msgid ""
 "Shorter times are more secure. Device won't lock during calls or video "
 "playback."
 msgstr ""
-"Los tiempos más cortos son más seguros. El aparato no se bloqueará durante "
-"las llamadas o la reproducción de vídeo."
+"Los tiempos más cortos son más seguros. El dispositivo no se bloqueará "
+"durante las llamadas o la reproducción de vídeo."
 
 #: ../plugins/battery/SleepValues.qml:130
 msgid "Device won’t sleep during calls or video playback."
 msgstr ""
-"El aparato no entrará en reposo durante las llamadas o la reproducción de "
-"vídeos."
+"El dispositivo no entrará en reposo durante las llamadas o la reproducción "
+"de vídeos."
 
 #. TRANSLATORS: This is a keyword or name for the battery plugin which is used while searching
 #: ../plugins/battery/PageComponent.qml:35
@@ -2751,7 +2751,7 @@ msgid ""
 "deleted from this device."
 msgstr ""
 "Todos los documentos, juegos salvados, configuraciones y otros elementos "
-"serán eliminados permanentemente de este aparato."
+"serán eliminados permanentemente de este dispositivo."
 
 #: ../plugins/reset/EraseEverything.qml:44
 msgid "Erase & Reset Everything"
@@ -2759,7 +2759,7 @@ msgstr "Eliminar y reiniciar todo"
 
 #: ../plugins/reset/PageComponent.qml:32
 msgid "Reset device"
-msgstr "Reiniciar el aparato"
+msgstr "Reiniciar el dispositivo"
 
 #: ../plugins/reset/PageComponent.qml:101
 #: ../plugins/reset/PageComponent.qml:112
@@ -2830,7 +2830,7 @@ msgstr "Pantalla inalámbrica"
 #: ../plugins/brightness/WifiDisplaysAlert.qml:32
 #, qt-format
 msgid "This device failed to connect to %1."
-msgstr "Este aparato no pudo conectarse a %1."
+msgstr "Este dispositivo no pudo conectarse a %1."
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:34
 #, qt-format
@@ -3008,7 +3008,7 @@ msgstr "Ninguna tarjeta SIM detectada"
 #: ../plugins/cellular/Components/DataMultiSim.qml:81
 #: ../plugins/cellular/Components/NoSim.qml:45
 msgid "Insert a SIM, then restart the device."
-msgstr "Inserte una tarjeta SIM, después reinicie el aparato."
+msgstr "Inserte una tarjeta SIM, después reinicie el dispositivo."
 
 #: ../plugins/cellular/Components/DefaultSim.qml:33
 msgid "Ask me each time"
