@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-06-24 20:14+0000\n"
+"PO-Revision-Date: 2018-07-08 16:18+0000\n"
 "Last-Translator: Eran <etherpulse@gmail.com>\n"
 "Language-Team: Hebrew <https://translate.ubports.com/projects/ubports/system-"
 "settings/he/>\n"
@@ -178,17 +178,17 @@ msgstr "ערוצים"
 #: ../plugins/system-update/UpdateSettings.qml:73
 #: ../plugins/system-update/ChannelSettings.qml:57
 msgid "Stable"
-msgstr ""
+msgstr "Stable"
 
 #: ../plugins/system-update/UpdateSettings.qml:73
 #: ../plugins/system-update/ChannelSettings.qml:57
 msgid "Release candidate"
-msgstr ""
+msgstr "Release candidate"
 
 #: ../plugins/system-update/UpdateSettings.qml:73
 #: ../plugins/system-update/ChannelSettings.qml:57
 msgid "Development"
-msgstr "מצב פיתוח"
+msgstr "Development"
 
 #: ../plugins/system-update/ChangelogExpander.qml:42
 #, qt-format
@@ -218,9 +218,8 @@ msgid "Updates Available"
 msgstr "ישנם עדכונים זמינים"
 
 #: ../plugins/system-update/PageComponent.qml:349
-#, fuzzy
 msgid "Recent updates"
-msgstr "בדיקת עדכונים"
+msgstr "עדכונים אחרונים"
 
 #: ../plugins/system-update/ChannelSettings.qml:32
 msgid "Channel settings"
@@ -332,11 +331,11 @@ msgstr ""
 
 #: ../plugins/launcher/PageComponent.qml:74
 msgid "Videos and full-screen games may hide it temporarily."
-msgstr ""
+msgstr "וידאו או משחקים עלולים להסתיר את זה זמנית."
 
 #: ../plugins/launcher/PageComponent.qml:85
 msgid "Icon size:"
-msgstr ""
+msgstr "גודל איקונים:"
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:42
 msgid "Primary button:"
@@ -347,15 +346,14 @@ msgid "Left"
 msgstr "שמאל"
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:89
-#, fuzzy
 msgid "Right"
-msgstr "טיסה"
+msgstr "ימין"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../plugins/mouse/PageComponent.qml:29
 #: ../obj-x86_64-linux-gnu/po/settings.js:42
 msgid "Mouse & Touchpad"
-msgstr ""
+msgstr "עכבר ומשטחי מגע"
 
 #: ../plugins/mouse/None.qml:34
 msgid ""
@@ -371,9 +369,8 @@ msgid ""
 msgstr ""
 
 #: ../plugins/mouse/TapArea.qml:38
-#, fuzzy
 msgid "Not fast enough"
-msgstr "לא נשלחו"
+msgstr "לא מספיק מהר"
 
 #: ../plugins/mouse/TapArea.qml:77
 msgid "Double-clicked"
@@ -401,7 +398,7 @@ msgstr "בדיקת לחיצה כפולה:"
 
 #: ../plugins/mouse/Connected.qml:214
 msgid "Touchpad"
-msgstr ""
+msgstr "משטח מגע"
 
 #: ../plugins/mouse/Connected.qml:264
 msgid "Finger scrolling speed:"
