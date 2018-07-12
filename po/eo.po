@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-14 13:30+0000\n"
-"Last-Translator: nuramo <larugxakoro@protonmail.com>\n"
+"PO-Revision-Date: 2018-07-12 09:41+0000\n"
+"Last-Translator: Pablo F. <pablo.foche@gmail.com>\n"
 "Language-Team: Esperanto <https://translate.ubports.com/projects/ubports"
 "/system-settings/eo/>\n"
 "Language: eo\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.15\n"
+"X-Generator: Weblate 2.17\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:40+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -539,7 +539,7 @@ msgstr "Ĉefmenua fono"
 
 #: ../plugins/background/MainPage.qml:131
 msgid "Opacity:"
-msgstr ""
+msgstr "Opakeco:"
 
 #: ../plugins/background/Preview.qml:69
 msgid "Preview"
@@ -773,7 +773,6 @@ msgid "%1, Exp.: %2"
 msgstr "%1, Senvalidiĝas: %2"
 
 #: ../plugins/wifi/OtherNetwork.qml:494
-#, fuzzy
 msgid "Using certificates is recommended as it increases security."
 msgstr "Uzi atestilojn estas rekomendite ĉar tio vastigas la sekurecon."
 
@@ -1036,58 +1035,51 @@ msgstr "IP-adreso"
 #: ../plugins/printing/AddPrinter.qml:34
 #: ../plugins/printing/AddPrinterDetails.qml:54
 #: ../plugins/printing/PageComponent.qml:38
-#, fuzzy
 msgid "Add printer"
 msgstr "Printilo"
 
 #: ../plugins/printing/AddPrinter.qml:65
-#, fuzzy
 msgid "Enter URI"
-msgstr "Enigu SIM-kodon"
+msgstr "Enigu URI"
 
 #: ../plugins/printing/AddPrinter.qml:78
-#, fuzzy
 msgid "Devices"
-msgstr "Servoj"
+msgstr "Aparatoj"
 
 #: ../plugins/printing/AddPrinter.qml:133
 msgid "No devices found."
-msgstr ""
+msgstr "Neniu aparato trovita."
 
 #: ../plugins/printing/AddPrinterDetails.qml:37
 msgid "Describe printer"
-msgstr ""
+msgstr "Priskribu printilon"
 
 #: ../plugins/printing/AddPrinterDetails.qml:44
 msgid "Back"
-msgstr ""
+msgstr "Reen"
 
 #: ../plugins/printing/AddPrinterDetails.qml:137
-#, fuzzy
 msgid "Connection"
-msgstr "Konektante"
+msgstr "Konekto"
 
 #: ../plugins/printing/AddPrinterDetails.qml:139
-#, fuzzy
 msgid "Choose a connection"
-msgstr "Elekti nomon"
+msgstr "Elekti konekton"
 
 #: ../plugins/printing/AddPrinterDetails.qml:165
-#, fuzzy
 msgid "Printer name"
-msgstr "Printilo"
+msgstr "Printila nomo"
 
 #: ../plugins/printing/AddPrinterDetails.qml:202
 #: ../plugins/printing/printer-sub-pages/Status.qml:66
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:32
-#, fuzzy
 msgid "Description"
-msgstr "Ĉifrado"
+msgstr "Priskribo"
 
 #: ../plugins/printing/AddPrinterDetails.qml:204
 #: ../plugins/printing/AddPrinterDetails.qml:211
 msgid "Optional"
-msgstr ""
+msgstr "Nedeviga"
 
 #: ../plugins/printing/AddPrinterDetails.qml:209
 #: ../plugins/security-privacy/AppAccess.qml:81
@@ -1099,52 +1091,49 @@ msgstr "Loko"
 
 #: ../plugins/printing/AddPrinterDetails.qml:219
 msgid "Driver"
-msgstr ""
+msgstr "Pelilo"
 
 #: ../plugins/printing/AddPrinterDetails.qml:225
-#, fuzzy
 msgid "Choose driver"
-msgstr "Elekti inter"
+msgstr "Elekti pelilon"
 
 #: ../plugins/printing/AddPrinterDetails.qml:227
 msgid "Select printer from database"
-msgstr ""
+msgstr "Elekti printilon de la datumbazo"
 
 #: ../plugins/printing/AddPrinterDetails.qml:228
 msgid "Provide PPD file"
-msgstr ""
+msgstr "Havigi PPD-dosieron"
 
 #: ../plugins/printing/AddPrinterDetails.qml:235
 msgid "Filter drivers"
-msgstr ""
+msgstr "Filtri pelilojn"
 
 #: ../plugins/printing/AddPrinterDetails.qml:304
-#, fuzzy
 msgid "PPD file"
-msgstr "Proksia aŭtomata agordo-dosiero"
+msgstr "PPD-dosiero"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../plugins/printing/PageComponent.qml:32
 #: ../obj-x86_64-linux-gnu/po/settings.js:134
-#, fuzzy
 msgid "Printing"
-msgstr "Printilo"
+msgstr "Printante"
 
 #: ../plugins/printing/PageComponent.qml:45
 msgid "Manager Printer Jobs"
-msgstr ""
+msgstr "Mastrumi print-laborojn"
 
 #: ../plugins/printing/PageComponent.qml:106
 msgid "Default printer"
-msgstr ""
+msgstr "Defaŭlta printilo"
 
 #: ../plugins/printing/PageComponent.qml:107
 msgid "Configured printers"
-msgstr ""
+msgstr "Agordigitaj printiloj"
 
 #: ../plugins/printing/PageComponent.qml:115
 msgid "Discovered printers"
-msgstr ""
+msgstr "Trovitaj printiloj"
 
 #: ../plugins/printing/PageComponent.qml:136
 #: ../plugins/cellular/PageChooseApn.qml:305
@@ -1154,34 +1143,31 @@ msgstr "Forigi"
 #: ../plugins/printing/PageComponent.qml:149
 #: ../plugins/printing/printer-sub-pages/Policies.qml:50
 msgid "Set as Default"
-msgstr ""
+msgstr "Igi defaŭlta"
 
 #: ../plugins/printing/PageComponent.qml:190
 msgid "There are no printers configured yet."
-msgstr ""
+msgstr "Ne estas ankoraŭ agordigitaj printiloj."
 
 #: ../plugins/printing/PrinterConnection.qml:67
 msgid "Host"
-msgstr ""
+msgstr "Gastiganto"
 
 #: ../plugins/printing/Printer.qml:42
-#, fuzzy
 msgid "Printer status"
-msgstr "Printilo"
+msgstr "Printila stato"
 
 #: ../plugins/printing/Printer.qml:43
-#, fuzzy
 msgid "General settings"
-msgstr "Kanalo-agordoj"
+msgstr "Ĝeneralaj agordoj"
 
 #: ../plugins/printing/Printer.qml:44
 msgid "Policies"
-msgstr ""
+msgstr "Regularo"
 
 #: ../plugins/printing/Printer.qml:47
-#, fuzzy
 msgid "Copies and pages"
-msgstr "Horo kaj dato"
+msgstr "Kopioj kaj paĝoj"
 
 #: ../plugins/cellular/PageChooseCarrier.qml:32
 #: ../plugins/cellular/PageChooseCarrier.qml:129
@@ -2541,9 +2527,8 @@ msgid "Display language…"
 msgstr "Sistema lingvo…"
 
 #: ../plugins/language/PageComponent.qml:149
-#, fuzzy
 msgid "Enable on-screen keyboard"
-msgstr "Surekrana klavaro"
+msgstr "Ŝalti surekranan klavaron"
 
 #: ../plugins/language/PageComponent.qml:161
 msgid "On-screen keyboard"
@@ -2594,9 +2579,8 @@ msgid "Keyboard vibration"
 msgstr "Klavar-vibrado"
 
 #: ../plugins/language/PageComponent.qml:290
-#, fuzzy
 msgid "Keyboard opacity"
-msgstr "Klavararanĝo"
+msgstr "Klavara opakeco"
 
 #: ../plugins/language/KeyboardLayouts.qml:49
 msgid "Current layouts:"
@@ -2885,37 +2869,36 @@ msgid "Remove images…"
 msgstr "Forigi bildojn…"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:27
-#, fuzzy
 msgid "Enabled"
-msgstr "ŝalti"
+msgstr "Ŝaltita"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:46
 msgid "Default"
-msgstr ""
+msgstr "Defaŭlta"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:47
 msgid "This is the default printer."
-msgstr ""
+msgstr "Ĉi tiu estas la defaŭlta printilo."
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:60
 msgid "Accepting jobs"
-msgstr ""
+msgstr "Ricevante laborojn"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:69
 msgid "Shared"
-msgstr ""
+msgstr "Kundividita"
 
 #: ../plugins/printing/printer-sub-pages/CopiesAndPages.qml:26
 msgid "Copies"
-msgstr ""
+msgstr "Kopioj"
 
 #: ../plugins/printing/printer-sub-pages/CopiesAndPages.qml:46
 msgid "Paper size"
-msgstr ""
+msgstr "Papera grando"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:30
 msgid "Idle"
-msgstr ""
+msgstr "Senokupa"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:32
 msgid "Aborted"
@@ -2926,16 +2909,15 @@ msgid "Active"
 msgstr "Aktiva"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:36
-#, fuzzy
 msgid "Stopped"
-msgstr "Haltigi"
+msgstr "Haltita"
 
 #. TRANSLATORS: %1 is the overall state of the printer, %2 is a more
 #. detailed message from the printer itself.
 #: ../plugins/printing/printer-sub-pages/Status.qml:40
 #, qt-format
 msgid "%1 — %2"
-msgstr ""
+msgstr "%1 — %2"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:43
 msgid "No messages"
@@ -2943,42 +2925,39 @@ msgstr "Ne mesaĝoj"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:48
 msgid "Jobs"
-msgstr ""
+msgstr "Laboroj"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:53
 msgid "Manage Print Jobs"
-msgstr ""
+msgstr "Mastrumi print-laborojn"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:78
-#, fuzzy
 msgid "Address"
-msgstr "adreso"
+msgstr "Adreso"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:84
-#, fuzzy
 msgid "Model"
-msgstr "Modemo"
+msgstr "Modelo"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:85
 msgid "Local Raw Printer"
-msgstr ""
+msgstr "Kruda loka printilo"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:88
 msgid "Print test page"
-msgstr ""
+msgstr "Printa testo-paĝo"
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:43
 msgid "Duplex"
-msgstr ""
+msgstr "Ambaŭflanka"
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:59
-#, fuzzy
 msgid "Color model"
-msgstr "Programista reĝimo"
+msgstr "Kolora modelo"
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:75
 msgid "Quality"
-msgstr ""
+msgstr "Kvalito"
 
 #: ../plugins/cellular/Components/RadioSingleSim.qml:31
 #: ../plugins/cellular/Components/MultiSim.qml:83
@@ -3408,67 +3387,63 @@ msgstr "adreso"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:136
-#, fuzzy
 msgid "printer"
-msgstr "Printilo"
+msgstr "printilo"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:138
-#, fuzzy
 msgid "printers"
-msgstr "Printilo"
+msgstr "printiloj"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:140
-#, fuzzy
 msgid "printing"
-msgstr "enkursigo"
+msgstr "printante"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:142
 msgid "pdf"
-msgstr ""
+msgstr "pdf"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:144
 msgid "ppd"
-msgstr ""
+msgstr "ppd"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:146
 msgid "collate"
-msgstr ""
+msgstr "kontrole kompari"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:148
 msgid "copies"
-msgstr ""
+msgstr "kopioj"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:150
 msgid "colormodel"
-msgstr ""
+msgstr "koloramodelo"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:152
 msgid "greyscale"
-msgstr ""
+msgstr "grizoskalo"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:154
 msgid "color"
-msgstr ""
+msgstr "kolora"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:156
 msgid "laser"
-msgstr ""
+msgstr "lasera"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:158
-#, fuzzy
 msgid "ink"
-msgstr "kodo"
+msgstr "inko"
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:162
