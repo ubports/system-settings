@@ -46,7 +46,8 @@ public Q_SLOTS:
      * [1] https://wiki.ubuntu.com/AppStore/Interfaces/ApplicationId
      */
     virtual void requestMetadata(const QUrl &url,
-                                 const QList<QString> &packages) = 0;
+                                 const QList<QString> &packages,
+                                 bool ignoreVersion = false) = 0;
 
 Q_SIGNALS:
     void metadataRequestSucceeded(const QJsonArray &metadata);

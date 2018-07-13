@@ -355,7 +355,7 @@ void ManagerImpl::requestMetadata()
 
         appsWithVersion.append(appWithVersion);
     }
-    m_client->requestMetadata(url, appsWithVersion);
+    m_client->requestMetadata(url, appsWithVersion, m_ignore_version);
 }
 
 void ManagerImpl::parseMetadata(const QJsonArray &array)

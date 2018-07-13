@@ -36,7 +36,8 @@ public:
 public slots:
     virtual void cancel() override;
     virtual void requestMetadata(const QUrl &url,
-                                 const QList<QString> &packages) override;
+                                 const QList<QString> &packages,
+                                 bool ignoreVersion = false) override;
 protected slots:
     void requestSucceeded(QNetworkReply *reply);
     void requestFinished(QNetworkReply *reply);
@@ -50,6 +51,7 @@ private:
     void requestUpdatesMetadata(const QStringList &packages);
 
     Network::Manager *m_nam;
+    bool m_ignore_version = false;
 };
 } // Click
 } // UpdatePlugin
