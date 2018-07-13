@@ -11,6 +11,7 @@ set(QML_SOURCES
     UpdateDelegate.qml
     UpdateSettings.qml
     ChannelSettings.qml
+    ReinstallAllApps.qml
 )
 
 include_directories(
