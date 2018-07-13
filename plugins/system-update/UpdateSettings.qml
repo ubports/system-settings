@@ -77,7 +77,7 @@ ItemPage {
                 onClicked: pageStack.addPageToNextColumn(updatePage, Qt.resolvedUrl("ChannelSettings.qml"))
             }
             SettingsListItems.SingleValueProgression {
-                objectName: "channel"
+                objectName: "appReinstall"
                 text: i18n.tr("Reinstall all apps")
                 onClicked: pageStack.addPageToNextColumn(updatePage, Qt.resolvedUrl("ReinstallAllApps.qml"))
             }
