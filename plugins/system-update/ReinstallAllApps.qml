@@ -29,7 +29,7 @@ import Ubuntu.Connectivity 1.0
 
 ItemPage {
     id: root
-    objectName: "systemUpdatesPage"
+    objectName: "reinstallAllAppsPage"
 
     header: PageHeader {
         title: i18n.tr("Reinstall all apps")
