@@ -34,7 +34,8 @@ public:
     }
 
     virtual void requestMetadata(const QUrl &url,
-                                 const QList<QString> &packages) override
+                                 const QList<QString> &packages,
+                                 bool /*ignoreVersion*/) override
     {
         requestedUrl = url;
         requestedPackages = packages;
