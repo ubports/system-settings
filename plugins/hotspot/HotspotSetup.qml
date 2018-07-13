@@ -85,10 +85,6 @@ Component {
                     enabled: false
                 }
                 PropertyChanges {
-                    target: passwordRequiredLabel
-                    opacity: 0.5
-                }
-                PropertyChanges {
                     target: passwordField
                     enabled: false
                 }
@@ -134,10 +130,6 @@ Component {
                 PropertyChanges {
                     target: passwordRequired
                     enabled: false
-                }
-                PropertyChanges {
-                    target: passwordRequiredLabel
-                    opacity: 0.5
                 }
                 PropertyChanges {
                     target: ssidField
