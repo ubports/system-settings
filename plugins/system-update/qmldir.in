@@ -1,24 +1,2 @@
 module Ubuntu.SystemSettings.Update
 plugin UbuntuUpdatePanel
-
-## C++ types
-internal BackendPlugin BackendPlugin
-internal UpdateManager UpdateManager
-
-## QML types
-GlobalUpdateControls 1.1 GlobalUpdateControls.qml
-
-# Public so it may be used in the Unity Wizard
-ReinstallAllApps 1.1 ReinstallAllApps.qml
-
-internal PageComponent PageComponent.qml
-internal ClickUpdateDelegate ClickUpdateDelegate.qml
-internal Configuration Configuration.qml
-internal ChangelogExpander ChangelogExpander.qml
-internal DownloadHandler DownloadHandler.qml
-internal ImageUpdatePrompt ImageUpdatePrompt.qml
-internal NotAuthenticatedNotification NotAuthenticatedNotification.qml
-internal UpdateDelegate UpdateDelegate.qml
-internal UpdateSettings UpdateSettings.qml
-internal ChannelSettings ChannelSettings.qml
-internal ReinstallAllAppsPage ReinstallAllAppsPage.qml

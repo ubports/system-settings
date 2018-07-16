@@ -24,10 +24,19 @@ import Ubuntu.Components 1.3
 import Ubuntu.Components.ListItems 1.3 as ListItem
 import Ubuntu.Components.Popups 1.3
 import Ubuntu.OnlineAccounts.Client 0.1
-import Ubuntu.SystemSettings.Update 1.1
+import Ubuntu.SystemSettings.Update 1.0
 import Ubuntu.Connectivity 1.0
 
-Item {
+ItemPage {
+    id: root
+    objectName: "reinstallAllAppsPage"
+
+    header: PageHeader {
+        title: i18n.tr("Reinstall all apps")
+        flickable: scrollWidget
+    }
+
+
     property bool batchMode: false
     property bool online: NetworkingStatus.online
     property bool authenticated: UpdateManager.authenticated
