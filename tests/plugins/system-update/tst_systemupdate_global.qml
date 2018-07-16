@@ -32,7 +32,7 @@ Item {
     Component {
         id: glob
 
-        Global {
+        GlobalUpdateControls {
             anchors {
                 left: parent.left;
                 right: parent.right

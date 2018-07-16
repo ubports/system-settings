@@ -23,7 +23,7 @@ import Ubuntu.Components.ListItems 1.3 as ListItems
 import Ubuntu.SystemSettings.Update 1.0
 
 Item {
-    id: g
+    id: globalUpdateControls
 
     property bool batchMode
     property int status // A UpdateManager::Status
@@ -64,7 +64,7 @@ Item {
 
         opacity: visible ? 1 : 0
         visible: {
-            switch (g.status) {
+            switch (globalUpdateControls.status) {
             case UpdateManager.StatusCheckingClickUpdates:
             case UpdateManager.StatusCheckingImageUpdates:
             case UpdateManager.StatusCheckingAllUpdates:
@@ -87,7 +87,7 @@ Item {
         Button {
             objectName: "updatesGlobalStopButton"
             text: i18n.tr("Stop")
-            onClicked: g.stop()
+            onClicked: globalUpdateControls.stop()
             Layout.alignment: Qt.AlignRight | Qt.AlignVCenter
         }
     }
@@ -106,7 +106,7 @@ Item {
 
         opacity: visible ? 1 : 0
         visible: {
-            var canInstall = g.status === UpdateManager.StatusIdle;
+            var canInstall = globalUpdateControls.status === UpdateManager.StatusIdle;
             return canInstall && updatesCount > 1;
         }
 
@@ -122,20 +122,20 @@ Item {
         Button {
             objectName: "updatesGlobalInstallButton"
             text: {
-                if (g.requireRestart === true) {
+                if (globalUpdateControls.requireRestart === true) {
                     return i18n.tr("Update all…");
                 } else {
                     return i18n.tr("Update all");
                 }
             }
-            onClicked: g.requestInstall()
+            onClicked: globalUpdateControls.requestInstall()
             color: theme.palette.normal.positive
             strokeColor: "transparent"
         }
     }
 
     ListItems.ThinDivider {
-        visible: !g.hidden
+        visible: !globalUpdateControls.hidden
         anchors {
             left: parent.left
             right: parent.right

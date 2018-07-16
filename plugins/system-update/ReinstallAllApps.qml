@@ -93,7 +93,7 @@ ItemPage {
             id: content
             anchors { left: parent.left; right: parent.right }
 
-            Global {
+            GlobalUpdateControls {
                 id: glob
                 objectName: "global"
                 anchors { left: parent.left; right: parent.right }

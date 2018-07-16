@@ -4,7 +4,7 @@ set(QML_SOURCES
     Configuration.qml
     ChangelogExpander.qml
     DownloadHandler.qml
-    Global.qml
+    GlobalUpdateControls.qml
     ImageUpdatePrompt.qml
     NotAuthenticatedNotification.qml
     PageComponent.qml
