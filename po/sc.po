@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-07-17 12:23+0000\n"
-"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
+"PO-Revision-Date: 2018-07-17 12:26+0000\n"
+"Last-Translator: Stefania Reccia <stefa.reccia@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -2426,6 +2426,7 @@ msgid "Other Audio"
 msgstr "Àteru àudio"
 
 #: ../plugins/bluetooth/DevicePage.qml:56
+#, fuzzy
 msgid "Joypad"
 msgstr "Cumandu de giogu"
 
@@ -2475,8 +2476,9 @@ msgid "Status"
 msgstr "Istadu"
 
 #: ../plugins/bluetooth/DevicePage.qml:128
+#, fuzzy
 msgid "Signal Strength"
-msgstr ""
+msgstr "Potenza de signale"
 
 #: ../plugins/bluetooth/DevicePage.qml:133
 #: ../plugins/bluetooth/PageComponent.qml:358
