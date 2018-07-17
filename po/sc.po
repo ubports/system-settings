@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-07-17 12:18+0000\n"
-"Last-Translator: Stefania Reccia <stefa.reccia@gmail.com>\n"
+"PO-Revision-Date: 2018-07-17 12:23+0000\n"
+"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -2360,11 +2360,11 @@ msgstr "PIN pro '%1'"
 #: ../plugins/bluetooth/ProvidePinCodeDialog.qml:63
 #: ../plugins/bluetooth/ProvidePasskeyDialog.qml:62
 msgid "Pair"
-msgstr ""
+msgstr "Assòtzia"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:26
 msgid "Bluetooth Pairing Authorization Request"
-msgstr ""
+msgstr "Autorizatzione de assòtziu de Bluetooth rechèrida"
 
 #. TRANSLATORS: %1 is the name of the bluetooth device which requires authorization
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:34
@@ -2372,6 +2372,8 @@ msgstr ""
 msgid ""
 "The device %1 wants to pair with this device. Do you want to allow this?"
 msgstr ""
+"Su dispositivu %1 si bolet assotziare a custu dispositivu. Si lu boles "
+"permìtere?"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:39
 msgid "Allow"
@@ -2384,7 +2386,7 @@ msgstr "Refuda"
 #: ../plugins/bluetooth/DevicePage.qml:38
 #: ../plugins/bluetooth/PageComponent.qml:290
 msgid "Connecting…"
-msgstr ""
+msgstr "Colleghende·si..."
 
 #: ../plugins/bluetooth/DevicePage.qml:39
 msgid "Disconnecting…"
