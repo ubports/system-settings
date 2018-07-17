@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-11 16:39+0000\n"
+"PO-Revision-Date: 2018-07-21 14:58+0000\n"
 "Last-Translator: Daniel Frańczak <danielfranczak5@wp.pl>\n"
 "Language-Team: Polish <https://translate.ubports.com/projects/ubports/system-"
 "settings/pl/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2.15\n"
+"X-Generator: Weblate 2.17\n"
 "X-Launchpad-Export-Date: 2015-07-21 05:34+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -737,7 +737,7 @@ msgstr "Autoryzacja"
 
 #: ../plugins/wifi/OtherNetwork.qml:363
 msgid "Inner authentication"
-msgstr "Wewnętrzna autentykacja"
+msgstr "Dodatkowe uwierzytelnianie"
 
 #: ../plugins/wifi/OtherNetwork.qml:396
 msgid "CA certificate"
