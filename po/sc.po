@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-07-15 00:00+0000\n"
+"PO-Revision-Date: 2018-07-17 12:18+0000\n"
 "Last-Translator: Stefania Reccia <stefa.reccia@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
@@ -597,7 +597,7 @@ msgstr "Vibra a modalidade a sa muda"
 #: ../plugins/sound/PageComponent.qml:194
 #: ../plugins/phone/PageComponent.qml:102
 msgid "Dialpad tones"
-msgstr "Tonos de sa tastiera"
+msgstr "Tonos de su tecladu numèricu"
 
 #: ../plugins/sound/PageComponent.qml:203
 msgid "Messages:"
@@ -619,7 +619,7 @@ msgstr "Àteros sonos:"
 #: ../plugins/sound/PageComponent.qml:251
 #: ../plugins/language/PageComponent.qml:268
 msgid "Keyboard sound"
-msgstr "Sonos de sa tastiera"
+msgstr "Sonos de su tecladu"
 
 #: ../plugins/sound/PageComponent.qml:268
 msgid "Lock sound"
@@ -715,7 +715,7 @@ msgstr "WPA e WPA2 personale"
 
 #: ../plugins/wifi/OtherNetwork.qml:320
 msgid "WPA & WPA2 Enterprise"
-msgstr ""
+msgstr "WPA/WPA2 corporativa"
 
 #: ../plugins/wifi/OtherNetwork.qml:321
 msgid "WEP"
@@ -790,7 +790,7 @@ msgstr "Tzertificadu de su cliente"
 
 #: ../plugins/wifi/OtherNetwork.qml:554
 msgid "User private key"
-msgstr "Crae privada de s'utente"
+msgstr "Crae privada de s'usuàriu"
 
 #. TRANSLATORS: The first position is the type of
 #. private key, second the key algorithm, and third the
@@ -907,6 +907,8 @@ msgstr "Non s'est pòdidu preparare su dispositivu pro sa cunfiguratzione"
 msgid ""
 "IP configuration could not be reserved (no available address, timeout, etc.)"
 msgstr ""
+"Sa cunfiguratzione IP no at pòdidu èssere riservada (fortzes non bi fiat "
+"perunu indiritzu disponìbile, o est acabadu su tempus de isettare)"
 
 #: ../plugins/wifi/Common.qml:48 ../plugins/hotspot/Common.qml:46
 msgid "The IP configuration is no longer valid"
@@ -2222,7 +2224,7 @@ msgstr "Dèvia totus is mutidas a un'àteru nùmeru."
 
 #: ../plugins/phone/CallForwarding.qml:158
 msgid "Call forwarding status can’t be checked "
-msgstr "Non si podet controllare s'istadu de deviatzione de mutidas"
+msgstr "Non si podet controllare s'istadu de deviatzione de mutidas "
 
 #: ../plugins/phone/CallForwarding.qml:166
 msgid "Forward incoming calls when:"
@@ -2426,7 +2428,7 @@ msgstr ""
 
 #: ../plugins/bluetooth/DevicePage.qml:57
 msgid "Keyboard"
-msgstr "Tastiera"
+msgstr "Tecladu"
 
 #: ../plugins/bluetooth/DevicePage.qml:58
 msgid "Tablet"
@@ -2487,7 +2489,7 @@ msgstr "Iscaressi·ti de custu dispositivu"
 #: ../plugins/bluetooth/DisplayPinCodeDialog.qml:34
 #, qt-format
 msgid "Please enter the following PIN on %1 and press “Enter” on the keyboard:"
-msgstr "Inserta a %1 su PIN chi sighit e carca “Enter” in sa tastiera:"
+msgstr "Inserta a %1 su PIN chi sighit e carca “Enter” in su tecladu:"
 
 #. TRANSLATORS: This is a keyword or name for the bluetooth plugin which is used while searching
 #: ../plugins/bluetooth/PageComponent.qml:33
@@ -2548,7 +2550,7 @@ msgstr "Torra a aviare immoe"
 
 #: ../plugins/language/PageHardwareKeyboard.qml:33
 msgid "Hardware keyboard"
-msgstr "Tastiera fìsica"
+msgstr "Tecladu fìsicu"
 
 #: ../plugins/language/PageHardwareKeyboard.qml:63
 #, fuzzy
@@ -2568,21 +2570,21 @@ msgstr "Ammustra sa limba…"
 #: ../plugins/language/PageComponent.qml:149
 #, fuzzy
 msgid "Enable on-screen keyboard"
-msgstr "Tastiera"
+msgstr "Tecladu"
 
 #: ../plugins/language/PageComponent.qml:161
 msgid "On-screen keyboard"
-msgstr "Tastiera in s'ischermu"
+msgstr "Tecladu in s'ischermu"
 
 #: ../plugins/language/PageComponent.qml:162
 #: ../plugins/language/KeyboardLayouts.qml:29
-#, fuzzy
 msgid "Keyboard layouts"
-msgstr "Dispositziones de tastiera"
+msgstr "Dispositziones de tecladu"
 
 #: ../plugins/language/PageComponent.qml:173
+#, fuzzy
 msgid "External keyboard"
-msgstr "Tastiera esterna"
+msgstr "Tecladu esterno"
 
 #: ../plugins/language/PageComponent.qml:185
 #: ../plugins/language/PageComponent.qml:195
@@ -2607,7 +2609,7 @@ msgstr "Majùsculas initziales in automàticu"
 #: ../plugins/language/PageComponent.qml:242
 msgid "Turns on Shift to capitalize the first letter of each sentence."
 msgstr ""
-"Ativa su tastu de majùscula pro impreare majùsculas in sa prima lìtera de "
+"Ativa sa tecla de majùscula pro impreare majùsculas in sa prima lìtera de "
 "cada frase."
 
 #: ../plugins/language/PageComponent.qml:249
@@ -2616,23 +2618,23 @@ msgstr "Puntegiadura automàtica"
 
 #: ../plugins/language/PageComponent.qml:261
 msgid "Inserts a period when you tap Space twice."
-msgstr "Insertat unu puntu cando si tocat duas bortas su tastu Ispàtziu."
+msgstr "Insertat unu puntu cando si tocat duas bortas sa tecla Ispàtziu."
 
 #: ../plugins/language/PageComponent.qml:279
 msgid "Keyboard vibration"
-msgstr "Vibratzione de sa tastiera"
+msgstr "Vibratzione de su tecladu"
 
 #: ../plugins/language/PageComponent.qml:290
 msgid "Keyboard opacity"
-msgstr "Dispositziones de tastiera"
+msgstr "Dispositziones de tecladu"
 
 #: ../plugins/language/KeyboardLayouts.qml:49
 msgid "Current layouts:"
-msgstr "Dispositziones de tastiera atuales:"
+msgstr "Dispositziones de tecladu atuales:"
 
 #: ../plugins/language/KeyboardLayouts.qml:49
 msgid "All layouts available:"
-msgstr "Totu is dispositziones de tastiera a disponimentu:"
+msgstr "Totu is dispositziones de tecladu a disponimentu:"
 
 #: ../plugins/language/SpellChecking.qml:64
 msgid "Current spelling languages:"
@@ -3372,7 +3374,7 @@ msgstr "messàgiu"
 #: ../obj-x86_64-linux-gnu/po/settings.js:110
 #: ../obj-x86_64-linux-gnu/po/settings.js:326
 msgid "keyboard"
-msgstr "tastiera"
+msgstr "tecladu"
 
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:112
