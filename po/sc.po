@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
 "PO-Revision-Date: 2018-07-18 10:41+0000\n"
-"Last-Translator: Stefania Reccia <stefa.reccia@gmail.com>\n"
+"Last-Translator: Flavia <flavia.efloris@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -1938,7 +1938,7 @@ msgstr "Inserta sa positzione atuale tua."
 
 #: ../plugins/time-date/ChooseTimeZone.qml:131
 msgid "No matching place"
-msgstr ""
+msgstr "Non b'est perunu logu chi cuncordet"
 
 #. TRANSLATORS: This is a keyword or name for the time-date plugin which is used while searching
 #: ../plugins/time-date/PageComponent.qml:31
