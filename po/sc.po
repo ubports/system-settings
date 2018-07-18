@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
 "PO-Revision-Date: 2018-07-18 10:46+0000\n"
-"Last-Translator: Stefania Reccia <stefa.reccia@gmail.com>\n"
+"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -3041,7 +3041,7 @@ msgstr "Datos mòbiles:"
 #: ../plugins/cellular/Components/SingleSim.qml:92
 #: ../plugins/cellular/Components/DataMultiSim.qml:147
 msgid "Data roaming"
-msgstr ""
+msgstr "Roaming de datos"
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:36
 msgid "Cellular data"
@@ -3100,7 +3100,7 @@ msgstr "2G/3G/4G (prus lestru)"
 
 #: ../plugins/security-privacy/diagnostics/PageComponent.qml:59
 msgid "Privacy policy"
-msgstr ""
+msgstr "Polìtica de riservadesa"
 
 #: ../plugins/security-privacy/diagnostics/PageComponent.qml:66
 msgid "Report to Canonical:"
