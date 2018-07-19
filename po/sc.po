@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-07-18 10:47+0000\n"
-"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
+"PO-Revision-Date: 2018-07-21 14:58+0000\n"
+"Last-Translator: Stefania Reccia <stefa.reccia@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -492,7 +492,6 @@ msgid "No notifications"
 msgstr "Sena notìficas"
 
 #: ../plugins/notifications/PageComponent.qml:183
-#, fuzzy
 msgid "Bubbles"
 msgstr "Bussicas"
 
@@ -1063,7 +1062,6 @@ msgid "No devices found."
 msgstr "Perunu dispositivu agatadu."
 
 #: ../plugins/printing/AddPrinterDetails.qml:37
-#, fuzzy
 msgid "Describe printer"
 msgstr "Descrie imprentadora"
 
@@ -1072,9 +1070,8 @@ msgid "Back"
 msgstr "In segus"
 
 #: ../plugins/printing/AddPrinterDetails.qml:137
-#, fuzzy
 msgid "Connection"
-msgstr "Positzione"
+msgstr "Colleghende-si"
 
 #: ../plugins/printing/AddPrinterDetails.qml:139
 #, fuzzy
@@ -1363,7 +1360,6 @@ msgid "Proxy"
 msgstr "Server intermediàriu"
 
 #: ../plugins/cellular/PageApnEditor.qml:262
-#, fuzzy
 msgid "Enter message proxy"
 msgstr "Inserta su proxy de messàgios"
 
@@ -1474,7 +1470,7 @@ msgstr "Muda su PIN de s'ischeda SIM"
 
 #: ../plugins/security-privacy/SimPin.qml:53
 #: ../plugins/security-privacy/SimPin.qml:219
-#, fuzzy, qt-format
+#, qt-format
 msgid "Incorrect PIN. %1 attempt remaining."
 msgid_plural "Incorrect PIN. %1 attempts remaining."
 msgstr[0] "Su còdighe PIN est isballiau. Abarrat %1 tentativu."
@@ -1619,7 +1615,6 @@ msgid "Privacy"
 msgstr "Riservadesa"
 
 #: ../plugins/security-privacy/PageComponent.qml:211
-#, fuzzy
 msgid "Stats on welcome screen"
 msgstr "Istatìsticas in s'ischermu de benebènnidu"
 
@@ -1643,7 +1638,7 @@ msgstr "Imbiadu"
 #: ../plugins/security-privacy/PageComponent.qml:276
 #, fuzzy
 msgid "Not sent"
-msgstr "Non nd'imbies"
+msgstr "No imbiadu"
 
 #: ../plugins/security-privacy/Location.qml:96
 msgid "Let the device detect your location:"
@@ -1768,17 +1763,14 @@ msgid "Change passphrase…"
 msgstr "Muda sa crae…"
 
 #: ../plugins/security-privacy/LockSecurity.qml:145
-#, fuzzy
 msgid "Switch to swipe"
 msgstr "Cola a iscurrimentu cun su didu"
 
 #: ../plugins/security-privacy/LockSecurity.qml:147
-#, fuzzy
 msgid "Switch to passcode"
 msgstr "Cola a còdighe de atzessu"
 
 #: ../plugins/security-privacy/LockSecurity.qml:149
-#, fuzzy
 msgid "Switch to passphrase"
 msgstr "Cola a crae"
 
@@ -1859,7 +1851,6 @@ msgid "None"
 msgstr "Perunu"
 
 #: ../plugins/security-privacy/PhoneLocking.qml:61
-#, fuzzy
 msgid "Passcode"
 msgstr "Còdighe de atzessu"
 
@@ -1937,7 +1928,6 @@ msgid "Enter your current location."
 msgstr "Inserta sa positzione atuale tua."
 
 #: ../plugins/time-date/ChooseTimeZone.qml:131
-#, fuzzy
 msgid "No matching place"
 msgstr "Non b'est perunu logu chi cuncordet"
 
@@ -2020,7 +2010,6 @@ msgid "Customization Image part"
 msgstr "Parte de sa personalizatzione de s'imàgine"
 
 #: ../plugins/about/License.qml:30
-#, fuzzy
 msgid "Sorry, this license could not be displayed."
 msgstr "Custa lissèntzia non podet èssere ammustrada."
 
@@ -2041,7 +2030,6 @@ msgid "Videos"
 msgstr "Vìdeos"
 
 #: ../plugins/about/Storage.qml:108
-#, fuzzy
 msgid "Audio"
 msgstr "Àudio"
 
@@ -2146,7 +2134,6 @@ msgid "Legal:"
 msgstr "Informatzione legale:"
 
 #: ../plugins/about/PageComponent.qml:231
-#, fuzzy
 msgid "Regulatory info"
 msgstr "Informatzione normativa"
 
@@ -2561,9 +2548,8 @@ msgid "Hardware keyboard"
 msgstr "Tecladu fìsicu"
 
 #: ../plugins/language/PageHardwareKeyboard.qml:63
-#, fuzzy
 msgid "Layouts and other sources"
-msgstr "Disinnos e àteras fontes"
+msgstr "Dispositzione e àteras fontes"
 
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../plugins/language/PageComponent.qml:36
@@ -2578,7 +2564,7 @@ msgstr "Ammustra sa limba…"
 #: ../plugins/language/PageComponent.qml:149
 #, fuzzy
 msgid "Enable on-screen keyboard"
-msgstr "Tecladu"
+msgstr "Ativa su tecladu in s'ischermu"
 
 #: ../plugins/language/PageComponent.qml:161
 msgid "On-screen keyboard"
@@ -2608,7 +2594,7 @@ msgstr "Curretzione automàtica"
 #: ../plugins/language/PageComponent.qml:217
 #, fuzzy
 msgid "Word suggestions"
-msgstr "Cussìgios de paràulas"
+msgstr "Paràulas acussìgiadas"
 
 #: ../plugins/language/PageComponent.qml:231
 msgid "Auto capitalization"
@@ -2746,7 +2732,6 @@ msgid "Charging now"
 msgstr "Carrighende"
 
 #: ../plugins/battery/PageComponent.qml:271
-#, fuzzy
 msgid "Last full charge"
 msgstr "Ùrtima càrriga cumpleta"
 
@@ -3341,6 +3326,7 @@ msgstr "fotografia"
 
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:92
+#, fuzzy
 msgid "picture"
 msgstr "immàgine"
 
@@ -3374,7 +3360,7 @@ msgstr "vibra"
 #: ../obj-x86_64-linux-gnu/po/settings.js:106
 #: ../obj-x86_64-linux-gnu/po/settings.js:278
 msgid "dialpad"
-msgstr ""
+msgstr "tecladu numèricu"
 
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:108
@@ -3746,8 +3732,9 @@ msgstr "servìtzios"
 
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:272
+#, fuzzy
 msgid "forwarding"
-msgstr ""
+msgstr "deviatzione"
 
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:274
@@ -3756,8 +3743,9 @@ msgstr "iseta"
 
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:276
+#, fuzzy
 msgid "call"
-msgstr ""
+msgstr "mutida"
 
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:280
