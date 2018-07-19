@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-07-08 16:18+0000\n"
+"PO-Revision-Date: 2018-07-21 14:58+0000\n"
 "Last-Translator: Eran <etherpulse@gmail.com>\n"
 "Language-Team: Hebrew <https://translate.ubports.com/projects/ubports/system-"
 "settings/he/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.15\n"
+"X-Generator: Weblate 2.17\n"
 "X-Launchpad-Export-Date: 2015-07-24 05:41+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -414,16 +414,15 @@ msgstr "גלילה עם שני אצבעות"
 
 #: ../plugins/mouse/Connected.qml:410
 msgid "Ignore touchpad when:"
-msgstr ""
+msgstr "יש להתעלם ממשטח המגע כאשר:"
 
 #: ../plugins/mouse/Connected.qml:432
 msgid "Typing"
 msgstr ""
 
 #: ../plugins/mouse/Connected.qml:446
-#, fuzzy
 msgid "A mouse is connected"
-msgstr "מנותק"
+msgstr "מחובר עכבר"
 
 #. TRANSLATORS: This is a keyword or name for the notifications plugin which is used while searching
 #: ../plugins/notifications/ClickAppNotifications.qml:54
@@ -449,15 +448,13 @@ msgid "Vibrations"
 msgstr "רטט מקלדת"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:125
-#, fuzzy
 msgid "Notification Bubbles"
-msgstr "התרעות"
+msgstr "בועות התרעה"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:147
 #: ../plugins/notifications/PageComponent.qml:186
-#, fuzzy
 msgid "Notification List"
-msgstr "התרעות"
+msgstr "רשימת התרעות"
 
 #: ../plugins/notifications/PageComponent.qml:75
 msgid ""
@@ -474,14 +471,12 @@ msgid "Apps that notify with vibration"
 msgstr "אפליקציות אשר מתריעות באמצעות רטט"
 
 #: ../plugins/notifications/PageComponent.qml:143
-#, fuzzy
 msgid "Applications:"
-msgstr "מיקום"
+msgstr "יישומים:"
 
 #: ../plugins/notifications/PageComponent.qml:172
-#, fuzzy
 msgid "No notifications"
-msgstr "התרעות"
+msgstr "ללא התרעות"
 
 #: ../plugins/notifications/PageComponent.qml:183
 msgid "Bubbles"
@@ -533,13 +528,12 @@ msgid "Custom"
 msgstr "התאמה אישית"
 
 #: ../plugins/background/MainPage.qml:118
-#, fuzzy
 msgid "Dash background"
 msgstr "רקע"
 
 #: ../plugins/background/MainPage.qml:131
 msgid "Opacity:"
-msgstr ""
+msgstr "עמימות:"
 
 #: ../plugins/background/Preview.qml:69
 msgid "Preview"
@@ -578,7 +572,6 @@ msgid "Ringtone"
 msgstr "צלצול"
 
 #: ../plugins/sound/PageComponent.qml:171
-#, fuzzy
 msgid "Vibrate on ring"
 msgstr "רטט עם הצלצול"
 
@@ -619,9 +612,8 @@ msgid "Lock sound"
 msgstr "צליל נעילה"
 
 #: ../plugins/sound/PageComponent.qml:278
-#, fuzzy
 msgid "Other vibrations"
-msgstr "רטט מקלדת"
+msgstr "סוגי רטט אחרים"
 
 #: ../plugins/sound/SoundsList.qml:128
 #, fuzzy
@@ -646,14 +638,12 @@ msgid "Add pac file?"
 msgstr ""
 
 #: ../plugins/wifi/CertDialog.qml:36
-#, fuzzy
 msgid "Content:"
-msgstr "המשך"
+msgstr "תוכן:"
 
 #: ../plugins/wifi/CertDialog.qml:49
-#, fuzzy
 msgid "No data available."
-msgstr "ישנם עדכונים זמינים"
+msgstr "אין מידע זמין."
 
 #: ../plugins/wifi/CertDialog.qml:74
 msgid "Save"
@@ -666,15 +656,15 @@ msgstr "שמירה"
 #: ../plugins/brightness/WifiDisplays.qml:172
 #: ../plugins/brightness/PageComponent.qml:159
 msgid "Connected"
-msgstr ""
+msgstr "מחובר"
 
 #: ../plugins/wifi/OtherNetwork.qml:92
 msgid "Connect to Wi‑Fi"
-msgstr ""
+msgstr "התחבר לרשת אלחוטית"
 
 #: ../plugins/wifi/OtherNetwork.qml:93
 msgid "Connect to Hidden Network"
-msgstr ""
+msgstr "התחבר לרשת נסתרת"
 
 #: ../plugins/wifi/OtherNetwork.qml:285
 msgid "Network name"
@@ -682,7 +672,7 @@ msgstr "שם הרשת"
 
 #: ../plugins/wifi/OtherNetwork.qml:298
 msgid "SSID"
-msgstr ""
+msgstr "SSID"
 
 #: ../plugins/wifi/OtherNetwork.qml:307
 #: ../plugins/security-privacy/PageComponent.qml:142
@@ -712,9 +702,8 @@ msgid "WPA & WPA2 Personal"
 msgstr "‏WPA &‏ WPA2 אישי"
 
 #: ../plugins/wifi/OtherNetwork.qml:320
-#, fuzzy
 msgid "WPA & WPA2 Enterprise"
-msgstr "‏WPA &‏ WPA2 אישי"
+msgstr "‏WPA &‏ WPA2 אירגוני"
 
 #: ../plugins/wifi/OtherNetwork.qml:321
 msgid "WEP"
@@ -730,17 +719,16 @@ msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:332
 msgid "This network is insecure."
-msgstr ""
+msgstr "הרשת הזו לא מאובטחת."
 
 #: ../plugins/wifi/OtherNetwork.qml:338
 #: ../plugins/cellular/PageApnEditor.qml:382
-#, fuzzy
 msgid "Authentication"
-msgstr "התרעות"
+msgstr "זיהוי"
 
 #: ../plugins/wifi/OtherNetwork.qml:363
 msgid "Inner authentication"
-msgstr ""
+msgstr "זיהוי פנימי"
 
 #: ../plugins/wifi/OtherNetwork.qml:396
 msgid "CA certificate"
@@ -2836,9 +2824,8 @@ msgid "Choose a display:"
 msgstr "בחירת מילת צופן"
 
 #: ../plugins/brightness/PageComponent.qml:35
-#, fuzzy
 msgid "Brightness & Display"
-msgstr "בהירות"
+msgstr "בהירות ותצוגה"
 
 #. TRANSLATORS: This is a keyword or name for the brightness plugin which is used while searching
 #: ../plugins/brightness/PageComponent.qml:35
