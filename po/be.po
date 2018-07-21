@@ -8,17 +8,18 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2015-01-15 17:44+0000\n"
-"Last-Translator: Arsień Šachalevič <semen.shah@gmail.com>\n"
-"Language-Team: Belarusian <be@li.org>\n"
+"PO-Revision-Date: 2018-07-21 11:28+0000\n"
+"Last-Translator: ierihon <idekovets@mail.ru>\n"
+"Language-Team: Belarusian <https://translate.ubports.com/projects/ubports"
+"/system-settings/be/>\n"
 "Language: be\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2.17\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:40+0000\n"
-"X-Generator: Launchpad (build 17628)\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
 msgid "System Settings"
@@ -58,7 +59,7 @@ msgstr ""
 
 #: ../plugins/system-update/UpdateDelegate.qml:145
 msgid "Install"
-msgstr ""
+msgstr "Усталяваць"
 
 #: ../plugins/system-update/UpdateDelegate.qml:149
 msgid "Open"
@@ -170,7 +171,7 @@ msgstr ""
 #: ../plugins/system-update/UpdateSettings.qml:64 ../plugins/wifi/Common.qml:96
 #: ../plugins/hotspot/Common.qml:94 ../plugins/bluetooth/DevicePage.qml:41
 msgid "Unknown"
-msgstr ""
+msgstr "Невядомы"
 
 #: ../plugins/system-update/UpdateSettings.qml:71
 msgid "Channels"
@@ -432,7 +433,7 @@ msgstr "Адлучыцца"
 #: ../plugins/notifications/PageComponent.qml:29
 #: ../obj-x86_64-linux-gnu/po/settings.js:56
 msgid "Notifications"
-msgstr ""
+msgstr "Апавяшчэнні"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:72
 msgid "Let this app alert me using:"
@@ -647,7 +648,7 @@ msgstr ""
 
 #: ../plugins/wifi/CertDialog.qml:74
 msgid "Save"
-msgstr ""
+msgstr "Захаваць"
 
 #: ../plugins/wifi/AccessPoint.qml:51 ../plugins/wifi/StandardMenuItem.qml:31
 #: ../plugins/bluetooth/DevicePage.qml:37
@@ -798,7 +799,7 @@ msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:686
 msgid "Disabled"
-msgstr ""
+msgstr "Адключана"
 
 #: ../plugins/wifi/OtherNetwork.qml:687
 msgid "Anonymous"
@@ -838,7 +839,7 @@ msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:754
 msgid "Username"
-msgstr ""
+msgstr "Імя карыстальніка"
 
 #: ../plugins/wifi/OtherNetwork.qml:784
 msgid "Private key password"
@@ -847,7 +848,7 @@ msgstr ""
 #: ../plugins/wifi/OtherNetwork.qml:786 ../plugins/wifi/NetworkDetails.qml:70
 #: ../plugins/cellular/PageApnEditor.qml:357
 msgid "Password"
-msgstr ""
+msgstr "Пароль"
 
 #: ../plugins/wifi/OtherNetwork.qml:821 ../plugins/wifi/NetworkDetails.qml:84
 #: ../plugins/hotspot/HotspotSetup.qml:224
@@ -1136,7 +1137,7 @@ msgstr ""
 #: ../plugins/printing/PageComponent.qml:136
 #: ../plugins/cellular/PageChooseApn.qml:305
 msgid "Delete"
-msgstr ""
+msgstr "Выдаліць"
 
 #: ../plugins/printing/PageComponent.qml:149
 #: ../plugins/printing/printer-sub-pages/Policies.qml:50
@@ -1549,7 +1550,7 @@ msgstr ""
 #: ../plugins/security-privacy/PageComponent.qml:40
 #: ../obj-x86_64-linux-gnu/po/settings.js:188
 msgid "Security & Privacy"
-msgstr ""
+msgstr "Бяспека і Канфідэнцыяльнасць"
 
 #: ../plugins/security-privacy/PageComponent.qml:116
 msgid "Phone and Internet"
@@ -2133,14 +2134,14 @@ msgstr ""
 
 #: ../plugins/phone/ServiceInfo.qml:119
 msgid "Call"
-msgstr ""
+msgstr "Пазваніць"
 
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../plugins/phone/PageComponent.qml:32 ../plugins/bluetooth/DevicePage.qml:48
 #: ../plugins/bluetooth/DevicePage.qml:49
 #: ../obj-x86_64-linux-gnu/po/settings.js:266
 msgid "Phone"
-msgstr ""
+msgstr "Тэлефон"
 
 #: ../plugins/phone/CallWaiting.qml:96
 msgid ""
@@ -2344,7 +2345,7 @@ msgstr ""
 
 #: ../plugins/bluetooth/DevicePage.qml:54
 msgid "Video"
-msgstr ""
+msgstr "Відэа"
 
 #: ../plugins/bluetooth/DevicePage.qml:55
 msgid "Other Audio"

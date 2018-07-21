@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-06-13 15:59+0000\n"
+"PO-Revision-Date: 2018-07-07 08:15+0000\n"
 "Last-Translator: Weblate Admin <flori-weblate@bin.org.in>\n"
 "Language-Team: German <https://translate.ubports.com/projects/ubports/system-"
 "settings/de/>\n"
@@ -219,7 +219,7 @@ msgstr "Aktualisierungen verfügbar"
 
 #: ../plugins/system-update/PageComponent.qml:349
 msgid "Recent updates"
-msgstr "Letzten Änderungen"
+msgstr "Kürzliche Updates"
 
 #: ../plugins/system-update/ChannelSettings.qml:32
 msgid "Channel settings"

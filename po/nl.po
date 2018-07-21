@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-06-16 23:39+0000\n"
+"PO-Revision-Date: 2018-07-21 14:58+0000\n"
 "Last-Translator: Joachim Lazaroms <joachim.pc@gmail.com>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/system-"
 "settings/nl/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.15\n"
+"X-Generator: Weblate 2.17\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:40+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -70,7 +70,7 @@ msgstr "Installeren"
 
 #: ../plugins/system-update/UpdateDelegate.qml:232
 msgid "Paused"
-msgstr "Gepauseerd"
+msgstr "Gepauzeerd"
 
 #: ../plugins/system-update/UpdateDelegate.qml:235
 msgid "Waiting to download"
@@ -486,7 +486,7 @@ msgstr "Geen notificaties"
 
 #: ../plugins/notifications/PageComponent.qml:183
 msgid "Bubbles"
-msgstr ""
+msgstr "Melding"
 
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../plugins/notifications/ClickAppsSoundsNotify.qml:30
@@ -735,11 +735,11 @@ msgstr "Autorisatie"
 
 #: ../plugins/wifi/OtherNetwork.qml:363
 msgid "Inner authentication"
-msgstr ""
+msgstr "Extra autorisatie stap"
 
 #: ../plugins/wifi/OtherNetwork.qml:396
 msgid "CA certificate"
-msgstr ""
+msgstr "CA certificaat"
 
 #. TRANSLATORS: %1 is the name of a certificate file.
 #. The ellipsis indicates that the file name has been
@@ -747,7 +747,7 @@ msgstr ""
 #: ../plugins/wifi/OtherNetwork.qml:450
 #, qt-format
 msgid "%1…"
-msgstr ""
+msgstr "%1…"
 
 #: ../plugins/wifi/OtherNetwork.qml:458 ../plugins/wifi/OtherNetwork.qml:575
 #: ../plugins/wifi/certhandler.cpp:106 ../plugins/wifi/certhandler.cpp:141
@@ -764,7 +764,7 @@ msgstr "Kies…"
 #: ../plugins/wifi/OtherNetwork.qml:465
 #, qt-format
 msgid "%1…, Exp.: %2"
-msgstr ""
+msgstr "%1…, eind datum: %2"
 
 #. TRANSLATORS: The first position is the name of
 #. the organization that has issued the certificate.
@@ -773,7 +773,7 @@ msgstr ""
 #: ../plugins/wifi/OtherNetwork.qml:473
 #, qt-format
 msgid "%1, Exp.: %2"
-msgstr ""
+msgstr "%1, eind datum: %2"
 
 #: ../plugins/wifi/OtherNetwork.qml:494
 msgid "Using certificates is recommended as it increases security."
@@ -795,6 +795,9 @@ msgstr "Persoonlijke persoonlijke sleutel"
 #, qt-format
 msgid "%1, %2, %3 bit"
 msgstr ""
+"Type: %1\n"
+"Algoritme: %2\n"
+"Lengte: %3 bit"
 
 #: ../plugins/wifi/OtherNetwork.qml:622
 msgid "Pac file"
@@ -802,7 +805,7 @@ msgstr "PAC bestand"
 
 #: ../plugins/wifi/OtherNetwork.qml:672
 msgid "Pac provisioning"
-msgstr ""
+msgstr "PAC voorzieningen"
 
 #: ../plugins/wifi/OtherNetwork.qml:686
 msgid "Disabled"
@@ -1134,19 +1137,19 @@ msgstr "Afdrukken"
 
 #: ../plugins/printing/PageComponent.qml:45
 msgid "Manager Printer Jobs"
-msgstr ""
+msgstr "Beheer printen opdrachten"
 
 #: ../plugins/printing/PageComponent.qml:106
 msgid "Default printer"
-msgstr ""
+msgstr "Standaard printer"
 
 #: ../plugins/printing/PageComponent.qml:107
 msgid "Configured printers"
-msgstr ""
+msgstr "Ingestelde printers"
 
 #: ../plugins/printing/PageComponent.qml:115
 msgid "Discovered printers"
-msgstr ""
+msgstr "Gevonden printers"
 
 #: ../plugins/printing/PageComponent.qml:136
 #: ../plugins/cellular/PageChooseApn.qml:305
@@ -1156,15 +1159,16 @@ msgstr "Verwijderen"
 #: ../plugins/printing/PageComponent.qml:149
 #: ../plugins/printing/printer-sub-pages/Policies.qml:50
 msgid "Set as Default"
-msgstr ""
+msgstr "Stel in als standaard"
 
 #: ../plugins/printing/PageComponent.qml:190
 msgid "There are no printers configured yet."
-msgstr ""
+msgstr "Er zijn nog geen printers geïnstalleerd."
 
 #: ../plugins/printing/PrinterConnection.qml:67
+#, fuzzy
 msgid "Host"
-msgstr ""
+msgstr "Host"
 
 #: ../plugins/printing/Printer.qml:42
 #, fuzzy
@@ -1178,7 +1182,7 @@ msgstr "Systeeminstellingen"
 
 #: ../plugins/printing/Printer.qml:44
 msgid "Policies"
-msgstr ""
+msgstr "Beleid"
 
 #: ../plugins/printing/Printer.qml:47
 #, fuzzy
@@ -1254,7 +1258,7 @@ msgstr "Internet"
 #: ../plugins/cellular/PageChooseApn.qml:90
 #: ../plugins/cellular/PageApnEditor.qml:161
 msgid "LTE"
-msgstr ""
+msgstr "LTE"
 
 #: ../plugins/cellular/PageChooseApn.qml:92
 #: ../plugins/cellular/PageApnEditor.qml:160
@@ -1288,7 +1292,7 @@ msgstr "Herstellen"
 #: ../plugins/cellular/PageChooseApn.qml:225
 #, qt-format
 msgid "Prefer %1"
-msgstr ""
+msgstr "Voorkeur APN internet: %1"
 
 #. TRANSLATORS: %1 is the MMS APN that the user has chosen to be
 #. “preferred”, i.e. used to retrieve MMS messages. %2 is the Internet
@@ -1297,6 +1301,8 @@ msgstr ""
 #, qt-format
 msgid "You have chosen %1 as your preferred MMS APN. "
 msgstr ""
+"Voorkeur nieuwe APN: %1\n"
+"Vorige APN: %2 "
 
 #: ../plugins/cellular/PageChooseApn.qml:203
 #: ../plugins/cellular/PageChooseApn.qml:268
@@ -1780,7 +1786,7 @@ msgstr "Toegangscode wijzigen…"
 #: ../plugins/security-privacy/LockSecurity.qml:138
 #: ../plugins/security-privacy/LockSecurity.qml:562
 msgid "Change passphrase…"
-msgstr "Wijzig wachtwoordzin..."
+msgstr "Wijzig wachtwoord-zin…"
 
 #: ../plugins/security-privacy/LockSecurity.qml:145
 msgid "Switch to swipe"
@@ -1863,7 +1869,7 @@ msgstr "Viercijferige toegangscode…"
 
 #: ../plugins/security-privacy/LockSecurity.qml:471
 msgid "Passphrase…"
-msgstr "Wachtwoordzin..."
+msgstr "Wachtwoord-zin…"
 
 #: ../plugins/security-privacy/PhoneLocking.qml:60
 msgctxt "Unlock with swipe"
@@ -2225,7 +2231,7 @@ msgid ""
 "between them"
 msgstr ""
 "Geeft de mogelijkheid om een nieuw telefoongesprek te beginnen tijdens een "
-"ander gesprek, en te wisselen tussen beide."
+"ander gesprek, en te wisselen tussen beide"
 
 #: ../plugins/phone/CallForwarding.qml:131
 msgid "Forward every incoming call"
@@ -2487,7 +2493,7 @@ msgstr "Slecht"
 
 #: ../plugins/bluetooth/DevicePage.qml:113
 msgid "Type"
-msgstr "Soort"
+msgstr "Type"
 
 #: ../plugins/bluetooth/DevicePage.qml:124
 #: ../plugins/printing/printer-sub-pages/Status.qml:26
@@ -2589,7 +2595,7 @@ msgstr "Taal & tekst"
 
 #: ../plugins/language/PageComponent.qml:133
 msgid "Display language…"
-msgstr "Weergavetaal..."
+msgstr "Weergave taal…"
 
 #: ../plugins/language/PageComponent.qml:149
 #, fuzzy
@@ -2833,7 +2839,7 @@ msgstr "apparaat"
 #: ../plugins/reset/PageComponent.qml:101
 #: ../plugins/reset/PageComponent.qml:112
 msgid "Reset all system settings…"
-msgstr "Alle systeeminstellingen terugzetten op hun standaardwaarden..."
+msgstr "Alle systeeminstellingen terugzetten op hun standaardwaarden…"
 
 #: ../plugins/reset/PageComponent.qml:126
 #: ../plugins/reset/PageComponent.qml:138

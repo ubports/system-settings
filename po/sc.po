@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-06-04 12:38+0000\n"
-"Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
+"PO-Revision-Date: 2018-07-21 14:58+0000\n"
+"Last-Translator: Stefania Reccia <stefa.reccia@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
 "/system-settings/sc/>\n"
 "Language: sc\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.15\n"
+"X-Generator: Weblate 2.17\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
 msgid "System Settings"
@@ -230,7 +230,6 @@ msgid "Fetching channels"
 msgstr "Recuperende is canales"
 
 #: ../plugins/system-update/ChannelSettings.qml:107
-#, fuzzy
 msgid "Channel to get updates from:"
 msgstr "Canale pro otènnere atualizatziones:"
 
@@ -347,7 +346,7 @@ msgstr "Mannària de is iconas:"
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:42
 msgid "Primary button:"
-msgstr "Pulsante primàriu: "
+msgstr "Pulsante primàriu:"
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:72
 msgid "Left"
@@ -384,7 +383,7 @@ msgstr ""
 
 #: ../plugins/mouse/TapArea.qml:38
 msgid "Not fast enough"
-msgstr ""
+msgstr "Non lestru a sufitzèntzia"
 
 #: ../plugins/mouse/TapArea.qml:77
 msgid "Double-clicked"
@@ -400,7 +399,7 @@ msgstr "Lestresa de su puntadore:"
 
 #: ../plugins/mouse/Connected.qml:98
 msgid "Wheel scrolling speed:"
-msgstr "Lestresa de iscurrimentu de sa rodedda"
+msgstr "Lestresa de iscurrimentu de sa rodedda:"
 
 #: ../plugins/mouse/Connected.qml:134 ../plugins/mouse/Connected.qml:301
 msgid "Double-click speed:"
@@ -493,7 +492,6 @@ msgid "No notifications"
 msgstr "Sena notìficas"
 
 #: ../plugins/notifications/PageComponent.qml:183
-#, fuzzy
 msgid "Bubbles"
 msgstr "Bussicas"
 
@@ -548,7 +546,7 @@ msgstr "Isfundu"
 
 #: ../plugins/background/MainPage.qml:131
 msgid "Opacity:"
-msgstr "Annapadura "
+msgstr "Annapadura:"
 
 #: ../plugins/background/Preview.qml:69
 msgid "Preview"
@@ -575,16 +573,16 @@ msgstr "Tonu de mutida:"
 
 #: ../plugins/sound/PageComponent.qml:141
 msgid "High volume can damage your hearing."
-msgstr "Su volume tropu artu podet iscalabrare s'uditu. "
+msgstr "Su volume tropu artu podet iscalabrare s'uditu."
 
 #: ../plugins/sound/PageComponent.qml:145
 msgid "Phone calls:"
-msgstr "Mutidas: "
+msgstr "Mutidas:"
 
 #: ../plugins/sound/PageComponent.qml:149
 #: ../plugins/sound/PageComponent.qml:154
 msgid "Ringtone"
-msgstr "Tonu de mutida "
+msgstr "Tonu de mutida"
 
 #: ../plugins/sound/PageComponent.qml:171
 msgid "Vibrate on ring"
@@ -593,21 +591,21 @@ msgstr "Vibra a sa mutida"
 #: ../plugins/sound/PageComponent.qml:183
 #: ../plugins/sound/PageComponent.qml:242
 msgid "Vibrate in Silent Mode"
-msgstr "Vibra a modalidade a sa muda "
+msgstr "Vibra a modalidade a sa muda"
 
 #: ../plugins/sound/PageComponent.qml:194
 #: ../plugins/phone/PageComponent.qml:102
 msgid "Dialpad tones"
-msgstr "Tonos de sa tastiera "
+msgstr "Tonos de su tecladu numèricu"
 
 #: ../plugins/sound/PageComponent.qml:203
 msgid "Messages:"
-msgstr "Messàgios: "
+msgstr "Messàgios:"
 
 #: ../plugins/sound/PageComponent.qml:209
 #: ../plugins/sound/PageComponent.qml:214
 msgid "Message received"
-msgstr "Messàgiu retzidu "
+msgstr "Messàgiu retzidu"
 
 #: ../plugins/sound/PageComponent.qml:230
 msgid "Vibrate with message sound"
@@ -615,28 +613,28 @@ msgstr "Vibra cun sonu de messàgiu"
 
 #: ../plugins/sound/PageComponent.qml:247
 msgid "Other sounds:"
-msgstr "Àteros sonos: "
+msgstr "Àteros sonos:"
 
 #: ../plugins/sound/PageComponent.qml:251
 #: ../plugins/language/PageComponent.qml:268
 msgid "Keyboard sound"
-msgstr "Sonos de sa tastiera"
+msgstr "Sonos de su tecladu"
 
 #: ../plugins/sound/PageComponent.qml:268
 msgid "Lock sound"
-msgstr "Sonu de blocu "
+msgstr "Sonu de blocu"
 
 #: ../plugins/sound/PageComponent.qml:278
 msgid "Other vibrations"
-msgstr "Àteras vibratziones "
+msgstr "Àteras vibratziones"
 
 #: ../plugins/sound/SoundsList.qml:128
 msgid "Custom Ringtone"
-msgstr "Tonu de mutida personalizadu "
+msgstr "Tonu de mutida personalizadu"
 
 #: ../plugins/sound/SoundsList.qml:206
 msgid "Choose from"
-msgstr "Sèbera intre "
+msgstr "Sèbera intre"
 
 #: ../plugins/wifi/CertDialog.qml:22
 msgid "Add certificate?"
@@ -652,11 +650,11 @@ msgstr "Boles agiunghere s'archìviu pac?"
 
 #: ../plugins/wifi/CertDialog.qml:36
 msgid "Content:"
-msgstr "Cuntenutu: "
+msgstr "Cuntenutu:"
 
 #: ../plugins/wifi/CertDialog.qml:49
 msgid "No data available."
-msgstr "Non bi sunt datos disponìbiles. "
+msgstr "Non bi sunt datos disponìbiles."
 
 #: ../plugins/wifi/CertDialog.qml:74
 msgid "Save"
@@ -669,7 +667,7 @@ msgstr "Sarva"
 #: ../plugins/brightness/WifiDisplays.qml:172
 #: ../plugins/brightness/PageComponent.qml:159
 msgid "Connected"
-msgstr "Collegadu "
+msgstr "Collegadu"
 
 #: ../plugins/wifi/OtherNetwork.qml:92
 msgid "Connect to Wi‑Fi"
@@ -677,11 +675,11 @@ msgstr "Collega·ti a su Wi‑Fi"
 
 #: ../plugins/wifi/OtherNetwork.qml:93
 msgid "Connect to Hidden Network"
-msgstr "Collega·ti a una rete cuada "
+msgstr "Collega·ti a una rete cuada"
 
 #: ../plugins/wifi/OtherNetwork.qml:285
 msgid "Network name"
-msgstr "Nùmene de sa rete "
+msgstr "Nùmene de sa rete"
 
 #: ../plugins/wifi/OtherNetwork.qml:298
 msgid "SSID"
@@ -716,7 +714,7 @@ msgstr "WPA e WPA2 personale"
 
 #: ../plugins/wifi/OtherNetwork.qml:320
 msgid "WPA & WPA2 Enterprise"
-msgstr ""
+msgstr "WPA/WPA2 corporativa"
 
 #: ../plugins/wifi/OtherNetwork.qml:321
 msgid "WEP"
@@ -732,7 +730,7 @@ msgstr "LEAP"
 
 #: ../plugins/wifi/OtherNetwork.qml:332
 msgid "This network is insecure."
-msgstr "Custa rete no est segura. "
+msgstr "Custa rete no est segura."
 
 #: ../plugins/wifi/OtherNetwork.qml:338
 #: ../plugins/cellular/PageApnEditor.qml:382
@@ -741,11 +739,11 @@ msgstr "Autenticatzione"
 
 #: ../plugins/wifi/OtherNetwork.qml:363
 msgid "Inner authentication"
-msgstr "Autenticatzione interna "
+msgstr "Autenticatzione interna"
 
 #: ../plugins/wifi/OtherNetwork.qml:396
 msgid "CA certificate"
-msgstr "Tzertificadu CA "
+msgstr "Tzertificadu CA"
 
 #. TRANSLATORS: %1 is the name of a certificate file.
 #. The ellipsis indicates that the file name has been
@@ -753,14 +751,14 @@ msgstr "Tzertificadu CA "
 #: ../plugins/wifi/OtherNetwork.qml:450
 #, qt-format
 msgid "%1…"
-msgstr "%1..."
+msgstr "%1…"
 
 #: ../plugins/wifi/OtherNetwork.qml:458 ../plugins/wifi/OtherNetwork.qml:575
 #: ../plugins/wifi/certhandler.cpp:106 ../plugins/wifi/certhandler.cpp:141
 #: ../plugins/wifi/certhandler.cpp:193 ../plugins/wifi/certhandler.cpp:225
 #: ../plugins/wifi/certhandler.cpp:290 ../plugins/wifi/certhandler.cpp:319
 msgid "Choose…"
-msgstr "Sèbera..."
+msgstr "Sèbera…"
 
 #. TRANSLATORS: The first position is the name of
 #. the organization that has issued the certificate.
@@ -783,15 +781,15 @@ msgstr "%1, Iscad.: %2"
 
 #: ../plugins/wifi/OtherNetwork.qml:494
 msgid "Using certificates is recommended as it increases security."
-msgstr "Impreare tzertificados est cussigiadu pro crèschere sa seguresa. "
+msgstr "Impreare tzertificados est cussigiadu pro crèschere sa seguresa."
 
 #: ../plugins/wifi/OtherNetwork.qml:512
 msgid "Client certificate"
-msgstr "Tzertificadu de su cliente "
+msgstr "Tzertificadu de su cliente"
 
 #: ../plugins/wifi/OtherNetwork.qml:554
 msgid "User private key"
-msgstr "Crae privada de s'utente "
+msgstr "Crae privada de s'usuàriu"
 
 #. TRANSLATORS: The first position is the type of
 #. private key, second the key algorithm, and third the
@@ -803,15 +801,15 @@ msgstr "%1, %2, %3 bit"
 
 #: ../plugins/wifi/OtherNetwork.qml:622
 msgid "Pac file"
-msgstr "Archìviu pac "
+msgstr "Archìviu pac"
 
 #: ../plugins/wifi/OtherNetwork.qml:672
 msgid "Pac provisioning"
-msgstr "Frunidura pac "
+msgstr "Frunidura pac"
 
 #: ../plugins/wifi/OtherNetwork.qml:686
 msgid "Disabled"
-msgstr "Inabilitadu "
+msgstr "Inabilitadu"
 
 #: ../plugins/wifi/OtherNetwork.qml:687
 msgid "Anonymous"
@@ -843,11 +841,11 @@ msgstr "Automàticu"
 
 #: ../plugins/wifi/OtherNetwork.qml:725
 msgid "Anonymous identity"
-msgstr "Identidade anònima "
+msgstr "Identidade anònima"
 
 #: ../plugins/wifi/OtherNetwork.qml:752
 msgid "Identity"
-msgstr "Identidade "
+msgstr "Identidade"
 
 #: ../plugins/wifi/OtherNetwork.qml:754
 msgid "Username"
@@ -882,7 +880,7 @@ msgstr "Lìmpia"
 #: ../plugins/wifi/PreviousNetworks.qml:27
 #: ../plugins/wifi/PageComponent.qml:139
 msgid "Previous networks"
-msgstr "Retes pretzedentes "
+msgstr "Retes pretzedentes"
 
 #: ../plugins/wifi/Common.qml:36 ../plugins/hotspot/Common.qml:34
 msgid "Unknown error"
@@ -908,6 +906,8 @@ msgstr "Non s'est pòdidu preparare su dispositivu pro sa cunfiguratzione"
 msgid ""
 "IP configuration could not be reserved (no available address, timeout, etc.)"
 msgstr ""
+"Sa cunfiguratzione IP no at pòdidu èssere riservada (fortzes non bi fiat "
+"perunu indiritzu disponìbile, o est acabadu su tempus de isettare)"
 
 #: ../plugins/wifi/Common.qml:48 ../plugins/hotspot/Common.qml:46
 msgid "The IP configuration is no longer valid"
@@ -957,7 +957,7 @@ msgstr "Faddina in su servìtziu de connessione cumpartzida"
 #: ../plugins/wifi/Common.qml:70 ../plugins/hotspot/Common.qml:68
 msgid "Necessary firmware for the device may be missing"
 msgstr ""
-"Pòdet èssere chi ammanchet su microprogramma rechèdidu pro su dispositivu "
+"Pòdet èssere chi ammanchet su microprogramma rechèdidu pro su dispositivu"
 
 #: ../plugins/wifi/Common.qml:72 ../plugins/hotspot/Common.qml:70
 msgid "The device was removed"
@@ -1021,7 +1021,7 @@ msgstr "Collega·ti a una rete cuada…"
 
 #: ../plugins/wifi/NetworkDetails.qml:38
 msgid "Network details"
-msgstr "Detàllios de sa rete "
+msgstr "Detàllios de sa rete"
 
 #: ../plugins/wifi/NetworkDetails.qml:57
 #: ../plugins/cellular/PageApnEditor.qml:179
@@ -1032,7 +1032,7 @@ msgstr "Nùmene"
 
 #: ../plugins/wifi/NetworkDetails.qml:63
 msgid "Last connected"
-msgstr "Ùrtima connessione "
+msgstr "Ùrtima connessione"
 
 #: ../plugins/wifi/NetworkDetails.qml:96
 #: ../plugins/wifi/NetworkDetailsBrief.qml:53
@@ -1055,14 +1055,13 @@ msgstr "Inserta URI"
 
 #: ../plugins/printing/AddPrinter.qml:78
 msgid "Devices"
-msgstr "Dispositivos "
+msgstr "Dispositivos"
 
 #: ../plugins/printing/AddPrinter.qml:133
 msgid "No devices found."
-msgstr "Perunu dispositivu agatadu. "
+msgstr "Perunu dispositivu agatadu."
 
 #: ../plugins/printing/AddPrinterDetails.qml:37
-#, fuzzy
 msgid "Describe printer"
 msgstr "Descrie imprentadora"
 
@@ -1071,9 +1070,8 @@ msgid "Back"
 msgstr "In segus"
 
 #: ../plugins/printing/AddPrinterDetails.qml:137
-#, fuzzy
 msgid "Connection"
-msgstr "Positzione"
+msgstr "Colleghende-si"
 
 #: ../plugins/printing/AddPrinterDetails.qml:139
 #, fuzzy
@@ -1082,7 +1080,7 @@ msgstr "Sèbera unu nùmene"
 
 #: ../plugins/printing/AddPrinterDetails.qml:165
 msgid "Printer name"
-msgstr "Nùmene de s'imprentadora "
+msgstr "Nùmene de s'imprentadora"
 
 #: ../plugins/printing/AddPrinterDetails.qml:202
 #: ../plugins/printing/printer-sub-pages/Status.qml:66
@@ -1196,7 +1194,7 @@ msgstr "Operadore"
 #: ../plugins/time-date/ChooseTimeZone.qml:51
 #: ../plugins/time-date/PageComponent.qml:85
 msgid "Automatically"
-msgstr "In automàticu "
+msgstr "In automàticu"
 
 #: ../plugins/cellular/PageCarrierAndApn.qml:27
 #: ../plugins/cellular/Components/SingleSim.qml:110
@@ -1256,7 +1254,7 @@ msgstr "MMS"
 
 #: ../plugins/cellular/PageChooseApn.qml:158
 msgid "Reset All APN Settings…"
-msgstr "Reseta sa cunfiguratzione de su puntu de atzessu..."
+msgstr "Reseta sa cunfiguratzione de su puntu de atzessu…"
 
 #: ../plugins/cellular/PageChooseApn.qml:167
 msgid "Reset APN Settings"
@@ -1363,15 +1361,15 @@ msgstr "Server intermediàriu"
 
 #: ../plugins/cellular/PageApnEditor.qml:262
 msgid "Enter message proxy"
-msgstr ""
+msgstr "Inserta su proxy de messàgios"
 
 #: ../plugins/cellular/PageApnEditor.qml:307
 msgid "Proxy port"
-msgstr ""
+msgstr "Ghenna de su proxy"
 
 #: ../plugins/cellular/PageApnEditor.qml:317
 msgid "Enter message proxy port"
-msgstr ""
+msgstr "Inserta sa ghenna de su proxy de messàgios"
 
 #: ../plugins/cellular/PageApnEditor.qml:335
 msgid "User name"
@@ -1399,7 +1397,7 @@ msgstr "CHAP isceti"
 
 #: ../plugins/cellular/PageApnEditor.qml:400
 msgid "Protocol"
-msgstr "Protocollu "
+msgstr "Protocollu"
 
 #: ../plugins/cellular/PageApnEditor.qml:404
 msgid "IPv4"
@@ -1458,7 +1456,7 @@ msgstr "Is aplicatziones puru podent pedire s'atzessu a is contos in lìnea."
 
 #: ../plugins/security-privacy/AppAccess.qml:123
 msgid "Online Accounts…"
-msgstr "Contos in lìnea..."
+msgstr "Contos in lìnea…"
 
 #: ../plugins/security-privacy/SimPin.qml:37
 #: ../plugins/security-privacy/SimPin.qml:398
@@ -1475,8 +1473,8 @@ msgstr "Muda su PIN de s'ischeda SIM"
 #, qt-format
 msgid "Incorrect PIN. %1 attempt remaining."
 msgid_plural "Incorrect PIN. %1 attempts remaining."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Su còdighe PIN est isballiau. Abarrat %1 tentativu."
+msgstr[1] "Su còdighe PIN est isballiau. Abarrant %1 tentativos."
 
 #: ../plugins/security-privacy/SimPin.qml:58
 #: ../plugins/security-privacy/SimPin.qml:120
@@ -1495,15 +1493,15 @@ msgstr "Còdighe PIN atuale:"
 msgid "%1 attempt allowed."
 msgid_plural "%1 attempts allowed."
 msgstr[0] "Si permitit %1 tentativu."
-msgstr[1] "Si permitint %1 tentativos. "
+msgstr[1] "Si permitint %1 tentativos."
 
 #: ../plugins/security-privacy/SimPin.qml:135
 msgid "Choose new PIN:"
-msgstr "Sèbera su còdighe PIN nou: "
+msgstr "Sèbera su còdighe PIN nou:"
 
 #: ../plugins/security-privacy/SimPin.qml:146
 msgid "Confirm new PIN:"
-msgstr "Cunfirma su còdighe PIN nou: "
+msgstr "Cunfirma su còdighe PIN nou:"
 
 #: ../plugins/security-privacy/SimPin.qml:168
 msgid "PINs don't match. Try again."
@@ -1537,7 +1535,7 @@ msgstr "Isblocadu"
 
 #: ../plugins/security-privacy/SimPin.qml:416
 msgid "Change PIN…"
-msgstr "Muda su còdighe PIN..."
+msgstr "Muda su còdighe PIN…"
 
 #: ../plugins/security-privacy/SimPin.qml:427
 msgid "Locked"
@@ -1545,7 +1543,7 @@ msgstr "Blocadu"
 
 #: ../plugins/security-privacy/SimPin.qml:431
 msgid "Unlock…"
-msgstr "Isbloca..."
+msgstr "Isbloca…"
 
 #: ../plugins/security-privacy/SimPin.qml:445
 msgid ""
@@ -1617,7 +1615,6 @@ msgid "Privacy"
 msgstr "Riservadesa"
 
 #: ../plugins/security-privacy/PageComponent.qml:211
-#, fuzzy
 msgid "Stats on welcome screen"
 msgstr "Istatìsticas in s'ischermu de benebènnidu"
 
@@ -1641,7 +1638,7 @@ msgstr "Imbiadu"
 #: ../plugins/security-privacy/PageComponent.qml:276
 #, fuzzy
 msgid "Not sent"
-msgstr "Non nd'imbies"
+msgstr "No imbiadu"
 
 #: ../plugins/security-privacy/Location.qml:96
 msgid "Let the device detect your location:"
@@ -1766,17 +1763,14 @@ msgid "Change passphrase…"
 msgstr "Muda sa crae…"
 
 #: ../plugins/security-privacy/LockSecurity.qml:145
-#, fuzzy
 msgid "Switch to swipe"
 msgstr "Cola a iscurrimentu cun su didu"
 
 #: ../plugins/security-privacy/LockSecurity.qml:147
-#, fuzzy
 msgid "Switch to passcode"
 msgstr "Cola a còdighe de atzessu"
 
 #: ../plugins/security-privacy/LockSecurity.qml:149
-#, fuzzy
 msgid "Switch to passphrase"
 msgstr "Cola a crae"
 
@@ -1837,7 +1831,7 @@ msgstr "Crae"
 #: ../plugins/security-privacy/LockSecurity.qml:468
 #: ../plugins/security-privacy/PhoneLocking.qml:63
 msgid "Fingerprint"
-msgstr "Istampa "
+msgstr "Istampa"
 
 #: ../plugins/security-privacy/LockSecurity.qml:469
 msgid "Swipe (no security)… "
@@ -1854,11 +1848,11 @@ msgstr "Crae…"
 #: ../plugins/security-privacy/PhoneLocking.qml:60
 msgctxt "Unlock with swipe"
 msgid "None"
-msgstr ""
+msgstr "Perunu"
 
 #: ../plugins/security-privacy/PhoneLocking.qml:61
 msgid "Passcode"
-msgstr ""
+msgstr "Còdighe de atzessu"
 
 #: ../plugins/security-privacy/PhoneLocking.qml:89
 #: ../plugins/battery/PageComponent.qml:313
@@ -1935,7 +1929,7 @@ msgstr "Inserta sa positzione atuale tua."
 
 #: ../plugins/time-date/ChooseTimeZone.qml:131
 msgid "No matching place"
-msgstr ""
+msgstr "Non b'est perunu logu chi cuncordet"
 
 #. TRANSLATORS: This is a keyword or name for the time-date plugin which is used while searching
 #: ../plugins/time-date/PageComponent.qml:31
@@ -2016,7 +2010,6 @@ msgid "Customization Image part"
 msgstr "Parte de sa personalizatzione de s'imàgine"
 
 #: ../plugins/about/License.qml:30
-#, fuzzy
 msgid "Sorry, this license could not be displayed."
 msgstr "Custa lissèntzia non podet èssere ammustrada."
 
@@ -2037,7 +2030,6 @@ msgid "Videos"
 msgstr "Vìdeos"
 
 #: ../plugins/about/Storage.qml:108
-#, fuzzy
 msgid "Audio"
 msgstr "Àudio"
 
@@ -2142,7 +2134,6 @@ msgid "Legal:"
 msgstr "Informatzione legale:"
 
 #: ../plugins/about/PageComponent.qml:231
-#, fuzzy
 msgid "Regulatory info"
 msgstr "Informatzione normativa"
 
@@ -2223,7 +2214,7 @@ msgstr "Dèvia totus is mutidas a un'àteru nùmeru."
 
 #: ../plugins/phone/CallForwarding.qml:158
 msgid "Call forwarding status can’t be checked "
-msgstr "Non si podet controllare s'istadu de deviatzione de mutidas"
+msgstr "Non si podet controllare s'istadu de deviatzione de mutidas "
 
 #: ../plugins/phone/CallForwarding.qml:166
 msgid "Forward incoming calls when:"
@@ -2348,7 +2339,7 @@ msgstr "Ativa su Wi-Fi"
 #: ../plugins/bluetooth/ProvidePasskeyDialog.qml:28
 #: ../plugins/bluetooth/ConfirmPasskeyDialog.qml:28
 msgid "Bluetooth Pairing Request"
-msgstr ""
+msgstr "Assòtziu de Bluetooth rechèdidu"
 
 #: ../plugins/bluetooth/ProvidePinCodeDialog.qml:36
 #: ../plugins/bluetooth/ProvidePasskeyDialog.qml:36
@@ -2359,11 +2350,11 @@ msgstr "PIN pro '%1'"
 #: ../plugins/bluetooth/ProvidePinCodeDialog.qml:63
 #: ../plugins/bluetooth/ProvidePasskeyDialog.qml:62
 msgid "Pair"
-msgstr ""
+msgstr "Assòtzia"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:26
 msgid "Bluetooth Pairing Authorization Request"
-msgstr ""
+msgstr "Autorizatzione de assòtziu de Bluetooth rechèrida"
 
 #. TRANSLATORS: %1 is the name of the bluetooth device which requires authorization
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:34
@@ -2371,6 +2362,8 @@ msgstr ""
 msgid ""
 "The device %1 wants to pair with this device. Do you want to allow this?"
 msgstr ""
+"Su dispositivu %1 si bolet assotziare a custu dispositivu. Si lu boles "
+"permìtere?"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:39
 msgid "Allow"
@@ -2382,8 +2375,9 @@ msgstr "Refuda"
 
 #: ../plugins/bluetooth/DevicePage.qml:38
 #: ../plugins/bluetooth/PageComponent.qml:290
+#, fuzzy
 msgid "Connecting…"
-msgstr ""
+msgstr "Colleghende·si…"
 
 #: ../plugins/bluetooth/DevicePage.qml:39
 msgid "Disconnecting…"
@@ -2422,12 +2416,13 @@ msgid "Other Audio"
 msgstr "Àteru àudio"
 
 #: ../plugins/bluetooth/DevicePage.qml:56
+#, fuzzy
 msgid "Joypad"
-msgstr ""
+msgstr "Cumandu de giogu"
 
 #: ../plugins/bluetooth/DevicePage.qml:57
 msgid "Keyboard"
-msgstr "Tastiera"
+msgstr "Tecladu"
 
 #: ../plugins/bluetooth/DevicePage.qml:58
 msgid "Tablet"
@@ -2471,8 +2466,9 @@ msgid "Status"
 msgstr "Istadu"
 
 #: ../plugins/bluetooth/DevicePage.qml:128
+#, fuzzy
 msgid "Signal Strength"
-msgstr ""
+msgstr "Potenza de signale"
 
 #: ../plugins/bluetooth/DevicePage.qml:133
 #: ../plugins/bluetooth/PageComponent.qml:358
@@ -2488,7 +2484,7 @@ msgstr "Iscaressi·ti de custu dispositivu"
 #: ../plugins/bluetooth/DisplayPinCodeDialog.qml:34
 #, qt-format
 msgid "Please enter the following PIN on %1 and press “Enter” on the keyboard:"
-msgstr "Inserta a %1 su PIN chi sighit e carca “Enter” in sa tastiera:"
+msgstr "Inserta a %1 su PIN chi sighit e carca “Enter” in su tecladu:"
 
 #. TRANSLATORS: This is a keyword or name for the bluetooth plugin which is used while searching
 #: ../plugins/bluetooth/PageComponent.qml:33
@@ -2509,7 +2505,7 @@ msgstr "Non si podet iscobèrrere"
 #: ../plugins/bluetooth/PageComponent.qml:260
 #: ../plugins/bluetooth/PageComponent.qml:319
 msgid "Searching…"
-msgstr "Chirchende..."
+msgstr "Chirchende…"
 
 #: ../plugins/bluetooth/PageComponent.qml:269
 msgid "Connected devices:"
@@ -2525,17 +2521,17 @@ msgstr "Collega a unu dispositivu:"
 
 #: ../plugins/bluetooth/PageComponent.qml:352
 msgid "None detected"
-msgstr ""
+msgstr "Perunu dispositivu rilevadu"
 
 #. TRANSLATORS: %1 is the name of the bluetooth device being paired
 #: ../plugins/bluetooth/ConfirmPasskeyDialog.qml:37
-#, qt-format
+#, fuzzy, qt-format
 msgid "Please confirm that the PIN displayed on '%1' matches this one"
-msgstr ""
+msgstr "Cunfirma chi su PIN ammustradu a '%1' cuncordet cun custu"
 
 #: ../plugins/bluetooth/ConfirmPasskeyDialog.qml:57
 msgid "Confirm PIN"
-msgstr "Cunfirma su PIN\n"
+msgstr "Cunfirma su PIN"
 
 #: ../plugins/language/RebootNecessary.qml:34
 msgid "The device needs to restart for changes to take effect."
@@ -2549,12 +2545,11 @@ msgstr "Torra a aviare immoe"
 
 #: ../plugins/language/PageHardwareKeyboard.qml:33
 msgid "Hardware keyboard"
-msgstr "Tastiera fìsica"
+msgstr "Tecladu fìsicu"
 
 #: ../plugins/language/PageHardwareKeyboard.qml:63
-#, fuzzy
 msgid "Layouts and other sources"
-msgstr "Disinnos e àteras fontes"
+msgstr "Dispositzione e àteras fontes"
 
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../plugins/language/PageComponent.qml:36
@@ -2569,21 +2564,21 @@ msgstr "Ammustra sa limba…"
 #: ../plugins/language/PageComponent.qml:149
 #, fuzzy
 msgid "Enable on-screen keyboard"
-msgstr "Tastiera"
+msgstr "Ativa su tecladu in s'ischermu"
 
 #: ../plugins/language/PageComponent.qml:161
 msgid "On-screen keyboard"
-msgstr "Tastiera in s'ischermu"
+msgstr "Tecladu in s'ischermu"
 
 #: ../plugins/language/PageComponent.qml:162
 #: ../plugins/language/KeyboardLayouts.qml:29
-#, fuzzy
 msgid "Keyboard layouts"
-msgstr "Dispositziones de tastiera"
+msgstr "Dispositziones de tecladu"
 
 #: ../plugins/language/PageComponent.qml:173
+#, fuzzy
 msgid "External keyboard"
-msgstr "Tastiera esterna"
+msgstr "Tecladu esterno"
 
 #: ../plugins/language/PageComponent.qml:185
 #: ../plugins/language/PageComponent.qml:195
@@ -2599,7 +2594,7 @@ msgstr "Curretzione automàtica"
 #: ../plugins/language/PageComponent.qml:217
 #, fuzzy
 msgid "Word suggestions"
-msgstr "Cussìgios de paràulas"
+msgstr "Paràulas acussìgiadas"
 
 #: ../plugins/language/PageComponent.qml:231
 msgid "Auto capitalization"
@@ -2608,7 +2603,7 @@ msgstr "Majùsculas initziales in automàticu"
 #: ../plugins/language/PageComponent.qml:242
 msgid "Turns on Shift to capitalize the first letter of each sentence."
 msgstr ""
-"Ativa su tastu de majùscula pro impreare majùsculas in sa prima lìtera de "
+"Ativa sa tecla de majùscula pro impreare majùsculas in sa prima lìtera de "
 "cada frase."
 
 #: ../plugins/language/PageComponent.qml:249
@@ -2617,23 +2612,23 @@ msgstr "Puntegiadura automàtica"
 
 #: ../plugins/language/PageComponent.qml:261
 msgid "Inserts a period when you tap Space twice."
-msgstr "Insertat unu puntu cando si tocat duas bortas su tastu Ispàtziu."
+msgstr "Insertat unu puntu cando si tocat duas bortas sa tecla Ispàtziu."
 
 #: ../plugins/language/PageComponent.qml:279
 msgid "Keyboard vibration"
-msgstr "Vibratzione de sa tastiera"
+msgstr "Vibratzione de su tecladu"
 
 #: ../plugins/language/PageComponent.qml:290
 msgid "Keyboard opacity"
-msgstr "Dispositziones de tastiera"
+msgstr "Dispositziones de tecladu"
 
 #: ../plugins/language/KeyboardLayouts.qml:49
 msgid "Current layouts:"
-msgstr "Dispositziones de tastiera atuales:"
+msgstr "Dispositziones de tecladu atuales:"
 
 #: ../plugins/language/KeyboardLayouts.qml:49
 msgid "All layouts available:"
-msgstr "Totu is dispositziones de tastiera a disponimentu:"
+msgstr "Totu is dispositziones de tecladu a disponimentu:"
 
 #: ../plugins/language/SpellChecking.qml:64
 msgid "Current spelling languages:"
@@ -2656,8 +2651,9 @@ msgid "Lock the device when it's not in use:"
 msgstr "Bloca su telèfono cando no est impreadu:"
 
 #: ../plugins/battery/SleepValues.qml:75
+#, fuzzy
 msgid "Put the device to sleep when it is not in use:"
-msgstr ""
+msgstr "Assèlia su dispositivu cando no est impreadu:"
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery/SleepValues.qml:86
@@ -2736,7 +2732,6 @@ msgid "Charging now"
 msgstr "Carrighende"
 
 #: ../plugins/battery/PageComponent.qml:271
-#, fuzzy
 msgid "Last full charge"
 msgstr "Ùrtima càrriga cumpleta"
 
@@ -2798,7 +2793,7 @@ msgstr "Reseta su dispositivu"
 #: ../plugins/reset/PageComponent.qml:101
 #: ../plugins/reset/PageComponent.qml:112
 msgid "Reset all system settings…"
-msgstr "Reseta totus is cunfiguratziones de sistema..."
+msgstr "Reseta totus is cunfiguratziones de sistema…"
 
 #: ../plugins/reset/PageComponent.qml:126
 #: ../plugins/reset/PageComponent.qml:138
@@ -2819,7 +2814,7 @@ msgstr "Ischermu collegadu:"
 
 #: ../plugins/brightness/WifiDisplays.qml:128
 msgid "Connecting"
-msgstr "Colleghende·si..."
+msgstr "Colleghende·si"
 
 #: ../plugins/brightness/WifiDisplays.qml:128
 #: ../plugins/brightness/WifiDisplays.qml:172
@@ -2942,8 +2937,9 @@ msgid "Copies"
 msgstr "Còpias"
 
 #: ../plugins/printing/printer-sub-pages/CopiesAndPages.qml:46
+#, fuzzy
 msgid "Paper size"
-msgstr ""
+msgstr "Mannària de su follu"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:30
 msgid "Idle"
@@ -2978,7 +2974,7 @@ msgstr "Tareas"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:53
 msgid "Manage Print Jobs"
-msgstr ""
+msgstr "Atende a is tareas de imprenta"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:78
 msgid "Address"
@@ -2989,8 +2985,9 @@ msgid "Model"
 msgstr "Modellu"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:85
+#, fuzzy
 msgid "Local Raw Printer"
-msgstr ""
+msgstr "Imprentadora locale Raw"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:88
 msgid "Print test page"
@@ -3029,7 +3026,7 @@ msgstr "Datos mòbiles:"
 #: ../plugins/cellular/Components/SingleSim.qml:92
 #: ../plugins/cellular/Components/DataMultiSim.qml:147
 msgid "Data roaming"
-msgstr ""
+msgstr "Roaming de datos"
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:36
 msgid "Cellular data"
@@ -3087,8 +3084,9 @@ msgid "2G/3G/4G (faster)"
 msgstr "2G/3G/4G (prus lestru)"
 
 #: ../plugins/security-privacy/diagnostics/PageComponent.qml:59
+#, fuzzy
 msgid "Privacy policy"
-msgstr ""
+msgstr "Normativa de riservadesa"
 
 #: ../plugins/security-privacy/diagnostics/PageComponent.qml:66
 msgid "Report to Canonical:"
@@ -3328,8 +3326,9 @@ msgstr "fotografia"
 
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:92
+#, fuzzy
 msgid "picture"
-msgstr ""
+msgstr "immàgine"
 
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:94
@@ -3361,7 +3360,7 @@ msgstr "vibra"
 #: ../obj-x86_64-linux-gnu/po/settings.js:106
 #: ../obj-x86_64-linux-gnu/po/settings.js:278
 msgid "dialpad"
-msgstr ""
+msgstr "tecladu numèricu"
 
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:108
@@ -3373,7 +3372,7 @@ msgstr "messàgiu"
 #: ../obj-x86_64-linux-gnu/po/settings.js:110
 #: ../obj-x86_64-linux-gnu/po/settings.js:326
 msgid "keyboard"
-msgstr "tastiera"
+msgstr "tecladu"
 
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:112
@@ -3733,8 +3732,9 @@ msgstr "servìtzios"
 
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:272
+#, fuzzy
 msgid "forwarding"
-msgstr ""
+msgstr "deviatzione"
 
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:274
@@ -3743,8 +3743,9 @@ msgstr "iseta"
 
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:276
+#, fuzzy
 msgid "call"
-msgstr ""
+msgstr "mutida"
 
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:280
