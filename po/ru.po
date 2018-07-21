@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-07-06 08:09+0000\n"
+"PO-Revision-Date: 2018-07-21 11:40+0000\n"
 "Last-Translator: ierihon <idekovets@mail.ru>\n"
 "Language-Team: Russian <https://translate.ubports.com/projects/ubports"
 "/system-settings/ru/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
 "4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2.15\n"
+"X-Generator: Weblate 2.17\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:41+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -1177,7 +1177,7 @@ msgstr "Основные настройки"
 
 #: ../plugins/printing/Printer.qml:44
 msgid "Policies"
-msgstr ""
+msgstr "Разрешения"
 
 #: ../plugins/printing/Printer.qml:47
 #, fuzzy
@@ -2093,7 +2093,7 @@ msgstr ""
 #: ../plugins/about/PageComponent.qml:35
 #: ../obj-x86_64-linux-gnu/po/settings.js:222
 msgid "About"
-msgstr "Сведения о программе"
+msgstr "Сведения"
 
 #: ../plugins/about/PageComponent.qml:99
 msgid "Serial"
@@ -2949,9 +2949,8 @@ msgid "Active"
 msgstr "Включить"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:36
-#, fuzzy
 msgid "Stopped"
-msgstr "Прервать"
+msgstr "Остановлен"
 
 #. TRANSLATORS: %1 is the overall state of the printer, %2 is a more
 #. detailed message from the printer itself.
@@ -2961,9 +2960,8 @@ msgid "%1 — %2"
 msgstr "%1 — %2"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:43
-#, fuzzy
 msgid "No messages"
-msgstr "сообщение"
+msgstr "Нет сообщений"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:48
 msgid "Jobs"
@@ -2993,7 +2991,7 @@ msgstr "Напечатать пробную страницу"
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:43
 msgid "Duplex"
-msgstr ""
+msgstr "Спаренный"
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:59
 #, fuzzy
@@ -3482,7 +3480,7 @@ msgstr "оттенки серого"
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:154
 msgid "color"
-msgstr ""
+msgstr "цвет"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:156
