@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
 "PO-Revision-Date: 2018-07-27 19:17+0000\n"
-"Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
+"Last-Translator: Stefania Reccia <stefa.reccia@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports/"
 "system-settings/sc/>\n"
 "Language: sc\n"
@@ -2640,9 +2640,8 @@ msgid "Lock the device when it's not in use:"
 msgstr "Bloca su telèfono cando no est impreadu:"
 
 #: ../plugins/battery/SleepValues.qml:75
-#, fuzzy
 msgid "Put the device to sleep when it is not in use:"
-msgstr "Assèlia su dispositivu cando no est impreadu:"
+msgstr "Ponit su dispositivu a asseliare cando no est impreadu:"
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery/SleepValues.qml:86
