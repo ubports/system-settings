@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
 "PO-Revision-Date: 2018-07-27 19:09+0000\n"
-"Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
+"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports/"
 "system-settings/sc/>\n"
 "Language: sc\n"
@@ -2370,9 +2370,8 @@ msgstr "Refuda"
 
 #: ../plugins/bluetooth/DevicePage.qml:38
 #: ../plugins/bluetooth/PageComponent.qml:290
-#, fuzzy
 msgid "Connecting…"
-msgstr "Colleghende·si…"
+msgstr "Connetende·si..."
 
 #: ../plugins/bluetooth/DevicePage.qml:39
 msgid "Disconnecting…"
