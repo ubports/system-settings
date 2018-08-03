@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-07-07 08:15+0000\n"
-"Last-Translator: Weblate Admin <flori-weblate@bin.org.in>\n"
-"Language-Team: German <https://translate.ubports.com/projects/ubports/system-"
-"settings/de/>\n"
+"PO-Revision-Date: 2018-08-12 15:04+0000\n"
+"Last-Translator: Florian Leeber <flori@bin.org.in>\n"
+"Language-Team: German <https://translate.ubports.com/projects/ubports/"
+"system-settings/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.15\n"
+"X-Generator: Weblate 2.20\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:40+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -1007,7 +1007,7 @@ msgstr "Eine zweite Verbindung der Basis-Verbindung ist fehlgeschlagen"
 #: ../plugins/battery/PageComponent.qml:364
 #: ../obj-x86_64-linux-gnu/po/settings.js:114
 msgid "Wi-Fi"
-msgstr "Funknetzwerke"
+msgstr "Funknetzwerk"
 
 #: ../plugins/wifi/PageComponent.qml:129
 msgid "Connect to hidden network…"
