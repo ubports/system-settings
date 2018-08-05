@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-08-05 12:30+0000\n"
+"PO-Revision-Date: 2018-08-12 15:04+0000\n"
 "Last-Translator: Tom Rausner <tomrausner@gmail.com>\n"
 "Language-Team: Danish <https://translate.ubports.com/projects/ubports/"
 "system-settings/da/>\n"
@@ -204,7 +204,7 @@ msgstr "Udviklertilstand"
 #: ../plugins/system-update/ChangelogExpander.qml:42
 #, qt-format
 msgid "Version %1"
-msgstr "Version %1"
+msgstr "Udgave %1"
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../plugins/system-update/PageComponent.qml:38
@@ -1626,7 +1626,7 @@ msgstr ""
 #: ../plugins/security-privacy/PageComponent.qml:181
 #: ../plugins/security-privacy/PageComponent.qml:253
 msgid "On"
-msgstr ""
+msgstr "Tændt"
 
 #: ../plugins/security-privacy/PageComponent.qml:185
 #: ../plugins/security-privacy/PageComponent.qml:253
@@ -3005,9 +3005,8 @@ msgid "Manage Print Jobs"
 msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:78
-#, fuzzy
 msgid "Address"
-msgstr "IP-adresse"
+msgstr "Adresse"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:84
 #, fuzzy
