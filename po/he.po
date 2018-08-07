@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-08-07 20:36+0000\n"
+"PO-Revision-Date: 2018-08-07 20:37+0000\n"
 "Last-Translator: Eran <etherpulse@gmail.com>\n"
 "Language-Team: Hebrew <https://translate.ubports.com/projects/ubports/"
 "system-settings/he/>\n"
@@ -320,7 +320,7 @@ msgstr "עדכן הכל"
 #: ../plugins/security-privacy/PhoneLocking.qml:138
 #: ../obj-x86_64-linux-gnu/po/settings.js:36
 msgid "Launcher"
-msgstr ""
+msgstr "משגר ישומים"
 
 #: ../plugins/launcher/PageComponent.qml:65
 msgid "On large screens:"
@@ -328,7 +328,7 @@ msgstr "על מסכים גדולים:"
 
 #: ../plugins/launcher/PageComponent.qml:73
 msgid "Always show the launcher"
-msgstr ""
+msgstr "משגר הישומים מוצג תמיד"
 
 #: ../plugins/launcher/PageComponent.qml:74
 msgid "Videos and full-screen games may hide it temporarily."
@@ -3953,7 +3953,7 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the orientation-lock plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:406
 msgid "Rotation Lock"
-msgstr "נעילת הטייה"
+msgstr "נעילת הטיה"
 
 #. TRANSLATORS: This is a keyword or name for the orientation-lock plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:408
