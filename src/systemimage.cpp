@@ -160,6 +160,23 @@ QString QSystemImage::getSwitchChannel()
   return answer.value();
 }
 
+bool QSystemImage::supportsFirmwareUpdate()
+{
+  QDBusReply<bool> answer = m_iface.call("SupportsFirmwareUpdate");
+  return answer.value();
+}
+
+QString QSystemImage::checkForFirmwareUpdate()
+{
+  QDBusReply<QString> answer = m_iface.call("CheckForFirmwareUpdate");
+  return answer.value();
+}
+QString QSystemImage::updateFirmware()
+{
+  QDBusReply<QString> answer = m_iface.call("UpdateFirmware");
+  return answer.value();
+}
+
 void QSystemImage::applyUpdate() {
     QDBusReply<QString> reply = m_iface.call("ApplyUpdate");
     if (reply.isValid()) {

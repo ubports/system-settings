@@ -110,6 +110,10 @@ public:
     Q_INVOKABLE void factoryReset();
     Q_INVOKABLE bool checkTarget() const;
 
+    Q_INVOKABLE bool supportsFirmwareUpdate();
+    Q_INVOKABLE QString checkForFirmwareUpdate();
+    Q_INVOKABLE QString updateFirmware();
+
 Q_SIGNALS:
     void checkingForUpdatesChanged();
     void currentBuildNumberChanged();
