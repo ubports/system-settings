@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-08-08 16:51+0000\n"
+"PO-Revision-Date: 2018-08-08 16:57+0000\n"
 "Last-Translator: ierihon <idekovets@mail.ru>\n"
 "Language-Team: Belarusian <https://translate.ubports.com/projects/ubports/"
 "system-settings/be/>\n"
@@ -312,11 +312,11 @@ msgstr[2] "даступна %1 абнаўлення"
 
 #: ../plugins/system-update/Global.qml:126
 msgid "Update all…"
-msgstr "Абнавіць усё…"
+msgstr "Абнавіць усе…"
 
 #: ../plugins/system-update/Global.qml:128
 msgid "Update all"
-msgstr ""
+msgstr "Абнавіць усё"
 
 #. TRANSLATORS: This is a keyword or name for the launcher plugin which is used while searching
 #: ../plugins/launcher/PageComponent.qml:31
@@ -327,7 +327,7 @@ msgstr ""
 
 #: ../plugins/launcher/PageComponent.qml:65
 msgid "On large screens:"
-msgstr ""
+msgstr "На вялікіх экранах:"
 
 #: ../plugins/launcher/PageComponent.qml:73
 msgid "Always show the launcher"
@@ -335,15 +335,15 @@ msgstr ""
 
 #: ../plugins/launcher/PageComponent.qml:74
 msgid "Videos and full-screen games may hide it temporarily."
-msgstr ""
+msgstr "Відэа і поўнаэкранныя гульні могуць схаваць яго часова."
 
 #: ../plugins/launcher/PageComponent.qml:85
 msgid "Icon size:"
-msgstr ""
+msgstr "Памер значка:"
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:42
 msgid "Primary button:"
-msgstr ""
+msgstr "Асноўная кнопка:"
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:72
 msgid "Left"
@@ -357,7 +357,7 @@ msgstr ""
 #: ../plugins/mouse/PageComponent.qml:29
 #: ../obj-x86_64-linux-gnu/po/settings.js:42
 msgid "Mouse & Touchpad"
-msgstr ""
+msgstr "Мыш і сенсарная панэль"
 
 #: ../plugins/mouse/None.qml:34
 msgid ""
@@ -365,6 +365,9 @@ msgid ""
 "Bluetooth device isn’t detected, make sure it is turned on and its batteries "
 "are charged."
 msgstr ""
+"Падключыце мыш або сэнсарную панэль праз USB або выкарыстоўвайце прыладу "
+"Bluetooth. Калі прылада Bluetooth не знойдзена, пераканайцеся, што яна "
+"ўключана і яе батарэі зараджаныя."
 
 #: ../plugins/mouse/None.qml:36
 msgid ""
