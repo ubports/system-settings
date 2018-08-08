@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-08-08 16:57+0000\n"
+"PO-Revision-Date: 2018-08-08 17:03+0000\n"
 "Last-Translator: ierihon <idekovets@mail.ru>\n"
 "Language-Team: Belarusian <https://translate.ubports.com/projects/ubports/"
 "system-settings/be/>\n"
@@ -357,7 +357,7 @@ msgstr ""
 #: ../plugins/mouse/PageComponent.qml:29
 #: ../obj-x86_64-linux-gnu/po/settings.js:42
 msgid "Mouse & Touchpad"
-msgstr "Мыш і сенсарная панэль"
+msgstr "Мыш і сэнсарная панэль"
 
 #: ../plugins/mouse/None.qml:34
 msgid ""
@@ -374,26 +374,28 @@ msgid ""
 "You need to use a Bluetooth mouse or touchpad with this display. Make sure "
 "it is close to the device and its batteries are charged."
 msgstr ""
+"Вам трэба выкарыстоўваць Bluetooth-мыш або тачпад з гэтым дысплеем. "
+"Пераканайцеся, што яна блізка да прылады, і яе батарэі зараджаныя."
 
 #: ../plugins/mouse/TapArea.qml:38
 msgid "Not fast enough"
-msgstr ""
+msgstr "Не дастаткова хутка"
 
 #: ../plugins/mouse/TapArea.qml:77
 msgid "Double-clicked"
-msgstr ""
+msgstr "Двайная пстрычка"
 
 #: ../plugins/mouse/Connected.qml:48 ../plugins/bluetooth/DevicePage.qml:59
 msgid "Mouse"
-msgstr ""
+msgstr "Мыш"
 
 #: ../plugins/mouse/Connected.qml:62 ../plugins/mouse/Connected.qml:228
 msgid "Cursor speed:"
-msgstr ""
+msgstr "Хуткасць курсора:"
 
 #: ../plugins/mouse/Connected.qml:98
 msgid "Wheel scrolling speed:"
-msgstr ""
+msgstr "Хуткасць прагорткі:"
 
 #: ../plugins/mouse/Connected.qml:134 ../plugins/mouse/Connected.qml:301
 msgid "Double-click speed:"
