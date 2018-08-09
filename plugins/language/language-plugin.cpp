@@ -198,8 +198,11 @@ LanguagePlugin::updateLanguageNamesAndCodes()
 
         // Filter out locales for which we have no display name.
         if (languageLocale.displayName.isEmpty())
-            // continue;
-            languageLocale.displayName = loc;
+        {
+           qWarning() << "Found a language pack without proper display name. This should be fixed upstream: " << loc;
+           // continue;
+           languageLocale.displayName = loc;
+        }
 
         // Ignore "C"
         // https://github.com/ubports/ubports-touch/issues/182
