@@ -181,12 +181,15 @@ LanguagePlugin::updateLanguageNamesAndCodes()
         {
             case 0:
                tmpLangpack = "pt_PT";
+               qWarning() << "Fixed pt to be pt_PT";
                break;
             case 1:
                tmpLangpack = "sc_IT";
+               qWarning() << "Fixed sc to be sc_IT";
                break;
         }
         QLocale tmpLoc(tmpLangpack);
+        qWarning() << "Added locale " << tmpLoc.name() << " for langpack " << tmpLangpack;
         tmpLocales.append(tmpLoc.name() + QStringLiteral(".UTF-8"));
     }
 
