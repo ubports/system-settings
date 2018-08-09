@@ -207,7 +207,11 @@ LanguagePlugin::updateLanguageNamesAndCodes()
         // Ignore "C"
         // https://github.com/ubports/ubports-touch/issues/182
         if (languageLocale.displayName == "C")
-            continue;
+        {
+           qWarning() << "Found a language pack which display name leads to \"C\". This should be fixed upstream: " << loc;
+           // continue;
+           languageLocale.displayName = loc;
+        }
 
         QLocale tmpLoc(languageLocale.locale.getLanguage());
         languageLocale.likely = tmpLoc.name() == loc.left(loc.indexOf('.')) || // likely if: en_US -> en -> en_US, NOT likely if: en_GB -> en -> en_US
