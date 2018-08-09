@@ -176,9 +176,9 @@ LanguagePlugin::updateLanguageNamesAndCodes()
     QStringList languagesWithoutCountry;
     languagesWithoutCountry << "pt" << "sc";
     Q_FOREACH(const QString &langpack, langpackNames) {
+        QString tmpLangpack = langpack;
         switch(languagesWithoutCountry.indexOf(langpack))
         {
-            QString tmpLangpack = langpack;
             case 0:
                tmpLangpack = "pt_PT";
                break;
