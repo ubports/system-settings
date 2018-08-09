@@ -170,8 +170,22 @@ LanguagePlugin::updateLanguageNamesAndCodes()
     const QStringList langpackNames = langpackDir.entryList(QDir::Dirs | QDir::NoDotAndDotDot | QDir::Readable);
 
     QStringList tmpLocales;
+
+    //Trying to fix a problem of languages that are not correctly assigned to a country
+    //Workaround for https://bugreports.qt.io/browse/QTBUG-47891
+    QStringList languagesWithoutCountry;
+    languagesWithoutCountry << "pt" << "sc";
     Q_FOREACH(const QString &langpack, langpackNames) {
-        QLocale tmpLoc(langpack == "pt" ? "pt_PT" : langpack); // "pt" work around for https://bugreports.qt.io/browse/QTBUG-47891
+        switch(languagesWithoutCountry.indexOf(langpack))
+        {
+            case 0:
+               langpack = "pt_PT";
+               break;
+            case 1:
+               langpack = "sc_IT";
+               break;
+        }
+        QLocale tmpLoc(langpack);
         tmpLocales.append(tmpLoc.name() + QStringLiteral(".UTF-8"));
     }
 
