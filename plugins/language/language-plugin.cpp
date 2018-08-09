@@ -171,8 +171,8 @@ LanguagePlugin::updateLanguageNamesAndCodes()
 
     QStringList tmpLocales;
 
-    //Trying to fix a problem of languages that are not correctly assigned to a country
-    //Workaround for https://bugreports.qt.io/browse/QTBUG-47891
+    // Trying to fix a problem of languages that are not correctly assigned to a country
+    // Workaround for https://bugreports.qt.io/browse/QTBUG-47891
     QStringList languagesWithoutCountry;
     languagesWithoutCountry << "pt" << "sc";
     Q_FOREACH(const QString &langpack, langpackNames) {
@@ -198,7 +198,8 @@ LanguagePlugin::updateLanguageNamesAndCodes()
 
         // Filter out locales for which we have no display name.
         if (languageLocale.displayName.isEmpty())
-            continue;
+            // continue;
+            languageLocale.displayName = loc;
 
         // Ignore "C"
         // https://github.com/ubports/ubports-touch/issues/182
