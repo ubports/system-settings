@@ -178,14 +178,15 @@ LanguagePlugin::updateLanguageNamesAndCodes()
     Q_FOREACH(const QString &langpack, langpackNames) {
         switch(languagesWithoutCountry.indexOf(langpack))
         {
+            QString tmpLangpack = langpack;
             case 0:
-               langpack = "pt_PT";
+               tmpLangpack = "pt_PT";
                break;
             case 1:
-               langpack = "sc_IT";
+               tmpLangpack = "sc_IT";
                break;
         }
-        QLocale tmpLoc(langpack);
+        QLocale tmpLoc(tmpLangpack);
         tmpLocales.append(tmpLoc.name() + QStringLiteral(".UTF-8"));
     }
 
