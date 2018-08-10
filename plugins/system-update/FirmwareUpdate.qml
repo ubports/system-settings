@@ -75,7 +75,6 @@ ItemPage {
               // This means success!
               root.hasUpdate = false
               root.partitions = ""
-              System.skipUntilFinishedPage();
               SystemImage.reboot();
               return;
             }
@@ -110,14 +109,29 @@ ItemPage {
               UbuntuNumberAnimation {}
           }
 
-          Label {
-              anchors.horizontalCenter: parent.horizontalCenter
-              font.weight: Font.Light
-              wrapMode: Text.Wrap
-              textSize: Label.Medium
-              text: hasUpdate ? i18n.tr("There is a firmware update available!")
-                              : i18n.tr("Firmware is up to date!")
+          Rectangle {
+              id: overlay
+              objectName: "overlay"
+              anchors {
+                  left: parent.left
+                  leftMargin: units.gu(2)
+                  right: parent.right
+                  rightMargin: units.gu(2)
+              }
+              visible: placeholder.text
+              color: theme.palette.normal.background
+              height: units.gu(10)
 
+              Label {
+                  id: placeholder
+                  objectName: "overlayText"
+                  anchors.fill: parent
+                  verticalAlignment: Text.AlignVCenter
+                  horizontalAlignment: Text.AlignHCenter
+                  wrapMode: Text.WordWrap
+                  text: hasUpdate ? i18n.tr("There is a firmware update available!")
+                                  : i18n.tr("Firmware is up to date!")
+              }
           }
 
           GridLayout {
@@ -199,6 +213,7 @@ ItemPage {
       id: spinner
       anchors.centerIn: root
       visible: root.isChecking || root.isUpdating
+      spacing: units.gu(1)
 
       ActivityIndicator {
           anchors.horizontalCenter: parent.horizontalCenter
