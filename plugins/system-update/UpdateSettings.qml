@@ -77,6 +77,12 @@ ItemPage {
                 onClicked: pageStack.addPageToNextColumn(updatePage, Qt.resolvedUrl("ChannelSettings.qml"))
             }
             SettingsListItems.SingleValueProgression {
+                objectName: "firmwareUpdate"
+                text: i18n.tr("Firmware update")
+                visible: SystemImage.supportsFirmwareUpdate()
+                onClicked: pageStack.addPageToNextColumn(updatePage, Qt.resolvedUrl("FirmwareUpdate.qml"))
+            }
+            SettingsListItems.SingleValueProgression {
                 objectName: "appReinstall"
                 text: i18n.tr("Reinstall all apps")
                 onClicked: pageStack.addPageToNextColumn(updatePage, Qt.resolvedUrl("ReinstallAllApps.qml"))
