@@ -166,7 +166,7 @@ ItemPage {
               Label {
                   font.weight: Font.Light
                   fontSize: "small"
-                  text: i18n.tr("The device will automatically restart after installing is done.")
+                  text: i18n.tr("The device will restart automatically after installing is done.")
               }
           }
 
