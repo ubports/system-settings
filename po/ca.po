@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-13 19:31+0000\n"
-"Last-Translator: Walter Garcia-Fontes <walter.garcia@upf.edu>\n"
-"Language-Team: Catalan <https://translate.ubports.com/projects/ubports"
-"/system-settings/ca/>\n"
+"PO-Revision-Date: 2018-08-12 15:04+0000\n"
+"Last-Translator: Jaume Angrill <txaume@protonmail.com>\n"
+"Language-Team: Catalan <https://translate.ubports.com/projects/ubports/"
+"system-settings/ca/>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.15\n"
+"X-Generator: Weblate 2.20\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:40+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -2285,7 +2285,7 @@ msgstr "Inicia"
 #: ../plugins/hotspot/PageComponent.qml:85
 #: ../obj-x86_64-linux-gnu/po/settings.js:290
 msgid "Hotspot"
-msgstr "Punt d'accés Wi-Fi"
+msgstr "Punt d'acces"
 
 #: ../plugins/hotspot/PageComponent.qml:114
 msgid ""
