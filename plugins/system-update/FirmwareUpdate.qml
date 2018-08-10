@@ -1,8 +1,9 @@
 /*
  * This file is part of system-settings
  *
- * Copyright (C) 2018 Marius Gripsgard <marius@ubports.com>
+ * Copyright (C) 2018 The UBports Project
  *
+ * Written by: Marius Gripsgard <marius@ubports.com>
  *
  * This program is free software: you can redistribute it and/or modify it
  * under the terms of the GNU General Public License version 3, as published
