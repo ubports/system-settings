@@ -44,13 +44,13 @@ ItemPage {
     property var partitions: ""
 
     function check() {
-        root.isChecking = true
-        console.log(SystemImage.checkForFirmwareUpdate())
+        root.isChecking = true;
+        SystemImage.checkForFirmwareUpdate();
     }
 
     function flash() {
-        root.isUpdating = true
-        SystemImage.updateFirmware()
+        root.isUpdating = true;
+        SystemImage.updateFirmware();
     }
 
     Connections {
@@ -59,28 +59,28 @@ ItemPage {
             var updateobj = JSON.parse(updateObj);
             if (Array.isArray(updateobj) && updateobj.length > 0) {
               for (var u in updateobj) {
-                console.log(u)
+                console.log(u);
                 if (root.partitions === "")
-                  root.partitions += updateobj[u].file
+                  root.partitions += updateobj[u].file;
                 else
-                  root.partitions += ", " + updateobj[u].file
+                  root.partitions += ", " + updateobj[u].file;
               }
               root.hasUpdate = true;
             }
-            console.log(updateobj)
-            root.isChecking = false
+            console.log(updateobj);
+            root.isChecking = false;
         }
         onUpdateFirmwareDone: {
             var updateobj = JSON.parse(updateObj);
             if (Array.isArray(updateobj) && updateobj.length === 0) {
               // This means success!
-              root.hasUpdate = false
-              root.partitions = ""
+              root.hasUpdate = false;
+              root.partitions = "";
               SystemImage.reboot();
               return;
             }
-            console.log(updateobj)
-            root.isUpdating = false
+            console.log(updateobj);
+            root.isUpdating = false;
         }
     }
 
@@ -194,7 +194,7 @@ ItemPage {
                   anchors.fill: parent
                   anchors.horizontalCenter: parent.horizontalCenter
                   onClicked: {
-                      root.flash()
+                      root.flash();
                   }
               }
 
@@ -244,7 +244,7 @@ ItemPage {
         target: NetworkingStatus
         onOnlineChanged: {
             if (online) {
-                root.check()
+                root.check();
         }
     }
   }
