@@ -1,4 +1,5 @@
 /*
+ * Copyright (C) 2018 The UBports project
  * Copyright (C) 2013-2016 Canonical Ltd
  *
  * This program is free software: you can redistribute it and/or modify
@@ -180,6 +181,11 @@ void QSystemImage::updateFirmware()
   auto *watcher = new QDBusPendingCallWatcher(pcall, this);
   QObject::connect(watcher, SIGNAL(finished(QDBusPendingCallWatcher*)),
                    this, SLOT(updateFirmwareSlot(QDBusPendingCallWatcher*)));
+}
+
+void QSystemImage::reboot()
+{
+  m_iface.asyncCall("Reboot");
 }
 
 void QSystemImage::checkForFirmwareUpdateSlot(QDBusPendingCallWatcher *call)

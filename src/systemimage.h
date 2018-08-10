@@ -1,4 +1,5 @@
 /*
+ * Copyright (C) 2018 The UBports project
  * Copyright (C) 2013-2016 Canonical Ltd
  *
  * This program is free software: you can redistribute it and/or modify
@@ -114,6 +115,7 @@ public:
     Q_INVOKABLE bool supportsFirmwareUpdate();
     Q_INVOKABLE void checkForFirmwareUpdate();
     Q_INVOKABLE void updateFirmware();
+    Q_INVOKABLE void reboot();
 
 Q_SIGNALS:
     void checkingForUpdatesChanged();
