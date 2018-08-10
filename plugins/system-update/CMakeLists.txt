@@ -12,6 +12,7 @@ set(QML_SOURCES
     UpdateSettings.qml
     ChannelSettings.qml
     ReinstallAllApps.qml
+    FirmwareUpdate.qml
 )
 
 include_directories(
