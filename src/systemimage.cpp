@@ -26,6 +26,7 @@
 #include <QEvent>
 #include <QDateTime>
 #include <QDBusReply>
+#include <QDBusPendingReply>
 #include <unistd.h>
 
 QSystemImage::QSystemImage(QObject *parent)
@@ -166,15 +167,41 @@ bool QSystemImage::supportsFirmwareUpdate()
   return answer.value();
 }
 
-QString QSystemImage::checkForFirmwareUpdate()
+void QSystemImage::checkForFirmwareUpdate()
 {
-  QDBusReply<QString> answer = m_iface.call("CheckForFirmwareUpdate");
-  return answer.value();
+  auto pcall = m_iface.asyncCall("CheckForFirmwareUpdate");
+  auto *watcher = new QDBusPendingCallWatcher(pcall, this);
+  QObject::connect(watcher, SIGNAL(finished(QDBusPendingCallWatcher*)),
+                   this, SLOT(checkForFirmwareUpdateSlot(QDBusPendingCallWatcher*)));
 }
-QString QSystemImage::updateFirmware()
+void QSystemImage::updateFirmware()
 {
-  QDBusReply<QString> answer = m_iface.call("UpdateFirmware");
-  return answer.value();
+  auto pcall = m_iface.asyncCall("UpdateFirmware");
+  auto *watcher = new QDBusPendingCallWatcher(pcall, this);
+  QObject::connect(watcher, SIGNAL(finished(QDBusPendingCallWatcher*)),
+                   this, SLOT(updateFirmwareSlot(QDBusPendingCallWatcher*)));
+}
+
+void QSystemImage::checkForFirmwareUpdateSlot(QDBusPendingCallWatcher *call)
+{
+    QDBusPendingReply<QString> answer = *call;
+    if (answer.isError()) {
+        Q_EMIT checkForFirmwareUpdateDone("ERR");
+    } else {
+        Q_EMIT checkForFirmwareUpdateDone(answer.value());
+    }
+    call->deleteLater();
+}
+
+void QSystemImage::updateFirmwareSlot(QDBusPendingCallWatcher *call)
+{
+    QDBusPendingReply<QString> answer = *call;
+    if (answer.isError()) {
+        Q_EMIT updateFirmwareDone("ERR");
+    } else {
+        Q_EMIT updateFirmwareDone(answer.value());
+    }
+    call->deleteLater();
 }
 
 void QSystemImage::applyUpdate() {
