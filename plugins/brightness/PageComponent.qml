@@ -40,6 +40,11 @@ ItemPage {
         schema.id: "com.ubuntu.touch.system"
     }
 
+    GSettings {
+        id: u8Settings
+        schema.id: "com.canonical.Unity8"
+    }
+
     AethercastDisplays {
         id: aethercastDisplays
         onEnabledChanged: {
@@ -131,6 +136,51 @@ ItemPage {
                         "Brightens and dims the display to suit the surroundings.")
                 visible: adjust.visible
             }
+
+            ListItem.Divider {
+
+            }
+
+
+            ListItem.Standard {
+                text: i18n.tr("Blue light filter")
+                showDivider: false
+                control: Switch {
+                    id: redFilterEnabledCheck
+                    property bool serverChecked: u8Settings.redFilterEnabled
+                    onServerCheckedChanged: checked = serverChecked
+                    Component.onCompleted: checked = serverChecked
+                    onTriggered: {
+                        u8Settings.redFilterEnabled = checked;
+                    }
+                }
+            }
+
+            /* Use the SliderMenu component instead of the Slider to avoid binding
+               issues on valueChanged until LP: #1388094 is fixed.
+            */
+            Menus.SliderMenu {
+                id: redFilterOpacity
+                objectName: "redFilterOpacity"
+                enabled: u8Settings.redFilterEnabled
+                live: true
+                minimumValue: 0.0
+                maximumValue: 0.9
+                property real serverValue: u8Settings.redFilterOpacity
+                minIcon: "image://theme/remove"
+                maxIcon: "image://theme/add"
+
+                USC.ServerPropertySynchroniser {
+                    userTarget: redFilterOpacity
+                    userProperty: "value"
+                    serverTarget: redFilterOpacity
+                    serverProperty: "serverValue"
+                    maximumWaitBufferInterval: 16
+
+                    onSyncTriggered: u8Settings.redFilterOpacity = value
+                }
+            }
+
 
             ListItem.Divider {
                 visible: brightnessPanel.widiSupported
