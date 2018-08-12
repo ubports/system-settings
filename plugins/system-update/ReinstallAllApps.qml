@@ -1,7 +1,7 @@
 /*
  * This file is part of system-settings
  *
- * Copyright (C) 2018 Marius Gripsgard <marius@ubports.com>
+ * Copyright (C) 2018 The UBports project
  *
  *
  * This program is free software: you can redistribute it and/or modify it
@@ -15,6 +15,8 @@
  *
  * You should have received a copy of the GNU General Public License along
  * with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * Authors: Marius Gripsgard <marius@ubports.com>
  */
 
 import QMenuModel 0.1
