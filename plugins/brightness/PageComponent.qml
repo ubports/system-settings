@@ -180,6 +180,38 @@ ItemPage {
                     onSyncTriggered: u8Settings.redFilterOpacity = value
                 }
             }
+            ListItem.Standard {
+                Text {
+                    id: startLabel
+                    text: "Start time: "
+                    anchors.left: parent.left
+                }
+                TextField {
+                    id: startTime
+                    anchors.left: startLabel.right
+                    width: units.gu(10)
+                    text: u8Settings.redFilterStart
+                    validator: RegExpValidator { regExp: /^(0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]$/ }
+                    onTextChanged: {
+                        u8Settings.redFilterStart = text
+                    }
+                }
+                Text {
+                    id: stopLabel
+                    text: "Stop time: "
+                    anchors.right: stopTime.left
+                }
+                TextField {
+                    id: stopTime
+                    anchors.right: parent.right
+                    width: units.gu(10)
+                    text: u8Settings.redFilterStop
+                    validator: RegExpValidator { regExp: /^(0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]$/ }
+                    onTextChanged: {
+                        u8Settings.redFilterStop = text
+                    }
+                }
+            }
 
 
             ListItem.Divider {
