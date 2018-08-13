@@ -51,9 +51,11 @@ ApiClientImpl::~ApiClientImpl()
 }
 
 void ApiClientImpl::requestMetadata(const QUrl &url,
-                                    const QList<QString> &packages)
+                                    const QList<QString> &packages,
+                                    bool ignoreVersion)
 {
     QUrlQuery query(url);
+    m_ignore_version = ignoreVersion;
 
     QJsonObject body;
 
@@ -182,7 +184,7 @@ void ApiClientImpl::handleRevisionReply(QNetworkReply *reply)
             int localRevision = package["revision"].toInt();
             int remoteRevision = package["latest_revision"].toInt();
             // Do not update sideloaded apps
-            if (localRevision > 0 && remoteRevision > localRevision) {
+            if (localRevision > 0 && remoteRevision > localRevision || m_ignore_version) {
                 appsNeedingUpdate.append(package["id"].toString());
             }
         }

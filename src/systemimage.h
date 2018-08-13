@@ -1,4 +1,5 @@
 /*
+ * Copyright (C) 2018 The UBports project
  * Copyright (C) 2013-2016 Canonical Ltd
  *
  * This program is free software: you can redistribute it and/or modify
@@ -26,6 +27,7 @@
 
 #include <QDBusInterface>
 #include <QDBusServiceWatcher>
+#include <QDBusPendingCallWatcher>
 #include <QObject>
 #include <QDebug>
 #include <QtDBus>
@@ -110,6 +112,11 @@ public:
     Q_INVOKABLE void factoryReset();
     Q_INVOKABLE bool checkTarget() const;
 
+    Q_INVOKABLE bool supportsFirmwareUpdate();
+    Q_INVOKABLE void checkForFirmwareUpdate();
+    Q_INVOKABLE void updateFirmware();
+    Q_INVOKABLE void reboot();
+
 Q_SIGNALS:
     void checkingForUpdatesChanged();
     void currentBuildNumberChanged();
@@ -145,8 +152,12 @@ Q_SIGNALS:
                                const QString &errorReason);
 
     void updateProgress(const int &percentage, const double &eta);
+    void checkForFirmwareUpdateDone(const QString updateObj);
+    void updateFirmwareDone(const QString updateObj);
 
 protected Q_SLOTS:
+    void checkForFirmwareUpdateSlot(QDBusPendingCallWatcher *call);
+    void updateFirmwareSlot(QDBusPendingCallWatcher *call);
     void slotNameOwnerChanged(const QString&, const QString&, const QString&);
     void settingsChanged(const QString &key, const QString &newvalue);
     void availableStatusChanged(const bool isAvailable,

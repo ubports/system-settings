@@ -186,6 +186,11 @@ void ManagerImpl::check()
     setState(State::Manifest);
 }
 
+void ManagerImpl::checkIgnoreVersion() {
+  m_ignore_version = true;
+  check();
+}
+
 void ManagerImpl::retry(const QString &identifier, const uint &revision)
 {
     /* We will not do the token dance here, but rather just create a new signed
@@ -341,11 +346,16 @@ void ManagerImpl::requestMetadata()
     for (auto i = m_candidates.constBegin();
          i != m_candidates.constEnd();
          i++) {
-        QString appWithVersion =
-            QString("%1@%2").arg(i.key()).arg(i.value()->localVersion());
+        QString appWithVersion;
+        if (m_ignore_version)
+          appWithVersion = QString("%1@0").arg(i.key());
+        else
+          appWithVersion =
+                  QString("%1@%2").arg(i.key()).arg(i.value()->localVersion());
+
         appsWithVersion.append(appWithVersion);
     }
-    m_client->requestMetadata(url, appsWithVersion);
+    m_client->requestMetadata(url, appsWithVersion, m_ignore_version);
 }
 
 void ManagerImpl::parseMetadata(const QJsonArray &array)
@@ -372,7 +382,7 @@ void ManagerImpl::parseMetadata(const QJsonArray &array)
         auto revision = download["revision"].toInt();
         // Check if we already have it's metadata.
         auto dbUpdate = m_model->get(identifier, revision);
-        if (dbUpdate) {
+        if (dbUpdate && !m_ignore_version) {
             /* If this update is less than 24 hours old (to us), and it has a
             token, we ignore it. */
             if (dbUpdate->createdAt().secsTo(now) <= 86400

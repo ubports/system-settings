@@ -4,13 +4,15 @@ set(QML_SOURCES
     Configuration.qml
     ChangelogExpander.qml
     DownloadHandler.qml
-    Global.qml
+    GlobalUpdateControls.qml
     ImageUpdatePrompt.qml
     NotAuthenticatedNotification.qml
     PageComponent.qml
     UpdateDelegate.qml
     UpdateSettings.qml
     ChannelSettings.qml
+    ReinstallAllApps.qml
+    FirmwareUpdate.qml
 )
 
 include_directories(

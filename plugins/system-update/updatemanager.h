@@ -65,7 +65,8 @@ public:
         CheckIfNecessary,
         CheckAll,
         CheckClick,
-        CheckImage
+        CheckImage,
+        CheckClickIgnoreVersion
     };
 
     UpdateModel* updates();
