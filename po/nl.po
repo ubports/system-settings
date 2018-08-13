@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-08-12 15:04+0000\n"
-"Last-Translator: Joachim Lazaroms <joachim.pc@gmail.com>\n"
+"PO-Revision-Date: 2018-08-13 17:03+0000\n"
+"Last-Translator: Sander <sander.k1007@kpnmail.nl>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
 "system-settings/nl/>\n"
 "Language: nl\n"
@@ -873,7 +873,7 @@ msgstr "wachtwoord onthouden"
 
 #: ../plugins/wifi/OtherNetwork.qml:905 ../plugins/bluetooth/DevicePage.qml:150
 msgid "Connect"
-msgstr "Verbinding maken"
+msgstr "Verbinden"
 
 #: ../plugins/wifi/RemoveBackground.qml:28
 msgid "Clear"
@@ -2121,9 +2121,8 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../plugins/about/PageComponent.qml:35
 #: ../obj-x86_64-linux-gnu/po/settings.js:222
-#, fuzzy
 msgid "About"
-msgstr "over"
+msgstr "Over"
 
 #: ../plugins/about/PageComponent.qml:99
 msgid "Serial"
@@ -3091,9 +3090,8 @@ msgid "Data roaming"
 msgstr "Gegevensverbinding via zwerfmodus (roaming)"
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:36
-#, fuzzy
 msgid "Cellular data"
-msgstr "Mobiele gegevens:"
+msgstr "Mobiele data"
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:73
 #: ../plugins/cellular/Components/NoSim.qml:36
