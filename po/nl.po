@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-08-13 17:03+0000\n"
+"PO-Revision-Date: 2018-08-24 16:29+0000\n"
 "Last-Translator: Sander <sander.k1007@kpnmail.nl>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
 "system-settings/nl/>\n"
@@ -626,9 +626,8 @@ msgid "Custom Ringtone"
 msgstr "Aangepaste beltoon"
 
 #: ../plugins/sound/SoundsList.qml:206
-#, fuzzy
 msgid "Choose from"
-msgstr "Bron keuze"
+msgstr "Kies uit"
 
 #: ../plugins/wifi/CertDialog.qml:22
 msgid "Add certificate?"
@@ -715,12 +714,10 @@ msgid "WEP"
 msgstr "WEP"
 
 #: ../plugins/wifi/OtherNetwork.qml:322
-#, fuzzy
 msgid "Dynamic WEP (802.1x)"
 msgstr "Dynamisch WEP (802.1x)"
 
 #: ../plugins/wifi/OtherNetwork.qml:323
-#, fuzzy
 msgid "LEAP"
 msgstr "LEAP"
 
@@ -828,14 +825,12 @@ msgid "PEAP version"
 msgstr "PEAP versie"
 
 #: ../plugins/wifi/OtherNetwork.qml:713
-#, fuzzy
 msgid "Version 0"
-msgstr "Versie: "
+msgstr "Versie 0"
 
 #: ../plugins/wifi/OtherNetwork.qml:714
-#, fuzzy
 msgid "Version 1"
-msgstr "Versie: "
+msgstr "Versie 1"
 
 #: ../plugins/wifi/OtherNetwork.qml:715
 msgid "Automatic"
@@ -1062,7 +1057,6 @@ msgid "No devices found."
 msgstr "Geen apparaten gevonden."
 
 #: ../plugins/printing/AddPrinterDetails.qml:37
-#, fuzzy
 msgid "Describe printer"
 msgstr "Beschrijf de printer"
 
@@ -1102,28 +1096,24 @@ msgid "Location"
 msgstr "Plaats"
 
 #: ../plugins/printing/AddPrinterDetails.qml:219
-#, fuzzy
 msgid "Driver"
-msgstr "Driver"
+msgstr "Stuurprogramma"
 
 #: ../plugins/printing/AddPrinterDetails.qml:225
-#, fuzzy
 msgid "Choose driver"
-msgstr "Kies driver"
+msgstr "Kies stuurprogramma"
 
 #: ../plugins/printing/AddPrinterDetails.qml:227
-#, fuzzy
 msgid "Select printer from database"
-msgstr "Kies een printer uit een lijst"
+msgstr "Kies een printer uit de lijst"
 
 #: ../plugins/printing/AddPrinterDetails.qml:228
 msgid "Provide PPD file"
 msgstr "Een PPD bestand is nodig. Geef een PPD bestand."
 
 #: ../plugins/printing/AddPrinterDetails.qml:235
-#, fuzzy
 msgid "Filter drivers"
-msgstr "Filter drivers"
+msgstr "Filter stuurprogramma's"
 
 #: ../plugins/printing/AddPrinterDetails.qml:304
 msgid "PPD file"
@@ -1171,23 +1161,20 @@ msgid "Host"
 msgstr "Host"
 
 #: ../plugins/printing/Printer.qml:42
-#, fuzzy
 msgid "Printer status"
-msgstr "Printer"
+msgstr "Printer status"
 
 #: ../plugins/printing/Printer.qml:43
-#, fuzzy
 msgid "General settings"
-msgstr "Systeeminstellingen"
+msgstr "Algemene instellingen"
 
 #: ../plugins/printing/Printer.qml:44
 msgid "Policies"
 msgstr "Beleid"
 
 #: ../plugins/printing/Printer.qml:47
-#, fuzzy
 msgid "Copies and pages"
-msgstr "Datum & tijd"
+msgstr "Kopieën en pagina's"
 
 #: ../plugins/cellular/PageChooseCarrier.qml:32
 #: ../plugins/cellular/PageChooseCarrier.qml:129
@@ -1205,9 +1192,8 @@ msgstr "Automatisch"
 
 #: ../plugins/cellular/PageCarrierAndApn.qml:27
 #: ../plugins/cellular/Components/SingleSim.qml:110
-#, fuzzy
 msgid "Carrier & APN"
-msgstr "Provider"
+msgstr "Provider & APN"
 
 #. TRANSLATORS: This string is a description of a text
 #. field and should thus be concise.
@@ -1225,30 +1211,25 @@ msgid "Cellular"
 msgstr "Mobiel"
 
 #: ../plugins/cellular/PageCarriersAndApns.qml:27
-#, fuzzy
 msgid "Carriers & APNs"
-msgstr "Providers"
+msgstr "Providers & APNs"
 
 #: ../plugins/cellular/PageChooseApn.qml:64
-#, fuzzy
 msgid "MMS APN"
-msgstr "MMS-APN:"
+msgstr "MMS APN"
 
 #: ../plugins/cellular/PageChooseApn.qml:70
-#, fuzzy
 msgid "Internet APN"
-msgstr "Internet-APN:"
+msgstr "Internet APN"
 
 #: ../plugins/cellular/PageChooseApn.qml:76
-#, fuzzy
 msgid "LTE APN"
-msgstr "%1-APN"
+msgstr "LTE APN"
 
 #: ../plugins/cellular/PageChooseApn.qml:86
 #: ../plugins/cellular/PageApnEditor.qml:158
-#, fuzzy
 msgid "Internet and MMS"
-msgstr "Internet"
+msgstr "Internet en MMS"
 
 #: ../plugins/cellular/PageChooseApn.qml:88
 #: ../plugins/cellular/PageApnEditor.qml:159
@@ -1266,9 +1247,8 @@ msgid "MMS"
 msgstr "MMS"
 
 #: ../plugins/cellular/PageChooseApn.qml:158
-#, fuzzy
 msgid "Reset All APN Settings…"
-msgstr "APN-instellingen herstellen"
+msgstr "Herstel alle APN instellingen…"
 
 #: ../plugins/cellular/PageChooseApn.qml:167
 msgid "Reset APN Settings"
@@ -1316,7 +1296,7 @@ msgstr "Verbinding verbreken"
 #: ../plugins/cellular/PageChooseApn.qml:229
 #, qt-format
 msgid "You have chosen %1 as your preferred Internet APN. "
-msgstr ""
+msgstr "U heeft %1 als uw gewenste Internet APN gekozen. "
 
 #: ../plugins/cellular/PageChooseApn.qml:234
 #: ../plugins/cellular/PageChooseApn.qml:267
@@ -1324,45 +1304,44 @@ msgid "Disable"
 msgstr "Inactief"
 
 #: ../plugins/cellular/PageChooseApn.qml:256
-#, fuzzy, qt-format
+#, qt-format
 msgid "Disconnect %1"
-msgstr "Verbinding verbreken"
+msgstr "Verbreek verbinding %1"
 
 #: ../plugins/cellular/PageChooseApn.qml:257
-#, fuzzy, qt-format
+#, qt-format
 msgid "Disable %1"
-msgstr "uitschakelen"
+msgstr "%1 uitschakelen"
 
 #: ../plugins/cellular/PageChooseApn.qml:262
-#, fuzzy, qt-format
+#, qt-format
 msgid "This disconnects %1."
-msgstr "verbinding verbreken"
+msgstr "Dit verbreekt verbinding %1."
 
 #: ../plugins/cellular/PageChooseApn.qml:263
 #, qt-format
 msgid "This disables %1."
-msgstr ""
+msgstr "Dit schakelt %1 uit."
 
 #: ../plugins/cellular/PageApnEditor.qml:69
 msgid "Edit"
 msgstr "Bewerken"
 
 #: ../plugins/cellular/PageApnEditor.qml:69
-#, fuzzy
 msgid "New APN"
-msgstr "%1-APN"
+msgstr "Nieuwe APN"
 
 #: ../plugins/cellular/PageApnEditor.qml:154
 msgid "Used for:"
-msgstr ""
+msgstr "Gebruikt voor:"
 
 #: ../plugins/cellular/PageApnEditor.qml:187
 msgid "Enter a name describing the APN"
-msgstr ""
+msgstr "Beschrijf de APN"
 
 #: ../plugins/cellular/PageApnEditor.qml:212
 msgid "Enter the name of the access point"
-msgstr ""
+msgstr "Voer de naam van het toegangspunt in"
 
 #: ../plugins/cellular/PageApnEditor.qml:226
 msgid "MMSC"
@@ -3091,7 +3070,7 @@ msgstr "Gegevensverbinding via zwerfmodus (roaming)"
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:36
 msgid "Cellular data"
-msgstr "Mobiele data"
+msgstr "Mobiele gegevens"
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:73
 #: ../plugins/cellular/Components/NoSim.qml:36
