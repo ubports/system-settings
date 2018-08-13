@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-08-13 14:48+0000\n"
+"PO-Revision-Date: 2018-08-13 17:03+0000\n"
 "Last-Translator: Tom Rausner <tomrausner@gmail.com>\n"
 "Language-Team: Danish <https://translate.ubports.com/projects/ubports/"
 "system-settings/da/>\n"
@@ -79,7 +79,7 @@ msgstr "Sat på pause"
 
 #: ../plugins/system-update/UpdateDelegate.qml:235
 msgid "Waiting to download"
-msgstr "Autohentning"
+msgstr "I kø til download"
 
 #: ../plugins/system-update/UpdateDelegate.qml:238
 msgid "Downloading"
