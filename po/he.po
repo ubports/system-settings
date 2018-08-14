@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-08-12 15:04+0000\n"
+"PO-Revision-Date: 2018-08-14 11:28+0000\n"
 "Last-Translator: Eran <etherpulse@gmail.com>\n"
 "Language-Team: Hebrew <https://translate.ubports.com/projects/ubports/"
 "system-settings/he/>\n"
@@ -733,7 +733,7 @@ msgstr "זיהוי פנימי"
 
 #: ../plugins/wifi/OtherNetwork.qml:396
 msgid "CA certificate"
-msgstr ""
+msgstr "תעודת CA"
 
 #. TRANSLATORS: %1 is the name of a certificate file.
 #. The ellipsis indicates that the file name has been
@@ -818,14 +818,12 @@ msgid "PEAP version"
 msgstr "גרסת PEAP"
 
 #: ../plugins/wifi/OtherNetwork.qml:713
-#, fuzzy
 msgid "Version 0"
-msgstr "גרסה: "
+msgstr "גרסה 0"
 
 #: ../plugins/wifi/OtherNetwork.qml:714
-#, fuzzy
 msgid "Version 1"
-msgstr "גרסה: "
+msgstr "גרסה 1"
 
 #: ../plugins/wifi/OtherNetwork.qml:715
 #, fuzzy
@@ -846,7 +844,7 @@ msgstr "שם משתמש"
 
 #: ../plugins/wifi/OtherNetwork.qml:784
 msgid "Private key password"
-msgstr ""
+msgstr "ססמת מפתח פרטי"
 
 #: ../plugins/wifi/OtherNetwork.qml:786 ../plugins/wifi/NetworkDetails.qml:70
 #: ../plugins/cellular/PageApnEditor.qml:357
@@ -859,9 +857,8 @@ msgid "Show password"
 msgstr "הצגת הססמה"
 
 #: ../plugins/wifi/OtherNetwork.qml:857
-#, fuzzy
 msgid "Remember password"
-msgstr "הצגת הססמה"
+msgstr "זכירת הססמה"
 
 #: ../plugins/wifi/OtherNetwork.qml:905 ../plugins/bluetooth/DevicePage.qml:150
 msgid "Connect"
