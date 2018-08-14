@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-08-14 11:28+0000\n"
+"PO-Revision-Date: 2018-08-24 16:29+0000\n"
 "Last-Translator: Eran <etherpulse@gmail.com>\n"
 "Language-Team: Hebrew <https://translate.ubports.com/projects/ubports/"
 "system-settings/he/>\n"
@@ -858,7 +858,7 @@ msgstr "הצגת הססמה"
 
 #: ../plugins/wifi/OtherNetwork.qml:857
 msgid "Remember password"
-msgstr "זכירת הססמה"
+msgstr "זכור ססמה"
 
 #: ../plugins/wifi/OtherNetwork.qml:905 ../plugins/bluetooth/DevicePage.qml:150
 msgid "Connect"
