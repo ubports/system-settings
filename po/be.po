@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-07-21 11:28+0000\n"
+"PO-Revision-Date: 2018-08-08 17:03+0000\n"
 "Last-Translator: ierihon <idekovets@mail.ru>\n"
-"Language-Team: Belarusian <https://translate.ubports.com/projects/ubports"
-"/system-settings/be/>\n"
+"Language-Team: Belarusian <https://translate.ubports.com/projects/ubports/"
+"system-settings/be/>\n"
 "Language: be\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
 "4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2.17\n"
+"X-Generator: Weblate 2.20\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:40+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -35,7 +35,7 @@ msgstr "Перавагі; Налады;"
 
 #: ../plugins/system-update/UpdateDelegate.qml:119
 msgid "Retry"
-msgstr ""
+msgstr "Паўтарыць"
 
 #: ../plugins/system-update/UpdateDelegate.qml:124
 msgid "Update"
@@ -47,15 +47,15 @@ msgstr ""
 
 #: ../plugins/system-update/UpdateDelegate.qml:132
 msgid "Resume"
-msgstr ""
+msgstr "Працягнуць"
 
 #: ../plugins/system-update/UpdateDelegate.qml:139
 msgid "Pause"
-msgstr ""
+msgstr "Прыпыніць"
 
 #: ../plugins/system-update/UpdateDelegate.qml:143
 msgid "Install…"
-msgstr ""
+msgstr "Устаноўка…"
 
 #: ../plugins/system-update/UpdateDelegate.qml:145
 msgid "Install"
@@ -63,23 +63,23 @@ msgstr "Усталяваць"
 
 #: ../plugins/system-update/UpdateDelegate.qml:149
 msgid "Open"
-msgstr ""
+msgstr "Адкрыць"
 
 #: ../plugins/system-update/UpdateDelegate.qml:228
 msgid "Installing"
-msgstr ""
+msgstr "Устаноўка"
 
 #: ../plugins/system-update/UpdateDelegate.qml:232
 msgid "Paused"
-msgstr ""
+msgstr "Прыпынена"
 
 #: ../plugins/system-update/UpdateDelegate.qml:235
 msgid "Waiting to download"
-msgstr ""
+msgstr "Чаканне загрузкі"
 
 #: ../plugins/system-update/UpdateDelegate.qml:238
 msgid "Downloading"
-msgstr ""
+msgstr "Загружаецца"
 
 #. TRANSLATORS: %1 is the human readable amount
 #. of bytes downloaded, and %2 is the total to be
@@ -87,35 +87,35 @@ msgstr ""
 #: ../plugins/system-update/UpdateDelegate.qml:274
 #, qt-format
 msgid "%1 of %2"
-msgstr ""
+msgstr "%1 з %2"
 
 #: ../plugins/system-update/UpdateDelegate.qml:278
 msgid "Downloaded"
-msgstr ""
+msgstr "Загружана"
 
 #: ../plugins/system-update/UpdateDelegate.qml:281
 msgid "Installed"
-msgstr ""
+msgstr "Устаноўлена"
 
 #. TRANSLATORS: %1 is the date at which this
 #. update was applied.
 #: ../plugins/system-update/UpdateDelegate.qml:286
 #, qt-format
 msgid "Updated %1"
-msgstr ""
+msgstr "Абноўлена %1"
 
 #: ../plugins/system-update/UpdateDelegate.qml:310
 msgid "Update failed"
-msgstr ""
+msgstr "Не атрымалася выканаць абнаўленне"
 
 #: ../plugins/system-update/Configuration.qml:30
 #: ../plugins/system-update/UpdateSettings.qml:55
 msgid "Auto download"
-msgstr ""
+msgstr "Аўтаматычная загрузка"
 
 #: ../plugins/system-update/Configuration.qml:35
 msgid "Download future updates automatically:"
-msgstr ""
+msgstr "Загружаць будучыя абнаўленні аўтаматычна:"
 
 #: ../plugins/system-update/Configuration.qml:53
 #: ../plugins/system-update/UpdateSettings.qml:58
@@ -127,24 +127,24 @@ msgstr ""
 #: ../plugins/battery/PageComponent.qml:318
 #: ../plugins/battery/PageComponent.qml:336
 msgid "Never"
-msgstr ""
+msgstr "Ніколі"
 
 #: ../plugins/system-update/Configuration.qml:54
 msgid "When on WiFi"
-msgstr ""
+msgstr "Праз WiFi"
 
 #: ../plugins/system-update/Configuration.qml:56
 msgid "On any data connection"
-msgstr ""
+msgstr "Пры любым злучэнні"
 
 #: ../plugins/system-update/Configuration.qml:57
 msgid "Data charges may apply."
-msgstr ""
+msgstr "Можа спаганяцца плата за дадзеныя."
 
 #: ../plugins/system-update/InstallationFailed.qml:25
 #: ../plugins/system-update/DownloadHandler.qml:174
 msgid "Installation failed"
-msgstr ""
+msgstr "Усталяваць не атрымалася"
 
 #: ../plugins/system-update/InstallationFailed.qml:28
 #: ../plugins/phone/CallForwarding.qml:305
@@ -152,7 +152,7 @@ msgstr ""
 #: ../plugins/vpn/PageComponent.qml:123
 #: ../plugins/cellular/Components/SimEditor.qml:214
 msgid "OK"
-msgstr ""
+msgstr "ОК"
 
 #: ../plugins/system-update/UpdateSettings.qml:32
 #: ../plugins/system-update/PageComponent.qml:412
@@ -162,98 +162,99 @@ msgstr "Сістэмныя налады"
 
 #: ../plugins/system-update/UpdateSettings.qml:60
 msgid "On WiFi"
-msgstr ""
+msgstr "Праз WiFi"
 
 #: ../plugins/system-update/UpdateSettings.qml:62
 msgid "Always"
-msgstr ""
+msgstr "Заўсёды"
 
 #: ../plugins/system-update/UpdateSettings.qml:64 ../plugins/wifi/Common.qml:96
 #: ../plugins/hotspot/Common.qml:94 ../plugins/bluetooth/DevicePage.qml:41
 msgid "Unknown"
-msgstr "Невядомы"
+msgstr "Невядома"
 
 #: ../plugins/system-update/UpdateSettings.qml:71
 msgid "Channels"
-msgstr ""
+msgstr "Каналы"
 
 #: ../plugins/system-update/UpdateSettings.qml:73
 #: ../plugins/system-update/ChannelSettings.qml:57
 msgid "Stable"
-msgstr ""
+msgstr "Стабільны"
 
 #: ../plugins/system-update/UpdateSettings.qml:73
 #: ../plugins/system-update/ChannelSettings.qml:57
 msgid "Release candidate"
-msgstr ""
+msgstr "Кандыдат у рэліз"
 
 #: ../plugins/system-update/UpdateSettings.qml:73
 #: ../plugins/system-update/ChannelSettings.qml:57
 msgid "Development"
-msgstr ""
+msgstr "Распрацоўкі"
 
 #: ../plugins/system-update/ChangelogExpander.qml:42
 #, qt-format
 msgid "Version %1"
-msgstr ""
+msgstr "Версія %1"
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../plugins/system-update/PageComponent.qml:38
 #: ../obj-x86_64-linux-gnu/po/settings.js:14
 msgid "Updates"
-msgstr ""
+msgstr "Абнаўленні"
 
 #: ../plugins/system-update/PageComponent.qml:182
 msgid "Connect to the Internet to check for updates."
-msgstr ""
+msgstr "Падключыцеся да Інтэрнэту, каб праверыць наяўнасць абнаўленняў."
 
 #: ../plugins/system-update/PageComponent.qml:184
 msgid "Software is up to date"
-msgstr ""
+msgstr "Праграмнае забеспячэнне ў актуальным стане"
 
 #: ../plugins/system-update/PageComponent.qml:187
 msgid "The update server is not responding. Try again later."
-msgstr ""
+msgstr "Сервер абнаўленняў не адказвае. Паспрабуйце яшчэ раз пазней."
 
 #: ../plugins/system-update/PageComponent.qml:196
 msgid "Updates Available"
-msgstr ""
+msgstr "Даступны абнаўленні"
 
 #: ../plugins/system-update/PageComponent.qml:349
 msgid "Recent updates"
-msgstr ""
+msgstr "Нядаўнія абнаўленні"
 
 #: ../plugins/system-update/ChannelSettings.qml:32
 msgid "Channel settings"
-msgstr ""
+msgstr "Налады канала"
 
 #: ../plugins/system-update/ChannelSettings.qml:99
 msgid "Fetching channels"
-msgstr ""
+msgstr "Выбар каналаў"
 
 #: ../plugins/system-update/ChannelSettings.qml:107
 msgid "Channel to get updates from:"
-msgstr ""
+msgstr "Канал для атрымання абнаўленняў:"
 
 #: ../plugins/system-update/ChannelSettings.qml:123
 msgid "Switching channel"
-msgstr ""
+msgstr "Пераключэнне каналаў"
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:30
 msgid "Update System"
-msgstr ""
+msgstr "Абнаўленне сістэмы"
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:32
 msgid "The device needs to restart to install the system update."
-msgstr ""
+msgstr "Каб усталяваць абнаўленне сістэмы, неабходна перазагрузіць прыладу."
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:33
 msgid "Connect the device to power before installing the system update."
 msgstr ""
+"Перад устаноўкай абнаўлення сістэмы падключыце прыладу да электрасілкавання."
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:38
 msgid "Restart & Install"
-msgstr ""
+msgstr "Перазагрузка і ўстаноўка"
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:48
 #: ../plugins/background/Preview.qml:107 ../plugins/wifi/CertDialog.qml:65
@@ -286,36 +287,36 @@ msgstr "Скасаваць"
 
 #: ../plugins/system-update/NotAuthenticatedNotification.qml:37
 msgid "Sign in to Ubuntu One to receive updates for apps."
-msgstr ""
+msgstr "Увайдзіце ў Ubuntu One, каб атрымліваць абнаўленні для прыкладанняў."
 
 #: ../plugins/system-update/NotAuthenticatedNotification.qml:54
 msgid "Sign In…"
-msgstr ""
+msgstr "Увайсці…"
 
 #: ../plugins/system-update/Global.qml:84
 msgid "Checking for updates…"
-msgstr ""
+msgstr "Праверка абнаўленняў…"
 
 #: ../plugins/system-update/Global.qml:89
 msgid "Stop"
-msgstr ""
+msgstr "Спыніць"
 
 #. TRANSLATORS: %1 is number of software updates available.
 #: ../plugins/system-update/Global.qml:116
 #, qt-format
 msgid "%1 update available"
 msgid_plural "%1 updates available"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "даступна %1 абнаўленне"
+msgstr[1] "даступна %1 абнаўленняў"
+msgstr[2] "даступна %1 абнаўлення"
 
 #: ../plugins/system-update/Global.qml:126
 msgid "Update all…"
-msgstr ""
+msgstr "Абнавіць усе…"
 
 #: ../plugins/system-update/Global.qml:128
 msgid "Update all"
-msgstr ""
+msgstr "Абнавіць усё"
 
 #. TRANSLATORS: This is a keyword or name for the launcher plugin which is used while searching
 #: ../plugins/launcher/PageComponent.qml:31
@@ -326,7 +327,7 @@ msgstr ""
 
 #: ../plugins/launcher/PageComponent.qml:65
 msgid "On large screens:"
-msgstr ""
+msgstr "На вялікіх экранах:"
 
 #: ../plugins/launcher/PageComponent.qml:73
 msgid "Always show the launcher"
@@ -334,15 +335,15 @@ msgstr ""
 
 #: ../plugins/launcher/PageComponent.qml:74
 msgid "Videos and full-screen games may hide it temporarily."
-msgstr ""
+msgstr "Відэа і поўнаэкранныя гульні могуць схаваць яго часова."
 
 #: ../plugins/launcher/PageComponent.qml:85
 msgid "Icon size:"
-msgstr ""
+msgstr "Памер значка:"
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:42
 msgid "Primary button:"
-msgstr ""
+msgstr "Асноўная кнопка:"
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:72
 msgid "Left"
@@ -356,7 +357,7 @@ msgstr ""
 #: ../plugins/mouse/PageComponent.qml:29
 #: ../obj-x86_64-linux-gnu/po/settings.js:42
 msgid "Mouse & Touchpad"
-msgstr ""
+msgstr "Мыш і сэнсарная панэль"
 
 #: ../plugins/mouse/None.qml:34
 msgid ""
@@ -364,32 +365,37 @@ msgid ""
 "Bluetooth device isn’t detected, make sure it is turned on and its batteries "
 "are charged."
 msgstr ""
+"Падключыце мыш або сэнсарную панэль праз USB або выкарыстоўвайце прыладу "
+"Bluetooth. Калі прылада Bluetooth не знойдзена, пераканайцеся, што яна "
+"ўключана і яе батарэі зараджаныя."
 
 #: ../plugins/mouse/None.qml:36
 msgid ""
 "You need to use a Bluetooth mouse or touchpad with this display. Make sure "
 "it is close to the device and its batteries are charged."
 msgstr ""
+"Вам трэба выкарыстоўваць Bluetooth-мыш або тачпад з гэтым дысплеем. "
+"Пераканайцеся, што яна блізка да прылады, і яе батарэі зараджаныя."
 
 #: ../plugins/mouse/TapArea.qml:38
 msgid "Not fast enough"
-msgstr ""
+msgstr "Не дастаткова хутка"
 
 #: ../plugins/mouse/TapArea.qml:77
 msgid "Double-clicked"
-msgstr ""
+msgstr "Двайная пстрычка"
 
 #: ../plugins/mouse/Connected.qml:48 ../plugins/bluetooth/DevicePage.qml:59
 msgid "Mouse"
-msgstr ""
+msgstr "Мыш"
 
 #: ../plugins/mouse/Connected.qml:62 ../plugins/mouse/Connected.qml:228
 msgid "Cursor speed:"
-msgstr ""
+msgstr "Хуткасць курсора:"
 
 #: ../plugins/mouse/Connected.qml:98
 msgid "Wheel scrolling speed:"
-msgstr ""
+msgstr "Хуткасць прагорткі:"
 
 #: ../plugins/mouse/Connected.qml:134 ../plugins/mouse/Connected.qml:301
 msgid "Double-click speed:"
@@ -708,7 +714,7 @@ msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:321
 msgid "WEP"
-msgstr ""
+msgstr "WEP"
 
 #: ../plugins/wifi/OtherNetwork.qml:322
 msgid "Dynamic WEP (802.1x)"
@@ -861,7 +867,7 @@ msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:905 ../plugins/bluetooth/DevicePage.qml:150
 msgid "Connect"
-msgstr ""
+msgstr "Падлучыцца"
 
 #: ../plugins/wifi/RemoveBackground.qml:28
 msgid "Clear"
@@ -998,7 +1004,7 @@ msgstr ""
 #: ../plugins/battery/PageComponent.qml:364
 #: ../obj-x86_64-linux-gnu/po/settings.js:114
 msgid "Wi-Fi"
-msgstr ""
+msgstr "Wi-Fi"
 
 #: ../plugins/wifi/PageComponent.qml:129
 msgid "Connect to hidden network…"
@@ -1053,7 +1059,7 @@ msgstr ""
 
 #: ../plugins/printing/AddPrinterDetails.qml:44
 msgid "Back"
-msgstr ""
+msgstr "Назад"
 
 #: ../plugins/printing/AddPrinterDetails.qml:137
 #, fuzzy
@@ -1086,7 +1092,7 @@ msgstr ""
 #: ../plugins/security-privacy/Location.qml:34
 #: ../plugins/printing/printer-sub-pages/Status.qml:72
 msgid "Location"
-msgstr ""
+msgstr "Месца"
 
 #: ../plugins/printing/AddPrinterDetails.qml:219
 msgid "Driver"
@@ -1498,7 +1504,7 @@ msgstr ""
 #: ../plugins/security-privacy/LockSecurity.qml:388
 #: ../plugins/hotspot/HotspotSetup.qml:274
 msgid "Change"
-msgstr ""
+msgstr "Змяніць"
 
 #: ../plugins/security-privacy/SimPin.qml:213
 msgid "Enter SIM PIN"
@@ -1578,7 +1584,7 @@ msgstr ""
 #: ../plugins/security-privacy/PageComponent.qml:253
 #: ../plugins/phone/CallForwarding.qml:386
 msgid "Off"
-msgstr ""
+msgstr "Выключыць"
 
 #: ../plugins/security-privacy/PageComponent.qml:192
 msgid "Encryption"
@@ -1919,7 +1925,7 @@ msgstr ""
 
 #: ../plugins/time-date/TimePicker.qml:117
 msgid "Date"
-msgstr ""
+msgstr "Дата"
 
 #: ../plugins/time-date/TimePicker.qml:129
 msgid "Day"
@@ -2107,7 +2113,7 @@ msgstr ""
 #: ../plugins/phone/CallForwardItem.qml:157
 #: ../plugins/phone/CallForwardItem.qml:202
 msgid "Forward to"
-msgstr ""
+msgstr "Пераадрасаваць"
 
 #: ../plugins/phone/CallForwardItem.qml:171
 msgid "Enter a number"
@@ -2118,8 +2124,9 @@ msgid "Call forwarding can’t be changed right now."
 msgstr ""
 
 #: ../plugins/phone/SingleSim.qml:29
+#, fuzzy
 msgid "SIM"
-msgstr ""
+msgstr "SIM"
 
 #. TRANSLATORS: %1 is the name of the (network) carrier
 #: ../plugins/phone/SingleSim.qml:55 ../plugins/phone/Services.qml:36
@@ -2130,7 +2137,7 @@ msgstr ""
 #: ../plugins/phone/ServiceInfo.qml:109
 #, qt-format
 msgid "Last called %1"
-msgstr ""
+msgstr "Апошні выклік %1"
 
 #: ../plugins/phone/ServiceInfo.qml:119
 msgid "Call"
@@ -2148,14 +2155,16 @@ msgid ""
 "Lets you answer or start a new call while on another call, and switch "
 "between them"
 msgstr ""
+"Дазваляе адказаць або пачаць новы выклік падчас іншага выкліку, і "
+"перамыкацца паміж імі"
 
 #: ../plugins/phone/CallForwarding.qml:131
 msgid "Forward every incoming call"
-msgstr ""
+msgstr "Пераадрасоўваць ўсе ўваходныя выклікі"
 
 #: ../plugins/phone/CallForwarding.qml:146
 msgid "Redirects all phone calls to another number."
-msgstr ""
+msgstr "Перанакіраванне ўсіх тэлефонных званкоў на іншы нумар."
 
 #: ../plugins/phone/CallForwarding.qml:158
 msgid "Call forwarding status can’t be checked "
@@ -2163,7 +2172,7 @@ msgstr ""
 
 #: ../plugins/phone/CallForwarding.qml:166
 msgid "Forward incoming calls when:"
-msgstr ""
+msgstr "Пераадрасацыя ўваходных выклікаў, калі:"
 
 #: ../plugins/phone/CallForwarding.qml:175
 msgid "I’m on another call"
@@ -2175,7 +2184,7 @@ msgstr ""
 
 #: ../plugins/phone/CallForwarding.qml:197
 msgid "My phone is unreachable"
-msgstr ""
+msgstr "Мой тэлефон недаступны"
 
 #: ../plugins/phone/CallForwarding.qml:227
 msgid "Contacts…"
@@ -2183,11 +2192,11 @@ msgstr ""
 
 #: ../plugins/phone/CallForwarding.qml:274
 msgid "Please select a phone number"
-msgstr ""
+msgstr "Калі ласка, выберыце нумар тэлефона"
 
 #: ../plugins/phone/CallForwarding.qml:283
 msgid "Numbers"
-msgstr ""
+msgstr "Нумары"
 
 #: ../plugins/phone/CallForwarding.qml:302
 msgid "Could not forward to this contact"
@@ -2195,7 +2204,7 @@ msgstr ""
 
 #: ../plugins/phone/CallForwarding.qml:303
 msgid "Contact not associated with any phone number."
-msgstr ""
+msgstr "Кантакт не звязаны з якім-небудзь нумарам тэлефона."
 
 #: ../plugins/phone/CallForwarding.qml:382
 msgid "All calls"
@@ -2231,14 +2240,14 @@ msgstr ""
 
 #: ../plugins/hotspot/HotspotSetup.qml:275
 msgid "Start"
-msgstr ""
+msgstr "Пуск"
 
 #. TRANSLATORS: This is a keyword or name for the hotspot plugin which is used while searching
 #: ../plugins/hotspot/PageComponent.qml:33
 #: ../plugins/hotspot/PageComponent.qml:85
 #: ../obj-x86_64-linux-gnu/po/settings.js:290
 msgid "Hotspot"
-msgstr ""
+msgstr "Кропка доступу"
 
 #: ../plugins/hotspot/PageComponent.qml:114
 msgid ""
@@ -2333,7 +2342,7 @@ msgstr ""
 
 #: ../plugins/bluetooth/DevicePage.qml:51 ../src/qml/MainWindow.qml:241
 msgid "Network"
-msgstr ""
+msgstr "Сетка"
 
 #: ../plugins/bluetooth/DevicePage.qml:52
 msgid "Headset"
@@ -2648,7 +2657,7 @@ msgstr ""
 #: ../plugins/battery/PageComponent.qml:198
 #: ../plugins/battery/PageComponent.qml:200
 msgid "Today"
-msgstr ""
+msgstr "Сёння"
 
 #: ../plugins/battery/PageComponent.qml:269
 msgid "Charging now"
@@ -2860,19 +2869,19 @@ msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:30
 msgid "Idle"
-msgstr ""
+msgstr "Бяздзейны"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:32
 msgid "Aborted"
-msgstr ""
+msgstr "Адменена"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:34
 msgid "Active"
-msgstr ""
+msgstr "Актыўны"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:36
 msgid "Stopped"
-msgstr ""
+msgstr "Спынены"
 
 #. TRANSLATORS: %1 is the overall state of the printer, %2 is a more
 #. detailed message from the printer itself.
@@ -2883,7 +2892,7 @@ msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:43
 msgid "No messages"
-msgstr ""
+msgstr "Няма паведамленняў"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:48
 msgid "Jobs"
@@ -2947,7 +2956,7 @@ msgstr ""
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:36
 msgid "Cellular data"
-msgstr ""
+msgstr "Мабільная перадача даных"
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:73
 #: ../plugins/cellular/Components/NoSim.qml:36
@@ -2985,7 +2994,7 @@ msgstr ""
 #. this word must be less than 5 characters
 #: ../plugins/cellular/Components/LabelTextField.qml:51
 msgid "Next"
-msgstr ""
+msgstr "Далей"
 
 #: ../plugins/cellular/Components/Sim.qml:46
 msgid "2G only (saves battery)"
@@ -3034,7 +3043,7 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the flight-mode plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:2
 msgid "Flight Mode"
-msgstr ""
+msgstr "Рэжым палёту"
 
 #. TRANSLATORS: This is a keyword or name for the flight-mode plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:4

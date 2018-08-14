@@ -38,6 +38,7 @@ public:
     explicit Manager(QObject *parent = nullptr) : QObject(parent) {};
     virtual ~Manager() {};
     virtual void check() = 0;
+    virtual void checkIgnoreVersion() = 0;
     virtual void cancel() = 0;
 
     /* Launch app.

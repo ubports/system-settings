@@ -27,7 +27,7 @@ import Ubuntu.SystemSettings.Update 1.0
 
 
 ItemPage {
-    id: root
+    id: updatePage
     objectName: "updateSettingsPage"
     title: i18n.tr("Update settings")
     flickable: pageFlickable
@@ -39,7 +39,7 @@ ItemPage {
         contentHeight: contentItem.childrenRect.height
 
         // Only allow flicking if the content doesn't fit on the page
-        boundsBehavior: (contentHeight > root.height) ?
+        boundsBehavior: (contentHeight > updatePage.height) ?
                          Flickable.DragAndOvershootBounds : Flickable.StopAtBounds
 
 
@@ -63,7 +63,7 @@ ItemPage {
                     else
                         return i18n.tr("Unknown")
                 }
-                onClicked: pageStack.addPageToNextColumn(root, Qt.resolvedUrl("Configuration.qml"))
+                onClicked: pageStack.addPageToNextColumn(updatePage, Qt.resolvedUrl("Configuration.qml"))
             }
             SettingsListItems.SingleValueProgression {
                 objectName: "channel"
@@ -74,7 +74,18 @@ ItemPage {
                   var prettyChannels = {"stable": i18n.tr("Stable"), "rc": i18n.tr("Release candidate"), "devel": i18n.tr("Development")}
                   return prettyChannels[channel[channel.length-1]] ? prettyChannels[channel[channel.length-1]] : channel[channel.length-1]
                 }
-                onClicked: pageStack.addPageToNextColumn(root, Qt.resolvedUrl("ChannelSettings.qml"))
+                onClicked: pageStack.addPageToNextColumn(updatePage, Qt.resolvedUrl("ChannelSettings.qml"))
+            }
+            SettingsListItems.SingleValueProgression {
+                objectName: "firmwareUpdate"
+                text: i18n.tr("Firmware update")
+                visible: SystemImage.supportsFirmwareUpdate()
+                onClicked: pageStack.addPageToNextColumn(updatePage, Qt.resolvedUrl("FirmwareUpdate.qml"))
+            }
+            SettingsListItems.SingleValueProgression {
+                objectName: "appReinstall"
+                text: i18n.tr("Reinstall all apps")
+                onClicked: pageStack.addPageToNextColumn(updatePage, Qt.resolvedUrl("ReinstallAllApps.qml"))
             }
         }
     }

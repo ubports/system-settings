@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-07-21 14:58+0000\n"
-"Last-Translator: Stefania Reccia <stefa.reccia@gmail.com>\n"
-"Language-Team: Sardinian <https://translate.ubports.com/projects/ubports"
-"/system-settings/sc/>\n"
+"PO-Revision-Date: 2018-07-27 19:27+0000\n"
+"Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
+"Language-Team: Sardinian <https://translate.ubports.com/projects/ubports/"
+"system-settings/sc/>\n"
 "Language: sc\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.17\n"
+"X-Generator: Weblate 2.19.1\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
 msgid "System Settings"
@@ -988,7 +988,6 @@ msgid "The modem could not be found"
 msgstr "Perunu modem agatadu"
 
 #: ../plugins/wifi/Common.qml:86 ../plugins/hotspot/Common.qml:84
-#, fuzzy
 msgid "The Bluetooth connection failed or timed out"
 msgstr "Faddina in sa connessione Bluetooth o tempus iscàdidu"
 
@@ -1074,9 +1073,8 @@ msgid "Connection"
 msgstr "Colleghende-si"
 
 #: ../plugins/printing/AddPrinterDetails.qml:139
-#, fuzzy
 msgid "Choose a connection"
-msgstr "Sèbera unu nùmene"
+msgstr "Sèbera una connessione"
 
 #: ../plugins/printing/AddPrinterDetails.qml:165
 msgid "Printer name"
@@ -1106,9 +1104,8 @@ msgid "Driver"
 msgstr "Driver"
 
 #: ../plugins/printing/AddPrinterDetails.qml:225
-#, fuzzy
 msgid "Choose driver"
-msgstr "Sèbera su còdighe de atzessu"
+msgstr "Sèbera unu driver"
 
 #: ../plugins/printing/AddPrinterDetails.qml:227
 msgid "Select printer from database"
@@ -1636,9 +1633,8 @@ msgstr "Imbiadu"
 #. TRANSLATORS: This string is shown when crash
 #. reports are not to be sent by the system
 #: ../plugins/security-privacy/PageComponent.qml:276
-#, fuzzy
 msgid "Not sent"
-msgstr "No imbiadu"
+msgstr "Non nd'imbies"
 
 #: ../plugins/security-privacy/Location.qml:96
 msgid "Let the device detect your location:"
@@ -1653,14 +1649,14 @@ msgid "Using GPS"
 msgstr "Cando impreat su GPS"
 
 #: ../plugins/security-privacy/Location.qml:188
-#, fuzzy, qt-format
+#, qt-format
 msgid ""
 "Using GPS, anonymized Wi-Fi and cellular network info.<br>By selecting this "
 "option you accept the <a href='%1'>Nokia HERE terms and conditions</a>."
 msgstr ""
-"Cando impreat GPS, Wi-Fi anònimu e informatzione de rete telefònica."
-"<br>Seletzionende custa opzione atzetas is <a href='%1'>cunditziones de "
-"Nokia HERE</a>."
+"Cando impreat GPS, Wi-Fi anònimu e informatzione de rete telefònica.<br>"
+"Seletzionende custa optzione atzetas is <a href='%1'>cunditziones de Nokia "
+"HERE</a>."
 
 #: ../plugins/security-privacy/Location.qml:189
 #, qt-format
@@ -1807,7 +1803,6 @@ msgid "Those passphrases don't match. Try again."
 msgstr "Is craes non cointzident. Torra·bi a proare."
 
 #: ../plugins/security-privacy/LockSecurity.qml:385
-#, fuzzy
 msgid "Unset"
 msgstr "Iscunfigura"
 
@@ -2375,9 +2370,8 @@ msgstr "Refuda"
 
 #: ../plugins/bluetooth/DevicePage.qml:38
 #: ../plugins/bluetooth/PageComponent.qml:290
-#, fuzzy
 msgid "Connecting…"
-msgstr "Colleghende·si…"
+msgstr "Connetende·si…"
 
 #: ../plugins/bluetooth/DevicePage.qml:39
 msgid "Disconnecting…"
@@ -2416,7 +2410,6 @@ msgid "Other Audio"
 msgstr "Àteru àudio"
 
 #: ../plugins/bluetooth/DevicePage.qml:56
-#, fuzzy
 msgid "Joypad"
 msgstr "Cumandu de giogu"
 
@@ -2442,7 +2435,7 @@ msgstr "Un'àteru"
 
 #: ../plugins/bluetooth/DevicePage.qml:69
 msgid "Excellent"
-msgstr ""
+msgstr "Bona meda"
 
 #: ../plugins/bluetooth/DevicePage.qml:70
 msgid "Good"
@@ -2466,9 +2459,8 @@ msgid "Status"
 msgstr "Istadu"
 
 #: ../plugins/bluetooth/DevicePage.qml:128
-#, fuzzy
 msgid "Signal Strength"
-msgstr "Potenza de signale"
+msgstr "Potèntzia de su signale"
 
 #: ../plugins/bluetooth/DevicePage.qml:133
 #: ../plugins/bluetooth/PageComponent.qml:358
@@ -2525,7 +2517,7 @@ msgstr "Perunu dispositivu rilevadu"
 
 #. TRANSLATORS: %1 is the name of the bluetooth device being paired
 #: ../plugins/bluetooth/ConfirmPasskeyDialog.qml:37
-#, fuzzy, qt-format
+#, qt-format
 msgid "Please confirm that the PIN displayed on '%1' matches this one"
 msgstr "Cunfirma chi su PIN ammustradu a '%1' cuncordet cun custu"
 
@@ -2562,7 +2554,6 @@ msgid "Display language…"
 msgstr "Ammustra sa limba…"
 
 #: ../plugins/language/PageComponent.qml:149
-#, fuzzy
 msgid "Enable on-screen keyboard"
 msgstr "Ativa su tecladu in s'ischermu"
 
@@ -2576,9 +2567,8 @@ msgid "Keyboard layouts"
 msgstr "Dispositziones de tecladu"
 
 #: ../plugins/language/PageComponent.qml:173
-#, fuzzy
 msgid "External keyboard"
-msgstr "Tecladu esterno"
+msgstr "Tecladu esternu"
 
 #: ../plugins/language/PageComponent.qml:185
 #: ../plugins/language/PageComponent.qml:195
@@ -2592,9 +2582,8 @@ msgid "Auto correction"
 msgstr "Curretzione automàtica"
 
 #: ../plugins/language/PageComponent.qml:217
-#, fuzzy
 msgid "Word suggestions"
-msgstr "Paràulas acussìgiadas"
+msgstr "Cussìgios de paràulas"
 
 #: ../plugins/language/PageComponent.qml:231
 msgid "Auto capitalization"
@@ -2651,9 +2640,8 @@ msgid "Lock the device when it's not in use:"
 msgstr "Bloca su telèfono cando no est impreadu:"
 
 #: ../plugins/battery/SleepValues.qml:75
-#, fuzzy
 msgid "Put the device to sleep when it is not in use:"
-msgstr "Assèlia su dispositivu cando no est impreadu:"
+msgstr "Pone su dispositivu a asseliare cando no est impreadu:"
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery/SleepValues.qml:86
@@ -2937,7 +2925,6 @@ msgid "Copies"
 msgstr "Còpias"
 
 #: ../plugins/printing/printer-sub-pages/CopiesAndPages.qml:46
-#, fuzzy
 msgid "Paper size"
 msgstr "Mannària de su follu"
 
@@ -2985,7 +2972,6 @@ msgid "Model"
 msgstr "Modellu"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:85
-#, fuzzy
 msgid "Local Raw Printer"
 msgstr "Imprentadora locale Raw"
 
@@ -3084,7 +3070,6 @@ msgid "2G/3G/4G (faster)"
 msgstr "2G/3G/4G (prus lestru)"
 
 #: ../plugins/security-privacy/diagnostics/PageComponent.qml:59
-#, fuzzy
 msgid "Privacy policy"
 msgstr "Normativa de riservadesa"
 
@@ -3282,7 +3267,7 @@ msgstr "permissos"
 #. TRANSLATORS: This is a keyword or name for the notifications plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:70
 msgid "badges"
-msgstr ""
+msgstr "insignas"
 
 #. TRANSLATORS: This is a keyword or name for the notifications plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:72
@@ -3326,7 +3311,6 @@ msgstr "fotografia"
 
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:92
-#, fuzzy
 msgid "picture"
 msgstr "immàgine"
 
@@ -3548,7 +3532,7 @@ msgstr "puntu de atzessu"
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:184
 msgid "roam"
-msgstr ""
+msgstr "roam"
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
@@ -3732,7 +3716,6 @@ msgstr "servìtzios"
 
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:272
-#, fuzzy
 msgid "forwarding"
 msgstr "deviatzione"
 
@@ -3743,7 +3726,6 @@ msgstr "iseta"
 
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:276
-#, fuzzy
 msgid "call"
 msgstr "mutida"
 
@@ -3954,7 +3936,7 @@ msgstr "openvpn"
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:404
 msgid "routing"
-msgstr ""
+msgstr "percursu"
 
 #. TRANSLATORS: This is a keyword or name for the orientation-lock plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:406
@@ -4002,7 +3984,7 @@ msgstr ""
 
 #: ../plugins/security-privacy/securityprivacy.cpp:413
 msgid "Authentication token manipulation error"
-msgstr ""
+msgstr "Faddina de manipulatzione de su token de autenticatzione"
 
 #: ../plugins/about/click.cpp:168
 msgid "Unknown title"
