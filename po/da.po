@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-08-13 17:03+0000\n"
+"PO-Revision-Date: 2018-08-18 22:44+0000\n"
 "Last-Translator: Tom Rausner <tomrausner@gmail.com>\n"
 "Language-Team: Danish <https://translate.ubports.com/projects/ubports/"
 "system-settings/da/>\n"
@@ -59,7 +59,7 @@ msgstr "Pause"
 
 #: ../plugins/system-update/UpdateDelegate.qml:143
 msgid "Install…"
-msgstr ""
+msgstr "Instalerer…"
 
 #: ../plugins/system-update/UpdateDelegate.qml:145
 msgid "Install"
@@ -83,7 +83,7 @@ msgstr "I kø til download"
 
 #: ../plugins/system-update/UpdateDelegate.qml:238
 msgid "Downloading"
-msgstr ""
+msgstr "Downloader"
 
 #. TRANSLATORS: %1 is the human readable amount
 #. of bytes downloaded, and %2 is the total to be
@@ -91,12 +91,11 @@ msgstr ""
 #: ../plugins/system-update/UpdateDelegate.qml:274
 #, qt-format
 msgid "%1 of %2"
-msgstr ""
+msgstr "%1 af %2"
 
 #: ../plugins/system-update/UpdateDelegate.qml:278
-#, fuzzy
 msgid "Downloaded"
-msgstr "Hent"
+msgstr "Hentet"
 
 #: ../plugins/system-update/UpdateDelegate.qml:281
 msgid "Installed"
@@ -105,14 +104,13 @@ msgstr "Installeret"
 #. TRANSLATORS: %1 is the date at which this
 #. update was applied.
 #: ../plugins/system-update/UpdateDelegate.qml:286
-#, fuzzy, qt-format
+#, qt-format
 msgid "Updated %1"
-msgstr "Opdatér"
+msgstr "Opdateret %1"
 
 #: ../plugins/system-update/UpdateDelegate.qml:310
-#, fuzzy
 msgid "Update failed"
-msgstr "Opdateringer tilgængelige"
+msgstr "Opdatering fejlede"
 
 #: ../plugins/system-update/Configuration.qml:30
 #: ../plugins/system-update/UpdateSettings.qml:55
@@ -150,7 +148,7 @@ msgstr "Der kan være dataafgifter."
 #: ../plugins/system-update/InstallationFailed.qml:25
 #: ../plugins/system-update/DownloadHandler.qml:174
 msgid "Installation failed"
-msgstr "Installation fejlet"
+msgstr "Installation fejlede"
 
 #: ../plugins/system-update/InstallationFailed.qml:28
 #: ../plugins/phone/CallForwarding.qml:305
@@ -179,15 +177,13 @@ msgid "Unknown"
 msgstr "Ukendt"
 
 #: ../plugins/system-update/UpdateSettings.qml:71
-#, fuzzy
 msgid "Channels"
-msgstr "Skift"
+msgstr "Kanaler"
 
 #: ../plugins/system-update/UpdateSettings.qml:73
 #: ../plugins/system-update/ChannelSettings.qml:57
-#, fuzzy
 msgid "Stable"
-msgstr "Tavle-pc"
+msgstr "Stabil"
 
 #: ../plugins/system-update/UpdateSettings.qml:73
 #: ../plugins/system-update/ChannelSettings.qml:57
@@ -196,9 +192,8 @@ msgstr "Release kandidat"
 
 #: ../plugins/system-update/UpdateSettings.qml:73
 #: ../plugins/system-update/ChannelSettings.qml:57
-#, fuzzy
 msgid "Development"
-msgstr "Udviklertilstand"
+msgstr "Udvikling"
 
 #: ../plugins/system-update/ChangelogExpander.qml:42
 #, qt-format
@@ -234,7 +229,7 @@ msgstr "Seneste opdateringer"
 
 #: ../plugins/system-update/ChannelSettings.qml:32
 msgid "Channel settings"
-msgstr "Kanal indstilling"
+msgstr "Kanal indstillinger"
 
 #: ../plugins/system-update/ChannelSettings.qml:99
 msgid "Fetching channels"
@@ -262,7 +257,7 @@ msgstr "Slut enheden til el-nettet, inden du installerer systemopdateringen."
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:38
 msgid "Restart & Install"
-msgstr "Genstart & installer"
+msgstr "Genstart & installér"
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:48
 #: ../plugins/background/Preview.qml:107 ../plugins/wifi/CertDialog.qml:65
@@ -319,12 +314,11 @@ msgstr[1] "%1 opdateringer tilgængelige"
 
 #: ../plugins/system-update/Global.qml:126
 msgid "Update all…"
-msgstr "Opdater alt…"
+msgstr "Opdatér alt…"
 
 #: ../plugins/system-update/Global.qml:128
-#, fuzzy
 msgid "Update all"
-msgstr "Opdatér"
+msgstr "Opdatér alt"
 
 #. TRANSLATORS: This is a keyword or name for the launcher plugin which is used while searching
 #: ../plugins/launcher/PageComponent.qml:31
