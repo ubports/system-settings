@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-08-18 22:44+0000\n"
+"PO-Revision-Date: 2018-08-19 14:08+0000\n"
 "Last-Translator: Tom Rausner <tomrausner@gmail.com>\n"
 "Language-Team: Danish <https://translate.ubports.com/projects/ubports/"
 "system-settings/da/>\n"
@@ -314,7 +314,7 @@ msgstr[1] "%1 opdateringer tilgængelige"
 
 #: ../plugins/system-update/Global.qml:126
 msgid "Update all…"
-msgstr "Opdatér alt…"
+msgstr "Opdatérer alt…"
 
 #: ../plugins/system-update/Global.qml:128
 msgid "Update all"
@@ -329,7 +329,7 @@ msgstr ""
 
 #: ../plugins/launcher/PageComponent.qml:65
 msgid "On large screens:"
-msgstr ""
+msgstr "På store skærme:"
 
 #: ../plugins/launcher/PageComponent.qml:73
 msgid "Always show the launcher"
@@ -2962,20 +2962,19 @@ msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:30
 msgid "Idle"
-msgstr ""
+msgstr "Tomgang"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:32
 msgid "Aborted"
-msgstr ""
+msgstr "Afbrudt"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:34
 msgid "Active"
 msgstr "Aktiv"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:36
-#, fuzzy
 msgid "Stopped"
-msgstr "Stop"
+msgstr "Stoppet"
 
 #. TRANSLATORS: %1 is the overall state of the printer, %2 is a more
 #. detailed message from the printer itself.
@@ -2985,9 +2984,8 @@ msgid "%1 — %2"
 msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:43
-#, fuzzy
 msgid "No messages"
-msgstr "Meddelelser:"
+msgstr "Ingen meddelelser"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:48
 msgid "Jobs"
