@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-08-19 17:52+0000\n"
+"PO-Revision-Date: 2018-08-24 16:29+0000\n"
 "Last-Translator: Øjvind Fritjof Arnfred <fritjofarnfred@protonmail.com>\n"
 "Language-Team: Danish <https://translate.ubports.com/projects/ubports/"
 "system-settings/da/>\n"
@@ -341,26 +341,25 @@ msgstr ""
 
 #: ../plugins/launcher/PageComponent.qml:85
 msgid "Icon size:"
-msgstr "Ikonstørrelse"
+msgstr "Ikonstørrelse:"
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:42
 msgid "Primary button:"
-msgstr ""
+msgstr "Hovedknap:"
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:72
 msgid "Left"
-msgstr ""
+msgstr "Venstre"
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:89
-#, fuzzy
 msgid "Right"
-msgstr "fly"
+msgstr "Højre"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../plugins/mouse/PageComponent.qml:29
 #: ../obj-x86_64-linux-gnu/po/settings.js:42
 msgid "Mouse & Touchpad"
-msgstr ""
+msgstr "Mus og touchpad"
 
 #: ../plugins/mouse/None.qml:34
 msgid ""
@@ -438,7 +437,7 @@ msgstr "Sidst forbundet"
 #: ../plugins/notifications/PageComponent.qml:29
 #: ../obj-x86_64-linux-gnu/po/settings.js:56
 msgid "Notifications"
-msgstr ""
+msgstr "Notifikationer"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:72
 msgid "Let this app alert me using:"
@@ -872,7 +871,7 @@ msgstr ""
 #: ../plugins/wifi/OtherNetwork.qml:786 ../plugins/wifi/NetworkDetails.qml:70
 #: ../plugins/cellular/PageApnEditor.qml:357
 msgid "Password"
-msgstr "Adgangskode"
+msgstr "Password"
 
 #: ../plugins/wifi/OtherNetwork.qml:821 ../plugins/wifi/NetworkDetails.qml:84
 #: ../plugins/hotspot/HotspotSetup.qml:224
