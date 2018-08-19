@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-08-12 15:04+0000\n"
-"Last-Translator: joseph <joseph@liau.ca>\n"
+"PO-Revision-Date: 2018-08-24 16:29+0000\n"
+"Last-Translator: ArashiHino <hinoaras.hi82@gmail.com>\n"
 "Language-Team: Japanese <https://translate.ubports.com/projects/ubports/"
 "system-settings/ja/>\n"
 "Language: ja\n"
@@ -1132,7 +1132,7 @@ msgstr ""
 #: ../plugins/security-privacy/Location.qml:34
 #: ../plugins/printing/printer-sub-pages/Status.qml:72
 msgid "Location"
-msgstr "位置情報"
+msgstr "位置"
 
 #: ../plugins/printing/AddPrinterDetails.qml:219
 msgid "Driver"
