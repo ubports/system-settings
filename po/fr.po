@@ -1095,7 +1095,7 @@ msgstr "Facultatif"
 #: ../plugins/security-privacy/Location.qml:34
 #: ../plugins/printing/printer-sub-pages/Status.qml:72
 msgid "Location"
-msgstr "Position"
+msgstr "Emplacement"
 
 #: ../plugins/printing/AddPrinterDetails.qml:219
 msgid "Driver"
