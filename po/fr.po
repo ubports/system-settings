@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-08-19 18:30+0000\n"
+"PO-Revision-Date: 2018-08-19 18:31+0000\n"
 "Last-Translator: Anne Onyme <anneonyme017@openmailbox.org>\n"
 "Language-Team: French <https://translate.ubports.com/projects/ubports/"
 "system-settings/fr/>\n"
@@ -1095,7 +1095,7 @@ msgstr "Facultatif"
 #: ../plugins/security-privacy/Location.qml:34
 #: ../plugins/printing/printer-sub-pages/Status.qml:72
 msgid "Location"
-msgstr "Lieu"
+msgstr "Position"
 
 #: ../plugins/printing/AddPrinterDetails.qml:219
 msgid "Driver"
