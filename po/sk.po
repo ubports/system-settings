@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-11 21:44+0000\n"
-"Last-Translator: jEzEk <jezek@chicki.sk>\n"
-"Language-Team: Slovak <https://translate.ubports.com/projects/ubports/system-"
-"settings/sk/>\n"
+"PO-Revision-Date: 2018-08-24 16:29+0000\n"
+"Last-Translator: P_E_T_O <peto.bena@gmail.com>\n"
+"Language-Team: Slovak <https://translate.ubports.com/projects/ubports/"
+"system-settings/sk/>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 2.15\n"
+"X-Generator: Weblate 2.20\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
 msgid "System Settings"
@@ -324,11 +324,11 @@ msgstr "Spúšťací panel"
 
 #: ../plugins/launcher/PageComponent.qml:65
 msgid "On large screens:"
-msgstr ""
+msgstr "Na veľkých obrazovkách:"
 
 #: ../plugins/launcher/PageComponent.qml:73
 msgid "Always show the launcher"
-msgstr ""
+msgstr "Vždy zobrazovať spúšťač"
 
 #: ../plugins/launcher/PageComponent.qml:74
 msgid "Videos and full-screen games may hide it temporarily."
@@ -710,7 +710,7 @@ msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:321
 msgid "WEP"
-msgstr ""
+msgstr "WEP"
 
 #: ../plugins/wifi/OtherNetwork.qml:322
 msgid "Dynamic WEP (802.1x)"
@@ -863,7 +863,7 @@ msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:905 ../plugins/bluetooth/DevicePage.qml:150
 msgid "Connect"
-msgstr ""
+msgstr "Pripojiť"
 
 #: ../plugins/wifi/RemoveBackground.qml:28
 msgid "Clear"
@@ -1000,7 +1000,7 @@ msgstr "Druhotné pripojenie základného pripojenia zlyhalo"
 #: ../plugins/battery/PageComponent.qml:364
 #: ../obj-x86_64-linux-gnu/po/settings.js:114
 msgid "Wi-Fi"
-msgstr "Wi-Fi"
+msgstr "Wifi"
 
 #: ../plugins/wifi/PageComponent.qml:129
 msgid "Connect to hidden network…"
@@ -1037,14 +1037,12 @@ msgid "Add printer"
 msgstr ""
 
 #: ../plugins/printing/AddPrinter.qml:65
-#, fuzzy
 msgid "Enter URI"
-msgstr "Zadajte PIN pre SIM kartu"
+msgstr "Zadajte URI"
 
 #: ../plugins/printing/AddPrinter.qml:78
-#, fuzzy
 msgid "Devices"
-msgstr "Služby"
+msgstr "Zariadenia"
 
 #: ../plugins/printing/AddPrinter.qml:133
 msgid "No devices found."
@@ -1056,29 +1054,25 @@ msgstr ""
 
 #: ../plugins/printing/AddPrinterDetails.qml:44
 msgid "Back"
-msgstr ""
+msgstr "Späť"
 
 #: ../plugins/printing/AddPrinterDetails.qml:137
-#, fuzzy
 msgid "Connection"
-msgstr "Poloha"
+msgstr "Pripojenie"
 
 #: ../plugins/printing/AddPrinterDetails.qml:139
-#, fuzzy
 msgid "Choose a connection"
-msgstr "Vyber názov"
+msgstr "Vybrať pripojenie"
 
 #: ../plugins/printing/AddPrinterDetails.qml:165
-#, fuzzy
 msgid "Printer name"
-msgstr "Zadajte užívateľské meno"
+msgstr "Názov tlačiarne"
 
 #: ../plugins/printing/AddPrinterDetails.qml:202
 #: ../plugins/printing/printer-sub-pages/Status.qml:66
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:32
-#, fuzzy
 msgid "Description"
-msgstr "Šifrovanie"
+msgstr "Popis"
 
 #: ../plugins/printing/AddPrinterDetails.qml:204
 #: ../plugins/printing/AddPrinterDetails.qml:211
@@ -1098,9 +1092,8 @@ msgid "Driver"
 msgstr ""
 
 #: ../plugins/printing/AddPrinterDetails.qml:225
-#, fuzzy
 msgid "Choose driver"
-msgstr "Vybrať z"
+msgstr "Vybrať ovládač"
 
 #: ../plugins/printing/AddPrinterDetails.qml:227
 msgid "Select printer from database"
@@ -1163,9 +1156,8 @@ msgid "Printer status"
 msgstr ""
 
 #: ../plugins/printing/Printer.qml:43
-#, fuzzy
 msgid "General settings"
-msgstr "Nastavenia kanálu"
+msgstr "Všeobecné nastavenia"
 
 #: ../plugins/printing/Printer.qml:44
 msgid "Policies"
@@ -2536,9 +2528,8 @@ msgid "Display language…"
 msgstr "Jazyk zobrazenia…"
 
 #: ../plugins/language/PageComponent.qml:149
-#, fuzzy
 msgid "Enable on-screen keyboard"
-msgstr "Obrazovková klávesnica"
+msgstr "Aktivuje klávesnicu na obrazovke"
 
 #: ../plugins/language/PageComponent.qml:161
 msgid "On-screen keyboard"
@@ -2884,13 +2875,12 @@ msgid "Remove images…"
 msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:27
-#, fuzzy
 msgid "Enabled"
-msgstr "Zablokovaný"
+msgstr "Aktivovaný"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:46
 msgid "Default"
-msgstr ""
+msgstr "Predvolené"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:47
 msgid "This is the default printer."
@@ -2914,20 +2904,19 @@ msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:30
 msgid "Idle"
-msgstr ""
+msgstr "Nečinný"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:32
 msgid "Aborted"
-msgstr ""
+msgstr "Zrušený"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:34
 msgid "Active"
 msgstr "Aktívne"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:36
-#, fuzzy
 msgid "Stopped"
-msgstr "Zastaviť"
+msgstr "Zastavený"
 
 #. TRANSLATORS: %1 is the overall state of the printer, %2 is a more
 #. detailed message from the printer itself.
@@ -2937,9 +2926,8 @@ msgid "%1 — %2"
 msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:43
-#, fuzzy
 msgid "No messages"
-msgstr "Správy:"
+msgstr "Žiadne správy"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:48
 msgid "Jobs"
@@ -2950,9 +2938,8 @@ msgid "Manage Print Jobs"
 msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:78
-#, fuzzy
 msgid "Address"
-msgstr "Adresa Wi-Fi"
+msgstr "Adresa"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:84
 msgid "Model"
@@ -2971,9 +2958,8 @@ msgid "Duplex"
 msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:59
-#, fuzzy
 msgid "Color model"
-msgstr "Vývojársky režim"
+msgstr "Farebný model"
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:75
 msgid "Quality"
@@ -3004,7 +2990,7 @@ msgstr ""
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:36
 msgid "Cellular data"
-msgstr ""
+msgstr "Mobilné dáta"
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:73
 #: ../plugins/cellular/Components/NoSim.qml:36
