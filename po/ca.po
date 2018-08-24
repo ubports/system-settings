@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-08-24 22:31+0000\n"
+"PO-Revision-Date: 2018-08-26 00:00+0000\n"
 "Last-Translator: Joan CiberSheep <cibersheep@gmail.com>\n"
 "Language-Team: Catalan <https://translate.ubports.com/projects/ubports/"
 "system-settings/ca/>\n"
@@ -2781,7 +2781,7 @@ msgstr "Reinicia tots els paràmetres del sistema…"
 #: ../plugins/reset/PageComponent.qml:126
 #: ../plugins/reset/PageComponent.qml:138
 msgid "Erase & Reset All"
-msgstr "Suprimeix i reinicia-ho tot"
+msgstr "Suprimeix-ho i reinicia-ho tot"
 
 #: ../plugins/brightness/WifiDisplays.qml:27
 msgid "Wireless Display"
