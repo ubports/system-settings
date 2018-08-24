@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-08-19 00:00+0000\n"
+"PO-Revision-Date: 2018-08-24 22:31+0000\n"
 "Last-Translator: Joan CiberSheep <cibersheep@gmail.com>\n"
 "Language-Team: Catalan <https://translate.ubports.com/projects/ubports/"
 "system-settings/ca/>\n"
@@ -1247,15 +1247,15 @@ msgstr "MMS"
 
 #: ../plugins/cellular/PageChooseApn.qml:158
 msgid "Reset All APN Settings…"
-msgstr "Reinicialitza tots els paràmetres de l'APN…"
+msgstr "Reinicia tots els paràmetres de l'APN…"
 
 #: ../plugins/cellular/PageChooseApn.qml:167
 msgid "Reset APN Settings"
-msgstr "Reinicialitza els paràmetres de l'APN"
+msgstr "Reinicia els paràmetres de l'APN"
 
 #: ../plugins/cellular/PageChooseApn.qml:168
 msgid "Are you sure that you want to Reset APN Settings?"
-msgstr "Segur que voleu reinicialitzar els paràmetres de l'APN?"
+msgstr "Segur que voleu reiniciar els paràmetres de l'APN?"
 
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../plugins/cellular/PageChooseApn.qml:171
@@ -2746,7 +2746,7 @@ msgstr ""
 
 #: ../plugins/reset/ResetAllSettings.qml:31
 msgid "Reset all system settings"
-msgstr "Reinicialitza tots els paràmetres del sistema"
+msgstr "Reinicia tots els paràmetres del sistema"
 
 #: ../plugins/reset/ResetLauncherHome.qml:40
 msgid "The Launcher will be returned to its original contents."
@@ -2755,7 +2755,7 @@ msgstr "Es reiniciarà el contingut del Llançador al seu estat original."
 #: ../plugins/reset/ResetLauncherHome.qml:44
 #: ../plugins/reset/PageComponent.qml:75 ../plugins/reset/PageComponent.qml:86
 msgid "Reset Launcher"
-msgstr "Reinicialitza el llançador"
+msgstr "Reinicia el llançador"
 
 #: ../plugins/reset/EraseEverything.qml:41
 msgid ""
@@ -2767,7 +2767,7 @@ msgstr ""
 
 #: ../plugins/reset/EraseEverything.qml:44
 msgid "Erase & Reset Everything"
-msgstr "Suprimeix i reinicialitza-ho tot"
+msgstr "Suprimeix i reinicia-ho tot"
 
 #: ../plugins/reset/PageComponent.qml:32
 msgid "Reset device"
@@ -2776,12 +2776,12 @@ msgstr "Reinicia el dispositiu"
 #: ../plugins/reset/PageComponent.qml:101
 #: ../plugins/reset/PageComponent.qml:112
 msgid "Reset all system settings…"
-msgstr "Reinicialitza tots els paràmetres del sistema…"
+msgstr "Reinicia tots els paràmetres del sistema…"
 
 #: ../plugins/reset/PageComponent.qml:126
 #: ../plugins/reset/PageComponent.qml:138
 msgid "Erase & Reset All"
-msgstr "Suprimeix i reinicialita-ho tot"
+msgstr "Suprimeix i reinicialitza-ho tot"
 
 #: ../plugins/brightness/WifiDisplays.qml:27
 msgid "Wireless Display"
