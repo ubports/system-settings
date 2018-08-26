@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-08-26 13:28+0000\n"
-"Last-Translator: Henrik Holm <hbir@post10.tele.dk>\n"
+"PO-Revision-Date: 2018-08-26 13:46+0000\n"
+"Last-Translator: Øjvind Fritjof Arnfred <fritjofarnfred@protonmail.com>\n"
 "Language-Team: Danish <https://translate.ubports.com/projects/ubports/"
 "system-settings/da/>\n"
 "Language: da\n"
@@ -219,9 +219,8 @@ msgid "The update server is not responding. Try again later."
 msgstr "Opdateringsserveren reagerer ikke. Prøv igen senere."
 
 #: ../plugins/system-update/PageComponent.qml:196
-#, fuzzy
 msgid "Updates Available"
-msgstr "Opdateringer tilgængelige"
+msgstr "Tilgængelige opdateringer"
 
 #: ../plugins/system-update/PageComponent.qml:349
 msgid "Recent updates"
@@ -325,7 +324,7 @@ msgstr "Opdatér alt"
 #: ../plugins/security-privacy/PhoneLocking.qml:138
 #: ../obj-x86_64-linux-gnu/po/settings.js:36
 msgid "Launcher"
-msgstr ""
+msgstr "Launcher"
 
 #: ../plugins/launcher/PageComponent.qml:65
 msgid "On large screens:"
@@ -337,7 +336,7 @@ msgstr ""
 
 #: ../plugins/launcher/PageComponent.qml:74
 msgid "Videos and full-screen games may hide it temporarily."
-msgstr ""
+msgstr "Videoer og spil i fuld-skærm kan skjule den midlertidigt."
 
 #: ../plugins/launcher/PageComponent.qml:85
 msgid "Icon size:"
@@ -381,7 +380,7 @@ msgstr "Sendes ikke"
 
 #: ../plugins/mouse/TapArea.qml:77
 msgid "Double-clicked"
-msgstr ""
+msgstr "Dobbeltklikket"
 
 #: ../plugins/mouse/Connected.qml:48 ../plugins/bluetooth/DevicePage.qml:59
 msgid "Mouse"
@@ -389,7 +388,7 @@ msgstr "Mus"
 
 #: ../plugins/mouse/Connected.qml:62 ../plugins/mouse/Connected.qml:228
 msgid "Cursor speed:"
-msgstr ""
+msgstr "Markørhastighed"
 
 #: ../plugins/mouse/Connected.qml:98
 msgid "Wheel scrolling speed:"
@@ -502,12 +501,11 @@ msgstr "Lyd"
 
 #: ../plugins/notifications/ClickAppsSoundsNotify.qml:48
 msgid "Apps that notify with sound:"
-msgstr "Apps der giver besked med lyd:"
+msgstr "Apps der notificerer via lyd:"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:30
-#, fuzzy
 msgid "Vibration"
-msgstr "rotation"
+msgstr "Vibration"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:54
 msgid "When in Silent mode:"
@@ -524,7 +522,7 @@ msgstr ""
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:89
 msgid "Apps that notify with vibrations:"
-msgstr ""
+msgstr "Apps der notificerer via vibration:"
 
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../plugins/background/MainPage.qml:38
@@ -1099,9 +1097,8 @@ msgstr "Printer"
 #: ../plugins/printing/AddPrinterDetails.qml:202
 #: ../plugins/printing/printer-sub-pages/Status.qml:66
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:32
-#, fuzzy
 msgid "Description"
-msgstr "Enheds-build-beskrivelse"
+msgstr "Beskrivelse"
 
 #: ../plugins/printing/AddPrinterDetails.qml:204
 #: ../plugins/printing/AddPrinterDetails.qml:211
@@ -1114,7 +1111,7 @@ msgstr ""
 #: ../plugins/security-privacy/Location.qml:34
 #: ../plugins/printing/printer-sub-pages/Status.qml:72
 msgid "Location"
-msgstr "Placering"
+msgstr "Sted"
 
 #: ../plugins/printing/AddPrinterDetails.qml:219
 msgid "Driver"
@@ -1145,7 +1142,7 @@ msgstr ""
 #: ../plugins/printing/PageComponent.qml:32
 #: ../obj-x86_64-linux-gnu/po/settings.js:134
 msgid "Printing"
-msgstr "Udskrivning"
+msgstr "Printer"
 
 #: ../plugins/printing/PageComponent.qml:45
 msgid "Manager Printer Jobs"
@@ -1336,9 +1333,9 @@ msgid "Disconnect %1"
 msgstr "Afbryd forbindelse"
 
 #: ../plugins/cellular/PageChooseApn.qml:257
-#, fuzzy, qt-format
+#, qt-format
 msgid "Disable %1"
-msgstr "Kan detekteres"
+msgstr "Deaktivér %1"
 
 #: ../plugins/cellular/PageChooseApn.qml:262
 #, qt-format
@@ -2303,7 +2300,7 @@ msgstr ""
 
 #: ../plugins/hotspot/HotspotSetup.qml:275
 msgid "Start"
-msgstr ""
+msgstr "Start"
 
 #. TRANSLATORS: This is a keyword or name for the hotspot plugin which is used while searching
 #: ../plugins/hotspot/PageComponent.qml:33
