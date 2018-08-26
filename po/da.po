@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
 "PO-Revision-Date: 2018-08-26 13:28+0000\n"
-"Last-Translator: Øjvind Fritjof Arnfred <fritjofarnfred@protonmail.com>\n"
+"Last-Translator: Henrik Holm <hbir@post10.tele.dk>\n"
 "Language-Team: Danish <https://translate.ubports.com/projects/ubports/"
 "system-settings/da/>\n"
 "Language: da\n"
@@ -441,7 +441,7 @@ msgstr "Notifikationer"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:72
 msgid "Let this app alert me using:"
-msgstr ""
+msgstr "Lad denne app alarmere mig med:"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:81
 #: ../plugins/notifications/PageComponent.qml:177
