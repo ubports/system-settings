@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-08-24 16:29+0000\n"
+"PO-Revision-Date: 2018-08-26 13:28+0000\n"
 "Last-Translator: Øjvind Fritjof Arnfred <fritjofarnfred@protonmail.com>\n"
 "Language-Team: Danish <https://translate.ubports.com/projects/ubports/"
 "system-settings/da/>\n"
@@ -286,7 +286,7 @@ msgstr "Genstart & installér"
 #: ../plugins/background/Components/AddRemove.qml:42
 #: ../plugins/cellular/Components/SimEditor.qml:203
 msgid "Cancel"
-msgstr "Annullér"
+msgstr "Annuller"
 
 #: ../plugins/system-update/NotAuthenticatedNotification.qml:37
 msgid "Sign in to Ubuntu One to receive updates for apps."
@@ -457,7 +457,7 @@ msgstr "Andre lyde:"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:125
 msgid "Notification Bubbles"
-msgstr ""
+msgstr "notifikationsbeskeder"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:147
 #: ../plugins/notifications/PageComponent.qml:186
@@ -502,7 +502,7 @@ msgstr "Lyd"
 
 #: ../plugins/notifications/ClickAppsSoundsNotify.qml:48
 msgid "Apps that notify with sound:"
-msgstr ""
+msgstr "Apps der giver besked med lyd:"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:30
 #, fuzzy
