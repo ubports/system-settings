@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-08-26 00:00+0000\n"
+"PO-Revision-Date: 2018-09-01 08:49+0000\n"
 "Last-Translator: Joan CiberSheep <cibersheep@gmail.com>\n"
 "Language-Team: Catalan <https://translate.ubports.com/projects/ubports/"
 "system-settings/ca/>\n"
@@ -2064,14 +2064,14 @@ msgstr "Llicències de programari"
 
 #: ../plugins/about/DevMode.qml:35 ../plugins/about/DevMode.qml:90
 msgid "Developer Mode"
-msgstr "Mode de desenvolupador"
+msgstr "Mode de desenvolupament"
 
 #: ../plugins/about/DevMode.qml:84
 msgid ""
 "In Developer Mode, anyone can access, change or delete anything on this "
 "device by connecting it to another device."
 msgstr ""
-"En el mode de desenvolupador, qualsevol persona pot accedir, modificar o "
+"En el mode de desenvolupament, qualsevol persona pot accedir, modificar o "
 "eliminar el contingut d'aquest dispositiu connectant-lo a un altre "
 "dispositiu."
 
@@ -2079,7 +2079,7 @@ msgstr ""
 msgid "You need a passcode or passphrase set to use Developer Mode."
 msgstr ""
 "Us caldrà establir un codi d'accés o contrasenya per utilitzar el mode de "
-"desenvolupador."
+"desenvolupament."
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../plugins/about/PageComponent.qml:35
@@ -2131,7 +2131,7 @@ msgstr "Informació normativa"
 
 #: ../plugins/about/PageComponent.qml:238
 msgid "Developer mode"
-msgstr "Mode de desenvolupador"
+msgstr "Mode de desenvolupament"
 
 #: ../plugins/phone/MultiSim.qml:42 ../plugins/phone/SingleSim.qml:34
 #: ../plugins/phone/NoSims.qml:34 ../plugins/phone/CallWaiting.qml:31
@@ -3656,7 +3656,7 @@ msgstr "llicències"
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:244
 msgid "developer"
-msgstr "desenvolupador"
+msgstr "desenvolupament"
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:248
