@@ -36,7 +36,7 @@ Column {
         text: i18n.tr("No SIM detected")
         fontSize: "large"
         horizontalAlignment: Text.AlignHCenter
-        color: UbuntuColors.lightGrey
+        color: UbuntuColors.red
         wrapMode: Text.WordWrap
     }
 
@@ -44,7 +44,7 @@ Column {
         anchors { left: parent.left; right: parent.right; }
         text: i18n.tr("Insert a SIM, then restart the device.")
         horizontalAlignment: Text.AlignHCenter
-        color: UbuntuColors.lightGrey
+        color: UbuntuColors.slate
         wrapMode: Text.WordWrap
     }
 }
