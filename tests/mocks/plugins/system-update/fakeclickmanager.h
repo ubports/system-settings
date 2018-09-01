@@ -40,6 +40,12 @@ public:
         Q_EMIT checkingForUpdatesChanged();
     }
 
+    virtual void checkIgnoreVersion() override
+    {
+        m_checkingForUpdates = true;
+        Q_EMIT checkingForUpdatesChanged();
+    }
+
     virtual void cancel() override
     {
         m_checkingForUpdates = false;

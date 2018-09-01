@@ -184,10 +184,13 @@ void UpdateManager::check(const Check check)
         m_clickManager->check();
         break;
     case Check::CheckClick:
-            m_clickManager->check();
+        m_clickManager->check();
         break;
     case Check::CheckImage:
-            m_imageManager->check();
+        m_imageManager->check();
+        break;
+    case Check::CheckClickIgnoreVersion:
+        m_clickManager->checkIgnoreVersion();
         break;
     }
 }
