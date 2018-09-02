@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-07-27 19:27+0000\n"
+"PO-Revision-Date: 2018-08-12 15:04+0000\n"
 "Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports/"
 "system-settings/sc/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.19.1\n"
+"X-Generator: Weblate 2.20\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
 msgid "System Settings"
@@ -871,7 +871,7 @@ msgstr "Ammenta sa crae"
 
 #: ../plugins/wifi/OtherNetwork.qml:905 ../plugins/bluetooth/DevicePage.qml:150
 msgid "Connect"
-msgstr "Collega·ti"
+msgstr "Connete"
 
 #: ../plugins/wifi/RemoveBackground.qml:28
 msgid "Clear"
@@ -2288,7 +2288,7 @@ msgstr "Cumintza"
 #: ../plugins/hotspot/PageComponent.qml:85
 #: ../obj-x86_64-linux-gnu/po/settings.js:290
 msgid "Hotspot"
-msgstr "Puntu de atzessu WiFi"
+msgstr "Puntu de atzessu Wi-Fi"
 
 #: ../plugins/hotspot/PageComponent.qml:114
 msgid ""

@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-13 19:31+0000\n"
-"Last-Translator: Walter Garcia-Fontes <walter.garcia@upf.edu>\n"
-"Language-Team: Catalan <https://translate.ubports.com/projects/ubports"
-"/system-settings/ca/>\n"
+"PO-Revision-Date: 2018-09-01 08:49+0000\n"
+"Last-Translator: Joan CiberSheep <cibersheep@gmail.com>\n"
+"Language-Team: Catalan <https://translate.ubports.com/projects/ubports/"
+"system-settings/ca/>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.15\n"
+"X-Generator: Weblate 2.20\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:40+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -539,7 +539,7 @@ msgstr "Personalitzat"
 
 #: ../plugins/background/MainPage.qml:118
 msgid "Dash background"
-msgstr "Fons del traç"
+msgstr "Fons del llançador"
 
 #: ../plugins/background/MainPage.qml:131
 msgid "Opacity:"
@@ -868,7 +868,7 @@ msgstr "Recorda la contrasenya"
 
 #: ../plugins/wifi/OtherNetwork.qml:905 ../plugins/bluetooth/DevicePage.qml:150
 msgid "Connect"
-msgstr "Connecta-t'hi"
+msgstr "Connecta"
 
 #: ../plugins/wifi/RemoveBackground.qml:28
 msgid "Clear"
@@ -1008,7 +1008,7 @@ msgstr "Ha fallat una connexió secundària de la connexió principal"
 #: ../plugins/battery/PageComponent.qml:364
 #: ../obj-x86_64-linux-gnu/po/settings.js:114
 msgid "Wi-Fi"
-msgstr "Wi-Fi"
+msgstr "Sense fil"
 
 #: ../plugins/wifi/PageComponent.qml:129
 msgid "Connect to hidden network…"
@@ -1247,15 +1247,15 @@ msgstr "MMS"
 
 #: ../plugins/cellular/PageChooseApn.qml:158
 msgid "Reset All APN Settings…"
-msgstr "Reinicialitza tots els paràmetres de l'APN…"
+msgstr "Reinicia tots els paràmetres de l'APN…"
 
 #: ../plugins/cellular/PageChooseApn.qml:167
 msgid "Reset APN Settings"
-msgstr "Reinicialitza els paràmetres de l'APN"
+msgstr "Reinicia els paràmetres de l'APN"
 
 #: ../plugins/cellular/PageChooseApn.qml:168
 msgid "Are you sure that you want to Reset APN Settings?"
-msgstr "Segur que voleu reinicialitzar els paràmetres de l'APN?"
+msgstr "Segur que voleu reiniciar els paràmetres de l'APN?"
 
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../plugins/cellular/PageChooseApn.qml:171
@@ -2064,14 +2064,14 @@ msgstr "Llicències de programari"
 
 #: ../plugins/about/DevMode.qml:35 ../plugins/about/DevMode.qml:90
 msgid "Developer Mode"
-msgstr "Mode de desenvolupador"
+msgstr "Mode de desenvolupament"
 
 #: ../plugins/about/DevMode.qml:84
 msgid ""
 "In Developer Mode, anyone can access, change or delete anything on this "
 "device by connecting it to another device."
 msgstr ""
-"En el mode de desenvolupador, qualsevol persona pot accedir, modificar o "
+"En el mode de desenvolupament, qualsevol persona pot accedir, modificar o "
 "eliminar el contingut d'aquest dispositiu connectant-lo a un altre "
 "dispositiu."
 
@@ -2079,7 +2079,7 @@ msgstr ""
 msgid "You need a passcode or passphrase set to use Developer Mode."
 msgstr ""
 "Us caldrà establir un codi d'accés o contrasenya per utilitzar el mode de "
-"desenvolupador."
+"desenvolupament."
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../plugins/about/PageComponent.qml:35
@@ -2131,7 +2131,7 @@ msgstr "Informació normativa"
 
 #: ../plugins/about/PageComponent.qml:238
 msgid "Developer mode"
-msgstr "Mode de desenvolupador"
+msgstr "Mode de desenvolupament"
 
 #: ../plugins/phone/MultiSim.qml:42 ../plugins/phone/SingleSim.qml:34
 #: ../plugins/phone/NoSims.qml:34 ../plugins/phone/CallWaiting.qml:31
@@ -2285,7 +2285,7 @@ msgstr "Inicia"
 #: ../plugins/hotspot/PageComponent.qml:85
 #: ../obj-x86_64-linux-gnu/po/settings.js:290
 msgid "Hotspot"
-msgstr "Punt d'accés Wi-Fi"
+msgstr "Punt d'acces"
 
 #: ../plugins/hotspot/PageComponent.qml:114
 msgid ""
@@ -2746,7 +2746,7 @@ msgstr ""
 
 #: ../plugins/reset/ResetAllSettings.qml:31
 msgid "Reset all system settings"
-msgstr "Reinicialitza tots els paràmetres del sistema"
+msgstr "Reinicia tots els paràmetres del sistema"
 
 #: ../plugins/reset/ResetLauncherHome.qml:40
 msgid "The Launcher will be returned to its original contents."
@@ -2755,7 +2755,7 @@ msgstr "Es reiniciarà el contingut del Llançador al seu estat original."
 #: ../plugins/reset/ResetLauncherHome.qml:44
 #: ../plugins/reset/PageComponent.qml:75 ../plugins/reset/PageComponent.qml:86
 msgid "Reset Launcher"
-msgstr "Reinicialitza el llançador"
+msgstr "Reinicia el llançador"
 
 #: ../plugins/reset/EraseEverything.qml:41
 msgid ""
@@ -2767,7 +2767,7 @@ msgstr ""
 
 #: ../plugins/reset/EraseEverything.qml:44
 msgid "Erase & Reset Everything"
-msgstr "Suprimeix i reinicialitza-ho tot"
+msgstr "Suprimeix-ho i reinicia-ho tot"
 
 #: ../plugins/reset/PageComponent.qml:32
 msgid "Reset device"
@@ -2776,12 +2776,12 @@ msgstr "Reinicia el dispositiu"
 #: ../plugins/reset/PageComponent.qml:101
 #: ../plugins/reset/PageComponent.qml:112
 msgid "Reset all system settings…"
-msgstr "Reinicialitza tots els paràmetres del sistema…"
+msgstr "Reinicia tots els paràmetres del sistema…"
 
 #: ../plugins/reset/PageComponent.qml:126
 #: ../plugins/reset/PageComponent.qml:138
 msgid "Erase & Reset All"
-msgstr "Suprimeix i reinicialita-ho tot"
+msgstr "Suprimeix-ho i reinicia-ho tot"
 
 #: ../plugins/brightness/WifiDisplays.qml:27
 msgid "Wireless Display"
@@ -3656,7 +3656,7 @@ msgstr "llicències"
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:244
 msgid "developer"
-msgstr "desenvolupador"
+msgstr "desenvolupament"
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:248

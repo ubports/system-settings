@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-08-08 17:03+0000\n"
+"PO-Revision-Date: 2018-08-12 15:04+0000\n"
 "Last-Translator: ierihon <idekovets@mail.ru>\n"
 "Language-Team: Belarusian <https://translate.ubports.com/projects/ubports/"
 "system-settings/be/>\n"
@@ -357,7 +357,7 @@ msgstr ""
 #: ../plugins/mouse/PageComponent.qml:29
 #: ../obj-x86_64-linux-gnu/po/settings.js:42
 msgid "Mouse & Touchpad"
-msgstr "Мыш і сэнсарная панэль"
+msgstr "Мыш і сенсарная панэль"
 
 #: ../plugins/mouse/None.qml:34
 msgid ""
@@ -365,7 +365,7 @@ msgid ""
 "Bluetooth device isn’t detected, make sure it is turned on and its batteries "
 "are charged."
 msgstr ""
-"Падключыце мыш або сэнсарную панэль праз USB або выкарыстоўвайце прыладу "
+"Падключыце мыш або сенсарную панэль праз USB або выкарыстоўвайце прыладу "
 "Bluetooth. Калі прылада Bluetooth не знойдзена, пераканайцеся, што яна "
 "ўключана і яе батарэі зараджаныя."
 
@@ -383,7 +383,7 @@ msgstr "Не дастаткова хутка"
 
 #: ../plugins/mouse/TapArea.qml:77
 msgid "Double-clicked"
-msgstr "Двайная пстрычка"
+msgstr "Падвойная пстрычка"
 
 #: ../plugins/mouse/Connected.qml:48 ../plugins/bluetooth/DevicePage.qml:59
 msgid "Mouse"
@@ -399,15 +399,15 @@ msgstr "Хуткасць прагорткі:"
 
 #: ../plugins/mouse/Connected.qml:134 ../plugins/mouse/Connected.qml:301
 msgid "Double-click speed:"
-msgstr ""
+msgstr "Хуткасць падвойнай пстрычкі:"
 
 #: ../plugins/mouse/Connected.qml:168 ../plugins/mouse/Connected.qml:335
 msgid "Test double-click:"
-msgstr ""
+msgstr "Праверка падвойнай пстрычкі:"
 
 #: ../plugins/mouse/Connected.qml:214
 msgid "Touchpad"
-msgstr ""
+msgstr "Сенсарная панэль"
 
 #: ../plugins/mouse/Connected.qml:264
 msgid "Finger scrolling speed:"
