@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-08-07 20:37+0000\n"
+"PO-Revision-Date: 2018-08-24 16:29+0000\n"
 "Last-Translator: Eran <etherpulse@gmail.com>\n"
 "Language-Team: Hebrew <https://translate.ubports.com/projects/ubports/"
 "system-settings/he/>\n"
@@ -328,7 +328,7 @@ msgstr "על מסכים גדולים:"
 
 #: ../plugins/launcher/PageComponent.qml:73
 msgid "Always show the launcher"
-msgstr "משגר הישומים מוצג תמיד"
+msgstr "משגר היישומים מוצג תמיד"
 
 #: ../plugins/launcher/PageComponent.qml:74
 msgid "Videos and full-screen games may hide it temporarily."
@@ -490,7 +490,7 @@ msgstr "בועות"
 #: ../plugins/sound/PageComponent.qml:39
 #: ../obj-x86_64-linux-gnu/po/settings.js:96
 msgid "Sound"
-msgstr "שמע"
+msgstr "צליל"
 
 #: ../plugins/notifications/ClickAppsSoundsNotify.qml:48
 msgid "Apps that notify with sound:"
@@ -712,11 +712,11 @@ msgstr "WEP"
 
 #: ../plugins/wifi/OtherNetwork.qml:322
 msgid "Dynamic WEP (802.1x)"
-msgstr ""
+msgstr "WEP  דינמי (802.1x)"
 
 #: ../plugins/wifi/OtherNetwork.qml:323
 msgid "LEAP"
-msgstr ""
+msgstr "LEAP"
 
 #: ../plugins/wifi/OtherNetwork.qml:332
 msgid "This network is insecure."
@@ -733,7 +733,7 @@ msgstr "זיהוי פנימי"
 
 #: ../plugins/wifi/OtherNetwork.qml:396
 msgid "CA certificate"
-msgstr ""
+msgstr "תעודת CA"
 
 #. TRANSLATORS: %1 is the name of a certificate file.
 #. The ellipsis indicates that the file name has been
@@ -818,14 +818,12 @@ msgid "PEAP version"
 msgstr "גרסת PEAP"
 
 #: ../plugins/wifi/OtherNetwork.qml:713
-#, fuzzy
 msgid "Version 0"
-msgstr "גרסה: "
+msgstr "גרסה 0"
 
 #: ../plugins/wifi/OtherNetwork.qml:714
-#, fuzzy
 msgid "Version 1"
-msgstr "גרסה: "
+msgstr "גרסה 1"
 
 #: ../plugins/wifi/OtherNetwork.qml:715
 #, fuzzy
@@ -846,7 +844,7 @@ msgstr "שם משתמש"
 
 #: ../plugins/wifi/OtherNetwork.qml:784
 msgid "Private key password"
-msgstr ""
+msgstr "ססמת מפתח פרטי"
 
 #: ../plugins/wifi/OtherNetwork.qml:786 ../plugins/wifi/NetworkDetails.qml:70
 #: ../plugins/cellular/PageApnEditor.qml:357
@@ -859,9 +857,8 @@ msgid "Show password"
 msgstr "הצגת הססמה"
 
 #: ../plugins/wifi/OtherNetwork.qml:857
-#, fuzzy
 msgid "Remember password"
-msgstr "הצגת הססמה"
+msgstr "זכור ססמה"
 
 #: ../plugins/wifi/OtherNetwork.qml:905 ../plugins/bluetooth/DevicePage.qml:150
 msgid "Connect"
