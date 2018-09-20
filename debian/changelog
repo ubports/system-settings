@@ -1,3 +1,10 @@
+ubuntu-system-settings (0.4.2~0ubports1) xenial; urgency=medium
+
+  * debian/changelog: New versioning scheme
+  * Fix incomplete battery graph (LP: #1502820)
+
+ -- Alberto Mardegan <mardy@users.sourceforge.net>  Thu, 20 Sep 2018 20:37:50 +0300
+
 ubuntu-system-settings (0.4.1+ubports1) xenial; urgency=medium
 
   [ Jonas G. Drange ]
