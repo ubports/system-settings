@@ -246,8 +246,9 @@ ItemPage {
                     gradient.addColorStop(0, "red");
                     ctx.strokeStyle = gradient
 
-                    /* Get infos from battery0, on a day (60*24*24=86400 seconds), with 150 points on the graph */
-                    var chargeDatas = batteryBackend.getHistory(batteryBackend.deviceString, 86400, 150)
+                    /* Get infos from battery0, on a day (60*24*24=86400 seconds), with 150 points on the graph.
+                     * To ensure we get a valid starting point, we query the values up to two days ago */
+                    var chargeDatas = batteryBackend.getHistory(batteryBackend.deviceString, 86400 * 2, 150)
 
                     /* time is the offset in seconds compared to the current time (negative value)
                        we display the charge on a day, which is 86400 seconds, the value is the % */
