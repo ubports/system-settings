@@ -19,9 +19,6 @@ include_directories(
     /usr/include/apt-pkg/
 )
 
-pkg_check_modules(UAL REQUIRED ubuntu-app-launch-3)
-add_definitions(${UAL_CFLAGS} ${UAL_CFLAGS_OTHER})
-
 add_library(UpdatePlugin SHARED
     click/apiclient.h
     click/manager.h
@@ -45,10 +42,14 @@ add_library(UpdatePlugin SHARED
     ../../src/i18n.cpp
 )
 target_link_libraries(UpdatePlugin
-    Qt5::Quick Qt5::Core Qt5::Network Qt5::Sql
+    Qt5::Core
+    Qt5::Gui
+    Qt5::Network
+    Qt5::Quick
+    Qt5::Sql
+
     apt-pkg
     uss-systemimage
-    ${UAL_LDFLAGS}
 )
 
 add_library(UbuntuUpdatePanel MODULE
