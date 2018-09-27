@@ -29,7 +29,7 @@ set(XVFB_CMD
 )
 
 if(NOT qmltestrunner_exe)
-  msg(FATAL_ERROR "Could not locate qmltestrunner.")
+  message(FATAL_ERROR "Could not locate qmltestrunner.")
 endif()
 
 macro(add_manual_qml_test SUBPATH COMPONENT_NAME)
