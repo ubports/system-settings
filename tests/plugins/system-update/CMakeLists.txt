@@ -7,15 +7,12 @@ include_directories(
     ${QTDBUSTEST_INCLUDE_DIRS}
 )
 
-pkg_check_modules(UAL REQUIRED ubuntu-app-launch-2)
-add_definitions(${UAL_CFLAGS} ${UAL_CFLAGS_OTHER})
-
 find_package(Qt5Test REQUIRED)
 find_package(Qt5Sql REQUIRED)
 
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
-set(PLUGIN_LIBS UpdatePlugin Qt5::Test Qt5::Sql ${UAL_LDFLAGS})
+set(PLUGIN_LIBS UpdatePlugin Qt5::Test Qt5::Sql)
 
 file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/mockclickserver.py DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
 

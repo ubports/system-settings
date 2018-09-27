@@ -23,9 +23,8 @@
 #include "network/accessmanager_impl.h"
 #include "../../src/i18n.h"
 
-#include <ubuntu-app-launch.h>
-
 #include <QDateTime>
+#include <QDesktopServices>
 #include <QFinalState>
 #include <QState>
 #include <QJsonDocument>
@@ -212,15 +211,9 @@ void ManagerImpl::cancel()
 
 bool ManagerImpl::launch(const QString &identifier)
 {
-    bool success = false;
-    gchar *appId = ubuntu_app_launch_triplet_to_app_id(
-        identifier.toLatin1().data(), nullptr, nullptr
-    );
-    if (appId) {
-        success = ubuntu_app_launch_start_application(appId, nullptr);
-    }
-    g_free(appId);
-    return success;
+    auto url = QStringLiteral(
+        "appid://%1/first-listed-app/current-user-version").arg(identifier);
+    return QDesktopServices::openUrl(url);
 }
 
 void ManagerImpl::handleManifest(const QJsonArray &manifest)
