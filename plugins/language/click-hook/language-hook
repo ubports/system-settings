@@ -1,0 +1,43 @@
+#! /bin/sh
+
+set -e
+
+HOOKS_DIR="/var/lib/misc/language-packs"
+
+LOCALE_SRC="$HOOKS_DIR/locale"
+LOCALE_DEST="/usr/share/locale"
+
+LANGPACK_SRC="$HOOKS_DIR/locale-langpack"
+LANGPACK_DEST="/usr/share/locale-langpack"
+
+HUNSPELL_SRC="$HOOKS_DIR/hunspell"
+HUNSPELL_DEST="/usr/share/hunspell"
+
+PRESAGE_SRC="$HOOKS_DIR/presage-db"
+PRESAGE_DEST="/usr/share/maliit/plugins/com/ubuntu/lib"
+
+for hook in $HOOKS_DIR/*.json
+do
+	package_dir=$(dirname $(readlink $hook))
+	echo "Package dir: $package_dir"
+
+	if [ ! -f ${hook}.processed ]; then
+		mkdir -p "$LOCALE_SRC" "$LANGPACK_SRC" "$HUNSPELL_SRC" "$PRESAGE_SRC"
+		[ -f "$LOCALE_SRC/locale.alias" ] || ln -s /etc/locale.alias "$LOCALE_SRC/locale.alias"
+
+		ln -sf $package_dir/locale/* "$LOCALE_SRC/"
+		ln -sf $package_dir/locale-langpack/* "$LANGPACK_SRC/"
+		ln -sf $package_dir/hunspell/* "$HUNSPELL_SRC/"
+		ln -sf $package_dir/presage-db/* "$PRESAGE_SRC/"
+		touch ${hook}.processed
+	fi
+done
+
+[ -d "$LOCALE_SRC" ] && mount -o ro,bind "$LOCALE_SRC" "$LOCALE_DEST"
+[ -d "$LANGPACK_SRC" ] && mount -o ro,bind "$LANGPACK_SRC" "$LANGPACK_DEST"
+[ -d "$HUNSPELL_SRC" ] && mount -o ro,bind "$HUNSPELL_SRC" "$HUNSPELL_DEST"
+
+for i in $PRESAGE_SRC/*/database*.db
+do
+	[ -f "$i" ] && mount -o ro,bind "$i" "$PRESAGE_DEST/"$(realpath -s --relative-to=$PRESAGE_SRC $i)
+done

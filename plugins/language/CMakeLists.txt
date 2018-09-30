@@ -27,3 +27,6 @@ install(FILES qmldir DESTINATION ${PLUG_DIR})
 install(FILES ${QML_SOURCES} DESTINATION ${PLUGIN_QML_DIR}/language)
 install(FILES settings-language.svg DESTINATION ${PLUGIN_MANIFEST_DIR}/icons)
 install(FILES language.settings DESTINATION ${PLUGIN_MANIFEST_DIR})
+
+install(FILES click-hook/language-packs.hook DESTINATION ${CMAKE_INSTALL_DATADIR}/click/hooks/)
+install(FILES click-hook/language-hook DESTINATION ${CMAKE_INSTALL_PREFIX}/bin/)

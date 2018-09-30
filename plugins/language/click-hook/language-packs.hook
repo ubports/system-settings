@@ -1,0 +1,3 @@
+Pattern: /var/lib/misc/language-packs/${id}.json
+Exec: /usr/bin/language-hook
+User: root
