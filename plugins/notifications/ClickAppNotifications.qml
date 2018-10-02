@@ -26,6 +26,7 @@ ItemPage {
 
     property var entry
     property int entryIndex
+
     title: entry ? entry.displayName : ""
     flickable: clickAppNotificationsFlickable
 
