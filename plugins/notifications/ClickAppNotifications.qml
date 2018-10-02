@@ -21,16 +21,13 @@ import Ubuntu.Components 1.3
 import Ubuntu.SystemSettings.Notifications 1.0
 import SystemSettings 1.0
 
-Page {
+ItemPage {
     id: appNotificationsPage
 
     property var entry
     property int entryIndex
-
-    header: PageHeader {
-        id: pageHeader
-        title: entry ? entry.displayName : ""
-    }
+    title: entry ? entry.displayName : ""
+    flickable: clickAppNotificationsFlickable
 
     function disableNotificationsWhenAllUnchecked() {
         if (!entry) {
@@ -48,13 +45,9 @@ Page {
     Flickable {
         id: clickAppNotificationsFlickable
         flickableDirection: Flickable.VerticalFlick
+        contentHeight: contentItem.childrenRect.height
 
-        anchors {
-            top: pageHeader.bottom
-            left: parent.left
-            right: parent.right
-            bottom: parent.bottom
-        }
+        anchors.fill: parent
 
         Column {
             id: notificationsColumn
@@ -181,7 +174,5 @@ Page {
                 }
             }
         }
-
     }
-
 }
