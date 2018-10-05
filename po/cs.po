@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-08-05 00:00+0000\n"
+"PO-Revision-Date: 2018-10-05 20:59+0000\n"
 "Last-Translator: Milan Korecký <milan.korecky@gmail.com>\n"
 "Language-Team: Czech <https://translate.ubports.com/projects/ubports/"
 "system-settings/cs/>\n"
@@ -2274,7 +2274,7 @@ msgstr "Start"
 #: ../plugins/hotspot/PageComponent.qml:85
 #: ../obj-x86_64-linux-gnu/po/settings.js:290
 msgid "Hotspot"
-msgstr "Hotspot"
+msgstr "Hot spot"
 
 #: ../plugins/hotspot/PageComponent.qml:114
 msgid ""
