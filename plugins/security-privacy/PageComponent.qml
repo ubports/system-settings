@@ -28,7 +28,6 @@ import Ubuntu.Components.ListItems 1.3 as ListItems
 import SystemSettings 1.0
 import Ubuntu.Settings.Fingerprint 0.1
 import Ubuntu.SystemSettings.Battery 1.0
-import Ubuntu.SystemSettings.Diagnostics 1.0
 import Ubuntu.SystemSettings.SecurityPrivacy 1.0
 import MeeGo.QOfono 0.2
 import "sims.js" as Sims
@@ -79,10 +78,6 @@ ItemPage {
         if (page) {
             pageStack.addPageToNextColumn(root, page, opts);
         }
-    }
-
-    UbuntuDiagnostics {
-        id: diagnosticsWidget
     }
 
     UbuntuSecurityPrivacyPanel {
@@ -263,21 +258,6 @@ ItemPage {
             SettingsListItems.SingleValueProgression {
                 text: i18n.tr("App permissions")
                 onClicked: pageStack.addPageToNextColumn(root, Qt.resolvedUrl("AppAccess.qml"), {pluginManager: pluginManager})
-            }
-
-            SettingsListItems.SingleValueProgression {
-                text: i18n.tr("Diagnostics")
-                value: diagnosticsWidget.reportCrashes ?
-                           /* TRANSLATORS: This string is shown when crash
-                              reports are to be sent by the system. */
-                           i18n.tr("Sent") :
-                           /* TRANSLATORS: This string is shown when crash
-                              reports are not to be sent by the system */
-                           i18n.tr("Not sent")
-                onClicked: {
-                    var path = "../diagnostics/PageComponent.qml";
-                    pageStack.addPageToNextColumn(root, Qt.resolvedUrl(path));
-                }
             }
         }
     }
