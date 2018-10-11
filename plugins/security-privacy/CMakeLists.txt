@@ -1,5 +1,3 @@
-add_subdirectory(diagnostics)
-
 set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Ubuntu/SystemSettings/SecurityPrivacy)
 
 set(HELPER_SOURCES
