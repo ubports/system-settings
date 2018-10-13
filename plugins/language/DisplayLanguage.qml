@@ -70,6 +70,14 @@ SheetBase {
                 languageList.currentIndex = index
             }
         }
+        footer: ListItem.SingleControl {
+            visible: plugin.canInstallMore
+            control: Button {
+                text: i18n.tr("Install more…")
+                width: parent.width - units.gu(4)
+                // TODO onClicked:
+            }
+        }
 
         onCurrentIndexChanged: {
             i18n.language = plugin.languageCodes[currentIndex]

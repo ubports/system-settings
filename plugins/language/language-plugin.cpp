@@ -23,7 +23,10 @@
 #include "keyboard-layout.h"
 
 #include <act/act.h>
+#include <sys/types.h>
+#include <sys/stat.h>
 #include <unicode/locid.h>
+#include <unistd.h>
 
 struct LanguageLocale
 {
@@ -150,6 +153,30 @@ void
 LanguagePlugin::spellCheckingModelChanged()
 {
     // TODO: update spell checking model
+}
+
+bool
+LanguagePlugin::canInstallMore() const
+{
+    if (m_languageNames.isEmpty()) return true;
+
+    /* Check whether the locale directory is a bind mount: if it
+     * is, then we can assume that we are running on a rootfs where
+     * language packs are provided by click packages.
+     */
+    const QByteArray langpackRoot = qgetenv("SNAP") + "/usr/share/locale-langpack";
+    QDir langpackDir(langpackRoot);
+    const QStringList langpackNames = langpackDir.entryList(QDir::Dirs | QDir::NoDotAndDotDot | QDir::Readable);
+    if (Q_UNLIKELY(langpackNames.isEmpty())) return true;
+
+    /* To check whether it is a bind mount, check whether the
+     * underlying device is different. */
+    struct stat usrShareStat, langpackStat;
+    lstat("/usr/share/", &usrShareStat);
+    lstat(langpackDir.filePath(langpackNames.first()).toUtf8().constData(),
+           &langpackStat);
+
+    return usrShareStat.st_dev != langpackStat.st_dev;
 }
 
 void

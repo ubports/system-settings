@@ -60,6 +60,10 @@ public:
                READ spellCheckingModel
                CONSTANT)
 
+    Q_PROPERTY(bool canInstallMore
+               READ canInstallMore
+               CONSTANT)
+
     Q_INVOKABLE void reboot();
 
     explicit LanguagePlugin(QObject *parent = nullptr);
@@ -75,6 +79,8 @@ public:
 
     SubsetModel *spellCheckingModel();
     Q_SLOT void spellCheckingModelChanged();
+
+    bool canInstallMore() const;
 
 private:
 
