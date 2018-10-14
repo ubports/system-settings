@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-08-24 16:29+0000\n"
+"PO-Revision-Date: 2018-10-14 18:56+0000\n"
 "Last-Translator: ArashiHino <hinoaras.hi82@gmail.com>\n"
 "Language-Team: Japanese <https://translate.ubports.com/projects/ubports/"
 "system-settings/ja/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.20\n"
+"X-Generator: Weblate 3.0\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:40+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -62,7 +62,7 @@ msgstr "インストール"
 
 #: ../plugins/system-update/UpdateDelegate.qml:149
 msgid "Open"
-msgstr ""
+msgstr "開く"
 
 #: ../plugins/system-update/UpdateDelegate.qml:228
 msgid "Installing"
@@ -74,9 +74,8 @@ msgid "Paused"
 msgstr "一時停止"
 
 #: ../plugins/system-update/UpdateDelegate.qml:235
-#, fuzzy
 msgid "Waiting to download"
-msgstr "自動ダウンロード"
+msgstr "ダウンロードを待機しています"
 
 #: ../plugins/system-update/UpdateDelegate.qml:238
 msgid "Downloading"
@@ -91,9 +90,8 @@ msgid "%1 of %2"
 msgstr "%1 / %2"
 
 #: ../plugins/system-update/UpdateDelegate.qml:278
-#, fuzzy
 msgid "Downloaded"
-msgstr "ダウンロード"
+msgstr "ダウンロードが完了しました"
 
 #: ../plugins/system-update/UpdateDelegate.qml:281
 msgid "Installed"
@@ -102,14 +100,13 @@ msgstr "インストール済み"
 #. TRANSLATORS: %1 is the date at which this
 #. update was applied.
 #: ../plugins/system-update/UpdateDelegate.qml:286
-#, fuzzy, qt-format
+#, qt-format
 msgid "Updated %1"
-msgstr "更新"
+msgstr "アップデート中 %1"
 
 #: ../plugins/system-update/UpdateDelegate.qml:310
-#, fuzzy
 msgid "Update failed"
-msgstr "利用可能なアップデートがあります"
+msgstr "アップデートが失敗しました"
 
 #: ../plugins/system-update/Configuration.qml:30
 #: ../plugins/system-update/UpdateSettings.qml:55
@@ -159,9 +156,8 @@ msgstr "OK"
 
 #: ../plugins/system-update/UpdateSettings.qml:32
 #: ../plugins/system-update/PageComponent.qml:412
-#, fuzzy
 msgid "Update settings"
-msgstr "システム設定"
+msgstr "設定のアップデート"
 
 #: ../plugins/system-update/UpdateSettings.qml:60
 msgid "On WiFi"
@@ -177,31 +173,28 @@ msgid "Unknown"
 msgstr "不明"
 
 #: ../plugins/system-update/UpdateSettings.qml:71
-#, fuzzy
 msgid "Channels"
-msgstr "変更"
+msgstr "チャンネル"
 
 #: ../plugins/system-update/UpdateSettings.qml:73
 #: ../plugins/system-update/ChannelSettings.qml:57
-#, fuzzy
 msgid "Stable"
-msgstr "タブレット"
+msgstr "安定な"
 
 #: ../plugins/system-update/UpdateSettings.qml:73
 #: ../plugins/system-update/ChannelSettings.qml:57
 msgid "Release candidate"
-msgstr ""
+msgstr "リリース検討版"
 
 #: ../plugins/system-update/UpdateSettings.qml:73
 #: ../plugins/system-update/ChannelSettings.qml:57
-#, fuzzy
 msgid "Development"
-msgstr "開発者モード"
+msgstr "開発"
 
 #: ../plugins/system-update/ChangelogExpander.qml:42
-#, fuzzy, qt-format
+#, qt-format
 msgid "Version %1"
-msgstr "バージョン: "
+msgstr "バージョン %1"
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../plugins/system-update/PageComponent.qml:38
@@ -211,7 +204,7 @@ msgstr "更新"
 
 #: ../plugins/system-update/PageComponent.qml:182
 msgid "Connect to the Internet to check for updates."
-msgstr ""
+msgstr "インターネットでアップデートをチェック中"
 
 #: ../plugins/system-update/PageComponent.qml:184
 msgid "Software is up to date"
@@ -1185,7 +1178,7 @@ msgstr ""
 #: ../plugins/printing/PageComponent.qml:136
 #: ../plugins/cellular/PageChooseApn.qml:305
 msgid "Delete"
-msgstr ""
+msgstr "削除"
 
 #: ../plugins/printing/PageComponent.qml:149
 #: ../plugins/printing/printer-sub-pages/Policies.qml:50
@@ -1374,7 +1367,7 @@ msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:69
 msgid "Edit"
-msgstr ""
+msgstr "編集"
 
 #: ../plugins/cellular/PageApnEditor.qml:69
 #, fuzzy
@@ -3035,9 +3028,8 @@ msgid "Manage Print Jobs"
 msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:78
-#, fuzzy
 msgid "Address"
-msgstr "IPアドレス"
+msgstr "住所"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:84
 #, fuzzy
