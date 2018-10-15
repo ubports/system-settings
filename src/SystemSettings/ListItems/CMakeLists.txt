@@ -1,6 +1,7 @@
 set(QML_SOURCES
     Icon.qml
     IconProgression.qml
+    ProportionalShape.qml
     SingleControl.qml
     SingleValue.qml
     SingleValueProgression.qml
