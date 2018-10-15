@@ -36,7 +36,7 @@ ItemPage {
         anchors {
             left: parent.left
             right: parent.right
-            top: parent.top
+            top: parent.header.bottom
             bottom: parent.bottom
         }
 
