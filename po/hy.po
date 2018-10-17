@@ -8,22 +8,24 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2018-10-21 00:00+0000\n"
+"Last-Translator: Tigran Kharatyan <xita8207@gmail.com>\n"
+"Language-Team: Armenian <https://translate.ubports.com/projects/ubports/"
+"system-settings/hy/>\n"
 "Language: hy\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.0.1\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
 msgid "System Settings"
-msgstr ""
+msgstr "Համակարգի Կարգավորումներ"
 
 #: ubuntu-system-settings.desktop.in.in.h:2
 msgid "System;"
-msgstr ""
+msgstr "Համակարգ;"
 
 #: ubuntu-system-settings.desktop.in.in.h:3
 msgid "Preferences;Settings;"
@@ -31,51 +33,51 @@ msgstr ""
 
 #: ../plugins/system-update/UpdateDelegate.qml:119
 msgid "Retry"
-msgstr ""
+msgstr "Կրկնել"
 
 #: ../plugins/system-update/UpdateDelegate.qml:124
 msgid "Update"
-msgstr ""
+msgstr "Թարմեցնել"
 
 #: ../plugins/system-update/UpdateDelegate.qml:126
 msgid "Download"
-msgstr ""
+msgstr "Ներբեռնել"
 
 #: ../plugins/system-update/UpdateDelegate.qml:132
 msgid "Resume"
-msgstr ""
+msgstr "Շարունակել"
 
 #: ../plugins/system-update/UpdateDelegate.qml:139
 msgid "Pause"
-msgstr ""
+msgstr "Դադար"
 
 #: ../plugins/system-update/UpdateDelegate.qml:143
 msgid "Install…"
-msgstr ""
+msgstr "Տեղադրել…"
 
 #: ../plugins/system-update/UpdateDelegate.qml:145
 msgid "Install"
-msgstr ""
+msgstr "Տեղադրել"
 
 #: ../plugins/system-update/UpdateDelegate.qml:149
 msgid "Open"
-msgstr ""
+msgstr "Բացել"
 
 #: ../plugins/system-update/UpdateDelegate.qml:228
 msgid "Installing"
-msgstr ""
+msgstr "Տեղադրում"
 
 #: ../plugins/system-update/UpdateDelegate.qml:232
 msgid "Paused"
-msgstr ""
+msgstr "Դադարեցնել"
 
 #: ../plugins/system-update/UpdateDelegate.qml:235
 msgid "Waiting to download"
-msgstr ""
+msgstr "Ներբեռնման սպասում"
 
 #: ../plugins/system-update/UpdateDelegate.qml:238
 msgid "Downloading"
-msgstr ""
+msgstr "Ներբեռնում"
 
 #. TRANSLATORS: %1 is the human readable amount
 #. of bytes downloaded, and %2 is the total to be
@@ -83,26 +85,26 @@ msgstr ""
 #: ../plugins/system-update/UpdateDelegate.qml:274
 #, qt-format
 msgid "%1 of %2"
-msgstr ""
+msgstr "%1-ը %2-ից"
 
 #: ../plugins/system-update/UpdateDelegate.qml:278
 msgid "Downloaded"
-msgstr ""
+msgstr "Ներբեռնված է"
 
 #: ../plugins/system-update/UpdateDelegate.qml:281
 msgid "Installed"
-msgstr ""
+msgstr "Տեղադրված է"
 
 #. TRANSLATORS: %1 is the date at which this
 #. update was applied.
 #: ../plugins/system-update/UpdateDelegate.qml:286
 #, qt-format
 msgid "Updated %1"
-msgstr ""
+msgstr "Թարմեցված է %1"
 
 #: ../plugins/system-update/UpdateDelegate.qml:310
 msgid "Update failed"
-msgstr ""
+msgstr "Թարմեցման սխալ"
 
 #: ../plugins/system-update/Configuration.qml:30
 #: ../plugins/system-update/UpdateSettings.qml:55
@@ -111,7 +113,7 @@ msgstr ""
 
 #: ../plugins/system-update/Configuration.qml:35
 msgid "Download future updates automatically:"
-msgstr ""
+msgstr "Ապագա թարմեցումները ներբեռնել ինքնուրույն:"
 
 #: ../plugins/system-update/Configuration.qml:53
 #: ../plugins/system-update/UpdateSettings.qml:58
@@ -123,15 +125,16 @@ msgstr ""
 #: ../plugins/battery/PageComponent.qml:318
 #: ../plugins/battery/PageComponent.qml:336
 msgid "Never"
-msgstr ""
+msgstr "Երբեք"
 
 #: ../plugins/system-update/Configuration.qml:54
 msgid "When on WiFi"
 msgstr ""
 
 #: ../plugins/system-update/Configuration.qml:56
+#, fuzzy
 msgid "On any data connection"
-msgstr ""
+msgstr "Բոլոր միացումներին"
 
 #: ../plugins/system-update/Configuration.qml:57
 msgid "Data charges may apply."
@@ -148,34 +151,34 @@ msgstr ""
 #: ../plugins/vpn/PageComponent.qml:123
 #: ../plugins/cellular/Components/SimEditor.qml:214
 msgid "OK"
-msgstr ""
+msgstr "Լավ"
 
 #: ../plugins/system-update/UpdateSettings.qml:32
 #: ../plugins/system-update/PageComponent.qml:412
 msgid "Update settings"
-msgstr ""
+msgstr "Թարմեցման կարգավորումներ"
 
 #: ../plugins/system-update/UpdateSettings.qml:60
 msgid "On WiFi"
-msgstr ""
+msgstr "WiFi-ով"
 
 #: ../plugins/system-update/UpdateSettings.qml:62
 msgid "Always"
-msgstr ""
+msgstr "Միշտ"
 
 #: ../plugins/system-update/UpdateSettings.qml:64 ../plugins/wifi/Common.qml:96
 #: ../plugins/hotspot/Common.qml:94 ../plugins/bluetooth/DevicePage.qml:41
 msgid "Unknown"
-msgstr ""
+msgstr "Անհայտ"
 
 #: ../plugins/system-update/UpdateSettings.qml:71
 msgid "Channels"
-msgstr ""
+msgstr "Ալիքներ"
 
 #: ../plugins/system-update/UpdateSettings.qml:73
 #: ../plugins/system-update/ChannelSettings.qml:57
 msgid "Stable"
-msgstr ""
+msgstr "Կայուն"
 
 #: ../plugins/system-update/UpdateSettings.qml:73
 #: ../plugins/system-update/ChannelSettings.qml:57
