@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-10-02 15:04+0000\n"
-"Last-Translator: Ben van Hartingsveldt <benvanhartingsveldt@gmail.com>\n"
+"PO-Revision-Date: 2018-10-19 08:59+0000\n"
+"Last-Translator: Joachim Lazaroms <joachim.pc@gmail.com>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
 "system-settings/nl/>\n"
 "Language: nl\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.20\n"
+"X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:40+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -1349,7 +1349,7 @@ msgstr "MMSC"
 
 #: ../plugins/cellular/PageApnEditor.qml:235
 msgid "Enter message center"
-msgstr ""
+msgstr "Open berichten centrum"
 
 #: ../plugins/cellular/PageApnEditor.qml:253
 msgid "Proxy"
@@ -1360,9 +1360,8 @@ msgid "Enter message proxy"
 msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:307
-#, fuzzy
 msgid "Proxy port"
-msgstr "Proxy"
+msgstr "Proxy poort"
 
 #: ../plugins/cellular/PageApnEditor.qml:317
 msgid "Enter message proxy port"
