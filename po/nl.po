@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-10-19 08:59+0000\n"
+"PO-Revision-Date: 2018-10-21 00:00+0000\n"
 "Last-Translator: Joachim Lazaroms <joachim.pc@gmail.com>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
 "system-settings/nl/>\n"
@@ -1368,37 +1368,32 @@ msgid "Enter message proxy port"
 msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:335
-#, fuzzy
 msgid "User name"
 msgstr "Gebruikersnaam"
 
 #: ../plugins/cellular/PageApnEditor.qml:344
-#, fuzzy
 msgid "Enter username"
-msgstr "Voer wachtwoordzin in"
+msgstr "Voer gebruikersnaam in"
 
 #: ../plugins/cellular/PageApnEditor.qml:368
-#, fuzzy
 msgid "Enter password"
-msgstr "Voer wachtwoordzin in"
+msgstr "Voer wachtwoord in"
 
 #: ../plugins/cellular/PageApnEditor.qml:387
 msgid "PAP or CHAP"
-msgstr ""
+msgstr "PAP of CHAP"
 
 #: ../plugins/cellular/PageApnEditor.qml:388
-#, fuzzy
 msgid "PAP only"
-msgstr "Alleen telefoon"
+msgstr "Alleen PAP"
 
 #: ../plugins/cellular/PageApnEditor.qml:389
-#, fuzzy
 msgid "CHAP only"
-msgstr "Alleen telefoon"
+msgstr "Alleen CHAP"
 
 #: ../plugins/cellular/PageApnEditor.qml:400
 msgid "Protocol"
-msgstr ""
+msgstr "Protocol"
 
 #: ../plugins/cellular/PageApnEditor.qml:404
 msgid "IPv4"
@@ -1414,14 +1409,12 @@ msgstr "IPv4 en IPv6"
 
 #: ../plugins/security-privacy/AppAccess.qml:29
 #: ../plugins/security-privacy/PageComponent.qml:264
-#, fuzzy
 msgid "App permissions"
-msgstr "rechten"
+msgstr "App rechten"
 
 #: ../plugins/security-privacy/AppAccess.qml:69
-#, fuzzy
 msgid "Apps that you have granted access to:"
-msgstr "Apps die toegang hebben gevraagd en gekregen tot:"
+msgstr "Apps die toegang hebben gekregen tot:"
 
 #: ../plugins/security-privacy/AppAccess.qml:75
 #: ../plugins/bluetooth/DevicePage.qml:61
@@ -1433,17 +1426,14 @@ msgid "Apps that have requested access to your camera"
 msgstr "Apps die toegang hebben gevraagd tot uw camera"
 
 #: ../plugins/security-privacy/AppAccess.qml:82
-#, fuzzy
 msgid "Apps that have requested access to your location"
-msgstr "Apps die toegang hebben gevraagd tot uw microfoon"
+msgstr "Apps die toegang hebben gevraagd tot uw locatie"
 
 #: ../plugins/security-privacy/AppAccess.qml:87
-#, fuzzy
 msgid "Microphone"
-msgstr "telefoneren"
+msgstr "Microfoon"
 
 #: ../plugins/security-privacy/AppAccess.qml:88
-#, fuzzy
 msgid "Apps that have requested access to your microphone"
 msgstr "Apps die toegang hebben gevraagd tot uw microfoon"
 
@@ -1457,13 +1447,12 @@ msgid "0"
 msgstr "0"
 
 #: ../plugins/security-privacy/AppAccess.qml:118
-#, fuzzy
 msgid "Apps may also request access to online accounts."
-msgstr "Apps die toegang hebben gevraagd tot uw microfoon"
+msgstr "Apps zullen mogelijk toegang vragen tot uw online account(en)."
 
 #: ../plugins/security-privacy/AppAccess.qml:123
 msgid "Online Accounts…"
-msgstr ""
+msgstr "Online Accounts…"
 
 #: ../plugins/security-privacy/SimPin.qml:37
 #: ../plugins/security-privacy/SimPin.qml:398
@@ -1487,9 +1476,8 @@ msgstr[1] "Onjuiste pincode. Nog %1 pogingen over."
 #: ../plugins/security-privacy/SimPin.qml:120
 #: ../plugins/security-privacy/SimPin.qml:224
 #: ../plugins/security-privacy/SimPin.qml:297
-#, fuzzy
 msgid "No more attempts allowed"
-msgstr "%1 pogingen toegestaan."
+msgstr "Geen pogingen meer toegestaan"
 
 #: ../plugins/security-privacy/SimPin.qml:93
 msgid "Current PIN:"
@@ -1538,7 +1526,6 @@ msgid "Lock"
 msgstr "Blokkeren"
 
 #: ../plugins/security-privacy/SimPin.qml:413
-#, fuzzy
 msgid "Unlocked"
 msgstr "Deblokkeren"
 
@@ -1547,14 +1534,12 @@ msgid "Change PIN…"
 msgstr "Pincode wijzigen…"
 
 #: ../plugins/security-privacy/SimPin.qml:427
-#, fuzzy
 msgid "Locked"
-msgstr "Blokkeren"
+msgstr "Geblokkeerd"
 
 #: ../plugins/security-privacy/SimPin.qml:431
-#, fuzzy
 msgid "Unlock…"
-msgstr "Deblokkeren"
+msgstr "Deblokkeren…"
 
 #: ../plugins/security-privacy/SimPin.qml:445
 #, fuzzy
