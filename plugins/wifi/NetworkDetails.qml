@@ -101,7 +101,7 @@ ItemPage {
                     }
                     onClicked : {
                         DbusHelper.forgetConnection(dbusPath);
-                        pageStack.pop();
+                        pageStack.removePages(networkDetails);
                     }
                 }
             }
