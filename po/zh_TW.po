@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-05-11 03:21+0000\n"
-"Last-Translator: P.-H. Lin <cypressyew@gmail.com>\n"
-"Language-Team: Chinese (Traditional) "
-"<https://translate.ubports.com/projects/ubports/system-settings/zh_Hant/>\n"
+"PO-Revision-Date: 2018-10-24 06:40+0000\n"
+"Last-Translator: Louies <louies0623@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <https://translate.ubports.com/projects/"
+"ubports/system-settings/zh_Hant/>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.15\n"
+"X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:42+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -62,19 +62,17 @@ msgstr "安裝"
 
 #: ../plugins/system-update/UpdateDelegate.qml:149
 msgid "Open"
-msgstr ""
+msgstr "開啟"
 
 #: ../plugins/system-update/UpdateDelegate.qml:228
 msgid "Installing"
 msgstr "安裝中"
 
 #: ../plugins/system-update/UpdateDelegate.qml:232
-#, fuzzy
 msgid "Paused"
-msgstr "暫停"
+msgstr "已暫停"
 
 #: ../plugins/system-update/UpdateDelegate.qml:235
-#, fuzzy
 msgid "Waiting to download"
 msgstr "自動下載"
 
@@ -91,7 +89,6 @@ msgid "%1 of %2"
 msgstr "%1 / %2"
 
 #: ../plugins/system-update/UpdateDelegate.qml:278
-#, fuzzy
 msgid "Downloaded"
 msgstr "下載"
 
@@ -102,12 +99,11 @@ msgstr "已安裝"
 #. TRANSLATORS: %1 is the date at which this
 #. update was applied.
 #: ../plugins/system-update/UpdateDelegate.qml:286
-#, fuzzy, qt-format
+#, qt-format
 msgid "Updated %1"
-msgstr "更新"
+msgstr "已更新 %1"
 
 #: ../plugins/system-update/UpdateDelegate.qml:310
-#, fuzzy
 msgid "Update failed"
 msgstr "有可用的更新"
 
@@ -159,9 +155,8 @@ msgstr "確定"
 
 #: ../plugins/system-update/UpdateSettings.qml:32
 #: ../plugins/system-update/PageComponent.qml:412
-#, fuzzy
 msgid "Update settings"
-msgstr "系統設定"
+msgstr "系統更新設定"
 
 #: ../plugins/system-update/UpdateSettings.qml:60
 msgid "On WiFi"
@@ -177,31 +172,28 @@ msgid "Unknown"
 msgstr "不明"
 
 #: ../plugins/system-update/UpdateSettings.qml:71
-#, fuzzy
 msgid "Channels"
 msgstr "變更"
 
 #: ../plugins/system-update/UpdateSettings.qml:73
 #: ../plugins/system-update/ChannelSettings.qml:57
-#, fuzzy
 msgid "Stable"
-msgstr "繪圖板"
+msgstr "穩定"
 
 #: ../plugins/system-update/UpdateSettings.qml:73
 #: ../plugins/system-update/ChannelSettings.qml:57
 msgid "Release candidate"
-msgstr ""
+msgstr "RC版本"
 
 #: ../plugins/system-update/UpdateSettings.qml:73
 #: ../plugins/system-update/ChannelSettings.qml:57
-#, fuzzy
 msgid "Development"
 msgstr "開發人員模式"
 
 #: ../plugins/system-update/ChangelogExpander.qml:42
-#, fuzzy, qt-format
+#, qt-format
 msgid "Version %1"
-msgstr "版本： "
+msgstr "版本：%1"
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../plugins/system-update/PageComponent.qml:38
@@ -210,9 +202,8 @@ msgid "Updates"
 msgstr "更新"
 
 #: ../plugins/system-update/PageComponent.qml:182
-#, fuzzy
 msgid "Connect to the Internet to check for updates."
-msgstr "請連接到網際網路以檢查更新"
+msgstr "請連接到網際網路以檢查更新。"
 
 #: ../plugins/system-update/PageComponent.qml:184
 msgid "Software is up to date"
@@ -220,51 +211,49 @@ msgstr "軟體已處於最新狀態"
 
 #: ../plugins/system-update/PageComponent.qml:187
 msgid "The update server is not responding. Try again later."
-msgstr ""
+msgstr "更新服務並沒有回應，請稍後再重試。"
 
 #: ../plugins/system-update/PageComponent.qml:196
-#, fuzzy
 msgid "Updates Available"
 msgstr "有可用的更新"
 
 #: ../plugins/system-update/PageComponent.qml:349
-#, fuzzy
 msgid "Recent updates"
 msgstr "檢查是否有更新"
 
 #: ../plugins/system-update/ChannelSettings.qml:32
+#, fuzzy
 msgid "Channel settings"
-msgstr ""
+msgstr "通道設置"
 
 #: ../plugins/system-update/ChannelSettings.qml:99
+#, fuzzy
 msgid "Fetching channels"
-msgstr ""
+msgstr "獲取通道"
 
 #: ../plugins/system-update/ChannelSettings.qml:107
 msgid "Channel to get updates from:"
-msgstr ""
+msgstr "獲取更新通道："
 
 #: ../plugins/system-update/ChannelSettings.qml:123
 msgid "Switching channel"
-msgstr ""
+msgstr "切換通道"
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:30
 msgid "Update System"
 msgstr "更新系統"
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:32
-#, fuzzy
 msgid "The device needs to restart to install the system update."
 msgstr "手機需要重新啟動才能安裝系統更新。"
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:33
-#, fuzzy
 msgid "Connect the device to power before installing the system update."
-msgstr "進行系統更新前，先將手機連接電源。"
+msgstr "進行系統更新前，請先將手機接上電源。"
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:38
 msgid "Restart & Install"
-msgstr ""
+msgstr "重新啟動並安裝"
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:48
 #: ../plugins/background/Preview.qml:107 ../plugins/wifi/CertDialog.qml:65
@@ -309,24 +298,22 @@ msgstr "正在檢查是否有更新…"
 
 #: ../plugins/system-update/Global.qml:89
 msgid "Stop"
-msgstr ""
+msgstr "停止"
 
 #. TRANSLATORS: %1 is number of software updates available.
 #: ../plugins/system-update/Global.qml:116
-#, fuzzy, qt-format
+#, qt-format
 msgid "%1 update available"
 msgid_plural "%1 updates available"
-msgstr[0] "有可用的更新"
+msgstr[0] "%1 有可用的更新"
 
 #: ../plugins/system-update/Global.qml:126
-#, fuzzy
 msgid "Update all…"
-msgstr "有可用的更新"
+msgstr "全部更新…"
 
 #: ../plugins/system-update/Global.qml:128
-#, fuzzy
 msgid "Update all"
-msgstr "更新"
+msgstr "全部更新"
 
 #. TRANSLATORS: This is a keyword or name for the launcher plugin which is used while searching
 #: ../plugins/launcher/PageComponent.qml:31
@@ -337,60 +324,59 @@ msgstr "啟動欄"
 
 #: ../plugins/launcher/PageComponent.qml:65
 msgid "On large screens:"
-msgstr ""
+msgstr "在大螢幕上："
 
 #: ../plugins/launcher/PageComponent.qml:73
 msgid "Always show the launcher"
-msgstr ""
+msgstr "總是顯示啟動器"
 
 #: ../plugins/launcher/PageComponent.qml:74
 msgid "Videos and full-screen games may hide it temporarily."
-msgstr ""
+msgstr "視頻和全屏遊戲可能會暫時隱藏它。"
 
 #: ../plugins/launcher/PageComponent.qml:85
 msgid "Icon size:"
-msgstr ""
+msgstr "圖示大小:"
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:42
 msgid "Primary button:"
-msgstr ""
+msgstr "主要按鍵："
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:72
 msgid "Left"
-msgstr ""
+msgstr "左鍵"
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:89
-#, fuzzy
 msgid "Right"
-msgstr "飛安"
+msgstr "右鍵"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../plugins/mouse/PageComponent.qml:29
 #: ../obj-x86_64-linux-gnu/po/settings.js:42
 msgid "Mouse & Touchpad"
-msgstr ""
+msgstr "滑鼠與觸控板"
 
 #: ../plugins/mouse/None.qml:34
 msgid ""
 "Connect a mouse or touchpad via USB, or use a Bluetooth device. If a "
 "Bluetooth device isn’t detected, make sure it is turned on and its batteries "
 "are charged."
-msgstr ""
+msgstr "請用USB或藍牙連接滑鼠與觸控板。 如果無法識別藍牙設備，請檢查是否已打開電源開關且電池也已充電。"
 
 #: ../plugins/mouse/None.qml:36
 msgid ""
 "You need to use a Bluetooth mouse or touchpad with this display. Make sure "
 "it is close to the device and its batteries are charged."
-msgstr ""
+msgstr "您需要藍牙連接滑鼠與觸控板，並確保它靠近設備，且電池也已充電。"
 
 #: ../plugins/mouse/TapArea.qml:38
 #, fuzzy
 msgid "Not fast enough"
-msgstr "不傳送"
+msgstr "請快點"
 
 #: ../plugins/mouse/TapArea.qml:77
 msgid "Double-clicked"
-msgstr ""
+msgstr "雙重點擊"
 
 #: ../plugins/mouse/Connected.qml:48 ../plugins/bluetooth/DevicePage.qml:59
 msgid "Mouse"
@@ -398,48 +384,48 @@ msgstr "滑鼠"
 
 #: ../plugins/mouse/Connected.qml:62 ../plugins/mouse/Connected.qml:228
 msgid "Cursor speed:"
-msgstr ""
+msgstr "滑鼠游標速度："
 
 #: ../plugins/mouse/Connected.qml:98
 msgid "Wheel scrolling speed:"
-msgstr ""
+msgstr "滾輪滾動速度："
 
 #: ../plugins/mouse/Connected.qml:134 ../plugins/mouse/Connected.qml:301
 msgid "Double-click speed:"
-msgstr ""
+msgstr "雙重點擊速度："
 
 #: ../plugins/mouse/Connected.qml:168 ../plugins/mouse/Connected.qml:335
 msgid "Test double-click:"
-msgstr ""
+msgstr "測試雙重點擊："
 
 #: ../plugins/mouse/Connected.qml:214
 msgid "Touchpad"
-msgstr ""
+msgstr "觸控板"
 
 #: ../plugins/mouse/Connected.qml:264
 msgid "Finger scrolling speed:"
-msgstr ""
+msgstr "手指滾動速度："
 
 #: ../plugins/mouse/Connected.qml:389
 msgid "Tap to click"
-msgstr ""
+msgstr "按下並點擊"
 
 #: ../plugins/mouse/Connected.qml:403
 msgid "Scroll with two fingers"
-msgstr ""
+msgstr "用兩根手指滾動"
 
 #: ../plugins/mouse/Connected.qml:410
 msgid "Ignore touchpad when:"
-msgstr ""
+msgstr "在以下情況下禁用觸控板："
 
 #: ../plugins/mouse/Connected.qml:432
+#, fuzzy
 msgid "Typing"
-msgstr ""
+msgstr "打上"
 
 #: ../plugins/mouse/Connected.qml:446
-#, fuzzy
 msgid "A mouse is connected"
-msgstr "已斷線"
+msgstr "滑鼠已連接"
 
 #. TRANSLATORS: This is a keyword or name for the notifications plugin which is used while searching
 #: ../plugins/notifications/ClickAppNotifications.qml:54
@@ -450,59 +436,55 @@ msgstr "通知"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:72
 msgid "Let this app alert me using:"
-msgstr ""
+msgstr "允許應用程序以下列方式通知："
 
 #: ../plugins/notifications/ClickAppNotifications.qml:81
 #: ../plugins/notifications/PageComponent.qml:177
-#, fuzzy
 msgid "Sounds"
 msgstr "音效"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:103
 #: ../plugins/notifications/PageComponent.qml:180
-#, fuzzy
 msgid "Vibrations"
-msgstr "vibration"
+msgstr "振動"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:125
-#, fuzzy
 msgid "Notification Bubbles"
-msgstr "通知"
+msgstr "通知框"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:147
 #: ../plugins/notifications/PageComponent.qml:186
-#, fuzzy
 msgid "Notification List"
-msgstr "通知"
+msgstr "通知中心"
 
 #: ../plugins/notifications/PageComponent.qml:75
-#, fuzzy
 msgid ""
 "Apps can alert you using sounds, vibrations, notification bubbles and the "
 "Notification list."
-msgstr "特選程式可以通知泡泡、音效、振動、以及通知中心提醒您。"
+msgstr "所選應用程序可以使用聲音、振動、訊息框和通知列表來提醒您。"
 
 #: ../plugins/notifications/PageComponent.qml:91
+#, fuzzy
 msgid "Apps that notify with sound"
-msgstr ""
+msgstr "透過音效來通知的應用程式"
 
 #: ../plugins/notifications/PageComponent.qml:117
+#, fuzzy
 msgid "Apps that notify with vibration"
-msgstr ""
+msgstr "透過振動來通知的應用程式"
 
 #: ../plugins/notifications/PageComponent.qml:143
-#, fuzzy
 msgid "Applications:"
-msgstr "capitalization"
+msgstr "應用程式："
 
 #: ../plugins/notifications/PageComponent.qml:172
-#, fuzzy
 msgid "No notifications"
-msgstr "通知"
+msgstr "沒有通知"
 
 #: ../plugins/notifications/PageComponent.qml:183
+#, fuzzy
 msgid "Bubbles"
-msgstr ""
+msgstr "通知聲"
 
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../plugins/notifications/ClickAppsSoundsNotify.qml:30
@@ -512,32 +494,31 @@ msgid "Sound"
 msgstr "音效"
 
 #: ../plugins/notifications/ClickAppsSoundsNotify.qml:48
+#, fuzzy
 msgid "Apps that notify with sound:"
-msgstr ""
+msgstr "透過音效來通知的應用程式"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:30
-#, fuzzy
 msgid "Vibration"
-msgstr "vibration"
+msgstr "振動"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:54
 #, fuzzy
 msgid "When in Silent mode:"
-msgstr "在無聲模式下振動"
+msgstr "在靜音模式下振動:"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:72
-#, fuzzy
 msgid "Vibrate as normal"
 msgstr "鈴聲響時發出振動"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:73
-#, fuzzy
 msgid "Don't vibrate"
-msgstr "振動"
+msgstr "不要振動"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:89
+#, fuzzy
 msgid "Apps that notify with vibrations:"
-msgstr ""
+msgstr "透過振動來通知的應用程式"
 
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../plugins/background/MainPage.qml:38
@@ -554,13 +535,12 @@ msgid "Custom"
 msgstr "自訂"
 
 #: ../plugins/background/MainPage.qml:118
-#, fuzzy
 msgid "Dash background"
 msgstr "背景"
 
 #: ../plugins/background/MainPage.qml:131
 msgid "Opacity:"
-msgstr ""
+msgstr "透明度："
 
 #: ../plugins/background/Preview.qml:69
 msgid "Preview"
@@ -587,7 +567,7 @@ msgstr "響鈴："
 
 #: ../plugins/sound/PageComponent.qml:141
 msgid "High volume can damage your hearing."
-msgstr ""
+msgstr "音量過大可能會損害您的聽力。"
 
 #: ../plugins/sound/PageComponent.qml:145
 msgid "Phone calls:"
@@ -599,7 +579,6 @@ msgid "Ringtone"
 msgstr "鈴聲"
 
 #: ../plugins/sound/PageComponent.qml:171
-#, fuzzy
 msgid "Vibrate on ring"
 msgstr "鈴聲響時發出振動"
 
@@ -610,9 +589,8 @@ msgstr "在無聲模式下振動"
 
 #: ../plugins/sound/PageComponent.qml:194
 #: ../plugins/phone/PageComponent.qml:102
-#, fuzzy
 msgid "Dialpad tones"
-msgstr "鍵盤聲"
+msgstr "撥號聲"
 
 #: ../plugins/sound/PageComponent.qml:203
 msgid "Messages:"
@@ -643,39 +621,38 @@ msgstr "鎖定聲"
 #: ../plugins/sound/PageComponent.qml:278
 #, fuzzy
 msgid "Other vibrations"
-msgstr "vibration"
+msgstr "其它振動"
 
 #: ../plugins/sound/SoundsList.qml:128
-#, fuzzy
 msgid "Custom Ringtone"
-msgstr "鈴聲"
+msgstr "自訂鈴聲"
 
 #: ../plugins/sound/SoundsList.qml:206
-#, fuzzy
 msgid "Choose from"
-msgstr "選擇電信商："
+msgstr "選擇電信業者："
 
 #: ../plugins/wifi/CertDialog.qml:22
+#, fuzzy
 msgid "Add certificate?"
-msgstr ""
+msgstr "添加證書？"
 
 #: ../plugins/wifi/CertDialog.qml:24
+#, fuzzy
 msgid "Add key?"
-msgstr ""
+msgstr "添加密碼？"
 
 #: ../plugins/wifi/CertDialog.qml:26
+#, fuzzy
 msgid "Add pac file?"
-msgstr ""
+msgstr "添加pac文件？"
 
 #: ../plugins/wifi/CertDialog.qml:36
-#, fuzzy
 msgid "Content:"
-msgstr "繼續"
+msgstr "內容："
 
 #: ../plugins/wifi/CertDialog.qml:49
-#, fuzzy
 msgid "No data available."
-msgstr "有可用的更新"
+msgstr "沒有可用的數據。"
 
 #: ../plugins/wifi/CertDialog.qml:74
 msgid "Save"
@@ -703,8 +680,9 @@ msgid "Network name"
 msgstr "網路名稱"
 
 #: ../plugins/wifi/OtherNetwork.qml:298
+#, fuzzy
 msgid "SSID"
-msgstr ""
+msgstr "無線基地台名稱"
 
 #: ../plugins/wifi/OtherNetwork.qml:307
 #: ../plugins/security-privacy/PageComponent.qml:142
@@ -736,7 +714,7 @@ msgstr "WPA 與 WPA2 個人式"
 #: ../plugins/wifi/OtherNetwork.qml:320
 #, fuzzy
 msgid "WPA & WPA2 Enterprise"
-msgstr "WPA 與 WPA2 個人式"
+msgstr "WPA-個人或WPA2-個人"
 
 #: ../plugins/wifi/OtherNetwork.qml:321
 msgid "WEP"
@@ -744,29 +722,31 @@ msgstr "WEP"
 
 #: ../plugins/wifi/OtherNetwork.qml:322
 msgid "Dynamic WEP (802.1x)"
-msgstr ""
+msgstr "動態WEP（802.1x）"
 
 #: ../plugins/wifi/OtherNetwork.qml:323
+#, fuzzy
 msgid "LEAP"
-msgstr ""
+msgstr "LEAP"
 
 #: ../plugins/wifi/OtherNetwork.qml:332
+#, fuzzy
 msgid "This network is insecure."
-msgstr ""
+msgstr "這個網絡不安全。"
 
 #: ../plugins/wifi/OtherNetwork.qml:338
 #: ../plugins/cellular/PageApnEditor.qml:382
-#, fuzzy
 msgid "Authentication"
-msgstr "通知"
+msgstr "認證"
 
 #: ../plugins/wifi/OtherNetwork.qml:363
 msgid "Inner authentication"
-msgstr ""
+msgstr "內部認證"
 
 #: ../plugins/wifi/OtherNetwork.qml:396
+#, fuzzy
 msgid "CA certificate"
-msgstr ""
+msgstr "CA證書"
 
 #. TRANSLATORS: %1 is the name of a certificate file.
 #. The ellipsis indicates that the file name has been
@@ -774,14 +754,14 @@ msgstr ""
 #: ../plugins/wifi/OtherNetwork.qml:450
 #, qt-format
 msgid "%1…"
-msgstr ""
+msgstr "%1…"
 
 #: ../plugins/wifi/OtherNetwork.qml:458 ../plugins/wifi/OtherNetwork.qml:575
 #: ../plugins/wifi/certhandler.cpp:106 ../plugins/wifi/certhandler.cpp:141
 #: ../plugins/wifi/certhandler.cpp:193 ../plugins/wifi/certhandler.cpp:225
 #: ../plugins/wifi/certhandler.cpp:290 ../plugins/wifi/certhandler.cpp:319
 msgid "Choose…"
-msgstr ""
+msgstr "選擇…"
 
 #. TRANSLATORS: The first position is the name of
 #. the organization that has issued the certificate.
@@ -791,7 +771,7 @@ msgstr ""
 #: ../plugins/wifi/OtherNetwork.qml:465
 #, qt-format
 msgid "%1…, Exp.: %2"
-msgstr ""
+msgstr "%1..., 到期: %2"
 
 #. TRANSLATORS: The first position is the name of
 #. the organization that has issued the certificate.
@@ -800,19 +780,20 @@ msgstr ""
 #: ../plugins/wifi/OtherNetwork.qml:473
 #, qt-format
 msgid "%1, Exp.: %2"
-msgstr ""
+msgstr "%1..., 到期: %2"
 
 #: ../plugins/wifi/OtherNetwork.qml:494
 msgid "Using certificates is recommended as it increases security."
-msgstr ""
+msgstr "建議使用證書可提高安全性。"
 
 #: ../plugins/wifi/OtherNetwork.qml:512
 msgid "Client certificate"
-msgstr ""
+msgstr "客戶端證書"
 
 #: ../plugins/wifi/OtherNetwork.qml:554
+#, fuzzy
 msgid "User private key"
-msgstr ""
+msgstr "用戶私鑰"
 
 #. TRANSLATORS: The first position is the type of
 #. private key, second the key algorithm, and third the
@@ -820,47 +801,46 @@ msgstr ""
 #: ../plugins/wifi/OtherNetwork.qml:579
 #, qt-format
 msgid "%1, %2, %3 bit"
-msgstr ""
+msgstr "%1, %2, %3 位元"
 
 #: ../plugins/wifi/OtherNetwork.qml:622
 msgid "Pac file"
-msgstr ""
+msgstr "Pac文件"
 
 #: ../plugins/wifi/OtherNetwork.qml:672
+#, fuzzy
 msgid "Pac provisioning"
-msgstr ""
+msgstr "Pac配置"
 
 #: ../plugins/wifi/OtherNetwork.qml:686
-#, fuzzy
 msgid "Disabled"
 msgstr "停用"
 
 #: ../plugins/wifi/OtherNetwork.qml:687
 msgid "Anonymous"
-msgstr ""
+msgstr "匿名"
 
 #: ../plugins/wifi/OtherNetwork.qml:688
 msgid "Authenticated"
-msgstr ""
+msgstr "通過身份驗證"
 
 #: ../plugins/wifi/OtherNetwork.qml:689
+#, fuzzy
 msgid "Both"
-msgstr ""
+msgstr "Both"
 
 #: ../plugins/wifi/OtherNetwork.qml:699
 #, fuzzy
 msgid "PEAP version"
-msgstr "版本"
+msgstr "PEAP版本"
 
 #: ../plugins/wifi/OtherNetwork.qml:713
-#, fuzzy
 msgid "Version 0"
-msgstr "版本： "
+msgstr "版本： 0"
 
 #: ../plugins/wifi/OtherNetwork.qml:714
-#, fuzzy
 msgid "Version 1"
-msgstr "版本： "
+msgstr "版本： 1"
 
 #: ../plugins/wifi/OtherNetwork.qml:715
 #, fuzzy
@@ -868,20 +848,22 @@ msgid "Automatic"
 msgstr "自動"
 
 #: ../plugins/wifi/OtherNetwork.qml:725
+#, fuzzy
 msgid "Anonymous identity"
-msgstr ""
+msgstr "匿名的身份"
 
 #: ../plugins/wifi/OtherNetwork.qml:752
 msgid "Identity"
-msgstr ""
+msgstr "身分"
 
 #: ../plugins/wifi/OtherNetwork.qml:754
 msgid "Username"
 msgstr "使用者名稱"
 
 #: ../plugins/wifi/OtherNetwork.qml:784
+#, fuzzy
 msgid "Private key password"
-msgstr ""
+msgstr "私鑰密碼"
 
 #: ../plugins/wifi/OtherNetwork.qml:786 ../plugins/wifi/NetworkDetails.qml:70
 #: ../plugins/cellular/PageApnEditor.qml:357
@@ -894,9 +876,8 @@ msgid "Show password"
 msgstr "顯示密碼"
 
 #: ../plugins/wifi/OtherNetwork.qml:857
-#, fuzzy
 msgid "Remember password"
-msgstr "密碼"
+msgstr "記住密碼"
 
 #: ../plugins/wifi/OtherNetwork.qml:905 ../plugins/bluetooth/DevicePage.qml:150
 msgid "Connect"
@@ -1062,7 +1043,7 @@ msgstr "上次連接"
 #: ../plugins/wifi/NetworkDetailsBrief.qml:53
 #, fuzzy
 msgid "Forget this network"
-msgstr "忘記網路"
+msgstr "忘掉這著網路"
 
 #: ../plugins/wifi/NetworkDetailsBrief.qml:69
 msgid "IP address"
@@ -1081,17 +1062,18 @@ msgid "Enter URI"
 msgstr "輸入 SIM 卡 PIN 碼"
 
 #: ../plugins/printing/AddPrinter.qml:78
-#, fuzzy
 msgid "Devices"
-msgstr "服務"
+msgstr "設備"
 
 #: ../plugins/printing/AddPrinter.qml:133
+#, fuzzy
 msgid "No devices found."
-msgstr ""
+msgstr "找不到設備。"
 
 #: ../plugins/printing/AddPrinterDetails.qml:37
+#, fuzzy
 msgid "Describe printer"
-msgstr ""
+msgstr "印表機說明"
 
 #: ../plugins/printing/AddPrinterDetails.qml:44
 msgid "Back"
@@ -1108,21 +1090,20 @@ msgid "Choose a connection"
 msgstr "選擇密語"
 
 #: ../plugins/printing/AddPrinterDetails.qml:165
-#, fuzzy
 msgid "Printer name"
-msgstr "印表機"
+msgstr "印表機名稱"
 
 #: ../plugins/printing/AddPrinterDetails.qml:202
 #: ../plugins/printing/printer-sub-pages/Status.qml:66
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:32
-#, fuzzy
 msgid "Description"
-msgstr "加密"
+msgstr "說明"
 
 #: ../plugins/printing/AddPrinterDetails.qml:204
 #: ../plugins/printing/AddPrinterDetails.qml:211
+#, fuzzy
 msgid "Optional"
-msgstr ""
+msgstr "可選"
 
 #: ../plugins/printing/AddPrinterDetails.qml:209
 #: ../plugins/security-privacy/AppAccess.qml:81
@@ -1133,75 +1114,83 @@ msgid "Location"
 msgstr "位置"
 
 #: ../plugins/printing/AddPrinterDetails.qml:219
+#, fuzzy
 msgid "Driver"
-msgstr ""
+msgstr "電信業者"
 
 #: ../plugins/printing/AddPrinterDetails.qml:225
-#, fuzzy
 msgid "Choose driver"
-msgstr "選擇電信商："
+msgstr "選擇電信業者："
 
 #: ../plugins/printing/AddPrinterDetails.qml:227
+#, fuzzy
 msgid "Select printer from database"
-msgstr ""
+msgstr "從數據庫中選擇印表機"
 
 #: ../plugins/printing/AddPrinterDetails.qml:228
+#, fuzzy
 msgid "Provide PPD file"
-msgstr ""
+msgstr "提供PPD文件"
 
 #: ../plugins/printing/AddPrinterDetails.qml:235
+#, fuzzy
 msgid "Filter drivers"
-msgstr ""
+msgstr "過濾電信業者"
 
 #: ../plugins/printing/AddPrinterDetails.qml:304
+#, fuzzy
 msgid "PPD file"
-msgstr ""
+msgstr "PPD文件"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../plugins/printing/PageComponent.qml:32
 #: ../obj-x86_64-linux-gnu/po/settings.js:134
-#, fuzzy
 msgid "Printing"
-msgstr "印表機"
+msgstr "列印中"
 
 #: ../plugins/printing/PageComponent.qml:45
+#, fuzzy
 msgid "Manager Printer Jobs"
-msgstr ""
+msgstr "管理列印作業"
 
 #: ../plugins/printing/PageComponent.qml:106
+#, fuzzy
 msgid "Default printer"
-msgstr ""
+msgstr "預設印表機"
 
 #: ../plugins/printing/PageComponent.qml:107
+#, fuzzy
 msgid "Configured printers"
-msgstr ""
+msgstr "配置印表機"
 
 #: ../plugins/printing/PageComponent.qml:115
+#, fuzzy
 msgid "Discovered printers"
-msgstr ""
+msgstr "發現印表機"
 
 #: ../plugins/printing/PageComponent.qml:136
 #: ../plugins/cellular/PageChooseApn.qml:305
 msgid "Delete"
-msgstr ""
+msgstr "刪除"
 
 #: ../plugins/printing/PageComponent.qml:149
 #: ../plugins/printing/printer-sub-pages/Policies.qml:50
 msgid "Set as Default"
-msgstr ""
+msgstr "設為預設"
 
 #: ../plugins/printing/PageComponent.qml:190
+#, fuzzy
 msgid "There are no printers configured yet."
-msgstr ""
+msgstr "尚未配置印表機"
 
 #: ../plugins/printing/PrinterConnection.qml:67
+#, fuzzy
 msgid "Host"
-msgstr ""
+msgstr "主機"
 
 #: ../plugins/printing/Printer.qml:42
-#, fuzzy
 msgid "Printer status"
-msgstr "印表機"
+msgstr "印表機狀態"
 
 #: ../plugins/printing/Printer.qml:43
 #, fuzzy
@@ -1209,8 +1198,9 @@ msgid "General settings"
 msgstr "系統設定"
 
 #: ../plugins/printing/Printer.qml:44
+#, fuzzy
 msgid "Policies"
-msgstr ""
+msgstr "聲明"
 
 #: ../plugins/printing/Printer.qml:47
 #, fuzzy
@@ -1233,9 +1223,8 @@ msgstr "自動"
 
 #: ../plugins/cellular/PageCarrierAndApn.qml:27
 #: ../plugins/cellular/Components/SingleSim.qml:110
-#, fuzzy
 msgid "Carrier & APN"
-msgstr "電信商"
+msgstr "電信業者"
 
 #. TRANSLATORS: This string is a description of a text
 #. field and should thus be concise.
@@ -1253,9 +1242,8 @@ msgid "Cellular"
 msgstr "行動網路"
 
 #: ../plugins/cellular/PageCarriersAndApns.qml:27
-#, fuzzy
 msgid "Carriers & APNs"
-msgstr "電信商"
+msgstr "電信業者"
 
 #: ../plugins/cellular/PageChooseApn.qml:64
 #, fuzzy
@@ -1270,7 +1258,7 @@ msgstr "網際網路存取點名稱："
 #: ../plugins/cellular/PageChooseApn.qml:76
 #, fuzzy
 msgid "LTE APN"
-msgstr "%1 存取點名稱"
+msgstr "LTE 存取點名稱"
 
 #: ../plugins/cellular/PageChooseApn.qml:86
 #: ../plugins/cellular/PageApnEditor.qml:158
@@ -1286,7 +1274,7 @@ msgstr "網際網路"
 #: ../plugins/cellular/PageChooseApn.qml:90
 #: ../plugins/cellular/PageApnEditor.qml:161
 msgid "LTE"
-msgstr ""
+msgstr "LTE"
 
 #: ../plugins/cellular/PageChooseApn.qml:92
 #: ../plugins/cellular/PageApnEditor.qml:160
@@ -1294,7 +1282,6 @@ msgid "MMS"
 msgstr "MMS"
 
 #: ../plugins/cellular/PageChooseApn.qml:158
-#, fuzzy
 msgid "Reset All APN Settings…"
 msgstr "重設存取點名稱設定"
 
@@ -1318,17 +1305,17 @@ msgstr "重設"
 #. be “preferred”.
 #: ../plugins/cellular/PageChooseApn.qml:194
 #: ../plugins/cellular/PageChooseApn.qml:225
-#, qt-format
+#, fuzzy, qt-format
 msgid "Prefer %1"
-msgstr ""
+msgstr "首選 %1"
 
 #. TRANSLATORS: %1 is the MMS APN that the user has chosen to be
 #. “preferred”, i.e. used to retrieve MMS messages. %2 is the Internet
 #. APN that will be “de-preferred” as a result of this action.
 #: ../plugins/cellular/PageChooseApn.qml:198
-#, qt-format
+#, fuzzy, qt-format
 msgid "You have chosen %1 as your preferred MMS APN. "
-msgstr ""
+msgstr "您已選擇％1作為首選MMS存取點名稱。 "
 
 #: ../plugins/cellular/PageChooseApn.qml:203
 #: ../plugins/cellular/PageChooseApn.qml:268
@@ -1340,56 +1327,56 @@ msgstr "斷線"
 #. be “preferred”, i.e. used to connect to the Internet. %2 is the MMS
 #. APN that will be “de-preferred” as a result of this action.
 #: ../plugins/cellular/PageChooseApn.qml:229
-#, qt-format
+#, fuzzy, qt-format
 msgid "You have chosen %1 as your preferred Internet APN. "
-msgstr ""
+msgstr "您已選擇％1作為首選的存取點名稱。 "
 
 #: ../plugins/cellular/PageChooseApn.qml:234
 #: ../plugins/cellular/PageChooseApn.qml:267
-#, fuzzy
 msgid "Disable"
 msgstr "停用"
 
 #: ../plugins/cellular/PageChooseApn.qml:256
-#, fuzzy, qt-format
+#, qt-format
 msgid "Disconnect %1"
-msgstr "斷線"
+msgstr "斷線 %1"
 
 #: ../plugins/cellular/PageChooseApn.qml:257
-#, fuzzy, qt-format
+#, qt-format
 msgid "Disable %1"
-msgstr "停用"
+msgstr "停用 %1"
 
 #: ../plugins/cellular/PageChooseApn.qml:262
 #, fuzzy, qt-format
 msgid "This disconnects %1."
-msgstr "斷線"
+msgstr "連接斷線％1。"
 
 #: ../plugins/cellular/PageChooseApn.qml:263
-#, qt-format
+#, fuzzy, qt-format
 msgid "This disables %1."
-msgstr ""
+msgstr "禁用 %1。"
 
 #: ../plugins/cellular/PageApnEditor.qml:69
 msgid "Edit"
-msgstr ""
+msgstr "編輯"
 
 #: ../plugins/cellular/PageApnEditor.qml:69
-#, fuzzy
 msgid "New APN"
-msgstr "%1 存取點名稱"
+msgstr "新存取點名稱"
 
 #: ../plugins/cellular/PageApnEditor.qml:154
 msgid "Used for:"
-msgstr ""
+msgstr "用於："
 
 #: ../plugins/cellular/PageApnEditor.qml:187
+#, fuzzy
 msgid "Enter a name describing the APN"
-msgstr ""
+msgstr "輸入描述APN的名稱"
 
 #: ../plugins/cellular/PageApnEditor.qml:212
+#, fuzzy
 msgid "Enter the name of the access point"
-msgstr ""
+msgstr "輸入接入點的名稱"
 
 #: ../plugins/cellular/PageApnEditor.qml:226
 msgid "MMSC"
@@ -1397,15 +1384,16 @@ msgstr "MMSC"
 
 #: ../plugins/cellular/PageApnEditor.qml:235
 msgid "Enter message center"
-msgstr ""
+msgstr "輸入訊息中心"
 
 #: ../plugins/cellular/PageApnEditor.qml:253
 msgid "Proxy"
 msgstr "代理伺服器"
 
 #: ../plugins/cellular/PageApnEditor.qml:262
+#, fuzzy
 msgid "Enter message proxy"
-msgstr ""
+msgstr "輸入訊息代理"
 
 #: ../plugins/cellular/PageApnEditor.qml:307
 #, fuzzy
@@ -1413,53 +1401,52 @@ msgid "Proxy port"
 msgstr "代理伺服器"
 
 #: ../plugins/cellular/PageApnEditor.qml:317
+#, fuzzy
 msgid "Enter message proxy port"
-msgstr ""
+msgstr "輸入訊息代理伺服器"
 
 #: ../plugins/cellular/PageApnEditor.qml:335
-#, fuzzy
 msgid "User name"
 msgstr "使用者名稱"
 
 #: ../plugins/cellular/PageApnEditor.qml:344
-#, fuzzy
 msgid "Enter username"
-msgstr "輸入密語"
+msgstr "輸入使用者名稱"
 
 #: ../plugins/cellular/PageApnEditor.qml:368
-#, fuzzy
 msgid "Enter password"
-msgstr "輸入密語"
+msgstr "輸入密碼"
 
 #: ../plugins/cellular/PageApnEditor.qml:387
 msgid "PAP or CHAP"
-msgstr ""
+msgstr "PAP 協定或CHAP 協定"
 
 #: ../plugins/cellular/PageApnEditor.qml:388
 #, fuzzy
 msgid "PAP only"
-msgstr "僅手機"
+msgstr "僅PAP協定"
 
 #: ../plugins/cellular/PageApnEditor.qml:389
 #, fuzzy
 msgid "CHAP only"
-msgstr "僅手機"
+msgstr "僅CHAP協定"
 
 #: ../plugins/cellular/PageApnEditor.qml:400
+#, fuzzy
 msgid "Protocol"
-msgstr ""
+msgstr "協定"
 
 #: ../plugins/cellular/PageApnEditor.qml:404
 msgid "IPv4"
-msgstr ""
+msgstr "IPv4"
 
 #: ../plugins/cellular/PageApnEditor.qml:405
 msgid "IPv6"
-msgstr ""
+msgstr "IPv6"
 
 #: ../plugins/cellular/PageApnEditor.qml:406
 msgid "IPv4v6"
-msgstr ""
+msgstr "IPv4v6"
 
 #: ../plugins/security-privacy/AppAccess.qml:29
 #: ../plugins/security-privacy/PageComponent.qml:264
@@ -1468,7 +1455,6 @@ msgid "App permissions"
 msgstr "權限"
 
 #: ../plugins/security-privacy/AppAccess.qml:69
-#, fuzzy
 msgid "Apps that you have granted access to:"
 msgstr "要求使用並獲得授權的程式："
 
@@ -1484,15 +1470,13 @@ msgstr "要求使用攝影機的程式："
 #: ../plugins/security-privacy/AppAccess.qml:82
 #, fuzzy
 msgid "Apps that have requested access to your location"
-msgstr "要求使用麥克風的程式："
+msgstr "要求使用您所在位置的程式："
 
 #: ../plugins/security-privacy/AppAccess.qml:87
-#, fuzzy
 msgid "Microphone"
-msgstr "手機"
+msgstr "麥克風"
 
 #: ../plugins/security-privacy/AppAccess.qml:88
-#, fuzzy
 msgid "Apps that have requested access to your microphone"
 msgstr "要求使用麥克風的程式："
 
@@ -1506,13 +1490,12 @@ msgid "0"
 msgstr "0"
 
 #: ../plugins/security-privacy/AppAccess.qml:118
-#, fuzzy
 msgid "Apps may also request access to online accounts."
-msgstr "要求使用麥克風的程式："
+msgstr "應用程序可能還需要訪問在線帳戶。"
 
 #: ../plugins/security-privacy/AppAccess.qml:123
 msgid "Online Accounts…"
-msgstr ""
+msgstr "在線賬戶…"
 
 #: ../plugins/security-privacy/SimPin.qml:37
 #: ../plugins/security-privacy/SimPin.qml:398
@@ -1537,7 +1520,7 @@ msgstr[0] "PIN 碼不正確。尚餘 %1 次重試機會。"
 #: ../plugins/security-privacy/SimPin.qml:297
 #, fuzzy
 msgid "No more attempts allowed"
-msgstr "尚有 %1 次機會。"
+msgstr "允許嘗試已用盡"
 
 #: ../plugins/security-privacy/SimPin.qml:93
 msgid "Current PIN:"
@@ -1585,7 +1568,6 @@ msgid "Lock"
 msgstr "上鎖"
 
 #: ../plugins/security-privacy/SimPin.qml:413
-#, fuzzy
 msgid "Unlocked"
 msgstr "解鎖"
 
@@ -1594,14 +1576,12 @@ msgid "Change PIN…"
 msgstr "變更 PIN 碼…"
 
 #: ../plugins/security-privacy/SimPin.qml:427
-#, fuzzy
 msgid "Locked"
 msgstr "上鎖"
 
 #: ../plugins/security-privacy/SimPin.qml:431
-#, fuzzy
 msgid "Unlock…"
-msgstr "解鎖"
+msgstr "解鎖…"
 
 #: ../plugins/security-privacy/SimPin.qml:445
 #, fuzzy
@@ -1618,7 +1598,7 @@ msgstr "連續錯誤輸入 PIN 碼多次可能令 SIM 卡被永久鎖住。"
 
 #: ../plugins/security-privacy/here-terms.qml:24
 msgid "Nokia HERE"
-msgstr ""
+msgstr "Nokia HERE"
 
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../plugins/security-privacy/PageComponent.qml:40
@@ -1636,12 +1616,12 @@ msgstr "僅手機"
 
 #: ../plugins/security-privacy/PageComponent.qml:148
 msgid "Fingerprint ID"
-msgstr ""
+msgstr "指紋ID"
 
 #: ../plugins/security-privacy/PageComponent.qml:168
 #: ../plugins/security-privacy/PhoneLocking.qml:32
 msgid "Locking and unlocking"
-msgstr ""
+msgstr "鎖定和解鎖"
 
 #: ../plugins/security-privacy/PageComponent.qml:181
 #: ../plugins/security-privacy/PageComponent.qml:253
@@ -1685,7 +1665,7 @@ msgstr "診斷"
 #. reports are to be sent by the system.
 #: ../plugins/security-privacy/PageComponent.qml:273
 msgid "Sent"
-msgstr "會傳送"
+msgstr "已送出"
 
 #. TRANSLATORS: This string is shown when crash
 #. reports are not to be sent by the system
@@ -1694,35 +1674,35 @@ msgid "Not sent"
 msgstr "不傳送"
 
 #: ../plugins/security-privacy/Location.qml:96
-#, fuzzy
 msgid "Let the device detect your location:"
-msgstr "要求使用麥克風的程式："
+msgstr "讓設備偵測您的位置："
 
 #: ../plugins/security-privacy/Location.qml:175
 msgid "Using GPS only (less accurate)"
-msgstr ""
+msgstr "僅使用GPS（不太準確）"
 
 #: ../plugins/security-privacy/Location.qml:176
 msgid "Using GPS"
-msgstr ""
+msgstr "使用GPS"
 
 #: ../plugins/security-privacy/Location.qml:188
 #, qt-format
 msgid ""
 "Using GPS, anonymized Wi-Fi and cellular network info.<br>By selecting this "
 "option you accept the <a href='%1'>Nokia HERE terms and conditions</a>."
-msgstr ""
+msgstr "使用GPS，匿名Wi-Fi和移動網絡。<br>選擇此選項即表示您同意<a href='%1'>Nokia HERE使用條款</a>。"
 
 #: ../plugins/security-privacy/Location.qml:189
 #, qt-format
 msgid ""
 "Using GPS and anonymized Wi-Fi info.<br>By selecting this option you accept "
 "the <a href='%1'>Nokia HERE terms and conditions</a>."
-msgstr ""
+msgstr "使用GPS和匿名的Wi-Fi信息。<br>選擇此選項即表示您同意<a href='%1'>Nokia HERE使用條款</a>。"
 
 #: ../plugins/security-privacy/Location.qml:195
+#, fuzzy
 msgid "Not at all"
-msgstr ""
+msgstr "完全沒有"
 
 #: ../plugins/security-privacy/Location.qml:212
 msgid ""
@@ -1777,7 +1757,7 @@ msgstr ""
 #: ../plugins/security-privacy/Location.qml:231
 #, fuzzy
 msgid "Let apps access this location:"
-msgstr "允許存取位置："
+msgstr "允許訪問位置信息的應用程序："
 
 #: ../plugins/security-privacy/Location.qml:254
 #, fuzzy
@@ -1869,7 +1849,7 @@ msgstr "密語"
 #: ../plugins/security-privacy/LockSecurity.qml:468
 #: ../plugins/security-privacy/PhoneLocking.qml:63
 msgid "Fingerprint"
-msgstr ""
+msgstr "指紋"
 
 #: ../plugins/security-privacy/LockSecurity.qml:469
 msgid "Swipe (no security)… "
@@ -1937,7 +1917,6 @@ msgid "Notifications and quick settings"
 msgstr "通知與快速設定"
 
 #: ../plugins/security-privacy/PhoneLocking.qml:167
-#, fuzzy
 msgid "Turn on lock security to restrict access when the device is locked."
 msgstr "開啟安全鎖功能，手機鎖定時可限制使用方式。"
 
@@ -2053,8 +2032,9 @@ msgid "Storage"
 msgstr "儲存空間"
 
 #: ../plugins/about/Storage.qml:44
+#, fuzzy
 msgid "Scanning"
-msgstr ""
+msgstr "掃描"
 
 #: ../plugins/about/Storage.qml:106
 msgid "Used by Ubuntu"
@@ -2110,13 +2090,10 @@ msgid "Developer Mode"
 msgstr "開發人員模式"
 
 #: ../plugins/about/DevMode.qml:84
-#, fuzzy
 msgid ""
 "In Developer Mode, anyone can access, change or delete anything on this "
 "device by connecting it to another device."
-msgstr ""
-"在「開發人員模式」下，任何人只需將本電話連接到其他裝置，即可存取、變更、或刪"
-"除任何東西。"
+msgstr "在「開發人員模式」下，任何人只需將本電話連接到其他裝置，即可存取、變更、或刪除任何東西。"
 
 #: ../plugins/about/DevMode.qml:110
 msgid "You need a passcode or passphrase set to use Developer Mode."
@@ -2182,6 +2159,7 @@ msgstr "來電待接"
 
 #: ../plugins/phone/MultiSim.qml:54 ../plugins/phone/SingleSim.qml:42
 #: ../plugins/phone/NoSims.qml:28 ../plugins/phone/CallForwarding.qml:45
+#, fuzzy
 msgid "Call forwarding"
 msgstr "來電轉接"
 
@@ -2196,13 +2174,13 @@ msgid "Forward to"
 msgstr "轉接至"
 
 #: ../plugins/phone/CallForwardItem.qml:171
-#, fuzzy
 msgid "Enter a number"
-msgstr "電話號碼"
+msgstr "輸入號碼"
 
 #: ../plugins/phone/CallForwardItem.qml:218
+#, fuzzy
 msgid "Call forwarding can’t be changed right now."
-msgstr ""
+msgstr "此時無法更改呼叫轉移。"
 
 #: ../plugins/phone/SingleSim.qml:29
 msgid "SIM"
@@ -2237,16 +2215,19 @@ msgid ""
 msgstr "讓您在接聽電話時接聽另一個電話、或開始另一個電話，又或在兩者之間切換"
 
 #: ../plugins/phone/CallForwarding.qml:131
+#, fuzzy
 msgid "Forward every incoming call"
-msgstr ""
+msgstr "轉發所有來電"
 
 #: ../plugins/phone/CallForwarding.qml:146
+#, fuzzy
 msgid "Redirects all phone calls to another number."
-msgstr ""
+msgstr "將所有電話轉接到另一個號碼。"
 
 #: ../plugins/phone/CallForwarding.qml:158
+#, fuzzy
 msgid "Call forwarding status can’t be checked "
-msgstr ""
+msgstr "無法驗證呼叫轉移的狀態 "
 
 #: ../plugins/phone/CallForwarding.qml:166
 #, fuzzy
@@ -2254,21 +2235,24 @@ msgid "Forward incoming calls when:"
 msgstr "撥出電話時使用："
 
 #: ../plugins/phone/CallForwarding.qml:175
+#, fuzzy
 msgid "I’m on another call"
-msgstr ""
+msgstr "我正在接聽另一個電話"
 
 #: ../plugins/phone/CallForwarding.qml:186
+#, fuzzy
 msgid "I don’t answer"
-msgstr ""
+msgstr "未回复"
 
 #: ../plugins/phone/CallForwarding.qml:197
 #, fuzzy
 msgid "My phone is unreachable"
-msgstr "ModemManager 不可用"
+msgstr "我的手機無法訪問"
 
 #: ../plugins/phone/CallForwarding.qml:227
+#, fuzzy
 msgid "Contacts…"
-msgstr ""
+msgstr "聯繫方式…"
 
 #: ../plugins/phone/CallForwarding.qml:274
 #, fuzzy
@@ -2281,12 +2265,14 @@ msgid "Numbers"
 msgstr "號碼"
 
 #: ../plugins/phone/CallForwarding.qml:302
+#, fuzzy
 msgid "Could not forward to this contact"
-msgstr ""
+msgstr "無法轉發此聯繫人"
 
 #: ../plugins/phone/CallForwarding.qml:303
+#, fuzzy
 msgid "Contact not associated with any phone number."
-msgstr ""
+msgstr "聯繫人與任何號碼無關。"
 
 #: ../plugins/phone/CallForwarding.qml:382
 #, fuzzy
@@ -2318,16 +2304,18 @@ msgid "Choose a name"
 msgstr "選擇密語"
 
 #: ../plugins/hotspot/HotspotSetup.qml:193
+#, fuzzy
 msgid "Require a password (recommended):"
-msgstr ""
+msgstr "需要密碼（推薦）："
 
 #: ../plugins/hotspot/HotspotSetup.qml:245
+#, fuzzy
 msgid "Starting the hotspot will turn on Wi-Fi."
-msgstr ""
+msgstr "啟動熱點將打開Wi-Fi。"
 
 #: ../plugins/hotspot/HotspotSetup.qml:275
 msgid "Start"
-msgstr ""
+msgstr "開始"
 
 #. TRANSLATORS: This is a keyword or name for the hotspot plugin which is used while searching
 #: ../plugins/hotspot/PageComponent.qml:33
@@ -2363,16 +2351,16 @@ msgstr "設立熱點"
 #: ../plugins/hotspot/PageComponent.qml:155
 #, fuzzy
 msgid "Wi-Fi is off"
-msgstr "Wi-Fi 熱點"
+msgstr "Wi-Fi已關閉"
 
 #: ../plugins/hotspot/PageComponent.qml:156
+#, fuzzy
 msgid "In order to create a hotspot, you need to turn Wi-Fi on."
-msgstr ""
+msgstr "要創建熱點，您需要打開Wi-Fi。"
 
 #: ../plugins/hotspot/PageComponent.qml:165
-#, fuzzy
 msgid "Turn on Wi-Fi"
-msgstr "當有 Wi-Fi 時"
+msgstr "打開Wifi"
 
 #: ../plugins/bluetooth/ProvidePinCodeDialog.qml:28
 #: ../plugins/bluetooth/DisplayPasskeyDialog.qml:26
@@ -2394,16 +2382,15 @@ msgid "Pair"
 msgstr "配對"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:26
-#, fuzzy
 msgid "Bluetooth Pairing Authorization Request"
-msgstr "藍牙配對請求"
+msgstr "藍牙配對授權請求"
 
 #. TRANSLATORS: %1 is the name of the bluetooth device which requires authorization
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:34
 #, qt-format
 msgid ""
 "The device %1 wants to pair with this device. Do you want to allow this?"
-msgstr ""
+msgstr "設備％1想要與此設備配對， 你是否允許？"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:39
 #, fuzzy
@@ -2412,16 +2399,16 @@ msgstr "允許"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:46
 msgid "Refuse"
-msgstr ""
+msgstr "拒絕"
 
 #: ../plugins/bluetooth/DevicePage.qml:38
 #: ../plugins/bluetooth/PageComponent.qml:290
 msgid "Connecting…"
-msgstr "連線中..."
+msgstr "連線中…"
 
 #: ../plugins/bluetooth/DevicePage.qml:39
 msgid "Disconnecting…"
-msgstr "中斷連線中..."
+msgstr "中斷連線中…"
 
 #: ../plugins/bluetooth/DevicePage.qml:40
 msgid "Disconnected"
@@ -2472,8 +2459,9 @@ msgid "Printer"
 msgstr "印表機"
 
 #: ../plugins/bluetooth/DevicePage.qml:62
+#, fuzzy
 msgid "Watch"
-msgstr ""
+msgstr "手表"
 
 #: ../plugins/bluetooth/DevicePage.qml:63
 msgid "Other"
@@ -2520,9 +2508,9 @@ msgstr "忘記此裝置"
 #. TRANSLATORS: %1 is the name of the bluetooth device being paired
 #: ../plugins/bluetooth/DisplayPasskeyDialog.qml:35
 #: ../plugins/bluetooth/DisplayPinCodeDialog.qml:34
-#, qt-format
+#, fuzzy, qt-format
 msgid "Please enter the following PIN on %1 and press “Enter” on the keyboard:"
-msgstr ""
+msgstr "請在％1上輸入以下PIN碼，然後按鍵盤上的“Enter”鍵："
 
 #. TRANSLATORS: This is a keyword or name for the bluetooth plugin which is used while searching
 #: ../plugins/bluetooth/PageComponent.qml:33
@@ -2544,7 +2532,7 @@ msgstr "不被找到"
 #: ../plugins/bluetooth/PageComponent.qml:319
 #, fuzzy
 msgid "Searching…"
-msgstr "重新啟動中..."
+msgstr "重新啟動中…"
 
 #: ../plugins/bluetooth/PageComponent.qml:269
 msgid "Connected devices:"
@@ -2587,8 +2575,9 @@ msgid "Hardware keyboard"
 msgstr "鍵盤"
 
 #: ../plugins/language/PageHardwareKeyboard.qml:63
+#, fuzzy
 msgid "Layouts and other sources"
-msgstr ""
+msgstr "系統和其他來源"
 
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../plugins/language/PageComponent.qml:36
@@ -2601,14 +2590,12 @@ msgid "Display language…"
 msgstr "顯示語言…"
 
 #: ../plugins/language/PageComponent.qml:149
-#, fuzzy
 msgid "Enable on-screen keyboard"
-msgstr "鍵盤"
+msgstr "使用螢幕鍵盤"
 
 #: ../plugins/language/PageComponent.qml:161
-#, fuzzy
 msgid "On-screen keyboard"
-msgstr "鍵盤"
+msgstr "螢幕鍵盤"
 
 #: ../plugins/language/PageComponent.qml:162
 #: ../plugins/language/KeyboardLayouts.qml:29
@@ -2618,7 +2605,7 @@ msgstr "鍵盤配置"
 #: ../plugins/language/PageComponent.qml:173
 #, fuzzy
 msgid "External keyboard"
-msgstr "鍵盤"
+msgstr "外部鍵盤"
 
 #: ../plugins/language/PageComponent.qml:185
 #: ../plugins/language/PageComponent.qml:195
@@ -2821,7 +2808,7 @@ msgstr "抹除並重置全部設定"
 #: ../plugins/reset/PageComponent.qml:32
 #, fuzzy
 msgid "Reset device"
-msgstr "裝置"
+msgstr "重置設備"
 
 #: ../plugins/reset/PageComponent.qml:101
 #: ../plugins/reset/PageComponent.qml:112
@@ -2835,8 +2822,9 @@ msgid "Erase & Reset All"
 msgstr "抹除並重置全部設定"
 
 #: ../plugins/brightness/WifiDisplays.qml:27
+#, fuzzy
 msgid "Wireless Display"
-msgstr ""
+msgstr "無線顯示器"
 
 #: ../plugins/brightness/WifiDisplays.qml:100
 #, fuzzy
@@ -2858,22 +2846,22 @@ msgstr "連線中..."
 #: ../plugins/brightness/PageComponent.qml:159
 #, fuzzy
 msgid "Not connected"
-msgstr "上次連接"
+msgstr "未連接"
 
 #: ../plugins/brightness/WifiDisplays.qml:146
 #, fuzzy
 msgid "Use another display:"
-msgstr "連接另一個裝置："
+msgstr "連接另一個顯示器："
 
 #: ../plugins/brightness/WifiDisplays.qml:146
 #, fuzzy
 msgid "Choose a display:"
-msgstr "選擇密語"
+msgstr "選擇顯示器："
 
 #: ../plugins/brightness/PageComponent.qml:35
 #, fuzzy
 msgid "Brightness & Display"
-msgstr "亮度"
+msgstr "亮度和顯示"
 
 #. TRANSLATORS: This is a keyword or name for the brightness plugin which is used while searching
 #: ../plugins/brightness/PageComponent.qml:35
@@ -2890,41 +2878,41 @@ msgid "Brightens and dims the display to suit the surroundings."
 msgstr "令螢幕變亮或變暗，以適應週遭環境。"
 
 #: ../plugins/brightness/PageComponent.qml:140
-#, fuzzy
 msgid "External display"
-msgstr "顯示"
+msgstr "外部顯示"
 
 #: ../plugins/brightness/PageComponent.qml:158
 #, fuzzy
 msgid "Wireless display"
-msgstr "顯示"
+msgstr "無線顯示器"
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:32
 #, fuzzy, qt-format
 msgid "This device failed to connect to %1."
-msgstr "斷線"
+msgstr "此設備無法連接％1。"
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:34
-#, qt-format
+#, fuzzy, qt-format
 msgid "There was an unknown error connecting to %1."
-msgstr ""
+msgstr "連接到％1時出現未知錯誤。"
 
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../plugins/vpn/PageComponent.qml:31
 #: ../obj-x86_64-linux-gnu/po/settings.js:388
-#, fuzzy
 msgid "VPN"
-msgstr "APN"
+msgstr "VPN"
 
 #: ../plugins/vpn/PageComponent.qml:76
+#, fuzzy
 msgid ""
 "To add a VPN configuration, download its config file or configure it "
 "manually."
-msgstr ""
+msgstr "要添加VPN配置，請下載其配置文件或手動配置。"
 
 #: ../plugins/vpn/PageComponent.qml:82
+#, fuzzy
 msgid "Add Manual Configuration…"
-msgstr ""
+msgstr "添加手動配置…"
 
 #: ../plugins/vpn/PageComponent.qml:117
 #, fuzzy
@@ -2961,27 +2949,30 @@ msgstr "啟用"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:46
 msgid "Default"
-msgstr ""
+msgstr "預設"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:47
 msgid "This is the default printer."
-msgstr ""
+msgstr "這是預設印表機。"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:60
+#, fuzzy
 msgid "Accepting jobs"
-msgstr ""
+msgstr "驗收作業"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:69
+#, fuzzy
 msgid "Shared"
-msgstr ""
+msgstr "共享"
 
 #: ../plugins/printing/printer-sub-pages/CopiesAndPages.qml:26
 msgid "Copies"
-msgstr ""
+msgstr "複製"
 
 #: ../plugins/printing/printer-sub-pages/CopiesAndPages.qml:46
+#, fuzzy
 msgid "Paper size"
-msgstr ""
+msgstr "紙張尺寸"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:30
 msgid "Idle"
@@ -2994,7 +2985,7 @@ msgstr "已中止"
 #: ../plugins/printing/printer-sub-pages/Status.qml:34
 #, fuzzy
 msgid "Active"
-msgstr "啟動"
+msgstr "活躍"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:36
 msgid "Stopped"
@@ -3003,26 +2994,27 @@ msgstr "已停止"
 #. TRANSLATORS: %1 is the overall state of the printer, %2 is a more
 #. detailed message from the printer itself.
 #: ../plugins/printing/printer-sub-pages/Status.qml:40
-#, qt-format
+#, fuzzy, qt-format
 msgid "%1 — %2"
-msgstr ""
+msgstr "%1 — %2"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:43
 msgid "No messages"
 msgstr "無訊息"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:48
+#, fuzzy
 msgid "Jobs"
-msgstr ""
+msgstr "作業"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:53
+#, fuzzy
 msgid "Manage Print Jobs"
-msgstr ""
+msgstr "管理列印作業"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:78
-#, fuzzy
 msgid "Address"
-msgstr "位址"
+msgstr "地址"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:84
 #, fuzzy
@@ -3030,31 +3022,32 @@ msgid "Model"
 msgstr "數據機"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:85
+#, fuzzy
 msgid "Local Raw Printer"
-msgstr ""
+msgstr "本地原始印表機"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:88
+#, fuzzy
 msgid "Print test page"
-msgstr ""
+msgstr "印表機測試頁面"
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:43
+#, fuzzy
 msgid "Duplex"
-msgstr ""
+msgstr "複式"
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:59
-#, fuzzy
 msgid "Color model"
-msgstr "開發人員模式"
+msgstr "顏色模式"
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:75
 msgid "Quality"
-msgstr ""
+msgstr "品質"
 
 #: ../plugins/cellular/Components/RadioSingleSim.qml:31
 #: ../plugins/cellular/Components/MultiSim.qml:83
-#, fuzzy
 msgid "Connection type:"
-msgstr "已連線"
+msgstr "連接類型："
 
 #: ../plugins/cellular/Components/MultiSim.qml:55
 #: ../plugins/cellular/Components/SingleSim.qml:105
@@ -3075,15 +3068,13 @@ msgid "Data roaming"
 msgstr "數據漫游"
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:36
-#, fuzzy
 msgid "Cellular data"
-msgstr "行動數據："
+msgstr "行動數據"
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:73
 #: ../plugins/cellular/Components/NoSim.qml:36
-#, fuzzy
 msgid "No SIM detected"
-msgstr "沒有偵測到"
+msgstr "沒有偵測到SIM卡"
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:81
 #: ../plugins/cellular/Components/NoSim.qml:45
@@ -3116,8 +3107,9 @@ msgstr "編輯 SIM 卡名稱"
 #. TRANSLATORS: This is the text that will be used on the "return" key for the virtual keyboard,
 #. this word must be less than 5 characters
 #: ../plugins/cellular/Components/LabelTextField.qml:51
+#, fuzzy
 msgid "Next"
-msgstr ""
+msgstr "下一首"
 
 #: ../plugins/cellular/Components/Sim.qml:46
 msgid "2G only (saves battery)"
@@ -3166,7 +3158,7 @@ msgstr "系統"
 #. TRANSLATORS: This is a keyword or name for the flight-mode plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:2
 msgid "Flight Mode"
-msgstr "飛安模式"
+msgstr "飛航模式"
 
 #. TRANSLATORS: This is a keyword or name for the flight-mode plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:4
@@ -3227,13 +3219,13 @@ msgstr "更新"
 #: ../obj-x86_64-linux-gnu/po/settings.js:62
 #: ../obj-x86_64-linux-gnu/po/settings.js:416
 msgid "apps"
-msgstr "apps"
+msgstr "應用"
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:24
 #, fuzzy
 msgid "application"
-msgstr "capitalization"
+msgstr "應用程序"
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the time-date plugin which is used while searching
@@ -3290,23 +3282,23 @@ msgstr "滑鼠"
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:46
 msgid "touchpad"
-msgstr ""
+msgstr "觸控板"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:48
-#, fuzzy
 msgid "tap"
-msgstr "apn"
+msgstr "tap"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:50
+#, fuzzy
 msgid "touch"
-msgstr ""
+msgstr "觸控"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:54
 msgid "input"
-msgstr ""
+msgstr "輸入"
 
 #. TRANSLATORS: This is a keyword or name for the notifications plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:60
@@ -3503,49 +3495,57 @@ msgstr "等待"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:142
+#, fuzzy
 msgid "pdf"
-msgstr ""
+msgstr "pdf"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:144
+#, fuzzy
 msgid "ppd"
-msgstr ""
+msgstr "ppd"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:146
+#, fuzzy
 msgid "collate"
-msgstr ""
+msgstr "排序"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:148
+#, fuzzy
 msgid "copies"
-msgstr ""
+msgstr "複製"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:150
+#, fuzzy
 msgid "colormodel"
-msgstr ""
+msgstr "色彩模式"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:152
+#, fuzzy
 msgid "greyscale"
-msgstr ""
+msgstr "灰階"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:154
+#, fuzzy
 msgid "color"
-msgstr ""
+msgstr "色彩"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:156
+#, fuzzy
 msgid "laser"
-msgstr ""
+msgstr "雷射"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:158
 #, fuzzy
 msgid "ink"
-msgstr "pin"
+msgstr "ink"
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:162
@@ -3590,12 +3590,12 @@ msgstr "2g"
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:180
 msgid "lte"
-msgstr "lte"
+msgstr "LTE"
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:182
 msgid "apn"
-msgstr "apn"
+msgstr "存取點名稱"
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:184
@@ -3631,7 +3631,7 @@ msgstr "鎖定"
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:198
 msgid "pin"
-msgstr "pin"
+msgstr "PIN"
 
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:200
@@ -3755,7 +3755,7 @@ msgstr "版本"
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:256
 msgid "revision"
-msgstr "revision"
+msgstr "調整"
 
 #. TRANSLATORS: This is a keyword or name for the example plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:258
@@ -3800,7 +3800,7 @@ msgstr "通話"
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:280
 msgid "shortcuts"
-msgstr "shortcuts"
+msgstr "快速撥號"
 
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:282
@@ -3830,8 +3830,9 @@ msgstr "熱點"
 
 #. TRANSLATORS: This is a keyword or name for the hotspot plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:296
+#, fuzzy
 msgid "tethering"
-msgstr ""
+msgstr "拘束"
 
 #. TRANSLATORS: This is a keyword or name for the bluetooth plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:300
@@ -3891,12 +3892,12 @@ msgstr "建議"
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:336
 msgid "capitalization"
-msgstr "capitalization"
+msgstr "大寫"
 
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:338
 msgid "punctuation"
-msgstr "punctuation"
+msgstr "標點符號"
 
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:340
@@ -3913,12 +3914,12 @@ msgstr "顯示"
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:344
 msgid "words"
-msgstr "words"
+msgstr "詞彙"
 
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:346
 msgid "vibration"
-msgstr "vibration"
+msgstr "振動"
 
 #. TRANSLATORS: This is a keyword or name for the battery plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:350
@@ -3957,8 +3958,9 @@ msgstr "重設"
 
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:368
+#, fuzzy
 msgid "erase"
-msgstr "erase"
+msgstr "清除"
 
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:370
@@ -3996,17 +3998,19 @@ msgstr "調整"
 #: ../obj-x86_64-linux-gnu/po/settings.js:396
 #, fuzzy
 msgid "vpn"
-msgstr "pin"
+msgstr "vpn"
 
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:398
+#, fuzzy
 msgid "openvpn"
-msgstr ""
+msgstr "openvpn"
 
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:404
+#, fuzzy
 msgid "routing"
-msgstr ""
+msgstr "路由器"
 
 #. TRANSLATORS: This is a keyword or name for the orientation-lock plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:406
@@ -4030,12 +4034,14 @@ msgid "Private key"
 msgstr "隱私"
 
 #: ../plugins/wifi/certhandler.cpp:259
+#, fuzzy
 msgid "Public key"
-msgstr ""
+msgstr "公鑰"
 
 #: ../plugins/wifi/certhandler.cpp:264
+#, fuzzy
 msgid "Opaque"
-msgstr ""
+msgstr "不透明"
 
 #: ../plugins/security-privacy/securityprivacy.cpp:369
 msgid "Incorrect passcode. Try again."
@@ -4073,7 +4079,7 @@ msgstr "無法暫停目前要求的請求 (無法聯絡該服務)"
 #: ../src/systemimage.cpp:330
 #, fuzzy
 msgid "Unavailable"
-msgstr "有可用的更新"
+msgstr "不可用"
 
 #: ../push-helper/software_updates_helper.py:159
 msgid "There's an updated system image."
