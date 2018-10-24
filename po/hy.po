@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-10-21 00:00+0000\n"
+"PO-Revision-Date: 2018-10-24 15:09+0000\n"
 "Last-Translator: Tigran Kharatyan <xita8207@gmail.com>\n"
 "Language-Team: Armenian <https://translate.ubports.com/projects/ubports/"
 "system-settings/hy/>\n"
@@ -138,12 +138,12 @@ msgstr "Բոլոր միացումներին"
 
 #: ../plugins/system-update/Configuration.qml:57
 msgid "Data charges may apply."
-msgstr ""
+msgstr "Կարող է պահանջվել վճարում:"
 
 #: ../plugins/system-update/InstallationFailed.qml:25
 #: ../plugins/system-update/DownloadHandler.qml:174
 msgid "Installation failed"
-msgstr ""
+msgstr "Տեղակայման ձախողում"
 
 #: ../plugins/system-update/InstallationFailed.qml:28
 #: ../plugins/phone/CallForwarding.qml:305
@@ -183,51 +183,52 @@ msgstr "Կայուն"
 #: ../plugins/system-update/UpdateSettings.qml:73
 #: ../plugins/system-update/ChannelSettings.qml:57
 msgid "Release candidate"
-msgstr ""
+msgstr "Թողարկման ենթակա"
 
 #: ../plugins/system-update/UpdateSettings.qml:73
 #: ../plugins/system-update/ChannelSettings.qml:57
 msgid "Development"
-msgstr ""
+msgstr "Նախագծվող"
 
 #: ../plugins/system-update/ChangelogExpander.qml:42
 #, qt-format
 msgid "Version %1"
-msgstr ""
+msgstr "Տարբերակ"
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../plugins/system-update/PageComponent.qml:38
 #: ../obj-x86_64-linux-gnu/po/settings.js:14
 msgid "Updates"
-msgstr ""
+msgstr "Թարմեցումներ"
 
 #: ../plugins/system-update/PageComponent.qml:182
 msgid "Connect to the Internet to check for updates."
-msgstr ""
+msgstr "Միանալ ցանցին թարմեցումը ստոգելու:"
 
 #: ../plugins/system-update/PageComponent.qml:184
 msgid "Software is up to date"
-msgstr ""
+msgstr "Ծրագրեգը թարմ են"
 
 #: ../plugins/system-update/PageComponent.qml:187
 msgid "The update server is not responding. Try again later."
-msgstr ""
+msgstr "Թարմեցման սերվերը չի պատասխանում: Փորձիր քիչ անց:"
 
 #: ../plugins/system-update/PageComponent.qml:196
 msgid "Updates Available"
-msgstr ""
+msgstr "Կան թարմեցումներ"
 
 #: ../plugins/system-update/PageComponent.qml:349
 msgid "Recent updates"
-msgstr ""
+msgstr "Վերջին թարմեցումներ"
 
 #: ../plugins/system-update/ChannelSettings.qml:32
+#, fuzzy
 msgid "Channel settings"
-msgstr ""
+msgstr "Ալիքներ"
 
 #: ../plugins/system-update/ChannelSettings.qml:99
 msgid "Fetching channels"
-msgstr ""
+msgstr "Ալիքների ստացում"
 
 #: ../plugins/system-update/ChannelSettings.qml:107
 msgid "Channel to get updates from:"
@@ -235,23 +236,23 @@ msgstr ""
 
 #: ../plugins/system-update/ChannelSettings.qml:123
 msgid "Switching channel"
-msgstr ""
+msgstr "Ալիքի փոփոխում"
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:30
 msgid "Update System"
-msgstr ""
+msgstr "Համակարգի թարմեցում"
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:32
 msgid "The device needs to restart to install the system update."
-msgstr ""
+msgstr "Պետք է վերագործարկել համակարգի թարմեցման համար:"
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:33
 msgid "Connect the device to power before installing the system update."
-msgstr ""
+msgstr "Մինչ համակարգի թարմեցումը միացրեք սարքը հոսանքին:"
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:38
 msgid "Restart & Install"
-msgstr ""
+msgstr "Վերագործարկել և տեղադրել"
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:48
 #: ../plugins/background/Preview.qml:107 ../plugins/wifi/CertDialog.qml:65
@@ -280,39 +281,39 @@ msgstr ""
 #: ../plugins/background/Components/AddRemove.qml:42
 #: ../plugins/cellular/Components/SimEditor.qml:203
 msgid "Cancel"
-msgstr ""
+msgstr "Չեղարկել"
 
 #: ../plugins/system-update/NotAuthenticatedNotification.qml:37
 msgid "Sign in to Ubuntu One to receive updates for apps."
-msgstr ""
+msgstr "Մուտք գորղել Ubuntu One թարմեցումները ստանալու համար:"
 
 #: ../plugins/system-update/NotAuthenticatedNotification.qml:54
 msgid "Sign In…"
-msgstr ""
+msgstr "Մուտք…"
 
 #: ../plugins/system-update/Global.qml:84
 msgid "Checking for updates…"
-msgstr ""
+msgstr "Թարմեցումների ստուգում…"
 
 #: ../plugins/system-update/Global.qml:89
 msgid "Stop"
-msgstr ""
+msgstr "Կանգ"
 
 #. TRANSLATORS: %1 is number of software updates available.
 #: ../plugins/system-update/Global.qml:116
 #, qt-format
 msgid "%1 update available"
 msgid_plural "%1 updates available"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Կա %1 թարմեցում"
+msgstr[1] "Կա %1 թարմեցում"
 
 #: ../plugins/system-update/Global.qml:126
 msgid "Update all…"
-msgstr ""
+msgstr "Թարմեցնել բոլորը…"
 
 #: ../plugins/system-update/Global.qml:128
 msgid "Update all"
-msgstr ""
+msgstr "Թարմեցնել բոլորը"
 
 #. TRANSLATORS: This is a keyword or name for the launcher plugin which is used while searching
 #: ../plugins/launcher/PageComponent.qml:31
