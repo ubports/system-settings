@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-10-25 10:27+0000\n"
-"Last-Translator: Louies <louies0623@gmail.com>\n"
+"PO-Revision-Date: 2018-10-25 14:06+0000\n"
+"Last-Translator: P.-H. Lin <cypressyew@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.ubports.com/projects/"
 "ubports/system-settings/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -29,9 +29,8 @@ msgid "System;"
 msgstr "系統;"
 
 #: ubuntu-system-settings.desktop.in.in.h:3
-#, fuzzy
 msgid "Preferences;Settings;"
-msgstr "偏好設定;設定值;"
+msgstr "Preferences;Settings;偏好設定;設定值;"
 
 #: ../plugins/system-update/UpdateDelegate.qml:119
 msgid "Retry"
@@ -156,7 +155,6 @@ msgstr "確定"
 
 #: ../plugins/system-update/UpdateSettings.qml:32
 #: ../plugins/system-update/PageComponent.qml:412
-#, fuzzy
 msgid "Update settings"
 msgstr "更新設定"
 
@@ -246,14 +244,12 @@ msgid "Update System"
 msgstr "更新系統"
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:32
-#, fuzzy
 msgid "The device needs to restart to install the system update."
-msgstr "手機或電腦需要重新啟動才能安裝系統更新。"
+msgstr "裝置需要重新啟動才能安裝系統更新。"
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:33
-#, fuzzy
 msgid "Connect the device to power before installing the system update."
-msgstr "進行系統更新前，請先將手機或電腦接上電源。"
+msgstr "進行系統更新前，請先將裝置接上電源。"
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:38
 msgid "Restart & Install"
@@ -408,9 +404,8 @@ msgid "Touchpad"
 msgstr "觸控板"
 
 #: ../plugins/mouse/Connected.qml:264
-#, fuzzy
 msgid "Finger scrolling speed:"
-msgstr "手指移動速度："
+msgstr "手指捲動速度："
 
 #: ../plugins/mouse/Connected.qml:389
 #, fuzzy
@@ -446,7 +441,6 @@ msgstr "允許應用程序以下列方式通知："
 
 #: ../plugins/notifications/ClickAppNotifications.qml:81
 #: ../plugins/notifications/PageComponent.qml:177
-#, fuzzy
 msgid "Sounds"
 msgstr "聲音"
 
@@ -3012,7 +3006,6 @@ msgid "Aborted"
 msgstr "已中止"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:34
-#, fuzzy
 msgid "Active"
 msgstr "活躍"
 
