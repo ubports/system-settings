@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-10-25 15:40+0000\n"
+"PO-Revision-Date: 2018-10-28 00:00+0000\n"
 "Last-Translator: Louies <louies0623@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.ubports.com/projects/"
 "ubports/system-settings/zh_Hant/>\n"
@@ -723,9 +723,8 @@ msgid "WPA & WPA2 Enterprise"
 msgstr "WPA 或企業 WPA2"
 
 #: ../plugins/wifi/OtherNetwork.qml:321
-#, fuzzy
 msgid "WEP"
-msgstr "無線加密協議"
+msgstr "WEP"
 
 #: ../plugins/wifi/OtherNetwork.qml:322
 #, fuzzy
@@ -3901,7 +3900,7 @@ msgstr "語言"
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:328
 msgid "spellcheck"
-msgstr "spellcheck"
+msgstr "拼寫檢查"
 
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:332
