@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-10-24 15:09+0000\n"
+"PO-Revision-Date: 2018-10-28 00:00+0000\n"
 "Last-Translator: Tigran Kharatyan <xita8207@gmail.com>\n"
 "Language-Team: Armenian <https://translate.ubports.com/projects/ubports/"
 "system-settings/hy/>\n"
@@ -29,7 +29,7 @@ msgstr "Համակարգ;"
 
 #: ubuntu-system-settings.desktop.in.in.h:3
 msgid "Preferences;Settings;"
-msgstr ""
+msgstr "Նախընտրություններ;Կարգավորումներ"
 
 #: ../plugins/system-update/UpdateDelegate.qml:119
 msgid "Retry"
@@ -109,7 +109,7 @@ msgstr "Թարմեցման սխալ"
 #: ../plugins/system-update/Configuration.qml:30
 #: ../plugins/system-update/UpdateSettings.qml:55
 msgid "Auto download"
-msgstr ""
+msgstr "Ավտոբեռնում"
 
 #: ../plugins/system-update/Configuration.qml:35
 msgid "Download future updates automatically:"
@@ -129,12 +129,11 @@ msgstr "Երբեք"
 
 #: ../plugins/system-update/Configuration.qml:54
 msgid "When on WiFi"
-msgstr ""
+msgstr "WiFi կապի դեպքում"
 
 #: ../plugins/system-update/Configuration.qml:56
-#, fuzzy
 msgid "On any data connection"
-msgstr "Բոլոր միացումներին"
+msgstr "Բոլոր տեսակի միացումներին"
 
 #: ../plugins/system-update/Configuration.qml:57
 msgid "Data charges may apply."
@@ -222,9 +221,8 @@ msgid "Recent updates"
 msgstr "Վերջին թարմեցումներ"
 
 #: ../plugins/system-update/ChannelSettings.qml:32
-#, fuzzy
 msgid "Channel settings"
-msgstr "Ալիքներ"
+msgstr "Ալիքների ընտրանքներ"
 
 #: ../plugins/system-update/ChannelSettings.qml:99
 msgid "Fetching channels"
@@ -232,7 +230,7 @@ msgstr "Ալիքների ստացում"
 
 #: ../plugins/system-update/ChannelSettings.qml:107
 msgid "Channel to get updates from:"
-msgstr ""
+msgstr "Թարմեցման բեռնման ալիք:"
 
 #: ../plugins/system-update/ChannelSettings.qml:123
 msgid "Switching channel"
@@ -320,41 +318,41 @@ msgstr "Թարմեցնել բոլորը"
 #: ../plugins/security-privacy/PhoneLocking.qml:138
 #: ../obj-x86_64-linux-gnu/po/settings.js:36
 msgid "Launcher"
-msgstr ""
+msgstr "Թողարկիչ"
 
 #: ../plugins/launcher/PageComponent.qml:65
 msgid "On large screens:"
-msgstr ""
+msgstr "Մեծ էկրաններին."
 
 #: ../plugins/launcher/PageComponent.qml:73
 msgid "Always show the launcher"
-msgstr ""
+msgstr "Միշտ ցուցադրել թողարկիչը"
 
 #: ../plugins/launcher/PageComponent.qml:74
 msgid "Videos and full-screen games may hide it temporarily."
-msgstr ""
+msgstr "Վիդեոները և լիէկրան խաղերը կարող են ժամանակավորապես փակել այն:"
 
 #: ../plugins/launcher/PageComponent.qml:85
 msgid "Icon size:"
-msgstr ""
+msgstr "Պատկերների չափերը:"
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:42
 msgid "Primary button:"
-msgstr ""
+msgstr "Հիմնական կոճակը:"
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:72
 msgid "Left"
-msgstr ""
+msgstr "Ձախ"
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:89
 msgid "Right"
-msgstr ""
+msgstr "Աջ"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../plugins/mouse/PageComponent.qml:29
 #: ../obj-x86_64-linux-gnu/po/settings.js:42
 msgid "Mouse & Touchpad"
-msgstr ""
+msgstr "մկնիկ և սենսորային պանել"
 
 #: ../plugins/mouse/None.qml:34
 msgid ""
@@ -371,35 +369,35 @@ msgstr ""
 
 #: ../plugins/mouse/TapArea.qml:38
 msgid "Not fast enough"
-msgstr ""
+msgstr "Անհրաժեշտից դանդաղ"
 
 #: ../plugins/mouse/TapArea.qml:77
 msgid "Double-clicked"
-msgstr ""
+msgstr "Կրկնակի սեղմում"
 
 #: ../plugins/mouse/Connected.qml:48 ../plugins/bluetooth/DevicePage.qml:59
 msgid "Mouse"
-msgstr ""
+msgstr "Մուկ"
 
 #: ../plugins/mouse/Connected.qml:62 ../plugins/mouse/Connected.qml:228
 msgid "Cursor speed:"
-msgstr ""
+msgstr "Ցուցիչի արագությունը:"
 
 #: ../plugins/mouse/Connected.qml:98
 msgid "Wheel scrolling speed:"
-msgstr ""
+msgstr "Անիվի արագությունը:"
 
 #: ../plugins/mouse/Connected.qml:134 ../plugins/mouse/Connected.qml:301
 msgid "Double-click speed:"
-msgstr ""
+msgstr "Կրկնակի սեղման արագությունը:"
 
 #: ../plugins/mouse/Connected.qml:168 ../plugins/mouse/Connected.qml:335
 msgid "Test double-click:"
-msgstr ""
+msgstr "Փորձեք կրկնակի սեղմումը:"
 
 #: ../plugins/mouse/Connected.qml:214
 msgid "Touchpad"
-msgstr ""
+msgstr "Սենսորային պանել"
 
 #: ../plugins/mouse/Connected.qml:264
 msgid "Finger scrolling speed:"
