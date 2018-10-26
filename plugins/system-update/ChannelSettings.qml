@@ -103,6 +103,7 @@ ItemPage {
 
     ListItem.ItemSelector {
         id: channelSelector
+        anchors.top: root.header.bottom
         expanded: true
         text: i18n.tr ("Channel to get updates from:")
         model: channelSelectorModel
