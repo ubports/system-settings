@@ -72,7 +72,6 @@ ItemPage {
 
         anchors {
             fill: parent
-            topMargin: units.gu(2)
         }
         visible: true
         contentHeight: sourceColumn.height + sourceColumn.anchors.bottomMargin

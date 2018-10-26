@@ -36,8 +36,10 @@ ItemPage {
     property string dbusPath
 
     title: i18n.tr("Network details")
+    flickable: networkDetailsFlickable
 
     Flickable {
+        id: networkDetailsFlickable
         anchors.fill: parent
         contentHeight: contentItem.childrenRect.height
         boundsBehavior: (contentHeight > networkDetails.height) ?

@@ -31,6 +31,7 @@ ItemPage {
 
     ListItem.ItemSelector {
         id: upgradePolicySelector
+        anchors.top: root.header.bottom
         expanded: true
         text: i18n.tr ("Download future updates automatically:")
         model: downloadSelector
