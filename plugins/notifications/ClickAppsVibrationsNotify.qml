@@ -28,6 +28,7 @@ ItemPage {
     property alias model: appsVibrationsNotifyList.model
 
     title: i18n.tr("Vibration")
+    flickable: appsVibrationsNotifyList
 
     ListView {
         id: appsVibrationsNotifyList
@@ -36,7 +37,7 @@ ItemPage {
         anchors {
             left: parent.left
             right: parent.right
-            top: parent.header.bottom
+            top: parent.top
             bottom: parent.bottom
         }
 

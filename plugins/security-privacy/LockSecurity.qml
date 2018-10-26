@@ -43,6 +43,7 @@ ItemPage {
     // it.  So we make sure the whole page and header back button are disabled
     // while the dialog is working.
     enabled: dialog === null
+    flickable: scrollWidget
     head.backAction: Action {
         iconName: "back"
         enabled: page.enabled
@@ -443,6 +444,7 @@ ItemPage {
     }
 
     Flickable {
+        id: scrollWidget
         anchors.fill: parent
         contentHeight: contentItem.childrenRect.height
         boundsBehavior: (contentHeight > page.height) ?
