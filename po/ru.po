@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-07-21 11:40+0000\n"
-"Last-Translator: ierihon <idekovets@mail.ru>\n"
-"Language-Team: Russian <https://translate.ubports.com/projects/ubports"
-"/system-settings/ru/>\n"
+"PO-Revision-Date: 2018-11-04 00:02+0000\n"
+"Last-Translator: Igor Polyakov <igorpolyakov@protonmail.com>\n"
+"Language-Team: Russian <https://translate.ubports.com/projects/ubports/"
+"system-settings/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
 "4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2.17\n"
+"X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:41+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -1165,7 +1165,7 @@ msgstr "Нет настроенных принтеров."
 
 #: ../plugins/printing/PrinterConnection.qml:67
 msgid "Host"
-msgstr ""
+msgstr "Хост"
 
 #: ../plugins/printing/Printer.qml:42
 msgid "Printer status"
@@ -3470,7 +3470,7 @@ msgstr "копий"
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:150
 msgid "colormodel"
-msgstr ""
+msgstr "Цветовая модель"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:152
@@ -3491,7 +3491,7 @@ msgstr ""
 #: ../obj-x86_64-linux-gnu/po/settings.js:158
 #, fuzzy
 msgid "ink"
-msgstr "пин"
+msgstr "чернила"
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:162
