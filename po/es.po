@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-10-28 20:32+0000\n"
-"Last-Translator: Sergio Reyes <vincentshergio@gmail.com>\n"
+"PO-Revision-Date: 2018-11-04 00:02+0000\n"
+"Last-Translator: advocatux <advocatux@airpost.net>\n"
 "Language-Team: Spanish <https://translate.ubports.com/projects/ubports/"
 "system-settings/es/>\n"
 "Language: es\n"
@@ -545,11 +545,11 @@ msgstr "Opacidad:"
 
 #: ../plugins/background/Preview.qml:69
 msgid "Preview"
-msgstr "Previsualización"
+msgstr "Previsualizar"
 
 #: ../plugins/background/Preview.qml:107
 msgid "Remove image"
-msgstr "Quitar imagen"
+msgstr "Eliminar imagen"
 
 #: ../plugins/background/Preview.qml:113
 #: ../plugins/security-privacy/LockSecurity.qml:390
@@ -2368,7 +2368,7 @@ msgstr "Desconectado"
 
 #: ../plugins/bluetooth/DevicePage.qml:47
 msgid "Computer"
-msgstr "PC"
+msgstr "Dispositivo"
 
 #: ../plugins/bluetooth/DevicePage.qml:50
 msgid "Modem"
