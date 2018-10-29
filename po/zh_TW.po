@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-10-28 00:00+0000\n"
+"PO-Revision-Date: 2018-11-04 00:00+0000\n"
 "Last-Translator: Louies <louies0623@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.ubports.com/projects/"
 "ubports/system-settings/zh_Hant/>\n"
@@ -169,7 +169,7 @@ msgstr "總是"
 #: ../plugins/system-update/UpdateSettings.qml:64 ../plugins/wifi/Common.qml:96
 #: ../plugins/hotspot/Common.qml:94 ../plugins/bluetooth/DevicePage.qml:41
 msgid "Unknown"
-msgstr "不明"
+msgstr "未知"
 
 #: ../plugins/system-update/UpdateSettings.qml:71
 msgid "Channels"
@@ -2752,7 +2752,7 @@ msgstr[0] "%1 小時之前"
 
 #: ../plugins/battery/PageComponent.qml:104
 msgid "Charge level"
-msgstr "充電進度"
+msgstr "充電水平"
 
 #. TRANSLATORS: %1 refers to a percentage that indicates the charging level of the battery
 #: ../plugins/battery/PageComponent.qml:112
