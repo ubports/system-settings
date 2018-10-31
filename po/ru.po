@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
 "PO-Revision-Date: 2018-11-04 00:02+0000\n"
-"Last-Translator: Igor Polyakov <igorpolyakov@protonmail.com>\n"
+"Last-Translator: ierihon <idekovets@mail.ru>\n"
 "Language-Team: Russian <https://translate.ubports.com/projects/ubports/"
 "system-settings/ru/>\n"
 "Language: ru\n"
@@ -549,7 +549,7 @@ msgstr "Прозрачность:"
 
 #: ../plugins/background/Preview.qml:69
 msgid "Preview"
-msgstr "Предпросмотр"
+msgstr "Просмотреть"
 
 #: ../plugins/background/Preview.qml:107
 msgid "Remove image"
@@ -2944,9 +2944,8 @@ msgid "Aborted"
 msgstr "Отменено"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:34
-#, fuzzy
 msgid "Active"
-msgstr "Включить"
+msgstr "Активный"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:36
 msgid "Stopped"
