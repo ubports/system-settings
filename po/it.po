@@ -143,7 +143,7 @@ msgstr "Potrebbero essere applicati costi aggiuntivi."
 #: ../plugins/system-update/InstallationFailed.qml:25
 #: ../plugins/system-update/DownloadHandler.qml:174
 msgid "Installation failed"
-msgstr "Installazione non riuscita"
+msgstr "Installazione fallita"
 
 #: ../plugins/system-update/InstallationFailed.qml:28
 #: ../plugins/phone/CallForwarding.qml:305
@@ -2600,7 +2600,7 @@ msgstr "Vibrazione tastiera"
 
 #: ../plugins/language/PageComponent.qml:290
 msgid "Keyboard opacity"
-msgstr "Trasparenza tasiera"
+msgstr "Trasparenza tastiera"
 
 #: ../plugins/language/KeyboardLayouts.qml:49
 msgid "Current layouts:"
@@ -4245,14 +4245,14 @@ msgstr "Tocca per aprire gli aggiornamenti di sistema."
 #~ "Your phone is set up to automatically report errors to Canonical and its "
 #~ "partners, the makers of the operating system."
 #~ msgstr ""
-#~ "Il telefono è impostato per inviare automaticamente errori a Canonical e "
-#~ "i suoi partner, i creatori del sistema operativo."
+#~ "Il telefono è impostato per inviare automaticamente errori a Canonical "
+#~ "ed ai suoi partner, i creatori del sistema operativo."
 
 #~ msgid ""
 #~ "This can be disabled in <b>System Settings</b> under <b>Security &amp; "
 #~ "Privacy</b>"
 #~ msgstr ""
-#~ "Ciò può essere disattivato nel pannello <b>Sicurezza e privacy</b> delle "
+#~ "Può essere disattivato nel pannello <b>Sicurezza e privacy</b> delle "
 #~ "<b>Impostazioni</b>"
 
 #~ msgid "〈  %1"
