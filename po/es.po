@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-08-04 09:01+0000\n"
-"Last-Translator: Krakakanok <krakakanok@protonmail.com>\n"
+"PO-Revision-Date: 2018-11-04 00:02+0000\n"
+"Last-Translator: advocatux <advocatux@airpost.net>\n"
 "Language-Team: Spanish <https://translate.ubports.com/projects/ubports/"
 "system-settings/es/>\n"
 "Language: es\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.20\n"
+"X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:41+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -549,7 +549,7 @@ msgstr "Previsualizar"
 
 #: ../plugins/background/Preview.qml:107
 msgid "Remove image"
-msgstr "Quitar imagen"
+msgstr "Eliminar imagen"
 
 #: ../plugins/background/Preview.qml:113
 #: ../plugins/security-privacy/LockSecurity.qml:390
@@ -2368,7 +2368,7 @@ msgstr "Desconectado"
 
 #: ../plugins/bluetooth/DevicePage.qml:47
 msgid "Computer"
-msgstr "PC"
+msgstr "Dispositivo"
 
 #: ../plugins/bluetooth/DevicePage.qml:50
 msgid "Modem"
@@ -3605,7 +3605,7 @@ msgstr "dispositivo"
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:228
 msgid "info"
-msgstr "info"
+msgstr "información"
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching

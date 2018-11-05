@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-10-07 17:27+0000\n"
+"PO-Revision-Date: 2018-11-04 00:01+0000\n"
 "Last-Translator: Tom Rausner <tomrausner@gmail.com>\n"
 "Language-Team: Danish <https://translate.ubports.com/projects/ubports/"
 "system-settings/da/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.20\n"
+"X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:40+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -428,12 +428,11 @@ msgstr "Ignorér touchpad når:"
 
 #: ../plugins/mouse/Connected.qml:432
 msgid "Typing"
-msgstr ""
+msgstr "Skrivning"
 
 #: ../plugins/mouse/Connected.qml:446
-#, fuzzy
 msgid "A mouse is connected"
-msgstr "Sidst forbundet"
+msgstr "En mus er forbundet"
 
 #. TRANSLATORS: This is a keyword or name for the notifications plugin which is used while searching
 #: ../plugins/notifications/ClickAppNotifications.qml:54
@@ -448,15 +447,13 @@ msgstr "Lad denne app alarmere mig med:"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:81
 #: ../plugins/notifications/PageComponent.qml:177
-#, fuzzy
 msgid "Sounds"
-msgstr "Lyd"
+msgstr "Lyde"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:103
 #: ../plugins/notifications/PageComponent.qml:180
-#, fuzzy
 msgid "Vibrations"
-msgstr "Andre lyde:"
+msgstr "Vibrationer"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:125
 msgid "Notification Bubbles"
@@ -464,37 +461,36 @@ msgstr "notifikationsbeskeder"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:147
 #: ../plugins/notifications/PageComponent.qml:186
-#, fuzzy
 msgid "Notification List"
-msgstr "Lås retning"
+msgstr "Notifikations liste"
 
 #: ../plugins/notifications/PageComponent.qml:75
 msgid ""
 "Apps can alert you using sounds, vibrations, notification bubbles and the "
 "Notification list."
 msgstr ""
+"Apps kan påkalde din opmærksomhed med lyde, vibrationer, notifikations "
+"bobler og via Notifikations listen."
 
 #: ../plugins/notifications/PageComponent.qml:91
 msgid "Apps that notify with sound"
-msgstr ""
+msgstr "Apps der påkalder sig opmærksomhed med lyd"
 
 #: ../plugins/notifications/PageComponent.qml:117
 msgid "Apps that notify with vibration"
-msgstr ""
+msgstr "Apps der påkalder sig opmærksomhed med vibrationer"
 
 #: ../plugins/notifications/PageComponent.qml:143
-#, fuzzy
 msgid "Applications:"
-msgstr "Sted"
+msgstr "Applikationer:"
 
 #: ../plugins/notifications/PageComponent.qml:172
-#, fuzzy
 msgid "No notifications"
-msgstr "retning"
+msgstr "Ingen notifikationer"
 
 #: ../plugins/notifications/PageComponent.qml:183
 msgid "Bubbles"
-msgstr ""
+msgstr "Bobler"
 
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../plugins/notifications/ClickAppsSoundsNotify.qml:30
@@ -516,13 +512,12 @@ msgid "When in Silent mode:"
 msgstr "Ved stille tilstand:"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:72
-#, fuzzy
 msgid "Vibrate as normal"
-msgstr "Vibrér ved opkald"
+msgstr "Vibration som normal"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:73
 msgid "Don't vibrate"
-msgstr ""
+msgstr "Vibrér ikke"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:89
 msgid "Apps that notify with vibrations:"
@@ -549,7 +544,7 @@ msgstr "baggrund"
 
 #: ../plugins/background/MainPage.qml:131
 msgid "Opacity:"
-msgstr ""
+msgstr "Gennemsigtighed:"
 
 #: ../plugins/background/Preview.qml:69
 msgid "Preview"
@@ -576,7 +571,7 @@ msgstr "Ringer:"
 
 #: ../plugins/sound/PageComponent.qml:141
 msgid "High volume can damage your hearing."
-msgstr ""
+msgstr "Høj lydstyrke kan skade din hørelse."
 
 #: ../plugins/sound/PageComponent.qml:145
 msgid "Phone calls:"
@@ -588,7 +583,6 @@ msgid "Ringtone"
 msgstr "Ringetone"
 
 #: ../plugins/sound/PageComponent.qml:171
-#, fuzzy
 msgid "Vibrate on ring"
 msgstr "Vibrér ved opkald"
 
@@ -600,7 +594,7 @@ msgstr "Vibrér i stille tilstand"
 #: ../plugins/sound/PageComponent.qml:194
 #: ../plugins/phone/PageComponent.qml:102
 msgid "Dialpad tones"
-msgstr ""
+msgstr "Knaplyde ved opkald"
 
 #: ../plugins/sound/PageComponent.qml:203
 msgid "Messages:"
@@ -629,41 +623,36 @@ msgid "Lock sound"
 msgstr "Låselyd"
 
 #: ../plugins/sound/PageComponent.qml:278
-#, fuzzy
 msgid "Other vibrations"
-msgstr "Andre lyde:"
+msgstr "Andre vibrationer"
 
 #: ../plugins/sound/SoundsList.qml:128
-#, fuzzy
 msgid "Custom Ringtone"
-msgstr "Ringetone"
+msgstr "Selvvalgt ringetone"
 
 #: ../plugins/sound/SoundsList.qml:206
-#, fuzzy
 msgid "Choose from"
-msgstr "Vælg udbyder:"
+msgstr "Vælg ud fra"
 
 #: ../plugins/wifi/CertDialog.qml:22
 msgid "Add certificate?"
-msgstr ""
+msgstr "Tilføj certifikat?"
 
 #: ../plugins/wifi/CertDialog.qml:24
 msgid "Add key?"
-msgstr ""
+msgstr "Tilføj nøgle?"
 
 #: ../plugins/wifi/CertDialog.qml:26
 msgid "Add pac file?"
-msgstr ""
+msgstr "Tilføj pac fil?"
 
 #: ../plugins/wifi/CertDialog.qml:36
-#, fuzzy
 msgid "Content:"
-msgstr "Fortsæt"
+msgstr "Indhold:"
 
 #: ../plugins/wifi/CertDialog.qml:49
-#, fuzzy
 msgid "No data available."
-msgstr "Opdateringer tilgængelige"
+msgstr "Ingen data tilgængelige."
 
 #: ../plugins/wifi/CertDialog.qml:74
 msgid "Save"
@@ -676,15 +665,15 @@ msgstr "Gem"
 #: ../plugins/brightness/WifiDisplays.qml:172
 #: ../plugins/brightness/PageComponent.qml:159
 msgid "Connected"
-msgstr ""
+msgstr "Forbundet"
 
 #: ../plugins/wifi/OtherNetwork.qml:92
 msgid "Connect to Wi‑Fi"
-msgstr ""
+msgstr "Forbind til WiFi"
 
 #: ../plugins/wifi/OtherNetwork.qml:93
 msgid "Connect to Hidden Network"
-msgstr ""
+msgstr "Forbind til Skjult Netværk"
 
 #: ../plugins/wifi/OtherNetwork.qml:285
 msgid "Network name"
@@ -692,7 +681,7 @@ msgstr "Netværksnavn"
 
 #: ../plugins/wifi/OtherNetwork.qml:298
 msgid "SSID"
-msgstr ""
+msgstr "SSID"
 
 #: ../plugins/wifi/OtherNetwork.qml:307
 #: ../plugins/security-privacy/PageComponent.qml:142
@@ -723,9 +712,8 @@ msgid "WPA & WPA2 Personal"
 msgstr "WPA & WPA2 personlig"
 
 #: ../plugins/wifi/OtherNetwork.qml:320
-#, fuzzy
 msgid "WPA & WPA2 Enterprise"
-msgstr "WPA & WPA2 personlig"
+msgstr "WPA & WPA2 Professionel"
 
 #: ../plugins/wifi/OtherNetwork.qml:321
 msgid "WEP"
@@ -733,7 +721,7 @@ msgstr "WEP"
 
 #: ../plugins/wifi/OtherNetwork.qml:322
 msgid "Dynamic WEP (802.1x)"
-msgstr ""
+msgstr "Dynamisk WEP (802.1x)"
 
 #: ../plugins/wifi/OtherNetwork.qml:323
 msgid "LEAP"
@@ -741,13 +729,12 @@ msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:332
 msgid "This network is insecure."
-msgstr ""
+msgstr "Dette netværk er usikkert."
 
 #: ../plugins/wifi/OtherNetwork.qml:338
 #: ../plugins/cellular/PageApnEditor.qml:382
-#, fuzzy
 msgid "Authentication"
-msgstr "retning"
+msgstr "Godkendelse"
 
 #: ../plugins/wifi/OtherNetwork.qml:363
 msgid "Inner authentication"
@@ -755,7 +742,7 @@ msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:396
 msgid "CA certificate"
-msgstr ""
+msgstr "CA certifikar"
 
 #. TRANSLATORS: %1 is the name of a certificate file.
 #. The ellipsis indicates that the file name has been
@@ -763,14 +750,14 @@ msgstr ""
 #: ../plugins/wifi/OtherNetwork.qml:450
 #, qt-format
 msgid "%1…"
-msgstr ""
+msgstr "%1…"
 
 #: ../plugins/wifi/OtherNetwork.qml:458 ../plugins/wifi/OtherNetwork.qml:575
 #: ../plugins/wifi/certhandler.cpp:106 ../plugins/wifi/certhandler.cpp:141
 #: ../plugins/wifi/certhandler.cpp:193 ../plugins/wifi/certhandler.cpp:225
 #: ../plugins/wifi/certhandler.cpp:290 ../plugins/wifi/certhandler.cpp:319
 msgid "Choose…"
-msgstr ""
+msgstr "Vælg…"
 
 #. TRANSLATORS: The first position is the name of
 #. the organization that has issued the certificate.
@@ -780,7 +767,7 @@ msgstr ""
 #: ../plugins/wifi/OtherNetwork.qml:465
 #, qt-format
 msgid "%1…, Exp.: %2"
-msgstr ""
+msgstr "%1..., Udløb: %2"
 
 #. TRANSLATORS: The first position is the name of
 #. the organization that has issued the certificate.
@@ -789,19 +776,19 @@ msgstr ""
 #: ../plugins/wifi/OtherNetwork.qml:473
 #, qt-format
 msgid "%1, Exp.: %2"
-msgstr ""
+msgstr "%1, Udløb: %2"
 
 #: ../plugins/wifi/OtherNetwork.qml:494
 msgid "Using certificates is recommended as it increases security."
-msgstr ""
+msgstr "Brug af certifikater anbefales da det øger sikkerheden."
 
 #: ../plugins/wifi/OtherNetwork.qml:512
 msgid "Client certificate"
-msgstr ""
+msgstr "Klient certifikat"
 
 #: ../plugins/wifi/OtherNetwork.qml:554
 msgid "User private key"
-msgstr ""
+msgstr "Brugers private nøgle"
 
 #. TRANSLATORS: The first position is the type of
 #. private key, second the key algorithm, and third the
@@ -809,11 +796,11 @@ msgstr ""
 #: ../plugins/wifi/OtherNetwork.qml:579
 #, qt-format
 msgid "%1, %2, %3 bit"
-msgstr ""
+msgstr "%1, %2, %3 bits"
 
 #: ../plugins/wifi/OtherNetwork.qml:622
 msgid "Pac file"
-msgstr ""
+msgstr "Pac fil"
 
 #: ../plugins/wifi/OtherNetwork.qml:672
 msgid "Pac provisioning"
@@ -825,29 +812,27 @@ msgstr "Afsluttet"
 
 #: ../plugins/wifi/OtherNetwork.qml:687
 msgid "Anonymous"
-msgstr ""
+msgstr "Anonym"
 
 #: ../plugins/wifi/OtherNetwork.qml:688
 msgid "Authenticated"
-msgstr ""
+msgstr "Godkendt"
 
 #: ../plugins/wifi/OtherNetwork.qml:689
 msgid "Both"
-msgstr ""
+msgstr "Begge"
 
 #: ../plugins/wifi/OtherNetwork.qml:699
 msgid "PEAP version"
-msgstr ""
+msgstr "PEAP version"
 
 #: ../plugins/wifi/OtherNetwork.qml:713
-#, fuzzy
 msgid "Version 0"
-msgstr "Version: "
+msgstr "Version 0"
 
 #: ../plugins/wifi/OtherNetwork.qml:714
-#, fuzzy
 msgid "Version 1"
-msgstr "Version: "
+msgstr "Version 1"
 
 #: ../plugins/wifi/OtherNetwork.qml:715
 msgid "Automatic"
@@ -855,11 +840,11 @@ msgstr "Automatisk"
 
 #: ../plugins/wifi/OtherNetwork.qml:725
 msgid "Anonymous identity"
-msgstr ""
+msgstr "Anonym identitet"
 
 #: ../plugins/wifi/OtherNetwork.qml:752
 msgid "Identity"
-msgstr ""
+msgstr "Identitet"
 
 #: ../plugins/wifi/OtherNetwork.qml:754
 msgid "Username"
@@ -867,12 +852,12 @@ msgstr "Brugernavn"
 
 #: ../plugins/wifi/OtherNetwork.qml:784
 msgid "Private key password"
-msgstr ""
+msgstr "Privat nøgle kodeord"
 
 #: ../plugins/wifi/OtherNetwork.qml:786 ../plugins/wifi/NetworkDetails.qml:70
 #: ../plugins/cellular/PageApnEditor.qml:357
 msgid "Password"
-msgstr "Password"
+msgstr "Kodeord"
 
 #: ../plugins/wifi/OtherNetwork.qml:821 ../plugins/wifi/NetworkDetails.qml:84
 #: ../plugins/hotspot/HotspotSetup.qml:224
@@ -880,9 +865,8 @@ msgid "Show password"
 msgstr "Vis adgangskode"
 
 #: ../plugins/wifi/OtherNetwork.qml:857
-#, fuzzy
 msgid "Remember password"
-msgstr "Vis adgangskode"
+msgstr "Husk adgangskode"
 
 #: ../plugins/wifi/OtherNetwork.qml:905 ../plugins/bluetooth/DevicePage.qml:150
 msgid "Connect"
@@ -921,6 +905,8 @@ msgstr "Enheden kunne ikke klargøres til konfiguration"
 msgid ""
 "IP configuration could not be reserved (no available address, timeout, etc.)"
 msgstr ""
+"Konfiguration af IP-adresse kunne ikke reserveres (ingen tilgængelige "
+"adresser, timeout, mv.)"
 
 #: ../plugins/wifi/Common.qml:48 ../plugins/hotspot/Common.qml:46
 msgid "The IP configuration is no longer valid"
@@ -928,7 +914,7 @@ msgstr "IP-konfigurationen er ikke længere gyldig"
 
 #: ../plugins/wifi/Common.qml:50 ../plugins/hotspot/Common.qml:48
 msgid "Your authentication details were incorrect"
-msgstr ""
+msgstr "Dine adgangsdata detaljer var ikke korrekte"
 
 #: ../plugins/wifi/Common.qml:52 ../plugins/hotspot/Common.qml:50
 msgid "802.1X supplicant disconnected"

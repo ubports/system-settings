@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-10-21 00:00+0000\n"
+"PO-Revision-Date: 2018-11-04 00:00+0000\n"
 "Last-Translator: Tigran Kharatyan <xita8207@gmail.com>\n"
 "Language-Team: Armenian <https://translate.ubports.com/projects/ubports/"
 "system-settings/hy/>\n"
@@ -29,7 +29,7 @@ msgstr "Համակարգ;"
 
 #: ubuntu-system-settings.desktop.in.in.h:3
 msgid "Preferences;Settings;"
-msgstr ""
+msgstr "Նախընտրություններ;Կարգավորումներ"
 
 #: ../plugins/system-update/UpdateDelegate.qml:119
 msgid "Retry"
@@ -109,7 +109,7 @@ msgstr "Թարմեցման սխալ"
 #: ../plugins/system-update/Configuration.qml:30
 #: ../plugins/system-update/UpdateSettings.qml:55
 msgid "Auto download"
-msgstr ""
+msgstr "Ավտոբեռնում"
 
 #: ../plugins/system-update/Configuration.qml:35
 msgid "Download future updates automatically:"
@@ -129,21 +129,20 @@ msgstr "Երբեք"
 
 #: ../plugins/system-update/Configuration.qml:54
 msgid "When on WiFi"
-msgstr ""
+msgstr "WiFi կապի դեպքում"
 
 #: ../plugins/system-update/Configuration.qml:56
-#, fuzzy
 msgid "On any data connection"
-msgstr "Բոլոր միացումներին"
+msgstr "Բոլոր տեսակի միացումներին"
 
 #: ../plugins/system-update/Configuration.qml:57
 msgid "Data charges may apply."
-msgstr ""
+msgstr "Կարող է պահանջվել վճարում:"
 
 #: ../plugins/system-update/InstallationFailed.qml:25
 #: ../plugins/system-update/DownloadHandler.qml:174
 msgid "Installation failed"
-msgstr ""
+msgstr "Տեղակայման ձախողում"
 
 #: ../plugins/system-update/InstallationFailed.qml:28
 #: ../plugins/phone/CallForwarding.qml:305
@@ -183,75 +182,75 @@ msgstr "Կայուն"
 #: ../plugins/system-update/UpdateSettings.qml:73
 #: ../plugins/system-update/ChannelSettings.qml:57
 msgid "Release candidate"
-msgstr ""
+msgstr "Թողարկման ենթակա"
 
 #: ../plugins/system-update/UpdateSettings.qml:73
 #: ../plugins/system-update/ChannelSettings.qml:57
 msgid "Development"
-msgstr ""
+msgstr "Նախագծվող"
 
 #: ../plugins/system-update/ChangelogExpander.qml:42
 #, qt-format
 msgid "Version %1"
-msgstr ""
+msgstr "Տարբերակ"
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../plugins/system-update/PageComponent.qml:38
 #: ../obj-x86_64-linux-gnu/po/settings.js:14
 msgid "Updates"
-msgstr ""
+msgstr "Թարմեցումներ"
 
 #: ../plugins/system-update/PageComponent.qml:182
 msgid "Connect to the Internet to check for updates."
-msgstr ""
+msgstr "Միանալ ցանցին թարմեցումը ստոգելու:"
 
 #: ../plugins/system-update/PageComponent.qml:184
 msgid "Software is up to date"
-msgstr ""
+msgstr "Ծրագրեգը թարմ են"
 
 #: ../plugins/system-update/PageComponent.qml:187
 msgid "The update server is not responding. Try again later."
-msgstr ""
+msgstr "Թարմեցման սերվերը չի պատասխանում: Փորձիր քիչ անց:"
 
 #: ../plugins/system-update/PageComponent.qml:196
 msgid "Updates Available"
-msgstr ""
+msgstr "Կան թարմեցումներ"
 
 #: ../plugins/system-update/PageComponent.qml:349
 msgid "Recent updates"
-msgstr ""
+msgstr "Վերջին թարմեցումներ"
 
 #: ../plugins/system-update/ChannelSettings.qml:32
 msgid "Channel settings"
-msgstr ""
+msgstr "Ալիքների ընտրանքներ"
 
 #: ../plugins/system-update/ChannelSettings.qml:99
 msgid "Fetching channels"
-msgstr ""
+msgstr "Ալիքների ստացում"
 
 #: ../plugins/system-update/ChannelSettings.qml:107
 msgid "Channel to get updates from:"
-msgstr ""
+msgstr "Թարմեցման բեռնման ալիք:"
 
 #: ../plugins/system-update/ChannelSettings.qml:123
 msgid "Switching channel"
-msgstr ""
+msgstr "Ալիքի փոփոխում"
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:30
 msgid "Update System"
-msgstr ""
+msgstr "Համակարգի թարմեցում"
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:32
 msgid "The device needs to restart to install the system update."
-msgstr ""
+msgstr "Պետք է վերագործարկել համակարգի թարմեցման համար:"
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:33
 msgid "Connect the device to power before installing the system update."
-msgstr ""
+msgstr "Մինչ համակարգի թարմեցումը միացրեք սարքը հոսանքին:"
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:38
 msgid "Restart & Install"
-msgstr ""
+msgstr "Վերագործարկել և տեղադրել"
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:48
 #: ../plugins/background/Preview.qml:107 ../plugins/wifi/CertDialog.qml:65
@@ -280,80 +279,80 @@ msgstr ""
 #: ../plugins/background/Components/AddRemove.qml:42
 #: ../plugins/cellular/Components/SimEditor.qml:203
 msgid "Cancel"
-msgstr ""
+msgstr "Չեղարկել"
 
 #: ../plugins/system-update/NotAuthenticatedNotification.qml:37
 msgid "Sign in to Ubuntu One to receive updates for apps."
-msgstr ""
+msgstr "Մուտք գորղել Ubuntu One թարմեցումները ստանալու համար:"
 
 #: ../plugins/system-update/NotAuthenticatedNotification.qml:54
 msgid "Sign In…"
-msgstr ""
+msgstr "Մուտք…"
 
 #: ../plugins/system-update/Global.qml:84
 msgid "Checking for updates…"
-msgstr ""
+msgstr "Թարմեցումների ստուգում…"
 
 #: ../plugins/system-update/Global.qml:89
 msgid "Stop"
-msgstr ""
+msgstr "Կանգ"
 
 #. TRANSLATORS: %1 is number of software updates available.
 #: ../plugins/system-update/Global.qml:116
 #, qt-format
 msgid "%1 update available"
 msgid_plural "%1 updates available"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Կա %1 թարմեցում"
+msgstr[1] "Կա %1 թարմեցում"
 
 #: ../plugins/system-update/Global.qml:126
 msgid "Update all…"
-msgstr ""
+msgstr "Թարմեցնել բոլորը…"
 
 #: ../plugins/system-update/Global.qml:128
 msgid "Update all"
-msgstr ""
+msgstr "Թարմեցնել բոլորը"
 
 #. TRANSLATORS: This is a keyword or name for the launcher plugin which is used while searching
 #: ../plugins/launcher/PageComponent.qml:31
 #: ../plugins/security-privacy/PhoneLocking.qml:138
 #: ../obj-x86_64-linux-gnu/po/settings.js:36
 msgid "Launcher"
-msgstr ""
+msgstr "Թողարկիչ"
 
 #: ../plugins/launcher/PageComponent.qml:65
 msgid "On large screens:"
-msgstr ""
+msgstr "Մեծ էկրաններին."
 
 #: ../plugins/launcher/PageComponent.qml:73
 msgid "Always show the launcher"
-msgstr ""
+msgstr "Միշտ ցուցադրել թողարկիչը"
 
 #: ../plugins/launcher/PageComponent.qml:74
 msgid "Videos and full-screen games may hide it temporarily."
-msgstr ""
+msgstr "Վիդեոները և լիէկրան խաղերը կարող են ժամանակավորապես փակել այն:"
 
 #: ../plugins/launcher/PageComponent.qml:85
 msgid "Icon size:"
-msgstr ""
+msgstr "Պատկերների չափերը:"
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:42
 msgid "Primary button:"
-msgstr ""
+msgstr "Հիմնական կոճակը:"
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:72
 msgid "Left"
-msgstr ""
+msgstr "Ձախ"
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:89
 msgid "Right"
-msgstr ""
+msgstr "Աջ"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../plugins/mouse/PageComponent.qml:29
 #: ../obj-x86_64-linux-gnu/po/settings.js:42
 msgid "Mouse & Touchpad"
-msgstr ""
+msgstr "մկնիկ և սենսորային պանել"
 
 #: ../plugins/mouse/None.qml:34
 msgid ""
@@ -370,39 +369,39 @@ msgstr ""
 
 #: ../plugins/mouse/TapArea.qml:38
 msgid "Not fast enough"
-msgstr ""
+msgstr "Անհրաժեշտից դանդաղ"
 
 #: ../plugins/mouse/TapArea.qml:77
 msgid "Double-clicked"
-msgstr ""
+msgstr "Կրկնակի սեղմում"
 
 #: ../plugins/mouse/Connected.qml:48 ../plugins/bluetooth/DevicePage.qml:59
 msgid "Mouse"
-msgstr ""
+msgstr "Մուկ"
 
 #: ../plugins/mouse/Connected.qml:62 ../plugins/mouse/Connected.qml:228
 msgid "Cursor speed:"
-msgstr ""
+msgstr "Ցուցիչի արագությունը:"
 
 #: ../plugins/mouse/Connected.qml:98
 msgid "Wheel scrolling speed:"
-msgstr ""
+msgstr "Անիվի արագությունը:"
 
 #: ../plugins/mouse/Connected.qml:134 ../plugins/mouse/Connected.qml:301
 msgid "Double-click speed:"
-msgstr ""
+msgstr "Կրկնակի սեղման արագությունը:"
 
 #: ../plugins/mouse/Connected.qml:168 ../plugins/mouse/Connected.qml:335
 msgid "Test double-click:"
-msgstr ""
+msgstr "Փորձեք կրկնակի սեղմումը:"
 
 #: ../plugins/mouse/Connected.qml:214
 msgid "Touchpad"
-msgstr ""
+msgstr "Սենսորային պանել"
 
 #: ../plugins/mouse/Connected.qml:264
 msgid "Finger scrolling speed:"
-msgstr ""
+msgstr "Մատով թերթման արագությունը:"
 
 #: ../plugins/mouse/Connected.qml:389
 msgid "Tap to click"
@@ -410,40 +409,40 @@ msgstr ""
 
 #: ../plugins/mouse/Connected.qml:403
 msgid "Scroll with two fingers"
-msgstr ""
+msgstr "Երկու մատով թերթում"
 
 #: ../plugins/mouse/Connected.qml:410
 msgid "Ignore touchpad when:"
-msgstr ""
+msgstr "Արհամարել սենսորային պանելը:"
 
 #: ../plugins/mouse/Connected.qml:432
 msgid "Typing"
-msgstr ""
+msgstr "Մուտքագրում"
 
 #: ../plugins/mouse/Connected.qml:446
 msgid "A mouse is connected"
-msgstr ""
+msgstr "Մկնիկի միացում"
 
 #. TRANSLATORS: This is a keyword or name for the notifications plugin which is used while searching
 #: ../plugins/notifications/ClickAppNotifications.qml:54
 #: ../plugins/notifications/PageComponent.qml:29
 #: ../obj-x86_64-linux-gnu/po/settings.js:56
 msgid "Notifications"
-msgstr ""
+msgstr "Ծանուցում"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:72
 msgid "Let this app alert me using:"
-msgstr ""
+msgstr "Թույլատրել այս հավելվածին ծանուցել:"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:81
 #: ../plugins/notifications/PageComponent.qml:177
 msgid "Sounds"
-msgstr ""
+msgstr "Ձայնային"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:103
 #: ../plugins/notifications/PageComponent.qml:180
 msgid "Vibrations"
-msgstr ""
+msgstr "Վիբրացիա"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:125
 msgid "Notification Bubbles"
@@ -452,7 +451,7 @@ msgstr ""
 #: ../plugins/notifications/ClickAppNotifications.qml:147
 #: ../plugins/notifications/PageComponent.qml:186
 msgid "Notification List"
-msgstr ""
+msgstr "Ծանուցումների ցանկ"
 
 #: ../plugins/notifications/PageComponent.qml:75
 msgid ""
@@ -461,20 +460,22 @@ msgid ""
 msgstr ""
 
 #: ../plugins/notifications/PageComponent.qml:91
+#, fuzzy
 msgid "Apps that notify with sound"
-msgstr ""
+msgstr "Ձայնային ծանուցումով հավելվածներ"
 
 #: ../plugins/notifications/PageComponent.qml:117
+#, fuzzy
 msgid "Apps that notify with vibration"
-msgstr ""
+msgstr "Վիբրացիայով ցանուցող հավելվածներ"
 
 #: ../plugins/notifications/PageComponent.qml:143
 msgid "Applications:"
-msgstr ""
+msgstr "Հավելվածներ:"
 
 #: ../plugins/notifications/PageComponent.qml:172
 msgid "No notifications"
-msgstr ""
+msgstr "Ծանուցումներ չկան"
 
 #: ../plugins/notifications/PageComponent.qml:183
 msgid "Bubbles"
