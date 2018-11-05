@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-10-21 00:00+0000\n"
+"PO-Revision-Date: 2018-11-05 19:22+0000\n"
 "Last-Translator: M.Sugahara <equaaqua@hotmail.com>\n"
 "Language-Team: Japanese <https://translate.ubports.com/projects/ubports/"
 "system-settings/ja/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.0.1\n"
+"X-Generator: Weblate 3.1.1\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:40+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -227,15 +227,15 @@ msgstr "チャンネル設定"
 
 #: ../plugins/system-update/ChannelSettings.qml:99
 msgid "Fetching channels"
-msgstr ""
+msgstr "チャンネル情報取得中"
 
 #: ../plugins/system-update/ChannelSettings.qml:107
 msgid "Channel to get updates from:"
-msgstr ""
+msgstr "アップデートチャンネルを選択:"
 
 #: ../plugins/system-update/ChannelSettings.qml:123
 msgid "Switching channel"
-msgstr ""
+msgstr "チャンネル切り替え中"
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:30
 msgid "Update System"
@@ -322,7 +322,7 @@ msgstr "Launcher"
 
 #: ../plugins/launcher/PageComponent.qml:65
 msgid "On large screens:"
-msgstr ""
+msgstr "大画面では:"
 
 #: ../plugins/launcher/PageComponent.qml:73
 msgid "Always show the launcher"
@@ -526,9 +526,8 @@ msgid "Custom"
 msgstr "カスタム"
 
 #: ../plugins/background/MainPage.qml:118
-#, fuzzy
 msgid "Dash background"
-msgstr "背景"
+msgstr "Dashの背景"
 
 #: ../plugins/background/MainPage.qml:131
 msgid "Opacity:"
@@ -571,7 +570,6 @@ msgid "Ringtone"
 msgstr "着信音"
 
 #: ../plugins/sound/PageComponent.qml:171
-#, fuzzy
 msgid "Vibrate on ring"
 msgstr "着信中にバイブする"
 
@@ -582,9 +580,8 @@ msgstr "サイレントモードでバイブする"
 
 #: ../plugins/sound/PageComponent.qml:194
 #: ../plugins/phone/PageComponent.qml:102
-#, fuzzy
 msgid "Dialpad tones"
-msgstr "テンキー音"
+msgstr "ダイヤル音"
 
 #: ../plugins/sound/PageComponent.qml:203
 msgid "Messages:"
@@ -613,14 +610,12 @@ msgid "Lock sound"
 msgstr "ロック時の音"
 
 #: ../plugins/sound/PageComponent.qml:278
-#, fuzzy
 msgid "Other vibrations"
-msgstr "キー操作バイブ"
+msgstr "その他のバイブ"
 
 #: ../plugins/sound/SoundsList.qml:128
-#, fuzzy
 msgid "Custom Ringtone"
-msgstr "着信音"
+msgstr "カスタム着信音"
 
 #: ../plugins/sound/SoundsList.qml:206
 #, fuzzy
@@ -629,25 +624,23 @@ msgstr "キャリアを選択："
 
 #: ../plugins/wifi/CertDialog.qml:22
 msgid "Add certificate?"
-msgstr ""
+msgstr "証明書を追加しますか?"
 
 #: ../plugins/wifi/CertDialog.qml:24
 msgid "Add key?"
-msgstr ""
+msgstr "鍵を追加しますか?"
 
 #: ../plugins/wifi/CertDialog.qml:26
 msgid "Add pac file?"
-msgstr ""
+msgstr "PACファイルを追加しますか?"
 
 #: ../plugins/wifi/CertDialog.qml:36
-#, fuzzy
 msgid "Content:"
-msgstr "続行"
+msgstr "コンテンツ:"
 
 #: ../plugins/wifi/CertDialog.qml:49
-#, fuzzy
 msgid "No data available."
-msgstr "利用可能なアップデートがあります"
+msgstr "データがありません。"
 
 #: ../plugins/wifi/CertDialog.qml:74
 msgid "Save"
@@ -676,7 +669,7 @@ msgstr "ネットワーク名"
 
 #: ../plugins/wifi/OtherNetwork.qml:298
 msgid "SSID"
-msgstr ""
+msgstr "SSID"
 
 #: ../plugins/wifi/OtherNetwork.qml:307
 #: ../plugins/security-privacy/PageComponent.qml:142
@@ -706,9 +699,8 @@ msgid "WPA & WPA2 Personal"
 msgstr "WPA & WPA2 パーソナル"
 
 #: ../plugins/wifi/OtherNetwork.qml:320
-#, fuzzy
 msgid "WPA & WPA2 Enterprise"
-msgstr "WPA & WPA2 パーソナル"
+msgstr "WPA & WPA2 エンタープライズ"
 
 #: ../plugins/wifi/OtherNetwork.qml:321
 msgid "WEP"
@@ -716,29 +708,28 @@ msgstr "WEP"
 
 #: ../plugins/wifi/OtherNetwork.qml:322
 msgid "Dynamic WEP (802.1x)"
-msgstr ""
+msgstr "ダイナミック WEP (802.1x)"
 
 #: ../plugins/wifi/OtherNetwork.qml:323
 msgid "LEAP"
-msgstr ""
+msgstr "LEAP"
 
 #: ../plugins/wifi/OtherNetwork.qml:332
 msgid "This network is insecure."
-msgstr ""
+msgstr "このネットワークは保護されていません。"
 
 #: ../plugins/wifi/OtherNetwork.qml:338
 #: ../plugins/cellular/PageApnEditor.qml:382
-#, fuzzy
 msgid "Authentication"
-msgstr "通知"
+msgstr "認証"
 
 #: ../plugins/wifi/OtherNetwork.qml:363
 msgid "Inner authentication"
-msgstr ""
+msgstr "追加認証"
 
 #: ../plugins/wifi/OtherNetwork.qml:396
 msgid "CA certificate"
-msgstr ""
+msgstr "CA 証明書"
 
 #. TRANSLATORS: %1 is the name of a certificate file.
 #. The ellipsis indicates that the file name has been
@@ -746,14 +737,14 @@ msgstr ""
 #: ../plugins/wifi/OtherNetwork.qml:450
 #, qt-format
 msgid "%1…"
-msgstr ""
+msgstr "%1…"
 
 #: ../plugins/wifi/OtherNetwork.qml:458 ../plugins/wifi/OtherNetwork.qml:575
 #: ../plugins/wifi/certhandler.cpp:106 ../plugins/wifi/certhandler.cpp:141
 #: ../plugins/wifi/certhandler.cpp:193 ../plugins/wifi/certhandler.cpp:225
 #: ../plugins/wifi/certhandler.cpp:290 ../plugins/wifi/certhandler.cpp:319
 msgid "Choose…"
-msgstr ""
+msgstr "選択…"
 
 #. TRANSLATORS: The first position is the name of
 #. the organization that has issued the certificate.
@@ -763,7 +754,7 @@ msgstr ""
 #: ../plugins/wifi/OtherNetwork.qml:465
 #, qt-format
 msgid "%1…, Exp.: %2"
-msgstr ""
+msgstr "%1… 有効期限: %2"
 
 #. TRANSLATORS: The first position is the name of
 #. the organization that has issued the certificate.
@@ -772,19 +763,19 @@ msgstr ""
 #: ../plugins/wifi/OtherNetwork.qml:473
 #, qt-format
 msgid "%1, Exp.: %2"
-msgstr ""
+msgstr "%1, 有効期限: %2"
 
 #: ../plugins/wifi/OtherNetwork.qml:494
 msgid "Using certificates is recommended as it increases security."
-msgstr ""
+msgstr "セキュリティ向上のため、証明書の使用をおすすめします。"
 
 #: ../plugins/wifi/OtherNetwork.qml:512
 msgid "Client certificate"
-msgstr ""
+msgstr "クライアント証明書"
 
 #: ../plugins/wifi/OtherNetwork.qml:554
 msgid "User private key"
-msgstr ""
+msgstr "ユーザー秘密鍵"
 
 #. TRANSLATORS: The first position is the type of
 #. private key, second the key algorithm, and third the
@@ -792,28 +783,27 @@ msgstr ""
 #: ../plugins/wifi/OtherNetwork.qml:579
 #, qt-format
 msgid "%1, %2, %3 bit"
-msgstr ""
+msgstr "%1, %2, %3 ビット"
 
 #: ../plugins/wifi/OtherNetwork.qml:622
 msgid "Pac file"
-msgstr ""
+msgstr "PAC ファイル"
 
 #: ../plugins/wifi/OtherNetwork.qml:672
 msgid "Pac provisioning"
 msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:686
-#, fuzzy
 msgid "Disabled"
-msgstr "他のデバイスから検知可能"
+msgstr "無効"
 
 #: ../plugins/wifi/OtherNetwork.qml:687
 msgid "Anonymous"
-msgstr ""
+msgstr "匿名"
 
 #: ../plugins/wifi/OtherNetwork.qml:688
 msgid "Authenticated"
-msgstr ""
+msgstr "認証済"
 
 #: ../plugins/wifi/OtherNetwork.qml:689
 msgid "Both"
@@ -824,17 +814,14 @@ msgid "PEAP version"
 msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:713
-#, fuzzy
 msgid "Version 0"
-msgstr "バージョン: "
+msgstr "バージョン 0"
 
 #: ../plugins/wifi/OtherNetwork.qml:714
-#, fuzzy
 msgid "Version 1"
-msgstr "バージョン: "
+msgstr "バージョン 1"
 
 #: ../plugins/wifi/OtherNetwork.qml:715
-#, fuzzy
 msgid "Automatic"
 msgstr "自動"
 
@@ -852,7 +839,7 @@ msgstr "ユーザ名"
 
 #: ../plugins/wifi/OtherNetwork.qml:784
 msgid "Private key password"
-msgstr ""
+msgstr "秘密鍵のパスワード"
 
 #: ../plugins/wifi/OtherNetwork.qml:786 ../plugins/wifi/NetworkDetails.qml:70
 #: ../plugins/cellular/PageApnEditor.qml:357
@@ -865,9 +852,8 @@ msgid "Show password"
 msgstr "パスワードを表示"
 
 #: ../plugins/wifi/OtherNetwork.qml:857
-#, fuzzy
 msgid "Remember password"
-msgstr "パスワードを表示"
+msgstr "パスワードを保存"
 
 #: ../plugins/wifi/OtherNetwork.qml:905 ../plugins/bluetooth/DevicePage.qml:150
 msgid "Connect"
@@ -3430,7 +3416,7 @@ msgstr "WiFi"
 #: ../obj-x86_64-linux-gnu/po/settings.js:316
 #: ../obj-x86_64-linux-gnu/po/settings.js:392
 msgid "connect"
-msgstr ""
+msgstr "接続"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the bluetooth plugin which is used while searching
@@ -3439,19 +3425,19 @@ msgstr ""
 #: ../obj-x86_64-linux-gnu/po/settings.js:318
 #: ../obj-x86_64-linux-gnu/po/settings.js:394
 msgid "disconnect"
-msgstr ""
+msgstr "切断"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:128
 msgid "hidden"
-msgstr ""
+msgstr "非表示"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:130
 #: ../obj-x86_64-linux-gnu/po/settings.js:400
 msgid "ip"
-msgstr ""
+msgstr "IP"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
@@ -3460,69 +3446,67 @@ msgstr ""
 #: ../obj-x86_64-linux-gnu/po/settings.js:238
 #: ../obj-x86_64-linux-gnu/po/settings.js:402
 msgid "address"
-msgstr ""
+msgstr "アドレス"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:136
-#, fuzzy
 msgid "printer"
 msgstr "プリンター"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:138
-#, fuzzy
 msgid "printers"
 msgstr "プリンター"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:140
 msgid "printing"
-msgstr ""
+msgstr "印刷中"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:142
 msgid "pdf"
-msgstr ""
+msgstr "pdf"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:144
 msgid "ppd"
-msgstr ""
+msgstr "ppd"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:146
 msgid "collate"
-msgstr ""
+msgstr "ページ集約"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:148
 msgid "copies"
-msgstr ""
+msgstr "部数"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:150
 msgid "colormodel"
-msgstr ""
+msgstr "カラーモデル"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:152
 msgid "greyscale"
-msgstr ""
+msgstr "グレイスケール"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:154
 msgid "color"
-msgstr ""
+msgstr "カラー"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:156
 msgid "laser"
-msgstr ""
+msgstr "レーザー"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:158
 msgid "ink"
-msgstr ""
+msgstr "インク"
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:162
