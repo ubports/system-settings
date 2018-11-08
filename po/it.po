@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-09-01 08:49+0000\n"
-"Last-Translator: Simone <19simok89@gmail.com>\n"
+"PO-Revision-Date: 2018-11-11 00:02+0000\n"
+"Last-Translator: Aurelio Cilia <spacedriver88@gmail.com>\n"
 "Language-Team: Italian <https://translate.ubports.com/projects/ubports/"
 "system-settings/it/>\n"
 "Language: it\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.20\n"
+"X-Generator: Weblate 3.1.1\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:40+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -143,7 +143,7 @@ msgstr "Potrebbero essere applicati costi aggiuntivi."
 #: ../plugins/system-update/InstallationFailed.qml:25
 #: ../plugins/system-update/DownloadHandler.qml:174
 msgid "Installation failed"
-msgstr "Installazione non riuscita"
+msgstr "Installazione fallita"
 
 #: ../plugins/system-update/InstallationFailed.qml:28
 #: ../plugins/phone/CallForwarding.qml:305
@@ -2082,7 +2082,7 @@ msgstr ""
 #: ../plugins/about/PageComponent.qml:35
 #: ../obj-x86_64-linux-gnu/po/settings.js:222
 msgid "About"
-msgstr "Informazioni su"
+msgstr "Informazioni"
 
 #: ../plugins/about/PageComponent.qml:99
 msgid "Serial"
@@ -2600,7 +2600,7 @@ msgstr "Vibrazione tastiera"
 
 #: ../plugins/language/PageComponent.qml:290
 msgid "Keyboard opacity"
-msgstr "Trasparenza tasiera"
+msgstr "Trasparenza tastiera"
 
 #: ../plugins/language/KeyboardLayouts.qml:49
 msgid "Current layouts:"
