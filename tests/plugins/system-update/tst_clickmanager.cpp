@@ -298,10 +298,6 @@ private slots:
         QSignalSpy serverErrorSpy(m_instance, SIGNAL(serverError()));
         m_mockclient->mockServerError();
         QTRY_COMPARE(serverErrorSpy.count(), 1);
-
-        QSignalSpy credentialErrorSpy(m_instance, SIGNAL(credentialError()));
-        m_mockclient->mockCredentialError();
-        QTRY_COMPARE(credentialErrorSpy.count(), 1);
     }
     void testManifestParser()
     {
@@ -316,8 +312,13 @@ private slots:
 
         QByteArray metadata("[{"
             "\"id\": \"a\","
-            "\"version\": \"1\","
-            "\"revision\": \"1\""
+            "\"downloads\": ["
+            "    {"
+            "        \"channel\": \"xenial\","
+            "        \"version\": \"1\","
+            "        \"revision\": \"1\""
+            "    }"
+            "]"
         "}]");
 
         m_instance->check();
@@ -328,6 +329,7 @@ private slots:
 
         // Update now in model, assert that the manifest data has been captured.
         auto u = m_model->get("a", 0);
+        QVERIFY(!u.isNull());
         QCOMPARE(u->identifier(), QString("a"));
         QCOMPARE(u->localVersion(), QString("0"));
         QCOMPARE(u->packageName(), QString("B"));

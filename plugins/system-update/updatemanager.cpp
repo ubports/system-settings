@@ -72,8 +72,6 @@ void UpdateManager::init()
             this, SLOT(handleNetworkError()));
     connect(m_clickManager, SIGNAL(serverError()),
             this, SLOT(handleServerError()));
-    connect(m_clickManager, SIGNAL(authenticatedChanged()),
-            this, SIGNAL(authenticatedChanged()));
     connect(m_imageManager, SIGNAL(checkingForUpdatesChanged()),
             this, SLOT(calculateStatus()));
     connect(m_imageManager, SIGNAL(checkCompleted()),
@@ -148,11 +146,6 @@ bool UpdateManager::isCheckRequired()
 {
     QDateTime now = QDateTime::currentDateTimeUtc().addSecs(-1800); // 30 mins
     return m_model->db()->lastCheckDate() < now;
-}
-
-bool UpdateManager::authenticated()
-{
-    return m_clickManager->authenticated();
 }
 
 void UpdateManager::handleCheckCompleted()

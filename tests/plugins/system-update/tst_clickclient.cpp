@@ -86,11 +86,11 @@ private slots:
     }
     void testMetadataRequestAuthFailure()
     {
-        QSignalSpy credentialErrorSpy(m_instance, SIGNAL(credentialError()));
+        QSignalSpy serverErrorSpy(m_instance, SIGNAL(serverError()));
         QUrl query("http://localhost:9009/403");
         m_instance->requestMetadata(query, QList<QString>());
-        QVERIFY(credentialErrorSpy.wait());
-        QCOMPARE(credentialErrorSpy.count(), 1);
+        QVERIFY(serverErrorSpy.wait());
+        QCOMPARE(serverErrorSpy.count(), 1);
     }
     void testMetadataRequestNotFoundFailure()
     {

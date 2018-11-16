@@ -47,12 +47,6 @@ private slots:
         QCOMPARE(UpdatePlugin::Helpers::clickMetadataUrl(),
                  env.value("URL_APPS"));
     }
-    void testIsIgnoringCredentials()
-    {
-        bool shouldIgnore = env.value("IGNORE_CREDENTIALS", "") != "";
-        QCOMPARE(UpdatePlugin::Helpers::isIgnoringCredentials(), shouldIgnore);
-
-    }
     void testWhichClick()
     {
         QCOMPARE(UpdatePlugin::Helpers::whichClick(), QLatin1String("click"));

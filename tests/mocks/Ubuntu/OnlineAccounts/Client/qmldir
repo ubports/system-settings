@@ -1,2 +1,0 @@
-module Ubuntu.OnlineAccounts.Client
-plugin OnlineAccountsClientQml

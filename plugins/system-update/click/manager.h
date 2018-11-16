@@ -52,15 +52,12 @@ public:
      * Currently, this merely updates the signedDownloadUrl on an Update.
      */
     virtual void retry(const QString &identifier, const uint &revision) = 0;
-    virtual bool authenticated() const = 0;
     virtual bool checkingForUpdates() const = 0;
 Q_SIGNALS:
-    void authenticatedChanged();
     void checkingForUpdatesChanged();
     void checkCompleted();
     void networkError();
     void serverError();
-    void credentialError();
 };
 } // Click
 } // UpdatePlugin

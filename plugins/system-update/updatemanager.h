@@ -38,8 +38,6 @@ class UpdateManager : public QObject
     Q_PROPERTY(UpdateModelFilter* installedUpdates
                READ installedUpdates CONSTANT)
     Q_PROPERTY(Status status READ status NOTIFY statusChanged)
-    Q_PROPERTY(bool authenticated READ authenticated
-               NOTIFY authenticatedChanged)
 public:
     explicit UpdateManager(QObject *parent = nullptr);
     // This constructor enables testing.
@@ -91,15 +89,11 @@ public:
      * [1]https://wiki.ubuntu.com/SoftwareUpdates#Checking_for_updates_manually
      */
     bool isCheckRequired();
-
-    // Return whether or not the user is authenticated.
-    bool authenticated();
 protected:
     UpdateModel *m_model;
     Status m_status = Status::StatusIdle;
 Q_SIGNALS:
     void statusChanged();
-    void authenticatedChanged();
 private Q_SLOTS:
     void calculateStatus();
     void handleCheckCompleted();

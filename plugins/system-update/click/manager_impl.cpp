@@ -72,8 +72,6 @@ ManagerImpl::ManagerImpl(UpdateModel *model,
             this, SLOT(parseMetadata(const QJsonArray&)));
     connect(m_client, SIGNAL(networkError()), this, SIGNAL(networkError()));
     connect(m_client, SIGNAL(serverError()), this, SIGNAL(serverError()));
-    connect(m_client, SIGNAL(credentialError()),
-            this, SIGNAL(credentialError()));
     connect(m_client, &ApiClient::serverError, this, [this]() {
         setState(State::Failed);
     });
@@ -436,22 +434,10 @@ void ManagerImpl::parseMetadata(const QJsonArray &array)
     setState(State::TokenComplete);
 }
 
-bool ManagerImpl::authenticated() const
-{
-    return m_authenticated || Helpers::isIgnoringCredentials();
-}
-
 bool ManagerImpl::checkingForUpdates() const
 {
     return m_state != State::Idle;
 }
 
-void ManagerImpl::setAuthenticated(const bool authenticated)
-{
-    if (authenticated != m_authenticated) {
-        m_authenticated = authenticated;
-        Q_EMIT authenticatedChanged();
-    }
-}
 } // Click
 } // UpdatePlugin

@@ -58,7 +58,6 @@ public:
     virtual void cancel() override;
     virtual void retry(const QString &identifier, const uint &revision) override;
 
-    virtual bool authenticated() const override;
     virtual bool checkingForUpdates() const override;
 private Q_SLOTS:
     void parseMetadata(const QJsonArray &array);
@@ -74,7 +73,6 @@ private:
                        TokenComplete, Failed, Complete, Canceled };
     void setState(const State &state);
     State state() const;
-    void setAuthenticated(const bool authenticated);
 
     /* Synchronize db updates with a manifest.
      *
@@ -95,7 +93,6 @@ private:
     ApiClient *m_client;
     Manifest *m_manifest;
     QMap<QString, QSharedPointer<Update>> m_candidates;
-    bool m_authenticated = true;
     bool m_ignore_version = false;
     State m_state = State::Idle;
     QMap<State, QList<State> > m_transitions;

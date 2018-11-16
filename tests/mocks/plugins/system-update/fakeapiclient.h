@@ -56,11 +56,6 @@ public:
         Q_EMIT serverError();
     }
 
-    void mockCredentialError()
-    {
-        Q_EMIT credentialError();
-    }
-
     QUrl requestedUrl;
     QList<QString> requestedPackages;
 };

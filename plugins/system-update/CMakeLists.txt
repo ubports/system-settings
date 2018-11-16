@@ -6,7 +6,6 @@ set(QML_SOURCES
     DownloadHandler.qml
     GlobalUpdateControls.qml
     ImageUpdatePrompt.qml
-    NotAuthenticatedNotification.qml
     PageComponent.qml
     UpdateDelegate.qml
     UpdateSettings.qml

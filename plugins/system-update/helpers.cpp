@@ -114,14 +114,6 @@ QString Helpers::clickRevisionUrl()
     return environment.value("URL_REVISION", url);
 }
 
-bool Helpers::isIgnoringCredentials()
-{
-    QProcessEnvironment environment = QProcessEnvironment::systemEnvironment();
-    /* If IGNORE_CREDENTIALS is set to something other than an empty string,
-    we should ignore credentials. */
-    return environment.value("IGNORE_CREDENTIALS", "") != "";
-}
-
 QString Helpers::whichClick()
 {
     QProcessEnvironment environment = QProcessEnvironment::systemEnvironment();

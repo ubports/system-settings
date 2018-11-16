@@ -53,7 +53,6 @@ Q_SIGNALS:
     void metadataRequestSucceeded(const QJsonArray &metadata);
     void networkError();
     void serverError();
-    void credentialError();
     /* This signal is emitted when the client wants to cancel any active
      * network requests.
      */
