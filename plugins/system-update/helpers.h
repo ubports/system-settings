@@ -37,7 +37,6 @@ public:
     static QString getSystemCodename();
     static QString clickMetadataUrl();
     static QString clickRevisionUrl();
-    static bool isIgnoringCredentials();
     static QString whichClick();
     static QString whichPkcon();
 private:

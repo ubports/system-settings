@@ -48,10 +48,6 @@ add_qml_test(system-update systemupdate_entrycomponent
     IMPORT_PATHS ${SYSTEMUPDATE_IMPORT_PATHS}
 )
 
-add_qml_test(system-update systemupdate_noauthentication
-    IMPORT_PATHS ${SYSTEMUPDATE_IMPORT_PATHS}
-)
-
 add_qml_test(system-update systemupdate_download_handler
     IMPORT_PATHS ${SYSTEMUPDATE_IMPORT_PATHS}
 )

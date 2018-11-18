@@ -66,11 +66,6 @@ public:
         m_retried.append(p);
     }
 
-    virtual bool authenticated() const override
-    {
-        return m_authenticated;
-    }
-
     virtual bool checkingForUpdates() const override
     {
         return m_checkingForUpdates;
@@ -93,7 +88,6 @@ public:
     }
 
     bool m_checkingForUpdates = false;
-    bool m_authenticated = false;
     QList<QString> m_launched;
     QList<QPair<QString, uint>> m_retried;
 };

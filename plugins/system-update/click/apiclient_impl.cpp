@@ -241,7 +241,7 @@ bool ApiClientImpl::validReply(const QNetworkReply *reply)
     if (httpStatus == 401 || httpStatus == 403) {
         qCritical() << Q_FUNC_INFO
                     << QString("Server responded with %1.").arg(httpStatus);
-        Q_EMIT credentialError();
+        Q_EMIT serverError();
         return false;
     }
 

@@ -77,7 +77,7 @@ private Q_SLOTS:
         QVariantMap details;
         details["foo"] = "bar";
         details["tag"] = "OTA-100";
-        details["ubuntu"] = "101";
+        details["ubports"] = "101";
         details["device"] = "102";
         details["custom"] = "103";
         QCOMPARE(m_systemImage->detailedVersionDetails(), details);

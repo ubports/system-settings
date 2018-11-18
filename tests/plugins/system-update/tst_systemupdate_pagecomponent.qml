@@ -115,42 +115,6 @@ Item {
             compare(overlay.visible, true);
         }
 
-        function test_authenticationNotificationVisibility_data() {
-            return [
-                { auth: false, visible: true, status: UpdateManager.StatusIdle },
-                { auth: false, visible: false, status: UpdateManager.StatusCheckingClickUpdates },
-                { auth: false, visible: true, status: UpdateManager.StatusCheckingImageUpdates },
-                { auth: false, visible: false, status: UpdateManager.StatusCheckingAllUpdates },
-                { auth: false, visible: false, status: UpdateManager.StatusNetworkError },
-                { auth: false, visible: false, status: UpdateManager.StatusServerError },
-                { auth: true, visible: false, status: UpdateManager.StatusIdle },
-                { auth: true, visible: false, status: UpdateManager.StatusCheckingClickUpdates },
-                { auth: true, visible: false, status: UpdateManager.StatusCheckingImageUpdates },
-                { auth: true, visible: false, status: UpdateManager.StatusCheckingAllUpdates },
-                { auth: true, visible: false, status: UpdateManager.StatusNetworkError },
-                { auth: true, visible: false, status: UpdateManager.StatusServerError }
-            ];
-        }
-
-        function test_authenticationNotificationVisibility(data) {
-            instance.online = true; // It's never shown if not online.
-            UpdateManager.mockStatus(data.status);
-
-            instance.authenticated = data.auth;
-            var notif = findChild(instance, "noAuthenticationNotification");
-            compare(notif.visible, data.visible);
-        }
-
-        function test_uoaConfic() {
-            var notif = findChild(instance, "noAuthenticationNotification");
-            var config = findInvisibleChild(instance, "uoaConfig");
-            notif.requestAuthentication();
-
-            compare(config.applicationId, "ubuntu-system-settings");
-            compare(config.providerId, "ubuntuone");
-            compare(config.execCalled(), true);
-        }
-
         function test_clickUpdatesVisibility_data() {
             return [
                 { count: 0, visible: false, status: UpdateManager.StatusIdle },
@@ -166,7 +130,6 @@ Item {
 
         function test_clickUpdatesVisibility(data) {
             instance.online = true;
-            instance.authenticated = true;
             UpdateManager.mockStatus(data.status);
 
             var item = findChild(instance, "clickUpdates");
@@ -313,8 +276,7 @@ Item {
         function init() {
             instance = pageComponent.createObject(testRoot, {});
 
-            // Requires that the user is authenticated, online and have power.
-            instance.authenticated = true;
+            // Requires that the user is online and has power.
             instance.online = true;
             instance.havePower = true;
 

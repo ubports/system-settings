@@ -25,7 +25,6 @@ import SystemSettings 1.0
 import Ubuntu.Components 1.3
 import Ubuntu.Components.ListItems 1.3 as ListItem
 import Ubuntu.Components.Popups 1.3
-import Ubuntu.OnlineAccounts.Client 0.1
 import Ubuntu.SystemSettings.Update 1.0
 import Ubuntu.Connectivity 1.0
 
@@ -41,34 +40,16 @@ ItemPage {
 
     property bool batchMode: false
     property bool online: NetworkingStatus.online
-    property bool authenticated: UpdateManager.authenticated
     property bool forceCheck: false
 
     property int updatesCount: {
         var count = 0;
-        if (authenticated) {
-            count += clickRepeater.count;
-        }
+        count += clickRepeater.count;
         return count;
     }
 
     function check(force) {
         UpdateManager.check(UpdateManager.CheckClickIgnoreVersion);
-    }
-
-    Setup {
-        id: uoaConfig
-        objectName: "uoaConfig"
-        applicationId: "ubuntu-system-settings"
-        providerId: "ubuntuone"
-
-        onFinished: {
-            if (reply.errorName) {
-                console.warn('Online Accounts failed:', reply.errorName);
-            }
-            UpdateManager.check(UpdateManager.CheckClickIgnoreVersion);
-            notauthNotification.enabled = true;
-        }
     }
 
     DownloadHandler {
@@ -172,7 +153,7 @@ ItemPage {
                     switch (s) {
                     case UpdateManager.StatusCheckingImageUpdates:
                     case UpdateManager.StatusIdle:
-                        return haveUpdates && online && authenticated;
+                        return haveUpdates && online;
                     }
                     return false;
                 }
@@ -236,24 +217,6 @@ ItemPage {
                 }
             }
 
-            NotAuthenticatedNotification {
-                id: notauthNotification
-                objectName: "noAuthenticationNotification"
-                visible: {
-                    var s = UpdateManager.status;
-                    switch (s) {
-                    case UpdateManager.StatusCheckingImageUpdates:
-                    case UpdateManager.StatusIdle:
-                        return !authenticated && online;
-                    }
-                    return false;
-                }
-                anchors {
-                    left: parent.left
-                    right: parent.right
-                }
-                onRequestAuthentication: uoaConfig.exec()
-            }
         } // Column inside flickable.
     } // Flickable
 
