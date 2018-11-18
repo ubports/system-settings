@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-11-04 00:00+0000\n"
+"PO-Revision-Date: 2018-11-05 19:22+0000\n"
 "Last-Translator: Louies <louies0623@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.ubports.com/projects/"
 "ubports/system-settings/zh_Hant/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.0.1\n"
+"X-Generator: Weblate 3.1.1\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:42+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -230,12 +230,10 @@ msgid "Fetching channels"
 msgstr "獲取通道"
 
 #: ../plugins/system-update/ChannelSettings.qml:107
-#, fuzzy
 msgid "Channel to get updates from:"
 msgstr "獲取更新通道來自:"
 
 #: ../plugins/system-update/ChannelSettings.qml:123
-#, fuzzy
 msgid "Switching channel"
 msgstr "切換通道"
 
@@ -851,7 +849,6 @@ msgid "Version 1"
 msgstr "版本:1"
 
 #: ../plugins/wifi/OtherNetwork.qml:715
-#, fuzzy
 msgid "Automatic"
 msgstr "自動"
 
@@ -2181,7 +2178,6 @@ msgstr "來電待接"
 
 #: ../plugins/phone/MultiSim.qml:54 ../plugins/phone/SingleSim.qml:42
 #: ../plugins/phone/NoSims.qml:28 ../plugins/phone/CallForwarding.qml:45
-#, fuzzy
 msgid "Call forwarding"
 msgstr "來電轉接"
 
@@ -2193,7 +2189,7 @@ msgstr "服務"
 #: ../plugins/phone/CallForwardItem.qml:157
 #: ../plugins/phone/CallForwardItem.qml:202
 msgid "Forward to"
-msgstr "轉接至"
+msgstr "轉發到"
 
 #: ../plugins/phone/CallForwardItem.qml:171
 msgid "Enter a number"
@@ -2237,14 +2233,12 @@ msgid ""
 msgstr "讓您在接聽電話時接聽另一個電話、或開始另一個電話，又或在兩者之間切換"
 
 #: ../plugins/phone/CallForwarding.qml:131
-#, fuzzy
 msgid "Forward every incoming call"
 msgstr "轉發所有來電"
 
 #: ../plugins/phone/CallForwarding.qml:146
-#, fuzzy
 msgid "Redirects all phone calls to another number."
-msgstr "將所有電話轉接到另一個號碼。"
+msgstr "將所有電話重新定向到另一個號碼。"
 
 #: ../plugins/phone/CallForwarding.qml:158
 #, fuzzy
@@ -2252,9 +2246,8 @@ msgid "Call forwarding status can’t be checked "
 msgstr "無法驗證呼叫轉移的狀態 "
 
 #: ../plugins/phone/CallForwarding.qml:166
-#, fuzzy
 msgid "Forward incoming calls when:"
-msgstr "撥出電話時使用："
+msgstr "轉發電話時使用："
 
 #: ../plugins/phone/CallForwarding.qml:175
 #, fuzzy
@@ -2267,7 +2260,6 @@ msgid "I don’t answer"
 msgstr "未回复"
 
 #: ../plugins/phone/CallForwarding.qml:197
-#, fuzzy
 msgid "My phone is unreachable"
 msgstr "我的手機無法訪問"
 
@@ -2277,34 +2269,28 @@ msgid "Contacts…"
 msgstr "聯繫方式…"
 
 #: ../plugins/phone/CallForwarding.qml:274
-#, fuzzy
 msgid "Please select a phone number"
-msgstr "電話號碼"
+msgstr "請選擇一個電話號碼"
 
 #: ../plugins/phone/CallForwarding.qml:283
-#, fuzzy
 msgid "Numbers"
 msgstr "號碼"
 
 #: ../plugins/phone/CallForwarding.qml:302
-#, fuzzy
 msgid "Could not forward to this contact"
-msgstr "無法轉發此聯繫人"
+msgstr "無法轉發此聯絡人"
 
 #: ../plugins/phone/CallForwarding.qml:303
-#, fuzzy
 msgid "Contact not associated with any phone number."
-msgstr "聯繫人與任何號碼無關。"
+msgstr "聯絡人與任何電話號碼無關。"
 
 #: ../plugins/phone/CallForwarding.qml:382
-#, fuzzy
 msgid "All calls"
-msgstr "通話"
+msgstr "所有電話"
 
 #: ../plugins/phone/CallForwarding.qml:384
-#, fuzzy
 msgid "Some calls"
-msgstr "來電："
+msgstr "有幾個來電"
 
 #: ../plugins/hotspot/HotspotSetup.qml:61
 #, fuzzy
