@@ -23,7 +23,7 @@ import QMenuModel 0.1
 import QtQuick 2.4
 import SystemSettings 1.0
 import Ubuntu.Components 1.3
-import Ubuntu.Components.ListItems 1.3 as ListItem
+import Ubuntu.Components.ListItems 1.3 as ListItems
 import Ubuntu.Components.Popups 1.3
 import Ubuntu.SystemSettings.Update 1.0
 import Ubuntu.Connectivity 1.0
@@ -75,6 +75,28 @@ ItemPage {
         Column {
             id: content
             anchors { left: parent.left; right: parent.right }
+
+            ListItems.Caption {
+                anchors {
+                    left: parent.left
+                    right: parent.right
+                }
+                text: i18n.tr(
+                    "Use this to get all of the latest apps, typically needed after a major system upgrade, " +
+                    "e.g. vivid (15.04) to xenial (16.04)."
+                )
+            }
+
+            Button {
+                id: updatesReinstallAllAppsButton
+                objectName: "updatesReinstallAllAppsButton"
+                anchors.horizontalCenter: parent.horizontalCenter
+                width: parent.width - units.gu(4)
+                text: i18n.tr("Reinstall all apps")
+                onClicked: check()
+                color: theme.palette.normal.positive
+                strokeColor: "transparent"
+            }
 
             GlobalUpdateControls {
                 id: glob
@@ -239,9 +261,7 @@ ItemPage {
                 UpdateManager.cancel();
             } else {
                 UpdateManager.check(UpdateManager.CheckClickIgnoreVersion);
+            }
         }
     }
-  }
-
-    Component.onCompleted: check()
 }
