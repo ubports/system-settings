@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-10-28 00:01+0000\n"
+"PO-Revision-Date: 2018-11-16 23:41+0000\n"
 "Last-Translator: Ivo Xavier <ivofernandes12@gmail.com>\n"
 "Language-Team: Portuguese <https://translate.ubports.com/projects/ubports/"
 "system-settings/pt/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.0.1\n"
+"X-Generator: Weblate 3.1.1\n"
 "X-Launchpad-Export-Date: 2015-07-24 05:41+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -193,7 +193,7 @@ msgstr "Desenvolvimento"
 #: ../plugins/system-update/ChangelogExpander.qml:42
 #, qt-format
 msgid "Version %1"
-msgstr "Versão: %1"
+msgstr "Versão %1"
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../plugins/system-update/PageComponent.qml:38
@@ -2072,7 +2072,7 @@ msgstr ""
 #: ../plugins/about/PageComponent.qml:35
 #: ../obj-x86_64-linux-gnu/po/settings.js:222
 msgid "About"
-msgstr "Sobre"
+msgstr "Acerca"
 
 #: ../plugins/about/PageComponent.qml:99
 msgid "Serial"

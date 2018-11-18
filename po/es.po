@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-11-04 00:02+0000\n"
+"PO-Revision-Date: 2018-11-11 00:03+0000\n"
 "Last-Translator: advocatux <advocatux@airpost.net>\n"
 "Language-Team: Spanish <https://translate.ubports.com/projects/ubports/"
 "system-settings/es/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.0.1\n"
+"X-Generator: Weblate 3.1.1\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:41+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -2900,7 +2900,7 @@ msgstr "Aceptando trabajos"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:69
 msgid "Shared"
-msgstr "Compartido"
+msgstr "Compartida"
 
 #: ../plugins/printing/printer-sub-pages/CopiesAndPages.qml:26
 msgid "Copies"
