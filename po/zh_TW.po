@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-11-18 08:44+0000\n"
+"PO-Revision-Date: 2018-11-21 17:31+0000\n"
 "Last-Translator: Louies <louies0623@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.ubports.com/projects/"
 "ubports/system-settings/zh_Hant/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
 msgid "System Settings"
-msgstr "系統設定"
+msgstr "ˇ系統設定"
 
 #: ubuntu-system-settings.desktop.in.in.h:2
 msgid "System;"
