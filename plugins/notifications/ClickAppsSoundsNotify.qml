@@ -28,6 +28,7 @@ ItemPage {
     property alias model: appsSoundsNotifyList.model
     
     title: i18n.tr("Sound")
+    flickable: appsSoundsNotifyList
 
     ListView {
         id: appsSoundsNotifyList
@@ -36,7 +37,7 @@ ItemPage {
         anchors {
             left: parent.left
             right: parent.right
-            top: parent.top
+            top: parent.header.bottom
             bottom: parent.bottom
         }
 
