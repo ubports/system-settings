@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-11-11 00:02+0000\n"
+"PO-Revision-Date: 2018-11-21 17:31+0000\n"
 "Last-Translator: Joan CiberSheep <cibersheep@gmail.com>\n"
 "Language-Team: Catalan <https://translate.ubports.com/projects/ubports/"
 "system-settings/ca/>\n"
@@ -334,8 +334,7 @@ msgstr "Mostra sempre el llançador"
 
 #: ../plugins/launcher/PageComponent.qml:74
 msgid "Videos and full-screen games may hide it temporarily."
-msgstr ""
-"Els vídeos i els jocs a pantalla complete poden amagar-lo temporalment."
+msgstr "Els vídeos i jocs a pantalla completa poden amagar-lo temporalment."
 
 #: ../plugins/launcher/PageComponent.qml:85
 msgid "Icon size:"
