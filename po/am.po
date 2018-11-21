@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-08-05 00:00+0000\n"
+"PO-Revision-Date: 2018-11-18 08:44+0000\n"
 "Last-Translator: Samson <sambelet@yahoo.com>\n"
 "Language-Team: Amharic <https://translate.ubports.com/projects/ubports/"
 "system-settings/am/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2.20\n"
+"X-Generator: Weblate 3.1.1\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:39+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -26,11 +26,11 @@ msgstr "ስርአት ማሰናጃ"
 
 #: ubuntu-system-settings.desktop.in.in.h:2
 msgid "System;"
-msgstr "ስርአት:"
+msgstr "ስርአት;"
 
 #: ubuntu-system-settings.desktop.in.in.h:3
 msgid "Preferences;Settings;"
-msgstr "ምርጫዎች: ማሰናጃዎች:"
+msgstr "ምርጫዎች; ማሰናጃዎች;"
 
 #: ../plugins/system-update/UpdateDelegate.qml:119
 msgid "Retry"
@@ -211,17 +211,15 @@ msgstr "ሶፍትዌሩ ዘመናዊ ነው"
 
 #: ../plugins/system-update/PageComponent.qml:187
 msgid "The update server is not responding. Try again later."
-msgstr ""
+msgstr "የ ማሻሻያ ሰርቨር አይመልስም: እባክዎን እንደገና ይሞክሩ"
 
 #: ../plugins/system-update/PageComponent.qml:196
-#, fuzzy
 msgid "Updates Available"
 msgstr "ማሻሻያው ዝግጁ ነው"
 
 #: ../plugins/system-update/PageComponent.qml:349
-#, fuzzy
 msgid "Recent updates"
-msgstr "ማሻሻያዎች መፈለጊያ"
+msgstr "የ ቅርብ ጊዜ ማሻሻያዎች"
 
 #: ../plugins/system-update/ChannelSettings.qml:32
 msgid "Channel settings"
@@ -229,11 +227,11 @@ msgstr "ጣቢያ ማሰናጃ"
 
 #: ../plugins/system-update/ChannelSettings.qml:99
 msgid "Fetching channels"
-msgstr ""
+msgstr "ጣቢያዎች በ መፈለግ ላይ"
 
 #: ../plugins/system-update/ChannelSettings.qml:107
 msgid "Channel to get updates from:"
-msgstr ""
+msgstr "ማሻሻያዎች የሚገኙበት ጣቢያዎች:"
 
 #: ../plugins/system-update/ChannelSettings.qml:123
 msgid "Switching channel"
@@ -244,18 +242,16 @@ msgid "Update System"
 msgstr "ስርአት ማሻሻያ"
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:32
-#, fuzzy
 msgid "The device needs to restart to install the system update."
-msgstr "የ ስርአቱን ማሻሻያ ለመግጠም ስልኩን እንደገና ማስነሳት ያስፈልጋል"
+msgstr "የ ስርአቱን ማሻሻያ ለ መግጠም ስልኩን እንደገና ማስነሳት ያስፈልጋል"
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:33
-#, fuzzy
 msgid "Connect the device to power before installing the system update."
 msgstr "የ ስርአቱን ማሻሻያ ከ መግጠሞ በፊት ስልኩን ከ ሐይል ጋር ያገናኙ"
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:38
 msgid "Restart & Install"
-msgstr ""
+msgstr "እንደገና ማስጀመሪያ & መግጠሚያ"
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:48
 #: ../plugins/background/Preview.qml:107 ../plugins/wifi/CertDialog.qml:65
@@ -300,25 +296,23 @@ msgstr "ማሻሻያዎችን በመፈለግ ላይ…"
 
 #: ../plugins/system-update/Global.qml:89
 msgid "Stop"
-msgstr ""
+msgstr "ማስቆሚያ"
 
 #. TRANSLATORS: %1 is number of software updates available.
 #: ../plugins/system-update/Global.qml:116
-#, fuzzy, qt-format
+#, qt-format
 msgid "%1 update available"
 msgid_plural "%1 updates available"
-msgstr[0] "ማሻሻያው ዝግጁ ነው"
-msgstr[1] "ማሻሻያው ዝግጁ ነው"
+msgstr[0] "%1 ማሻሻያ ዝግጁ ነው"
+msgstr[1] "%1 ማሻሻያዎች ዝግጁ ናቸው"
 
 #: ../plugins/system-update/Global.qml:126
-#, fuzzy
 msgid "Update all…"
-msgstr "ማሻሻያው ዝግጁ ነው"
+msgstr "ሁሉንም ማሻሻያ…"
 
 #: ../plugins/system-update/Global.qml:128
-#, fuzzy
 msgid "Update all"
-msgstr "ማሻሻያ"
+msgstr "ሁሉንም ማሻሻያ"
 
 #. TRANSLATORS: This is a keyword or name for the launcher plugin which is used while searching
 #: ../plugins/launcher/PageComponent.qml:31
@@ -329,38 +323,37 @@ msgstr "ማስነሻ"
 
 #: ../plugins/launcher/PageComponent.qml:65
 msgid "On large screens:"
-msgstr ""
+msgstr "በ ትልቅ መመልከቻ:"
 
 #: ../plugins/launcher/PageComponent.qml:73
 msgid "Always show the launcher"
-msgstr ""
+msgstr "ሁል ጊዜ ማስጀመሪያውን ማሳያ"
 
 #: ../plugins/launcher/PageComponent.qml:74
 msgid "Videos and full-screen games may hide it temporarily."
-msgstr ""
+msgstr "ቪዲዮዎች እና በሙሉ መመልከቻ ጨዋታዎች ለጊዜው ይደብቁታል"
 
 #: ../plugins/launcher/PageComponent.qml:85
 msgid "Icon size:"
-msgstr ""
+msgstr "የ ምልክት መጠን:"
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:42
 msgid "Primary button:"
-msgstr ""
+msgstr "ቀዳሚ ቁልፍ:"
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:72
 msgid "Left"
-msgstr ""
+msgstr "በ ግራ"
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:89
-#, fuzzy
 msgid "Right"
-msgstr "በረራ"
+msgstr "በ ቀኝ"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../plugins/mouse/PageComponent.qml:29
 #: ../obj-x86_64-linux-gnu/po/settings.js:42
 msgid "Mouse & Touchpad"
-msgstr ""
+msgstr "አይጥ & ተችፓድ"
 
 #: ../plugins/mouse/None.qml:34
 msgid ""
@@ -376,13 +369,12 @@ msgid ""
 msgstr ""
 
 #: ../plugins/mouse/TapArea.qml:38
-#, fuzzy
 msgid "Not fast enough"
-msgstr "አልተላከም"
+msgstr "በቂ ፍጥነት የለውም"
 
 #: ../plugins/mouse/TapArea.qml:77
 msgid "Double-clicked"
-msgstr ""
+msgstr "ሁለት ጊዜ-ይጫኑ"
 
 #: ../plugins/mouse/Connected.qml:48 ../plugins/bluetooth/DevicePage.qml:59
 msgid "Mouse"
@@ -390,15 +382,15 @@ msgstr "አይጥ"
 
 #: ../plugins/mouse/Connected.qml:62 ../plugins/mouse/Connected.qml:228
 msgid "Cursor speed:"
-msgstr ""
+msgstr "የ መጠቆሚያ ፍጥነት:"
 
 #: ../plugins/mouse/Connected.qml:98
 msgid "Wheel scrolling speed:"
-msgstr ""
+msgstr "የ መሸብለያ ፍጥነት:"
 
 #: ../plugins/mouse/Connected.qml:134 ../plugins/mouse/Connected.qml:301
 msgid "Double-click speed:"
-msgstr ""
+msgstr "ሁለት ጊዜ-መጫኛ ፍጥነት:"
 
 #: ../plugins/mouse/Connected.qml:168 ../plugins/mouse/Connected.qml:335
 msgid "Test double-click:"
@@ -406,19 +398,19 @@ msgstr ""
 
 #: ../plugins/mouse/Connected.qml:214
 msgid "Touchpad"
-msgstr ""
+msgstr "ተችፓድ"
 
 #: ../plugins/mouse/Connected.qml:264
 msgid "Finger scrolling speed:"
-msgstr ""
+msgstr "በ ጣት መሸብለያ ፍጥነት:"
 
 #: ../plugins/mouse/Connected.qml:389
 msgid "Tap to click"
-msgstr ""
+msgstr "መታ ያድርጉ ለ መጫን"
 
 #: ../plugins/mouse/Connected.qml:403
 msgid "Scroll with two fingers"
-msgstr ""
+msgstr "በ ሁለት ጣቶች መሸብለያ"
 
 #: ../plugins/mouse/Connected.qml:410
 msgid "Ignore touchpad when:"
@@ -426,12 +418,11 @@ msgstr ""
 
 #: ../plugins/mouse/Connected.qml:432
 msgid "Typing"
-msgstr ""
+msgstr "በ መጻፍ ላይ"
 
 #: ../plugins/mouse/Connected.qml:446
-#, fuzzy
 msgid "A mouse is connected"
-msgstr "ተቋርጧል"
+msgstr "አይጥ ተገናኝቷል"
 
 #. TRANSLATORS: This is a keyword or name for the notifications plugin which is used while searching
 #: ../plugins/notifications/ClickAppNotifications.qml:54
@@ -446,55 +437,49 @@ msgstr ""
 
 #: ../plugins/notifications/ClickAppNotifications.qml:81
 #: ../plugins/notifications/PageComponent.qml:177
-#, fuzzy
 msgid "Sounds"
-msgstr "ድምፅ"
+msgstr "ድምፆች"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:103
 #: ../plugins/notifications/PageComponent.qml:180
-#, fuzzy
 msgid "Vibrations"
 msgstr "ማንቀጥቀጫ"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:125
-#, fuzzy
 msgid "Notification Bubbles"
-msgstr "ማስታወቂያዎች"
+msgstr "የ ማስታወቂያ አረፋ"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:147
 #: ../plugins/notifications/PageComponent.qml:186
-#, fuzzy
 msgid "Notification List"
-msgstr "ማስታወቂያዎች"
+msgstr "የ ማስታወቂያ ዝርዝር"
 
 #: ../plugins/notifications/PageComponent.qml:75
-#, fuzzy
 msgid ""
 "Apps can alert you using sounds, vibrations, notification bubbles and the "
 "Notification list."
-msgstr "የተመረጡት መተግበሪያዎች ያስጠነቅቃሉ የማስታወቂያ አረፋ: ድምጾች: ማንቀጥቀጥ እና የማስታወቂያ ክፍል በመጠቀም"
+msgstr ""
+"መተግበሪያዎች እርስዎን ያስጠነቅቃሉ የ ማስታወቂያ አረፋ: ድምፆች: ማንቀጥቀጫ እና የ ማስታወቂያ ክፍል በ መጠቀም"
 
 #: ../plugins/notifications/PageComponent.qml:91
 msgid "Apps that notify with sound"
-msgstr ""
+msgstr "ይህ መተግበሪያ በ ድምፅ ያሳውቀኝ"
 
 #: ../plugins/notifications/PageComponent.qml:117
 msgid "Apps that notify with vibration"
-msgstr ""
+msgstr "ይህ መተግበሪያ በ ማንቀጥቀጫ ያሳውቀኝ"
 
 #: ../plugins/notifications/PageComponent.qml:143
-#, fuzzy
 msgid "Applications:"
-msgstr "በ አቢይ ፊደል"
+msgstr "መተግበሪያዎች:"
 
 #: ../plugins/notifications/PageComponent.qml:172
-#, fuzzy
 msgid "No notifications"
-msgstr "ማስታወቂያዎች"
+msgstr "ማስታወቂያዎች የሉም"
 
 #: ../plugins/notifications/PageComponent.qml:183
 msgid "Bubbles"
-msgstr ""
+msgstr "አረፋ"
 
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../plugins/notifications/ClickAppsSoundsNotify.qml:30
@@ -505,31 +490,27 @@ msgstr "ድምፅ"
 
 #: ../plugins/notifications/ClickAppsSoundsNotify.qml:48
 msgid "Apps that notify with sound:"
-msgstr ""
+msgstr "መተግበሪያ በ ድምፅ የሚያሳውቅ:"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:30
-#, fuzzy
 msgid "Vibration"
 msgstr "ማንቀጥቀጫ"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:54
-#, fuzzy
 msgid "When in Silent mode:"
-msgstr "በ ዝምታ ዘዴ ማንቀጥቀጫ"
+msgstr "በ ዝምታ ዘዴ ሲሆን:"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:72
-#, fuzzy
 msgid "Vibrate as normal"
-msgstr "በሚደወል ጊዜ ማንቀጥቀጫ"
+msgstr "እንደ መደበኛ ጊዜ ማንቀጥቀጫ"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:73
-#, fuzzy
 msgid "Don't vibrate"
-msgstr "ማንቀጥቀጫ"
+msgstr "አታንቀጥቅጥ"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:89
 msgid "Apps that notify with vibrations:"
-msgstr ""
+msgstr "መተግበሪያ በ ማንቀጥቀጫ የሚያሳውቅ:"
 
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../plugins/background/MainPage.qml:38
@@ -543,12 +524,11 @@ msgstr "የ ኡቡንቱ ኪነ ጥበብ"
 
 #: ../plugins/background/MainPage.qml:108
 msgid "Custom"
-msgstr "የተለመደ"
+msgstr "ማስተካከያ"
 
 #: ../plugins/background/MainPage.qml:118
-#, fuzzy
 msgid "Dash background"
-msgstr "መደብ"
+msgstr "የ ዳሽ መደብ"
 
 #: ../plugins/background/MainPage.qml:131
 msgid "Opacity:"
@@ -754,7 +734,7 @@ msgstr "ማስታወቂያዎች"
 
 #: ../plugins/wifi/OtherNetwork.qml:363
 msgid "Inner authentication"
-msgstr ""
+msgstr "የ ውስጥ ማረጋገጫ"
 
 #: ../plugins/wifi/OtherNetwork.qml:396
 msgid "CA certificate"
@@ -766,7 +746,7 @@ msgstr ""
 #: ../plugins/wifi/OtherNetwork.qml:450
 #, qt-format
 msgid "%1…"
-msgstr ""
+msgstr "%1…"
 
 #: ../plugins/wifi/OtherNetwork.qml:458 ../plugins/wifi/OtherNetwork.qml:575
 #: ../plugins/wifi/certhandler.cpp:106 ../plugins/wifi/certhandler.cpp:141
@@ -823,9 +803,8 @@ msgid "Pac provisioning"
 msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:686
-#, fuzzy
 msgid "Disabled"
-msgstr "ማሰናከያ"
+msgstr "ተሰናክሏል"
 
 #: ../plugins/wifi/OtherNetwork.qml:687
 msgid "Anonymous"
@@ -855,7 +834,6 @@ msgid "Version 1"
 msgstr "እትም: "
 
 #: ../plugins/wifi/OtherNetwork.qml:715
-#, fuzzy
 msgid "Automatic"
 msgstr "ራስ በራሱ"
 
@@ -1186,7 +1164,7 @@ msgstr ""
 
 #: ../plugins/printing/PrinterConnection.qml:67
 msgid "Host"
-msgstr ""
+msgstr "Host"
 
 #: ../plugins/printing/Printer.qml:42
 #, fuzzy
@@ -2325,7 +2303,7 @@ msgstr ""
 
 #: ../plugins/hotspot/HotspotSetup.qml:275
 msgid "Start"
-msgstr ""
+msgstr "መጀመሪያ"
 
 #. TRANSLATORS: This is a keyword or name for the hotspot plugin which is used while searching
 #: ../plugins/hotspot/PageComponent.qml:33
@@ -2829,7 +2807,7 @@ msgstr "አካል"
 #: ../plugins/reset/PageComponent.qml:101
 #: ../plugins/reset/PageComponent.qml:112
 msgid "Reset all system settings…"
-msgstr "ሁሉንም የ ስርአት ማሰናጃ እንደ ነበር መመለሻ"
+msgstr "ሁሉንም የ ስርአት ማሰናጃ እንደ ነበር መመለሻ…"
 
 #: ../plugins/reset/PageComponent.qml:126
 #: ../plugins/reset/PageComponent.qml:138
@@ -2965,7 +2943,7 @@ msgstr "ማስቻያ"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:46
 msgid "Default"
-msgstr ""
+msgstr "ነባር"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:47
 msgid "This is the default printer."
@@ -2977,7 +2955,7 @@ msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:69
 msgid "Shared"
-msgstr ""
+msgstr "የሚካፈሉት"
 
 #: ../plugins/printing/printer-sub-pages/CopiesAndPages.qml:26
 msgid "Copies"
@@ -2993,7 +2971,7 @@ msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:32
 msgid "Aborted"
-msgstr ""
+msgstr "ተቋርጧል"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:34
 msgid "Active"
@@ -3011,9 +2989,8 @@ msgid "%1 — %2"
 msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:43
-#, fuzzy
 msgid "No messages"
-msgstr "መልእክት"
+msgstr "መልእክት የለም"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:48
 msgid "Jobs"
@@ -3078,9 +3055,8 @@ msgid "Data roaming"
 msgstr "ዳታ ማንቀሳቀሻ"
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:36
-#, fuzzy
 msgid "Cellular data"
-msgstr "የ ሴሉላር ዳታ:"
+msgstr "የ ሴሉላር ዳታ"
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:73
 #: ../plugins/cellular/Components/NoSim.qml:36
@@ -3537,18 +3513,17 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:154
 msgid "color"
-msgstr ""
+msgstr "ቀለም"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:156
 msgid "laser"
-msgstr ""
+msgstr "ሌዘር"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:158
-#, fuzzy
 msgid "ink"
-msgstr "ፒን"
+msgstr "ቀለም"
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:162
