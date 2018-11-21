@@ -28,17 +28,13 @@ ItemPage {
     property alias model: appsVibrationsNotifyList.model
 
     title: i18n.tr("Vibration")
+    flickable: appsVibrationsNotifyList
 
     ListView {
         id: appsVibrationsNotifyList
         objectName: "appsVibrationsNotifyList"
 
-        anchors {
-            left: parent.left
-            right: parent.right
-            top: parent.top
-            bottom: parent.bottom
-        }
+        anchors.fill: parent
 
         clip: true
         contentHeight: contentItem.childrenRect.height

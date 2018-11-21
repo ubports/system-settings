@@ -31,8 +31,10 @@ ItemPage {
     property var accessPoint
 
     title: networkName
+    flickable: networkDetailBriefFlickable
 
     Flickable {
+        id: networkDetailBriefFlickable
         anchors.fill: parent
         contentHeight: contentItem.childrenRect.height
         boundsBehavior: (contentHeight > root.height) ?

@@ -74,7 +74,12 @@ ItemPage {
     }
 
     Column {
-        anchors.fill: parent
+        anchors {
+            left: parent.left
+            right: parent.right
+            top: parent.header.bottom
+            bottom: parent.bottom
+        }
 
         ListItem.Standard {
             id: callWaitingItem
