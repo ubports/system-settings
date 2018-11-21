@@ -75,8 +75,10 @@ ItemPage {
                         onCheckedChanged: appsSoundsNotifyPage.model.setNotifyEnabled(index, checked)
                     }
 
-                    Icon {
-                        id: icon
+                    ProportionalShape {
+                        source: Image {
+                            id: icon
+                        }
                         width: units.gu(5)
                     }
                 }
