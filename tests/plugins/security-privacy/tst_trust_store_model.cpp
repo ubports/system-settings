@@ -176,6 +176,13 @@ struct Store: public core::trust::Store
     {
     }
 
+    void remove_application(const std::string& appid)
+    {
+        m_allRequests.remove_if([&appid](core::trust::Request &r) {
+                return r.from == appid;
+            });
+    }
+
     std::shared_ptr<core::trust::Store::Query> query()
     {
         auto query =
