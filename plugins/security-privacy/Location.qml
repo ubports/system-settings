@@ -239,7 +239,7 @@ ItemPage {
 
             Repeater {
                 model: trustStoreModel
-                SettingsListItems.Icon {
+                SettingsListItems.ProportionalShape {
                     text: model.applicationName
                     iconSource: model.iconName
                     Switch {

@@ -53,7 +53,7 @@ ItemPage {
             Repeater {
                 id: repeater
 
-                SettingsListItems.Icon {
+                SettingsListItems.ProportionalShape {
                     text: model.applicationName
                     iconSource: model.iconName
                     Switch {

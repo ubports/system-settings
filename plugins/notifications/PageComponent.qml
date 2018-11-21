@@ -188,8 +188,10 @@ ItemPage {
 
                     return arr.join(", ")
                 }
-                Icon {
-                    id: icon
+                ProportionalShape {
+                    source: Image {
+                       id: icon
+                    }
                     SlotsLayout.position: SlotsLayout.Leading;
                     width: units.gu(5)
                 }
