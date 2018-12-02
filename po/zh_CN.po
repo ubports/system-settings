@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-07-21 14:58+0000\n"
-"Last-Translator: tongsj2333 <hh23333@foxmail.com>\n"
-"Language-Team: Chinese (Simplified) "
-"<https://translate.ubports.com/projects/ubports/system-settings/zh_Hans/>\n"
+"PO-Revision-Date: 2018-12-08 02:55+0000\n"
+"Last-Translator: xqqy <xqqy189@hotmail.com>\n"
+"Language-Team: Chinese (Simplified) <https://translate.ubports.com/projects/"
+"ubports/system-settings/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.17\n"
+"X-Generator: Weblate 3.1.1\n"
 "X-Launchpad-Export-Date: 2015-07-24 05:41+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -73,9 +73,8 @@ msgid "Paused"
 msgstr "已暂停"
 
 #: ../plugins/system-update/UpdateDelegate.qml:235
-#, fuzzy
 msgid "Waiting to download"
-msgstr "自动下载"
+msgstr "等待下载"
 
 #: ../plugins/system-update/UpdateDelegate.qml:238
 msgid "Downloading"
@@ -90,9 +89,8 @@ msgid "%1 of %2"
 msgstr "第 %1 项，共 %2 项"
 
 #: ../plugins/system-update/UpdateDelegate.qml:278
-#, fuzzy
 msgid "Downloaded"
-msgstr "下载"
+msgstr "已下载"
 
 #: ../plugins/system-update/UpdateDelegate.qml:281
 msgid "Installed"
@@ -101,14 +99,13 @@ msgstr "已安装"
 #. TRANSLATORS: %1 is the date at which this
 #. update was applied.
 #: ../plugins/system-update/UpdateDelegate.qml:286
-#, fuzzy, qt-format
+#, qt-format
 msgid "Updated %1"
-msgstr "更新"
+msgstr "已更新 %1"
 
 #: ../plugins/system-update/UpdateDelegate.qml:310
-#, fuzzy
 msgid "Update failed"
-msgstr "有可用的更新"
+msgstr "更新失败"
 
 #: ../plugins/system-update/Configuration.qml:30
 #: ../plugins/system-update/UpdateSettings.qml:55
@@ -158,9 +155,8 @@ msgstr "确定"
 
 #: ../plugins/system-update/UpdateSettings.qml:32
 #: ../plugins/system-update/PageComponent.qml:412
-#, fuzzy
 msgid "Update settings"
-msgstr "系统设置"
+msgstr "更新设置"
 
 #: ../plugins/system-update/UpdateSettings.qml:60
 msgid "On WiFi"
@@ -176,15 +172,13 @@ msgid "Unknown"
 msgstr "未知"
 
 #: ../plugins/system-update/UpdateSettings.qml:71
-#, fuzzy
 msgid "Channels"
-msgstr "更改"
+msgstr "通道"
 
 #: ../plugins/system-update/UpdateSettings.qml:73
 #: ../plugins/system-update/ChannelSettings.qml:57
-#, fuzzy
 msgid "Stable"
-msgstr "手写板"
+msgstr "稳定版"
 
 #: ../plugins/system-update/UpdateSettings.qml:73
 #: ../plugins/system-update/ChannelSettings.qml:57
@@ -193,14 +187,13 @@ msgstr "候选发布版"
 
 #: ../plugins/system-update/UpdateSettings.qml:73
 #: ../plugins/system-update/ChannelSettings.qml:57
-#, fuzzy
 msgid "Development"
-msgstr "开发者模式"
+msgstr "开发者版"
 
 #: ../plugins/system-update/ChangelogExpander.qml:42
-#, fuzzy, qt-format
+#, qt-format
 msgid "Version %1"
-msgstr "版本： "
+msgstr "版本  %1"
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../plugins/system-update/PageComponent.qml:38
@@ -209,9 +202,8 @@ msgid "Updates"
 msgstr "更新"
 
 #: ../plugins/system-update/PageComponent.qml:182
-#, fuzzy
 msgid "Connect to the Internet to check for updates."
-msgstr "连接到互联网以检查更新"
+msgstr "请连接到互联网以检查更新。"
 
 #: ../plugins/system-update/PageComponent.qml:184
 msgid "Software is up to date"
@@ -222,14 +214,12 @@ msgid "The update server is not responding. Try again later."
 msgstr "更新服务器未相应，请稍后重试。"
 
 #: ../plugins/system-update/PageComponent.qml:196
-#, fuzzy
 msgid "Updates Available"
 msgstr "有可用的更新"
 
 #: ../plugins/system-update/PageComponent.qml:349
-#, fuzzy
 msgid "Recent updates"
-msgstr "检查更新"
+msgstr "最近更新"
 
 #: ../plugins/system-update/ChannelSettings.qml:32
 msgid "Channel settings"
@@ -252,12 +242,10 @@ msgid "Update System"
 msgstr "更新系统"
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:32
-#, fuzzy
 msgid "The device needs to restart to install the system update."
-msgstr "手机需要重新启动来安装系统更新"
+msgstr "设备需要重新启动来安装系统更新。"
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:33
-#, fuzzy
 msgid "Connect the device to power before installing the system update."
 msgstr "安装系统更新之前，请将手机连接到电源。"
 
@@ -312,20 +300,18 @@ msgstr "停止"
 
 #. TRANSLATORS: %1 is number of software updates available.
 #: ../plugins/system-update/Global.qml:116
-#, fuzzy, qt-format
+#, qt-format
 msgid "%1 update available"
 msgid_plural "%1 updates available"
-msgstr[0] "有可用的更新"
+msgstr[0] "%1 个更新可用"
 
 #: ../plugins/system-update/Global.qml:126
-#, fuzzy
 msgid "Update all…"
-msgstr "有可用的更新"
+msgstr "全部更新…"
 
 #: ../plugins/system-update/Global.qml:128
-#, fuzzy
 msgid "Update all"
-msgstr "更新"
+msgstr "全部更新"
 
 #. TRANSLATORS: This is a keyword or name for the launcher plugin which is used while searching
 #: ../plugins/launcher/PageComponent.qml:31
@@ -428,9 +414,8 @@ msgid "Scroll with two fingers"
 msgstr "双手指滑动"
 
 #: ../plugins/mouse/Connected.qml:410
-#, fuzzy
 msgid "Ignore touchpad when:"
-msgstr "忽略触摸板时："
+msgstr "以下情况禁用触控板："
 
 #: ../plugins/mouse/Connected.qml:432
 msgid "Typing"
