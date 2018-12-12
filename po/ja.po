@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-11-18 08:44+0000\n"
+"PO-Revision-Date: 2018-12-16 00:00+0000\n"
 "Last-Translator: M.Sugahara <equaaqua@hotmail.com>\n"
 "Language-Team: Japanese <https://translate.ubports.com/projects/ubports/"
 "system-settings/ja/>\n"
@@ -618,9 +618,8 @@ msgid "Custom Ringtone"
 msgstr "カスタム着信音"
 
 #: ../plugins/sound/SoundsList.qml:206
-#, fuzzy
 msgid "Choose from"
-msgstr "キャリアを選択："
+msgstr "選択："
 
 #: ../plugins/wifi/CertDialog.qml:22
 msgid "Add certificate?"
@@ -791,7 +790,7 @@ msgstr "PAC ファイル"
 
 #: ../plugins/wifi/OtherNetwork.qml:672
 msgid "Pac provisioning"
-msgstr ""
+msgstr "PAC プロビジョニング"
 
 #: ../plugins/wifi/OtherNetwork.qml:686
 msgid "Disabled"
@@ -811,7 +810,7 @@ msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:699
 msgid "PEAP version"
-msgstr ""
+msgstr "PEAP バージョン"
 
 #: ../plugins/wifi/OtherNetwork.qml:713
 msgid "Version 0"
