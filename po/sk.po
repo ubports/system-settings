@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-08-24 16:29+0000\n"
+"PO-Revision-Date: 2018-12-15 08:54+0000\n"
 "Last-Translator: P_E_T_O <peto.bena@gmail.com>\n"
 "Language-Team: Slovak <https://translate.ubports.com/projects/ubports/"
 "system-settings/sk/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 2.20\n"
+"X-Generator: Weblate 3.1.1\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
 msgid "System Settings"
@@ -2359,7 +2359,7 @@ msgstr ""
 
 #: ../plugins/bluetooth/DevicePage.qml:47
 msgid "Computer"
-msgstr ""
+msgstr "Počítač"
 
 #: ../plugins/bluetooth/DevicePage.qml:50
 msgid "Modem"
@@ -2391,11 +2391,11 @@ msgstr ""
 
 #: ../plugins/bluetooth/DevicePage.qml:57
 msgid "Keyboard"
-msgstr ""
+msgstr "Klávesnica"
 
 #: ../plugins/bluetooth/DevicePage.qml:58
 msgid "Tablet"
-msgstr ""
+msgstr "Tablet"
 
 #: ../plugins/bluetooth/DevicePage.qml:60
 msgid "Printer"
@@ -2580,9 +2580,8 @@ msgid "Keyboard vibration"
 msgstr "Vibrovanie klávesnice"
 
 #: ../plugins/language/PageComponent.qml:290
-#, fuzzy
 msgid "Keyboard opacity"
-msgstr "Rozloženia klávesnice"
+msgstr "Nepriehľadnosť klávesnice"
 
 #: ../plugins/language/KeyboardLayouts.qml:49
 msgid "Current layouts:"
@@ -2672,7 +2671,7 @@ msgstr[2] "%1 hodín dozadu"
 
 #: ../plugins/battery/PageComponent.qml:104
 msgid "Charge level"
-msgstr "Úroveň batérie"
+msgstr "Úroveň nabitia"
 
 #. TRANSLATORS: %1 refers to a percentage that indicates the charging level of the battery
 #: ../plugins/battery/PageComponent.qml:112
@@ -2892,7 +2891,7 @@ msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:69
 msgid "Shared"
-msgstr ""
+msgstr "Zdieľané"
 
 #: ../plugins/printing/printer-sub-pages/CopiesAndPages.qml:26
 msgid "Copies"
