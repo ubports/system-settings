@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-11-18 08:44+0000\n"
-"Last-Translator: Sander <sander.k1007@kpnmail.nl>\n"
+"PO-Revision-Date: 2018-12-15 08:51+0000\n"
+"Last-Translator: Willem Hexspoor <willem@hexspoor.online>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
 "system-settings/nl/>\n"
 "Language: nl\n"
@@ -1044,9 +1044,8 @@ msgid "Add printer"
 msgstr "Voeg printer toe"
 
 #: ../plugins/printing/AddPrinter.qml:65
-#, fuzzy
 msgid "Enter URI"
-msgstr "Voer simpincode in"
+msgstr "Voer URI in"
 
 #: ../plugins/printing/AddPrinter.qml:78
 msgid "Devices"
@@ -1156,7 +1155,6 @@ msgid "There are no printers configured yet."
 msgstr "Er zijn nog geen printers geïnstalleerd."
 
 #: ../plugins/printing/PrinterConnection.qml:67
-#, fuzzy
 msgid "Host"
 msgstr "Host"
 
