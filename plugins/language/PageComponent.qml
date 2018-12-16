@@ -24,6 +24,7 @@ import GSettings 1.0
 import SystemSettings 1.0
 import Ubuntu.Components 1.3
 import Ubuntu.Components.Popups 1.3
+import SystemSettings.ListItems 1.0 as SettingsListItems
 import Ubuntu.Components.ListItems 1.3 as ListItem
 import Ubuntu.Settings.Menus 0.1 as Menus
 import Ubuntu.SystemSettings.LanguagePlugin 1.0
@@ -177,6 +178,31 @@ ItemPage {
                 visible: externalKeyboardPresent || showAllUI
             }
 
+            ListItem.Divider {}
+            
+            SettingsListItems.SingleValueProgression {
+                objectName: "oskTheme"
+                
+                readonly property variant model: [{name: i18n.tr("Ambiance"), value: "Ambiance"}
+                        ,{name: i18n.tr("Suru Dark"), value: "SuruDark"}
+                        ,{name: i18n.tr("Suru Black"), value: "SuruBlack"}
+                        ,{name: i18n.tr("Just White"), value: "JustWhite"}
+                        ,{name: i18n.tr("Just Black"), value: "JustBlack"}
+                        ,{name: i18n.tr("Just Grey"), value: "JustGrey"}
+                        ,{name: i18n.tr("Bordered White"), value: "BorderedWhite"}
+                        ,{name: i18n.tr("Bordered Black"), value: "BorderedBlack"}
+                        ,{name: i18n.tr("Bordered Grey"), value: "BorderedGrey"}
+                    ]
+                    
+                text: externalKeyboardPresent ? i18n.tr("On-screen keyboard theme") :
+                                                i18n.tr("Keyboard theme")
+                value: model.find(function(data){return data.value === settings.theme}).name
+                onClicked:
+                    pageStack.addPageToNextColumn(root,
+                        Qt.resolvedUrl("ThemeValues.qml"),
+                        { title: text, themeModel: model } )
+            }
+            
             ListItem.Divider {}
 
             ListItem.SingleValue {
