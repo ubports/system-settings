@@ -11,6 +11,7 @@ set(QML_SOURCES
     RebootNecessary.qml
     SpellChecking.qml
     SubsetView.qml
+    ThemeValues.qml
 )
 
 

@@ -24,7 +24,7 @@ override_dh_auto_configure:
 	dh_auto_configure -- -DCMAKE_INSTALL_LOCALSTATEDIR="/var"
 
 override_dh_auto_build:
-	dh_auto_build
+	dh_auto_build --parallel
 	$(MAKE) -j$(nproc) -C obj-$(DEB_HOST_GNU_TYPE) pot
 
 override_dh_auto_clean:
