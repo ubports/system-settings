@@ -1,3 +1,9 @@
+ubuntu-system-settings (0.4.3~0ubports0) xenial; urgency=medium
+
+  * Add settings for on-screen keyboard themes
+
+ -- Kugi Eusebio <kugiigi@users.noreply.github.com>  Tue, 18 Dec 2018 11:58:28 -0600
+
 ubuntu-system-settings (0.4.2~0ubports3) xenial; urgency=medium
 
   * Replace dependency on ubuntu-wallpapers with ubports-wallpapers
