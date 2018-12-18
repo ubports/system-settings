@@ -158,10 +158,9 @@ ItemPage {
                 }
             }
 
-            ListItem.SingleValue {
+            SettingsListItems.SingleValueProgression {
                 text: externalKeyboardPresent ? i18n.tr("On-screen keyboard") :
                                                 i18n.tr("Keyboard layouts")
-                progression: true
                 value: oskPlugin.keyboardLayoutsModel.subset.length == 1 ?
                        oskPlugin.keyboardLayoutsModel.superset[oskPlugin.keyboardLayoutsModel.subset[0]][0] :
                        oskPlugin.keyboardLayoutsModel.subset.length
@@ -170,9 +169,8 @@ ItemPage {
                 })
             }
 
-            ListItem.Standard {
+            SettingsListItems.SingleValueProgression {
                 text: i18n.tr("External keyboard")
-                progression: true
                 showDivider: false
                 onClicked: pageStack.addPageToNextColumn(root, Qt.resolvedUrl("PageHardwareKeyboard.qml"))
                 visible: externalKeyboardPresent || showAllUI
@@ -205,14 +203,13 @@ ItemPage {
             
             ListItem.Divider {}
 
-            ListItem.SingleValue {
+            SettingsListItems.SingleValueProgression {
                 visible: showAllUI
 
                 text: i18n.tr("Spell checking")
                 value: plugin.spellCheckingModel.subset.length == 1 ?
                        plugin.spellCheckingModel.superset[plugin.spellCheckingModel.subset[0]][0] :
                        plugin.spellCheckingModel.subset.length
-                progression: true
 
                 onClicked: pageStack.addPageToNextColumn(root, spellChecking)
             }
