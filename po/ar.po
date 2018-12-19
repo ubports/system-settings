@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-09-01 08:49+0000\n"
-"Last-Translator: Ahmed Suliman <ahmedselaman@gmail.com>\n"
+"PO-Revision-Date: 2018-12-19 19:57+0000\n"
+"Last-Translator: Hussain Hashem Aljafri <baddea14@gmail.com>\n"
 "Language-Team: Arabic <https://translate.ubports.com/projects/ubports/"
 "system-settings/ar/>\n"
 "Language: ar\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 2.20\n"
+"X-Generator: Weblate 3.1.1\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:39+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -27,7 +27,7 @@ msgstr "إعدادات النظام"
 
 #: ubuntu-system-settings.desktop.in.in.h:2
 msgid "System;"
-msgstr ""
+msgstr "النظام"
 
 #: ubuntu-system-settings.desktop.in.in.h:3
 msgid "Preferences;Settings;"
@@ -290,7 +290,7 @@ msgstr ""
 #: ../plugins/background/Components/AddRemove.qml:42
 #: ../plugins/cellular/Components/SimEditor.qml:203
 msgid "Cancel"
-msgstr "ألغِ"
+msgstr "إلغاء;الإلغاء"
 
 #: ../plugins/system-update/NotAuthenticatedNotification.qml:37
 msgid "Sign in to Ubuntu One to receive updates for apps."
@@ -1173,7 +1173,7 @@ msgstr ""
 #: ../plugins/printing/PageComponent.qml:136
 #: ../plugins/cellular/PageChooseApn.qml:305
 msgid "Delete"
-msgstr ""
+msgstr "حذف"
 
 #: ../plugins/printing/PageComponent.qml:149
 #: ../plugins/printing/printer-sub-pages/Policies.qml:50
@@ -1356,7 +1356,7 @@ msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:69
 msgid "Edit"
-msgstr ""
+msgstr "تحرير"
 
 #: ../plugins/cellular/PageApnEditor.qml:69
 msgid "New APN"
@@ -1453,7 +1453,7 @@ msgstr ""
 #: ../plugins/security-privacy/AppAccess.qml:75
 #: ../plugins/bluetooth/DevicePage.qml:61
 msgid "Camera"
-msgstr "كاميرا"
+msgstr "الكاميرا"
 
 #: ../plugins/security-privacy/AppAccess.qml:76
 msgid "Apps that have requested access to your camera"
@@ -2952,7 +2952,7 @@ msgstr "لوحي"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:46
 msgid "Default"
-msgstr ""
+msgstr "الافتراضي"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:47
 msgid "This is the default printer."
@@ -3355,8 +3355,9 @@ msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:90
+#, fuzzy
 msgid "photo"
-msgstr ""
+msgstr "الصور"
 
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:92
