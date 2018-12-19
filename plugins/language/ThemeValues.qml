@@ -1,9 +1,9 @@
 /*
  * This file is part of system-settings
  *
- * Copyright (C) 2013 Canonical Ltd.
+ * Copyright (C) 2018 Kugi Eusebio
  *
- * Contact: Sebastien Bacher <sebastien.bacher@canonical.com>
+ * Contact: Kugi Eusebio <kugi_igi@yahoo.com>
  *
  * This program is free software: you can redistribute it and/or modify it
  * under the terms of the GNU General Public License version 3, as published
@@ -17,9 +17,6 @@
  * You should have received a copy of the GNU General Public License along
  * with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-
-// THIS FILE IS LOADED DIRECTLY BY NAME FROM THE SECURITY-PRIVACY PANEL.
-// IF YOU RENAME IT YOU MUST UPDATE THE REFERENCE THERE.
 
 import GSettings 1.0
 import QtQuick 2.4
