@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-12-09 00:00+0000\n"
+"PO-Revision-Date: 2018-12-19 16:11+0000\n"
 "Last-Translator: Louies <louies0623@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.ubports.com/projects/"
 "ubports/system-settings/zh_Hant/>\n"
@@ -134,7 +134,7 @@ msgstr "當有 Wi-Fi 時"
 
 #: ../plugins/system-update/Configuration.qml:56
 msgid "On any data connection"
-msgstr "當有任何數據連線時"
+msgstr "當有任何數據連接時"
 
 #: ../plugins/system-update/Configuration.qml:57
 msgid "Data charges may apply."
@@ -359,13 +359,13 @@ msgid ""
 "Connect a mouse or touchpad via USB, or use a Bluetooth device. If a "
 "Bluetooth device isn’t detected, make sure it is turned on and its batteries "
 "are charged."
-msgstr "請用USB或藍牙連接滑鼠與觸控板。 如果無法識別藍牙設備，請檢查是否已打開電源開關且電池也已充電。"
+msgstr "透過USB連接到滑鼠與觸控板，或者使用藍牙裝置。如果無法偵測到藍牙裝置，請檢查是否已打開電源開關且電池也已充電。"
 
 #: ../plugins/mouse/None.qml:36
 msgid ""
 "You need to use a Bluetooth mouse or touchpad with this display. Make sure "
 "it is close to the device and its batteries are charged."
-msgstr "您需要藍牙連接滑鼠與觸控板，並確保它靠近裝置，且電池也已充電。"
+msgstr "您需要在這個顯示器上使用藍牙滑鼠與觸控板，並確保它接近裝置，且電池也已充電。"
 
 #: ../plugins/mouse/TapArea.qml:38
 msgid "Not fast enough"
@@ -651,11 +651,11 @@ msgstr "儲存"
 #: ../plugins/brightness/WifiDisplays.qml:172
 #: ../plugins/brightness/PageComponent.qml:159
 msgid "Connected"
-msgstr "已連線"
+msgstr "已連接"
 
 #: ../plugins/wifi/OtherNetwork.qml:92
 msgid "Connect to Wi‑Fi"
-msgstr "連接 Wi‑Fi"
+msgstr "連接到 Wi‑Fi"
 
 #: ../plugins/wifi/OtherNetwork.qml:93
 msgid "Connect to Hidden Network"
@@ -855,7 +855,7 @@ msgstr "記住密碼"
 
 #: ../plugins/wifi/OtherNetwork.qml:905 ../plugins/bluetooth/DevicePage.qml:150
 msgid "Connect"
-msgstr "連線"
+msgstr "連接"
 
 #: ../plugins/wifi/RemoveBackground.qml:28
 msgid "Clear"
@@ -929,11 +929,11 @@ msgstr "DHCP 客戶端失敗"
 
 #: ../plugins/wifi/Common.qml:66 ../plugins/hotspot/Common.qml:64
 msgid "Shared connection service failed to start"
-msgstr "無法啟動「連線分享服務」"
+msgstr "無法啟動「連接共用服務」"
 
 #: ../plugins/wifi/Common.qml:68 ../plugins/hotspot/Common.qml:66
 msgid "Shared connection service failed"
-msgstr "「連線分享服務」失敗"
+msgstr "「連接共用服務」失敗"
 
 #: ../plugins/wifi/Common.qml:70 ../plugins/hotspot/Common.qml:68
 msgid "Necessary firmware for the device may be missing"
@@ -957,7 +957,7 @@ msgstr "裝置連線由使用者或客戶端中斷"
 
 #: ../plugins/wifi/Common.qml:80 ../plugins/hotspot/Common.qml:78
 msgid "The device's existing connection was assumed"
-msgstr "已採用既有連線的裝置"
+msgstr "裝置的現有連接被假定為"
 
 #: ../plugins/wifi/Common.qml:82 ../plugins/hotspot/Common.qml:80
 msgid "The supplicant is now available"
@@ -969,11 +969,11 @@ msgstr "找不到數據機"
 
 #: ../plugins/wifi/Common.qml:86 ../plugins/hotspot/Common.qml:84
 msgid "The Bluetooth connection failed or timed out"
-msgstr "藍牙連線失敗或逾時"
+msgstr "藍牙連接失敗或逾時"
 
 #: ../plugins/wifi/Common.qml:88 ../plugins/hotspot/Common.qml:86
 msgid "A dependency of the connection failed"
-msgstr "連線的某依賴動作執行失敗"
+msgstr "連接的依賴關係執行失敗"
 
 #: ../plugins/wifi/Common.qml:90 ../plugins/hotspot/Common.qml:88
 msgid "ModemManager is unavailable"
@@ -985,7 +985,7 @@ msgstr "找不到 Wi-Fi 無線網路"
 
 #: ../plugins/wifi/Common.qml:94 ../plugins/hotspot/Common.qml:92
 msgid "A secondary connection of the base connection failed"
-msgstr "基礎連線的備用連線失敗"
+msgstr "基礎連接的輔助連接失敗"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../plugins/wifi/PageComponent.qml:28
@@ -1011,7 +1011,7 @@ msgstr "名稱"
 
 #: ../plugins/wifi/NetworkDetails.qml:63
 msgid "Last connected"
-msgstr "上次連接"
+msgstr "上次連線"
 
 #: ../plugins/wifi/NetworkDetails.qml:96
 #: ../plugins/wifi/NetworkDetailsBrief.qml:53
@@ -1297,7 +1297,7 @@ msgstr "停用 %1"
 #: ../plugins/cellular/PageChooseApn.qml:262
 #, qt-format
 msgid "This disconnects %1."
-msgstr "%1 連接斷線。"
+msgstr "這會讓 %1 斷線。"
 
 #: ../plugins/cellular/PageChooseApn.qml:263
 #, qt-format
@@ -1524,7 +1524,7 @@ msgstr "解鎖…"
 msgid ""
 "When a SIM PIN is set, it must be entered to access cellular services after "
 "restarting the device or swapping the SIM."
-msgstr "設置 SIM 卡 PIN密碼後，必須再次輸入SIM 卡 PIN密碼才能在重新啟動後交換SIM卡或設備來訪問行動數據務。"
+msgstr "設置 SIM 卡PIN密碼後，必須再次輸入 SIM 卡PIN密碼才能在重新啟動後交換 SIM 卡或裝置來訪存取行動數據服務。"
 
 #: ../plugins/security-privacy/SimPin.qml:449
 msgid "Entering an incorrect PIN repeatedly may lock the SIM permanently."
@@ -1576,7 +1576,7 @@ msgstr "加密"
 msgid ""
 "Encryption protects against access to phone data when the phone is connected "
 "to a PC or other device."
-msgstr "加密使得當連接電話和電腦時，資料可以受保護不被竊取。"
+msgstr "加密使得當連接到電話和電腦時，資料可以受保護不被竊取。"
 
 #: ../plugins/security-privacy/PageComponent.qml:207
 msgid "Privacy"
@@ -1665,7 +1665,7 @@ msgstr "使用 WiFi，手機信號塔位置和 GPS 來偵測您的大概位置�
 msgid ""
 "Uses WiFi, cell tower locations (no current cellular connection), and GPS to "
 "detect your rough location. Turning off location detection saves battery."
-msgstr "使用 WiFi，手機信號塔位置（目前沒有行動數據連接）和 GPS 來偵測您的大概位置。 關閉位置偵測可節省電池計量。"
+msgstr "使用 WiFi，手機信號塔位置（目前沒有行動數據連線）和 GPS 來偵測您的大概位置。 關閉位置偵測可節省電池計量。"
 
 #: ../plugins/security-privacy/Location.qml:222
 msgid ""
@@ -1678,7 +1678,7 @@ msgid ""
 "Uses WiFi (currently off), cell tower locations (no current cellular "
 "connection), and GPS to detect your rough location. Turning off location "
 "detection saves battery."
-msgstr "使用 wifi (目前關閉狀態)、手機信號塔位置（目前沒有行動數據連接） 和 GPS 來偵測您的大概位置。關閉位置偵測可節省電池計量。"
+msgstr "使用 wifi (目前關閉狀態)、手機信號塔位置（目前沒有行動數據連線） 和 GPS 來偵測您的大概位置。關閉位置偵測可節省電池計量。"
 
 #: ../plugins/security-privacy/Location.qml:231
 msgid "Let apps access this location:"
@@ -1829,7 +1829,7 @@ msgstr[0] "%1 分鐘之後"
 
 #: ../plugins/security-privacy/PhoneLocking.qml:126
 msgid "Sleep locks immediately"
-msgstr "手機睡眠時立刻鎖定"
+msgstr "睡眠時立刻鎖定"
 
 #: ../plugins/security-privacy/PhoneLocking.qml:132
 msgid "When locked, allow:"
@@ -2015,7 +2015,7 @@ msgstr "開發人員模式"
 msgid ""
 "In Developer Mode, anyone can access, change or delete anything on this "
 "device by connecting it to another device."
-msgstr "在「開發人員模式」下，任何人只需將本電話連接到其他裝置，即可存取、變更、或刪除任何東西。"
+msgstr "在「開發人員模式」下，任何人只需要將這個裝置連線到其他裝置，即可存取、變更、或刪除任何東西。"
 
 #: ../plugins/about/DevMode.qml:110
 msgid "You need a passcode or passphrase set to use Developer Mode."
@@ -2160,7 +2160,7 @@ msgstr "我無法回覆"
 
 #: ../plugins/phone/CallForwarding.qml:197
 msgid "My phone is unreachable"
-msgstr "我的手機無法訪問"
+msgstr "我的手機無法存取"
 
 #: ../plugins/phone/CallForwarding.qml:227
 msgid "Contacts…"
@@ -2229,15 +2229,13 @@ msgstr "熱點"
 msgid ""
 "When hotspot is on, other devices can use your cellular data connection over "
 "Wi-Fi. Normal data charges apply."
-msgstr ""
-"開啟熱點之後，其他裝置可以經 Wi-Fi 使用您的數據連線。這樣做可能需要收取數據費"
-"用。"
+msgstr "開啟熱點之後，其他裝置可以經 Wi-Fi 使用您的數據來連接。這樣做可能需要收取數據費用。"
 
 #: ../plugins/hotspot/PageComponent.qml:115
 msgid ""
 "Other devices can use your cellular data connection over the Wi-Fi network. "
 "Normal data charges apply."
-msgstr "其他裝置可以經 Wi-Fi 使用您的數據連線。這樣做可能需要收取數據費用。"
+msgstr "其他裝置可以經 Wi-Fi 使用您的數據來連接。這樣做可能需要收取數據費用。"
 
 #: ../plugins/hotspot/PageComponent.qml:124
 msgid "Change Password/Setup…"
@@ -2287,7 +2285,7 @@ msgstr "藍牙配對授權請求"
 #, qt-format
 msgid ""
 "The device %1 wants to pair with this device. Do you want to allow this?"
-msgstr "設備 %1 想要與此設備配對， 你是否允許？"
+msgstr "裝置 %1 想要與這個裝置配對， 您是否允許？"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:39
 msgid "Allow"
@@ -2562,11 +2560,11 @@ msgstr "確認"
 
 #: ../plugins/battery/SleepValues.qml:74
 msgid "Lock the device when it's not in use:"
-msgstr "當設備不使用時過了這段時間後鎖定："
+msgstr "當裝置不使用時過了這段時間後鎖定："
 
 #: ../plugins/battery/SleepValues.qml:75
 msgid "Put the device to sleep when it is not in use:"
-msgstr "當設備不使用時過了這段時間後睡眠："
+msgstr "當裝置不使用時過了這段時間後睡眠："
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery/SleepValues.qml:86
@@ -2579,11 +2577,11 @@ msgstr[0] "%1 分鐘之後"
 msgid ""
 "Shorter times are more secure. Device won't lock during calls or video "
 "playback."
-msgstr "時間越短越安全。手機在通話時或播放影片時不會鎖定。"
+msgstr "時間越短越安全。裝置在通話時或播放影片時不會鎖定。"
 
 #: ../plugins/battery/SleepValues.qml:130
 msgid "Device won’t sleep during calls or video playback."
-msgstr "手機在通話時或播放影片時不會睡眠。"
+msgstr "裝置在通話時或播放影片時不會睡眠。"
 
 #. TRANSLATORS: This is a keyword or name for the battery plugin which is used while searching
 #: ../plugins/battery/PageComponent.qml:35
@@ -2681,7 +2679,7 @@ msgstr "重設啟動欄"
 msgid ""
 "All documents, saved games, settings, and other items will be permanently "
 "deleted from this device."
-msgstr "所有的文件、儲存的遊戲，設定以及其他項目皆會從設備中永遠刪除。"
+msgstr "所有的文件、儲存的遊戲，設定以及其他項目皆會從裝置中永遠刪除。"
 
 #: ../plugins/reset/EraseEverything.qml:44
 msgid "Erase & Reset Everything"
@@ -2703,7 +2701,7 @@ msgstr "抹除並重置全部"
 
 #: ../plugins/brightness/WifiDisplays.qml:27
 msgid "Wireless Display"
-msgstr "無線顯示器"
+msgstr "無線顯示"
 
 #: ../plugins/brightness/WifiDisplays.qml:100
 msgid "No displays detected"
@@ -2715,7 +2713,7 @@ msgstr "已連接的顯示器:"
 
 #: ../plugins/brightness/WifiDisplays.qml:128
 msgid "Connecting"
-msgstr "連接中"
+msgstr "連線"
 
 #: ../plugins/brightness/WifiDisplays.qml:128
 #: ../plugins/brightness/WifiDisplays.qml:172
@@ -2725,7 +2723,7 @@ msgstr "未連接"
 
 #: ../plugins/brightness/WifiDisplays.qml:146
 msgid "Use another display:"
-msgstr "連接另一個顯示器："
+msgstr "使用另一個顯示器："
 
 #: ../plugins/brightness/WifiDisplays.qml:146
 msgid "Choose a display:"
@@ -2755,17 +2753,17 @@ msgstr "外部顯示"
 
 #: ../plugins/brightness/PageComponent.qml:158
 msgid "Wireless display"
-msgstr "無線顯示器"
+msgstr "無線顯示"
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:32
 #, qt-format
 msgid "This device failed to connect to %1."
-msgstr "此裝置無法連接 %1。"
+msgstr "此裝置無法連接到 %1。"
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:34
 #, qt-format
 msgid "There was an unknown error connecting to %1."
-msgstr "連接到 %1 時出現未知錯誤。"
+msgstr "連線到 %1 時出現未知錯誤。"
 
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../plugins/vpn/PageComponent.qml:31
@@ -2827,7 +2825,7 @@ msgstr "接收作業"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:69
 msgid "Shared"
-msgstr "已分享"
+msgstr "共用"
 
 #: ../plugins/printing/printer-sub-pages/CopiesAndPages.qml:26
 msgid "Copies"
@@ -2963,7 +2961,7 @@ msgstr "編輯 SIM 卡名稱"
 #. this word must be less than 5 characters
 #: ../plugins/cellular/Components/LabelTextField.qml:51
 msgid "Next"
-msgstr "下一個"
+msgstr "下一步"
 
 #: ../plugins/cellular/Components/Sim.qml:46
 msgid "2G only (saves battery)"
@@ -3293,7 +3291,7 @@ msgstr "WiFi"
 #: ../obj-x86_64-linux-gnu/po/settings.js:316
 #: ../obj-x86_64-linux-gnu/po/settings.js:392
 msgid "connect"
-msgstr "連線"
+msgstr "連接"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the bluetooth plugin which is used while searching
@@ -3393,7 +3391,7 @@ msgstr "行動網路"
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:166
 msgid "mobile"
-msgstr "手機"
+msgstr "行動裝置"
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:168
@@ -3847,12 +3845,12 @@ msgstr "路由器"
 #. TRANSLATORS: This is a keyword or name for the orientation-lock plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:406
 msgid "Rotation Lock"
-msgstr "螢幕旋轉鎖定"
+msgstr "旋轉鎖定"
 
 #. TRANSLATORS: This is a keyword or name for the orientation-lock plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:408
 msgid "rotation"
-msgstr "螢幕旋轉"
+msgstr "旋轉"
 
 #. TRANSLATORS: This is a keyword or name for the orientation-lock plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:410
