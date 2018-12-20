@@ -203,7 +203,9 @@ ItemPage {
     Page {
         id: picker
         visible: false
-        title: i18n.tr("Choose from")
+        header: PageHeader {
+            title: i18n.tr("Choose from")
+        }
 
         ContentPeerPicker {
             id: peerPicker
