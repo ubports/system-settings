@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-11-11 00:02+0000\n"
-"Last-Translator: Anne Onyme <anneonyme017@tutanota.com>\n"
+"PO-Revision-Date: 2018-12-16 00:00+0000\n"
+"Last-Translator: Max Libre <libremax@protonmail.com>\n"
 "Language-Team: French <https://translate.ubports.com/projects/ubports/"
 "system-settings/fr/>\n"
 "Language: fr\n"
@@ -30,7 +30,7 @@ msgstr "Système;"
 
 #: ubuntu-system-settings.desktop.in.in.h:3
 msgid "Preferences;Settings;"
-msgstr "Préférences;Paramètres;Réglages;"
+msgstr "Préférences;Réglages;"
 
 #: ../plugins/system-update/UpdateDelegate.qml:119
 msgid "Retry"
@@ -1761,7 +1761,7 @@ msgstr "Modifier le code…"
 #: ../plugins/security-privacy/LockSecurity.qml:138
 #: ../plugins/security-privacy/LockSecurity.qml:562
 msgid "Change passphrase…"
-msgstr "Modifier la phrase secrète…"
+msgstr "Modifier le mot de passe…"
 
 #: ../plugins/security-privacy/LockSecurity.qml:145
 msgid "Switch to swipe"
@@ -1773,7 +1773,7 @@ msgstr "Basculer sur le code"
 
 #: ../plugins/security-privacy/LockSecurity.qml:149
 msgid "Switch to passphrase"
-msgstr "Verrouiller par phrase secrète"
+msgstr "Verrouiller par mot de passe"
 
 #: ../plugins/security-privacy/LockSecurity.qml:158
 msgid "Existing passcode"
@@ -1781,7 +1781,7 @@ msgstr "Code existant"
 
 #: ../plugins/security-privacy/LockSecurity.qml:160
 msgid "Existing passphrase"
-msgstr "Phrase secrète actuelle"
+msgstr "Mot de passe actuel"
 
 #: ../plugins/security-privacy/LockSecurity.qml:230
 msgid "Choose passcode"
@@ -1789,7 +1789,7 @@ msgstr "Choisir un code"
 
 #: ../plugins/security-privacy/LockSecurity.qml:232
 msgid "Choose passphrase"
-msgstr "Choisissez votre phrase secrète"
+msgstr "Choisissez votre mot de passe"
 
 #: ../plugins/security-privacy/LockSecurity.qml:290
 msgid "Confirm passcode"
@@ -1797,7 +1797,7 @@ msgstr "Confirmer le code"
 
 #: ../plugins/security-privacy/LockSecurity.qml:292
 msgid "Confirm passphrase"
-msgstr "Confirmez votre phrase secrète"
+msgstr "Confirmez votre mot de passe"
 
 #: ../plugins/security-privacy/LockSecurity.qml:347
 msgid "Those passcodes don't match. Try again."
@@ -1826,7 +1826,7 @@ msgstr "Un code à 4 chiffres"
 #: ../plugins/security-privacy/LockSecurity.qml:467
 #: ../plugins/security-privacy/PhoneLocking.qml:62
 msgid "Passphrase"
-msgstr "Une phrase secrète"
+msgstr "Un mot de passe"
 
 #: ../plugins/security-privacy/LockSecurity.qml:468
 #: ../plugins/security-privacy/PhoneLocking.qml:63
@@ -1843,7 +1843,7 @@ msgstr "Un code à 4 chiffres…"
 
 #: ../plugins/security-privacy/LockSecurity.qml:471
 msgid "Passphrase…"
-msgstr "Une phrase secrète…"
+msgstr "Un mot de passe…"
 
 #: ../plugins/security-privacy/PhoneLocking.qml:60
 msgctxt "Unlock with swipe"
@@ -2085,7 +2085,7 @@ msgstr ""
 #: ../plugins/about/DevMode.qml:110
 msgid "You need a passcode or passphrase set to use Developer Mode."
 msgstr ""
-"Vous devez avoir défini un code ou une phrase secrète pour utiliser le Mode "
+"Vous devez avoir défini un code ou un mot de passe pour utiliser le Mode "
 "Développeur."
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
@@ -3581,7 +3581,7 @@ msgstr "Mot de passe"
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:204
 msgid "passphrase"
-msgstr "phrase secrète"
+msgstr "mot de passe"
 
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:206
@@ -3974,7 +3974,7 @@ msgstr "Code incorrect. Réessayez."
 
 #: ../plugins/security-privacy/securityprivacy.cpp:371
 msgid "Incorrect passphrase. Try again."
-msgstr "Phrase secrète incorrecte. Réessayez."
+msgstr "Mot de passe incorrect. Réessayez."
 
 #: ../plugins/security-privacy/securityprivacy.cpp:374
 msgid "Could not set security mode"
