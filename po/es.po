@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-11-21 17:31+0000\n"
+"PO-Revision-Date: 2018-12-20 18:33+0000\n"
 "Last-Translator: advocatux <advocatux@airpost.net>\n"
 "Language-Team: Spanish <https://translate.ubports.com/projects/ubports/"
 "system-settings/es/>\n"
@@ -3287,7 +3287,7 @@ msgstr "arte"
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:90
 msgid "photo"
-msgstr "foto"
+msgstr "Foto"
 
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:92
