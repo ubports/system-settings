@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-11-04 00:02+0000\n"
+"PO-Revision-Date: 2018-11-20 16:43+0000\n"
 "Last-Translator: ierihon <idekovets@mail.ru>\n"
 "Language-Team: Russian <https://translate.ubports.com/projects/ubports/"
 "system-settings/ru/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
 "4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.0.1\n"
+"X-Generator: Weblate 3.1.1\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:41+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -779,7 +779,6 @@ msgid "%1, Exp.: %2"
 msgstr "%1, Истекает: %2"
 
 #: ../plugins/wifi/OtherNetwork.qml:494
-#, fuzzy
 msgid "Using certificates is recommended as it increases security."
 msgstr ""
 "Для повышения уровня безопасности рекомендуется использовать сертификаты."
@@ -956,7 +955,7 @@ msgstr "Ошибка службы общедоступного соединен�
 
 #: ../plugins/wifi/Common.qml:70 ../plugins/hotspot/Common.qml:68
 msgid "Necessary firmware for the device may be missing"
-msgstr "Возможно для устройства отсутствует микропрограммное обеспечения"
+msgstr "Возможно для устройства отсутствует микропрограммное обеспечение"
 
 #: ../plugins/wifi/Common.qml:72 ../plugins/hotspot/Common.qml:70
 msgid "The device was removed"
@@ -1068,17 +1067,14 @@ msgid "Back"
 msgstr "Назад"
 
 #: ../plugins/printing/AddPrinterDetails.qml:137
-#, fuzzy
 msgid "Connection"
 msgstr "Идёт подключение"
 
 #: ../plugins/printing/AddPrinterDetails.qml:139
-#, fuzzy
 msgid "Choose a connection"
-msgstr "Выберите имя"
+msgstr "Выберите подключение"
 
 #: ../plugins/printing/AddPrinterDetails.qml:165
-#, fuzzy
 msgid "Printer name"
 msgstr "Принтер"
 
@@ -1106,9 +1102,8 @@ msgid "Driver"
 msgstr "Драйвер"
 
 #: ../plugins/printing/AddPrinterDetails.qml:225
-#, fuzzy
 msgid "Choose driver"
-msgstr "Выберите из"
+msgstr "Выберите драйвер"
 
 #: ../plugins/printing/AddPrinterDetails.qml:227
 msgid "Select printer from database"
@@ -1123,9 +1118,8 @@ msgid "Filter drivers"
 msgstr "Фильтр драйверов"
 
 #: ../plugins/printing/AddPrinterDetails.qml:304
-#, fuzzy
 msgid "PPD file"
-msgstr "Pac файл"
+msgstr "Файл PPD"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../plugins/printing/PageComponent.qml:32
@@ -1180,7 +1174,6 @@ msgid "Policies"
 msgstr "Разрешения"
 
 #: ../plugins/printing/Printer.qml:47
-#, fuzzy
 msgid "Copies and pages"
 msgstr "Копии и страницы"
 
@@ -2258,7 +2251,7 @@ msgstr "Все вызовы"
 
 #: ../plugins/phone/CallForwarding.qml:384
 msgid "Some calls"
-msgstr "Некоторые звонки"
+msgstr "Некоторые вызовы"
 
 #: ../plugins/hotspot/HotspotSetup.qml:61
 msgid "Change Hotspot Setup"
@@ -2313,7 +2306,7 @@ msgstr ""
 
 #: ../plugins/hotspot/PageComponent.qml:124
 msgid "Change Password/Setup…"
-msgstr "Изменение пароля/Настроек…"
+msgstr "Изменение Пароля/Настроек…"
 
 #: ../plugins/hotspot/PageComponent.qml:124
 msgid "Set Up Hotspot…"
@@ -2554,9 +2547,8 @@ msgid "Display language…"
 msgstr "Выбранный язык…"
 
 #: ../plugins/language/PageComponent.qml:149
-#, fuzzy
 msgid "Enable on-screen keyboard"
-msgstr "Экранная клавиатура"
+msgstr "Включить экранную клавиатуру"
 
 #: ../plugins/language/PageComponent.qml:161
 msgid "On-screen keyboard"
@@ -2608,9 +2600,8 @@ msgid "Keyboard vibration"
 msgstr "Вибрация клавиатуры"
 
 #: ../plugins/language/PageComponent.qml:290
-#, fuzzy
 msgid "Keyboard opacity"
-msgstr "Раскладки клавиатуры"
+msgstr "Прозрачность клавиатуры"
 
 #: ../plugins/language/KeyboardLayouts.qml:49
 msgid "Current layouts:"
@@ -2907,9 +2898,8 @@ msgid "Remove images…"
 msgstr "Удалить изображения…"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:27
-#, fuzzy
 msgid "Enabled"
-msgstr "включить"
+msgstr "Включено"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:46
 msgid "Default"
@@ -2971,18 +2961,16 @@ msgid "Manage Print Jobs"
 msgstr "Управление очередью печати"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:78
-#, fuzzy
 msgid "Address"
-msgstr "адрес"
+msgstr "Адрес"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:84
-#, fuzzy
 msgid "Model"
-msgstr "Модем"
+msgstr "Модель"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:85
 msgid "Local Raw Printer"
-msgstr ""
+msgstr "Локальный базовый принтер"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:88
 msgid "Print test page"
@@ -2993,9 +2981,8 @@ msgid "Duplex"
 msgstr "Спаренный"
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:59
-#, fuzzy
 msgid "Color model"
-msgstr "Режим разработчика"
+msgstr "Цветовая модель"
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:75
 msgid "Quality"
@@ -3074,7 +3061,7 @@ msgstr "Только 2G (экономит батарею)"
 
 #: ../plugins/cellular/Components/Sim.qml:47
 msgid "2G/3G (faster)"
-msgstr "2G/3G (быстрее)"
+msgstr "2G/3G (бысто)"
 
 #: ../plugins/cellular/Components/Sim.qml:48
 msgid "2G/3G/4G (faster)"
@@ -3430,21 +3417,18 @@ msgstr "адрес"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:136
-#, fuzzy
 msgid "printer"
-msgstr "Принтер"
+msgstr "принтер"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:138
-#, fuzzy
 msgid "printers"
-msgstr "Принтер"
+msgstr "принтеры"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:140
-#, fuzzy
 msgid "printing"
-msgstr "маршрутизация"
+msgstr "печать"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:142
@@ -3484,11 +3468,10 @@ msgstr "цвет"
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:156
 msgid "laser"
-msgstr ""
+msgstr "лазер"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:158
-#, fuzzy
 msgid "ink"
 msgstr "чернила"
 

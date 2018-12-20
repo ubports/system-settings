@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2014-08-29 15:16+0000\n"
-"Last-Translator: Walter Cheuk <wwycheuk@gmail.com>\n"
-"Language-Team: Chinese (Hong Kong) <zh_HK@li.org>\n"
+"PO-Revision-Date: 2018-11-25 00:01+0000\n"
+"Last-Translator: Louies <louies0623@gmail.com>\n"
+"Language-Team: Chinese (Hong Kong) <https://translate.ubports.com/projects/"
+"ubports/system-settings/zh_Hant_HK/>\n"
 "Language: zh_HK\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.1.1\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:42+0000\n"
-"X-Generator: Launchpad (build 17628)\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
 msgid "System Settings"
@@ -49,7 +50,7 @@ msgstr ""
 
 #: ../plugins/system-update/UpdateDelegate.qml:139
 msgid "Pause"
-msgstr ""
+msgstr "暫停"
 
 #: ../plugins/system-update/UpdateDelegate.qml:143
 msgid "Install…"
@@ -128,7 +129,7 @@ msgstr "自動下載未來更新："
 #: ../plugins/battery/PageComponent.qml:318
 #: ../plugins/battery/PageComponent.qml:336
 msgid "Never"
-msgstr "從未更新"
+msgstr "永不"
 
 #: ../plugins/system-update/Configuration.qml:54
 msgid "When on WiFi"
@@ -153,7 +154,7 @@ msgstr ""
 #: ../plugins/vpn/PageComponent.qml:123
 #: ../plugins/cellular/Components/SimEditor.qml:214
 msgid "OK"
-msgstr ""
+msgstr "確定"
 
 #: ../plugins/system-update/UpdateSettings.qml:32
 #: ../plugins/system-update/PageComponent.qml:412
@@ -172,7 +173,7 @@ msgstr "一定"
 #: ../plugins/system-update/UpdateSettings.qml:64 ../plugins/wifi/Common.qml:96
 #: ../plugins/hotspot/Common.qml:94 ../plugins/bluetooth/DevicePage.qml:41
 msgid "Unknown"
-msgstr ""
+msgstr "未知"
 
 #: ../plugins/system-update/UpdateSettings.qml:71
 msgid "Channels"
@@ -298,11 +299,11 @@ msgstr ""
 
 #: ../plugins/system-update/Global.qml:84
 msgid "Checking for updates…"
-msgstr "正在檢查更新..."
+msgstr "正在檢查更新…"
 
 #: ../plugins/system-update/Global.qml:89
 msgid "Stop"
-msgstr ""
+msgstr "停止"
 
 #. TRANSLATORS: %1 is number of software updates available.
 #: ../plugins/system-update/Global.qml:116
@@ -666,7 +667,7 @@ msgstr "所有可用配置："
 
 #: ../plugins/wifi/CertDialog.qml:74
 msgid "Save"
-msgstr ""
+msgstr "儲存"
 
 #: ../plugins/wifi/AccessPoint.qml:51 ../plugins/wifi/StandardMenuItem.qml:31
 #: ../plugins/bluetooth/DevicePage.qml:37
@@ -1074,7 +1075,7 @@ msgstr ""
 
 #: ../plugins/printing/AddPrinterDetails.qml:44
 msgid "Back"
-msgstr ""
+msgstr "返回"
 
 #: ../plugins/printing/AddPrinterDetails.qml:137
 #, fuzzy
@@ -1095,7 +1096,7 @@ msgstr "打印機"
 #: ../plugins/printing/printer-sub-pages/Status.qml:66
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:32
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #: ../plugins/printing/AddPrinterDetails.qml:204
 #: ../plugins/printing/AddPrinterDetails.qml:211
@@ -1161,7 +1162,7 @@ msgstr ""
 #: ../plugins/printing/PageComponent.qml:136
 #: ../plugins/cellular/PageChooseApn.qml:305
 msgid "Delete"
-msgstr ""
+msgstr "刪除"
 
 #: ../plugins/printing/PageComponent.qml:149
 #: ../plugins/printing/printer-sub-pages/Policies.qml:50
@@ -1263,7 +1264,7 @@ msgstr ""
 #: ../plugins/cellular/PageChooseApn.qml:92
 #: ../plugins/cellular/PageApnEditor.qml:160
 msgid "MMS"
-msgstr ""
+msgstr "多媒體短信"
 
 #: ../plugins/cellular/PageChooseApn.qml:158
 #, fuzzy
@@ -1344,7 +1345,7 @@ msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:69
 msgid "Edit"
-msgstr ""
+msgstr "編輯"
 
 #: ../plugins/cellular/PageApnEditor.qml:69
 msgid "New APN"
@@ -1466,7 +1467,7 @@ msgstr ""
 
 #: ../plugins/security-privacy/AppAccess.qml:103
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: ../plugins/security-privacy/AppAccess.qml:118
 msgid "Apps may also request access to online accounts."
@@ -1529,7 +1530,7 @@ msgstr ""
 #: ../plugins/security-privacy/LockSecurity.qml:388
 #: ../plugins/hotspot/HotspotSetup.qml:274
 msgid "Change"
-msgstr ""
+msgstr "更改"
 
 #: ../plugins/security-privacy/SimPin.qml:213
 msgid "Enter SIM PIN"
@@ -2149,7 +2150,7 @@ msgstr "轉駁到"
 
 #: ../plugins/phone/CallForwardItem.qml:171
 msgid "Enter a number"
-msgstr ""
+msgstr "輸入號碼"
 
 #: ../plugins/phone/CallForwardItem.qml:218
 msgid "Call forwarding can’t be changed right now."
@@ -2172,7 +2173,7 @@ msgstr ""
 
 #: ../plugins/phone/ServiceInfo.qml:119
 msgid "Call"
-msgstr "通話"
+msgstr "撥號"
 
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../plugins/phone/PageComponent.qml:32 ../plugins/bluetooth/DevicePage.qml:48
@@ -2441,7 +2442,7 @@ msgstr "類型"
 #: ../plugins/bluetooth/DevicePage.qml:124
 #: ../plugins/printing/printer-sub-pages/Status.qml:26
 msgid "Status"
-msgstr ""
+msgstr "狀態"
 
 #: ../plugins/bluetooth/DevicePage.qml:128
 msgid "Signal Strength"
@@ -2535,7 +2536,7 @@ msgstr "語言與文字"
 
 #: ../plugins/language/PageComponent.qml:133
 msgid "Display language…"
-msgstr "螢幕語言..."
+msgstr "螢幕語言…"
 
 #: ../plugins/language/PageComponent.qml:149
 msgid "Enable on-screen keyboard"
@@ -2575,7 +2576,7 @@ msgstr "自動大寫"
 
 #: ../plugins/language/PageComponent.qml:242
 msgid "Turns on Shift to capitalize the first letter of each sentence."
-msgstr "在每句句子開頭打開 Shift 使首個字母大寫"
+msgstr "在每句句子開頭打開 Shift 使首個字母大寫。"
 
 #: ../plugins/language/PageComponent.qml:249
 msgid "Auto punctuation"
@@ -2687,12 +2688,12 @@ msgstr "%1%"
 #: ../plugins/battery/PageComponent.qml:190
 #: ../plugins/battery/PageComponent.qml:192
 msgid "Yesterday"
-msgstr ""
+msgstr "昨天"
 
 #: ../plugins/battery/PageComponent.qml:198
 #: ../plugins/battery/PageComponent.qml:200
 msgid "Today"
-msgstr ""
+msgstr "今天"
 
 #: ../plugins/battery/PageComponent.qml:269
 msgid "Charging now"
@@ -2886,7 +2887,7 @@ msgstr "繪圖板"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:46
 msgid "Default"
-msgstr ""
+msgstr "預設"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:47
 msgid "This is the default printer."
@@ -2910,19 +2911,19 @@ msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:30
 msgid "Idle"
-msgstr ""
+msgstr "閒置"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:32
 msgid "Aborted"
-msgstr ""
+msgstr "已中止"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:34
 msgid "Active"
-msgstr ""
+msgstr "積極"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:36
 msgid "Stopped"
-msgstr ""
+msgstr "已停止"
 
 #. TRANSLATORS: %1 is the overall state of the printer, %2 is a more
 #. detailed message from the printer itself.
@@ -2933,7 +2934,7 @@ msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:43
 msgid "No messages"
-msgstr ""
+msgstr "冇訊息"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:48
 msgid "Jobs"
@@ -2945,7 +2946,7 @@ msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:78
 msgid "Address"
-msgstr ""
+msgstr "地址"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:84
 #, fuzzy
@@ -3037,7 +3038,7 @@ msgstr ""
 #. this word must be less than 5 characters
 #: ../plugins/cellular/Components/LabelTextField.qml:51
 msgid "Next"
-msgstr ""
+msgstr "下一個"
 
 #: ../plugins/cellular/Components/Sim.qml:46
 msgid "2G only (saves battery)"
