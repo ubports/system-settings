@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-12-20 18:33+0000\n"
+"PO-Revision-Date: 2018-12-28 09:09+0000\n"
 "Last-Translator: Rondy Andersson <rondarius@gmail.com>\n"
 "Language-Team: Swedish <https://translate.ubports.com/projects/ubports/"
 "system-settings/sv/>\n"
@@ -3002,7 +3002,7 @@ msgstr "aktivera"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:46
 msgid "Default"
-msgstr ""
+msgstr "Standard"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:47
 msgid "This is the default printer."
@@ -3413,7 +3413,7 @@ msgstr "konst"
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:90
 msgid "photo"
-msgstr "foto"
+msgstr "Bild"
 
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:92
