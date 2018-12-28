@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-12-28 09:11+0000\n"
+"PO-Revision-Date: 2018-12-28 09:14+0000\n"
 "Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports/"
 "system-settings/sc/>\n"
@@ -1338,11 +1338,11 @@ msgstr "Impreadu pro:"
 
 #: ../plugins/cellular/PageApnEditor.qml:187
 msgid "Enter a name describing the APN"
-msgstr "Inserta unu nùmene chi descriat su puntu de atzessu"
+msgstr "Inserta unu nòmine chi descriat su puntu de atzessu"
 
 #: ../plugins/cellular/PageApnEditor.qml:212
 msgid "Enter the name of the access point"
-msgstr "Inserta su nùmene de su puntu de atzessu"
+msgstr "Inserta su nòmine de su puntu de atzessu"
 
 #: ../plugins/cellular/PageApnEditor.qml:226
 msgid "MMSC"
@@ -1374,7 +1374,7 @@ msgstr "Nùmene usuàriu"
 
 #: ../plugins/cellular/PageApnEditor.qml:344
 msgid "Enter username"
-msgstr "Inserta su nùmene usuàriu"
+msgstr "Inserta su nòmine usuàriu"
 
 #: ../plugins/cellular/PageApnEditor.qml:368
 msgid "Enter password"
@@ -2050,7 +2050,7 @@ msgstr "Ispàtziu lìberu"
 
 #: ../plugins/about/Storage.qml:191
 msgid "By name"
-msgstr "Pro nùmene"
+msgstr "Pro nòmine"
 
 #: ../plugins/about/Storage.qml:191
 msgid "By size"
@@ -2269,7 +2269,7 @@ msgstr "Nùmene de su puntu de atzessu Wi-Fi"
 
 #: ../plugins/hotspot/HotspotSetup.qml:176
 msgid "Choose a name"
-msgstr "Sèbera unu nùmene"
+msgstr "Sèbera unu nòmine"
 
 #: ../plugins/hotspot/HotspotSetup.qml:193
 msgid "Require a password (recommended):"
@@ -3049,7 +3049,7 @@ msgstr "Pro is messàgios, imprea:"
 
 #: ../plugins/cellular/Components/SimEditor.qml:88
 msgid "Edit SIM Name"
-msgstr "Modìfica su nùmene de sa SIM"
+msgstr "Modìfica su nòmine de sa SIM"
 
 #. TRANSLATORS: This is the text that will be used on the "return" key for the virtual keyboard,
 #. this word must be less than 5 characters
