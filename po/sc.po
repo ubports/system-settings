@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-12-28 09:14+0000\n"
+"PO-Revision-Date: 2018-12-29 12:41+0000\n"
 "Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports/"
 "system-settings/sc/>\n"
@@ -679,7 +679,7 @@ msgstr "Collega·ti a una rete cuada"
 
 #: ../plugins/wifi/OtherNetwork.qml:285
 msgid "Network name"
-msgstr "Nùmene de sa rete"
+msgstr "Nòmine de sa rete"
 
 #: ../plugins/wifi/OtherNetwork.qml:298
 msgid "SSID"
@@ -849,7 +849,7 @@ msgstr "Identidade"
 
 #: ../plugins/wifi/OtherNetwork.qml:754
 msgid "Username"
-msgstr "Nùmene usuàriu"
+msgstr "Nòmine usuàriu"
 
 #: ../plugins/wifi/OtherNetwork.qml:784
 msgid "Private key password"
@@ -1027,7 +1027,7 @@ msgstr "Detàllios de sa rete"
 #: ../plugins/bluetooth/DevicePage.qml:106
 #: ../plugins/printing/printer-sub-pages/Status.qml:61
 msgid "Name"
-msgstr "Nùmene"
+msgstr "Nòmine"
 
 #: ../plugins/wifi/NetworkDetails.qml:63
 msgid "Last connected"
@@ -1078,7 +1078,7 @@ msgstr "Sèbera una connessione"
 
 #: ../plugins/printing/AddPrinterDetails.qml:165
 msgid "Printer name"
-msgstr "Nùmene de s'imprentadora"
+msgstr "Nòmine de s'imprentadora"
 
 #: ../plugins/printing/AddPrinterDetails.qml:202
 #: ../plugins/printing/printer-sub-pages/Status.qml:66
@@ -1370,7 +1370,7 @@ msgstr "Inserta sa ghenna de su proxy de messàgios"
 
 #: ../plugins/cellular/PageApnEditor.qml:335
 msgid "User name"
-msgstr "Nùmene usuàriu"
+msgstr "Nòmine usuàriu"
 
 #: ../plugins/cellular/PageApnEditor.qml:344
 msgid "Enter username"
@@ -2225,7 +2225,7 @@ msgstr "Non respondo"
 
 #: ../plugins/phone/CallForwarding.qml:197
 msgid "My phone is unreachable"
-msgstr "Su telèfono meu no est atzessìbile"
+msgstr "Su telèfonu meu no est atzessìbile"
 
 #: ../plugins/phone/CallForwarding.qml:227
 msgid "Contacts…"
@@ -2245,7 +2245,7 @@ msgstr "Non s'est pòdidu deviare a custu cuntatu"
 
 #: ../plugins/phone/CallForwarding.qml:303
 msgid "Contact not associated with any phone number."
-msgstr "Perunu nùmeru de telèfonu assotziadu a su cuntatu."
+msgstr "Perunu nùmeru de telèfonu pro custu cuntatu."
 
 #: ../plugins/phone/CallForwarding.qml:382
 msgid "All calls"
@@ -2265,7 +2265,7 @@ msgstr "Cunfigura su puntu de atzessu Wi-Fi"
 
 #: ../plugins/hotspot/HotspotSetup.qml:175
 msgid "Hotspot name"
-msgstr "Nùmene de su puntu de atzessu Wi-Fi"
+msgstr "Nòmine de su puntu de atzessu Wi-Fi"
 
 #: ../plugins/hotspot/HotspotSetup.qml:176
 msgid "Choose a name"
