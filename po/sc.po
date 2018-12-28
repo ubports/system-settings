@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-12-28 09:09+0000\n"
+"PO-Revision-Date: 2018-12-28 09:11+0000\n"
 "Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports/"
 "system-settings/sc/>\n"
@@ -849,7 +849,7 @@ msgstr "Identidade"
 
 #: ../plugins/wifi/OtherNetwork.qml:754
 msgid "Username"
-msgstr "Nùmene utente"
+msgstr "Nùmene usuàriu"
 
 #: ../plugins/wifi/OtherNetwork.qml:784
 msgid "Private key password"
@@ -973,7 +973,7 @@ msgstr "Est isparèssida sa connessione ativa de su dispositivu"
 
 #: ../plugins/wifi/Common.qml:78 ../plugins/hotspot/Common.qml:76
 msgid "Device disconnected by user or client"
-msgstr "Dispositivu disconnètidu dae s'utente o cliente"
+msgstr "Dispositivu disconnètidu dae s'usuàriu o cliente"
 
 #: ../plugins/wifi/Common.qml:80 ../plugins/hotspot/Common.qml:78
 msgid "The device's existing connection was assumed"
@@ -1370,11 +1370,11 @@ msgstr "Inserta sa ghenna de su proxy de messàgios"
 
 #: ../plugins/cellular/PageApnEditor.qml:335
 msgid "User name"
-msgstr "Nùmene utente"
+msgstr "Nùmene usuàriu"
 
 #: ../plugins/cellular/PageApnEditor.qml:344
 msgid "Enter username"
-msgstr "Inserta su nùmene utente"
+msgstr "Inserta su nùmene usuàriu"
 
 #: ../plugins/cellular/PageApnEditor.qml:368
 msgid "Enter password"
