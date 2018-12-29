@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-08-12 15:04+0000\n"
+"PO-Revision-Date: 2018-12-28 09:08+0000\n"
 "Last-Translator: ierihon <idekovets@mail.ru>\n"
 "Language-Team: Belarusian <https://translate.ubports.com/projects/ubports/"
 "system-settings/be/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
 "4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2.20\n"
+"X-Generator: Weblate 3.1.1\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:40+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -39,11 +39,11 @@ msgstr "Паўтарыць"
 
 #: ../plugins/system-update/UpdateDelegate.qml:124
 msgid "Update"
-msgstr ""
+msgstr "Абнаўленне"
 
 #: ../plugins/system-update/UpdateDelegate.qml:126
 msgid "Download"
-msgstr ""
+msgstr "Загрузка"
 
 #: ../plugins/system-update/UpdateDelegate.qml:132
 msgid "Resume"
@@ -323,7 +323,7 @@ msgstr "Абнавіць усё"
 #: ../plugins/security-privacy/PhoneLocking.qml:138
 #: ../obj-x86_64-linux-gnu/po/settings.js:36
 msgid "Launcher"
-msgstr ""
+msgstr "Панэль запуску"
 
 #: ../plugins/launcher/PageComponent.qml:65
 msgid "On large screens:"
@@ -331,7 +331,7 @@ msgstr "На вялікіх экранах:"
 
 #: ../plugins/launcher/PageComponent.qml:73
 msgid "Always show the launcher"
-msgstr ""
+msgstr "Заўсёды паказваць панэль запуску"
 
 #: ../plugins/launcher/PageComponent.qml:74
 msgid "Videos and full-screen games may hide it temporarily."
@@ -347,11 +347,11 @@ msgstr "Асноўная кнопка:"
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:72
 msgid "Left"
-msgstr ""
+msgstr "Злева"
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:89
 msgid "Right"
-msgstr ""
+msgstr "Справа"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../plugins/mouse/PageComponent.qml:29
@@ -411,23 +411,23 @@ msgstr "Сенсарная панэль"
 
 #: ../plugins/mouse/Connected.qml:264
 msgid "Finger scrolling speed:"
-msgstr ""
+msgstr "Хуткасць пракруткі пальцам:"
 
 #: ../plugins/mouse/Connected.qml:389
 msgid "Tap to click"
-msgstr ""
+msgstr "Націсніце на кнопку"
 
 #: ../plugins/mouse/Connected.qml:403
 msgid "Scroll with two fingers"
-msgstr ""
+msgstr "Пракрутка двума пальцамі"
 
 #: ../plugins/mouse/Connected.qml:410
 msgid "Ignore touchpad when:"
-msgstr ""
+msgstr "Ігнараваць тачпад пры:"
 
 #: ../plugins/mouse/Connected.qml:432
 msgid "Typing"
-msgstr ""
+msgstr "Друку"
 
 #: ../plugins/mouse/Connected.qml:446
 #, fuzzy
@@ -443,83 +443,85 @@ msgstr "Апавяшчэнні"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:72
 msgid "Let this app alert me using:"
-msgstr ""
+msgstr "Дазволіць гэтай праграме папярэджваць мяне з дапамогай:"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:81
 #: ../plugins/notifications/PageComponent.qml:177
 msgid "Sounds"
-msgstr ""
+msgstr "Гукаў"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:103
 #: ../plugins/notifications/PageComponent.qml:180
 msgid "Vibrations"
-msgstr ""
+msgstr "Вібрацыі"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:125
 msgid "Notification Bubbles"
-msgstr ""
+msgstr "Бурбалак апавяшчэнняў"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:147
 #: ../plugins/notifications/PageComponent.qml:186
 msgid "Notification List"
-msgstr ""
+msgstr "Спіса апавяшчэнняў"
 
 #: ../plugins/notifications/PageComponent.qml:75
 msgid ""
 "Apps can alert you using sounds, vibrations, notification bubbles and the "
 "Notification list."
 msgstr ""
+"Праграмы могуць папярэджваць вас з дапамогай гукаў, вібрацый, бурбалак "
+"апавяшчэнняў і спісу апавяшчэнняў."
 
 #: ../plugins/notifications/PageComponent.qml:91
 msgid "Apps that notify with sound"
-msgstr ""
+msgstr "Праграмы, якія паведамляюць з гукам"
 
 #: ../plugins/notifications/PageComponent.qml:117
 msgid "Apps that notify with vibration"
-msgstr ""
+msgstr "Праграмы, якія паведамляюць з вібрацыяй"
 
 #: ../plugins/notifications/PageComponent.qml:143
 msgid "Applications:"
-msgstr ""
+msgstr "Праграмы:"
 
 #: ../plugins/notifications/PageComponent.qml:172
 msgid "No notifications"
-msgstr ""
+msgstr "Няма апавяшчэнняў"
 
 #: ../plugins/notifications/PageComponent.qml:183
 msgid "Bubbles"
-msgstr ""
+msgstr "Бурбалкі"
 
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../plugins/notifications/ClickAppsSoundsNotify.qml:30
 #: ../plugins/sound/PageComponent.qml:39
 #: ../obj-x86_64-linux-gnu/po/settings.js:96
 msgid "Sound"
-msgstr ""
+msgstr "Гук"
 
 #: ../plugins/notifications/ClickAppsSoundsNotify.qml:48
 msgid "Apps that notify with sound:"
-msgstr ""
+msgstr "Праграмы, якія паведамляюць з гукам:"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:30
 msgid "Vibration"
-msgstr ""
+msgstr "Вібрацыя"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:54
 msgid "When in Silent mode:"
-msgstr ""
+msgstr "Калі ў бязгучным рэжыме:"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:72
 msgid "Vibrate as normal"
-msgstr ""
+msgstr "Вібраваць як звычайна"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:73
 msgid "Don't vibrate"
-msgstr ""
+msgstr "Ня вібраваць"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:89
 msgid "Apps that notify with vibrations:"
-msgstr ""
+msgstr "Праграмы, якія паведамляюць вібрацыямі:"
 
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../plugins/background/MainPage.qml:38
@@ -533,7 +535,7 @@ msgstr "Ubuntu Art"
 
 #: ../plugins/background/MainPage.qml:108
 msgid "Custom"
-msgstr ""
+msgstr "Карыстацкі"
 
 #: ../plugins/background/MainPage.qml:118
 #, fuzzy
@@ -542,11 +544,11 @@ msgstr "Тло"
 
 #: ../plugins/background/MainPage.qml:131
 msgid "Opacity:"
-msgstr ""
+msgstr "Непразрыстасць:"
 
 #: ../plugins/background/Preview.qml:69
 msgid "Preview"
-msgstr "Прадпрагляд"
+msgstr "Прагляд"
 
 #: ../plugins/background/Preview.qml:107
 msgid "Remove image"
@@ -561,96 +563,96 @@ msgstr "Задаць"
 
 #: ../plugins/sound/PageComponent.qml:76
 msgid "Silent Mode"
-msgstr ""
+msgstr "Бязгучны рэжым"
 
 #: ../plugins/sound/PageComponent.qml:100
 msgid "Ringer:"
-msgstr ""
+msgstr "Мелодыя званка:"
 
 #: ../plugins/sound/PageComponent.qml:141
 msgid "High volume can damage your hearing."
-msgstr ""
+msgstr "Высокая гучнасць можа пашкодзіць слых."
 
 #: ../plugins/sound/PageComponent.qml:145
 msgid "Phone calls:"
-msgstr ""
+msgstr "Тэлефонныя званкі:"
 
 #: ../plugins/sound/PageComponent.qml:149
 #: ../plugins/sound/PageComponent.qml:154
 msgid "Ringtone"
-msgstr ""
+msgstr "Мелодыя"
 
 #: ../plugins/sound/PageComponent.qml:171
 msgid "Vibrate on ring"
-msgstr ""
+msgstr "Вібрацыя разам з гукам"
 
 #: ../plugins/sound/PageComponent.qml:183
 #: ../plugins/sound/PageComponent.qml:242
 msgid "Vibrate in Silent Mode"
-msgstr ""
+msgstr "Вібраваць ў бязгучным рэжыме"
 
 #: ../plugins/sound/PageComponent.qml:194
 #: ../plugins/phone/PageComponent.qml:102
 msgid "Dialpad tones"
-msgstr ""
+msgstr "Гук пры наборы нумара"
 
 #: ../plugins/sound/PageComponent.qml:203
 msgid "Messages:"
-msgstr ""
+msgstr "Паведамленні:"
 
 #: ../plugins/sound/PageComponent.qml:209
 #: ../plugins/sound/PageComponent.qml:214
 msgid "Message received"
-msgstr ""
+msgstr "Паведамленне атрымана"
 
 #: ../plugins/sound/PageComponent.qml:230
 msgid "Vibrate with message sound"
-msgstr ""
+msgstr "Вібраваць пры атрыманні паведамлення"
 
 #: ../plugins/sound/PageComponent.qml:247
 msgid "Other sounds:"
-msgstr ""
+msgstr "Іншыя гукі:"
 
 #: ../plugins/sound/PageComponent.qml:251
 #: ../plugins/language/PageComponent.qml:268
 msgid "Keyboard sound"
-msgstr ""
+msgstr "Гук клавіятуры"
 
 #: ../plugins/sound/PageComponent.qml:268
 msgid "Lock sound"
-msgstr ""
+msgstr "Гук блакавання"
 
 #: ../plugins/sound/PageComponent.qml:278
 msgid "Other vibrations"
-msgstr ""
+msgstr "Іншыя вібрацыі"
 
 #: ../plugins/sound/SoundsList.qml:128
 msgid "Custom Ringtone"
-msgstr ""
+msgstr "Уласны рынгтон"
 
 #: ../plugins/sound/SoundsList.qml:206
 msgid "Choose from"
-msgstr ""
+msgstr "Абярыце з"
 
 #: ../plugins/wifi/CertDialog.qml:22
 msgid "Add certificate?"
-msgstr ""
+msgstr "Дадаць сертыфікат?"
 
 #: ../plugins/wifi/CertDialog.qml:24
 msgid "Add key?"
-msgstr ""
+msgstr "Дадаць ключ?"
 
 #: ../plugins/wifi/CertDialog.qml:26
 msgid "Add pac file?"
-msgstr ""
+msgstr "Дадаць pac файл?"
 
 #: ../plugins/wifi/CertDialog.qml:36
 msgid "Content:"
-msgstr ""
+msgstr "Змест:"
 
 #: ../plugins/wifi/CertDialog.qml:49
 msgid "No data available."
-msgstr ""
+msgstr "Дадзеныя адсутнічаюць."
 
 #: ../plugins/wifi/CertDialog.qml:74
 msgid "Save"
@@ -663,28 +665,28 @@ msgstr "Захаваць"
 #: ../plugins/brightness/WifiDisplays.qml:172
 #: ../plugins/brightness/PageComponent.qml:159
 msgid "Connected"
-msgstr ""
+msgstr "Падключана"
 
 #: ../plugins/wifi/OtherNetwork.qml:92
 msgid "Connect to Wi‑Fi"
-msgstr ""
+msgstr "Падключэнне да Wi-Fi"
 
 #: ../plugins/wifi/OtherNetwork.qml:93
 msgid "Connect to Hidden Network"
-msgstr ""
+msgstr "Падключэнне да схаванай сеткі"
 
 #: ../plugins/wifi/OtherNetwork.qml:285
 msgid "Network name"
-msgstr ""
+msgstr "Імя сеткі"
 
 #: ../plugins/wifi/OtherNetwork.qml:298
 msgid "SSID"
-msgstr ""
+msgstr "SSID"
 
 #: ../plugins/wifi/OtherNetwork.qml:307
 #: ../plugins/security-privacy/PageComponent.qml:142
 msgid "Security"
-msgstr ""
+msgstr "Бяспека"
 
 #: ../plugins/wifi/OtherNetwork.qml:318 ../plugins/wifi/OtherNetwork.qml:457
 #: ../plugins/wifi/OtherNetwork.qml:574
@@ -702,15 +704,15 @@ msgstr ""
 #: ../plugins/wifi/certhandler.cpp:192 ../plugins/wifi/certhandler.cpp:224
 #: ../plugins/wifi/certhandler.cpp:289 ../plugins/wifi/certhandler.cpp:318
 msgid "None"
-msgstr ""
+msgstr "Нічога"
 
 #: ../plugins/wifi/OtherNetwork.qml:319
 msgid "WPA & WPA2 Personal"
-msgstr ""
+msgstr "WPA і WPA2 Personal"
 
 #: ../plugins/wifi/OtherNetwork.qml:320
 msgid "WPA & WPA2 Enterprise"
-msgstr ""
+msgstr "WPA і WPA2 Enterprise"
 
 #: ../plugins/wifi/OtherNetwork.qml:321
 msgid "WEP"
@@ -718,28 +720,28 @@ msgstr "WEP"
 
 #: ../plugins/wifi/OtherNetwork.qml:322
 msgid "Dynamic WEP (802.1x)"
-msgstr ""
+msgstr "Дынамічны WEP (802.1x)"
 
 #: ../plugins/wifi/OtherNetwork.qml:323
 msgid "LEAP"
-msgstr ""
+msgstr "LEAP"
 
 #: ../plugins/wifi/OtherNetwork.qml:332
 msgid "This network is insecure."
-msgstr ""
+msgstr "Гэтая сетка небяспечная."
 
 #: ../plugins/wifi/OtherNetwork.qml:338
 #: ../plugins/cellular/PageApnEditor.qml:382
 msgid "Authentication"
-msgstr ""
+msgstr "Аўтэнтыфікацыя"
 
 #: ../plugins/wifi/OtherNetwork.qml:363
 msgid "Inner authentication"
-msgstr ""
+msgstr "Унутраная аўтэнтыфікацыя"
 
 #: ../plugins/wifi/OtherNetwork.qml:396
 msgid "CA certificate"
-msgstr ""
+msgstr "Сертыфікат CA"
 
 #. TRANSLATORS: %1 is the name of a certificate file.
 #. The ellipsis indicates that the file name has been
@@ -747,14 +749,14 @@ msgstr ""
 #: ../plugins/wifi/OtherNetwork.qml:450
 #, qt-format
 msgid "%1…"
-msgstr ""
+msgstr "%1…"
 
 #: ../plugins/wifi/OtherNetwork.qml:458 ../plugins/wifi/OtherNetwork.qml:575
 #: ../plugins/wifi/certhandler.cpp:106 ../plugins/wifi/certhandler.cpp:141
 #: ../plugins/wifi/certhandler.cpp:193 ../plugins/wifi/certhandler.cpp:225
 #: ../plugins/wifi/certhandler.cpp:290 ../plugins/wifi/certhandler.cpp:319
 msgid "Choose…"
-msgstr ""
+msgstr "Выбраць…"
 
 #. TRANSLATORS: The first position is the name of
 #. the organization that has issued the certificate.
@@ -764,7 +766,7 @@ msgstr ""
 #: ../plugins/wifi/OtherNetwork.qml:465
 #, qt-format
 msgid "%1…, Exp.: %2"
-msgstr ""
+msgstr "%1…, дзейнічае да: %2"
 
 #. TRANSLATORS: The first position is the name of
 #. the organization that has issued the certificate.
@@ -773,19 +775,19 @@ msgstr ""
 #: ../plugins/wifi/OtherNetwork.qml:473
 #, qt-format
 msgid "%1, Exp.: %2"
-msgstr ""
+msgstr "%1, дзейнічае да: %2"
 
 #: ../plugins/wifi/OtherNetwork.qml:494
 msgid "Using certificates is recommended as it increases security."
-msgstr ""
+msgstr "Рэкамендуецца выкарыстоўваць сертыфікаты, так як гэта павышае бяспеку."
 
 #: ../plugins/wifi/OtherNetwork.qml:512
 msgid "Client certificate"
-msgstr ""
+msgstr "Сертыфікат кліента"
 
 #: ../plugins/wifi/OtherNetwork.qml:554
 msgid "User private key"
-msgstr ""
+msgstr "Закрыты ключ карыстальніка"
 
 #. TRANSLATORS: The first position is the type of
 #. private key, second the key algorithm, and third the
@@ -793,15 +795,15 @@ msgstr ""
 #: ../plugins/wifi/OtherNetwork.qml:579
 #, qt-format
 msgid "%1, %2, %3 bit"
-msgstr ""
+msgstr "%1, %2, %3 біт"
 
 #: ../plugins/wifi/OtherNetwork.qml:622
 msgid "Pac file"
-msgstr ""
+msgstr "Pac файл"
 
 #: ../plugins/wifi/OtherNetwork.qml:672
 msgid "Pac provisioning"
-msgstr ""
+msgstr "Ініцыялізацыя Pac"
 
 #: ../plugins/wifi/OtherNetwork.qml:686
 msgid "Disabled"
@@ -809,39 +811,39 @@ msgstr "Адключана"
 
 #: ../plugins/wifi/OtherNetwork.qml:687
 msgid "Anonymous"
-msgstr ""
+msgstr "Ананімны"
 
 #: ../plugins/wifi/OtherNetwork.qml:688
 msgid "Authenticated"
-msgstr ""
+msgstr "Аўтэнтыфікаваны"
 
 #: ../plugins/wifi/OtherNetwork.qml:689
 msgid "Both"
-msgstr ""
+msgstr "Абодва"
 
 #: ../plugins/wifi/OtherNetwork.qml:699
 msgid "PEAP version"
-msgstr ""
+msgstr "Версія PEAP"
 
 #: ../plugins/wifi/OtherNetwork.qml:713
 msgid "Version 0"
-msgstr ""
+msgstr "Версія 0"
 
 #: ../plugins/wifi/OtherNetwork.qml:714
 msgid "Version 1"
-msgstr ""
+msgstr "Версія 1"
 
 #: ../plugins/wifi/OtherNetwork.qml:715
 msgid "Automatic"
-msgstr ""
+msgstr "Аўтаматычна"
 
 #: ../plugins/wifi/OtherNetwork.qml:725
 msgid "Anonymous identity"
-msgstr ""
+msgstr "Ананімны ідэнтыфікатар"
 
 #: ../plugins/wifi/OtherNetwork.qml:752
 msgid "Identity"
-msgstr ""
+msgstr "Ідэнтыфікатар"
 
 #: ../plugins/wifi/OtherNetwork.qml:754
 msgid "Username"
@@ -849,7 +851,7 @@ msgstr "Імя карыстальніка"
 
 #: ../plugins/wifi/OtherNetwork.qml:784
 msgid "Private key password"
-msgstr ""
+msgstr "Пароль закрытага ключа"
 
 #: ../plugins/wifi/OtherNetwork.qml:786 ../plugins/wifi/NetworkDetails.qml:70
 #: ../plugins/cellular/PageApnEditor.qml:357
@@ -859,11 +861,11 @@ msgstr "Пароль"
 #: ../plugins/wifi/OtherNetwork.qml:821 ../plugins/wifi/NetworkDetails.qml:84
 #: ../plugins/hotspot/HotspotSetup.qml:224
 msgid "Show password"
-msgstr ""
+msgstr "Паказаць пароль"
 
 #: ../plugins/wifi/OtherNetwork.qml:857
 msgid "Remember password"
-msgstr ""
+msgstr "Запомніць пароль"
 
 #: ../plugins/wifi/OtherNetwork.qml:905 ../plugins/bluetooth/DevicePage.qml:150
 msgid "Connect"
@@ -884,120 +886,122 @@ msgstr "Невядомая памылка"
 
 #: ../plugins/wifi/Common.qml:38 ../plugins/hotspot/Common.qml:36
 msgid "No reason given"
-msgstr ""
+msgstr "Няма прычын"
 
 #: ../plugins/wifi/Common.qml:40 ../plugins/hotspot/Common.qml:38
 msgid "Device is now managed"
-msgstr ""
+msgstr "Прылада абслугоўваецца"
 
 #: ../plugins/wifi/Common.qml:42 ../plugins/hotspot/Common.qml:40
 msgid "Device is now unmanaged"
-msgstr ""
+msgstr "Прылада не абслугоўваецца"
 
 #: ../plugins/wifi/Common.qml:44 ../plugins/hotspot/Common.qml:42
 msgid "The device could not be readied for configuration"
-msgstr ""
+msgstr "Не ўдалося падрыхтаваць прыладу для налады"
 
 #: ../plugins/wifi/Common.qml:46 ../plugins/hotspot/Common.qml:44
 msgid ""
 "IP configuration could not be reserved (no available address, timeout, etc.)"
 msgstr ""
+"Не атрымалася зарэзерваваць канфігурацыю IP (няма даступных адрасоў, тайм-"
+"аўт і г. д.)"
 
 #: ../plugins/wifi/Common.qml:48 ../plugins/hotspot/Common.qml:46
 msgid "The IP configuration is no longer valid"
-msgstr ""
+msgstr "Канфігурацыя IP больш не сапраўдная"
 
 #: ../plugins/wifi/Common.qml:50 ../plugins/hotspot/Common.qml:48
 msgid "Your authentication details were incorrect"
-msgstr ""
+msgstr "Некарэктныя дадзеныя аўтэнтыфікацыі"
 
 #: ../plugins/wifi/Common.qml:52 ../plugins/hotspot/Common.qml:50
 msgid "802.1X supplicant disconnected"
-msgstr ""
+msgstr "802.1X суіскальнік адключаны"
 
 #: ../plugins/wifi/Common.qml:54 ../plugins/hotspot/Common.qml:52
 msgid "802.1X supplicant configuration failed"
-msgstr ""
+msgstr "Адмова канфігурацыі суіскальніка 802.1X"
 
 #: ../plugins/wifi/Common.qml:56 ../plugins/hotspot/Common.qml:54
 msgid "802.1X supplicant failed"
-msgstr ""
+msgstr "Няўдача суіскальніка 802.1X"
 
 #: ../plugins/wifi/Common.qml:58 ../plugins/hotspot/Common.qml:56
 msgid "802.1X supplicant took too long to authenticate"
-msgstr ""
+msgstr "Суіскальнік 802.1X заняў занадта шмат часу для аўтэнтыфікацыі"
 
 #: ../plugins/wifi/Common.qml:60 ../plugins/hotspot/Common.qml:58
 msgid "DHCP client failed to start"
-msgstr ""
+msgstr "Немагчыма запусціць кліент DHCP"
 
 #: ../plugins/wifi/Common.qml:62 ../plugins/hotspot/Common.qml:60
 msgid "DHCP client error"
-msgstr ""
+msgstr "Памылка кліента DHCP"
 
 #: ../plugins/wifi/Common.qml:64 ../plugins/hotspot/Common.qml:62
 msgid "DHCP client failed"
-msgstr ""
+msgstr "Збой DHCP-кліента"
 
 #: ../plugins/wifi/Common.qml:66 ../plugins/hotspot/Common.qml:64
 msgid "Shared connection service failed to start"
-msgstr ""
+msgstr "Не атрымалася запусціць службу агульнага падключэння"
 
 #: ../plugins/wifi/Common.qml:68 ../plugins/hotspot/Common.qml:66
 msgid "Shared connection service failed"
-msgstr ""
+msgstr "Збой службы агульнага падлучэння"
 
 #: ../plugins/wifi/Common.qml:70 ../plugins/hotspot/Common.qml:68
 msgid "Necessary firmware for the device may be missing"
-msgstr ""
+msgstr "Магчыма, адсутнічае неабходная прашыўка прылады"
 
 #: ../plugins/wifi/Common.qml:72 ../plugins/hotspot/Common.qml:70
 msgid "The device was removed"
-msgstr ""
+msgstr "Прылада была выдалена"
 
 #: ../plugins/wifi/Common.qml:74 ../plugins/hotspot/Common.qml:72
 msgid "NetworkManager went to sleep"
-msgstr ""
+msgstr "NetworkManager перайшоў у спячы рэжым"
 
 #: ../plugins/wifi/Common.qml:76 ../plugins/hotspot/Common.qml:74
 msgid "The device's active connection disappeared"
-msgstr ""
+msgstr "Актыўнае злучэнне спынена"
 
 #: ../plugins/wifi/Common.qml:78 ../plugins/hotspot/Common.qml:76
 msgid "Device disconnected by user or client"
-msgstr ""
+msgstr "Прылада была адключана карыстальнікам або праграмай"
 
 #: ../plugins/wifi/Common.qml:80 ../plugins/hotspot/Common.qml:78
 msgid "The device's existing connection was assumed"
-msgstr ""
+msgstr "Існае злучэнне прылады прынята"
 
 #: ../plugins/wifi/Common.qml:82 ../plugins/hotspot/Common.qml:80
 msgid "The supplicant is now available"
-msgstr ""
+msgstr "Просьбіт цяпер даступны"
 
 #: ../plugins/wifi/Common.qml:84 ../plugins/hotspot/Common.qml:82
 msgid "The modem could not be found"
-msgstr ""
+msgstr "Мадэм не знойдзены"
 
 #: ../plugins/wifi/Common.qml:86 ../plugins/hotspot/Common.qml:84
 msgid "The Bluetooth connection failed or timed out"
-msgstr ""
+msgstr "Час чакання злучэння Bluetooth скончыўся або адбылася памылка"
 
 #: ../plugins/wifi/Common.qml:88 ../plugins/hotspot/Common.qml:86
 msgid "A dependency of the connection failed"
-msgstr ""
+msgstr "Памылка залежнасці злучэння"
 
 #: ../plugins/wifi/Common.qml:90 ../plugins/hotspot/Common.qml:88
 msgid "ModemManager is unavailable"
-msgstr ""
+msgstr "ModemManager недаступны"
 
 #: ../plugins/wifi/Common.qml:92 ../plugins/hotspot/Common.qml:90
 msgid "The Wi-Fi network could not be found"
-msgstr ""
+msgstr "Не атрымалася знайсці сетку Wi-Fi"
 
 #: ../plugins/wifi/Common.qml:94 ../plugins/hotspot/Common.qml:92
 msgid "A secondary connection of the base connection failed"
-msgstr ""
+msgstr "Збой злучэння другаснага базавага злучэння"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../plugins/wifi/PageComponent.qml:28
@@ -1008,22 +1012,22 @@ msgstr "Wi-Fi"
 
 #: ../plugins/wifi/PageComponent.qml:129
 msgid "Connect to hidden network…"
-msgstr ""
+msgstr "Падключэнне да схаванай сеткі…"
 
 #: ../plugins/wifi/NetworkDetails.qml:38
 msgid "Network details"
-msgstr ""
+msgstr "Звесткі аб сетцы"
 
 #: ../plugins/wifi/NetworkDetails.qml:57
 #: ../plugins/cellular/PageApnEditor.qml:179
 #: ../plugins/bluetooth/DevicePage.qml:106
 #: ../plugins/printing/printer-sub-pages/Status.qml:61
 msgid "Name"
-msgstr ""
+msgstr "Імя"
 
 #: ../plugins/wifi/NetworkDetails.qml:63
 msgid "Last connected"
-msgstr ""
+msgstr "Апошняе падлучэнне"
 
 #: ../plugins/wifi/NetworkDetails.qml:96
 #: ../plugins/wifi/NetworkDetailsBrief.qml:53
@@ -1039,23 +1043,23 @@ msgstr "IP адрас"
 #: ../plugins/printing/AddPrinterDetails.qml:54
 #: ../plugins/printing/PageComponent.qml:38
 msgid "Add printer"
-msgstr ""
+msgstr "Дадаць прынтэр"
 
 #: ../plugins/printing/AddPrinter.qml:65
 msgid "Enter URI"
-msgstr ""
+msgstr "Увядзіце URI"
 
 #: ../plugins/printing/AddPrinter.qml:78
 msgid "Devices"
-msgstr ""
+msgstr "Прылады"
 
 #: ../plugins/printing/AddPrinter.qml:133
 msgid "No devices found."
-msgstr ""
+msgstr "Прылады не знойдзеныя."
 
 #: ../plugins/printing/AddPrinterDetails.qml:37
 msgid "Describe printer"
-msgstr ""
+msgstr "Апісанне прынтэра"
 
 #: ../plugins/printing/AddPrinterDetails.qml:44
 msgid "Back"
@@ -1073,18 +1077,18 @@ msgstr "Адлучыцца"
 
 #: ../plugins/printing/AddPrinterDetails.qml:165
 msgid "Printer name"
-msgstr ""
+msgstr "Імя прынтэра"
 
 #: ../plugins/printing/AddPrinterDetails.qml:202
 #: ../plugins/printing/printer-sub-pages/Status.qml:66
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:32
 msgid "Description"
-msgstr ""
+msgstr "Апісанне"
 
 #: ../plugins/printing/AddPrinterDetails.qml:204
 #: ../plugins/printing/AddPrinterDetails.qml:211
 msgid "Optional"
-msgstr ""
+msgstr "Дадаткова"
 
 #: ../plugins/printing/AddPrinterDetails.qml:209
 #: ../plugins/security-privacy/AppAccess.qml:81
@@ -1096,49 +1100,49 @@ msgstr "Месца"
 
 #: ../plugins/printing/AddPrinterDetails.qml:219
 msgid "Driver"
-msgstr ""
+msgstr "Драйвер"
 
 #: ../plugins/printing/AddPrinterDetails.qml:225
 msgid "Choose driver"
-msgstr ""
+msgstr "Выберыце драйвер"
 
 #: ../plugins/printing/AddPrinterDetails.qml:227
 msgid "Select printer from database"
-msgstr ""
+msgstr "Выберыце прынтэр з базы дадзеных"
 
 #: ../plugins/printing/AddPrinterDetails.qml:228
 msgid "Provide PPD file"
-msgstr ""
+msgstr "Пакажыце файл PPD"
 
 #: ../plugins/printing/AddPrinterDetails.qml:235
 msgid "Filter drivers"
-msgstr ""
+msgstr "Фільтр драйвероў"
 
 #: ../plugins/printing/AddPrinterDetails.qml:304
 msgid "PPD file"
-msgstr ""
+msgstr "Файл PPD"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../plugins/printing/PageComponent.qml:32
 #: ../obj-x86_64-linux-gnu/po/settings.js:134
 msgid "Printing"
-msgstr ""
+msgstr "Друк"
 
 #: ../plugins/printing/PageComponent.qml:45
 msgid "Manager Printer Jobs"
-msgstr ""
+msgstr "Дыспетчар заданняў прынтэра"
 
 #: ../plugins/printing/PageComponent.qml:106
 msgid "Default printer"
-msgstr ""
+msgstr "Прадвызначаны прынтэр"
 
 #: ../plugins/printing/PageComponent.qml:107
 msgid "Configured printers"
-msgstr ""
+msgstr "Настроеныя прынтары"
 
 #: ../plugins/printing/PageComponent.qml:115
 msgid "Discovered printers"
-msgstr ""
+msgstr "Знойдзеныя прынтары"
 
 #: ../plugins/printing/PageComponent.qml:136
 #: ../plugins/cellular/PageChooseApn.qml:305
@@ -1148,19 +1152,19 @@ msgstr "Выдаліць"
 #: ../plugins/printing/PageComponent.qml:149
 #: ../plugins/printing/printer-sub-pages/Policies.qml:50
 msgid "Set as Default"
-msgstr ""
+msgstr "Усталяваць па змаўчанні"
 
 #: ../plugins/printing/PageComponent.qml:190
 msgid "There are no printers configured yet."
-msgstr ""
+msgstr "Прынтэры яшчэ не настроены."
 
 #: ../plugins/printing/PrinterConnection.qml:67
 msgid "Host"
-msgstr ""
+msgstr "Хост"
 
 #: ../plugins/printing/Printer.qml:42
 msgid "Printer status"
-msgstr ""
+msgstr "Статус прынтэра"
 
 #: ../plugins/printing/Printer.qml:43
 #, fuzzy
@@ -1169,11 +1173,11 @@ msgstr "Сістэмныя налады"
 
 #: ../plugins/printing/Printer.qml:44
 msgid "Policies"
-msgstr ""
+msgstr "Дазволы"
 
 #: ../plugins/printing/Printer.qml:47
 msgid "Copies and pages"
-msgstr ""
+msgstr "Копіі і старонкі"
 
 #: ../plugins/cellular/PageChooseCarrier.qml:32
 #: ../plugins/cellular/PageChooseCarrier.qml:129
@@ -1181,18 +1185,18 @@ msgstr ""
 #: ../plugins/cellular/PageCarrierAndApn.qml:54
 #: ../plugins/cellular/PageCarriersAndApns.qml:56
 msgid "Carrier"
-msgstr ""
+msgstr "Пастаўшчыкі паслуг"
 
 #: ../plugins/cellular/PageChooseCarrier.qml:153
 #: ../plugins/time-date/ChooseTimeZone.qml:51
 #: ../plugins/time-date/PageComponent.qml:85
 msgid "Automatically"
-msgstr ""
+msgstr "Аўтаматычна"
 
 #: ../plugins/cellular/PageCarrierAndApn.qml:27
 #: ../plugins/cellular/Components/SingleSim.qml:110
 msgid "Carrier & APN"
-msgstr ""
+msgstr "Пастаўшчыкі паслуг і APN"
 
 #. TRANSLATORS: This string is a description of a text
 #. field and should thus be concise.
@@ -1201,67 +1205,67 @@ msgstr ""
 #: ../plugins/cellular/PageChooseApn.qml:37
 #: ../plugins/cellular/PageApnEditor.qml:203
 msgid "APN"
-msgstr ""
+msgstr "APN"
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../plugins/cellular/PageComponent.qml:32
 #: ../obj-x86_64-linux-gnu/po/settings.js:160
 msgid "Cellular"
-msgstr ""
+msgstr "Сетка"
 
 #: ../plugins/cellular/PageCarriersAndApns.qml:27
 msgid "Carriers & APNs"
-msgstr ""
+msgstr "Пастаўшчыкі Паслуг І APNs"
 
 #: ../plugins/cellular/PageChooseApn.qml:64
 msgid "MMS APN"
-msgstr ""
+msgstr "MMS APN"
 
 #: ../plugins/cellular/PageChooseApn.qml:70
 msgid "Internet APN"
-msgstr ""
+msgstr "Кропка доступу ў Інтэрнэт (APN)"
 
 #: ../plugins/cellular/PageChooseApn.qml:76
 msgid "LTE APN"
-msgstr ""
+msgstr "LTE APN"
 
 #: ../plugins/cellular/PageChooseApn.qml:86
 #: ../plugins/cellular/PageApnEditor.qml:158
 msgid "Internet and MMS"
-msgstr ""
+msgstr "Інтэрнэт і MMS"
 
 #: ../plugins/cellular/PageChooseApn.qml:88
 #: ../plugins/cellular/PageApnEditor.qml:159
 msgid "Internet"
-msgstr ""
+msgstr "Інтэрнэт"
 
 #: ../plugins/cellular/PageChooseApn.qml:90
 #: ../plugins/cellular/PageApnEditor.qml:161
 msgid "LTE"
-msgstr ""
+msgstr "LTE"
 
 #: ../plugins/cellular/PageChooseApn.qml:92
 #: ../plugins/cellular/PageApnEditor.qml:160
 msgid "MMS"
-msgstr ""
+msgstr "MMS"
 
 #: ../plugins/cellular/PageChooseApn.qml:158
 msgid "Reset All APN Settings…"
-msgstr ""
+msgstr "Скід налад усіх кропак доступу…"
 
 #: ../plugins/cellular/PageChooseApn.qml:167
 msgid "Reset APN Settings"
-msgstr ""
+msgstr "Скід налад кропкі доступу"
 
 #: ../plugins/cellular/PageChooseApn.qml:168
 msgid "Are you sure that you want to Reset APN Settings?"
-msgstr ""
+msgstr "Вы ўпэўненыя, што хочаце скінуць налады кропкі доступу?"
 
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../plugins/cellular/PageChooseApn.qml:171
 #: ../obj-x86_64-linux-gnu/po/settings.js:364
 msgid "Reset"
-msgstr ""
+msgstr "Скід"
 
 #. TRANSLATORS: %1 is the MMS APN that the user has chosen to be
 #. “preferred”.
@@ -1271,7 +1275,7 @@ msgstr ""
 #: ../plugins/cellular/PageChooseApn.qml:225
 #, qt-format
 msgid "Prefer %1"
-msgstr ""
+msgstr "Аддаваць перавагу %1"
 
 #. TRANSLATORS: %1 is the MMS APN that the user has chosen to be
 #. “preferred”, i.e. used to retrieve MMS messages. %2 is the Internet
@@ -1279,7 +1283,7 @@ msgstr ""
 #: ../plugins/cellular/PageChooseApn.qml:198
 #, qt-format
 msgid "You have chosen %1 as your preferred MMS APN. "
-msgstr ""
+msgstr "Вы выбралі %1 у якасці пераважнага MMS APN. "
 
 #: ../plugins/cellular/PageChooseApn.qml:203
 #: ../plugins/cellular/PageChooseApn.qml:268
@@ -1293,12 +1297,12 @@ msgstr "Адлучыцца"
 #: ../plugins/cellular/PageChooseApn.qml:229
 #, qt-format
 msgid "You have chosen %1 as your preferred Internet APN. "
-msgstr ""
+msgstr "Вы выбралі %1 у якасці пераважнага Інтэрнэт APN. "
 
 #: ../plugins/cellular/PageChooseApn.qml:234
 #: ../plugins/cellular/PageChooseApn.qml:267
 msgid "Disable"
-msgstr ""
+msgstr "Адключыць"
 
 #: ../plugins/cellular/PageChooseApn.qml:256
 #, fuzzy, qt-format
@@ -1308,7 +1312,7 @@ msgstr "Адлучыцца"
 #: ../plugins/cellular/PageChooseApn.qml:257
 #, qt-format
 msgid "Disable %1"
-msgstr ""
+msgstr "Адключыць %1"
 
 #: ../plugins/cellular/PageChooseApn.qml:262
 #, fuzzy, qt-format
@@ -1318,187 +1322,189 @@ msgstr "Адлучыцца"
 #: ../plugins/cellular/PageChooseApn.qml:263
 #, qt-format
 msgid "This disables %1."
-msgstr ""
+msgstr "Гэта адключыць %1."
 
 #: ../plugins/cellular/PageApnEditor.qml:69
 msgid "Edit"
-msgstr ""
+msgstr "Рэдагаваць"
 
 #: ../plugins/cellular/PageApnEditor.qml:69
 msgid "New APN"
-msgstr ""
+msgstr "Новая APN"
 
 #: ../plugins/cellular/PageApnEditor.qml:154
 msgid "Used for:"
-msgstr ""
+msgstr "Выкарыстоўваецца для:"
 
 #: ../plugins/cellular/PageApnEditor.qml:187
 msgid "Enter a name describing the APN"
-msgstr ""
+msgstr "Увядзіце імя, якое апісвае APN"
 
 #: ../plugins/cellular/PageApnEditor.qml:212
 msgid "Enter the name of the access point"
-msgstr ""
+msgstr "Увядзіце імя кропкі доступу"
 
 #: ../plugins/cellular/PageApnEditor.qml:226
 msgid "MMSC"
-msgstr ""
+msgstr "MMSC"
 
 #: ../plugins/cellular/PageApnEditor.qml:235
 msgid "Enter message center"
-msgstr ""
+msgstr "Увядзіце цэнтр паведамленняў"
 
 #: ../plugins/cellular/PageApnEditor.qml:253
 msgid "Proxy"
-msgstr ""
+msgstr "Проксі"
 
 #: ../plugins/cellular/PageApnEditor.qml:262
 msgid "Enter message proxy"
-msgstr ""
+msgstr "Увядзіце проксі-сэрвіс перадачы паведамленняў"
 
 #: ../plugins/cellular/PageApnEditor.qml:307
 msgid "Proxy port"
-msgstr ""
+msgstr "Порт проксі"
 
 #: ../plugins/cellular/PageApnEditor.qml:317
 msgid "Enter message proxy port"
-msgstr ""
+msgstr "Увядзіце порт, які выкарыстоўваецца проксі-сэрвісам"
 
 #: ../plugins/cellular/PageApnEditor.qml:335
 msgid "User name"
-msgstr ""
+msgstr "Імя карыстальніка"
 
 #: ../plugins/cellular/PageApnEditor.qml:344
 msgid "Enter username"
-msgstr ""
+msgstr "Увядзіце імя карыстальніка"
 
 #: ../plugins/cellular/PageApnEditor.qml:368
 msgid "Enter password"
-msgstr ""
+msgstr "Увядзіце пароль"
 
 #: ../plugins/cellular/PageApnEditor.qml:387
 msgid "PAP or CHAP"
-msgstr ""
+msgstr "PAP або CHAP"
 
 #: ../plugins/cellular/PageApnEditor.qml:388
 msgid "PAP only"
-msgstr ""
+msgstr "Толькі PAP"
 
 #: ../plugins/cellular/PageApnEditor.qml:389
 msgid "CHAP only"
-msgstr ""
+msgstr "Толькі CHAP"
 
 #: ../plugins/cellular/PageApnEditor.qml:400
 msgid "Protocol"
-msgstr ""
+msgstr "Пратакол"
 
 #: ../plugins/cellular/PageApnEditor.qml:404
 msgid "IPv4"
-msgstr ""
+msgstr "IPv4"
 
 #: ../plugins/cellular/PageApnEditor.qml:405
 msgid "IPv6"
-msgstr ""
+msgstr "IPv6"
 
 #: ../plugins/cellular/PageApnEditor.qml:406
 msgid "IPv4v6"
-msgstr ""
+msgstr "IPv4v6"
 
 #: ../plugins/security-privacy/AppAccess.qml:29
 #: ../plugins/security-privacy/PageComponent.qml:264
 msgid "App permissions"
-msgstr ""
+msgstr "Дазволы праграм"
 
 #: ../plugins/security-privacy/AppAccess.qml:69
 msgid "Apps that you have granted access to:"
-msgstr ""
+msgstr "Праграмы, якім вы падалі доступ да:"
 
 #: ../plugins/security-privacy/AppAccess.qml:75
 #: ../plugins/bluetooth/DevicePage.qml:61
 msgid "Camera"
-msgstr ""
+msgstr "Камера"
 
 #: ../plugins/security-privacy/AppAccess.qml:76
 msgid "Apps that have requested access to your camera"
-msgstr ""
+msgstr "Праграмы, якія запыталі доступ да камеры"
 
 #: ../plugins/security-privacy/AppAccess.qml:82
 msgid "Apps that have requested access to your location"
-msgstr ""
+msgstr "Праграмы, якія запыталі доступ да вашага месцазнаходжання"
 
 #: ../plugins/security-privacy/AppAccess.qml:87
 msgid "Microphone"
-msgstr ""
+msgstr "Мікрафон"
 
 #: ../plugins/security-privacy/AppAccess.qml:88
 msgid "Apps that have requested access to your microphone"
-msgstr ""
+msgstr "Праграмы, якія запыталі доступ да мікрафону"
 
 #: ../plugins/security-privacy/AppAccess.qml:102
 #, qt-format
 msgid "%1/%2"
-msgstr ""
+msgstr "%1/%2"
 
 #: ../plugins/security-privacy/AppAccess.qml:103
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: ../plugins/security-privacy/AppAccess.qml:118
 msgid "Apps may also request access to online accounts."
-msgstr ""
+msgstr "Праграмы таксама могуць запытваць доступ да сеткавых уліковых запісаў."
 
 #: ../plugins/security-privacy/AppAccess.qml:123
 msgid "Online Accounts…"
-msgstr ""
+msgstr "Анлайн-Акаўнты…"
 
 #: ../plugins/security-privacy/SimPin.qml:37
 #: ../plugins/security-privacy/SimPin.qml:398
 #: ../plugins/security-privacy/PageComponent.qml:178
 msgid "SIM PIN"
-msgstr ""
+msgstr "SIM PIN"
 
 #: ../plugins/security-privacy/SimPin.qml:48
 msgid "Change SIM PIN"
-msgstr ""
+msgstr "Змяніць SIM PIN"
 
 #: ../plugins/security-privacy/SimPin.qml:53
 #: ../plugins/security-privacy/SimPin.qml:219
 #, qt-format
 msgid "Incorrect PIN. %1 attempt remaining."
 msgid_plural "Incorrect PIN. %1 attempts remaining."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Няправільны PIN-код. %1 спроба засталася."
+msgstr[1] "Няправільны PIN-код. %1 спробы засталася."
+msgstr[2] "Няправільны PIN-код. Засталося %1 спробаў."
 
 #: ../plugins/security-privacy/SimPin.qml:58
 #: ../plugins/security-privacy/SimPin.qml:120
 #: ../plugins/security-privacy/SimPin.qml:224
 #: ../plugins/security-privacy/SimPin.qml:297
 msgid "No more attempts allowed"
-msgstr ""
+msgstr "Больш спробаў не дазволена"
 
 #: ../plugins/security-privacy/SimPin.qml:93
 msgid "Current PIN:"
-msgstr ""
+msgstr "Бягучы PIN-код:"
 
 #: ../plugins/security-privacy/SimPin.qml:115
 #: ../plugins/security-privacy/SimPin.qml:292
 #, qt-format
 msgid "%1 attempt allowed."
 msgid_plural "%1 attempts allowed."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Дапускаецца %1 спроба."
+msgstr[1] "Дапускаецца %1 спробы."
+msgstr[2] "Дапускаецца %1 спроб."
 
 #: ../plugins/security-privacy/SimPin.qml:135
 msgid "Choose new PIN:"
-msgstr ""
+msgstr "Выберыце новы PIN-код:"
 
 #: ../plugins/security-privacy/SimPin.qml:146
 msgid "Confirm new PIN:"
-msgstr ""
+msgstr "Пацвердзіць новы PIN-код:"
 
 #: ../plugins/security-privacy/SimPin.qml:168
 msgid "PINs don't match. Try again."
-msgstr ""
+msgstr "PIN-коды не супадаюць. Паспрабуйце яшчэ раз."
 
 #: ../plugins/security-privacy/SimPin.qml:187
 #: ../plugins/security-privacy/LockSecurity.qml:388
@@ -1508,49 +1514,52 @@ msgstr "Змяніць"
 
 #: ../plugins/security-privacy/SimPin.qml:213
 msgid "Enter SIM PIN"
-msgstr ""
+msgstr "Увядзіце SIM PIN"
 
 #: ../plugins/security-privacy/SimPin.qml:214
 msgid "Enter Previous SIM PIN"
-msgstr ""
+msgstr "Увядзіце ранейшы SIM PIN"
 
 #: ../plugins/security-privacy/SimPin.qml:334
 msgid "Unlock"
-msgstr ""
+msgstr "Разблакіраваць"
 
 #: ../plugins/security-privacy/SimPin.qml:334
 msgid "Lock"
-msgstr ""
+msgstr "Заблакіраваць"
 
 #: ../plugins/security-privacy/SimPin.qml:413
 msgid "Unlocked"
-msgstr ""
+msgstr "Разблакавана"
 
 #: ../plugins/security-privacy/SimPin.qml:416
 msgid "Change PIN…"
-msgstr ""
+msgstr "Змяніць PIN-код…"
 
 #: ../plugins/security-privacy/SimPin.qml:427
 msgid "Locked"
-msgstr ""
+msgstr "Заблакавана"
 
 #: ../plugins/security-privacy/SimPin.qml:431
 msgid "Unlock…"
-msgstr ""
+msgstr "Разблакаваць…"
 
 #: ../plugins/security-privacy/SimPin.qml:445
 msgid ""
 "When a SIM PIN is set, it must be entered to access cellular services after "
 "restarting the device or swapping the SIM."
 msgstr ""
+"Калі PIN-код SIM-карты усталяваны, яго неабходна ўвесці пасля перазагрузкі "
+"або замены SIM-карты для выкарыстання мабільных паслуг."
 
 #: ../plugins/security-privacy/SimPin.qml:449
 msgid "Entering an incorrect PIN repeatedly may lock the SIM permanently."
 msgstr ""
+"Паўторны ўвод няправільнага PIN-кода можа назаўжды заблакаваць SIM-карту."
 
 #: ../plugins/security-privacy/here-terms.qml:24
 msgid "Nokia HERE"
-msgstr ""
+msgstr "Nokia HERE"
 
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../plugins/security-privacy/PageComponent.qml:40
@@ -1560,25 +1569,25 @@ msgstr "Бяспека і Канфідэнцыяльнасць"
 
 #: ../plugins/security-privacy/PageComponent.qml:116
 msgid "Phone and Internet"
-msgstr ""
+msgstr "Тэлефон і інтэрнэт"
 
 #: ../plugins/security-privacy/PageComponent.qml:118
 msgid "Phone only"
-msgstr ""
+msgstr "Толькі тэлефон"
 
 #: ../plugins/security-privacy/PageComponent.qml:148
 msgid "Fingerprint ID"
-msgstr ""
+msgstr "ID адбіткаў пальцаў"
 
 #: ../plugins/security-privacy/PageComponent.qml:168
 #: ../plugins/security-privacy/PhoneLocking.qml:32
 msgid "Locking and unlocking"
-msgstr ""
+msgstr "Блакаванне і разблакіроўка"
 
 #: ../plugins/security-privacy/PageComponent.qml:181
 #: ../plugins/security-privacy/PageComponent.qml:253
 msgid "On"
-msgstr ""
+msgstr "Укл."
 
 #: ../plugins/security-privacy/PageComponent.qml:185
 #: ../plugins/security-privacy/PageComponent.qml:253
@@ -1588,54 +1597,56 @@ msgstr "Выключыць"
 
 #: ../plugins/security-privacy/PageComponent.qml:192
 msgid "Encryption"
-msgstr ""
+msgstr "Шыфраванне"
 
 #: ../plugins/security-privacy/PageComponent.qml:202
 msgid ""
 "Encryption protects against access to phone data when the phone is connected "
 "to a PC or other device."
 msgstr ""
+"Шыфраванне забараняе доступ да дадзеных тэлефона пры падключэнні да "
+"кампутара або іншай прыладзе."
 
 #: ../plugins/security-privacy/PageComponent.qml:207
 msgid "Privacy"
-msgstr ""
+msgstr "Канфідэнцыяльнасць"
 
 #: ../plugins/security-privacy/PageComponent.qml:211
 msgid "Stats on welcome screen"
-msgstr ""
+msgstr "Статыстыка на экране прывітання"
 
 #: ../plugins/security-privacy/PageComponent.qml:221
 msgid "Messages on welcome screen"
-msgstr ""
+msgstr "Паведамленні на экране прывітання"
 
 #: ../plugins/security-privacy/PageComponent.qml:269
 #: ../plugins/security-privacy/diagnostics/PageComponent.qml:31
 msgid "Diagnostics"
-msgstr ""
+msgstr "Дыягностыка"
 
 #. TRANSLATORS: This string is shown when crash
 #. reports are to be sent by the system.
 #: ../plugins/security-privacy/PageComponent.qml:273
 msgid "Sent"
-msgstr ""
+msgstr "Адпраўлена"
 
 #. TRANSLATORS: This string is shown when crash
 #. reports are not to be sent by the system
 #: ../plugins/security-privacy/PageComponent.qml:276
 msgid "Not sent"
-msgstr ""
+msgstr "Не адпраўлена"
 
 #: ../plugins/security-privacy/Location.qml:96
 msgid "Let the device detect your location:"
-msgstr ""
+msgstr "Дазволіць вызначэнне месцазнаходжання па тэлефоне:"
 
 #: ../plugins/security-privacy/Location.qml:175
 msgid "Using GPS only (less accurate)"
-msgstr ""
+msgstr "Выкарыстоўваць толькі GPS (менш дакладна)"
 
 #: ../plugins/security-privacy/Location.qml:176
 msgid "Using GPS"
-msgstr ""
+msgstr "Выкарыстоўваць GPS"
 
 #: ../plugins/security-privacy/Location.qml:188
 #, qt-format
@@ -1643,6 +1654,9 @@ msgid ""
 "Using GPS, anonymized Wi-Fi and cellular network info.<br>By selecting this "
 "option you accept the <a href='%1'>Nokia HERE terms and conditions</a>."
 msgstr ""
+"Выкарыстанне інфармацыі GPS, ананімных сетак Wi-Fi і сотавай сеткі.<br>"
+"Выбраўшы гэты параметр, вы прымаеце <a href='%1'>ўмовы выкарыстання Nokia "
+"HERE</a>."
 
 #: ../plugins/security-privacy/Location.qml:189
 #, qt-format
@@ -1650,46 +1664,64 @@ msgid ""
 "Using GPS and anonymized Wi-Fi info.<br>By selecting this option you accept "
 "the <a href='%1'>Nokia HERE terms and conditions</a>."
 msgstr ""
+"Выкарыстанне GPS і ананімнай інфармацыі Wi-Fi.<br>Выбраўшы гэты параметр, вы "
+"прымаеце <a href='%1'>ўмовы выкарыстання Nokia HERE</a>."
 
 #: ../plugins/security-privacy/Location.qml:195
 msgid "Not at all"
-msgstr ""
+msgstr "Зусім не"
 
 #: ../plugins/security-privacy/Location.qml:212
 msgid ""
 "Uses GPS to detect your rough location. When off, GPS turns off to save "
 "battery."
 msgstr ""
+"Выкарыстоўвае GPS для выяўлення вашага грубага месцазнаходжання. У стане "
+"«выкл.» GPS адключаецца для эканоміі энергіі."
 
 #: ../plugins/security-privacy/Location.qml:214
 msgid ""
 "Uses WiFi and GPS to detect your rough location. Turning off location "
 "detection saves battery."
 msgstr ""
+"Выкарыстоўвае Wi-Fi і GPS для выяўлення вашага грубага месцазнаходжання. "
+"Выключэнне выяўлення месцазнаходжання эканоміць батарэю."
 
 #: ../plugins/security-privacy/Location.qml:216
 msgid ""
 "Uses WiFi (currently off) and GPS to detect your rough location. Turning off "
 "location detection saves battery."
 msgstr ""
+"Выкарыстоўвае Wi-Fi (у цяперашні час выключаны) і GPS для выяўлення вашага "
+"грубага месцазнаходжання. Выключэнне выяўлення месцазнаходжання эканоміць "
+"батарэю."
 
 #: ../plugins/security-privacy/Location.qml:218
 msgid ""
 "Uses WiFi, cell tower locations, and GPS to detect your rough location. "
 "Turning off location detection saves battery."
 msgstr ""
+"Выкарыстоўвае Wi-Fi, месцазнаходжанне вышкі сотавай сувязі і GPS для "
+"выяўлення вашага грубага месцазнаходжання. Выключэнне выяўлення "
+"месцазнаходжання эканоміць батарэю."
 
 #: ../plugins/security-privacy/Location.qml:220
 msgid ""
 "Uses WiFi, cell tower locations (no current cellular connection), and GPS to "
 "detect your rough location. Turning off location detection saves battery."
 msgstr ""
+"Выкарыстоўвае Wi-Fi, месцазнаходжанне вышкі сотавай сувязі (без бягучага "
+"сотавага злучэння) і GPS для выяўлення вашага грубага месцазнаходжання. "
+"Выключэнне выяўлення месцазнаходжання эканоміць батарэю."
 
 #: ../plugins/security-privacy/Location.qml:222
 msgid ""
 "Uses WiFi (currently off), cell tower locations, and GPS to detect your "
 "rough location. Turning off location detection saves battery."
 msgstr ""
+"Выкарыстоўвае WiFi (цяпер выключаны), вышак сотавай сувязі і GPS, каб "
+"вызначыць ваша прыкладнае размяшчэнне. Выключэнне выяўлення месцазнаходжання "
+"эканоміць батарэю."
 
 #: ../plugins/security-privacy/Location.qml:224
 msgid ""
@@ -1697,50 +1729,53 @@ msgid ""
 "connection), and GPS to detect your rough location. Turning off location "
 "detection saves battery."
 msgstr ""
+"Выкарыстоўвае WiFi (цяпер выключаны), вышак сотавай сувязі (без бягучага "
+"сотавага злучэння) і GPS, каб вызначыць ваша прыкладнае размяшчэнне. "
+"Выключэнне выяўлення месцазнаходжання эканоміць батарэю."
 
 #: ../plugins/security-privacy/Location.qml:231
 msgid "Let apps access this location:"
-msgstr ""
+msgstr "Дазволіць праграмам доступ да месцазнаходжання:"
 
 #: ../plugins/security-privacy/Location.qml:254
 msgid "None requested"
-msgstr ""
+msgstr "Не знойдзена"
 
 #: ../plugins/security-privacy/LockSecurity.qml:36
 #: ../plugins/security-privacy/PhoneLocking.qml:66
 #: ../plugins/about/DevMode.qml:116
 msgid "Lock security"
-msgstr ""
+msgstr "Абарона блакавання"
 
 #: ../plugins/security-privacy/LockSecurity.qml:136
 #: ../plugins/security-privacy/LockSecurity.qml:561
 msgid "Change passcode…"
-msgstr ""
+msgstr "Змяніць пароль…"
 
 #: ../plugins/security-privacy/LockSecurity.qml:138
 #: ../plugins/security-privacy/LockSecurity.qml:562
 msgid "Change passphrase…"
-msgstr ""
+msgstr "Змяніць кодавую фразу…"
 
 #: ../plugins/security-privacy/LockSecurity.qml:145
 msgid "Switch to swipe"
-msgstr ""
+msgstr "Выкарыстаць зрух"
 
 #: ../plugins/security-privacy/LockSecurity.qml:147
 msgid "Switch to passcode"
-msgstr ""
+msgstr "Пераключыцца на пароль"
 
 #: ../plugins/security-privacy/LockSecurity.qml:149
 msgid "Switch to passphrase"
-msgstr ""
+msgstr "Пераключыцца на кодавую фразу"
 
 #: ../plugins/security-privacy/LockSecurity.qml:158
 msgid "Existing passcode"
-msgstr ""
+msgstr "Існуючы пароль"
 
 #: ../plugins/security-privacy/LockSecurity.qml:160
 msgid "Existing passphrase"
-msgstr ""
+msgstr "Існуючая кодавая фраза"
 
 #: ../plugins/security-privacy/LockSecurity.qml:230
 msgid "Choose passcode"
@@ -1772,7 +1807,7 @@ msgstr ""
 
 #: ../plugins/security-privacy/LockSecurity.qml:461
 msgid "Unlock the device using:"
-msgstr ""
+msgstr "Разблакаваць тэлефон праз:"
 
 #: ../plugins/security-privacy/LockSecurity.qml:465
 msgid "Swipe (no security)"
@@ -1790,7 +1825,7 @@ msgstr ""
 #: ../plugins/security-privacy/LockSecurity.qml:468
 #: ../plugins/security-privacy/PhoneLocking.qml:63
 msgid "Fingerprint"
-msgstr ""
+msgstr "Адбітак пальца"
 
 #: ../plugins/security-privacy/LockSecurity.qml:469
 msgid "Swipe (no security)… "
@@ -1858,11 +1893,12 @@ msgstr ""
 
 #: ../plugins/security-privacy/PhoneLocking.qml:152
 msgid "Notifications and quick settings"
-msgstr ""
+msgstr "Апавяшчэнні і хуткія налады"
 
 #: ../plugins/security-privacy/PhoneLocking.qml:167
 msgid "Turn on lock security to restrict access when the device is locked."
 msgstr ""
+"Уключыце бяспеку блакавання, каб абмежаваць доступ, калі прылада заблакавана."
 
 #: ../plugins/security-privacy/PhoneLocking.qml:168
 msgid "Other apps and functions will prompt you to unlock."
@@ -1870,58 +1906,58 @@ msgstr ""
 
 #: ../plugins/time-date/ChooseTimeZone.qml:30
 msgid "Time zone"
-msgstr ""
+msgstr "Гадзінны пояс"
 
 #: ../plugins/time-date/ChooseTimeZone.qml:50
 msgid "Set the time zone:"
-msgstr ""
+msgstr "Ўстаноўка гадзіннага пояса:"
 
 #: ../plugins/time-date/ChooseTimeZone.qml:51
 #: ../plugins/time-date/PageComponent.qml:85
 msgid "Manually"
-msgstr ""
+msgstr "Уручную"
 
 #: ../plugins/time-date/ChooseTimeZone.qml:130
 msgid "Enter your current location."
-msgstr ""
+msgstr "Увядзіце бягучае месцазнаходжанне."
 
 #: ../plugins/time-date/ChooseTimeZone.qml:131
 msgid "No matching place"
-msgstr ""
+msgstr "Няма падыходных вынікаў"
 
 #. TRANSLATORS: This is a keyword or name for the time-date plugin which is used while searching
 #: ../plugins/time-date/PageComponent.qml:31
 #: ../obj-x86_64-linux-gnu/po/settings.js:212
 msgid "Time and Date"
-msgstr ""
+msgstr "Час і дата"
 
 #: ../plugins/time-date/PageComponent.qml:64
 msgid "Time zone:"
-msgstr ""
+msgstr "Гадзінны пояс:"
 
 #: ../plugins/time-date/PageComponent.qml:79
 msgid "Set the time and date:"
-msgstr ""
+msgstr "Ўстаноўка часу і даты:"
 
 #: ../plugins/time-date/TimePicker.qml:25
 msgid "Set time & date"
-msgstr ""
+msgstr "Ўсталяваць час і дату"
 
 #: ../plugins/time-date/TimePicker.qml:67
 msgid "Time"
-msgstr ""
+msgstr "Час"
 
 #: ../plugins/time-date/TimePicker.qml:80
 msgid "Hour"
-msgstr ""
+msgstr "Гадзіна"
 
 #: ../plugins/time-date/TimePicker.qml:94
 msgid "Minute"
-msgstr ""
+msgstr "Хвіліна"
 
 #: ../plugins/time-date/TimePicker.qml:108
 msgid "Second"
-msgstr ""
+msgstr "Секунда"
 
 #: ../plugins/time-date/TimePicker.qml:117
 msgid "Date"
@@ -1929,39 +1965,39 @@ msgstr "Дата"
 
 #: ../plugins/time-date/TimePicker.qml:129
 msgid "Day"
-msgstr ""
+msgstr "Дзень"
 
 #: ../plugins/time-date/TimePicker.qml:143
 msgid "Month"
-msgstr ""
+msgstr "Месяц"
 
 #: ../plugins/time-date/TimePicker.qml:161
 msgid "Year"
-msgstr ""
+msgstr "Год"
 
 #: ../plugins/about/Version.qml:35
 msgid "OS Build Details"
-msgstr ""
+msgstr "Інфармацыя пра АС"
 
 #: ../plugins/about/Version.qml:62
 msgid "OS build number"
-msgstr ""
+msgstr "Нумар зборкі АС"
 
 #: ../plugins/about/Version.qml:68
 msgid "Ubuntu Image part"
-msgstr ""
+msgstr "Частка вобраза Ubuntu"
 
 #: ../plugins/about/Version.qml:76
 msgid "Ubuntu build description"
-msgstr ""
+msgstr "Апісанне зборкі Ubuntu"
 
 #: ../plugins/about/Version.qml:82
 msgid "Device Image part"
-msgstr ""
+msgstr "Частка вобраза прылады"
 
 #: ../plugins/about/Version.qml:89
 msgid "Device build description"
-msgstr ""
+msgstr "Апісанне зборкі прылады"
 
 #: ../plugins/about/Version.qml:96
 msgid "Customization Image part"
@@ -2117,7 +2153,7 @@ msgstr "Пераадрасаваць"
 
 #: ../plugins/phone/CallForwardItem.qml:171
 msgid "Enter a number"
-msgstr ""
+msgstr "Увядзіце нумар тэлефона"
 
 #: ../plugins/phone/CallForwardItem.qml:218
 msgid "Call forwarding can’t be changed right now."
@@ -2903,9 +2939,8 @@ msgid "Manage Print Jobs"
 msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:78
-#, fuzzy
 msgid "Address"
-msgstr "IP адрас"
+msgstr "Адрас"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:84
 msgid "Model"
@@ -3030,7 +3065,7 @@ msgstr ""
 
 #: ../src/qml/MainWindow.qml:203
 msgid "Search"
-msgstr ""
+msgstr "Пошук"
 
 #: ../src/qml/MainWindow.qml:246
 msgid "Personal"

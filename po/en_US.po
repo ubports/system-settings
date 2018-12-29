@@ -1,6 +1,6 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Canonical Ltd.
-# This file is distributed under the same license as the PACKAGE package.
+# This file is distributed under the same license as the ubuntu-system-settings package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
@@ -8,76 +8,74 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-12-29 12:41+0000\n"
-"Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
-"Language-Team: Sardinian <https://translate.ubports.com/projects/ubports/"
-"system-settings/sc/>\n"
-"Language: sc\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.1.1\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
 msgid "System Settings"
-msgstr "Cunfiguratzione"
+msgstr ""
 
 #: ubuntu-system-settings.desktop.in.in.h:2
 msgid "System;"
-msgstr "Sistema;"
+msgstr ""
 
 #: ubuntu-system-settings.desktop.in.in.h:3
 msgid "Preferences;Settings;"
-msgstr "Preferèntzias;Cunfiguratzione;"
+msgstr ""
 
 #: ../plugins/system-update/UpdateDelegate.qml:119
 msgid "Retry"
-msgstr "Torra·bi a proare"
+msgstr ""
 
 #: ../plugins/system-update/UpdateDelegate.qml:124
 msgid "Update"
-msgstr "Atualiza"
+msgstr ""
 
 #: ../plugins/system-update/UpdateDelegate.qml:126
 msgid "Download"
-msgstr "Iscàrriga"
+msgstr ""
 
 #: ../plugins/system-update/UpdateDelegate.qml:132
 msgid "Resume"
-msgstr "Sighi"
+msgstr ""
 
 #: ../plugins/system-update/UpdateDelegate.qml:139
 msgid "Pause"
-msgstr "Pàusa"
+msgstr ""
 
 #: ../plugins/system-update/UpdateDelegate.qml:143
 msgid "Install…"
-msgstr "Installa…"
+msgstr ""
 
 #: ../plugins/system-update/UpdateDelegate.qml:145
 msgid "Install"
-msgstr "Installa"
+msgstr ""
 
 #: ../plugins/system-update/UpdateDelegate.qml:149
 msgid "Open"
-msgstr "Aberi"
+msgstr ""
 
 #: ../plugins/system-update/UpdateDelegate.qml:228
 msgid "Installing"
-msgstr "Installende"
+msgstr ""
 
 #: ../plugins/system-update/UpdateDelegate.qml:232
 msgid "Paused"
-msgstr "In pàusa"
+msgstr ""
 
 #: ../plugins/system-update/UpdateDelegate.qml:235
 msgid "Waiting to download"
-msgstr "Isetende s'iscarrigamentu"
+msgstr ""
 
 #: ../plugins/system-update/UpdateDelegate.qml:238
 msgid "Downloading"
-msgstr "Iscarrighende"
+msgstr ""
 
 #. TRANSLATORS: %1 is the human readable amount
 #. of bytes downloaded, and %2 is the total to be
@@ -85,35 +83,35 @@ msgstr "Iscarrighende"
 #: ../plugins/system-update/UpdateDelegate.qml:274
 #, qt-format
 msgid "%1 of %2"
-msgstr "%1 de %2"
+msgstr ""
 
 #: ../plugins/system-update/UpdateDelegate.qml:278
 msgid "Downloaded"
-msgstr "Iscarrigadu"
+msgstr ""
 
 #: ../plugins/system-update/UpdateDelegate.qml:281
 msgid "Installed"
-msgstr "Installadu"
+msgstr ""
 
 #. TRANSLATORS: %1 is the date at which this
 #. update was applied.
 #: ../plugins/system-update/UpdateDelegate.qml:286
 #, qt-format
 msgid "Updated %1"
-msgstr "Atualizadu su %1"
+msgstr ""
 
 #: ../plugins/system-update/UpdateDelegate.qml:310
 msgid "Update failed"
-msgstr "Faddina in s'atualizatzione"
+msgstr ""
 
 #: ../plugins/system-update/Configuration.qml:30
 #: ../plugins/system-update/UpdateSettings.qml:55
 msgid "Auto download"
-msgstr "Iscarrigamentu automàticu"
+msgstr ""
 
 #: ../plugins/system-update/Configuration.qml:35
 msgid "Download future updates automatically:"
-msgstr "Iscàrriga atualizatziones imbenientes in automàticu:"
+msgstr ""
 
 #: ../plugins/system-update/Configuration.qml:53
 #: ../plugins/system-update/UpdateSettings.qml:58
@@ -125,24 +123,24 @@ msgstr "Iscàrriga atualizatziones imbenientes in automàticu:"
 #: ../plugins/battery/PageComponent.qml:318
 #: ../plugins/battery/PageComponent.qml:336
 msgid "Never"
-msgstr "Mai"
+msgstr ""
 
 #: ../plugins/system-update/Configuration.qml:54
 msgid "When on WiFi"
-msgstr "Cando so impreende WiFi"
+msgstr ""
 
 #: ../plugins/system-update/Configuration.qml:56
 msgid "On any data connection"
-msgstr "Cun cale si siat connessione de datos"
+msgstr ""
 
 #: ../plugins/system-update/Configuration.qml:57
 msgid "Data charges may apply."
-msgstr "Bi diant pòdere èssere ispesas de datos."
+msgstr ""
 
 #: ../plugins/system-update/InstallationFailed.qml:25
 #: ../plugins/system-update/DownloadHandler.qml:174
 msgid "Installation failed"
-msgstr "Faddina in s'installatzione"
+msgstr ""
 
 #: ../plugins/system-update/InstallationFailed.qml:28
 #: ../plugins/phone/CallForwarding.qml:305
@@ -150,112 +148,107 @@ msgstr "Faddina in s'installatzione"
 #: ../plugins/vpn/PageComponent.qml:123
 #: ../plugins/cellular/Components/SimEditor.qml:214
 msgid "OK"
-msgstr "AB"
+msgstr ""
 
 #: ../plugins/system-update/UpdateSettings.qml:32
 #: ../plugins/system-update/PageComponent.qml:412
 msgid "Update settings"
-msgstr "Cunfiguratzione de atualizatziones"
+msgstr ""
 
 #: ../plugins/system-update/UpdateSettings.qml:60
 msgid "On WiFi"
-msgstr "Cando impreo WiFi"
+msgstr ""
 
 #: ../plugins/system-update/UpdateSettings.qml:62
 msgid "Always"
-msgstr "Semper"
+msgstr ""
 
 #: ../plugins/system-update/UpdateSettings.qml:64 ../plugins/wifi/Common.qml:96
 #: ../plugins/hotspot/Common.qml:94 ../plugins/bluetooth/DevicePage.qml:41
 msgid "Unknown"
-msgstr "Disconnotu"
+msgstr ""
 
 #: ../plugins/system-update/UpdateSettings.qml:71
 msgid "Channels"
-msgstr "Canales"
+msgstr ""
 
 #: ../plugins/system-update/UpdateSettings.qml:73
 #: ../plugins/system-update/ChannelSettings.qml:57
 msgid "Stable"
-msgstr "Istàbile"
+msgstr ""
 
 #: ../plugins/system-update/UpdateSettings.qml:73
 #: ../plugins/system-update/ChannelSettings.qml:57
 msgid "Release candidate"
-msgstr "Versione candidada"
+msgstr ""
 
 #: ../plugins/system-update/UpdateSettings.qml:73
 #: ../plugins/system-update/ChannelSettings.qml:57
 msgid "Development"
-msgstr "Modalidade de isvilupadore"
+msgstr ""
 
 #: ../plugins/system-update/ChangelogExpander.qml:42
 #, qt-format
 msgid "Version %1"
-msgstr "Versione %1"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../plugins/system-update/PageComponent.qml:38
 #: ../obj-x86_64-linux-gnu/po/settings.js:14
 msgid "Updates"
-msgstr "Atualizatziones"
+msgstr ""
 
 #: ../plugins/system-update/PageComponent.qml:182
 msgid "Connect to the Internet to check for updates."
-msgstr "Collega·ti a internet pro chircare atualizatziones."
+msgstr ""
 
 #: ../plugins/system-update/PageComponent.qml:184
 msgid "Software is up to date"
-msgstr "Programmas atualizados"
+msgstr ""
 
 #: ../plugins/system-update/PageComponent.qml:187
 msgid "The update server is not responding. Try again later."
 msgstr ""
-"Su server de atualizatziones non rispondet. Torra·bi a proare a pustis."
 
 #: ../plugins/system-update/PageComponent.qml:196
 msgid "Updates Available"
-msgstr "Atualizatziones a disponimentu"
+msgstr ""
 
 #: ../plugins/system-update/PageComponent.qml:349
 msgid "Recent updates"
-msgstr "Atualizatziones reghentes"
+msgstr ""
 
 #: ../plugins/system-update/ChannelSettings.qml:32
 msgid "Channel settings"
-msgstr "Cunfiguratzione de su canale"
+msgstr ""
 
 #: ../plugins/system-update/ChannelSettings.qml:99
 msgid "Fetching channels"
-msgstr "Recuperende is canales"
+msgstr ""
 
 #: ../plugins/system-update/ChannelSettings.qml:107
 msgid "Channel to get updates from:"
-msgstr "Canale pro otènnere atualizatziones:"
+msgstr ""
 
 #: ../plugins/system-update/ChannelSettings.qml:123
 msgid "Switching channel"
-msgstr "Cambiende su canale"
+msgstr ""
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:30
 msgid "Update System"
-msgstr "Atualiza su sistema"
+msgstr ""
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:32
 msgid "The device needs to restart to install the system update."
 msgstr ""
-"Su dispositivu depet èssere torradu a aviare pro installare s'atualizatzione "
-"de su sistema."
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:33
 msgid "Connect the device to power before installing the system update."
 msgstr ""
-"Collega su dispositivu a su carrigadore in antis de installare "
-"s'atualizatzione de su sistema."
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:38
 msgid "Restart & Install"
-msgstr "Torra a aviare e installa"
+msgstr ""
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:48
 #: ../plugins/background/Preview.qml:107 ../plugins/wifi/CertDialog.qml:65
@@ -284,83 +277,80 @@ msgstr "Torra a aviare e installa"
 #: ../plugins/background/Components/AddRemove.qml:42
 #: ../plugins/cellular/Components/SimEditor.qml:203
 msgid "Cancel"
-msgstr "Annulla"
+msgstr ""
 
 #: ../plugins/system-update/NotAuthenticatedNotification.qml:37
 msgid "Sign in to Ubuntu One to receive updates for apps."
 msgstr ""
-"Identìfica·ti in Ubuntu One pro retzire atualizatziones de aplicatziones."
 
 #: ../plugins/system-update/NotAuthenticatedNotification.qml:54
 msgid "Sign In…"
-msgstr "Identìfica·ti…"
+msgstr ""
 
 #: ../plugins/system-update/Global.qml:84
 msgid "Checking for updates…"
-msgstr "Controllende atualizatziones…"
+msgstr ""
 
 #: ../plugins/system-update/Global.qml:89
 msgid "Stop"
-msgstr "Firma"
+msgstr ""
 
 #. TRANSLATORS: %1 is number of software updates available.
 #: ../plugins/system-update/Global.qml:116
 #, qt-format
 msgid "%1 update available"
 msgid_plural "%1 updates available"
-msgstr[0] "%1 atualizatzione a disponimentu"
-msgstr[1] "%1 atualizatziones a disponimentu"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../plugins/system-update/Global.qml:126
 msgid "Update all…"
-msgstr "Atualiza totu…"
+msgstr ""
 
 #: ../plugins/system-update/Global.qml:128
 msgid "Update all"
-msgstr "Atualiza totu"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the launcher plugin which is used while searching
 #: ../plugins/launcher/PageComponent.qml:31
 #: ../plugins/security-privacy/PhoneLocking.qml:138
 #: ../obj-x86_64-linux-gnu/po/settings.js:36
 msgid "Launcher"
-msgstr "Launcher"
+msgstr ""
 
 #: ../plugins/launcher/PageComponent.qml:65
 msgid "On large screens:"
-msgstr "In ischermos mannos:"
+msgstr ""
 
 #: ../plugins/launcher/PageComponent.qml:73
 msgid "Always show the launcher"
-msgstr "Ammustra semper su launcher"
+msgstr ""
 
 #: ../plugins/launcher/PageComponent.qml:74
 msgid "Videos and full-screen games may hide it temporarily."
 msgstr ""
-"Vìdeos e giogos cun s'ischermu a mannària prena ddu diant pòdere cuare in "
-"manera temporale."
 
 #: ../plugins/launcher/PageComponent.qml:85
 msgid "Icon size:"
-msgstr "Mannària de is iconas:"
+msgstr ""
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:42
 msgid "Primary button:"
-msgstr "Pulsante primàriu:"
+msgstr ""
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:72
 msgid "Left"
-msgstr "Mancu"
+msgstr ""
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:89
 msgid "Right"
-msgstr "Deretu"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../plugins/mouse/PageComponent.qml:29
 #: ../obj-x86_64-linux-gnu/po/settings.js:42
 msgid "Mouse & Touchpad"
-msgstr "Sòrighe e sòrighe tàtile"
+msgstr ""
 
 #: ../plugins/mouse/None.qml:34
 msgid ""
@@ -368,297 +358,289 @@ msgid ""
 "Bluetooth device isn’t detected, make sure it is turned on and its batteries "
 "are charged."
 msgstr ""
-"Collega unu sòrighe o sòrighe tàtile mediante USB, o imprea unu dispositivu "
-"Bluetooth. Si non benit rilevadu unu dispositivu Bluetooth, assegura·ti chi "
-"siat allutu e chi is baterias suas siant càrrigas."
 
 #: ../plugins/mouse/None.qml:36
 msgid ""
 "You need to use a Bluetooth mouse or touchpad with this display. Make sure "
 "it is close to the device and its batteries are charged."
 msgstr ""
-"Tocat a usare unu sòrighe o sòrighe tàtile Bluetooth cun custu ischermu. "
-"Assegura·ti chi siat a curtzu de su dispositivu e chi is baterias suas siant "
-"càrrigas."
 
 #: ../plugins/mouse/TapArea.qml:38
 msgid "Not fast enough"
-msgstr "Non lestru a sufitzèntzia"
+msgstr ""
 
 #: ../plugins/mouse/TapArea.qml:77
 msgid "Double-clicked"
-msgstr "Clic dòpiu"
+msgstr ""
 
 #: ../plugins/mouse/Connected.qml:48 ../plugins/bluetooth/DevicePage.qml:59
 msgid "Mouse"
-msgstr "Sòrighe"
+msgstr ""
 
 #: ../plugins/mouse/Connected.qml:62 ../plugins/mouse/Connected.qml:228
 msgid "Cursor speed:"
-msgstr "Lestresa de su puntadore:"
+msgstr ""
 
 #: ../plugins/mouse/Connected.qml:98
 msgid "Wheel scrolling speed:"
-msgstr "Lestresa de iscurrimentu de sa rodedda:"
+msgstr ""
 
 #: ../plugins/mouse/Connected.qml:134 ../plugins/mouse/Connected.qml:301
 msgid "Double-click speed:"
-msgstr "Lestresa de su clic dòpiu:"
+msgstr ""
 
 #: ../plugins/mouse/Connected.qml:168 ../plugins/mouse/Connected.qml:335
 msgid "Test double-click:"
-msgstr "Cumprova su clic dòpiu:"
+msgstr ""
 
 #: ../plugins/mouse/Connected.qml:214
 msgid "Touchpad"
-msgstr "Sòrighe tàtile"
+msgstr ""
 
 #: ../plugins/mouse/Connected.qml:264
 msgid "Finger scrolling speed:"
-msgstr "Lestresa de iscurrimentu cun su didu:"
+msgstr ""
 
 #: ../plugins/mouse/Connected.qml:389
 msgid "Tap to click"
-msgstr "Toca pro incarcare"
+msgstr ""
 
 #: ../plugins/mouse/Connected.qml:403
 msgid "Scroll with two fingers"
-msgstr "Iscurre con duos didos"
+msgstr ""
 
 #: ../plugins/mouse/Connected.qml:410
 msgid "Ignore touchpad when:"
-msgstr "Inniora su sòrighe tàtile cando:"
+msgstr ""
 
 #: ../plugins/mouse/Connected.qml:432
 msgid "Typing"
-msgstr "So iscriende"
+msgstr ""
 
 #: ../plugins/mouse/Connected.qml:446
 msgid "A mouse is connected"
-msgstr "S'est collegadu unu sòrighe"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the notifications plugin which is used while searching
 #: ../plugins/notifications/ClickAppNotifications.qml:54
 #: ../plugins/notifications/PageComponent.qml:29
 #: ../obj-x86_64-linux-gnu/po/settings.js:56
 msgid "Notifications"
-msgstr "Notìficas"
+msgstr ""
 
 #: ../plugins/notifications/ClickAppNotifications.qml:72
 msgid "Let this app alert me using:"
-msgstr "Permite chi custa aplicatzione m'avertat impreende:"
+msgstr ""
 
 #: ../plugins/notifications/ClickAppNotifications.qml:81
 #: ../plugins/notifications/PageComponent.qml:177
 msgid "Sounds"
-msgstr "Sonos"
+msgstr ""
 
 #: ../plugins/notifications/ClickAppNotifications.qml:103
 #: ../plugins/notifications/PageComponent.qml:180
 msgid "Vibrations"
-msgstr "Vibratziones"
+msgstr ""
 
 #: ../plugins/notifications/ClickAppNotifications.qml:125
 msgid "Notification Bubbles"
-msgstr "Bussicas de notìfica"
+msgstr ""
 
 #: ../plugins/notifications/ClickAppNotifications.qml:147
 #: ../plugins/notifications/PageComponent.qml:186
 msgid "Notification List"
-msgstr "Lista de notìficas"
+msgstr ""
 
 #: ../plugins/notifications/PageComponent.qml:75
 msgid ""
 "Apps can alert you using sounds, vibrations, notification bubbles and the "
 "Notification list."
 msgstr ""
-"Unas cantas aplicatziones ti podent avèrtere cun sonos, vibratziones, "
-"bussicas e su Tzentru de notìficas."
 
 #: ../plugins/notifications/PageComponent.qml:91
 msgid "Apps that notify with sound"
-msgstr "Aplicatziones chi impreant notìficas de sonos"
+msgstr ""
 
 #: ../plugins/notifications/PageComponent.qml:117
 msgid "Apps that notify with vibration"
-msgstr "Aplicatziones chi impreant notìficas cun vibratzione"
+msgstr ""
 
 #: ../plugins/notifications/PageComponent.qml:143
 msgid "Applications:"
-msgstr "Aplicatziones:"
+msgstr ""
 
 #: ../plugins/notifications/PageComponent.qml:172
 msgid "No notifications"
-msgstr "Sena notìficas"
+msgstr ""
 
 #: ../plugins/notifications/PageComponent.qml:183
 msgid "Bubbles"
-msgstr "Bussicas"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../plugins/notifications/ClickAppsSoundsNotify.qml:30
 #: ../plugins/sound/PageComponent.qml:39
 #: ../obj-x86_64-linux-gnu/po/settings.js:96
 msgid "Sound"
-msgstr "Sonu"
+msgstr ""
 
 #: ../plugins/notifications/ClickAppsSoundsNotify.qml:48
 msgid "Apps that notify with sound:"
-msgstr "Aplicatziones chi impreant notìficas cun sonos:"
+msgstr ""
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:30
 msgid "Vibration"
-msgstr "Vibratzione"
+msgstr ""
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:54
 msgid "When in Silent mode:"
-msgstr "Vibra in modalidade silentziosa:"
+msgstr ""
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:72
 msgid "Vibrate as normal"
-msgstr "Vibra de manera normale"
+msgstr ""
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:73
 msgid "Don't vibrate"
-msgstr "Sena vibratzione"
+msgstr ""
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:89
 msgid "Apps that notify with vibrations:"
-msgstr "Aplicatziones chi impreant notìficas cun vibratzione:"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../plugins/background/MainPage.qml:38
 #: ../obj-x86_64-linux-gnu/po/settings.js:80
 msgid "Background"
-msgstr "Isfundu"
+msgstr ""
 
 #: ../plugins/background/MainPage.qml:95
 msgid "Ubuntu Art"
-msgstr "Imàgines de Ubuntu"
+msgstr ""
 
 #: ../plugins/background/MainPage.qml:108
 msgid "Custom"
-msgstr "Personalizadu"
+msgstr ""
 
 #: ../plugins/background/MainPage.qml:118
 msgid "Dash background"
-msgstr "Isfundu"
+msgstr ""
 
 #: ../plugins/background/MainPage.qml:131
 msgid "Opacity:"
-msgstr "Annapadura:"
+msgstr ""
 
 #: ../plugins/background/Preview.qml:69
 msgid "Preview"
-msgstr "Anteprima"
+msgstr ""
 
 #: ../plugins/background/Preview.qml:107
 msgid "Remove image"
-msgstr "Fùlia s'imàgine"
+msgstr ""
 
 #: ../plugins/background/Preview.qml:113
 #: ../plugins/security-privacy/LockSecurity.qml:390
 #: ../plugins/time-date/TimePicker.qml:181
 #: ../plugins/phone/CallForwarding.qml:253
 msgid "Set"
-msgstr "Cunfigura"
+msgstr ""
 
 #: ../plugins/sound/PageComponent.qml:76
 msgid "Silent Mode"
-msgstr "Modalidade a sa muda"
+msgstr ""
 
 #: ../plugins/sound/PageComponent.qml:100
 msgid "Ringer:"
-msgstr "Tonu de mutida:"
+msgstr ""
 
 #: ../plugins/sound/PageComponent.qml:141
 msgid "High volume can damage your hearing."
-msgstr "Su volume tropu artu podet iscalabrare s'uditu."
+msgstr ""
 
 #: ../plugins/sound/PageComponent.qml:145
 msgid "Phone calls:"
-msgstr "Mutidas:"
+msgstr ""
 
 #: ../plugins/sound/PageComponent.qml:149
 #: ../plugins/sound/PageComponent.qml:154
 msgid "Ringtone"
-msgstr "Tonu de mutida"
+msgstr ""
 
 #: ../plugins/sound/PageComponent.qml:171
 msgid "Vibrate on ring"
-msgstr "Vibra a sa mutida"
+msgstr ""
 
 #: ../plugins/sound/PageComponent.qml:183
 #: ../plugins/sound/PageComponent.qml:242
 msgid "Vibrate in Silent Mode"
-msgstr "Vibra a modalidade a sa muda"
+msgstr ""
 
 #: ../plugins/sound/PageComponent.qml:194
 #: ../plugins/phone/PageComponent.qml:102
 msgid "Dialpad tones"
-msgstr "Tonos de su tecladu numèricu"
+msgstr ""
 
 #: ../plugins/sound/PageComponent.qml:203
 msgid "Messages:"
-msgstr "Messàgios:"
+msgstr ""
 
 #: ../plugins/sound/PageComponent.qml:209
 #: ../plugins/sound/PageComponent.qml:214
 msgid "Message received"
-msgstr "Messàgiu retzidu"
+msgstr ""
 
 #: ../plugins/sound/PageComponent.qml:230
 msgid "Vibrate with message sound"
-msgstr "Vibra cun sonu de messàgiu"
+msgstr ""
 
 #: ../plugins/sound/PageComponent.qml:247
 msgid "Other sounds:"
-msgstr "Àteros sonos:"
+msgstr ""
 
 #: ../plugins/sound/PageComponent.qml:251
 #: ../plugins/language/PageComponent.qml:268
 msgid "Keyboard sound"
-msgstr "Sonos de su tecladu"
+msgstr ""
 
 #: ../plugins/sound/PageComponent.qml:268
 msgid "Lock sound"
-msgstr "Sonu de blocu"
+msgstr ""
 
 #: ../plugins/sound/PageComponent.qml:278
 msgid "Other vibrations"
-msgstr "Àteras vibratziones"
+msgstr ""
 
 #: ../plugins/sound/SoundsList.qml:128
 msgid "Custom Ringtone"
-msgstr "Tonu de mutida personalizadu"
+msgstr ""
 
 #: ../plugins/sound/SoundsList.qml:206
 msgid "Choose from"
-msgstr "Sèbera intre"
+msgstr ""
 
 #: ../plugins/wifi/CertDialog.qml:22
 msgid "Add certificate?"
-msgstr "Boles agiunghere su tzertificadu?"
+msgstr ""
 
 #: ../plugins/wifi/CertDialog.qml:24
 msgid "Add key?"
-msgstr "Boles agiunghere sa crae?"
+msgstr ""
 
 #: ../plugins/wifi/CertDialog.qml:26
 msgid "Add pac file?"
-msgstr "Boles agiunghere s'archìviu pac?"
+msgstr ""
 
 #: ../plugins/wifi/CertDialog.qml:36
 msgid "Content:"
-msgstr "Cuntenutu:"
+msgstr ""
 
 #: ../plugins/wifi/CertDialog.qml:49
 msgid "No data available."
-msgstr "Non bi sunt datos disponìbiles."
+msgstr ""
 
 #: ../plugins/wifi/CertDialog.qml:74
 msgid "Save"
-msgstr "Sarva"
+msgstr ""
 
 #: ../plugins/wifi/AccessPoint.qml:51 ../plugins/wifi/StandardMenuItem.qml:31
 #: ../plugins/bluetooth/DevicePage.qml:37
@@ -667,28 +649,28 @@ msgstr "Sarva"
 #: ../plugins/brightness/WifiDisplays.qml:172
 #: ../plugins/brightness/PageComponent.qml:159
 msgid "Connected"
-msgstr "Collegadu"
+msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:92
 msgid "Connect to Wi‑Fi"
-msgstr "Collega·ti a su Wi‑Fi"
+msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:93
 msgid "Connect to Hidden Network"
-msgstr "Collega·ti a una rete cuada"
+msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:285
 msgid "Network name"
-msgstr "Nòmine de sa rete"
+msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:298
 msgid "SSID"
-msgstr "SSID"
+msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:307
 #: ../plugins/security-privacy/PageComponent.qml:142
 msgid "Security"
-msgstr "Seguresa"
+msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:318 ../plugins/wifi/OtherNetwork.qml:457
 #: ../plugins/wifi/OtherNetwork.qml:574
@@ -706,44 +688,44 @@ msgstr "Seguresa"
 #: ../plugins/wifi/certhandler.cpp:192 ../plugins/wifi/certhandler.cpp:224
 #: ../plugins/wifi/certhandler.cpp:289 ../plugins/wifi/certhandler.cpp:318
 msgid "None"
-msgstr "Perunu"
+msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:319
 msgid "WPA & WPA2 Personal"
-msgstr "WPA e WPA2 personale"
+msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:320
 msgid "WPA & WPA2 Enterprise"
-msgstr "WPA/WPA2 corporativa"
+msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:321
 msgid "WEP"
-msgstr "WEP"
+msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:322
 msgid "Dynamic WEP (802.1x)"
-msgstr "WEP dinàmicu (802.1x)"
+msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:323
 msgid "LEAP"
-msgstr "LEAP"
+msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:332
 msgid "This network is insecure."
-msgstr "Custa rete no est segura."
+msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:338
 #: ../plugins/cellular/PageApnEditor.qml:382
 msgid "Authentication"
-msgstr "Autenticatzione"
+msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:363
 msgid "Inner authentication"
-msgstr "Autenticatzione interna"
+msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:396
 msgid "CA certificate"
-msgstr "Tzertificadu CA"
+msgstr ""
 
 #. TRANSLATORS: %1 is the name of a certificate file.
 #. The ellipsis indicates that the file name has been
@@ -751,14 +733,14 @@ msgstr "Tzertificadu CA"
 #: ../plugins/wifi/OtherNetwork.qml:450
 #, qt-format
 msgid "%1…"
-msgstr "%1…"
+msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:458 ../plugins/wifi/OtherNetwork.qml:575
 #: ../plugins/wifi/certhandler.cpp:106 ../plugins/wifi/certhandler.cpp:141
 #: ../plugins/wifi/certhandler.cpp:193 ../plugins/wifi/certhandler.cpp:225
 #: ../plugins/wifi/certhandler.cpp:290 ../plugins/wifi/certhandler.cpp:319
 msgid "Choose…"
-msgstr "Sèbera…"
+msgstr ""
 
 #. TRANSLATORS: The first position is the name of
 #. the organization that has issued the certificate.
@@ -768,7 +750,7 @@ msgstr "Sèbera…"
 #: ../plugins/wifi/OtherNetwork.qml:465
 #, qt-format
 msgid "%1…, Exp.: %2"
-msgstr "%1…, Iscad.: %2"
+msgstr ""
 
 #. TRANSLATORS: The first position is the name of
 #. the organization that has issued the certificate.
@@ -777,19 +759,19 @@ msgstr "%1…, Iscad.: %2"
 #: ../plugins/wifi/OtherNetwork.qml:473
 #, qt-format
 msgid "%1, Exp.: %2"
-msgstr "%1, Iscad.: %2"
+msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:494
 msgid "Using certificates is recommended as it increases security."
-msgstr "Impreare tzertificados est cussigiadu pro crèschere sa seguresa."
+msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:512
 msgid "Client certificate"
-msgstr "Tzertificadu de su cliente"
+msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:554
 msgid "User private key"
-msgstr "Crae privada de s'usuàriu"
+msgstr ""
 
 #. TRANSLATORS: The first position is the type of
 #. private key, second the key algorithm, and third the
@@ -797,299 +779,295 @@ msgstr "Crae privada de s'usuàriu"
 #: ../plugins/wifi/OtherNetwork.qml:579
 #, qt-format
 msgid "%1, %2, %3 bit"
-msgstr "%1, %2, %3 bit"
+msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:622
 msgid "Pac file"
-msgstr "Archìviu pac"
+msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:672
 msgid "Pac provisioning"
-msgstr "Frunidura pac"
+msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:686
 msgid "Disabled"
-msgstr "Inabilitadu"
+msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:687
 msgid "Anonymous"
-msgstr "Anònimu"
+msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:688
 msgid "Authenticated"
-msgstr "Autenticadu"
+msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:689
 msgid "Both"
-msgstr "Ambos"
+msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:699
 msgid "PEAP version"
-msgstr "Versione PEAP"
+msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:713
 msgid "Version 0"
-msgstr "Versione 0"
+msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:714
 msgid "Version 1"
-msgstr "Versione 1"
+msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:715
 msgid "Automatic"
-msgstr "Automàticu"
+msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:725
 msgid "Anonymous identity"
-msgstr "Identidade anònima"
+msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:752
 msgid "Identity"
-msgstr "Identidade"
+msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:754
 msgid "Username"
-msgstr "Nòmine usuàriu"
+msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:784
 msgid "Private key password"
-msgstr "Crae privada"
+msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:786 ../plugins/wifi/NetworkDetails.qml:70
 #: ../plugins/cellular/PageApnEditor.qml:357
 msgid "Password"
-msgstr "Crae"
+msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:821 ../plugins/wifi/NetworkDetails.qml:84
 #: ../plugins/hotspot/HotspotSetup.qml:224
 msgid "Show password"
-msgstr "Ammustra sa crae"
+msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:857
 msgid "Remember password"
-msgstr "Ammenta sa crae"
+msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:905 ../plugins/bluetooth/DevicePage.qml:150
 msgid "Connect"
-msgstr "Connete"
+msgstr ""
 
 #: ../plugins/wifi/RemoveBackground.qml:28
 msgid "Clear"
-msgstr "Lìmpia"
+msgstr ""
 
 #: ../plugins/wifi/PreviousNetworks.qml:27
 #: ../plugins/wifi/PageComponent.qml:139
 msgid "Previous networks"
-msgstr "Retes pretzedentes"
+msgstr ""
 
 #: ../plugins/wifi/Common.qml:36 ../plugins/hotspot/Common.qml:34
 msgid "Unknown error"
-msgstr "Faddina disconnota"
+msgstr ""
 
 #: ../plugins/wifi/Common.qml:38 ../plugins/hotspot/Common.qml:36
 msgid "No reason given"
-msgstr "Perunu motivu inditadu"
+msgstr ""
 
 #: ../plugins/wifi/Common.qml:40 ../plugins/hotspot/Common.qml:38
 msgid "Device is now managed"
-msgstr "Su dispositivu est immoe gestidu"
+msgstr ""
 
 #: ../plugins/wifi/Common.qml:42 ../plugins/hotspot/Common.qml:40
 msgid "Device is now unmanaged"
-msgstr "Su dispositivu immoe no est gestidu"
+msgstr ""
 
 #: ../plugins/wifi/Common.qml:44 ../plugins/hotspot/Common.qml:42
 msgid "The device could not be readied for configuration"
-msgstr "Non s'est pòdidu preparare su dispositivu pro sa cunfiguratzione"
+msgstr ""
 
 #: ../plugins/wifi/Common.qml:46 ../plugins/hotspot/Common.qml:44
 msgid ""
 "IP configuration could not be reserved (no available address, timeout, etc.)"
 msgstr ""
-"Sa cunfiguratzione IP no at pòdidu èssere riservada (fortzes non bi fiat "
-"perunu indiritzu disponìbile, o est acabadu su tempus de isettare)"
 
 #: ../plugins/wifi/Common.qml:48 ../plugins/hotspot/Common.qml:46
 msgid "The IP configuration is no longer valid"
-msgstr "Sa cunfiguratzione IP no est prus vàlida"
+msgstr ""
 
 #: ../plugins/wifi/Common.qml:50 ../plugins/hotspot/Common.qml:48
 msgid "Your authentication details were incorrect"
-msgstr "Detàllios de autenticatzione no vàlidos"
+msgstr ""
 
 #: ../plugins/wifi/Common.qml:52 ../plugins/hotspot/Common.qml:50
 msgid "802.1X supplicant disconnected"
-msgstr "Suplicante de protocollu 802.1X disconnètidu"
+msgstr ""
 
 #: ../plugins/wifi/Common.qml:54 ../plugins/hotspot/Common.qml:52
 msgid "802.1X supplicant configuration failed"
-msgstr "Faddina in sa cunfiguratzione de su suplicante de protocollu 802.1X"
+msgstr ""
 
 #: ../plugins/wifi/Common.qml:56 ../plugins/hotspot/Common.qml:54
 msgid "802.1X supplicant failed"
-msgstr "Faddina de su suplicante de protocollu 802.1X"
+msgstr ""
 
 #: ../plugins/wifi/Common.qml:58 ../plugins/hotspot/Common.qml:56
 msgid "802.1X supplicant took too long to authenticate"
 msgstr ""
-"S'autenticatzione de su suplicante de protocollu 802.1X at trigadu tropu"
 
 #: ../plugins/wifi/Common.qml:60 ../plugins/hotspot/Common.qml:58
 msgid "DHCP client failed to start"
-msgstr "Faddina in s'aviu de su cliente DHCP"
+msgstr ""
 
 #: ../plugins/wifi/Common.qml:62 ../plugins/hotspot/Common.qml:60
 msgid "DHCP client error"
-msgstr "Faddina de su cliente DHCP"
+msgstr ""
 
 #: ../plugins/wifi/Common.qml:64 ../plugins/hotspot/Common.qml:62
 msgid "DHCP client failed"
-msgstr "Faddina in su cliente DHCP"
+msgstr ""
 
 #: ../plugins/wifi/Common.qml:66 ../plugins/hotspot/Common.qml:64
 msgid "Shared connection service failed to start"
-msgstr "Faddina in s'aviu de su servìtziu de connessione cumpartzida"
+msgstr ""
 
 #: ../plugins/wifi/Common.qml:68 ../plugins/hotspot/Common.qml:66
 msgid "Shared connection service failed"
-msgstr "Faddina in su servìtziu de connessione cumpartzida"
+msgstr ""
 
 #: ../plugins/wifi/Common.qml:70 ../plugins/hotspot/Common.qml:68
 msgid "Necessary firmware for the device may be missing"
 msgstr ""
-"Pòdet èssere chi ammanchet su microprogramma rechèdidu pro su dispositivu"
 
 #: ../plugins/wifi/Common.qml:72 ../plugins/hotspot/Common.qml:70
 msgid "The device was removed"
-msgstr "Su dispositivu est istadu tiradu"
+msgstr ""
 
 #: ../plugins/wifi/Common.qml:74 ../plugins/hotspot/Common.qml:72
 msgid "NetworkManager went to sleep"
-msgstr "NetworkManager s'est asseliadu"
+msgstr ""
 
 #: ../plugins/wifi/Common.qml:76 ../plugins/hotspot/Common.qml:74
 msgid "The device's active connection disappeared"
-msgstr "Est isparèssida sa connessione ativa de su dispositivu"
+msgstr ""
 
 #: ../plugins/wifi/Common.qml:78 ../plugins/hotspot/Common.qml:76
 msgid "Device disconnected by user or client"
-msgstr "Dispositivu disconnètidu dae s'usuàriu o cliente"
+msgstr ""
 
 #: ../plugins/wifi/Common.qml:80 ../plugins/hotspot/Common.qml:78
 msgid "The device's existing connection was assumed"
-msgstr "S'est assùmida sa connessione ativa de su dispositivu"
+msgstr ""
 
 #: ../plugins/wifi/Common.qml:82 ../plugins/hotspot/Common.qml:80
 msgid "The supplicant is now available"
-msgstr "Su suplicante est a disponimentu"
+msgstr ""
 
 #: ../plugins/wifi/Common.qml:84 ../plugins/hotspot/Common.qml:82
 msgid "The modem could not be found"
-msgstr "Perunu modem agatadu"
+msgstr ""
 
 #: ../plugins/wifi/Common.qml:86 ../plugins/hotspot/Common.qml:84
 msgid "The Bluetooth connection failed or timed out"
-msgstr "Faddina in sa connessione Bluetooth o tempus iscàdidu"
+msgstr ""
 
 #: ../plugins/wifi/Common.qml:88 ../plugins/hotspot/Common.qml:86
 msgid "A dependency of the connection failed"
-msgstr "Faddina in una dipendèntzia de sa connessione"
+msgstr ""
 
 #: ../plugins/wifi/Common.qml:90 ../plugins/hotspot/Common.qml:88
 msgid "ModemManager is unavailable"
-msgstr "Su ModemManager no est a disponimentu"
+msgstr ""
 
 #: ../plugins/wifi/Common.qml:92 ../plugins/hotspot/Common.qml:90
 msgid "The Wi-Fi network could not be found"
-msgstr "Peruna rete Wi-Fi agatada"
+msgstr ""
 
 #: ../plugins/wifi/Common.qml:94 ../plugins/hotspot/Common.qml:92
 msgid "A secondary connection of the base connection failed"
-msgstr "Faddina in una connessione segundària de sa connessione printzipale"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../plugins/wifi/PageComponent.qml:28
 #: ../plugins/battery/PageComponent.qml:364
 #: ../obj-x86_64-linux-gnu/po/settings.js:114
 msgid "Wi-Fi"
-msgstr "Wi-Fi"
+msgstr ""
 
 #: ../plugins/wifi/PageComponent.qml:129
 msgid "Connect to hidden network…"
-msgstr "Collega·ti a una rete cuada…"
+msgstr ""
 
 #: ../plugins/wifi/NetworkDetails.qml:38
 msgid "Network details"
-msgstr "Detàllios de sa rete"
+msgstr ""
 
 #: ../plugins/wifi/NetworkDetails.qml:57
 #: ../plugins/cellular/PageApnEditor.qml:179
 #: ../plugins/bluetooth/DevicePage.qml:106
 #: ../plugins/printing/printer-sub-pages/Status.qml:61
 msgid "Name"
-msgstr "Nòmine"
+msgstr ""
 
 #: ../plugins/wifi/NetworkDetails.qml:63
 msgid "Last connected"
-msgstr "Ùrtima connessione"
+msgstr ""
 
 #: ../plugins/wifi/NetworkDetails.qml:96
 #: ../plugins/wifi/NetworkDetailsBrief.qml:53
 msgid "Forget this network"
-msgstr "Iscaressi·ti de custa rete"
+msgstr ""
 
 #: ../plugins/wifi/NetworkDetailsBrief.qml:69
 msgid "IP address"
-msgstr "Indiritzu IP"
+msgstr ""
 
 #: ../plugins/printing/AddPrinter.qml:34
 #: ../plugins/printing/AddPrinterDetails.qml:54
 #: ../plugins/printing/PageComponent.qml:38
 msgid "Add printer"
-msgstr "Agiunghe imprentadora"
+msgstr ""
 
 #: ../plugins/printing/AddPrinter.qml:65
 msgid "Enter URI"
-msgstr "Inserta URI"
+msgstr ""
 
 #: ../plugins/printing/AddPrinter.qml:78
 msgid "Devices"
-msgstr "Dispositivos"
+msgstr ""
 
 #: ../plugins/printing/AddPrinter.qml:133
 msgid "No devices found."
-msgstr "Perunu dispositivu agatadu."
+msgstr ""
 
 #: ../plugins/printing/AddPrinterDetails.qml:37
 msgid "Describe printer"
-msgstr "Descrie imprentadora"
+msgstr ""
 
 #: ../plugins/printing/AddPrinterDetails.qml:44
 msgid "Back"
-msgstr "In segus"
+msgstr ""
 
 #: ../plugins/printing/AddPrinterDetails.qml:137
 msgid "Connection"
-msgstr "Colleghende-si"
+msgstr ""
 
 #: ../plugins/printing/AddPrinterDetails.qml:139
 msgid "Choose a connection"
-msgstr "Sèbera una connessione"
+msgstr ""
 
 #: ../plugins/printing/AddPrinterDetails.qml:165
 msgid "Printer name"
-msgstr "Nòmine de s'imprentadora"
+msgstr ""
 
 #: ../plugins/printing/AddPrinterDetails.qml:202
 #: ../plugins/printing/printer-sub-pages/Status.qml:66
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:32
 msgid "Description"
-msgstr "Descritzione"
+msgstr ""
 
 #: ../plugins/printing/AddPrinterDetails.qml:204
 #: ../plugins/printing/AddPrinterDetails.qml:211
 msgid "Optional"
-msgstr "Optzionale"
+msgstr ""
 
 #: ../plugins/printing/AddPrinterDetails.qml:209
 #: ../plugins/security-privacy/AppAccess.qml:81
@@ -1097,87 +1075,87 @@ msgstr "Optzionale"
 #: ../plugins/security-privacy/Location.qml:34
 #: ../plugins/printing/printer-sub-pages/Status.qml:72
 msgid "Location"
-msgstr "Positzione"
+msgstr ""
 
 #: ../plugins/printing/AddPrinterDetails.qml:219
 msgid "Driver"
-msgstr "Driver"
+msgstr ""
 
 #: ../plugins/printing/AddPrinterDetails.qml:225
 msgid "Choose driver"
-msgstr "Sèbera unu driver"
+msgstr ""
 
 #: ../plugins/printing/AddPrinterDetails.qml:227
 msgid "Select printer from database"
-msgstr "Seletziona imprentadora dae s'archìviu de datos"
+msgstr ""
 
 #: ../plugins/printing/AddPrinterDetails.qml:228
 msgid "Provide PPD file"
-msgstr "Fruni s'archìviu PPD"
+msgstr ""
 
 #: ../plugins/printing/AddPrinterDetails.qml:235
 msgid "Filter drivers"
-msgstr "Filtra is driver"
+msgstr ""
 
 #: ../plugins/printing/AddPrinterDetails.qml:304
 msgid "PPD file"
-msgstr "Archìviu PPD"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../plugins/printing/PageComponent.qml:32
 #: ../obj-x86_64-linux-gnu/po/settings.js:134
 msgid "Printing"
-msgstr "Imprentende"
+msgstr ""
 
 #: ../plugins/printing/PageComponent.qml:45
 msgid "Manager Printer Jobs"
-msgstr "Gestore de is tareas de s'imprentadora"
+msgstr ""
 
 #: ../plugins/printing/PageComponent.qml:106
 msgid "Default printer"
-msgstr "Imprentadora predefinida"
+msgstr ""
 
 #: ../plugins/printing/PageComponent.qml:107
 msgid "Configured printers"
-msgstr "Imprentadoras cunfiguradas"
+msgstr ""
 
 #: ../plugins/printing/PageComponent.qml:115
 msgid "Discovered printers"
-msgstr "Imprentadoras agatadas"
+msgstr ""
 
 #: ../plugins/printing/PageComponent.qml:136
 #: ../plugins/cellular/PageChooseApn.qml:305
 msgid "Delete"
-msgstr "Cantzella"
+msgstr ""
 
 #: ../plugins/printing/PageComponent.qml:149
 #: ../plugins/printing/printer-sub-pages/Policies.qml:50
 msgid "Set as Default"
-msgstr "Cunfigura comente predefinida"
+msgstr ""
 
 #: ../plugins/printing/PageComponent.qml:190
 msgid "There are no printers configured yet."
-msgstr "Non bi sunt ancora imprentadoras cunfiguradas."
+msgstr ""
 
 #: ../plugins/printing/PrinterConnection.qml:67
 msgid "Host"
-msgstr "Host"
+msgstr ""
 
 #: ../plugins/printing/Printer.qml:42
 msgid "Printer status"
-msgstr "Istadu de s'imprentadora"
+msgstr ""
 
 #: ../plugins/printing/Printer.qml:43
 msgid "General settings"
-msgstr "Cunfiguratziones generales"
+msgstr ""
 
 #: ../plugins/printing/Printer.qml:44
 msgid "Policies"
-msgstr "Normativa"
+msgstr ""
 
 #: ../plugins/printing/Printer.qml:47
 msgid "Copies and pages"
-msgstr "Còpias e pàginas"
+msgstr ""
 
 #: ../plugins/cellular/PageChooseCarrier.qml:32
 #: ../plugins/cellular/PageChooseCarrier.qml:129
@@ -1185,18 +1163,18 @@ msgstr "Còpias e pàginas"
 #: ../plugins/cellular/PageCarrierAndApn.qml:54
 #: ../plugins/cellular/PageCarriersAndApns.qml:56
 msgid "Carrier"
-msgstr "Operadore"
+msgstr ""
 
 #: ../plugins/cellular/PageChooseCarrier.qml:153
 #: ../plugins/time-date/ChooseTimeZone.qml:51
 #: ../plugins/time-date/PageComponent.qml:85
 msgid "Automatically"
-msgstr "In automàticu"
+msgstr ""
 
 #: ../plugins/cellular/PageCarrierAndApn.qml:27
 #: ../plugins/cellular/Components/SingleSim.qml:110
 msgid "Carrier & APN"
-msgstr "Operadore e puntu de atzessu"
+msgstr ""
 
 #. TRANSLATORS: This string is a description of a text
 #. field and should thus be concise.
@@ -1205,67 +1183,67 @@ msgstr "Operadore e puntu de atzessu"
 #: ../plugins/cellular/PageChooseApn.qml:37
 #: ../plugins/cellular/PageApnEditor.qml:203
 msgid "APN"
-msgstr "Puntu de atzessu"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../plugins/cellular/PageComponent.qml:32
 #: ../obj-x86_64-linux-gnu/po/settings.js:160
 msgid "Cellular"
-msgstr "Mòbile"
+msgstr ""
 
 #: ../plugins/cellular/PageCarriersAndApns.qml:27
 msgid "Carriers & APNs"
-msgstr "Operadores e puntos de atzessu"
+msgstr ""
 
 #: ../plugins/cellular/PageChooseApn.qml:64
 msgid "MMS APN"
-msgstr "Puntu de atzessu pro MMS"
+msgstr ""
 
 #: ../plugins/cellular/PageChooseApn.qml:70
 msgid "Internet APN"
-msgstr "Puntu de atzessu pro Internet"
+msgstr ""
 
 #: ../plugins/cellular/PageChooseApn.qml:76
 msgid "LTE APN"
-msgstr "Puntu de atzessu pro LTE"
+msgstr ""
 
 #: ../plugins/cellular/PageChooseApn.qml:86
 #: ../plugins/cellular/PageApnEditor.qml:158
 msgid "Internet and MMS"
-msgstr "Internet e MMS"
+msgstr ""
 
 #: ../plugins/cellular/PageChooseApn.qml:88
 #: ../plugins/cellular/PageApnEditor.qml:159
 msgid "Internet"
-msgstr "Internet"
+msgstr ""
 
 #: ../plugins/cellular/PageChooseApn.qml:90
 #: ../plugins/cellular/PageApnEditor.qml:161
 msgid "LTE"
-msgstr "LTE"
+msgstr ""
 
 #: ../plugins/cellular/PageChooseApn.qml:92
 #: ../plugins/cellular/PageApnEditor.qml:160
 msgid "MMS"
-msgstr "MMS"
+msgstr ""
 
 #: ../plugins/cellular/PageChooseApn.qml:158
 msgid "Reset All APN Settings…"
-msgstr "Reseta sa cunfiguratzione de su puntu de atzessu…"
+msgstr ""
 
 #: ../plugins/cellular/PageChooseApn.qml:167
 msgid "Reset APN Settings"
-msgstr "Reseta sa cunfiguratzione de su puntu de atzessu"
+msgstr ""
 
 #: ../plugins/cellular/PageChooseApn.qml:168
 msgid "Are you sure that you want to Reset APN Settings?"
-msgstr "Seguru chi boles resetare sa cunfiguratzione de su puntu de atzessu?"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../plugins/cellular/PageChooseApn.qml:171
 #: ../obj-x86_64-linux-gnu/po/settings.js:364
 msgid "Reset"
-msgstr "Reseta"
+msgstr ""
 
 #. TRANSLATORS: %1 is the MMS APN that the user has chosen to be
 #. “preferred”.
@@ -1275,7 +1253,7 @@ msgstr "Reseta"
 #: ../plugins/cellular/PageChooseApn.qml:225
 #, qt-format
 msgid "Prefer %1"
-msgstr "Preferi %1"
+msgstr ""
 
 #. TRANSLATORS: %1 is the MMS APN that the user has chosen to be
 #. “preferred”, i.e. used to retrieve MMS messages. %2 is the Internet
@@ -1283,13 +1261,13 @@ msgstr "Preferi %1"
 #: ../plugins/cellular/PageChooseApn.qml:198
 #, qt-format
 msgid "You have chosen %1 as your preferred MMS APN. "
-msgstr "As seberadu %1 comente puntu de atzessu pro MMS preferidu. "
+msgstr ""
 
 #: ../plugins/cellular/PageChooseApn.qml:203
 #: ../plugins/cellular/PageChooseApn.qml:268
 #: ../plugins/bluetooth/DevicePage.qml:150
 msgid "Disconnect"
-msgstr "Disconneta"
+msgstr ""
 
 #. TRANSLATORS: %1 is the Internet APN that the user has chosen to
 #. be “preferred”, i.e. used to connect to the Internet. %2 is the MMS
@@ -1297,356 +1275,349 @@ msgstr "Disconneta"
 #: ../plugins/cellular/PageChooseApn.qml:229
 #, qt-format
 msgid "You have chosen %1 as your preferred Internet APN. "
-msgstr "As seberadu %1 comente puntu de atzessu preferidu pro Internet. "
+msgstr ""
 
 #: ../plugins/cellular/PageChooseApn.qml:234
 #: ../plugins/cellular/PageChooseApn.qml:267
 msgid "Disable"
-msgstr "Disativa"
+msgstr ""
 
 #: ../plugins/cellular/PageChooseApn.qml:256
 #, qt-format
 msgid "Disconnect %1"
-msgstr "Disconnete %1"
+msgstr ""
 
 #: ../plugins/cellular/PageChooseApn.qml:257
 #, qt-format
 msgid "Disable %1"
-msgstr "Disativa %1"
+msgstr ""
 
 #: ../plugins/cellular/PageChooseApn.qml:262
 #, qt-format
 msgid "This disconnects %1."
-msgstr "Custu disconnetet %1."
+msgstr ""
 
 #: ../plugins/cellular/PageChooseApn.qml:263
 #, qt-format
 msgid "This disables %1."
-msgstr "Custu disativat %1."
+msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:69
 msgid "Edit"
-msgstr "Modìfica"
+msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:69
 msgid "New APN"
-msgstr "Puntu de atzessu nou"
+msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:154
 msgid "Used for:"
-msgstr "Impreadu pro:"
+msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:187
 msgid "Enter a name describing the APN"
-msgstr "Inserta unu nòmine chi descriat su puntu de atzessu"
+msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:212
 msgid "Enter the name of the access point"
-msgstr "Inserta su nòmine de su puntu de atzessu"
+msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:226
 msgid "MMSC"
-msgstr "MMSC"
+msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:235
 msgid "Enter message center"
-msgstr "Inserta su tzentru de messàgios"
+msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:253
 msgid "Proxy"
-msgstr "Server intermediàriu"
+msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:262
 msgid "Enter message proxy"
-msgstr "Inserta su proxy de messàgios"
+msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:307
 msgid "Proxy port"
-msgstr "Ghenna de su proxy"
+msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:317
 msgid "Enter message proxy port"
-msgstr "Inserta sa ghenna de su proxy de messàgios"
+msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:335
 msgid "User name"
-msgstr "Nòmine usuàriu"
+msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:344
 msgid "Enter username"
-msgstr "Inserta su nòmine usuàriu"
+msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:368
 msgid "Enter password"
-msgstr "Inserta sa crae"
+msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:387
 msgid "PAP or CHAP"
-msgstr "PAP o CHAP"
+msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:388
 msgid "PAP only"
-msgstr "PAP isceti"
+msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:389
 msgid "CHAP only"
-msgstr "CHAP isceti"
+msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:400
 msgid "Protocol"
-msgstr "Protocollu"
+msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:404
 msgid "IPv4"
-msgstr "IPv4"
+msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:405
 msgid "IPv6"
-msgstr "IPv6"
+msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:406
 msgid "IPv4v6"
-msgstr "IPv4v6"
+msgstr ""
 
 #: ../plugins/security-privacy/AppAccess.qml:29
 #: ../plugins/security-privacy/PageComponent.qml:264
 msgid "App permissions"
-msgstr "Permissos de s'aplicatzione"
+msgstr ""
 
 #: ../plugins/security-privacy/AppAccess.qml:69
 msgid "Apps that you have granted access to:"
-msgstr "Aplicatziones a is chi as cunsentidu de atzèdere:"
+msgstr ""
 
 #: ../plugins/security-privacy/AppAccess.qml:75
 #: ../plugins/bluetooth/DevicePage.qml:61
 msgid "Camera"
-msgstr "Fotocàmera"
+msgstr ""
 
 #: ../plugins/security-privacy/AppAccess.qml:76
 msgid "Apps that have requested access to your camera"
-msgstr "Aplicatziones chi ant pedidu s'atzessu a sa fotocàmera"
+msgstr ""
 
 #: ../plugins/security-privacy/AppAccess.qml:82
 msgid "Apps that have requested access to your location"
-msgstr "Aplicatziones chi ant pedidu s'atzessu a sa positzione"
+msgstr ""
 
 #: ../plugins/security-privacy/AppAccess.qml:87
 msgid "Microphone"
-msgstr "Micròfonu"
+msgstr ""
 
 #: ../plugins/security-privacy/AppAccess.qml:88
 msgid "Apps that have requested access to your microphone"
-msgstr "Aplicatziones chi ant pedidu s'atzessu a su micròfonu"
+msgstr ""
 
 #: ../plugins/security-privacy/AppAccess.qml:102
 #, qt-format
 msgid "%1/%2"
-msgstr "%1/%2"
+msgstr ""
 
 #: ../plugins/security-privacy/AppAccess.qml:103
 msgid "0"
-msgstr "0"
+msgstr ""
 
 #: ../plugins/security-privacy/AppAccess.qml:118
 msgid "Apps may also request access to online accounts."
-msgstr "Is aplicatziones puru podent pedire s'atzessu a is contos in lìnea."
+msgstr ""
 
 #: ../plugins/security-privacy/AppAccess.qml:123
 msgid "Online Accounts…"
-msgstr "Contos in lìnea…"
+msgstr ""
 
 #: ../plugins/security-privacy/SimPin.qml:37
 #: ../plugins/security-privacy/SimPin.qml:398
 #: ../plugins/security-privacy/PageComponent.qml:178
 msgid "SIM PIN"
-msgstr "PIN de sa SIM"
+msgstr ""
 
 #: ../plugins/security-privacy/SimPin.qml:48
 msgid "Change SIM PIN"
-msgstr "Muda su PIN de s'ischeda SIM"
+msgstr ""
 
 #: ../plugins/security-privacy/SimPin.qml:53
 #: ../plugins/security-privacy/SimPin.qml:219
 #, qt-format
 msgid "Incorrect PIN. %1 attempt remaining."
 msgid_plural "Incorrect PIN. %1 attempts remaining."
-msgstr[0] "Su còdighe PIN est isballiau. Abarrat %1 tentativu."
-msgstr[1] "Su còdighe PIN est isballiau. Abarrant %1 tentativos."
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../plugins/security-privacy/SimPin.qml:58
 #: ../plugins/security-privacy/SimPin.qml:120
 #: ../plugins/security-privacy/SimPin.qml:224
 #: ../plugins/security-privacy/SimPin.qml:297
 msgid "No more attempts allowed"
-msgstr "Non si permitint àteros tentativos"
+msgstr ""
 
 #: ../plugins/security-privacy/SimPin.qml:93
 msgid "Current PIN:"
-msgstr "Còdighe PIN atuale:"
+msgstr ""
 
 #: ../plugins/security-privacy/SimPin.qml:115
 #: ../plugins/security-privacy/SimPin.qml:292
 #, qt-format
 msgid "%1 attempt allowed."
 msgid_plural "%1 attempts allowed."
-msgstr[0] "Si permitit %1 tentativu."
-msgstr[1] "Si permitint %1 tentativos."
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../plugins/security-privacy/SimPin.qml:135
 msgid "Choose new PIN:"
-msgstr "Sèbera su còdighe PIN nou:"
+msgstr ""
 
 #: ../plugins/security-privacy/SimPin.qml:146
 msgid "Confirm new PIN:"
-msgstr "Cunfirma su còdighe PIN nou:"
+msgstr ""
 
 #: ../plugins/security-privacy/SimPin.qml:168
 msgid "PINs don't match. Try again."
-msgstr "Is còdigos PIN non crosant. Torra a proare."
+msgstr ""
 
 #: ../plugins/security-privacy/SimPin.qml:187
 #: ../plugins/security-privacy/LockSecurity.qml:388
 #: ../plugins/hotspot/HotspotSetup.qml:274
 msgid "Change"
-msgstr "Muda"
+msgstr ""
 
 #: ../plugins/security-privacy/SimPin.qml:213
 msgid "Enter SIM PIN"
-msgstr "Inserta su PIN de s'ischeda SIM"
+msgstr ""
 
 #: ../plugins/security-privacy/SimPin.qml:214
 msgid "Enter Previous SIM PIN"
-msgstr "Inserta su còdigu PIN pretzedente de s'ischeda SIM"
+msgstr ""
 
 #: ../plugins/security-privacy/SimPin.qml:334
 msgid "Unlock"
-msgstr "Isbloca"
+msgstr ""
 
 #: ../plugins/security-privacy/SimPin.qml:334
 msgid "Lock"
-msgstr "Bloca"
+msgstr ""
 
 #: ../plugins/security-privacy/SimPin.qml:413
 msgid "Unlocked"
-msgstr "Isblocadu"
+msgstr ""
 
 #: ../plugins/security-privacy/SimPin.qml:416
 msgid "Change PIN…"
-msgstr "Muda su còdighe PIN…"
+msgstr ""
 
 #: ../plugins/security-privacy/SimPin.qml:427
 msgid "Locked"
-msgstr "Blocadu"
+msgstr ""
 
 #: ../plugins/security-privacy/SimPin.qml:431
 msgid "Unlock…"
-msgstr "Isbloca…"
+msgstr ""
 
 #: ../plugins/security-privacy/SimPin.qml:445
 msgid ""
 "When a SIM PIN is set, it must be entered to access cellular services after "
 "restarting the device or swapping the SIM."
 msgstr ""
-"Si b'est unu còdighe PIN impostadu dae s'ischeda SIM, tocat a l'insertare "
-"pro atzèdere a is servìtzios de su mòbile a pustis de torrare a aviare su "
-"dispositivu o de iscambiare sa SIM."
 
 #: ../plugins/security-privacy/SimPin.qml:449
 msgid "Entering an incorrect PIN repeatedly may lock the SIM permanently."
 msgstr ""
-"Insertare prus bortas unu PIN chi no est curretu diat pòdere blocare sa SIM "
-"in manera permanente."
 
 #: ../plugins/security-privacy/here-terms.qml:24
 msgid "Nokia HERE"
-msgstr "Nokia HERE"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../plugins/security-privacy/PageComponent.qml:40
 #: ../obj-x86_64-linux-gnu/po/settings.js:188
 msgid "Security & Privacy"
-msgstr "Seguresa e riservadesa"
+msgstr ""
 
 #: ../plugins/security-privacy/PageComponent.qml:116
 msgid "Phone and Internet"
-msgstr "Telèfonu e internet"
+msgstr ""
 
 #: ../plugins/security-privacy/PageComponent.qml:118
 msgid "Phone only"
-msgstr "Su telèfono isceti"
+msgstr ""
 
 #: ../plugins/security-privacy/PageComponent.qml:148
 msgid "Fingerprint ID"
-msgstr "Identificatzione cun imprenta"
+msgstr ""
 
 #: ../plugins/security-privacy/PageComponent.qml:168
 #: ../plugins/security-privacy/PhoneLocking.qml:32
 msgid "Locking and unlocking"
-msgstr "Blocu e isblocu"
+msgstr ""
 
 #: ../plugins/security-privacy/PageComponent.qml:181
 #: ../plugins/security-privacy/PageComponent.qml:253
 msgid "On"
-msgstr "Ativu"
+msgstr ""
 
 #: ../plugins/security-privacy/PageComponent.qml:185
 #: ../plugins/security-privacy/PageComponent.qml:253
 #: ../plugins/phone/CallForwarding.qml:386
 msgid "Off"
-msgstr "Inativu"
+msgstr ""
 
 #: ../plugins/security-privacy/PageComponent.qml:192
 msgid "Encryption"
-msgstr "Critografia"
+msgstr ""
 
 #: ../plugins/security-privacy/PageComponent.qml:202
 msgid ""
 "Encryption protects against access to phone data when the phone is connected "
 "to a PC or other device."
 msgstr ""
-"Sa tzifradura amparat contras s'atzessu a is datos de su telèfono cando si "
-"collegat a un'ordinadore o a un'àteru dispositivu."
 
 #: ../plugins/security-privacy/PageComponent.qml:207
 msgid "Privacy"
-msgstr "Riservadesa"
+msgstr ""
 
 #: ../plugins/security-privacy/PageComponent.qml:211
 msgid "Stats on welcome screen"
-msgstr "Istatìsticas in s'ischermu de benebènnidu"
+msgstr ""
 
 #: ../plugins/security-privacy/PageComponent.qml:221
 msgid "Messages on welcome screen"
-msgstr "Messàgios in s'ischermu de benebènnidu"
+msgstr ""
 
 #: ../plugins/security-privacy/PageComponent.qml:269
 #: ../plugins/security-privacy/diagnostics/PageComponent.qml:31
 msgid "Diagnostics"
-msgstr "Diagnòsticos"
+msgstr ""
 
 #. TRANSLATORS: This string is shown when crash
 #. reports are to be sent by the system.
 #: ../plugins/security-privacy/PageComponent.qml:273
 msgid "Sent"
-msgstr "Imbiadu"
+msgstr ""
 
 #. TRANSLATORS: This string is shown when crash
 #. reports are not to be sent by the system
 #: ../plugins/security-privacy/PageComponent.qml:276
 msgid "Not sent"
-msgstr "Non nd'imbies"
+msgstr ""
 
 #: ../plugins/security-privacy/Location.qml:96
 msgid "Let the device detect your location:"
-msgstr "Permite chi custu dispositivu rilevet sa positzione tua:"
+msgstr ""
 
 #: ../plugins/security-privacy/Location.qml:175
 msgid "Using GPS only (less accurate)"
-msgstr "Imprea GPS isceti (prus pagu pretzisu)"
+msgstr ""
 
 #: ../plugins/security-privacy/Location.qml:176
 msgid "Using GPS"
-msgstr "Cando impreat su GPS"
+msgstr ""
 
 #: ../plugins/security-privacy/Location.qml:188
 #, qt-format
@@ -1654,9 +1625,6 @@ msgid ""
 "Using GPS, anonymized Wi-Fi and cellular network info.<br>By selecting this "
 "option you accept the <a href='%1'>Nokia HERE terms and conditions</a>."
 msgstr ""
-"Cando impreat GPS, Wi-Fi anònimu e informatzione de rete telefònica.<br>"
-"Seletzionende custa optzione atzetas is <a href='%1'>cunditziones de Nokia "
-"HERE</a>."
 
 #: ../plugins/security-privacy/Location.qml:189
 #, qt-format
@@ -1664,64 +1632,46 @@ msgid ""
 "Using GPS and anonymized Wi-Fi info.<br>By selecting this option you accept "
 "the <a href='%1'>Nokia HERE terms and conditions</a>."
 msgstr ""
-"Cando impreat su GPS e is informatziones anònimas de Wi-Fi.<br>Seletzionende "
-"custa optzione atzetas is <a href='%1'>cunditziones de Nokia HERE</a>."
 
 #: ../plugins/security-privacy/Location.qml:195
 msgid "Not at all"
-msgstr "Mai"
+msgstr ""
 
 #: ../plugins/security-privacy/Location.qml:212
 msgid ""
 "Uses GPS to detect your rough location. When off, GPS turns off to save "
 "battery."
 msgstr ""
-"Impreat su GPS pro rilevare sa positzione aprossimativa tua. Cando est "
-"inativu, su GPS si disativat pro istraviare bateria."
 
 #: ../plugins/security-privacy/Location.qml:214
 msgid ""
 "Uses WiFi and GPS to detect your rough location. Turning off location "
 "detection saves battery."
 msgstr ""
-"Impreat su Wi-Fi e su GPS pro rilevare sa positzione aprossimativa. Istudare "
-"sa rilevatzione de positzione permitit de istraviare bateria."
 
 #: ../plugins/security-privacy/Location.qml:216
 msgid ""
 "Uses WiFi (currently off) and GPS to detect your rough location. Turning off "
 "location detection saves battery."
 msgstr ""
-"Impreat su Wi-Fi (immoe inativu) e su GPS pro rilevare sa positzione "
-"aprossimativa. Istudare sa rilevatzione de sa positzione permitit de "
-"istraviare bateria."
 
 #: ../plugins/security-privacy/Location.qml:218
 msgid ""
 "Uses WiFi, cell tower locations, and GPS to detect your rough location. "
 "Turning off location detection saves battery."
 msgstr ""
-"Impreat su Wi-Fi, sa positzione de is antennas de telefonia mòbile e su GPS "
-"pro rilevare sa positzione aprossimativa. Istudare sa rilevatzione de sa "
-"positzione permitit de istraviare bateria."
 
 #: ../plugins/security-privacy/Location.qml:220
 msgid ""
 "Uses WiFi, cell tower locations (no current cellular connection), and GPS to "
 "detect your rough location. Turning off location detection saves battery."
 msgstr ""
-"Impreat su Wi-Fi, sa positzione de is antennas de telefonia mòbile (immoe "
-"sena connessione) e su GPS pro rilevare sa positzione aprossimativa. "
-"Istudare sa rilevatzione de sa positzione permitit de istraviare bateria."
 
 #: ../plugins/security-privacy/Location.qml:222
 msgid ""
 "Uses WiFi (currently off), cell tower locations, and GPS to detect your "
 "rough location. Turning off location detection saves battery."
 msgstr ""
-"Impreat su Wi-Fi (immoe istudadu), sa positzione de is antennas de telefonia "
-"mòbile e su GPS pro rilevare sa positzione aprossimativa. Istudare sa "
-"rilevatzione de sa positzione permitit de istraviare bateria."
 
 #: ../plugins/security-privacy/Location.qml:224
 msgid ""
@@ -1729,135 +1679,131 @@ msgid ""
 "connection), and GPS to detect your rough location. Turning off location "
 "detection saves battery."
 msgstr ""
-"Impreat su Wi-Fi (immoe istudadu), sa positzione de is antennas de telefonia "
-"mòbile (immoe sena connessione) e su GPS pro rilevare sa positzione "
-"aprossimativa. Istudare sa rilevatzione de sa positzione permitit de "
-"istraviare bateria."
 
 #: ../plugins/security-privacy/Location.qml:231
 msgid "Let apps access this location:"
-msgstr "Permite a is aplicatziones de atzedere a custa positzione:"
+msgstr ""
 
 #: ../plugins/security-privacy/Location.qml:254
 msgid "None requested"
-msgstr "Niunu rechèdidu"
+msgstr ""
 
 #: ../plugins/security-privacy/LockSecurity.qml:36
 #: ../plugins/security-privacy/PhoneLocking.qml:66
 #: ../plugins/about/DevMode.qml:116
 msgid "Lock security"
-msgstr "Seguresa de su blocu"
+msgstr ""
 
 #: ../plugins/security-privacy/LockSecurity.qml:136
 #: ../plugins/security-privacy/LockSecurity.qml:561
 msgid "Change passcode…"
-msgstr "Muda su còdighe de atzessu…"
+msgstr ""
 
 #: ../plugins/security-privacy/LockSecurity.qml:138
 #: ../plugins/security-privacy/LockSecurity.qml:562
 msgid "Change passphrase…"
-msgstr "Muda sa crae…"
+msgstr ""
 
 #: ../plugins/security-privacy/LockSecurity.qml:145
 msgid "Switch to swipe"
-msgstr "Cola a iscurrimentu cun su didu"
+msgstr ""
 
 #: ../plugins/security-privacy/LockSecurity.qml:147
 msgid "Switch to passcode"
-msgstr "Cola a còdighe de atzessu"
+msgstr ""
 
 #: ../plugins/security-privacy/LockSecurity.qml:149
 msgid "Switch to passphrase"
-msgstr "Cola a crae"
+msgstr ""
 
 #: ../plugins/security-privacy/LockSecurity.qml:158
 msgid "Existing passcode"
-msgstr "Còdighe de atzessu atuale"
+msgstr ""
 
 #: ../plugins/security-privacy/LockSecurity.qml:160
 msgid "Existing passphrase"
-msgstr "Crae atuale"
+msgstr ""
 
 #: ../plugins/security-privacy/LockSecurity.qml:230
 msgid "Choose passcode"
-msgstr "Sèbera su còdighe de atzessu"
+msgstr ""
 
 #: ../plugins/security-privacy/LockSecurity.qml:232
 msgid "Choose passphrase"
-msgstr "Sèbera sa crae"
+msgstr ""
 
 #: ../plugins/security-privacy/LockSecurity.qml:290
 msgid "Confirm passcode"
-msgstr "Cunfirma su còdighe de atzessu"
+msgstr ""
 
 #: ../plugins/security-privacy/LockSecurity.qml:292
 msgid "Confirm passphrase"
-msgstr "Cunfirma sa crae"
+msgstr ""
 
 #: ../plugins/security-privacy/LockSecurity.qml:347
 msgid "Those passcodes don't match. Try again."
-msgstr "Is còdighes de atzessu non cointzident. Torra·bi a proare."
+msgstr ""
 
 #: ../plugins/security-privacy/LockSecurity.qml:350
 msgid "Those passphrases don't match. Try again."
-msgstr "Is craes non cointzident. Torra·bi a proare."
+msgstr ""
 
 #: ../plugins/security-privacy/LockSecurity.qml:385
 msgid "Unset"
-msgstr "Iscunfigura"
+msgstr ""
 
 #: ../plugins/security-privacy/LockSecurity.qml:461
 msgid "Unlock the device using:"
-msgstr "Isbloca su dispositivu cun:"
+msgstr ""
 
 #: ../plugins/security-privacy/LockSecurity.qml:465
 msgid "Swipe (no security)"
-msgstr "Iscurrimentu de su didu (peruna seguresa)"
+msgstr ""
 
 #: ../plugins/security-privacy/LockSecurity.qml:466
 msgid "4-digit passcode"
-msgstr "Còdighe de atzessu de 4 nùmeros"
+msgstr ""
 
 #: ../plugins/security-privacy/LockSecurity.qml:467
 #: ../plugins/security-privacy/PhoneLocking.qml:62
 msgid "Passphrase"
-msgstr "Crae"
+msgstr ""
 
 #: ../plugins/security-privacy/LockSecurity.qml:468
 #: ../plugins/security-privacy/PhoneLocking.qml:63
 msgid "Fingerprint"
-msgstr "Istampa"
+msgstr ""
 
 #: ../plugins/security-privacy/LockSecurity.qml:469
 msgid "Swipe (no security)… "
-msgstr "Iscurrimentu de su didu (peruna seguresa)... "
+msgstr ""
 
 #: ../plugins/security-privacy/LockSecurity.qml:470
 msgid "4-digit passcode…"
-msgstr "Còdighe de atzessu de 4 nùmeros…"
+msgstr ""
 
 #: ../plugins/security-privacy/LockSecurity.qml:471
 msgid "Passphrase…"
-msgstr "Crae…"
+msgstr ""
 
 #: ../plugins/security-privacy/PhoneLocking.qml:60
 msgctxt "Unlock with swipe"
 msgid "None"
-msgstr "Perunu"
+msgstr ""
 
 #: ../plugins/security-privacy/PhoneLocking.qml:61
 msgid "Passcode"
-msgstr "Còdighe de atzessu"
+msgstr ""
 
 #: ../plugins/security-privacy/PhoneLocking.qml:89
 #: ../plugins/battery/PageComponent.qml:313
 msgid "Lock when idle"
-msgstr "Bloca cando est inativu"
+msgstr ""
 
 #: ../plugins/security-privacy/PhoneLocking.qml:90
 #: ../plugins/battery/PageComponent.qml:313
 msgid "Sleep when idle"
-msgstr "Suspende cando est inativu"
+msgstr ""
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/security-privacy/PhoneLocking.qml:98
@@ -1865,8 +1811,8 @@ msgstr "Suspende cando est inativu"
 #, qt-format
 msgid "After %1 second"
 msgid_plural "After %1 seconds"
-msgstr[0] "A pustis de %1 segundu"
-msgstr[1] "A pustis de %1 segundos"
+msgstr[0] ""
+msgstr[1] ""
 
 #. TRANSLATORS: %1 is the number of minutes
 #: ../plugins/security-privacy/PhoneLocking.qml:102
@@ -1880,453 +1826,438 @@ msgstr[1] "A pustis de %1 segundos"
 #, qt-format
 msgid "After %1 minute"
 msgid_plural "After %1 minutes"
-msgstr[0] "A pustis de %1 minutu"
-msgstr[1] "A pustis de %1 minutos"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../plugins/security-privacy/PhoneLocking.qml:126
 msgid "Sleep locks immediately"
-msgstr "Blocu in automàticu cando si ponet a asseliare"
+msgstr ""
 
 #: ../plugins/security-privacy/PhoneLocking.qml:132
 msgid "When locked, allow:"
-msgstr "Cando est blocadu, permite:"
+msgstr ""
 
 #: ../plugins/security-privacy/PhoneLocking.qml:152
 msgid "Notifications and quick settings"
-msgstr "Notìficas e cunfiguratzione lestra"
+msgstr ""
 
 #: ../plugins/security-privacy/PhoneLocking.qml:167
 msgid "Turn on lock security to restrict access when the device is locked."
 msgstr ""
-"Ativa su blocu de seguresa pro limitare s'atzessu cando su dispositivu est "
-"blocadu."
 
 #: ../plugins/security-privacy/PhoneLocking.qml:168
 msgid "Other apps and functions will prompt you to unlock."
-msgstr "Àteras aplicatziones e funtziones ant a rechèdere s'isblocu."
+msgstr ""
 
 #: ../plugins/time-date/ChooseTimeZone.qml:30
 msgid "Time zone"
-msgstr "Fusu oràriu"
+msgstr ""
 
 #: ../plugins/time-date/ChooseTimeZone.qml:50
 msgid "Set the time zone:"
-msgstr "Imposta su fusu oràriu:"
+msgstr ""
 
 #: ../plugins/time-date/ChooseTimeZone.qml:51
 #: ../plugins/time-date/PageComponent.qml:85
 msgid "Manually"
-msgstr "De manera manuale"
+msgstr ""
 
 #: ../plugins/time-date/ChooseTimeZone.qml:130
 msgid "Enter your current location."
-msgstr "Inserta sa positzione atuale tua."
+msgstr ""
 
 #: ../plugins/time-date/ChooseTimeZone.qml:131
 msgid "No matching place"
-msgstr "Non b'est perunu logu chi cuncordet"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the time-date plugin which is used while searching
 #: ../plugins/time-date/PageComponent.qml:31
 #: ../obj-x86_64-linux-gnu/po/settings.js:212
 msgid "Time and Date"
-msgstr "Data e oràriu"
+msgstr ""
 
 #: ../plugins/time-date/PageComponent.qml:64
 msgid "Time zone:"
-msgstr "Fusu oràriu:"
+msgstr ""
 
 #: ../plugins/time-date/PageComponent.qml:79
 msgid "Set the time and date:"
-msgstr "Imposta data e oràriu:"
+msgstr ""
 
 #: ../plugins/time-date/TimePicker.qml:25
 msgid "Set time & date"
-msgstr "Imposta data e oràriu"
+msgstr ""
 
 #: ../plugins/time-date/TimePicker.qml:67
 msgid "Time"
-msgstr "Oràriu"
+msgstr ""
 
 #: ../plugins/time-date/TimePicker.qml:80
 msgid "Hour"
-msgstr "Ora"
+msgstr ""
 
 #: ../plugins/time-date/TimePicker.qml:94
 msgid "Minute"
-msgstr "Minutu"
+msgstr ""
 
 #: ../plugins/time-date/TimePicker.qml:108
 msgid "Second"
-msgstr "Segundu"
+msgstr ""
 
 #: ../plugins/time-date/TimePicker.qml:117
 msgid "Date"
-msgstr "Data"
+msgstr ""
 
 #: ../plugins/time-date/TimePicker.qml:129
 msgid "Day"
-msgstr "Die"
+msgstr ""
 
 #: ../plugins/time-date/TimePicker.qml:143
 msgid "Month"
-msgstr "Mese"
+msgstr ""
 
 #: ../plugins/time-date/TimePicker.qml:161
 msgid "Year"
-msgstr "Annu"
+msgstr ""
 
 #: ../plugins/about/Version.qml:35
 msgid "OS Build Details"
-msgstr "Detàllios de sa versione de su sistema operativu"
+msgstr ""
 
 #: ../plugins/about/Version.qml:62
 msgid "OS build number"
-msgstr "Nùmeru de sa versione de su sistema operativu"
+msgstr ""
 
 #: ../plugins/about/Version.qml:68
 msgid "Ubuntu Image part"
-msgstr "Parte de s'imàgine de Ubuntu"
+msgstr ""
 
 #: ../plugins/about/Version.qml:76
 msgid "Ubuntu build description"
-msgstr "Descritzione de sa versione de Ubuntu"
+msgstr ""
 
 #: ../plugins/about/Version.qml:82
 msgid "Device Image part"
-msgstr "Parte de s'imàgine de su dispositivu"
+msgstr ""
 
 #: ../plugins/about/Version.qml:89
 msgid "Device build description"
-msgstr "Descritzione de sa versione de su dispositivu"
+msgstr ""
 
 #: ../plugins/about/Version.qml:96
 msgid "Customization Image part"
-msgstr "Parte de sa personalizatzione de s'imàgine"
+msgstr ""
 
 #: ../plugins/about/License.qml:30
 msgid "Sorry, this license could not be displayed."
-msgstr "Custa lissèntzia non podet èssere ammustrada."
+msgstr ""
 
 #: ../plugins/about/Storage.qml:32 ../plugins/about/PageComponent.qml:150
 msgid "Storage"
-msgstr "Memòria"
+msgstr ""
 
 #: ../plugins/about/Storage.qml:44
 msgid "Scanning"
-msgstr "Iscannerizande"
+msgstr ""
 
 #: ../plugins/about/Storage.qml:106
 msgid "Used by Ubuntu"
-msgstr "Impreadu dae Ubuntu"
+msgstr ""
 
 #: ../plugins/about/Storage.qml:107
 msgid "Videos"
-msgstr "Vìdeos"
+msgstr ""
 
 #: ../plugins/about/Storage.qml:108
 msgid "Audio"
-msgstr "Àudio"
+msgstr ""
 
 #: ../plugins/about/Storage.qml:109
 msgid "Pictures"
-msgstr "Imàgines"
+msgstr ""
 
 #: ../plugins/about/Storage.qml:110
 msgid "Other files"
-msgstr "Àteros archìvios"
+msgstr ""
 
 #: ../plugins/about/Storage.qml:111
 msgid "Used by apps"
-msgstr "Impreadu dae is aplicatziones"
+msgstr ""
 
 #: ../plugins/about/Storage.qml:159
 msgid "Total storage"
-msgstr "Memòria totale"
+msgstr ""
 
 #: ../plugins/about/Storage.qml:171
 msgid "Free space"
-msgstr "Ispàtziu lìberu"
+msgstr ""
 
 #: ../plugins/about/Storage.qml:191
 msgid "By name"
-msgstr "Pro nòmine"
+msgstr ""
 
 #: ../plugins/about/Storage.qml:191
 msgid "By size"
-msgstr "Pro mannària"
+msgstr ""
 
 #: ../plugins/about/Storage.qml:222 ../plugins/battery/PageComponent.qml:109
 #: ../plugins/battery/PageComponent.qml:283
 msgid "N/A"
-msgstr "N/A"
+msgstr ""
 
 #: ../plugins/about/Software.qml:11 ../plugins/about/PageComponent.qml:224
 msgid "Software licenses"
-msgstr "Lissèntzias de programmas"
+msgstr ""
 
 #: ../plugins/about/DevMode.qml:35 ../plugins/about/DevMode.qml:90
 msgid "Developer Mode"
-msgstr "Modalidade de isvilupadore"
+msgstr ""
 
 #: ../plugins/about/DevMode.qml:84
 msgid ""
 "In Developer Mode, anyone can access, change or delete anything on this "
 "device by connecting it to another device."
 msgstr ""
-"In modalidade de isvilupadore, chiesi siat podet atzèdere, modificare o "
-"cantzellare su contenutu de custu dispositivu colleghende·lu a un'àteru "
-"dispositivu."
 
 #: ../plugins/about/DevMode.qml:110
 msgid "You need a passcode or passphrase set to use Developer Mode."
 msgstr ""
-"Tocat a istabilire unu còdighe de atzessu o una crae pro impreare sa "
-"modalidade de isvilupadore."
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../plugins/about/PageComponent.qml:35
 #: ../obj-x86_64-linux-gnu/po/settings.js:222
 msgid "About"
-msgstr "Informatziones"
+msgstr ""
 
 #: ../plugins/about/PageComponent.qml:99
 msgid "Serial"
-msgstr "Nùmeru de sèrie"
+msgstr ""
 
 #: ../plugins/about/PageComponent.qml:131
 msgid "Wi-Fi address"
-msgstr "Indiritzu Wi-Fi"
+msgstr ""
 
 #: ../plugins/about/PageComponent.qml:139
 msgid "Bluetooth address"
-msgstr "Indiritzu Bluetooth"
+msgstr ""
 
 #. TRANSLATORS: that's the free disk space, indicated in the most appropriate storage unit
 #: ../plugins/about/PageComponent.qml:152
 #, qt-format
 msgid "%1 free"
-msgstr "%1 lìberu"
+msgstr ""
 
 #: ../plugins/about/PageComponent.qml:160
 msgid "Software:"
-msgstr "Programmas:"
+msgstr ""
 
 #: ../plugins/about/PageComponent.qml:172
 msgid "OS"
-msgstr "Sistema operativu"
+msgstr ""
 
 #: ../plugins/about/PageComponent.qml:184
 msgid "Last updated"
-msgstr "Ùrtima atualizatzione"
+msgstr ""
 
 #: ../plugins/about/PageComponent.qml:194
 msgid "Check for updates"
-msgstr "Controlla atualizatziones"
+msgstr ""
 
 #: ../plugins/about/PageComponent.qml:219
 msgid "Legal:"
-msgstr "Informatzione legale:"
+msgstr ""
 
 #: ../plugins/about/PageComponent.qml:231
 msgid "Regulatory info"
-msgstr "Informatzione normativa"
+msgstr ""
 
 #: ../plugins/about/PageComponent.qml:238
 msgid "Developer mode"
-msgstr "Modalidade de isvilupadore"
+msgstr ""
 
 #: ../plugins/phone/MultiSim.qml:42 ../plugins/phone/SingleSim.qml:34
 #: ../plugins/phone/NoSims.qml:34 ../plugins/phone/CallWaiting.qml:31
 #: ../plugins/phone/CallWaiting.qml:81
 msgid "Call waiting"
-msgstr "Mutida in ispera"
+msgstr ""
 
 #: ../plugins/phone/MultiSim.qml:54 ../plugins/phone/SingleSim.qml:42
 #: ../plugins/phone/NoSims.qml:28 ../plugins/phone/CallForwarding.qml:45
 msgid "Call forwarding"
-msgstr "Deviatzione de mutidas"
+msgstr ""
 
 #: ../plugins/phone/MultiSim.qml:67 ../plugins/phone/NoSims.qml:42
 msgid "Services"
-msgstr "Servìtzios"
+msgstr ""
 
 #. TRANSLATORS: This string will be truncated on smaller displays.
 #: ../plugins/phone/CallForwardItem.qml:157
 #: ../plugins/phone/CallForwardItem.qml:202
 msgid "Forward to"
-msgstr "Devia a"
+msgstr ""
 
 #: ../plugins/phone/CallForwardItem.qml:171
 msgid "Enter a number"
-msgstr "Inserta·nche unu nùmeru"
+msgstr ""
 
 #: ../plugins/phone/CallForwardItem.qml:218
 msgid "Call forwarding can’t be changed right now."
-msgstr "In custu momentu non si podet mudare sa deviatzione de mutidas."
+msgstr ""
 
 #: ../plugins/phone/SingleSim.qml:29
 msgid "SIM"
-msgstr "SIM"
+msgstr ""
 
 #. TRANSLATORS: %1 is the name of the (network) carrier
 #: ../plugins/phone/SingleSim.qml:55 ../plugins/phone/Services.qml:36
 #, qt-format
 msgid "%1 Services"
-msgstr "Servìtzios de %1"
+msgstr ""
 
 #: ../plugins/phone/ServiceInfo.qml:109
 #, qt-format
 msgid "Last called %1"
-msgstr "Ùrtima mutida %1"
+msgstr ""
 
 #: ../plugins/phone/ServiceInfo.qml:119
 msgid "Call"
-msgstr "Muti"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../plugins/phone/PageComponent.qml:32 ../plugins/bluetooth/DevicePage.qml:48
 #: ../plugins/bluetooth/DevicePage.qml:49
 #: ../obj-x86_64-linux-gnu/po/settings.js:266
 msgid "Phone"
-msgstr "Telèfonu"
+msgstr ""
 
 #: ../plugins/phone/CallWaiting.qml:96
 msgid ""
 "Lets you answer or start a new call while on another call, and switch "
 "between them"
 msgstr ""
-"Permitit de rispòndere o de incumentzare una mutida noa, in su mentras chi "
-"nde ses faghende un'àtera, e de passare de s'una a s'àtera"
 
 #: ../plugins/phone/CallForwarding.qml:131
 msgid "Forward every incoming call"
-msgstr "Dèvia totus is mutidas"
+msgstr ""
 
 #: ../plugins/phone/CallForwarding.qml:146
 msgid "Redirects all phone calls to another number."
-msgstr "Dèvia totus is mutidas a un'àteru nùmeru."
+msgstr ""
 
 #: ../plugins/phone/CallForwarding.qml:158
 msgid "Call forwarding status can’t be checked "
-msgstr "Non si podet controllare s'istadu de deviatzione de mutidas "
+msgstr ""
 
 #: ../plugins/phone/CallForwarding.qml:166
 msgid "Forward incoming calls when:"
-msgstr "Dèvia is mutidas cando:"
+msgstr ""
 
 #: ../plugins/phone/CallForwarding.qml:175
 msgid "I’m on another call"
-msgstr "So faghende un'àtera mutida"
+msgstr ""
 
 #: ../plugins/phone/CallForwarding.qml:186
 msgid "I don’t answer"
-msgstr "Non respondo"
+msgstr ""
 
 #: ../plugins/phone/CallForwarding.qml:197
 msgid "My phone is unreachable"
-msgstr "Su telèfonu meu no est atzessìbile"
+msgstr ""
 
 #: ../plugins/phone/CallForwarding.qml:227
 msgid "Contacts…"
-msgstr "Cuntatos…"
+msgstr ""
 
 #: ../plugins/phone/CallForwarding.qml:274
 msgid "Please select a phone number"
-msgstr "Seletziona unu nùmeru de telèfonu"
+msgstr ""
 
 #: ../plugins/phone/CallForwarding.qml:283
 msgid "Numbers"
-msgstr "Nùmeros"
+msgstr ""
 
 #: ../plugins/phone/CallForwarding.qml:302
 msgid "Could not forward to this contact"
-msgstr "Non s'est pòdidu deviare a custu cuntatu"
+msgstr ""
 
 #: ../plugins/phone/CallForwarding.qml:303
 msgid "Contact not associated with any phone number."
-msgstr "Perunu nùmeru de telèfonu pro custu cuntatu."
+msgstr ""
 
 #: ../plugins/phone/CallForwarding.qml:382
 msgid "All calls"
-msgstr "Totus is mutidas"
+msgstr ""
 
 #: ../plugins/phone/CallForwarding.qml:384
 msgid "Some calls"
-msgstr "Unas mutidas"
+msgstr ""
 
 #: ../plugins/hotspot/HotspotSetup.qml:61
 msgid "Change Hotspot Setup"
-msgstr "Muda sa cunfiguratzione de su puntu de atzessu Wi-Fi"
+msgstr ""
 
 #: ../plugins/hotspot/HotspotSetup.qml:61
 msgid "Set Up Hotspot"
-msgstr "Cunfigura su puntu de atzessu Wi-Fi"
+msgstr ""
 
 #: ../plugins/hotspot/HotspotSetup.qml:175
 msgid "Hotspot name"
-msgstr "Nòmine de su puntu de atzessu Wi-Fi"
+msgstr ""
 
 #: ../plugins/hotspot/HotspotSetup.qml:176
 msgid "Choose a name"
-msgstr "Sèbera unu nòmine"
+msgstr ""
 
 #: ../plugins/hotspot/HotspotSetup.qml:193
 msgid "Require a password (recommended):"
-msgstr "Rechede una crae (cussigiadu):"
+msgstr ""
 
 #: ../plugins/hotspot/HotspotSetup.qml:245
 msgid "Starting the hotspot will turn on Wi-Fi."
-msgstr "S'ativatzione de su puntu de atzessu at a allumare su Wi-Fi."
+msgstr ""
 
 #: ../plugins/hotspot/HotspotSetup.qml:275
 msgid "Start"
-msgstr "Cumintza"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the hotspot plugin which is used while searching
 #: ../plugins/hotspot/PageComponent.qml:33
 #: ../plugins/hotspot/PageComponent.qml:85
 #: ../obj-x86_64-linux-gnu/po/settings.js:290
 msgid "Hotspot"
-msgstr "Puntu de atzessu Wi-Fi"
+msgstr ""
 
 #: ../plugins/hotspot/PageComponent.qml:114
 msgid ""
 "When hotspot is on, other devices can use your cellular data connection over "
 "Wi-Fi. Normal data charges apply."
 msgstr ""
-"Cando su puntu de atzessu Wi-Fi est ativu àteros dispositivu podent "
-"utilizare sa connessione de datos mòbiles cun sa rete sena filos. S'ant a "
-"applicare is tarifas normales pro sa connessione de datos."
 
 #: ../plugins/hotspot/PageComponent.qml:115
 msgid ""
 "Other devices can use your cellular data connection over the Wi-Fi network. "
 "Normal data charges apply."
 msgstr ""
-"Àteros dispositivos podent utilizare sa connessione de datos mòbiles cun sa "
-"rete senza filos. S'ant a applicare is tarifas normales pro sa connessione "
-"de datos."
 
 #: ../plugins/hotspot/PageComponent.qml:124
 msgid "Change Password/Setup…"
-msgstr "Muda sa crae/cunfiguratzione…"
+msgstr ""
 
 #: ../plugins/hotspot/PageComponent.qml:124
 msgid "Set Up Hotspot…"
-msgstr "Cunfigura su puntu de atzessu WiFi…"
+msgstr ""
 
 #: ../plugins/hotspot/PageComponent.qml:155
 msgid "Wi-Fi is off"
-msgstr "Wi-Fi disativadu"
+msgstr ""
 
 #: ../plugins/hotspot/PageComponent.qml:156
 msgid "In order to create a hotspot, you need to turn Wi-Fi on."
-msgstr "Pro creare unu puntu de atzessu, depes ativare su Wi-Fi."
+msgstr ""
 
 #: ../plugins/hotspot/PageComponent.qml:165
 msgid "Turn on Wi-Fi"
-msgstr "Ativa su Wi-Fi"
+msgstr ""
 
 #: ../plugins/bluetooth/ProvidePinCodeDialog.qml:28
 #: ../plugins/bluetooth/DisplayPasskeyDialog.qml:26
@@ -2334,22 +2265,22 @@ msgstr "Ativa su Wi-Fi"
 #: ../plugins/bluetooth/ProvidePasskeyDialog.qml:28
 #: ../plugins/bluetooth/ConfirmPasskeyDialog.qml:28
 msgid "Bluetooth Pairing Request"
-msgstr "Assòtziu de Bluetooth rechèdidu"
+msgstr ""
 
 #: ../plugins/bluetooth/ProvidePinCodeDialog.qml:36
 #: ../plugins/bluetooth/ProvidePasskeyDialog.qml:36
 #, qt-format
 msgid "PIN for '%1'"
-msgstr "PIN pro '%1'"
+msgstr ""
 
 #: ../plugins/bluetooth/ProvidePinCodeDialog.qml:63
 #: ../plugins/bluetooth/ProvidePasskeyDialog.qml:62
 msgid "Pair"
-msgstr "Assòtzia"
+msgstr ""
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:26
 msgid "Bluetooth Pairing Authorization Request"
-msgstr "Autorizatzione de assòtziu de Bluetooth rechèrida"
+msgstr ""
 
 #. TRANSLATORS: %1 is the name of the bluetooth device which requires authorization
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:34
@@ -2357,126 +2288,124 @@ msgstr "Autorizatzione de assòtziu de Bluetooth rechèrida"
 msgid ""
 "The device %1 wants to pair with this device. Do you want to allow this?"
 msgstr ""
-"Su dispositivu %1 si bolet assotziare a custu dispositivu. Si lu boles "
-"permìtere?"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:39
 msgid "Allow"
-msgstr "Permite"
+msgstr ""
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:46
 msgid "Refuse"
-msgstr "Refuda"
+msgstr ""
 
 #: ../plugins/bluetooth/DevicePage.qml:38
 #: ../plugins/bluetooth/PageComponent.qml:290
 msgid "Connecting…"
-msgstr "Connetende·si…"
+msgstr ""
 
 #: ../plugins/bluetooth/DevicePage.qml:39
 msgid "Disconnecting…"
-msgstr "Disconnetende·si…"
+msgstr ""
 
 #: ../plugins/bluetooth/DevicePage.qml:40
 msgid "Disconnected"
-msgstr "Disconnètidu"
+msgstr ""
 
 #: ../plugins/bluetooth/DevicePage.qml:47
 msgid "Computer"
-msgstr "Elaboradore"
+msgstr ""
 
 #: ../plugins/bluetooth/DevicePage.qml:50
 msgid "Modem"
-msgstr "Modem"
+msgstr ""
 
 #: ../plugins/bluetooth/DevicePage.qml:51 ../src/qml/MainWindow.qml:241
 msgid "Network"
-msgstr "Rete"
+msgstr ""
 
 #: ../plugins/bluetooth/DevicePage.qml:52
 msgid "Headset"
-msgstr "Microauricolare"
+msgstr ""
 
 #: ../plugins/bluetooth/DevicePage.qml:53
 msgid "Headphones"
-msgstr "Auricolares"
+msgstr ""
 
 #: ../plugins/bluetooth/DevicePage.qml:54
 msgid "Video"
-msgstr "Vìdeu"
+msgstr ""
 
 #: ../plugins/bluetooth/DevicePage.qml:55
 msgid "Other Audio"
-msgstr "Àteru àudio"
+msgstr ""
 
 #: ../plugins/bluetooth/DevicePage.qml:56
 msgid "Joypad"
-msgstr "Cumandu de giogu"
+msgstr ""
 
 #: ../plugins/bluetooth/DevicePage.qml:57
 msgid "Keyboard"
-msgstr "Tecladu"
+msgstr ""
 
 #: ../plugins/bluetooth/DevicePage.qml:58
 msgid "Tablet"
-msgstr "Tauledda"
+msgstr ""
 
 #: ../plugins/bluetooth/DevicePage.qml:60
 msgid "Printer"
-msgstr "Imprentadora"
+msgstr ""
 
 #: ../plugins/bluetooth/DevicePage.qml:62
 msgid "Watch"
-msgstr "Rellògiu"
+msgstr ""
 
 #: ../plugins/bluetooth/DevicePage.qml:63
 msgid "Other"
-msgstr "Un'àteru"
+msgstr ""
 
 #: ../plugins/bluetooth/DevicePage.qml:69
 msgid "Excellent"
-msgstr "Bona meda"
+msgstr ""
 
 #: ../plugins/bluetooth/DevicePage.qml:70
 msgid "Good"
-msgstr "Bona"
+msgstr ""
 
 #: ../plugins/bluetooth/DevicePage.qml:71
 msgid "Fair"
-msgstr "Discreta"
+msgstr ""
 
 #: ../plugins/bluetooth/DevicePage.qml:72
 msgid "Poor"
-msgstr "Iscarsa"
+msgstr ""
 
 #: ../plugins/bluetooth/DevicePage.qml:113
 msgid "Type"
-msgstr "Genia"
+msgstr ""
 
 #: ../plugins/bluetooth/DevicePage.qml:124
 #: ../plugins/printing/printer-sub-pages/Status.qml:26
 msgid "Status"
-msgstr "Istadu"
+msgstr ""
 
 #: ../plugins/bluetooth/DevicePage.qml:128
 msgid "Signal Strength"
-msgstr "Potèntzia de su signale"
+msgstr ""
 
 #: ../plugins/bluetooth/DevicePage.qml:133
 #: ../plugins/bluetooth/PageComponent.qml:358
 msgid "Connect automatically when detected:"
-msgstr "Collega in automàticu cando rilevat:"
+msgstr ""
 
 #: ../plugins/bluetooth/DevicePage.qml:172
 msgid "Forget this device"
-msgstr "Iscaressi·ti de custu dispositivu"
+msgstr ""
 
 #. TRANSLATORS: %1 is the name of the bluetooth device being paired
 #: ../plugins/bluetooth/DisplayPasskeyDialog.qml:35
 #: ../plugins/bluetooth/DisplayPinCodeDialog.qml:34
 #, qt-format
 msgid "Please enter the following PIN on %1 and press “Enter” on the keyboard:"
-msgstr "Inserta a %1 su PIN chi sighit e carca “Enter” in su tecladu:"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the bluetooth plugin which is used while searching
 #: ../plugins/bluetooth/PageComponent.qml:33
@@ -2484,649 +2413,631 @@ msgstr "Inserta a %1 su PIN chi sighit e carca “Enter” in su tecladu:"
 #: ../plugins/battery/PageComponent.qml:400
 #: ../obj-x86_64-linux-gnu/po/settings.js:298
 msgid "Bluetooth"
-msgstr "Bluetooth"
+msgstr ""
 
 #: ../plugins/bluetooth/PageComponent.qml:252
 msgid "Discoverable"
-msgstr "Si podet iscobèrrere"
+msgstr ""
 
 #: ../plugins/bluetooth/PageComponent.qml:252
 msgid "Not discoverable"
-msgstr "Non si podet iscobèrrere"
+msgstr ""
 
 #: ../plugins/bluetooth/PageComponent.qml:260
 #: ../plugins/bluetooth/PageComponent.qml:319
 msgid "Searching…"
-msgstr "Chirchende…"
+msgstr ""
 
 #: ../plugins/bluetooth/PageComponent.qml:269
 msgid "Connected devices:"
-msgstr "Dispositivos collegados:"
+msgstr ""
 
 #: ../plugins/bluetooth/PageComponent.qml:309
 msgid "Connect another device:"
-msgstr "Collega a un'àteru dispositivu:"
+msgstr ""
 
 #: ../plugins/bluetooth/PageComponent.qml:309
 msgid "Connect a device:"
-msgstr "Collega a unu dispositivu:"
+msgstr ""
 
 #: ../plugins/bluetooth/PageComponent.qml:352
 msgid "None detected"
-msgstr "Perunu dispositivu rilevadu"
+msgstr ""
 
 #. TRANSLATORS: %1 is the name of the bluetooth device being paired
 #: ../plugins/bluetooth/ConfirmPasskeyDialog.qml:37
 #, qt-format
 msgid "Please confirm that the PIN displayed on '%1' matches this one"
-msgstr "Cunfirma chi su PIN ammustradu a '%1' cuncordet cun custu"
+msgstr ""
 
 #: ../plugins/bluetooth/ConfirmPasskeyDialog.qml:57
 msgid "Confirm PIN"
-msgstr "Cunfirma su PIN"
+msgstr ""
 
 #: ../plugins/language/RebootNecessary.qml:34
 msgid "The device needs to restart for changes to take effect."
 msgstr ""
-"Su dispositivu depet èssere torradu a aviare pro chi is modìficas tèngiant "
-"efetu."
 
 #: ../plugins/language/RebootNecessary.qml:38
 msgid "Restart Now"
-msgstr "Torra a aviare immoe"
+msgstr ""
 
 #: ../plugins/language/PageHardwareKeyboard.qml:33
 msgid "Hardware keyboard"
-msgstr "Tecladu fìsicu"
+msgstr ""
 
 #: ../plugins/language/PageHardwareKeyboard.qml:63
 msgid "Layouts and other sources"
-msgstr "Dispositzione e àteras fontes"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../plugins/language/PageComponent.qml:36
 #: ../obj-x86_64-linux-gnu/po/settings.js:322
 msgid "Language & Text"
-msgstr "Limba e testu"
+msgstr ""
 
 #: ../plugins/language/PageComponent.qml:133
 msgid "Display language…"
-msgstr "Ammustra sa limba…"
+msgstr ""
 
 #: ../plugins/language/PageComponent.qml:149
 msgid "Enable on-screen keyboard"
-msgstr "Ativa su tecladu in s'ischermu"
+msgstr ""
 
 #: ../plugins/language/PageComponent.qml:161
 msgid "On-screen keyboard"
-msgstr "Tecladu in s'ischermu"
+msgstr ""
 
 #: ../plugins/language/PageComponent.qml:162
 #: ../plugins/language/KeyboardLayouts.qml:29
 msgid "Keyboard layouts"
-msgstr "Dispositziones de tecladu"
+msgstr ""
 
 #: ../plugins/language/PageComponent.qml:173
 msgid "External keyboard"
-msgstr "Tecladu esternu"
+msgstr ""
 
 #: ../plugins/language/PageComponent.qml:185
 #: ../plugins/language/PageComponent.qml:195
 #: ../plugins/language/SpellChecking.qml:29
 #: ../plugins/language/SpellChecking.qml:45
 msgid "Spell checking"
-msgstr "Curretzione ortogràfica"
+msgstr ""
 
 #: ../plugins/language/PageComponent.qml:206
 msgid "Auto correction"
-msgstr "Curretzione automàtica"
+msgstr ""
 
 #: ../plugins/language/PageComponent.qml:217
 msgid "Word suggestions"
-msgstr "Cussìgios de paràulas"
+msgstr ""
 
 #: ../plugins/language/PageComponent.qml:231
 msgid "Auto capitalization"
-msgstr "Majùsculas initziales in automàticu"
+msgstr ""
 
 #: ../plugins/language/PageComponent.qml:242
 msgid "Turns on Shift to capitalize the first letter of each sentence."
 msgstr ""
-"Ativa sa tecla de majùscula pro impreare majùsculas in sa prima lìtera de "
-"cada frase."
 
 #: ../plugins/language/PageComponent.qml:249
 msgid "Auto punctuation"
-msgstr "Puntegiadura automàtica"
+msgstr ""
 
 #: ../plugins/language/PageComponent.qml:261
 msgid "Inserts a period when you tap Space twice."
-msgstr "Insertat unu puntu cando si tocat duas bortas sa tecla Ispàtziu."
+msgstr ""
 
 #: ../plugins/language/PageComponent.qml:279
 msgid "Keyboard vibration"
-msgstr "Vibratzione de su tecladu"
+msgstr ""
 
 #: ../plugins/language/PageComponent.qml:290
 msgid "Keyboard opacity"
-msgstr "Dispositziones de tecladu"
+msgstr ""
 
 #: ../plugins/language/KeyboardLayouts.qml:49
 msgid "Current layouts:"
-msgstr "Dispositziones de tecladu atuales:"
+msgstr ""
 
 #: ../plugins/language/KeyboardLayouts.qml:49
 msgid "All layouts available:"
-msgstr "Totu is dispositziones de tecladu a disponimentu:"
+msgstr ""
 
 #: ../plugins/language/SpellChecking.qml:64
 msgid "Current spelling languages:"
-msgstr "Limbas atuales cun curretzione ortogràfica:"
+msgstr ""
 
 #: ../plugins/language/SpellChecking.qml:65
 msgid "All languages available:"
-msgstr "Totu is limbas a disponimentu:"
+msgstr ""
 
 #: ../plugins/language/DisplayLanguage.qml:36
 msgid "Display language"
-msgstr "Limba"
+msgstr ""
 
 #: ../plugins/language/DisplayLanguage.qml:116
 msgid "Confirm"
-msgstr "Cunfirma"
+msgstr ""
 
 #: ../plugins/battery/SleepValues.qml:74
 msgid "Lock the device when it's not in use:"
-msgstr "Bloca su telèfono cando no est impreadu:"
+msgstr ""
 
 #: ../plugins/battery/SleepValues.qml:75
 msgid "Put the device to sleep when it is not in use:"
-msgstr "Pone su dispositivu a asseliare cando no est impreadu:"
+msgstr ""
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery/SleepValues.qml:86
 #, qt-format
 msgid "After %1 seconds"
 msgid_plural "After %1 seconds"
-msgstr[0] "A pustis de %1 segundu"
-msgstr[1] "A pustis de %1 segundos"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../plugins/battery/SleepValues.qml:130
 msgid ""
 "Shorter times are more secure. Device won't lock during calls or video "
 "playback."
 msgstr ""
-"Is tempos prus curtzos sunt prus seguros. Su dispositivu no s'at a blocare "
-"durante mutidas o riprodutziones de vìdeos."
 
 #: ../plugins/battery/SleepValues.qml:130
 msgid "Device won’t sleep during calls or video playback."
 msgstr ""
-"Su dispositivu no s'at a asseliare durante mutidas o riprodutziones de "
-"vìdeos."
 
 #. TRANSLATORS: This is a keyword or name for the battery plugin which is used while searching
 #: ../plugins/battery/PageComponent.qml:35
 #: ../obj-x86_64-linux-gnu/po/settings.js:348
 msgid "Battery"
-msgstr "Bateria"
+msgstr ""
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery/PageComponent.qml:44
 #, qt-format
 msgid "%1 second ago"
 msgid_plural "%1 seconds ago"
-msgstr[0] "%1 segundu a immoe"
-msgstr[1] "%1 segundos a immoe"
+msgstr[0] ""
+msgstr[1] ""
 
 #. TRANSLATORS: %1 is the number of minutes
 #: ../plugins/battery/PageComponent.qml:47
 #, qt-format
 msgid "%1 minute ago"
 msgid_plural "%1 minutes ago"
-msgstr[0] "%1 minutu a immoe"
-msgstr[1] "%1 minutos a immoe"
+msgstr[0] ""
+msgstr[1] ""
 
 #. TRANSLATORS: %1 is the number of hours
 #: ../plugins/battery/PageComponent.qml:50
 #, qt-format
 msgid "%1 hour ago"
 msgid_plural "%1 hours ago"
-msgstr[0] "%1 ora a immoe"
-msgstr[1] "%1 oras a immoe"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../plugins/battery/PageComponent.qml:104
 msgid "Charge level"
-msgstr "Livellu de càrriga"
+msgstr ""
 
 #. TRANSLATORS: %1 refers to a percentage that indicates the charging level of the battery
 #: ../plugins/battery/PageComponent.qml:112
 #, qt-format
 msgid "%1%"
-msgstr "%1%"
+msgstr ""
 
 #: ../plugins/battery/PageComponent.qml:190
 #: ../plugins/battery/PageComponent.qml:192
 msgid "Yesterday"
-msgstr "Eris"
+msgstr ""
 
 #: ../plugins/battery/PageComponent.qml:198
 #: ../plugins/battery/PageComponent.qml:200
 msgid "Today"
-msgstr "Oe"
+msgstr ""
 
 #: ../plugins/battery/PageComponent.qml:269
 msgid "Charging now"
-msgstr "Carrighende"
+msgstr ""
 
 #: ../plugins/battery/PageComponent.qml:271
 msgid "Last full charge"
-msgstr "Ùrtima càrriga cumpleta"
+msgstr ""
 
 #: ../plugins/battery/PageComponent.qml:273
 msgid "Fully charged"
-msgstr "Càrriga cumpleta"
+msgstr ""
 
 #: ../plugins/battery/PageComponent.qml:292
 msgid "Ways to reduce battery use:"
-msgstr "Maneras de minimare s'impreu de sa bateria:"
+msgstr ""
 
 #: ../plugins/battery/PageComponent.qml:296
 #: ../plugins/brightness/PageComponent.qml:84
 msgid "Display brightness"
-msgstr "Lugore de s'ischermu"
+msgstr ""
 
 #. TRANSLATORS: “Wi-Fi used for hotspot” is hidden.
 #: ../plugins/battery/PageComponent.qml:364
 msgid "Wi-Fi used for hotspot"
-msgstr "Puntu de atzessu Wi-Fi"
+msgstr ""
 
 #: ../plugins/reset/ResetAllSettings.qml:29
 msgid ""
 "The contents and layout of the launcher, and the filters in the home screen "
 "will be returned to their original settings."
 msgstr ""
-"S'at a torrare a sa cunfiguratzione initziale de is cuntenutos e is "
-"dispositziones de su launcher e de is filtros de s'ischermu initziale."
 
 #: ../plugins/reset/ResetAllSettings.qml:31
 msgid "Reset all system settings"
-msgstr "Reseta totus is cunfiguratziones de sistema"
+msgstr ""
 
 #: ../plugins/reset/ResetLauncherHome.qml:40
 msgid "The Launcher will be returned to its original contents."
-msgstr "S'ant a resetare is cuntenutos originales de su launcher."
+msgstr ""
 
 #: ../plugins/reset/ResetLauncherHome.qml:44
 #: ../plugins/reset/PageComponent.qml:75 ../plugins/reset/PageComponent.qml:86
 msgid "Reset Launcher"
-msgstr "Reseta launcher"
+msgstr ""
 
 #: ../plugins/reset/EraseEverything.qml:41
 msgid ""
 "All documents, saved games, settings, and other items will be permanently "
 "deleted from this device."
 msgstr ""
-"Totus is documentos, giogos sarvados, cunfiguratziones e totus is àteros "
-"elementos s'ant a cantzellare de manera definitiva dae custu dispositivu."
 
 #: ../plugins/reset/EraseEverything.qml:44
 msgid "Erase & Reset Everything"
-msgstr "Cantzella e reseta totu"
+msgstr ""
 
 #: ../plugins/reset/PageComponent.qml:32
 msgid "Reset device"
-msgstr "Reseta su dispositivu"
+msgstr ""
 
 #: ../plugins/reset/PageComponent.qml:101
 #: ../plugins/reset/PageComponent.qml:112
 msgid "Reset all system settings…"
-msgstr "Reseta totus is cunfiguratziones de sistema…"
+msgstr ""
 
 #: ../plugins/reset/PageComponent.qml:126
 #: ../plugins/reset/PageComponent.qml:138
 msgid "Erase & Reset All"
-msgstr "Cantzella e reseta totu"
+msgstr ""
 
 #: ../plugins/brightness/WifiDisplays.qml:27
 msgid "Wireless Display"
-msgstr "Ischermu sena filos"
+msgstr ""
 
 #: ../plugins/brightness/WifiDisplays.qml:100
 msgid "No displays detected"
-msgstr "Non s'est rilevadu ischermu perunu"
+msgstr ""
 
 #: ../plugins/brightness/WifiDisplays.qml:113
 msgid "Connected display:"
-msgstr "Ischermu collegadu:"
+msgstr ""
 
 #: ../plugins/brightness/WifiDisplays.qml:128
 msgid "Connecting"
-msgstr "Colleghende·si"
+msgstr ""
 
 #: ../plugins/brightness/WifiDisplays.qml:128
 #: ../plugins/brightness/WifiDisplays.qml:172
 #: ../plugins/brightness/PageComponent.qml:159
 msgid "Not connected"
-msgstr "Non collegadu"
+msgstr ""
 
 #: ../plugins/brightness/WifiDisplays.qml:146
 msgid "Use another display:"
-msgstr "Imprea un'àteru ischermu:"
+msgstr ""
 
 #: ../plugins/brightness/WifiDisplays.qml:146
 msgid "Choose a display:"
-msgstr "Sèbera un'ischermu:"
+msgstr ""
 
 #: ../plugins/brightness/PageComponent.qml:35
 msgid "Brightness & Display"
-msgstr "Lugore e ischermu"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the brightness plugin which is used while searching
 #: ../plugins/brightness/PageComponent.qml:35
 #: ../obj-x86_64-linux-gnu/po/settings.js:376
 msgid "Brightness"
-msgstr "Lugore"
+msgstr ""
 
 #: ../plugins/brightness/PageComponent.qml:116
 msgid "Adjust automatically"
-msgstr "Acontza in automàticu"
+msgstr ""
 
 #: ../plugins/brightness/PageComponent.qml:131
 msgid "Brightens and dims the display to suit the surroundings."
-msgstr "Adata su lugore de s'ischermu a su logu a fùrriu."
+msgstr ""
 
 #: ../plugins/brightness/PageComponent.qml:140
 msgid "External display"
-msgstr "Ischermu esternu"
+msgstr ""
 
 #: ../plugins/brightness/PageComponent.qml:158
 msgid "Wireless display"
-msgstr "Ischermu sena filos"
+msgstr ""
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:32
 #, qt-format
 msgid "This device failed to connect to %1."
-msgstr "Custu dispositivu non s'est pòdidu collegare a %1."
+msgstr ""
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:34
 #, qt-format
 msgid "There was an unknown error connecting to %1."
-msgstr "B'est istada una faddina disconnota colleghende·si a %1."
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../plugins/vpn/PageComponent.qml:31
 #: ../obj-x86_64-linux-gnu/po/settings.js:388
 msgid "VPN"
-msgstr "VPN"
+msgstr ""
 
 #: ../plugins/vpn/PageComponent.qml:76
 msgid ""
 "To add a VPN configuration, download its config file or configure it "
 "manually."
 msgstr ""
-"Pro agiùnghere una cunfiguratzione VPN, iscàrriga s'archìviu suo o cunfigura·"
-"la de manera manuale."
 
 #: ../plugins/vpn/PageComponent.qml:82
 msgid "Add Manual Configuration…"
-msgstr "Agiunghe cunfiguratzione manuale…"
+msgstr ""
 
 #: ../plugins/vpn/PageComponent.qml:117
 msgid "VPN reconnection required."
-msgstr "Tocat a si torrare a collegare a sa VPN."
+msgstr ""
 
 #: ../plugins/vpn/PageComponent.qml:118
 msgid "You need to reconnect for changes to have an effect."
 msgstr ""
-"Tocat a si torrare a collegare pro fàghere chi is modìficas tèngiant efetu."
 
 #: ../plugins/background/Components/AddRemove.qml:52
 msgid "No images selected"
-msgstr "Peruna imàgine seletzionada"
+msgstr ""
 
 #: ../plugins/background/Components/AddRemove.qml:65
 #, qt-format
 msgid "Remove %1 image"
 msgid_plural "Remove %1 images"
-msgstr[0] "Fùlia %1 immàgine"
-msgstr[1] "Fùlia %1 immàgines"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../plugins/background/Components/AddRemove.qml:79
 msgid "Add an image…"
-msgstr "Agiunghe un'immàgine…"
+msgstr ""
 
 #: ../plugins/background/Components/AddRemove.qml:89
 msgid "Remove images…"
-msgstr "Fùlia immàgines…"
+msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:27
 msgid "Enabled"
-msgstr "Abilitadu"
+msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:46
 msgid "Default"
-msgstr "Predefinidu"
+msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:47
 msgid "This is the default printer."
-msgstr "Custa est s'imprentadora predefinida."
+msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:60
 msgid "Accepting jobs"
-msgstr "Atzetatzione de tareas"
+msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:69
 msgid "Shared"
-msgstr "Cumpartzidu"
+msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/CopiesAndPages.qml:26
 msgid "Copies"
-msgstr "Còpias"
+msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/CopiesAndPages.qml:46
 msgid "Paper size"
-msgstr "Mannària de su follu"
+msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:30
 msgid "Idle"
-msgstr "Inativa"
+msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:32
 msgid "Aborted"
-msgstr "Annulladu"
+msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:34
 msgid "Active"
-msgstr "Ativa"
+msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:36
 msgid "Stopped"
-msgstr "Blocada"
+msgstr ""
 
 #. TRANSLATORS: %1 is the overall state of the printer, %2 is a more
 #. detailed message from the printer itself.
 #: ../plugins/printing/printer-sub-pages/Status.qml:40
 #, qt-format
 msgid "%1 — %2"
-msgstr "%1 — %2"
+msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:43
 msgid "No messages"
-msgstr "Perunu messàgiu"
+msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:48
 msgid "Jobs"
-msgstr "Tareas"
+msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:53
 msgid "Manage Print Jobs"
-msgstr "Atende a is tareas de imprenta"
+msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:78
 msgid "Address"
-msgstr "Indiritzu"
+msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:84
 msgid "Model"
-msgstr "Modellu"
+msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:85
 msgid "Local Raw Printer"
-msgstr "Imprentadora locale Raw"
+msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:88
 msgid "Print test page"
-msgstr "Imprenta una pàgina de proa"
+msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:43
 msgid "Duplex"
-msgstr "Imprenta a parte e a àtera"
+msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:59
 msgid "Color model"
-msgstr "Modellu de colore"
+msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:75
 msgid "Quality"
-msgstr "Calidade"
+msgstr ""
 
 #: ../plugins/cellular/Components/RadioSingleSim.qml:31
 #: ../plugins/cellular/Components/MultiSim.qml:83
 msgid "Connection type:"
-msgstr "Genia de connessione:"
+msgstr ""
 
 #: ../plugins/cellular/Components/MultiSim.qml:55
 #: ../plugins/cellular/Components/SingleSim.qml:105
 msgid "Data usage statistics"
-msgstr "Istatìsticas de impreu de datos"
+msgstr ""
 
 #: ../plugins/cellular/Components/MultiSim.qml:60
 msgid "Carriers"
-msgstr "Operadores"
+msgstr ""
 
 #: ../plugins/cellular/Components/SingleSim.qml:69
 msgid "Cellular data:"
-msgstr "Datos mòbiles:"
+msgstr ""
 
 #: ../plugins/cellular/Components/SingleSim.qml:92
 #: ../plugins/cellular/Components/DataMultiSim.qml:147
 msgid "Data roaming"
-msgstr "Roaming de datos"
+msgstr ""
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:36
 msgid "Cellular data"
-msgstr "Datos mòbiles"
+msgstr ""
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:73
 #: ../plugins/cellular/Components/NoSim.qml:36
 msgid "No SIM detected"
-msgstr "Peruna SIM rilevada"
+msgstr ""
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:81
 #: ../plugins/cellular/Components/NoSim.qml:45
 msgid "Insert a SIM, then restart the device."
-msgstr "Inserta una SIM e torra a aviare su dispositivu."
+msgstr ""
 
 #: ../plugins/cellular/Components/DefaultSim.qml:33
 msgid "Ask me each time"
-msgstr "Pregonta·mi·lu cada borta"
+msgstr ""
 
 #: ../plugins/cellular/Components/DefaultSim.qml:40
 msgid "For outgoing calls, use:"
-msgstr "Pro fàghere mutidas, imprea:"
+msgstr ""
 
 #: ../plugins/cellular/Components/DefaultSim.qml:57
 msgid ""
 "You can change the SIM for individual calls, or for contacts in the address "
 "book."
 msgstr ""
-"Podes cambiare sa SIM pro mutidas personales o pro cada cuntatu in rubrica."
 
 #: ../plugins/cellular/Components/DefaultSim.qml:62
 msgid "For messages, use:"
-msgstr "Pro is messàgios, imprea:"
+msgstr ""
 
 #: ../plugins/cellular/Components/SimEditor.qml:88
 msgid "Edit SIM Name"
-msgstr "Modìfica su nòmine de sa SIM"
+msgstr ""
 
 #. TRANSLATORS: This is the text that will be used on the "return" key for the virtual keyboard,
 #. this word must be less than 5 characters
 #: ../plugins/cellular/Components/LabelTextField.qml:51
 msgid "Next"
-msgstr "Imbeniente"
+msgstr ""
 
 #: ../plugins/cellular/Components/Sim.qml:46
 msgid "2G only (saves battery)"
-msgstr "Isceti 2G (istràvia bateria)"
+msgstr ""
 
 #: ../plugins/cellular/Components/Sim.qml:47
 msgid "2G/3G (faster)"
-msgstr "2G/3G (prus lestru)"
+msgstr ""
 
 #: ../plugins/cellular/Components/Sim.qml:48
 msgid "2G/3G/4G (faster)"
-msgstr "2G/3G/4G (prus lestru)"
+msgstr ""
 
 #: ../plugins/security-privacy/diagnostics/PageComponent.qml:59
 msgid "Privacy policy"
-msgstr "Normativa de riservadesa"
+msgstr ""
 
 #: ../plugins/security-privacy/diagnostics/PageComponent.qml:66
 msgid "Report to Canonical:"
-msgstr "Signala a Canonical:"
+msgstr ""
 
 #: ../plugins/security-privacy/diagnostics/PageComponent.qml:80
 msgid "App crashes and errors"
-msgstr "Blocus de aplicatzione e faddinas"
+msgstr ""
 
 #: ../plugins/security-privacy/diagnostics/PageComponent.qml:86
 msgid "Previous error reports"
-msgstr "Signalatziones de faddinas pretzedentes"
+msgstr ""
 
 #: ../plugins/security-privacy/diagnostics/PageComponent.qml:96
 msgid "Includes info about what an app was doing when it failed."
 msgstr ""
-"Includet informatziones subra ite fiat faghende s'aplicatzione cando b'est "
-"istada sa faddina."
 
 #: ../src/qml/MainWindow.qml:203
 msgid "Search"
-msgstr "Chirca"
+msgstr ""
 
 #: ../src/qml/MainWindow.qml:246
 msgid "Personal"
-msgstr "Informatziones personales"
+msgstr ""
 
 #: ../src/qml/MainWindow.qml:251
 msgid "System"
-msgstr "Sistema"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the flight-mode plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:2
 msgid "Flight Mode"
-msgstr "Modalidade aèreu"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the flight-mode plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:4
 msgid "flight"
-msgstr "bolu"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the flight-mode plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:6
 msgid "plane"
-msgstr "aèreu"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the flight-mode plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:8
 msgid "offline"
-msgstr "foras de lìnia"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the flight-mode plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:10
 msgid "airplane"
-msgstr "aèreu"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the flight-mode plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
@@ -3139,12 +3050,12 @@ msgstr "aèreu"
 #: ../obj-x86_64-linux-gnu/po/settings.js:292
 #: ../obj-x86_64-linux-gnu/po/settings.js:390
 msgid "network"
-msgstr "rete"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:16
 msgid "system"
-msgstr "sistema"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the notifications plugin which is used while searching
@@ -3153,12 +3064,12 @@ msgstr "sistema"
 #: ../obj-x86_64-linux-gnu/po/settings.js:58
 #: ../obj-x86_64-linux-gnu/po/settings.js:246
 msgid "software"
-msgstr "programma"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:20
 msgid "update"
-msgstr "atualiza"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the notifications plugin which is used while searching
@@ -3167,12 +3078,12 @@ msgstr "atualiza"
 #: ../obj-x86_64-linux-gnu/po/settings.js:62
 #: ../obj-x86_64-linux-gnu/po/settings.js:416
 msgid "apps"
-msgstr "aplicatziones"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:24
 msgid "application"
-msgstr "aplicatzione"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the time-date plugin which is used while searching
@@ -3183,203 +3094,202 @@ msgstr "aplicatzione"
 #: ../obj-x86_64-linux-gnu/po/settings.js:330
 #: ../obj-x86_64-linux-gnu/po/settings.js:384
 msgid "automatic"
-msgstr "automàticu"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:28
 msgid "download"
-msgstr "iscàrriga"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:30
 msgid "upgrade"
-msgstr "atualiza"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:32
 #: ../obj-x86_64-linux-gnu/po/settings.js:52
 msgid "click"
-msgstr "clic"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the update-notification plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:34
 msgid "Updates available"
-msgstr "Atualizatziones disponìbiles"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the launcher plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:38
 msgid "launcher"
-msgstr "launcher"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the launcher plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:40
 #: ../obj-x86_64-linux-gnu/po/settings.js:82
 msgid "appearance"
-msgstr "aspetu"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:44
 msgid "mouse"
-msgstr "sòrighe"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:46
 msgid "touchpad"
-msgstr "sòrighe tàtile"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:48
 msgid "tap"
-msgstr "toca"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:50
 msgid "touch"
-msgstr "toca"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:54
 msgid "input"
-msgstr "intrada"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the notifications plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:60
 msgid "notifications"
-msgstr "notìficas"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the notifications plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:64
 msgid "authorize"
-msgstr "autoriza"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the notifications plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:66
 msgid "alerts"
-msgstr "avisos"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the notifications plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:68
 msgid "permissions"
-msgstr "permissos"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the notifications plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:70
 msgid "badges"
-msgstr "insignas"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the notifications plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:72
 msgid "facebook"
-msgstr "facebook"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the notifications plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:74
 msgid "twitter"
-msgstr "twitter"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the notifications plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:76
 msgid "flickr"
-msgstr "flickr"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the notifications plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:78
 msgid "gmail"
-msgstr "gmail"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:84
 msgid "background"
-msgstr "isfundu"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:86
 msgid "wallpaper"
-msgstr "isfundu de iscrivania"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:88
 msgid "art"
-msgstr "arte"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:90
-#, fuzzy
 msgid "photo"
-msgstr "Fotografias"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:92
 msgid "picture"
-msgstr "immàgine"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:94
 msgid "image"
-msgstr "immàgine"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:98
 msgid "sound"
-msgstr "sonu"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:100
 msgid "silent"
-msgstr "a sa muda"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:102
 msgid "ringtone"
-msgstr "tonu de mutida"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:104
 msgid "vibrate"
-msgstr "vibra"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:106
 #: ../obj-x86_64-linux-gnu/po/settings.js:278
 msgid "dialpad"
-msgstr "tecladu numèricu"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:108
 msgid "message"
-msgstr "messàgiu"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:110
 #: ../obj-x86_64-linux-gnu/po/settings.js:326
 msgid "keyboard"
-msgstr "tecladu"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:112
 msgid "volume"
-msgstr "volùmene"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the bluetooth plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:118
 #: ../obj-x86_64-linux-gnu/po/settings.js:314
 msgid "wireless"
-msgstr "sena filos"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:120
 msgid "wifi"
-msgstr "wifi"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:122
 msgid "WiFi"
-msgstr "WiFi"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the bluetooth plugin which is used while searching
@@ -3388,7 +3298,7 @@ msgstr "WiFi"
 #: ../obj-x86_64-linux-gnu/po/settings.js:316
 #: ../obj-x86_64-linux-gnu/po/settings.js:392
 msgid "connect"
-msgstr "connete"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the bluetooth plugin which is used while searching
@@ -3397,19 +3307,19 @@ msgstr "connete"
 #: ../obj-x86_64-linux-gnu/po/settings.js:318
 #: ../obj-x86_64-linux-gnu/po/settings.js:394
 msgid "disconnect"
-msgstr "disconnete"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:128
 msgid "hidden"
-msgstr "cuadu"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:130
 #: ../obj-x86_64-linux-gnu/po/settings.js:400
 msgid "ip"
-msgstr "ip"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
@@ -3418,139 +3328,139 @@ msgstr "ip"
 #: ../obj-x86_64-linux-gnu/po/settings.js:238
 #: ../obj-x86_64-linux-gnu/po/settings.js:402
 msgid "address"
-msgstr "indiritzu"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:136
 msgid "printer"
-msgstr "imprentadora"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:138
 msgid "printers"
-msgstr "imprentadoras"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:140
 msgid "printing"
-msgstr "imprentende"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:142
 msgid "pdf"
-msgstr "pdf"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:144
 msgid "ppd"
-msgstr "ppd"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:146
 msgid "collate"
-msgstr "òrdina"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:148
 msgid "copies"
-msgstr "còpias"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:150
 msgid "colormodel"
-msgstr "modellu de colore"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:152
 msgid "greyscale"
-msgstr "iscala de murros"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:154
 msgid "color"
-msgstr "colore"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:156
 msgid "laser"
-msgstr "laser"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:158
 msgid "ink"
-msgstr "tinta"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:162
 msgid "cellular"
-msgstr "mòbile"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:166
 msgid "mobile"
-msgstr "mòbile"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:168
 msgid "gsm"
-msgstr "gsm"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:170
 msgid "data"
-msgstr "datos"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:172
 msgid "carrier"
-msgstr "operadore"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:174
 msgid "4g"
-msgstr "4g"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:176
 msgid "3g"
-msgstr "3g"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:178
 msgid "2g"
-msgstr "2g"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:180
 msgid "lte"
-msgstr "lte"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:182
 msgid "apn"
-msgstr "puntu de atzessu"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:184
 msgid "roam"
-msgstr "roam"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:186
 #: ../obj-x86_64-linux-gnu/po/settings.js:196
 msgid "sim"
-msgstr "sim"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:190
 msgid "security"
-msgstr "seguresa"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:192
 msgid "privacy"
-msgstr "riservadesa"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the battery plugin which is used while searching
@@ -3559,459 +3469,454 @@ msgstr "riservadesa"
 #: ../obj-x86_64-linux-gnu/po/settings.js:358
 #: ../obj-x86_64-linux-gnu/po/settings.js:412
 msgid "lock"
-msgstr "blocu"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:198
 msgid "pin"
-msgstr "pin"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:200
 msgid "code"
-msgstr "còdighe"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:202
 msgid "password"
-msgstr "crae"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:204
 msgid "passphrase"
-msgstr "crae"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:206
 msgid "swipe"
-msgstr "iscurre"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:208
 msgid "allow"
-msgstr "permite"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:210
 msgid "access"
-msgstr "atzessu"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the time-date plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:214
 msgid "time"
-msgstr "oràriu"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the time-date plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:216
 msgid "date"
-msgstr "data"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the time-date plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:218
 msgid "timezone"
-msgstr "fusu oràriu"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:224
 msgid "about"
-msgstr "informatziones"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the bluetooth plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:226
 #: ../obj-x86_64-linux-gnu/po/settings.js:306
 msgid "device"
-msgstr "dispositivu"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:228
 msgid "info"
-msgstr "informatziones"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:230
 #: ../obj-x86_64-linux-gnu/po/settings.js:268
 msgid "phone"
-msgstr "telèfonu"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:232
 msgid "number"
-msgstr "nùmeru"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:234
 msgid "imei"
-msgstr "imei"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:236
 msgid "serial"
-msgstr "nùmeru de sèrie"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:240
 msgid "mac"
-msgstr "mac"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:242
 msgid "licenses"
-msgstr "lissèntzias"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:244
 msgid "developer"
-msgstr "isvilupadore"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:248
 msgid "storage"
-msgstr "memòria"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:250
 msgid "disk"
-msgstr "discu"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:252
 msgid "space"
-msgstr "ispàtziu"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:254
 msgid "version"
-msgstr "versione"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:256
 msgid "revision"
-msgstr "revisione"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the example plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:258
 msgid "Example"
-msgstr "Esèmpiu"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the example plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:260
 msgid "example"
-msgstr "esèmpiu"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the example plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:262
 msgid "test"
-msgstr "proa"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the example plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:264
 msgid "sample"
-msgstr "modellu"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:270
 msgid "services"
-msgstr "servìtzios"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:272
 msgid "forwarding"
-msgstr "deviatzione"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:274
 msgid "waiting"
-msgstr "iseta"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:276
 msgid "call"
-msgstr "mutida"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:280
 msgid "shortcuts"
-msgstr "incurtzaduras"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:282
 msgid "numbers"
-msgstr "nùmeros"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the accessibility plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:284
 msgid "Accessibility"
-msgstr "Atzessibilidade"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the accessibility plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:286
 msgid "accessibility"
-msgstr "atzessibilidade"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the accessibility plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:288
 msgid "a11y"
-msgstr "a11y"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the hotspot plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:294
 msgid "hotspot"
-msgstr "puntu de atzessu Wi-Fi"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the hotspot plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:296
 msgid "tethering"
-msgstr "tethering"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the bluetooth plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:300
 msgid "bluetooth"
-msgstr "bluetooth"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the bluetooth plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:302
 msgid "headset"
-msgstr "microauricolare"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the bluetooth plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:304
 msgid "pair"
-msgstr "assòtzia"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the bluetooth plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:308
 msgid "discover"
-msgstr "iscoberre"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the bluetooth plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:310
 msgid "car"
-msgstr "vetura"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the bluetooth plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:312
 msgid "handsfree"
-msgstr "vivavoce"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the bluetooth plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:320
 msgid "stereo"
-msgstr "istèreu"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:324
 msgid "language"
-msgstr "limba"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:328
 msgid "spellcheck"
-msgstr "controllu ortogràficu"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:332
 msgid "correct"
-msgstr "curretu"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:334
 msgid "suggestions"
-msgstr "cussìgius"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:336
 msgid "capitalization"
-msgstr "majùsculu"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:338
 msgid "punctuation"
-msgstr "puntegiadura"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:340
 msgid "layout"
-msgstr "dispositzione"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the brightness plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:342
 #: ../obj-x86_64-linux-gnu/po/settings.js:380
 msgid "display"
-msgstr "ischermu"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:344
 msgid "words"
-msgstr "faeddos"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:346
 msgid "vibration"
-msgstr "vibratzione"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the battery plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:350
 msgid "battery"
-msgstr "bateria"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the battery plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:352
 msgid "power"
-msgstr "alimentatzione"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the battery plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:354
 msgid "charge"
-msgstr "càrriga"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the battery plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:356
 msgid "idle"
-msgstr "inativu"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the battery plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:360
 msgid "disable"
-msgstr "disativa"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the battery plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:362
 msgid "enable"
-msgstr "ativa"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:366
 msgid "reset"
-msgstr "reseta"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:368
 msgid "erase"
-msgstr "cantzella"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:370
 msgid "factory"
-msgstr "fàbrica"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:372
 msgid "clear"
-msgstr "lìmpia"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:374
 msgid "restore"
-msgstr "riprìstina"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the brightness plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:378
 msgid "brightness"
-msgstr "lugore"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the brightness plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the orientation-lock plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:382
 #: ../obj-x86_64-linux-gnu/po/settings.js:414
 msgid "screen"
-msgstr "ischermu"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the brightness plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:386
 msgid "adjust"
-msgstr "acontza"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:396
 msgid "vpn"
-msgstr "vpn"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:398
 msgid "openvpn"
-msgstr "openvpn"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:404
 msgid "routing"
-msgstr "percursu"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the orientation-lock plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:406
 msgid "Rotation Lock"
-msgstr "Blocu de sa rotatzione"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the orientation-lock plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:408
 msgid "rotation"
-msgstr "rotatzione"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the orientation-lock plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:410
 msgid "orientation"
-msgstr "orientatzione"
+msgstr ""
 
 #: ../plugins/wifi/certhandler.cpp:258
 msgid "Private key"
-msgstr "Crae privada"
+msgstr ""
 
 #: ../plugins/wifi/certhandler.cpp:259
 msgid "Public key"
-msgstr "Crae pùblica"
+msgstr ""
 
 #: ../plugins/wifi/certhandler.cpp:264
 msgid "Opaque"
-msgstr "Annapadu"
+msgstr ""
 
 #: ../plugins/security-privacy/securityprivacy.cpp:369
 msgid "Incorrect passcode. Try again."
-msgstr "Su còdighe de atzessu es isballiadu, torra a proare."
+msgstr ""
 
 #: ../plugins/security-privacy/securityprivacy.cpp:371
 msgid "Incorrect passphrase. Try again."
-msgstr "Sa crae est isballiada. Torra a proare."
+msgstr ""
 
 #: ../plugins/security-privacy/securityprivacy.cpp:374
 msgid "Could not set security mode"
-msgstr "No s'est pòdida cunfigurare sa modalidade de seguresa"
+msgstr ""
 
 #: ../plugins/security-privacy/securityprivacy.cpp:399
 msgid "Could not set security display hint"
 msgstr ""
-"Non s'est pòdida cunfigurare sa visualizatzione de su cussìgiu de seguresa"
 
 #: ../plugins/security-privacy/securityprivacy.cpp:413
 msgid "Authentication token manipulation error"
-msgstr "Faddina de manipulatzione de su token de autenticatzione"
+msgstr ""
 
 #: ../plugins/about/click.cpp:168
 msgid "Unknown title"
-msgstr "Tìtulu disconnottu"
+msgstr ""
 
 #: ../src/systemimage.cpp:181
 msgid "Can't cancel current request (can't contact service)"
 msgstr ""
-"Non si podet annullare sa rechèdida atuale (no si podet cuntatare su "
-"servìtziu)"
 
 #: ../src/systemimage.cpp:194
 msgid "Can't pause current request (can't contact service)"
 msgstr ""
-"Non si podet firmare sa rechèdida atuale (non si podet cuntatare su "
-"servìtziu)"
 
 #: ../src/systemimage.cpp:318 ../src/systemimage.cpp:324
 #: ../src/systemimage.cpp:330
 msgid "Unavailable"
-msgstr "Non disponìbile"
+msgstr ""
 
 #: ../push-helper/software_updates_helper.py:159
 msgid "There's an updated system image."
-msgstr "B'est un'atualizatzione de sistema disponìbile."
+msgstr ""
 
 #: ../push-helper/software_updates_helper.py:160
 msgid "Tap to open the system updater."
-msgstr "Toca pro abrire s'atualizadore de sistema."
+msgstr ""

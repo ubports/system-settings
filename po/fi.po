@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-12-09 00:00+0000\n"
+"PO-Revision-Date: 2018-12-20 18:33+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://translate.ubports.com/projects/ubports/"
 "system-settings/fi/>\n"
@@ -538,7 +538,7 @@ msgstr "Dash-valikon tausta"
 
 #: ../plugins/background/MainPage.qml:131
 msgid "Opacity:"
-msgstr ""
+msgstr "Peittokyky:"
 
 #: ../plugins/background/Preview.qml:69
 msgid "Preview"
@@ -3285,7 +3285,7 @@ msgstr "taide"
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:90
 msgid "photo"
-msgstr "valokuva"
+msgstr "kuva"
 
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:92
