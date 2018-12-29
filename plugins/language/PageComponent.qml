@@ -24,6 +24,7 @@ import GSettings 1.0
 import SystemSettings 1.0
 import Ubuntu.Components 1.3
 import Ubuntu.Components.Popups 1.3
+import SystemSettings.ListItems 1.0 as SettingsListItems
 import Ubuntu.Components.ListItems 1.3 as ListItem
 import Ubuntu.Settings.Menus 0.1 as Menus
 import Ubuntu.SystemSettings.LanguagePlugin 1.0
@@ -157,10 +158,9 @@ ItemPage {
                 }
             }
 
-            ListItem.SingleValue {
+            SettingsListItems.SingleValueProgression {
                 text: externalKeyboardPresent ? i18n.tr("On-screen keyboard") :
                                                 i18n.tr("Keyboard layouts")
-                progression: true
                 value: oskPlugin.keyboardLayoutsModel.subset.length == 1 ?
                        oskPlugin.keyboardLayoutsModel.superset[oskPlugin.keyboardLayoutsModel.subset[0]][0] :
                        oskPlugin.keyboardLayoutsModel.subset.length
@@ -169,24 +169,47 @@ ItemPage {
                 })
             }
 
-            ListItem.Standard {
+            SettingsListItems.SingleValueProgression {
                 text: i18n.tr("External keyboard")
-                progression: true
                 showDivider: false
                 onClicked: pageStack.addPageToNextColumn(root, Qt.resolvedUrl("PageHardwareKeyboard.qml"))
                 visible: externalKeyboardPresent || showAllUI
             }
 
             ListItem.Divider {}
+            
+            SettingsListItems.SingleValueProgression {
+                objectName: "oskTheme"
+                
+                readonly property variant model: [{name: i18n.tr("Ambiance"), value: "Ambiance"}
+                        ,{name: i18n.tr("Suru Dark"), value: "SuruDark"}
+                        ,{name: i18n.tr("Suru Black"), value: "SuruBlack"}
+                        ,{name: i18n.tr("Just White"), value: "JustWhite"}
+                        ,{name: i18n.tr("Just Black"), value: "JustBlack"}
+                        ,{name: i18n.tr("Just Grey"), value: "JustGrey"}
+                        ,{name: i18n.tr("Bordered White"), value: "BorderedWhite"}
+                        ,{name: i18n.tr("Bordered Black"), value: "BorderedBlack"}
+                        ,{name: i18n.tr("Bordered Grey"), value: "BorderedGrey"}
+                    ]
+                    
+                text: externalKeyboardPresent ? i18n.tr("On-screen keyboard theme") :
+                                                i18n.tr("Keyboard theme")
+                value: model.find(function(data){return data.value === settings.theme}).name
+                onClicked:
+                    pageStack.addPageToNextColumn(root,
+                        Qt.resolvedUrl("ThemeValues.qml"),
+                        { title: text, themeModel: model } )
+            }
+            
+            ListItem.Divider {}
 
-            ListItem.SingleValue {
+            SettingsListItems.SingleValueProgression {
                 visible: showAllUI
 
                 text: i18n.tr("Spell checking")
                 value: plugin.spellCheckingModel.subset.length == 1 ?
                        plugin.spellCheckingModel.superset[plugin.spellCheckingModel.subset[0]][0] :
                        plugin.spellCheckingModel.subset.length
-                progression: true
 
                 onClicked: pageStack.addPageToNextColumn(root, spellChecking)
             }
