@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
 "PO-Revision-Date: 2019-01-01 16:23+0000\n"
-"Last-Translator: advocatux <advocatux@airpost.net>\n"
+"Last-Translator: Josué <j2g2rp@gmail.com>\n"
 "Language-Team: Spanish <https://translate.ubports.com/projects/ubports/"
 "system-settings/es/>\n"
 "Language: es\n"
@@ -532,7 +532,7 @@ msgstr "Auricular"
 
 #: ../plugins/bluetooth/DevicePage.qml:53
 msgid "Headphones"
-msgstr "Audífonos"
+msgstr "Auriculares"
 
 #: ../plugins/bluetooth/DevicePage.qml:54
 msgid "Video"
