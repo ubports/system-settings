@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-01-01 19:53+0000\n"
+"PO-Revision-Date: 2019-01-02 11:59+0000\n"
 "Last-Translator: Max Libre <libremax@protonmail.com>\n"
 "Language-Team: French <https://translate.ubports.com/projects/ubports/"
 "system-settings/fr/>\n"
@@ -3861,7 +3861,7 @@ msgstr "son"
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../build/po/settings.js:334
 msgid "silent"
-msgstr "silencieux"
+msgstr "Silencieux"
 
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../build/po/settings.js:336
