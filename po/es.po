@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-01-01 16:23+0000\n"
+"PO-Revision-Date: 2019-01-06 00:01+0000\n"
 "Last-Translator: Josué <j2g2rp@gmail.com>\n"
 "Language-Team: Spanish <https://translate.ubports.com/projects/ubports/"
 "system-settings/es/>\n"
@@ -2278,7 +2278,7 @@ msgstr "Timbre:"
 
 #: ../plugins/sound/PageComponent.qml:141
 msgid "High volume can damage your hearing."
-msgstr "El volumen alto puede dañar sus oídos."
+msgstr "Un volumen demasiado alto puede causarle daños auditivos."
 
 #: ../plugins/sound/PageComponent.qml:145
 msgid "Phone calls:"
@@ -3841,7 +3841,7 @@ msgstr "sonido"
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../build/po/settings.js:334
 msgid "silent"
-msgstr "silencio"
+msgstr "Silenciar"
 
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../build/po/settings.js:336
