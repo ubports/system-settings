@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-01-01 19:30+0000\n"
+"PO-Revision-Date: 2019-01-12 10:53+0000\n"
 "Last-Translator: Daniel Frańczak <danielfranczak5@wp.pl>\n"
 "Language-Team: Polish <https://translate.ubports.com/projects/ubports/"
 "system-settings/pl/>\n"
@@ -1265,15 +1265,15 @@ msgstr "Szary"
 
 #: ../plugins/language/PageComponent.qml:190
 msgid "Bordered White"
-msgstr "Wokół białego"
+msgstr "Biały z obramowaniem"
 
 #: ../plugins/language/PageComponent.qml:191
 msgid "Bordered Black"
-msgstr "Wokół czarnego"
+msgstr "Czarny z obramowaniem"
 
 #: ../plugins/language/PageComponent.qml:192
 msgid "Bordered Grey"
-msgstr "Wokół szarego"
+msgstr "Szary z obramowaniem"
 
 #: ../plugins/language/PageComponent.qml:195
 msgid "On-screen keyboard theme"
@@ -1449,11 +1449,11 @@ msgstr "Przycisk podstawowy:"
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:72
 msgid "Left"
-msgstr "Lewo"
+msgstr "Lewy"
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:89
 msgid "Right"
-msgstr "Prawo"
+msgstr "Prawy"
 
 #: ../plugins/mouse/TapArea.qml:38
 msgid "Not fast enough"
