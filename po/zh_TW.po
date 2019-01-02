@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-01-02 01:00+0000\n"
+"PO-Revision-Date: 2019-01-06 00:00+0000\n"
 "Last-Translator: Louies <louies0623@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.ubports.com/projects/"
 "ubports/system-settings/zh_Hant/>\n"
@@ -1266,7 +1266,7 @@ msgstr "鍵盤主題"
 #: ../plugins/language/SpellChecking.qml:29
 #: ../plugins/language/SpellChecking.qml:45
 msgid "Spell checking"
-msgstr "拼字檢查"
+msgstr "拼寫檢查中"
 
 #: ../plugins/language/PageComponent.qml:229
 msgid "Auto correction"
@@ -1323,11 +1323,11 @@ msgstr "立刻重新啟動"
 
 #: ../plugins/language/SpellChecking.qml:64
 msgid "Current spelling languages:"
-msgstr "目前會檢查拼字的語言："
+msgstr "目前拼寫中的語言："
 
 #: ../plugins/language/SpellChecking.qml:65
 msgid "All languages available:"
-msgstr "所有可用語言："
+msgstr "所有可用的語言："
 
 #. TRANSLATORS: This is a keyword or name for the launcher plugin which is used while searching
 #: ../plugins/launcher/PageComponent.qml:31
@@ -2376,7 +2376,7 @@ msgstr "正在下載和刷入固件更新，這可能需要幾分鐘…"
 
 #: ../plugins/system-update/FirmwareUpdate.qml:235
 msgid "Checking for firmware update"
-msgstr "檢查固件更新"
+msgstr "正在檢查固件是否有更新"
 
 #: ../plugins/system-update/GlobalUpdateControls.qml:84
 msgid "Checking for updates…"
@@ -2649,7 +2649,7 @@ msgstr "加入憑證？"
 
 #: ../plugins/wifi/CertDialog.qml:24
 msgid "Add key?"
-msgstr "加入密碼？"
+msgstr "加入金鑰？"
 
 #: ../plugins/wifi/CertDialog.qml:26
 msgid "Add pac file?"
