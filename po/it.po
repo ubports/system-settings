@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
 "PO-Revision-Date: 2019-01-06 00:00+0000\n"
-"Last-Translator: Simone <19simok89@gmail.com>\n"
+"Last-Translator: Ennio Lavagnini <ennio.lavagnini@protonmail.com>\n"
 "Language-Team: Italian <https://translate.ubports.com/projects/ubports/"
 "system-settings/it/>\n"
 "Language: it\n"
@@ -284,7 +284,7 @@ msgstr "Rimuovi immagine"
 #: ../plugins/background/Components/AddRemove.qml:42
 #: ../plugins/cellular/Components/SimEditor.qml:203
 msgid "Cancel"
-msgstr "Annulla"
+msgstr "Cancella"
 
 #: ../plugins/background/Preview.qml:113
 #: ../plugins/phone/CallForwarding.qml:253
@@ -751,7 +751,7 @@ msgstr "C'è stato un errore sconosciuto connettendosi a %1."
 #: ../plugins/vpn/PageComponent.qml:123
 #: ../plugins/cellular/Components/SimEditor.qml:214
 msgid "OK"
-msgstr "OK"
+msgstr "Ok"
 
 #: ../plugins/cellular/PageApnEditor.qml:71
 msgid "Edit"
@@ -2281,7 +2281,7 @@ msgstr ""
 
 #: ../plugins/sound/PageComponent.qml:76
 msgid "Silent Mode"
-msgstr "Modalità silenziosa"
+msgstr "Silenzioso"
 
 #: ../plugins/sound/PageComponent.qml:100
 msgid "Ringer:"
@@ -2289,7 +2289,7 @@ msgstr "Suoneria:"
 
 #: ../plugins/sound/PageComponent.qml:141
 msgid "High volume can damage your hearing."
-msgstr "Un volume troppo alto può danneggiare l'udito."
+msgstr "Un volume alto può danneggiare il tuo udito"
 
 #: ../plugins/sound/PageComponent.qml:145
 msgid "Phone calls:"
@@ -3852,7 +3852,7 @@ msgstr "audio"
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../build/po/settings.js:334
 msgid "silent"
-msgstr "silenzioso"
+msgstr "Silenzioso"
 
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../build/po/settings.js:336
