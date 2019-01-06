@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-01-06 00:00+0000\n"
-"Last-Translator: Ennio Lavagnini <ennio.lavagnini@protonmail.com>\n"
+"PO-Revision-Date: 2019-01-12 10:53+0000\n"
+"Last-Translator: Mike <miguel2000@livecom.it>\n"
 "Language-Team: Italian <https://translate.ubports.com/projects/ubports/"
 "system-settings/it/>\n"
 "Language: it\n"
@@ -1239,12 +1239,10 @@ msgid "External keyboard"
 msgstr "Tastiera esterna"
 
 #: ../plugins/language/PageComponent.qml:184
-#, fuzzy
 msgid "Ambiance"
-msgstr "Ambiente"
+msgstr "Ambiance"
 
 #: ../plugins/language/PageComponent.qml:185
-#, fuzzy
 msgid "Suru Dark"
 msgstr "Suru Dark"
 
@@ -2289,7 +2287,7 @@ msgstr "Suoneria:"
 
 #: ../plugins/sound/PageComponent.qml:141
 msgid "High volume can damage your hearing."
-msgstr "Un volume alto può danneggiare il tuo udito"
+msgstr "L'ascolto a volume alto può danneggiare il tuo udito."
 
 #: ../plugins/sound/PageComponent.qml:145
 msgid "Phone calls:"
