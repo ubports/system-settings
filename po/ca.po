@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-01-01 23:01+0000\n"
-"Last-Translator: Jaume Angrill <txaume@protonmail.com>\n"
+"PO-Revision-Date: 2019-01-16 17:29+0000\n"
+"Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
 "Language-Team: Catalan <https://translate.ubports.com/projects/ubports/"
 "system-settings/ca/>\n"
 "Language: ca\n"
@@ -2430,7 +2430,7 @@ msgid ""
 "Downloading and Flashing firmware updates, this could take a few minutes..."
 msgstr ""
 "S'estan baixant i instal·lant actualitzacions de microprogramari, això pot "
-"trigar uns quants minuts ..."
+"trigar uns quants minuts..."
 
 #: ../plugins/system-update/FirmwareUpdate.qml:235
 msgid "Checking for firmware update"
@@ -2517,7 +2517,7 @@ msgstr "Actualitza la configuració"
 #: ../plugins/system-update/ReinstallAllApps.qml:95
 #: ../plugins/system-update/UpdateSettings.qml:88
 msgid "Reinstall all apps"
-msgstr "Reinstal·lar totes les apps"
+msgstr "Reinstal·la totes les apps"
 
 #: ../plugins/system-update/ReinstallAllApps.qml:85
 msgid ""
