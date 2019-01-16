@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 14:56+0300\n"
-"PO-Revision-Date: 2018-12-15 08:51+0000\n"
-"Last-Translator: Willem Hexspoor <willem@hexspoor.online>\n"
+"PO-Revision-Date: 2018-12-23 00:00+0000\n"
+"Last-Translator: matv1 <mathijsv33n@gmail.com>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
 "system-settings/nl/>\n"
 "Language: nl\n"
@@ -1108,7 +1108,7 @@ msgstr "Kies een printer uit de lijst"
 
 #: ../plugins/printing/AddPrinterDetails.qml:228
 msgid "Provide PPD file"
-msgstr "Een PPD bestand is nodig. Geef een PPD bestand."
+msgstr "Een PPD bestand is nodig"
 
 #: ../plugins/printing/AddPrinterDetails.qml:235
 msgid "Filter drivers"
@@ -1664,7 +1664,7 @@ msgstr ""
 
 #: ../plugins/security-privacy/Location.qml:195
 msgid "Not at all"
-msgstr ""
+msgstr "Niet gebruiken"
 
 #: ../plugins/security-privacy/Location.qml:212
 msgid ""
@@ -2216,7 +2216,7 @@ msgstr "Ik ben in gesprek"
 
 #: ../plugins/phone/CallForwarding.qml:186
 msgid "I don’t answer"
-msgstr ""
+msgstr "Ik niet opneem"
 
 #: ../plugins/phone/CallForwarding.qml:197
 msgid "My phone is unreachable"
@@ -2224,7 +2224,7 @@ msgstr "Mijn telefoon is onbereikbaar"
 
 #: ../plugins/phone/CallForwarding.qml:227
 msgid "Contacts…"
-msgstr ""
+msgstr "Contacten…"
 
 #: ../plugins/phone/CallForwarding.qml:274
 msgid "Please select a phone number"
@@ -2271,11 +2271,11 @@ msgstr "Kies een wachtwoordzin"
 
 #: ../plugins/hotspot/HotspotSetup.qml:193
 msgid "Require a password (recommended):"
-msgstr ""
+msgstr "wachtwoord vereist (aangeraden):"
 
 #: ../plugins/hotspot/HotspotSetup.qml:245
 msgid "Starting the hotspot will turn on Wi-Fi."
-msgstr ""
+msgstr "Het starten van een hotspot zal Wi-Fi inschakelen."
 
 #: ../plugins/hotspot/HotspotSetup.qml:275
 msgid "Start"
@@ -2322,7 +2322,7 @@ msgstr "Wi-Fihotspot"
 
 #: ../plugins/hotspot/PageComponent.qml:156
 msgid "In order to create a hotspot, you need to turn Wi-Fi on."
-msgstr ""
+msgstr "Om een hotspot te maken moet u Wi-Fi aanzetten."
 
 #: ../plugins/hotspot/PageComponent.qml:165
 #, fuzzy
@@ -2358,7 +2358,7 @@ msgstr "Bluetooth koppelingsverzoek"
 #, qt-format
 msgid ""
 "The device %1 wants to pair with this device. Do you want to allow this?"
-msgstr ""
+msgstr "Het apparaat %1 wil met dit apparaat koppelen. Wilt u dit toestaan?"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:39
 #, fuzzy
@@ -2367,7 +2367,7 @@ msgstr "toestaan"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:46
 msgid "Refuse"
-msgstr ""
+msgstr "Weigeren"
 
 #: ../plugins/bluetooth/DevicePage.qml:38
 #: ../plugins/bluetooth/PageComponent.qml:290
@@ -2428,7 +2428,7 @@ msgstr "Printer"
 
 #: ../plugins/bluetooth/DevicePage.qml:62
 msgid "Watch"
-msgstr ""
+msgstr "Horloge"
 
 #: ../plugins/bluetooth/DevicePage.qml:63
 msgid "Other"
@@ -2478,6 +2478,7 @@ msgstr "Dit apparaat vergeten"
 #, qt-format
 msgid "Please enter the following PIN on %1 and press “Enter” on the keyboard:"
 msgstr ""
+"Voer de volgende pincode in op %1 en druk op \"Enter\" op het toetsenbord:"
 
 #. TRANSLATORS: This is a keyword or name for the bluetooth plugin which is used while searching
 #: ../plugins/bluetooth/PageComponent.qml:33
@@ -2521,7 +2522,7 @@ msgstr "Niets gedetecteerd"
 #: ../plugins/bluetooth/ConfirmPasskeyDialog.qml:37
 #, qt-format
 msgid "Please confirm that the PIN displayed on '%1' matches this one"
-msgstr "Bevestig dat de pincode weergegeven op '%1' gelijk is aan deze."
+msgstr "Bevestig dat de pincode weergegeven op '%1' gelijk is aan deze"
 
 #: ../plugins/bluetooth/ConfirmPasskeyDialog.qml:57
 msgid "Confirm PIN"
@@ -2544,7 +2545,7 @@ msgstr "toetsenbord"
 
 #: ../plugins/language/PageHardwareKeyboard.qml:63
 msgid "Layouts and other sources"
-msgstr ""
+msgstr "Indelingen en andere bronnen"
 
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../plugins/language/PageComponent.qml:36
@@ -2808,7 +2809,7 @@ msgstr "Alles wissen & terugzetten op de standaardwaarden"
 
 #: ../plugins/brightness/WifiDisplays.qml:27
 msgid "Wireless Display"
-msgstr ""
+msgstr "Wireless Display"
 
 #: ../plugins/brightness/WifiDisplays.qml:100
 #, fuzzy
@@ -2879,7 +2880,7 @@ msgstr "verbinding verbreken"
 #: ../plugins/brightness/WifiDisplaysAlert.qml:34
 #, qt-format
 msgid "There was an unknown error connecting to %1."
-msgstr ""
+msgstr "Er ontstond een onbekende fout bij het verbinden met %1."
 
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../plugins/vpn/PageComponent.qml:31
@@ -2893,10 +2894,12 @@ msgid ""
 "To add a VPN configuration, download its config file or configure it "
 "manually."
 msgstr ""
+"Voor het toevoegen van een VPN configuratie dient u het bijbehorend config "
+"bestand te downloaden of handmatig in te stellen."
 
 #: ../plugins/vpn/PageComponent.qml:82
 msgid "Add Manual Configuration…"
-msgstr ""
+msgstr "Handmatige Configuratie toevoegen…"
 
 #: ../plugins/vpn/PageComponent.qml:117
 #, fuzzy
@@ -2939,15 +2942,15 @@ msgstr "Standaard"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:47
 msgid "This is the default printer."
-msgstr ""
+msgstr "Dit is de standaard printer."
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:60
 msgid "Accepting jobs"
-msgstr ""
+msgstr "Opdrachten accepeterend"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:69
 msgid "Shared"
-msgstr ""
+msgstr "Gedeeld"
 
 #: ../plugins/printing/printer-sub-pages/CopiesAndPages.qml:26
 msgid "Copies"
@@ -2955,7 +2958,7 @@ msgstr "Kopieën"
 
 #: ../plugins/printing/printer-sub-pages/CopiesAndPages.qml:46
 msgid "Paper size"
-msgstr ""
+msgstr "Papiergrootte"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:30
 msgid "Idle"
@@ -2978,7 +2981,7 @@ msgstr "Gestopt"
 #: ../plugins/printing/printer-sub-pages/Status.qml:40
 #, qt-format
 msgid "%1 — %2"
-msgstr ""
+msgstr "%1 — %2"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:43
 msgid "No messages"
@@ -2986,11 +2989,11 @@ msgstr "Geen berichten"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:48
 msgid "Jobs"
-msgstr ""
+msgstr "Opdrachten"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:53
 msgid "Manage Print Jobs"
-msgstr ""
+msgstr "Printopdrachten beheren"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:78
 #, fuzzy
@@ -3004,15 +3007,15 @@ msgstr "Modem"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:85
 msgid "Local Raw Printer"
-msgstr ""
+msgstr "Lokale Raw Printer"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:88
 msgid "Print test page"
-msgstr ""
+msgstr "Druk testpagina af"
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:43
 msgid "Duplex"
-msgstr ""
+msgstr "Dubbelzijdig"
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:59
 #, fuzzy
@@ -3264,7 +3267,7 @@ msgstr "Muis"
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:46
 msgid "touchpad"
-msgstr ""
+msgstr "touchpad"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:48
@@ -3280,7 +3283,7 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:54
 msgid "input"
-msgstr ""
+msgstr "invoer"
 
 #. TRANSLATORS: This is a keyword or name for the notifications plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:60
@@ -3478,7 +3481,7 @@ msgstr "wachten"
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:142
 msgid "pdf"
-msgstr ""
+msgstr "pdf"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:144
@@ -3488,12 +3491,12 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:146
 msgid "collate"
-msgstr ""
+msgstr "samenvoegen"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:148
 msgid "copies"
-msgstr ""
+msgstr "kopieën"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:150
@@ -3503,17 +3506,17 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:152
 msgid "greyscale"
-msgstr ""
+msgstr "grijswaarden"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:154
 msgid "color"
-msgstr ""
+msgstr "kleur"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:156
 msgid "laser"
-msgstr ""
+msgstr "laser"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:158
@@ -3980,7 +3983,7 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:404
 msgid "routing"
-msgstr ""
+msgstr "routering"
 
 #. TRANSLATORS: This is a keyword or name for the orientation-lock plugin which is used while searching
 #: ../obj-x86_64-linux-gnu/po/settings.js:406
@@ -4005,11 +4008,11 @@ msgstr "Privacy"
 
 #: ../plugins/wifi/certhandler.cpp:259
 msgid "Public key"
-msgstr ""
+msgstr "Publieke sleutel"
 
 #: ../plugins/wifi/certhandler.cpp:264
 msgid "Opaque"
-msgstr ""
+msgstr "Doorschijnend"
 
 #: ../plugins/security-privacy/securityprivacy.cpp:369
 msgid "Incorrect passcode. Try again."
