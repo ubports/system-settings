@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-01-06 00:00+0000\n"
-"Last-Translator: Louies <louies0623@gmail.com>\n"
+"PO-Revision-Date: 2019-01-27 00:00+0000\n"
+"Last-Translator: louies0623 <louies0623@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.ubports.com/projects/"
 "ubports/system-settings/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -1223,7 +1223,7 @@ msgstr "環境"
 
 #: ../plugins/language/PageComponent.qml:185
 msgid "Suru Dark"
-msgstr "Suru 暗沉"
+msgstr "Suru 黑暗"
 
 #: ../plugins/language/PageComponent.qml:186
 msgid "Suru Black"
