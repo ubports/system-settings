@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
 "PO-Revision-Date: 2019-01-27 00:00+0000\n"
-"Last-Translator: louies0623 <louies0623@gmail.com>\n"
+"Last-Translator: Hugh Y <hugh_yan@live.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.ubports.com/projects/"
 "ubports/system-settings/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -3936,9 +3936,8 @@ msgstr "时区"
 
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../build/po/settings.js:388
-#, fuzzy
 msgid "vpn"
-msgstr "pin"
+msgstr "虚拟专用网络"
 
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../build/po/settings.js:390
