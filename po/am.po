@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-01-12 10:53+0000\n"
+"PO-Revision-Date: 2019-02-24 00:00+0000\n"
 "Last-Translator: Samson <sambelet@yahoo.com>\n"
 "Language-Team: Amharic <https://translate.ubports.com/projects/ubports/"
 "system-settings/am/>\n"
@@ -149,7 +149,7 @@ msgstr "የ አበልጻጊ ዘዴ"
 
 #: ../plugins/about/Storage.qml:44
 msgid "Scanning"
-msgstr ""
+msgstr "በ ማሰስ ላይ"
 
 #: ../plugins/about/Storage.qml:106
 msgid "Used by Ubuntu"
@@ -223,7 +223,7 @@ msgstr "የ አካል መገንቢያ መግለጫ"
 
 #: ../plugins/about/Version.qml:96
 msgid "Customization Image part"
-msgstr "የምስል አካል እንደፍላጎቶ ማድረጊያ"
+msgstr "የ ምስል አካልማስተካከያ"
 
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../plugins/background/MainPage.qml:38 ../build/po/settings.js:44
