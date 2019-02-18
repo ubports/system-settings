@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-01-27 00:00+0000\n"
+"PO-Revision-Date: 2019-03-07 21:53+0000\n"
 "Last-Translator: louies0623 <louies0623@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.ubports.com/projects/"
 "ubports/system-settings/zh_Hant/>\n"
@@ -445,7 +445,7 @@ msgstr "裝置 %1 想要與這個裝置配對， 您是否允許？"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:39
 msgid "Allow"
-msgstr "允許"
+msgstr "同意"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:46
 msgid "Refuse"
@@ -2836,7 +2836,7 @@ msgstr "身分"
 
 #: ../plugins/wifi/OtherNetwork.qml:754
 msgid "Username"
-msgstr "用戶名稱"
+msgstr "使用者名稱"
 
 #: ../plugins/wifi/OtherNetwork.qml:784
 msgid "Private key password"
