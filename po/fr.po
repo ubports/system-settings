@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-03-07 21:54+0000\n"
+"PO-Revision-Date: 2019-03-17 00:00+0000\n"
 "Last-Translator: Anne Onyme <anneonyme017@netcourrier.com>\n"
 "Language-Team: French <https://translate.ubports.com/projects/ubports/"
 "system-settings/fr/>\n"
@@ -603,12 +603,12 @@ msgstr "Nom"
 
 #: ../plugins/bluetooth/DevicePage.qml:113
 msgid "Type"
-msgstr "Type"
+msgstr "Saisie"
 
 #: ../plugins/bluetooth/DevicePage.qml:124
 #: ../plugins/printing/printer-sub-pages/Status.qml:26
 msgid "Status"
-msgstr "Statut"
+msgstr "État"
 
 #: ../plugins/bluetooth/DevicePage.qml:128
 msgid "Signal Strength"
@@ -1701,7 +1701,7 @@ msgstr "Décrivez l'imprimante"
 
 #: ../plugins/printing/AddPrinterDetails.qml:44
 msgid "Back"
-msgstr "Précédent"
+msgstr "De retour"
 
 #: ../plugins/printing/AddPrinterDetails.qml:137
 msgid "Connection"
