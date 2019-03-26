@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-02-12 16:09+0000\n"
-"Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
+"PO-Revision-Date: 2019-03-27 13:33+0000\n"
+"Last-Translator: Tom Dom <thomas@patoel.nl>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
 "system-settings/nl/>\n"
 "Language: nl\n"
@@ -37,7 +37,6 @@ msgid "Developer Mode"
 msgstr "Ontwikkelaarsmodus"
 
 #: ../plugins/about/DevMode.qml:84
-#, fuzzy
 msgid ""
 "In Developer Mode, anyone can access, change or delete anything on this "
 "device by connecting it to another device."
@@ -209,9 +208,8 @@ msgid "OS build number"
 msgstr "Versienummer van besturingssysteem"
 
 #: ../plugins/about/Version.qml:68
-#, fuzzy
 msgid "UBports Image part"
-msgstr "Imagedeel Ubuntu"
+msgstr "Imagedeel UBports"
 
 #: ../plugins/about/Version.qml:76
 msgid "Ubuntu build description"
@@ -378,7 +376,7 @@ msgstr "Overschakelen naar slaapstand bij inactiviteit"
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery/PageComponent.qml:322
 #: ../plugins/security-privacy/PhoneLocking.qml:98
-#, fuzzy, qt-format
+#, qt-format
 msgid "After %1 second"
 msgid_plural "After %1 seconds"
 msgstr[0] "Na %1 minuut"
@@ -401,9 +399,8 @@ msgstr[1] "Na %1 minuten"
 
 #. TRANSLATORS: “Wi-Fi used for hotspot” is hidden.
 #: ../plugins/battery/PageComponent.qml:365
-#, fuzzy
 msgid "Wi-Fi used for hotspot"
-msgstr "Wi-Fihotspot"
+msgstr "Wi-Fi-hotspot"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../plugins/battery/PageComponent.qml:365
@@ -419,41 +416,36 @@ msgid "Bluetooth"
 msgstr "Bluetooth"
 
 #: ../plugins/battery/SleepValues.qml:74
-#, fuzzy
 msgid "Lock the device when it's not in use:"
 msgstr "Vergrendel de telefoon indien niet in gebruik:"
 
 #: ../plugins/battery/SleepValues.qml:75
-#, fuzzy
 msgid "Put the device to sleep when it is not in use:"
 msgstr "Schakel over naar slaapstand indien telefoon niet gebruikt wordt:"
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery/SleepValues.qml:86
-#, fuzzy, qt-format
+#, qt-format
 msgid "After %1 seconds"
 msgid_plural "After %1 seconds"
-msgstr[0] "Na %1 minuut"
-msgstr[1] "Na %1 minuten"
+msgstr[0] "Na %1 seconde"
+msgstr[1] "Na %1 seconden"
 
 #: ../plugins/battery/SleepValues.qml:130
-#, fuzzy
 msgid ""
 "Shorter times are more secure. Device won't lock during calls or video "
 "playback."
 msgstr ""
 "Hoe korter de tijdsduur hoe veiliger. De telefoon zal niet vergrendeld "
-"worden tijdens gesprekken of bij het afspelen van video."
+"worden tijdens gesprekken of bij het afspelen van videos."
 
 #: ../plugins/battery/SleepValues.qml:130
-#, fuzzy
 msgid "Device won’t sleep during calls or video playback."
 msgstr ""
 "Telefoon zal niet overschakelen naar de slaapstand tijdens gesprekken of bij "
 "het afspelen van video."
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:26
-#, fuzzy
 msgid "Bluetooth Pairing Authorization Request"
 msgstr "Bluetooth koppelingsverzoek"
 
@@ -465,7 +457,6 @@ msgid ""
 msgstr "Het apparaat %1 wil met dit apparaat koppelen. Wilt u dit toestaan?"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:39
-#, fuzzy
 msgid "Allow"
 msgstr "toestaan"
 
@@ -659,9 +650,8 @@ msgstr "Niet vindbaar"
 
 #: ../plugins/bluetooth/PageComponent.qml:260
 #: ../plugins/bluetooth/PageComponent.qml:319
-#, fuzzy
 msgid "Searching…"
-msgstr "Herstarten…"
+msgstr "Zoeken…"
 
 #: ../plugins/bluetooth/PageComponent.qml:269
 msgid "Connected devices:"
@@ -691,9 +681,8 @@ msgid "Pair"
 msgstr "Koppelen"
 
 #: ../plugins/brightness/PageComponent.qml:35
-#, fuzzy
 msgid "Brightness & Display"
-msgstr "Helderheid"
+msgstr "Helderheid & Beeld"
 
 #. TRANSLATORS: This is a keyword or name for the brightness plugin which is used while searching
 #: ../plugins/brightness/PageComponent.qml:35 ../build/po/settings.js:100
@@ -709,55 +698,47 @@ msgid "Brightens and dims the display to suit the surroundings."
 msgstr "Verheldert en verdonkert het scherm afhankelijk van de omgeving."
 
 #: ../plugins/brightness/PageComponent.qml:140
-#, fuzzy
 msgid "External display"
-msgstr "weergeven"
+msgstr "Extern beeldscherm"
 
 #: ../plugins/brightness/PageComponent.qml:158
-#, fuzzy
 msgid "Wireless display"
-msgstr "weergeven"
+msgstr "Draadloos beeldscherm"
 
 #: ../plugins/brightness/PageComponent.qml:159
 #: ../plugins/brightness/WifiDisplays.qml:128
 #: ../plugins/brightness/WifiDisplays.qml:172
-#, fuzzy
 msgid "Not connected"
-msgstr "Laatste keer verbonden"
+msgstr "Niet verbonden"
 
 #: ../plugins/brightness/WifiDisplays.qml:27
 msgid "Wireless Display"
 msgstr "Wireless Display"
 
 #: ../plugins/brightness/WifiDisplays.qml:100
-#, fuzzy
 msgid "No displays detected"
-msgstr "Niets gedetecteerd"
+msgstr "Geen beeldscherm gedetecteerd"
 
 #: ../plugins/brightness/WifiDisplays.qml:113
-#, fuzzy
 msgid "Connected display:"
-msgstr "Verbonden apparaten:"
+msgstr "Verbonden beeldscherm:"
 
 #: ../plugins/brightness/WifiDisplays.qml:128
-#, fuzzy
 msgid "Connecting"
-msgstr "Verbinding maken…"
+msgstr "Verbinden"
 
 #: ../plugins/brightness/WifiDisplays.qml:146
-#, fuzzy
 msgid "Use another display:"
-msgstr "Verbind nog een apparaat:"
+msgstr "Verbind nog een beeldscherm:"
 
 #: ../plugins/brightness/WifiDisplays.qml:146
-#, fuzzy
 msgid "Choose a display:"
-msgstr "Kies een wachtwoordzin"
+msgstr "Kies een beeldscherm:"
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:32
-#, fuzzy, qt-format
+#, qt-format
 msgid "This device failed to connect to %1."
-msgstr "verbinding verbreken"
+msgstr "Dit apparaat kan geen verbinding maken met %1."
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:34
 #, qt-format
@@ -835,7 +816,7 @@ msgstr "Proxy"
 
 #: ../plugins/cellular/PageApnEditor.qml:244
 msgid "Enter message proxy"
-msgstr ""
+msgstr "Voer proxy in"
 
 #: ../plugins/cellular/PageApnEditor.qml:289
 msgid "Proxy port"
@@ -843,7 +824,7 @@ msgstr "Proxy poort"
 
 #: ../plugins/cellular/PageApnEditor.qml:300
 msgid "Enter message proxy port"
-msgstr ""
+msgstr "Voer poort in"
 
 #: ../plugins/cellular/PageApnEditor.qml:318
 msgid "User name"
@@ -1134,23 +1115,20 @@ msgid "A secondary connection of the base connection failed"
 msgstr "Een secundaire verbinding van de basisverbinding is mislukt"
 
 #: ../plugins/hotspot/HotspotSetup.qml:61
-#, fuzzy
 msgid "Change Hotspot Setup"
-msgstr "Hotspotinstellingen wijzigen"
+msgstr "Hotspotinstellingen Wijzigen"
 
 #: ../plugins/hotspot/HotspotSetup.qml:61
-#, fuzzy
 msgid "Set Up Hotspot"
-msgstr "Hotspot instellen"
+msgstr "Hotspot Instellen"
 
 #: ../plugins/hotspot/HotspotSetup.qml:167
 msgid "Hotspot name"
 msgstr "Hotspotnaam"
 
 #: ../plugins/hotspot/HotspotSetup.qml:168
-#, fuzzy
 msgid "Choose a name"
-msgstr "Kies een wachtwoordzin"
+msgstr "Kies een naam"
 
 #: ../plugins/hotspot/HotspotSetup.qml:185
 msgid "Require a password (recommended):"
@@ -1199,28 +1177,24 @@ msgstr ""
 "zal de mogelijke extra kosten hiervan moeten betalen."
 
 #: ../plugins/hotspot/PageComponent.qml:124
-#, fuzzy
 msgid "Change Password/Setup…"
-msgstr "Toegangscode wijzigen…"
+msgstr "Wachtwoord/Instellingen Wijzigen…"
 
 #: ../plugins/hotspot/PageComponent.qml:124
-#, fuzzy
 msgid "Set Up Hotspot…"
-msgstr "Hotspot instellen"
+msgstr "Hotspot Instellen…"
 
 #: ../plugins/hotspot/PageComponent.qml:155
-#, fuzzy
 msgid "Wi-Fi is off"
-msgstr "Wi-Fihotspot"
+msgstr "Wi-Fi is uit"
 
 #: ../plugins/hotspot/PageComponent.qml:156
 msgid "In order to create a hotspot, you need to turn Wi-Fi on."
 msgstr "Om een hotspot te maken moet u Wi-Fi aanzetten."
 
 #: ../plugins/hotspot/PageComponent.qml:165
-#, fuzzy
 msgid "Turn on Wi-Fi"
-msgstr "Alleen bij een Wi-Fiverbinding"
+msgstr "Zet Wi-Fi aan"
 
 #: ../plugins/language/DisplayLanguage.qml:36
 msgid "Display language"
@@ -1253,65 +1227,60 @@ msgid "Display language…"
 msgstr "Weergave taal…"
 
 #: ../plugins/language/PageComponent.qml:150
-#, fuzzy
 msgid "Enable on-screen keyboard"
-msgstr "toetsenbord"
+msgstr "Schakel toetsenbord op het scherm in"
 
 #: ../plugins/language/PageComponent.qml:162
-#, fuzzy
 msgid "On-screen keyboard"
-msgstr "toetsenbord"
+msgstr "Schermtoetsenbord"
 
 #: ../plugins/language/PageComponent.qml:173
-#, fuzzy
 msgid "External keyboard"
-msgstr "toetsenbord"
+msgstr "Extern toetsenbord"
 
 #: ../plugins/language/PageComponent.qml:184
 msgid "Ambiance"
-msgstr ""
+msgstr "Ambiance"
 
 #: ../plugins/language/PageComponent.qml:185
 msgid "Suru Dark"
-msgstr ""
+msgstr "Suru Donker"
 
 #: ../plugins/language/PageComponent.qml:186
 msgid "Suru Black"
-msgstr ""
+msgstr "Suru Zwart"
 
 #: ../plugins/language/PageComponent.qml:187
 msgid "Just White"
-msgstr ""
+msgstr "Gewoon Wit"
 
 #: ../plugins/language/PageComponent.qml:188
 msgid "Just Black"
-msgstr ""
+msgstr "Gewoon Zwart"
 
 #: ../plugins/language/PageComponent.qml:189
 msgid "Just Grey"
-msgstr ""
+msgstr "Gewoon Grijs"
 
 #: ../plugins/language/PageComponent.qml:190
 msgid "Bordered White"
-msgstr ""
+msgstr "Omrand Wit"
 
 #: ../plugins/language/PageComponent.qml:191
 msgid "Bordered Black"
-msgstr ""
+msgstr "Omrand Zwart"
 
 #: ../plugins/language/PageComponent.qml:192
 msgid "Bordered Grey"
-msgstr ""
+msgstr "Omrand Grijs"
 
 #: ../plugins/language/PageComponent.qml:195
-#, fuzzy
 msgid "On-screen keyboard theme"
-msgstr "toetsenbord"
+msgstr "Thema van schermtoetsenbord"
 
 #: ../plugins/language/PageComponent.qml:196
-#, fuzzy
 msgid "Keyboard theme"
-msgstr "Toetsenbord"
+msgstr "Thema van toetsenbord"
 
 #: ../plugins/language/PageComponent.qml:209
 #: ../plugins/language/PageComponent.qml:218
@@ -1343,11 +1312,8 @@ msgid "Auto punctuation"
 msgstr "Autom. interpunctie"
 
 #: ../plugins/language/PageComponent.qml:284
-#, fuzzy
 msgid "Inserts a period when you tap Space twice."
-msgstr ""
-"Voegt een punt en ontbrekende aanhalingstekens of haakjes toe, wanneer u "
-"tweemaal op de Spatie-knop tikt."
+msgstr "Voegt een punt toe, wanneer u tweemaal op Spatie tikt."
 
 #: ../plugins/language/PageComponent.qml:291
 #: ../plugins/sound/PageComponent.qml:251
@@ -1359,24 +1325,21 @@ msgid "Keyboard vibration"
 msgstr "Toetsenbordtrilling"
 
 #: ../plugins/language/PageComponent.qml:313
-#, fuzzy
 msgid "Keyboard opacity"
-msgstr "Toetsenbordindelingen"
+msgstr "Transparantie van toetsenbord"
 
 #: ../plugins/language/PageHardwareKeyboard.qml:33
-#, fuzzy
 msgid "Hardware keyboard"
-msgstr "toetsenbord"
+msgstr "Hardwaretoetsenbord"
 
 #: ../plugins/language/PageHardwareKeyboard.qml:63
 msgid "Layouts and other sources"
 msgstr "Indelingen en andere bronnen"
 
 #: ../plugins/language/RebootNecessary.qml:34
-#, fuzzy
 msgid "The device needs to restart for changes to take effect."
 msgstr ""
-"De telefoon moet worden herstart voordat de wijzigingen effect zullen hebben."
+"Het apparaat moet worden herstart voordat wijzigingen effect zullen hebben."
 
 #: ../plugins/language/RebootNecessary.qml:38
 msgid "Restart Now"
@@ -1751,7 +1714,7 @@ msgstr "Printer naam"
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:32
 #: ../plugins/printing/printer-sub-pages/Status.qml:66
 msgid "Description"
-msgstr "Beschrijving"
+msgstr "Omschrijving"
 
 #: ../plugins/printing/AddPrinterDetails.qml:204
 #: ../plugins/printing/AddPrinterDetails.qml:211
@@ -1841,22 +1804,20 @@ msgid "Host"
 msgstr "Host"
 
 #: ../plugins/reset/EraseEverything.qml:41
-#, fuzzy
 msgid ""
 "All documents, saved games, settings, and other items will be permanently "
 "deleted from this device."
 msgstr ""
 "Alle documenten, opgeslagen spelletjes, instellingen en andere items zullen "
-"definitief verwijderd worden van deze telefoon."
+"definitief verwijderd worden van dit apparaat."
 
 #: ../plugins/reset/EraseEverything.qml:44
 msgid "Erase & Reset Everything"
 msgstr "Alles wissen & terugzetten op de standaardwaarden"
 
 #: ../plugins/reset/PageComponent.qml:32
-#, fuzzy
 msgid "Reset device"
-msgstr "apparaat"
+msgstr "Reset het apparaat"
 
 #: ../plugins/reset/PageComponent.qml:75 ../plugins/reset/PageComponent.qml:86
 #: ../plugins/reset/ResetLauncherHome.qml:44
@@ -1870,9 +1831,8 @@ msgstr "Alle systeeminstellingen terugzetten op hun standaardwaarden…"
 
 #: ../plugins/reset/PageComponent.qml:126
 #: ../plugins/reset/PageComponent.qml:138
-#, fuzzy
 msgid "Erase & Reset All"
-msgstr "Alles wissen & terugzetten op de standaardwaarden"
+msgstr "Alles wissen & terugzetten naar standaardwaarden"
 
 #: ../plugins/reset/ResetAllSettings.qml:29
 msgid ""
@@ -1933,14 +1893,12 @@ msgid "Online Accounts…"
 msgstr "Online Accounts…"
 
 #: ../plugins/security-privacy/here-terms.qml:24
-#, fuzzy
 msgid "Nokia HERE"
 msgstr "Nokia HERE"
 
 #: ../plugins/security-privacy/Location.qml:96
-#, fuzzy
 msgid "Let the device detect your location:"
-msgstr "Apps die toegang hebben gevraagd tot uw microfoon"
+msgstr "Laat het apparaat uw locatie detecteren:"
 
 #: ../plugins/security-privacy/Location.qml:175
 msgid "Using GPS only (less accurate)"
@@ -1966,6 +1924,8 @@ msgid ""
 "Using GPS and anonymized Wi-Fi info.<br>By selecting this option you accept "
 "the <a href='%1'>Nokia HERE terms and conditions</a>."
 msgstr ""
+"GPS en geanonimiseerde Wi-Fi-informatie wordt gebruikt.<br>Als u deze optie "
+"selecteerd gaat u akkoord met de <a href='%1'>Nokia HERE voorwaarden</a>."
 
 #: ../plugins/security-privacy/Location.qml:195
 msgid "Not at all"
@@ -2030,14 +1990,12 @@ msgstr ""
 "stroom."
 
 #: ../plugins/security-privacy/Location.qml:231
-#, fuzzy
 msgid "Let apps access this location:"
-msgstr "Sta toegang tot uw locatie toe:"
+msgstr "Laat apps toegang hebben tot deze locatie:"
 
 #: ../plugins/security-privacy/Location.qml:254
-#, fuzzy
 msgid "None requested"
-msgstr "Niets gedetecteerd"
+msgstr "Niet aangevraagd"
 
 #: ../plugins/security-privacy/LockSecurity.qml:137
 #: ../plugins/security-privacy/LockSecurity.qml:563
@@ -2098,7 +2056,6 @@ msgid "Unset"
 msgstr "Niet ingesteld"
 
 #: ../plugins/security-privacy/LockSecurity.qml:463
-#, fuzzy
 msgid "Unlock the device using:"
 msgstr "De telefoon ontgrendelen met:"
 
@@ -2216,11 +2173,10 @@ msgid "Notifications and quick settings"
 msgstr "Meldingen en snelle instellingen"
 
 #: ../plugins/security-privacy/PhoneLocking.qml:167
-#, fuzzy
 msgid "Turn on lock security to restrict access when the device is locked."
 msgstr ""
-"Schakel vergrendelbeveiliging in om de toegang tot de telefoon te beveiligen "
-"d.m.v. vergrendeling."
+"Schakel vergrendelbeveiliging in om de toegang tot het apparaat te blokkeren "
+"als het vergrendeld is."
 
 #: ../plugins/security-privacy/PhoneLocking.qml:168
 msgid "Other apps and functions will prompt you to unlock."
@@ -2302,14 +2258,13 @@ msgid "Unlock…"
 msgstr "Deblokkeren…"
 
 #: ../plugins/security-privacy/SimPin.qml:445
-#, fuzzy
 msgid ""
 "When a SIM PIN is set, it must be entered to access cellular services after "
 "restarting the device or swapping the SIM."
 msgstr ""
 "Wanneer er een pincode is ingesteld voor de simkaart, moet deze telkens "
-"worden ingevoerd na het herstarten van de telefoon of het verwisselen van de "
-"simkaart, om gebruik te kunnen maken van mobiele diensten."
+"worden ingevoerd na het herstarten van het apparaat of het verwisselen van "
+"de simkaart, om gebruik te kunnen maken van mobiele diensten."
 
 #: ../plugins/security-privacy/SimPin.qml:449
 msgid "Entering an incorrect PIN repeatedly may lock the SIM permanently."
@@ -2445,37 +2400,33 @@ msgstr "Installatie mislukt"
 #: ../plugins/system-update/FirmwareUpdate.qml:36
 #: ../plugins/system-update/FirmwareUpdate.qml:157
 msgid "Firmware Update"
-msgstr ""
+msgstr "Update Firmware"
 
 #: ../plugins/system-update/FirmwareUpdate.qml:133
-#, fuzzy
 msgid "There is a firmware update available!"
-msgstr "%1 update beschikbaar"
+msgstr "Er is een firmware update beschikbaar!"
 
 #: ../plugins/system-update/FirmwareUpdate.qml:134
-#, fuzzy
 msgid "Firmware is up to date!"
-msgstr "Software is bijgewerkt"
+msgstr "Firmware is bijgewerkt!"
 
 #: ../plugins/system-update/FirmwareUpdate.qml:169
-#, fuzzy
 msgid "The device will restart automatically after installing is done."
-msgstr "Dit apparaat moet worden herstart om de systeemupdate te installeren."
+msgstr "Na de installatie wordt het apparaat automatisch herstart."
 
 #: ../plugins/system-update/FirmwareUpdate.qml:185
-#, fuzzy
 msgid "Install and restart now"
-msgstr "Installeren & herstarten"
+msgstr "Nu installeren en herstarten"
 
 #: ../plugins/system-update/FirmwareUpdate.qml:228
 msgid ""
 "Downloading and Flashing firmware updates, this could take a few minutes..."
 msgstr ""
+"Downloaden en installeren firmware updates. Dit kan enkele minuten duren..."
 
 #: ../plugins/system-update/FirmwareUpdate.qml:235
-#, fuzzy
 msgid "Checking for firmware update"
-msgstr "Controleren op updates…"
+msgstr "Controleren op firmware update"
 
 #: ../plugins/system-update/GlobalUpdateControls.qml:84
 msgid "Checking for updates…"
@@ -2556,13 +2507,15 @@ msgstr "Update systeeminstellingen"
 #: ../plugins/system-update/ReinstallAllApps.qml:95
 #: ../plugins/system-update/UpdateSettings.qml:88
 msgid "Reinstall all apps"
-msgstr ""
+msgstr "Alle apps opnieuw installeren"
 
 #: ../plugins/system-update/ReinstallAllApps.qml:85
 msgid ""
 "Use this to get all of the latest apps, typically needed after a major "
 "system upgrade, "
 msgstr ""
+"Gebruik dit om de nieuwste apps te installeren, meestal nodig na een "
+"belangrijke systeemupgrade, "
 
 #: ../plugins/system-update/UpdateDelegate.qml:119
 msgid "Retry"
@@ -2723,9 +2676,8 @@ msgstr "Jaar"
 
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../plugins/vpn/PageComponent.qml:31 ../build/po/settings.js:380
-#, fuzzy
 msgid "VPN"
-msgstr "APN"
+msgstr "VPN"
 
 #: ../plugins/vpn/PageComponent.qml:76
 msgid ""
@@ -2740,15 +2692,12 @@ msgid "Add Manual Configuration…"
 msgstr "Handmatige Configuratie toevoegen…"
 
 #: ../plugins/vpn/PageComponent.qml:117
-#, fuzzy
 msgid "VPN reconnection required."
-msgstr "Dienst voor gedeelde verbinding is mislukt"
+msgstr "VPN opnieuw verbinden vereist."
 
 #: ../plugins/vpn/PageComponent.qml:118
-#, fuzzy
 msgid "You need to reconnect for changes to have an effect."
-msgstr ""
-"De telefoon moet worden herstart voordat de wijzigingen effect zullen hebben."
+msgstr "U moet opnieuw verbinden voordat de wijzigingen effect zullen hebben."
 
 #: ../plugins/wifi/CertDialog.qml:22
 msgid "Add certificate?"
@@ -2995,15 +2944,13 @@ msgstr "Mobiele gegevens"
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:73
 #: ../plugins/cellular/Components/NoSim.qml:36
-#, fuzzy
 msgid "No SIM detected"
-msgstr "Niets gedetecteerd"
+msgstr "Geen simkaart gedetecteerd"
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:81
 #: ../plugins/cellular/Components/NoSim.qml:45
-#, fuzzy
 msgid "Insert a SIM, then restart the device."
-msgstr "Plaats een simkaart en herstart uw apparaat"
+msgstr "Plaats een simkaart en herstart uw apparaat."
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:147
 #: ../plugins/cellular/Components/SingleSim.qml:92
@@ -3047,9 +2994,8 @@ msgstr "Providers"
 
 #: ../plugins/cellular/Components/MultiSim.qml:83
 #: ../plugins/cellular/Components/RadioSingleSim.qml:31
-#, fuzzy
 msgid "Connection type:"
-msgstr "Verbonden"
+msgstr "Verbindingstype:"
 
 #: ../plugins/cellular/Components/Sim.qml:46
 msgid "2G only (saves battery)"
@@ -3084,18 +3030,16 @@ msgid "Duplex"
 msgstr "Dubbelzijdig"
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:59
-#, fuzzy
 msgid "Color model"
-msgstr "Ontwikkelaarsmodus"
+msgstr "Kleurruimte"
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:75
 msgid "Quality"
 msgstr "Kwaliteit"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:27
-#, fuzzy
 msgid "Enabled"
-msgstr "inschakelen"
+msgstr "Ingeschakeld"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:46
 msgid "Default"
@@ -3149,14 +3093,12 @@ msgid "Manage Print Jobs"
 msgstr "Printopdrachten beheren"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:78
-#, fuzzy
 msgid "Address"
-msgstr "adres"
+msgstr "Adres"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:84
-#, fuzzy
 msgid "Model"
-msgstr "Modem"
+msgstr "Model"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:85
 msgid "Local Raw Printer"
@@ -3567,14 +3509,13 @@ msgstr "vliegtuig"
 
 #. TRANSLATORS: This is a keyword or name for the hotspot plugin which is used while searching
 #: ../build/po/settings.js:164
-#, fuzzy
 msgid "hotspot"
-msgstr "Hotspot"
+msgstr "hotspot"
 
 #. TRANSLATORS: This is a keyword or name for the hotspot plugin which is used while searching
 #: ../build/po/settings.js:166
 msgid "tethering"
-msgstr ""
+msgstr "tethering"
 
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../build/po/settings.js:170
@@ -3629,15 +3570,13 @@ msgstr "trillen"
 
 #. TRANSLATORS: This is a keyword or name for the launcher plugin which is used while searching
 #: ../build/po/settings.js:196
-#, fuzzy
 msgid "launcher"
-msgstr "Starter"
+msgstr "starter"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../build/po/settings.js:202
-#, fuzzy
 msgid "mouse"
-msgstr "Muis"
+msgstr "muis"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../build/po/settings.js:204
@@ -3646,14 +3585,13 @@ msgstr "touchpad"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../build/po/settings.js:206
-#, fuzzy
 msgid "tap"
-msgstr "apn"
+msgstr "tik"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../build/po/settings.js:208
 msgid "touch"
-msgstr ""
+msgstr "touch"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
@@ -3721,7 +3659,6 @@ msgstr "gmail"
 
 #. TRANSLATORS: This is a keyword or name for the orientation-lock plugin which is used while searching
 #: ../build/po/settings.js:238
-#, fuzzy
 msgid "Rotation Lock"
 msgstr "Oriëntatievergrendeling"
 
@@ -3773,21 +3710,18 @@ msgstr "nummers"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../build/po/settings.js:270
-#, fuzzy
 msgid "printer"
-msgstr "Printer"
+msgstr "printer"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../build/po/settings.js:272
-#, fuzzy
 msgid "printers"
-msgstr "Printer"
+msgstr "printers"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../build/po/settings.js:274
-#, fuzzy
 msgid "printing"
-msgstr "wachten"
+msgstr "afdrukken"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../build/po/settings.js:276
@@ -3797,7 +3731,7 @@ msgstr "pdf"
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../build/po/settings.js:278
 msgid "ppd"
-msgstr ""
+msgstr "ppd"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../build/po/settings.js:280
@@ -3812,7 +3746,7 @@ msgstr "kopieën"
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../build/po/settings.js:284
 msgid "colormodel"
-msgstr ""
+msgstr "kleurruimte"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../build/po/settings.js:286
@@ -3831,9 +3765,8 @@ msgstr "laser"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../build/po/settings.js:292
-#, fuzzy
 msgid "ink"
-msgstr "pin"
+msgstr "inkt"
 
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../build/po/settings.js:296
@@ -3947,9 +3880,8 @@ msgstr "bijwerken"
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../build/po/settings.js:358
-#, fuzzy
 msgid "application"
-msgstr "hoofdletters"
+msgstr "applicatie"
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../build/po/settings.js:362
@@ -3983,14 +3915,13 @@ msgstr "tijdzone"
 
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../build/po/settings.js:388
-#, fuzzy
 msgid "vpn"
-msgstr "pin"
+msgstr "vpn"
 
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../build/po/settings.js:390
 msgid "openvpn"
-msgstr ""
+msgstr "openvpn"
 
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
@@ -4043,9 +3974,8 @@ msgid "Authentication token manipulation error"
 msgstr "Fout bij manipulatie van authenticatiemiddel"
 
 #: ../plugins/wifi/certhandler.cpp:258
-#, fuzzy
 msgid "Private key"
-msgstr "Privacy"
+msgstr "Private key"
 
 #: ../plugins/wifi/certhandler.cpp:259
 msgid "Public key"
@@ -4065,9 +3995,8 @@ msgstr "Kan huidig verzoek niet pauzeren (kon geen contact maken met dienst)"
 
 #: ../src/systemimage.cpp:368 ../src/systemimage.cpp:374
 #: ../src/systemimage.cpp:380
-#, fuzzy
 msgid "Unavailable"
-msgstr "Updates beschikbaar"
+msgstr "Niet beschikbaar"
 
 #: ../push-helper/software_updates_helper.py:159
 msgid "There's an updated system image."
