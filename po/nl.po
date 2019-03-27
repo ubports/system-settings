@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-03-27 13:33+0000\n"
+"PO-Revision-Date: 2019-03-31 00:00+0000\n"
 "Last-Translator: Tom Dom <thomas@patoel.nl>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
 "system-settings/nl/>\n"
@@ -1147,11 +1147,11 @@ msgstr "Het starten van een hotspot zal Wi-Fi inschakelen."
 #: ../plugins/security-privacy/LockSecurity.qml:389
 #: ../plugins/security-privacy/SimPin.qml:187
 msgid "Change"
-msgstr "Wijzig"
+msgstr "Wijzigen"
 
 #: ../plugins/hotspot/HotspotSetup.qml:267
 msgid "Start"
-msgstr "Start"
+msgstr "Starten"
 
 #. TRANSLATORS: This is a keyword or name for the hotspot plugin which is used while searching
 #: ../plugins/hotspot/PageComponent.qml:33
@@ -1556,11 +1556,11 @@ msgstr "Gesprek doorschakelen"
 
 #: ../plugins/phone/CallForwarding.qml:131
 msgid "Forward every incoming call"
-msgstr "Schakel elke inkomende oproep door"
+msgstr "Elke inkomende oproep doorschakelen"
 
 #: ../plugins/phone/CallForwarding.qml:146
 msgid "Redirects all phone calls to another number."
-msgstr "Verwijst alle oproepen naar een ander nummer."
+msgstr "Schakelt alle oproepen door naar een ander nummer."
 
 #: ../plugins/phone/CallForwarding.qml:158
 msgid "Call forwarding status can’t be checked "
@@ -1588,7 +1588,7 @@ msgstr "Contacten…"
 
 #: ../plugins/phone/CallForwarding.qml:274
 msgid "Please select a phone number"
-msgstr "Selecteer een telefoonnummer"
+msgstr "Kies een telefoonnummer"
 
 #: ../plugins/phone/CallForwarding.qml:283
 msgid "Numbers"
@@ -1600,7 +1600,7 @@ msgstr "Kon niet doorschakelen naar dit contact"
 
 #: ../plugins/phone/CallForwarding.qml:303
 msgid "Contact not associated with any phone number."
-msgstr "Contact niet geassocieerd met een telefoonnummer."
+msgstr "De contactpersoon is niet gekoppeld aan een telefoonnummer."
 
 #: ../plugins/phone/CallForwarding.qml:382
 msgid "All calls"
@@ -1608,7 +1608,7 @@ msgstr "Alle oproepen"
 
 #: ../plugins/phone/CallForwarding.qml:384
 msgid "Some calls"
-msgstr "Sommige oproepen"
+msgstr "Bepaalde oproepen"
 
 #: ../plugins/phone/CallForwarding.qml:386
 #: ../plugins/security-privacy/PageComponent.qml:180
@@ -1641,8 +1641,8 @@ msgid ""
 "Lets you answer or start a new call while on another call, and switch "
 "between them"
 msgstr ""
-"Hiermee kunt u een nieuwe oproep beantwoorden of een nieuwe oproep starten "
-"terwijl u in een andere oproep zit en tussen deze gesprekken wisselen"
+"Hiermee kun je een nieuwe oproep beantwoorden of starten terwijl je in "
+"gesprek bent en ertussen schakelen"
 
 #: ../plugins/phone/MultiSim.qml:67 ../plugins/phone/NoSims.qml:42
 msgid "Services"
@@ -1666,11 +1666,11 @@ msgstr "Bellen"
 #: ../plugins/phone/Services.qml:36 ../plugins/phone/SingleSim.qml:55
 #, qt-format
 msgid "%1 Services"
-msgstr "%1 Diensten"
+msgstr "%1-diensten"
 
 #: ../plugins/phone/SingleSim.qml:29
 msgid "SIM"
-msgstr "SIM"
+msgstr "Simkaart"
 
 #: ../plugins/printing/AddPrinter.qml:34
 #: ../plugins/printing/AddPrinterDetails.qml:54
@@ -2282,7 +2282,7 @@ msgstr "Belvolume:"
 
 #: ../plugins/sound/PageComponent.qml:141
 msgid "High volume can damage your hearing."
-msgstr "Hoog volume kan uw gehoor beschadigen."
+msgstr "Een hoog volumeniveau kan je gehoor beschadigen."
 
 #: ../plugins/sound/PageComponent.qml:145
 msgid "Phone calls:"
@@ -2434,7 +2434,7 @@ msgstr "Controleren op updates…"
 
 #: ../plugins/system-update/GlobalUpdateControls.qml:89
 msgid "Stop"
-msgstr "Stop"
+msgstr "Stoppen"
 
 #. TRANSLATORS: %1 is number of software updates available.
 #: ../plugins/system-update/GlobalUpdateControls.qml:116
@@ -2519,7 +2519,7 @@ msgstr ""
 
 #: ../plugins/system-update/UpdateDelegate.qml:119
 msgid "Retry"
-msgstr "Opnieuw proberen"
+msgstr "Opnieuw"
 
 #: ../plugins/system-update/UpdateDelegate.qml:124
 msgid "Update"
@@ -2543,7 +2543,7 @@ msgstr "Installeren…"
 
 #: ../plugins/system-update/UpdateDelegate.qml:145
 msgid "Install"
-msgstr "Installeer"
+msgstr "Installeren"
 
 #: ../plugins/system-update/UpdateDelegate.qml:149
 msgid "Open"
@@ -3019,7 +3019,7 @@ msgstr "Mobiele gegevens:"
 
 #: ../plugins/printing/printer-sub-pages/CopiesAndPages.qml:26
 msgid "Copies"
-msgstr "Kopieën"
+msgstr "Aantal kopieën"
 
 #: ../plugins/printing/printer-sub-pages/CopiesAndPages.qml:46
 msgid "Paper size"
@@ -3059,7 +3059,7 @@ msgstr "Gedeeld"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:30
 msgid "Idle"
-msgstr "Nutteloos"
+msgstr "Inactief"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:32
 msgid "Aborted"
@@ -3485,7 +3485,7 @@ msgstr "voorbeeld"
 #. TRANSLATORS: This is a keyword or name for the flight-mode plugin which is used while searching
 #: ../build/po/settings.js:148
 msgid "Flight Mode"
-msgstr "Vliegtuigmodus"
+msgstr "Vliegtuigstand"
 
 #. TRANSLATORS: This is a keyword or name for the flight-mode plugin which is used while searching
 #: ../build/po/settings.js:150
