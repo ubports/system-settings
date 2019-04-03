@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-03-31 00:00+0000\n"
+"PO-Revision-Date: 2019-04-07 00:00+0000\n"
 "Last-Translator: Tom Dom <thomas@patoel.nl>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
 "system-settings/nl/>\n"
@@ -978,7 +978,7 @@ msgstr "Dit schakelt %1 uit."
 #: ../plugins/cellular/PageChooseApn.qml:303
 #: ../plugins/printing/PageComponent.qml:136
 msgid "Delete"
-msgstr "Verwijderen"
+msgstr "Verwijder"
 
 #: ../plugins/cellular/PageChooseCarrier.qml:153
 #: ../plugins/time-date/ChooseTimeZone.qml:51
