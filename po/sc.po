@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-01-16 17:29+0000\n"
+"PO-Revision-Date: 2019-02-14 09:02+0000\n"
 "Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports/"
 "system-settings/sc/>\n"
@@ -1241,39 +1241,39 @@ msgstr "Tecladu esternu"
 
 #: ../plugins/language/PageComponent.qml:184
 msgid "Ambiance"
-msgstr ""
+msgstr "Ambiente"
 
 #: ../plugins/language/PageComponent.qml:185
 msgid "Suru Dark"
-msgstr ""
+msgstr "Suru Dark (murru e nieddu)"
 
 #: ../plugins/language/PageComponent.qml:186
 msgid "Suru Black"
-msgstr ""
+msgstr "Suru Black (nieddu)"
 
 #: ../plugins/language/PageComponent.qml:187
 msgid "Just White"
-msgstr ""
+msgstr "Just White (arvu)"
 
 #: ../plugins/language/PageComponent.qml:188
 msgid "Just Black"
-msgstr ""
+msgstr "Just Black (nieddu)"
 
 #: ../plugins/language/PageComponent.qml:189
 msgid "Just Grey"
-msgstr ""
+msgstr "Just Grey (murru)"
 
 #: ../plugins/language/PageComponent.qml:190
 msgid "Bordered White"
-msgstr ""
+msgstr "Bordered White (lìmites in arvu)"
 
 #: ../plugins/language/PageComponent.qml:191
 msgid "Bordered Black"
-msgstr ""
+msgstr "Bordered Black (lìmites in nieddu)"
 
 #: ../plugins/language/PageComponent.qml:192
 msgid "Bordered Grey"
-msgstr ""
+msgstr "Bordered Grey (lìmites in murru)"
 
 #: ../plugins/language/PageComponent.qml:195
 msgid "On-screen keyboard theme"
