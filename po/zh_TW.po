@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-03-07 21:53+0000\n"
+"PO-Revision-Date: 2019-04-07 00:00+0000\n"
 "Last-Translator: louies0623 <louies0623@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.ubports.com/projects/"
 "ubports/system-settings/zh_Hant/>\n"
@@ -632,7 +632,7 @@ msgstr "可被偵測到"
 
 #: ../plugins/bluetooth/PageComponent.qml:252
 msgid "Not discoverable"
-msgstr "不可被偵測到"
+msgstr "不被偵測到"
 
 #: ../plugins/bluetooth/PageComponent.qml:260
 #: ../plugins/bluetooth/PageComponent.qml:319
@@ -1266,7 +1266,7 @@ msgstr "鍵盤主題"
 #: ../plugins/language/SpellChecking.qml:29
 #: ../plugins/language/SpellChecking.qml:45
 msgid "Spell checking"
-msgstr "拼寫檢查中"
+msgstr "拼寫檢查"
 
 #: ../plugins/language/PageComponent.qml:229
 msgid "Auto correction"
