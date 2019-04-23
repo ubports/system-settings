@@ -173,7 +173,6 @@ ItemPage {
             }
 
             ListItem.SingleValue {
-                objectName: "updateApps"
                 text: i18n.tr("Update apps in the OpenStore")
                 progression: true
                 onClicked: Qt.openUrlExternally("openstore://updates")
