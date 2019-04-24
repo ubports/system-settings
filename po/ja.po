@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-01-27 00:00+0000\n"
-"Last-Translator: louies0623 <louies0623@gmail.com>\n"
+"PO-Revision-Date: 2019-04-24 03:40+0000\n"
+"Last-Translator: M.Sugahara <equaaqua@hotmail.com>\n"
 "Language-Team: Japanese <https://translate.ubports.com/projects/ubports/"
 "system-settings/ja/>\n"
 "Language: ja\n"
@@ -61,9 +61,8 @@ msgstr "このライセンスは表示できません。"
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../plugins/about/PageComponent.qml:35 ../build/po/settings.js:2
-#, fuzzy
 msgid "About"
-msgstr "概要"
+msgstr "アプリについて"
 
 #: ../plugins/about/PageComponent.qml:99
 msgid "Serial"
@@ -127,7 +126,7 @@ msgstr "最終更新"
 #: ../plugins/system-update/UpdateSettings.qml:58
 #: ../plugins/wifi/NetworkDetails.qml:67
 msgid "Never"
-msgstr "しない"
+msgstr "繰り返さない"
 
 #: ../plugins/about/PageComponent.qml:194
 msgid "Check for updates"
@@ -1170,7 +1169,7 @@ msgstr "変更"
 
 #: ../plugins/hotspot/HotspotSetup.qml:267
 msgid "Start"
-msgstr ""
+msgstr "開始"
 
 #. TRANSLATORS: This is a keyword or name for the hotspot plugin which is used while searching
 #: ../plugins/hotspot/PageComponent.qml:33
@@ -2577,7 +2576,7 @@ msgstr "ダウンロード"
 
 #: ../plugins/system-update/UpdateDelegate.qml:132
 msgid "Resume"
-msgstr "再開"
+msgstr "続行"
 
 #: ../plugins/system-update/UpdateDelegate.qml:139
 msgid "Pause"
@@ -2961,7 +2960,7 @@ msgstr "以前のネットワーク"
 
 #: ../plugins/wifi/RemoveBackground.qml:28
 msgid "Clear"
-msgstr "消去"
+msgstr "クリア"
 
 #: ../plugins/background/Components/AddRemove.qml:52
 msgid "No images selected"
