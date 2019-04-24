@@ -162,7 +162,7 @@ ItemPage {
                         if (!root.online) {
                             return i18n.tr("Connect to the Internet to check for updates.");
                         } else if (s === UpdateManager.StatusIdle && updatesCount === 0) {
-                            return i18n.tr("Software is up to date");
+                            return i18n.tr("System software is up to date");
                         } else if (s === UpdateManager.StatusServerError ||
                                    s === UpdateManager.StatusNetworkError) {
                             return i18n.tr("The update server is not responding. Try again later.");
@@ -170,6 +170,12 @@ ItemPage {
                         return "";
                     }
                 }
+            }
+
+            ListItem.SingleValue {
+                text: i18n.tr("Update apps in the OpenStore")
+                progression: true
+                onClicked: Qt.openUrlExternally("openstore://updates")
             }
 
             SettingsItemTitle {
