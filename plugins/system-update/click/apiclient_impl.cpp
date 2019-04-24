@@ -43,6 +43,11 @@ ApiClientImpl::ApiClientImpl(Network::Manager *nam, QObject *parent)
             this, SLOT(requestFinished(QNetworkReply *)));
     connect(m_nam, SIGNAL(sslErrors(QNetworkReply *, const QList<QSslError>&)),
             this, SLOT(requestSslFailed(QNetworkReply *, const QList<QSslError>&)));
+    connect(this, &ApiClient::serverError, this, [this]() {
+            m_hasErrors = true;
+            m_requests = 0;
+            m_apps = QJsonArray();
+    });
 }
 
 ApiClientImpl::~ApiClientImpl()
@@ -78,33 +83,27 @@ void ApiClientImpl::requestMetadata(const QUrl &url,
 
 void ApiClientImpl::requestUpdatesMetadata(const QStringList &packages)
 {
-    QUrl url(Helpers::clickMetadataUrl());
-    QUrlQuery query(url);
+    if (m_requests != 0) {
+        qCritical() << Q_FUNC_INFO << "Has still some requests active:" << m_requests;
+        m_requests = 0;
+    }
+    foreach (const auto &package, packages) {
+        QString rawUrl(Helpers::clickMetadataUrl());
+        rawUrl.append(package);
+        QUrl url(rawUrl);
+        QUrlQuery query(url);
 
-    QJsonObject body;
+        QUrl u(url);
+        u.setQuery(query);
+        QNetworkRequest request;
+        request.setHeader(QNetworkRequest::ContentTypeHeader, "application/json");
+        request.setUrl(u);
+        request.setOriginatingObject(this);
+        request.setAttribute(QNetworkRequest::User, "metadata-request");
 
-    QStringList frameworks = Helpers::getAvailableFrameworks();
-    body.insert("frameworks", QJsonArray::fromStringList(frameworks));
-
-    body.insert("architecture",
-                QString::fromStdString(Helpers::getArchitecture()));
-
-    body.insert("apps", QJsonArray::fromStringList(packages));
-
-    body.insert("channel", Helpers::getSystemCodename());
-
-    QJsonDocument doc(body);
-    QByteArray content = doc.toJson();
-
-    QUrl u(url);
-    u.setQuery(query);
-    QNetworkRequest request;
-    request.setHeader(QNetworkRequest::ContentTypeHeader, "application/json");
-    request.setUrl(u);
-    request.setOriginatingObject(this);
-    request.setAttribute(QNetworkRequest::User, "metadata-request");
-
-    initializeReply(m_nam->post(request, content));
+        m_requests++;
+        initializeReply(m_nam->get(request));
+    }
 }
 
 void ApiClientImpl::initializeReply(QNetworkReply *reply)
@@ -208,12 +207,19 @@ void ApiClientImpl::handleRevisionReply(QNetworkReply *reply)
 void ApiClientImpl::handleMetadataReply(QNetworkReply *reply)
 {
     QScopedPointer<QJsonParseError> jsonError(new QJsonParseError);
+    m_requests--;
+
     auto document = QJsonDocument::fromJson(reply->readAll(),
                                             jsonError.data());
-    QJsonValue packages = document.object()["data"].toObject()["packages"];
+    QJsonValue package = document.object()["data"];
 
-    if (packages.isArray()) {
-        Q_EMIT metadataRequestSucceeded(packages.toArray());
+    if (package.isObject()) {
+        m_apps.append(package);
+        if (m_requests <= 0 && !m_hasErrors) {
+            Q_EMIT metadataRequestSucceeded(m_apps);
+            m_requests = 0;
+            m_apps = QJsonArray();
+        }
     } else {
         qCritical() << Q_FUNC_INFO << "Got invalid click metadata.";
         Q_EMIT serverError();
