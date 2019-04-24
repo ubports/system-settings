@@ -96,19 +96,10 @@ QString Helpers::getSystemCodename()
     return output;
 }
 
-QString Helpers::clickMetadataUrl()
-{
-    QString url = QStringLiteral(
-        "https://open-store.io/api/v2/apps"
-    );
-    QProcessEnvironment environment = QProcessEnvironment::systemEnvironment();
-    return environment.value("URL_APPS", url);
-}
-
 QString Helpers::clickRevisionUrl()
 {
     QString url = QStringLiteral(
-        "https://open-store.io/api/v2/apps/revision"
+        "https://open-store.io/api/v3/revisions"
     );
     QProcessEnvironment environment = QProcessEnvironment::systemEnvironment();
     return environment.value("URL_REVISION", url);

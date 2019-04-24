@@ -243,16 +243,7 @@ ItemPage {
                 id: clickUpdatesCol
                 objectName: "clickUpdates"
                 anchors { left: parent.left; right: parent.right }
-                visible: {
-                    var s = UpdateManager.status;
-                    var haveUpdates = clickRepeater.count > 0;
-                    switch (s) {
-                    case UpdateManager.StatusCheckingImageUpdates:
-                    case UpdateManager.StatusIdle:
-                        return haveUpdates && online;
-                    }
-                    return false;
-                }
+                visible: false
 
                 Repeater {
                     id: clickRepeater

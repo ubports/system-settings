@@ -73,37 +73,7 @@ void ApiClientImpl::requestMetadata(const QUrl &url,
     request.setOriginatingObject(this);
     request.setAttribute(QNetworkRequest::User, "revision-request");
 
-    initializeReply(m_nam->post(request, content));
-}
-
-void ApiClientImpl::requestUpdatesMetadata(const QStringList &packages)
-{
-    QUrl url(Helpers::clickMetadataUrl());
-    QUrlQuery query(url);
-
-    QJsonObject body;
-
-    QStringList frameworks = Helpers::getAvailableFrameworks();
-    body.insert("frameworks", QJsonArray::fromStringList(frameworks));
-
-    body.insert("architecture",
-                QString::fromStdString(Helpers::getArchitecture()));
-
-    body.insert("apps", QJsonArray::fromStringList(packages));
-
-    body.insert("channel", Helpers::getSystemCodename());
-
-    QJsonDocument doc(body);
-    QByteArray content = doc.toJson();
-
-    QUrl u(url);
-    u.setQuery(query);
-    QNetworkRequest request;
-    request.setHeader(QNetworkRequest::ContentTypeHeader, "application/json");
-    request.setUrl(u);
-    request.setOriginatingObject(this);
-    request.setAttribute(QNetworkRequest::User, "metadata-request");
-
+    qCritical() << "Url:" << u;
     initializeReply(m_nam->post(request, content));
 }
 
@@ -157,9 +127,7 @@ void ApiClientImpl::requestFinished(QNetworkReply *reply)
 void ApiClientImpl::requestSucceeded(QNetworkReply *reply)
 {
     QString rtp = reply->request().attribute(QNetworkRequest::User).toString();
-    if (rtp == "metadata-request") {
-        handleMetadataReply(reply);
-    } else if (rtp == "revision-request") {
+    if (rtp == "revision-request") {
         handleRevisionReply(reply);
     } else {
         // We are not to handle this reply, so do an early return.
@@ -177,43 +145,21 @@ void ApiClientImpl::handleRevisionReply(QNetworkReply *reply)
     QJsonValue data = document.object()["data"];
 
     if (data.isArray()) {
-        QStringList appsNeedingUpdate;
+        QJsonArray appsNeedingUpdate;
         QJsonArray packages = data.toArray();
         Q_FOREACH(const auto &packageValue, packages) {
             QJsonObject package = packageValue.toObject();
             int localRevision = package["revision"].toInt();
             int remoteRevision = package["latest_revision"].toInt();
+            qCritical() << "App" << package["id"].toString() <<
+                "local:" << localRevision <<
+                "remote:" << remoteRevision;
             // Do not update sideloaded apps
-            if (localRevision > 0 && remoteRevision > localRevision || m_ignore_version) {
-                appsNeedingUpdate.append(package["id"].toString());
+            if ((localRevision > 0 && remoteRevision > localRevision) || m_ignore_version) {
+                appsNeedingUpdate.append(package);
             }
         }
-        if (!appsNeedingUpdate.isEmpty()) {
-            requestUpdatesMetadata(appsNeedingUpdate);
-        } else {
-            Q_EMIT metadataRequestSucceeded(QJsonArray());
-        }
-    } else {
-        qCritical() << Q_FUNC_INFO << "Got invalid click metadata.";
-        Q_EMIT serverError();
-    }
-
-    if (jsonError->error != QJsonParseError::NoError) {
-        qCritical() << Q_FUNC_INFO << "Could not parse click metadata:"
-                    << jsonError->errorString();
-        Q_EMIT serverError();
-    }
-}
-
-void ApiClientImpl::handleMetadataReply(QNetworkReply *reply)
-{
-    QScopedPointer<QJsonParseError> jsonError(new QJsonParseError);
-    auto document = QJsonDocument::fromJson(reply->readAll(),
-                                            jsonError.data());
-    QJsonValue packages = document.object()["data"].toObject()["packages"];
-
-    if (packages.isArray()) {
-        Q_EMIT metadataRequestSucceeded(packages.toArray());
+        Q_EMIT metadataRequestSucceeded(appsNeedingUpdate);
     } else {
         qCritical() << Q_FUNC_INFO << "Got invalid click metadata.";
         Q_EMIT serverError();

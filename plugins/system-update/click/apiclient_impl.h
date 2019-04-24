@@ -46,9 +46,8 @@ protected slots:
 private:
     void initializeReply(QNetworkReply *reply);
     bool validReply(const QNetworkReply *reply);
-    void handleMetadataReply(QNetworkReply *reply);
     void handleRevisionReply(QNetworkReply *reply);
-    void requestUpdatesMetadata(const QStringList &packages);
+    void requestUpdatesMetadata(const QJsonArray &packages);
 
     Network::Manager *m_nam;
     bool m_ignore_version = false;

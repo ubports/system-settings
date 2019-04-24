@@ -118,20 +118,6 @@ Item {
                           updatesCount).arg(updatesCount)
             Layout.fillWidth: true
         }
-
-        Button {
-            objectName: "updatesGlobalInstallButton"
-            text: {
-                if (globalUpdateControls.requireRestart === true) {
-                    return i18n.tr("Update all…");
-                } else {
-                    return i18n.tr("Update all");
-                }
-            }
-            onClicked: globalUpdateControls.requestInstall()
-            color: theme.palette.normal.positive
-            strokeColor: "transparent"
-        }
     }
 
     ListItems.ThinDivider {
