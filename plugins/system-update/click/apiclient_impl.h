@@ -52,6 +52,9 @@ private:
 
     Network::Manager *m_nam;
     bool m_ignore_version = false;
+    int m_requests = 0;
+    QJsonArray m_apps;
+    bool m_hasErrors = false;
 };
 } // Click
 } // UpdatePlugin
