@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2013-07-05 22:47+0000\n"
-"Last-Translator: Purvesh R. Shah. <purveshrshah@gmail.com>\n"
-"Language-Team: Gujarati <gu@li.org>\n"
+"PO-Revision-Date: 2019-04-14 00:00+0000\n"
+"Last-Translator: Aashrut <Aashrut99@gmail.com>\n"
+"Language-Team: Gujarati <https://translate.ubports.com/projects/ubports/"
+"system-settings/gu/>\n"
 "Language: gu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.1.1\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:40+0000\n"
-"X-Generator: Launchpad (build 17628)\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
 msgid "System Settings"
@@ -25,40 +26,42 @@ msgstr "સિસ્ટમ સેટિંગ્સ"
 
 #: ubuntu-system-settings.desktop.in.in.h:2
 msgid "System;"
-msgstr ""
+msgstr "સિસ્ટમ;"
 
 #: ubuntu-system-settings.desktop.in.in.h:3
 msgid "Preferences;Settings;"
-msgstr ""
+msgstr "પસંદગી;સેટિંગ્સ;"
 
 #: ../plugins/about/DevMode.qml:35 ../plugins/about/DevMode.qml:90
 msgid "Developer Mode"
-msgstr ""
+msgstr "ડેવલોપર મોડ"
 
 #: ../plugins/about/DevMode.qml:84
 msgid ""
 "In Developer Mode, anyone can access, change or delete anything on this "
 "device by connecting it to another device."
 msgstr ""
+"ડેવલોપર મોડમાં કોઈ પણ અન્ય ડિવાઇસ સાથે આ ડિવાઇસ જોડીને કંઇ પણ મેળવી શકે, બદલી"
+" શકે કે કાઢી શકે."
 
 #: ../plugins/about/DevMode.qml:110
 msgid "You need a passcode or passphrase set to use Developer Mode."
-msgstr ""
+msgstr "તમારે ડેવલોપર મોડ વાપરવા માટે પાસકોડ કે પાસફ્રેઝ સેટ ની જરૂર છે."
 
 #: ../plugins/about/DevMode.qml:116
 #: ../plugins/security-privacy/LockSecurity.qml:36
 #: ../plugins/security-privacy/PhoneLocking.qml:66
 msgid "Lock security"
-msgstr ""
+msgstr "તાળા સુરક્ષા"
 
 #: ../plugins/about/License.qml:30
 msgid "Sorry, this license could not be displayed."
-msgstr ""
+msgstr "માફ કરજો, આ લાઇસન્સ દર્શાવી શકાશે નહીં."
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../plugins/about/PageComponent.qml:35 ../build/po/settings.js:2
 msgid "About"
-msgstr ""
+msgstr "વિશે"
 
 #: ../plugins/about/PageComponent.qml:99
 msgid "Serial"
@@ -80,15 +83,15 @@ msgstr "સીરીયલ"
 #: ../plugins/wifi/certhandler.cpp:192 ../plugins/wifi/certhandler.cpp:224
 #: ../plugins/wifi/certhandler.cpp:289 ../plugins/wifi/certhandler.cpp:318
 msgid "None"
-msgstr ""
+msgstr "કંઇ પણ નહીં"
 
 #: ../plugins/about/PageComponent.qml:131
 msgid "Wi-Fi address"
-msgstr ""
+msgstr "વાઇ-ફાઇ સરનામું"
 
 #: ../plugins/about/PageComponent.qml:139
 msgid "Bluetooth address"
-msgstr ""
+msgstr "બ્લૂટુથ સરનામું"
 
 #: ../plugins/about/PageComponent.qml:150 ../plugins/about/Storage.qml:32
 msgid "Storage"
@@ -98,7 +101,7 @@ msgstr "સ્ટોરેજ"
 #: ../plugins/about/PageComponent.qml:152
 #, qt-format
 msgid "%1 free"
-msgstr ""
+msgstr "%૧ મુક્ત છે"
 
 #: ../plugins/about/PageComponent.qml:160
 msgid "Software:"
@@ -110,7 +113,7 @@ msgstr "OS"
 
 #: ../plugins/about/PageComponent.qml:184
 msgid "Last updated"
-msgstr ""
+msgstr "છેલ્લે સુધારેલું"
 
 #: ../plugins/about/PageComponent.qml:186
 #: ../plugins/battery/PageComponent.qml:319
@@ -122,7 +125,7 @@ msgstr ""
 #: ../plugins/system-update/UpdateSettings.qml:58
 #: ../plugins/wifi/NetworkDetails.qml:67
 msgid "Never"
-msgstr ""
+msgstr "ક્યારેય નહીં"
 
 #: ../plugins/about/PageComponent.qml:194
 msgid "Check for updates"
@@ -142,11 +145,11 @@ msgstr "નિયમનકારી માહિતી"
 
 #: ../plugins/about/PageComponent.qml:238
 msgid "Developer mode"
-msgstr ""
+msgstr "ડેવલોપર મોડ"
 
 #: ../plugins/about/Storage.qml:44
 msgid "Scanning"
-msgstr ""
+msgstr "સ્કેન કરી રહ્યા છે"
 
 #: ../plugins/about/Storage.qml:106
 msgid "Used by Ubuntu"
@@ -154,19 +157,19 @@ msgstr "Ubuntu દ્વારા વપરાયેલ"
 
 #: ../plugins/about/Storage.qml:107
 msgid "Videos"
-msgstr ""
+msgstr "વિડિયોઝ"
 
 #: ../plugins/about/Storage.qml:108
 msgid "Audio"
-msgstr ""
+msgstr "ઓડિયો"
 
 #: ../plugins/about/Storage.qml:109
 msgid "Pictures"
-msgstr ""
+msgstr "ચિત્રો"
 
 #: ../plugins/about/Storage.qml:110
 msgid "Other files"
-msgstr ""
+msgstr "અન્ય ફાઈલો"
 
 #: ../plugins/about/Storage.qml:111
 msgid "Used by apps"
@@ -182,44 +185,44 @@ msgstr "મુક્ત જગ્યા"
 
 #: ../plugins/about/Storage.qml:191
 msgid "By name"
-msgstr ""
+msgstr "નામ દ્વારા"
 
 #: ../plugins/about/Storage.qml:191
 msgid "By size"
-msgstr ""
+msgstr "કદ દ્વારા"
 
 #: ../plugins/about/Storage.qml:222 ../plugins/battery/PageComponent.qml:109
 #: ../plugins/battery/PageComponent.qml:284
 msgid "N/A"
-msgstr ""
+msgstr "કંઈ નથી"
 
 #: ../plugins/about/Version.qml:35
 msgid "OS Build Details"
-msgstr ""
+msgstr "OS બિલ્ડની માહિતી"
 
 #: ../plugins/about/Version.qml:62
 msgid "OS build number"
-msgstr ""
+msgstr "OS બિલ્ડ નંબર"
 
 #: ../plugins/about/Version.qml:68
 msgid "UBports Image part"
-msgstr ""
+msgstr "Ubports ઇમેજ ભાગ"
 
 #: ../plugins/about/Version.qml:76
 msgid "Ubuntu build description"
-msgstr ""
+msgstr "ઉબન્તુ બિલ્ડની માહિતી"
 
 #: ../plugins/about/Version.qml:82
 msgid "Device Image part"
-msgstr ""
+msgstr "ડિવાઇસ ઇમેજ ભાગ"
 
 #: ../plugins/about/Version.qml:89
 msgid "Device build description"
-msgstr ""
+msgstr "ડિવાઇસ બિલ્ડની માહિતી"
 
 #: ../plugins/about/Version.qml:96
 msgid "Customization Image part"
-msgstr ""
+msgstr "કસ્ટમાઈઝેશન ઇમેજ ભાગ"
 
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../plugins/background/MainPage.qml:38 ../build/po/settings.js:44
@@ -228,28 +231,27 @@ msgstr "બેકગ્રાઉન્ડ"
 
 #: ../plugins/background/MainPage.qml:94
 msgid "Ubuntu Art"
-msgstr ""
+msgstr "ઉબન્તુ કલા"
 
 #: ../plugins/background/MainPage.qml:107
 msgid "Custom"
-msgstr ""
+msgstr "વિશેષ"
 
 #: ../plugins/background/MainPage.qml:117
-#, fuzzy
 msgid "Dash background"
-msgstr "બેકગ્રાઉન્ડ"
+msgstr "ડેશ બેકગ્રાઉન્ડ"
 
 #: ../plugins/background/MainPage.qml:130
 msgid "Opacity:"
-msgstr ""
+msgstr "દૃશ્યતા:"
 
 #: ../plugins/background/Preview.qml:69
 msgid "Preview"
-msgstr ""
+msgstr "પૂર્વદેખાવ"
 
 #: ../plugins/background/Preview.qml:107
 msgid "Remove image"
-msgstr ""
+msgstr "ઈમેજ દૂર કરો"
 
 #: ../plugins/background/Preview.qml:107
 #: ../plugins/bluetooth/ConfirmPasskeyDialog.qml:49
@@ -286,87 +288,87 @@ msgstr "રદ કરો"
 #: ../plugins/security-privacy/LockSecurity.qml:391
 #: ../plugins/time-date/TimePicker.qml:181
 msgid "Set"
-msgstr ""
+msgstr "સેટ કરો"
 
 #. TRANSLATORS: This is a keyword or name for the battery plugin which is used while searching
 #: ../plugins/battery/PageComponent.qml:35 ../build/po/settings.js:60
 msgid "Battery"
-msgstr ""
+msgstr "બેટરી"
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery/PageComponent.qml:44
 #, qt-format
 msgid "%1 second ago"
 msgid_plural "%1 seconds ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%૧ સેકન્ડ પહેલાં"
+msgstr[1] "%૧ સેકન્ડો પહેલાં"
 
 #. TRANSLATORS: %1 is the number of minutes
 #: ../plugins/battery/PageComponent.qml:47
 #, qt-format
 msgid "%1 minute ago"
 msgid_plural "%1 minutes ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%૧ મિનિટ પહેલાં"
+msgstr[1] "%૧ મિનિટો પહેલાં"
 
 #. TRANSLATORS: %1 is the number of hours
 #: ../plugins/battery/PageComponent.qml:50
 #, qt-format
 msgid "%1 hour ago"
 msgid_plural "%1 hours ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%૧ કલાક પહેલાં"
+msgstr[1] "%૧ કલાકો પહેલાં"
 
 #: ../plugins/battery/PageComponent.qml:104
 msgid "Charge level"
-msgstr ""
+msgstr "ચાર્જ સ્તર"
 
 #. TRANSLATORS: %1 refers to a percentage that indicates the charging level of the battery
 #: ../plugins/battery/PageComponent.qml:112
 #, qt-format
 msgid "%1%"
-msgstr ""
+msgstr "%૧%"
 
 #: ../plugins/battery/PageComponent.qml:190
 #: ../plugins/battery/PageComponent.qml:192
 msgid "Yesterday"
-msgstr ""
+msgstr "ગઈ કાલે"
 
 #: ../plugins/battery/PageComponent.qml:198
 #: ../plugins/battery/PageComponent.qml:200
 msgid "Today"
-msgstr ""
+msgstr "આજે"
 
 #: ../plugins/battery/PageComponent.qml:270
 msgid "Charging now"
-msgstr ""
+msgstr "અત્યારે ચાર્જ કરો"
 
 #: ../plugins/battery/PageComponent.qml:272
 msgid "Last full charge"
-msgstr ""
+msgstr "છેલ્લે સંપૂર્ણ ચાર્જ"
 
 #: ../plugins/battery/PageComponent.qml:274
 msgid "Fully charged"
-msgstr ""
+msgstr "સંપૂર્ણ ચાર્જ થયું"
 
 #: ../plugins/battery/PageComponent.qml:293
 msgid "Ways to reduce battery use:"
-msgstr ""
+msgstr "બેટરી વપરાશ ઘટાડવા માટેના ઉપાયો:"
 
 #: ../plugins/battery/PageComponent.qml:297
 #: ../plugins/brightness/PageComponent.qml:84
 msgid "Display brightness"
-msgstr ""
+msgstr "ડિસ્પ્લે બ્રાઈટનેસ"
 
 #: ../plugins/battery/PageComponent.qml:314
 #: ../plugins/security-privacy/PhoneLocking.qml:89
 msgid "Lock when idle"
-msgstr ""
+msgstr "જ્યારે નિષ્ક્રિય હોય ત્યારે લોક કરો"
 
 #: ../plugins/battery/PageComponent.qml:314
 #: ../plugins/security-privacy/PhoneLocking.qml:90
 msgid "Sleep when idle"
-msgstr ""
+msgstr "જ્યારે નિષ્ક્રિય હોય ત્યારે સ્લીપ કરો"
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery/PageComponent.qml:322
@@ -374,8 +376,8 @@ msgstr ""
 #, qt-format
 msgid "After %1 second"
 msgid_plural "After %1 seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%૧ સેકન્ડ બાદ"
+msgstr[1] "%૧ સેકન્ડો બાદ"
 
 #. TRANSLATORS: %1 is the number of minutes
 #: ../plugins/battery/PageComponent.qml:326
@@ -389,19 +391,19 @@ msgstr[1] ""
 #, qt-format
 msgid "After %1 minute"
 msgid_plural "After %1 minutes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%૧ મિનિટ બાદ"
+msgstr[1] "%૧ મિનિટો બાદ"
 
 #. TRANSLATORS: “Wi-Fi used for hotspot” is hidden.
 #: ../plugins/battery/PageComponent.qml:365
 msgid "Wi-Fi used for hotspot"
-msgstr ""
+msgstr "હોટસ્પોટ માટે વાઇ-ફાઇ વપરાયું"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../plugins/battery/PageComponent.qml:365
 #: ../plugins/wifi/PageComponent.qml:28 ../build/po/settings.js:398
 msgid "Wi-Fi"
-msgstr "Wi-Fi"
+msgstr "વાઇ-ફાઇ"
 
 #. TRANSLATORS: This is a keyword or name for the bluetooth plugin which is used while searching
 #: ../plugins/battery/PageComponent.qml:401
@@ -412,19 +414,19 @@ msgstr "બ્લૂટૂથ"
 
 #: ../plugins/battery/SleepValues.qml:74
 msgid "Lock the device when it's not in use:"
-msgstr ""
+msgstr "ડિવાઇસ લોક કરો જ્યારે તે ઉપયોગમાં ન હોય :"
 
 #: ../plugins/battery/SleepValues.qml:75
 msgid "Put the device to sleep when it is not in use:"
-msgstr ""
+msgstr "ડિવાઇસ ને સ્લીપ કરો જ્યારે તે ઉપયોગમાં ન હોય :"
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery/SleepValues.qml:86
 #, qt-format
 msgid "After %1 seconds"
 msgid_plural "After %1 seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%૧ સેકન્ડ બાદ"
+msgstr[1] "%૧ સેકન્ડો બાદ"
 
 #: ../plugins/battery/SleepValues.qml:130
 msgid ""
@@ -498,11 +500,11 @@ msgstr ""
 #: ../plugins/bluetooth/DevicePage.qml:41 ../plugins/hotspot/Common.qml:94
 #: ../plugins/system-update/UpdateSettings.qml:64 ../plugins/wifi/Common.qml:96
 msgid "Unknown"
-msgstr ""
+msgstr "અજાણ્યુ"
 
 #: ../plugins/bluetooth/DevicePage.qml:47
 msgid "Computer"
-msgstr ""
+msgstr "કોમ્પ્યુટર"
 
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../plugins/bluetooth/DevicePage.qml:48
@@ -541,15 +543,15 @@ msgstr ""
 
 #: ../plugins/bluetooth/DevicePage.qml:57
 msgid "Keyboard"
-msgstr ""
+msgstr "કીબોર્ડ"
 
 #: ../plugins/bluetooth/DevicePage.qml:58
 msgid "Tablet"
-msgstr ""
+msgstr "ટેબલેટ"
 
 #: ../plugins/bluetooth/DevicePage.qml:59 ../plugins/mouse/Connected.qml:48
 msgid "Mouse"
-msgstr ""
+msgstr "માઉસ"
 
 #: ../plugins/bluetooth/DevicePage.qml:60
 msgid "Printer"
@@ -558,7 +560,7 @@ msgstr ""
 #: ../plugins/bluetooth/DevicePage.qml:61
 #: ../plugins/security-privacy/AppAccess.qml:75
 msgid "Camera"
-msgstr ""
+msgstr "કેમેરા"
 
 #: ../plugins/bluetooth/DevicePage.qml:62
 msgid "Watch"
@@ -742,11 +744,11 @@ msgstr ""
 #: ../plugins/vpn/PageComponent.qml:123
 #: ../plugins/cellular/Components/SimEditor.qml:214
 msgid "OK"
-msgstr ""
+msgstr "ઠીક છે"
 
 #: ../plugins/cellular/PageApnEditor.qml:71
 msgid "Edit"
-msgstr ""
+msgstr "ફેરફાર કરો"
 
 #: ../plugins/cellular/PageApnEditor.qml:71
 msgid "New APN"
@@ -968,7 +970,7 @@ msgstr ""
 #: ../plugins/cellular/PageChooseApn.qml:303
 #: ../plugins/printing/PageComponent.qml:136
 msgid "Delete"
-msgstr ""
+msgstr "કાઢી નાખો"
 
 #: ../plugins/cellular/PageChooseCarrier.qml:153
 #: ../plugins/time-date/ChooseTimeZone.qml:51
@@ -1592,7 +1594,7 @@ msgstr "ફોન કોલ્સ:"
 #: ../plugins/security-privacy/PageComponent.qml:180
 #: ../plugins/security-privacy/PageComponent.qml:248
 msgid "Off"
-msgstr ""
+msgstr "બંધ"
 
 #. TRANSLATORS: This string will be truncated on smaller displays.
 #: ../plugins/phone/CallForwardItem.qml:157
@@ -1672,7 +1674,7 @@ msgstr ""
 
 #: ../plugins/printing/AddPrinterDetails.qml:44
 msgid "Back"
-msgstr ""
+msgstr "પાછાં ફરો"
 
 #: ../plugins/printing/AddPrinterDetails.qml:137
 msgid "Connection"
@@ -1690,7 +1692,7 @@ msgstr ""
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:32
 #: ../plugins/printing/printer-sub-pages/Status.qml:66
 msgid "Description"
-msgstr ""
+msgstr "વર્ણન"
 
 #: ../plugins/printing/AddPrinterDetails.qml:204
 #: ../plugins/printing/AddPrinterDetails.qml:211
@@ -1703,7 +1705,7 @@ msgstr ""
 #: ../plugins/security-privacy/PageComponent.qml:240
 #: ../plugins/printing/printer-sub-pages/Status.qml:72
 msgid "Location"
-msgstr ""
+msgstr "સ્થાન"
 
 #: ../plugins/printing/AddPrinterDetails.qml:219
 msgid "Driver"
@@ -2084,7 +2086,7 @@ msgstr ""
 #: ../plugins/security-privacy/PageComponent.qml:176
 #: ../plugins/security-privacy/PageComponent.qml:248
 msgid "On"
-msgstr ""
+msgstr "શરુ"
 
 #: ../plugins/security-privacy/PageComponent.qml:187
 msgid "Encryption"
@@ -2614,19 +2616,19 @@ msgstr ""
 
 #: ../plugins/time-date/TimePicker.qml:117
 msgid "Date"
-msgstr ""
+msgstr "તારીખ"
 
 #: ../plugins/time-date/TimePicker.qml:129
 msgid "Day"
-msgstr ""
+msgstr "દિવસ"
 
 #: ../plugins/time-date/TimePicker.qml:143
 msgid "Month"
-msgstr ""
+msgstr "મહિનો"
 
 #: ../plugins/time-date/TimePicker.qml:161
 msgid "Year"
-msgstr ""
+msgstr "વર્ષ"
 
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../plugins/vpn/PageComponent.qml:31 ../build/po/settings.js:380
@@ -2673,7 +2675,7 @@ msgstr ""
 
 #: ../plugins/wifi/CertDialog.qml:74
 msgid "Save"
-msgstr ""
+msgstr "સાચવો"
 
 #: ../plugins/wifi/NetworkDetails.qml:38
 msgid "Network details"
@@ -3006,19 +3008,19 @@ msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:30
 msgid "Idle"
-msgstr ""
+msgstr "નિષ્ક્રિય"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:32
 msgid "Aborted"
-msgstr ""
+msgstr "રદ કરેલું"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:34
 msgid "Active"
-msgstr ""
+msgstr "સક્રિય"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:36
 msgid "Stopped"
-msgstr ""
+msgstr "અટકી ગયું"
 
 #. TRANSLATORS: %1 is the overall state of the printer, %2 is a more
 #. detailed message from the printer itself.
@@ -3029,7 +3031,7 @@ msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:43
 msgid "No messages"
-msgstr ""
+msgstr "કોઇ સંદેશાઓ નથી"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:48
 msgid "Jobs"
