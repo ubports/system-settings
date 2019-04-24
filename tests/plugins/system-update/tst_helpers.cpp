@@ -42,10 +42,10 @@ private slots:
             UpdatePlugin::Helpers::getArchitecture());
         QVERIFY(!res.isEmpty());
     }
-    void testClickMetadataUrl()
+    void testClickRevisionUrl()
     {
-        QCOMPARE(UpdatePlugin::Helpers::clickMetadataUrl(),
-                 env.value("URL_APPS"));
+        QCOMPARE(UpdatePlugin::Helpers::clickRevisionUrl(),
+                 env.value("URL_REVISION"));
     }
     void testWhichClick()
     {
