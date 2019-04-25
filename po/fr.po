@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-03-17 00:00+0000\n"
+"PO-Revision-Date: 2019-04-25 19:14+0000\n"
 "Last-Translator: Anne Onyme <anneonyme017@netcourrier.com>\n"
 "Language-Team: French <https://translate.ubports.com/projects/ubports/"
 "system-settings/fr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.1.1\n"
+"X-Generator: Weblate 3.2.2\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:40+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -1701,7 +1701,7 @@ msgstr "Décrivez l'imprimante"
 
 #: ../plugins/printing/AddPrinterDetails.qml:44
 msgid "Back"
-msgstr "De retour"
+msgstr "Retour"
 
 #: ../plugins/printing/AddPrinterDetails.qml:137
 msgid "Connection"
@@ -1732,7 +1732,7 @@ msgstr "Facultatif"
 #: ../plugins/security-privacy/PageComponent.qml:240
 #: ../plugins/printing/printer-sub-pages/Status.qml:72
 msgid "Location"
-msgstr "Emplacement"
+msgstr "Position"
 
 #: ../plugins/printing/AddPrinterDetails.qml:219
 msgid "Driver"
@@ -1951,8 +1951,8 @@ msgid ""
 "Uses WiFi and GPS to detect your rough location. Turning off location "
 "detection saves battery."
 msgstr ""
-"Utilise le Wi-Fi afin de détecter grossièrement votre localisation. Éteindre "
-"la détection de la localisation économise la batterie."
+"Utilise le Wi-Fi afin de détecter grossièrement votre position. Éteindre la "
+"détection de la position économise la batterie."
 
 #: ../plugins/security-privacy/Location.qml:216
 msgid ""
@@ -1960,8 +1960,8 @@ msgid ""
 "location detection saves battery."
 msgstr ""
 "Utilise le Wi-Fi (actuellement désactivé) et le GPS afin de détecter votre "
-"position approximative. Désactiver la détection de la localisation économise "
-"la batterie."
+"position approximative. Désactiver la détection de la position économise la "
+"batterie."
 
 #: ../plugins/security-privacy/Location.qml:218
 msgid ""
@@ -1970,17 +1970,17 @@ msgid ""
 msgstr ""
 "Utilise le Wi-Fi, la position des antennes-relais de téléphonie mobile et le "
 "GPS afin de détecter votre position approximative. Désactiver la détection "
-"de la localisation économise la batterie."
+"de la position économise la batterie."
 
 #: ../plugins/security-privacy/Location.qml:220
 msgid ""
 "Uses WiFi, cell tower locations (no current cellular connection), and GPS to "
 "detect your rough location. Turning off location detection saves battery."
 msgstr ""
-"Utilise le Wi-Fi, la position des antennes-relais de téléphonie mobile "
-"(aucune connexion mobile actuellement) et le GPS afin de détecter votre "
-"position approximative. Désactiver la détection de la localisation économise "
-"la batterie."
+"Utilise le Wi-Fi, la position des antennes-relais de téléphonie mobile ("
+"aucune connexion mobile actuellement) et le GPS afin de détecter votre "
+"position approximative. Désactiver la détection de la position économise la "
+"batterie."
 
 #: ../plugins/security-privacy/Location.qml:222
 msgid ""
@@ -1989,8 +1989,7 @@ msgid ""
 msgstr ""
 "Utilise le Wi-Fi (actuellement désactivé), la position des antennes-relais "
 "de téléphonie mobile et le GPS afin de détecter votre position "
-"approximative. Désactiver la détection de la localisation économise la "
-"batterie."
+"approximative. Désactiver la détection de la position économise la batterie."
 
 #: ../plugins/security-privacy/Location.qml:224
 msgid ""
@@ -2001,11 +2000,11 @@ msgstr ""
 "Utilise le Wi-Fi (actuellement désactivé), la position des antennes-relais "
 "de téléphonie mobile (aucune connexion mobile actuellement) et le GPS afin "
 "de détecter votre position approximative. Désactiver la détection de la "
-"localisation économise la batterie."
+"position économise la batterie."
 
 #: ../plugins/security-privacy/Location.qml:231
 msgid "Let apps access this location:"
-msgstr "Laisser les applications accéder à cet emplacement :"
+msgstr "Laisser les applications suivantes accéder à cette position :"
 
 #: ../plugins/security-privacy/Location.qml:254
 msgid "None requested"

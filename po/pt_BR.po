@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2018-06-07 08:15+0000\n"
-"Last-Translator: Danilo Alculete <dannyalculete@gmail.com>\n"
+"PO-Revision-Date: 2019-04-25 19:14+0000\n"
+"Last-Translator: Vinícius F <magnetuz@protonmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.ubports.com/projects/"
 "ubports/system-settings/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2.15\n"
+"X-Generator: Weblate 3.2.2\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:42+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -37,7 +37,6 @@ msgid "Developer Mode"
 msgstr "Modo desenvolvedor"
 
 #: ../plugins/about/DevMode.qml:84
-#, fuzzy
 msgid ""
 "In Developer Mode, anyone can access, change or delete anything on this "
 "device by connecting it to another device."
@@ -152,7 +151,7 @@ msgstr "Modo desenvolvedor"
 
 #: ../plugins/about/Storage.qml:44
 msgid "Scanning"
-msgstr ""
+msgstr "Escaneando"
 
 #: ../plugins/about/Storage.qml:106
 msgid "Used by Ubuntu"
@@ -208,9 +207,8 @@ msgid "OS build number"
 msgstr "Número de compilação do SO"
 
 #: ../plugins/about/Version.qml:68
-#, fuzzy
 msgid "UBports Image part"
-msgstr "Parte da imagem do Ubuntu"
+msgstr "Parte da Imagem do UBports"
 
 #: ../plugins/about/Version.qml:76
 msgid "Ubuntu build description"
@@ -248,7 +246,7 @@ msgstr "plano de fundo"
 
 #: ../plugins/background/MainPage.qml:130
 msgid "Opacity:"
-msgstr ""
+msgstr "Opacidade:"
 
 #: ../plugins/background/Preview.qml:69
 msgid "Preview"
@@ -1189,7 +1187,7 @@ msgstr "Iniciar"
 #: ../plugins/hotspot/PageComponent.qml:33
 #: ../plugins/hotspot/PageComponent.qml:85 ../build/po/settings.js:160
 msgid "Hotspot"
-msgstr "Hotspot"
+msgstr "Ponto de acesso (Hotspot)"
 
 #: ../plugins/hotspot/PageComponent.qml:114
 msgid ""
@@ -3044,9 +3042,8 @@ msgid "Remove images…"
 msgstr "Remover imagens…"
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:36
-#, fuzzy
 msgid "Cellular data"
-msgstr "Dados móveis:"
+msgstr "Dados do celular"
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:73
 #: ../plugins/cellular/Components/NoSim.qml:36
@@ -3178,7 +3175,7 @@ msgstr "Interropido"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:34
 msgid "Active"
-msgstr "Ativa"
+msgstr "Ativo"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:36
 msgid "Stopped"
