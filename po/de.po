@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-04-24 20:53+0000\n"
+"PO-Revision-Date: 2019-04-29 19:03+0000\n"
 "Last-Translator: Florian Leeber <flori@bin.org.in>\n"
 "Language-Team: German <https://translate.ubports.com/projects/ubports/"
 "system-settings/de/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.2.2\n"
+"X-Generator: Weblate 3.6\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:40+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -1263,15 +1263,15 @@ msgstr "Einfach grau"
 
 #: ../plugins/language/PageComponent.qml:190
 msgid "Bordered White"
-msgstr ""
+msgstr "Weiß mit Rahmen"
 
 #: ../plugins/language/PageComponent.qml:191
 msgid "Bordered Black"
-msgstr ""
+msgstr "Schwarz mit Rahmen"
 
 #: ../plugins/language/PageComponent.qml:192
 msgid "Bordered Grey"
-msgstr ""
+msgstr "Grau mit Rahmen"
 
 #: ../plugins/language/PageComponent.qml:195
 msgid "On-screen keyboard theme"
@@ -2419,9 +2419,8 @@ msgstr ""
 "Ein Neustart ist notwendig, um die Systemaktualisierung zu installieren."
 
 #: ../plugins/system-update/FirmwareUpdate.qml:185
-#, fuzzy
 msgid "Install and restart now"
-msgstr "Installieren & Neustarten"
+msgstr "Jetzt installieren & neustarten"
 
 #: ../plugins/system-update/FirmwareUpdate.qml:228
 msgid ""
