@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-04-29 19:03+0000\n"
-"Last-Translator: Florian Leeber <flori@bin.org.in>\n"
+"PO-Revision-Date: 2019-04-29 20:02+0000\n"
+"Last-Translator: Jonatan Hatakeyama Zeidler <jonatan_zeidler@gmx.de>\n"
 "Language-Team: German <https://translate.ubports.com/projects/ubports/"
 "system-settings/de/>\n"
 "Language: de\n"
@@ -2404,19 +2404,16 @@ msgid "Firmware Update"
 msgstr "Firmware-Upgrade"
 
 #: ../plugins/system-update/FirmwareUpdate.qml:133
-#, fuzzy
 msgid "There is a firmware update available!"
-msgstr "%1 Aktualisierung verfügbar"
+msgstr "Eine Firmware-Aktualisierung ist verfügbar!"
 
 #: ../plugins/system-update/FirmwareUpdate.qml:134
 msgid "Firmware is up to date!"
 msgstr "Die Software ist aktuell!"
 
 #: ../plugins/system-update/FirmwareUpdate.qml:169
-#, fuzzy
 msgid "The device will restart automatically after installing is done."
-msgstr ""
-"Ein Neustart ist notwendig, um die Systemaktualisierung zu installieren."
+msgstr "Das Gerät startet nach der Installation automatisch neu."
 
 #: ../plugins/system-update/FirmwareUpdate.qml:185
 msgid "Install and restart now"
@@ -2430,9 +2427,8 @@ msgstr ""
 "dauern..."
 
 #: ../plugins/system-update/FirmwareUpdate.qml:235
-#, fuzzy
 msgid "Checking for firmware update"
-msgstr "Aktualisierungen werden gesucht …"
+msgstr "Firmware-Aktualisierungen werden gesucht"
 
 #: ../plugins/system-update/GlobalUpdateControls.qml:84
 msgid "Checking for updates…"
@@ -2520,6 +2516,8 @@ msgid ""
 "Use this to get all of the latest apps, typically needed after a major "
 "system upgrade, "
 msgstr ""
+"Hiermit lassen sich alle Apps aktualisieren, typischerweise nach einer "
+"größeren Systemaktualisierung, "
 
 #: ../plugins/system-update/UpdateDelegate.qml:119
 msgid "Retry"
