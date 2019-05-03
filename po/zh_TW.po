@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-04-07 00:00+0000\n"
+"PO-Revision-Date: 2019-05-03 20:12+0000\n"
 "Last-Translator: louies0623 <louies0623@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.ubports.com/projects/"
 "ubports/system-settings/zh_Hant/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.1.1\n"
+"X-Generator: Weblate 3.6.1\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:42+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -30,7 +30,7 @@ msgstr "系統;"
 
 #: ubuntu-system-settings.desktop.in.in.h:3
 msgid "Preferences;Settings;"
-msgstr "Preferences;Settings;偏好設定;設定值;"
+msgstr "偏好設定;設置;"
 
 #: ../plugins/about/DevMode.qml:35 ../plugins/about/DevMode.qml:90
 msgid "Developer Mode"
@@ -46,7 +46,7 @@ msgstr ""
 
 #: ../plugins/about/DevMode.qml:110
 msgid "You need a passcode or passphrase set to use Developer Mode."
-msgstr "您需要設定PIN密碼或密碼才能使用「開發人員模式」。"
+msgstr "您需要設定 PIN 密碼或密碼才能使用「開發人員模式」。"
 
 #: ../plugins/about/DevMode.qml:116
 #: ../plugins/security-privacy/LockSecurity.qml:36
@@ -318,7 +318,7 @@ msgstr[0] "%1 小時之前"
 
 #: ../plugins/battery/PageComponent.qml:104
 msgid "Charge level"
-msgstr "充電水平"
+msgstr "充電量"
 
 #. TRANSLATORS: %1 refers to a percentage that indicates the charging level of the battery
 #: ../plugins/battery/PageComponent.qml:112
@@ -541,7 +541,7 @@ msgstr "鍵盤"
 
 #: ../plugins/bluetooth/DevicePage.qml:58
 msgid "Tablet"
-msgstr "繪圖板"
+msgstr "平板電腦"
 
 #: ../plugins/bluetooth/DevicePage.qml:59 ../plugins/mouse/Connected.qml:48
 msgid "Mouse"
@@ -711,7 +711,7 @@ msgstr "已連接的顯示器:"
 
 #: ../plugins/brightness/WifiDisplays.qml:128
 msgid "Connecting"
-msgstr "連線"
+msgstr "連線中"
 
 #: ../plugins/brightness/WifiDisplays.qml:146
 msgid "Use another display:"
@@ -881,11 +881,11 @@ msgstr "電信業者與APN"
 
 #: ../plugins/cellular/PageChooseApn.qml:85
 msgid "MMS APN"
-msgstr "多媒體訊息APN"
+msgstr "多媒體訊息 APN"
 
 #: ../plugins/cellular/PageChooseApn.qml:91
 msgid "Internet APN"
-msgstr "網路APN"
+msgstr "網路 APN"
 
 #: ../plugins/cellular/PageChooseApn.qml:97
 msgid "LTE APN"
@@ -1945,9 +1945,7 @@ msgid ""
 "Uses WiFi (currently off), cell tower locations (no current cellular "
 "connection), and GPS to detect your rough location. Turning off location "
 "detection saves battery."
-msgstr ""
-"使用 wifi (目前關閉狀態)、手機信號塔位置（目前沒有行動數據連線） 和 GPS 來偵"
-"測您的大概位置。關閉位置偵測可節省電池計量。"
+msgstr "使用 WiFi (目前關閉狀態)、手機信號塔位置（目前沒有行動數據連線） 和 GPS 來偵測您的大概位置。關閉位置偵測可節省電池計量。"
 
 #: ../plugins/security-privacy/Location.qml:231
 msgid "Let apps access this location:"
@@ -2540,7 +2538,7 @@ msgstr "更新失敗"
 
 #: ../plugins/system-update/UpdateSettings.qml:60
 msgid "On WiFi"
-msgstr "有 Wi-Fi 時"
+msgstr "有 Wi-Fi 的時後"
 
 #: ../plugins/system-update/UpdateSettings.qml:62
 msgid "Always"
@@ -2556,7 +2554,7 @@ msgstr "時區"
 
 #: ../plugins/time-date/ChooseTimeZone.qml:50
 msgid "Set the time zone:"
-msgstr "設置時區:"
+msgstr "設置時區："
 
 #: ../plugins/time-date/ChooseTimeZone.qml:51
 #: ../plugins/time-date/PageComponent.qml:85
@@ -2665,7 +2663,7 @@ msgstr "沒有可用的數據。"
 
 #: ../plugins/wifi/CertDialog.qml:74
 msgid "Save"
-msgstr "儲存"
+msgstr "保存"
 
 #: ../plugins/wifi/NetworkDetails.qml:38
 msgid "Network details"
@@ -3262,7 +3260,7 @@ msgstr "發現"
 #. TRANSLATORS: This is a keyword or name for the bluetooth plugin which is used while searching
 #: ../build/po/settings.js:88
 msgid "car"
-msgstr "車"
+msgstr "車子"
 
 #. TRANSLATORS: This is a keyword or name for the bluetooth plugin which is used while searching
 #: ../build/po/settings.js:90
@@ -3941,7 +3939,7 @@ msgstr "有更新的系統映像。"
 
 #: ../push-helper/software_updates_helper.py:160
 msgid "Tap to open the system updater."
-msgstr "點按以打開系統更新程式。"
+msgstr "按一下來打開系統更新程式。"
 
 #~ msgid "Sign in to Ubuntu One to receive updates for apps."
 #~ msgstr "登入Ubuntu One 以接收應用程式更新。"

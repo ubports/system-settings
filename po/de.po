@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-04-24 20:53+0000\n"
-"Last-Translator: Florian Leeber <flori@bin.org.in>\n"
+"PO-Revision-Date: 2019-05-03 20:12+0000\n"
+"Last-Translator: Jonatan Hatakeyama Zeidler <jonatan_zeidler@gmx.de>\n"
 "Language-Team: German <https://translate.ubports.com/projects/ubports/"
 "system-settings/de/>\n"
 "Language: de\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.2.2\n"
+"X-Generator: Weblate 3.6.1\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:40+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -63,7 +63,7 @@ msgstr "Die Lizenz konnte nicht angezeigt werden."
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../plugins/about/PageComponent.qml:35 ../build/po/settings.js:2
 msgid "About"
-msgstr "Über"
+msgstr "Info"
 
 #: ../plugins/about/PageComponent.qml:99
 msgid "Serial"
@@ -1263,15 +1263,15 @@ msgstr "Einfach grau"
 
 #: ../plugins/language/PageComponent.qml:190
 msgid "Bordered White"
-msgstr ""
+msgstr "Weiß mit Rahmen"
 
 #: ../plugins/language/PageComponent.qml:191
 msgid "Bordered Black"
-msgstr ""
+msgstr "Schwarz mit Rahmen"
 
 #: ../plugins/language/PageComponent.qml:192
 msgid "Bordered Grey"
-msgstr ""
+msgstr "Grau mit Rahmen"
 
 #: ../plugins/language/PageComponent.qml:195
 msgid "On-screen keyboard theme"
@@ -1509,7 +1509,7 @@ msgstr "Vibration"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:50
 msgid "When in Silent mode:"
-msgstr "Im Lautlos Modus:"
+msgstr "Im lautlosen Modus:"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:68
 msgid "Vibrate as normal"
@@ -2404,24 +2404,20 @@ msgid "Firmware Update"
 msgstr "Firmware-Upgrade"
 
 #: ../plugins/system-update/FirmwareUpdate.qml:133
-#, fuzzy
 msgid "There is a firmware update available!"
-msgstr "%1 Aktualisierung verfügbar"
+msgstr "Eine Firmware-Aktualisierung ist verfügbar!"
 
 #: ../plugins/system-update/FirmwareUpdate.qml:134
 msgid "Firmware is up to date!"
 msgstr "Die Software ist aktuell!"
 
 #: ../plugins/system-update/FirmwareUpdate.qml:169
-#, fuzzy
 msgid "The device will restart automatically after installing is done."
-msgstr ""
-"Ein Neustart ist notwendig, um die Systemaktualisierung zu installieren."
+msgstr "Das Gerät startet nach der Installation automatisch neu."
 
 #: ../plugins/system-update/FirmwareUpdate.qml:185
-#, fuzzy
 msgid "Install and restart now"
-msgstr "Installieren & Neustarten"
+msgstr "Jetzt installieren & neustarten"
 
 #: ../plugins/system-update/FirmwareUpdate.qml:228
 msgid ""
@@ -2431,9 +2427,8 @@ msgstr ""
 "dauern..."
 
 #: ../plugins/system-update/FirmwareUpdate.qml:235
-#, fuzzy
 msgid "Checking for firmware update"
-msgstr "Aktualisierungen werden gesucht …"
+msgstr "Firmware-Aktualisierungen werden gesucht"
 
 #: ../plugins/system-update/GlobalUpdateControls.qml:84
 msgid "Checking for updates…"
@@ -2521,6 +2516,8 @@ msgid ""
 "Use this to get all of the latest apps, typically needed after a major "
 "system upgrade, "
 msgstr ""
+"Hiermit lassen sich alle Apps aktualisieren, typischerweise nach einer "
+"größeren Systemaktualisierung, "
 
 #: ../plugins/system-update/UpdateDelegate.qml:119
 msgid "Retry"

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-04-24 19:07+0000\n"
+"PO-Revision-Date: 2019-04-26 23:38+0000\n"
 "Last-Translator: 不朽正义 <tanyongle0633@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.ubports.com/projects/"
 "ubports/system-settings/zh_Hans/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.1.1\n"
+"X-Generator: Weblate 3.2.2\n"
 "X-Launchpad-Export-Date: 2015-07-24 05:41+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -37,13 +37,10 @@ msgid "Developer Mode"
 msgstr "开发者模式"
 
 #: ../plugins/about/DevMode.qml:84
-#, fuzzy
 msgid ""
 "In Developer Mode, anyone can access, change or delete anything on this "
 "device by connecting it to another device."
-msgstr ""
-"在开发者模式下，任何人都可以通过将本手机与其他设备连接来访问、修改或者删除本"
-"手机内的任何内容。"
+msgstr "在开发者模式下，任何人都可以通过将该设备与其他设备连接来访问、更改或删除该设备上的任何内容。"
 
 #: ../plugins/about/DevMode.qml:110
 msgid "You need a passcode or passphrase set to use Developer Mode."
@@ -206,9 +203,8 @@ msgid "OS build number"
 msgstr "系统版本号"
 
 #: ../plugins/about/Version.qml:68
-#, fuzzy
 msgid "UBports Image part"
-msgstr "Ubuntu 映像部分"
+msgstr "Ubuntu 镜像部分"
 
 #: ../plugins/about/Version.qml:76
 msgid "Ubuntu build description"
@@ -240,13 +236,12 @@ msgid "Custom"
 msgstr "自定义"
 
 #: ../plugins/background/MainPage.qml:117
-#, fuzzy
 msgid "Dash background"
-msgstr "背景"
+msgstr "冲撞背景"
 
 #: ../plugins/background/MainPage.qml:130
 msgid "Opacity:"
-msgstr ""
+msgstr "透明度："
 
 #: ../plugins/background/Preview.qml:69
 msgid "Preview"
@@ -373,10 +368,10 @@ msgstr "闲置时休眠"
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery/PageComponent.qml:322
 #: ../plugins/security-privacy/PhoneLocking.qml:98
-#, fuzzy, qt-format
+#, qt-format
 msgid "After %1 second"
 msgid_plural "After %1 seconds"
-msgstr[0] "%1分钟后"
+msgstr[0] "在 ％1 分钟后"
 
 #. TRANSLATORS: %1 is the number of minutes
 #: ../plugins/battery/PageComponent.qml:326
@@ -394,9 +389,8 @@ msgstr[0] "%1分钟后"
 
 #. TRANSLATORS: “Wi-Fi used for hotspot” is hidden.
 #: ../plugins/battery/PageComponent.qml:365
-#, fuzzy
 msgid "Wi-Fi used for hotspot"
-msgstr "Wi-Fi 热点"
+msgstr "用于 Wi-Fi 热点"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../plugins/battery/PageComponent.qml:365
@@ -412,21 +406,19 @@ msgid "Bluetooth"
 msgstr "蓝牙"
 
 #: ../plugins/battery/SleepValues.qml:74
-#, fuzzy
 msgid "Lock the device when it's not in use:"
-msgstr "当手机闲置时锁定："
+msgstr "当设备不使用时锁定："
 
 #: ../plugins/battery/SleepValues.qml:75
-#, fuzzy
 msgid "Put the device to sleep when it is not in use:"
-msgstr "当手机闲置时进入睡眠状态："
+msgstr "当设备不使用时进入休眠状态："
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery/SleepValues.qml:86
-#, fuzzy, qt-format
+#, qt-format
 msgid "After %1 seconds"
 msgid_plural "After %1 seconds"
-msgstr[0] "%1分钟后"
+msgstr[0] "在 %1 分钟后"
 
 #: ../plugins/battery/SleepValues.qml:130
 #, fuzzy
@@ -3041,7 +3033,6 @@ msgid "Color model"
 msgstr "开发者模式"
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:75
-#, fuzzy
 msgid "Quality"
 msgstr "质量"
 

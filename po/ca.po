@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-02-12 16:09+0000\n"
+"PO-Revision-Date: 2019-05-03 20:12+0000\n"
 "Last-Translator: Joan CiberSheep <cibersheep@gmail.com>\n"
 "Language-Team: Catalan <https://translate.ubports.com/projects/ubports/"
 "system-settings/ca/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.1.1\n"
+"X-Generator: Weblate 3.6.1\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:40+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -284,7 +284,7 @@ msgstr "Suprmeix la imatge"
 #: ../plugins/background/Components/AddRemove.qml:42
 #: ../plugins/cellular/Components/SimEditor.qml:203
 msgid "Cancel"
-msgstr "Cancel·lar"
+msgstr "Cancel·la"
 
 #: ../plugins/background/Preview.qml:113
 #: ../plugins/phone/CallForwarding.qml:253
@@ -726,7 +726,7 @@ msgstr "Pantalla connectada:"
 
 #: ../plugins/brightness/WifiDisplays.qml:128
 msgid "Connecting"
-msgstr "S'està connectant"
+msgstr "Connectant"
 
 #: ../plugins/brightness/WifiDisplays.qml:146
 msgid "Use another display:"
@@ -838,7 +838,7 @@ msgstr "Entreu el nom d'usuari"
 #: ../plugins/cellular/PageApnEditor.qml:341
 #: ../plugins/wifi/NetworkDetails.qml:72 ../plugins/wifi/OtherNetwork.qml:786
 msgid "Password"
-msgstr "﻿Contrasenya"
+msgstr "Contrasenya"
 
 #: ../plugins/cellular/PageApnEditor.qml:353
 msgid "Enter password"
@@ -977,7 +977,7 @@ msgstr "Aixà deshabilita a %1."
 #: ../plugins/cellular/PageChooseApn.qml:303
 #: ../plugins/printing/PageComponent.qml:136
 msgid "Delete"
-msgstr "Suprimeix"
+msgstr "Elimina"
 
 #: ../plugins/cellular/PageChooseCarrier.qml:153
 #: ../plugins/time-date/ChooseTimeZone.qml:51

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2018-12-20 18:33+0000\n"
+"PO-Revision-Date: 2019-04-29 19:03+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://translate.ubports.com/projects/ubports/"
 "system-settings/fi/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.1.1\n"
+"X-Generator: Weblate 3.6\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:40+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -205,9 +205,8 @@ msgid "OS build number"
 msgstr "Järjestelmän koostamisnumero"
 
 #: ../plugins/about/Version.qml:68
-#, fuzzy
 msgid "UBports Image part"
-msgstr "Ubuntu-järjestelmäkuvan osa"
+msgstr "UBports-järjestelmäkuvan osa"
 
 #: ../plugins/about/Version.qml:76
 msgid "Ubuntu build description"
@@ -282,7 +281,7 @@ msgstr "Poista kuva"
 #: ../plugins/background/Components/AddRemove.qml:42
 #: ../plugins/cellular/Components/SimEditor.qml:203
 msgid "Cancel"
-msgstr "Peruuta"
+msgstr "Peru"
 
 #: ../plugins/background/Preview.qml:113
 #: ../plugins/phone/CallForwarding.qml:253
@@ -749,7 +748,7 @@ msgstr ""
 #: ../plugins/vpn/PageComponent.qml:123
 #: ../plugins/cellular/Components/SimEditor.qml:214
 msgid "OK"
-msgstr "Selvä"
+msgstr "OK"
 
 #: ../plugins/cellular/PageApnEditor.qml:71
 msgid "Edit"
@@ -1239,45 +1238,43 @@ msgstr ""
 
 #: ../plugins/language/PageComponent.qml:185
 msgid "Suru Dark"
-msgstr ""
+msgstr "Suru, tumma"
 
 #: ../plugins/language/PageComponent.qml:186
 msgid "Suru Black"
-msgstr ""
+msgstr "Suru, musta"
 
 #: ../plugins/language/PageComponent.qml:187
 msgid "Just White"
-msgstr ""
+msgstr "Pelkkä valkoinen"
 
 #: ../plugins/language/PageComponent.qml:188
 msgid "Just Black"
-msgstr ""
+msgstr "Pelkkä musta"
 
 #: ../plugins/language/PageComponent.qml:189
 msgid "Just Grey"
-msgstr ""
+msgstr "Pelkkä harmaa"
 
 #: ../plugins/language/PageComponent.qml:190
 msgid "Bordered White"
-msgstr ""
+msgstr "Reunustettu valkoinen"
 
 #: ../plugins/language/PageComponent.qml:191
 msgid "Bordered Black"
-msgstr ""
+msgstr "Reunustettu musta"
 
 #: ../plugins/language/PageComponent.qml:192
 msgid "Bordered Grey"
-msgstr ""
+msgstr "Reunustettu harmaa"
 
 #: ../plugins/language/PageComponent.qml:195
-#, fuzzy
 msgid "On-screen keyboard theme"
-msgstr "Näyttönäppäimistö"
+msgstr "Näyttönäppäimistön teema"
 
 #: ../plugins/language/PageComponent.qml:196
-#, fuzzy
 msgid "Keyboard theme"
-msgstr "Näppäimistö"
+msgstr "Näppäimistön teema"
 
 #: ../plugins/language/PageComponent.qml:209
 #: ../plugins/language/PageComponent.qml:218
@@ -2279,7 +2276,7 @@ msgstr "Soittoäänen voimakkuus:"
 
 #: ../plugins/sound/PageComponent.qml:141
 msgid "High volume can damage your hearing."
-msgstr "Suuri äänenvoimakkuus saattaa vahingoittaa kuuloaistia."
+msgstr "Suuri äänenvoimakkuus voi vahingoittaa kuuloasi."
 
 #: ../plugins/sound/PageComponent.qml:145
 msgid "Phone calls:"
@@ -2398,37 +2395,33 @@ msgstr "Asennus epäonnistui"
 #: ../plugins/system-update/FirmwareUpdate.qml:36
 #: ../plugins/system-update/FirmwareUpdate.qml:157
 msgid "Firmware Update"
-msgstr ""
+msgstr "Firmware-päivitys"
 
 #: ../plugins/system-update/FirmwareUpdate.qml:133
-#, fuzzy
 msgid "There is a firmware update available!"
-msgstr "%1 päivitys saatavilla"
+msgstr "Saatavilla on firmware-päivitys!"
 
 #: ../plugins/system-update/FirmwareUpdate.qml:134
-#, fuzzy
 msgid "Firmware is up to date!"
-msgstr "Ohjelmisto on ajan tasalla"
+msgstr "Firmware-ohjelmisto on ajan tasalla!"
 
 #: ../plugins/system-update/FirmwareUpdate.qml:169
-#, fuzzy
 msgid "The device will restart automatically after installing is done."
-msgstr "Järjestelmäpäivityksen asennus vaatii laitteen uudelleenkäynnistyksen."
+msgstr "Laite käynnistyy uudelleen automaattisesti, kun asennus on valmis."
 
 #: ../plugins/system-update/FirmwareUpdate.qml:185
-#, fuzzy
 msgid "Install and restart now"
-msgstr "Asenna ja käynnistä uudelleen"
+msgstr "Asenna ja käynnistä uudelleen nyt"
 
 #: ../plugins/system-update/FirmwareUpdate.qml:228
 msgid ""
 "Downloading and Flashing firmware updates, this could take a few minutes..."
 msgstr ""
+"Ladataan ja asennetaan firmware-päivityksiä, tämä saattaa kestää hetken..."
 
 #: ../plugins/system-update/FirmwareUpdate.qml:235
-#, fuzzy
 msgid "Checking for firmware update"
-msgstr "Tarkistetaan päivityksiä…"
+msgstr "Tarkistetaan firmware-päivitystä"
 
 #: ../plugins/system-update/GlobalUpdateControls.qml:84
 msgid "Checking for updates…"
@@ -2508,13 +2501,15 @@ msgstr "Päivitysasetukset"
 #: ../plugins/system-update/ReinstallAllApps.qml:95
 #: ../plugins/system-update/UpdateSettings.qml:88
 msgid "Reinstall all apps"
-msgstr ""
+msgstr "Asenna uudelleen kaikki sovellukset"
 
 #: ../plugins/system-update/ReinstallAllApps.qml:85
 msgid ""
 "Use this to get all of the latest apps, typically needed after a major "
 "system upgrade, "
 msgstr ""
+"Käytä tätä saadaksesi uusimmat sovellukset tyypillisesti suuren "
+"järjestelmäpäivityksen jälkeen, "
 
 #: ../plugins/system-update/UpdateDelegate.qml:119
 msgid "Retry"
@@ -3841,7 +3836,7 @@ msgstr "ääni"
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../build/po/settings.js:334
 msgid "silent"
-msgstr "hiljainen"
+msgstr "äänetön"
 
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../build/po/settings.js:336
