@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-05-03 20:12+0000\n"
+"PO-Revision-Date: 2019-05-06 08:02+0000\n"
 "Last-Translator: louies0623 <louies0623@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.ubports.com/projects/"
 "ubports/system-settings/zh_Hant/>\n"
@@ -624,7 +624,7 @@ msgstr "忘記此裝置"
 #: ../plugins/bluetooth/DisplayPinCodeDialog.qml:34
 #, qt-format
 msgid "Please enter the following PIN on %1 and press “Enter” on the keyboard:"
-msgstr "請在 %1 上輸入以下 PIN 碼，然後按鍵盤上的“Enter”鍵："
+msgstr "請在 %1 上輸入以下 PIN 碼，然後按鍵盤上的「Enter」鍵："
 
 #: ../plugins/bluetooth/PageComponent.qml:252
 msgid "Discoverable"
@@ -924,7 +924,7 @@ msgstr "首選 %1"
 #: ../plugins/cellular/PageChooseApn.qml:196
 #, qt-format
 msgid "You have chosen %1 as your preferred MMS APN. "
-msgstr "您已選擇 %1  作為首選多媒體訊息 APN。 "
+msgstr "您已選擇 %1 作為首選多媒體訊息 APN。 "
 
 #. TRANSLATORS: %1 is the Internet APN that the user has chosen to
 #. be “preferred”, i.e. used to connect to the Internet. %2 is the MMS
