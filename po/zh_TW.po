@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-05-06 08:02+0000\n"
+"PO-Revision-Date: 2019-05-10 21:02+0000\n"
 "Last-Translator: louies0623 <louies0623@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.ubports.com/projects/"
 "ubports/system-settings/zh_Hant/>\n"
@@ -1894,7 +1894,7 @@ msgstr ""
 
 #: ../plugins/security-privacy/Location.qml:195
 msgid "Not at all"
-msgstr "一點也不"
+msgstr "不，謝謝"
 
 #: ../plugins/security-privacy/Location.qml:212
 msgid ""
