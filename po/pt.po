@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-03-17 00:00+0000\n"
-"Last-Translator: Rúben Carneiro <rubencarneiro01@gmail.com>\n"
+"PO-Revision-Date: 2019-05-10 21:03+0000\n"
+"Last-Translator: Ivo Xavier <ivofernandes12@gmail.com>\n"
 "Language-Team: Portuguese <https://translate.ubports.com/projects/ubports/"
 "system-settings/pt/>\n"
 "Language: pt\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.1.1\n"
+"X-Generator: Weblate 3.6.1\n"
 "X-Launchpad-Export-Date: 2015-07-24 05:41+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -63,7 +63,7 @@ msgstr "Desculpe, esta licença não pode ser apresentada."
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../plugins/about/PageComponent.qml:35 ../build/po/settings.js:2
 msgid "About"
-msgstr "Acerca"
+msgstr "Sobre"
 
 #: ../plugins/about/PageComponent.qml:99
 msgid "Serial"
@@ -834,7 +834,7 @@ msgstr "Introduza o nome de utilizador"
 #: ../plugins/cellular/PageApnEditor.qml:341
 #: ../plugins/wifi/NetworkDetails.qml:72 ../plugins/wifi/OtherNetwork.qml:786
 msgid "Password"
-msgstr "Palavra-passe"
+msgstr "Palavra-chave"
 
 #: ../plugins/cellular/PageApnEditor.qml:353
 msgid "Enter password"
@@ -1689,7 +1689,7 @@ msgstr "Descrever impressora"
 
 #: ../plugins/printing/AddPrinterDetails.qml:44
 msgid "Back"
-msgstr "Anterior"
+msgstr "Voltar"
 
 #: ../plugins/printing/AddPrinterDetails.qml:137
 msgid "Connection"
