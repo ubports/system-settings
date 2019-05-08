@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2018-11-25 00:01+0000\n"
-"Last-Translator: Louies <louies0623@gmail.com>\n"
+"PO-Revision-Date: 2019-05-10 21:02+0000\n"
+"Last-Translator: louies0623 <louies0623@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <https://translate.ubports.com/projects/"
 "ubports/system-settings/zh_Hant_HK/>\n"
 "Language: zh_HK\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.1.1\n"
+"X-Generator: Weblate 3.6.1\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:42+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -59,7 +59,7 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../plugins/about/PageComponent.qml:35 ../build/po/settings.js:2
 msgid "About"
-msgstr ""
+msgstr "關於"
 
 #: ../plugins/about/PageComponent.qml:99
 msgid "Serial"
@@ -449,7 +449,7 @@ msgstr ""
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:39
 msgid "Allow"
-msgstr ""
+msgstr "同意"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:46
 msgid "Refuse"
@@ -525,7 +525,7 @@ msgstr "耳機(Headset)"
 
 #: ../plugins/bluetooth/DevicePage.qml:53
 msgid "Headphones"
-msgstr "耳筒"
+msgstr "耳機"
 
 #: ../plugins/bluetooth/DevicePage.qml:54
 msgid "Video"
@@ -617,7 +617,7 @@ msgstr "斷線"
 
 #: ../plugins/bluetooth/DevicePage.qml:150 ../plugins/wifi/OtherNetwork.qml:905
 msgid "Connect"
-msgstr ""
+msgstr "連接"
 
 #: ../plugins/bluetooth/DevicePage.qml:172
 msgid "Forget this device"
@@ -834,7 +834,7 @@ msgstr ""
 #: ../plugins/cellular/PageApnEditor.qml:341
 #: ../plugins/wifi/NetworkDetails.qml:72 ../plugins/wifi/OtherNetwork.qml:786
 msgid "Password"
-msgstr ""
+msgstr "密碼"
 
 #: ../plugins/cellular/PageApnEditor.qml:353
 msgid "Enter password"
@@ -1496,9 +1496,8 @@ msgid "Apps that notify with sound:"
 msgstr ""
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:30
-#, fuzzy
 msgid "Vibration"
-msgstr "鈴聲響時震動"
+msgstr "振動"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:50
 #, fuzzy
@@ -2259,7 +2258,7 @@ msgstr ""
 
 #: ../plugins/sound/PageComponent.qml:76
 msgid "Silent Mode"
-msgstr ""
+msgstr "靜音模式"
 
 #: ../plugins/sound/PageComponent.qml:100
 msgid "Ringer:"
@@ -2267,7 +2266,7 @@ msgstr ""
 
 #: ../plugins/sound/PageComponent.qml:141
 msgid "High volume can damage your hearing."
-msgstr ""
+msgstr "音量過大可能會損害你嘅聽力。"
 
 #: ../plugins/sound/PageComponent.qml:145
 msgid "Phone calls:"
@@ -2762,7 +2761,7 @@ msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:321
 msgid "WEP"
-msgstr ""
+msgstr "WEP"
 
 #: ../plugins/wifi/OtherNetwork.qml:322
 msgid "Dynamic WEP (802.1x)"
@@ -2889,7 +2888,7 @@ msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:754
 msgid "Username"
-msgstr ""
+msgstr "用戶名稱"
 
 #: ../plugins/wifi/OtherNetwork.qml:784
 msgid "Private key password"
@@ -3480,7 +3479,7 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the flight-mode plugin which is used while searching
 #: ../build/po/settings.js:148
 msgid "Flight Mode"
-msgstr ""
+msgstr "飛航模式"
 
 #. TRANSLATORS: This is a keyword or name for the flight-mode plugin which is used while searching
 #: ../build/po/settings.js:150
@@ -3844,7 +3843,7 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../build/po/settings.js:334
 msgid "silent"
-msgstr ""
+msgstr "靜音"
 
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../build/po/settings.js:336
