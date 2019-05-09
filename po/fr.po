@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-04-25 19:14+0000\n"
+"PO-Revision-Date: 2019-05-10 21:02+0000\n"
 "Last-Translator: Anne Onyme <anneonyme017@netcourrier.com>\n"
 "Language-Team: French <https://translate.ubports.com/projects/ubports/"
 "system-settings/fr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.2.2\n"
+"X-Generator: Weblate 3.6.1\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:40+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -2494,7 +2494,7 @@ msgstr "Mises à jour"
 #: ../plugins/system-update/PageComponent.qml:163
 #: ../plugins/system-update/ReinstallAllApps.qml:150
 msgid "Connect to the Internet to check for updates."
-msgstr "Se connecter à Internet pour vérifier les mises à jour."
+msgstr "Connectez-vous à Internet pour vérifier les mises à jour."
 
 #: ../plugins/system-update/PageComponent.qml:165
 #: ../plugins/system-update/ReinstallAllApps.qml:152
