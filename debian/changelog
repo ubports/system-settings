@@ -1,3 +1,9 @@
+ubuntu-system-settings (0.4.4~0ubports0) xenial; urgency=medium
+
+  * Changes for Mir 1.1 and Unity8-next
+
+ -- Dalton Durst <dalton@ubports.com>  Fri, 10 May 2019 10:36:10 -0500
+
 ubuntu-system-settings (0.4.3~0ubports0) xenial; urgency=medium
 
   * Add settings for on-screen keyboard themes
