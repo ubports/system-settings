@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-05-10 21:02+0000\n"
+"PO-Revision-Date: 2019-05-16 22:03+0000\n"
 "Last-Translator: louies0623 <louies0623@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <https://translate.ubports.com/projects/"
 "ubports/system-settings/zh_Hant_HK/>\n"
@@ -233,7 +233,7 @@ msgstr ""
 
 #: ../plugins/background/MainPage.qml:107
 msgid "Custom"
-msgstr ""
+msgstr "自定義"
 
 #: ../plugins/background/MainPage.qml:117
 #, fuzzy
@@ -3246,7 +3246,7 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../build/po/settings.js:54
 msgid "photo"
-msgstr ""
+msgstr "相片"
 
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../build/po/settings.js:56
