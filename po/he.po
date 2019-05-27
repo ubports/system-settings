@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-03-31 00:00+0000\n"
-"Last-Translator: maor26 <maor262@gmail.com>\n"
+"PO-Revision-Date: 2019-05-14 09:03+0000\n"
+"Last-Translator: Eran <etherpulse@gmail.com>\n"
 "Language-Team: Hebrew <https://translate.ubports.com/projects/ubports/"
 "system-settings/he/>\n"
 "Language: he\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Weblate 3.1.1\n"
+"X-Generator: Weblate 3.6.1\n"
 "X-Launchpad-Export-Date: 2015-07-24 05:41+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -398,9 +398,8 @@ msgstr[1] "לאחר %1 דקות"
 
 #. TRANSLATORS: “Wi-Fi used for hotspot” is hidden.
 #: ../plugins/battery/PageComponent.qml:365
-#, fuzzy
 msgid "Wi-Fi used for hotspot"
-msgstr "נקודת גישה Wi-Fi"
+msgstr "נקודת הגישה משתמשת ברשת האלחוטית"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../plugins/battery/PageComponent.qml:365
@@ -413,12 +412,11 @@ msgstr "רשת אלחוטית"
 #: ../plugins/bluetooth/PageComponent.qml:33
 #: ../plugins/bluetooth/PageComponent.qml:235 ../build/po/settings.js:76
 msgid "Bluetooth"
-msgstr "Bluetooth"
+msgstr "בלוטות'"
 
 #: ../plugins/battery/SleepValues.qml:74
-#, fuzzy
 msgid "Lock the device when it's not in use:"
-msgstr "נעילת הטלפון בהעדר פעילות:"
+msgstr "נעילת המכשיר בהעדר פעילות:"
 
 #: ../plugins/battery/SleepValues.qml:75
 msgid "Put the device to sleep when it is not in use:"
@@ -441,29 +439,27 @@ msgstr ""
 "הצגת וידאו."
 
 #: ../plugins/battery/SleepValues.qml:130
-#, fuzzy
 msgid "Device won’t sleep during calls or video playback."
-msgstr "הטלפון לא יעבור למצב שינה במהלך שיחות או הצגת וידאו."
+msgstr "המכשיר לא יעבור למצב שינה במהלך שיחות או הצגת וידאו."
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:26
-#, fuzzy
 msgid "Bluetooth Pairing Authorization Request"
-msgstr "בקשת צימוד Bluetooth"
+msgstr "בקשת צימוד בלוטות'"
 
 #. TRANSLATORS: %1 is the name of the bluetooth device which requires authorization
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:34
 #, qt-format
 msgid ""
 "The device %1 wants to pair with this device. Do you want to allow this?"
-msgstr ""
+msgstr "מכשיר %1 מבקש צימוד למכשיר זה. האם לאשר בקשה זו?"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:39
 msgid "Allow"
-msgstr ""
+msgstr "אישור"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:46
 msgid "Refuse"
-msgstr ""
+msgstr "דחייה"
 
 #: ../plugins/bluetooth/ConfirmPasskeyDialog.qml:28
 #: ../plugins/bluetooth/DisplayPasskeyDialog.qml:26
@@ -638,7 +634,7 @@ msgstr "התעלמות מהתקן זה"
 #: ../plugins/bluetooth/DisplayPinCodeDialog.qml:34
 #, qt-format
 msgid "Please enter the following PIN on %1 and press “Enter” on the keyboard:"
-msgstr ""
+msgstr "אנא הכניסו את מספר ה-PIN ל- %1 והקישו \"Enter\" במקלדת:"
 
 #: ../plugins/bluetooth/PageComponent.qml:252
 msgid "Discoverable"
@@ -650,9 +646,8 @@ msgstr "בלתי ניתן לגילוי"
 
 #: ../plugins/bluetooth/PageComponent.qml:260
 #: ../plugins/bluetooth/PageComponent.qml:319
-#, fuzzy
 msgid "Searching…"
-msgstr "חיפוש"
+msgstr "מתבצע חיפוש…"
 
 #: ../plugins/bluetooth/PageComponent.qml:269
 msgid "Connected devices:"
@@ -709,48 +704,42 @@ msgstr "תצוגה אלחוטית"
 #: ../plugins/brightness/PageComponent.qml:159
 #: ../plugins/brightness/WifiDisplays.qml:128
 #: ../plugins/brightness/WifiDisplays.qml:172
-#, fuzzy
 msgid "Not connected"
-msgstr "חיבור אחרון"
+msgstr "לא מחובר"
 
 #: ../plugins/brightness/WifiDisplays.qml:27
 msgid "Wireless Display"
 msgstr "תצוגה אלחוטית"
 
 #: ../plugins/brightness/WifiDisplays.qml:100
-#, fuzzy
 msgid "No displays detected"
-msgstr "לא זוהו"
+msgstr "לא זוהו תצוגות"
 
 #: ../plugins/brightness/WifiDisplays.qml:113
-#, fuzzy
 msgid "Connected display:"
-msgstr "התקנים מחוברים:"
+msgstr "תצוגות מחוברות:"
 
 #: ../plugins/brightness/WifiDisplays.qml:128
-#, fuzzy
 msgid "Connecting"
-msgstr "בהתחברות…"
+msgstr "בהתחברות"
 
 #: ../plugins/brightness/WifiDisplays.qml:146
-#, fuzzy
 msgid "Use another display:"
-msgstr "חיבור התקן נוסף:"
+msgstr "חיבור תצוגה נוספת:"
 
 #: ../plugins/brightness/WifiDisplays.qml:146
-#, fuzzy
 msgid "Choose a display:"
-msgstr "בחירת מילת צופן"
+msgstr "בחירת תצוגה:"
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:32
-#, fuzzy, qt-format
+#, qt-format
 msgid "This device failed to connect to %1."
-msgstr "ניתוק"
+msgstr "ההתחברות ל %1 נכשלה."
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:34
 #, qt-format
 msgid "There was an unknown error connecting to %1."
-msgstr ""
+msgstr "קרתה שגיאה לא ידועה בעת ההתחברות ל %1."
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:38
 #: ../plugins/phone/CallForwarding.qml:305
@@ -775,7 +764,7 @@ msgstr "משמש ל:"
 #: ../plugins/cellular/PageApnEditor.qml:136
 #: ../plugins/cellular/PageChooseApn.qml:107
 msgid "Internet and MMS"
-msgstr ""
+msgstr "אינטרנט  ו-MMS"
 
 #: ../plugins/cellular/PageApnEditor.qml:137
 #: ../plugins/cellular/PageChooseApn.qml:109
@@ -794,7 +783,7 @@ msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:166
 msgid "Enter a name describing the APN"
-msgstr ""
+msgstr "הכניסו שם לתיאור ה-APN"
 
 #. TRANSLATORS: This string is a description of a text
 #. field and should thus be concise.
@@ -807,7 +796,7 @@ msgstr "APN"
 
 #: ../plugins/cellular/PageApnEditor.qml:192
 msgid "Enter the name of the access point"
-msgstr ""
+msgstr "הכניסו את שם נקודת הגישה"
 
 #: ../plugins/cellular/PageApnEditor.qml:206
 msgid "MMSC"
@@ -2696,9 +2685,8 @@ msgstr "שנה"
 
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../plugins/vpn/PageComponent.qml:31 ../build/po/settings.js:380
-#, fuzzy
 msgid "VPN"
-msgstr "APN"
+msgstr "רשת וירטואלית (VPN)"
 
 #: ../plugins/vpn/PageComponent.qml:76
 msgid ""
@@ -3942,13 +3930,15 @@ msgstr "אזור זמן"
 
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../build/po/settings.js:388
+#, fuzzy
 msgid "vpn"
-msgstr ""
+msgstr "vpn"
 
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../build/po/settings.js:390
+#, fuzzy
 msgid "openvpn"
-msgstr ""
+msgstr "openvpn"
 
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
