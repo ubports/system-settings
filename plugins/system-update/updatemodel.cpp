@@ -394,7 +394,9 @@ void UpdateModel::setInstalled(const QString &id, const uint &rev)
     if (!update.isNull()) {
         update->setInstalled(true);
         update->setState(Update::State::StateInstallFinished);
-        update->setUpdatedAt(QDateTime::currentDateTimeUtc());
+        if (update->updatedAt() == 0) {
+            update->setUpdatedAt(QDateTime::currentDateTimeUtc());
+        }
         update->setDownloadId("");
         update->setError("");
         m_db->update(update);
@@ -443,6 +445,9 @@ void UpdateModel::setDownloaded(const QString &id, const uint &rev)
     if (!update.isNull()) {
         update->setError("");
         update->setState(Update::State::StateDownloaded);
+        if (update->kind() == Update::Kind::KindImage) {
+            update->setUpdatedAt(QDateTime::currentDateTimeUtc());
+        }
         m_db->update(update);
     }
 }
