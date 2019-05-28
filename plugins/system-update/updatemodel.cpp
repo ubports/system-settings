@@ -394,7 +394,7 @@ void UpdateModel::setInstalled(const QString &id, const uint &rev)
     if (!update.isNull()) {
         update->setInstalled(true);
         update->setState(Update::State::StateInstallFinished);
-        if (update->updatedAt().toMSecsSinceEpoch() == 0) {
+        if (update->kind() != Update::Kind::KindImage) {
             update->setUpdatedAt(QDateTime::currentDateTimeUtc());
         }
         update->setDownloadId("");
