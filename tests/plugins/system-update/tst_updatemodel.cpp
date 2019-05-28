@@ -396,7 +396,7 @@ private slots:
     //Test if the updated_at information is set after install only for click updates
     void testClickUpdatedAtSetLate() {
         auto update = createUpdate("id", 42);
-        update.setKind(Update::Kind::KindClick);
+        update->setKind(Update::Kind::KindClick);
         m_db->add(update);
         m_model->setDownloaded(update->identifier(), update->revision());
         auto update1 = m_db->get(update->identifier(), update->revision());
@@ -410,7 +410,7 @@ private slots:
     void testImageUpdatedAtSetEarly()
     {
         auto update = createUpdate("id", 42);
-        update.setKind(Update::Kind::KindImage);
+        update->setKind(Update::Kind::KindImage);
         m_db->add(update);
         m_model->setDownloaded(update->identifier(), update->revision());
         auto update1 = m_db->get(update->identifier(), update->revision());
