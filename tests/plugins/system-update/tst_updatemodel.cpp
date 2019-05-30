@@ -418,7 +418,7 @@ private slots:
         QVERIFY(firstDateTime != QDateTime());
         m_model->setInstalled(update->identifier(), update->revision());
         update1 = m_db->get(update->identifier(), update->revision());
-        QVERIFY(update1->updatedAt() == firstDateTime);
+        QCOMPARE(update1->updatedAt(), firstDateTime);
     }
 
     void testSetError()
