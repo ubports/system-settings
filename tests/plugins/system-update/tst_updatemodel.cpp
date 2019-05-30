@@ -400,16 +400,10 @@ private slots:
         m_db->add(update);
         m_model->setDownloaded(update->identifier(), update->revision());
         auto update1 = m_db->get(update->identifier(), update->revision());
-        auto passed = update1->updatedAt() == QDateTime();
-        if (!passed)
-            QWARN("testClickUpdatedAtSetLate failed at early test!");
-        QVERIFY(passed);
+        QCOMPARE(update1->updatedAt(), QDateTime());
         m_model->setInstalled(update->identifier(), update->revision());
         update1 = m_db->get(update->identifier(), update->revision());
-        passed = update1->updatedAt() != QDateTime();
-        if(!passed)
-            QWARN("testClickUpdatedAtSetLate failed at late test!");
-        QVERIFY(passed);
+        QVERIFY(update1->updatedAt() != QDateTime());
     }
 
     //Test if the updated_at information is set after download already for image updates
@@ -421,16 +415,10 @@ private slots:
         m_model->setDownloaded(update->identifier(), update->revision());
         auto update1 = m_db->get(update->identifier(), update->revision());
         QDateTime firstDateTime = update1->updatedAt();
-        auto passed = firstDateTime != QDateTime();
-        if (!passed)
-            QWARN("testClickUpdatedAtSetEarly failed at early test!");
-        QVERIFY(passed);
+        QVERIFY(firstDateTime != QDateTime());
         m_model->setInstalled(update->identifier(), update->revision());
         update1 = m_db->get(update->identifier(), update->revision());
-        passed = update1->updatedAt() == firstDateTime;
-        if (!passed)
-            QWARN("testClickUpdatedAtSetEarly failed at late test!");
-        QVERIFY(passed);
+        QVERIFY(update1->updatedAt() == firstDateTime);
     }
 
     void testSetError()
