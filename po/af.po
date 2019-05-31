@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2017-10-09 09:37+0000\n"
+"PO-Revision-Date: 2019-05-26 19:03+0000\n"
 "Last-Translator: Jean Joubert <developer-jsj@ourbillion.net>\n"
 "Language-Team: Afrikaans <https://translate.ubports.com/projects/ubports/"
 "system-settings/af/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.15\n"
+"X-Generator: Weblate 3.6.1\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:39+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -35,7 +35,7 @@ msgstr "Voorkeure;Instellings;"
 
 #: ../plugins/about/DevMode.qml:35 ../plugins/about/DevMode.qml:90
 msgid "Developer Mode"
-msgstr ""
+msgstr "Ontwikkelaar Wyse"
 
 #: ../plugins/about/DevMode.qml:84
 msgid ""
@@ -45,7 +45,7 @@ msgstr ""
 
 #: ../plugins/about/DevMode.qml:110
 msgid "You need a passcode or passphrase set to use Developer Mode."
-msgstr ""
+msgstr "U benodig 'n wagkode of wagwoord stel om Ontwikkelaar Wyse te gebruik."
 
 #: ../plugins/about/DevMode.qml:116
 #: ../plugins/security-privacy/LockSecurity.qml:36
@@ -55,7 +55,7 @@ msgstr ""
 
 #: ../plugins/about/License.qml:30
 msgid "Sorry, this license could not be displayed."
-msgstr ""
+msgstr "Jammer, die lisensie kon nie vertoon word nie."
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../plugins/about/PageComponent.qml:35 ../build/po/settings.js:2
@@ -82,7 +82,7 @@ msgstr ""
 #: ../plugins/wifi/certhandler.cpp:192 ../plugins/wifi/certhandler.cpp:224
 #: ../plugins/wifi/certhandler.cpp:289 ../plugins/wifi/certhandler.cpp:318
 msgid "None"
-msgstr ""
+msgstr "Geen"
 
 #: ../plugins/about/PageComponent.qml:131
 msgid "Wi-Fi address"
@@ -112,7 +112,7 @@ msgstr ""
 
 #: ../plugins/about/PageComponent.qml:184
 msgid "Last updated"
-msgstr ""
+msgstr "Laas opgedateer"
 
 #: ../plugins/about/PageComponent.qml:186
 #: ../plugins/battery/PageComponent.qml:319
@@ -136,7 +136,7 @@ msgstr ""
 
 #: ../plugins/about/PageComponent.qml:224 ../plugins/about/Software.qml:11
 msgid "Software licenses"
-msgstr ""
+msgstr "Sagteware lisensie"
 
 #: ../plugins/about/PageComponent.qml:231
 msgid "Regulatory info"
