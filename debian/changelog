@@ -1,3 +1,9 @@
+ubuntu-system-settings (0.4.3~0ubports1) xenial; urgency=medium
+
+  * Fix image updates not showing correct date (ubuntu-touch #1139)
+
+ -- Florian Leeber <florian@ubports.com>  Tue, 28 May 2019 23:49:12 +0200
+
 ubuntu-system-settings (0.4.3~0ubports0) xenial; urgency=medium
 
   * Add settings for on-screen keyboard themes
