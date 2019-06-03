@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-05-16 22:03+0000\n"
+"PO-Revision-Date: 2019-06-04 04:03+0000\n"
 "Last-Translator: louies0623 <louies0623@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.ubports.com/projects/"
 "ubports/system-settings/zh_Hant/>\n"
@@ -2011,7 +2011,7 @@ msgstr "密碼不符。請重試。"
 
 #: ../plugins/security-privacy/LockSecurity.qml:386
 msgid "Unset"
-msgstr "取消設定"
+msgstr "取消設置"
 
 #: ../plugins/security-privacy/LockSecurity.qml:463
 msgid "Unlock the device using:"
