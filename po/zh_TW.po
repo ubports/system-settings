@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-06-04 04:03+0000\n"
-"Last-Translator: louies0623 <louies0623@gmail.com>\n"
+"PO-Revision-Date: 2019-06-06 10:03+0000\n"
+"Last-Translator: P.-H. Lin <cypressyew@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.ubports.com/projects/"
 "ubports/system-settings/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -2663,7 +2663,7 @@ msgstr "沒有可用的數據。"
 
 #: ../plugins/wifi/CertDialog.qml:74
 msgid "Save"
-msgstr "保存"
+msgstr "儲存"
 
 #: ../plugins/wifi/NetworkDetails.qml:38
 msgid "Network details"
