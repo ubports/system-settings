@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-06-06 10:03+0000\n"
-"Last-Translator: P.-H. Lin <cypressyew@gmail.com>\n"
+"PO-Revision-Date: 2019-06-09 04:03+0000\n"
+"Last-Translator: louies0623 <louies0623@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.ubports.com/projects/"
 "ubports/system-settings/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -2213,9 +2213,7 @@ msgstr "解鎖…"
 msgid ""
 "When a SIM PIN is set, it must be entered to access cellular services after "
 "restarting the device or swapping the SIM."
-msgstr ""
-"設置 SIM 卡PIN密碼後，必須再次輸入 SIM 卡PIN密碼才能在重新啟動後交換 SIM 卡或"
-"裝置來訪存取行動數據服務。"
+msgstr "設置 SIM 卡 PIN 密碼後，必須再次輸入 SIM 卡 PIN 密碼才能在重新啟動後交換 SIM 卡或裝置來訪存取行動數據服務。"
 
 #: ../plugins/security-privacy/SimPin.qml:449
 msgid "Entering an incorrect PIN repeatedly may lock the SIM permanently."
@@ -2258,7 +2256,7 @@ msgstr "訊息："
 #: ../plugins/sound/PageComponent.qml:209
 #: ../plugins/sound/PageComponent.qml:214
 msgid "Message received"
-msgstr "收到訊息"
+msgstr "收到訊息時"
 
 #: ../plugins/sound/PageComponent.qml:230
 msgid "Vibrate with message sound"
