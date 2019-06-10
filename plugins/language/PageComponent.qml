@@ -286,6 +286,17 @@ ItemPage {
 
             ListItem.ThinDivider {
             }
+            
+            ListItem.Standard {
+                text: i18n.tr("Key magnifier")
+
+                control: Switch {
+                    property bool serverChecked: settings.enableMagnifier
+                    onServerCheckedChanged: checked = serverChecked
+                    Component.onCompleted: checked = serverChecked
+                    onTriggered: settings.enableMagnifier = checked
+                }
+            }
 
             ListItem.Standard {
                 text: i18n.tr("Keyboard sound")
