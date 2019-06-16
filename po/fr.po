@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-05-10 21:02+0000\n"
+"PO-Revision-Date: 2019-06-17 13:04+0000\n"
 "Last-Translator: Anne Onyme <anneonyme017@netcourrier.com>\n"
 "Language-Team: French <https://translate.ubports.com/projects/ubports/"
 "system-settings/fr/>\n"
@@ -1516,7 +1516,7 @@ msgstr "Lorsque le mode silencieux est activé :"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:68
 msgid "Vibrate as normal"
-msgstr "Vibrer comme à la normale"
+msgstr "Vibrer comme d'habitude"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:69
 msgid "Don't vibrate"
