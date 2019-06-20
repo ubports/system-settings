@@ -43,6 +43,7 @@ Component {
             id: action
             text: i18n.tr("Reset Launcher")
             objectName: "resetLauncherAction"
+            color: UbuntuColors.red
             onClicked: {
                 dialog.state = "clicked";
                 unitySettings.schema.reset("favorites");
