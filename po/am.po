@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-02-24 00:00+0000\n"
+"PO-Revision-Date: 2019-06-23 21:04+0000\n"
 "Last-Translator: Samson <sambelet@yahoo.com>\n"
 "Language-Team: Amharic <https://translate.ubports.com/projects/ubports/"
 "system-settings/am/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.1.1\n"
+"X-Generator: Weblate 3.6.1\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:39+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -354,7 +354,7 @@ msgstr "በሙሉ ሞልቷል"
 
 #: ../plugins/battery/PageComponent.qml:293
 msgid "Ways to reduce battery use:"
-msgstr "የባትሪ አጠቃቀም ለመቀነስ:"
+msgstr "የ ባትሪ አጠቃቀም ለ መቀነስ:"
 
 #: ../plugins/battery/PageComponent.qml:297
 #: ../plugins/brightness/PageComponent.qml:84
@@ -448,7 +448,7 @@ msgstr "የ ብሉቱዝ ማጣመሪያ ጥያቄ"
 #, qt-format
 msgid ""
 "The device %1 wants to pair with this device. Do you want to allow this?"
-msgstr ""
+msgstr "ይህ አካል %1 ከዚህ አካል ጋር መጣመር ይፈልጋል: እርስዎ ይህን ማድረግ ይፈልጋሉ?"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:39
 msgid "Allow"
@@ -456,7 +456,7 @@ msgstr "መፍቀጃ"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:46
 msgid "Refuse"
-msgstr ""
+msgstr "መከልከያ"
 
 #: ../plugins/bluetooth/ConfirmPasskeyDialog.qml:28
 #: ../plugins/bluetooth/DisplayPasskeyDialog.qml:26
