@@ -95,12 +95,13 @@ ItemPage {
                                      backendInfo.moviesSize -
                                      backendInfo.picturesSize -
                                      backendInfo.audioSize
+            //TODO: Let's consider use unified colors in a ¿file?
             property variant spaceColors: [
                 UbuntuColors.orange,
-                "red",
-                "blue",
-                "green",
-                "yellow",
+                "#a52a00", //System Maroon
+                "#006a97", //System Blue
+                "#198400", //Dark System Green
+                "#f5d412", //System Yellow
                 UbuntuColors.lightAubergine]
             property variant spaceLabels: [
                 i18n.tr("Used by Ubuntu"),
