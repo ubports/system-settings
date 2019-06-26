@@ -167,7 +167,7 @@ ItemPage {
 
             Button {
                 text: i18n.tr("Reset")
-                color: theme.palette.normal.positive
+                color: theme.palette.normal.negative
                 onClicked: {
                     Manager.reset();
                     PopupUtils.close(dialogue);
