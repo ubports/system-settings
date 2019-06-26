@@ -96,6 +96,7 @@ ItemPage {
                 Button {
                     objectName: "forgetNetwork"
                     text : i18n.tr("Forget this network")
+                    color: UbuntuColors.red
                     anchors {
                         left: parent.left
                         right: parent.right
