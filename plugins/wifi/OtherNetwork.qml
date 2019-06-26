@@ -903,6 +903,7 @@ Component {
                 objectName: "connect"
                 Layout.fillWidth: true
                 text: i18n.tr("Connect")
+                color: UbuntuColors.green
                 enabled: connectAction.enabled
                 action: connectAction
                 Icon {
@@ -912,7 +913,7 @@ Component {
                         centerIn: parent
                     }
                     name: "tick"
-                    color: "green"
+                    color: theme.palette.normal.baseText
                     visible: successIndicator.running
                 }
                 ActivityIndicator {
