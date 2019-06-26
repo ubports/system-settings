@@ -53,6 +53,7 @@ ItemPage {
             SettingsListItems.SingleControl {
                 Button {
                     text : i18n.tr("Forget this network")
+                    color: UbuntuColors.red
                     anchors {
                         left: parent.left
                         right: parent.right
