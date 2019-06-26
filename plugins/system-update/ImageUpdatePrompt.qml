@@ -36,7 +36,7 @@ Dialog {
         id: installBtn
         objectName: "imagePromptInstall"
         text: i18n.tr("Restart & Install")
-        color: UbuntuColors.orange
+        color: UbuntuColors.blue
         onClicked: {
             dialogueInstall.requestSystemUpdate();
             PopupUtils.close(dialogueInstall);
