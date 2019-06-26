@@ -46,7 +46,6 @@ Dialog {
     Button {
         objectName: "imagePromptCancel"
         text: i18n.tr("Cancel")
-        color: UbuntuColors.warmGrey
         onClicked: PopupUtils.close(dialogueInstall)
     }
 }
