@@ -103,8 +103,8 @@ ItemPage {
                         margins: units.gu(2)
                     }
                     onClicked : {
-                        DbusHelper.forgetConnection(dbusPath);
                         pageStack.removePages(networkDetails);
+                        DbusHelper.forgetConnection(dbusPath);
                     }
                 }
             }
