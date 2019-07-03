@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-05-03 20:12+0000\n"
+"PO-Revision-Date: 2019-06-30 01:03+0000\n"
 "Last-Translator: Joan CiberSheep <cibersheep@gmail.com>\n"
 "Language-Team: Catalan <https://translate.ubports.com/projects/ubports/"
 "system-settings/ca/>\n"
@@ -752,7 +752,7 @@ msgstr "S'ha produït un error desconegut quan s'estava connectant a %1."
 #: ../plugins/vpn/PageComponent.qml:123
 #: ../plugins/cellular/Components/SimEditor.qml:214
 msgid "OK"
-msgstr "Acceptar"
+msgstr "D'acord"
 
 #: ../plugins/cellular/PageApnEditor.qml:71
 msgid "Edit"
@@ -2477,7 +2477,7 @@ msgstr ""
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:38
 msgid "Restart & Install"
-msgstr "Reinicia i reinstal·la"
+msgstr "Reinicia i instal·la-la"
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../plugins/system-update/PageComponent.qml:37 ../build/po/settings.js:348
