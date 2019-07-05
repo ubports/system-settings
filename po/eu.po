@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2018-11-18 08:44+0000\n"
+"PO-Revision-Date: 2019-07-07 21:48+0000\n"
 "Last-Translator: Aitzol Berasategi <aitzol@disroot.org>\n"
-"Language-Team: Basque <https://translate.ubports.com/projects/ubports/system-"
-"settings/eu/>\n"
+"Language-Team: Basque <https://translate.ubports.com/projects/ubports/"
+"system-settings/eu/>\n"
 "Language: eu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.1.1\n"
+"X-Generator: Weblate 3.6.1\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:40+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -37,7 +37,6 @@ msgid "Developer Mode"
 msgstr "Garatzaile modua"
 
 #: ../plugins/about/DevMode.qml:84
-#, fuzzy
 msgid ""
 "In Developer Mode, anyone can access, change or delete anything on this "
 "device by connecting it to another device."
@@ -62,9 +61,8 @@ msgstr "Sentitzen dugu, ezin izan da lizentzia hau erakutsi."
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../plugins/about/PageComponent.qml:35 ../build/po/settings.js:2
-#, fuzzy
 msgid "About"
-msgstr "honi buruz"
+msgstr "Honi buruz"
 
 #: ../plugins/about/PageComponent.qml:99
 msgid "Serial"
@@ -152,7 +150,7 @@ msgstr "Garatzaile modua"
 
 #: ../plugins/about/Storage.qml:44
 msgid "Scanning"
-msgstr ""
+msgstr "Eskaneatzen"
 
 #: ../plugins/about/Storage.qml:106
 msgid "Used by Ubuntu"
@@ -208,9 +206,8 @@ msgid "OS build number"
 msgstr "SEaren eraikitze-zenbakia"
 
 #: ../plugins/about/Version.qml:68
-#, fuzzy
 msgid "UBports Image part"
-msgstr "Ubuntu irudiaren zatia"
+msgstr "UBports irudiaren zatia"
 
 #: ../plugins/about/Version.qml:76
 msgid "Ubuntu build description"
@@ -242,13 +239,12 @@ msgid "Custom"
 msgstr "Pertsonalizatua"
 
 #: ../plugins/background/MainPage.qml:117
-#, fuzzy
 msgid "Dash background"
-msgstr "atzeko planoa"
+msgstr "Atzeko planoa"
 
 #: ../plugins/background/MainPage.qml:130
 msgid "Opacity:"
-msgstr ""
+msgstr "Opakotasuna:"
 
 #: ../plugins/background/Preview.qml:69
 msgid "Preview"
@@ -286,7 +282,7 @@ msgstr "Kendu irudia"
 #: ../plugins/background/Components/AddRemove.qml:42
 #: ../plugins/cellular/Components/SimEditor.qml:203
 msgid "Cancel"
-msgstr "Ezeztatu"
+msgstr "Utzi"
 
 #: ../plugins/background/Preview.qml:113
 #: ../plugins/phone/CallForwarding.qml:253
@@ -378,11 +374,11 @@ msgstr "Eseki inaktibo egotean"
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery/PageComponent.qml:322
 #: ../plugins/security-privacy/PhoneLocking.qml:98
-#, fuzzy, qt-format
+#, qt-format
 msgid "After %1 second"
 msgid_plural "After %1 seconds"
-msgstr[0] "Minutu %1en ondoren"
-msgstr[1] "%1 minuturen ondoren"
+msgstr[0] "Segundu %1en ondoren"
+msgstr[1] "%1 segunduren ondoren"
 
 #. TRANSLATORS: %1 is the number of minutes
 #: ../plugins/battery/PageComponent.qml:326
@@ -401,9 +397,8 @@ msgstr[1] "%1 minuturen ondoren"
 
 #. TRANSLATORS: “Wi-Fi used for hotspot” is hidden.
 #: ../plugins/battery/PageComponent.qml:365
-#, fuzzy
 msgid "Wi-Fi used for hotspot"
-msgstr "Wifigunea"
+msgstr "Sarbiderako erabilitako haririk gabeko sarea"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../plugins/battery/PageComponent.qml:365
@@ -419,57 +414,51 @@ msgid "Bluetooth"
 msgstr "Bluetooth-a"
 
 #: ../plugins/battery/SleepValues.qml:74
-#, fuzzy
 msgid "Lock the device when it's not in use:"
-msgstr "Blokeatu telefonoa inaktibo egotean:"
+msgstr "Telefonoa blokeatu gailua erabiltzen ari ez denean:"
 
 #: ../plugins/battery/SleepValues.qml:75
-#, fuzzy
 msgid "Put the device to sleep when it is not in use:"
-msgstr "Eseki telefonoa inaktibo egotean:"
+msgstr "Gailua eseki erabiltzen ari ez denean:"
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery/SleepValues.qml:86
-#, fuzzy, qt-format
+#, qt-format
 msgid "After %1 seconds"
 msgid_plural "After %1 seconds"
-msgstr[0] "Minutu %1en ondoren"
-msgstr[1] "%1 minuturen ondoren"
+msgstr[0] "Segundo %1en ondoren"
+msgstr[1] "%1 segundoren ondoren"
 
 #: ../plugins/battery/SleepValues.qml:130
-#, fuzzy
 msgid ""
 "Shorter times are more secure. Device won't lock during calls or video "
 "playback."
 msgstr ""
-"Denbora laburragoak seguruagoak dira. Telefonoa ez da blokeatuko deietan edo "
+"Denbora laburragoak seguruagoak dira. Gailua ez da blokeatuko deietan edo "
 "bideoa erreproduzitzean."
 
 #: ../plugins/battery/SleepValues.qml:130
-#, fuzzy
 msgid "Device won’t sleep during calls or video playback."
-msgstr "Telefonoa ez da esekiko deietan edo bideoa erreproduzitzean."
+msgstr "Gailua ez da esekiko deietan edo bideoa erreproduzitzean."
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:26
-#, fuzzy
 msgid "Bluetooth Pairing Authorization Request"
-msgstr "Bluetooth bidez parekatzeko eskaera"
+msgstr "Bluetooth bidez parekatzeko baimen eskaera"
 
 #. TRANSLATORS: %1 is the name of the bluetooth device which requires authorization
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:34
 #, qt-format
 msgid ""
 "The device %1 wants to pair with this device. Do you want to allow this?"
-msgstr ""
+msgstr "%1 gailuak gailu honekin parekatu nahi du. Onartu nahi al duzu?"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:39
-#, fuzzy
 msgid "Allow"
-msgstr "baimendu"
+msgstr "Baimendu"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:46
 msgid "Refuse"
-msgstr ""
+msgstr "Errefusatu"
 
 #: ../plugins/bluetooth/ConfirmPasskeyDialog.qml:28
 #: ../plugins/bluetooth/DisplayPasskeyDialog.qml:26
@@ -578,7 +567,7 @@ msgstr "Kamera"
 
 #: ../plugins/bluetooth/DevicePage.qml:62
 msgid "Watch"
-msgstr ""
+msgstr "Ordularia"
 
 #: ../plugins/bluetooth/DevicePage.qml:63
 msgid "Other"
@@ -644,7 +633,7 @@ msgstr "Ahaztu gailu hau"
 #: ../plugins/bluetooth/DisplayPinCodeDialog.qml:34
 #, qt-format
 msgid "Please enter the following PIN on %1 and press “Enter” on the keyboard:"
-msgstr ""
+msgstr "Mesedez sartu ondorengo PIN-a %1-en eta sakatu \"Enter\" teklatuan:"
 
 #: ../plugins/bluetooth/PageComponent.qml:252
 msgid "Discoverable"
@@ -656,9 +645,8 @@ msgstr "Ez ikusgai"
 
 #: ../plugins/bluetooth/PageComponent.qml:260
 #: ../plugins/bluetooth/PageComponent.qml:319
-#, fuzzy
 msgid "Searching…"
-msgstr "Berrabiarazten…"
+msgstr "Bilatzen…"
 
 #: ../plugins/bluetooth/PageComponent.qml:269
 msgid "Connected devices:"
@@ -688,9 +676,8 @@ msgid "Pair"
 msgstr "Parekatu"
 
 #: ../plugins/brightness/PageComponent.qml:35
-#, fuzzy
 msgid "Brightness & Display"
-msgstr "Distira"
+msgstr "Distira eta Pantaila"
 
 #. TRANSLATORS: This is a keyword or name for the brightness plugin which is used while searching
 #: ../plugins/brightness/PageComponent.qml:35 ../build/po/settings.js:100
@@ -706,60 +693,52 @@ msgid "Brightens and dims the display to suit the surroundings."
 msgstr "Pantaila argitu edo iluntzen du ingurunera egokitzeko."
 
 #: ../plugins/brightness/PageComponent.qml:140
-#, fuzzy
 msgid "External display"
-msgstr "pantaila"
+msgstr "Kanpoko pantaila"
 
 #: ../plugins/brightness/PageComponent.qml:158
-#, fuzzy
 msgid "Wireless display"
-msgstr "pantaila"
+msgstr "Haririk gabeko pantaila"
 
 #: ../plugins/brightness/PageComponent.qml:159
 #: ../plugins/brightness/WifiDisplays.qml:128
 #: ../plugins/brightness/WifiDisplays.qml:172
-#, fuzzy
 msgid "Not connected"
-msgstr "Azken konexioa"
+msgstr "Konektatu gabe"
 
 #: ../plugins/brightness/WifiDisplays.qml:27
 msgid "Wireless Display"
-msgstr ""
+msgstr "Haririk gabeko pantaila"
 
 #: ../plugins/brightness/WifiDisplays.qml:100
-#, fuzzy
 msgid "No displays detected"
-msgstr "Ez da bat ere detektatu"
+msgstr "Ez da pantailarik detektatu"
 
 #: ../plugins/brightness/WifiDisplays.qml:113
-#, fuzzy
 msgid "Connected display:"
-msgstr "Konektatutako gailuak:"
+msgstr "Konektaturiko pantaila:"
 
 #: ../plugins/brightness/WifiDisplays.qml:128
-#, fuzzy
 msgid "Connecting"
-msgstr "Konektatzen…"
+msgstr "Konektatzen"
 
 #: ../plugins/brightness/WifiDisplays.qml:146
-#, fuzzy
 msgid "Use another display:"
-msgstr "Konektatu beste gailu bat:"
+msgstr "Beste pantaila bat erabili:"
 
 #: ../plugins/brightness/WifiDisplays.qml:146
-#, fuzzy
 msgid "Choose a display:"
-msgstr "Aukeratu pasaesaldia"
+msgstr "Aukeratu pantaila bat:"
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:32
-#, fuzzy, qt-format
+#, qt-format
 msgid "This device failed to connect to %1."
-msgstr "deskonektatu"
+msgstr "Gailu honek huts egin du %1-(e)ra konektatzean."
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:34
 #, qt-format
 msgid "There was an unknown error connecting to %1."
-msgstr ""
+msgstr "Akats ezezagun bat gertatu da %1-(e)ra konektatzean."
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:38
 #: ../plugins/phone/CallForwarding.qml:305
@@ -774,19 +753,18 @@ msgid "Edit"
 msgstr "Editatu"
 
 #: ../plugins/cellular/PageApnEditor.qml:71
-#, fuzzy
 msgid "New APN"
-msgstr "%1 APNa"
+msgstr "APN berria"
 
 #: ../plugins/cellular/PageApnEditor.qml:132
+#, fuzzy
 msgid "Used for:"
-msgstr ""
+msgstr "Erabilia:"
 
 #: ../plugins/cellular/PageApnEditor.qml:136
 #: ../plugins/cellular/PageChooseApn.qml:107
-#, fuzzy
 msgid "Internet and MMS"
-msgstr "Internet"
+msgstr "Internet eta MMS"
 
 #: ../plugins/cellular/PageApnEditor.qml:137
 #: ../plugins/cellular/PageChooseApn.qml:109
@@ -801,11 +779,11 @@ msgstr "MMSak"
 #: ../plugins/cellular/PageApnEditor.qml:139
 #: ../plugins/cellular/PageChooseApn.qml:111
 msgid "LTE"
-msgstr ""
+msgstr "LTE"
 
 #: ../plugins/cellular/PageApnEditor.qml:166
 msgid "Enter a name describing the APN"
-msgstr ""
+msgstr "Sar ezazu APNa deskribatzen duen izen bat"
 
 #. TRANSLATORS: This string is a description of a text
 #. field and should thus be concise.
@@ -818,7 +796,7 @@ msgstr "APNa"
 
 #: ../plugins/cellular/PageApnEditor.qml:192
 msgid "Enter the name of the access point"
-msgstr ""
+msgstr "Sar ezazu sarbide puntuaren izena"
 
 #: ../plugins/cellular/PageApnEditor.qml:206
 msgid "MMSC"
@@ -826,7 +804,7 @@ msgstr "MMSC"
 
 #: ../plugins/cellular/PageApnEditor.qml:216
 msgid "Enter message center"
-msgstr ""
+msgstr "Sar ezazu mezuen zentroa"
 
 #: ../plugins/cellular/PageApnEditor.qml:234
 msgid "Proxy"
@@ -834,26 +812,23 @@ msgstr "Proxy-a"
 
 #: ../plugins/cellular/PageApnEditor.qml:244
 msgid "Enter message proxy"
-msgstr ""
+msgstr "Sar ezazu mezuen proxya"
 
 #: ../plugins/cellular/PageApnEditor.qml:289
-#, fuzzy
 msgid "Proxy port"
-msgstr "Proxy-a"
+msgstr "Proxy ataka"
 
 #: ../plugins/cellular/PageApnEditor.qml:300
 msgid "Enter message proxy port"
-msgstr ""
+msgstr "Sar ezazu mezuen proxy ataka"
 
 #: ../plugins/cellular/PageApnEditor.qml:318
-#, fuzzy
 msgid "User name"
-msgstr "Erabiltzaile-izena"
+msgstr "Erabiltzaile izena"
 
 #: ../plugins/cellular/PageApnEditor.qml:328
-#, fuzzy
 msgid "Enter username"
-msgstr "Sartu pasaesaldia"
+msgstr "Sar ezazu erabiltzaile izena"
 
 #: ../plugins/cellular/PageApnEditor.qml:341
 #: ../plugins/wifi/NetworkDetails.qml:72 ../plugins/wifi/OtherNetwork.qml:786
@@ -861,51 +836,46 @@ msgid "Password"
 msgstr "Pasahitza"
 
 #: ../plugins/cellular/PageApnEditor.qml:353
-#, fuzzy
 msgid "Enter password"
-msgstr "Sartu pasaesaldia"
+msgstr "Sar ezazu pasahitza"
 
 #: ../plugins/cellular/PageApnEditor.qml:367
 #: ../plugins/wifi/OtherNetwork.qml:338
-#, fuzzy
 msgid "Authentication"
-msgstr "jakinarazpenak"
+msgstr "Autentifikazioa"
 
 #: ../plugins/cellular/PageApnEditor.qml:372
 msgid "PAP or CHAP"
-msgstr ""
+msgstr "PAP or CHAP"
 
 #: ../plugins/cellular/PageApnEditor.qml:373
-#, fuzzy
 msgid "PAP only"
-msgstr "Telefonoa soilik"
+msgstr "PAP soilik"
 
 #: ../plugins/cellular/PageApnEditor.qml:374
-#, fuzzy
 msgid "CHAP only"
-msgstr "Telefonoa soilik"
+msgstr "CHAP soilik"
 
 #: ../plugins/cellular/PageApnEditor.qml:385
 msgid "Protocol"
-msgstr ""
+msgstr "Protokoloa"
 
 #: ../plugins/cellular/PageApnEditor.qml:389
 msgid "IPv4"
-msgstr ""
+msgstr "IPv4"
 
 #: ../plugins/cellular/PageApnEditor.qml:390
 msgid "IPv6"
-msgstr ""
+msgstr "IPv6"
 
 #: ../plugins/cellular/PageApnEditor.qml:391
 msgid "IPv4v6"
-msgstr ""
+msgstr "IPv4v6"
 
 #: ../plugins/cellular/PageCarrierAndApn.qml:27
 #: ../plugins/cellular/Components/SingleSim.qml:110
-#, fuzzy
 msgid "Carrier & APN"
-msgstr "Operadorea"
+msgstr "Operadorea eta APNa"
 
 #: ../plugins/cellular/PageCarrierAndApn.qml:45
 #: ../plugins/cellular/PageCarrierAndApn.qml:54
@@ -916,29 +886,24 @@ msgid "Carrier"
 msgstr "Operadorea"
 
 #: ../plugins/cellular/PageCarriersAndApns.qml:27
-#, fuzzy
 msgid "Carriers & APNs"
-msgstr "Operadoreak"
+msgstr "Operadoreak eta APNak"
 
 #: ../plugins/cellular/PageChooseApn.qml:85
-#, fuzzy
 msgid "MMS APN"
-msgstr "MMSen APNa:"
+msgstr "MMS APNa"
 
 #: ../plugins/cellular/PageChooseApn.qml:91
-#, fuzzy
 msgid "Internet APN"
-msgstr "Interneterako APNa:"
+msgstr "Internet APNa:"
 
 #: ../plugins/cellular/PageChooseApn.qml:97
-#, fuzzy
 msgid "LTE APN"
-msgstr "%1 APNa"
+msgstr "LTE APNa"
 
 #: ../plugins/cellular/PageChooseApn.qml:156
-#, fuzzy
 msgid "Reset All APN Settings…"
-msgstr "Berrezarri APNen ezarpenak"
+msgstr "Berrezarri APN ezarpen guztiak…"
 
 #: ../plugins/cellular/PageChooseApn.qml:165
 msgid "Reset APN Settings"
@@ -961,7 +926,7 @@ msgstr "Berrezarri"
 #: ../plugins/cellular/PageChooseApn.qml:223
 #, qt-format
 msgid "Prefer %1"
-msgstr ""
+msgstr "%1 lehenetsi"
 
 #. TRANSLATORS: %1 is the MMS APN that the user has chosen to be
 #. “preferred”, i.e. used to retrieve MMS messages. %2 is the Internet
@@ -969,7 +934,7 @@ msgstr ""
 #: ../plugins/cellular/PageChooseApn.qml:196
 #, qt-format
 msgid "You have chosen %1 as your preferred MMS APN. "
-msgstr ""
+msgstr "%1 hautatu duzu zure gogoko MMS APN bezala. "
 
 #. TRANSLATORS: %1 is the Internet APN that the user has chosen to
 #. be “preferred”, i.e. used to connect to the Internet. %2 is the MMS
@@ -977,33 +942,32 @@ msgstr ""
 #: ../plugins/cellular/PageChooseApn.qml:227
 #, qt-format
 msgid "You have chosen %1 as your preferred Internet APN. "
-msgstr ""
+msgstr "%1 hautatu duzu zure gogoko Internet APN bezala. "
 
 #: ../plugins/cellular/PageChooseApn.qml:232
 #: ../plugins/cellular/PageChooseApn.qml:265
-#, fuzzy
 msgid "Disable"
-msgstr "desgaitu"
+msgstr "Desgaitu"
 
 #: ../plugins/cellular/PageChooseApn.qml:254
-#, fuzzy, qt-format
+#, qt-format
 msgid "Disconnect %1"
-msgstr "Deskonektatu"
+msgstr "%1 deskonektatu"
 
 #: ../plugins/cellular/PageChooseApn.qml:255
-#, fuzzy, qt-format
+#, qt-format
 msgid "Disable %1"
-msgstr "desgaitu"
+msgstr "%1 desgaitu"
 
 #: ../plugins/cellular/PageChooseApn.qml:260
-#, fuzzy, qt-format
+#, qt-format
 msgid "This disconnects %1."
-msgstr "deskonektatu"
+msgstr "Honek %1 deskonektatzen du."
 
 #: ../plugins/cellular/PageChooseApn.qml:261
 #, qt-format
 msgid "This disables %1."
-msgstr ""
+msgstr "Honek %1 desgaitzen du."
 
 #: ../plugins/cellular/PageChooseApn.qml:303
 #: ../plugins/printing/PageComponent.qml:136
@@ -1145,27 +1109,24 @@ msgid "A secondary connection of the base connection failed"
 msgstr "Oinarrizko konexioaren bigarren mailako konexio batek huts egin du"
 
 #: ../plugins/hotspot/HotspotSetup.qml:61
-#, fuzzy
 msgid "Change Hotspot Setup"
-msgstr "Aldatu wifigunearen konfigurazioa"
+msgstr "Aldatu sarbide puntuaren ezarpenak"
 
 #: ../plugins/hotspot/HotspotSetup.qml:61
-#, fuzzy
 msgid "Set Up Hotspot"
-msgstr "Konfiguratu wifigunea"
+msgstr "Konfiguratu sarbide puntua"
 
 #: ../plugins/hotspot/HotspotSetup.qml:167
 msgid "Hotspot name"
 msgstr "Wifigunearen izena"
 
 #: ../plugins/hotspot/HotspotSetup.qml:168
-#, fuzzy
 msgid "Choose a name"
-msgstr "Aukeratu pasaesaldia"
+msgstr "Aukeratu izen bat"
 
 #: ../plugins/hotspot/HotspotSetup.qml:185
 msgid "Require a password (recommended):"
-msgstr ""
+msgstr "Pasahitz bat eskatu (gomendatua):"
 
 #: ../plugins/hotspot/HotspotSetup.qml:216
 #: ../plugins/wifi/NetworkDetails.qml:86 ../plugins/wifi/OtherNetwork.qml:821
@@ -1174,7 +1135,7 @@ msgstr "Erakutsi pasahitza"
 
 #: ../plugins/hotspot/HotspotSetup.qml:237
 msgid "Starting the hotspot will turn on Wi-Fi."
-msgstr ""
+msgstr "Sarbide puntua abiatzean Wi-Fi konexioa piztuko da."
 
 #: ../plugins/hotspot/HotspotSetup.qml:266
 #: ../plugins/security-privacy/LockSecurity.qml:389
@@ -1184,7 +1145,7 @@ msgstr "Aldatu"
 
 #: ../plugins/hotspot/HotspotSetup.qml:267
 msgid "Start"
-msgstr ""
+msgstr "Hasi"
 
 #. TRANSLATORS: This is a keyword or name for the hotspot plugin which is used while searching
 #: ../plugins/hotspot/PageComponent.qml:33
@@ -1209,28 +1170,26 @@ msgstr ""
 "bitartez. Ohiko datu-tarifa aplikatuko da."
 
 #: ../plugins/hotspot/PageComponent.qml:124
-#, fuzzy
 msgid "Change Password/Setup…"
-msgstr "Aldatu pasakodea…"
+msgstr "Aldatu Pasahitza/Ezarpenak…"
 
 #: ../plugins/hotspot/PageComponent.qml:124
-#, fuzzy
 msgid "Set Up Hotspot…"
-msgstr "Konfiguratu wifigunea"
+msgstr "Konfiguratu sarbide puntua…"
 
 #: ../plugins/hotspot/PageComponent.qml:155
 #, fuzzy
 msgid "Wi-Fi is off"
-msgstr "Wifigunea"
+msgstr "Wi-Fia itzalita dago"
 
 #: ../plugins/hotspot/PageComponent.qml:156
 msgid "In order to create a hotspot, you need to turn Wi-Fi on."
-msgstr ""
+msgstr "Sarbide puntua sortzeko, Wi-Fia piztu behar duzu."
 
 #: ../plugins/hotspot/PageComponent.qml:165
 #, fuzzy
 msgid "Turn on Wi-Fi"
-msgstr "Wifiarekin"
+msgstr "Wi-Fia piztu"
 
 #: ../plugins/language/DisplayLanguage.qml:36
 msgid "Display language"
@@ -1263,65 +1222,63 @@ msgid "Display language…"
 msgstr "Bistaratzeko hizkuntza..."
 
 #: ../plugins/language/PageComponent.qml:150
-#, fuzzy
 msgid "Enable on-screen keyboard"
-msgstr "teklatua"
+msgstr "Pantaila teklatua gaitu"
 
 #: ../plugins/language/PageComponent.qml:162
-#, fuzzy
 msgid "On-screen keyboard"
-msgstr "teklatua"
+msgstr "Pantaila teklatua"
 
 #: ../plugins/language/PageComponent.qml:173
-#, fuzzy
 msgid "External keyboard"
-msgstr "teklatua"
+msgstr "Kanpoko teklatua"
 
 #: ../plugins/language/PageComponent.qml:184
 msgid "Ambiance"
-msgstr ""
+msgstr "Ambiance"
 
 #: ../plugins/language/PageComponent.qml:185
 msgid "Suru Dark"
-msgstr ""
+msgstr "Suru Dark"
 
 #: ../plugins/language/PageComponent.qml:186
 msgid "Suru Black"
-msgstr ""
+msgstr "Suru Black"
 
 #: ../plugins/language/PageComponent.qml:187
 msgid "Just White"
-msgstr ""
+msgstr "Just White"
 
 #: ../plugins/language/PageComponent.qml:188
 msgid "Just Black"
-msgstr ""
+msgstr "Just Black"
 
 #: ../plugins/language/PageComponent.qml:189
 msgid "Just Grey"
-msgstr ""
+msgstr "Just Grey"
 
 #: ../plugins/language/PageComponent.qml:190
+#, fuzzy
 msgid "Bordered White"
-msgstr ""
+msgstr "Bordered White"
 
 #: ../plugins/language/PageComponent.qml:191
+#, fuzzy
 msgid "Bordered Black"
-msgstr ""
+msgstr "Bordered Black"
 
 #: ../plugins/language/PageComponent.qml:192
+#, fuzzy
 msgid "Bordered Grey"
-msgstr ""
+msgstr "Bordered Grey"
 
 #: ../plugins/language/PageComponent.qml:195
-#, fuzzy
 msgid "On-screen keyboard theme"
-msgstr "teklatua"
+msgstr "Pantaila teklataren gaia"
 
 #: ../plugins/language/PageComponent.qml:196
-#, fuzzy
 msgid "Keyboard theme"
-msgstr "Teklatua"
+msgstr "Teklatuaren gaia"
 
 #: ../plugins/language/PageComponent.qml:209
 #: ../plugins/language/PageComponent.qml:218
@@ -1352,11 +1309,8 @@ msgid "Auto punctuation"
 msgstr "Autopuntuazioa"
 
 #: ../plugins/language/PageComponent.qml:284
-#, fuzzy
 msgid "Inserts a period when you tap Space twice."
-msgstr ""
-"Zuriune tekla bi aldiz sakatzen duzunean, puntu bat gehitzen du, eta baita "
-"falta den edozein komatxo edo parentesi ere."
+msgstr "Puntu bat sartzen du bi aldiz hutsunea sakatzean."
 
 #: ../plugins/language/PageComponent.qml:291
 #: ../plugins/sound/PageComponent.qml:251
@@ -1761,7 +1715,7 @@ msgstr ""
 
 #: ../plugins/printing/AddPrinterDetails.qml:44
 msgid "Back"
-msgstr "Itzuli"
+msgstr "Atzera"
 
 #: ../plugins/printing/AddPrinterDetails.qml:137
 #, fuzzy
@@ -2427,9 +2381,9 @@ msgid "Choose from"
 msgstr "Aukeratu konpainia:"
 
 #: ../plugins/system-update/ChangelogExpander.qml:42
-#, fuzzy, qt-format
+#, qt-format
 msgid "Version %1"
-msgstr "Bertsioa: "
+msgstr "%1 Bertsioa"
 
 #: ../plugins/system-update/ChannelSettings.qml:32
 msgid "Channel settings"
