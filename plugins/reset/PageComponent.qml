@@ -18,10 +18,13 @@
  * with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
+//TODO: Go through all different ListItems and replace the deprecated ones
+
 import GSettings 1.0
 import QtQuick 2.4
 import SystemSettings 1.0
 import SystemSettings.ListItems 1.0 as SettingsListItems
+import Ubuntu.Components.ListItems 1.3 as ListItems
 import Ubuntu.Components 1.3
 import Ubuntu.Components.Popups 1.3
 import Ubuntu.SystemSettings.Reset 1.0
@@ -78,6 +81,14 @@ ItemPage {
                 verticalAlignment: Text.AlignVCenter
             }
 
+            ListItems.Caption {
+                anchors {
+                    left: parent.left
+                    right: parent.right
+                }
+                text: i18n.tr("The Launcher will be returned to its original contents.")
+            }
+
             SettingsListItems.Standard {
 
                 Button {
@@ -104,6 +115,15 @@ ItemPage {
                 verticalAlignment: Text.AlignVCenter
             }
 
+            ListItems.Caption {
+                visible: showAllUI
+                anchors {
+                    left: parent.left
+                    right: parent.right
+                }
+                text: i18n.tr("The contents and layout of the launcher, and the filters in the home screen will be returned to their original settings.")
+            }
+
             SettingsListItems.Standard {
                 visible: showAllUI
 
@@ -127,6 +147,14 @@ ItemPage {
                 color: UbuntuColors.orange
                 height: units.gu(6)
                 verticalAlignment: Text.AlignVCenter
+            }
+
+            ListItems.Caption {
+                anchors {
+                    left: parent.left
+                    right: parent.right
+                }
+                text: i18n.tr("All documents, saved games, settings, and other items will be permanently deleted from this device.")
             }
 
             SettingsListItems.Standard {
