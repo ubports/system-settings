@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2018-12-19 19:57+0000\n"
-"Last-Translator: Hussain Hashem Aljafri <baddea14@gmail.com>\n"
-"Language-Team: Arabic <https://translate.ubports.com/projects/ubports/system-"
-"settings/ar/>\n"
+"PO-Revision-Date: 2019-07-16 07:48+0000\n"
+"Last-Translator: Yasser Lotfy <yasser-lotfy@hotmail.com>\n"
+"Language-Team: Arabic <https://translate.ubports.com/projects/ubports/"
+"system-settings/ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 3.1.1\n"
+"X-Generator: Weblate 3.6.1\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:39+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -59,9 +59,8 @@ msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../plugins/about/PageComponent.qml:35 ../build/po/settings.js:2
-#, fuzzy
 msgid "About"
-msgstr "حول"
+msgstr "عنا"
 
 #: ../plugins/about/PageComponent.qml:99
 msgid "Serial"
@@ -282,7 +281,7 @@ msgstr ""
 #: ../plugins/background/Components/AddRemove.qml:42
 #: ../plugins/cellular/Components/SimEditor.qml:203
 msgid "Cancel"
-msgstr "إلغاء;الإلغاء"
+msgstr "إلغاء"
 
 #: ../plugins/background/Preview.qml:113
 #: ../plugins/phone/CallForwarding.qml:253
