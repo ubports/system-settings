@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-06-17 13:04+0000\n"
+"PO-Revision-Date: 2019-07-22 18:48+0000\n"
 "Last-Translator: Anne Onyme <anneonyme017@netcourrier.com>\n"
 "Language-Team: French <https://translate.ubports.com/projects/ubports/"
 "system-settings/fr/>\n"
@@ -2694,15 +2694,15 @@ msgstr "Année"
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../plugins/vpn/PageComponent.qml:31 ../build/po/settings.js:380
 msgid "VPN"
-msgstr "RPV"
+msgstr "Réseau Privé Virtuel"
 
 #: ../plugins/vpn/PageComponent.qml:76
 msgid ""
 "To add a VPN configuration, download its config file or configure it "
 "manually."
 msgstr ""
-"Pour ajouter une configuration RPV, téléchargez son fichier de configuration "
-"ou configurez-le manuellement."
+"Pour ajouter une configuration de Réseau Privé Virtuel, téléchargez son "
+"fichier de configuration ou configurez-le manuellement."
 
 #: ../plugins/vpn/PageComponent.qml:82
 msgid "Add Manual Configuration…"
@@ -2710,7 +2710,7 @@ msgstr "Ajouter une configuration manuelle…"
 
 #: ../plugins/vpn/PageComponent.qml:117
 msgid "VPN reconnection required."
-msgstr "Reconnexion au RPV nécessaire."
+msgstr "Reconnexion au Réseau Privé Virtuel nécessaire."
 
 #: ../plugins/vpn/PageComponent.qml:118
 msgid "You need to reconnect for changes to have an effect."
