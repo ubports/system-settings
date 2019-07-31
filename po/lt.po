@@ -8,17 +8,18 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2017-11-22 10:56+0000\n"
-"Last-Translator: Domantas <domantas.mauruca@gmail.com>\n"
+"PO-Revision-Date: 2019-08-02 15:49+0000\n"
+"Last-Translator: Moo <moose@mail.ru>\n"
 "Language-Team: Lithuanian <https://translate.ubports.com/projects/ubports/"
 "system-settings/lt/>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
-"%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2.15\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > "
+"19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? "
+"1 : 2);\n"
+"X-Generator: Weblate 3.6.1\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:41+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -31,11 +32,11 @@ msgstr "Sistema;"
 
 #: ubuntu-system-settings.desktop.in.in.h:3
 msgid "Preferences;Settings;"
-msgstr "Parinktys;Nustatymai;"
+msgstr "Nuostatos;Nustatymai;"
 
 #: ../plugins/about/DevMode.qml:35 ../plugins/about/DevMode.qml:90
 msgid "Developer Mode"
-msgstr ""
+msgstr "Plėtotojo veiksena"
 
 #: ../plugins/about/DevMode.qml:84
 msgid ""
@@ -60,7 +61,7 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../plugins/about/PageComponent.qml:35 ../build/po/settings.js:2
 msgid "About"
-msgstr ""
+msgstr "Apie"
 
 #: ../plugins/about/PageComponent.qml:99
 msgid "Serial"
@@ -90,7 +91,7 @@ msgstr ""
 
 #: ../plugins/about/PageComponent.qml:139
 msgid "Bluetooth address"
-msgstr ""
+msgstr "Bluetooth adresas"
 
 #: ../plugins/about/PageComponent.qml:150 ../plugins/about/Storage.qml:32
 msgid "Storage"
@@ -100,15 +101,15 @@ msgstr ""
 #: ../plugins/about/PageComponent.qml:152
 #, qt-format
 msgid "%1 free"
-msgstr ""
+msgstr "%1 laisva"
 
 #: ../plugins/about/PageComponent.qml:160
 msgid "Software:"
-msgstr ""
+msgstr "Programinė įranga:"
 
 #: ../plugins/about/PageComponent.qml:172
 msgid "OS"
-msgstr ""
+msgstr "OS"
 
 #: ../plugins/about/PageComponent.qml:184
 msgid "Last updated"
@@ -152,27 +153,27 @@ msgstr ""
 
 #: ../plugins/about/Storage.qml:106
 msgid "Used by Ubuntu"
-msgstr ""
+msgstr "Naudoja Ubuntu"
 
 #: ../plugins/about/Storage.qml:107
 msgid "Videos"
-msgstr ""
+msgstr "Vaizdo įrašai"
 
 #: ../plugins/about/Storage.qml:108
 msgid "Audio"
-msgstr ""
+msgstr "Garso įrašai"
 
 #: ../plugins/about/Storage.qml:109
 msgid "Pictures"
-msgstr ""
+msgstr "Paveikslai"
 
 #: ../plugins/about/Storage.qml:110
 msgid "Other files"
-msgstr ""
+msgstr "Kiti failai"
 
 #: ../plugins/about/Storage.qml:111
 msgid "Used by apps"
-msgstr ""
+msgstr "Naudoja programėlės"
 
 #: ../plugins/about/Storage.qml:159
 msgid "Total storage"
@@ -197,11 +198,11 @@ msgstr "N/A"
 
 #: ../plugins/about/Version.qml:35
 msgid "OS Build Details"
-msgstr ""
+msgstr "OS darinio informacija"
 
 #: ../plugins/about/Version.qml:62
 msgid "OS build number"
-msgstr ""
+msgstr "OS darinio numeris"
 
 #: ../plugins/about/Version.qml:68
 msgid "UBports Image part"
@@ -226,7 +227,7 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../plugins/background/MainPage.qml:38 ../build/po/settings.js:44
 msgid "Background"
-msgstr ""
+msgstr "Fonas"
 
 #: ../plugins/background/MainPage.qml:94
 msgid "Ubuntu Art"
@@ -280,7 +281,7 @@ msgstr ""
 #: ../plugins/background/Components/AddRemove.qml:42
 #: ../plugins/cellular/Components/SimEditor.qml:203
 msgid "Cancel"
-msgstr "Atšaukti"
+msgstr "Atsisakyti"
 
 #: ../plugins/background/Preview.qml:113
 #: ../plugins/phone/CallForwarding.qml:253
@@ -323,7 +324,7 @@ msgstr[2] "Prieš %1 valandų"
 
 #: ../plugins/battery/PageComponent.qml:104
 msgid "Charge level"
-msgstr "Baterijos lygis"
+msgstr "Įkrovos lygis"
 
 #. TRANSLATORS: %1 refers to a percentage that indicates the charging level of the battery
 #: ../plugins/battery/PageComponent.qml:112
@@ -418,11 +419,11 @@ msgstr ""
 
 #: ../plugins/battery/SleepValues.qml:74
 msgid "Lock the device when it's not in use:"
-msgstr "Užrakinti įrenginio kol šis nėra naudojamas:"
+msgstr ""
 
 #: ../plugins/battery/SleepValues.qml:75
 msgid "Put the device to sleep when it is not in use:"
-msgstr "Užmigdyti įrenginį kol šis nėra naudojamas:"
+msgstr ""
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery/SleepValues.qml:86
@@ -438,12 +439,12 @@ msgid ""
 "Shorter times are more secure. Device won't lock during calls or video "
 "playback."
 msgstr ""
-"Trumpesnis laikas yra saugiau. Įrenginys neišsijungs pokalbio arba vaizdo "
-"įrašo metu."
+"Trumpesnis laikas yra saugiau. Įrenginys neužsirakins pokalbio arba vaizdo "
+"įrašų atkūrimo metu."
 
 #: ../plugins/battery/SleepValues.qml:130
 msgid "Device won’t sleep during calls or video playback."
-msgstr "Įrenginys neužmigs pokalbio ar vaizdo įrašo metu."
+msgstr "Įrenginys neužmigs pokalbio ar vaizdo įrašų atkūrimo metu."
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:26
 msgid "Bluetooth Pairing Authorization Request"
@@ -511,7 +512,7 @@ msgstr "Nežinomas"
 
 #: ../plugins/bluetooth/DevicePage.qml:47
 msgid "Computer"
-msgstr ""
+msgstr "Kompiuteris"
 
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../plugins/bluetooth/DevicePage.qml:48
@@ -522,23 +523,23 @@ msgstr "Telefonas"
 
 #: ../plugins/bluetooth/DevicePage.qml:50
 msgid "Modem"
-msgstr ""
+msgstr "Modemas"
 
 #: ../plugins/bluetooth/DevicePage.qml:51 ../src/qml/MainWindow.qml:241
 msgid "Network"
-msgstr ""
+msgstr "Tinklas"
 
 #: ../plugins/bluetooth/DevicePage.qml:52
 msgid "Headset"
-msgstr "Ausinės"
+msgstr "Ausinės su mikrofonu"
 
 #: ../plugins/bluetooth/DevicePage.qml:53
 msgid "Headphones"
-msgstr ""
+msgstr "Ausinės"
 
 #: ../plugins/bluetooth/DevicePage.qml:54
 msgid "Video"
-msgstr "Video klipai"
+msgstr ""
 
 #: ../plugins/bluetooth/DevicePage.qml:55
 msgid "Other Audio"
@@ -554,7 +555,7 @@ msgstr ""
 
 #: ../plugins/bluetooth/DevicePage.qml:58
 msgid "Tablet"
-msgstr ""
+msgstr "Planšetė"
 
 #: ../plugins/bluetooth/DevicePage.qml:59 ../plugins/mouse/Connected.qml:48
 msgid "Mouse"
@@ -575,7 +576,7 @@ msgstr ""
 
 #: ../plugins/bluetooth/DevicePage.qml:63
 msgid "Other"
-msgstr ""
+msgstr "Kitoks"
 
 #: ../plugins/bluetooth/DevicePage.qml:69
 msgid "Excellent"
@@ -598,7 +599,7 @@ msgstr ""
 #: ../plugins/wifi/NetworkDetails.qml:59
 #: ../plugins/printing/printer-sub-pages/Status.qml:61
 msgid "Name"
-msgstr ""
+msgstr "Pavadinimas"
 
 #: ../plugins/bluetooth/DevicePage.qml:113
 msgid "Type"
@@ -607,11 +608,11 @@ msgstr ""
 #: ../plugins/bluetooth/DevicePage.qml:124
 #: ../plugins/printing/printer-sub-pages/Status.qml:26
 msgid "Status"
-msgstr ""
+msgstr "Būsena"
 
 #: ../plugins/bluetooth/DevicePage.qml:128
 msgid "Signal Strength"
-msgstr ""
+msgstr "Signalo stiprumas"
 
 #: ../plugins/bluetooth/DevicePage.qml:133
 #: ../plugins/bluetooth/PageComponent.qml:358
@@ -754,7 +755,7 @@ msgstr "Gerai"
 
 #: ../plugins/cellular/PageApnEditor.qml:71
 msgid "Edit"
-msgstr ""
+msgstr "Taisyti"
 
 #: ../plugins/cellular/PageApnEditor.qml:71
 msgid "New APN"
@@ -845,7 +846,7 @@ msgstr ""
 #: ../plugins/cellular/PageApnEditor.qml:367
 #: ../plugins/wifi/OtherNetwork.qml:338
 msgid "Authentication"
-msgstr ""
+msgstr "Tapatybės nustatymas"
 
 #: ../plugins/cellular/PageApnEditor.qml:372
 msgid "PAP or CHAP"
@@ -861,19 +862,19 @@ msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:385
 msgid "Protocol"
-msgstr ""
+msgstr "Protokolas"
 
 #: ../plugins/cellular/PageApnEditor.qml:389
 msgid "IPv4"
-msgstr ""
+msgstr "IPv4"
 
 #: ../plugins/cellular/PageApnEditor.qml:390
 msgid "IPv6"
-msgstr ""
+msgstr "IPv6"
 
 #: ../plugins/cellular/PageApnEditor.qml:391
 msgid "IPv4v6"
-msgstr ""
+msgstr "IPv4v6"
 
 #: ../plugins/cellular/PageCarrierAndApn.qml:27
 #: ../plugins/cellular/Components/SingleSim.qml:110
@@ -905,9 +906,8 @@ msgid "LTE APN"
 msgstr ""
 
 #: ../plugins/cellular/PageChooseApn.qml:156
-#, fuzzy
 msgid "Reset All APN Settings…"
-msgstr "Atstatyti visus sistemos nustatymus…"
+msgstr ""
 
 #: ../plugins/cellular/PageChooseApn.qml:165
 msgid "Reset APN Settings"
@@ -951,7 +951,7 @@ msgstr ""
 #: ../plugins/cellular/PageChooseApn.qml:232
 #: ../plugins/cellular/PageChooseApn.qml:265
 msgid "Disable"
-msgstr ""
+msgstr "Išjungti"
 
 #: ../plugins/cellular/PageChooseApn.qml:254
 #, qt-format
@@ -1569,7 +1569,7 @@ msgstr ""
 
 #: ../plugins/phone/CallForwarding.qml:197
 msgid "My phone is unreachable"
-msgstr ""
+msgstr "Mano telefonas yra nepasiekiamas"
 
 #: ../plugins/phone/CallForwarding.qml:227
 msgid "Contacts…"
@@ -1577,11 +1577,11 @@ msgstr ""
 
 #: ../plugins/phone/CallForwarding.qml:274
 msgid "Please select a phone number"
-msgstr ""
+msgstr "Pasirinkite telefono numerį"
 
 #: ../plugins/phone/CallForwarding.qml:283
 msgid "Numbers"
-msgstr ""
+msgstr "Numeriai"
 
 #: ../plugins/phone/CallForwarding.qml:302
 msgid "Could not forward to this contact"
@@ -1613,7 +1613,7 @@ msgstr ""
 
 #: ../plugins/phone/CallForwardItem.qml:171
 msgid "Enter a number"
-msgstr ""
+msgstr "Įveskite numerį"
 
 #: ../plugins/phone/CallForwardItem.qml:218
 msgid "Call forwarding can’t be changed right now."
@@ -1657,7 +1657,7 @@ msgstr ""
 
 #: ../plugins/phone/SingleSim.qml:29
 msgid "SIM"
-msgstr ""
+msgstr "SIM"
 
 #: ../plugins/printing/AddPrinter.qml:34
 #: ../plugins/printing/AddPrinterDetails.qml:54
@@ -1683,7 +1683,7 @@ msgstr ""
 
 #: ../plugins/printing/AddPrinterDetails.qml:44
 msgid "Back"
-msgstr ""
+msgstr "Atgal"
 
 #: ../plugins/printing/AddPrinterDetails.qml:137
 #, fuzzy
@@ -1717,7 +1717,7 @@ msgstr ""
 #: ../plugins/security-privacy/PageComponent.qml:240
 #: ../plugins/printing/printer-sub-pages/Status.qml:72
 msgid "Location"
-msgstr "Vietovė"
+msgstr "Vieta"
 
 #: ../plugins/printing/AddPrinterDetails.qml:219
 msgid "Driver"
@@ -1870,7 +1870,7 @@ msgstr ""
 
 #: ../plugins/security-privacy/AppAccess.qml:103
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: ../plugins/security-privacy/AppAccess.qml:118
 msgid "Apps may also request access to online accounts."
@@ -2199,7 +2199,7 @@ msgstr ""
 
 #: ../plugins/security-privacy/SimPin.qml:334
 msgid "Unlock"
-msgstr ""
+msgstr "Atrakinti"
 
 #: ../plugins/security-privacy/SimPin.qml:334
 msgid "Lock"
@@ -2233,7 +2233,7 @@ msgstr ""
 
 #: ../plugins/sound/PageComponent.qml:76
 msgid "Silent Mode"
-msgstr ""
+msgstr "Begarsė veiksena"
 
 #: ../plugins/sound/PageComponent.qml:100
 msgid "Ringer:"
@@ -2241,7 +2241,7 @@ msgstr ""
 
 #: ../plugins/sound/PageComponent.qml:141
 msgid "High volume can damage your hearing."
-msgstr ""
+msgstr "Didelis garsis gali pažeisti jūsų klausą."
 
 #: ../plugins/sound/PageComponent.qml:145
 msgid "Phone calls:"
@@ -2512,7 +2512,7 @@ msgstr "Įdiegti"
 
 #: ../plugins/system-update/UpdateDelegate.qml:149
 msgid "Open"
-msgstr "Atidaryti"
+msgstr "Atverti"
 
 #: ../plugins/system-update/UpdateDelegate.qml:228
 msgid "Installing"
@@ -2626,7 +2626,7 @@ msgstr ""
 
 #: ../plugins/time-date/TimePicker.qml:117
 msgid "Date"
-msgstr ""
+msgstr "Data"
 
 #: ../plugins/time-date/TimePicker.qml:129
 msgid "Day"
@@ -2686,7 +2686,7 @@ msgstr "Visi prieinami išdėstymai:"
 
 #: ../plugins/wifi/CertDialog.qml:74
 msgid "Save"
-msgstr "Išsaugoti"
+msgstr "Įrašyti"
 
 #: ../plugins/wifi/NetworkDetails.qml:38
 msgid "Network details"
@@ -2940,7 +2940,7 @@ msgstr ""
 #. this word must be less than 5 characters
 #: ../plugins/cellular/Components/LabelTextField.qml:51
 msgid "Next"
-msgstr ""
+msgstr "Kitas"
 
 #: ../plugins/cellular/Components/MultiSim.qml:55
 #: ../plugins/cellular/Components/SingleSim.qml:105
@@ -3019,15 +3019,15 @@ msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:30
 msgid "Idle"
-msgstr ""
+msgstr "Neveiklus"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:32
 msgid "Aborted"
-msgstr ""
+msgstr "Nutraukta"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:34
 msgid "Active"
-msgstr ""
+msgstr "Aktyvus"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:36
 #, fuzzy
@@ -3056,7 +3056,7 @@ msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:78
 msgid "Address"
-msgstr ""
+msgstr "Adresas"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:84
 msgid "Model"
@@ -3072,7 +3072,7 @@ msgstr ""
 
 #: ../src/qml/MainWindow.qml:203
 msgid "Search"
-msgstr "Paieška"
+msgstr "Ieškoti"
 
 #: ../src/qml/MainWindow.qml:246
 msgid "Personal"
@@ -3447,7 +3447,7 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the flight-mode plugin which is used while searching
 #: ../build/po/settings.js:148
 msgid "Flight Mode"
-msgstr ""
+msgstr "Skrydžio veiksena"
 
 #. TRANSLATORS: This is a keyword or name for the flight-mode plugin which is used while searching
 #: ../build/po/settings.js:150
