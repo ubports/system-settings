@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-08-02 15:49+0000\n"
+"PO-Revision-Date: 2019-08-12 13:49+0000\n"
 "Last-Translator: Moo <moose@mail.ru>\n"
 "Language-Team: Lithuanian <https://translate.ubports.com/projects/ubports/"
 "system-settings/lt/>\n"
@@ -243,11 +243,11 @@ msgstr ""
 
 #: ../plugins/background/MainPage.qml:130
 msgid "Opacity:"
-msgstr ""
+msgstr "Nepermatomumas:"
 
 #: ../plugins/background/Preview.qml:69
 msgid "Preview"
-msgstr ""
+msgstr "Peržiūra"
 
 #: ../plugins/background/Preview.qml:107
 msgid "Remove image"
@@ -568,7 +568,7 @@ msgstr ""
 #: ../plugins/bluetooth/DevicePage.qml:61
 #: ../plugins/security-privacy/AppAccess.qml:75
 msgid "Camera"
-msgstr ""
+msgstr "Kamera"
 
 #: ../plugins/bluetooth/DevicePage.qml:62
 msgid "Watch"
@@ -603,7 +603,7 @@ msgstr "Pavadinimas"
 
 #: ../plugins/bluetooth/DevicePage.qml:113
 msgid "Type"
-msgstr ""
+msgstr "Tipas"
 
 #: ../plugins/bluetooth/DevicePage.qml:124
 #: ../plugins/printing/printer-sub-pages/Status.qml:26
@@ -623,11 +623,11 @@ msgstr ""
 #: ../plugins/cellular/PageChooseApn.qml:201
 #: ../plugins/cellular/PageChooseApn.qml:266
 msgid "Disconnect"
-msgstr ""
+msgstr "Atsijungti"
 
 #: ../plugins/bluetooth/DevicePage.qml:150 ../plugins/wifi/OtherNetwork.qml:905
 msgid "Connect"
-msgstr ""
+msgstr "Prisijungti"
 
 #: ../plugins/bluetooth/DevicePage.qml:172
 msgid "Forget this device"
@@ -651,19 +651,19 @@ msgstr ""
 #: ../plugins/bluetooth/PageComponent.qml:260
 #: ../plugins/bluetooth/PageComponent.qml:319
 msgid "Searching…"
-msgstr ""
+msgstr "Ieškoma…"
 
 #: ../plugins/bluetooth/PageComponent.qml:269
 msgid "Connected devices:"
-msgstr ""
+msgstr "Prijungti įrenginiai:"
 
 #: ../plugins/bluetooth/PageComponent.qml:309
 msgid "Connect another device:"
-msgstr ""
+msgstr "Prijungti kitą įrenginį:"
 
 #: ../plugins/bluetooth/PageComponent.qml:309
 msgid "Connect a device:"
-msgstr ""
+msgstr "Prijungti įrenginį:"
 
 #: ../plugins/bluetooth/PageComponent.qml:352
 msgid "None detected"
@@ -691,7 +691,7 @@ msgstr ""
 
 #: ../plugins/brightness/PageComponent.qml:116
 msgid "Adjust automatically"
-msgstr ""
+msgstr "Reguliuoti automatiškai"
 
 #: ../plugins/brightness/PageComponent.qml:131
 msgid "Brightens and dims the display to suit the surroundings."
@@ -699,29 +699,29 @@ msgstr ""
 
 #: ../plugins/brightness/PageComponent.qml:140
 msgid "External display"
-msgstr ""
+msgstr "Išorinis ekranas"
 
 #: ../plugins/brightness/PageComponent.qml:158
 msgid "Wireless display"
-msgstr ""
+msgstr "Belaidis ekranas"
 
 #: ../plugins/brightness/PageComponent.qml:159
 #: ../plugins/brightness/WifiDisplays.qml:128
 #: ../plugins/brightness/WifiDisplays.qml:172
 msgid "Not connected"
-msgstr ""
+msgstr "Neprijungta"
 
 #: ../plugins/brightness/WifiDisplays.qml:27
 msgid "Wireless Display"
-msgstr ""
+msgstr "Belaidis ekranas"
 
 #: ../plugins/brightness/WifiDisplays.qml:100
 msgid "No displays detected"
-msgstr ""
+msgstr "Neaptikta jokių ekranų"
 
 #: ../plugins/brightness/WifiDisplays.qml:113
 msgid "Connected display:"
-msgstr ""
+msgstr "Prijungtas ekranas:"
 
 #: ../plugins/brightness/WifiDisplays.qml:128
 msgid "Connecting"
@@ -729,7 +729,7 @@ msgstr ""
 
 #: ../plugins/brightness/WifiDisplays.qml:146
 msgid "Use another display:"
-msgstr ""
+msgstr "Naudoti kitą ekraną:"
 
 #: ../plugins/brightness/WifiDisplays.qml:146
 msgid "Choose a display:"
@@ -738,7 +738,7 @@ msgstr ""
 #: ../plugins/brightness/WifiDisplaysAlert.qml:32
 #, qt-format
 msgid "This device failed to connect to %1."
-msgstr ""
+msgstr "Šiam įrenginiui nepavyko prisijungti prie %1."
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:34
 #, qt-format
@@ -800,7 +800,7 @@ msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:192
 msgid "Enter the name of the access point"
-msgstr ""
+msgstr "Įveskite prieigos taško pavadinimą"
 
 #: ../plugins/cellular/PageApnEditor.qml:206
 msgid "MMSC"
@@ -828,7 +828,7 @@ msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:318
 msgid "User name"
-msgstr ""
+msgstr "Naudotojo vardas"
 
 #: ../plugins/cellular/PageApnEditor.qml:328
 msgid "Enter username"
@@ -1310,24 +1310,23 @@ msgstr ""
 #: ../plugins/language/PageComponent.qml:291
 #: ../plugins/sound/PageComponent.qml:251
 msgid "Keyboard sound"
-msgstr ""
+msgstr "Klaviatūros garsas"
 
 #: ../plugins/language/PageComponent.qml:302
 msgid "Keyboard vibration"
 msgstr ""
 
 #: ../plugins/language/PageComponent.qml:313
-#, fuzzy
 msgid "Keyboard opacity"
-msgstr "Klaviatūros išdėstymai"
+msgstr "Klaviatūros nepermatomumas"
 
 #: ../plugins/language/PageHardwareKeyboard.qml:33
 msgid "Hardware keyboard"
-msgstr ""
+msgstr "Aparatinės įrangos klaviatūra"
 
 #: ../plugins/language/PageHardwareKeyboard.qml:63
 msgid "Layouts and other sources"
-msgstr ""
+msgstr "Išdėstymai ir kiti šaltiniai"
 
 #: ../plugins/language/RebootNecessary.qml:34
 msgid "The device needs to restart for changes to take effect."
@@ -1335,7 +1334,7 @@ msgstr ""
 
 #: ../plugins/language/RebootNecessary.qml:38
 msgid "Restart Now"
-msgstr ""
+msgstr "Paleisti iš naujo dabar"
 
 #: ../plugins/language/SpellChecking.qml:64
 msgid "Current spelling languages:"
@@ -1343,7 +1342,7 @@ msgstr ""
 
 #: ../plugins/language/SpellChecking.qml:65
 msgid "All languages available:"
-msgstr ""
+msgstr "Visos prieinamos kalbos:"
 
 #. TRANSLATORS: This is a keyword or name for the launcher plugin which is used while searching
 #: ../plugins/launcher/PageComponent.qml:31
@@ -1353,7 +1352,7 @@ msgstr ""
 
 #: ../plugins/launcher/PageComponent.qml:65
 msgid "On large screens:"
-msgstr ""
+msgstr "Dideliuose ekranuose:"
 
 #: ../plugins/launcher/PageComponent.qml:73
 msgid "Always show the launcher"
@@ -1541,7 +1540,7 @@ msgstr ""
 #: ../plugins/phone/CallForwarding.qml:45 ../plugins/phone/MultiSim.qml:54
 #: ../plugins/phone/NoSims.qml:28 ../plugins/phone/SingleSim.qml:42
 msgid "Call forwarding"
-msgstr ""
+msgstr "Skambučių peradresavimas"
 
 #: ../plugins/phone/CallForwarding.qml:131
 msgid "Forward every incoming call"
@@ -1549,7 +1548,7 @@ msgstr ""
 
 #: ../plugins/phone/CallForwarding.qml:146
 msgid "Redirects all phone calls to another number."
-msgstr ""
+msgstr "Peradresuoja visus telefono skambučius į kitą numerį."
 
 #: ../plugins/phone/CallForwarding.qml:158
 msgid "Call forwarding status can’t be checked "
@@ -1589,7 +1588,7 @@ msgstr ""
 
 #: ../plugins/phone/CallForwarding.qml:303
 msgid "Contact not associated with any phone number."
-msgstr ""
+msgstr "Adresatas nėra susietas su jokiu telefono numeriu."
 
 #: ../plugins/phone/CallForwarding.qml:382
 msgid "All calls"
@@ -1704,7 +1703,7 @@ msgstr "Vartotojo vardas"
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:32
 #: ../plugins/printing/printer-sub-pages/Status.qml:66
 msgid "Description"
-msgstr ""
+msgstr "Aprašas"
 
 #: ../plugins/printing/AddPrinterDetails.qml:204
 #: ../plugins/printing/AddPrinterDetails.qml:211
