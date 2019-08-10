@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-07-22 18:48+0000\n"
+"PO-Revision-Date: 2019-08-12 13:49+0000\n"
 "Last-Translator: Anne Onyme <anneonyme017@netcourrier.com>\n"
 "Language-Team: French <https://translate.ubports.com/projects/ubports/"
 "system-settings/fr/>\n"
@@ -918,8 +918,8 @@ msgstr "Réinitialiser les paramètres des noms de points d'accès"
 #: ../plugins/cellular/PageChooseApn.qml:166
 msgid "Are you sure that you want to Reset APN Settings?"
 msgstr ""
-"Êtes-vous sûr(e) de vouloir réinitialiser les paramètres des noms de points "
-"d'accès ?"
+"Voulez-vous vraiment réinitialiser les paramètres des noms de points d'accès "
+"?"
 
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../plugins/cellular/PageChooseApn.qml:169 ../build/po/settings.js:294
