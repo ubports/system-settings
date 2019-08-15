@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-08-12 13:49+0000\n"
+"PO-Revision-Date: 2019-08-16 18:49+0000\n"
 "Last-Translator: Anne Onyme <anneonyme017@netcourrier.com>\n"
 "Language-Team: French <https://translate.ubports.com/projects/ubports/"
 "system-settings/fr/>\n"
@@ -139,7 +139,7 @@ msgstr "Licence :"
 
 #: ../plugins/about/PageComponent.qml:224 ../plugins/about/Software.qml:11
 msgid "Software licenses"
-msgstr "Licences du logiciel"
+msgstr "Licences des logiciels"
 
 #: ../plugins/about/PageComponent.qml:231
 msgid "Regulatory info"
