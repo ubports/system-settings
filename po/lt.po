@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-09-01 16:50+0000\n"
+"PO-Revision-Date: 2019-09-06 19:50+0000\n"
 "Last-Translator: Moo <moose@mail.ru>\n"
 "Language-Team: Lithuanian <https://translate.ubports.com/projects/ubports/"
 "system-settings/lt/>\n"
@@ -508,7 +508,7 @@ msgstr ""
 #: ../plugins/bluetooth/DevicePage.qml:41 ../plugins/hotspot/Common.qml:94
 #: ../plugins/system-update/UpdateSettings.qml:64 ../plugins/wifi/Common.qml:96
 msgid "Unknown"
-msgstr "Nežinomas"
+msgstr "Nežinoma"
 
 #: ../plugins/bluetooth/DevicePage.qml:47
 msgid "Computer"
@@ -2508,11 +2508,11 @@ msgstr "Atverti"
 
 #: ../plugins/system-update/UpdateDelegate.qml:228
 msgid "Installing"
-msgstr "Instaliuojama"
+msgstr "Įdiegiama"
 
 #: ../plugins/system-update/UpdateDelegate.qml:232
 msgid "Paused"
-msgstr "Sustabdyta"
+msgstr "Pristabdyta"
 
 #: ../plugins/system-update/UpdateDelegate.qml:235
 msgid "Waiting to download"
@@ -2847,7 +2847,7 @@ msgstr "Tapatybė"
 
 #: ../plugins/wifi/OtherNetwork.qml:754
 msgid "Username"
-msgstr "Vartotojo vardas"
+msgstr "Naudotojo vardas"
 
 #: ../plugins/wifi/OtherNetwork.qml:784
 msgid "Private key password"
