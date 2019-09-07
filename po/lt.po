@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-09-06 19:50+0000\n"
+"PO-Revision-Date: 2019-09-08 20:50+0000\n"
 "Last-Translator: Moo <moose@mail.ru>\n"
 "Language-Team: Lithuanian <https://translate.ubports.com/projects/ubports/"
 "system-settings/lt/>\n"
@@ -193,6 +193,7 @@ msgstr ""
 
 #: ../plugins/about/Storage.qml:222 ../plugins/battery/PageComponent.qml:109
 #: ../plugins/battery/PageComponent.qml:284
+#, fuzzy
 msgid "N/A"
 msgstr "N/A"
 
@@ -218,7 +219,7 @@ msgstr ""
 
 #: ../plugins/about/Version.qml:89
 msgid "Device build description"
-msgstr ""
+msgstr "Įrenginio darinio aprašas"
 
 #: ../plugins/about/Version.qml:96
 msgid "Customization Image part"
@@ -352,7 +353,7 @@ msgstr ""
 
 #: ../plugins/battery/PageComponent.qml:274
 msgid "Fully charged"
-msgstr ""
+msgstr "Pilnai įkrauta"
 
 #: ../plugins/battery/PageComponent.qml:293
 msgid "Ways to reduce battery use:"
@@ -415,7 +416,7 @@ msgstr "Belaidis Wi-Fi"
 #: ../plugins/bluetooth/PageComponent.qml:33
 #: ../plugins/bluetooth/PageComponent.qml:235 ../build/po/settings.js:76
 msgid "Bluetooth"
-msgstr ""
+msgstr "Bluetooth"
 
 #: ../plugins/battery/SleepValues.qml:74
 msgid "Lock the device when it's not in use:"
@@ -459,7 +460,7 @@ msgstr ""
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:39
 msgid "Allow"
-msgstr ""
+msgstr "Leisti"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:46
 msgid "Refuse"
@@ -490,20 +491,20 @@ msgstr ""
 #: ../plugins/brightness/WifiDisplays.qml:172
 #: ../plugins/wifi/AccessPoint.qml:51 ../plugins/wifi/StandardMenuItem.qml:31
 msgid "Connected"
-msgstr ""
+msgstr "Prisijungta"
 
 #: ../plugins/bluetooth/DevicePage.qml:38
 #: ../plugins/bluetooth/PageComponent.qml:290
 msgid "Connecting…"
-msgstr ""
+msgstr "Jungiamasi…"
 
 #: ../plugins/bluetooth/DevicePage.qml:39
 msgid "Disconnecting…"
-msgstr ""
+msgstr "Atsijungiama…"
 
 #: ../plugins/bluetooth/DevicePage.qml:40
 msgid "Disconnected"
-msgstr ""
+msgstr "Atsijungta"
 
 #: ../plugins/bluetooth/DevicePage.qml:41 ../plugins/hotspot/Common.qml:94
 #: ../plugins/system-update/UpdateSettings.qml:64 ../plugins/wifi/Common.qml:96
@@ -551,7 +552,7 @@ msgstr ""
 
 #: ../plugins/bluetooth/DevicePage.qml:57
 msgid "Keyboard"
-msgstr ""
+msgstr "Klaviatūra"
 
 #: ../plugins/bluetooth/DevicePage.qml:58
 msgid "Tablet"
@@ -559,11 +560,11 @@ msgstr "Planšetė"
 
 #: ../plugins/bluetooth/DevicePage.qml:59 ../plugins/mouse/Connected.qml:48
 msgid "Mouse"
-msgstr ""
+msgstr "Pelė"
 
 #: ../plugins/bluetooth/DevicePage.qml:60
 msgid "Printer"
-msgstr ""
+msgstr "Spausdintuvas"
 
 #: ../plugins/bluetooth/DevicePage.qml:61
 #: ../plugins/security-privacy/AppAccess.qml:75
@@ -572,7 +573,7 @@ msgstr "Kamera"
 
 #: ../plugins/bluetooth/DevicePage.qml:62
 msgid "Watch"
-msgstr ""
+msgstr "Laikrodis"
 
 #: ../plugins/bluetooth/DevicePage.qml:63
 msgid "Other"
@@ -995,7 +996,7 @@ msgstr "Nežinoma klaida"
 
 #: ../plugins/hotspot/Common.qml:36 ../plugins/wifi/Common.qml:38
 msgid "No reason given"
-msgstr "Nežinoma priežastis"
+msgstr "Priežastis nenurodyta"
 
 #: ../plugins/hotspot/Common.qml:38 ../plugins/wifi/Common.qml:40
 msgid "Device is now managed"
@@ -1016,11 +1017,11 @@ msgstr ""
 
 #: ../plugins/hotspot/Common.qml:46 ../plugins/wifi/Common.qml:48
 msgid "The IP configuration is no longer valid"
-msgstr "IP konfiguracija negalima"
+msgstr "IP konfigūracija daugiau nebegalioja"
 
 #: ../plugins/hotspot/Common.qml:48 ../plugins/wifi/Common.qml:50
 msgid "Your authentication details were incorrect"
-msgstr "Jūsų prisijungimo duomenys yra klaidingi"
+msgstr "Jūsų tapatybės nustatymo duomenys buvo neteisingi"
 
 #: ../plugins/hotspot/Common.qml:50 ../plugins/wifi/Common.qml:52
 msgid "802.1X supplicant disconnected"
@@ -1060,15 +1061,16 @@ msgstr ""
 
 #: ../plugins/hotspot/Common.qml:68 ../plugins/wifi/Common.qml:70
 msgid "Necessary firmware for the device may be missing"
-msgstr "Reikalingi įrenginio failai gali būti nerasti"
+msgstr ""
+"Gali būti, kad trūksta įrenginiui būtinos programinės aparatinės įrangos"
 
 #: ../plugins/hotspot/Common.qml:70 ../plugins/wifi/Common.qml:72
 msgid "The device was removed"
-msgstr "Įrenginys panaikintas"
+msgstr "Įrenginys buvo pašalintas"
 
 #: ../plugins/hotspot/Common.qml:72 ../plugins/wifi/Common.qml:74
 msgid "NetworkManager went to sleep"
-msgstr "Interneto tvarkyklė sustabdyta"
+msgstr "NetworkManager užmigo"
 
 #: ../plugins/hotspot/Common.qml:74 ../plugins/wifi/Common.qml:76
 msgid "The device's active connection disappeared"
@@ -1076,7 +1078,7 @@ msgstr ""
 
 #: ../plugins/hotspot/Common.qml:76 ../plugins/wifi/Common.qml:78
 msgid "Device disconnected by user or client"
-msgstr "Įrenginys atjungtas vartotojo"
+msgstr "Įrenginys atjungtas naudotojo ar kliento"
 
 #: ../plugins/hotspot/Common.qml:78 ../plugins/wifi/Common.qml:80
 msgid "The device's existing connection was assumed"
@@ -1088,11 +1090,11 @@ msgstr ""
 
 #: ../plugins/hotspot/Common.qml:82 ../plugins/wifi/Common.qml:84
 msgid "The modem could not be found"
-msgstr "Modemas nerastas"
+msgstr "Nepavyko rasti modemo"
 
 #: ../plugins/hotspot/Common.qml:84 ../plugins/wifi/Common.qml:86
 msgid "The Bluetooth connection failed or timed out"
-msgstr "Bluetooth sistemai nepavyko prisijungti"
+msgstr "Bluetooth ryšys patyrė nesėkmę arba pasibaigė jam skirtas laikas"
 
 #: ../plugins/hotspot/Common.qml:86 ../plugins/wifi/Common.qml:88
 msgid "A dependency of the connection failed"
@@ -1100,11 +1102,11 @@ msgstr ""
 
 #: ../plugins/hotspot/Common.qml:88 ../plugins/wifi/Common.qml:90
 msgid "ModemManager is unavailable"
-msgstr "Nepavyko pasiekti Modemo tvarkyklę"
+msgstr "ModemManager neprieinama"
 
 #: ../plugins/hotspot/Common.qml:90 ../plugins/wifi/Common.qml:92
 msgid "The Wi-Fi network could not be found"
-msgstr "Nepavyko rasti Wi-Fi  ryšio"
+msgstr "Nepavyko rasti belaidžio (Wi-Fi) ryšio"
 
 #: ../plugins/hotspot/Common.qml:92 ../plugins/wifi/Common.qml:94
 msgid "A secondary connection of the base connection failed"
@@ -1123,12 +1125,13 @@ msgid "Hotspot name"
 msgstr ""
 
 #: ../plugins/hotspot/HotspotSetup.qml:168
+#, fuzzy
 msgid "Choose a name"
 msgstr "Pasirinkite vardą"
 
 #: ../plugins/hotspot/HotspotSetup.qml:185
 msgid "Require a password (recommended):"
-msgstr "Reikalauti slaptažodžio (patariama):"
+msgstr "Reikalauti slaptažodžio (rekomenduojama):"
 
 #: ../plugins/hotspot/HotspotSetup.qml:216
 #: ../plugins/wifi/NetworkDetails.qml:86 ../plugins/wifi/OtherNetwork.qml:821
@@ -1162,6 +1165,7 @@ msgid ""
 msgstr ""
 
 #: ../plugins/hotspot/PageComponent.qml:115
+#, fuzzy
 msgid ""
 "Other devices can use your cellular data connection over the Wi-Fi network. "
 "Normal data charges apply."
@@ -1170,6 +1174,7 @@ msgstr ""
 "išlieka nepakitę."
 
 #: ../plugins/hotspot/PageComponent.qml:124
+#, fuzzy
 msgid "Change Password/Setup…"
 msgstr "Pakeisti slaptažodį/Nustatyti…"
 
@@ -1179,7 +1184,7 @@ msgstr ""
 
 #: ../plugins/hotspot/PageComponent.qml:155
 msgid "Wi-Fi is off"
-msgstr "Wi-Fi išjungtas"
+msgstr "Belaidis (Wi-Fi) išjungtas"
 
 #: ../plugins/hotspot/PageComponent.qml:156
 msgid "In order to create a hotspot, you need to turn Wi-Fi on."
@@ -1187,7 +1192,7 @@ msgstr ""
 
 #: ../plugins/hotspot/PageComponent.qml:165
 msgid "Turn on Wi-Fi"
-msgstr "Įjungti Wi-Fi"
+msgstr "Įjungti belaidį (Wi-Fi)"
 
 #: ../plugins/language/DisplayLanguage.qml:36
 msgid "Display language"
@@ -1644,6 +1649,7 @@ msgid "Last called %1"
 msgstr ""
 
 #: ../plugins/phone/ServiceInfo.qml:119
+#, fuzzy
 msgid "Call"
 msgstr "Skambinti"
 
@@ -2323,7 +2329,7 @@ msgstr "Gaunami kanalai"
 
 #: ../plugins/system-update/ChannelSettings.qml:108
 msgid "Channel to get updates from:"
-msgstr "Kanalai iš kūrių gausite atnaujinimus:"
+msgstr "Kanalas iš kurio gauti atnaujinimus:"
 
 #: ../plugins/system-update/ChannelSettings.qml:124
 msgid "Switching channel"
@@ -2332,19 +2338,19 @@ msgstr "Pakeisti kanalą"
 #: ../plugins/system-update/Configuration.qml:30
 #: ../plugins/system-update/UpdateSettings.qml:55
 msgid "Auto download"
-msgstr "Automatinis parsiuntimas"
+msgstr "Automatinis atsiuntimas"
 
 #: ../plugins/system-update/Configuration.qml:36
 msgid "Download future updates automatically:"
-msgstr "Parsiųsti būsimus atnaujinimus automatiškai:"
+msgstr "Automatiškai atsisiųsti būsimus atnaujinimus:"
 
 #: ../plugins/system-update/Configuration.qml:55
 msgid "When on WiFi"
-msgstr "Jei naudojama WiFi"
+msgstr "Naudojant belaidį (WiFi)"
 
 #: ../plugins/system-update/Configuration.qml:57
 msgid "On any data connection"
-msgstr ""
+msgstr "Naudojant bet kokį duomenų ryšį"
 
 #: ../plugins/system-update/Configuration.qml:58
 msgid "Data charges may apply."
@@ -2353,7 +2359,7 @@ msgstr "Gali būti taikomas duomenų mokestis."
 #: ../plugins/system-update/DownloadHandler.qml:174
 #: ../plugins/system-update/InstallationFailed.qml:25
 msgid "Installation failed"
-msgstr "Diegimo klaida"
+msgstr "Diegimas nepavyko"
 
 #: ../plugins/system-update/FirmwareUpdate.qml:36
 #: ../plugins/system-update/FirmwareUpdate.qml:157
@@ -2389,7 +2395,7 @@ msgstr "Tikrinama ar yra programinės aparatinės įrangos atnaujinimų"
 
 #: ../plugins/system-update/GlobalUpdateControls.qml:84
 msgid "Checking for updates…"
-msgstr "Ieškoma naujinių…"
+msgstr "Ieškoma atnaujinimų…"
 
 #: ../plugins/system-update/GlobalUpdateControls.qml:89
 msgid "Stop"
@@ -2400,9 +2406,9 @@ msgstr "Stabdyti"
 #, qt-format
 msgid "%1 update available"
 msgid_plural "%1 updates available"
-msgstr[0] "%1 prieinamas atnaujinimas"
-msgstr[1] "%1 prieinami atnaujinimai"
-msgstr[2] "%1 prieinamų atnaujinimų"
+msgstr[0] "Yra prieinamas %1 atnaujinimas"
+msgstr[1] "Yra prieinami %1 atnaujinimai"
+msgstr[2] "Yra prieinama %1 atnaujinimų"
 
 #: ../plugins/system-update/GlobalUpdateControls.qml:126
 msgid "Update all…"
@@ -2418,44 +2424,47 @@ msgstr "Atnaujinti sistemą"
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:32
 msgid "The device needs to restart to install the system update."
-msgstr "Įrenginys privalo būti perkrautas norint atnaujinti programinę įrangą."
+msgstr ""
+"Norint įdiegti sistemos atnaujinimą, įrenginys turi būti paleistas iš naujo."
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:33
 msgid "Connect the device to power before installing the system update."
-msgstr "Prijunkite įrenginė krautis prieš pradėdami atnaujinimą."
+msgstr ""
+"Prieš įdiegdami sistemos atnaujinimą, prijunkite įrenginį prie elektros "
+"maitinimo šaltinio."
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:38
 msgid "Restart & Install"
-msgstr "Perkrauti ir instaliuoti"
+msgstr "Paleisti iš naujo ir įdiegti"
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../plugins/system-update/PageComponent.qml:37 ../build/po/settings.js:348
 msgid "Updates"
-msgstr "Naujiniai"
+msgstr "Atnaujinimai"
 
 #: ../plugins/system-update/PageComponent.qml:163
 #: ../plugins/system-update/ReinstallAllApps.qml:150
 msgid "Connect to the Internet to check for updates."
-msgstr "Norėdami rasti naujinius prisijunkite prie interneto."
+msgstr "Norėdami patikrinti ar yra atnaujinimų, prisijunkite prie interneto."
 
 #: ../plugins/system-update/PageComponent.qml:165
 #: ../plugins/system-update/ReinstallAllApps.qml:152
 msgid "Software is up to date"
-msgstr "Programinė įranga pilnai atnaujinta"
+msgstr "Programinė įranga yra naujausia"
 
 #: ../plugins/system-update/PageComponent.qml:168
 #: ../plugins/system-update/ReinstallAllApps.qml:155
 msgid "The update server is not responding. Try again later."
-msgstr "Atnaujinimo serveris laikinai neveikia. Bandykite vėliau."
+msgstr "Atnaujinimų serveris neatsako. Bandykite dar kartą vėliau."
 
 #: ../plugins/system-update/PageComponent.qml:177
 #: ../plugins/system-update/ReinstallAllApps.qml:164
 msgid "Updates Available"
-msgstr "Prieinami atnaujinimai"
+msgstr "Yra prieinami atnaujinimai"
 
 #: ../plugins/system-update/PageComponent.qml:311
 msgid "Recent updates"
-msgstr "Naujausi atnaujinimai"
+msgstr "Paskiausi atnaujinimai"
 
 #: ../plugins/system-update/PageComponent.qml:374
 #: ../plugins/system-update/UpdateSettings.qml:32
@@ -2476,7 +2485,7 @@ msgstr ""
 
 #: ../plugins/system-update/UpdateDelegate.qml:119
 msgid "Retry"
-msgstr "Bandyti vėl"
+msgstr "Bandyti dar kartą"
 
 #: ../plugins/system-update/UpdateDelegate.qml:124
 msgid "Update"
@@ -2484,19 +2493,19 @@ msgstr "Atnaujinti"
 
 #: ../plugins/system-update/UpdateDelegate.qml:126
 msgid "Download"
-msgstr "Parsiųsti"
+msgstr "Atsisiųsti"
 
 #: ../plugins/system-update/UpdateDelegate.qml:132
 msgid "Resume"
-msgstr "Tęsti"
+msgstr "Pratęsti"
 
 #: ../plugins/system-update/UpdateDelegate.qml:139
 msgid "Pause"
-msgstr "Sustabdyti"
+msgstr "Pristabdyti"
 
 #: ../plugins/system-update/UpdateDelegate.qml:143
 msgid "Install…"
-msgstr "Instaliuoti…"
+msgstr "Įdiegti…"
 
 #: ../plugins/system-update/UpdateDelegate.qml:145
 msgid "Install"
@@ -2516,11 +2525,11 @@ msgstr "Pristabdyta"
 
 #: ../plugins/system-update/UpdateDelegate.qml:235
 msgid "Waiting to download"
-msgstr "Laukiama kol prasidės siuntimas"
+msgstr "Laukiama atsisiuntimo"
 
 #: ../plugins/system-update/UpdateDelegate.qml:238
 msgid "Downloading"
-msgstr "Siunčiama"
+msgstr "Atsisiunčiama"
 
 #. TRANSLATORS: %1 is the human readable amount
 #. of bytes downloaded, and %2 is the total to be
@@ -2532,7 +2541,7 @@ msgstr "%1 iš %2"
 
 #: ../plugins/system-update/UpdateDelegate.qml:278
 msgid "Downloaded"
-msgstr "Parsiųsta"
+msgstr "Atsisiųsta"
 
 #: ../plugins/system-update/UpdateDelegate.qml:281
 msgid "Installed"
