@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-02-12 16:09+0000\n"
+"PO-Revision-Date: 2019-09-15 11:50+0000\n"
 "Last-Translator: Daniel Frańczak <danielfranczak5@wp.pl>\n"
 "Language-Team: Polish <https://translate.ubports.com/projects/ubports/"
 "system-settings/pl/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.1.1\n"
+"X-Generator: Weblate 3.8\n"
 "X-Launchpad-Export-Date: 2015-07-21 05:34+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -162,7 +162,7 @@ msgstr "Filmy"
 
 #: ../plugins/about/Storage.qml:108
 msgid "Audio"
-msgstr "Dźwięki"
+msgstr "Audio"
 
 #: ../plugins/about/Storage.qml:109
 msgid "Pictures"
@@ -754,7 +754,7 @@ msgstr "Wystąpił nieznany błąd podczas łączenia z %1."
 #: ../plugins/vpn/PageComponent.qml:123
 #: ../plugins/cellular/Components/SimEditor.qml:214
 msgid "OK"
-msgstr "Ok"
+msgstr "OK"
 
 #: ../plugins/cellular/PageApnEditor.qml:71
 msgid "Edit"
@@ -2635,7 +2635,7 @@ msgstr "Nic nie znaleziono"
 #. TRANSLATORS: This is a keyword or name for the time-date plugin which is used while searching
 #: ../plugins/time-date/PageComponent.qml:31 ../build/po/settings.js:370
 msgid "Time and Date"
-msgstr "Data i czas"
+msgstr "Data i Czas"
 
 #: ../plugins/time-date/PageComponent.qml:64
 msgid "Time zone:"
