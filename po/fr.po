@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-08-16 18:49+0000\n"
+"PO-Revision-Date: 2019-09-15 11:50+0000\n"
 "Last-Translator: Anne Onyme <anneonyme017@netcourrier.com>\n"
 "Language-Team: French <https://translate.ubports.com/projects/ubports/"
 "system-settings/fr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 3.8\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:40+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -163,7 +163,7 @@ msgstr "Vidéos"
 
 #: ../plugins/about/Storage.qml:108
 msgid "Audio"
-msgstr "Son"
+msgstr "Audio"
 
 #: ../plugins/about/Storage.qml:109
 msgid "Pictures"
@@ -2645,7 +2645,7 @@ msgstr "Aucun lieu ne correspond"
 #. TRANSLATORS: This is a keyword or name for the time-date plugin which is used while searching
 #: ../plugins/time-date/PageComponent.qml:31 ../build/po/settings.js:370
 msgid "Time and Date"
-msgstr "Date et heure"
+msgstr "Heure et date"
 
 #: ../plugins/time-date/PageComponent.qml:64
 msgid "Time zone:"
