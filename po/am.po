@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-06-23 21:04+0000\n"
+"PO-Revision-Date: 2019-08-26 14:49+0000\n"
 "Last-Translator: Samson <sambelet@yahoo.com>\n"
 "Language-Team: Amharic <https://translate.ubports.com/projects/ubports/"
 "system-settings/am/>\n"
@@ -631,7 +631,7 @@ msgstr "ይህን አካል ተወው"
 #: ../plugins/bluetooth/DisplayPinCodeDialog.qml:34
 #, qt-format
 msgid "Please enter the following PIN on %1 and press “Enter” on the keyboard:"
-msgstr ""
+msgstr "እባክዎን የሚቀጥለውን ፒን ያስገቡ በ %1 እና ይጫኑ “ማስገቢያ” በ ፊደል ገበታ ላይ:"
 
 #: ../plugins/bluetooth/PageComponent.qml:252
 msgid "Discoverable"
@@ -706,7 +706,7 @@ msgstr "አልተገናኘም"
 
 #: ../plugins/brightness/WifiDisplays.qml:27
 msgid "Wireless Display"
-msgstr ""
+msgstr "ሽቦ አልባ ማሳያ"
 
 #: ../plugins/brightness/WifiDisplays.qml:100
 msgid "No displays detected"
@@ -736,7 +736,7 @@ msgstr "ይህ አካል መገናኘት አልቻለም ወደ %1."
 #: ../plugins/brightness/WifiDisplaysAlert.qml:34
 #, qt-format
 msgid "There was an unknown error connecting to %1."
-msgstr ""
+msgstr "ያልታወቀ ስህተት ተፈጥሯል በ መገናኘት ላይ እንዳለ ወደ %1."
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:38
 #: ../plugins/phone/CallForwarding.qml:305
@@ -756,7 +756,7 @@ msgstr "አዲስ APN"
 
 #: ../plugins/cellular/PageApnEditor.qml:132
 msgid "Used for:"
-msgstr ""
+msgstr "ተጠቅመዋል ለ:"
 
 #: ../plugins/cellular/PageApnEditor.qml:136
 #: ../plugins/cellular/PageChooseApn.qml:107
@@ -776,7 +776,7 @@ msgstr "MMS"
 #: ../plugins/cellular/PageApnEditor.qml:139
 #: ../plugins/cellular/PageChooseApn.qml:111
 msgid "LTE"
-msgstr ""
+msgstr "LTE"
 
 #: ../plugins/cellular/PageApnEditor.qml:166
 msgid "Enter a name describing the APN"
@@ -843,7 +843,7 @@ msgstr "ማረጋገጫ"
 
 #: ../plugins/cellular/PageApnEditor.qml:372
 msgid "PAP or CHAP"
-msgstr ""
+msgstr "PAP or CHAP"
 
 #: ../plugins/cellular/PageApnEditor.qml:373
 msgid "PAP only"
@@ -855,19 +855,19 @@ msgstr "CHAP only"
 
 #: ../plugins/cellular/PageApnEditor.qml:385
 msgid "Protocol"
-msgstr ""
+msgstr "Protocol"
 
 #: ../plugins/cellular/PageApnEditor.qml:389
 msgid "IPv4"
-msgstr ""
+msgstr "IPv4"
 
 #: ../plugins/cellular/PageApnEditor.qml:390
 msgid "IPv6"
-msgstr ""
+msgstr "IPv6"
 
 #: ../plugins/cellular/PageApnEditor.qml:391
 msgid "IPv4v6"
-msgstr ""
+msgstr "IPv4v6"
 
 #: ../plugins/cellular/PageCarrierAndApn.qml:27
 #: ../plugins/cellular/Components/SingleSim.qml:110
@@ -913,7 +913,7 @@ msgstr "በእርግጥ የ APN ማሰናጃዎች እንደ ነበር መመለ
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../plugins/cellular/PageChooseApn.qml:169 ../build/po/settings.js:294
 msgid "Reset"
-msgstr "እንደነበረ መመለሻ"
+msgstr "እንደ ነበረ መመለሻ"
 
 #. TRANSLATORS: %1 is the MMS APN that the user has chosen to be
 #. “preferred”.
@@ -957,14 +957,14 @@ msgid "Disable %1"
 msgstr "ማሰናከያ"
 
 #: ../plugins/cellular/PageChooseApn.qml:260
-#, fuzzy, qt-format
+#, qt-format
 msgid "This disconnects %1."
-msgstr "መለያያ"
+msgstr "ይህ ይለያያል %1."
 
 #: ../plugins/cellular/PageChooseApn.qml:261
 #, qt-format
 msgid "This disables %1."
-msgstr ""
+msgstr "ይህ ይሰናከላል %1."
 
 #: ../plugins/cellular/PageChooseApn.qml:303
 #: ../plugins/printing/PageComponent.qml:136

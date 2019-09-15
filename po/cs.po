@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-06-06 10:03+0000\n"
+"PO-Revision-Date: 2019-09-15 11:50+0000\n"
 "Last-Translator: Milan Korecký <milan.korecky@gmail.com>\n"
 "Language-Team: Czech <https://translate.ubports.com/projects/ubports/"
 "system-settings/cs/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 3.8\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:40+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -62,7 +62,7 @@ msgstr "Tato licence nemohla být zobrazena."
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../plugins/about/PageComponent.qml:35 ../build/po/settings.js:2
 msgid "About"
-msgstr "Informace o zařízení"
+msgstr "O aplikaci"
 
 #: ../plugins/about/PageComponent.qml:99
 msgid "Serial"
@@ -162,7 +162,7 @@ msgstr "Videa"
 
 #: ../plugins/about/Storage.qml:108
 msgid "Audio"
-msgstr "Hudba"
+msgstr "Audio"
 
 #: ../plugins/about/Storage.qml:109
 msgid "Pictures"
@@ -752,7 +752,7 @@ msgstr "Došlo k neznámé chybě  při připojování k %1."
 #: ../plugins/vpn/PageComponent.qml:123
 #: ../plugins/cellular/Components/SimEditor.qml:214
 msgid "OK"
-msgstr "OK"
+msgstr "Přijmout"
 
 #: ../plugins/cellular/PageApnEditor.qml:71
 msgid "Edit"
@@ -2622,7 +2622,7 @@ msgstr "Žádné odpovídající místo"
 #. TRANSLATORS: This is a keyword or name for the time-date plugin which is used while searching
 #: ../plugins/time-date/PageComponent.qml:31 ../build/po/settings.js:370
 msgid "Time and Date"
-msgstr "Datum a čas"
+msgstr "Datum a hodina"
 
 #: ../plugins/time-date/PageComponent.qml:64
 msgid "Time zone:"

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-06-17 13:04+0000\n"
+"PO-Revision-Date: 2019-09-15 11:50+0000\n"
 "Last-Translator: Anne Onyme <anneonyme017@netcourrier.com>\n"
 "Language-Team: French <https://translate.ubports.com/projects/ubports/"
 "system-settings/fr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 3.8\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:40+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -139,7 +139,7 @@ msgstr "Licence :"
 
 #: ../plugins/about/PageComponent.qml:224 ../plugins/about/Software.qml:11
 msgid "Software licenses"
-msgstr "Licences du logiciel"
+msgstr "Licences des logiciels"
 
 #: ../plugins/about/PageComponent.qml:231
 msgid "Regulatory info"
@@ -163,7 +163,7 @@ msgstr "Vidéos"
 
 #: ../plugins/about/Storage.qml:108
 msgid "Audio"
-msgstr "Son"
+msgstr "Audio"
 
 #: ../plugins/about/Storage.qml:109
 msgid "Pictures"
@@ -918,8 +918,8 @@ msgstr "Réinitialiser les paramètres des noms de points d'accès"
 #: ../plugins/cellular/PageChooseApn.qml:166
 msgid "Are you sure that you want to Reset APN Settings?"
 msgstr ""
-"Êtes-vous sûr(e) de vouloir réinitialiser les paramètres des noms de points "
-"d'accès ?"
+"Voulez-vous vraiment réinitialiser les paramètres des noms de points d'accès "
+"?"
 
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../plugins/cellular/PageChooseApn.qml:169 ../build/po/settings.js:294
@@ -2645,7 +2645,7 @@ msgstr "Aucun lieu ne correspond"
 #. TRANSLATORS: This is a keyword or name for the time-date plugin which is used while searching
 #: ../plugins/time-date/PageComponent.qml:31 ../build/po/settings.js:370
 msgid "Time and Date"
-msgstr "Date et heure"
+msgstr "Heure et date"
 
 #: ../plugins/time-date/PageComponent.qml:64
 msgid "Time zone:"
@@ -2694,15 +2694,15 @@ msgstr "Année"
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../plugins/vpn/PageComponent.qml:31 ../build/po/settings.js:380
 msgid "VPN"
-msgstr "RPV"
+msgstr "Réseau Privé Virtuel"
 
 #: ../plugins/vpn/PageComponent.qml:76
 msgid ""
 "To add a VPN configuration, download its config file or configure it "
 "manually."
 msgstr ""
-"Pour ajouter une configuration RPV, téléchargez son fichier de configuration "
-"ou configurez-le manuellement."
+"Pour ajouter une configuration de Réseau Privé Virtuel, téléchargez son "
+"fichier de configuration ou configurez-le manuellement."
 
 #: ../plugins/vpn/PageComponent.qml:82
 msgid "Add Manual Configuration…"
@@ -2710,7 +2710,7 @@ msgstr "Ajouter une configuration manuelle…"
 
 #: ../plugins/vpn/PageComponent.qml:117
 msgid "VPN reconnection required."
-msgstr "Reconnexion au RPV nécessaire."
+msgstr "Reconnexion au Réseau Privé Virtuel nécessaire."
 
 #: ../plugins/vpn/PageComponent.qml:118
 msgid "You need to reconnect for changes to have an effect."
