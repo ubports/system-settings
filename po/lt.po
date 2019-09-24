@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-09-21 20:50+0000\n"
+"PO-Revision-Date: 2019-09-26 06:51+0000\n"
 "Last-Translator: Moo <moose@mail.ru>\n"
 "Language-Team: Lithuanian <https://translate.ubports.com/projects/ubports/"
 "system-settings/lt/>\n"
@@ -779,7 +779,7 @@ msgstr ""
 #: ../plugins/cellular/PageApnEditor.qml:138
 #: ../plugins/cellular/PageChooseApn.qml:113
 msgid "MMS"
-msgstr ""
+msgstr "MMS"
 
 #: ../plugins/cellular/PageApnEditor.qml:139
 #: ../plugins/cellular/PageChooseApn.qml:111
@@ -3029,9 +3029,8 @@ msgid "Active"
 msgstr "Aktyvus"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:36
-#, fuzzy
 msgid "Stopped"
-msgstr "Stabdyti"
+msgstr "Sustabdytas"
 
 #. TRANSLATORS: %1 is the overall state of the printer, %2 is a more
 #. detailed message from the printer itself.
