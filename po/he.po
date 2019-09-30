@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-07-12 13:48+0000\n"
+"PO-Revision-Date: 2019-09-24 14:51+0000\n"
 "Last-Translator: Eran <etherpulse@gmail.com>\n"
 "Language-Team: Hebrew <https://translate.ubports.com/projects/ubports/"
 "system-settings/he/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 3.8\n"
 "X-Launchpad-Export-Date: 2015-07-24 05:41+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -206,9 +206,8 @@ msgid "OS build number"
 msgstr "מספר בניית מערכת ההפעלה"
 
 #: ../plugins/about/Version.qml:68
-#, fuzzy
 msgid "UBports Image part"
-msgstr "חלק תמונת אובונטו"
+msgstr "חלק תמונת UBports"
 
 #: ../plugins/about/Version.qml:76
 msgid "Ubuntu build description"
@@ -378,8 +377,10 @@ msgstr "מצב שינה בהעדר פעילות"
 #, qt-format
 msgid "After %1 second"
 msgid_plural "After %1 seconds"
-msgstr[0] "לאחר דקה %1"
-msgstr[1] "לאחר %1 דקות"
+msgstr[0] "לאחר שניה %1"
+msgstr[1] "לאחר %1 שניות"
+msgstr[2] "לאחר %1 שניות"
+msgstr[3] "לאחר %1 שניות"
 
 #. TRANSLATORS: %1 is the number of minutes
 #: ../plugins/battery/PageComponent.qml:326
@@ -395,6 +396,8 @@ msgid "After %1 minute"
 msgid_plural "After %1 minutes"
 msgstr[0] "לאחר דקה %1"
 msgstr[1] "לאחר %1 דקות"
+msgstr[2] "לאחר %1 דקות"
+msgstr[3] "לאחר %1 דקות"
 
 #. TRANSLATORS: “Wi-Fi used for hotspot” is hidden.
 #: ../plugins/battery/PageComponent.qml:365
@@ -429,6 +432,8 @@ msgid "After %1 seconds"
 msgid_plural "After %1 seconds"
 msgstr[0] "לאחר דקה %1"
 msgstr[1] "לאחר %1 דקות"
+msgstr[2] "לאחר %1 דקות"
+msgstr[3] "לאחר %1 דקות"
 
 #: ../plugins/battery/SleepValues.qml:130
 msgid ""
@@ -467,17 +472,17 @@ msgstr "דחייה"
 #: ../plugins/bluetooth/ProvidePasskeyDialog.qml:28
 #: ../plugins/bluetooth/ProvidePinCodeDialog.qml:28
 msgid "Bluetooth Pairing Request"
-msgstr "בקשת צימוד Bluetooth"
+msgstr "בקשת צימוד בלוטות'"
 
 #. TRANSLATORS: %1 is the name of the bluetooth device being paired
 #: ../plugins/bluetooth/ConfirmPasskeyDialog.qml:37
 #, qt-format
 msgid "Please confirm that the PIN displayed on '%1' matches this one"
-msgstr "נא לאשר כי הקוד שמופיע ב־‚%1‘ תואם לזה"
+msgstr "נא לאשר כי הקוד שמופיע ב־'%1' תואם לזה"
 
 #: ../plugins/bluetooth/ConfirmPasskeyDialog.qml:57
 msgid "Confirm PIN"
-msgstr "נא לאשר את הקוד"
+msgstr "אישור הקוד"
 
 #: ../plugins/bluetooth/DevicePage.qml:37
 #: ../plugins/bluetooth/PageComponent.qml:290
@@ -568,7 +573,7 @@ msgstr "מצלמה"
 
 #: ../plugins/bluetooth/DevicePage.qml:62
 msgid "Watch"
-msgstr ""
+msgstr "צפייה"
 
 #: ../plugins/bluetooth/DevicePage.qml:63
 msgid "Other"
@@ -804,32 +809,31 @@ msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:216
 msgid "Enter message center"
-msgstr ""
+msgstr "הכניסו כתובת של מרכז ההודעות"
 
 #: ../plugins/cellular/PageApnEditor.qml:234
 msgid "Proxy"
-msgstr ""
+msgstr "פרוקסי"
 
 #: ../plugins/cellular/PageApnEditor.qml:244
 msgid "Enter message proxy"
-msgstr ""
+msgstr "הכניסו כתובת של שרת הפרוקסי להודעות"
 
 #: ../plugins/cellular/PageApnEditor.qml:289
 msgid "Proxy port"
-msgstr ""
+msgstr "פורט הפרוקסי"
 
 #: ../plugins/cellular/PageApnEditor.qml:300
 msgid "Enter message proxy port"
-msgstr ""
+msgstr "הכניסו את הפורט של שרת הפרוקסי"
 
 #: ../plugins/cellular/PageApnEditor.qml:318
-#, fuzzy
 msgid "User name"
-msgstr "שם הרשת"
+msgstr "שם משתמש"
 
 #: ../plugins/cellular/PageApnEditor.qml:328
 msgid "Enter username"
-msgstr ""
+msgstr "הכניסו שם משתמש"
 
 #: ../plugins/cellular/PageApnEditor.qml:341
 #: ../plugins/wifi/NetworkDetails.qml:72 ../plugins/wifi/OtherNetwork.qml:786
@@ -837,9 +841,8 @@ msgid "Password"
 msgstr "ססמה"
 
 #: ../plugins/cellular/PageApnEditor.qml:353
-#, fuzzy
 msgid "Enter password"
-msgstr "הצגת הססמה"
+msgstr "הכניסו ססמה"
 
 #: ../plugins/cellular/PageApnEditor.qml:367
 #: ../plugins/wifi/OtherNetwork.qml:338
@@ -848,21 +851,19 @@ msgstr "זיהוי"
 
 #: ../plugins/cellular/PageApnEditor.qml:372
 msgid "PAP or CHAP"
-msgstr ""
+msgstr "PAP או CHAP"
 
 #: ../plugins/cellular/PageApnEditor.qml:373
-#, fuzzy
 msgid "PAP only"
-msgstr "הטלפון בלבד"
+msgstr "PAP בלבד"
 
 #: ../plugins/cellular/PageApnEditor.qml:374
-#, fuzzy
 msgid "CHAP only"
-msgstr "הטלפון בלבד"
+msgstr "CHAP בלבד"
 
 #: ../plugins/cellular/PageApnEditor.qml:385
 msgid "Protocol"
-msgstr ""
+msgstr "פרוטוקול"
 
 #: ../plugins/cellular/PageApnEditor.qml:389
 msgid "IPv4"
@@ -878,9 +879,8 @@ msgstr ""
 
 #: ../plugins/cellular/PageCarrierAndApn.qml:27
 #: ../plugins/cellular/Components/SingleSim.qml:110
-#, fuzzy
 msgid "Carrier & APN"
-msgstr "ספקים"
+msgstr "ספקים וAPN"
 
 #: ../plugins/cellular/PageCarrierAndApn.qml:45
 #: ../plugins/cellular/PageCarrierAndApn.qml:54

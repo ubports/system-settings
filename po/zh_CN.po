@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-08-31 09:50+0000\n"
+"PO-Revision-Date: 2019-09-26 06:51+0000\n"
 "Last-Translator: BirdZhang <0312birdzhang@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.ubports.com/projects/"
 "ubports/system-settings/zh_Hans/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 3.8\n"
 "X-Launchpad-Export-Date: 2015-07-24 05:41+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -1095,12 +1095,10 @@ msgid "A secondary connection of the base connection failed"
 msgstr "基本连接的辅助连接失败"
 
 #: ../plugins/hotspot/HotspotSetup.qml:61
-#, fuzzy
 msgid "Change Hotspot Setup"
 msgstr "更改热点设置"
 
 #: ../plugins/hotspot/HotspotSetup.qml:61
-#, fuzzy
 msgid "Set Up Hotspot"
 msgstr "设置热点"
 
@@ -1109,9 +1107,8 @@ msgid "Hotspot name"
 msgstr "热点名称"
 
 #: ../plugins/hotspot/HotspotSetup.qml:168
-#, fuzzy
 msgid "Choose a name"
-msgstr "选择口令密语"
+msgstr "选择一个名称"
 
 #: ../plugins/hotspot/HotspotSetup.qml:185
 msgid "Require a password (recommended):"
@@ -1159,19 +1156,16 @@ msgstr ""
 "用。"
 
 #: ../plugins/hotspot/PageComponent.qml:124
-#, fuzzy
 msgid "Change Password/Setup…"
-msgstr "修改密码..."
+msgstr "修改密码设置…"
 
 #: ../plugins/hotspot/PageComponent.qml:124
-#, fuzzy
 msgid "Set Up Hotspot…"
-msgstr "设置热点"
+msgstr "设置热点…"
 
 #: ../plugins/hotspot/PageComponent.qml:155
-#, fuzzy
 msgid "Wi-Fi is off"
-msgstr "Wi-Fi 热点"
+msgstr "Wi-Fi 热点已关闭"
 
 #: ../plugins/hotspot/PageComponent.qml:156
 msgid "In order to create a hotspot, you need to turn Wi-Fi on."
