@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-08-31 09:50+0000\n"
-"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
+"PO-Revision-Date: 2019-10-07 11:53+0000\n"
+"Last-Translator: Sami Törmänen <tormanen.sami@gmail.com>\n"
 "Language-Team: Finnish <https://translate.ubports.com/projects/ubports/"
 "system-settings/fi/>\n"
 "Language: fi\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 3.8\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:40+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -281,7 +281,7 @@ msgstr "Poista kuva"
 #: ../plugins/background/Components/AddRemove.qml:42
 #: ../plugins/cellular/Components/SimEditor.qml:203
 msgid "Cancel"
-msgstr "Peru"
+msgstr "Peruuta"
 
 #: ../plugins/background/Preview.qml:113
 #: ../plugins/phone/CallForwarding.qml:253
@@ -1688,7 +1688,7 @@ msgstr "Kuvaile tulostin"
 
 #: ../plugins/printing/AddPrinterDetails.qml:44
 msgid "Back"
-msgstr "Takaisin"
+msgstr "Palaa"
 
 #: ../plugins/printing/AddPrinterDetails.qml:137
 msgid "Connection"
