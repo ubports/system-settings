@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-10-12 20:55+0000\n"
+"PO-Revision-Date: 2019-10-16 14:55+0000\n"
 "Last-Translator: Tom Dom <thomas@patoel.nl>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
 "system-settings/nl/>\n"
@@ -920,7 +920,7 @@ msgstr "Weet u zeker dat u de APN-instellingen wilt herstellen?"
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../plugins/cellular/PageChooseApn.qml:169 ../build/po/settings.js:294
 msgid "Reset"
-msgstr "Herstellen"
+msgstr "Terugzetten"
 
 #. TRANSLATORS: %1 is the MMS APN that the user has chosen to be
 #. “preferred”.
@@ -2535,7 +2535,7 @@ msgstr "Hervatten"
 
 #: ../plugins/system-update/UpdateDelegate.qml:139
 msgid "Pause"
-msgstr "Pauzeren"
+msgstr "Pauze"
 
 #: ../plugins/system-update/UpdateDelegate.qml:143
 msgid "Install…"
@@ -2628,7 +2628,7 @@ msgstr "Plaats niet gevonden"
 #. TRANSLATORS: This is a keyword or name for the time-date plugin which is used while searching
 #: ../plugins/time-date/PageComponent.qml:31 ../build/po/settings.js:370
 msgid "Time and Date"
-msgstr "Datum & tijd"
+msgstr "Tijd en Datum"
 
 #: ../plugins/time-date/PageComponent.qml:64
 msgid "Time zone:"
