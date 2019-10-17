@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-09-26 06:51+0000\n"
+"PO-Revision-Date: 2019-10-02 23:53+0000\n"
 "Last-Translator: Moo <moose@mail.ru>\n"
 "Language-Team: Lithuanian <https://translate.ubports.com/projects/ubports/"
 "system-settings/lt/>\n"
@@ -464,7 +464,7 @@ msgstr "Leisti"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:46
 msgid "Refuse"
-msgstr ""
+msgstr "Atmesti"
 
 #: ../plugins/bluetooth/ConfirmPasskeyDialog.qml:28
 #: ../plugins/bluetooth/DisplayPasskeyDialog.qml:26
@@ -618,7 +618,7 @@ msgstr "Signalo stiprumas"
 #: ../plugins/bluetooth/DevicePage.qml:133
 #: ../plugins/bluetooth/PageComponent.qml:358
 msgid "Connect automatically when detected:"
-msgstr ""
+msgstr "Aptikus, automatiškai prisijungti:"
 
 #: ../plugins/bluetooth/DevicePage.qml:150
 #: ../plugins/cellular/PageChooseApn.qml:201
@@ -632,7 +632,7 @@ msgstr "Prisijungti"
 
 #: ../plugins/bluetooth/DevicePage.qml:172
 msgid "Forget this device"
-msgstr ""
+msgstr "Pamiršti šį įrenginį"
 
 #. TRANSLATORS: %1 is the name of the bluetooth device being paired
 #: ../plugins/bluetooth/DisplayPasskeyDialog.qml:35
@@ -744,7 +744,7 @@ msgstr "Šiam įrenginiui nepavyko prisijungti prie %1."
 #: ../plugins/brightness/WifiDisplaysAlert.qml:34
 #, qt-format
 msgid "There was an unknown error connecting to %1."
-msgstr ""
+msgstr "Jungiantis prie %1, įvyko nežinoma klaida."
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:38
 #: ../plugins/phone/CallForwarding.qml:305
