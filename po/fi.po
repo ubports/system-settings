@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-10-07 11:53+0000\n"
+"PO-Revision-Date: 2019-10-21 14:55+0000\n"
 "Last-Translator: Sami Törmänen <tormanen.sami@gmail.com>\n"
 "Language-Team: Finnish <https://translate.ubports.com/projects/ubports/"
 "system-settings/fi/>\n"
@@ -149,7 +149,7 @@ msgstr "Kehittäjätila"
 
 #: ../plugins/about/Storage.qml:44
 msgid "Scanning"
-msgstr ""
+msgstr "Etsitään"
 
 #: ../plugins/about/Storage.qml:106
 msgid "Used by Ubuntu"
@@ -740,7 +740,7 @@ msgstr "katkaise"
 #: ../plugins/brightness/WifiDisplaysAlert.qml:34
 #, qt-format
 msgid "There was an unknown error connecting to %1."
-msgstr ""
+msgstr "Tuntematon virhe yhdistettäessä %1."
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:38
 #: ../plugins/phone/CallForwarding.qml:305
@@ -813,7 +813,7 @@ msgstr "Välityspalvelin"
 
 #: ../plugins/cellular/PageApnEditor.qml:244
 msgid "Enter message proxy"
-msgstr ""
+msgstr "Syötä viestinvälityspalvelin"
 
 #: ../plugins/cellular/PageApnEditor.qml:289
 msgid "Proxy port"
@@ -821,7 +821,7 @@ msgstr "Välityspalvelimen portti"
 
 #: ../plugins/cellular/PageApnEditor.qml:300
 msgid "Enter message proxy port"
-msgstr ""
+msgstr "Syötä viestinvälityspalvelimen portti"
 
 #: ../plugins/cellular/PageApnEditor.qml:318
 msgid "User name"
@@ -2970,7 +2970,7 @@ msgstr "Viesteissä käytä:"
 #. this word must be less than 5 characters
 #: ../plugins/cellular/Components/LabelTextField.qml:51
 msgid "Next"
-msgstr ""
+msgstr "Seur."
 
 #: ../plugins/cellular/Components/MultiSim.qml:55
 #: ../plugins/cellular/Components/SingleSim.qml:105
