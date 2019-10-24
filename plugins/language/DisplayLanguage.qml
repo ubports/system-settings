@@ -24,7 +24,7 @@ import Ubuntu.Components.Popups 1.3
 import Ubuntu.Components.ListItems 1.3 as ListItem
 import Ubuntu.SystemSettings.LanguagePlugin 1.0
 
-SheetBase {
+Page {
     id: root
     objectName: "displayLanguageDialog"
 
@@ -32,11 +32,10 @@ SheetBase {
 
     signal languageChanged (int newLanguage, int oldLanguage)
 
-    modal: true
     title: i18n.tr("Display language")
 
-    contentsWidth: parent.width
-    contentsHeight: parent.height
+    width: parent.width
+    height: parent.height
 
     Component.onCompleted: {
         initialLanguage = i18n.language
