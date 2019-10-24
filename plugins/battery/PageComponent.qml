@@ -136,8 +136,7 @@ ItemPage {
 
                     ctx.save()
                     ctx.beginPath()
-                    ctx.strokeStyle = theme.palette.normal.foregroundText
-                    ctx.fillStyle = theme.palette.normal.foregroundText
+                    ctx.strokeStyle = UbuntuColors.lightAubergine
 
                     ctx.lineWidth = units.dp(2)
 
