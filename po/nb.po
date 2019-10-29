@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-10-02 23:53+0000\n"
+"PO-Revision-Date: 2019-10-30 02:47+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://translate.ubports.com/projects/"
 "ubports/system-settings/nb/>\n"
@@ -2615,7 +2615,7 @@ msgstr "Fant ingen steder som samsvarer"
 #. TRANSLATORS: This is a keyword or name for the time-date plugin which is used while searching
 #: ../plugins/time-date/PageComponent.qml:31 ../build/po/settings.js:370
 msgid "Time and Date"
-msgstr "Dato og klokkeslett"
+msgstr "Tid og dato"
 
 #: ../plugins/time-date/PageComponent.qml:64
 msgid "Time zone:"
