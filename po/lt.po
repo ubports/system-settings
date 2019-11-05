@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-10-02 23:53+0000\n"
+"PO-Revision-Date: 2019-11-03 20:36+0000\n"
 "Last-Translator: Moo <moose@mail.ru>\n"
 "Language-Team: Lithuanian <https://translate.ubports.com/projects/ubports/"
 "system-settings/lt/>\n"
@@ -1596,7 +1596,7 @@ msgstr "Adresatas nėra susietas su jokiu telefono numeriu."
 
 #: ../plugins/phone/CallForwarding.qml:382
 msgid "All calls"
-msgstr ""
+msgstr "Visi skambučiai"
 
 #: ../plugins/phone/CallForwarding.qml:384
 msgid "Some calls"
