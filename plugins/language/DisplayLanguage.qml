@@ -24,21 +24,31 @@ import Ubuntu.Components.Popups 1.3
 import Ubuntu.Components.ListItems 1.3 as ListItem
 import Ubuntu.SystemSettings.LanguagePlugin 1.0
 
-Page {
+PopupBase {
     id: root
     objectName: "displayLanguageDialog"
 
     property string initialLanguage
+    property string initialCancel
 
     signal languageChanged (int newLanguage, int oldLanguage)
-
+    
+    Rectangle {
+    anchors.fill: root
+    color: theme.palette.normal.background
+    }
+    
+    PageHeader {
+    id: head
     title: i18n.tr("Display language")
+    }
 
     width: parent.width
     height: parent.height
 
     Component.onCompleted: {
         initialLanguage = i18n.language
+        initialCancel = i18n.tr("Cancel")
     }
 
     ListView {
@@ -93,7 +103,7 @@ Page {
         Button {
             id: cancelButton
             objectName: "cancelChangeLanguage"
-            text: i18n.tr("Cancel")
+            text: initialCancel
 
             anchors.left: parent.left
             anchors.right: parent.horizontalCenter
