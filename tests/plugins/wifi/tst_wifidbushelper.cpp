@@ -67,7 +67,7 @@ private Q_SLOTS:
     }
     void cleanup()
     {
-        m_devPath = QString::null;
+        m_devPath = QString();
         delete m_methodSpy;
         delete m_nmMock;
         delete m_instance;
@@ -156,7 +156,7 @@ private:
     QDBusInterface *m_mock;
     WifiDbusHelper *m_instance;
     QDBusConnection *m_dbus;
-    QString m_devPath = QString::null;
+    QString m_devPath = QString();
 };
 
 QTEST_GUILESS_MAIN(TstDbusHelper)

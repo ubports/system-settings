@@ -200,29 +200,29 @@ Q_SIGNALS:
     void packageNameChanged();
 protected:
     Kind m_kind = Kind::KindUnknown;
-    QString m_identifier = QString::null;
+    QString m_identifier = QString();
     uint m_revision = 0;
     uint m_binaryFilesize = 0;
-    QString m_changelog = QString::null;
-    QString m_channel = QString::null;
+    QString m_changelog = QString();
+    QString m_channel = QString();
     QDateTime m_createdAt = QDateTime();
     QDateTime m_updatedAt = QDateTime();
-    QString m_downloadHash = QString::null;
-    QString m_downloadUrl = QString::null;
-    QString m_error = QString::null;
-    QString m_iconUrl = QString::null;
+    QString m_downloadHash = QString();
+    QString m_downloadUrl = QString();
+    QString m_error = QString();
+    QString m_iconUrl = QString();
     bool m_installed = false;
     int m_progress = 0;
     State m_state = State::StateUnknown;
-    QString m_signedDownloadUrl = QString::null;
-    QString m_title = QString::null;
-    QString m_localVersion = QString::null;
-    QString m_remoteVersion = QString::null;
-    QString m_token = QString::null;
-    QString m_downloadId = QString::null;
+    QString m_signedDownloadUrl = QString();
+    QString m_title = QString();
+    QString m_localVersion = QString();
+    QString m_remoteVersion = QString();
+    QString m_token = QString();
+    QString m_downloadId = QString();
     QStringList m_command = QStringList();
     bool m_automatic = false;
-    QString m_packageName = QString::null;
+    QString m_packageName = QString();
 };
 } // UpdatePlugin
 
