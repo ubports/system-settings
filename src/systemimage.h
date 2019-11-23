@@ -189,14 +189,14 @@ private:
     QDBusInterface m_iface;
 
     QDateTime m_lastCheckDate = QDateTime();
-    QString m_channelName = QString::null;
+    QString m_channelName = QString();
     int m_targetBuildNumber = -1;
-    QString m_deviceName = QString::null;
+    QString m_deviceName = QString();
 
     bool m_updateAvailable = false;
     bool m_downloading = false;
     int m_updateSize = 0;
-    QString m_errorReason = QString::null;
+    QString m_errorReason = QString();
 
     QString m_switchChannel;
     int m_switchBuild;

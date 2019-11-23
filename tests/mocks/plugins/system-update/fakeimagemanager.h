@@ -53,7 +53,7 @@ public:
     }
 
     bool m_checkingForUpdates = false;
-    QString m_launched = QString::null;
+    QString m_launched = QString();
 };
 } // UpdatePlugin
 #endif // MOCK_IMAGE_MANAGER_H

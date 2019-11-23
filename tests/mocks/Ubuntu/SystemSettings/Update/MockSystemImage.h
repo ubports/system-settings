@@ -83,7 +83,7 @@ private:
     int m_currentBuildNumber = 0;
     int m_targetBuildNumber = -1;
     int m_downloadMode = -1;
-    QString m_versionTag = QString::null;
+    QString m_versionTag = QString();
 
     QStringList m_called;
 };
