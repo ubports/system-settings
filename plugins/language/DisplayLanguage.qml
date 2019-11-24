@@ -38,25 +38,27 @@ PopupBase {
     color: theme.palette.normal.background
     }
     
+    width: parent.width
+    height: parent.height
+    
+    Component.onCompleted: {
+        initialLanguage = i18n.language
+        initialCancel = i18n.tr("Cancel")
+    }
+    
     PageHeader {
     id: head
     title: i18n.tr("Display language")
     }
 
-    width: parent.width
-    height: parent.height
-
-    Component.onCompleted: {
-        initialLanguage = i18n.language
-        initialCancel = i18n.tr("Cancel")
-    }
+  
 
     ListView {
         id: languageList
         objectName: "languagesList"
         clip: true
 
-        anchors.top: parent.top
+        anchors.top: head.bottom
         anchors.left: parent.left
         anchors.right: parent.right
         anchors.bottom: divider.top
