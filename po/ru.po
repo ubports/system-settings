@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-07-14 20:48+0000\n"
-"Last-Translator: Moshe Lazar <wersewikkov@gmail.com>\n"
+"PO-Revision-Date: 2019-12-09 14:10+0000\n"
+"Last-Translator: Dmitriy Pushkov <ezze@ezze.org>\n"
 "Language-Team: Russian <https://translate.ubports.com/projects/ubports/"
 "system-settings/ru/>\n"
 "Language: ru\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
 "4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 3.8\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:41+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -757,7 +757,7 @@ msgstr "Произошла непонятная ошибка при подклю
 #: ../plugins/vpn/PageComponent.qml:123
 #: ../plugins/cellular/Components/SimEditor.qml:214
 msgid "OK"
-msgstr "OK"
+msgstr "Хорошо"
 
 #: ../plugins/cellular/PageApnEditor.qml:71
 msgid "Edit"
@@ -2636,7 +2636,7 @@ msgstr "Нет подходящих результатов"
 #. TRANSLATORS: This is a keyword or name for the time-date plugin which is used while searching
 #: ../plugins/time-date/PageComponent.qml:31 ../build/po/settings.js:370
 msgid "Time and Date"
-msgstr "Дата и время"
+msgstr "Время и дата"
 
 #: ../plugins/time-date/PageComponent.qml:64
 msgid "Time zone:"
