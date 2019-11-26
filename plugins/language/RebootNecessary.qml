@@ -36,6 +36,7 @@ Dialog {
         id: reboot
         objectName: "reboot"
         text: i18n.tr("Restart Now")
+        color: theme.palette.normal.negative
         onClicked: {
             dialog.reboot();
             PopupUtils.close(dialog)
