@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-10-21 14:55+0000\n"
+"PO-Revision-Date: 2019-12-09 16:06+0000\n"
 "Last-Translator: Sami Törmänen <tormanen.sami@gmail.com>\n"
 "Language-Team: Finnish <https://translate.ubports.com/projects/ubports/"
 "system-settings/fi/>\n"
@@ -917,7 +917,7 @@ msgstr "Haluatko varmasti palauttaa APN-asetukset?"
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../plugins/cellular/PageChooseApn.qml:169 ../build/po/settings.js:294
 msgid "Reset"
-msgstr "Palauta"
+msgstr "Resetoi"
 
 #. TRANSLATORS: %1 is the MMS APN that the user has chosen to be
 #. “preferred”.
@@ -2529,7 +2529,7 @@ msgstr "Jatka"
 
 #: ../plugins/system-update/UpdateDelegate.qml:139
 msgid "Pause"
-msgstr "Keskeytä"
+msgstr "Pysäytä"
 
 #: ../plugins/system-update/UpdateDelegate.qml:143
 msgid "Install…"
