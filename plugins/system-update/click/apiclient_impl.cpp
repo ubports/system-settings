@@ -66,7 +66,7 @@ void ApiClientImpl::requestMetadata(const QUrl &url,
 
     body.insert("apps", QJsonArray::fromStringList(packages));
     body.insert("channel", Helpers::getSystemCodename());
-    body.insert("architecture", Helpers::getArchitecture());
+    body.insert("architecture", QString::fromStdString(Helpers::getArchitecture()));
 
     QJsonDocument doc(body);
     QByteArray content = doc.toJson();
