@@ -33,14 +33,15 @@ class Helpers
 public:
     static QString getFrameworksDir();
     static QStringList getAvailableFrameworks();
-    static std::string getArchitecture();
+    static QString getArchitecture();
     static QString getSystemCodename();
     static QString clickMetadataUrl();
     static QString clickRevisionUrl();
     static QString whichClick();
     static QString whichPkcon();
+    static bool isArchSupported(QString arch);
 private:
-    static std::string architectureFromDpkg();
+    static QString architectureFromDpkg();
     static std::vector<std::string> listFolder(const std::string &folder,
                                                const std::string &pattern);
 };

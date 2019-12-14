@@ -367,16 +367,23 @@ void ManagerImpl::parseMetadata(const QJsonArray &array)
 
         foreach (const auto &value, downloads) {
             auto download_obj = value.toObject();
-            if (download_obj["channel"].toString() == Helpers::getSystemCodename()) {
+            if (download_obj["channel"].toString() == Helpers::getSystemCodename() &&
+                Helpers::isArchSupported(download_obj["architecture"].toString())) {
                 download = download_obj;
                 break;
             }
         }
 
-        // This should not happen, but better to be on the safe side
-        if (download.isEmpty()) continue;
-
         auto identifier = object["id"].toString();
+
+        // This should not happen, but better to be on the safe side
+        if (download.isEmpty()) {
+            qWarning() << "download metadata for" << identifier <<
+                          "is empty";
+            m_candidates.remove(identifier);
+            continue;
+        }
+
         auto revision = download["revision"].toInt();
         // Check if we already have it's metadata.
         auto dbUpdate = m_model->get(identifier, revision);
