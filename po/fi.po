@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-10-21 14:55+0000\n"
+"PO-Revision-Date: 2019-12-22 01:00+0000\n"
 "Last-Translator: Sami Törmänen <tormanen.sami@gmail.com>\n"
 "Language-Team: Finnish <https://translate.ubports.com/projects/ubports/"
 "system-settings/fi/>\n"
@@ -281,7 +281,7 @@ msgstr "Poista kuva"
 #: ../plugins/background/Components/AddRemove.qml:42
 #: ../plugins/cellular/Components/SimEditor.qml:203
 msgid "Cancel"
-msgstr "Peruuta"
+msgstr "Keskeytä"
 
 #: ../plugins/background/Preview.qml:113
 #: ../plugins/phone/CallForwarding.qml:253
@@ -917,7 +917,7 @@ msgstr "Haluatko varmasti palauttaa APN-asetukset?"
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../plugins/cellular/PageChooseApn.qml:169 ../build/po/settings.js:294
 msgid "Reset"
-msgstr "Palauta"
+msgstr "Resetoi"
 
 #. TRANSLATORS: %1 is the MMS APN that the user has chosen to be
 #. “preferred”.
@@ -1146,7 +1146,7 @@ msgstr "Muuta"
 
 #: ../plugins/hotspot/HotspotSetup.qml:267
 msgid "Start"
-msgstr "Käynnistä"
+msgstr "Aloita"
 
 #. TRANSLATORS: This is a keyword or name for the hotspot plugin which is used while searching
 #: ../plugins/hotspot/PageComponent.qml:33
@@ -2529,7 +2529,7 @@ msgstr "Jatka"
 
 #: ../plugins/system-update/UpdateDelegate.qml:139
 msgid "Pause"
-msgstr "Keskeytä"
+msgstr "Pysäytä"
 
 #: ../plugins/system-update/UpdateDelegate.qml:143
 msgid "Install…"
@@ -3123,7 +3123,7 @@ msgstr "laite"
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../build/po/settings.js:8
 msgid "info"
-msgstr "tiedot"
+msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
