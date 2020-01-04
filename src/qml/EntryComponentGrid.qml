@@ -2,8 +2,7 @@
  * This file is part of system-settings
  *
  * Copyright (C) 2013 Canonical Ltd.
- *
- * Contact: Alberto Mardegan <alberto.mardegan@canonical.com>
+ * Copyright (C) 2020 Ubports Foundation <developers@ubports.com>
  *
  * This program is free software: you can redistribute it and/or modify it
  * under the terms of the GNU General Public License version 3, as published
@@ -25,19 +24,20 @@ import Ubuntu.Settings.Components 0.1
 Item {
     id: root
 
+    property string text: ""
+    property string iconSource: ""
+    property alias color: ubuntuShape.backgroundColor
+
     signal clicked
 
-    height: button.height
-
-    objectName: "entryComponent-" + model.item.baseName
+    implicitHeight: button.implicitHeight
 
     AbstractButton {
         id: button
         anchors.left: parent.left
         anchors.right: parent.right
+        implicitHeight: col.implicitHeight
         onClicked: root.clicked()
-
-        height: col.height
 
         Column {
             id: col
@@ -49,13 +49,12 @@ Item {
                 anchors.horizontalCenter: parent.horizontalCenter
                 width: height
                 height: units.gu(4)
-                source: model.icon
+                source: root.iconSource
             }
 
             Label {
-                anchors.horizontalCenter: parent.horizontalCenter
-                text: i18n.dtr(model.item.translations, model.displayName)
-                width: col.width
+                anchors { left: parent.left; right: parent.right }
+                text: root.text
                 horizontalAlignment: Text.AlignHCenter
                 fontSize: "small"
                 wrapMode: Text.WrapAtWordBoundaryOrAnywhere
@@ -64,13 +63,13 @@ Item {
     }
 
     UbuntuShape {
+        id: ubuntuShape
         z: -1
         visible: button.pressed
         anchors{
             fill: root
             margins: -units.gu(0.25)
         }
-        backgroundColor: UbuntuColors.darkGrey
         opacity: 0.15
     }
 }
