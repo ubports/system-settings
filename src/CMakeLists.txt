@@ -23,8 +23,11 @@ set(USS_SOURCES
 )
 
 set(QML_SOURCES
+    qml/AdaptiveContainer.qml
     qml/CategorySection.qml
     qml/EntryComponent.qml
+    qml/EntryComponentGrid.qml
+    qml/EntryComponentList.qml
     qml/MainWindow.qml
     qml/UncategorizedItemsView.qml
     SystemSettings/ItemPage.qml
