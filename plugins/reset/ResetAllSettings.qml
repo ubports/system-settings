@@ -29,7 +29,7 @@ Component {
         text: i18n.tr("The contents and layout of the launcher, and the filters in the home screen will be returned to their original settings.")
         Button {
             text: i18n.tr("Reset all system settings")
-            color: UbuntuColors.red
+            color: theme.palette.normal.negative
             onClicked: {
                 pluginManager.resetPlugins()
                 PopupUtils.close(dialog)
