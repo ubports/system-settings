@@ -1,8 +1,8 @@
 import QtQuick 2.4
 import Qt.labs.folderlistmodel 1.0
 import SystemSettings 1.0
+import SystemSettings.ListItems 1.0 as SettingsListItems
 import Ubuntu.Components 1.3
-import Ubuntu.Components.ListItems 1.3 as ListItem
 import Ubuntu.SystemSettings.StorageAbout 1.0
 
 ItemPage {
@@ -27,9 +27,8 @@ ItemPage {
         flickDeceleration: height * 2
 
         model: folderModel
-        delegate: ListItem.Standard {
+        delegate: SettingsListItems.SingleValueProgression {
             text: fileName
-            progression: true
             onClicked: pageStack.addPageToNextColumn(
                 licensesPage, Qt.resolvedUrl("License.qml"), {binary: fileName}
             )

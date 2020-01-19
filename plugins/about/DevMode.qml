@@ -2,8 +2,7 @@
  * This file is part of system-settings
  *
  * Copyright (C) 2014 Canonical Ltd.
- *
- * Contact: Oliver Grawert <ogra@canonical.com>
+ * Copyright (C) 2020 UBports Foundation <developers@ubports.com>
  *
  * This program is free software: you can redistribute it and/or modify it
  * under the terms of the GNU General Public License version 3, as published
@@ -24,8 +23,8 @@
 import QtQuick 2.4
 import Qt.labs.folderlistmodel 1.0
 import SystemSettings 1.0
+import SystemSettings.ListItems 1.0 as SettingsListItems
 import Ubuntu.Components 1.3
-import Ubuntu.Components.ListItems 1.3 as ListItem
 import Ubuntu.SystemSettings.SecurityPrivacy 1.0
 import Ubuntu.SystemSettings.StorageAbout 1.0
 
@@ -59,7 +58,7 @@ ItemPage {
             anchors.left: parent.left
             anchors.right: parent.right
 
-            ListItem.SingleValue {
+            ListItem {
                 objectName: "devModeWarningItem"
                 height: warningColumn.childrenRect.height + units.gu(2)
 
@@ -86,19 +85,19 @@ ItemPage {
                 }
             }
 
-            ListItem.Standard {
-                text: i18n.tr("Developer Mode")
+            SettingsListItems.Standard {
                 enabled: securityPrivacy.securityType !== UbuntuSecurityPrivacyPanel.Swipe
-                control: Switch {
+                text: i18n.tr("Developer Mode")
+                Switch {
                     id: devModeSwitch
                     checked: storedInfo.developerMode
                     onClicked: storedInfo.developerMode = checked
                 }
             }
 
-            ListItem.Divider {}
+            SettingsListItems.Divider {}
 
-            ListItem.SingleValue {
+            ListItem {
                 height: lockSecurityLabel.height + units.gu(2)
                 Label {
                     id: lockSecurityLabel
@@ -111,10 +110,9 @@ ItemPage {
                 }
             }
 
-            ListItem.SingleValue {
+            SettingsListItems.SingleValueProgression {
                 objectName: "lockSecurityItem"
                 text: i18n.tr("Lock security")
-                progression: true
                 onClicked: pageStack.addPageToNextColumn(
                     devModePage, Qt.resolvedUrl("../security-privacy/LockSecurity.qml")
                 )

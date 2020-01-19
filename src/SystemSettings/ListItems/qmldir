@@ -1,5 +1,6 @@
 module SystemSettings.ListItems
 
+Divider 1.0 Divider.qml
 Icon 1.0 Icon.qml
 IconProgression 1.0 IconProgression.qml
 ProportionalShape 1.0 ProportionalShape.qml
