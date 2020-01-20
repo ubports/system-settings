@@ -80,11 +80,7 @@ ItemPage {
             anchors.left: parent.left
             anchors.right: parent.right
 
-            //consistent with the rest of settings
-            SettingsItemTitle {
-                text: i18n.tr("Brightness")
-            }
-            
+         
               ListItem.Standard {
                 id: adjust
                 text: i18n.tr("Adjust automatically")
@@ -105,7 +101,14 @@ ItemPage {
                         "Brightens and dims the display to suit the surroundings.")
                 visible: adjust.visible
             }
+            
+            //SettingsItemTitle to be consistent with the rest of settings
+            SettingsItemTitle {
+                text: i18n.tr("Display brightness:")
+                visible: !autoAdjustCheck.checked
 
+            }
+            
             /* Use the SliderMenu component instead of the Slider to avoid binding
                issues on valueChanged until LP: #1388094 is fixed.
             */
