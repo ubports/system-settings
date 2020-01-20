@@ -91,7 +91,8 @@ ItemPage {
             Menus.SliderMenu {
                 id: brightnessSlider
                 objectName: "sliderMenu"
-                enabled: indicatorPower.brightness.state != null
+                enabled: indicatorPower.brightness.state != null 
+                visible: !autoAdjustCheck.checked
                 live: true
                 minimumValue: 0.0
                 maximumValue: 100.0
@@ -116,7 +117,7 @@ ItemPage {
                 text: i18n.tr("Adjust automatically")
                 visible: brightnessPanel.powerdRunning &&
                          brightnessPanel.autoBrightnessAvailable
-                control: CheckBox {
+                control: Switch {
                     id: autoAdjustCheck
                     property bool serverChecked: gsettings.autoBrightness
                     onServerCheckedChanged: checked = serverChecked
