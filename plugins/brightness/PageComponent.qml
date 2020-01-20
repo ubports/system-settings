@@ -80,9 +80,30 @@ ItemPage {
             anchors.left: parent.left
             anchors.right: parent.right
 
-            ListItem.Standard {
-                text: i18n.tr("Display brightness")
+            //consistent with the rest of settings
+            SettingsItemTitle {
+                text: i18n.tr("Brightness")
+            }
+            
+              ListItem.Standard {
+                id: adjust
+                text: i18n.tr("Adjust automatically")
+                visible: brightnessPanel.powerdRunning &&
+                         brightnessPanel.autoBrightnessAvailable
+                control: Switch {
+                    id: autoAdjustCheck
+                    property bool serverChecked: gsettings.autoBrightness
+                    onServerCheckedChanged: checked = serverChecked
+                    Component.onCompleted: checked = serverChecked
+                    onTriggered: gsettings.autoBrightness = checked
+                }
                 showDivider: false
+            }
+
+            ListItem.Caption {
+                text: i18n.tr(
+                        "Brightens and dims the display to suit the surroundings.")
+                visible: adjust.visible
             }
 
             /* Use the SliderMenu component instead of the Slider to avoid binding
@@ -112,33 +133,17 @@ ItemPage {
                 }
             }
 
-            ListItem.Standard {
-                id: adjust
-                text: i18n.tr("Adjust automatically")
-                visible: brightnessPanel.powerdRunning &&
-                         brightnessPanel.autoBrightnessAvailable
-                control: Switch {
-                    id: autoAdjustCheck
-                    property bool serverChecked: gsettings.autoBrightness
-                    onServerCheckedChanged: checked = serverChecked
-                    Component.onCompleted: checked = serverChecked
-                    onTriggered: gsettings.autoBrightness = checked
-                }
-                showDivider: false
-            }
-
-            ListItem.Caption {
-                text: i18n.tr(
-                        "Brightens and dims the display to suit the surroundings.")
-                visible: adjust.visible
-            }
-
-            ListItem.Divider {
+          
+              //Clean up dividers, se SettingsItemTitle for dividing. 
+              SettingsItemTitle {
+                text: i18n.tr("Display")
                 visible: brightnessPanel.widiSupported
+
             }
 
             ListItem.Standard {
                 text: i18n.tr("External display")
+                visible: brightnessPanel.widiSupported
                 enabled: brightnessPanel.widiSupported
                 onClicked: enabledCheck.trigger()
                 control: Switch {
