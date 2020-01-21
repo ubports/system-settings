@@ -79,7 +79,37 @@ ItemPage {
         Column {
             anchors.left: parent.left
             anchors.right: parent.right
+            
+            //SettingsItemTitle to be consistent with the rest of settings
+            SettingsItemTitle {
+                text: i18n.tr("Display brightness:")
+            }
+            
+            /* Use the SliderMenu component instead of the Slider to avoid binding
+               issues on valueChanged until LP: #1388094 is fixed.
+            */
+            Menus.SliderMenu {
+                id: brightnessSlider
+                objectName: "sliderMenu"
+                enabled: indicatorPower.brightness.state != null
+                live: true
+                minimumValue: 0.0
+                maximumValue: 100.0
+                minIcon: "image://theme/display-brightness-min"
+                maxIcon: "image://theme/display-brightness-max"
 
+                property real serverValue: enabled ? indicatorPower.brightness.state * 100 : 0.0
+
+                USC.ServerPropertySynchroniser {
+                    userTarget: brightnessSlider
+                    userProperty: "value"
+                    serverTarget: brightnessSlider
+                    serverProperty: "serverValue"
+                    maximumWaitBufferInterval: 16
+
+                    onSyncTriggered: indicatorPower.brightness.updateState(value / 100.0)
+                }
+            }
          
               ListItem.Standard {
                 id: adjust
@@ -102,46 +132,10 @@ ItemPage {
                 visible: adjust.visible
             }
             
-            //SettingsItemTitle to be consistent with the rest of settings
+            //Clean up dividers, use SettingsItemTitle for dividing. 
             SettingsItemTitle {
-                text: i18n.tr("Display brightness:")
-                visible: !autoAdjustCheck.checked
-
-            }
-            
-            /* Use the SliderMenu component instead of the Slider to avoid binding
-               issues on valueChanged until LP: #1388094 is fixed.
-            */
-            Menus.SliderMenu {
-                id: brightnessSlider
-                objectName: "sliderMenu"
-                enabled: indicatorPower.brightness.state != null 
-                visible: !autoAdjustCheck.checked
-                live: true
-                minimumValue: 0.0
-                maximumValue: 100.0
-                minIcon: "image://theme/display-brightness-min"
-                maxIcon: "image://theme/display-brightness-max"
-
-                property real serverValue: enabled ? indicatorPower.brightness.state * 100 : 0.0
-
-                USC.ServerPropertySynchroniser {
-                    userTarget: brightnessSlider
-                    userProperty: "value"
-                    serverTarget: brightnessSlider
-                    serverProperty: "serverValue"
-                    maximumWaitBufferInterval: 16
-
-                    onSyncTriggered: indicatorPower.brightness.updateState(value / 100.0)
-                }
-            }
-
-          
-              //Clean up dividers, se SettingsItemTitle for dividing. 
-              SettingsItemTitle {
                 text: i18n.tr("Display")
                 visible: brightnessPanel.widiSupported
-
             }
 
             ListItem.Standard {
