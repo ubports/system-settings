@@ -109,7 +109,6 @@ ItemPage {
                     onSyncTriggered: indicatorPower.brightness.updateState(value / 100.0)
                 }
             }
-            
             ListItem.Standard {
                 id: adjust
                 text: i18n.tr("Adjust automatically")
