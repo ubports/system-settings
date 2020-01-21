@@ -82,7 +82,7 @@ ItemPage {
             
             //SettingsItemTitle to be consistent with the rest of settings
             SettingsItemTitle {
-                text: i18n.tr("Display brightness:")
+                text: i18n.tr("Display brightness")
             }
             
             /* Use the SliderMenu component instead of the Slider to avoid binding
