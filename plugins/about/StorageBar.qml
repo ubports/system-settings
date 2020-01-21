@@ -46,7 +46,7 @@ Item {
         }
 
         Rectangle {
-            color: theme.palette.normal.background
+            color: theme.palette.normal.foreground
             height: parent.height
             width: parent.width
         }
