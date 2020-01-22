@@ -196,6 +196,13 @@ ItemPage {
                 }
                 trans.state = ContentTransfer.Finalized;
             }
+            
+             if ((target.state === "delete") &&
+                (trans && trans.state === ContentTransfer.Collected)) {
+                
+                backgroundPanel.rmFile(target.uri);
+                trans.state = ContentTransfer.Finalized;
+            }
         }
     }
 
