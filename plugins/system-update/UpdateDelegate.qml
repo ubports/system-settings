@@ -308,7 +308,7 @@ ListItem {
                 Label {
                     id: errorElementTitle
                     text: i18n.tr("Update failed")
-                    color: UbuntuColors.red
+                    color: theme.palette.normal.negative
                 }
 
                 Label {

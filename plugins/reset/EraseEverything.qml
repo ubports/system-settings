@@ -43,7 +43,7 @@ Component {
             id: action
             text: i18n.tr("Erase & Reset Everything")
             objectName: "factoryResetAction"
-            color: UbuntuColors.red
+            color: theme.palette.normal.negative
             onClicked: {
                 dialog.state = "clicked";
                 resetBackend.factoryReset();

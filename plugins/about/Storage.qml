@@ -168,7 +168,7 @@ ItemPage {
 
             StorageItem {
                 objectName: "storageItem"
-                colorName: "white"
+                colorName: theme.palette.normal.foreground
                 label: i18n.tr("Free space")
                 value: freediskSpace
                 ready: backendInfo.ready

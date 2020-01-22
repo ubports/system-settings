@@ -158,7 +158,7 @@ ItemPage {
             Button {
                 objectName: "confirmEnable"
                 text: i18n.tr("Turn on Wi-Fi")
-                color: UbuntuColors.blue
+                color: theme.palette.selected.focus
                 onClicked: enableWifiAction.trigger()
             }
 

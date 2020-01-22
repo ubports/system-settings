@@ -26,7 +26,7 @@ Dialog {
 
     Button {
         text: i18n.tr("OK")
-        color: UbuntuColors.orange
+        color: theme.palette.selected.focus
         onClicked: {
             PopupUtils.close(dialogueError);
         }
