@@ -31,20 +31,6 @@ ItemPage {
 
     // whether an image was just imported from e.g. contentHub
     property bool imported: false
-    signal save
-    property Item headerStyle: header.__styleInstance ?
-                                   header.__styleInstance : null
-
-    Component.onCompleted: {
-        /* change the header text color to make it more readable over the background */
-        if (headerStyle.hasOwnProperty("textColor"))
-            headerStyle.textColor = Theme.palette.selected.foregroundText;
-    }
-
-    Component.onDestruction: {
-        if (headerStyle.hasOwnProperty("textColor"))
-            headerStyle.textColor = Theme.palette.selected.backgroundText;
-    }
 
     states: [
         State {
