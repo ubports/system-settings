@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-11-11 23:36+0000\n"
+"PO-Revision-Date: 2020-01-19 19:39+0000\n"
 "Last-Translator: Moo <moose@mail.ru>\n"
 "Language-Team: Lithuanian <https://translate.ubports.com/projects/ubports/"
 "system-settings/lt/>\n"
@@ -1148,6 +1148,7 @@ msgid "Change"
 msgstr "Keisti"
 
 #: ../plugins/hotspot/HotspotSetup.qml:267
+#, fuzzy
 msgid "Start"
 msgstr "Pradėti"
 
