@@ -49,6 +49,14 @@ ItemPage {
                     pageStack.removePages(preview);
                 }
             }
+        },
+        State {
+            name: "deleted"
+            StateChangeScript {
+                script: {
+                    pageStack.removePages(preview);
+                }
+            }
         }
     ]
 
