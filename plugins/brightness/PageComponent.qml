@@ -80,9 +80,9 @@ ItemPage {
             anchors.left: parent.left
             anchors.right: parent.right
             
-            //SettingsItemTitle to be consistent with the rest of settings
             SettingsItemTitle {
                 text: i18n.tr("Display brightness")
+                showDivider: false
             }
             /* Use the SliderMenu component instead of the Slider to avoid binding
                issues on valueChanged until LP: #1388094 is fixed.
@@ -130,10 +130,10 @@ ItemPage {
                 visible: adjust.visible
             }
             
-            //Clean up dividers, use SettingsItemTitle for dividing. 
             SettingsItemTitle {
                 text: i18n.tr("Display")
                 visible: brightnessPanel.widiSupported
+                showDivider: false
             }
 
             ListItem.Standard {
