@@ -68,7 +68,7 @@ ItemPage {
                     backgroundColor: "transparent"
                     foregroundColor: "white"
                 }
-                trailingActionBar { Actions: [
+                trailingActionBar { actions: [
                     Action {
                         id: setAction
                         text: i18n.tr("Set")
