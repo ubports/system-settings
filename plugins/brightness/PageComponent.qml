@@ -129,7 +129,7 @@ ItemPage {
                         "Brightens and dims the display to suit the surroundings.")
                 visible: adjust.visible
             }
-            
+
             SettingsItemTitle {
                 text: i18n.tr("Display")
                 visible: brightnessPanel.widiSupported
