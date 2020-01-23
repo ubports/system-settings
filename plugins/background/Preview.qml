@@ -86,6 +86,8 @@ ItemPage {
                         }
                     }
                 ]}
+    }
+    
     Image {
         id: previewImage
         anchors.fill: parent
