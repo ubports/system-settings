@@ -84,6 +84,7 @@ ItemPage {
                 text: i18n.tr("Display brightness")
                 showDivider: false
             }
+
             /* Use the SliderMenu component instead of the Slider to avoid binding
                issues on valueChanged until LP: #1388094 is fixed.
             */
@@ -109,6 +110,7 @@ ItemPage {
                     onSyncTriggered: indicatorPower.brightness.updateState(value / 100.0)
                 }
             }
+
             ListItem.Standard {
                 id: adjust
                 text: i18n.tr("Adjust automatically")
