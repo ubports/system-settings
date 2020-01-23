@@ -28,6 +28,7 @@ ItemPage {
     anchors.fill: parent
 
     property string uri
+    signal save
 
     // whether an image was just imported from e.g. contentHub
     property bool imported: false
@@ -87,7 +88,7 @@ ItemPage {
                     }
                 ]}
     }
-    
+
     Image {
         id: previewImage
         anchors.fill: parent
