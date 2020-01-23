@@ -42,7 +42,7 @@ TextField {
             anchors.fill: parent
             visible: field.activeFocus
         }
-        color: UbuntuColors.lightAubergine
+        color: Theme.palette.selected.backgroundText
     }
 
     // Ubuntu.Keyboard
