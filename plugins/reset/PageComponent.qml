@@ -68,16 +68,9 @@ ItemPage {
         Column {
             anchors.left: parent.left
             anchors.right: parent.right
-
-            Label {
-                anchors {
-                    left: parent.left
-                    right: parent.right
-                    margins: units.gu(2)
-                }
+            
+            SettingsItemTitle {
                 text: i18n.tr("Reset Launcher")
-                height: units.gu(6)
-                verticalAlignment: Text.AlignVCenter
             }
 
             ListItems.Caption {
@@ -101,16 +94,9 @@ ItemPage {
                 }
             }
 
-            Label {
-                anchors {
-                    left: parent.left
-                    right: parent.right
-                    margins: units.gu(2)
-                }
+            SettingsItemTitle {
                 visible: showAllUI
                 text: i18n.tr("Reset all system settings…")
-                height: units.gu(6)
-                verticalAlignment: Text.AlignVCenter
             }
 
             ListItems.Caption {
@@ -135,15 +121,9 @@ ItemPage {
                 }
             }
 
-            Label {
-                anchors {
-                    left: parent.left
-                    right: parent.right
-                    margins: units.gu(2)
-                }
+            SettingsItemTitle {
                 text: i18n.tr("Erase & Reset All")
                 height: units.gu(6)
-                verticalAlignment: Text.AlignVCenter
             }
 
             ListItems.Caption {
