@@ -56,7 +56,7 @@ ItemPage {
                         onTriggered: GeneralNotificationSettings.vibrateInSilentMode = checked
                     }
                     text: i18n.tr("Vibrate in Silent Mode")
-                }
+                
 
             SettingsItemTitle {
                     text: i18n.tr("Apps that notify with vibrations:")
