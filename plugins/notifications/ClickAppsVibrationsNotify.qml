@@ -45,46 +45,21 @@ ItemPage {
                 right: parent.right
             }
 
-            ListItem {
-                ListItemLayout {
-                    title.text: i18n.tr("When in Silent mode:") 
-                    title.color: theme.palette.normal.backgroundSecondaryText
-                }
-            }
 
-            ListItem {
-                height: layout.height + (divider.visible ? divider.height : 0)
-                SlotsLayout {
-                    id: layout
-
-                    mainSlot: Item {
-                        height: optionSelector.itemHeight * 2
-                        width: parent.width - 2 * (layout.padding.leading + layout.padding.trailing)
-                        OptionSelector {
-                            id: optionSelector
-
-                            selectedIndex: GeneralNotificationSettings.vibrateInSilentMode ? 0 : 1
-                            expanded: true
-                            model: [i18n.tr("Vibrate as normal"),
-                                    i18n.tr("Don't vibrate")]
-
-                            onDelegateClicked: {
-                                if (index === 0) {
-                                    GeneralNotificationSettings.vibrateInSilentMode = true
-                                } else {
-                                    GeneralNotificationSettings.vibrateInSilentMode = false
-                                }
-                            }
-                        }
+                SettingsListItems.Standard {
+                    CheckBox {
+                        objectName: "appVibrateSilentMode"
+                        SlotsLayout.position: SlotsLayout.First
+                        property bool serverChecked: GeneralNotificationSettings.vibrateInSilentMode
+                        onServerCheckedChanged: checked = serverChecked
+                        Component.onCompleted: checked = serverChecked
+                        onTriggered: GeneralNotificationSettings.vibrateInSilentMode = checked
                     }
+                    text: i18n.tr("Vibrate in Silent Mode")
                 }
-            }
- 
-            ListItem {
-                ListItemLayout {
-                    title.text: i18n.tr("Apps that notify with vibrations:")
-                    title.color: theme.palette.normal.backgroundSecondaryText
-                }
+
+            SettingsItemTitle {
+                    text: i18n.tr("Apps that notify with vibrations:")
             }
         }
 
@@ -107,6 +82,7 @@ ItemPage {
                     SlotsLayout.position: SlotsLayout.Leading;
 
                     CheckBox {
+                        //needs work on position
                         anchors.verticalCenter: icon.verticalCenter
                         checked: model.vibrationsNotify
 
