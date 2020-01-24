@@ -95,8 +95,6 @@ ItemPage {
                 }
             }
 
-            SettingsListItems.Divider {}
-
             ListItem {
                 height: lockSecurityLabel.height + units.gu(2)
                 Label {
