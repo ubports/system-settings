@@ -20,7 +20,6 @@
 import QtQuick 2.4
 import SystemSettings.ListItems 1.0 as SettingsListItems
 import Ubuntu.Components 1.3
-import Ubuntu.Components.ListItems 1.3 as ListItems
 
 Item {
     id: root
@@ -89,7 +88,7 @@ Item {
             id: label
             anchors.centerIn: parent
         }
-        ListItems.Divider {
+        SettingsListItems.Divider {
             anchors {
                 left: parent.left
                 bottom: parent.bottom
@@ -128,9 +127,10 @@ Item {
         highlight: Rectangle {
             width: parent.width
             height: units.gu(4)
-            gradient: UbuntuColors.orangeGradient
+            color: theme.palette.selected.base
+            opacity: 0.2
         }
-        ListItems.Divider {
+        SettingsListItems.Divider {
             anchors {
                 left: parent.left
                 bottom: parent.bottom
