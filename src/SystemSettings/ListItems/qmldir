@@ -9,3 +9,4 @@ SingleValue 1.0 SingleValue.qml
 SingleValueProgression 1.0 SingleValueProgression.qml
 Standard 1.0 Standard.qml
 StandardProgression 1.0 StandardProgression.qml
+ThinDivider 1.0 ThinDivider.qml
