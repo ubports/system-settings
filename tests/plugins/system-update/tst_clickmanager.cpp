@@ -315,6 +315,7 @@ private slots:
             "\"downloads\": ["
             "    {"
             "        \"channel\": \"xenial\","
+            "        \"architecture\": \"all\","
             "        \"version\": \"1\","
             "        \"revision\": \"1\""
             "    }"

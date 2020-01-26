@@ -1,4 +1,5 @@
 set(QML_SOURCES
+    Divider.qml
     Icon.qml
     IconProgression.qml
     ProportionalShape.qml

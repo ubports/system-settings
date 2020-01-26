@@ -2,8 +2,7 @@
  * This file is part of system-settings
  *
  * Copyright (C) 2014 Canonical Ltd.
- *
- * Contact: Jonas G. Drange <jonas.drange@canonical.com>
+ * Copyright (C) 2020 UBports Foundation <developers@ubports.com>
  *
  * This program is free software: you can redistribute it and/or modify it
  * under the terms of the GNU General Public License version 3, as published
@@ -18,27 +17,26 @@
  * with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  * Author: Jonas G. Drange <jonas.drange@canonical.com>
- *
- * DRY
- *
  */
+
 import QtQuick 2.4
 import Ubuntu.Components 1.3
-import Ubuntu.Components.ListItems 1.3 as ListItem
 
-ListItem.SingleValue {
+ListItem {
 
     property alias text: label.text
     property alias value: value.text
 
     height: col.childrenRect.height + units.gu(2)
-    anchors {
-        left: parent.left
-        right: parent.right
-    }
+    divider.visible: true
+
     Column {
-        anchors.fill: parent
-        anchors.topMargin: units.gu(1)
+        anchors {
+            fill: parent
+            topMargin: units.gu(1)
+            leftMargin: units.gu(2)
+            rightMargin: units.gu(2)
+        }
         id: col
         spacing: units.gu(1)
         Label {

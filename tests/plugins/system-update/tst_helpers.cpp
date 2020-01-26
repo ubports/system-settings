@@ -38,8 +38,7 @@ private slots:
     }
     void testGetArchitecture()
     {
-        QString res = QString::fromStdString(
-            UpdatePlugin::Helpers::getArchitecture());
+        QString res = UpdatePlugin::Helpers::getArchitecture();
         QVERIFY(!res.isEmpty());
     }
     void testClickMetadataUrl()
@@ -62,4 +61,3 @@ private:
 
 QTEST_GUILESS_MAIN(TstUpdatePluginHelpers)
 #include "tst_helpers.moc"
-
