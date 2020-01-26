@@ -154,6 +154,9 @@ ItemPage {
     Page {
         id: picker
         visible: false
+        header: PageHeader {
+            title: i18n.tr("Choose application")
+        }
 
         ContentStore {
             id: appStore
