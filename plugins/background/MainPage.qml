@@ -34,8 +34,21 @@ import "utilities.js" as Utilities
 ItemPage {
     id: mainPage
     objectName: "backgroundPage"
-    flickable: sources
-    title: i18n.tr("Background")
+
+    header: PageHeader {
+        id: pageHeader
+        flickable: sources
+        automaticHeight: false
+        title: i18n.tr("Background")
+        trailingActionBar.actions: [
+            Action {
+                iconName: "insert-image"
+                onTriggered: {
+                    pageStack.addPageToNextColumn(mainPage, picker)
+                }
+            }
+        ]
+    }
 
     signal save (string uri)
 
@@ -213,6 +226,12 @@ ItemPage {
         id: picker
         visible: false
 
+    header: PageHeader {
+        id: pageHeader
+        flickable: sources
+        automaticHeight: false
+        title: i18n.tr("Import Custom Background")
+    }
         ContentStore {
             id: appStore
             scope: ContentScope.App
