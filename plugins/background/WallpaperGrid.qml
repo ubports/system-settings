@@ -83,6 +83,7 @@ Column {
 
     ListItemsHeader {
         id: header
+        visible: bgmodel.length > 0
         objectName: title.toString() + "Header"
         anchors.left: parent.left
         anchors.right: parent.right
@@ -201,29 +202,6 @@ Column {
     Item {
         width: parent.width
         height: units.gu(2)
-        visible: !parent.isCustom
-    }
-
-    AddRemove {
-        anchors {
-            horizontalCenter: parent.horizontalCenter
-        }
-        visible: parent.isCustom
-        spacing: units.gu(2)
-        width: parent.width - spacing * 2
-        height: children[0].height + (spacing * 2)
-        buttonWidth: (width - spacing) / 2
-        repeater: gridRepeater
-        onEnteredQueueMode: {
-            grid.state = "selection"
-        }
-        onLeftQueueMode: {
-            grid.state = ""
-        }
-        onRemoveQueued: {
-            removeBackgrounds.trigger();
-            grid.state = ""
-        }
     }
 
     // Action for removing backgrounds
