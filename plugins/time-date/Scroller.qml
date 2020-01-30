@@ -128,7 +128,7 @@ Item {
             width: parent.width
             height: units.gu(4)
             color: theme.palette.selected.base
-            opacity: 0.2
+            opacity: 0.4
         }
         SettingsListItems.Divider {
             anchors {
