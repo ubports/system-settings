@@ -82,7 +82,6 @@ ItemPage {
 
             SettingsItemTitle {
                 text: i18n.tr("Display brightness")
-                showDivider: false
             }
 
             /* Use the SliderMenu component instead of the Slider to avoid binding
@@ -135,7 +134,6 @@ ItemPage {
             SettingsItemTitle {
                 text: i18n.tr("Display")
                 visible: brightnessPanel.widiSupported
-                showDivider: false
             }
 
             ListItem.Standard {
