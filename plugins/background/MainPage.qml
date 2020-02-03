@@ -106,7 +106,7 @@ ItemPage {
                 backgroundPanel: backgroundPanel
                 title: i18n.tr("Ubuntu Art")
                 current: welcomeBackground
-                onSelected: preview({ uri: uri })
+                onSelected: preview({ uri: uri, ubuntuArt: true })
             }
 
             WallpaperGrid {
