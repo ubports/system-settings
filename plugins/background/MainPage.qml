@@ -227,7 +227,7 @@ ItemPage {
         visible: false
 
     header: PageHeader {
-        id: pageHeader
+        id: contentPageHeader
         flickable: sources
         automaticHeight: false
         title: i18n.tr("Import Custom Background")
