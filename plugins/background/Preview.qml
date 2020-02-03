@@ -83,7 +83,7 @@ ItemPage {
                         id: deleteAction
                         text: i18n.tr("Remove")
                         iconName: "edit-delete"
-                        enabled: !preview.ubuntuArt
+                        visible: !preview.ubuntuArt
                         onTriggered: {
                             preview.state = "deleted"
                         }
