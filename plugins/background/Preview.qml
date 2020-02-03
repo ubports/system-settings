@@ -32,6 +32,7 @@ ItemPage {
 
     // whether an image was just imported from e.g. contentHub
     property bool imported: false
+    property bool ubuntuArt: false
 
     states: [
         State {
@@ -82,6 +83,7 @@ ItemPage {
                         id: deleteAction
                         text: i18n.tr("Remove")
                         iconName: "edit-delete"
+                        enabled: !preview.ubuntuArt
                         onTriggered: {
                             preview.state = "deleted"
                         }
