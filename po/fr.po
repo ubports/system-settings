@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-10-07 11:53+0000\n"
+"PO-Revision-Date: 2020-01-19 19:39+0000\n"
 "Last-Translator: Anne Onyme <anneonyme017@netcourrier.com>\n"
 "Language-Team: French <https://translate.ubports.com/projects/ubports/"
 "system-settings/fr/>\n"
@@ -249,7 +249,7 @@ msgstr "Opacité :"
 
 #: ../plugins/background/Preview.qml:69
 msgid "Preview"
-msgstr "Aperçu"
+msgstr "Afficher un aperçu"
 
 #: ../plugins/background/Preview.qml:107
 msgid "Remove image"
