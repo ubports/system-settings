@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-11-11 23:36+0000\n"
+"PO-Revision-Date: 2020-02-02 00:21+0000\n"
 "Last-Translator: Moo <moose@mail.ru>\n"
 "Language-Team: Lithuanian <https://translate.ubports.com/projects/ubports/"
 "system-settings/lt/>\n"
@@ -403,13 +403,13 @@ msgstr[2] "Po %1 minučių"
 #. TRANSLATORS: “Wi-Fi used for hotspot” is hidden.
 #: ../plugins/battery/PageComponent.qml:365
 msgid "Wi-Fi used for hotspot"
-msgstr ""
+msgstr "Belaidis (Wi-Fi) naudojamas prieigos taškui"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../plugins/battery/PageComponent.qml:365
 #: ../plugins/wifi/PageComponent.qml:28 ../build/po/settings.js:398
 msgid "Wi-Fi"
-msgstr "Belaidis Wi-Fi"
+msgstr "Belaidis (Wi-Fi)"
 
 #. TRANSLATORS: This is a keyword or name for the bluetooth plugin which is used while searching
 #: ../plugins/battery/PageComponent.qml:401
@@ -1148,6 +1148,7 @@ msgid "Change"
 msgstr "Keisti"
 
 #: ../plugins/hotspot/HotspotSetup.qml:267
+#, fuzzy
 msgid "Start"
 msgstr "Pradėti"
 
