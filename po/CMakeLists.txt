@@ -33,6 +33,7 @@ add_custom_target(pot-desktop
                             --package-name ubuntu-system-settings
                             --qt --c++ --add-comments=TRANSLATORS
                             --keyword=N_ --from-code=UTF-8
+                            --sort-by-file
                             ${DESKTOP_FILE_IN_IN_H}
     WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}"
 )
@@ -45,6 +46,7 @@ add_custom_target(pot-qml
                             --qt --c++ --add-comments=TRANSLATORS
                             --keyword=QT_TR_NOOP --keyword=ctr:1c,2
                             --keyword=tr --keyword=tr:1,2 --from-code=UTF-8
+                            --sort-by-file
                             ${QMLFILES} ${SETTINGSJSFILE}
     WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}"
     DEPENDS pot-desktop ${QMLFILES} settings.js #desktop.js
@@ -57,6 +59,7 @@ add_custom_target(pot-cpp
                             --package-name ubuntu-system-settings
                             --qt --c++ --add-comments=TRANSLATORS
                             --keyword=_ --from-code=UTF-8
+                            --sort-by-file
                             ${CPPFILES}
     WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}"
     DEPENDS pot-qml ${CPPFILES}
@@ -69,6 +72,7 @@ add_custom_target(pot-py
                             --package-name ubuntu-system-settings
                             --add-comments=TRANSLATORS
                             --keyword=_
+                            --sort-by-file
                             ${PYFILES}
     WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}"
     DEPENDS ${PYFILES}
