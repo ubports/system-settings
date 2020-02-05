@@ -17,10 +17,10 @@ file(GLOB SETTINGSFILES RELATIVE "${CMAKE_CURRENT_SOURCE_DIR}"
                         "${CMAKE_SOURCE_DIR}/plugins/*/*.settings")
 file(GLOB PYFILES RELATIVE "${CMAKE_CURRENT_SOURCE_DIR}"
                         "${CMAKE_SOURCE_DIR}/push-helper/*.py")
-file(RELATIVE_PATH SETTINGSJSFILE "${CMAKE_CURRENT_SOURCE_DIR}" "${CMAKE_CURRENT_BINARY_DIR}/settings.js")
+file(RELATIVE_PATH SETTINGSJSFILE "${CMAKE_CURRENT_SOURCE_DIR}" "${CMAKE_CURRENT_SOURCE_DIR}/settings.js")
 
 add_custom_target(settings.js
-    COMMAND ./extractsettingsinfo ${SETTINGSFILES} -o ${CMAKE_CURRENT_BINARY_DIR}/settings.js
+    COMMAND ./extractsettingsinfo ${SETTINGSFILES} -o ${CMAKE_CURRENT_SOURCE_DIR}/settings.js
     WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}"
     DEPENDS ${SETTINGSFILES}
 )
