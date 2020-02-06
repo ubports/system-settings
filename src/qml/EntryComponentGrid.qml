@@ -43,6 +43,7 @@ Item {
             id: col
             anchors.left: parent.left
             anchors.right: parent.right
+            spacing: units.gu(1)
 
             Icon {
                 id: icon
