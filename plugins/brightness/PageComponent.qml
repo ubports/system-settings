@@ -80,9 +80,8 @@ ItemPage {
             anchors.left: parent.left
             anchors.right: parent.right
 
-            ListItem.Standard {
+            SettingsItemTitle {
                 text: i18n.tr("Display brightness")
-                showDivider: false
             }
 
             /* Use the SliderMenu component instead of the Slider to avoid binding
@@ -116,7 +115,7 @@ ItemPage {
                 text: i18n.tr("Adjust automatically")
                 visible: brightnessPanel.powerdRunning &&
                          brightnessPanel.autoBrightnessAvailable
-                control: CheckBox {
+                control: Switch {
                     id: autoAdjustCheck
                     property bool serverChecked: gsettings.autoBrightness
                     onServerCheckedChanged: checked = serverChecked
@@ -132,12 +131,14 @@ ItemPage {
                 visible: adjust.visible
             }
 
-            ListItem.Divider {
+            SettingsItemTitle {
+                text: i18n.tr("Display")
                 visible: brightnessPanel.widiSupported
             }
 
             ListItem.Standard {
                 text: i18n.tr("External display")
+                visible: brightnessPanel.widiSupported
                 enabled: brightnessPanel.widiSupported
                 onClicked: enabledCheck.trigger()
                 control: Switch {
