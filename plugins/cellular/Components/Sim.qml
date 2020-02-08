@@ -44,8 +44,8 @@ Item {
     function techToString (tech) {
         var strings = {
             'gsm': i18n.tr("2G only (saves battery)"),
-            'umts': i18n.tr("2G/3G (faster)"),
-            'lte': i18n.tr("2G/3G/4G (faster)")
+            'umts': i18n.tr("2G/3G"),
+            'lte': i18n.tr("2G/3G/4G")
         };
         strings['umts_enable'] = strings['umts'];
         return strings[tech] || "";
