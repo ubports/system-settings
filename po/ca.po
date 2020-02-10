@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-10-02 23:53+0000\n"
+"PO-Revision-Date: 2020-02-11 14:21+0000\n"
 "Last-Translator: Joan CiberSheep <cibersheep@gmail.com>\n"
 "Language-Team: Catalan <https://translate.ubports.com/projects/ubports/"
 "system-settings/ca/>\n"
@@ -2487,7 +2487,7 @@ msgstr "Actualitzacions"
 #: ../plugins/system-update/PageComponent.qml:163
 #: ../plugins/system-update/ReinstallAllApps.qml:150
 msgid "Connect to the Internet to check for updates."
-msgstr "Connecta't a Internet per comprovar si hi ha actualitzacions."
+msgstr "Connecteu-vos a Internet per comprovar si hi ha actualitzacions."
 
 #: ../plugins/system-update/PageComponent.qml:165
 #: ../plugins/system-update/ReinstallAllApps.qml:152
@@ -2752,11 +2752,11 @@ msgstr "Adreça IP"
 
 #: ../plugins/wifi/OtherNetwork.qml:92
 msgid "Connect to Wi‑Fi"
-msgstr "Connecta't a la xarxa sense fil"
+msgstr "Connecteu-vos a la xarxa sense fil"
 
 #: ../plugins/wifi/OtherNetwork.qml:93
 msgid "Connect to Hidden Network"
-msgstr "Connecta't a una xarxa oculta"
+msgstr "Connecteu-vos a una xarxa oculta"
 
 #: ../plugins/wifi/OtherNetwork.qml:285
 msgid "Network name"
@@ -2914,7 +2914,7 @@ msgstr "Recorda la contrasenya"
 
 #: ../plugins/wifi/PageComponent.qml:129
 msgid "Connect to hidden network…"
-msgstr "Connecta't a una xarxa oculta…"
+msgstr "Connecteu-vos a una xarxa oculta…"
 
 #: ../plugins/wifi/PageComponent.qml:139
 #: ../plugins/wifi/PreviousNetworks.qml:27
