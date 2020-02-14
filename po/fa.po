@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2020-02-11 14:21+0000\n"
+"PO-Revision-Date: 2020-02-14 19:59+0000\n"
 "Last-Translator: HSN80 <hosseinabbasi80@outlook.com>\n"
 "Language-Team: Persian <https://translate.ubports.com/projects/ubports/"
 "system-settings/fa/>\n"
@@ -37,13 +37,12 @@ msgid "Developer Mode"
 msgstr "حالت توسعه‌دهنده"
 
 #: ../plugins/about/DevMode.qml:84
-#, fuzzy
 msgid ""
 "In Developer Mode, anyone can access, change or delete anything on this "
 "device by connecting it to another device."
 msgstr ""
-"در حالت توسعه‌دهنده، هرکسی می‌تواند با وصل کردن این تلفن به یک دستگاه دیگر، به "
-"همه‌ی چیزهای رویش دست‌رسی داشته و آن‌ها را تغییر داده یا حذف کند."
+"در حالت توسعه‌دهنده، هرکسی می‌تواند با وصل کردن این تلفن به یک دستگاه دیگر، "
+"به همه‌ محتوا دسترسی داشته و آن‌ها را تغییر داده یا حذف کند."
 
 #: ../plugins/about/DevMode.qml:110
 msgid "You need a passcode or passphrase set to use Developer Mode."
@@ -151,7 +150,7 @@ msgstr "حالت توسعه‌دهنده"
 
 #: ../plugins/about/Storage.qml:44
 msgid "Scanning"
-msgstr ""
+msgstr "بررسی"
 
 #: ../plugins/about/Storage.qml:106
 msgid "Used by Ubuntu"
@@ -207,9 +206,8 @@ msgid "OS build number"
 msgstr "شماره‌ی ساخت سیستم‌عامل"
 
 #: ../plugins/about/Version.qml:68
-#, fuzzy
 msgid "UBports Image part"
-msgstr "قسمت تصویر اوبونتو"
+msgstr "بخش تصویر UBports"
 
 #: ../plugins/about/Version.qml:76
 msgid "Ubuntu build description"
@@ -3357,7 +3355,7 @@ msgstr "هنر"
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../build/po/settings.js:54
 msgid "photo"
-msgstr "عکس"
+msgstr "عکی"
 
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../build/po/settings.js:56
