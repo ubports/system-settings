@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-11-10 18:36+0000\n"
+"PO-Revision-Date: 2020-02-14 19:59+0000\n"
 "Last-Translator: Milan Korecký <milan.korecky@gmail.com>\n"
 "Language-Team: Czech <https://translate.ubports.com/projects/ubports/"
 "system-settings/cs/>\n"
@@ -62,7 +62,7 @@ msgstr "Tato licence nemohla být zobrazena."
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../plugins/about/PageComponent.qml:35 ../build/po/settings.js:2
 msgid "About"
-msgstr "O systému"
+msgstr "O aplikaci"
 
 #: ../plugins/about/PageComponent.qml:99
 msgid "Serial"
