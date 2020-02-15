@@ -179,7 +179,7 @@ Dialog {
         Button {
             objectName: "TimePickerOKButton"
             text: i18n.tr("Set")
-
+            color: theme.palette.normal.positive
             onClicked: {
                 root.accepted(root.hour, root.minute, root.seconds,
                               root.day, root.month, root.year)
