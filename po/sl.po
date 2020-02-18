@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2018-05-12 20:26+0000\n"
-"Last-Translator: Kristijan Tkalec <kristijan.tkalec@biotehna.org>\n"
+"PO-Revision-Date: 2020-02-17 19:40+0000\n"
+"Last-Translator: Riccardo Riccio <rickyriccio@tiscali.it>\n"
 "Language-Team: Slovenian <https://translate.ubports.com/projects/ubports/"
 "system-settings/sl/>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
-"%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 2.15\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3;\n"
+"X-Generator: Weblate 3.8\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:41+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -62,9 +62,8 @@ msgstr "Tega dovoljenja ni mogoče prikazati."
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../plugins/about/PageComponent.qml:35 ../build/po/settings.js:2
-#, fuzzy
 msgid "About"
-msgstr "o programu"
+msgstr "O programu"
 
 #: ../plugins/about/PageComponent.qml:99
 msgid "Serial"
@@ -779,13 +778,12 @@ msgstr ""
 #: ../plugins/system-update/InstallationFailed.qml:28
 #: ../plugins/vpn/PageComponent.qml:123
 #: ../plugins/cellular/Components/SimEditor.qml:214
-#, fuzzy
 msgid "OK"
 msgstr "V redu"
 
 #: ../plugins/cellular/PageApnEditor.qml:71
 msgid "Edit"
-msgstr ""
+msgstr "Uredi"
 
 #: ../plugins/cellular/PageApnEditor.qml:71
 #, fuzzy
@@ -1022,7 +1020,7 @@ msgstr ""
 #: ../plugins/cellular/PageChooseApn.qml:303
 #: ../plugins/printing/PageComponent.qml:136
 msgid "Delete"
-msgstr ""
+msgstr "Izbriši"
 
 #: ../plugins/cellular/PageChooseCarrier.qml:153
 #: ../plugins/time-date/ChooseTimeZone.qml:51
@@ -1198,7 +1196,7 @@ msgstr "Spremeni"
 
 #: ../plugins/hotspot/HotspotSetup.qml:267
 msgid "Start"
-msgstr ""
+msgstr "Začni"
 
 #. TRANSLATORS: This is a keyword or name for the hotspot plugin which is used while searching
 #: ../plugins/hotspot/PageComponent.qml:33
@@ -1697,9 +1695,8 @@ msgid "Forward to"
 msgstr "Posreduj"
 
 #: ../plugins/phone/CallForwardItem.qml:171
-#, fuzzy
 msgid "Enter a number"
-msgstr "Telefonska številka"
+msgstr "Vnesite številko"
 
 #: ../plugins/phone/CallForwardItem.qml:218
 msgid "Call forwarding can’t be changed right now."
@@ -1795,9 +1792,8 @@ msgstr "Tiskalnik"
 #: ../plugins/printing/AddPrinterDetails.qml:202
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:32
 #: ../plugins/printing/printer-sub-pages/Status.qml:66
-#, fuzzy
 msgid "Description"
-msgstr "Šifriranje"
+msgstr "Opis"
 
 #: ../plugins/printing/AddPrinterDetails.qml:204
 #: ../plugins/printing/AddPrinterDetails.qml:211
@@ -2442,9 +2438,9 @@ msgid "Choose from"
 msgstr "Izberite operaterja:"
 
 #: ../plugins/system-update/ChangelogExpander.qml:42
-#, fuzzy, qt-format
+#, qt-format
 msgid "Version %1"
-msgstr "Različica: "
+msgstr "Različica %1"
 
 #: ../plugins/system-update/ChannelSettings.qml:32
 msgid "Channel settings"
@@ -2546,7 +2542,7 @@ msgstr "Preverjanje za posodobitve ..."
 
 #: ../plugins/system-update/GlobalUpdateControls.qml:89
 msgid "Stop"
-msgstr ""
+msgstr "Zaustavi"
 
 #. TRANSLATORS: %1 is number of software updates available.
 #: ../plugins/system-update/GlobalUpdateControls.qml:116
@@ -2753,7 +2749,7 @@ msgstr "Kraja ni mogoče najti"
 #. TRANSLATORS: This is a keyword or name for the time-date plugin which is used while searching
 #: ../plugins/time-date/PageComponent.qml:31 ../build/po/settings.js:370
 msgid "Time and Date"
-msgstr "Datum in čas"
+msgstr "Ura in datum"
 
 #: ../plugins/time-date/PageComponent.qml:64
 msgid "Time zone:"
@@ -3073,9 +3069,8 @@ msgid "Remove images…"
 msgstr "Odstrani slike ..."
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:36
-#, fuzzy
 msgid "Cellular data"
-msgstr "Mobilni podatki:"
+msgstr "Podatki mobilnega omrežja"
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:73
 #: ../plugins/cellular/Components/NoSim.qml:36
@@ -3220,9 +3215,8 @@ msgid "%1 — %2"
 msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:43
-#, fuzzy
 msgid "No messages"
-msgstr "sporočilo"
+msgstr "Ni sporočil"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:48
 msgid "Jobs"
