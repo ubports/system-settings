@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2020-02-14 19:59+0000\n"
+"PO-Revision-Date: 2020-02-16 01:21+0000\n"
 "Last-Translator: HSN80 <hosseinabbasi80@outlook.com>\n"
 "Language-Team: Persian <https://translate.ubports.com/projects/ubports/"
 "system-settings/fa/>\n"
@@ -760,7 +760,7 @@ msgstr "قبول"
 
 #: ../plugins/cellular/PageApnEditor.qml:71
 msgid "Edit"
-msgstr ""
+msgstr "ویرایش"
 
 #: ../plugins/cellular/PageApnEditor.qml:71
 #, fuzzy
@@ -997,7 +997,7 @@ msgstr ""
 #: ../plugins/cellular/PageChooseApn.qml:303
 #: ../plugins/printing/PageComponent.qml:136
 msgid "Delete"
-msgstr ""
+msgstr "حذف"
 
 #: ../plugins/cellular/PageChooseCarrier.qml:153
 #: ../plugins/time-date/ChooseTimeZone.qml:51
