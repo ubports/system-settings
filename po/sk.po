@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2020-02-24 17:15+0000\n"
+"PO-Revision-Date: 2020-02-25 18:21+0000\n"
 "Last-Translator: dano6 <dano.kutka@gmail.com>\n"
 "Language-Team: Slovak <https://translate.ubports.com/projects/ubports/"
 "system-settings/sk/>\n"
@@ -1003,9 +1003,8 @@ msgid "Device is now managed"
 msgstr "Zariadenie je teraz aktívne"
 
 #: ../plugins/hotspot/Common.qml:40 ../plugins/wifi/Common.qml:42
-#, fuzzy
 msgid "Device is now unmanaged"
-msgstr "Zariadenie teraz nie je spravované"
+msgstr "Správca zariadenia už nie je aktívny"
 
 #: ../plugins/hotspot/Common.qml:42 ../plugins/wifi/Common.qml:44
 msgid "The device could not be readied for configuration"
@@ -3971,24 +3970,24 @@ msgstr "Matný"
 
 #: ../src/systemimage.cpp:231
 msgid "Can't cancel current request (can't contact service)"
-msgstr ""
+msgstr "Nemožno zrušiť aktuálnu požiadavku (služba nedostupná)"
 
 #: ../src/systemimage.cpp:244
 msgid "Can't pause current request (can't contact service)"
-msgstr ""
+msgstr "Nemožno pozastaviť aktuálnu požiadavku (služba nedostupná)"
 
 #: ../src/systemimage.cpp:368 ../src/systemimage.cpp:374
 #: ../src/systemimage.cpp:380
 msgid "Unavailable"
-msgstr ""
+msgstr "Nedostupné"
 
 #: ../push-helper/software_updates_helper.py:159
 msgid "There's an updated system image."
-msgstr ""
+msgstr "Je k dispozícii aktualizácia systémového obrazu."
 
 #: ../push-helper/software_updates_helper.py:160
 msgid "Tap to open the system updater."
-msgstr ""
+msgstr "Kliknite pre otvorenie systémovej aktualizacii."
 
 #~ msgid "Sign in to Ubuntu One to receive updates for apps."
 #~ msgstr "Pre prijatie aktualizácií aplikácii sa prihláste do Ubuntu One."
