@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-09-15 11:50+0000\n"
+"PO-Revision-Date: 2020-02-29 15:39+0000\n"
 "Last-Translator: Ivo Xavier <ivofernandes12@gmail.com>\n"
 "Language-Team: Portuguese <https://translate.ubports.com/projects/ubports/"
 "system-settings/pt/>\n"
@@ -1653,7 +1653,7 @@ msgstr "Última chamada %1"
 
 #: ../plugins/phone/ServiceInfo.qml:119
 msgid "Call"
-msgstr "Ligar"
+msgstr "Chamada"
 
 #. TRANSLATORS: %1 is the name of the (network) carrier
 #: ../plugins/phone/Services.qml:36 ../plugins/phone/SingleSim.qml:55
