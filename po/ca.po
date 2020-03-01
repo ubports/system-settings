@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2020-02-11 14:21+0000\n"
+"PO-Revision-Date: 2020-02-28 12:21+0000\n"
 "Last-Translator: Joan CiberSheep <cibersheep@gmail.com>\n"
 "Language-Team: Catalan <https://translate.ubports.com/projects/ubports/"
 "system-settings/ca/>\n"
@@ -1661,7 +1661,7 @@ msgstr "Última trucada %1"
 
 #: ../plugins/phone/ServiceInfo.qml:119
 msgid "Call"
-msgstr "Truca-hi"
+msgstr "Telefona"
 
 #. TRANSLATORS: %1 is the name of the (network) carrier
 #: ../plugins/phone/Services.qml:36 ../plugins/phone/SingleSim.qml:55
