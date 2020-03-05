@@ -176,15 +176,11 @@ ItemPage {
     Page {
         id: picker
         visible: false
-        header: PageHeader {
-            title: i18n.tr("Choose application")
-        }
-
     header: PageHeader {
         id: contentPageHeader
         flickable: sources
         automaticHeight: false
-        title: i18n.tr("Import Custom Background")
+        title: i18n.tr("Choose application")
     }
         ContentStore {
             id: appStore
