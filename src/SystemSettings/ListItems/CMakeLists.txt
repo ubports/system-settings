@@ -1,4 +1,5 @@
 set(QML_SOURCES
+    Divider.qml
     Icon.qml
     IconProgression.qml
     ProportionalShape.qml
@@ -7,6 +8,7 @@ set(QML_SOURCES
     SingleValueProgression.qml
     Standard.qml
     StandardProgression.qml
+    ThinDivider.qml
 )
 
 set(PLUG_DIR ${PLUGIN_QML_DIR}/SystemSettings/ListItems)

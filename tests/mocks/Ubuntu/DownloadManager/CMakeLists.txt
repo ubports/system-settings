@@ -11,7 +11,7 @@ set(MOCK_DOWNLOADMANAGER_SRCS
 
 add_library(MockUbuntuDownloadManager MODULE ${MOCK_DOWNLOADMANAGER_SRCS})
 
-qt5_use_modules(MockUbuntuDownloadManager Qml Quick Core)
+target_link_libraries(MockUbuntuDownloadManager Qt5::Qml Qt5::Quick Qt5::Core)
 
 add_uss_mock(Ubuntu.DownloadManager 1.2 Ubuntu/DownloadManager
              TARGETS MockUbuntuDownloadManager)

@@ -1,3 +1,9 @@
+ubuntu-system-settings (0.4.4~0ubports0) xenial; urgency=medium
+
+  * Changes for Mir 1.1 and Unity8-next
+
+ -- Dalton Durst <dalton@ubports.com>  Tue, 11 Jun 2019 11:14:14 -0500
+
 ubuntu-system-settings (0.4.3~0ubports1) xenial; urgency=medium
 
   * Fix image updates not showing correct date (ubuntu-touch #1139)

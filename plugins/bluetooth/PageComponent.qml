@@ -255,7 +255,7 @@ ItemPage {
                 showDivider: false
 
                 Label {
-                    color: "darkgrey"
+                    color: theme.palette.normal.backgroundSecondaryText
                     visible: backend.powered && !backend.discoverable
                     text: i18n.tr("Searching…")
                     fontSize: "x-small"
@@ -288,7 +288,7 @@ ItemPage {
                         iconSource: iconPath
                         text: getDisplayName(type, displayName)
                         layout.subtitle.text: connection == Device.Connecting ? i18n.tr("Connecting…") : i18n.tr("Connected")
-                        layout.subtitle.color: UbuntuColors.green
+                        layout.subtitle.color: theme.palette.normal.positive
 
                         ActivityIndicator {
                             visible: connection == Device.Connecting
@@ -314,7 +314,7 @@ ItemPage {
                         right: parent.right
                         rightMargin: units.gu(2)
                     }
-                    color: "darkgrey"
+                    color: theme.palette.normal.backgroundSecondaryText
                     visible: backend.powered && backend.discovering
                     text: i18n.tr("Searching…")
                     fontSize: "x-small"

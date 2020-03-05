@@ -76,7 +76,6 @@ ItemPage {
                     margins: units.gu(2)
                 }
                 text: i18n.tr("Reset Launcher")
-                color: UbuntuColors.orange
                 height: units.gu(6)
                 verticalAlignment: Text.AlignVCenter
             }
@@ -110,7 +109,6 @@ ItemPage {
                 }
                 visible: showAllUI
                 text: i18n.tr("Reset all system settings…")
-                color: UbuntuColors.orange
                 height: units.gu(6)
                 verticalAlignment: Text.AlignVCenter
             }
@@ -144,7 +142,6 @@ ItemPage {
                     margins: units.gu(2)
                 }
                 text: i18n.tr("Erase & Reset All")
-                color: UbuntuColors.orange
                 height: units.gu(6)
                 verticalAlignment: Text.AlignVCenter
             }

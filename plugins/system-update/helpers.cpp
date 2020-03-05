@@ -38,11 +38,16 @@ QStringList Helpers::getAvailableFrameworks()
     return result;
 }
 
-std::string Helpers::getArchitecture()
+QString Helpers::getArchitecture()
 {
-    static const std::string deb_arch
+    static const QString deb_arch
         { architectureFromDpkg() };
     return deb_arch;
+}
+
+bool Helpers::isArchSupported(QString arch)
+{
+    return arch == getArchitecture() || arch == QStringLiteral("all");
 }
 
 std::vector<std::string> Helpers::listFolder(const std::string &folder,
@@ -61,7 +66,7 @@ std::vector<std::string> Helpers::listFolder(const std::string &folder,
     return result;
 }
 
-std::string Helpers::architectureFromDpkg()
+QString Helpers::architectureFromDpkg()
 {
     QString program("dpkg");
     QStringList arguments;
@@ -74,7 +79,7 @@ std::string Helpers::architectureFromDpkg()
     auto output = archDetector.readAllStandardOutput();
     auto ostr = QString::fromUtf8(output);
 
-    return ostr.trimmed().toStdString();
+    return ostr.trimmed();
 }
 
 QString Helpers::getSystemCodename()
@@ -99,7 +104,7 @@ QString Helpers::getSystemCodename()
 QString Helpers::clickMetadataUrl()
 {
     QString url = QStringLiteral(
-        "https://open-store.io/api/v3/apps/"
+        "https://open-store.io/api/v4/apps/"
     );
     QProcessEnvironment environment = QProcessEnvironment::systemEnvironment();
     return environment.value("URL_APPS", url);
@@ -108,7 +113,7 @@ QString Helpers::clickMetadataUrl()
 QString Helpers::clickRevisionUrl()
 {
     QString url = QStringLiteral(
-        "https://open-store.io/api/v3/revisions"
+        "https://open-store.io/api/v4/revisions"
     );
     QProcessEnvironment environment = QProcessEnvironment::systemEnvironment();
     return environment.value("URL_REVISION", url);

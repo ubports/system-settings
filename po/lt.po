@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-09-26 06:51+0000\n"
+"PO-Revision-Date: 2020-02-02 00:21+0000\n"
 "Last-Translator: Moo <moose@mail.ru>\n"
 "Language-Team: Lithuanian <https://translate.ubports.com/projects/ubports/"
 "system-settings/lt/>\n"
@@ -56,7 +56,7 @@ msgstr ""
 
 #: ../plugins/about/License.qml:30
 msgid "Sorry, this license could not be displayed."
-msgstr ""
+msgstr "Atleiskite, nepavyko parodyti šios licencijos."
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../plugins/about/PageComponent.qml:35 ../build/po/settings.js:2
@@ -83,11 +83,11 @@ msgstr ""
 #: ../plugins/wifi/certhandler.cpp:192 ../plugins/wifi/certhandler.cpp:224
 #: ../plugins/wifi/certhandler.cpp:289 ../plugins/wifi/certhandler.cpp:318
 msgid "None"
-msgstr ""
+msgstr "Nėra"
 
 #: ../plugins/about/PageComponent.qml:131
 msgid "Wi-Fi address"
-msgstr ""
+msgstr "Belaidžio (Wi-Fi) adresas"
 
 #: ../plugins/about/PageComponent.qml:139
 msgid "Bluetooth address"
@@ -129,7 +129,7 @@ msgstr "Niekada"
 
 #: ../plugins/about/PageComponent.qml:194
 msgid "Check for updates"
-msgstr ""
+msgstr "Tikrinti ar yra atnaujinimų"
 
 #: ../plugins/about/PageComponent.qml:219
 msgid "Legal:"
@@ -137,7 +137,7 @@ msgstr ""
 
 #: ../plugins/about/PageComponent.qml:224 ../plugins/about/Software.qml:11
 msgid "Software licenses"
-msgstr ""
+msgstr "Programinės įrangos licencijos"
 
 #: ../plugins/about/PageComponent.qml:231
 msgid "Regulatory info"
@@ -145,7 +145,7 @@ msgstr ""
 
 #: ../plugins/about/PageComponent.qml:238
 msgid "Developer mode"
-msgstr ""
+msgstr "Plėtotojo veiksena"
 
 #: ../plugins/about/Storage.qml:44
 msgid "Scanning"
@@ -181,15 +181,15 @@ msgstr ""
 
 #: ../plugins/about/Storage.qml:171
 msgid "Free space"
-msgstr ""
+msgstr "Laisva vieta"
 
 #: ../plugins/about/Storage.qml:191
 msgid "By name"
-msgstr ""
+msgstr "Pagal pavadinimą"
 
 #: ../plugins/about/Storage.qml:191
 msgid "By size"
-msgstr ""
+msgstr "Pagal dydį"
 
 #: ../plugins/about/Storage.qml:222 ../plugins/battery/PageComponent.qml:109
 #: ../plugins/battery/PageComponent.qml:284
@@ -211,7 +211,7 @@ msgstr ""
 
 #: ../plugins/about/Version.qml:76
 msgid "Ubuntu build description"
-msgstr ""
+msgstr "Ubuntu darinio aprašas"
 
 #: ../plugins/about/Version.qml:82
 msgid "Device Image part"
@@ -349,7 +349,7 @@ msgstr "Įkraunama"
 
 #: ../plugins/battery/PageComponent.qml:272
 msgid "Last full charge"
-msgstr ""
+msgstr "Paskutinė pilna įkrova"
 
 #: ../plugins/battery/PageComponent.qml:274
 msgid "Fully charged"
@@ -357,12 +357,12 @@ msgstr "Pilnai įkrauta"
 
 #: ../plugins/battery/PageComponent.qml:293
 msgid "Ways to reduce battery use:"
-msgstr ""
+msgstr "Būdai kaip sumažinti baterijos naudojimą:"
 
 #: ../plugins/battery/PageComponent.qml:297
 #: ../plugins/brightness/PageComponent.qml:84
 msgid "Display brightness"
-msgstr ""
+msgstr "Ekrano ryškumas"
 
 #: ../plugins/battery/PageComponent.qml:314
 #: ../plugins/security-privacy/PhoneLocking.qml:89
@@ -380,9 +380,9 @@ msgstr ""
 #, qt-format
 msgid "After %1 second"
 msgid_plural "After %1 seconds"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Po %1 sekundės"
+msgstr[1] "Po %1 sekundžių"
+msgstr[2] "Po %1 sekundžių"
 
 #. TRANSLATORS: %1 is the number of minutes
 #: ../plugins/battery/PageComponent.qml:326
@@ -403,13 +403,13 @@ msgstr[2] "Po %1 minučių"
 #. TRANSLATORS: “Wi-Fi used for hotspot” is hidden.
 #: ../plugins/battery/PageComponent.qml:365
 msgid "Wi-Fi used for hotspot"
-msgstr ""
+msgstr "Belaidis (Wi-Fi) naudojamas prieigos taškui"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../plugins/battery/PageComponent.qml:365
 #: ../plugins/wifi/PageComponent.qml:28 ../build/po/settings.js:398
 msgid "Wi-Fi"
-msgstr "Belaidis Wi-Fi"
+msgstr "Belaidis (Wi-Fi)"
 
 #. TRANSLATORS: This is a keyword or name for the bluetooth plugin which is used while searching
 #: ../plugins/battery/PageComponent.qml:401
@@ -420,7 +420,7 @@ msgstr "Bluetooth"
 
 #: ../plugins/battery/SleepValues.qml:74
 msgid "Lock the device when it's not in use:"
-msgstr ""
+msgstr "Užrakinti įrenginį, kai jis nenaudojamas:"
 
 #: ../plugins/battery/SleepValues.qml:75
 msgid "Put the device to sleep when it is not in use:"
@@ -464,7 +464,7 @@ msgstr "Leisti"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:46
 msgid "Refuse"
-msgstr ""
+msgstr "Atmesti"
 
 #: ../plugins/bluetooth/ConfirmPasskeyDialog.qml:28
 #: ../plugins/bluetooth/DisplayPasskeyDialog.qml:26
@@ -548,7 +548,7 @@ msgstr ""
 
 #: ../plugins/bluetooth/DevicePage.qml:56
 msgid "Joypad"
-msgstr ""
+msgstr "Žaidimų pultas"
 
 #: ../plugins/bluetooth/DevicePage.qml:57
 msgid "Keyboard"
@@ -618,7 +618,7 @@ msgstr "Signalo stiprumas"
 #: ../plugins/bluetooth/DevicePage.qml:133
 #: ../plugins/bluetooth/PageComponent.qml:358
 msgid "Connect automatically when detected:"
-msgstr ""
+msgstr "Aptikus, automatiškai prisijungti:"
 
 #: ../plugins/bluetooth/DevicePage.qml:150
 #: ../plugins/cellular/PageChooseApn.qml:201
@@ -632,7 +632,7 @@ msgstr "Prisijungti"
 
 #: ../plugins/bluetooth/DevicePage.qml:172
 msgid "Forget this device"
-msgstr ""
+msgstr "Pamiršti šį įrenginį"
 
 #. TRANSLATORS: %1 is the name of the bluetooth device being paired
 #: ../plugins/bluetooth/DisplayPasskeyDialog.qml:35
@@ -683,12 +683,12 @@ msgstr ""
 
 #: ../plugins/brightness/PageComponent.qml:35
 msgid "Brightness & Display"
-msgstr ""
+msgstr "Ryškumas ir ekranas"
 
 #. TRANSLATORS: This is a keyword or name for the brightness plugin which is used while searching
 #: ../plugins/brightness/PageComponent.qml:35 ../build/po/settings.js:100
 msgid "Brightness"
-msgstr ""
+msgstr "Ryškumas"
 
 #: ../plugins/brightness/PageComponent.qml:116
 msgid "Adjust automatically"
@@ -696,7 +696,7 @@ msgstr "Reguliuoti automatiškai"
 
 #: ../plugins/brightness/PageComponent.qml:131
 msgid "Brightens and dims the display to suit the surroundings."
-msgstr ""
+msgstr "Paryškina ir pritemdo ekraną, priklausomai nuo aplinkos."
 
 #: ../plugins/brightness/PageComponent.qml:140
 msgid "External display"
@@ -744,7 +744,7 @@ msgstr "Šiam įrenginiui nepavyko prisijungti prie %1."
 #: ../plugins/brightness/WifiDisplaysAlert.qml:34
 #, qt-format
 msgid "There was an unknown error connecting to %1."
-msgstr ""
+msgstr "Jungiantis prie %1, įvyko nežinoma klaida."
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:38
 #: ../plugins/phone/CallForwarding.qml:305
@@ -833,7 +833,7 @@ msgstr "Naudotojo vardas"
 
 #: ../plugins/cellular/PageApnEditor.qml:328
 msgid "Enter username"
-msgstr ""
+msgstr "Įveskite naudotojo vardą"
 
 #: ../plugins/cellular/PageApnEditor.qml:341
 #: ../plugins/wifi/NetworkDetails.qml:72 ../plugins/wifi/OtherNetwork.qml:786
@@ -842,7 +842,7 @@ msgstr "Slaptažodis"
 
 #: ../plugins/cellular/PageApnEditor.qml:353
 msgid "Enter password"
-msgstr ""
+msgstr "Įveskite slaptažodį"
 
 #: ../plugins/cellular/PageApnEditor.qml:367
 #: ../plugins/wifi/OtherNetwork.qml:338
@@ -851,15 +851,15 @@ msgstr "Tapatybės nustatymas"
 
 #: ../plugins/cellular/PageApnEditor.qml:372
 msgid "PAP or CHAP"
-msgstr ""
+msgstr "PAP ar CHAP"
 
 #: ../plugins/cellular/PageApnEditor.qml:373
 msgid "PAP only"
-msgstr ""
+msgstr "Tik PAP"
 
 #: ../plugins/cellular/PageApnEditor.qml:374
 msgid "CHAP only"
-msgstr ""
+msgstr "Tik CHAP"
 
 #: ../plugins/cellular/PageApnEditor.qml:385
 msgid "Protocol"
@@ -921,7 +921,7 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../plugins/cellular/PageChooseApn.qml:169 ../build/po/settings.js:294
 msgid "Reset"
-msgstr ""
+msgstr "Atstatyti"
 
 #. TRANSLATORS: %1 is the MMS APN that the user has chosen to be
 #. “preferred”.
@@ -931,7 +931,7 @@ msgstr ""
 #: ../plugins/cellular/PageChooseApn.qml:223
 #, qt-format
 msgid "Prefer %1"
-msgstr ""
+msgstr "Teikti pirmenybę %1"
 
 #. TRANSLATORS: %1 is the MMS APN that the user has chosen to be
 #. “preferred”, i.e. used to retrieve MMS messages. %2 is the Internet
@@ -962,7 +962,7 @@ msgstr ""
 #: ../plugins/cellular/PageChooseApn.qml:255
 #, qt-format
 msgid "Disable %1"
-msgstr ""
+msgstr "Išjungti %1"
 
 #: ../plugins/cellular/PageChooseApn.qml:260
 #, qt-format
@@ -972,7 +972,7 @@ msgstr ""
 #: ../plugins/cellular/PageChooseApn.qml:261
 #, qt-format
 msgid "This disables %1."
-msgstr ""
+msgstr "Tai išjungia %1."
 
 #: ../plugins/cellular/PageChooseApn.qml:303
 #: ../plugins/printing/PageComponent.qml:136
@@ -983,7 +983,7 @@ msgstr "Ištrinti"
 #: ../plugins/time-date/ChooseTimeZone.qml:51
 #: ../plugins/time-date/PageComponent.qml:85
 msgid "Automatically"
-msgstr ""
+msgstr "Automatiškai"
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../plugins/cellular/PageComponent.qml:32 ../build/po/settings.js:112
@@ -1045,11 +1045,11 @@ msgstr ""
 
 #: ../plugins/hotspot/Common.qml:60 ../plugins/wifi/Common.qml:62
 msgid "DHCP client error"
-msgstr ""
+msgstr "DHCP kliento klaida"
 
 #: ../plugins/hotspot/Common.qml:62 ../plugins/wifi/Common.qml:64
 msgid "DHCP client failed"
-msgstr ""
+msgstr "DHCP klientas patyrė nesėkmę"
 
 #: ../plugins/hotspot/Common.qml:64 ../plugins/wifi/Common.qml:66
 msgid "Shared connection service failed to start"
@@ -1125,9 +1125,8 @@ msgid "Hotspot name"
 msgstr ""
 
 #: ../plugins/hotspot/HotspotSetup.qml:168
-#, fuzzy
 msgid "Choose a name"
-msgstr "Pasirinkite vardą"
+msgstr "Pasirinkite pavadinimą"
 
 #: ../plugins/hotspot/HotspotSetup.qml:185
 msgid "Require a password (recommended):"
@@ -1149,6 +1148,7 @@ msgid "Change"
 msgstr "Keisti"
 
 #: ../plugins/hotspot/HotspotSetup.qml:267
+#, fuzzy
 msgid "Start"
 msgstr "Pradėti"
 
@@ -1180,7 +1180,7 @@ msgstr "Pakeisti slaptažodį/Nustatyti…"
 
 #: ../plugins/hotspot/PageComponent.qml:124
 msgid "Set Up Hotspot…"
-msgstr ""
+msgstr "Nustatyti prieigos tašką…"
 
 #: ../plugins/hotspot/PageComponent.qml:155
 msgid "Wi-Fi is off"
@@ -1188,7 +1188,7 @@ msgstr "Belaidis (Wi-Fi) išjungtas"
 
 #: ../plugins/hotspot/PageComponent.qml:156
 msgid "In order to create a hotspot, you need to turn Wi-Fi on."
-msgstr ""
+msgstr "Norėdami sukurti prieigos tašką, turite įjungti belaidį (Wi-Fi) ryšį."
 
 #: ../plugins/hotspot/PageComponent.qml:165
 msgid "Turn on Wi-Fi"
@@ -1209,7 +1209,7 @@ msgstr "Klaviatūros išdėstymai"
 
 #: ../plugins/language/KeyboardLayouts.qml:49
 msgid "Current layouts:"
-msgstr ""
+msgstr "Dabartiniai išdėstymai:"
 
 #: ../plugins/language/KeyboardLayouts.qml:49
 msgid "All layouts available:"
@@ -1226,15 +1226,15 @@ msgstr ""
 
 #: ../plugins/language/PageComponent.qml:150
 msgid "Enable on-screen keyboard"
-msgstr ""
+msgstr "Įjungti ekraninę klaviatūrą"
 
 #: ../plugins/language/PageComponent.qml:162
 msgid "On-screen keyboard"
-msgstr ""
+msgstr "Ekraninė klaviatūra"
 
 #: ../plugins/language/PageComponent.qml:173
 msgid "External keyboard"
-msgstr ""
+msgstr "Išorinė klaviatūra"
 
 #: ../plugins/language/PageComponent.qml:184
 msgid "Ambiance"
@@ -1274,12 +1274,11 @@ msgstr ""
 
 #: ../plugins/language/PageComponent.qml:195
 msgid "On-screen keyboard theme"
-msgstr ""
+msgstr "Ekraninės klaviatūros apipavidalinimas"
 
 #: ../plugins/language/PageComponent.qml:196
-#, fuzzy
 msgid "Keyboard theme"
-msgstr "Klaviatūros išdėstymai"
+msgstr "Klaviatūros apipavidalinimas"
 
 #: ../plugins/language/PageComponent.qml:209
 #: ../plugins/language/PageComponent.qml:218
@@ -1290,7 +1289,7 @@ msgstr "Rašybos tikrinimas"
 
 #: ../plugins/language/PageComponent.qml:229
 msgid "Auto correction"
-msgstr ""
+msgstr "Automatinis koregavimas"
 
 #: ../plugins/language/PageComponent.qml:240
 msgid "Word suggestions"
@@ -1353,7 +1352,7 @@ msgstr "Visos prieinamos kalbos:"
 #: ../plugins/launcher/PageComponent.qml:31
 #: ../plugins/security-privacy/PhoneLocking.qml:138 ../build/po/settings.js:194
 msgid "Launcher"
-msgstr ""
+msgstr "Paleidyklė"
 
 #: ../plugins/launcher/PageComponent.qml:65
 msgid "On large screens:"
@@ -1361,59 +1360,59 @@ msgstr "Dideliuose ekranuose:"
 
 #: ../plugins/launcher/PageComponent.qml:73
 msgid "Always show the launcher"
-msgstr ""
+msgstr "Visada rodyti paleidyklę"
 
 #: ../plugins/launcher/PageComponent.qml:74
 msgid "Videos and full-screen games may hide it temporarily."
-msgstr ""
+msgstr "Vaizdo įrašai ir viso ekrano žaidimai gali laikinai ją paslėpti."
 
 #: ../plugins/launcher/PageComponent.qml:85
 msgid "Icon size:"
-msgstr ""
+msgstr "Piktogramų dydis:"
 
 #: ../plugins/mouse/Connected.qml:62 ../plugins/mouse/Connected.qml:228
 msgid "Cursor speed:"
-msgstr ""
+msgstr "Žymeklio greitis:"
 
 #: ../plugins/mouse/Connected.qml:98
 msgid "Wheel scrolling speed:"
-msgstr ""
+msgstr "Slinkimo ratuku greitis:"
 
 #: ../plugins/mouse/Connected.qml:134 ../plugins/mouse/Connected.qml:301
 msgid "Double-click speed:"
-msgstr ""
+msgstr "Dvikarčio spustelėjimo greitis:"
 
 #: ../plugins/mouse/Connected.qml:168 ../plugins/mouse/Connected.qml:335
 msgid "Test double-click:"
-msgstr ""
+msgstr "Išbandykite dvikartį spustelėjimą:"
 
 #: ../plugins/mouse/Connected.qml:214
 msgid "Touchpad"
-msgstr ""
+msgstr "Jutiklinis kilimėlis"
 
 #: ../plugins/mouse/Connected.qml:264
 msgid "Finger scrolling speed:"
-msgstr ""
+msgstr "Slinkimo pirštu greitis:"
 
 #: ../plugins/mouse/Connected.qml:389
 msgid "Tap to click"
-msgstr ""
+msgstr "Bakstelėti norint spustelėti"
 
 #: ../plugins/mouse/Connected.qml:403
 msgid "Scroll with two fingers"
-msgstr ""
+msgstr "Slinkti dviem pirštais"
 
 #: ../plugins/mouse/Connected.qml:410
 msgid "Ignore touchpad when:"
-msgstr ""
+msgstr "Nepaisyti jutiklinio kilimėlio kai:"
 
 #: ../plugins/mouse/Connected.qml:432
 msgid "Typing"
-msgstr ""
+msgstr "Rašoma"
 
 #: ../plugins/mouse/Connected.qml:446
 msgid "A mouse is connected"
-msgstr ""
+msgstr "Yra prijungta pelė"
 
 #: ../plugins/mouse/None.qml:34
 msgid ""
@@ -1431,27 +1430,27 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../plugins/mouse/PageComponent.qml:29 ../build/po/settings.js:200
 msgid "Mouse & Touchpad"
-msgstr ""
+msgstr "Pelė ir jutiklinis kilimėlis"
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:42
 msgid "Primary button:"
-msgstr ""
+msgstr "Pirminis mygtukas:"
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:72
 msgid "Left"
-msgstr ""
+msgstr "Kairysis"
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:89
 msgid "Right"
-msgstr ""
+msgstr "Dešinysis"
 
 #: ../plugins/mouse/TapArea.qml:38
 msgid "Not fast enough"
-msgstr ""
+msgstr "Nepakankamai greitai"
 
 #: ../plugins/mouse/TapArea.qml:77
 msgid "Double-clicked"
-msgstr ""
+msgstr "Spustelėta du kartus"
 
 #. TRANSLATORS: This is a keyword or name for the notifications plugin which is used while searching
 #: ../plugins/notifications/ClickAppNotifications.qml:62
@@ -1596,7 +1595,7 @@ msgstr "Adresatas nėra susietas su jokiu telefono numeriu."
 
 #: ../plugins/phone/CallForwarding.qml:382
 msgid "All calls"
-msgstr ""
+msgstr "Visi skambučiai"
 
 #: ../plugins/phone/CallForwarding.qml:384
 msgid "Some calls"
@@ -1606,7 +1605,7 @@ msgstr ""
 #: ../plugins/security-privacy/PageComponent.qml:180
 #: ../plugins/security-privacy/PageComponent.qml:248
 msgid "Off"
-msgstr ""
+msgstr "Išjungta"
 
 #. TRANSLATORS: This string will be truncated on smaller displays.
 #: ../plugins/phone/CallForwardItem.qml:157
@@ -2092,7 +2091,7 @@ msgstr ""
 #: ../plugins/security-privacy/PageComponent.qml:176
 #: ../plugins/security-privacy/PageComponent.qml:248
 msgid "On"
-msgstr ""
+msgstr "Įjungta"
 
 #: ../plugins/security-privacy/PageComponent.qml:187
 msgid "Encryption"

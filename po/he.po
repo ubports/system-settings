@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-09-24 14:51+0000\n"
+"PO-Revision-Date: 2019-10-16 14:55+0000\n"
 "Last-Translator: Eran <etherpulse@gmail.com>\n"
 "Language-Team: Hebrew <https://translate.ubports.com/projects/ubports/"
 "system-settings/he/>\n"
@@ -2637,7 +2637,7 @@ msgstr "לא נמצא מיקום תואם"
 #. TRANSLATORS: This is a keyword or name for the time-date plugin which is used while searching
 #: ../plugins/time-date/PageComponent.qml:31 ../build/po/settings.js:370
 msgid "Time and Date"
-msgstr "שעה ותאריך"
+msgstr "הגדרת שעה ותאריך..."
 
 #: ../plugins/time-date/PageComponent.qml:64
 msgid "Time zone:"

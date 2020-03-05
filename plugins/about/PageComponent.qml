@@ -2,8 +2,7 @@
  * This file is part of system-settings
  *
  * Copyright (C) 2013-2016 Canonical Ltd.
- *
- * Contact: Alberto Mardegan <alberto.mardegan@canonical.com>
+ * Copyright (C) 2020 UBports Foundation <developers@ubports.com>
  *
  * This program is free software: you can redistribute it and/or modify it
  * under the terms of the GNU General Public License version 3, as published
@@ -23,7 +22,6 @@ import QtSystemInfo 5.0
 import SystemSettings 1.0
 import SystemSettings.ListItems 1.0 as SettingsListItems
 import Ubuntu.Components 1.3
-import Ubuntu.Components.ListItems 1.3 as ListItems
 import Ubuntu.SystemSettings.StorageAbout 1.0
 import Ubuntu.SystemSettings.Bluetooth 1.0
 import MeeGo.QOfono 0.2
@@ -111,17 +109,16 @@ ItemPage {
                 visible: modemsSorted.length == 1
             }
 
-            /* We still need a new ListItem for MultiValue */
-            ListItems.MultiValue {
+            SettingsListItems.Standard {
                 text: "IMEI"
                 objectName: "imeiItems"
-                values: {
+                layout.subtitle.text: {
                     var imeis = [];
                     modemsSorted.forEach(function (path, i) {
                         var imei = deviceInfos.imei(i);
                         imei ? imeis.push(imei) : imeis.push(i18n.tr("None"));
                     });
-                    return imeis;
+                    return imeis.join(", ");
                 }
                 visible: modemsSorted.length > 1
             }
@@ -142,7 +139,7 @@ ItemPage {
                 showDivider: false
             }
 
-            ListItems.Divider {}
+            SettingsListItems.Divider {}
 
             SettingsListItems.SingleValueProgression {
                 id: storageItem

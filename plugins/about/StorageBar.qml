@@ -8,8 +8,7 @@ Item {
     width: parent.width - units.gu(4)
 
     UbuntuShape {
-        //border.width: 1
-        backgroundColor: "white"
+        backgroundColor: theme.palette.normal.foreground
         clip: true
         height: units.gu(3)
         width: parent.width
@@ -34,7 +33,7 @@ Item {
             model: spaceColors
 
             Rectangle {
-                color: ready ? modelData : UbuntuColors.warmGrey
+                color: ready ? modelData : theme.palette.disabled.base
                 height: parent.height
                 width: spaceValues[index] / diskSpace * parent.width
                 Behavior on color {
@@ -47,7 +46,7 @@ Item {
         }
 
         Rectangle {
-            color: "white"
+            color: theme.palette.normal.foreground
             height: parent.height
             width: parent.width
         }

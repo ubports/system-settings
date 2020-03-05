@@ -20,8 +20,8 @@
 
 import QtQuick 2.4
 import SystemSettings 1.0
+import SystemSettings.ListItems 1.0 as SettingsListItems
 import Ubuntu.Components 1.3
-import Ubuntu.Components.ListItems 1.3 as ListItem
 
 ItemPage {
     id: preview
@@ -101,6 +101,7 @@ ItemPage {
     }
 
     /* Make the header even more darker to ease readability on light backgrounds */
+
     Rectangle {
         anchors {
             top: parent.top

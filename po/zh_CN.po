@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-09-26 06:51+0000\n"
-"Last-Translator: BirdZhang <0312birdzhang@gmail.com>\n"
+"PO-Revision-Date: 2019-12-10 02:25+0000\n"
+"Last-Translator: Sam Zhang <sammyok@163.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.ubports.com/projects/"
 "ubports/system-settings/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -30,7 +30,7 @@ msgstr "系统;"
 
 #: ubuntu-system-settings.desktop.in.in.h:3
 msgid "Preferences;Settings;"
-msgstr "首选项；设置；"
+msgstr "首选项;设置;"
 
 #: ../plugins/about/DevMode.qml:35 ../plugins/about/DevMode.qml:90
 msgid "Developer Mode"
@@ -709,7 +709,7 @@ msgstr "已连接显示器："
 
 #: ../plugins/brightness/WifiDisplays.qml:128
 msgid "Connecting"
-msgstr "正在连接…"
+msgstr "正在连接"
 
 #: ../plugins/brightness/WifiDisplays.qml:146
 msgid "Use another display:"
@@ -1172,9 +1172,8 @@ msgid "In order to create a hotspot, you need to turn Wi-Fi on."
 msgstr "为了创建一个热点，您需要打开 Wifi。"
 
 #: ../plugins/hotspot/PageComponent.qml:165
-#, fuzzy
 msgid "Turn on Wi-Fi"
-msgstr "当连接至 Wi-Fi 时"
+msgstr "开启 Wi-Fi"
 
 #: ../plugins/language/DisplayLanguage.qml:36
 msgid "Display language"
@@ -1207,65 +1206,60 @@ msgid "Display language…"
 msgstr "显示语言…"
 
 #: ../plugins/language/PageComponent.qml:150
-#, fuzzy
 msgid "Enable on-screen keyboard"
-msgstr "键盘"
+msgstr "开启屏幕键盘"
 
 #: ../plugins/language/PageComponent.qml:162
-#, fuzzy
 msgid "On-screen keyboard"
-msgstr "键盘"
+msgstr "屏幕键盘"
 
 #: ../plugins/language/PageComponent.qml:173
-#, fuzzy
 msgid "External keyboard"
-msgstr "键盘"
+msgstr "外部键盘"
 
 #: ../plugins/language/PageComponent.qml:184
 msgid "Ambiance"
-msgstr ""
+msgstr "氛围"
 
 #: ../plugins/language/PageComponent.qml:185
 msgid "Suru Dark"
-msgstr ""
+msgstr "暗色"
 
 #: ../plugins/language/PageComponent.qml:186
 msgid "Suru Black"
-msgstr ""
+msgstr "黑色"
 
 #: ../plugins/language/PageComponent.qml:187
 msgid "Just White"
-msgstr ""
+msgstr "全白色"
 
 #: ../plugins/language/PageComponent.qml:188
 msgid "Just Black"
-msgstr ""
+msgstr "全黑色"
 
 #: ../plugins/language/PageComponent.qml:189
 msgid "Just Grey"
-msgstr ""
+msgstr "全灰色"
 
 #: ../plugins/language/PageComponent.qml:190
 msgid "Bordered White"
-msgstr ""
+msgstr "带边框白色"
 
 #: ../plugins/language/PageComponent.qml:191
 msgid "Bordered Black"
-msgstr ""
+msgstr "带边框黑色"
 
 #: ../plugins/language/PageComponent.qml:192
 msgid "Bordered Grey"
-msgstr ""
+msgstr "带边框灰色"
 
 #: ../plugins/language/PageComponent.qml:195
-#, fuzzy
 msgid "On-screen keyboard theme"
-msgstr "键盘"
+msgstr "屏幕键盘主题"
 
 #: ../plugins/language/PageComponent.qml:196
-#, fuzzy
 msgid "Keyboard theme"
-msgstr "键盘"
+msgstr "键盘主题"
 
 #: ../plugins/language/PageComponent.qml:209
 #: ../plugins/language/PageComponent.qml:218
@@ -1295,9 +1289,8 @@ msgid "Auto punctuation"
 msgstr "自动标点"
 
 #: ../plugins/language/PageComponent.qml:284
-#, fuzzy
 msgid "Inserts a period when you tap Space twice."
-msgstr "双击空格键，自动输入句号，和缺少的引号或括号。"
+msgstr "双击空格键自动输入逗号。"
 
 #: ../plugins/language/PageComponent.qml:291
 #: ../plugins/sound/PageComponent.qml:251
@@ -1309,23 +1302,20 @@ msgid "Keyboard vibration"
 msgstr "按键振动"
 
 #: ../plugins/language/PageComponent.qml:313
-#, fuzzy
 msgid "Keyboard opacity"
-msgstr "键盘布局"
+msgstr "键盘透明度"
 
 #: ../plugins/language/PageHardwareKeyboard.qml:33
-#, fuzzy
 msgid "Hardware keyboard"
-msgstr "键盘"
+msgstr "实体键盘"
 
 #: ../plugins/language/PageHardwareKeyboard.qml:63
 msgid "Layouts and other sources"
 msgstr "布局和其它来源"
 
 #: ../plugins/language/RebootNecessary.qml:34
-#, fuzzy
 msgid "The device needs to restart for changes to take effect."
-msgstr "本手机需要重启以使改动生效。"
+msgstr "设备需要重启以使改动生效。"
 
 #: ../plugins/language/RebootNecessary.qml:38
 msgid "Restart Now"
@@ -1457,26 +1447,22 @@ msgstr "让这个应用提醒我使用："
 
 #: ../plugins/notifications/ClickAppNotifications.qml:91
 #: ../plugins/notifications/PageComponent.qml:177
-#, fuzzy
 msgid "Sounds"
 msgstr "声音"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:114
 #: ../plugins/notifications/PageComponent.qml:180
-#, fuzzy
 msgid "Vibrations"
 msgstr "振动"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:137
-#, fuzzy
 msgid "Notification Bubbles"
-msgstr "通知"
+msgstr "通知气泡"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:160
 #: ../plugins/notifications/PageComponent.qml:186
-#, fuzzy
 msgid "Notification List"
-msgstr "通知"
+msgstr "通知列表"
 
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../plugins/notifications/ClickAppsSoundsNotify.qml:30
@@ -1489,31 +1475,26 @@ msgid "Apps that notify with sound:"
 msgstr "声音通知应用程序："
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:30
-#, fuzzy
 msgid "Vibration"
 msgstr "振动"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:50
-#, fuzzy
 msgid "When in Silent mode:"
-msgstr "静音模式开启振动"
+msgstr "静音模式开启振动："
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:68
-#, fuzzy
 msgid "Vibrate as normal"
 msgstr "响铃时震动"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:69
-#, fuzzy
 msgid "Don't vibrate"
-msgstr "震动"
+msgstr "关闭震动"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:85
 msgid "Apps that notify with vibrations:"
 msgstr "震动通知应用程序："
 
 #: ../plugins/notifications/PageComponent.qml:75
-#, fuzzy
 msgid ""
 "Apps can alert you using sounds, vibrations, notification bubbles and the "
 "Notification list."
@@ -1528,14 +1509,12 @@ msgid "Apps that notify with vibration"
 msgstr "用震动通知应用程序"
 
 #: ../plugins/notifications/PageComponent.qml:143
-#, fuzzy
 msgid "Applications:"
-msgstr "大写"
+msgstr "应用："
 
 #: ../plugins/notifications/PageComponent.qml:172
-#, fuzzy
 msgid "No notifications"
-msgstr "通知"
+msgstr "禁用通知"
 
 #: ../plugins/notifications/PageComponent.qml:183
 msgid "Bubbles"
@@ -1660,51 +1639,45 @@ msgstr "%1 服务"
 
 #: ../plugins/phone/SingleSim.qml:29
 msgid "SIM"
-msgstr "SIM 卡"
+msgstr "SIM卡"
 
 #: ../plugins/printing/AddPrinter.qml:34
 #: ../plugins/printing/AddPrinterDetails.qml:54
 #: ../plugins/printing/PageComponent.qml:38
-#, fuzzy
 msgid "Add printer"
-msgstr "打印机"
+msgstr "添加打印机"
 
 #: ../plugins/printing/AddPrinter.qml:65
-#, fuzzy
 msgid "Enter URI"
-msgstr "输入SIM卡PIN码"
+msgstr "输入URL地址"
 
 #: ../plugins/printing/AddPrinter.qml:78
-#, fuzzy
 msgid "Devices"
-msgstr "服务"
+msgstr "设备"
 
 #: ../plugins/printing/AddPrinter.qml:133
 msgid "No devices found."
-msgstr ""
+msgstr "没有找到设备。"
 
 #: ../plugins/printing/AddPrinterDetails.qml:37
 msgid "Describe printer"
-msgstr ""
+msgstr "打印机描述"
 
 #: ../plugins/printing/AddPrinterDetails.qml:44
 msgid "Back"
 msgstr "返回"
 
 #: ../plugins/printing/AddPrinterDetails.qml:137
-#, fuzzy
 msgid "Connection"
-msgstr "正在连接…"
+msgstr "连接"
 
 #: ../plugins/printing/AddPrinterDetails.qml:139
-#, fuzzy
 msgid "Choose a connection"
-msgstr "选择口令密语"
+msgstr "选择连接"
 
 #: ../plugins/printing/AddPrinterDetails.qml:165
-#, fuzzy
 msgid "Printer name"
-msgstr "打印机"
+msgstr "打印机名称"
 
 #: ../plugins/printing/AddPrinterDetails.qml:202
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:32
@@ -1715,7 +1688,7 @@ msgstr "描述"
 #: ../plugins/printing/AddPrinterDetails.qml:204
 #: ../plugins/printing/AddPrinterDetails.qml:211
 msgid "Optional"
-msgstr ""
+msgstr "可选"
 
 #: ../plugins/printing/AddPrinterDetails.qml:209
 #: ../plugins/security-privacy/AppAccess.qml:81
@@ -1727,29 +1700,27 @@ msgstr "位置"
 
 #: ../plugins/printing/AddPrinterDetails.qml:219
 msgid "Driver"
-msgstr ""
+msgstr "驱动"
 
 #: ../plugins/printing/AddPrinterDetails.qml:225
-#, fuzzy
 msgid "Choose driver"
-msgstr "选择网络运营商："
+msgstr "选择驱动"
 
 #: ../plugins/printing/AddPrinterDetails.qml:227
 msgid "Select printer from database"
-msgstr ""
+msgstr "从数据库选择打印机"
 
 #: ../plugins/printing/AddPrinterDetails.qml:228
 msgid "Provide PPD file"
-msgstr ""
+msgstr "选择PPD文件"
 
 #: ../plugins/printing/AddPrinterDetails.qml:235
 msgid "Filter drivers"
-msgstr ""
+msgstr "过滤驱动"
 
 #: ../plugins/printing/AddPrinterDetails.qml:304
-#, fuzzy
 msgid "PPD file"
-msgstr "Pac 文件"
+msgstr "PPD 文件"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../plugins/printing/PageComponent.qml:32 ../build/po/settings.js:268
@@ -1758,51 +1729,48 @@ msgstr "正在打印"
 
 #: ../plugins/printing/PageComponent.qml:45
 msgid "Manager Printer Jobs"
-msgstr ""
+msgstr "管理打印机作业"
 
 #: ../plugins/printing/PageComponent.qml:106
 msgid "Default printer"
-msgstr ""
+msgstr "默认打印机"
 
 #: ../plugins/printing/PageComponent.qml:107
 msgid "Configured printers"
-msgstr ""
+msgstr "已配置的打印机"
 
 #: ../plugins/printing/PageComponent.qml:115
 msgid "Discovered printers"
-msgstr ""
+msgstr "已发现的打印机"
 
 #: ../plugins/printing/PageComponent.qml:149
 #: ../plugins/printing/printer-sub-pages/Policies.qml:50
 msgid "Set as Default"
-msgstr ""
+msgstr "保存为默认"
 
 #: ../plugins/printing/PageComponent.qml:190
 msgid "There are no printers configured yet."
-msgstr ""
+msgstr "没有配置的打印机。"
 
 #: ../plugins/printing/Printer.qml:42
-#, fuzzy
 msgid "Printer status"
-msgstr "打印机"
+msgstr "打印机状态"
 
 #: ../plugins/printing/Printer.qml:43
-#, fuzzy
 msgid "General settings"
-msgstr "通道设置"
+msgstr "一般设置"
 
 #: ../plugins/printing/Printer.qml:44
 msgid "Policies"
-msgstr ""
+msgstr "策略"
 
 #: ../plugins/printing/Printer.qml:47
-#, fuzzy
 msgid "Copies and pages"
-msgstr "时间和日期"
+msgstr "份数和页数"
 
 #: ../plugins/printing/PrinterConnection.qml:67
 msgid "Host"
-msgstr ""
+msgstr "主机"
 
 #: ../plugins/reset/EraseEverything.qml:41
 msgid ""
@@ -1849,9 +1817,8 @@ msgstr "启动器会恢复到它的初始内容。"
 
 #: ../plugins/security-privacy/AppAccess.qml:29
 #: ../plugins/security-privacy/PageComponent.qml:259
-#, fuzzy
 msgid "App permissions"
-msgstr "权限"
+msgstr "应用权限"
 
 #: ../plugins/security-privacy/AppAccess.qml:69
 msgid "Apps that you have granted access to:"
@@ -1925,7 +1892,6 @@ msgstr ""
 "项的条款和条件</a>。"
 
 #: ../plugins/security-privacy/Location.qml:195
-#, fuzzy
 msgid "Not at all"
 msgstr "根本没有"
 
@@ -1994,7 +1960,7 @@ msgstr "无要求"
 #: ../plugins/security-privacy/LockSecurity.qml:137
 #: ../plugins/security-privacy/LockSecurity.qml:563
 msgid "Change passcode…"
-msgstr "修改密码..."
+msgstr "修改密码…"
 
 #: ../plugins/security-privacy/LockSecurity.qml:139
 #: ../plugins/security-privacy/LockSecurity.qml:564
@@ -2039,7 +2005,7 @@ msgstr "确认口令密语"
 
 #: ../plugins/security-privacy/LockSecurity.qml:348
 msgid "Those passcodes don't match. Try again."
-msgstr "密码不一致，请重试"
+msgstr "密码不一致，请重试。"
 
 #: ../plugins/security-privacy/LockSecurity.qml:351
 msgid "Those passphrases don't match. Try again."
@@ -2050,9 +2016,8 @@ msgid "Unset"
 msgstr "清除设置"
 
 #: ../plugins/security-privacy/LockSecurity.qml:463
-#, fuzzy
 msgid "Unlock the device using:"
-msgstr "解锁手机方法："
+msgstr "解锁设备通过:"
 
 #: ../plugins/security-privacy/LockSecurity.qml:467
 msgid "Swipe (no security)"
@@ -2078,11 +2043,11 @@ msgstr "滑动（无安全保护）… "
 
 #: ../plugins/security-privacy/LockSecurity.qml:472
 msgid "4-digit passcode…"
-msgstr "四位数字的密码..."
+msgstr "四位数字的密码…"
 
 #: ../plugins/security-privacy/LockSecurity.qml:473
 msgid "Passphrase…"
-msgstr "口令密语"
+msgstr "口令密语…"
 
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../plugins/security-privacy/PageComponent.qml:39 ../build/po/settings.js:306
@@ -2236,7 +2201,7 @@ msgstr "解锁"
 
 #: ../plugins/security-privacy/SimPin.qml:416
 msgid "Change PIN…"
-msgstr "更改PIN码..."
+msgstr "更改PIN码…"
 
 #: ../plugins/security-privacy/SimPin.qml:427
 msgid "Locked"
@@ -2318,9 +2283,8 @@ msgid "Custom Ringtone"
 msgstr "自定义铃声"
 
 #: ../plugins/sound/SoundsList.qml:206
-#, fuzzy
 msgid "Choose from"
-msgstr "选择网络运营商："
+msgstr "选择"
 
 #: ../plugins/system-update/ChangelogExpander.qml:42
 #, qt-format
@@ -2377,7 +2341,7 @@ msgstr "当连接至任何数据通信时"
 
 #: ../plugins/system-update/Configuration.qml:58
 msgid "Data charges may apply."
-msgstr "可能会产生数据费"
+msgstr "可能会产生数据费。"
 
 #: ../plugins/system-update/DownloadHandler.qml:174
 #: ../plugins/system-update/InstallationFailed.qml:25
@@ -2387,35 +2351,30 @@ msgstr "安装失败"
 #: ../plugins/system-update/FirmwareUpdate.qml:36
 #: ../plugins/system-update/FirmwareUpdate.qml:157
 msgid "Firmware Update"
-msgstr ""
+msgstr "固件升级"
 
 #: ../plugins/system-update/FirmwareUpdate.qml:133
-#, fuzzy
 msgid "There is a firmware update available!"
-msgstr "%1 个更新可用"
+msgstr "%1 个更新可用！"
 
 #: ../plugins/system-update/FirmwareUpdate.qml:134
-#, fuzzy
 msgid "Firmware is up to date!"
-msgstr "软件已是最新"
+msgstr "固件已是最新！"
 
 #: ../plugins/system-update/FirmwareUpdate.qml:169
-#, fuzzy
 msgid "The device will restart automatically after installing is done."
 msgstr "设备需要重新启动来安装系统更新。"
 
 #: ../plugins/system-update/FirmwareUpdate.qml:185
-#, fuzzy
 msgid "Install and restart now"
 msgstr "安装并重启"
 
 #: ../plugins/system-update/FirmwareUpdate.qml:228
 msgid ""
 "Downloading and Flashing firmware updates, this could take a few minutes..."
-msgstr ""
+msgstr "下载并刷入固件升级，这会需要几分钟..."
 
 #: ../plugins/system-update/FirmwareUpdate.qml:235
-#, fuzzy
 msgid "Checking for firmware update"
 msgstr "正在检查更新…"
 
@@ -2496,13 +2455,13 @@ msgstr "更新设置"
 #: ../plugins/system-update/ReinstallAllApps.qml:95
 #: ../plugins/system-update/UpdateSettings.qml:88
 msgid "Reinstall all apps"
-msgstr ""
+msgstr "重新安装所有应用"
 
 #: ../plugins/system-update/ReinstallAllApps.qml:85
 msgid ""
 "Use this to get all of the latest apps, typically needed after a major "
 "system upgrade, "
-msgstr ""
+msgstr "获取最新应用更新，通常需要在系统升级后使用 "
 
 #: ../plugins/system-update/UpdateDelegate.qml:119
 msgid "Retry"
@@ -2526,7 +2485,7 @@ msgstr "暂停"
 
 #: ../plugins/system-update/UpdateDelegate.qml:143
 msgid "Install…"
-msgstr "安装..."
+msgstr "安装…"
 
 #: ../plugins/system-update/UpdateDelegate.qml:145
 msgid "Install"
@@ -2606,7 +2565,7 @@ msgstr "手动"
 
 #: ../plugins/time-date/ChooseTimeZone.qml:130
 msgid "Enter your current location."
-msgstr "输入您目前的位置"
+msgstr "输入您目前的位置。"
 
 #: ../plugins/time-date/ChooseTimeZone.qml:131
 msgid "No matching place"
@@ -2718,7 +2677,6 @@ msgstr "最后连接"
 
 #: ../plugins/wifi/NetworkDetails.qml:98
 #: ../plugins/wifi/NetworkDetailsBrief.qml:55
-#, fuzzy
 msgid "Forget this network"
 msgstr "忘记网络"
 
@@ -2797,7 +2755,7 @@ msgstr "选择…"
 #: ../plugins/wifi/OtherNetwork.qml:465
 #, qt-format
 msgid "%1…, Exp.: %2"
-msgstr ""
+msgstr "%1…, 过期时间: %2"
 
 #. TRANSLATORS: The first position is the name of
 #. the organization that has issued the certificate.
@@ -2806,10 +2764,9 @@ msgstr ""
 #: ../plugins/wifi/OtherNetwork.qml:473
 #, qt-format
 msgid "%1, Exp.: %2"
-msgstr ""
+msgstr "%1, 过期时间: %2"
 
 #: ../plugins/wifi/OtherNetwork.qml:494
-#, fuzzy
 msgid "Using certificates is recommended as it increases security."
 msgstr "使用证书可以提高安全性。"
 
@@ -2851,22 +2808,19 @@ msgstr "通过身份认证"
 
 #: ../plugins/wifi/OtherNetwork.qml:689
 msgid "Both"
-msgstr ""
+msgstr "两者都是"
 
 #: ../plugins/wifi/OtherNetwork.qml:699
-#, fuzzy
 msgid "PEAP version"
-msgstr "版本"
+msgstr "PEAP版本"
 
 #: ../plugins/wifi/OtherNetwork.qml:713
-#, fuzzy
 msgid "Version 0"
-msgstr "版本： "
+msgstr "版本0"
 
 #: ../plugins/wifi/OtherNetwork.qml:714
-#, fuzzy
 msgid "Version 1"
-msgstr "版本： "
+msgstr "版本1"
 
 #: ../plugins/wifi/OtherNetwork.qml:715
 msgid "Automatic"
@@ -2889,9 +2843,8 @@ msgid "Private key password"
 msgstr "私钥密码"
 
 #: ../plugins/wifi/OtherNetwork.qml:857
-#, fuzzy
 msgid "Remember password"
-msgstr "密码"
+msgstr "记住密码"
 
 #: ../plugins/wifi/PageComponent.qml:129
 msgid "Connect to hidden network…"
@@ -2918,28 +2871,25 @@ msgstr[0] "删除 %1 图片"
 
 #: ../plugins/background/Components/AddRemove.qml:79
 msgid "Add an image…"
-msgstr "添加图片..."
+msgstr "添加图片…"
 
 #: ../plugins/background/Components/AddRemove.qml:89
 msgid "Remove images…"
-msgstr "删除图片..."
+msgstr "删除图片…"
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:36
-#, fuzzy
 msgid "Cellular data"
 msgstr "蜂窝数据"
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:73
 #: ../plugins/cellular/Components/NoSim.qml:36
-#, fuzzy
 msgid "No SIM detected"
-msgstr "侦测不到任何设备"
+msgstr "未检测到SIM卡"
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:81
 #: ../plugins/cellular/Components/NoSim.qml:45
-#, fuzzy
 msgid "Insert a SIM, then restart the device."
-msgstr "插入 SIM 卡并重启你的设备"
+msgstr "插入 SIM 卡并重启你的设备。"
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:147
 #: ../plugins/cellular/Components/SingleSim.qml:92
@@ -2958,7 +2908,7 @@ msgstr "呼出时使用："
 msgid ""
 "You can change the SIM for individual calls, or for contacts in the address "
 "book."
-msgstr "您可以为某一号码或者联系人设置拨打电话时使用的 SIM 卡"
+msgstr "您可以为某一号码或者联系人设置拨打电话时使用的 SIM 卡。"
 
 #: ../plugins/cellular/Components/DefaultSim.qml:62
 msgid "For messages, use:"
@@ -2981,9 +2931,8 @@ msgstr "运营商"
 
 #: ../plugins/cellular/Components/MultiSim.qml:83
 #: ../plugins/cellular/Components/RadioSingleSim.qml:31
-#, fuzzy
 msgid "Connection type:"
-msgstr "已连接"
+msgstr "连接类型:"
 
 #: ../plugins/cellular/Components/Sim.qml:46
 msgid "2G only (saves battery)"
@@ -3003,7 +2952,7 @@ msgstr "编辑 SIM 卡名称"
 
 #: ../plugins/cellular/Components/SingleSim.qml:69
 msgid "Cellular data:"
-msgstr "蜂窝数据"
+msgstr "蜂窝数据："
 
 #: ../plugins/printing/printer-sub-pages/CopiesAndPages.qml:26
 msgid "Copies"
@@ -3011,23 +2960,21 @@ msgstr "附件"
 
 #: ../plugins/printing/printer-sub-pages/CopiesAndPages.qml:46
 msgid "Paper size"
-msgstr ""
+msgstr "纸张大小"
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:43
 msgid "Duplex"
-msgstr ""
+msgstr "双面"
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:59
-#, fuzzy
 msgid "Color model"
-msgstr "开发者模式"
+msgstr "彩色模式"
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:75
 msgid "Quality"
 msgstr "质量"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:27
-#, fuzzy
 msgid "Enabled"
 msgstr "启用"
 
@@ -3037,11 +2984,11 @@ msgstr "默认"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:47
 msgid "This is the default printer."
-msgstr ""
+msgstr "这是默认打印机。"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:60
 msgid "Accepting jobs"
-msgstr ""
+msgstr "接受作业"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:69
 msgid "Shared"
@@ -3068,7 +3015,7 @@ msgstr "停止"
 #: ../plugins/printing/printer-sub-pages/Status.qml:40
 #, qt-format
 msgid "%1 — %2"
-msgstr ""
+msgstr "%1 — %2"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:43
 msgid "No messages"
@@ -3076,29 +3023,27 @@ msgstr "没有通知"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:48
 msgid "Jobs"
-msgstr ""
+msgstr "作业"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:53
 msgid "Manage Print Jobs"
-msgstr ""
+msgstr "管理打印机作业"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:78
-#, fuzzy
 msgid "Address"
 msgstr "地址"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:84
-#, fuzzy
 msgid "Model"
-msgstr "调制解调器"
+msgstr "模式"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:85
 msgid "Local Raw Printer"
-msgstr ""
+msgstr "本地打印机"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:88
 msgid "Print test page"
-msgstr ""
+msgstr "打印测试页"
 
 #: ../src/qml/MainWindow.qml:203
 msgid "Search"
@@ -3507,7 +3452,7 @@ msgstr "热点"
 #. TRANSLATORS: This is a keyword or name for the hotspot plugin which is used while searching
 #: ../build/po/settings.js:166
 msgid "tethering"
-msgstr ""
+msgstr "数据共享"
 
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../build/po/settings.js:170
@@ -3562,13 +3507,11 @@ msgstr "振动"
 
 #. TRANSLATORS: This is a keyword or name for the launcher plugin which is used while searching
 #: ../build/po/settings.js:196
-#, fuzzy
 msgid "launcher"
 msgstr "启动器"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../build/po/settings.js:202
-#, fuzzy
 msgid "mouse"
 msgstr "鼠标"
 
@@ -3579,14 +3522,13 @@ msgstr "触摸板"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../build/po/settings.js:206
-#, fuzzy
 msgid "tap"
-msgstr "接入点名称"
+msgstr "点击"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../build/po/settings.js:208
 msgid "touch"
-msgstr ""
+msgstr "触控"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
@@ -3597,7 +3539,7 @@ msgstr "click包"
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../build/po/settings.js:212
 msgid "input"
-msgstr ""
+msgstr "输入"
 
 #. TRANSLATORS: This is a keyword or name for the notifications plugin which is used while searching
 #: ../build/po/settings.js:218
@@ -3654,7 +3596,6 @@ msgstr "gmail"
 
 #. TRANSLATORS: This is a keyword or name for the orientation-lock plugin which is used while searching
 #: ../build/po/settings.js:238
-#, fuzzy
 msgid "Rotation Lock"
 msgstr "屏幕方向锁定"
 
@@ -3757,13 +3698,12 @@ msgstr "色彩"
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../build/po/settings.js:290
 msgid "laser"
-msgstr ""
+msgstr "镭射"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../build/po/settings.js:292
-#, fuzzy
 msgid "ink"
-msgstr "pin"
+msgstr "墨水"
 
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../build/po/settings.js:296
@@ -3918,7 +3858,7 @@ msgstr "虚拟专用网络"
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../build/po/settings.js:390
 msgid "openvpn"
-msgstr ""
+msgstr "OpenVPN"
 
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
@@ -3929,7 +3869,7 @@ msgstr "ip"
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../build/po/settings.js:396
 msgid "routing"
-msgstr ""
+msgstr "路由"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../build/po/settings.js:404

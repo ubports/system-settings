@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2014-11-15 07:18+0000\n"
-"Last-Translator: Danial Behzadi <dani.behzi@gmail.com>\n"
-"Language-Team: Persian <fa@li.org>\n"
+"PO-Revision-Date: 2020-02-16 01:21+0000\n"
+"Last-Translator: HSN80 <hosseinabbasi80@outlook.com>\n"
+"Language-Team: Persian <https://translate.ubports.com/projects/ubports/"
+"system-settings/fa/>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.8\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:41+0000\n"
-"X-Generator: Launchpad (build 17628)\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
 msgid "System Settings"
@@ -36,13 +37,12 @@ msgid "Developer Mode"
 msgstr "حالت توسعه‌دهنده"
 
 #: ../plugins/about/DevMode.qml:84
-#, fuzzy
 msgid ""
 "In Developer Mode, anyone can access, change or delete anything on this "
 "device by connecting it to another device."
 msgstr ""
-"در حالت توسعه‌دهنده، هرکسی می‌تواند با وصل کردن این تلفن به یک دستگاه دیگر، به "
-"همه‌ی چیزهای رویش دست‌رسی داشته و آن‌ها را تغییر داده یا حذف کند."
+"در حالت توسعه‌دهنده، هرکسی می‌تواند با وصل کردن این تلفن به یک دستگاه دیگر، "
+"به همه‌ محتوا دسترسی داشته و آن‌ها را تغییر داده یا حذف کند."
 
 #: ../plugins/about/DevMode.qml:110
 msgid "You need a passcode or passphrase set to use Developer Mode."
@@ -61,7 +61,6 @@ msgstr "متأسّفیم، این پروانه نمی‌تواند نمایش د
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../plugins/about/PageComponent.qml:35 ../build/po/settings.js:2
-#, fuzzy
 msgid "About"
 msgstr "درباره"
 
@@ -151,7 +150,7 @@ msgstr "حالت توسعه‌دهنده"
 
 #: ../plugins/about/Storage.qml:44
 msgid "Scanning"
-msgstr ""
+msgstr "بررسی"
 
 #: ../plugins/about/Storage.qml:106
 msgid "Used by Ubuntu"
@@ -207,9 +206,8 @@ msgid "OS build number"
 msgstr "شماره‌ی ساخت سیستم‌عامل"
 
 #: ../plugins/about/Version.qml:68
-#, fuzzy
 msgid "UBports Image part"
-msgstr "قسمت تصویر اوبونتو"
+msgstr "بخش تصویر UBports"
 
 #: ../plugins/about/Version.qml:76
 msgid "Ubuntu build description"
@@ -251,7 +249,7 @@ msgstr ""
 
 #: ../plugins/background/Preview.qml:69
 msgid "Preview"
-msgstr "پیش‌نمایش"
+msgstr "پیش نمایش"
 
 #: ../plugins/background/Preview.qml:107
 msgid "Remove image"
@@ -285,7 +283,7 @@ msgstr "برداشتن تصویر"
 #: ../plugins/background/Components/AddRemove.qml:42
 #: ../plugins/cellular/Components/SimEditor.qml:203
 msgid "Cancel"
-msgstr "لغو"
+msgstr "انصراف"
 
 #: ../plugins/background/Preview.qml:113
 #: ../plugins/phone/CallForwarding.qml:253
@@ -322,7 +320,7 @@ msgstr[0] "%1 ساعت پیش"
 
 #: ../plugins/battery/PageComponent.qml:104
 msgid "Charge level"
-msgstr "مرحله‌ی شارژ"
+msgstr "میزان شارژ"
 
 #. TRANSLATORS: %1 refers to a percentage that indicates the charging level of the battery
 #: ../plugins/battery/PageComponent.qml:112
@@ -762,7 +760,7 @@ msgstr "قبول"
 
 #: ../plugins/cellular/PageApnEditor.qml:71
 msgid "Edit"
-msgstr ""
+msgstr "ویرایش"
 
 #: ../plugins/cellular/PageApnEditor.qml:71
 #, fuzzy
@@ -999,7 +997,7 @@ msgstr ""
 #: ../plugins/cellular/PageChooseApn.qml:303
 #: ../plugins/printing/PageComponent.qml:136
 msgid "Delete"
-msgstr ""
+msgstr "حذف"
 
 #: ../plugins/cellular/PageChooseCarrier.qml:153
 #: ../plugins/time-date/ChooseTimeZone.qml:51
@@ -2304,7 +2302,7 @@ msgstr "PIN پیشین سیم‌کارت را وارد کنید"
 
 #: ../plugins/security-privacy/SimPin.qml:334
 msgid "Unlock"
-msgstr "بازکردن قفل"
+msgstr "بازگشایی"
 
 #: ../plugins/security-privacy/SimPin.qml:334
 msgid "Lock"
@@ -2411,9 +2409,9 @@ msgid "Choose from"
 msgstr "گزینش اپراتور"
 
 #: ../plugins/system-update/ChangelogExpander.qml:42
-#, fuzzy, qt-format
+#, qt-format
 msgid "Version %1"
-msgstr "نگارش: "
+msgstr "نسخه %1"
 
 #: ../plugins/system-update/ChannelSettings.qml:32
 msgid "Channel settings"
@@ -3168,9 +3166,8 @@ msgid "Aborted"
 msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:34
-#, fuzzy
 msgid "Active"
-msgstr "فعّال سازی"
+msgstr "فعال"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:36
 msgid "Stopped"
@@ -3358,7 +3355,7 @@ msgstr "هنر"
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../build/po/settings.js:54
 msgid "photo"
-msgstr "عکس"
+msgstr "عکی"
 
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../build/po/settings.js:56

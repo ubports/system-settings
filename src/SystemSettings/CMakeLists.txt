@@ -1,4 +1,5 @@
 set(QML_SOURCES
+    IconWithFallback.qml
     ItemPage.qml
     SettingsItemTitle.qml
     USSAdaptivePageLayout.qml

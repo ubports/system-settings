@@ -2,8 +2,7 @@
  * This file is part of system-settings
  *
  * Copyright (C) 2013 Canonical Ltd.
- *
- * Contact: Sebastien Bacher <sebastien.bacher@canonical.com>
+ * Copyright (C) 2020 UBports Foundation <developers@ubports.com>
  *
  * This program is free software: you can redistribute it and/or modify it
  * under the terms of the GNU General Public License version 3, as published
@@ -22,8 +21,8 @@ import GSettings 1.0
 import QtQuick 2.4
 import QtSystemInfo 5.0
 import SystemSettings 1.0
+import SystemSettings.ListItems 1.0 as SettingsListItems
 import Ubuntu.Components 1.3
-import Ubuntu.Components.ListItems 1.3 as ListItem
 import Ubuntu.SystemSettings.StorageAbout 1.0
 
 ItemPage {
@@ -154,7 +153,7 @@ ItemPage {
             anchors.left: parent.left
             anchors.right: parent.right
 
-            ListItem.SingleValue {
+            SettingsListItems.SingleValue {
                 id: diskItem
                 objectName: "diskItem"
                 text: i18n.tr("Total storage")
@@ -168,7 +167,7 @@ ItemPage {
 
             StorageItem {
                 objectName: "storageItem"
-                colorName: "white"
+                colorName: theme.palette.normal.foreground
                 label: i18n.tr("Free space")
                 value: freediskSpace
                 ready: backendInfo.ready
@@ -186,13 +185,21 @@ ItemPage {
                 }
             }
 
-            ListItem.ItemSelector {
-                id: valueSelect
+            ListItem {
                 objectName: "installedAppsItemSelector"
-                model: [i18n.tr("By name"), i18n.tr("By size")]
-                onSelectedIndexChanged:
-                    settingsId.storageSortByName = (selectedIndex == 0)
-                                                   // 0 → by name, 1 → by size
+                height: layout.height + (divider.visible ? divider.height : 0)
+                divider.visible: false
+                SlotsLayout {
+                    id: layout
+                    mainSlot: OptionSelector {
+                        id: valueSelect
+                        width: parent.width - 2 * (layout.padding.leading + layout.padding.trailing)
+                        model: [i18n.tr("By name"), i18n.tr("By size")]
+                        onSelectedIndexChanged:
+                            settingsId.storageSortByName = (selectedIndex == 0)
+                                                           // 0 → by name, 1 → by size
+                    }
+                }
             }
 
             Binding {
@@ -212,15 +219,29 @@ ItemPage {
                  * column */
                 interactive: false
                 model: backendInfo.clickList
-                delegate: ListItem.SingleValue {
+                delegate: ListItem {
                     objectName: "appItem" + displayName
-                    iconSource: iconPath
-                    fallbackIconSource: "image://theme/clear"
-                    iconFrame: iconPath // no frame for invalid icons, since these aren't app icons
-                    text: displayName
-                    value: installedSize ?
-                               Utilities.formatSize(installedSize) :
-                               i18n.tr("N/A")
+                    height: appItemLayout.height + (divider.visible ? divider.height : 0)
+
+                    ListItemLayout {
+                        id: appItemLayout
+                        title.text: displayName
+                        height: units.gu(6)
+
+                        IconWithFallback {
+                            SlotsLayout.position: SlotsLayout.First
+                            height: units.gu(4)
+                            source: iconPath
+                            fallbackSource: "image://theme/clear"
+                        }
+                        Label {
+                            SlotsLayout.position: SlotsLayout.Last
+                            horizontalAlignment: Text.AlignRight
+                            text: installedSize ?
+                                    Utilities.formatSize(installedSize) :
+                                    i18n.tr("N/A")
+                        }
+                    }
                 }
             }
         }

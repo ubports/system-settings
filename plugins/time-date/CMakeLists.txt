@@ -12,8 +12,7 @@ add_library(UbuntuTimeDatePanel MODULE plugin.h
   timezonelocationmodel.cpp
   ${QML_SOURCES}
 )
-qt5_use_modules(UbuntuTimeDatePanel Qml Quick DBus Concurrent)
-target_link_libraries(UbuntuTimeDatePanel ${GLIB_LDFLAGS} ${GEONAMES_LDFLAGS})
+target_link_libraries(UbuntuTimeDatePanel Qt5::Qml Qt5::Quick Qt5::DBus Qt5::Concurrent ${GLIB_LDFLAGS} ${GEONAMES_LDFLAGS})
 
 
 set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Ubuntu/SystemSettings/TimeDate)

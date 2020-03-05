@@ -74,6 +74,7 @@ ItemPage {
 
                 TextInput {
                     id: passwordField
+                    color: theme.palette.normal.foregroundText
                     readOnly: true
                     text: networkDetails.password
                     echoMode: passwordVisibleSwitch.checked ?
