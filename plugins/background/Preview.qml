@@ -100,7 +100,7 @@ ItemPage {
         fillMode: Image.PreserveAspectCrop
     }
 
-    /* Make the header even more darker to ease readability on light backgrounds */
+    /* Make the header even more darker to ease readability on light background
     Rectangle {
         anchors {
             top: parent.top
