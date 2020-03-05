@@ -101,7 +101,6 @@ ItemPage {
     }
 
     /* Make the header even more darker to ease readability on light backgrounds */
-
     Rectangle {
         anchors {
             top: parent.top
