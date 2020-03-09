@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2020-02-25 18:21+0000\n"
+"PO-Revision-Date: 2020-03-07 11:22+0000\n"
 "Last-Translator: dano6 <dano.kutka@gmail.com>\n"
 "Language-Team: Slovak <https://translate.ubports.com/projects/ubports/"
 "system-settings/sk/>\n"
@@ -62,7 +62,7 @@ msgstr "Prepáčte, túto licenciu sa nepodarilo zobraziť."
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../plugins/about/PageComponent.qml:35 ../build/po/settings.js:2
 msgid "About"
-msgstr "O Aplikácii"
+msgstr "O aplikácii"
 
 #: ../plugins/about/PageComponent.qml:99
 msgid "Serial"
@@ -1458,7 +1458,7 @@ msgstr "Dva krát kliknuté"
 #: ../plugins/notifications/ClickAppNotifications.qml:62
 #: ../plugins/notifications/PageComponent.qml:29 ../build/po/settings.js:214
 msgid "Notifications"
-msgstr "Notifikácie"
+msgstr "Notifikácia"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:81
 msgid "Let this app alert me using:"

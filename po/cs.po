@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2020-02-29 20:19+0000\n"
+"PO-Revision-Date: 2020-03-03 17:22+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.ubports.com/projects/ubports/"
 "system-settings/cs/>\n"
@@ -294,7 +294,7 @@ msgstr "Vybrat"
 #. TRANSLATORS: This is a keyword or name for the battery plugin which is used while searching
 #: ../plugins/battery/PageComponent.qml:35 ../build/po/settings.js:60
 msgid "Battery"
-msgstr "Baterie"
+msgstr "Akumulátor"
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery/PageComponent.qml:44
@@ -1574,7 +1574,7 @@ msgstr "Neodpovídám"
 
 #: ../plugins/phone/CallForwarding.qml:197
 msgid "My phone is unreachable"
-msgstr "Můj telefon je nedostupný"
+msgstr "Můj telefon není dostupný"
 
 #: ../plugins/phone/CallForwarding.qml:227
 msgid "Contacts…"
@@ -1582,7 +1582,7 @@ msgstr "Kontakty…"
 
 #: ../plugins/phone/CallForwarding.qml:274
 msgid "Please select a phone number"
-msgstr "Zvolte telefonní číslo"
+msgstr "Vyberte telefonní číslo"
 
 #: ../plugins/phone/CallForwarding.qml:283
 msgid "Numbers"
@@ -1590,7 +1590,7 @@ msgstr "Čísla"
 
 #: ../plugins/phone/CallForwarding.qml:302
 msgid "Could not forward to this contact"
-msgstr "Nelze přeposlat tomuto kontaktu"
+msgstr "Nedaří se předat tomuto kontaktu"
 
 #: ../plugins/phone/CallForwarding.qml:303
 msgid "Contact not associated with any phone number."
@@ -1721,7 +1721,7 @@ msgstr "Volitelný"
 #: ../plugins/security-privacy/PageComponent.qml:240
 #: ../plugins/printing/printer-sub-pages/Status.qml:72
 msgid "Location"
-msgstr "Umístění"
+msgstr "Poloha"
 
 #: ../plugins/printing/AddPrinterDetails.qml:219
 msgid "Driver"
