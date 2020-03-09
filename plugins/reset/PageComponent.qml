@@ -68,7 +68,7 @@ ItemPage {
         Column {
             anchors.left: parent.left
             anchors.right: parent.right
-            
+
             SettingsItemTitle {
                 text: i18n.tr("Reset Launcher")
             }
