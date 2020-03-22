@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
 "PO-Revision-Date: 2020-03-24 09:22+0000\n"
-"Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
+"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports/"
 "system-settings/sc/>\n"
 "Language: sc\n"
@@ -249,7 +249,7 @@ msgstr "Annapadura:"
 
 #: ../plugins/background/Preview.qml:69
 msgid "Preview"
-msgstr "Anteprima"
+msgstr "Pre-visualizatzione"
 
 #: ../plugins/background/Preview.qml:107
 msgid "Remove image"
