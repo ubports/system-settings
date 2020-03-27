@@ -573,6 +573,7 @@ bool WifiDbusHelper::forgetActiveDevice() {
                     return false;
                 }
                 forgetConnection(conn_path_var.value<QDBusObjectPath>().path());
+                return true;
             }
             break;
         }

@@ -62,7 +62,8 @@ ItemPage {
                     onClicked: {
                         if (DbusHelper.forgetActiveDevice()) {
                             accessPoint.checked = false;
-                            accessPoint.checkedChanged(false)
+                            accessPoint.checkedChanged(false);
+                            pageStack.removePages(root);
                         }
                     }
                 }
