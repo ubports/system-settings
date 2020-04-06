@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2020-03-24 09:22+0000\n"
+"PO-Revision-Date: 2020-04-07 08:29+0000\n"
 "Last-Translator: Neutrum N <neutro@tutanota.com>\n"
 "Language-Team: Galician <https://translate.ubports.com/projects/ubports/"
 "system-settings/gl/>\n"
@@ -1188,7 +1188,7 @@ msgstr "Empezar"
 #: ../plugins/hotspot/PageComponent.qml:33
 #: ../plugins/hotspot/PageComponent.qml:85 ../build/po/settings.js:160
 msgid "Hotspot"
-msgstr "Punto de acceso Wifi"
+msgstr "Punto de acceso"
 
 #: ../plugins/hotspot/PageComponent.qml:114
 msgid ""
@@ -3007,7 +3007,7 @@ msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:754
 msgid "Username"
-msgstr "Nome do usuario"
+msgstr "Nome de usuario"
 
 #: ../plugins/wifi/OtherNetwork.qml:784
 msgid "Private key password"
