@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2020-04-10 10:23+0000\n"
+"PO-Revision-Date: 2020-04-12 09:23+0000\n"
 "Last-Translator: Neutrum N <neutro@tutanota.com>\n"
 "Language-Team: Galician <https://translate.ubports.com/projects/ubports/"
 "system-settings/gl/>\n"
@@ -239,7 +239,7 @@ msgstr "Personalizado"
 
 #: ../plugins/background/MainPage.qml:117
 msgid "Dash background"
-msgstr "Fondo do lanzador"
+msgstr "Fondo do iniciador"
 
 #: ../plugins/background/MainPage.qml:130
 msgid "Opacity:"
@@ -632,7 +632,7 @@ msgstr "Esquecer este dispositivo"
 #: ../plugins/bluetooth/DisplayPinCodeDialog.qml:34
 #, qt-format
 msgid "Please enter the following PIN on %1 and press “Enter” on the keyboard:"
-msgstr "Introduza o seguinte PIN en %1 e prema “Intro” no teclado:"
+msgstr "Introduza o seguinte PIN en %1 e prema 'Intro' no teclado:"
 
 #: ../plugins/bluetooth/PageComponent.qml:252
 msgid "Discoverable"
@@ -1024,11 +1024,11 @@ msgstr "802.1X supplicant desconectado"
 
 #: ../plugins/hotspot/Common.qml:52 ../plugins/wifi/Common.qml:54
 msgid "802.1X supplicant configuration failed"
-msgstr "Fallou a configuación do 802.1X supplicant"
+msgstr "A configuación do 802.1X supplicant fallou"
 
 #: ../plugins/hotspot/Common.qml:54 ../plugins/wifi/Common.qml:56
 msgid "802.1X supplicant failed"
-msgstr "Fallou o 802.1X supplicant"
+msgstr "O 802.1X supplicant fallou"
 
 #: ../plugins/hotspot/Common.qml:56 ../plugins/wifi/Common.qml:58
 msgid "802.1X supplicant took too long to authenticate"
@@ -1080,7 +1080,7 @@ msgstr "Asumiuse a conexión existente do dispositivo"
 
 #: ../plugins/hotspot/Common.qml:80 ../plugins/wifi/Common.qml:82
 msgid "The supplicant is now available"
-msgstr "O «supplicant» está agora dispoñíbel"
+msgstr "O 'supplicant' está agora dispoñíbel"
 
 #: ../plugins/hotspot/Common.qml:82 ../plugins/wifi/Common.qml:84
 msgid "The modem could not be found"
@@ -1092,7 +1092,7 @@ msgstr "A conexión de Bluetooth fallou ou superouse o tempo máximo de espera"
 
 #: ../plugins/hotspot/Common.qml:86 ../plugins/wifi/Common.qml:88
 msgid "A dependency of the connection failed"
-msgstr "Fallou unha dependencia da conexión"
+msgstr "Unha dependencia da conexión fallou"
 
 #: ../plugins/hotspot/Common.qml:88 ../plugins/wifi/Common.qml:90
 msgid "ModemManager is unavailable"
@@ -1104,7 +1104,7 @@ msgstr "Non foi posíbel atopar a rede wifi"
 
 #: ../plugins/hotspot/Common.qml:92 ../plugins/wifi/Common.qml:94
 msgid "A secondary connection of the base connection failed"
-msgstr "Fallou a conexión secundaria da conexión base"
+msgstr "Unha conexión secundaria da conexión base fallou"
 
 #: ../plugins/hotspot/HotspotSetup.qml:61
 msgid "Change Hotspot Setup"
@@ -1346,7 +1346,7 @@ msgstr "Idiomas dispoñíbeis:"
 #: ../plugins/launcher/PageComponent.qml:31
 #: ../plugins/security-privacy/PhoneLocking.qml:138 ../build/po/settings.js:194
 msgid "Launcher"
-msgstr "Lanzador"
+msgstr "Iniciador"
 
 #: ../plugins/launcher/PageComponent.qml:65
 msgid "On large screens:"
@@ -1354,7 +1354,7 @@ msgstr "En pantallas grandes:"
 
 #: ../plugins/launcher/PageComponent.qml:73
 msgid "Always show the launcher"
-msgstr "Mostrar sempre o lanzador"
+msgstr "Mostrar sempre o iniciador"
 
 #: ../plugins/launcher/PageComponent.qml:74
 msgid "Videos and full-screen games may hide it temporarily."
@@ -1811,7 +1811,7 @@ msgstr "Restabelecer o dispositivo"
 #: ../plugins/reset/PageComponent.qml:75 ../plugins/reset/PageComponent.qml:86
 #: ../plugins/reset/ResetLauncherHome.qml:44
 msgid "Reset Launcher"
-msgstr "Restabelecer o lanzador"
+msgstr "Restabelecer o iniciador"
 
 #: ../plugins/reset/PageComponent.qml:101
 #: ../plugins/reset/PageComponent.qml:112
@@ -1828,7 +1828,7 @@ msgid ""
 "The contents and layout of the launcher, and the filters in the home screen "
 "will be returned to their original settings."
 msgstr ""
-"Os contidos e disposicións do lanzador, e os filtros na pantalla de inicio "
+"Os contidos e disposicións do iniciador, e os filtros na pantalla de inicio "
 "volverán aos axustes orixinais."
 
 #: ../plugins/reset/ResetAllSettings.qml:31
@@ -1837,7 +1837,7 @@ msgstr "Restabelecer todos os axustes do sistema"
 
 #: ../plugins/reset/ResetLauncherHome.qml:40
 msgid "The Launcher will be returned to its original contents."
-msgstr "O lanzador restabelecerá os contidos orixinais."
+msgstr "O iniciador restabelecerá os contidos orixinais."
 
 #: ../plugins/security-privacy/AppAccess.qml:29
 #: ../plugins/security-privacy/PageComponent.qml:259
@@ -2585,7 +2585,7 @@ msgstr "Actualizado o %1"
 
 #: ../plugins/system-update/UpdateDelegate.qml:310
 msgid "Update failed"
-msgstr "Fallou a actualización"
+msgstr "A actualización fallou"
 
 #: ../plugins/system-update/UpdateSettings.qml:60
 msgid "On WiFi"
@@ -3561,7 +3561,7 @@ msgstr "vibración"
 #. TRANSLATORS: This is a keyword or name for the launcher plugin which is used while searching
 #: ../build/po/settings.js:196
 msgid "launcher"
-msgstr "lanzador"
+msgstr "iniciador"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../build/po/settings.js:202
