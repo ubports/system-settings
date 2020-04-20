@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-12-09 14:10+0000\n"
-"Last-Translator: Dmitriy Pushkov <ezze@ezze.org>\n"
+"PO-Revision-Date: 2020-03-15 11:22+0000\n"
+"Last-Translator: Eugene Markoff <uralhistory@gmail.com>\n"
 "Language-Team: Russian <https://translate.ubports.com/projects/ubports/"
 "system-settings/ru/>\n"
 "Language: ru\n"
@@ -1664,8 +1664,9 @@ msgid "Last called %1"
 msgstr "Последний вызов %1"
 
 #: ../plugins/phone/ServiceInfo.qml:119
+#, fuzzy
 msgid "Call"
-msgstr "Позвонить"
+msgstr "Вызов"
 
 #. TRANSLATORS: %1 is the name of the (network) carrier
 #: ../plugins/phone/Services.qml:36 ../plugins/phone/SingleSim.qml:55
