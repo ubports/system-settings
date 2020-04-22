@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
 "PO-Revision-Date: 2020-04-23 15:23+0000\n"
-"Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
+"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports/"
 "system-settings/sc/>\n"
 "Language: sc\n"
@@ -623,7 +623,7 @@ msgstr "Connete in automàticu cando rilevat:"
 #: ../plugins/cellular/PageChooseApn.qml:201
 #: ../plugins/cellular/PageChooseApn.qml:266
 msgid "Disconnect"
-msgstr "Disconneta"
+msgstr "Disconnete"
 
 #: ../plugins/bluetooth/DevicePage.qml:150 ../plugins/wifi/OtherNetwork.qml:905
 msgid "Connect"
@@ -709,7 +709,7 @@ msgstr "Ischermu sena filos"
 #: ../plugins/brightness/WifiDisplays.qml:128
 #: ../plugins/brightness/WifiDisplays.qml:172
 msgid "Not connected"
-msgstr "Non collegadu"
+msgstr "Non connètidu"
 
 #: ../plugins/brightness/WifiDisplays.qml:27
 msgid "Wireless Display"
