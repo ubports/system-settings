@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2020-02-11 14:21+0000\n"
-"Last-Translator: Oi Suomi On! <oisuomion@protonmail.com>\n"
+"PO-Revision-Date: 2020-05-09 08:30+0000\n"
+"Last-Translator: Ville Vainionpaa <ville.vainionpaa@protonmail.com>\n"
 "Language-Team: Finnish <https://translate.ubports.com/projects/ubports/"
 "system-settings/fi/>\n"
 "Language: fi\n"
@@ -61,7 +61,7 @@ msgstr "Valitettavasti tämän lisenssin näyttäminen epäonnistui."
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../plugins/about/PageComponent.qml:35 ../build/po/settings.js:2
 msgid "About"
-msgstr "Tietoja"
+msgstr "Yleistä"
 
 #: ../plugins/about/PageComponent.qml:99
 msgid "Serial"
@@ -1992,7 +1992,7 @@ msgstr "Mitään ei pyydetty"
 #: ../plugins/security-privacy/LockSecurity.qml:137
 #: ../plugins/security-privacy/LockSecurity.qml:563
 msgid "Change passcode…"
-msgstr "Vaihda suojakoodia..."
+msgstr "Vaihda suojakoodi…"
 
 #: ../plugins/security-privacy/LockSecurity.qml:139
 #: ../plugins/security-privacy/LockSecurity.qml:564
@@ -2075,7 +2075,7 @@ msgstr "Pyyhkäisy (ei turvallinen)… "
 
 #: ../plugins/security-privacy/LockSecurity.qml:472
 msgid "4-digit passcode…"
-msgstr "Nelinumeroinen suojakoodi..."
+msgstr "Nelinumeroinen suojakoodi…"
 
 #: ../plugins/security-privacy/LockSecurity.qml:473
 msgid "Passphrase…"
