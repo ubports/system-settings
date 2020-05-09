@@ -80,7 +80,7 @@ add_custom_target(pot-py
 
 add_custom_target(pot DEPENDS pot-desktop pot-qml pot-cpp pot-py)
 
-set(languages "aa;af;am;ar;ast;az;be;bg;br;bs;ca;ckb;cs;cy;da;de;el;en_AU;en_GB;eo;es;eu;fa;fi;fr;ga;gd;gl;gu;he;hi;hr;hu;hy;ia;id;is;it;ja;km;ko;lo;lt;lv;ml;mr;ms;my;nb;nl;oc;pa;pl;pt;pt_BR;ro;ru;sa;sc;shn;si;sk;sl;sq;sr;st;sv;ta;te;th;tr;ug;uk;vi;xh;zh_CN;zh_HK;zh_TW")
+set(languages "aa;af;am;ar;ast;az;be;bg;br;bs;ca;ckb;cs;cy;da;de;el;en_AU;en_GB;eo;es;eu;fa;fi;fr;fr_CA;ga;gd;gl;gu;he;hi;hr;hu;hy;ia;id;is;it;ja;km;ko;lo;lt;lv;ml;mr;ms;my;nb;nl;oc;pa;pl;pt;pt_BR;ro;ru;sa;sc;shn;si;sk;sl;sq;sr;st;sv;ta;te;th;tr;ug;uk;vi;xh;zh_CN;zh_HK;zh_TW")
 foreach(i ${languages})
   add_custom_command(OUTPUT ${i}.mo
   COMMAND ${MSGFMT_BIN} ${CMAKE_CURRENT_SOURCE_DIR}/${i}.po -o ${CMAKE_CURRENT_BINARY_DIR}/${i}.mo
