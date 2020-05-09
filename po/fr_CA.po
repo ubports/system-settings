@@ -8,47 +8,53 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-05 20:03+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-05-09 08:30+0000\n"
+"Last-Translator: Ryan Argente <rargente@lonerider.one>\n"
+"Language-Team: French (Canada) <https://translate.ubports.com/projects/"
+"ubports/system-settings/fr_CA/>\n"
 "Language: fr_CA\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.8\n"
 
 #: ../plugins/about/DevMode.qml:34 ../plugins/about/DevMode.qml:90
 msgid "Developer Mode"
-msgstr ""
+msgstr "Mode développeur"
 
 #: ../plugins/about/DevMode.qml:83
 msgid ""
 "In Developer Mode, anyone can access, change or delete anything on this "
 "device by connecting it to another device."
 msgstr ""
+"En mode développeur, n'importe qui peut lire, modifier ou supprimer tout le "
+"contenu de cet appareil en le connectant à un autre."
 
 #: ../plugins/about/DevMode.qml:109
 msgid "You need a passcode or passphrase set to use Developer Mode."
 msgstr ""
+"Vous devez avoir défini un code ou un mot de passe pour utiliser le Mode "
+"Développeur."
 
 #: ../plugins/about/DevMode.qml:115
 #: ../plugins/security-privacy/LockSecurity.qml:36
 #: ../plugins/security-privacy/PhoneLocking.qml:66
 msgid "Lock security"
-msgstr ""
+msgstr "Sécurité du verrouillage"
 
 #: ../plugins/about/License.qml:29
 msgid "Sorry, this license could not be displayed."
-msgstr ""
+msgstr "Désolé, cette licence n'a pas pu être affichée."
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../plugins/about/PageComponent.qml:33 settings.js:328
 msgid "About"
-msgstr ""
+msgstr "À propos"
 
 #: ../plugins/about/PageComponent.qml:97
 msgid "Serial"
-msgstr ""
+msgstr "Numéro de série"
 
 #: ../plugins/about/PageComponent.qml:107
 #: ../plugins/about/PageComponent.qml:108
@@ -66,29 +72,29 @@ msgstr ""
 #: ../plugins/wifi/certhandler.cpp:224 ../plugins/wifi/certhandler.cpp:289
 #: ../plugins/wifi/certhandler.cpp:318
 msgid "None"
-msgstr ""
+msgstr "Aucun"
 
 #: ../plugins/about/PageComponent.qml:128
 msgid "Wi-Fi address"
-msgstr ""
+msgstr "Adresse Wi-Fi"
 
 #: ../plugins/about/PageComponent.qml:136
 msgid "Bluetooth address"
-msgstr ""
+msgstr "Adresse Bluetooth"
 
 #: ../plugins/about/PageComponent.qml:147 ../plugins/about/Storage.qml:31
 msgid "Storage"
-msgstr ""
+msgstr "Stockage"
 
 #. TRANSLATORS: that's the free disk space, indicated in the most appropriate storage unit
 #: ../plugins/about/PageComponent.qml:149
 #, qt-format
 msgid "%1 free"
-msgstr ""
+msgstr "%1 libre"
 
 #: ../plugins/about/PageComponent.qml:157
 msgid "Software:"
-msgstr ""
+msgstr "Logiciel :"
 
 #: ../plugins/about/PageComponent.qml:169
 msgid "OS"
@@ -96,7 +102,7 @@ msgstr ""
 
 #: ../plugins/about/PageComponent.qml:181
 msgid "Last updated"
-msgstr ""
+msgstr "Dernière mise à jour"
 
 #: ../plugins/about/PageComponent.qml:183
 #: ../plugins/battery/PageComponent.qml:320
@@ -108,35 +114,35 @@ msgstr ""
 #: ../plugins/system-update/UpdateSettings.qml:58
 #: ../plugins/wifi/NetworkDetails.qml:67
 msgid "Never"
-msgstr ""
+msgstr "Jamais"
 
 #: ../plugins/about/PageComponent.qml:191
 msgid "Check for updates"
-msgstr ""
+msgstr "Vérifier l'existence de mises à jour"
 
 #: ../plugins/about/PageComponent.qml:216
 msgid "Legal:"
-msgstr ""
+msgstr "Licence :"
 
 #: ../plugins/about/PageComponent.qml:221 ../plugins/about/Software.qml:11
 msgid "Software licenses"
-msgstr ""
+msgstr "Licences des logiciels"
 
 #: ../plugins/about/PageComponent.qml:228
 msgid "Regulatory info"
-msgstr ""
+msgstr "Informations réglementaires"
 
 #: ../plugins/about/PageComponent.qml:235
 msgid "Developer mode"
-msgstr ""
+msgstr "Mode développeur"
 
 #: ../plugins/about/Storage.qml:43
 msgid "Scanning"
-msgstr ""
+msgstr "Analyse"
 
 #: ../plugins/about/Storage.qml:106
 msgid "Used by Ubuntu"
-msgstr ""
+msgstr "Utilisé par Ubuntu"
 
 #: ../plugins/about/Storage.qml:107
 msgid "Videos"
