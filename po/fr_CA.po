@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-05 20:03+0000\n"
-"PO-Revision-Date: 2020-05-11 21:24+0000\n"
+"PO-Revision-Date: 2020-05-21 08:24+0000\n"
 "Last-Translator: Ryan Argente <rargente@lonerider.one>\n"
 "Language-Team: French (Canada) <https://translate.ubports.com/projects/"
 "ubports/system-settings/fr_CA/>\n"
@@ -98,7 +98,7 @@ msgstr "Logiciel :"
 
 #: ../plugins/about/PageComponent.qml:169
 msgid "OS"
-msgstr ""
+msgstr "Système d'exploitation"
 
 #: ../plugins/about/PageComponent.qml:181
 msgid "Last updated"
@@ -187,11 +187,11 @@ msgstr "S/O"
 
 #: ../plugins/about/Version.qml:33
 msgid "OS Build Details"
-msgstr ""
+msgstr "Détails de la version du système d'exploitation"
 
 #: ../plugins/about/Version.qml:60
 msgid "OS build number"
-msgstr ""
+msgstr "Numéro de la version du système d'exploitation"
 
 #: ../plugins/about/Version.qml:66
 msgid "UBports Image part"
@@ -292,7 +292,7 @@ msgstr "Supprimer l'image"
 #: ../plugins/security-privacy/LockSecurity.qml:391
 #: ../plugins/time-date/TimePicker.qml:181
 msgid "Set"
-msgstr ""
+msgstr "Valider"
 
 #. TRANSLATORS: This is a keyword or name for the battery plugin which is used while searching
 #: ../plugins/battery/PageComponent.qml:35 settings.js:94
@@ -646,108 +646,108 @@ msgstr ""
 
 #: ../plugins/bluetooth/PageComponent.qml:252
 msgid "Discoverable"
-msgstr ""
+msgstr "Découvrable"
 
 #: ../plugins/bluetooth/PageComponent.qml:252
 msgid "Not discoverable"
-msgstr ""
+msgstr "Non découvrable"
 
 #: ../plugins/bluetooth/PageComponent.qml:260
 #: ../plugins/bluetooth/PageComponent.qml:319
 msgid "Searching…"
-msgstr ""
+msgstr "Recherche…"
 
 #: ../plugins/bluetooth/PageComponent.qml:269
 msgid "Connected devices:"
-msgstr ""
+msgstr "Appareils connectés :"
 
 #: ../plugins/bluetooth/PageComponent.qml:309
 msgid "Connect a device:"
-msgstr ""
+msgstr "Connecter un appareil :"
 
 #: ../plugins/bluetooth/PageComponent.qml:309
 msgid "Connect another device:"
-msgstr ""
+msgstr "Connecter un autre appareil :"
 
 #: ../plugins/bluetooth/PageComponent.qml:352
 msgid "None detected"
-msgstr ""
+msgstr "Aucun détecté"
 
 #: ../plugins/bluetooth/ProvidePasskeyDialog.qml:36
 #: ../plugins/bluetooth/ProvidePinCodeDialog.qml:36
 #, qt-format
 msgid "PIN for '%1'"
-msgstr ""
+msgstr "Code PIN pour '%1'"
 
 #: ../plugins/bluetooth/ProvidePasskeyDialog.qml:62
 #: ../plugins/bluetooth/ProvidePinCodeDialog.qml:63
 msgid "Pair"
-msgstr ""
+msgstr "Apparier"
 
 #. TRANSLATORS: This is a keyword or name for the brightness plugin which is used while searching
 #: ../plugins/brightness/PageComponent.qml:35 settings.js:198
 msgid "Brightness"
-msgstr ""
+msgstr "Luminosité"
 
 #: ../plugins/brightness/PageComponent.qml:35
 msgid "Brightness & Display"
-msgstr ""
+msgstr "Luminosité et affichage"
 
 #: ../plugins/brightness/PageComponent.qml:116
 msgid "Adjust automatically"
-msgstr ""
+msgstr "Ajuster automatiquement"
 
 #: ../plugins/brightness/PageComponent.qml:131
 msgid "Brightens and dims the display to suit the surroundings."
-msgstr ""
+msgstr "Augmente et diminue la luminosité pour s'adapter à l'environnement."
 
 #: ../plugins/brightness/PageComponent.qml:140
 msgid "External display"
-msgstr ""
+msgstr "Affichage externe"
 
 #: ../plugins/brightness/PageComponent.qml:158
 msgid "Wireless display"
-msgstr ""
+msgstr "Affichage sans fil"
 
 #: ../plugins/brightness/PageComponent.qml:159
 #: ../plugins/brightness/WifiDisplays.qml:128
 #: ../plugins/brightness/WifiDisplays.qml:172
 msgid "Not connected"
-msgstr ""
+msgstr "Non connecté"
 
 #: ../plugins/brightness/WifiDisplays.qml:27
 msgid "Wireless Display"
-msgstr ""
+msgstr "Affichage sans fil"
 
 #: ../plugins/brightness/WifiDisplays.qml:100
 msgid "No displays detected"
-msgstr ""
+msgstr "Aucun écran détecté"
 
 #: ../plugins/brightness/WifiDisplays.qml:113
 msgid "Connected display:"
-msgstr ""
+msgstr "Affichage connecté :"
 
 #: ../plugins/brightness/WifiDisplays.qml:128
 msgid "Connecting"
-msgstr ""
+msgstr "Connexion"
 
 #: ../plugins/brightness/WifiDisplays.qml:146
 msgid "Choose a display:"
-msgstr ""
+msgstr "Choisissez un écran :"
 
 #: ../plugins/brightness/WifiDisplays.qml:146
 msgid "Use another display:"
-msgstr ""
+msgstr "Utiliser un autre écran :"
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:32
 #, qt-format
 msgid "This device failed to connect to %1."
-msgstr ""
+msgstr "Cet appareil n'a pas pu se connecter à %1."
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:34
 #, qt-format
 msgid "There was an unknown error connecting to %1."
-msgstr ""
+msgstr "Une erreur inconnue est survenue en se connectant à %1."
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:38
 #: ../plugins/cellular/Components/SimEditor.qml:214
@@ -764,12 +764,12 @@ msgstr "Données cellulaires"
 #: ../plugins/cellular/Components/DataMultiSim.qml:73
 #: ../plugins/cellular/Components/NoSim.qml:36
 msgid "No SIM detected"
-msgstr ""
+msgstr "Aucune carte SIM détectée"
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:81
 #: ../plugins/cellular/Components/NoSim.qml:45
 msgid "Insert a SIM, then restart the device."
-msgstr ""
+msgstr "Insérez une carte SIM, puis redémarrez l'appareil."
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:147
 #: ../plugins/cellular/Components/SingleSim.qml:92
@@ -778,21 +778,23 @@ msgstr ""
 
 #: ../plugins/cellular/Components/DefaultSim.qml:33
 msgid "Ask me each time"
-msgstr ""
+msgstr "Me demander à chaque fois"
 
 #: ../plugins/cellular/Components/DefaultSim.qml:40
 msgid "For outgoing calls, use:"
-msgstr ""
+msgstr "Pour les appels sortants, utiliser :"
 
 #: ../plugins/cellular/Components/DefaultSim.qml:57
 msgid ""
 "You can change the SIM for individual calls, or for contacts in the address "
 "book."
 msgstr ""
+"Vous pouvez changer de carte SIM pour les appels individuels ou pour les "
+"contacts dans le carnet d’adresse."
 
 #: ../plugins/cellular/Components/DefaultSim.qml:62
 msgid "For messages, use:"
-msgstr ""
+msgstr "Pour les messages, utiliser :"
 
 #. TRANSLATORS: This is the text that will be used on the "return" key for the virtual keyboard,
 #. this word must be less than 5 characters
@@ -803,41 +805,41 @@ msgstr "Suivant"
 #: ../plugins/cellular/Components/MultiSim.qml:55
 #: ../plugins/cellular/Components/SingleSim.qml:105
 msgid "Data usage statistics"
-msgstr ""
+msgstr "Données sur les statistiques d'utilisation"
 
 #: ../plugins/cellular/Components/MultiSim.qml:60
 msgid "Carriers"
-msgstr ""
+msgstr "Opérateurs"
 
 #: ../plugins/cellular/Components/MultiSim.qml:83
 #: ../plugins/cellular/Components/RadioSingleSim.qml:31
 msgid "Connection type:"
-msgstr ""
+msgstr "Type de connexion :"
 
 #: ../plugins/cellular/Components/Sim.qml:46
 msgid "2G only (saves battery)"
-msgstr ""
+msgstr "2G seulement (économise la batterie)"
 
 #: ../plugins/cellular/Components/Sim.qml:47
 msgid "2G/3G"
-msgstr ""
+msgstr "2G/3G"
 
 #: ../plugins/cellular/Components/Sim.qml:48
 msgid "2G/3G/4G"
-msgstr ""
+msgstr "2G/3G/4G"
 
 #: ../plugins/cellular/Components/SimEditor.qml:88
 msgid "Edit SIM Name"
-msgstr ""
+msgstr "Modifier le nom de la carte SIM"
 
 #: ../plugins/cellular/Components/SingleSim.qml:69
 msgid "Cellular data:"
-msgstr ""
+msgstr "Données cellulaires :"
 
 #: ../plugins/cellular/Components/SingleSim.qml:110
 #: ../plugins/cellular/PageCarrierAndApn.qml:27
 msgid "Carrier & APN"
-msgstr ""
+msgstr "Operateur et nom du point d’accès"
 
 #: ../plugins/cellular/PageApnEditor.qml:71
 msgid "Edit"
@@ -845,35 +847,35 @@ msgstr "Modifier"
 
 #: ../plugins/cellular/PageApnEditor.qml:71
 msgid "New APN"
-msgstr ""
+msgstr "Nouveau nom de point d'accès"
 
 #: ../plugins/cellular/PageApnEditor.qml:132
 msgid "Used for:"
-msgstr ""
+msgstr "Utilisé pour :"
 
 #: ../plugins/cellular/PageApnEditor.qml:136
 #: ../plugins/cellular/PageChooseApn.qml:107
 msgid "Internet and MMS"
-msgstr ""
+msgstr "Internet et MMS"
 
 #: ../plugins/cellular/PageApnEditor.qml:137
 #: ../plugins/cellular/PageChooseApn.qml:109
 msgid "Internet"
-msgstr ""
+msgstr "Internet"
 
 #: ../plugins/cellular/PageApnEditor.qml:138
 #: ../plugins/cellular/PageChooseApn.qml:113
 msgid "MMS"
-msgstr ""
+msgstr "MMS"
 
 #: ../plugins/cellular/PageApnEditor.qml:139
 #: ../plugins/cellular/PageChooseApn.qml:111
 msgid "LTE"
-msgstr ""
+msgstr "LTE"
 
 #: ../plugins/cellular/PageApnEditor.qml:166
 msgid "Enter a name describing the APN"
-msgstr ""
+msgstr "Saisissez un nom décrivant le point d’accès"
 
 #. TRANSLATORS: This string is a description of a text
 #. field and should thus be concise.
@@ -882,11 +884,11 @@ msgstr ""
 #: ../plugins/cellular/PageCarriersAndApns.qml:71
 #: ../plugins/cellular/PageChooseApn.qml:41
 msgid "APN"
-msgstr ""
+msgstr "Nom du point d’accès"
 
 #: ../plugins/cellular/PageApnEditor.qml:192
 msgid "Enter the name of the access point"
-msgstr ""
+msgstr "Saisissez le nom du point d'accès"
 
 #: ../plugins/cellular/PageApnEditor.qml:206
 msgid "MMSC"
@@ -894,7 +896,7 @@ msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:216
 msgid "Enter message center"
-msgstr ""
+msgstr "Renseignez le centre de messages"
 
 #: ../plugins/cellular/PageApnEditor.qml:234
 msgid "Proxy"
@@ -902,23 +904,23 @@ msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:244
 msgid "Enter message proxy"
-msgstr ""
+msgstr "Renseignez le proxy de messages"
 
 #: ../plugins/cellular/PageApnEditor.qml:289
 msgid "Proxy port"
-msgstr ""
+msgstr "Port du proxy"
 
 #: ../plugins/cellular/PageApnEditor.qml:300
 msgid "Enter message proxy port"
-msgstr ""
+msgstr "Renseignez le port du proxy de messages"
 
 #: ../plugins/cellular/PageApnEditor.qml:318
 msgid "User name"
-msgstr ""
+msgstr "Nom d'utilisateur"
 
 #: ../plugins/cellular/PageApnEditor.qml:328
 msgid "Enter username"
-msgstr ""
+msgstr "Saisissez le nom d'utilisateur"
 
 #: ../plugins/cellular/PageApnEditor.qml:341
 #: ../plugins/wifi/NetworkDetails.qml:72 ../plugins/wifi/OtherNetwork.qml:786
@@ -927,12 +929,12 @@ msgstr "Mot de passe"
 
 #: ../plugins/cellular/PageApnEditor.qml:353
 msgid "Enter password"
-msgstr ""
+msgstr "Saisissez le mot de passe"
 
 #: ../plugins/cellular/PageApnEditor.qml:367
 #: ../plugins/wifi/OtherNetwork.qml:338
 msgid "Authentication"
-msgstr ""
+msgstr "Authentification"
 
 #: ../plugins/cellular/PageApnEditor.qml:372
 msgid "PAP or CHAP"
@@ -948,19 +950,19 @@ msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:385
 msgid "Protocol"
-msgstr ""
+msgstr "Protocole"
 
 #: ../plugins/cellular/PageApnEditor.qml:389
 msgid "IPv4"
-msgstr ""
+msgstr "IPv4"
 
 #: ../plugins/cellular/PageApnEditor.qml:390
 msgid "IPv6"
-msgstr ""
+msgstr "IPv6"
 
 #: ../plugins/cellular/PageApnEditor.qml:391
 msgid "IPv4v6"
-msgstr ""
+msgstr "IPv4v6"
 
 #: ../plugins/cellular/PageCarrierAndApn.qml:45
 #: ../plugins/cellular/PageCarrierAndApn.qml:54
@@ -968,11 +970,11 @@ msgstr ""
 #: ../plugins/cellular/PageChooseCarrier.qml:32
 #: ../plugins/cellular/PageChooseCarrier.qml:129
 msgid "Carrier"
-msgstr ""
+msgstr "Opérateur"
 
 #: ../plugins/cellular/PageCarriersAndApns.qml:27
 msgid "Carriers & APNs"
-msgstr ""
+msgstr "Opérateurs et noms des points d'accès"
 
 #: ../plugins/cellular/PageChooseApn.qml:85
 msgid "MMS APN"
