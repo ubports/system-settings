@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2020-05-21 08:24+0000\n"
-"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
+"PO-Revision-Date: 2020-05-23 08:24+0000\n"
+"Last-Translator: demode-root <walter.klosse@protonmail.com>\n"
 "Language-Team: Czech <https://translate.ubports.com/projects/ubports/"
 "system-settings/cs/>\n"
 "Language: cs\n"
@@ -1723,7 +1723,7 @@ msgstr "Volitelný"
 #: ../plugins/security-privacy/PageComponent.qml:240
 #: ../plugins/printing/printer-sub-pages/Status.qml:72
 msgid "Location"
-msgstr "Umístění"
+msgstr "Poloha"
 
 #: ../plugins/printing/AddPrinterDetails.qml:219
 msgid "Driver"
