@@ -18,6 +18,7 @@
  * with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
+import GSettings 1.0
 import QtQuick 2.4
 import SystemSettings 1.0
 import SystemSettings.ListItems 1.0 as SettingsListItems
@@ -25,6 +26,7 @@ import Ubuntu.Components 1.3
 import Ubuntu.Components.ListItems 1.3 as ListItems
 import Ubuntu.Components.Popups 1.3
 import Ubuntu.SystemSettings.TimeDate 1.1
+import Ubuntu.Settings.Components 0.1 as USC
 
 ItemPage {
     id: root
@@ -39,6 +41,11 @@ ItemPage {
         var offset = new Date().getTimezoneOffset() / -60
         var plus = offset >= 0 ? "+" : ""
         return "UTC" + plus + offset
+    }
+    
+    GSettings {
+        id: indicatorDatetime
+        schema.id: "com.canonical.indicator.datetime"
     }
 
     UbuntuTimeDatePanel {
@@ -130,6 +137,69 @@ ItemPage {
                                     // Milliseconds to microseconds
                                     timeDatePanel.setTime(newDate.getTime() * 1000)
                     })
+                }
+            }
+            
+            SettingsItemTitle {
+                text: i18n.tr("In the top panel:")
+            }
+            
+            SettingsListItems.Icon {
+                id: calendarListItem
+                text: i18n.tr("Calendar")
+                iconName: "calendar"
+
+                Loader {
+                    sourceComponent: Switch {
+                        id: calendarSwitch
+                        property bool serverChecked: indicatorDatetime.showCalendar
+
+                        USC.ServerPropertySynchroniser {
+                            userTarget: calendarSwitch
+                            userProperty: "checked"
+                            serverTarget: calendarSwitch
+                            serverProperty: "serverChecked"
+
+                            onSyncTriggered: indicatorDatetime.showCalendar = checked
+                        }
+                    }
+                }
+            }
+            
+            SettingsListItems.Standard {
+                visible: indicatorDatetime.showCalendar
+                anchors.left: parent.left
+                anchors.leftMargin: units.gu(2)
+                CheckBox {
+                    objectName: "showWeekNumbers"
+                    SlotsLayout.position: SlotsLayout.First
+                    property bool serverChecked: indicatorDatetime.showWeekNumbers
+                    onServerCheckedChanged: checked = serverChecked
+                    Component.onCompleted: checked = serverChecked
+                    onTriggered: indicatorDatetime.showWeekNumbers = checked
+                }
+                text: i18n.tr("Week numbers")
+            }
+            
+            SettingsListItems.Icon {
+                id: eventsListItem
+                text: i18n.tr("Events")
+                iconName: "event"
+
+                Loader {
+                    sourceComponent: Switch {
+                        id: eventsSwitch
+                        property bool serverChecked: indicatorDatetime.showEvents
+
+                        USC.ServerPropertySynchroniser {
+                            userTarget: eventsSwitch
+                            userProperty: "checked"
+                            serverTarget: eventsSwitch
+                            serverProperty: "serverChecked"
+
+                            onSyncTriggered: indicatorDatetime.showEvents = checked
+                        }
+                    }
                 }
             }
         }
