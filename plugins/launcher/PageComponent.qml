@@ -24,6 +24,7 @@ import Ubuntu.Components 1.3
 import Ubuntu.Settings.Components 0.1 as USC
 import Ubuntu.Settings.Menus 0.1 as Menus
 import Ubuntu.SystemSettings.Launcher 1.0
+import Ubuntu.Components.Popups 1.3
 
 ItemPage {
     id: root
@@ -31,19 +32,21 @@ ItemPage {
     title: i18n.tr("Launcher")
     flickable: flick
 
-    /* The introductory label “On large displays:” should be present if the
-    current display does not fall into <the large screen> category (to explain
-    why the settings aren’t applying to the display that you’re looking at). */
+    /* Some settings are only displayed when a large display is available since desktop mode
+    isn't really used much on smaller screens. */
     property bool largeScreenAvailable: {
         var currentScreen = LauncherPanelPlugin.getCurrentScreenNumber();
         for (var i=0; i < LauncherPanelPlugin.screens; i++) {
             if (LauncherPanelPlugin.screenGeometry(i).width > units.gu(90)) {
-                if (currentScreen === i) {
-                    return false;
-                }
+                return true;
             }
         }
-        return true; // No large screens were the current one.
+        return false; // No large screens.
+    }
+    
+    Loader {
+        id: buttonActions
+        asynchronous: false
     }
 
     Flickable {
@@ -62,7 +65,7 @@ ItemPage {
             spacing: units.gu(1)
 
             SettingsItemTitle {
-                text: i18n.tr("On large screens:")
+                text: i18n.tr("On desktop mode:")
                 objectName: "largeScreenLabel"
                 visible: largeScreenAvailable
             }
@@ -72,6 +75,7 @@ ItemPage {
                 objectName: "alwaysShowLauncher"
                 text: i18n.tr("Always show the launcher")
                 layout.subtitle.text: i18n.tr("Videos and full-screen games may hide it temporarily.")
+                visible: largeScreenAvailable
 
                 Switch {
                     id: alwaysShowLauncherSwitch
@@ -80,27 +84,78 @@ ItemPage {
                     onTriggered: unity8Settings.autohideLauncher = !checked
                 }
             }
-
-            Menus.SliderMenu {
+            
+            Label {
+                anchors {
+                    left: parent.left
+                    right: parent.right
+                    margins: units.gu(2)
+                }
                 text: i18n.tr("Icon size:")
+                height: units.gu(6)
+                verticalAlignment: Text.AlignVCenter
+            }
+            
+            ListItem {
+            
+                Button {
+                    id: widthResetButton
+                    anchors.verticalCenter: parent.verticalCenter
+                    anchors.left: parent.left
+                    anchors.leftMargin: units.gu(2)
 
-                id: iconWidth
-                objectName: "iconWidth"
-                function formatValue(v) { return v.toFixed(2) }
-                minimumValue: 6
-                maximumValue: 12
-                value: unity8Settings.launcherWidth
-                live: true
+                    action: Action {
+                        text: i18n.tr("Reset")
+                        onTriggered: {
+                            unity8Settings.schema.reset("launcherWidth")
+                        }
+                    }
+                }
 
-                property real serverValue: unity8Settings.launcherWidth
-                USC.ServerPropertySynchroniser {
-                    userTarget: iconWidth
-                    userProperty: "value"
-                    serverTarget: iconWidth
-                    serverProperty: "serverValue"
-                    maximumWaitBufferInterval: 16
+                Slider {
+                    id: iconWidth
+                    objectName: "iconWidth"
+                    function formatValue(v) { return v.toFixed(2) }
+                    minimumValue: 6
+                    maximumValue: 12
+                    value: unity8Settings.launcherWidth
+                    live: true
+                    
+                    anchors {
+                        verticalCenter: parent.verticalCenter
+                        left: widthResetButton.right
+                        right: parent.right
+                        margins: units.gu(2)
+                    }
 
-                    onSyncTriggered: unity8Settings.launcherWidth = value
+                    property real serverValue: unity8Settings.launcherWidth
+                    USC.ServerPropertySynchroniser {
+                        userTarget: iconWidth
+                        userProperty: "value"
+                        serverTarget: iconWidth
+                        serverProperty: "serverValue"
+                        maximumWaitBufferInterval: 16
+
+                        onSyncTriggered: unity8Settings.launcherWidth = value
+                    }
+                }
+            }
+            
+            Button {
+                id: resetLauncherHomeButton
+                objectName: "resetLauncher"
+                text: i18n.tr("Reset Launcher")
+                color: theme.palette.normal.negative
+                
+                anchors {
+                    left: parent.left
+                    right: parent.right
+                    margins: units.gu(2)
+                }
+                
+                onClicked: {
+                    buttonActions.source = "../reset/ResetLauncherHome.qml";
+                    root.popup = PopupUtils.open(buttonActions.item);
                 }
             }
         }
@@ -110,5 +165,10 @@ ItemPage {
         id: unity8Settings
         objectName: "unity8Settings"
         schema.id: "com.canonical.Unity8"
+    }
+    
+    GSettings {
+        id: unitySettings
+        schema.id: "com.canonical.Unity.Launcher"
     }
 }
