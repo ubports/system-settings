@@ -299,16 +299,16 @@ ItemPage {
             }
             
             SettingsListItems.Standard {
-                    CheckBox {
-                        objectName: "batteryPercentage"
-                        SlotsLayout.position: SlotsLayout.First
-                        property bool serverChecked: indicatorSettings.showPercentage
-                        onServerCheckedChanged: checked = serverChecked
-                        Component.onCompleted: checked = serverChecked
-                        onTriggered: indicatorSettings.showPercentage = checked
-                    }
-                    text: i18n.tr("Show battery percentage")
+                CheckBox {
+                    objectName: "batteryPercentage"
+                    SlotsLayout.position: SlotsLayout.First
+                    property bool serverChecked: indicatorSettings.showPercentage
+                    onServerCheckedChanged: checked = serverChecked
+                    Component.onCompleted: checked = serverChecked
+                    onTriggered: indicatorSettings.showPercentage = checked
                 }
+                text: i18n.tr("Show battery percentage")
+            }
 
             SettingsItemTitle {
                 text: i18n.tr("Ways to reduce battery use:")
