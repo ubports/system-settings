@@ -109,6 +109,13 @@ ItemPage {
 
                     onSyncTriggered: indicatorPower.brightness.updateState(value / 100.0)
                 }
+                
+                /* Disables interaction with the slider when auto-brightness is enabled.
+                The property "enabled" cannot be used because it also disables the live update */
+                MouseArea {
+                    anchors.fill: parent
+                    enabled: gsettings.autoBrightness
+                }
             }
 
             ListItem.Standard {
