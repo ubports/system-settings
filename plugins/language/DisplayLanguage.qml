@@ -46,9 +46,24 @@ PopupBase {
         initialCancel = i18n.tr("Cancel")
     }
     
-    PageHeader {
+    header: PageHeader {
     id: head
     title: i18n.tr("Display language")
+        trailingActionBar { actions: [
+                    Action {
+                        id: setAction
+                        text: i18n.tr("Confirm")
+                        enabled: languageList.currentIndex != plugin.currentLanguage
+                        iconName: "tick"
+                        onTriggered: {
+                            var oldLang = plugin.currentLanguage;
+                            var newLang = languageList.currentIndex;
+                            languageChanged(newLang, oldLang);
+                            plugin.currentLanguage = newLang;
+                            PopupUtils.close(root)
+                        }
+                    }                  
+                }
     }
 
   
