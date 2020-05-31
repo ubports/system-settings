@@ -46,9 +46,20 @@ PopupBase {
         initialCancel = i18n.tr("Cancel")
     }
     
-    header: PageHeader {
-    id: head
-    title: i18n.tr("Display language")
+    PageHeader {
+        id: head
+        title: i18n.tr("Display language")
+        leadingActionBar.actions: [
+            Action {
+                iconName: "back"
+                text: i18n.tr("Back")
+                  onTriggered: {
+                      i18n.language = initialLanguage
+                      PopupUtils.close(root)
+                  }
+            }
+        ]
+
         trailingActionBar { actions: [
                     Action {
                         id: setAction
@@ -62,7 +73,7 @@ PopupBase {
                             plugin.currentLanguage = newLang;
                             PopupUtils.close(root)
                         }
-                    }                  
+                    }]               
                 }
     }
 
@@ -76,7 +87,7 @@ PopupBase {
         anchors.top: head.bottom
         anchors.left: parent.left
         anchors.right: parent.right
-        anchors.bottom: divider.top
+        anchors.bottom: parent.top
 
         contentHeight: contentItem.childrenRect.height
         boundsBehavior: contentHeight > root.height ? Flickable.DragAndOvershootBounds : Flickable.StopAtBounds
@@ -99,64 +110,6 @@ PopupBase {
 
         onCurrentIndexChanged: {
             i18n.language = plugin.languageCodes[currentIndex]
-        }
-    }
-
-    ListItem.ThinDivider {
-        id: divider
-
-        anchors.bottom: buttonRectangle.top
-    }
-
-    Item {
-        id: buttonRectangle
-
-        height: cancelButton.height + units.gu(2)
-
-        anchors.left: parent.left
-        anchors.right: parent.right
-        anchors.bottom: parent.bottom
-
-        Button {
-            id: cancelButton
-            objectName: "cancelChangeLanguage"
-            text: initialCancel
-
-            anchors.left: parent.left
-            anchors.right: parent.horizontalCenter
-            anchors.bottom: parent.bottom
-            anchors.topMargin: units.gu(1)
-            anchors.leftMargin: units.gu(2)
-            anchors.rightMargin: units.gu(1)
-            anchors.bottomMargin: units.gu(1)
-
-            onClicked: {
-                i18n.language = initialLanguage
-                PopupUtils.close(root)
-            }
-        }
-
-        Button {
-            id: confirmButton
-            objectName: "confirmChangeLanguage"
-            text: i18n.tr("Confirm")
-            enabled: languageList.currentIndex != plugin.currentLanguage
-
-            anchors.left: parent.horizontalCenter
-            anchors.right: parent.right
-            anchors.bottom: parent.bottom
-            anchors.topMargin: units.gu(1)
-            anchors.leftMargin: units.gu(1)
-            anchors.rightMargin: units.gu(2)
-            anchors.bottomMargin: units.gu(1)
-
-            onClicked: {
-                var oldLang = plugin.currentLanguage;
-                var newLang = languageList.currentIndex;
-                languageChanged(newLang, oldLang);
-                plugin.currentLanguage = newLang;
-                PopupUtils.close(root);
-            }
         }
     }
 }
