@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2020-05-09 08:30+0000\n"
-"Last-Translator: Ville Vainionpaa <ville.vainionpaa@protonmail.com>\n"
+"PO-Revision-Date: 2020-06-01 16:24+0000\n"
+"Last-Translator: Pekka Kärkkäinen <pakarkka@gmail.com>\n"
 "Language-Team: Finnish <https://translate.ubports.com/projects/ubports/"
 "system-settings/fi/>\n"
 "Language: fi\n"
@@ -2618,7 +2618,7 @@ msgstr "Ei vastaavaa paikkaa"
 #. TRANSLATORS: This is a keyword or name for the time-date plugin which is used while searching
 #: ../plugins/time-date/PageComponent.qml:31 ../build/po/settings.js:370
 msgid "Time and Date"
-msgstr "Aseta kellonaika ja päivämäärä"
+msgstr "Aika ja päiväys"
 
 #: ../plugins/time-date/PageComponent.qml:64
 msgid "Time zone:"
