@@ -87,7 +87,7 @@ PopupBase {
         anchors.top: head.bottom
         anchors.left: parent.left
         anchors.right: parent.right
-        anchors.bottom: parent.top
+        anchors.bottom: parent.bottom
 
         contentHeight: contentItem.childrenRect.height
         boundsBehavior: contentHeight > root.height ? Flickable.DragAndOvershootBounds : Flickable.StopAtBounds
