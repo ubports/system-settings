@@ -58,22 +58,22 @@ Item {
         function test_no_always_show_launcher_switch() {
             /* I.e. No large screen is available. Assumes currentScreenNumber is 0. */
             var label = findChild(instance, "largeScreenLabel");
-            var switch = findChild(instance, "alwaysShowLauncher");
+            var toggle = findChild(instance, "alwaysShowLauncher");
             LauncherPanelPlugin.setScreenGeometry(0, 0, 0, 100, 100);
             LauncherPanelPlugin.setScreens(1);
             verify(!label.visible);
-            verify(!switch.visible);
+            verify(!toggle.visible);
         }
 
         function test_always_show_launcher_switch_show() {
             /* I.e. There's a large screen available. */
             var label = findChild(instance, "largeScreenLabel");
-            var switch = findChild(instance, "alwaysShowLauncher");
+            var toggle = findChild(instance, "alwaysShowLauncher");
             LauncherPanelPlugin.setScreenGeometry(0, 0, 0, 100, 100); // small
             LauncherPanelPlugin.setScreenGeometry(1, 0, 0, largeScreen, 100);
             LauncherPanelPlugin.setScreens(2);
             verify(label.visible);
-            verify(switch.visible);
+            verify(toggle.visible);
         }
 
         function test_always_show_launcher_switch() {
