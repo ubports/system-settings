@@ -178,9 +178,10 @@ ItemPage {
                     Component.onCompleted: checked = serverChecked
                     onTriggered: indicatorDatetime.showWeekNumbers = checked
                 }
-                text: i18n.tr("Week numbers")
+                text: i18n.tr("Show week numbers")
             }
             
+            /* Hidden for now because it stopped working sometime in the past
             SettingsListItems.Icon {
                 id: eventsListItem
                 text: i18n.tr("Events")
@@ -201,7 +202,7 @@ ItemPage {
                         }
                     }
                 }
-            }
+            } */
         }
     }
 }
