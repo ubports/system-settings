@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2020-06-01 16:24+0000\n"
+"PO-Revision-Date: 2020-06-07 11:24+0000\n"
 "Last-Translator: Pekka Kärkkäinen <pakarkka@gmail.com>\n"
 "Language-Team: Finnish <https://translate.ubports.com/projects/ubports/"
 "system-settings/fi/>\n"
@@ -46,7 +46,7 @@ msgstr ""
 
 #: ../plugins/about/DevMode.qml:110
 msgid "You need a passcode or passphrase set to use Developer Mode."
-msgstr "Tarvitset suojakoodin tai salasanan käyttääksesi kehittäjätilaa"
+msgstr "Tarvitset suojakoodin tai salasanan käyttääksesi kehittäjätilaa."
 
 #: ../plugins/about/DevMode.qml:116
 #: ../plugins/security-privacy/LockSecurity.qml:36
@@ -692,7 +692,7 @@ msgstr "Säädä automaattisesti"
 
 #: ../plugins/brightness/PageComponent.qml:131
 msgid "Brightens and dims the display to suit the surroundings."
-msgstr "Näytön kirkkauden säätö ympäristöön sopivaksi"
+msgstr "Näytön kirkkauden säätö ympäristöön sopivaksi."
 
 #: ../plugins/brightness/PageComponent.qml:140
 msgid "External display"
@@ -1342,7 +1342,7 @@ msgstr "Nykyiset oikeinkirjoituksen kielet:"
 
 #: ../plugins/language/SpellChecking.qml:65
 msgid "All languages available:"
-msgstr "Kaikki saatavillat olevat kielet:"
+msgstr "Kaikki saatavilla olevat kielet:"
 
 #. TRANSLATORS: This is a keyword or name for the launcher plugin which is used while searching
 #: ../plugins/launcher/PageComponent.qml:31
@@ -1475,7 +1475,7 @@ msgstr "Värinät"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:137
 msgid "Notification Bubbles"
-msgstr "Ilmoituskeskusta"
+msgstr "Kuplat"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:160
 #: ../plugins/notifications/PageComponent.qml:186
@@ -1571,7 +1571,7 @@ msgstr "En vastaa puheluun"
 
 #: ../plugins/phone/CallForwarding.qml:197
 msgid "My phone is unreachable"
-msgstr "kun puhelin ei ole tavoitettavissa"
+msgstr "Puhelin ei ole tavoitettavissa"
 
 #: ../plugins/phone/CallForwarding.qml:227
 msgid "Contacts…"
@@ -2605,7 +2605,7 @@ msgstr "Aseta aikavyöhyke:"
 #: ../plugins/time-date/ChooseTimeZone.qml:51
 #: ../plugins/time-date/PageComponent.qml:85
 msgid "Manually"
-msgstr "Manuaalisesti"
+msgstr "Käsin"
 
 #: ../plugins/time-date/ChooseTimeZone.qml:130
 msgid "Enter your current location."
