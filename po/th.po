@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2018-08-12 15:04+0000\n"
-"Last-Translator: thanakit srisearmpok <thanakit.ssp@gmail.com>\n"
-"Language-Team: Thai <https://translate.ubports.com/projects/ubports/system-"
-"settings/th/>\n"
+"PO-Revision-Date: 2020-05-26 22:24+0000\n"
+"Last-Translator: Somnuk Limsiroratana <mailsomnuk@yahoo.com>\n"
+"Language-Team: Thai <https://translate.ubports.com/projects/ubports/"
+"system-settings/th/>\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.20\n"
+"X-Generator: Weblate 3.8\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:42+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -330,7 +330,7 @@ msgstr ""
 #: ../plugins/battery/PageComponent.qml:190
 #: ../plugins/battery/PageComponent.qml:192
 msgid "Yesterday"
-msgstr ""
+msgstr "เมื่อวาน"
 
 #: ../plugins/battery/PageComponent.qml:198
 #: ../plugins/battery/PageComponent.qml:200
@@ -507,7 +507,7 @@ msgstr ""
 #: ../plugins/bluetooth/DevicePage.qml:49 ../plugins/phone/PageComponent.qml:32
 #: ../build/po/settings.js:250
 msgid "Phone"
-msgstr ""
+msgstr "โทรศัพท์"
 
 #: ../plugins/bluetooth/DevicePage.qml:50
 msgid "Modem"
@@ -564,7 +564,7 @@ msgstr ""
 
 #: ../plugins/bluetooth/DevicePage.qml:63
 msgid "Other"
-msgstr ""
+msgstr "อื่นๆ"
 
 #: ../plugins/bluetooth/DevicePage.qml:69
 msgid "Excellent"
@@ -1663,7 +1663,7 @@ msgstr ""
 
 #: ../plugins/printing/AddPrinterDetails.qml:44
 msgid "Back"
-msgstr "กลับ"
+msgstr "ย้อนกลับ"
 
 #: ../plugins/printing/AddPrinterDetails.qml:137
 msgid "Connection"
@@ -2174,7 +2174,7 @@ msgstr ""
 
 #: ../plugins/security-privacy/SimPin.qml:334
 msgid "Unlock"
-msgstr ""
+msgstr "ปลดล็อค"
 
 #: ../plugins/security-privacy/SimPin.qml:334
 msgid "Lock"
@@ -2648,7 +2648,7 @@ msgstr ""
 
 #: ../plugins/wifi/CertDialog.qml:74
 msgid "Save"
-msgstr ""
+msgstr "บันทึก"
 
 #: ../plugins/wifi/NetworkDetails.qml:38
 msgid "Network details"
@@ -2902,7 +2902,7 @@ msgstr ""
 #. this word must be less than 5 characters
 #: ../plugins/cellular/Components/LabelTextField.qml:51
 msgid "Next"
-msgstr ""
+msgstr "ตกลง"
 
 #: ../plugins/cellular/Components/MultiSim.qml:55
 #: ../plugins/cellular/Components/SingleSim.qml:105
@@ -3031,7 +3031,7 @@ msgstr ""
 
 #: ../src/qml/MainWindow.qml:203
 msgid "Search"
-msgstr ""
+msgstr "ค้นหา"
 
 #: ../src/qml/MainWindow.qml:246
 msgid "Personal"
