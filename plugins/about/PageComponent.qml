@@ -194,12 +194,18 @@ ItemPage {
                         var upPlugin = pluginManager.getByName("system-update")
                         if (upPlugin) {
                             var updatePage = upPlugin.pageComponent
-                            var updatePageItem;
+                            var updatePageIncubator;
                             if (updatePage) {
-                                updatePageItem = pageStack.addPageToNextColumn(root, updatePage, {
+                                updatePageIncubator = pageStack.addPageToNextColumn(root, updatePage, {
                                     plugin: upPlugin, pluginManager: pluginManager
                                 });
-                                updatePageItem.check(true); // Force a check.
+                                if (updatePageIncubator && updatePageIncubator.status == Component.Loading) {
+                                    updatePageIncubator.onStatusChanged = function(status) {
+                                        if (status == Component.Ready) {
+                                            updatePageIncubator.object.check(true);
+                                        }
+                                    }
+                                }
                             } else {
                                 console.warn("Failed to get system-update pageComponent")
                             }
