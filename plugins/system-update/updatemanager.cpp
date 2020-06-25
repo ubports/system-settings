@@ -150,7 +150,7 @@ bool UpdateManager::isCheckRequired()
 
 void UpdateManager::handleCheckCompleted()
 {
-    m_model->db()->setLastCheckDate(QDateTime::currentDateTime());
+    m_model->db()->setLastCheckDate(QDateTime::currentDateTimeUtc());
 }
 
 void UpdateManager::handleNetworkError()
