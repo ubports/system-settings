@@ -18,5 +18,4 @@ install(FILES qmldir DESTINATION ${PLUG_DIR})
 install(FILES ${QML_SOURCES} DESTINATION ${PLUGIN_QML_DIR}/background)
 install(FILES toolkit_chevron-down_1gu.svg toolkit_chevron-ltr_1gu.svg bullet.png
         DESTINATION ${PLUGIN_QML_DIR}/background)
-install(FILES settings-background.svg DESTINATION ${PLUGIN_MANIFEST_DIR}/icons)
 install(FILES background.settings DESTINATION ${PLUGIN_MANIFEST_DIR})
