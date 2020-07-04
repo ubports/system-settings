@@ -92,7 +92,7 @@ Column {
             if (parent.holdsCurrent) {
                 return "bullet.png"
             }
-            return parent.state === "collapsed" ? "toolkit_chevron-ltr_1gu.svg" : "toolkit_chevron-down_1gu.svg.png"
+            return parent.state === "collapsed" ? "toolkit_chevron-ltr_1gu.svg" : "toolkit_chevron-down_1gu.svg"
         }
         onClicked: {
             if (parent.state === "collapsed") {
@@ -186,5 +186,9 @@ Column {
                 }
             }
         }
+    }
+      Item {
+        width: parent.width
+        height: units.gu(2)
     }
 }
