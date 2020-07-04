@@ -92,7 +92,7 @@ Column {
             if (parent.holdsCurrent) {
                 return "bullet.png"
             }
-            return parent.state === "collapsed" ? "header_handlearrow.png" : "header_handlearrow2.png"
+            return parent.state === "collapsed" ? "toolkit_chevron-ltr_1gu.svg" : "toolkit_chevron-down_1gu.svg.png"
         }
         onClicked: {
             if (parent.state === "collapsed") {
@@ -166,9 +166,6 @@ Column {
                         objectName: "highLight"
                         visible: (current === modelData) && (itemImage.status === Image.Ready)
                     }
-                    SelectedOverlay {
-                        id: selectionTick
-                    }
                     ActivityIndicator {
                         anchors.centerIn: parent
                         running: parent.status === Image.Loading
@@ -183,45 +180,11 @@ Column {
                         id: imgMouseArea
                         anchors.fill: parent
                         onClicked: {
-                            if (grid.state === "") {
-                                selected(modelData);
-                            }
-
-                            if (grid.state === "selection") {
-                                gridItem.state = gridItem.state === "" ? "selected" : "";
-                            }
+                            selected(modelData);
                         }
                     }
                 }
             }
         }
     }
-
-    // add some spacing
-    Item {
-        width: parent.width
-        height: units.gu(2)
-    }
-
-    // Action for removing backgrounds
-    Action {
-        id: removeBackgrounds
-        onTriggered: {
-            var toDelete = [];
-            // select backgrounds to remove
-            for (var i=0, j=gridRepeater.count; i < j; i++) {
-                if (gridRepeater.itemAt(i).state === "selected") {
-                    toDelete.push(bgmodel[i]);
-                }
-            }
-            // remove backgrounds
-            toDelete.forEach(function (bg) {
-                if (bg === current) {
-                    Utilities.revertBackgroundToDefault();
-                }
-                backgroundPanel.rmFile(bg);
-            });
-        }
-    }
-
 }
