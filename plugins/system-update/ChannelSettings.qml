@@ -2,6 +2,7 @@
  * This file is part of system-settings
  *
  * Copyright (C) 2017 The UBports project
+ * Copyright (C) 2020 UBports Foundation
  *
  * This program is free software: you can redistribute it and/or modify it
  * under the terms of the GNU General Public License version 3, as published
@@ -57,11 +58,6 @@ ItemPage {
       var prettyChannels = {"stable": i18n.tr("Stable"), "rc": i18n.tr("Release candidate"), "devel": i18n.tr("Development")}
       SystemImage.getChannels().forEach(function (_channel) {
           var channel = _channel.split("/");
-
-          // Do not show other ubuntu series then current
-          if (SystemImage.getSwitchChannel().indexOf(channel[1]) == -1)
-            return;
-
           var prettyChannel = prettyChannels[channel[channel.length-1]] ? prettyChannels[channel[channel.length-1]] : channel[channel.length-1];
           channelSelectorModel.append({ name: prettyChannel, description: "", channel: _channel});
       });
