@@ -140,9 +140,10 @@ ItemPage {
                     opacity: enabled ? 1.0 : 0.5
                     SlotsLayout.position: SlotsLayout.Trailing
                 }
-
                 onClicked: PopupUtils.open(displayLanguage)
             }
+
+            SettingsListItems.Divider {}
             
             SettingsListItems.SingleValueProgression {
                 visible: showAllUI
