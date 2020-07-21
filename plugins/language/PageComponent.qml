@@ -155,10 +155,10 @@ ItemPage {
                 onClicked: pageStack.addPageToNextColumn(root, spellChecking)
             }
 
-            ListItem.Standard {
+            SettingsListItems.Standard {
                 text: i18n.tr("Spell checking")
 
-                control: Switch {
+                Switch {
                     property bool serverChecked: settings.spellChecking
                     onServerCheckedChanged: checked = serverChecked
                     Component.onCompleted: checked = serverChecked
@@ -166,10 +166,10 @@ ItemPage {
                 }
             }
 
-            ListItem.Standard {
+            SettingsListItems.Standard {
                 text: i18n.tr("Auto correction")
 
-                control: Switch {
+                Switch {
                     property bool serverChecked: settings.autoCompletion
                     onServerCheckedChanged: checked = serverChecked
                     Component.onCompleted: checked = serverChecked
@@ -177,10 +177,10 @@ ItemPage {
                 }
             }
 
-            ListItem.Standard {
+            SettingsListItems.Standard {
                 text: i18n.tr("Word suggestions")
 
-                control: Switch {
+                Switch {
                     property bool serverChecked: settings.predictiveText
                     onServerCheckedChanged: checked = serverChecked
                     Component.onCompleted: checked = serverChecked
@@ -189,7 +189,6 @@ ItemPage {
             }
 
             SettingsListItems.SingleValueProgression {
-                showDivider: false
                 text: externalKeyboardPresent ? i18n.tr("On-screen keyboard") :
                                                 i18n.tr("Keyboard layouts")
                 value: oskPlugin.keyboardLayoutsModel.subset.length == 1 ?
@@ -200,11 +199,11 @@ ItemPage {
                 })
             }
 
-            ListItem.Standard {
+            SettingsListItems.Standard {
                 text: i18n.tr("Enable on-screen keyboard")
                 visible: unitySettings.oskSwitchVisible || showAllUI
 
-                control: Switch {
+                Switch {
                     property bool serverChecked: unitySettings.alwaysShowOsk
                     onServerCheckedChanged: checked = serverChecked
                     Component.onCompleted: checked = serverChecked
@@ -214,7 +213,6 @@ ItemPage {
 
             SettingsListItems.SingleValueProgression {
                 text: i18n.tr("External keyboard")
-                showDivider: false
                 onClicked: pageStack.addPageToNextColumn(root, Qt.resolvedUrl("PageHardwareKeyboard.qml"))
                 visible: externalKeyboardPresent || showAllUI
             }
@@ -245,7 +243,6 @@ ItemPage {
 
             SettingsListItems.SingleValueProgression {
                 objectName: "oskTheme"
-                showDivider: false
                 readonly property variant model: [{name: i18n.tr("Ambiance"), value: "Ambiance"}
                         ,{name: i18n.tr("Suru Dark"), value: "SuruDark"}
                         ,{name: i18n.tr("Suru Black"), value: "SuruBlack"}
@@ -266,10 +263,10 @@ ItemPage {
                         { title: text, themeModel: model } )
             }
 
-            ListItem.Standard {
+            SettingsListItems.Standard {
                 text: i18n.tr("Key magnifier")
 
-                control: Switch {
+                Switch {
                     property bool serverChecked: settings.enableMagnifier
                     onServerCheckedChanged: checked = serverChecked
                     Component.onCompleted: checked = serverChecked
@@ -277,10 +274,10 @@ ItemPage {
                 }
             }
 
-            ListItem.Standard {
+            SettingsListItems.Standard {
                 text: i18n.tr("Keyboard sound")
 
-                control: Switch {
+                Switch {
                     property bool serverChecked: settings.keyPressFeedback
                     onServerCheckedChanged: checked = serverChecked
                     Component.onCompleted: checked = serverChecked
@@ -288,10 +285,10 @@ ItemPage {
                 }
             }
 
-            ListItem.Standard {
+            SettingsListItems.Standard {
                 text: i18n.tr("Keyboard vibration")
 
-                control: Switch {
+                Switch {
                     property bool serverChecked: settings.keyPressHapticFeedback
                     onServerCheckedChanged: checked = serverChecked
                     Component.onCompleted: checked = serverChecked
