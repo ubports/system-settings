@@ -188,35 +188,6 @@ ItemPage {
                 }
             }
 
-            SettingsListItems.SingleValueProgression {
-                text: externalKeyboardPresent ? i18n.tr("On-screen keyboard") :
-                                                i18n.tr("Keyboard layouts")
-                value: oskPlugin.keyboardLayoutsModel.subset.length == 1 ?
-                       oskPlugin.keyboardLayoutsModel.superset[oskPlugin.keyboardLayoutsModel.subset[0]][0] :
-                       oskPlugin.keyboardLayoutsModel.subset.length
-                onClicked: pageStack.addPageToNextColumn(root, Qt.resolvedUrl("KeyboardLayouts.qml"), {
-                    plugin: oskPlugin
-                })
-            }
-
-            SettingsListItems.Standard {
-                text: i18n.tr("Enable on-screen keyboard")
-                visible: unitySettings.oskSwitchVisible || showAllUI
-
-                Switch {
-                    property bool serverChecked: unitySettings.alwaysShowOsk
-                    onServerCheckedChanged: checked = serverChecked
-                    Component.onCompleted: checked = serverChecked
-                    onTriggered: unitySettings.alwaysShowOsk = checked
-                }
-            }
-
-            SettingsListItems.SingleValueProgression {
-                text: i18n.tr("External keyboard")
-                onClicked: pageStack.addPageToNextColumn(root, Qt.resolvedUrl("PageHardwareKeyboard.qml"))
-                visible: externalKeyboardPresent || showAllUI
-            }
-
             SettingsListItems.Standard {
                 CheckBox {
                     objectName: "autoCap"
@@ -239,6 +210,35 @@ ItemPage {
                     onTriggered: settings.doubleSpaceFullStop = checked
                 }
                 text: i18n.tr("Insert period when space is tapped twice.")
+            }
+
+            SettingsListItems.Standard {
+                text: i18n.tr("Enable on-screen keyboard")
+                visible: unitySettings.oskSwitchVisible || showAllUI
+
+                Switch {
+                    property bool serverChecked: unitySettings.alwaysShowOsk
+                    onServerCheckedChanged: checked = serverChecked
+                    Component.onCompleted: checked = serverChecked
+                    onTriggered: unitySettings.alwaysShowOsk = checked
+                }
+            }
+
+            SettingsListItems.SingleValueProgression {
+                text: externalKeyboardPresent ? i18n.tr("On-screen keyboard") :
+                                                i18n.tr("Keyboard layouts")
+                value: oskPlugin.keyboardLayoutsModel.subset.length == 1 ?
+                       oskPlugin.keyboardLayoutsModel.superset[oskPlugin.keyboardLayoutsModel.subset[0]][0] :
+                       oskPlugin.keyboardLayoutsModel.subset.length
+                onClicked: pageStack.addPageToNextColumn(root, Qt.resolvedUrl("KeyboardLayouts.qml"), {
+                    plugin: oskPlugin
+                })
+            }
+
+            SettingsListItems.SingleValueProgression {
+                text: i18n.tr("External keyboard")
+                onClicked: pageStack.addPageToNextColumn(root, Qt.resolvedUrl("PageHardwareKeyboard.qml"))
+                visible: externalKeyboardPresent || showAllUI
             }
 
             SettingsListItems.SingleValueProgression {
