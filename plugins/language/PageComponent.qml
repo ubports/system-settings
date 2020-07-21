@@ -143,66 +143,7 @@ ItemPage {
 
                 onClicked: PopupUtils.open(displayLanguage)
             }
-
-            ListItem.Divider {}
-
-            ListItem.Standard {
-                text: i18n.tr("Enable on-screen keyboard")
-                visible: unitySettings.oskSwitchVisible || showAllUI
-
-                control: Switch {
-                    property bool serverChecked: unitySettings.alwaysShowOsk
-                    onServerCheckedChanged: checked = serverChecked
-                    Component.onCompleted: checked = serverChecked
-                    onTriggered: unitySettings.alwaysShowOsk = checked
-                }
-            }
-
-            SettingsListItems.SingleValueProgression {
-                text: externalKeyboardPresent ? i18n.tr("On-screen keyboard") :
-                                                i18n.tr("Keyboard layouts")
-                value: oskPlugin.keyboardLayoutsModel.subset.length == 1 ?
-                       oskPlugin.keyboardLayoutsModel.superset[oskPlugin.keyboardLayoutsModel.subset[0]][0] :
-                       oskPlugin.keyboardLayoutsModel.subset.length
-                onClicked: pageStack.addPageToNextColumn(root, Qt.resolvedUrl("KeyboardLayouts.qml"), {
-                    plugin: oskPlugin
-                })
-            }
-
-            SettingsListItems.SingleValueProgression {
-                text: i18n.tr("External keyboard")
-                showDivider: false
-                onClicked: pageStack.addPageToNextColumn(root, Qt.resolvedUrl("PageHardwareKeyboard.qml"))
-                visible: externalKeyboardPresent || showAllUI
-            }
-
-            ListItem.Divider {}
             
-            SettingsListItems.SingleValueProgression {
-                objectName: "oskTheme"
-                
-                readonly property variant model: [{name: i18n.tr("Ambiance"), value: "Ambiance"}
-                        ,{name: i18n.tr("Suru Dark"), value: "SuruDark"}
-                        ,{name: i18n.tr("Suru Black"), value: "SuruBlack"}
-                        ,{name: i18n.tr("Just White"), value: "JustWhite"}
-                        ,{name: i18n.tr("Just Black"), value: "JustBlack"}
-                        ,{name: i18n.tr("Just Grey"), value: "JustGrey"}
-                        ,{name: i18n.tr("Bordered White"), value: "BorderedWhite"}
-                        ,{name: i18n.tr("Bordered Black"), value: "BorderedBlack"}
-                        ,{name: i18n.tr("Bordered Grey"), value: "BorderedGrey"}
-                    ]
-                    
-                text: externalKeyboardPresent ? i18n.tr("On-screen keyboard theme") :
-                                                i18n.tr("Keyboard theme")
-                value: model.find(function(data){return data.value === settings.theme}).name
-                onClicked:
-                    pageStack.addPageToNextColumn(root,
-                        Qt.resolvedUrl("ThemeValues.qml"),
-                        { title: text, themeModel: model } )
-            }
-            
-            ListItem.Divider {}
-
             SettingsListItems.SingleValueProgression {
                 visible: showAllUI
 
@@ -247,46 +188,84 @@ ItemPage {
                 }
             }
 
-            ListItem.Divider {
+            SettingsListItems.SingleValueProgression {
+                showDivider: false
+                text: externalKeyboardPresent ? i18n.tr("On-screen keyboard") :
+                                                i18n.tr("Keyboard layouts")
+                value: oskPlugin.keyboardLayoutsModel.subset.length == 1 ?
+                       oskPlugin.keyboardLayoutsModel.superset[oskPlugin.keyboardLayoutsModel.subset[0]][0] :
+                       oskPlugin.keyboardLayoutsModel.subset.length
+                onClicked: pageStack.addPageToNextColumn(root, Qt.resolvedUrl("KeyboardLayouts.qml"), {
+                    plugin: oskPlugin
+                })
             }
 
             ListItem.Standard {
-                text: i18n.tr("Auto capitalization")
+                text: i18n.tr("Enable on-screen keyboard")
+                visible: unitySettings.oskSwitchVisible || showAllUI
 
                 control: Switch {
+                    property bool serverChecked: unitySettings.alwaysShowOsk
+                    onServerCheckedChanged: checked = serverChecked
+                    Component.onCompleted: checked = serverChecked
+                    onTriggered: unitySettings.alwaysShowOsk = checked
+                }
+            }
+
+            SettingsListItems.SingleValueProgression {
+                text: i18n.tr("External keyboard")
+                showDivider: false
+                onClicked: pageStack.addPageToNextColumn(root, Qt.resolvedUrl("PageHardwareKeyboard.qml"))
+                visible: externalKeyboardPresent || showAllUI
+            }
+
+            SettingsListItems.Standard {
+                CheckBox {
+                    objectName: "autoCap"
+                    SlotsLayout.position: SlotsLayout.First
                     property bool serverChecked: settings.autoCapitalization
                     onServerCheckedChanged: checked = serverChecked
                     Component.onCompleted: checked = serverChecked
                     onTriggered: settings.autoCapitalization = checked
                 }
+                text: i18n.tr("Auto Shift to capitalize the first letter of each sentence.")
             }
-
-            ListItem.Caption {
-                text: i18n.tr("Turns on Shift to capitalize the first letter of each sentence.")
-            }
-
-            ListItem.ThinDivider {
-            }
-
-            ListItem.Standard {
-                text: i18n.tr("Auto punctuation")
-
-                control: Switch {
+                
+            SettingsListItems.Standard {
+                CheckBox {
+                    objectName: "autoPunctuation"
+                    SlotsLayout.position: SlotsLayout.First
                     property bool serverChecked: settings.doubleSpaceFullStop
                     onServerCheckedChanged: checked = serverChecked
                     Component.onCompleted: checked = serverChecked
                     onTriggered: settings.doubleSpaceFullStop = checked
                 }
+                text: i18n.tr("Insert a period when you tap Space twice.")
             }
 
-            ListItem.Caption {
-                /* TODO: update the string to mention quotes/brackets once the osk does that */
-                text: i18n.tr("Inserts a period when you tap Space twice.")
+            SettingsListItems.SingleValueProgression {
+                objectName: "oskTheme"
+                showDivider: false
+                readonly property variant model: [{name: i18n.tr("Ambiance"), value: "Ambiance"}
+                        ,{name: i18n.tr("Suru Dark"), value: "SuruDark"}
+                        ,{name: i18n.tr("Suru Black"), value: "SuruBlack"}
+                        ,{name: i18n.tr("Just White"), value: "JustWhite"}
+                        ,{name: i18n.tr("Just Black"), value: "JustBlack"}
+                        ,{name: i18n.tr("Just Grey"), value: "JustGrey"}
+                        ,{name: i18n.tr("Bordered White"), value: "BorderedWhite"}
+                        ,{name: i18n.tr("Bordered Black"), value: "BorderedBlack"}
+                        ,{name: i18n.tr("Bordered Grey"), value: "BorderedGrey"}
+                    ]
+                    
+                text: externalKeyboardPresent ? i18n.tr("On-screen keyboard theme") :
+                                                i18n.tr("Keyboard theme")
+                value: model.find(function(data){return data.value === settings.theme}).name
+                onClicked:
+                    pageStack.addPageToNextColumn(root,
+                        Qt.resolvedUrl("ThemeValues.qml"),
+                        { title: text, themeModel: model } )
             }
 
-            ListItem.ThinDivider {
-            }
-            
             ListItem.Standard {
                 text: i18n.tr("Key magnifier")
 
