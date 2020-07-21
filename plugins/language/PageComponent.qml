@@ -226,7 +226,7 @@ ItemPage {
                     Component.onCompleted: checked = serverChecked
                     onTriggered: settings.autoCapitalization = checked
                 }
-                text: i18n.tr("Auto Shift to capitalize the first letter of each sentence.")
+                text: i18n.tr("Auto capitalize first letter of each sentence.")
             }
                 
             SettingsListItems.Standard {
@@ -238,7 +238,7 @@ ItemPage {
                     Component.onCompleted: checked = serverChecked
                     onTriggered: settings.doubleSpaceFullStop = checked
                 }
-                text: i18n.tr("Insert a period when you tap Space twice.")
+                text: i18n.tr("Insert period when space is tapped twice.")
             }
 
             SettingsListItems.SingleValueProgression {
