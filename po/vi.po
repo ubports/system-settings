@@ -8,61 +8,65 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2015-04-02 10:47+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Vietnamese <vi@li.org>\n"
+"PO-Revision-Date: 2020-06-16 19:14+0000\n"
+"Last-Translator: Phu1237 <phuvip867@gmail.com>\n"
+"Language-Team: Vietnamese <https://translate.ubports.com/projects/ubports/"
+"system-settings/vi/>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:42+0000\n"
-"X-Generator: Launchpad (build 17628)\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
 msgid "System Settings"
-msgstr ""
+msgstr "Cài đặt hệ thống"
 
 #: ubuntu-system-settings.desktop.in.in.h:2
 msgid "System;"
-msgstr ""
+msgstr "Hệ thống;"
 
 #: ubuntu-system-settings.desktop.in.in.h:3
+#, fuzzy
 msgid "Preferences;Settings;"
-msgstr ""
+msgstr "Cấu hình;Cài đặt;"
 
 #: ../plugins/about/DevMode.qml:35 ../plugins/about/DevMode.qml:90
 msgid "Developer Mode"
-msgstr ""
+msgstr "Chế độ nhà phát triển"
 
 #: ../plugins/about/DevMode.qml:84
 msgid ""
 "In Developer Mode, anyone can access, change or delete anything on this "
 "device by connecting it to another device."
 msgstr ""
+"Trong chế độ nhà phát triển, bất cứ ai cũng có thể truy cập, chỉnh sửa hoặc "
+"xoá bất cứ gì trên thiết thị này bằng cách kết nối nó với thiết bị khác."
 
 #: ../plugins/about/DevMode.qml:110
 msgid "You need a passcode or passphrase set to use Developer Mode."
-msgstr ""
+msgstr "Bạn cần mã PIN hoặc mật khẩu để sử dụng chế độ nhà phát triển."
 
 #: ../plugins/about/DevMode.qml:116
 #: ../plugins/security-privacy/LockSecurity.qml:36
 #: ../plugins/security-privacy/PhoneLocking.qml:66
 msgid "Lock security"
-msgstr ""
+msgstr "Khoá bảo mật"
 
 #: ../plugins/about/License.qml:30
 msgid "Sorry, this license could not be displayed."
-msgstr ""
+msgstr "Xin lỗi, không thể hiển thị giấy phép này."
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../plugins/about/PageComponent.qml:35 ../build/po/settings.js:2
 msgid "About"
-msgstr ""
+msgstr "Về"
 
 #: ../plugins/about/PageComponent.qml:99
 msgid "Serial"
-msgstr ""
+msgstr "Serial"
 
 #: ../plugins/about/PageComponent.qml:109
 #: ../plugins/about/PageComponent.qml:110
@@ -80,37 +84,37 @@ msgstr ""
 #: ../plugins/wifi/certhandler.cpp:192 ../plugins/wifi/certhandler.cpp:224
 #: ../plugins/wifi/certhandler.cpp:289 ../plugins/wifi/certhandler.cpp:318
 msgid "None"
-msgstr ""
+msgstr "Không"
 
 #: ../plugins/about/PageComponent.qml:131
 msgid "Wi-Fi address"
-msgstr ""
+msgstr "Địa chỉ Wi-Fi"
 
 #: ../plugins/about/PageComponent.qml:139
 msgid "Bluetooth address"
-msgstr ""
+msgstr "Địa chỉ Bluetooth"
 
 #: ../plugins/about/PageComponent.qml:150 ../plugins/about/Storage.qml:32
 msgid "Storage"
-msgstr ""
+msgstr "Lưu trữ"
 
 #. TRANSLATORS: that's the free disk space, indicated in the most appropriate storage unit
 #: ../plugins/about/PageComponent.qml:152
 #, qt-format
 msgid "%1 free"
-msgstr ""
+msgstr "%1 trống"
 
 #: ../plugins/about/PageComponent.qml:160
 msgid "Software:"
-msgstr ""
+msgstr "Phần mềm:"
 
 #: ../plugins/about/PageComponent.qml:172
 msgid "OS"
-msgstr ""
+msgstr "OS"
 
 #: ../plugins/about/PageComponent.qml:184
 msgid "Last updated"
-msgstr ""
+msgstr "Cập nhật lần cuối"
 
 #: ../plugins/about/PageComponent.qml:186
 #: ../plugins/battery/PageComponent.qml:319
@@ -122,80 +126,81 @@ msgstr ""
 #: ../plugins/system-update/UpdateSettings.qml:58
 #: ../plugins/wifi/NetworkDetails.qml:67
 msgid "Never"
-msgstr ""
+msgstr "Không bao giờ"
 
 #: ../plugins/about/PageComponent.qml:194
 msgid "Check for updates"
-msgstr ""
+msgstr "Kiểm tra cập nhật"
 
 #: ../plugins/about/PageComponent.qml:219
 msgid "Legal:"
-msgstr ""
+msgstr "Hợp pháp:"
 
 #: ../plugins/about/PageComponent.qml:224 ../plugins/about/Software.qml:11
 msgid "Software licenses"
-msgstr ""
+msgstr "Giấy phép phần mềm"
 
 #: ../plugins/about/PageComponent.qml:231
 msgid "Regulatory info"
-msgstr ""
+msgstr "Thông tin quy định"
 
 #: ../plugins/about/PageComponent.qml:238
 msgid "Developer mode"
-msgstr ""
+msgstr "Chế độ nhà phát triển"
 
 #: ../plugins/about/Storage.qml:44
 msgid "Scanning"
-msgstr ""
+msgstr "Đang quét"
 
 #: ../plugins/about/Storage.qml:106
 msgid "Used by Ubuntu"
-msgstr ""
+msgstr "Được sử dụng bởi Ubuntu"
 
 #: ../plugins/about/Storage.qml:107
 msgid "Videos"
-msgstr ""
+msgstr "Video"
 
 #: ../plugins/about/Storage.qml:108
 msgid "Audio"
-msgstr ""
+msgstr "Âm thanh"
 
 #: ../plugins/about/Storage.qml:109
 msgid "Pictures"
-msgstr ""
+msgstr "Ảnh"
 
 #: ../plugins/about/Storage.qml:110
 msgid "Other files"
-msgstr ""
+msgstr "Khác"
 
 #: ../plugins/about/Storage.qml:111
 msgid "Used by apps"
-msgstr ""
+msgstr "Được sử dụng bởi ứng dụng"
 
 #: ../plugins/about/Storage.qml:159
 msgid "Total storage"
-msgstr ""
+msgstr "Tổng bộ nhớ"
 
 #: ../plugins/about/Storage.qml:171
 msgid "Free space"
-msgstr ""
+msgstr "Dung lượng trống"
 
 #: ../plugins/about/Storage.qml:191
 msgid "By name"
-msgstr ""
+msgstr "Bằng tên"
 
 #: ../plugins/about/Storage.qml:191
 msgid "By size"
-msgstr ""
+msgstr "Bằng kích thước"
 
 #: ../plugins/about/Storage.qml:222 ../plugins/battery/PageComponent.qml:109
 #: ../plugins/battery/PageComponent.qml:284
 msgid "N/A"
-msgstr ""
+msgstr "Không tồn tại"
 
 #: ../plugins/about/Version.qml:35
+#, fuzzy
 msgid "OS Build Details"
-msgstr ""
+msgstr "Thông tin OS"
 
 #: ../plugins/about/Version.qml:62
 msgid "OS build number"
@@ -206,8 +211,9 @@ msgid "UBports Image part"
 msgstr ""
 
 #: ../plugins/about/Version.qml:76
+#, fuzzy
 msgid "Ubuntu build description"
-msgstr ""
+msgstr "Mô tả xây dựng Ubuntu"
 
 #: ../plugins/about/Version.qml:82
 msgid "Device Image part"
@@ -224,15 +230,15 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../plugins/background/MainPage.qml:38 ../build/po/settings.js:44
 msgid "Background"
-msgstr ""
+msgstr "Nền"
 
 #: ../plugins/background/MainPage.qml:94
 msgid "Ubuntu Art"
-msgstr ""
+msgstr "Ảnh nền từ Ubuntu"
 
 #: ../plugins/background/MainPage.qml:107
 msgid "Custom"
-msgstr ""
+msgstr "Tuỳ chỉnh"
 
 #: ../plugins/background/MainPage.qml:117
 msgid "Dash background"
@@ -240,15 +246,15 @@ msgstr ""
 
 #: ../plugins/background/MainPage.qml:130
 msgid "Opacity:"
-msgstr ""
+msgstr "Trong suốt:"
 
 #: ../plugins/background/Preview.qml:69
 msgid "Preview"
-msgstr ""
+msgstr "Xem trước"
 
 #: ../plugins/background/Preview.qml:107
 msgid "Remove image"
-msgstr ""
+msgstr "Gỡ ảnh"
 
 #: ../plugins/background/Preview.qml:107
 #: ../plugins/bluetooth/ConfirmPasskeyDialog.qml:49
@@ -278,94 +284,91 @@ msgstr ""
 #: ../plugins/background/Components/AddRemove.qml:42
 #: ../plugins/cellular/Components/SimEditor.qml:203
 msgid "Cancel"
-msgstr ""
+msgstr "Huỷ bỏ"
 
 #: ../plugins/background/Preview.qml:113
 #: ../plugins/phone/CallForwarding.qml:253
 #: ../plugins/security-privacy/LockSecurity.qml:391
 #: ../plugins/time-date/TimePicker.qml:181
 msgid "Set"
-msgstr ""
+msgstr "Cài đặt"
 
 #. TRANSLATORS: This is a keyword or name for the battery plugin which is used while searching
 #: ../plugins/battery/PageComponent.qml:35 ../build/po/settings.js:60
 msgid "Battery"
-msgstr ""
+msgstr "Pin"
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery/PageComponent.qml:44
 #, qt-format
 msgid "%1 second ago"
 msgid_plural "%1 seconds ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 giây trước"
 
 #. TRANSLATORS: %1 is the number of minutes
 #: ../plugins/battery/PageComponent.qml:47
 #, qt-format
 msgid "%1 minute ago"
 msgid_plural "%1 minutes ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 phút trước"
 
 #. TRANSLATORS: %1 is the number of hours
 #: ../plugins/battery/PageComponent.qml:50
 #, qt-format
 msgid "%1 hour ago"
 msgid_plural "%1 hours ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 giờ trước"
 
 #: ../plugins/battery/PageComponent.qml:104
 msgid "Charge level"
-msgstr ""
+msgstr "Cấp độ sạc"
 
 #. TRANSLATORS: %1 refers to a percentage that indicates the charging level of the battery
 #: ../plugins/battery/PageComponent.qml:112
 #, qt-format
 msgid "%1%"
-msgstr ""
+msgstr "%1%"
 
 #: ../plugins/battery/PageComponent.qml:190
 #: ../plugins/battery/PageComponent.qml:192
 msgid "Yesterday"
-msgstr ""
+msgstr "Hôm qua"
 
 #: ../plugins/battery/PageComponent.qml:198
 #: ../plugins/battery/PageComponent.qml:200
 msgid "Today"
-msgstr ""
+msgstr "Hôm nay"
 
 #: ../plugins/battery/PageComponent.qml:270
 msgid "Charging now"
-msgstr ""
+msgstr "Đang sạc"
 
 #: ../plugins/battery/PageComponent.qml:272
 msgid "Last full charge"
-msgstr ""
+msgstr "Lần sạc đầy cuối"
 
 #: ../plugins/battery/PageComponent.qml:274
 msgid "Fully charged"
-msgstr ""
+msgstr "Đã sạc đầy"
 
 #: ../plugins/battery/PageComponent.qml:293
 msgid "Ways to reduce battery use:"
-msgstr ""
+msgstr "Cách để giảm sử dụng pin:"
 
 #: ../plugins/battery/PageComponent.qml:297
 #: ../plugins/brightness/PageComponent.qml:84
 msgid "Display brightness"
-msgstr ""
+msgstr "Độ sáng hiển thị"
 
 #: ../plugins/battery/PageComponent.qml:314
 #: ../plugins/security-privacy/PhoneLocking.qml:89
 msgid "Lock when idle"
-msgstr ""
+msgstr "Khoá khi không sử dụng"
 
 #: ../plugins/battery/PageComponent.qml:314
 #: ../plugins/security-privacy/PhoneLocking.qml:90
 msgid "Sleep when idle"
-msgstr ""
+msgstr "Ngủ khi không sử dụng"
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery/PageComponent.qml:322
@@ -373,7 +376,7 @@ msgstr ""
 #, qt-format
 msgid "After %1 second"
 msgid_plural "After %1 seconds"
-msgstr[0] ""
+msgstr[0] "Sau %1 giây"
 
 #. TRANSLATORS: %1 is the number of minutes
 #: ../plugins/battery/PageComponent.qml:326
@@ -387,70 +390,71 @@ msgstr[0] ""
 #, qt-format
 msgid "After %1 minute"
 msgid_plural "After %1 minutes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Sau %1 phút"
 
 #. TRANSLATORS: “Wi-Fi used for hotspot” is hidden.
 #: ../plugins/battery/PageComponent.qml:365
 msgid "Wi-Fi used for hotspot"
-msgstr ""
+msgstr "Sử dụng Wi-Fi để phát sóng"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../plugins/battery/PageComponent.qml:365
 #: ../plugins/wifi/PageComponent.qml:28 ../build/po/settings.js:398
 msgid "Wi-Fi"
-msgstr ""
+msgstr "Wi-Fi"
 
 #. TRANSLATORS: This is a keyword or name for the bluetooth plugin which is used while searching
 #: ../plugins/battery/PageComponent.qml:401
 #: ../plugins/bluetooth/PageComponent.qml:33
 #: ../plugins/bluetooth/PageComponent.qml:235 ../build/po/settings.js:76
 msgid "Bluetooth"
-msgstr ""
+msgstr "Bluetooth"
 
 #: ../plugins/battery/SleepValues.qml:74
 msgid "Lock the device when it's not in use:"
-msgstr ""
+msgstr "Khoá thiết bị nếu không sử dụng:"
 
 #: ../plugins/battery/SleepValues.qml:75
 msgid "Put the device to sleep when it is not in use:"
-msgstr ""
+msgstr "Đặt thiết bị vào chế độ ngủ nếu không sử dụng:"
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery/SleepValues.qml:86
 #, qt-format
 msgid "After %1 seconds"
 msgid_plural "After %1 seconds"
-msgstr[0] ""
+msgstr[0] "Sau %1 giây"
 
 #: ../plugins/battery/SleepValues.qml:130
 msgid ""
 "Shorter times are more secure. Device won't lock during calls or video "
 "playback."
 msgstr ""
+"Thời gian càng ngắn càng bảo mật. Thiết bị sẽ không khoá khi đang gọi và xem "
+"video."
 
 #: ../plugins/battery/SleepValues.qml:130
 msgid "Device won’t sleep during calls or video playback."
-msgstr ""
+msgstr "Thiết bị sẽ không ngủ khi đang gọi hoặc xem video."
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:26
 msgid "Bluetooth Pairing Authorization Request"
-msgstr ""
+msgstr "Yêu cầu uỷ quyền kết đôi Bluetooth"
 
 #. TRANSLATORS: %1 is the name of the bluetooth device which requires authorization
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:34
 #, qt-format
 msgid ""
 "The device %1 wants to pair with this device. Do you want to allow this?"
-msgstr ""
+msgstr "Thiết bị %1 muốn kết đôi với thiết bị này. Bạn có muốn cho phép?"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:39
 msgid "Allow"
-msgstr ""
+msgstr "Cho phép"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:46
 msgid "Refuse"
-msgstr ""
+msgstr "Từ chối"
 
 #: ../plugins/bluetooth/ConfirmPasskeyDialog.qml:28
 #: ../plugins/bluetooth/DisplayPasskeyDialog.qml:26
@@ -458,17 +462,17 @@ msgstr ""
 #: ../plugins/bluetooth/ProvidePasskeyDialog.qml:28
 #: ../plugins/bluetooth/ProvidePinCodeDialog.qml:28
 msgid "Bluetooth Pairing Request"
-msgstr ""
+msgstr "Yêu cầu kết đôi Bluetooth"
 
 #. TRANSLATORS: %1 is the name of the bluetooth device being paired
 #: ../plugins/bluetooth/ConfirmPasskeyDialog.qml:37
 #, qt-format
 msgid "Please confirm that the PIN displayed on '%1' matches this one"
-msgstr ""
+msgstr "Hãy xác nhận rằng mã PIN hiển thị trên '%1' giống với mã này"
 
 #: ../plugins/bluetooth/ConfirmPasskeyDialog.qml:57
 msgid "Confirm PIN"
-msgstr ""
+msgstr "Xác nhận mã PIN"
 
 #: ../plugins/bluetooth/DevicePage.qml:37
 #: ../plugins/bluetooth/PageComponent.qml:290
@@ -477,260 +481,268 @@ msgstr ""
 #: ../plugins/brightness/WifiDisplays.qml:172
 #: ../plugins/wifi/AccessPoint.qml:51 ../plugins/wifi/StandardMenuItem.qml:31
 msgid "Connected"
-msgstr ""
+msgstr "Đã kết nối"
 
 #: ../plugins/bluetooth/DevicePage.qml:38
 #: ../plugins/bluetooth/PageComponent.qml:290
 msgid "Connecting…"
-msgstr ""
+msgstr "Đang kết nối…"
 
 #: ../plugins/bluetooth/DevicePage.qml:39
 msgid "Disconnecting…"
-msgstr ""
+msgstr "Đang ngắt kết nối…"
 
 #: ../plugins/bluetooth/DevicePage.qml:40
 msgid "Disconnected"
-msgstr ""
+msgstr "Đã ngắt kết nối"
 
 #: ../plugins/bluetooth/DevicePage.qml:41 ../plugins/hotspot/Common.qml:94
 #: ../plugins/system-update/UpdateSettings.qml:64 ../plugins/wifi/Common.qml:96
 msgid "Unknown"
-msgstr ""
+msgstr "Không rõ"
 
 #: ../plugins/bluetooth/DevicePage.qml:47
 msgid "Computer"
-msgstr ""
+msgstr "Máy vi tính"
 
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../plugins/bluetooth/DevicePage.qml:48
 #: ../plugins/bluetooth/DevicePage.qml:49 ../plugins/phone/PageComponent.qml:32
 #: ../build/po/settings.js:250
 msgid "Phone"
-msgstr ""
+msgstr "Điện thoại"
 
 #: ../plugins/bluetooth/DevicePage.qml:50
+#, fuzzy
 msgid "Modem"
-msgstr ""
+msgstr "Modem"
 
 #: ../plugins/bluetooth/DevicePage.qml:51 ../src/qml/MainWindow.qml:241
 msgid "Network"
-msgstr ""
+msgstr "Mạng"
 
 #: ../plugins/bluetooth/DevicePage.qml:52
 msgid "Headset"
-msgstr ""
+msgstr "Tai nghe"
 
 #: ../plugins/bluetooth/DevicePage.qml:53
 msgid "Headphones"
-msgstr ""
+msgstr "Tai nghe chụp tai"
 
 #: ../plugins/bluetooth/DevicePage.qml:54
 msgid "Video"
-msgstr ""
+msgstr "Video"
 
 #: ../plugins/bluetooth/DevicePage.qml:55
 msgid "Other Audio"
-msgstr ""
+msgstr "Âm thanh khác"
 
 #: ../plugins/bluetooth/DevicePage.qml:56
 msgid "Joypad"
-msgstr ""
+msgstr "Cần điều khiển"
 
 #: ../plugins/bluetooth/DevicePage.qml:57
 msgid "Keyboard"
-msgstr ""
+msgstr "Bàn phím"
 
 #: ../plugins/bluetooth/DevicePage.qml:58
 msgid "Tablet"
-msgstr ""
+msgstr "Máy tính bảng"
 
 #: ../plugins/bluetooth/DevicePage.qml:59 ../plugins/mouse/Connected.qml:48
 msgid "Mouse"
-msgstr ""
+msgstr "Chuột"
 
 #: ../plugins/bluetooth/DevicePage.qml:60
 msgid "Printer"
-msgstr ""
+msgstr "Máy in"
 
 #: ../plugins/bluetooth/DevicePage.qml:61
 #: ../plugins/security-privacy/AppAccess.qml:75
 msgid "Camera"
-msgstr ""
+msgstr "Máy ảnh"
 
 #: ../plugins/bluetooth/DevicePage.qml:62
 msgid "Watch"
-msgstr ""
+msgstr "Đồng hồ"
 
 #: ../plugins/bluetooth/DevicePage.qml:63
 msgid "Other"
-msgstr ""
+msgstr "Khác"
 
 #: ../plugins/bluetooth/DevicePage.qml:69
 msgid "Excellent"
-msgstr ""
+msgstr "Xuất sắc"
 
 #: ../plugins/bluetooth/DevicePage.qml:70
 msgid "Good"
-msgstr ""
+msgstr "Tốt"
 
 #: ../plugins/bluetooth/DevicePage.qml:71
 msgid "Fair"
-msgstr ""
+msgstr "Khá"
 
 #: ../plugins/bluetooth/DevicePage.qml:72
 msgid "Poor"
-msgstr ""
+msgstr "Tệ"
 
 #: ../plugins/bluetooth/DevicePage.qml:106
 #: ../plugins/cellular/PageApnEditor.qml:157
 #: ../plugins/wifi/NetworkDetails.qml:59
 #: ../plugins/printing/printer-sub-pages/Status.qml:61
 msgid "Name"
-msgstr ""
+msgstr "Tên"
 
 #: ../plugins/bluetooth/DevicePage.qml:113
 msgid "Type"
-msgstr ""
+msgstr "Loại"
 
 #: ../plugins/bluetooth/DevicePage.qml:124
 #: ../plugins/printing/printer-sub-pages/Status.qml:26
 msgid "Status"
-msgstr ""
+msgstr "Trạng thái"
 
 #: ../plugins/bluetooth/DevicePage.qml:128
+#, fuzzy
 msgid "Signal Strength"
-msgstr ""
+msgstr "Độ mạnh tín hiệu"
 
 #: ../plugins/bluetooth/DevicePage.qml:133
 #: ../plugins/bluetooth/PageComponent.qml:358
 msgid "Connect automatically when detected:"
-msgstr ""
+msgstr "Tự động kết nối khi phát hiện:"
 
 #: ../plugins/bluetooth/DevicePage.qml:150
 #: ../plugins/cellular/PageChooseApn.qml:201
 #: ../plugins/cellular/PageChooseApn.qml:266
 msgid "Disconnect"
-msgstr ""
+msgstr "Ngắt kết nối"
 
 #: ../plugins/bluetooth/DevicePage.qml:150 ../plugins/wifi/OtherNetwork.qml:905
 msgid "Connect"
-msgstr ""
+msgstr "Kết nối"
 
 #: ../plugins/bluetooth/DevicePage.qml:172
 msgid "Forget this device"
-msgstr ""
+msgstr "Quên thiết bị này"
 
 #. TRANSLATORS: %1 is the name of the bluetooth device being paired
 #: ../plugins/bluetooth/DisplayPasskeyDialog.qml:35
 #: ../plugins/bluetooth/DisplayPinCodeDialog.qml:34
-#, qt-format
+#, fuzzy, qt-format
 msgid "Please enter the following PIN on %1 and press “Enter” on the keyboard:"
-msgstr ""
+msgstr "Vui lòng nhấn mã pin bên dưới trên %1 và nhấn \"Enter\" trên bàn phím:"
 
 #: ../plugins/bluetooth/PageComponent.qml:252
 msgid "Discoverable"
-msgstr ""
+msgstr "Có thể tìm kiếm"
 
 #: ../plugins/bluetooth/PageComponent.qml:252
 msgid "Not discoverable"
-msgstr ""
+msgstr "Không thể tìm kiếm"
 
 #: ../plugins/bluetooth/PageComponent.qml:260
 #: ../plugins/bluetooth/PageComponent.qml:319
 msgid "Searching…"
-msgstr ""
+msgstr "Đang tìm kiếm…"
 
 #: ../plugins/bluetooth/PageComponent.qml:269
 msgid "Connected devices:"
-msgstr ""
+msgstr "Thiết bị đã kết nối:"
 
 #: ../plugins/bluetooth/PageComponent.qml:309
 msgid "Connect another device:"
-msgstr ""
+msgstr "Kết nối thiết bị khác:"
 
 #: ../plugins/bluetooth/PageComponent.qml:309
 msgid "Connect a device:"
-msgstr ""
+msgstr "Kết nối thiết bị:"
 
 #: ../plugins/bluetooth/PageComponent.qml:352
 msgid "None detected"
-msgstr ""
+msgstr "Không phát hiện"
 
 #: ../plugins/bluetooth/ProvidePasskeyDialog.qml:36
 #: ../plugins/bluetooth/ProvidePinCodeDialog.qml:36
 #, qt-format
 msgid "PIN for '%1'"
-msgstr ""
+msgstr "Mã PIN cho '%1'"
 
 #: ../plugins/bluetooth/ProvidePasskeyDialog.qml:62
 #: ../plugins/bluetooth/ProvidePinCodeDialog.qml:63
 msgid "Pair"
-msgstr ""
+msgstr "Kết đôi"
 
 #: ../plugins/brightness/PageComponent.qml:35
 msgid "Brightness & Display"
-msgstr ""
+msgstr "Độ sáng & hiển thị"
 
 #. TRANSLATORS: This is a keyword or name for the brightness plugin which is used while searching
 #: ../plugins/brightness/PageComponent.qml:35 ../build/po/settings.js:100
 msgid "Brightness"
-msgstr ""
+msgstr "Độ sáng"
 
 #: ../plugins/brightness/PageComponent.qml:116
 msgid "Adjust automatically"
-msgstr ""
+msgstr "Tự động điều chỉnh"
 
 #: ../plugins/brightness/PageComponent.qml:131
 msgid "Brightens and dims the display to suit the surroundings."
-msgstr ""
+msgstr "Tự động điều chỉnh sáng và tối màn hình để phù hợp với môi trường."
 
 #: ../plugins/brightness/PageComponent.qml:140
+#, fuzzy
 msgid "External display"
-msgstr ""
+msgstr "Màn hình hiển thị bên ngoài"
 
 #: ../plugins/brightness/PageComponent.qml:158
+#, fuzzy
 msgid "Wireless display"
-msgstr ""
+msgstr "Hiển thị không dây"
 
 #: ../plugins/brightness/PageComponent.qml:159
 #: ../plugins/brightness/WifiDisplays.qml:128
 #: ../plugins/brightness/WifiDisplays.qml:172
 msgid "Not connected"
-msgstr ""
+msgstr "Chưa kết nối"
 
 #: ../plugins/brightness/WifiDisplays.qml:27
 msgid "Wireless Display"
-msgstr ""
+msgstr "Hiển thị không dây"
 
 #: ../plugins/brightness/WifiDisplays.qml:100
+#, fuzzy
 msgid "No displays detected"
-msgstr ""
+msgstr "Không phát hiện ra màn hình nào"
 
 #: ../plugins/brightness/WifiDisplays.qml:113
+#, fuzzy
 msgid "Connected display:"
-msgstr ""
+msgstr "Màn hình đã kết nối:"
 
 #: ../plugins/brightness/WifiDisplays.qml:128
 msgid "Connecting"
-msgstr ""
+msgstr "Đang kết nối"
 
 #: ../plugins/brightness/WifiDisplays.qml:146
+#, fuzzy
 msgid "Use another display:"
-msgstr ""
+msgstr "Sử dụng màn hình khác:"
 
 #: ../plugins/brightness/WifiDisplays.qml:146
+#, fuzzy
 msgid "Choose a display:"
-msgstr ""
+msgstr "Chọn màn hình:"
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:32
 #, qt-format
 msgid "This device failed to connect to %1."
-msgstr ""
+msgstr "Thiết bị này đã kết nối thất bại đến %1."
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:34
 #, qt-format
 msgid "There was an unknown error connecting to %1."
-msgstr ""
+msgstr "Có lỗi không xác định khi kết nối với %1."
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:38
 #: ../plugins/phone/CallForwarding.qml:305
@@ -738,43 +750,43 @@ msgstr ""
 #: ../plugins/vpn/PageComponent.qml:123
 #: ../plugins/cellular/Components/SimEditor.qml:214
 msgid "OK"
-msgstr ""
+msgstr "Chấp nhận"
 
 #: ../plugins/cellular/PageApnEditor.qml:71
 msgid "Edit"
-msgstr ""
+msgstr "Chỉnh sửa"
 
 #: ../plugins/cellular/PageApnEditor.qml:71
 msgid "New APN"
-msgstr ""
+msgstr "APN mới"
 
 #: ../plugins/cellular/PageApnEditor.qml:132
 msgid "Used for:"
-msgstr ""
+msgstr "Sử dụng để:"
 
 #: ../plugins/cellular/PageApnEditor.qml:136
 #: ../plugins/cellular/PageChooseApn.qml:107
 msgid "Internet and MMS"
-msgstr ""
+msgstr "Internet và MMS"
 
 #: ../plugins/cellular/PageApnEditor.qml:137
 #: ../plugins/cellular/PageChooseApn.qml:109
 msgid "Internet"
-msgstr ""
+msgstr "Internet"
 
 #: ../plugins/cellular/PageApnEditor.qml:138
 #: ../plugins/cellular/PageChooseApn.qml:113
 msgid "MMS"
-msgstr ""
+msgstr "MMS"
 
 #: ../plugins/cellular/PageApnEditor.qml:139
 #: ../plugins/cellular/PageChooseApn.qml:111
 msgid "LTE"
-msgstr ""
+msgstr "LTE"
 
 #: ../plugins/cellular/PageApnEditor.qml:166
 msgid "Enter a name describing the APN"
-msgstr ""
+msgstr "Nhập tên mô tả APN"
 
 #. TRANSLATORS: This string is a description of a text
 #. field and should thus be concise.
@@ -783,90 +795,90 @@ msgstr ""
 #: ../plugins/cellular/PageCarriersAndApns.qml:71
 #: ../plugins/cellular/PageChooseApn.qml:41
 msgid "APN"
-msgstr ""
+msgstr "APN"
 
 #: ../plugins/cellular/PageApnEditor.qml:192
 msgid "Enter the name of the access point"
-msgstr ""
+msgstr "Nhập tên điểm kết nối"
 
 #: ../plugins/cellular/PageApnEditor.qml:206
 msgid "MMSC"
-msgstr ""
+msgstr "MMSC"
 
 #: ../plugins/cellular/PageApnEditor.qml:216
 msgid "Enter message center"
-msgstr ""
+msgstr "Nhập tin nhắn chính giữa"
 
 #: ../plugins/cellular/PageApnEditor.qml:234
 msgid "Proxy"
-msgstr ""
+msgstr "Proxy"
 
 #: ../plugins/cellular/PageApnEditor.qml:244
 msgid "Enter message proxy"
-msgstr ""
+msgstr "Nhập tin nhắn proxy"
 
 #: ../plugins/cellular/PageApnEditor.qml:289
 msgid "Proxy port"
-msgstr ""
+msgstr "Cổng proxy"
 
 #: ../plugins/cellular/PageApnEditor.qml:300
 msgid "Enter message proxy port"
-msgstr ""
+msgstr "Nhập tin nhắn cổng proxy"
 
 #: ../plugins/cellular/PageApnEditor.qml:318
 msgid "User name"
-msgstr ""
+msgstr "Tên người dùng"
 
 #: ../plugins/cellular/PageApnEditor.qml:328
 msgid "Enter username"
-msgstr ""
+msgstr "Nhập tên người dùng"
 
 #: ../plugins/cellular/PageApnEditor.qml:341
 #: ../plugins/wifi/NetworkDetails.qml:72 ../plugins/wifi/OtherNetwork.qml:786
 msgid "Password"
-msgstr ""
+msgstr "Mật khẩu"
 
 #: ../plugins/cellular/PageApnEditor.qml:353
 msgid "Enter password"
-msgstr ""
+msgstr "Nhập mật khẩu"
 
 #: ../plugins/cellular/PageApnEditor.qml:367
 #: ../plugins/wifi/OtherNetwork.qml:338
 msgid "Authentication"
-msgstr ""
+msgstr "Xác thực"
 
 #: ../plugins/cellular/PageApnEditor.qml:372
 msgid "PAP or CHAP"
-msgstr ""
+msgstr "PAP hoặc CHAP"
 
 #: ../plugins/cellular/PageApnEditor.qml:373
 msgid "PAP only"
-msgstr ""
+msgstr "Chỉ PAP"
 
 #: ../plugins/cellular/PageApnEditor.qml:374
 msgid "CHAP only"
-msgstr ""
+msgstr "Chỉ CHAP"
 
 #: ../plugins/cellular/PageApnEditor.qml:385
 msgid "Protocol"
-msgstr ""
+msgstr "Giao thức"
 
 #: ../plugins/cellular/PageApnEditor.qml:389
 msgid "IPv4"
-msgstr ""
+msgstr "IPv4"
 
 #: ../plugins/cellular/PageApnEditor.qml:390
 msgid "IPv6"
-msgstr ""
+msgstr "IPv6"
 
 #: ../plugins/cellular/PageApnEditor.qml:391
 msgid "IPv4v6"
-msgstr ""
+msgstr "IPv4v6"
 
 #: ../plugins/cellular/PageCarrierAndApn.qml:27
 #: ../plugins/cellular/Components/SingleSim.qml:110
 msgid "Carrier & APN"
-msgstr ""
+msgstr "Nhà cung cấp và APN"
 
 #: ../plugins/cellular/PageCarrierAndApn.qml:45
 #: ../plugins/cellular/PageCarrierAndApn.qml:54
@@ -874,40 +886,40 @@ msgstr ""
 #: ../plugins/cellular/PageChooseCarrier.qml:32
 #: ../plugins/cellular/PageChooseCarrier.qml:129
 msgid "Carrier"
-msgstr ""
+msgstr "Nhà cung cấp"
 
 #: ../plugins/cellular/PageCarriersAndApns.qml:27
 msgid "Carriers & APNs"
-msgstr ""
+msgstr "Nhà cung cấp và APN"
 
 #: ../plugins/cellular/PageChooseApn.qml:85
 msgid "MMS APN"
-msgstr ""
+msgstr "MMS APN"
 
 #: ../plugins/cellular/PageChooseApn.qml:91
 msgid "Internet APN"
-msgstr ""
+msgstr "Internet APN"
 
 #: ../plugins/cellular/PageChooseApn.qml:97
 msgid "LTE APN"
-msgstr ""
+msgstr "LTE APN"
 
 #: ../plugins/cellular/PageChooseApn.qml:156
 msgid "Reset All APN Settings…"
-msgstr ""
+msgstr "Đặt lại tất cả cài đặt APN…"
 
 #: ../plugins/cellular/PageChooseApn.qml:165
 msgid "Reset APN Settings"
-msgstr ""
+msgstr "Đặt lại cài đặt APN"
 
 #: ../plugins/cellular/PageChooseApn.qml:166
 msgid "Are you sure that you want to Reset APN Settings?"
-msgstr ""
+msgstr "Bạn có muốn đặt lại cài đặt APN?"
 
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../plugins/cellular/PageChooseApn.qml:169 ../build/po/settings.js:294
 msgid "Reset"
-msgstr ""
+msgstr "Đặt lại"
 
 #. TRANSLATORS: %1 is the MMS APN that the user has chosen to be
 #. “preferred”.
@@ -917,7 +929,7 @@ msgstr ""
 #: ../plugins/cellular/PageChooseApn.qml:223
 #, qt-format
 msgid "Prefer %1"
-msgstr ""
+msgstr "Ưu tiên %1"
 
 #. TRANSLATORS: %1 is the MMS APN that the user has chosen to be
 #. “preferred”, i.e. used to retrieve MMS messages. %2 is the Internet
@@ -925,7 +937,7 @@ msgstr ""
 #: ../plugins/cellular/PageChooseApn.qml:196
 #, qt-format
 msgid "You have chosen %1 as your preferred MMS APN. "
-msgstr ""
+msgstr "Bạn đã chọn %1 là MMS APN ưu tiên. "
 
 #. TRANSLATORS: %1 is the Internet APN that the user has chosen to
 #. be “preferred”, i.e. used to connect to the Internet. %2 is the MMS
@@ -933,68 +945,68 @@ msgstr ""
 #: ../plugins/cellular/PageChooseApn.qml:227
 #, qt-format
 msgid "You have chosen %1 as your preferred Internet APN. "
-msgstr ""
+msgstr "Bạn đã chọn %1 là Internet APN ưu tiên. "
 
 #: ../plugins/cellular/PageChooseApn.qml:232
 #: ../plugins/cellular/PageChooseApn.qml:265
 msgid "Disable"
-msgstr ""
+msgstr "Vô hiệu hoá"
 
 #: ../plugins/cellular/PageChooseApn.qml:254
 #, qt-format
 msgid "Disconnect %1"
-msgstr ""
+msgstr "Ngắt kết nối %1"
 
 #: ../plugins/cellular/PageChooseApn.qml:255
 #, qt-format
 msgid "Disable %1"
-msgstr ""
+msgstr "Vô hiệu hoá %1"
 
 #: ../plugins/cellular/PageChooseApn.qml:260
-#, qt-format
+#, fuzzy, qt-format
 msgid "This disconnects %1."
-msgstr ""
+msgstr "Nó ngắt kết nối %1."
 
 #: ../plugins/cellular/PageChooseApn.qml:261
 #, qt-format
 msgid "This disables %1."
-msgstr ""
+msgstr "Nó vô hiệu hoá %1."
 
 #: ../plugins/cellular/PageChooseApn.qml:303
 #: ../plugins/printing/PageComponent.qml:136
 msgid "Delete"
-msgstr ""
+msgstr "Xóa bỏ"
 
 #: ../plugins/cellular/PageChooseCarrier.qml:153
 #: ../plugins/time-date/ChooseTimeZone.qml:51
 #: ../plugins/time-date/PageComponent.qml:85
 msgid "Automatically"
-msgstr ""
+msgstr "Tự động"
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../plugins/cellular/PageComponent.qml:32 ../build/po/settings.js:112
 msgid "Cellular"
-msgstr ""
+msgstr "Dữ liệu di động"
 
 #: ../plugins/hotspot/Common.qml:34 ../plugins/wifi/Common.qml:36
 msgid "Unknown error"
-msgstr ""
+msgstr "Không xác định được lỗi"
 
 #: ../plugins/hotspot/Common.qml:36 ../plugins/wifi/Common.qml:38
 msgid "No reason given"
-msgstr ""
+msgstr "Không có lí do nào được đưa ra"
 
 #: ../plugins/hotspot/Common.qml:38 ../plugins/wifi/Common.qml:40
 msgid "Device is now managed"
-msgstr ""
+msgstr "Thiết bị đã được quản lí"
 
 #: ../plugins/hotspot/Common.qml:40 ../plugins/wifi/Common.qml:42
 msgid "Device is now unmanaged"
-msgstr ""
+msgstr "Thiết bị đang không được quản lí"
 
 #: ../plugins/hotspot/Common.qml:42 ../plugins/wifi/Common.qml:44
 msgid "The device could not be readied for configuration"
-msgstr ""
+msgstr "Thiết bị không sẵn sàng để cấu hình"
 
 #: ../plugins/hotspot/Common.qml:44 ../plugins/wifi/Common.qml:46
 msgid ""
@@ -1003,11 +1015,11 @@ msgstr ""
 
 #: ../plugins/hotspot/Common.qml:46 ../plugins/wifi/Common.qml:48
 msgid "The IP configuration is no longer valid"
-msgstr ""
+msgstr "Cấu hình IP không còn hợp lệ"
 
 #: ../plugins/hotspot/Common.qml:48 ../plugins/wifi/Common.qml:50
 msgid "Your authentication details were incorrect"
-msgstr ""
+msgstr "Thông tin xác minh của bạn không chính xác"
 
 #: ../plugins/hotspot/Common.qml:50 ../plugins/wifi/Common.qml:52
 msgid "802.1X supplicant disconnected"
@@ -1039,23 +1051,23 @@ msgstr ""
 
 #: ../plugins/hotspot/Common.qml:64 ../plugins/wifi/Common.qml:66
 msgid "Shared connection service failed to start"
-msgstr ""
+msgstr "Dịch vụ chia sẽ kết nối không thể khởi động"
 
 #: ../plugins/hotspot/Common.qml:66 ../plugins/wifi/Common.qml:68
 msgid "Shared connection service failed"
-msgstr ""
+msgstr "Dịch vụ chia sẽ kết nối bị lỗi"
 
 #: ../plugins/hotspot/Common.qml:68 ../plugins/wifi/Common.qml:70
 msgid "Necessary firmware for the device may be missing"
-msgstr ""
+msgstr "Firmware cần thiết cho thiết bị có lẽ đã bị thiếu"
 
 #: ../plugins/hotspot/Common.qml:70 ../plugins/wifi/Common.qml:72
 msgid "The device was removed"
-msgstr ""
+msgstr "Thiết bị đã bị gỡ"
 
 #: ../plugins/hotspot/Common.qml:72 ../plugins/wifi/Common.qml:74
 msgid "NetworkManager went to sleep"
-msgstr ""
+msgstr "Quản lí mạng đã vào trạng thái ngủ"
 
 #: ../plugins/hotspot/Common.qml:74 ../plugins/wifi/Common.qml:76
 msgid "The device's active connection disappeared"
@@ -1465,7 +1477,7 @@ msgstr ""
 #: ../plugins/notifications/ClickAppsSoundsNotify.qml:30
 #: ../plugins/sound/PageComponent.qml:39 ../build/po/settings.js:330
 msgid "Sound"
-msgstr ""
+msgstr "Âm thanh"
 
 #: ../plugins/notifications/ClickAppsSoundsNotify.qml:44
 msgid "Apps that notify with sound:"
@@ -1662,7 +1674,7 @@ msgstr ""
 
 #: ../plugins/printing/AddPrinterDetails.qml:44
 msgid "Back"
-msgstr ""
+msgstr "Quay lại"
 
 #: ../plugins/printing/AddPrinterDetails.qml:137
 msgid "Connection"
@@ -2207,7 +2219,7 @@ msgstr ""
 
 #: ../plugins/sound/PageComponent.qml:76
 msgid "Silent Mode"
-msgstr ""
+msgstr "Chế độ im lặng"
 
 #: ../plugins/sound/PageComponent.qml:100
 msgid "Ringer:"
@@ -2215,7 +2227,7 @@ msgstr ""
 
 #: ../plugins/sound/PageComponent.qml:141
 msgid "High volume can damage your hearing."
-msgstr ""
+msgstr "Âm lượng quá lớn có thể làm tổn thương thính giác của bạn."
 
 #: ../plugins/sound/PageComponent.qml:145
 msgid "Phone calls:"
@@ -2647,7 +2659,7 @@ msgstr ""
 
 #: ../plugins/wifi/CertDialog.qml:74
 msgid "Save"
-msgstr ""
+msgstr "Lưu"
 
 #: ../plugins/wifi/NetworkDetails.qml:38
 msgid "Network details"
@@ -2983,15 +2995,15 @@ msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:32
 msgid "Aborted"
-msgstr ""
+msgstr "Đã huỷ bỏ"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:34
 msgid "Active"
-msgstr ""
+msgstr "Kích hoạt"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:36
 msgid "Stopped"
-msgstr ""
+msgstr "Đã dừng"
 
 #. TRANSLATORS: %1 is the overall state of the printer, %2 is a more
 #. detailed message from the printer itself.
@@ -3002,7 +3014,7 @@ msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:43
 msgid "No messages"
-msgstr ""
+msgstr "Không có tin nhắn"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:48
 msgid "Jobs"
@@ -3766,7 +3778,7 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../build/po/settings.js:334
 msgid "silent"
-msgstr ""
+msgstr "im lặng"
 
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../build/po/settings.js:336

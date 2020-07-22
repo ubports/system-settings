@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2018-11-04 00:00+0000\n"
-"Last-Translator: Tigran Kharatyan <xita8207@gmail.com>\n"
+"PO-Revision-Date: 2020-07-03 21:08+0000\n"
+"Last-Translator: Tigran Khachatryan <tigrankhachatryan2008@gmail.com>\n"
 "Language-Team: Armenian <https://translate.ubports.com/projects/ubports/"
 "system-settings/hy/>\n"
 "Language: hy\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.0.1\n"
+"X-Generator: Weblate 3.11.3\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
 msgid "System Settings"
@@ -33,36 +33,39 @@ msgstr "Նախընտրություններ;Կարգավորումներ"
 
 #: ../plugins/about/DevMode.qml:35 ../plugins/about/DevMode.qml:90
 msgid "Developer Mode"
-msgstr ""
+msgstr "Ծրագրավորողի ռեժիմ"
 
 #: ../plugins/about/DevMode.qml:84
 msgid ""
 "In Developer Mode, anyone can access, change or delete anything on this "
 "device by connecting it to another device."
 msgstr ""
+"Ծրագրավորման ռեժիմում բոլորին ամենինչ հասանելի կլինի և բոլորը կարող են "
+"փոփոխել կամ ջնջել ինչ-որ բան։"
 
 #: ../plugins/about/DevMode.qml:110
 msgid "You need a passcode or passphrase set to use Developer Mode."
 msgstr ""
+"Դուք պետք է կոդ կամ գաղտնաբառ ունենաք, որպեսզի օգտվեք ծրագրավորման ռեժիմից։"
 
 #: ../plugins/about/DevMode.qml:116
 #: ../plugins/security-privacy/LockSecurity.qml:36
 #: ../plugins/security-privacy/PhoneLocking.qml:66
 msgid "Lock security"
-msgstr ""
+msgstr "Կողպեքի ռեժիմի անվտանգություն"
 
 #: ../plugins/about/License.qml:30
 msgid "Sorry, this license could not be displayed."
-msgstr ""
+msgstr "Ներողություն, այս լիցենզիան չստացվեց ցույց տալ։"
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../plugins/about/PageComponent.qml:35 ../build/po/settings.js:2
 msgid "About"
-msgstr ""
+msgstr "Ծրագրի մասին"
 
 #: ../plugins/about/PageComponent.qml:99
 msgid "Serial"
-msgstr ""
+msgstr "Սերիական համար"
 
 #: ../plugins/about/PageComponent.qml:109
 #: ../plugins/about/PageComponent.qml:110
@@ -80,37 +83,37 @@ msgstr ""
 #: ../plugins/wifi/certhandler.cpp:192 ../plugins/wifi/certhandler.cpp:224
 #: ../plugins/wifi/certhandler.cpp:289 ../plugins/wifi/certhandler.cpp:318
 msgid "None"
-msgstr ""
+msgstr "Բացակայում է"
 
 #: ../plugins/about/PageComponent.qml:131
 msgid "Wi-Fi address"
-msgstr ""
+msgstr "Wi-Fi հասցե"
 
 #: ../plugins/about/PageComponent.qml:139
 msgid "Bluetooth address"
-msgstr ""
+msgstr "Bluetooth հասցե"
 
 #: ../plugins/about/PageComponent.qml:150 ../plugins/about/Storage.qml:32
 msgid "Storage"
-msgstr ""
+msgstr "Հիշողություն"
 
 #. TRANSLATORS: that's the free disk space, indicated in the most appropriate storage unit
 #: ../plugins/about/PageComponent.qml:152
 #, qt-format
 msgid "%1 free"
-msgstr ""
+msgstr "%1 ազատ"
 
 #: ../plugins/about/PageComponent.qml:160
 msgid "Software:"
-msgstr ""
+msgstr "Ծրագրային ապահովում."
 
 #: ../plugins/about/PageComponent.qml:172
 msgid "OS"
-msgstr ""
+msgstr "ՕՀ"
 
 #: ../plugins/about/PageComponent.qml:184
 msgid "Last updated"
-msgstr ""
+msgstr "Վերջին թարմացում"
 
 #: ../plugins/about/PageComponent.qml:186
 #: ../plugins/battery/PageComponent.qml:319
@@ -126,80 +129,80 @@ msgstr "Երբեք"
 
 #: ../plugins/about/PageComponent.qml:194
 msgid "Check for updates"
-msgstr ""
+msgstr "Գտնել թարմացումներ"
 
 #: ../plugins/about/PageComponent.qml:219
 msgid "Legal:"
-msgstr ""
+msgstr "Իրավական տեղեկատվություն."
 
 #: ../plugins/about/PageComponent.qml:224 ../plugins/about/Software.qml:11
 msgid "Software licenses"
-msgstr ""
+msgstr "Ծրագրի լիցենզիաներ"
 
 #: ../plugins/about/PageComponent.qml:231
 msgid "Regulatory info"
-msgstr ""
+msgstr "Իրավական տեղեկատվություն"
 
 #: ../plugins/about/PageComponent.qml:238
 msgid "Developer mode"
-msgstr ""
+msgstr "Ծրագրավորողի ռեժիմ"
 
 #: ../plugins/about/Storage.qml:44
 msgid "Scanning"
-msgstr ""
+msgstr "Ստուգում"
 
 #: ../plugins/about/Storage.qml:106
 msgid "Used by Ubuntu"
-msgstr ""
+msgstr "Զբաղված է Ubuntu-ի կողմից"
 
 #: ../plugins/about/Storage.qml:107
 msgid "Videos"
-msgstr ""
+msgstr "Տեսանյութեր"
 
 #: ../plugins/about/Storage.qml:108
 msgid "Audio"
-msgstr ""
+msgstr "Ձայնագրություններ"
 
 #: ../plugins/about/Storage.qml:109
 msgid "Pictures"
-msgstr ""
+msgstr "Նկարներ"
 
 #: ../plugins/about/Storage.qml:110
 msgid "Other files"
-msgstr ""
+msgstr "Ուրիշ ֆայլեր"
 
 #: ../plugins/about/Storage.qml:111
 msgid "Used by apps"
-msgstr ""
+msgstr "Զբաղված է ծրագրերի կոցմից"
 
 #: ../plugins/about/Storage.qml:159
 msgid "Total storage"
-msgstr ""
+msgstr "Ընդհանուր հիշողություն"
 
 #: ../plugins/about/Storage.qml:171
 msgid "Free space"
-msgstr ""
+msgstr "Ազատ հիշողություն"
 
 #: ../plugins/about/Storage.qml:191
 msgid "By name"
-msgstr ""
+msgstr "Անունով"
 
 #: ../plugins/about/Storage.qml:191
 msgid "By size"
-msgstr ""
+msgstr "Չափով"
 
 #: ../plugins/about/Storage.qml:222 ../plugins/battery/PageComponent.qml:109
 #: ../plugins/battery/PageComponent.qml:284
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 #: ../plugins/about/Version.qml:35
 msgid "OS Build Details"
-msgstr ""
+msgstr "ՕՀ-ի մասին ինֆորմացիա"
 
 #: ../plugins/about/Version.qml:62
 msgid "OS build number"
-msgstr ""
+msgstr "ՕՀ-ի կառուցման համարը"
 
 #: ../plugins/about/Version.qml:68
 msgid "UBports Image part"
@@ -215,7 +218,7 @@ msgstr ""
 
 #: ../plugins/about/Version.qml:89
 msgid "Device build description"
-msgstr ""
+msgstr "Սարքի կառուցման նկարագրություն"
 
 #: ../plugins/about/Version.qml:96
 msgid "Customization Image part"
@@ -224,11 +227,11 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../plugins/background/MainPage.qml:38 ../build/po/settings.js:44
 msgid "Background"
-msgstr ""
+msgstr "Ֆոն"
 
 #: ../plugins/background/MainPage.qml:94
 msgid "Ubuntu Art"
-msgstr ""
+msgstr "Ubuntu-ի պաստառներ"
 
 #: ../plugins/background/MainPage.qml:107
 msgid "Custom"
@@ -236,19 +239,19 @@ msgstr ""
 
 #: ../plugins/background/MainPage.qml:117
 msgid "Dash background"
-msgstr ""
+msgstr "Ծրագրերի վահանակի ֆոն"
 
 #: ../plugins/background/MainPage.qml:130
 msgid "Opacity:"
-msgstr ""
+msgstr "Անթափանցիկություն."
 
 #: ../plugins/background/Preview.qml:69
 msgid "Preview"
-msgstr ""
+msgstr "Նախադիտել"
 
 #: ../plugins/background/Preview.qml:107
 msgid "Remove image"
-msgstr ""
+msgstr "Ջնջել պատկերի ֆայլը"
 
 #: ../plugins/background/Preview.qml:107
 #: ../plugins/bluetooth/ConfirmPasskeyDialog.qml:49
@@ -285,87 +288,87 @@ msgstr "Չեղարկել"
 #: ../plugins/security-privacy/LockSecurity.qml:391
 #: ../plugins/time-date/TimePicker.qml:181
 msgid "Set"
-msgstr ""
+msgstr "Ընտրել"
 
 #. TRANSLATORS: This is a keyword or name for the battery plugin which is used while searching
 #: ../plugins/battery/PageComponent.qml:35 ../build/po/settings.js:60
 msgid "Battery"
-msgstr ""
+msgstr "Մարտկոց"
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery/PageComponent.qml:44
 #, qt-format
 msgid "%1 second ago"
 msgid_plural "%1 seconds ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 վարկյան առաջ"
+msgstr[1] "%1 վարկյան առաջ"
 
 #. TRANSLATORS: %1 is the number of minutes
 #: ../plugins/battery/PageComponent.qml:47
 #, qt-format
 msgid "%1 minute ago"
 msgid_plural "%1 minutes ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 րոպե առաջ"
+msgstr[1] "%1 րոպե առաջ"
 
 #. TRANSLATORS: %1 is the number of hours
 #: ../plugins/battery/PageComponent.qml:50
 #, qt-format
 msgid "%1 hour ago"
 msgid_plural "%1 hours ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ժամ առաջ"
+msgstr[1] "%1 ժամ առաջ"
 
 #: ../plugins/battery/PageComponent.qml:104
 msgid "Charge level"
-msgstr ""
+msgstr "Լիցքավորման մակարդակը"
 
 #. TRANSLATORS: %1 refers to a percentage that indicates the charging level of the battery
 #: ../plugins/battery/PageComponent.qml:112
 #, qt-format
 msgid "%1%"
-msgstr ""
+msgstr "%1%"
 
 #: ../plugins/battery/PageComponent.qml:190
 #: ../plugins/battery/PageComponent.qml:192
 msgid "Yesterday"
-msgstr ""
+msgstr "Երեկ"
 
 #: ../plugins/battery/PageComponent.qml:198
 #: ../plugins/battery/PageComponent.qml:200
 msgid "Today"
-msgstr ""
+msgstr "Այսօր"
 
 #: ../plugins/battery/PageComponent.qml:270
 msgid "Charging now"
-msgstr ""
+msgstr "Լիցքավորվում է"
 
 #: ../plugins/battery/PageComponent.qml:272
 msgid "Last full charge"
-msgstr ""
+msgstr "Վերջին լրիվ լիցքը"
 
 #: ../plugins/battery/PageComponent.qml:274
 msgid "Fully charged"
-msgstr ""
+msgstr "Լրիվ լիցքավորված"
 
 #: ../plugins/battery/PageComponent.qml:293
 msgid "Ways to reduce battery use:"
-msgstr ""
+msgstr "Մարտկոցի օգտագործումը նվազեցնելու ձևերը."
 
 #: ../plugins/battery/PageComponent.qml:297
 #: ../plugins/brightness/PageComponent.qml:84
 msgid "Display brightness"
-msgstr ""
+msgstr "Էկրանի լուսավորություն"
 
 #: ../plugins/battery/PageComponent.qml:314
 #: ../plugins/security-privacy/PhoneLocking.qml:89
 msgid "Lock when idle"
-msgstr ""
+msgstr "Միացնել կողպեքի ռեժիմը սպասման ռեժիմի ժամանակ"
 
 #: ../plugins/battery/PageComponent.qml:314
 #: ../plugins/security-privacy/PhoneLocking.qml:90
 msgid "Sleep when idle"
-msgstr ""
+msgstr "Քնել սպասման ռեժիմում"
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery/PageComponent.qml:322
@@ -373,8 +376,8 @@ msgstr ""
 #, qt-format
 msgid "After %1 second"
 msgid_plural "After %1 seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 վարկյան հետո"
+msgstr[1] "%1 վարկյան հետո"
 
 #. TRANSLATORS: %1 is the number of minutes
 #: ../plugins/battery/PageComponent.qml:326
@@ -388,71 +391,73 @@ msgstr[1] ""
 #, qt-format
 msgid "After %1 minute"
 msgid_plural "After %1 minutes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 րոպե հետո"
+msgstr[1] "%1 րոպե հետո"
 
 #. TRANSLATORS: “Wi-Fi used for hotspot” is hidden.
 #: ../plugins/battery/PageComponent.qml:365
 msgid "Wi-Fi used for hotspot"
-msgstr ""
+msgstr "Wi-Fi-ն օգտագործվում է թեժ կետի համար"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../plugins/battery/PageComponent.qml:365
 #: ../plugins/wifi/PageComponent.qml:28 ../build/po/settings.js:398
 msgid "Wi-Fi"
-msgstr ""
+msgstr "Wi-Fi"
 
 #. TRANSLATORS: This is a keyword or name for the bluetooth plugin which is used while searching
 #: ../plugins/battery/PageComponent.qml:401
 #: ../plugins/bluetooth/PageComponent.qml:33
 #: ../plugins/bluetooth/PageComponent.qml:235 ../build/po/settings.js:76
 msgid "Bluetooth"
-msgstr ""
+msgstr "Bluetooth"
 
 #: ../plugins/battery/SleepValues.qml:74
 msgid "Lock the device when it's not in use:"
-msgstr ""
+msgstr "Չօգտագործման ժամանակ միացնել կողպեքի ռեժիմը"
 
 #: ../plugins/battery/SleepValues.qml:75
 msgid "Put the device to sleep when it is not in use:"
-msgstr ""
+msgstr "Սարքը քնելու ռեժիմում դնել, երբ այն չի օգտագործվում:"
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery/SleepValues.qml:86
 #, qt-format
 msgid "After %1 seconds"
 msgid_plural "After %1 seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 վարկյան անց"
+msgstr[1] "%1 վարկյան անց"
 
 #: ../plugins/battery/SleepValues.qml:130
 msgid ""
 "Shorter times are more secure. Device won't lock during calls or video "
 "playback."
 msgstr ""
+"Կարճ ժամանակներն ավելի անվտանգ են: Կողպեքի ռեժիմը չի ակտիվանա զանգերի "
+"ընթացքում կամ տեսանյութ դիտելիս:"
 
 #: ../plugins/battery/SleepValues.qml:130
 msgid "Device won’t sleep during calls or video playback."
-msgstr ""
+msgstr "Կողպեքի ռեժիմը չի ակտիվանա զանգերի ընթացքում կամ տեսանյութ դիտելիս։"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:26
 msgid "Bluetooth Pairing Authorization Request"
-msgstr ""
+msgstr "Bluetooth զուգավորման թույլտվության հարցում"
 
 #. TRANSLATORS: %1 is the name of the bluetooth device which requires authorization
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:34
 #, qt-format
 msgid ""
 "The device %1 wants to pair with this device. Do you want to allow this?"
-msgstr ""
+msgstr "%1 սարքը ուզում է զուգավորվել այս սարքի հետ։ Թողնե՞լ։"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:39
 msgid "Allow"
-msgstr ""
+msgstr "Թողնել"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:46
 msgid "Refuse"
-msgstr ""
+msgstr "Հրաժարվել"
 
 #: ../plugins/bluetooth/ConfirmPasskeyDialog.qml:28
 #: ../plugins/bluetooth/DisplayPasskeyDialog.qml:26
@@ -460,17 +465,18 @@ msgstr ""
 #: ../plugins/bluetooth/ProvidePasskeyDialog.qml:28
 #: ../plugins/bluetooth/ProvidePinCodeDialog.qml:28
 msgid "Bluetooth Pairing Request"
-msgstr ""
+msgstr "Bluetooth-ի զուգավորման հարցում"
 
 #. TRANSLATORS: %1 is the name of the bluetooth device being paired
 #: ../plugins/bluetooth/ConfirmPasskeyDialog.qml:37
 #, qt-format
 msgid "Please confirm that the PIN displayed on '%1' matches this one"
 msgstr ""
+"Հաստատեք, որ PIN կոդը, որը նշված է '%1' սարքի մեջ համընկնում է տվյալ կոդի հետ"
 
 #: ../plugins/bluetooth/ConfirmPasskeyDialog.qml:57
 msgid "Confirm PIN"
-msgstr ""
+msgstr "Հաստատել կոդը"
 
 #: ../plugins/bluetooth/DevicePage.qml:37
 #: ../plugins/bluetooth/PageComponent.qml:290
@@ -479,20 +485,20 @@ msgstr ""
 #: ../plugins/brightness/WifiDisplays.qml:172
 #: ../plugins/wifi/AccessPoint.qml:51 ../plugins/wifi/StandardMenuItem.qml:31
 msgid "Connected"
-msgstr ""
+msgstr "Զուգավորված"
 
 #: ../plugins/bluetooth/DevicePage.qml:38
 #: ../plugins/bluetooth/PageComponent.qml:290
 msgid "Connecting…"
-msgstr ""
+msgstr "Զուգավորում…"
 
 #: ../plugins/bluetooth/DevicePage.qml:39
 msgid "Disconnecting…"
-msgstr ""
+msgstr "Անջատում…"
 
 #: ../plugins/bluetooth/DevicePage.qml:40
 msgid "Disconnected"
-msgstr ""
+msgstr "Անջատվել է"
 
 #: ../plugins/bluetooth/DevicePage.qml:41 ../plugins/hotspot/Common.qml:94
 #: ../plugins/system-update/UpdateSettings.qml:64 ../plugins/wifi/Common.qml:96
@@ -501,238 +507,238 @@ msgstr "Անհայտ"
 
 #: ../plugins/bluetooth/DevicePage.qml:47
 msgid "Computer"
-msgstr ""
+msgstr "Համակարգիչ"
 
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../plugins/bluetooth/DevicePage.qml:48
 #: ../plugins/bluetooth/DevicePage.qml:49 ../plugins/phone/PageComponent.qml:32
 #: ../build/po/settings.js:250
 msgid "Phone"
-msgstr ""
+msgstr "Հեռախոս"
 
 #: ../plugins/bluetooth/DevicePage.qml:50
 msgid "Modem"
-msgstr ""
+msgstr "Մոդեմ"
 
 #: ../plugins/bluetooth/DevicePage.qml:51 ../src/qml/MainWindow.qml:241
 msgid "Network"
-msgstr ""
+msgstr "Համացանց"
 
 #: ../plugins/bluetooth/DevicePage.qml:52
 msgid "Headset"
-msgstr ""
+msgstr "Ականջակալ"
 
 #: ../plugins/bluetooth/DevicePage.qml:53
 msgid "Headphones"
-msgstr ""
+msgstr "Ականջակալներ"
 
 #: ../plugins/bluetooth/DevicePage.qml:54
 msgid "Video"
-msgstr ""
+msgstr "Տեսանյութ"
 
 #: ../plugins/bluetooth/DevicePage.qml:55
 msgid "Other Audio"
-msgstr ""
+msgstr "Ուրիշ աուդիո"
 
 #: ../plugins/bluetooth/DevicePage.qml:56
 msgid "Joypad"
-msgstr ""
+msgstr "Վահանակ"
 
 #: ../plugins/bluetooth/DevicePage.qml:57
 msgid "Keyboard"
-msgstr ""
+msgstr "Ստեղնաշար"
 
 #: ../plugins/bluetooth/DevicePage.qml:58
 msgid "Tablet"
-msgstr ""
+msgstr "Պլանշետ"
 
 #: ../plugins/bluetooth/DevicePage.qml:59 ../plugins/mouse/Connected.qml:48
 msgid "Mouse"
-msgstr "Մուկ"
+msgstr "Մկնիկ"
 
 #: ../plugins/bluetooth/DevicePage.qml:60
 msgid "Printer"
-msgstr ""
+msgstr "Տպիչ"
 
 #: ../plugins/bluetooth/DevicePage.qml:61
 #: ../plugins/security-privacy/AppAccess.qml:75
 msgid "Camera"
-msgstr ""
+msgstr "Տեսախցիկ"
 
 #: ../plugins/bluetooth/DevicePage.qml:62
 msgid "Watch"
-msgstr ""
+msgstr "Ժամացույց"
 
 #: ../plugins/bluetooth/DevicePage.qml:63
 msgid "Other"
-msgstr ""
+msgstr "Ուրիշ"
 
 #: ../plugins/bluetooth/DevicePage.qml:69
 msgid "Excellent"
-msgstr ""
+msgstr "Հիասքանչ"
 
 #: ../plugins/bluetooth/DevicePage.qml:70
 msgid "Good"
-msgstr ""
+msgstr "Լավ"
 
 #: ../plugins/bluetooth/DevicePage.qml:71
 msgid "Fair"
-msgstr ""
+msgstr "Նորմալ"
 
 #: ../plugins/bluetooth/DevicePage.qml:72
 msgid "Poor"
-msgstr ""
+msgstr "Վատ"
 
 #: ../plugins/bluetooth/DevicePage.qml:106
 #: ../plugins/cellular/PageApnEditor.qml:157
 #: ../plugins/wifi/NetworkDetails.qml:59
 #: ../plugins/printing/printer-sub-pages/Status.qml:61
 msgid "Name"
-msgstr ""
+msgstr "Անուն"
 
 #: ../plugins/bluetooth/DevicePage.qml:113
 msgid "Type"
-msgstr ""
+msgstr "Տեսակ"
 
 #: ../plugins/bluetooth/DevicePage.qml:124
 #: ../plugins/printing/printer-sub-pages/Status.qml:26
 msgid "Status"
-msgstr ""
+msgstr "Կարգավիճակ"
 
 #: ../plugins/bluetooth/DevicePage.qml:128
 msgid "Signal Strength"
-msgstr ""
+msgstr "Սիգնալի հզորություն"
 
 #: ../plugins/bluetooth/DevicePage.qml:133
 #: ../plugins/bluetooth/PageComponent.qml:358
 msgid "Connect automatically when detected:"
-msgstr ""
+msgstr "Միանգամից կպնել գտնելուց հետո."
 
 #: ../plugins/bluetooth/DevicePage.qml:150
 #: ../plugins/cellular/PageChooseApn.qml:201
 #: ../plugins/cellular/PageChooseApn.qml:266
 msgid "Disconnect"
-msgstr ""
+msgstr "Անջատել"
 
 #: ../plugins/bluetooth/DevicePage.qml:150 ../plugins/wifi/OtherNetwork.qml:905
 msgid "Connect"
-msgstr ""
+msgstr "Կպնել"
 
 #: ../plugins/bluetooth/DevicePage.qml:172
 msgid "Forget this device"
-msgstr ""
+msgstr "Մոռանալ սարքը"
 
 #. TRANSLATORS: %1 is the name of the bluetooth device being paired
 #: ../plugins/bluetooth/DisplayPasskeyDialog.qml:35
 #: ../plugins/bluetooth/DisplayPinCodeDialog.qml:34
 #, qt-format
 msgid "Please enter the following PIN on %1 and press “Enter” on the keyboard:"
-msgstr ""
+msgstr "Գրեք տրված PIN code-ը %1 սարքի մեջ և սեղմեք \"Enter\" ստեղնաշարի վրա."
 
 #: ../plugins/bluetooth/PageComponent.qml:252
 msgid "Discoverable"
-msgstr ""
+msgstr "Երեվացող"
 
 #: ../plugins/bluetooth/PageComponent.qml:252
 msgid "Not discoverable"
-msgstr ""
+msgstr "Անտեսանելի"
 
 #: ../plugins/bluetooth/PageComponent.qml:260
 #: ../plugins/bluetooth/PageComponent.qml:319
 msgid "Searching…"
-msgstr ""
+msgstr "Որոնում…"
 
 #: ../plugins/bluetooth/PageComponent.qml:269
 msgid "Connected devices:"
-msgstr ""
+msgstr "Զուգավորված սարքեր."
 
 #: ../plugins/bluetooth/PageComponent.qml:309
 msgid "Connect another device:"
-msgstr ""
+msgstr "Զուգավորել ուրիշ սարք."
 
 #: ../plugins/bluetooth/PageComponent.qml:309
 msgid "Connect a device:"
-msgstr ""
+msgstr "Զուգավորել սարք."
 
 #: ../plugins/bluetooth/PageComponent.qml:352
 msgid "None detected"
-msgstr ""
+msgstr "Չի գտնվել"
 
 #: ../plugins/bluetooth/ProvidePasskeyDialog.qml:36
 #: ../plugins/bluetooth/ProvidePinCodeDialog.qml:36
 #, qt-format
 msgid "PIN for '%1'"
-msgstr ""
+msgstr "'%1'-ի համար կոդ"
 
 #: ../plugins/bluetooth/ProvidePasskeyDialog.qml:62
 #: ../plugins/bluetooth/ProvidePinCodeDialog.qml:63
 msgid "Pair"
-msgstr ""
+msgstr "Զուգավորել"
 
 #: ../plugins/brightness/PageComponent.qml:35
 msgid "Brightness & Display"
-msgstr ""
+msgstr "Պայծառություն և էկրան"
 
 #. TRANSLATORS: This is a keyword or name for the brightness plugin which is used while searching
 #: ../plugins/brightness/PageComponent.qml:35 ../build/po/settings.js:100
 msgid "Brightness"
-msgstr ""
+msgstr "Պայծառություն"
 
 #: ../plugins/brightness/PageComponent.qml:116
 msgid "Adjust automatically"
-msgstr ""
+msgstr "Ավտոմատ կարգավորում"
 
 #: ../plugins/brightness/PageComponent.qml:131
 msgid "Brightens and dims the display to suit the surroundings."
-msgstr ""
+msgstr "Ավտագարգավորել էկրանը լույսի օգնությամբ։"
 
 #: ../plugins/brightness/PageComponent.qml:140
 msgid "External display"
-msgstr ""
+msgstr "Էկստերնալ էկրան"
 
 #: ../plugins/brightness/PageComponent.qml:158
 msgid "Wireless display"
-msgstr ""
+msgstr "Անլար էկրան"
 
 #: ../plugins/brightness/PageComponent.qml:159
 #: ../plugins/brightness/WifiDisplays.qml:128
 #: ../plugins/brightness/WifiDisplays.qml:172
 msgid "Not connected"
-msgstr ""
+msgstr "Զուգավորված չէ"
 
 #: ../plugins/brightness/WifiDisplays.qml:27
 msgid "Wireless Display"
-msgstr ""
+msgstr "Անլար էկրան"
 
 #: ../plugins/brightness/WifiDisplays.qml:100
 msgid "No displays detected"
-msgstr ""
+msgstr "Չստացվեց գտնել էկրանը"
 
 #: ../plugins/brightness/WifiDisplays.qml:113
 msgid "Connected display:"
-msgstr ""
+msgstr "Միացված էկրան."
 
 #: ../plugins/brightness/WifiDisplays.qml:128
 msgid "Connecting"
-msgstr ""
+msgstr "Զուգավորումը ընթացքում է"
 
 #: ../plugins/brightness/WifiDisplays.qml:146
 msgid "Use another display:"
-msgstr ""
+msgstr "Օգտագործել ուրիշ էկրան."
 
 #: ../plugins/brightness/WifiDisplays.qml:146
 msgid "Choose a display:"
-msgstr ""
+msgstr "Ընտրեք էկրան."
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:32
 #, qt-format
 msgid "This device failed to connect to %1."
-msgstr ""
+msgstr "Չստացվեծ կապվել %1։"
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:34
 #, qt-format
 msgid "There was an unknown error connecting to %1."
-msgstr ""
+msgstr "%1-ին կապվելու ժամանակ տողի ունեցավ անհայտ սխալ։"
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:38
 #: ../plugins/phone/CallForwarding.qml:305
@@ -740,43 +746,43 @@ msgstr ""
 #: ../plugins/vpn/PageComponent.qml:123
 #: ../plugins/cellular/Components/SimEditor.qml:214
 msgid "OK"
-msgstr "Լավ"
+msgstr "OK"
 
 #: ../plugins/cellular/PageApnEditor.qml:71
 msgid "Edit"
-msgstr ""
+msgstr "Փոխել"
 
 #: ../plugins/cellular/PageApnEditor.qml:71
 msgid "New APN"
-msgstr ""
+msgstr "Ստեղծել նոր APN"
 
 #: ../plugins/cellular/PageApnEditor.qml:132
 msgid "Used for:"
-msgstr ""
+msgstr "Օգտագորված է."
 
 #: ../plugins/cellular/PageApnEditor.qml:136
 #: ../plugins/cellular/PageChooseApn.qml:107
 msgid "Internet and MMS"
-msgstr ""
+msgstr "Ինտերնետ և MMS"
 
 #: ../plugins/cellular/PageApnEditor.qml:137
 #: ../plugins/cellular/PageChooseApn.qml:109
 msgid "Internet"
-msgstr ""
+msgstr "Ինտերնետ"
 
 #: ../plugins/cellular/PageApnEditor.qml:138
 #: ../plugins/cellular/PageChooseApn.qml:113
 msgid "MMS"
-msgstr ""
+msgstr "MMS"
 
 #: ../plugins/cellular/PageApnEditor.qml:139
 #: ../plugins/cellular/PageChooseApn.qml:111
 msgid "LTE"
-msgstr ""
+msgstr "LTE"
 
 #: ../plugins/cellular/PageApnEditor.qml:166
 msgid "Enter a name describing the APN"
-msgstr ""
+msgstr "Գրեք անուն, որը նկարագրում է APN ծառայությունը"
 
 #. TRANSLATORS: This string is a description of a text
 #. field and should thus be concise.
@@ -785,15 +791,15 @@ msgstr ""
 #: ../plugins/cellular/PageCarriersAndApns.qml:71
 #: ../plugins/cellular/PageChooseApn.qml:41
 msgid "APN"
-msgstr ""
+msgstr "APN"
 
 #: ../plugins/cellular/PageApnEditor.qml:192
 msgid "Enter the name of the access point"
-msgstr ""
+msgstr "Գրեք մուտքի կետի անուն"
 
 #: ../plugins/cellular/PageApnEditor.qml:206
 msgid "MMSC"
-msgstr ""
+msgstr "Մուլտիմեդիա հաղորդագրությունների համակարգի կենտրոն (MMSC)"
 
 #: ../plugins/cellular/PageApnEditor.qml:216
 msgid "Enter message center"
@@ -801,7 +807,7 @@ msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:234
 msgid "Proxy"
-msgstr ""
+msgstr "Proxy"
 
 #: ../plugins/cellular/PageApnEditor.qml:244
 msgid "Enter message proxy"
@@ -809,24 +815,24 @@ msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:289
 msgid "Proxy port"
-msgstr ""
+msgstr "Proxy պորտ"
 
 #: ../plugins/cellular/PageApnEditor.qml:300
 msgid "Enter message proxy port"
-msgstr ""
+msgstr "Գրեք պորտը, որը օգտագործվում է proxy ծառայությունի կողմից"
 
 #: ../plugins/cellular/PageApnEditor.qml:318
 msgid "User name"
-msgstr ""
+msgstr "Օգտվողի անուն"
 
 #: ../plugins/cellular/PageApnEditor.qml:328
 msgid "Enter username"
-msgstr ""
+msgstr "Գրեք օգտվողի անունը"
 
 #: ../plugins/cellular/PageApnEditor.qml:341
 #: ../plugins/wifi/NetworkDetails.qml:72 ../plugins/wifi/OtherNetwork.qml:786
 msgid "Password"
-msgstr ""
+msgstr "Գաղտնաբառ"
 
 #: ../plugins/cellular/PageApnEditor.qml:353
 msgid "Enter password"
@@ -1467,7 +1473,7 @@ msgstr "Ծանուցումների ցանկ"
 #: ../plugins/notifications/ClickAppsSoundsNotify.qml:30
 #: ../plugins/sound/PageComponent.qml:39 ../build/po/settings.js:330
 msgid "Sound"
-msgstr ""
+msgstr "Ձայն"
 
 #: ../plugins/notifications/ClickAppsSoundsNotify.qml:44
 msgid "Apps that notify with sound:"
@@ -1500,14 +1506,12 @@ msgid ""
 msgstr ""
 
 #: ../plugins/notifications/PageComponent.qml:91
-#, fuzzy
 msgid "Apps that notify with sound"
-msgstr "Ձայնային ծանուցումով հավելվածներ"
+msgstr "Ձայնային ծանուցումով ծրագրեր"
 
 #: ../plugins/notifications/PageComponent.qml:117
-#, fuzzy
 msgid "Apps that notify with vibration"
-msgstr "Վիբրացիայով ցանուցող հավելվածներ"
+msgstr "Վիբրացիայով ցանուցող ծրագրեր"
 
 #: ../plugins/notifications/PageComponent.qml:143
 msgid "Applications:"
@@ -2211,7 +2215,7 @@ msgstr ""
 
 #: ../plugins/sound/PageComponent.qml:76
 msgid "Silent Mode"
-msgstr ""
+msgstr "Անձայն ռեժիմ"
 
 #: ../plugins/sound/PageComponent.qml:100
 msgid "Ringer:"
@@ -2219,7 +2223,7 @@ msgstr ""
 
 #: ../plugins/sound/PageComponent.qml:141
 msgid "High volume can damage your hearing."
-msgstr ""
+msgstr "Բարձր ձայնը կարող է վնասել ձեր ականջները։"
 
 #: ../plugins/sound/PageComponent.qml:145
 msgid "Phone calls:"
@@ -2340,19 +2344,16 @@ msgid "Firmware Update"
 msgstr ""
 
 #: ../plugins/system-update/FirmwareUpdate.qml:133
-#, fuzzy
 msgid "There is a firmware update available!"
-msgstr "Կա %1 թարմեցում"
+msgstr "Գոյություն ունի նոր թարմացում!"
 
 #: ../plugins/system-update/FirmwareUpdate.qml:134
-#, fuzzy
 msgid "Firmware is up to date!"
 msgstr "Ծրագրեգը թարմ են"
 
 #: ../plugins/system-update/FirmwareUpdate.qml:169
-#, fuzzy
 msgid "The device will restart automatically after installing is done."
-msgstr "Պետք է վերագործարկել համակարգի թարմեցման համար:"
+msgstr "Թարմացումը վերջացնելուց հետո սարքը կանջատվի և նորից կմիանա։"
 
 #: ../plugins/system-update/FirmwareUpdate.qml:185
 msgid "Install and restart now"
@@ -2364,9 +2365,8 @@ msgid ""
 msgstr ""
 
 #: ../plugins/system-update/FirmwareUpdate.qml:235
-#, fuzzy
 msgid "Checking for firmware update"
-msgstr "Թարմեցումների ստուգում…"
+msgstr "Գտնվում են թարմացումներ"
 
 #: ../plugins/system-update/GlobalUpdateControls.qml:84
 msgid "Checking for updates…"
@@ -3775,7 +3775,7 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../build/po/settings.js:334
 msgid "silent"
-msgstr ""
+msgstr "անձայն"
 
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../build/po/settings.js:336

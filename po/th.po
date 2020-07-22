@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2020-05-26 22:24+0000\n"
-"Last-Translator: Somnuk Limsiroratana <mailsomnuk@yahoo.com>\n"
+"PO-Revision-Date: 2020-07-01 05:29+0000\n"
+"Last-Translator: PPNplus <ppnplus@protonmail.com>\n"
 "Language-Team: Thai <https://translate.ubports.com/projects/ubports/"
 "system-settings/th/>\n"
 "Language: th\n"
@@ -17,16 +17,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.8\n"
+"X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:42+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
 msgid "System Settings"
-msgstr ""
+msgstr "การตั้งค่าระบบ"
 
 #: ubuntu-system-settings.desktop.in.in.h:2
 msgid "System;"
-msgstr ""
+msgstr "ระบบ;"
 
 #: ubuntu-system-settings.desktop.in.in.h:3
 msgid "Preferences;Settings;"
@@ -59,7 +59,7 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../plugins/about/PageComponent.qml:35 ../build/po/settings.js:2
 msgid "About"
-msgstr ""
+msgstr "เกี่ยวกับ"
 
 #: ../plugins/about/PageComponent.qml:99
 msgid "Serial"
@@ -81,29 +81,29 @@ msgstr ""
 #: ../plugins/wifi/certhandler.cpp:192 ../plugins/wifi/certhandler.cpp:224
 #: ../plugins/wifi/certhandler.cpp:289 ../plugins/wifi/certhandler.cpp:318
 msgid "None"
-msgstr ""
+msgstr "ไม่มี"
 
 #: ../plugins/about/PageComponent.qml:131
 msgid "Wi-Fi address"
-msgstr ""
+msgstr "ที่อยู่ Wi-Fi"
 
 #: ../plugins/about/PageComponent.qml:139
 msgid "Bluetooth address"
-msgstr ""
+msgstr "ที่อยู่ Bluetooth"
 
 #: ../plugins/about/PageComponent.qml:150 ../plugins/about/Storage.qml:32
 msgid "Storage"
-msgstr ""
+msgstr "พื้นที่เก็บข้อมูล"
 
 #. TRANSLATORS: that's the free disk space, indicated in the most appropriate storage unit
 #: ../plugins/about/PageComponent.qml:152
 #, qt-format
 msgid "%1 free"
-msgstr ""
+msgstr "เหลือ %1"
 
 #: ../plugins/about/PageComponent.qml:160
 msgid "Software:"
-msgstr ""
+msgstr "ซอฟต์แวร์:"
 
 #: ../plugins/about/PageComponent.qml:172
 msgid "OS"
@@ -111,7 +111,7 @@ msgstr ""
 
 #: ../plugins/about/PageComponent.qml:184
 msgid "Last updated"
-msgstr ""
+msgstr "อัปเดตล่าสุด"
 
 #: ../plugins/about/PageComponent.qml:186
 #: ../plugins/battery/PageComponent.qml:319
@@ -123,11 +123,11 @@ msgstr ""
 #: ../plugins/system-update/UpdateSettings.qml:58
 #: ../plugins/wifi/NetworkDetails.qml:67
 msgid "Never"
-msgstr ""
+msgstr "ไม่เคย"
 
 #: ../plugins/about/PageComponent.qml:194
 msgid "Check for updates"
-msgstr ""
+msgstr "ตรวจสอบอัปเดต"
 
 #: ../plugins/about/PageComponent.qml:219
 msgid "Legal:"
@@ -147,39 +147,39 @@ msgstr ""
 
 #: ../plugins/about/Storage.qml:44
 msgid "Scanning"
-msgstr ""
+msgstr "กำลังสปกน"
 
 #: ../plugins/about/Storage.qml:106
 msgid "Used by Ubuntu"
-msgstr ""
+msgstr "ใช้โดย Ubuntu"
 
 #: ../plugins/about/Storage.qml:107
 msgid "Videos"
-msgstr ""
+msgstr "วิดีโอ"
 
 #: ../plugins/about/Storage.qml:108
 msgid "Audio"
-msgstr ""
+msgstr "เสียง"
 
 #: ../plugins/about/Storage.qml:109
 msgid "Pictures"
-msgstr ""
+msgstr "รูปภาพ"
 
 #: ../plugins/about/Storage.qml:110
 msgid "Other files"
-msgstr ""
+msgstr "ไฟล์อื่น ๆ"
 
 #: ../plugins/about/Storage.qml:111
 msgid "Used by apps"
-msgstr ""
+msgstr "ใช้โดยแอป"
 
 #: ../plugins/about/Storage.qml:159
 msgid "Total storage"
-msgstr ""
+msgstr "พื้นที่จัดเก็บรวม"
 
 #: ../plugins/about/Storage.qml:171
 msgid "Free space"
-msgstr ""
+msgstr "พื้นที่จัดเก็บที่เหลืออยู่"
 
 #: ../plugins/about/Storage.qml:191
 msgid "By name"
@@ -225,7 +225,7 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../plugins/background/MainPage.qml:38 ../build/po/settings.js:44
 msgid "Background"
-msgstr ""
+msgstr "ภาพพื้นหลัง"
 
 #: ../plugins/background/MainPage.qml:94
 msgid "Ubuntu Art"
@@ -233,11 +233,11 @@ msgstr ""
 
 #: ../plugins/background/MainPage.qml:107
 msgid "Custom"
-msgstr ""
+msgstr "กำหนดเอง"
 
 #: ../plugins/background/MainPage.qml:117
 msgid "Dash background"
-msgstr ""
+msgstr "ภาพพื้นหลัง Dash"
 
 #: ../plugins/background/MainPage.qml:130
 msgid "Opacity:"
@@ -245,11 +245,11 @@ msgstr ""
 
 #: ../plugins/background/Preview.qml:69
 msgid "Preview"
-msgstr ""
+msgstr "ตัวอย่าง"
 
 #: ../plugins/background/Preview.qml:107
 msgid "Remove image"
-msgstr ""
+msgstr "เอาภาพออก"
 
 #: ../plugins/background/Preview.qml:107
 #: ../plugins/bluetooth/ConfirmPasskeyDialog.qml:49
@@ -286,46 +286,43 @@ msgstr "ยกเลิก"
 #: ../plugins/security-privacy/LockSecurity.qml:391
 #: ../plugins/time-date/TimePicker.qml:181
 msgid "Set"
-msgstr ""
+msgstr "ตั้งค่า"
 
 #. TRANSLATORS: This is a keyword or name for the battery plugin which is used while searching
 #: ../plugins/battery/PageComponent.qml:35 ../build/po/settings.js:60
 msgid "Battery"
-msgstr ""
+msgstr "แบตเตอรี่"
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery/PageComponent.qml:44
 #, qt-format
 msgid "%1 second ago"
 msgid_plural "%1 seconds ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 วินาทีที่ผ่านมา"
 
 #. TRANSLATORS: %1 is the number of minutes
 #: ../plugins/battery/PageComponent.qml:47
 #, qt-format
 msgid "%1 minute ago"
 msgid_plural "%1 minutes ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 นาทีที่ผ่านมา"
 
 #. TRANSLATORS: %1 is the number of hours
 #: ../plugins/battery/PageComponent.qml:50
 #, qt-format
 msgid "%1 hour ago"
 msgid_plural "%1 hours ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ชั่วโมงที่ผ่านมา"
 
 #: ../plugins/battery/PageComponent.qml:104
 msgid "Charge level"
-msgstr ""
+msgstr "ระดับชาร์จ"
 
 #. TRANSLATORS: %1 refers to a percentage that indicates the charging level of the battery
 #: ../plugins/battery/PageComponent.qml:112
 #, qt-format
 msgid "%1%"
-msgstr ""
+msgstr "%1%"
 
 #: ../plugins/battery/PageComponent.qml:190
 #: ../plugins/battery/PageComponent.qml:192
@@ -335,11 +332,11 @@ msgstr "เมื่อวาน"
 #: ../plugins/battery/PageComponent.qml:198
 #: ../plugins/battery/PageComponent.qml:200
 msgid "Today"
-msgstr ""
+msgstr "วันนี้"
 
 #: ../plugins/battery/PageComponent.qml:270
 msgid "Charging now"
-msgstr ""
+msgstr "กำลังชาร์จตอนนี้"
 
 #: ../plugins/battery/PageComponent.qml:272
 msgid "Last full charge"
@@ -347,7 +344,7 @@ msgstr ""
 
 #: ../plugins/battery/PageComponent.qml:274
 msgid "Fully charged"
-msgstr ""
+msgstr "ชาร์จเต็มแล้ว"
 
 #: ../plugins/battery/PageComponent.qml:293
 msgid "Ways to reduce battery use:"
@@ -356,12 +353,12 @@ msgstr ""
 #: ../plugins/battery/PageComponent.qml:297
 #: ../plugins/brightness/PageComponent.qml:84
 msgid "Display brightness"
-msgstr ""
+msgstr "ความสว่างหน้าจอ"
 
 #: ../plugins/battery/PageComponent.qml:314
 #: ../plugins/security-privacy/PhoneLocking.qml:89
 msgid "Lock when idle"
-msgstr ""
+msgstr "ล็อกเมื่อไม่ใช้งาน"
 
 #: ../plugins/battery/PageComponent.qml:314
 #: ../plugins/security-privacy/PhoneLocking.qml:90
@@ -374,7 +371,7 @@ msgstr ""
 #, qt-format
 msgid "After %1 second"
 msgid_plural "After %1 seconds"
-msgstr[0] ""
+msgstr[0] "หลังจาก %1 วินาที"
 
 #. TRANSLATORS: %1 is the number of minutes
 #: ../plugins/battery/PageComponent.qml:326
@@ -388,30 +385,29 @@ msgstr[0] ""
 #, qt-format
 msgid "After %1 minute"
 msgid_plural "After %1 minutes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "หลังจาก %1 นาที"
 
 #. TRANSLATORS: “Wi-Fi used for hotspot” is hidden.
 #: ../plugins/battery/PageComponent.qml:365
 msgid "Wi-Fi used for hotspot"
-msgstr ""
+msgstr "Wi-Fi ถูกใช้สำหรับฮอตสปอต"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../plugins/battery/PageComponent.qml:365
 #: ../plugins/wifi/PageComponent.qml:28 ../build/po/settings.js:398
 msgid "Wi-Fi"
-msgstr ""
+msgstr "Wi-Fi"
 
 #. TRANSLATORS: This is a keyword or name for the bluetooth plugin which is used while searching
 #: ../plugins/battery/PageComponent.qml:401
 #: ../plugins/bluetooth/PageComponent.qml:33
 #: ../plugins/bluetooth/PageComponent.qml:235 ../build/po/settings.js:76
 msgid "Bluetooth"
-msgstr ""
+msgstr "Bluetooth"
 
 #: ../plugins/battery/SleepValues.qml:74
 msgid "Lock the device when it's not in use:"
-msgstr ""
+msgstr "ล็อกอุปกรณ์เมื่อไม่ได้ใช้งาน:"
 
 #: ../plugins/battery/SleepValues.qml:75
 msgid "Put the device to sleep when it is not in use:"
@@ -422,7 +418,7 @@ msgstr ""
 #, qt-format
 msgid "After %1 seconds"
 msgid_plural "After %1 seconds"
-msgstr[0] ""
+msgstr[0] "หลังจาก %1 วินาที"
 
 #: ../plugins/battery/SleepValues.qml:130
 msgid ""
@@ -443,15 +439,15 @@ msgstr ""
 #, qt-format
 msgid ""
 "The device %1 wants to pair with this device. Do you want to allow this?"
-msgstr ""
+msgstr "อุปกรณ์ %1 ต้องการจับคู่กับอุปกรณ์นี้ คุณต้องการอนุญาตหรือไม่?"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:39
 msgid "Allow"
-msgstr ""
+msgstr "อนุญาต"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:46
 msgid "Refuse"
-msgstr ""
+msgstr "ปฏิเสธ"
 
 #: ../plugins/bluetooth/ConfirmPasskeyDialog.qml:28
 #: ../plugins/bluetooth/DisplayPasskeyDialog.qml:26
@@ -459,7 +455,7 @@ msgstr ""
 #: ../plugins/bluetooth/ProvidePasskeyDialog.qml:28
 #: ../plugins/bluetooth/ProvidePinCodeDialog.qml:28
 msgid "Bluetooth Pairing Request"
-msgstr ""
+msgstr "คำขอจับคู่ Bluetooth"
 
 #. TRANSLATORS: %1 is the name of the bluetooth device being paired
 #: ../plugins/bluetooth/ConfirmPasskeyDialog.qml:37
@@ -469,7 +465,7 @@ msgstr ""
 
 #: ../plugins/bluetooth/ConfirmPasskeyDialog.qml:57
 msgid "Confirm PIN"
-msgstr ""
+msgstr "ยืนยัน PIN"
 
 #: ../plugins/bluetooth/DevicePage.qml:37
 #: ../plugins/bluetooth/PageComponent.qml:290
@@ -478,12 +474,12 @@ msgstr ""
 #: ../plugins/brightness/WifiDisplays.qml:172
 #: ../plugins/wifi/AccessPoint.qml:51 ../plugins/wifi/StandardMenuItem.qml:31
 msgid "Connected"
-msgstr ""
+msgstr "เชื่อมต่อแล้ว"
 
 #: ../plugins/bluetooth/DevicePage.qml:38
 #: ../plugins/bluetooth/PageComponent.qml:290
 msgid "Connecting…"
-msgstr ""
+msgstr "กำลังเชื่อมต่อ…"
 
 #: ../plugins/bluetooth/DevicePage.qml:39
 msgid "Disconnecting…"
@@ -496,11 +492,11 @@ msgstr ""
 #: ../plugins/bluetooth/DevicePage.qml:41 ../plugins/hotspot/Common.qml:94
 #: ../plugins/system-update/UpdateSettings.qml:64 ../plugins/wifi/Common.qml:96
 msgid "Unknown"
-msgstr ""
+msgstr "ไม่รู้จัก"
 
 #: ../plugins/bluetooth/DevicePage.qml:47
 msgid "Computer"
-msgstr ""
+msgstr "คอมพิวเตอร์"
 
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../plugins/bluetooth/DevicePage.qml:48
@@ -511,11 +507,11 @@ msgstr "โทรศัพท์"
 
 #: ../plugins/bluetooth/DevicePage.qml:50
 msgid "Modem"
-msgstr ""
+msgstr "โมเด็ม"
 
 #: ../plugins/bluetooth/DevicePage.qml:51 ../src/qml/MainWindow.qml:241
 msgid "Network"
-msgstr ""
+msgstr "เครือข่าย"
 
 #: ../plugins/bluetooth/DevicePage.qml:52
 msgid "Headset"
@@ -523,11 +519,11 @@ msgstr ""
 
 #: ../plugins/bluetooth/DevicePage.qml:53
 msgid "Headphones"
-msgstr ""
+msgstr "หูฟัง"
 
 #: ../plugins/bluetooth/DevicePage.qml:54
 msgid "Video"
-msgstr ""
+msgstr "วิดีโอ"
 
 #: ../plugins/bluetooth/DevicePage.qml:55
 msgid "Other Audio"
@@ -564,30 +560,30 @@ msgstr ""
 
 #: ../plugins/bluetooth/DevicePage.qml:63
 msgid "Other"
-msgstr "อื่นๆ"
+msgstr "อื่น ๆ"
 
 #: ../plugins/bluetooth/DevicePage.qml:69
 msgid "Excellent"
-msgstr ""
+msgstr "ดีมาก"
 
 #: ../plugins/bluetooth/DevicePage.qml:70
 msgid "Good"
-msgstr ""
+msgstr "ดี"
 
 #: ../plugins/bluetooth/DevicePage.qml:71
 msgid "Fair"
-msgstr ""
+msgstr "พอใช้"
 
 #: ../plugins/bluetooth/DevicePage.qml:72
 msgid "Poor"
-msgstr ""
+msgstr "ไม่ดี"
 
 #: ../plugins/bluetooth/DevicePage.qml:106
 #: ../plugins/cellular/PageApnEditor.qml:157
 #: ../plugins/wifi/NetworkDetails.qml:59
 #: ../plugins/printing/printer-sub-pages/Status.qml:61
 msgid "Name"
-msgstr ""
+msgstr "ชื่อ"
 
 #: ../plugins/bluetooth/DevicePage.qml:113
 msgid "Type"
@@ -670,42 +666,42 @@ msgstr ""
 
 #: ../plugins/brightness/PageComponent.qml:35
 msgid "Brightness & Display"
-msgstr ""
+msgstr "ความสว่างและหน้าจอ"
 
 #. TRANSLATORS: This is a keyword or name for the brightness plugin which is used while searching
 #: ../plugins/brightness/PageComponent.qml:35 ../build/po/settings.js:100
 msgid "Brightness"
-msgstr ""
+msgstr "ความสว่าง"
 
 #: ../plugins/brightness/PageComponent.qml:116
 msgid "Adjust automatically"
-msgstr ""
+msgstr "ปรับอัตโนมัติ"
 
 #: ../plugins/brightness/PageComponent.qml:131
 msgid "Brightens and dims the display to suit the surroundings."
-msgstr ""
+msgstr "ปรับความสว่างของหน้าจอให้เข้ากับสภาพแวดล้อม"
 
 #: ../plugins/brightness/PageComponent.qml:140
 msgid "External display"
-msgstr ""
+msgstr "หน้าจอภายนอก"
 
 #: ../plugins/brightness/PageComponent.qml:158
 msgid "Wireless display"
-msgstr ""
+msgstr "หน้าจอไร้สาย"
 
 #: ../plugins/brightness/PageComponent.qml:159
 #: ../plugins/brightness/WifiDisplays.qml:128
 #: ../plugins/brightness/WifiDisplays.qml:172
 msgid "Not connected"
-msgstr ""
+msgstr "ไม่ได้เชื่อมต่อ"
 
 #: ../plugins/brightness/WifiDisplays.qml:27
 msgid "Wireless Display"
-msgstr ""
+msgstr "หน้าจอไร้สาย"
 
 #: ../plugins/brightness/WifiDisplays.qml:100
 msgid "No displays detected"
-msgstr ""
+msgstr "ไม่พบหน้าจอ"
 
 #: ../plugins/brightness/WifiDisplays.qml:113
 msgid "Connected display:"
@@ -713,7 +709,7 @@ msgstr ""
 
 #: ../plugins/brightness/WifiDisplays.qml:128
 msgid "Connecting"
-msgstr ""
+msgstr "กำลังเชื่อมต่อ"
 
 #: ../plugins/brightness/WifiDisplays.qml:146
 msgid "Use another display:"
@@ -726,12 +722,12 @@ msgstr ""
 #: ../plugins/brightness/WifiDisplaysAlert.qml:32
 #, qt-format
 msgid "This device failed to connect to %1."
-msgstr ""
+msgstr "อุปกรณ์นี้ไม่สามารถเชื่อมต่อกับ %1"
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:34
 #, qt-format
 msgid "There was an unknown error connecting to %1."
-msgstr ""
+msgstr "เกิดข้อผิดพลาดที่ไม่รู้จักขณะเชื่อมต่อกับ %1"
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:38
 #: ../plugins/phone/CallForwarding.qml:305
@@ -739,7 +735,7 @@ msgstr ""
 #: ../plugins/vpn/PageComponent.qml:123
 #: ../plugins/cellular/Components/SimEditor.qml:214
 msgid "OK"
-msgstr ""
+msgstr "ตกลง"
 
 #: ../plugins/cellular/PageApnEditor.qml:71
 msgid "Edit"
@@ -747,7 +743,7 @@ msgstr "แก้ไข"
 
 #: ../plugins/cellular/PageApnEditor.qml:71
 msgid "New APN"
-msgstr ""
+msgstr "APN ใหม่"
 
 #: ../plugins/cellular/PageApnEditor.qml:132
 msgid "Used for:"
@@ -756,7 +752,7 @@ msgstr ""
 #: ../plugins/cellular/PageApnEditor.qml:136
 #: ../plugins/cellular/PageChooseApn.qml:107
 msgid "Internet and MMS"
-msgstr ""
+msgstr "อินเทอร์เน็ตและ MMS"
 
 #: ../plugins/cellular/PageApnEditor.qml:137
 #: ../plugins/cellular/PageChooseApn.qml:109
@@ -939,7 +935,7 @@ msgstr ""
 #: ../plugins/cellular/PageChooseApn.qml:232
 #: ../plugins/cellular/PageChooseApn.qml:265
 msgid "Disable"
-msgstr ""
+msgstr "ปิด"
 
 #: ../plugins/cellular/PageChooseApn.qml:254
 #, qt-format
@@ -970,12 +966,12 @@ msgstr "ลบ"
 #: ../plugins/time-date/ChooseTimeZone.qml:51
 #: ../plugins/time-date/PageComponent.qml:85
 msgid "Automatically"
-msgstr ""
+msgstr "อัตโนมัติ"
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../plugins/cellular/PageComponent.qml:32 ../build/po/settings.js:112
 msgid "Cellular"
-msgstr ""
+msgstr "เซลลูลาร์"
 
 #: ../plugins/hotspot/Common.qml:34 ../plugins/wifi/Common.qml:36
 msgid "Unknown error"
@@ -1092,7 +1088,7 @@ msgstr ""
 
 #: ../plugins/hotspot/Common.qml:90 ../plugins/wifi/Common.qml:92
 msgid "The Wi-Fi network could not be found"
-msgstr ""
+msgstr "ไม่พบเครือข่าย Wi-Fi"
 
 #: ../plugins/hotspot/Common.qml:92 ../plugins/wifi/Common.qml:94
 msgid "A secondary connection of the base connection failed"
@@ -1104,11 +1100,11 @@ msgstr ""
 
 #: ../plugins/hotspot/HotspotSetup.qml:61
 msgid "Set Up Hotspot"
-msgstr ""
+msgstr "ตั้งค่าฮอตสปอต"
 
 #: ../plugins/hotspot/HotspotSetup.qml:167
 msgid "Hotspot name"
-msgstr ""
+msgstr "ชื่อฮอตสปอต"
 
 #: ../plugins/hotspot/HotspotSetup.qml:168
 msgid "Choose a name"
@@ -1116,32 +1112,32 @@ msgstr ""
 
 #: ../plugins/hotspot/HotspotSetup.qml:185
 msgid "Require a password (recommended):"
-msgstr ""
+msgstr "ใช้รหัสผ่าน (แนะนำ):"
 
 #: ../plugins/hotspot/HotspotSetup.qml:216
 #: ../plugins/wifi/NetworkDetails.qml:86 ../plugins/wifi/OtherNetwork.qml:821
 msgid "Show password"
-msgstr ""
+msgstr "แสดงรหัสผ่าน"
 
 #: ../plugins/hotspot/HotspotSetup.qml:237
 msgid "Starting the hotspot will turn on Wi-Fi."
-msgstr ""
+msgstr "การเปิดใช้งานฮอตสปอตจะเปิด Wi-Fi"
 
 #: ../plugins/hotspot/HotspotSetup.qml:266
 #: ../plugins/security-privacy/LockSecurity.qml:389
 #: ../plugins/security-privacy/SimPin.qml:187
 msgid "Change"
-msgstr ""
+msgstr "เปลี่ยน"
 
 #: ../plugins/hotspot/HotspotSetup.qml:267
 msgid "Start"
-msgstr ""
+msgstr "เริ่มต้น"
 
 #. TRANSLATORS: This is a keyword or name for the hotspot plugin which is used while searching
 #: ../plugins/hotspot/PageComponent.qml:33
 #: ../plugins/hotspot/PageComponent.qml:85 ../build/po/settings.js:160
 msgid "Hotspot"
-msgstr ""
+msgstr "ฮอตสปอต"
 
 #: ../plugins/hotspot/PageComponent.qml:114
 msgid ""
@@ -1165,7 +1161,7 @@ msgstr ""
 
 #: ../plugins/hotspot/PageComponent.qml:155
 msgid "Wi-Fi is off"
-msgstr ""
+msgstr "Wi-Fi ปิดอยู่"
 
 #: ../plugins/hotspot/PageComponent.qml:156
 msgid "In order to create a hotspot, you need to turn Wi-Fi on."
@@ -1173,15 +1169,15 @@ msgstr ""
 
 #: ../plugins/hotspot/PageComponent.qml:165
 msgid "Turn on Wi-Fi"
-msgstr ""
+msgstr "เปิด Wi-Fi"
 
 #: ../plugins/language/DisplayLanguage.qml:36
 msgid "Display language"
-msgstr ""
+msgstr "ภาษาที่ใช้แสดงผล"
 
 #: ../plugins/language/DisplayLanguage.qml:116
 msgid "Confirm"
-msgstr ""
+msgstr "ยืนยัน"
 
 #: ../plugins/language/KeyboardLayouts.qml:29
 #: ../plugins/language/PageComponent.qml:163
@@ -1199,11 +1195,11 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../plugins/language/PageComponent.qml:37 ../build/po/settings.js:168
 msgid "Language & Text"
-msgstr ""
+msgstr "ภาษาและข้อความ"
 
 #: ../plugins/language/PageComponent.qml:134
 msgid "Display language…"
-msgstr ""
+msgstr "ภาษาที่ใช้แสดงผล…"
 
 #: ../plugins/language/PageComponent.qml:150
 msgid "Enable on-screen keyboard"
@@ -1437,7 +1433,7 @@ msgstr ""
 #: ../plugins/notifications/ClickAppNotifications.qml:62
 #: ../plugins/notifications/PageComponent.qml:29 ../build/po/settings.js:214
 msgid "Notifications"
-msgstr ""
+msgstr "การแจ้งเตือน"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:81
 msgid "Let this app alert me using:"
@@ -1446,12 +1442,12 @@ msgstr ""
 #: ../plugins/notifications/ClickAppNotifications.qml:91
 #: ../plugins/notifications/PageComponent.qml:177
 msgid "Sounds"
-msgstr ""
+msgstr "เสียง"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:114
 #: ../plugins/notifications/PageComponent.qml:180
 msgid "Vibrations"
-msgstr ""
+msgstr "การสั่น"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:137
 msgid "Notification Bubbles"
@@ -1466,7 +1462,7 @@ msgstr ""
 #: ../plugins/notifications/ClickAppsSoundsNotify.qml:30
 #: ../plugins/sound/PageComponent.qml:39 ../build/po/settings.js:330
 msgid "Sound"
-msgstr ""
+msgstr "เสียง"
 
 #: ../plugins/notifications/ClickAppsSoundsNotify.qml:44
 msgid "Apps that notify with sound:"
@@ -1508,11 +1504,11 @@ msgstr ""
 
 #: ../plugins/notifications/PageComponent.qml:143
 msgid "Applications:"
-msgstr ""
+msgstr "แอปพลิเคชั่น:"
 
 #: ../plugins/notifications/PageComponent.qml:172
 msgid "No notifications"
-msgstr ""
+msgstr "ไม่มีการแจ้งเตือน"
 
 #: ../plugins/notifications/PageComponent.qml:183
 msgid "Bubbles"
@@ -1583,13 +1579,13 @@ msgstr ""
 #: ../plugins/security-privacy/PageComponent.qml:180
 #: ../plugins/security-privacy/PageComponent.qml:248
 msgid "Off"
-msgstr ""
+msgstr "ปิด"
 
 #. TRANSLATORS: This string will be truncated on smaller displays.
 #: ../plugins/phone/CallForwardItem.qml:157
 #: ../plugins/phone/CallForwardItem.qml:202
 msgid "Forward to"
-msgstr ""
+msgstr "โอนสายไปยัง"
 
 #: ../plugins/phone/CallForwardItem.qml:171
 msgid "Enter a number"
@@ -1623,27 +1619,27 @@ msgstr ""
 #: ../plugins/phone/ServiceInfo.qml:109
 #, qt-format
 msgid "Last called %1"
-msgstr ""
+msgstr "โทรครั้งล่าสุดเมื่อ %1"
 
 #: ../plugins/phone/ServiceInfo.qml:119
 msgid "Call"
-msgstr ""
+msgstr "โทร"
 
 #. TRANSLATORS: %1 is the name of the (network) carrier
 #: ../plugins/phone/Services.qml:36 ../plugins/phone/SingleSim.qml:55
 #, qt-format
 msgid "%1 Services"
-msgstr ""
+msgstr "บริการ %1"
 
 #: ../plugins/phone/SingleSim.qml:29
 msgid "SIM"
-msgstr ""
+msgstr "SIM"
 
 #: ../plugins/printing/AddPrinter.qml:34
 #: ../plugins/printing/AddPrinterDetails.qml:54
 #: ../plugins/printing/PageComponent.qml:38
 msgid "Add printer"
-msgstr ""
+msgstr "เพิ่มเครื่องพิมพ์"
 
 #: ../plugins/printing/AddPrinter.qml:65
 msgid "Enter URI"
@@ -1651,11 +1647,11 @@ msgstr ""
 
 #: ../plugins/printing/AddPrinter.qml:78
 msgid "Devices"
-msgstr ""
+msgstr "อุปกรณ์"
 
 #: ../plugins/printing/AddPrinter.qml:133
 msgid "No devices found."
-msgstr ""
+msgstr "ไม่พบอุปกรณ์"
 
 #: ../plugins/printing/AddPrinterDetails.qml:37
 msgid "Describe printer"
@@ -1694,7 +1690,7 @@ msgstr ""
 #: ../plugins/security-privacy/PageComponent.qml:240
 #: ../plugins/printing/printer-sub-pages/Status.qml:72
 msgid "Location"
-msgstr ""
+msgstr "ตำแหน่ง"
 
 #: ../plugins/printing/AddPrinterDetails.qml:219
 msgid "Driver"
@@ -1744,7 +1740,7 @@ msgstr ""
 #: ../plugins/printing/PageComponent.qml:149
 #: ../plugins/printing/printer-sub-pages/Policies.qml:50
 msgid "Set as Default"
-msgstr ""
+msgstr "ตั้งเป็นค่าโดยปริยาย"
 
 #: ../plugins/printing/PageComponent.qml:190
 msgid "There are no printers configured yet."
@@ -1778,11 +1774,11 @@ msgstr ""
 
 #: ../plugins/reset/EraseEverything.qml:44
 msgid "Erase & Reset Everything"
-msgstr ""
+msgstr "ล้างข้อมูลและรีเซ็ตทุกอย่าง"
 
 #: ../plugins/reset/PageComponent.qml:32
 msgid "Reset device"
-msgstr ""
+msgstr "รีเซ็ตอุปกรณ์"
 
 #: ../plugins/reset/PageComponent.qml:75 ../plugins/reset/PageComponent.qml:86
 #: ../plugins/reset/ResetLauncherHome.qml:44
@@ -1792,12 +1788,12 @@ msgstr ""
 #: ../plugins/reset/PageComponent.qml:101
 #: ../plugins/reset/PageComponent.qml:112
 msgid "Reset all system settings…"
-msgstr ""
+msgstr "รีเซ็ตการตั้งค่าระบบทั้งหมด…"
 
 #: ../plugins/reset/PageComponent.qml:126
 #: ../plugins/reset/PageComponent.qml:138
 msgid "Erase & Reset All"
-msgstr ""
+msgstr "ล้างข้อมูลและรีเซ็ตทั้งหมด"
 
 #: ../plugins/reset/ResetAllSettings.qml:29
 msgid ""
@@ -1832,7 +1828,7 @@ msgstr ""
 
 #: ../plugins/security-privacy/AppAccess.qml:87
 msgid "Microphone"
-msgstr ""
+msgstr "ไมโครโฟน"
 
 #: ../plugins/security-privacy/AppAccess.qml:88
 msgid "Apps that have requested access to your microphone"
@@ -1853,7 +1849,7 @@ msgstr ""
 
 #: ../plugins/security-privacy/AppAccess.qml:123
 msgid "Online Accounts…"
-msgstr ""
+msgstr "บัญชีออนไลน์…"
 
 #: ../plugins/security-privacy/here-terms.qml:24
 msgid "Nokia HERE"
@@ -2018,11 +2014,11 @@ msgstr ""
 #: ../plugins/security-privacy/LockSecurity.qml:470
 #: ../plugins/security-privacy/PhoneLocking.qml:63
 msgid "Fingerprint"
-msgstr ""
+msgstr "ลายนิ้วมือ"
 
 #: ../plugins/security-privacy/LockSecurity.qml:471
 msgid "Swipe (no security)… "
-msgstr ""
+msgstr "เลื่อน (ไม่มีความปลอดภัย)… "
 
 #: ../plugins/security-privacy/LockSecurity.qml:472
 msgid "4-digit passcode…"
@@ -2035,11 +2031,11 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../plugins/security-privacy/PageComponent.qml:39 ../build/po/settings.js:306
 msgid "Security & Privacy"
-msgstr ""
+msgstr "ความเป็นส่วนตัวและความปลอดภัย"
 
 #: ../plugins/security-privacy/PageComponent.qml:111
 msgid "Phone and Internet"
-msgstr ""
+msgstr "โทรศัพท์และอินเทอร์เน็ต"
 
 #: ../plugins/security-privacy/PageComponent.qml:113
 msgid "Phone only"
@@ -2048,7 +2044,7 @@ msgstr ""
 #: ../plugins/security-privacy/PageComponent.qml:137
 #: ../plugins/wifi/OtherNetwork.qml:307
 msgid "Security"
-msgstr ""
+msgstr "ความปลอดภัย"
 
 #: ../plugins/security-privacy/PageComponent.qml:143
 msgid "Fingerprint ID"
@@ -2068,11 +2064,11 @@ msgstr ""
 #: ../plugins/security-privacy/PageComponent.qml:176
 #: ../plugins/security-privacy/PageComponent.qml:248
 msgid "On"
-msgstr ""
+msgstr "เปิด"
 
 #: ../plugins/security-privacy/PageComponent.qml:187
 msgid "Encryption"
-msgstr ""
+msgstr "การเข้ารหัส"
 
 #: ../plugins/security-privacy/PageComponent.qml:197
 msgid ""
@@ -2082,7 +2078,7 @@ msgstr ""
 
 #: ../plugins/security-privacy/PageComponent.qml:202
 msgid "Privacy"
-msgstr ""
+msgstr "ความเป็นส่วนตัว"
 
 #: ../plugins/security-privacy/PageComponent.qml:206
 msgid "Stats on welcome screen"
@@ -2174,7 +2170,7 @@ msgstr ""
 
 #: ../plugins/security-privacy/SimPin.qml:334
 msgid "Unlock"
-msgstr "ปลดล็อค"
+msgstr "ปลดล็อก"
 
 #: ../plugins/security-privacy/SimPin.qml:334
 msgid "Lock"
@@ -2208,7 +2204,7 @@ msgstr ""
 
 #: ../plugins/sound/PageComponent.qml:76
 msgid "Silent Mode"
-msgstr ""
+msgstr "โหมดปิดเสียง"
 
 #: ../plugins/sound/PageComponent.qml:100
 msgid "Ringer:"
@@ -2238,7 +2234,7 @@ msgstr ""
 
 #: ../plugins/sound/PageComponent.qml:203
 msgid "Messages:"
-msgstr ""
+msgstr "ข้อความ:"
 
 #: ../plugins/sound/PageComponent.qml:209
 #: ../plugins/sound/PageComponent.qml:214
@@ -2272,7 +2268,7 @@ msgstr ""
 #: ../plugins/system-update/ChangelogExpander.qml:42
 #, qt-format
 msgid "Version %1"
-msgstr ""
+msgstr "เวอร์ชั่น %1"
 
 #: ../plugins/system-update/ChannelSettings.qml:32
 msgid "Channel settings"
@@ -2308,7 +2304,7 @@ msgstr ""
 #: ../plugins/system-update/Configuration.qml:30
 #: ../plugins/system-update/UpdateSettings.qml:55
 msgid "Auto download"
-msgstr ""
+msgstr "ดาวน์โหลดอัตโนมัติ"
 
 #: ../plugins/system-update/Configuration.qml:36
 msgid "Download future updates automatically:"
@@ -2334,7 +2330,7 @@ msgstr ""
 #: ../plugins/system-update/FirmwareUpdate.qml:36
 #: ../plugins/system-update/FirmwareUpdate.qml:157
 msgid "Firmware Update"
-msgstr ""
+msgstr "อัปเดตเฟิร์มแวร์"
 
 #: ../plugins/system-update/FirmwareUpdate.qml:133
 msgid "There is a firmware update available!"
@@ -2464,7 +2460,7 @@ msgstr ""
 
 #: ../plugins/system-update/UpdateDelegate.qml:139
 msgid "Pause"
-msgstr ""
+msgstr "หยุดชั่วคราว"
 
 #: ../plugins/system-update/UpdateDelegate.qml:143
 msgid "Install…"
@@ -2557,7 +2553,7 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the time-date plugin which is used while searching
 #: ../plugins/time-date/PageComponent.qml:31 ../build/po/settings.js:370
 msgid "Time and Date"
-msgstr ""
+msgstr "เวลาและวันที่"
 
 #: ../plugins/time-date/PageComponent.qml:64
 msgid "Time zone:"
@@ -2863,7 +2859,7 @@ msgstr ""
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:36
 msgid "Cellular data"
-msgstr ""
+msgstr "ข้อมูลเซลลูลาร์"
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:73
 #: ../plugins/cellular/Components/NoSim.qml:36
@@ -2902,7 +2898,7 @@ msgstr ""
 #. this word must be less than 5 characters
 #: ../plugins/cellular/Components/LabelTextField.qml:51
 msgid "Next"
-msgstr "ตกลง"
+msgstr "ถัดไป"
 
 #: ../plugins/cellular/Components/MultiSim.qml:55
 #: ../plugins/cellular/Components/SingleSim.qml:105
@@ -3003,7 +2999,7 @@ msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:43
 msgid "No messages"
-msgstr ""
+msgstr "ไม่มีข้อความ"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:48
 msgid "Jobs"
@@ -3406,7 +3402,7 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the flight-mode plugin which is used while searching
 #: ../build/po/settings.js:148
 msgid "Flight Mode"
-msgstr ""
+msgstr "โหมดเครื่องบิน"
 
 #. TRANSLATORS: This is a keyword or name for the flight-mode plugin which is used while searching
 #: ../build/po/settings.js:150
