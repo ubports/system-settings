@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2020-03-15 11:22+0000\n"
-"Last-Translator: Otto Hakstetter <otto@hakstetter.de>\n"
+"PO-Revision-Date: 2020-07-01 05:29+0000\n"
+"Last-Translator: Daniel Frost <one@frostinfo.de>\n"
 "Language-Team: German <https://translate.ubports.com/projects/ubports/"
 "system-settings/de/>\n"
 "Language: de\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.8\n"
+"X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:40+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -1279,7 +1279,7 @@ msgstr "Tastaturthema"
 
 #: ../plugins/language/PageComponent.qml:196
 msgid "Keyboard theme"
-msgstr "Tastaturthema"
+msgstr "Aussehen der Tastatur"
 
 #: ../plugins/language/PageComponent.qml:209
 #: ../plugins/language/PageComponent.qml:218
@@ -1653,7 +1653,7 @@ msgstr "Dienste"
 #: ../plugins/phone/PageComponent.qml:102
 #: ../plugins/sound/PageComponent.qml:194
 msgid "Dialpad tones"
-msgstr "Wahltöne"
+msgstr "Tastentöne"
 
 #: ../plugins/phone/ServiceInfo.qml:109
 #, qt-format
@@ -2128,7 +2128,7 @@ msgstr "SIM-PIN"
 #: ../plugins/security-privacy/PageComponent.qml:176
 #: ../plugins/security-privacy/PageComponent.qml:248
 msgid "On"
-msgstr "An"
+msgstr "Ein"
 
 #: ../plugins/security-privacy/PageComponent.qml:187
 msgid "Encryption"

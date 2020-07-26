@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-10-16 14:55+0000\n"
-"Last-Translator: Tom Dom <thomas@patoel.nl>\n"
+"PO-Revision-Date: 2020-07-07 16:32+0000\n"
+"Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
 "system-settings/nl/>\n"
 "Language: nl\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.8\n"
+"X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:40+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -26,11 +26,11 @@ msgstr "Systeeminstellingen"
 
 #: ubuntu-system-settings.desktop.in.in.h:2
 msgid "System;"
-msgstr "System;Systeem;"
+msgstr "Systeem;"
 
 #: ubuntu-system-settings.desktop.in.in.h:3
 msgid "Preferences;Settings;"
-msgstr "Preferences;Settings;Voorkeuren;Instellingen;"
+msgstr "Voorkeuren;Instellingen;"
 
 #: ../plugins/about/DevMode.qml:35 ../plugins/about/DevMode.qml:90
 msgid "Developer Mode"
@@ -41,25 +41,24 @@ msgid ""
 "In Developer Mode, anyone can access, change or delete anything on this "
 "device by connecting it to another device."
 msgstr ""
-"In de ontwikkelaarsmodus heeft iedereen toegang, en kan iedereen dingen "
+"In de ontwikkelaarsmodus heeft iedereen toegang en kan iedereen dingen "
 "wijzigen of verwijderen op deze telefoon door deze te verbinden met een "
 "ander apparaat."
 
 #: ../plugins/about/DevMode.qml:110
 msgid "You need a passcode or passphrase set to use Developer Mode."
 msgstr ""
-"U moet een toegangscode of wachtwoordzin instellen voor het gebruiken van de "
-"ontwikkelaarsmodus."
+"Stel een toegangscode of wachtwoordzin om de ontwikkelaarsmodus te gebruiken."
 
 #: ../plugins/about/DevMode.qml:116
 #: ../plugins/security-privacy/LockSecurity.qml:36
 #: ../plugins/security-privacy/PhoneLocking.qml:66
 msgid "Lock security"
-msgstr "Vergrendelbeveiliging"
+msgstr "Ontgrendelbeveiliging"
 
 #: ../plugins/about/License.qml:30
 msgid "Sorry, this license could not be displayed."
-msgstr "Sorry, deze licentie kan niet worden weergegeven."
+msgstr "Deze licentie kan niet worden getoond."
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../plugins/about/PageComponent.qml:35 ../build/po/settings.js:2
@@ -116,7 +115,7 @@ msgstr "OS"
 
 #: ../plugins/about/PageComponent.qml:184
 msgid "Last updated"
-msgstr "Laatst bijgewerkt"
+msgstr "Bijgewerkt op"
 
 #: ../plugins/about/PageComponent.qml:186
 #: ../plugins/battery/PageComponent.qml:319
@@ -144,7 +143,7 @@ msgstr "Softwarelicenties"
 
 #: ../plugins/about/PageComponent.qml:231
 msgid "Regulatory info"
-msgstr "Bijkomende info"
+msgstr "Bijkomende informatie"
 
 #: ../plugins/about/PageComponent.qml:238
 msgid "Developer mode"
@@ -156,7 +155,7 @@ msgstr "Scannen"
 
 #: ../plugins/about/Storage.qml:106
 msgid "Used by Ubuntu"
-msgstr "Door Ubuntu gebruikt"
+msgstr "In gebruik door Ubuntu"
 
 #: ../plugins/about/Storage.qml:107
 msgid "Videos"
@@ -176,7 +175,7 @@ msgstr "Andere bestanden"
 
 #: ../plugins/about/Storage.qml:111
 msgid "Used by apps"
-msgstr "Gebruikt door apps"
+msgstr "In gebruik door apps"
 
 #: ../plugins/about/Storage.qml:159
 msgid "Total storage"
@@ -209,15 +208,15 @@ msgstr "Versienummer van besturingssysteem"
 
 #: ../plugins/about/Version.qml:68
 msgid "UBports Image part"
-msgstr "Imagedeel UBports"
+msgstr "UBports-imagedeel"
 
 #: ../plugins/about/Version.qml:76
 msgid "Ubuntu build description"
-msgstr "Beschrijving van Ubuntuversie"
+msgstr "Beschrijving van Ubuntu-versie"
 
 #: ../plugins/about/Version.qml:82
 msgid "Device Image part"
-msgstr "Imagedeel Apparaat"
+msgstr "Apparaat-imagedeel"
 
 #: ../plugins/about/Version.qml:89
 msgid "Device build description"
@@ -225,7 +224,7 @@ msgstr "Beschrijving van apparaatversie"
 
 #: ../plugins/about/Version.qml:96
 msgid "Customization Image part"
-msgstr "Imagedeel Aanpassing"
+msgstr "Aanpassingsimagedeel"
 
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../plugins/background/MainPage.qml:38 ../build/po/settings.js:44
@@ -234,7 +233,7 @@ msgstr "Achtergrond"
 
 #: ../plugins/background/MainPage.qml:94
 msgid "Ubuntu Art"
-msgstr "Ubuntukunst"
+msgstr "Ubuntu-kunst"
 
 #: ../plugins/background/MainPage.qml:107
 msgid "Custom"
@@ -242,7 +241,7 @@ msgstr "Aangepast"
 
 #: ../plugins/background/MainPage.qml:117
 msgid "Dash background"
-msgstr "achtergrond van de Dash"
+msgstr "Achtergrond van appoverzicht"
 
 #: ../plugins/background/MainPage.qml:130
 msgid "Opacity:"
@@ -250,7 +249,7 @@ msgstr "Doorzichtigheid:"
 
 #: ../plugins/background/Preview.qml:69
 msgid "Preview"
-msgstr "Voorbeeld"
+msgstr "Voorvertoning"
 
 #: ../plugins/background/Preview.qml:107
 msgid "Remove image"
@@ -284,7 +283,7 @@ msgstr "Afbeelding verwijderen"
 #: ../plugins/background/Components/AddRemove.qml:42
 #: ../plugins/cellular/Components/SimEditor.qml:203
 msgid "Cancel"
-msgstr "Annuleren"
+msgstr "Afbreken"
 
 #: ../plugins/background/Preview.qml:113
 #: ../plugins/phone/CallForwarding.qml:253
@@ -320,7 +319,7 @@ msgstr[1] "%1 minuten geleden"
 msgid "%1 hour ago"
 msgid_plural "%1 hours ago"
 msgstr[0] "%1 uur geleden"
-msgstr[1] "%1 uren geleden"
+msgstr[1] "%1 uur geleden"
 
 #: ../plugins/battery/PageComponent.qml:104
 msgid "Charge level"
@@ -348,7 +347,7 @@ msgstr "Aan het opladen"
 
 #: ../plugins/battery/PageComponent.qml:272
 msgid "Last full charge"
-msgstr "Laatste complete oplaadbeurt"
+msgstr "Recentste volledige oplaadbeurt"
 
 #: ../plugins/battery/PageComponent.qml:274
 msgid "Fully charged"
@@ -371,7 +370,7 @@ msgstr "Vergrendelen bij inactiviteit"
 #: ../plugins/battery/PageComponent.qml:314
 #: ../plugins/security-privacy/PhoneLocking.qml:90
 msgid "Sleep when idle"
-msgstr "Overschakelen naar slaapstand bij inactiviteit"
+msgstr "Slaapstand bij inactiviteit"
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery/PageComponent.qml:322
@@ -379,8 +378,8 @@ msgstr "Overschakelen naar slaapstand bij inactiviteit"
 #, qt-format
 msgid "After %1 second"
 msgid_plural "After %1 seconds"
-msgstr[0] "Na %1 minuut"
-msgstr[1] "Na %1 minuten"
+msgstr[0] "Na %1 seconde"
+msgstr[1] "Na %1 seconden"
 
 #. TRANSLATORS: %1 is the number of minutes
 #: ../plugins/battery/PageComponent.qml:326
@@ -417,11 +416,11 @@ msgstr "Bluetooth"
 
 #: ../plugins/battery/SleepValues.qml:74
 msgid "Lock the device when it's not in use:"
-msgstr "Vergrendel de telefoon indien niet in gebruik:"
+msgstr "Telefoon vergrendelen bij inactiviteit:"
 
 #: ../plugins/battery/SleepValues.qml:75
 msgid "Put the device to sleep when it is not in use:"
-msgstr "Schakel over naar slaapstand indien telefoon niet gebruikt wordt:"
+msgstr "Slaapstand inschakelen bij inactiviteit:"
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery/SleepValues.qml:86
@@ -436,29 +435,27 @@ msgid ""
 "Shorter times are more secure. Device won't lock during calls or video "
 "playback."
 msgstr ""
-"Hoe korter de tijdsduur hoe veiliger. De telefoon zal niet vergrendeld "
-"worden tijdens gesprekken of bij het afspelen van videos."
+"Hoe korter de tijdsduur, hoe veiliger. Het apparaat wordt niet vergrendeld "
+"tijdens gesprekken of video's."
 
 #: ../plugins/battery/SleepValues.qml:130
 msgid "Device won’t sleep during calls or video playback."
-msgstr ""
-"Telefoon zal niet overschakelen naar de slaapstand tijdens gesprekken of bij "
-"het afspelen van video."
+msgstr "Het apparaat gaat niet in de slaapstand tijdens gesprekken of video's."
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:26
 msgid "Bluetooth Pairing Authorization Request"
-msgstr "Bluetooth koppelingsverzoek"
+msgstr "Bluetooth-koppelingsverzoek"
 
 #. TRANSLATORS: %1 is the name of the bluetooth device which requires authorization
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:34
 #, qt-format
 msgid ""
 "The device %1 wants to pair with this device. Do you want to allow this?"
-msgstr "Het apparaat %1 wil met dit apparaat koppelen. Wilt u dit toestaan?"
+msgstr "%1 wil met dit apparaat koppelen. Wil je dit toestaan?"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:39
 msgid "Allow"
-msgstr "toestaan"
+msgstr "Toestaan"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:46
 msgid "Refuse"
@@ -470,13 +467,13 @@ msgstr "Weigeren"
 #: ../plugins/bluetooth/ProvidePasskeyDialog.qml:28
 #: ../plugins/bluetooth/ProvidePinCodeDialog.qml:28
 msgid "Bluetooth Pairing Request"
-msgstr "Bluetooth koppelingsverzoek"
+msgstr "Bluetooth-koppelingsverzoek"
 
 #. TRANSLATORS: %1 is the name of the bluetooth device being paired
 #: ../plugins/bluetooth/ConfirmPasskeyDialog.qml:37
 #, qt-format
 msgid "Please confirm that the PIN displayed on '%1' matches this one"
-msgstr "Bevestig dat de pincode weergegeven op '%1' gelijk is aan deze"
+msgstr "Bevestig dat de op '%1' getoonde pincode gelijk is aan deze"
 
 #: ../plugins/bluetooth/ConfirmPasskeyDialog.qml:57
 msgid "Confirm PIN"
@@ -494,11 +491,11 @@ msgstr "Verbonden"
 #: ../plugins/bluetooth/DevicePage.qml:38
 #: ../plugins/bluetooth/PageComponent.qml:290
 msgid "Connecting…"
-msgstr "Verbinding maken…"
+msgstr "Bezig met verbinden…"
 
 #: ../plugins/bluetooth/DevicePage.qml:39
 msgid "Disconnecting…"
-msgstr "Verbinding verbreken…"
+msgstr "Bezig met verbinding verbreken…"
 
 #: ../plugins/bluetooth/DevicePage.qml:40
 msgid "Disconnected"
@@ -602,7 +599,7 @@ msgstr "Naam"
 
 #: ../plugins/bluetooth/DevicePage.qml:113
 msgid "Type"
-msgstr "Type"
+msgstr "Soort"
 
 #: ../plugins/bluetooth/DevicePage.qml:124
 #: ../plugins/printing/printer-sub-pages/Status.qml:26
@@ -616,7 +613,7 @@ msgstr "Signaalsterkte"
 #: ../plugins/bluetooth/DevicePage.qml:133
 #: ../plugins/bluetooth/PageComponent.qml:358
 msgid "Connect automatically when detected:"
-msgstr "Automatisch verbinden wanneer gedetecteerd:"
+msgstr "Automatisch verbinden indien binnen bereik:"
 
 #: ../plugins/bluetooth/DevicePage.qml:150
 #: ../plugins/cellular/PageChooseApn.qml:201
@@ -630,7 +627,7 @@ msgstr "Verbinden"
 
 #: ../plugins/bluetooth/DevicePage.qml:172
 msgid "Forget this device"
-msgstr "Dit apparaat vergeten"
+msgstr "Apparaat vergeten"
 
 #. TRANSLATORS: %1 is the name of the bluetooth device being paired
 #: ../plugins/bluetooth/DisplayPasskeyDialog.qml:35
@@ -638,7 +635,7 @@ msgstr "Dit apparaat vergeten"
 #, qt-format
 msgid "Please enter the following PIN on %1 and press “Enter” on the keyboard:"
 msgstr ""
-"Voer de volgende pincode in op %1 en druk op \"Enter\" op het toetsenbord:"
+"Voer de volgende pincode in op %1 en druk op 'Enter' op het toetsenbord:"
 
 #: ../plugins/bluetooth/PageComponent.qml:252
 msgid "Discoverable"
@@ -651,7 +648,7 @@ msgstr "Niet vindbaar"
 #: ../plugins/bluetooth/PageComponent.qml:260
 #: ../plugins/bluetooth/PageComponent.qml:319
 msgid "Searching…"
-msgstr "Zoeken…"
+msgstr "Bezig met zoeken…"
 
 #: ../plugins/bluetooth/PageComponent.qml:269
 msgid "Connected devices:"
@@ -667,7 +664,7 @@ msgstr "Verbind een apparaat:"
 
 #: ../plugins/bluetooth/PageComponent.qml:352
 msgid "None detected"
-msgstr "Niets gedetecteerd"
+msgstr "Geen apparaat gedetecteerd"
 
 #: ../plugins/bluetooth/ProvidePasskeyDialog.qml:36
 #: ../plugins/bluetooth/ProvidePinCodeDialog.qml:36
@@ -682,7 +679,7 @@ msgstr "Koppelen"
 
 #: ../plugins/brightness/PageComponent.qml:35
 msgid "Brightness & Display"
-msgstr "Helderheid & Beeld"
+msgstr "Helderheid en scherm"
 
 #. TRANSLATORS: This is a keyword or name for the brightness plugin which is used while searching
 #: ../plugins/brightness/PageComponent.qml:35 ../build/po/settings.js:100
@@ -695,7 +692,7 @@ msgstr "Automatisch bijstellen"
 
 #: ../plugins/brightness/PageComponent.qml:131
 msgid "Brightens and dims the display to suit the surroundings."
-msgstr "Verheldert en verdonkert het scherm afhankelijk van de omgeving."
+msgstr "Maakt het scherm helderder of donkerder, afhankelijk van de omgeving."
 
 #: ../plugins/brightness/PageComponent.qml:140
 msgid "External display"
@@ -725,7 +722,7 @@ msgstr "Verbonden beeldscherm:"
 
 #: ../plugins/brightness/WifiDisplays.qml:128
 msgid "Connecting"
-msgstr "Verbinden"
+msgstr "Bezig met verbinden"
 
 #: ../plugins/brightness/WifiDisplays.qml:146
 msgid "Use another display:"
@@ -743,7 +740,7 @@ msgstr "Dit apparaat kan geen verbinding maken met %1."
 #: ../plugins/brightness/WifiDisplaysAlert.qml:34
 #, qt-format
 msgid "There was an unknown error connecting to %1."
-msgstr "Er ontstond een onbekende fout bij het verbinden met %1."
+msgstr "Er is een onbekende fout opgetreden tijdens het verbinden met %1."
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:38
 #: ../plugins/phone/CallForwarding.qml:305
@@ -751,11 +748,11 @@ msgstr "Er ontstond een onbekende fout bij het verbinden met %1."
 #: ../plugins/vpn/PageComponent.qml:123
 #: ../plugins/cellular/Components/SimEditor.qml:214
 msgid "OK"
-msgstr "OK"
+msgstr "Oké"
 
 #: ../plugins/cellular/PageApnEditor.qml:71
 msgid "Edit"
-msgstr "Bewerken"
+msgstr "Aanpassen"
 
 #: ../plugins/cellular/PageApnEditor.qml:71
 msgid "New APN"
@@ -763,12 +760,12 @@ msgstr "Nieuwe APN"
 
 #: ../plugins/cellular/PageApnEditor.qml:132
 msgid "Used for:"
-msgstr "Gebruikt voor:"
+msgstr "Gebruiken voor:"
 
 #: ../plugins/cellular/PageApnEditor.qml:136
 #: ../plugins/cellular/PageChooseApn.qml:107
 msgid "Internet and MMS"
-msgstr "Internet en MMS"
+msgstr "Internet en mms"
 
 #: ../plugins/cellular/PageApnEditor.qml:137
 #: ../plugins/cellular/PageChooseApn.qml:109
@@ -787,7 +784,7 @@ msgstr "LTE"
 
 #: ../plugins/cellular/PageApnEditor.qml:166
 msgid "Enter a name describing the APN"
-msgstr "Beschrijf de APN"
+msgstr "Geef de APN een naam"
 
 #. TRANSLATORS: This string is a description of a text
 #. field and should thus be concise.
@@ -808,7 +805,7 @@ msgstr "MMSC"
 
 #: ../plugins/cellular/PageApnEditor.qml:216
 msgid "Enter message center"
-msgstr "Open berichten centrum"
+msgstr "Voer het berichtencentrum in"
 
 #: ../plugins/cellular/PageApnEditor.qml:234
 msgid "Proxy"
@@ -816,15 +813,15 @@ msgstr "Proxy"
 
 #: ../plugins/cellular/PageApnEditor.qml:244
 msgid "Enter message proxy"
-msgstr "Voer proxy in"
+msgstr "Voer de berichtproxy in"
 
 #: ../plugins/cellular/PageApnEditor.qml:289
 msgid "Proxy port"
-msgstr "Proxy poort"
+msgstr "Proxypoort"
 
 #: ../plugins/cellular/PageApnEditor.qml:300
 msgid "Enter message proxy port"
-msgstr "Voer poort in"
+msgstr "Voer de berichtproxypoort in"
 
 #: ../plugins/cellular/PageApnEditor.qml:318
 msgid "User name"
@@ -832,7 +829,7 @@ msgstr "Gebruikersnaam"
 
 #: ../plugins/cellular/PageApnEditor.qml:328
 msgid "Enter username"
-msgstr "Voer gebruikersnaam in"
+msgstr "Voer de gebruikersnaam in"
 
 #: ../plugins/cellular/PageApnEditor.qml:341
 #: ../plugins/wifi/NetworkDetails.qml:72 ../plugins/wifi/OtherNetwork.qml:786
@@ -841,12 +838,12 @@ msgstr "Wachtwoord"
 
 #: ../plugins/cellular/PageApnEditor.qml:353
 msgid "Enter password"
-msgstr "Voer wachtwoord in"
+msgstr "Voer het wachtwoord in"
 
 #: ../plugins/cellular/PageApnEditor.qml:367
 #: ../plugins/wifi/OtherNetwork.qml:338
 msgid "Authentication"
-msgstr "Autorisatie"
+msgstr "Authenticatie"
 
 #: ../plugins/cellular/PageApnEditor.qml:372
 msgid "PAP or CHAP"
@@ -879,7 +876,7 @@ msgstr "IPv4 en IPv6"
 #: ../plugins/cellular/PageCarrierAndApn.qml:27
 #: ../plugins/cellular/Components/SingleSim.qml:110
 msgid "Carrier & APN"
-msgstr "Provider & APN"
+msgstr "Provider en APN"
 
 #: ../plugins/cellular/PageCarrierAndApn.qml:45
 #: ../plugins/cellular/PageCarrierAndApn.qml:54
@@ -891,23 +888,23 @@ msgstr "Provider"
 
 #: ../plugins/cellular/PageCarriersAndApns.qml:27
 msgid "Carriers & APNs"
-msgstr "Providers & APNs"
+msgstr "Providers en APN's"
 
 #: ../plugins/cellular/PageChooseApn.qml:85
 msgid "MMS APN"
-msgstr "MMS APN"
+msgstr "MMS-APN"
 
 #: ../plugins/cellular/PageChooseApn.qml:91
 msgid "Internet APN"
-msgstr "Internet APN"
+msgstr "Internet-APN"
 
 #: ../plugins/cellular/PageChooseApn.qml:97
 msgid "LTE APN"
-msgstr "LTE APN"
+msgstr "LTE-APN"
 
 #: ../plugins/cellular/PageChooseApn.qml:156
 msgid "Reset All APN Settings…"
-msgstr "Herstel alle APN instellingen…"
+msgstr "Standaardwaarden herstellen…"
 
 #: ../plugins/cellular/PageChooseApn.qml:165
 msgid "Reset APN Settings"
@@ -915,12 +912,12 @@ msgstr "APN-instellingen herstellen"
 
 #: ../plugins/cellular/PageChooseApn.qml:166
 msgid "Are you sure that you want to Reset APN Settings?"
-msgstr "Weet u zeker dat u de APN-instellingen wilt herstellen?"
+msgstr "Weet je zeker dat je de APN-instellingen wilt herstellen?"
 
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../plugins/cellular/PageChooseApn.qml:169 ../build/po/settings.js:294
 msgid "Reset"
-msgstr "Terugzetten"
+msgstr "Standaardwaarden"
 
 #. TRANSLATORS: %1 is the MMS APN that the user has chosen to be
 #. “preferred”.
@@ -930,7 +927,7 @@ msgstr "Terugzetten"
 #: ../plugins/cellular/PageChooseApn.qml:223
 #, qt-format
 msgid "Prefer %1"
-msgstr "Voorkeur APN internet: %1"
+msgstr "Voorkeur voor %1"
 
 #. TRANSLATORS: %1 is the MMS APN that the user has chosen to be
 #. “preferred”, i.e. used to retrieve MMS messages. %2 is the Internet
@@ -938,9 +935,7 @@ msgstr "Voorkeur APN internet: %1"
 #: ../plugins/cellular/PageChooseApn.qml:196
 #, qt-format
 msgid "You have chosen %1 as your preferred MMS APN. "
-msgstr ""
-"Voorkeur nieuwe APN: %1\n"
-"Vorige APN: %2 "
+msgstr "Je hebt '%1' gekozen als voorkeurs-APN voor mms. "
 
 #. TRANSLATORS: %1 is the Internet APN that the user has chosen to
 #. be “preferred”, i.e. used to connect to the Internet. %2 is the MMS
@@ -948,7 +943,7 @@ msgstr ""
 #: ../plugins/cellular/PageChooseApn.qml:227
 #, qt-format
 msgid "You have chosen %1 as your preferred Internet APN. "
-msgstr "U heeft %1 als uw gewenste Internet APN gekozen. "
+msgstr "Je hebt '%1' gekozen als voorkeurs-APN voor internet. "
 
 #: ../plugins/cellular/PageChooseApn.qml:232
 #: ../plugins/cellular/PageChooseApn.qml:265
@@ -958,7 +953,7 @@ msgstr "Uitschakelen"
 #: ../plugins/cellular/PageChooseApn.qml:254
 #, qt-format
 msgid "Disconnect %1"
-msgstr "Verbreek verbinding %1"
+msgstr "Verbinding met %1 verbreken"
 
 #: ../plugins/cellular/PageChooseApn.qml:255
 #, qt-format
@@ -968,17 +963,17 @@ msgstr "%1 uitschakelen"
 #: ../plugins/cellular/PageChooseApn.qml:260
 #, qt-format
 msgid "This disconnects %1."
-msgstr "Dit verbreekt verbinding %1."
+msgstr "De verbinding met %1 wordt verbroken."
 
 #: ../plugins/cellular/PageChooseApn.qml:261
 #, qt-format
 msgid "This disables %1."
-msgstr "Dit schakelt %1 uit."
+msgstr "%1 wordt uitgeschakeld."
 
 #: ../plugins/cellular/PageChooseApn.qml:303
 #: ../plugins/printing/PageComponent.qml:136
 msgid "Delete"
-msgstr "Verwijder"
+msgstr "Verwijderen"
 
 #: ../plugins/cellular/PageChooseCarrier.qml:153
 #: ../plugins/time-date/ChooseTimeZone.qml:51
@@ -989,7 +984,7 @@ msgstr "Automatisch"
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../plugins/cellular/PageComponent.qml:32 ../build/po/settings.js:112
 msgid "Cellular"
-msgstr "Mobiel"
+msgstr "Mobiel netwerk"
 
 #: ../plugins/hotspot/Common.qml:34 ../plugins/wifi/Common.qml:36
 msgid "Unknown error"
@@ -1001,38 +996,38 @@ msgstr "Geen reden gegeven"
 
 #: ../plugins/hotspot/Common.qml:38 ../plugins/wifi/Common.qml:40
 msgid "Device is now managed"
-msgstr "Apparaat wordt nu beheerd"
+msgstr "Het apparaat wordt voortaan beheerd"
 
 #: ../plugins/hotspot/Common.qml:40 ../plugins/wifi/Common.qml:42
 msgid "Device is now unmanaged"
-msgstr "Apparaat word nu niet beheerd"
+msgstr "Het apparaat wordt niet meer beheerd"
 
 #: ../plugins/hotspot/Common.qml:42 ../plugins/wifi/Common.qml:44
 msgid "The device could not be readied for configuration"
-msgstr "Het apparaat kon niet klaar gemaakt worden voor configuratie"
+msgstr "Het apparaat kan niet worden klaargemaakt voor configuratie"
 
 #: ../plugins/hotspot/Common.qml:44 ../plugins/wifi/Common.qml:46
 msgid ""
 "IP configuration could not be reserved (no available address, timeout, etc.)"
 msgstr ""
-"IP-configuratie kon niet gereserveerd worden (geen adres beschikbaar, time-"
-"out, etc..)"
+"De ip-configuratie kan niet worden gereserveerd (geen adres beschikbaar, "
+"tijd verlopen, etc..)"
 
 #: ../plugins/hotspot/Common.qml:46 ../plugins/wifi/Common.qml:48
 msgid "The IP configuration is no longer valid"
-msgstr "De IP-configuratie is niet langer geldig"
+msgstr "De ip-configuratie is niet meer geldig"
 
 #: ../plugins/hotspot/Common.qml:48 ../plugins/wifi/Common.qml:50
 msgid "Your authentication details were incorrect"
-msgstr "Uw authenticatiedetails zijn onjuist"
+msgstr "Je authenticatiegegevens zijn onjuist"
 
 #: ../plugins/hotspot/Common.qml:50 ../plugins/wifi/Common.qml:52
 msgid "802.1X supplicant disconnected"
-msgstr "802.1X-module verbinding verbroken"
+msgstr "Verbinding verbroken met 802.1X-module"
 
 #: ../plugins/hotspot/Common.qml:52 ../plugins/wifi/Common.qml:54
 msgid "802.1X supplicant configuration failed"
-msgstr "802.1X-module instellingen mislukt"
+msgstr "Instellen van 802.1X-module mislukt"
 
 #: ../plugins/hotspot/Common.qml:54 ../plugins/wifi/Common.qml:56
 msgid "802.1X supplicant failed"
@@ -1040,15 +1035,15 @@ msgstr "802.1X-module mislukt"
 
 #: ../plugins/hotspot/Common.qml:56 ../plugins/wifi/Common.qml:58
 msgid "802.1X supplicant took too long to authenticate"
-msgstr "802.1X-module had te veel tijd nodig voor authenticeren"
+msgstr "De 802.1X-module had te veel tijd nodig om te authenticeren"
 
 #: ../plugins/hotspot/Common.qml:58 ../plugins/wifi/Common.qml:60
 msgid "DHCP client failed to start"
-msgstr "Starten van DHCP-client mislukt"
+msgstr "De dhcp-client kan niet worden gestart"
 
 #: ../plugins/hotspot/Common.qml:60 ../plugins/wifi/Common.qml:62
 msgid "DHCP client error"
-msgstr "Fout DHCP-client"
+msgstr "DHCP-clientfout"
 
 #: ../plugins/hotspot/Common.qml:62 ../plugins/wifi/Common.qml:64
 msgid "DHCP client failed"
@@ -1056,19 +1051,19 @@ msgstr "DHCP-client mislukt"
 
 #: ../plugins/hotspot/Common.qml:64 ../plugins/wifi/Common.qml:66
 msgid "Shared connection service failed to start"
-msgstr "Starten van dienst voor gedeelde verbinding is mislukt"
+msgstr "De dienst voor gedeelde verbinding kan niet worden gestart"
 
 #: ../plugins/hotspot/Common.qml:66 ../plugins/wifi/Common.qml:68
 msgid "Shared connection service failed"
-msgstr "Dienst voor gedeelde verbinding is mislukt"
+msgstr "De dienst voor gedeelde verbinding is mislukt"
 
 #: ../plugins/hotspot/Common.qml:68 ../plugins/wifi/Common.qml:70
 msgid "Necessary firmware for the device may be missing"
-msgstr "Noodzakelijke firmware voor het apparaat ontbreekt wellicht"
+msgstr "Er ontbreekt mogelijk noodzakelijke firmware voor het apparaat"
 
 #: ../plugins/hotspot/Common.qml:70 ../plugins/wifi/Common.qml:72
 msgid "The device was removed"
-msgstr "Het apparaat werd verwijderd"
+msgstr "Het apparaat is verwijderd"
 
 #: ../plugins/hotspot/Common.qml:72 ../plugins/wifi/Common.qml:74
 msgid "NetworkManager went to sleep"
@@ -1080,7 +1075,7 @@ msgstr "De actieve verbinding van het apparaat is verdwenen"
 
 #: ../plugins/hotspot/Common.qml:76 ../plugins/wifi/Common.qml:78
 msgid "Device disconnected by user or client"
-msgstr "Apparaat is losgekoppeld door gebruiker of client"
+msgstr "Het apparaat is losgekoppeld door gebruiker of client"
 
 #: ../plugins/hotspot/Common.qml:78 ../plugins/wifi/Common.qml:80
 msgid "The device's existing connection was assumed"
@@ -1092,11 +1087,11 @@ msgstr "De module is nu beschikbaar"
 
 #: ../plugins/hotspot/Common.qml:82 ../plugins/wifi/Common.qml:84
 msgid "The modem could not be found"
-msgstr "Het modem kon niet gevonden worden"
+msgstr "Geen modem aangetroffen"
 
 #: ../plugins/hotspot/Common.qml:84 ../plugins/wifi/Common.qml:86
 msgid "The Bluetooth connection failed or timed out"
-msgstr "De Bluetoothverbinding is mislukt of verlopen"
+msgstr "De Bluetooth-verbinding is mislukt of verlopen"
 
 #: ../plugins/hotspot/Common.qml:86 ../plugins/wifi/Common.qml:88
 msgid "A dependency of the connection failed"
@@ -1108,7 +1103,7 @@ msgstr "Modembeheer is niet beschikbaar"
 
 #: ../plugins/hotspot/Common.qml:90 ../plugins/wifi/Common.qml:92
 msgid "The Wi-Fi network could not be found"
-msgstr "Het WiFinetwerk kon niet gevonden geworden"
+msgstr "Het Wi-Fi-netwerk kan niet worden gevonden"
 
 #: ../plugins/hotspot/Common.qml:92 ../plugins/wifi/Common.qml:94
 msgid "A secondary connection of the base connection failed"
@@ -1116,11 +1111,11 @@ msgstr "Een secundaire verbinding van de basisverbinding is mislukt"
 
 #: ../plugins/hotspot/HotspotSetup.qml:61
 msgid "Change Hotspot Setup"
-msgstr "Hotspotinstellingen Wijzigen"
+msgstr "Hotspotinstellingen aanpassen"
 
 #: ../plugins/hotspot/HotspotSetup.qml:61
 msgid "Set Up Hotspot"
-msgstr "Hotspot Instellen"
+msgstr "Hotspot instellen"
 
 #: ../plugins/hotspot/HotspotSetup.qml:167
 msgid "Hotspot name"
@@ -1132,7 +1127,7 @@ msgstr "Kies een naam"
 
 #: ../plugins/hotspot/HotspotSetup.qml:185
 msgid "Require a password (recommended):"
-msgstr "wachtwoord vereist (aangeraden):"
+msgstr "Wachtwoord vereisen (aanbevolen):"
 
 #: ../plugins/hotspot/HotspotSetup.qml:216
 #: ../plugins/wifi/NetworkDetails.qml:86 ../plugins/wifi/OtherNetwork.qml:821
@@ -1141,13 +1136,13 @@ msgstr "Wachtwoord tonen"
 
 #: ../plugins/hotspot/HotspotSetup.qml:237
 msgid "Starting the hotspot will turn on Wi-Fi."
-msgstr "Het starten van een hotspot zal Wi-Fi inschakelen."
+msgstr "Wi-Fi wordt ingeschakeld als je de hotspot start."
 
 #: ../plugins/hotspot/HotspotSetup.qml:266
 #: ../plugins/security-privacy/LockSecurity.qml:389
 #: ../plugins/security-privacy/SimPin.qml:187
 msgid "Change"
-msgstr "Wijzigen"
+msgstr "Aanpassen"
 
 #: ../plugins/hotspot/HotspotSetup.qml:267
 msgid "Start"
@@ -1164,41 +1159,41 @@ msgid ""
 "When hotspot is on, other devices can use your cellular data connection over "
 "Wi-Fi. Normal data charges apply."
 msgstr ""
-"Wanneer hotspot ingeschakeld is, kunnen andere apparaten gebruik maken van "
-"het Wi-Finetwerk van uw mobiel. U zal de mogelijke extra kosten hiervan "
-"moeten betalen."
+"Als de hotspot is ingeschakeld, kunnen andere apparaten via Wi-Fi "
+"gebruikmaken van je mobiele internet. Hiervoor worden mogelijk extra kosten "
+"in rekening gebracht."
 
 #: ../plugins/hotspot/PageComponent.qml:115
 msgid ""
 "Other devices can use your cellular data connection over the Wi-Fi network. "
 "Normal data charges apply."
 msgstr ""
-"Andere apparaten kunnen gebruik maken van het Wi-Finetwerk van uw mobiel. U "
-"zal de mogelijke extra kosten hiervan moeten betalen."
+"Andere apparaten kunnen via Wi-Fi gebruikmaken van je mobiele internet. "
+"Hiervoor worden mogelijk extra kosten in rekening gebracht."
 
 #: ../plugins/hotspot/PageComponent.qml:124
 msgid "Change Password/Setup…"
-msgstr "Wachtwoord/Instellingen Wijzigen…"
+msgstr "Wachtwoord/Instellingen wijzigen…"
 
 #: ../plugins/hotspot/PageComponent.qml:124
 msgid "Set Up Hotspot…"
-msgstr "Hotspot Instellen…"
+msgstr "Hotspot instellen…"
 
 #: ../plugins/hotspot/PageComponent.qml:155
 msgid "Wi-Fi is off"
-msgstr "Wi-Fi is uit"
+msgstr "Wi-Fi is uitgeschakeld"
 
 #: ../plugins/hotspot/PageComponent.qml:156
 msgid "In order to create a hotspot, you need to turn Wi-Fi on."
-msgstr "Om een hotspot te maken moet u Wi-Fi aanzetten."
+msgstr "Schakel Wi-Fi in om een hotspot op te zetten."
 
 #: ../plugins/hotspot/PageComponent.qml:165
 msgid "Turn on Wi-Fi"
-msgstr "Zet Wi-Fi aan"
+msgstr "Wi-Fi inschakelen"
 
 #: ../plugins/language/DisplayLanguage.qml:36
 msgid "Display language"
-msgstr "Geef taal weer"
+msgstr "Weergavetaal"
 
 #: ../plugins/language/DisplayLanguage.qml:116
 msgid "Confirm"
@@ -1220,15 +1215,15 @@ msgstr "Alle beschikbare indelingen:"
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../plugins/language/PageComponent.qml:37 ../build/po/settings.js:168
 msgid "Language & Text"
-msgstr "Taal & tekst"
+msgstr "Taal en tekst"
 
 #: ../plugins/language/PageComponent.qml:134
 msgid "Display language…"
-msgstr "Weergave taal…"
+msgstr "Weergavetaal…"
 
 #: ../plugins/language/PageComponent.qml:150
 msgid "Enable on-screen keyboard"
-msgstr "Schakel toetsenbord op het scherm in"
+msgstr "Schermtoetsenbord inschakelen"
 
 #: ../plugins/language/PageComponent.qml:162
 msgid "On-screen keyboard"
@@ -1244,35 +1239,35 @@ msgstr "Ambiance"
 
 #: ../plugins/language/PageComponent.qml:185
 msgid "Suru Dark"
-msgstr "Suru Donker"
+msgstr "Suru donker"
 
 #: ../plugins/language/PageComponent.qml:186
 msgid "Suru Black"
-msgstr "Suru Zwart"
+msgstr "Suru zwart"
 
 #: ../plugins/language/PageComponent.qml:187
 msgid "Just White"
-msgstr "Gewoon Wit"
+msgstr "Gewoon wit"
 
 #: ../plugins/language/PageComponent.qml:188
 msgid "Just Black"
-msgstr "Gewoon Zwart"
+msgstr "Gewoon zwart"
 
 #: ../plugins/language/PageComponent.qml:189
 msgid "Just Grey"
-msgstr "Gewoon Grijs"
+msgstr "Gewoon grijs"
 
 #: ../plugins/language/PageComponent.qml:190
 msgid "Bordered White"
-msgstr "Omrand Wit"
+msgstr "Omrand wit"
 
 #: ../plugins/language/PageComponent.qml:191
 msgid "Bordered Black"
-msgstr "Omrand Zwart"
+msgstr "Omrand zwart"
 
 #: ../plugins/language/PageComponent.qml:192
 msgid "Bordered Grey"
-msgstr "Omrand Grijs"
+msgstr "Omrand grijs"
 
 #: ../plugins/language/PageComponent.qml:195
 msgid "On-screen keyboard theme"
@@ -1280,18 +1275,18 @@ msgstr "Thema van schermtoetsenbord"
 
 #: ../plugins/language/PageComponent.qml:196
 msgid "Keyboard theme"
-msgstr "Thema van toetsenbord"
+msgstr "Toetsenbordthema"
 
 #: ../plugins/language/PageComponent.qml:209
 #: ../plugins/language/PageComponent.qml:218
 #: ../plugins/language/SpellChecking.qml:29
 #: ../plugins/language/SpellChecking.qml:45
 msgid "Spell checking"
-msgstr "Spellingscontrole"
+msgstr "Spellingcontrole"
 
 #: ../plugins/language/PageComponent.qml:229
 msgid "Auto correction"
-msgstr "Autom. correctie"
+msgstr "Automatische woordcorrectie"
 
 #: ../plugins/language/PageComponent.qml:240
 msgid "Word suggestions"
@@ -1309,11 +1304,11 @@ msgstr ""
 
 #: ../plugins/language/PageComponent.qml:272
 msgid "Auto punctuation"
-msgstr "Autom. interpunctie"
+msgstr "Automatische interpunctie"
 
 #: ../plugins/language/PageComponent.qml:284
 msgid "Inserts a period when you tap Space twice."
-msgstr "Voegt een punt toe, wanneer u tweemaal op Spatie tikt."
+msgstr "Voegt een punt toe als je tweemaal op Spatie drukt."
 
 #: ../plugins/language/PageComponent.qml:291
 #: ../plugins/sound/PageComponent.qml:251
@@ -1326,11 +1321,11 @@ msgstr "Toetsenbordtrilling"
 
 #: ../plugins/language/PageComponent.qml:313
 msgid "Keyboard opacity"
-msgstr "Transparantie van toetsenbord"
+msgstr "Doorzichtigheid van toetsenbord"
 
 #: ../plugins/language/PageHardwareKeyboard.qml:33
 msgid "Hardware keyboard"
-msgstr "Hardwaretoetsenbord"
+msgstr "Fysiek toetsenbord"
 
 #: ../plugins/language/PageHardwareKeyboard.qml:63
 msgid "Layouts and other sources"
@@ -1338,8 +1333,7 @@ msgstr "Indelingen en andere bronnen"
 
 #: ../plugins/language/RebootNecessary.qml:34
 msgid "The device needs to restart for changes to take effect."
-msgstr ""
-"Het apparaat moet worden herstart voordat wijzigingen effect zullen hebben."
+msgstr "Herstart je apparaat om de wijzigingen toe te passen."
 
 #: ../plugins/language/RebootNecessary.qml:38
 msgid "Restart Now"
@@ -1347,7 +1341,7 @@ msgstr "Nu herstarten"
 
 #: ../plugins/language/SpellChecking.qml:64
 msgid "Current spelling languages:"
-msgstr "Huidige spellingstalen:"
+msgstr "Huidige spellingcontroletalen:"
 
 #: ../plugins/language/SpellChecking.qml:65
 msgid "All languages available:"
@@ -1361,35 +1355,35 @@ msgstr "Starter"
 
 #: ../plugins/launcher/PageComponent.qml:65
 msgid "On large screens:"
-msgstr "Op een groot scherm:"
+msgstr "Op grote schermen:"
 
 #: ../plugins/launcher/PageComponent.qml:73
 msgid "Always show the launcher"
-msgstr "Startbalk altijd tonen"
+msgstr "Starter altijd tonen"
 
 #: ../plugins/launcher/PageComponent.qml:74
 msgid "Videos and full-screen games may hide it temporarily."
-msgstr "Video’s en volledigscherm spellen verbergen het mogelijk tijdelijk."
+msgstr "Video’s en beeldvullende spellen kunnen de starter tijdelijk verbergen."
 
 #: ../plugins/launcher/PageComponent.qml:85
 msgid "Icon size:"
-msgstr "Icoon formaat:"
+msgstr "Pictogramgrootte:"
 
 #: ../plugins/mouse/Connected.qml:62 ../plugins/mouse/Connected.qml:228
 msgid "Cursor speed:"
-msgstr "Muis snelheid:"
+msgstr "Cursorsnelheid:"
 
 #: ../plugins/mouse/Connected.qml:98
 msgid "Wheel scrolling speed:"
-msgstr "Scroll snelheid:"
+msgstr "Scrollsnelheid:"
 
 #: ../plugins/mouse/Connected.qml:134 ../plugins/mouse/Connected.qml:301
 msgid "Double-click speed:"
-msgstr "Dubbel klik snelheid:"
+msgstr "Dubbelkliksnelheid:"
 
 #: ../plugins/mouse/Connected.qml:168 ../plugins/mouse/Connected.qml:335
 msgid "Test double-click:"
-msgstr "Test dubbel klik:"
+msgstr "Dubbelklik testen:"
 
 #: ../plugins/mouse/Connected.qml:214
 msgid "Touchpad"
@@ -1397,11 +1391,11 @@ msgstr "Touchpad"
 
 #: ../plugins/mouse/Connected.qml:264
 msgid "Finger scrolling speed:"
-msgstr "Vinger scroll snelheid:"
+msgstr "Vinger-scrollsnelheid:"
 
 #: ../plugins/mouse/Connected.qml:389
 msgid "Tap to click"
-msgstr "Tappen om te klikken"
+msgstr "Tikken om te klikken"
 
 #: ../plugins/mouse/Connected.qml:403
 msgid "Scroll with two fingers"
@@ -1409,15 +1403,15 @@ msgstr "Scrollen met twee vingers"
 
 #: ../plugins/mouse/Connected.qml:410
 msgid "Ignore touchpad when:"
-msgstr "Negeer het touchpad als:"
+msgstr "Touchpad negeren:"
 
 #: ../plugins/mouse/Connected.qml:432
 msgid "Typing"
-msgstr "Aan het typen"
+msgstr "Tijdens het typen"
 
 #: ../plugins/mouse/Connected.qml:446
 msgid "A mouse is connected"
-msgstr "Een muis is aangesloten"
+msgstr "Als er een muis is aangesloten"
 
 #: ../plugins/mouse/None.qml:34
 msgid ""
@@ -1425,26 +1419,26 @@ msgid ""
 "Bluetooth device isn’t detected, make sure it is turned on and its batteries "
 "are charged."
 msgstr ""
-"Sluit een muis aan of touchpad via USB, of gebruik een Bluetooth apparaat. "
-"Als een Bluetooth apparaat niet gvonden wordt, controleer dan of deze aan "
-"staat en de batterij vol is."
+"Sluit een muis of touchpad aan via USB, of verbind met een Bluetooth-"
+"apparaat. Als je Bluetooth-apparaat niet wordt gedetecteerd, controleer dan "
+"of deze aan staat en de batterijen zijn opgeladen."
 
 #: ../plugins/mouse/None.qml:36
 msgid ""
 "You need to use a Bluetooth mouse or touchpad with this display. Make sure "
 "it is close to the device and its batteries are charged."
 msgstr ""
-"Voor dit scherm is een Bluetooth muis of touchpad vereist. Controleer of het "
-"apparaat dichtbij is en de batterij vol is."
+"Voor dit scherm is een Bluetooth-muis of -touchpad vereist. Controleer of "
+"het apparaat binnen bereik is en de batterijen zijn opgeladen."
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../plugins/mouse/PageComponent.qml:29 ../build/po/settings.js:200
 msgid "Mouse & Touchpad"
-msgstr "Muis & Touchpad"
+msgstr "Muis en touchpad"
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:42
 msgid "Primary button:"
-msgstr "Hoofd knop:"
+msgstr "Hoofdknop:"
 
 #: ../plugins/mouse/PrimaryButtonSelector.qml:72
 msgid "Left"
@@ -1460,17 +1454,17 @@ msgstr "Niet snel genoeg"
 
 #: ../plugins/mouse/TapArea.qml:77
 msgid "Double-clicked"
-msgstr "Dubbel geklikt"
+msgstr "Gedubbelklikt"
 
 #. TRANSLATORS: This is a keyword or name for the notifications plugin which is used while searching
 #: ../plugins/notifications/ClickAppNotifications.qml:62
 #: ../plugins/notifications/PageComponent.qml:29 ../build/po/settings.js:214
 msgid "Notifications"
-msgstr "Mededelingen"
+msgstr "Meldingen"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:81
 msgid "Let this app alert me using:"
-msgstr "Deze app mag meldingen geven als ik:"
+msgstr "Deze app mag meldingen geven middels:"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:91
 #: ../plugins/notifications/PageComponent.qml:177
@@ -1484,12 +1478,12 @@ msgstr "Trillingen"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:137
 msgid "Notification Bubbles"
-msgstr "Notificaties"
+msgstr "Meldingsballonnen"
 
 #: ../plugins/notifications/ClickAppNotifications.qml:160
 #: ../plugins/notifications/PageComponent.qml:186
 msgid "Notification List"
-msgstr "Notificatiecentrum"
+msgstr "Meldingenlijst"
 
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../plugins/notifications/ClickAppsSoundsNotify.qml:30
@@ -1499,15 +1493,15 @@ msgstr "Geluid"
 
 #: ../plugins/notifications/ClickAppsSoundsNotify.qml:44
 msgid "Apps that notify with sound:"
-msgstr "Apps die geluid maken bij notificaties:"
+msgstr "Apps die geluid maken bij meldingen:"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:30
 msgid "Vibration"
-msgstr "trillen"
+msgstr "Trillen"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:50
 msgid "When in Silent mode:"
-msgstr "In stille modus:"
+msgstr "In stille stand:"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:68
 msgid "Vibrate as normal"
@@ -1519,40 +1513,40 @@ msgstr "Niet trillen"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:85
 msgid "Apps that notify with vibrations:"
-msgstr "Apps die trillen bij notificaties:"
+msgstr "Apps die trillen bij meldingen:"
 
 #: ../plugins/notifications/PageComponent.qml:75
 msgid ""
 "Apps can alert you using sounds, vibrations, notification bubbles and the "
 "Notification list."
 msgstr ""
-"Geselecteerde apps kunnen u waarschuwen d.m.v. notificaties, geluiden, "
-"trillingen, en in het notificatiecentrum."
+"Apps kunnen je waarschuwen middels meldingen, geluiden, trillingen en de "
+"meldingenlijst."
 
 #: ../plugins/notifications/PageComponent.qml:91
 msgid "Apps that notify with sound"
-msgstr "Apps die geluid maken bij notificaties"
+msgstr "Apps die geluid maken bij meldingen"
 
 #: ../plugins/notifications/PageComponent.qml:117
 msgid "Apps that notify with vibration"
-msgstr "Apps die trillen bij notificaties"
+msgstr "Apps die trillen bij meldingen"
 
 #: ../plugins/notifications/PageComponent.qml:143
 msgid "Applications:"
-msgstr "Programma’s:"
+msgstr "Apps:"
 
 #: ../plugins/notifications/PageComponent.qml:172
 msgid "No notifications"
-msgstr "Geen notificaties"
+msgstr "Geen meldingen"
 
 #: ../plugins/notifications/PageComponent.qml:183
 msgid "Bubbles"
-msgstr "Melding"
+msgstr "Ballonnen"
 
 #: ../plugins/phone/CallForwarding.qml:45 ../plugins/phone/MultiSim.qml:54
 #: ../plugins/phone/NoSims.qml:28 ../plugins/phone/SingleSim.qml:42
 msgid "Call forwarding"
-msgstr "Gesprek doorschakelen"
+msgstr "Gespreksdoorschakeling"
 
 #: ../plugins/phone/CallForwarding.qml:131
 msgid "Forward every incoming call"
@@ -1560,19 +1554,19 @@ msgstr "Elke inkomende oproep doorschakelen"
 
 #: ../plugins/phone/CallForwarding.qml:146
 msgid "Redirects all phone calls to another number."
-msgstr "Schakelt alle oproepen door naar een ander nummer."
+msgstr "Schakel alle oproepen door naar een ander nummer."
 
 #: ../plugins/phone/CallForwarding.qml:158
 msgid "Call forwarding status can’t be checked "
-msgstr "Opvragen status “gesprek doorsturen” is mislukt "
+msgstr "Kan de status van 'gesprek doorsturen' niet opvragen "
 
 #: ../plugins/phone/CallForwarding.qml:166
 msgid "Forward incoming calls when:"
-msgstr "Inkomende oproep doorschakelen wanneer:"
+msgstr "Inkomende oproepen doorschakelen als:"
 
 #: ../plugins/phone/CallForwarding.qml:175
 msgid "I’m on another call"
-msgstr "Ik ben in gesprek"
+msgstr "Ik in gesprek ben"
 
 #: ../plugins/phone/CallForwarding.qml:186
 msgid "I don’t answer"
@@ -1580,11 +1574,11 @@ msgstr "Ik niet opneem"
 
 #: ../plugins/phone/CallForwarding.qml:197
 msgid "My phone is unreachable"
-msgstr "Mijn telefoon is onbereikbaar"
+msgstr "Mijn telefoon onbereikbaar is"
 
 #: ../plugins/phone/CallForwarding.qml:227
 msgid "Contacts…"
-msgstr "Contacten…"
+msgstr "Contactpersonen…"
 
 #: ../plugins/phone/CallForwarding.qml:274
 msgid "Please select a phone number"
@@ -1596,7 +1590,7 @@ msgstr "Nummers"
 
 #: ../plugins/phone/CallForwarding.qml:302
 msgid "Could not forward to this contact"
-msgstr "Kon niet doorschakelen naar dit contact"
+msgstr "Kan niet doorschakelen naar deze contactpersoon"
 
 #: ../plugins/phone/CallForwarding.qml:303
 msgid "Contact not associated with any phone number."
@@ -1628,7 +1622,7 @@ msgstr "Voer een nummer in"
 
 #: ../plugins/phone/CallForwardItem.qml:218
 msgid "Call forwarding can’t be changed right now."
-msgstr "Instelling aanpassen “gesprekken doorsturen” is mislukt."
+msgstr "Kan de instelling 'gesprekken doorsturen' niet aanpassen."
 
 #: ../plugins/phone/CallWaiting.qml:31 ../plugins/phone/CallWaiting.qml:86
 #: ../plugins/phone/MultiSim.qml:42 ../plugins/phone/NoSims.qml:34
@@ -1642,7 +1636,7 @@ msgid ""
 "between them"
 msgstr ""
 "Hiermee kun je een nieuwe oproep beantwoorden of starten terwijl je in "
-"gesprek bent en ertussen schakelen"
+"gesprek bent, en ertussen schakelen"
 
 #: ../plugins/phone/MultiSim.qml:67 ../plugins/phone/NoSims.qml:42
 msgid "Services"
@@ -1656,7 +1650,7 @@ msgstr "Toetsenblokgeluiden"
 #: ../plugins/phone/ServiceInfo.qml:109
 #, qt-format
 msgid "Last called %1"
-msgstr "Laatst gebeld %1"
+msgstr "Recentste oproep: %1"
 
 #: ../plugins/phone/ServiceInfo.qml:119
 msgid "Call"
@@ -1676,11 +1670,11 @@ msgstr "Simkaart"
 #: ../plugins/printing/AddPrinterDetails.qml:54
 #: ../plugins/printing/PageComponent.qml:38
 msgid "Add printer"
-msgstr "Voeg printer toe"
+msgstr "Printer toevoegen"
 
 #: ../plugins/printing/AddPrinter.qml:65
 msgid "Enter URI"
-msgstr "Voer URI in"
+msgstr "Voer de uri in"
 
 #: ../plugins/printing/AddPrinter.qml:78
 msgid "Devices"
@@ -1688,11 +1682,11 @@ msgstr "Apparaten"
 
 #: ../plugins/printing/AddPrinter.qml:133
 msgid "No devices found."
-msgstr "Geen apparaten gevonden."
+msgstr "Geen apparaten aangetroffen."
 
 #: ../plugins/printing/AddPrinterDetails.qml:37
 msgid "Describe printer"
-msgstr "Beschrijf de printer"
+msgstr "Omschrijf de printer"
 
 #: ../plugins/printing/AddPrinterDetails.qml:44
 msgid "Back"
@@ -1708,7 +1702,7 @@ msgstr "Kies een verbinding"
 
 #: ../plugins/printing/AddPrinterDetails.qml:165
 msgid "Printer name"
-msgstr "Printer naam"
+msgstr "Printernaam"
 
 #: ../plugins/printing/AddPrinterDetails.qml:202
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:32
@@ -1735,7 +1729,7 @@ msgstr "Stuurprogramma"
 
 #: ../plugins/printing/AddPrinterDetails.qml:225
 msgid "Choose driver"
-msgstr "Kies stuurprogramma"
+msgstr "Kies een stuurprogramma"
 
 #: ../plugins/printing/AddPrinterDetails.qml:227
 msgid "Select printer from database"
@@ -1743,15 +1737,15 @@ msgstr "Kies een printer uit de lijst"
 
 #: ../plugins/printing/AddPrinterDetails.qml:228
 msgid "Provide PPD file"
-msgstr "Een PPD bestand is nodig"
+msgstr "Geef een ppd-bestand op"
 
 #: ../plugins/printing/AddPrinterDetails.qml:235
 msgid "Filter drivers"
-msgstr "Filter stuurprogramma's"
+msgstr "Stuurprogramma's filteren"
 
 #: ../plugins/printing/AddPrinterDetails.qml:304
 msgid "PPD file"
-msgstr "PPD bestand"
+msgstr "PPD-bestand"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../plugins/printing/PageComponent.qml:32 ../build/po/settings.js:268
@@ -1760,11 +1754,11 @@ msgstr "Afdrukken"
 
 #: ../plugins/printing/PageComponent.qml:45
 msgid "Manager Printer Jobs"
-msgstr "Beheer printen opdrachten"
+msgstr "Afdrukopdrachten beheren"
 
 #: ../plugins/printing/PageComponent.qml:106
 msgid "Default printer"
-msgstr "Standaard printer"
+msgstr "Standaardprinter"
 
 #: ../plugins/printing/PageComponent.qml:107
 msgid "Configured printers"
@@ -1772,20 +1766,20 @@ msgstr "Ingestelde printers"
 
 #: ../plugins/printing/PageComponent.qml:115
 msgid "Discovered printers"
-msgstr "Gevonden printers"
+msgstr "Aangetroffen printers"
 
 #: ../plugins/printing/PageComponent.qml:149
 #: ../plugins/printing/printer-sub-pages/Policies.qml:50
 msgid "Set as Default"
-msgstr "Stel in als standaard"
+msgstr "Instellen als standaard"
 
 #: ../plugins/printing/PageComponent.qml:190
 msgid "There are no printers configured yet."
-msgstr "Er zijn nog geen printers geïnstalleerd."
+msgstr "Je hebt nog geen printers ingesteld."
 
 #: ../plugins/printing/Printer.qml:42
 msgid "Printer status"
-msgstr "Printer status"
+msgstr "Printerstatus"
 
 #: ../plugins/printing/Printer.qml:43
 msgid "General settings"
@@ -1808,52 +1802,52 @@ msgid ""
 "All documents, saved games, settings, and other items will be permanently "
 "deleted from this device."
 msgstr ""
-"Alle documenten, opgeslagen spelletjes, instellingen en andere items zullen "
-"definitief verwijderd worden van dit apparaat."
+"Alle documenten, opgeslagen spellen, instellingen en andere items worden "
+"definitief verwijderd van dit apparaat."
 
 #: ../plugins/reset/EraseEverything.qml:44
 msgid "Erase & Reset Everything"
-msgstr "Alles wissen & terugzetten op de standaardwaarden"
+msgstr "Alles wissen en terugzetten op standaardwaarden"
 
 #: ../plugins/reset/PageComponent.qml:32
 msgid "Reset device"
-msgstr "Reset het apparaat"
+msgstr "Apparaat opnieuw instellen"
 
 #: ../plugins/reset/PageComponent.qml:75 ../plugins/reset/PageComponent.qml:86
 #: ../plugins/reset/ResetLauncherHome.qml:44
 msgid "Reset Launcher"
-msgstr "Starter terugzetten op standaardwaarden"
+msgstr "Standaardwaarden herstellen"
 
 #: ../plugins/reset/PageComponent.qml:101
 #: ../plugins/reset/PageComponent.qml:112
 msgid "Reset all system settings…"
-msgstr "Alle systeeminstellingen terugzetten op hun standaardwaarden…"
+msgstr "Systeeminstellingen herstellen…"
 
 #: ../plugins/reset/PageComponent.qml:126
 #: ../plugins/reset/PageComponent.qml:138
 msgid "Erase & Reset All"
-msgstr "Alles wissen & terugzetten naar standaardwaarden"
+msgstr "Alles wissen en terugzetten op standaardwaarden"
 
 #: ../plugins/reset/ResetAllSettings.qml:29
 msgid ""
 "The contents and layout of the launcher, and the filters in the home screen "
 "will be returned to their original settings."
 msgstr ""
-"De inhoud en vormgeving van de Starter, en de filters in het thuisscherm "
-"zullen worden teruggezet op hun oorspronkelijke instellingen."
+"De inhoud en vormgeving van de starter en de filters op het thuisscherm "
+"worden teruggezet op de standaardinstellingen."
 
 #: ../plugins/reset/ResetAllSettings.qml:31
 msgid "Reset all system settings"
-msgstr "Alle systeeminstellingen terugzetten op hun standaardwaarden"
+msgstr "Systeeminstellingen herstellen"
 
 #: ../plugins/reset/ResetLauncherHome.qml:40
 msgid "The Launcher will be returned to its original contents."
-msgstr "De Starter zal terugvallen op zijn oorspronkelijke inhoud."
+msgstr "De starter krijgt zijn oorspronkelijke items terug."
 
 #: ../plugins/security-privacy/AppAccess.qml:29
 #: ../plugins/security-privacy/PageComponent.qml:259
 msgid "App permissions"
-msgstr "App rechten"
+msgstr "Appmachtigingen"
 
 #: ../plugins/security-privacy/AppAccess.qml:69
 msgid "Apps that you have granted access to:"
@@ -1861,11 +1855,11 @@ msgstr "Apps die toegang hebben gekregen tot:"
 
 #: ../plugins/security-privacy/AppAccess.qml:76
 msgid "Apps that have requested access to your camera"
-msgstr "Apps die toegang hebben gevraagd tot uw camera"
+msgstr "Apps die toegang hebben gevraagd tot je camera"
 
 #: ../plugins/security-privacy/AppAccess.qml:82
 msgid "Apps that have requested access to your location"
-msgstr "Apps die toegang hebben gevraagd tot uw locatie"
+msgstr "Apps die toegang hebben gevraagd tot je locatie"
 
 #: ../plugins/security-privacy/AppAccess.qml:87
 msgid "Microphone"
@@ -1873,7 +1867,7 @@ msgstr "Microfoon"
 
 #: ../plugins/security-privacy/AppAccess.qml:88
 msgid "Apps that have requested access to your microphone"
-msgstr "Apps die toegang hebben gevraagd tot uw microfoon"
+msgstr "Apps die toegang hebben gevraagd tot je microfoon"
 
 #: ../plugins/security-privacy/AppAccess.qml:102
 #, qt-format
@@ -1886,11 +1880,11 @@ msgstr "0"
 
 #: ../plugins/security-privacy/AppAccess.qml:118
 msgid "Apps may also request access to online accounts."
-msgstr "Apps zullen mogelijk toegang vragen tot uw online account(en)."
+msgstr "Apps kunnen ook toegang vragen tot je online-account(s)."
 
 #: ../plugins/security-privacy/AppAccess.qml:123
 msgid "Online Accounts…"
-msgstr "Online Accounts…"
+msgstr "Online-accounts…"
 
 #: ../plugins/security-privacy/here-terms.qml:24
 msgid "Nokia HERE"
@@ -1898,15 +1892,15 @@ msgstr "Nokia HERE"
 
 #: ../plugins/security-privacy/Location.qml:96
 msgid "Let the device detect your location:"
-msgstr "Laat het apparaat uw locatie detecteren:"
+msgstr "Laat het apparaat je locatie opvragen:"
 
 #: ../plugins/security-privacy/Location.qml:175
 msgid "Using GPS only (less accurate)"
-msgstr "Alleen GPS (minder nauwkeurig)"
+msgstr "Via GPS (minder nauwkeurig)"
 
 #: ../plugins/security-privacy/Location.qml:176
 msgid "Using GPS"
-msgstr "Gebruik GPS"
+msgstr "Via GPS"
 
 #: ../plugins/security-privacy/Location.qml:188
 #, qt-format
@@ -1914,9 +1908,9 @@ msgid ""
 "Using GPS, anonymized Wi-Fi and cellular network info.<br>By selecting this "
 "option you accept the <a href='%1'>Nokia HERE terms and conditions</a>."
 msgstr ""
-"Gebruikt GPS, geanonimiseerde Wi-Fi- en mobiele netwerkinformatie.<br>Door "
-"deze optie te kiezen ga je akkoord met de <a href='%1'>algemene voorwaarden "
-"van Nokia HERE</a>."
+"Via GPS, geanonimiseerde Wi-Fi- en mobiele netwerkinformatie.<br>Als je deze "
+"optie kiest, ga je akkoord met de <a href='%1'>algemene voorwaarden van "
+"Nokia HERE</a>."
 
 #: ../plugins/security-privacy/Location.qml:189
 #, qt-format
@@ -1924,8 +1918,8 @@ msgid ""
 "Using GPS and anonymized Wi-Fi info.<br>By selecting this option you accept "
 "the <a href='%1'>Nokia HERE terms and conditions</a>."
 msgstr ""
-"GPS en geanonimiseerde Wi-Fi-informatie wordt gebruikt.<br>Als u deze optie "
-"selecteerd gaat u akkoord met de <a href='%1'>Nokia HERE voorwaarden</a>."
+"Via GPS en geanonimiseerde Wi-Fi-informatie.<br>Als je deze optie kiest, ga "
+"je akkoord met de <a href='%1'>algemene voorwaarden van Nokia HERE</a>."
 
 #: ../plugins/security-privacy/Location.qml:195
 msgid "Not at all"
@@ -1936,48 +1930,50 @@ msgid ""
 "Uses GPS to detect your rough location. When off, GPS turns off to save "
 "battery."
 msgstr ""
-"GPS wordt gebruikt om uw locatie bij benadering te bepalen. Wanneer de GPS "
-"uitstaat, bespaart dat stroom."
+"GPS wordt gebruikt om je locatie bij benadering te bepalen. Schakel GPS uit "
+"om je accu te sparen."
 
 #: ../plugins/security-privacy/Location.qml:214
 msgid ""
 "Uses WiFi and GPS to detect your rough location. Turning off location "
 "detection saves battery."
 msgstr ""
-"GPS en Wi-Fi worden gebruikt om uw locatie bij benadering te bepalen. "
-"Wanneer de locatiebepaling uitstaat, bespaart dat stroom."
+"GPS en Wi-Fi worden gebruikt om je locatie bij benadering te bepalen. "
+"Schakel locatiebepaling uit om je accu te sparen."
 
 #: ../plugins/security-privacy/Location.qml:216
 msgid ""
 "Uses WiFi (currently off) and GPS to detect your rough location. Turning off "
 "location detection saves battery."
 msgstr ""
-"Uw GPS en Wi-Fi (momenteel uit) worden gebruikt om ruwweg uw locatie te "
-"bepalen. Wanneer locatiebepaling uitstaat, bespaart u stroom."
+"GPS en Wi-Fi (momenteel uit) worden gebruikt om je locatie bij benadering te "
+"bepalen. Schakel locatiebepaling uit om je accu te sparen."
 
 #: ../plugins/security-privacy/Location.qml:218
 msgid ""
 "Uses WiFi, cell tower locations, and GPS to detect your rough location. "
 "Turning off location detection saves battery."
 msgstr ""
-"Gebruikt GPS, Wi-Fi en 3G om ruwweg uw locatie te bepalen. Wanneer "
-"locatiebepaling uitstaat, bespaart u stroom."
+"GPS, Wi-Fi en mobiele zendmasten wordet gebruikt om je locatie bij "
+"benadering te bepalen. Schakel locatiebepaling uit om je accu te sparen."
 
 #: ../plugins/security-privacy/Location.qml:220
 msgid ""
 "Uses WiFi, cell tower locations (no current cellular connection), and GPS to "
 "detect your rough location. Turning off location detection saves battery."
 msgstr ""
-"Gebruikt WiFi, zendmasten (thans geen mobiele verbinding) en GPS om ruwweg "
-"uw locatie te bepalen. Wanneer locatiebepaling uitstaat, bespaart u stroom."
+"Wi-Fi, mobiele zendmasten (momenteel geen mobiele verbinding) en GPS worden "
+"gebruikt om je locatie bij benadering te bepalen. Schakel locatiebepaling "
+"uit om je accu te sparen."
 
 #: ../plugins/security-privacy/Location.qml:222
 msgid ""
 "Uses WiFi (currently off), cell tower locations, and GPS to detect your "
 "rough location. Turning off location detection saves battery."
 msgstr ""
-"Gebruikt WiFi (nu uit), zendmasten en GPS om ruwweg uw locatie te bepalen. "
-"Wanneer locatiebepaling uitstaat, bespaart u stroom."
+"Wi-Fi (momenteel uit), mobiele zendmasten en GPS worden gebruikt om je "
+"locatie bij benadering te bepalen. Schakel locatiebepaling uit om je accu te "
+"sparen."
 
 #: ../plugins/security-privacy/Location.qml:224
 msgid ""
@@ -1985,9 +1981,9 @@ msgid ""
 "connection), and GPS to detect your rough location. Turning off location "
 "detection saves battery."
 msgstr ""
-"Gebruikt WiFi (nu uit), zendmasten (thans geen mobiele verbinding) en GPS om "
-"ruwweg uw locatie te bepalen. Wanneer locatiebepaling uitstaat, bespaart u "
-"stroom."
+"Wi-Fi (momenteel uit), mobiele zendmasten (momenteel geen mobiele verbinding)"
+" en GPS worden gebruikt om je locatie bij benadering te bepalen. Schakel "
+"locatiebepaling uit om je accu te sparen."
 
 #: ../plugins/security-privacy/Location.qml:231
 msgid "Let apps access this location:"
@@ -2005,19 +2001,19 @@ msgstr "Toegangscode wijzigen…"
 #: ../plugins/security-privacy/LockSecurity.qml:139
 #: ../plugins/security-privacy/LockSecurity.qml:564
 msgid "Change passphrase…"
-msgstr "Wijzig wachtwoord-zin…"
+msgstr "Wachtwoordzin wijzigen…"
 
 #: ../plugins/security-privacy/LockSecurity.qml:146
 msgid "Switch to swipe"
-msgstr "Overschakelen naar vegen"
+msgstr "Vegen om te ontgrendelen"
 
 #: ../plugins/security-privacy/LockSecurity.qml:148
 msgid "Switch to passcode"
-msgstr "Overschakelen naar toegangscode"
+msgstr "Toegangscode om te ontgrendelen"
 
 #: ../plugins/security-privacy/LockSecurity.qml:150
 msgid "Switch to passphrase"
-msgstr "Overschakelen naar wachtwoordzin"
+msgstr "Wachtwoordzin om te ontgrendelen"
 
 #: ../plugins/security-privacy/LockSecurity.qml:159
 msgid "Existing passcode"
@@ -2041,15 +2037,15 @@ msgstr "Toegangscode bevestigen"
 
 #: ../plugins/security-privacy/LockSecurity.qml:293
 msgid "Confirm passphrase"
-msgstr "Bevestig de wachtwoordzin"
+msgstr "Wachtwoordzin bevestigen"
 
 #: ../plugins/security-privacy/LockSecurity.qml:348
 msgid "Those passcodes don't match. Try again."
-msgstr "De toegangscodes komen niet overeen. Probeer het a.u.b. opnieuw."
+msgstr "De toegangscodes komen niet overeen. Probeer het opnieuw."
 
 #: ../plugins/security-privacy/LockSecurity.qml:351
 msgid "Those passphrases don't match. Try again."
-msgstr "Deze wachtwoordzinnen komen niet overeen. Probeer het a.u.b. opnieuw."
+msgstr "De wachtwoordzinnen komen niet overeen. Probeer het opnieuw."
 
 #: ../plugins/security-privacy/LockSecurity.qml:386
 msgid "Unset"
@@ -2057,11 +2053,11 @@ msgstr "Niet ingesteld"
 
 #: ../plugins/security-privacy/LockSecurity.qml:463
 msgid "Unlock the device using:"
-msgstr "De telefoon ontgrendelen met:"
+msgstr "Apparaat ontgrendelen middels:"
 
 #: ../plugins/security-privacy/LockSecurity.qml:467
 msgid "Swipe (no security)"
-msgstr "Vegen (geen beveiliging)"
+msgstr "Vegen (onbeveiligd)"
 
 #: ../plugins/security-privacy/LockSecurity.qml:468
 msgid "4-digit passcode"
@@ -2079,7 +2075,7 @@ msgstr "Vingerafdruk"
 
 #: ../plugins/security-privacy/LockSecurity.qml:471
 msgid "Swipe (no security)… "
-msgstr "Vegen (geen beveiliging)… "
+msgstr "Vegen (onbeveiligd)… "
 
 #: ../plugins/security-privacy/LockSecurity.qml:472
 msgid "4-digit passcode…"
@@ -2087,12 +2083,12 @@ msgstr "Viercijferige toegangscode…"
 
 #: ../plugins/security-privacy/LockSecurity.qml:473
 msgid "Passphrase…"
-msgstr "Wachtwoord-zin…"
+msgstr "Wachtwoordzin…"
 
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../plugins/security-privacy/PageComponent.qml:39 ../build/po/settings.js:306
 msgid "Security & Privacy"
-msgstr "Beveiliging & Privacy"
+msgstr "Beveiliging en privacy"
 
 #: ../plugins/security-privacy/PageComponent.qml:111
 msgid "Phone and Internet"
@@ -2114,13 +2110,13 @@ msgstr "Vingerafdruk"
 #: ../plugins/security-privacy/PageComponent.qml:163
 #: ../plugins/security-privacy/PhoneLocking.qml:32
 msgid "Locking and unlocking"
-msgstr "Vergrendel en ontgrendel"
+msgstr "Vergrendelen en ontgrendelen"
 
 #: ../plugins/security-privacy/PageComponent.qml:173
 #: ../plugins/security-privacy/SimPin.qml:37
 #: ../plugins/security-privacy/SimPin.qml:398
 msgid "SIM PIN"
-msgstr "Simpincode"
+msgstr "Simkaartpincode"
 
 #: ../plugins/security-privacy/PageComponent.qml:176
 #: ../plugins/security-privacy/PageComponent.qml:248
@@ -2136,8 +2132,8 @@ msgid ""
 "Encryption protects against access to phone data when the phone is connected "
 "to a PC or other device."
 msgstr ""
-"Versleuteling zorgt ervoor dat anderen geen toegang tot uw telefoondata "
-"hebben wanneer uw telefoon verbonden is met een pc of een ander apparaat."
+"Versleuteling beschermt je telefoongegevens tegen ongewenste toegang als je "
+"telefoon verbonden is met een pc of ander apparaat."
 
 #: ../plugins/security-privacy/PageComponent.qml:202
 msgid "Privacy"
@@ -2166,21 +2162,21 @@ msgstr "Slaapstand vergrendelt meteen"
 
 #: ../plugins/security-privacy/PhoneLocking.qml:132
 msgid "When locked, allow:"
-msgstr "Sta het volgende toe bij vergrendeling:"
+msgstr "Toestaan bij vergrendeling:"
 
 #: ../plugins/security-privacy/PhoneLocking.qml:152
 msgid "Notifications and quick settings"
-msgstr "Meldingen en snelle instellingen"
+msgstr "Toegang tot meldingen en snelle instellingen"
 
 #: ../plugins/security-privacy/PhoneLocking.qml:167
 msgid "Turn on lock security to restrict access when the device is locked."
 msgstr ""
-"Schakel vergrendelbeveiliging in om de toegang tot het apparaat te blokkeren "
+"Schakel vergrendelbeveiliging in om toegang tot het apparaat te blokkeren "
 "als het vergrendeld is."
 
 #: ../plugins/security-privacy/PhoneLocking.qml:168
 msgid "Other apps and functions will prompt you to unlock."
-msgstr "Andere apps en functies zullen u vragen om ontgrendeling."
+msgstr "Andere apps en functies zullen je vragen om ontgrendeling."
 
 #: ../plugins/security-privacy/SimPin.qml:48
 msgid "Change SIM PIN"
@@ -2191,8 +2187,8 @@ msgstr "Simpincode wijzigen"
 #, qt-format
 msgid "Incorrect PIN. %1 attempt remaining."
 msgid_plural "Incorrect PIN. %1 attempts remaining."
-msgstr[0] "Onjuiste pincode. Nog %1 poging over."
-msgstr[1] "Onjuiste pincode. Nog %1 pogingen over."
+msgstr[0] "Onjuiste pincode - nog %1 poging."
+msgstr[1] "Onjuiste pincode - nog %1 pogingen."
 
 #: ../plugins/security-privacy/SimPin.qml:58
 #: ../plugins/security-privacy/SimPin.qml:120
@@ -2215,23 +2211,23 @@ msgstr[1] "%1 pogingen toegestaan."
 
 #: ../plugins/security-privacy/SimPin.qml:135
 msgid "Choose new PIN:"
-msgstr "Voer nieuwe pincode in:"
+msgstr "Voer een nieuwe pincode in:"
 
 #: ../plugins/security-privacy/SimPin.qml:146
 msgid "Confirm new PIN:"
-msgstr "Bevestig nieuwe pincode:"
+msgstr "Bevestig de nieuwe pincode:"
 
 #: ../plugins/security-privacy/SimPin.qml:168
 msgid "PINs don't match. Try again."
-msgstr "Pincodes komen niet overeen. Probeer het a.u.b. opnieuw."
+msgstr "De pincodes komen niet overeen. Probeer het opnieuw."
 
 #: ../plugins/security-privacy/SimPin.qml:213
 msgid "Enter SIM PIN"
-msgstr "Voer simpincode in"
+msgstr "Voer de simpincode in"
 
 #: ../plugins/security-privacy/SimPin.qml:214
 msgid "Enter Previous SIM PIN"
-msgstr "Voer oude simpincode in"
+msgstr "Voer de oude simpincode in"
 
 #: ../plugins/security-privacy/SimPin.qml:334
 msgid "Unlock"
@@ -2262,19 +2258,19 @@ msgid ""
 "When a SIM PIN is set, it must be entered to access cellular services after "
 "restarting the device or swapping the SIM."
 msgstr ""
-"Wanneer er een pincode is ingesteld voor de simkaart, moet deze telkens "
-"worden ingevoerd na het herstarten van het apparaat of het verwisselen van "
-"de simkaart, om gebruik te kunnen maken van mobiele diensten."
+"Als er een simpincode is ingesteld, moet deze telkens worden ingevoerd na "
+"het herstarten of verwisselen van de simkaart, om gebruik te kunnen maken "
+"van mobiele diensten."
 
 #: ../plugins/security-privacy/SimPin.qml:449
 msgid "Entering an incorrect PIN repeatedly may lock the SIM permanently."
 msgstr ""
-"Wanneer u meermaals een onjuiste pincode invoert, kan de simkaart mogelijk "
+"Als u meermaals een onjuiste pincode invoert, kan de simkaart mogelijk "
 "definitief geblokkeerd worden."
 
 #: ../plugins/sound/PageComponent.qml:76
 msgid "Silent Mode"
-msgstr "Stille modus"
+msgstr "Stille stand"
 
 #: ../plugins/sound/PageComponent.qml:100
 msgid "Ringer:"
@@ -2295,12 +2291,12 @@ msgstr "Beltoon"
 
 #: ../plugins/sound/PageComponent.qml:171
 msgid "Vibrate on ring"
-msgstr "Trillen tijdens het bellen"
+msgstr "Trillen tijdens bellen"
 
 #: ../plugins/sound/PageComponent.qml:183
 #: ../plugins/sound/PageComponent.qml:242
 msgid "Vibrate in Silent Mode"
-msgstr "Trillen in stille modus"
+msgstr "Trillen in stille stand"
 
 #: ../plugins/sound/PageComponent.qml:203
 msgid "Messages:"
@@ -2313,7 +2309,7 @@ msgstr "Bericht ontvangen"
 
 #: ../plugins/sound/PageComponent.qml:230
 msgid "Vibrate with message sound"
-msgstr "Trillen met geluid"
+msgstr "Trillen en geluid afspelen"
 
 #: ../plugins/sound/PageComponent.qml:247
 msgid "Other sounds:"
@@ -2321,11 +2317,11 @@ msgstr "Andere geluiden:"
 
 #: ../plugins/sound/PageComponent.qml:268
 msgid "Lock sound"
-msgstr "Vergrendeltoon"
+msgstr "Vergrendelgeluid"
 
 #: ../plugins/sound/PageComponent.qml:278
 msgid "Other vibrations"
-msgstr "Overige trillingen"
+msgstr "Andere trillingen"
 
 #: ../plugins/sound/SoundsList.qml:128
 msgid "Custom Ringtone"
@@ -2342,7 +2338,7 @@ msgstr "Versie %1"
 
 #: ../plugins/system-update/ChannelSettings.qml:32
 msgid "Channel settings"
-msgstr "Kanaal instellingen"
+msgstr "Kanaalinstellingen"
 
 #: ../plugins/system-update/ChannelSettings.qml:57
 #: ../plugins/system-update/UpdateSettings.qml:74
@@ -2352,7 +2348,7 @@ msgstr "Stabiel"
 #: ../plugins/system-update/ChannelSettings.qml:57
 #: ../plugins/system-update/UpdateSettings.qml:74
 msgid "Release candidate"
-msgstr "Release candidate"
+msgstr "Vooraf vrijgegeven"
 
 #: ../plugins/system-update/ChannelSettings.qml:57
 #: ../plugins/system-update/UpdateSettings.qml:74
@@ -2361,36 +2357,36 @@ msgstr "In ontwikkeling"
 
 #: ../plugins/system-update/ChannelSettings.qml:99
 msgid "Fetching channels"
-msgstr "Kanalen ophalen"
+msgstr "Bezig met ophalen van kanalen"
 
 #: ../plugins/system-update/ChannelSettings.qml:108
 msgid "Channel to get updates from:"
-msgstr "Bron kanaal voor updates:"
+msgstr "Updatekanaal:"
 
 #: ../plugins/system-update/ChannelSettings.qml:124
 msgid "Switching channel"
-msgstr "Wissel van kanaal"
+msgstr "Ander kanaal kiezen"
 
 #: ../plugins/system-update/Configuration.qml:30
 #: ../plugins/system-update/UpdateSettings.qml:55
 msgid "Auto download"
-msgstr "Autom. downloaden"
+msgstr "Automatisch downloaden"
 
 #: ../plugins/system-update/Configuration.qml:36
 msgid "Download future updates automatically:"
-msgstr "Toekomstige updates automatisch ophalen:"
+msgstr "Toekomstige updates automatisch downloaden:"
 
 #: ../plugins/system-update/Configuration.qml:55
 msgid "When on WiFi"
-msgstr "Alleen bij een Wi-Fiverbinding"
+msgstr "Alleen via Wi-Fi"
 
 #: ../plugins/system-update/Configuration.qml:57
 msgid "On any data connection"
-msgstr "Op elke verbinding voor gegevenstransport"
+msgstr "Via elke gegevensverbinding"
 
 #: ../plugins/system-update/Configuration.qml:58
 msgid "Data charges may apply."
-msgstr "Er zouden kosten voor gegevenstransport van toepassing kunnen zijn."
+msgstr "Je provider kan hiervoor kosten in rekening brengen."
 
 #: ../plugins/system-update/DownloadHandler.qml:174
 #: ../plugins/system-update/InstallationFailed.qml:25
@@ -2400,15 +2396,15 @@ msgstr "Installatie mislukt"
 #: ../plugins/system-update/FirmwareUpdate.qml:36
 #: ../plugins/system-update/FirmwareUpdate.qml:157
 msgid "Firmware Update"
-msgstr "Update Firmware"
+msgstr "Firmware-update"
 
 #: ../plugins/system-update/FirmwareUpdate.qml:133
 msgid "There is a firmware update available!"
-msgstr "Er is een firmware update beschikbaar!"
+msgstr "Er is een firmware-update beschikbaar!"
 
 #: ../plugins/system-update/FirmwareUpdate.qml:134
 msgid "Firmware is up to date!"
-msgstr "Firmware is bijgewerkt!"
+msgstr "De firmware is bijgewerkt!"
 
 #: ../plugins/system-update/FirmwareUpdate.qml:169
 msgid "The device will restart automatically after installing is done."
@@ -2422,19 +2418,20 @@ msgstr "Nu installeren en herstarten"
 msgid ""
 "Downloading and Flashing firmware updates, this could take a few minutes..."
 msgstr ""
-"Downloaden en installeren firmware updates. Dit kan enkele minuten duren..."
+"Bezig met downloaden en installeren firmware-updates - dit kan enkele "
+"minuten duren..."
 
 #: ../plugins/system-update/FirmwareUpdate.qml:235
 msgid "Checking for firmware update"
-msgstr "Controleren op firmware update"
+msgstr "Bezig met controleren op firmware-update"
 
 #: ../plugins/system-update/GlobalUpdateControls.qml:84
 msgid "Checking for updates…"
-msgstr "Controleren op updates…"
+msgstr "Bezig met controleren op updates…"
 
 #: ../plugins/system-update/GlobalUpdateControls.qml:89
 msgid "Stop"
-msgstr "Stoppen"
+msgstr "Afbreken"
 
 #. TRANSLATORS: %1 is number of software updates available.
 #: ../plugins/system-update/GlobalUpdateControls.qml:116
@@ -2446,11 +2443,11 @@ msgstr[1] "%1 updates beschikbaar"
 
 #: ../plugins/system-update/GlobalUpdateControls.qml:126
 msgid "Update all…"
-msgstr "Update alles…"
+msgstr "Alles bijwerken…"
 
 #: ../plugins/system-update/GlobalUpdateControls.qml:128
 msgid "Update all"
-msgstr "Update alles"
+msgstr "Alles bijwerken"
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:30
 msgid "Update System"
@@ -2463,11 +2460,12 @@ msgstr "Dit apparaat moet worden herstart om de systeemupdate te installeren."
 #: ../plugins/system-update/ImageUpdatePrompt.qml:33
 msgid "Connect the device to power before installing the system update."
 msgstr ""
-"Sluit dit apparaat aan aan de oplader voordat u de systeemupdate installeert."
+"Sluit dit apparaat aan aan de oplader voordat je de systeemupdate "
+"installeert."
 
 #: ../plugins/system-update/ImageUpdatePrompt.qml:38
 msgid "Restart & Install"
-msgstr "Herstart & installeer"
+msgstr "Herstarten en installeren"
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../plugins/system-update/PageComponent.qml:37 ../build/po/settings.js:348
@@ -2482,12 +2480,12 @@ msgstr "Maak verbinding met het internet om te controleren op updates."
 #: ../plugins/system-update/PageComponent.qml:165
 #: ../plugins/system-update/ReinstallAllApps.qml:152
 msgid "Software is up to date"
-msgstr "Software is bijgewerkt"
+msgstr "De software is actueel"
 
 #: ../plugins/system-update/PageComponent.qml:168
 #: ../plugins/system-update/ReinstallAllApps.qml:155
 msgid "The update server is not responding. Try again later."
-msgstr "De update sever geen geen reactie. Probeer het later nogmaals."
+msgstr "De updateserver reageert niet; probeer het later opnieuw."
 
 #: ../plugins/system-update/PageComponent.qml:177
 #: ../plugins/system-update/ReinstallAllApps.qml:164
@@ -2496,30 +2494,30 @@ msgstr "Updates beschikbaar"
 
 #: ../plugins/system-update/PageComponent.qml:311
 msgid "Recent updates"
-msgstr "Recent bijgewerkt"
+msgstr "Onlangs bijgewerkt"
 
 #: ../plugins/system-update/PageComponent.qml:374
 #: ../plugins/system-update/UpdateSettings.qml:32
 msgid "Update settings"
-msgstr "Update systeeminstellingen"
+msgstr "Update-instellingen"
 
 #: ../plugins/system-update/ReinstallAllApps.qml:36
 #: ../plugins/system-update/ReinstallAllApps.qml:95
 #: ../plugins/system-update/UpdateSettings.qml:88
 msgid "Reinstall all apps"
-msgstr "Alle apps opnieuw installeren"
+msgstr "Alle apps herinstalleren"
 
 #: ../plugins/system-update/ReinstallAllApps.qml:85
 msgid ""
 "Use this to get all of the latest apps, typically needed after a major "
 "system upgrade, "
 msgstr ""
-"Gebruik dit om de nieuwste apps te installeren, meestal nodig na een "
+"Gebruik dit om de nieuwste apps te installeren, wat meestal nodig is na een "
 "belangrijke systeemupgrade, "
 
 #: ../plugins/system-update/UpdateDelegate.qml:119
 msgid "Retry"
-msgstr "Opnieuw"
+msgstr "Opnieuw proberen"
 
 #: ../plugins/system-update/UpdateDelegate.qml:124
 msgid "Update"
@@ -2535,7 +2533,7 @@ msgstr "Hervatten"
 
 #: ../plugins/system-update/UpdateDelegate.qml:139
 msgid "Pause"
-msgstr "Pauze"
+msgstr "Onderbreken"
 
 #: ../plugins/system-update/UpdateDelegate.qml:143
 msgid "Install…"
@@ -2555,15 +2553,15 @@ msgstr "Installeren"
 
 #: ../plugins/system-update/UpdateDelegate.qml:232
 msgid "Paused"
-msgstr "Gepauzeerd"
+msgstr "Onderbroken"
 
 #: ../plugins/system-update/UpdateDelegate.qml:235
 msgid "Waiting to download"
-msgstr "Wachten om te downloaden"
+msgstr "In wachtrij"
 
 #: ../plugins/system-update/UpdateDelegate.qml:238
 msgid "Downloading"
-msgstr "Downloaden"
+msgstr "Bezig met downloaden"
 
 #. TRANSLATORS: %1 is the human readable amount
 #. of bytes downloaded, and %2 is the total to be
@@ -2590,7 +2588,7 @@ msgstr "Bijgewerkt: %1"
 
 #: ../plugins/system-update/UpdateDelegate.qml:310
 msgid "Update failed"
-msgstr "Update mislukt"
+msgstr "Het bijwerken is mislukt"
 
 #: ../plugins/system-update/UpdateSettings.qml:60
 msgid "On WiFi"
@@ -2602,7 +2600,7 @@ msgstr "Altijd"
 
 #: ../plugins/system-update/UpdateSettings.qml:70
 msgid "Channels"
-msgstr "Kanaal"
+msgstr "Kanalen"
 
 #: ../plugins/time-date/ChooseTimeZone.qml:30
 msgid "Time zone"
@@ -2619,16 +2617,16 @@ msgstr "Handmatig"
 
 #: ../plugins/time-date/ChooseTimeZone.qml:130
 msgid "Enter your current location."
-msgstr "Voer uw huidige locatie in."
+msgstr "Voer je huidige locatie in."
 
 #: ../plugins/time-date/ChooseTimeZone.qml:131
 msgid "No matching place"
-msgstr "Plaats niet gevonden"
+msgstr "Locatie niet gevonden"
 
 #. TRANSLATORS: This is a keyword or name for the time-date plugin which is used while searching
 #: ../plugins/time-date/PageComponent.qml:31 ../build/po/settings.js:370
 msgid "Time and Date"
-msgstr "Tijd en Datum"
+msgstr "Datum en tijd"
 
 #: ../plugins/time-date/PageComponent.qml:64
 msgid "Time zone:"
@@ -2636,11 +2634,11 @@ msgstr "Tijdzone:"
 
 #: ../plugins/time-date/PageComponent.qml:79
 msgid "Set the time and date:"
-msgstr "Stel datum en tijd in:"
+msgstr "Stel de datum en tijd in:"
 
 #: ../plugins/time-date/TimePicker.qml:25
 msgid "Set time & date"
-msgstr "Datum & tijd instellen"
+msgstr "Datum en tijd instellen"
 
 #: ../plugins/time-date/TimePicker.qml:67
 msgid "Time"
@@ -2684,20 +2682,20 @@ msgid ""
 "To add a VPN configuration, download its config file or configure it "
 "manually."
 msgstr ""
-"Voor het toevoegen van een VPN configuratie dient u het bijbehorend config "
-"bestand te downloaden of handmatig in te stellen."
+"Om een VPN-configuratie toe te voegen, moet je het bijbehorende "
+"configbestand downloaden of handmatig instellen."
 
 #: ../plugins/vpn/PageComponent.qml:82
 msgid "Add Manual Configuration…"
-msgstr "Handmatige Configuratie toevoegen…"
+msgstr "Handmatige configuratie toevoegen…"
 
 #: ../plugins/vpn/PageComponent.qml:117
 msgid "VPN reconnection required."
-msgstr "VPN opnieuw verbinden vereist."
+msgstr "Herverbinden met VPN vereist."
 
 #: ../plugins/vpn/PageComponent.qml:118
 msgid "You need to reconnect for changes to have an effect."
-msgstr "U moet opnieuw verbinden voordat de wijzigingen effect zullen hebben."
+msgstr "Je moet opnieuw verbinden om de wijzigingen toe te passen."
 
 #: ../plugins/wifi/CertDialog.qml:22
 msgid "Add certificate?"
@@ -2709,7 +2707,7 @@ msgstr "Sleutel toevoegen?"
 
 #: ../plugins/wifi/CertDialog.qml:26
 msgid "Add pac file?"
-msgstr "Voeg “PAC” bestand toe?"
+msgstr "Pac-bestand toevoegen?"
 
 #: ../plugins/wifi/CertDialog.qml:36
 msgid "Content:"
@@ -2725,7 +2723,7 @@ msgstr "Opslaan"
 
 #: ../plugins/wifi/NetworkDetails.qml:38
 msgid "Network details"
-msgstr "Netwerkdetails"
+msgstr "Netwerkinformatie"
 
 #: ../plugins/wifi/NetworkDetails.qml:65
 msgid "Last connected"
@@ -2734,7 +2732,7 @@ msgstr "Laatste keer verbonden"
 #: ../plugins/wifi/NetworkDetails.qml:98
 #: ../plugins/wifi/NetworkDetailsBrief.qml:55
 msgid "Forget this network"
-msgstr "Vergeet dit netwerk"
+msgstr "Netwerk vergeten"
 
 #: ../plugins/wifi/NetworkDetailsBrief.qml:71
 msgid "IP address"
@@ -2746,7 +2744,7 @@ msgstr "Verbinden met Wi-Fi"
 
 #: ../plugins/wifi/OtherNetwork.qml:93
 msgid "Connect to Hidden Network"
-msgstr "Verbinding maken met verborgen netwerk"
+msgstr "Verbinden met verborgen netwerk"
 
 #: ../plugins/wifi/OtherNetwork.qml:285
 msgid "Network name"
@@ -2754,15 +2752,15 @@ msgstr "Netwerknaam"
 
 #: ../plugins/wifi/OtherNetwork.qml:298
 msgid "SSID"
-msgstr "WiFi naam(SSID)"
+msgstr "Wi-Fi-naam (SSID)"
 
 #: ../plugins/wifi/OtherNetwork.qml:319
 msgid "WPA & WPA2 Personal"
-msgstr "WPA & WPA2 persoonlijk"
+msgstr "WPA en WPA2 Persoonlijk"
 
 #: ../plugins/wifi/OtherNetwork.qml:320
 msgid "WPA & WPA2 Enterprise"
-msgstr "WPA & WPA2 Enterprise"
+msgstr "WPA en WPA2 Enterprise"
 
 #: ../plugins/wifi/OtherNetwork.qml:321
 msgid "WEP"
@@ -2770,7 +2768,7 @@ msgstr "WEP"
 
 #: ../plugins/wifi/OtherNetwork.qml:322
 msgid "Dynamic WEP (802.1x)"
-msgstr "Dynamisch WEP (802.1x)"
+msgstr "Dynamische WEP (802.1x)"
 
 #: ../plugins/wifi/OtherNetwork.qml:323
 msgid "LEAP"
@@ -2782,11 +2780,11 @@ msgstr "Dit is een onveilig netwerk."
 
 #: ../plugins/wifi/OtherNetwork.qml:363
 msgid "Inner authentication"
-msgstr "Extra autorisatie stap"
+msgstr "Extra autorisatiestap"
 
 #: ../plugins/wifi/OtherNetwork.qml:396
 msgid "CA certificate"
-msgstr "CA certificaat"
+msgstr "CA-certificaat"
 
 #. TRANSLATORS: %1 is the name of a certificate file.
 #. The ellipsis indicates that the file name has been
@@ -2811,7 +2809,7 @@ msgstr "Kies…"
 #: ../plugins/wifi/OtherNetwork.qml:465
 #, qt-format
 msgid "%1…, Exp.: %2"
-msgstr "%1…, eind datum: %2"
+msgstr "%1… - verloopt op %2"
 
 #. TRANSLATORS: The first position is the name of
 #. the organization that has issued the certificate.
@@ -2820,20 +2818,19 @@ msgstr "%1…, eind datum: %2"
 #: ../plugins/wifi/OtherNetwork.qml:473
 #, qt-format
 msgid "%1, Exp.: %2"
-msgstr "%1, eind datum: %2"
+msgstr "%1 - verloopt op %2"
 
 #: ../plugins/wifi/OtherNetwork.qml:494
 msgid "Using certificates is recommended as it increases security."
-msgstr ""
-"Het gebruik van een certificaat verhoogd de veiligheid en daarom aanbevolen."
+msgstr "Gebruik een certificaat om de veiligheid te verhogen (aanbevolen)."
 
 #: ../plugins/wifi/OtherNetwork.qml:512
 msgid "Client certificate"
-msgstr "Cliënt certificaat"
+msgstr "Clientcertificaat"
 
 #: ../plugins/wifi/OtherNetwork.qml:554
 msgid "User private key"
-msgstr "Persoonlijke persoonlijke sleutel"
+msgstr "Persoonlijke gebruikerssleutel"
 
 #. TRANSLATORS: The first position is the type of
 #. private key, second the key algorithm, and third the
@@ -2841,18 +2838,15 @@ msgstr "Persoonlijke persoonlijke sleutel"
 #: ../plugins/wifi/OtherNetwork.qml:579
 #, qt-format
 msgid "%1, %2, %3 bit"
-msgstr ""
-"Type: %1\n"
-"Algoritme: %2\n"
-"Lengte: %3 bit"
+msgstr "%1, %2, %3 bit"
 
 #: ../plugins/wifi/OtherNetwork.qml:622
 msgid "Pac file"
-msgstr "PAC bestand"
+msgstr "Pac-bestand"
 
 #: ../plugins/wifi/OtherNetwork.qml:672
 msgid "Pac provisioning"
-msgstr "PAC voorzieningen"
+msgstr "Pac-voorzieningen"
 
 #: ../plugins/wifi/OtherNetwork.qml:686
 msgid "Disabled"
@@ -2872,7 +2866,7 @@ msgstr "Beide"
 
 #: ../plugins/wifi/OtherNetwork.qml:699
 msgid "PEAP version"
-msgstr "PEAP versie"
+msgstr "PEAP-versie"
 
 #: ../plugins/wifi/OtherNetwork.qml:713
 msgid "Version 0"
@@ -2884,7 +2878,7 @@ msgstr "Versie 1"
 
 #: ../plugins/wifi/OtherNetwork.qml:715
 msgid "Automatic"
-msgstr "automatisch"
+msgstr "Automatisch"
 
 #: ../plugins/wifi/OtherNetwork.qml:725
 msgid "Anonymous identity"
@@ -2892,7 +2886,7 @@ msgstr "Anonieme identiteit"
 
 #: ../plugins/wifi/OtherNetwork.qml:752
 msgid "Identity"
-msgstr "Indentiteit"
+msgstr "Identiteit"
 
 #: ../plugins/wifi/OtherNetwork.qml:754
 msgid "Username"
@@ -2900,20 +2894,20 @@ msgstr "Gebruikersnaam"
 
 #: ../plugins/wifi/OtherNetwork.qml:784
 msgid "Private key password"
-msgstr "Wachtwoord van uw “Persoonlijke sleutel”"
+msgstr "Wachtwoord van persoonlijke sleutel"
 
 #: ../plugins/wifi/OtherNetwork.qml:857
 msgid "Remember password"
-msgstr "wachtwoord onthouden"
+msgstr "Wachtwoord onthouden"
 
 #: ../plugins/wifi/PageComponent.qml:129
 msgid "Connect to hidden network…"
-msgstr "Verbinding maken met verborgen netwerk…"
+msgstr "Verbinden met verborgen netwerk…"
 
 #: ../plugins/wifi/PageComponent.qml:139
 #: ../plugins/wifi/PreviousNetworks.qml:27
 msgid "Previous networks"
-msgstr "Vorige netwerken"
+msgstr "Eerdere netwerken"
 
 #: ../plugins/wifi/RemoveBackground.qml:28
 msgid "Clear"
@@ -2932,7 +2926,7 @@ msgstr[1] "%1 afbeeldingen verwijderen"
 
 #: ../plugins/background/Components/AddRemove.qml:79
 msgid "Add an image…"
-msgstr "Een afbeelding toevoegen…"
+msgstr "Afbeelding toevoegen…"
 
 #: ../plugins/background/Components/AddRemove.qml:89
 msgid "Remove images…"
@@ -2940,26 +2934,26 @@ msgstr "Afbeeldingen verwijderen…"
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:36
 msgid "Cellular data"
-msgstr "Mobiele gegevens"
+msgstr "Mobiel internet"
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:73
 #: ../plugins/cellular/Components/NoSim.qml:36
 msgid "No SIM detected"
-msgstr "Geen simkaart gedetecteerd"
+msgstr "Geen simkaart aangetroffen"
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:81
 #: ../plugins/cellular/Components/NoSim.qml:45
 msgid "Insert a SIM, then restart the device."
-msgstr "Plaats een simkaart en herstart uw apparaat."
+msgstr "Plaats een simkaart en herstart je apparaat."
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:147
 #: ../plugins/cellular/Components/SingleSim.qml:92
 msgid "Data roaming"
-msgstr "Gegevensverbinding via zwerfmodus (roaming)"
+msgstr "Roaming"
 
 #: ../plugins/cellular/Components/DefaultSim.qml:33
 msgid "Ask me each time"
-msgstr "Vraag me elke keer"
+msgstr "Altijd vragen"
 
 #: ../plugins/cellular/Components/DefaultSim.qml:40
 msgid "For outgoing calls, use:"
@@ -2970,8 +2964,8 @@ msgid ""
 "You can change the SIM for individual calls, or for contacts in the address "
 "book."
 msgstr ""
-"U kunt de sim wijzigen voor individuele gesprekken of voor contacten in het "
-"adresboek."
+"Je kunt de simkaart van elk individueel gesprek of contactpersonen in het "
+"adresboek wijzigen."
 
 #: ../plugins/cellular/Components/DefaultSim.qml:62
 msgid "For messages, use:"
@@ -2986,7 +2980,7 @@ msgstr "Volg."
 #: ../plugins/cellular/Components/MultiSim.qml:55
 #: ../plugins/cellular/Components/SingleSim.qml:105
 msgid "Data usage statistics"
-msgstr "Statistieken van verbruik gegevenstransport"
+msgstr "Statistieken omtrent gegevensverbruik"
 
 #: ../plugins/cellular/Components/MultiSim.qml:60
 msgid "Carriers"
@@ -2995,11 +2989,11 @@ msgstr "Providers"
 #: ../plugins/cellular/Components/MultiSim.qml:83
 #: ../plugins/cellular/Components/RadioSingleSim.qml:31
 msgid "Connection type:"
-msgstr "Verbindingstype:"
+msgstr "Soort verbinding:"
 
 #: ../plugins/cellular/Components/Sim.qml:46
 msgid "2G only (saves battery)"
-msgstr "Alleen 2G (bespaart de accu)"
+msgstr "Alleen 2G (bespaart accu)"
 
 #: ../plugins/cellular/Components/Sim.qml:47
 msgid "2G/3G (faster)"
@@ -3011,11 +3005,11 @@ msgstr "2G/3G/4G (sneller)"
 
 #: ../plugins/cellular/Components/SimEditor.qml:88
 msgid "Edit SIM Name"
-msgstr "Simnaam bewerken"
+msgstr "Simnaam aanpassen"
 
 #: ../plugins/cellular/Components/SingleSim.qml:69
 msgid "Cellular data:"
-msgstr "Mobiele gegevens:"
+msgstr "Mobiel internet:"
 
 #: ../plugins/printing/printer-sub-pages/CopiesAndPages.qml:26
 msgid "Copies"
@@ -3047,11 +3041,11 @@ msgstr "Standaard"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:47
 msgid "This is the default printer."
-msgstr "Dit is de standaard printer."
+msgstr "Dit is de standaardprinter."
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:60
 msgid "Accepting jobs"
-msgstr "Opdrachten accepeterend"
+msgstr "Accepteert opdrachten"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:69
 msgid "Shared"
@@ -3090,7 +3084,7 @@ msgstr "Opdrachten"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:53
 msgid "Manage Print Jobs"
-msgstr "Printopdrachten beheren"
+msgstr "Afdrukopdrachten beheren"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:78
 msgid "Address"
@@ -3102,11 +3096,11 @@ msgstr "Model"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:85
 msgid "Local Raw Printer"
-msgstr "Lokale Raw Printer"
+msgstr "Lokale raw-printer"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:88
 msgid "Print test page"
-msgstr "Druk testpagina af"
+msgstr "Testpagina afdrukken"
 
 #: ../src/qml/MainWindow.qml:203
 msgid "Search"
@@ -3134,13 +3128,13 @@ msgstr "apparaat"
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../build/po/settings.js:8
 msgid "info"
-msgstr "info"
+msgstr "informatie"
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../build/po/settings.js:10 ../build/po/settings.js:252
 msgid "phone"
-msgstr "telefoneren"
+msgstr "telefoon"
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../build/po/settings.js:12
@@ -3168,7 +3162,7 @@ msgstr "adres"
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../build/po/settings.js:20
 msgid "mac"
-msgstr "mac"
+msgstr "mac-adres"
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../build/po/settings.js:22
@@ -3242,7 +3236,7 @@ msgstr "achtergrond"
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../build/po/settings.js:50
 msgid "wallpaper"
-msgstr "bureaubladachtergrond"
+msgstr "achtergrond"
 
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../build/po/settings.js:52
@@ -3282,7 +3276,7 @@ msgstr "opladen"
 #. TRANSLATORS: This is a keyword or name for the battery plugin which is used while searching
 #: ../build/po/settings.js:68
 msgid "idle"
-msgstr "niet-actief"
+msgstr "inactief"
 
 #. TRANSLATORS: This is a keyword or name for the battery plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the orientation-lock plugin which is used while searching
@@ -3310,7 +3304,7 @@ msgstr "bluetooth"
 #. TRANSLATORS: This is a keyword or name for the bluetooth plugin which is used while searching
 #: ../build/po/settings.js:80
 msgid "headset"
-msgstr "koptelefoon/microfoon"
+msgstr "headset"
 
 #. TRANSLATORS: This is a keyword or name for the bluetooth plugin which is used while searching
 #: ../build/po/settings.js:82
@@ -3368,7 +3362,7 @@ msgstr "helderheid"
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../build/po/settings.js:104 ../build/po/settings.js:188
 msgid "display"
-msgstr "weergeven"
+msgstr "scherm"
 
 #. TRANSLATORS: This is a keyword or name for the brightness plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the orientation-lock plugin which is used while searching
@@ -3414,7 +3408,7 @@ msgstr "mobiel"
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../build/po/settings.js:120
 msgid "gsm"
-msgstr "GSM"
+msgstr "gsm"
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../build/po/settings.js:122
@@ -3454,13 +3448,13 @@ msgstr "apn"
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../build/po/settings.js:136
 msgid "roam"
-msgstr "zwerfmodus"
+msgstr "roaming"
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the security-privacy plugin which is used while searching
 #: ../build/po/settings.js:138 ../build/po/settings.js:314
 msgid "sim"
-msgstr "sim"
+msgstr "simkaart"
 
 #. TRANSLATORS: This is a keyword or name for the example plugin which is used while searching
 #: ../build/po/settings.js:140
@@ -3475,7 +3469,7 @@ msgstr "voorbeeld"
 #. TRANSLATORS: This is a keyword or name for the example plugin which is used while searching
 #: ../build/po/settings.js:144
 msgid "test"
-msgstr "proef"
+msgstr "test"
 
 #. TRANSLATORS: This is a keyword or name for the example plugin which is used while searching
 #: ../build/po/settings.js:146
@@ -3500,7 +3494,7 @@ msgstr "vliegtuig"
 #. TRANSLATORS: This is a keyword or name for the flight-mode plugin which is used while searching
 #: ../build/po/settings.js:154
 msgid "offline"
-msgstr "zonder internetverbinding"
+msgstr "offline"
 
 #. TRANSLATORS: This is a keyword or name for the flight-mode plugin which is used while searching
 #: ../build/po/settings.js:156
@@ -3531,7 +3525,7 @@ msgstr "toetsenbord"
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../build/po/settings.js:174
 msgid "spellcheck"
-msgstr "spellingscontrole"
+msgstr "spellingcontrole"
 
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../build/po/settings.js:178
@@ -3556,7 +3550,7 @@ msgstr "interpunctie"
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../build/po/settings.js:186
 msgid "layout"
-msgstr "vormgeving"
+msgstr "indeling"
 
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../build/po/settings.js:190
@@ -3607,7 +3601,7 @@ msgstr "invoer"
 #. TRANSLATORS: This is a keyword or name for the notifications plugin which is used while searching
 #: ../build/po/settings.js:218
 msgid "notifications"
-msgstr "notificaties"
+msgstr "meldingen"
 
 #. TRANSLATORS: This is a keyword or name for the notifications plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the orientation-lock plugin which is used while searching
@@ -3630,7 +3624,7 @@ msgstr "waarschuwingen"
 #. TRANSLATORS: This is a keyword or name for the notifications plugin which is used while searching
 #: ../build/po/settings.js:226
 msgid "permissions"
-msgstr "rechten"
+msgstr "machtigingen"
 
 #. TRANSLATORS: This is a keyword or name for the notifications plugin which is used while searching
 #: ../build/po/settings.js:228
@@ -3660,7 +3654,7 @@ msgstr "gmail"
 #. TRANSLATORS: This is a keyword or name for the orientation-lock plugin which is used while searching
 #: ../build/po/settings.js:238
 msgid "Rotation Lock"
-msgstr "Oriëntatievergrendeling"
+msgstr "Draaivergrendeling"
 
 #. TRANSLATORS: This is a keyword or name for the orientation-lock plugin which is used while searching
 #: ../build/po/settings.js:240
@@ -3701,7 +3695,7 @@ msgstr "toetsenblok"
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../build/po/settings.js:264
 msgid "shortcuts"
-msgstr "snelkoppelingen"
+msgstr "sneltoetsen"
 
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../build/po/settings.js:266
@@ -3771,7 +3765,7 @@ msgstr "inkt"
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../build/po/settings.js:296
 msgid "reset"
-msgstr "terugzetten op standaardwaarden"
+msgstr "standaardwaarden"
 
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../build/po/settings.js:298
@@ -3846,7 +3840,7 @@ msgstr "geluid"
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../build/po/settings.js:334
 msgid "silent"
-msgstr "Stil"
+msgstr "stil"
 
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../build/po/settings.js:336
@@ -3891,7 +3885,7 @@ msgstr "downloaden"
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../build/po/settings.js:364
 msgid "upgrade"
-msgstr "opwaarderen"
+msgstr "upgrade"
 
 #. TRANSLATORS: This is a keyword or name for the update-notification plugin which is used while searching
 #: ../build/po/settings.js:368
@@ -3937,7 +3931,7 @@ msgstr "routering"
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../build/po/settings.js:404
 msgid "wifi"
-msgstr "Wi-Fi"
+msgstr "wifi"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../build/po/settings.js:406
@@ -3955,27 +3949,27 @@ msgstr "Onbekende titel"
 
 #: ../plugins/security-privacy/securityprivacy.cpp:369
 msgid "Incorrect passcode. Try again."
-msgstr "Onjuiste toegangscode. Probeer het a.u.b. opnieuw."
+msgstr "Onjuiste toegangscode. Probeer het opnieuw."
 
 #: ../plugins/security-privacy/securityprivacy.cpp:371
 msgid "Incorrect passphrase. Try again."
-msgstr "Onjuiste wachtwoordzin. Probeer het a.u.b. opnieuw."
+msgstr "Onjuiste wachtwoordzin. Probeer het opnieuw."
 
 #: ../plugins/security-privacy/securityprivacy.cpp:374
 msgid "Could not set security mode"
-msgstr "Kon beveiligingsmodus niet instellen"
+msgstr "Kan beveiligingsmodus niet instellen"
 
 #: ../plugins/security-privacy/securityprivacy.cpp:399
 msgid "Could not set security display hint"
-msgstr "Kon schermwenk voor beveiliging niet instellen"
+msgstr "Kan beveiligingshint op scherm niet instellen"
 
 #: ../plugins/security-privacy/securityprivacy.cpp:413
 msgid "Authentication token manipulation error"
-msgstr "Fout bij manipulatie van authenticatiemiddel"
+msgstr "Fout tijdens manipulatie van authenticatiemiddel"
 
 #: ../plugins/wifi/certhandler.cpp:258
 msgid "Private key"
-msgstr "Private key"
+msgstr "Privésleutel"
 
 #: ../plugins/wifi/certhandler.cpp:259
 msgid "Public key"
@@ -3983,15 +3977,15 @@ msgstr "Publieke sleutel"
 
 #: ../plugins/wifi/certhandler.cpp:264
 msgid "Opaque"
-msgstr "Doorschijnend"
+msgstr "Ondoorzichtig"
 
 #: ../src/systemimage.cpp:231
 msgid "Can't cancel current request (can't contact service)"
-msgstr "Kan huidig verzoek niet annuleren (kon geen contact maken met dienst)"
+msgstr "Kan huidig verzoek niet afbreken (geen contact met dienst)"
 
 #: ../src/systemimage.cpp:244
 msgid "Can't pause current request (can't contact service)"
-msgstr "Kan huidig verzoek niet pauzeren (kon geen contact maken met dienst)"
+msgstr "Kan huidig verzoek niet onderbreken (geen contact met dienst)"
 
 #: ../src/systemimage.cpp:368 ../src/systemimage.cpp:374
 #: ../src/systemimage.cpp:380
@@ -4004,7 +3998,7 @@ msgstr "Er is een systeemupdate beschikbaar."
 
 #: ../push-helper/software_updates_helper.py:160
 msgid "Tap to open the system updater."
-msgstr "Tik om naar de update te gaan."
+msgstr "Druk hier om het updatescherm te openen."
 
 #~ msgid "Sign in to Ubuntu One to receive updates for apps."
 #~ msgstr "Meld u aan bij Ubuntu One om updates voor apps te ontvangen."

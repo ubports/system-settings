@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2020-02-28 12:21+0000\n"
+"PO-Revision-Date: 2020-07-03 03:23+0000\n"
 "Last-Translator: Joan CiberSheep <cibersheep@gmail.com>\n"
 "Language-Team: Catalan <https://translate.ubports.com/projects/ubports/"
 "system-settings/ca/>\n"
@@ -17,12 +17,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.8\n"
+"X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:40+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
 msgid "System Settings"
-msgstr "Configuració del sistema"
+msgstr "Paràmetres del sistema"
 
 #: ubuntu-system-settings.desktop.in.in.h:2
 msgid "System;"
@@ -908,20 +908,20 @@ msgstr "APN de LTE"
 
 #: ../plugins/cellular/PageChooseApn.qml:156
 msgid "Reset All APN Settings…"
-msgstr "Reinicia tots els paràmetres de l'APN…"
+msgstr "Reinicialitza tots els paràmetres de l'APN…"
 
 #: ../plugins/cellular/PageChooseApn.qml:165
 msgid "Reset APN Settings"
-msgstr "Reinicia els paràmetres de l'APN"
+msgstr "Reinicialitza els paràmetres de l'APN"
 
 #: ../plugins/cellular/PageChooseApn.qml:166
 msgid "Are you sure that you want to Reset APN Settings?"
-msgstr "Segur que voleu reiniciar els paràmetres de l'APN?"
+msgstr "Segur que voleu reinicialitzar els paràmetres de l'APN?"
 
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../plugins/cellular/PageChooseApn.qml:169 ../build/po/settings.js:294
 msgid "Reset"
-msgstr "Reinicia"
+msgstr "Reinicialitza"
 
 #. TRANSLATORS: %1 is the MMS APN that the user has chosen to be
 #. “preferred”.
@@ -1019,7 +1019,7 @@ msgstr ""
 
 #: ../plugins/hotspot/Common.qml:46 ../plugins/wifi/Common.qml:48
 msgid "The IP configuration is no longer valid"
-msgstr "La configuració de l'adreça IP ja no són vàlids"
+msgstr "La configuració de l'adreça IP ja no és vàlida"
 
 #: ../plugins/hotspot/Common.qml:48 ../plugins/wifi/Common.qml:50
 msgid "Your authentication details were incorrect"
@@ -1116,7 +1116,7 @@ msgstr "Ha fallat una connexió secundària de la connexió principal"
 
 #: ../plugins/hotspot/HotspotSetup.qml:61
 msgid "Change Hotspot Setup"
-msgstr "Canvia la configuració del punt d'accés Wi-Fi"
+msgstr "Canvia els paràmetres del punt d'accés Wi-Fi"
 
 #: ../plugins/hotspot/HotspotSetup.qml:61
 msgid "Set Up Hotspot"
@@ -1157,7 +1157,7 @@ msgstr "Inicia"
 #: ../plugins/hotspot/PageComponent.qml:33
 #: ../plugins/hotspot/PageComponent.qml:85 ../build/po/settings.js:160
 msgid "Hotspot"
-msgstr "Punt d'acces"
+msgstr "Punt d'accés Wi-Fi"
 
 #: ../plugins/hotspot/PageComponent.qml:114
 msgid ""
@@ -1166,7 +1166,7 @@ msgid ""
 msgstr ""
 "Quan el punt d'accés Wi-Fi està activat altres dispositius poden utilitzar "
 "la connexió de dades mòbils a través de la xarxa sense fil. S'aplicaran els "
-"càrrecs per a dades habituals."
+"càrrecs de dades habituals."
 
 #: ../plugins/hotspot/PageComponent.qml:115
 msgid ""
@@ -1178,7 +1178,7 @@ msgstr ""
 
 #: ../plugins/hotspot/PageComponent.qml:124
 msgid "Change Password/Setup…"
-msgstr "Canvia la contrasenya/configuració…"
+msgstr "Canvia la contrasenya/paràmetres…"
 
 #: ../plugins/hotspot/PageComponent.qml:124
 msgid "Set Up Hotspot…"
@@ -1190,8 +1190,7 @@ msgstr "El punt d'accés Wi-Fi està desactivat"
 
 #: ../plugins/hotspot/PageComponent.qml:156
 msgid "In order to create a hotspot, you need to turn Wi-Fi on."
-msgstr ""
-"Per poder crear un punt d'accés Wi-Fi heu d'activar la xarxa sense fill."
+msgstr "Per poder crear un punt d'accés Wi-Fi heu d'activar la xarxa sense fil."
 
 #: ../plugins/hotspot/PageComponent.qml:165
 msgid "Turn on Wi-Fi"
@@ -1652,7 +1651,7 @@ msgstr "Serveis"
 #: ../plugins/phone/PageComponent.qml:102
 #: ../plugins/sound/PageComponent.qml:194
 msgid "Dialpad tones"
-msgstr "Tons del teclat"
+msgstr "Tons de teclat"
 
 #: ../plugins/phone/ServiceInfo.qml:109
 #, qt-format
@@ -1790,7 +1789,7 @@ msgstr "Estat de la impressora"
 
 #: ../plugins/printing/Printer.qml:43
 msgid "General settings"
-msgstr "Configuració general"
+msgstr "Paràmetres generals"
 
 #: ../plugins/printing/Printer.qml:44
 msgid "Policies"
@@ -1809,12 +1808,12 @@ msgid ""
 "All documents, saved games, settings, and other items will be permanently "
 "deleted from this device."
 msgstr ""
-"Tots els documents, jocs desats, configuracions, i d'altres elements se "
-"suprimiran permanentment d'aquest telèfon."
+"Tots els documents, jocs desats, paràmetres i altres elements se suprimiran "
+"permanentment d'aquest telèfon."
 
 #: ../plugins/reset/EraseEverything.qml:44
 msgid "Erase & Reset Everything"
-msgstr "Suprimeix-ho i reinicia-ho tot"
+msgstr "Suprimeix-ho i reinicialitza-ho tot"
 
 #: ../plugins/reset/PageComponent.qml:32
 msgid "Reset device"
@@ -1828,24 +1827,24 @@ msgstr "Reinicia el llançador"
 #: ../plugins/reset/PageComponent.qml:101
 #: ../plugins/reset/PageComponent.qml:112
 msgid "Reset all system settings…"
-msgstr "Reinicia tots els paràmetres del sistema…"
+msgstr "Reinicialitza tots els paràmetres del sistema…"
 
 #: ../plugins/reset/PageComponent.qml:126
 #: ../plugins/reset/PageComponent.qml:138
 msgid "Erase & Reset All"
-msgstr "Suprimeix-ho i reinicia-ho tot"
+msgstr "Suprimeix-ho i reinicialitza-ho tot"
 
 #: ../plugins/reset/ResetAllSettings.qml:29
 msgid ""
 "The contents and layout of the launcher, and the filters in the home screen "
 "will be returned to their original settings."
 msgstr ""
-"Es tornarà a la configuració inicial del contingut i la disposició del "
-"llançador i els filtres de la pantalla d'inici."
+"Es reinicialitzarà el contingut i la disposició del llançador i els "
+"paràmetres dels filtres de la pantalla d'inici tornaran a ser els originals."
 
 #: ../plugins/reset/ResetAllSettings.qml:31
 msgid "Reset all system settings"
-msgstr "Reinicia tots els paràmetres del sistema"
+msgstr "Reinicialitza tots els paràmetres del sistema"
 
 #: ../plugins/reset/ResetLauncherHome.qml:40
 msgid "The Launcher will be returned to its original contents."
@@ -2132,7 +2131,7 @@ msgstr "PIN de la targeta SIM"
 #: ../plugins/security-privacy/PageComponent.qml:176
 #: ../plugins/security-privacy/PageComponent.qml:248
 msgid "On"
-msgstr "Actiu"
+msgstr "Activat"
 
 #: ../plugins/security-privacy/PageComponent.qml:187
 msgid "Encryption"
@@ -2349,7 +2348,7 @@ msgstr "Versió %1"
 
 #: ../plugins/system-update/ChannelSettings.qml:32
 msgid "Channel settings"
-msgstr "Configuració dels canals"
+msgstr "Paràmetres dels canals"
 
 #: ../plugins/system-update/ChannelSettings.qml:57
 #: ../plugins/system-update/UpdateSettings.qml:74
@@ -2511,7 +2510,7 @@ msgstr "Actualitzacions recents"
 #: ../plugins/system-update/PageComponent.qml:374
 #: ../plugins/system-update/UpdateSettings.qml:32
 msgid "Update settings"
-msgstr "Actualitza la configuració"
+msgstr "Paràmetres de les actualitzacions"
 
 #: ../plugins/system-update/ReinstallAllApps.qml:36
 #: ../plugins/system-update/ReinstallAllApps.qml:95
@@ -2694,8 +2693,8 @@ msgid ""
 "To add a VPN configuration, download its config file or configure it "
 "manually."
 msgstr ""
-"Per afegir una configuració VPN, descarregueu el seu fitxer de configuració "
-"o configureu-la manualment."
+"Per afegir una configuració de VPN, baixeu-ne el fitxer de configuració o "
+"configureu-la manualment."
 
 #: ../plugins/vpn/PageComponent.qml:82
 msgid "Add Manual Configuration…"
@@ -3777,7 +3776,7 @@ msgstr "tinta"
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../build/po/settings.js:296
 msgid "reset"
-msgstr "reinici"
+msgstr "reinicialitza"
 
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../build/po/settings.js:298
