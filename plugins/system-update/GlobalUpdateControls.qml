@@ -130,7 +130,6 @@ Item {
             }
             onClicked: globalUpdateControls.requestInstall()
             color: theme.palette.normal.positive
-            strokeColor: "transparent"
         }
     }
 
