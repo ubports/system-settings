@@ -102,7 +102,6 @@ ItemPage {
             }
 
             SettingsListItems.StandardProgression {
-                 visible: showAllUI
                  showDivider: false
                  id: eraseEverythingButton
                  objectName: "factoryReset"
