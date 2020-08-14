@@ -69,72 +69,54 @@ ItemPage {
             anchors.left: parent.left
             anchors.right: parent.right
 
-            SettingsItemTitle {
+            SettingsListItems.StandardProgression {
+                showDivider: false
+                id: resetLauncherHomeButton
+                objectName: "resetLauncherHomeButton"
                 text: i18n.tr("Reset Launcher")
+                onClicked: {
+                    buttonActions.source = "ResetLauncherHome.qml";
+                    root.popup = PopupUtils.open(buttonActions.item);
+                }
             }
 
             ListItem.Caption {
                 text: i18n.tr("The Launcher will be returned to its original contents.")
             }
 
-            SettingsListItems.Standard {
-
-                Button {
-                    id: resetLauncherHomeButton
-                    objectName: "resetLauncher"
-                    text: i18n.tr("Reset Launcher")
-                    onClicked: {
-                        buttonActions.source = "ResetLauncherHome.qml";
-                        root.popup = PopupUtils.open(buttonActions.item);
-                    }
-                }
-            }
-
-            SettingsItemTitle {
-                visible: showAllUI
-                text: i18n.tr("Reset all system settings…")
-            }
+             SettingsListItems.StandardProgression {
+                 visible: showAllUI
+                 showDivider: false
+                 id: resetAllSettingsButton
+                 objectName: "resetAllSettingsButton"
+                 text: i18n.tr("Reset all system settings…")
+                 onClicked: {
+                     buttonActions.source = "ResetAllSettings.qml";
+                     root.popup = PopupUtils.open(buttonActions.item);
+                 }
+             }
 
             ListItem.Caption {
                 visible: showAllUI
                 text: i18n.tr("The contents and layout of the launcher, and the filters in the home screen will be returned to their original settings.")
             }
 
-            SettingsListItems.Standard {
-                visible: showAllUI
-
-                Button {
-                    id: resetAllSettingsButton
-                    text: i18n.tr("Reset all system settings…")
+            SettingsListItems.StandardProgression {
+                 visible: showAllUI
+                 showDivider: false
+                 id: eraseEverythingButton
+                 objectName: "factoryReset"
+                 text: i18n.tr("Erase & Reset All")
                     onClicked: {
-                        buttonActions.source = "ResetAllSettings.qml";
+                        buttonActions.source = "EraseEverything.qml";
                         root.popup = PopupUtils.open(buttonActions.item);
                     }
-                }
-            }
-
-            SettingsItemTitle {
-                text: i18n.tr("Erase & Reset All")
-                height: units.gu(6)
-            }
+             }
 
             ListItem.Caption {
                 text: i18n.tr("All documents, saved games, settings, and other items will be permanently deleted from this device.")
             }
 
-            SettingsListItems.Standard {
-
-                Button {
-                    id: eraseEverythingButton
-                    objectName: "factoryReset"
-
-                    text: i18n.tr("Erase & Reset All")
-                    onClicked: {
-                        buttonActions.source = "EraseEverything.qml";
-                        root.popup = PopupUtils.open(buttonActions.item);
-                    }
-                }
-            }
         }
     }
 }
