@@ -29,7 +29,7 @@ ItemPage {
 
     function refreshSoundFileNames() {
         var customDir = mountPoint + "/custom/usr/share/" + soundsDir;
-        if (soundType === 0 || soundType === 1)
+        if (soundType === 0)
             return backendInfo.listSounds([soundsDir, customDir, backendInfo.customRingtonePath])
         return backendInfo.listSounds([soundsDir, customDir])
     }
@@ -126,6 +126,7 @@ ItemPage {
             ListItem.Standard {
                 id: customRingtone
                 text: i18n.tr("Custom Ringtone")
+                visible: soundType === 0
                 progression: true
                 onClicked: pageStack.addPageToNextColumn(soundsPage, picker)
             }
@@ -213,7 +214,6 @@ ItemPage {
             handler: ContentHandler.Source
             contentType: ContentType.Music
             showTitle: false
-            anchors.topMargin: picker.header.height
 
             onPeerSelected: {
                 pageStack.removePages(soundsPage);
