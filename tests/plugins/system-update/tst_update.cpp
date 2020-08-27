@@ -266,9 +266,6 @@ private slots:
 
         QCOMPARE(*a == *b, equals);
         QCOMPARE(*b == *a, equals);
-
-        a->deleteLater();
-        b->deleteLater();
     }
     void testStateEnums_data()
     {
