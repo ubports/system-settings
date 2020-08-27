@@ -23,6 +23,7 @@ set(ubuntu_notifications_panel_SRCS
     click_applications_notify_model.cpp
     )
 
+configure_file(qmldir.in qmldir)
 add_library(UbuntuNotificationsPanel MODULE ${ubuntu_notifications_panel_HDRS} ${ubuntu_notifications_panel_SRCS} ${QML_SOURCES})
 
 add_definitions(-DQT_NO_KEYWORDS)
@@ -33,7 +34,7 @@ target_link_libraries(UbuntuNotificationsPanel ${GIO_LDFLAGS} ${QTGSETTINGS_LDFL
 
 set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Ubuntu/SystemSettings/Notifications)
 install(TARGETS UbuntuNotificationsPanel DESTINATION ${PLUG_DIR})
-install(FILES qmldir DESTINATION ${PLUG_DIR})
+install(FILES ${CMAKE_CURRENT_BINARY_DIR}/qmldir DESTINATION ${PLUG_DIR})
 install(FILES ${QML_SOURCES} DESTINATION ${PLUGIN_QML_DIR}/notifications)
 
 install(FILES notifications.settings DESTINATION ${PLUGIN_MANIFEST_DIR})
