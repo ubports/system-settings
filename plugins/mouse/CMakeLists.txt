@@ -16,6 +16,7 @@ set(PANEL_SOURCES
     ${QML_SOURCES}
 )
 
+configure_file(qmldir.in qmldir)
 add_definitions(-DQT_NO_KEYWORDS)
 add_library(UbuntuMousePanel MODULE ${PANEL_SOURCES} ${QML_SOURCES})
 
@@ -32,7 +33,7 @@ target_link_libraries (UbuntuMousePanel
     ${GLIB_LDFLAGS}
 )
 install(TARGETS UbuntuMousePanel DESTINATION ${PLUG_DIR})
-install(FILES qmldir DESTINATION ${PLUG_DIR})
+install(FILES ${CMAKE_CURRENT_BINARY_DIR}/qmldir DESTINATION ${PLUG_DIR})
 
 # We need a dummy target so the QML files show up in Qt Creator
 # If this plugin gets some C++ sources, remove this.

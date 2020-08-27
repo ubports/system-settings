@@ -15,6 +15,7 @@ set(qmltest_DEFAULT_IMPORT_PATHS
 
 add_qml_test(mouse mouse
              IMPORT_PATHS
+             ${CMAKE_BINARY_DIR}/plugins
              ${CMAKE_SOURCE_DIR}/tests/plugins/mouse
              ${qmltest_DEFAULT_IMPORT_PATHS})
 
