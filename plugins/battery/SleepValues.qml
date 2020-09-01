@@ -22,7 +22,7 @@
 // IF YOU RENAME IT YOU MUST UPDATE THE REFERENCE THERE.
 
 import GSettings 1.0
-import QtQuick 2.4
+import QtQuick 2.7
 import Ubuntu.Components 1.3
 import Ubuntu.Components.ListItems 1.3 as ListItem
 import SystemSettings 1.0
@@ -33,9 +33,9 @@ ItemPage {
     objectName: "sleepValues"
     flickable: scrollWidget
 
-    property alias usePowerd: batteryBackend.powerdRunning
+    readonly property alias usePowerd: batteryBackend.powerdRunning
     property bool lockOnSuspend
-    property variant idleValues: [30,60,120,180,240,300,600,0]
+    readonly property variant idleValues: [30, 60, 120, 180, 240, 300, 600, 0]
 
     UbuntuBatteryPanel {
         id: batteryBackend
@@ -43,20 +43,14 @@ ItemPage {
 
     GSettings {
         id: powerSettings
-        schema.id: usePowerd ? "com.ubuntu.touch.system" : "org.gnome.desktop.session"
+        schema.id: root.usePowerd ? "com.ubuntu.touch.system" : "org.gnome.desktop.session"
         onChanged: {
             if (key == "activityTimeout" || key == "idleDelay") {
-                var curIndex = idleValues.indexOf(value)
+                var curIndex = root.idleValues.indexOf(value)
                 if( curIndex != -1)
                     sleepSelector.selectedIndex = curIndex
             }
-	    console.warn("Change on: " + key)
-        }
-        Component.onCompleted: {
-            if (usePowerd)
-                sleepSelector.selectedIndex = idleValues.indexOf(powerSettings.activityTimeout)
-            else
-                sleepSelector.selectedIndex = idleValues.indexOf(powerSettings.idleDelay)
+            console.warn("Change on: " + key)
         }
     }
 
@@ -71,8 +65,8 @@ ItemPage {
             anchors.right: parent.right
 
             SettingsItemTitle {
-                text: lockOnSuspend ? i18n.tr("Lock the device when it's not in use:") :
-                                      i18n.tr("Put the device to sleep when it is not in use:")
+                text: root.lockOnSuspend ? i18n.tr("Lock the device when it's not in use:") :
+                                           i18n.tr("Put the device to sleep when it is not in use:")
             }
 
             ListItem.ItemSelector {
@@ -81,6 +75,7 @@ ItemPage {
                 delegate: OptionSelectorDelegate {
                     text: modelData
                 }
+                selectedIndex: root.idleValues.indexOf(root.usePowerd ? powerSettings.activityTimeout : powerSettings.idleDelay)
                 model: [
                     // TRANSLATORS: %1 is the number of seconds
                     i18n.tr("After %1 seconds",
@@ -113,21 +108,21 @@ ItemPage {
                     i18n.tr("Never")]
                 expanded: true
                 onDelegateClicked: {
-                  if (usePowerd) {
- 		    powerSettings.activityTimeout = idleValues[index]
-                    // ensure dimTimeout is 10 seconds less than activityTimeout
-                    powerSettings.dimTimeout = Math.max(powerSettings.activityTimeout - 10, 0)
-		    console.warn("activity: " +  powerSettings.activityTimeout)
-    		    console.warn("dim: " +  powerSettings.dimTimeout)
-		  }
-                  else
-                    powerSettings.idleDelay = idleValues[index]
+                    if (root.usePowerd) {
+                        powerSettings.activityTimeout = root.idleValues[index]
+                        // ensure dimTimeout is 10 seconds less than activityTimeout
+                        powerSettings.dimTimeout = Math.max(powerSettings.activityTimeout - 10, 0)
+                        console.warn("activity: " +  powerSettings.activityTimeout)
+                        console.warn("dim: " +  powerSettings.dimTimeout)
+                    } else {
+                        powerSettings.idleDelay = root.idleValues[index]
+                    }
                 }
                 highlightWhenPressed: false
             }
 
             ListItem.Caption {
-                text: lockOnSuspend ? i18n.tr("Shorter times are more secure. Device won't lock during calls or video playback.") : i18n.tr("Device won’t sleep during calls or video playback.")
+                text: root.lockOnSuspend ? i18n.tr("Shorter times are more secure. Device won't lock during calls or video playback.") : i18n.tr("Device won’t sleep during calls or video playback.")
             }
         }
     }
