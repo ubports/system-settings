@@ -28,7 +28,20 @@ import Ubuntu.Settings.Vpn 0.1
 
 ItemPage {
     id: root
-    title: i18n.tr("VPN")
+    
+        header: PageHeader {
+        id: pageHeader
+        title: i18n.tr("VPN")
+        trailingActionBar.actions: [
+            Action {
+                iconName: "add"
+                text : i18n.tr("Add Manual Configuration…")
+                onTriggered: {
+                    onClicked: Connectivity.vpnConnections.add(VpnConnection.OPENVPN)
+                }
+            }
+        ]
+    }
     objectName: "vpnPage"
     flickable: scrollWidget
 
@@ -76,13 +89,6 @@ ItemPage {
                 text : i18n.tr("To add a VPN configuration, download its config file or configure it manually.")
             }
 
-            ListItem.SingleControl {
-                control: Button {
-                    objectName: "addVpnButton"
-                    text : i18n.tr("Add Manual Configuration…")
-                    onClicked: Connectivity.vpnConnections.add(VpnConnection.OPENVPN)
-                }
-            }
         }
     }
 
