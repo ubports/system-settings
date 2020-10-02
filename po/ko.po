@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2018-10-14 18:56+0000\n"
-"Last-Translator: SongInseo <andra123438@gmail.com>\n"
-"Language-Team: Korean <https://translate.ubports.com/projects/ubports/system-"
-"settings/ko/>\n"
+"PO-Revision-Date: 2020-08-04 23:58+0000\n"
+"Last-Translator: Young Kim <rsyh93@gmail.com>\n"
+"Language-Team: Korean <https://translate.ubports.com/projects/ubports/"
+"system-settings/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.0\n"
+"X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:41+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -61,7 +61,6 @@ msgstr "죄송합니다. 이 라이선스는 표시할 수 없습니다."
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../plugins/about/PageComponent.qml:35 ../build/po/settings.js:2
-#, fuzzy
 msgid "About"
 msgstr "정보"
 
@@ -127,7 +126,7 @@ msgstr "마지막 업데이트"
 #: ../plugins/system-update/UpdateSettings.qml:58
 #: ../plugins/wifi/NetworkDetails.qml:67
 msgid "Never"
-msgstr "절대로 사용하지 않음"
+msgstr "사용 안 함"
 
 #: ../plugins/about/PageComponent.qml:194
 msgid "Check for updates"
@@ -731,9 +730,8 @@ msgid "Connected display:"
 msgstr "연결된 장치:"
 
 #: ../plugins/brightness/WifiDisplays.qml:128
-#, fuzzy
 msgid "Connecting"
-msgstr "연결 중..."
+msgstr "연결 중"
 
 #: ../plugins/brightness/WifiDisplays.qml:146
 #, fuzzy
@@ -852,7 +850,7 @@ msgstr "암호문을 입력해주십시오."
 #: ../plugins/cellular/PageApnEditor.qml:341
 #: ../plugins/wifi/NetworkDetails.qml:72 ../plugins/wifi/OtherNetwork.qml:786
 msgid "Password"
-msgstr "암호"
+msgstr "비밀번호"
 
 #: ../plugins/cellular/PageApnEditor.qml:353
 #, fuzzy
@@ -1002,7 +1000,7 @@ msgstr ""
 #: ../plugins/cellular/PageChooseApn.qml:303
 #: ../plugins/printing/PageComponent.qml:136
 msgid "Delete"
-msgstr "지우기"
+msgstr "삭제"
 
 #: ../plugins/cellular/PageChooseCarrier.qml:153
 #: ../plugins/time-date/ChooseTimeZone.qml:51
@@ -1540,7 +1538,6 @@ msgid "Apps that notify with sound:"
 msgstr ""
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:30
-#, fuzzy
 msgid "Vibration"
 msgstr "진동"
 
@@ -1674,9 +1671,8 @@ msgid "Forward to"
 msgstr "전달"
 
 #: ../plugins/phone/CallForwardItem.qml:171
-#, fuzzy
 msgid "Enter a number"
-msgstr "전화 번호"
+msgstr "번호를 입력하세요"
 
 #: ../plugins/phone/CallForwardItem.qml:218
 msgid "Call forwarding can’t be changed right now."
@@ -2411,9 +2407,9 @@ msgid "Choose from"
 msgstr "네트워크 선택하기:"
 
 #: ../plugins/system-update/ChangelogExpander.qml:42
-#, fuzzy, qt-format
+#, qt-format
 msgid "Version %1"
-msgstr "버전: "
+msgstr "버전 %1"
 
 #: ../plugins/system-update/ChannelSettings.qml:32
 msgid "Channel settings"
@@ -2616,11 +2612,11 @@ msgstr "내려받기"
 
 #: ../plugins/system-update/UpdateDelegate.qml:132
 msgid "Resume"
-msgstr "다시 시작"
+msgstr "계속"
 
 #: ../plugins/system-update/UpdateDelegate.qml:139
 msgid "Pause"
-msgstr "일시정지"
+msgstr "일시 중지"
 
 #: ../plugins/system-update/UpdateDelegate.qml:143
 msgid "Install…"
@@ -2632,7 +2628,7 @@ msgstr "설치"
 
 #: ../plugins/system-update/UpdateDelegate.qml:149
 msgid "Open"
-msgstr ""
+msgstr "열기"
 
 #: ../plugins/system-update/UpdateDelegate.qml:228
 msgid "Installing"
@@ -2718,7 +2714,7 @@ msgstr "맞는 장소가 없습니다."
 #. TRANSLATORS: This is a keyword or name for the time-date plugin which is used while searching
 #: ../plugins/time-date/PageComponent.qml:31 ../build/po/settings.js:370
 msgid "Time and Date"
-msgstr "날짜와 시간"
+msgstr "시간 및 날짜"
 
 #: ../plugins/time-date/PageComponent.qml:64
 msgid "Time zone:"
@@ -3014,7 +3010,7 @@ msgstr "이전에 사용한 네트워크"
 
 #: ../plugins/wifi/RemoveBackground.qml:28
 msgid "Clear"
-msgstr "지우기"
+msgstr "초기화"
 
 #: ../plugins/background/Components/AddRemove.qml:52
 msgid "No images selected"
@@ -3079,7 +3075,7 @@ msgstr "메시지를 보낼 때 사용할 심 카드:"
 #. this word must be less than 5 characters
 #: ../plugins/cellular/Components/LabelTextField.qml:51
 msgid "Next"
-msgstr ""
+msgstr "다음"
 
 #: ../plugins/cellular/Components/MultiSim.qml:55
 #: ../plugins/cellular/Components/SingleSim.qml:105

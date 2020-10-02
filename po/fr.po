@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2020-07-22 21:02+0000\n"
+"PO-Revision-Date: 2020-09-06 09:58+0000\n"
 "Last-Translator: Anne Onyme <anneonyme017@netcourrier.com>\n"
 "Language-Team: French <https://translate.ubports.com/projects/ubports/"
 "system-settings/fr/>\n"
@@ -1151,7 +1151,7 @@ msgstr "Le démarrage du point d'accès allumera le Wi-Fi."
 #: ../plugins/security-privacy/LockSecurity.qml:389
 #: ../plugins/security-privacy/SimPin.qml:187
 msgid "Change"
-msgstr "Modifier"
+msgstr "Changer"
 
 #: ../plugins/hotspot/HotspotSetup.qml:267
 msgid "Start"
@@ -1665,7 +1665,7 @@ msgstr "Dernier appel %1"
 
 #: ../plugins/phone/ServiceInfo.qml:119
 msgid "Call"
-msgstr "Appel"
+msgstr "Appeler"
 
 #. TRANSLATORS: %1 is the name of the (network) carrier
 #: ../plugins/phone/Services.qml:36 ../plugins/phone/SingleSim.qml:55
@@ -1732,7 +1732,7 @@ msgstr "Facultatif"
 #: ../plugins/security-privacy/PageComponent.qml:240
 #: ../plugins/printing/printer-sub-pages/Status.qml:72
 msgid "Location"
-msgstr "Emplacement"
+msgstr "Position"
 
 #: ../plugins/printing/AddPrinterDetails.qml:219
 msgid "Driver"

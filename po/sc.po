@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2020-04-23 15:23+0000\n"
-"Last-Translator: Matteo Mandis <mandismatteo@gmail.com>\n"
+"PO-Revision-Date: 2020-09-18 15:59+0000\n"
+"Last-Translator: Adria <adriamartinmor@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports/"
 "system-settings/sc/>\n"
 "Language: sc\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.8\n"
+"X-Generator: Weblate 3.11.3\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
 msgid "System Settings"
@@ -253,7 +253,7 @@ msgstr "Pre-visualizatzione"
 
 #: ../plugins/background/Preview.qml:107
 msgid "Remove image"
-msgstr "Fùlia s'imàgine"
+msgstr "Boga s'imàgine"
 
 #: ../plugins/background/Preview.qml:107
 #: ../plugins/bluetooth/ConfirmPasskeyDialog.qml:49
@@ -738,7 +738,7 @@ msgstr "Sèbera un'ischermu:"
 #: ../plugins/brightness/WifiDisplaysAlert.qml:32
 #, qt-format
 msgid "This device failed to connect to %1."
-msgstr "Custu dispositivu non s'est pòdidu connètere a %1."
+msgstr "Impossìbile connètere custu dispositivu a %1."
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:34
 #, qt-format
@@ -1007,7 +1007,7 @@ msgstr "Su dispositivu immoe no est gestidu"
 
 #: ../plugins/hotspot/Common.qml:42 ../plugins/wifi/Common.qml:44
 msgid "The device could not be readied for configuration"
-msgstr "Non s'est pòdidu preparare su dispositivu pro sa cunfiguratzione"
+msgstr "Impossìbile preparare su dispositivu pro sa cunfiguratzione"
 
 #: ../plugins/hotspot/Common.qml:44 ../plugins/wifi/Common.qml:46
 msgid ""
@@ -1593,7 +1593,7 @@ msgstr "Cuntatos…"
 
 #: ../plugins/phone/CallForwarding.qml:274
 msgid "Please select a phone number"
-msgstr "Seletziona unu nùmeru de telèfonu"
+msgstr "Sèbera unu nùmeru de telèfonu"
 
 #: ../plugins/phone/CallForwarding.qml:283
 msgid "Numbers"
@@ -1601,7 +1601,7 @@ msgstr "Nùmeros"
 
 #: ../plugins/phone/CallForwarding.qml:302
 msgid "Could not forward to this contact"
-msgstr "Non s'est pòdidu deviare a custu cuntatu"
+msgstr "Impossìbile deviare a custu cuntatu"
 
 #: ../plugins/phone/CallForwarding.qml:303
 msgid "Contact not associated with any phone number."
@@ -2941,8 +2941,8 @@ msgstr "Peruna imàgine seletzionada"
 #, qt-format
 msgid "Remove %1 image"
 msgid_plural "Remove %1 images"
-msgstr[0] "Fùlia %1 immàgine"
-msgstr[1] "Fùlia %1 immàgines"
+msgstr[0] "Boga %1 immàgine"
+msgstr[1] "Boga %1 immàgines"
 
 #: ../plugins/background/Components/AddRemove.qml:79
 msgid "Add an image…"
@@ -2950,7 +2950,7 @@ msgstr "Agiunghe un'immàgine…"
 
 #: ../plugins/background/Components/AddRemove.qml:89
 msgid "Remove images…"
-msgstr "Fùlia immàgines…"
+msgstr "Boga immàgines…"
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:36
 msgid "Cellular data"
@@ -3703,7 +3703,7 @@ msgstr "iseta"
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../build/po/settings.js:260
 msgid "call"
-msgstr "mutida"
+msgstr "muti"
 
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
@@ -3976,12 +3976,11 @@ msgstr "Sa crae est isballiada. Torra a proare."
 
 #: ../plugins/security-privacy/securityprivacy.cpp:374
 msgid "Could not set security mode"
-msgstr "No s'est pòdida cunfigurare sa modalidade de seguresa"
+msgstr "Impossìbile cunfigurare sa modalidade de seguresa"
 
 #: ../plugins/security-privacy/securityprivacy.cpp:399
 msgid "Could not set security display hint"
-msgstr ""
-"Non s'est pòdida cunfigurare sa visualizatzione de su cussìgiu de seguresa"
+msgstr "Impossìbile cunfigurare sa visualizatzione de su cussìgiu de seguresa"
 
 #: ../plugins/security-privacy/securityprivacy.cpp:413
 msgid "Authentication token manipulation error"

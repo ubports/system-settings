@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2020-07-16 19:45+0000\n"
-"Last-Translator: pietre <pietre.linux@gmail.com>\n"
+"PO-Revision-Date: 2020-09-05 11:57+0000\n"
+"Last-Translator: Josué <j2g2rp@gmail.com>\n"
 "Language-Team: Spanish <https://translate.ubports.com/projects/ubports/"
 "system-settings/es/>\n"
 "Language: es\n"
@@ -1582,7 +1582,7 @@ msgstr "Contactos…"
 
 #: ../plugins/phone/CallForwarding.qml:274
 msgid "Please select a phone number"
-msgstr "Seleccione un número de teléfono"
+msgstr "Por favor seleccione un número de teléfono"
 
 #: ../plugins/phone/CallForwarding.qml:283
 msgid "Numbers"
