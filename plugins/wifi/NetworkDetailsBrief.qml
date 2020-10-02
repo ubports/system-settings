@@ -53,6 +53,7 @@ ItemPage {
             SettingsListItems.SingleControl {
                 Button {
                     text : i18n.tr("Forget this network")
+                    color: UbuntuColors.red
                     anchors {
                         left: parent.left
                         right: parent.right
@@ -61,7 +62,8 @@ ItemPage {
                     onClicked: {
                         if (DbusHelper.forgetActiveDevice()) {
                             accessPoint.checked = false;
-                            accessPoint.checkedChanged(false)
+                            accessPoint.checkedChanged(false);
+                            pageStack.removePages(root);
                         }
                     }
                 }

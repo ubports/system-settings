@@ -1,3 +1,21 @@
+ubuntu-system-settings (0.4.4~0ubports0) xenial; urgency=medium
+
+  * Changes for Mir 1.1 and Unity8-next
+
+ -- Dalton Durst <dalton@ubports.com>  Tue, 11 Jun 2019 11:14:14 -0500
+
+ubuntu-system-settings (0.4.3~0ubports1) xenial; urgency=medium
+
+  * Fix image updates not showing correct date (ubuntu-touch #1139)
+
+ -- Florian Leeber <florian@ubports.com>  Tue, 28 May 2019 23:49:12 +0200
+
+ubuntu-system-settings (0.4.3~0ubports0) xenial; urgency=medium
+
+  * Add settings for on-screen keyboard themes
+
+ -- Kugi Eusebio <kugiigi@users.noreply.github.com>  Tue, 18 Dec 2018 11:58:28 -0600
+
 ubuntu-system-settings (0.4.2~0ubports3) xenial; urgency=medium
 
   * Replace dependency on ubuntu-wallpapers with ubports-wallpapers

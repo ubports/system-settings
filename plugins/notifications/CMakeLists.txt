@@ -29,8 +29,7 @@ add_definitions(-DQT_NO_KEYWORDS)
 include_directories(${GIO_INCLUDE_DIRS})
 include_directories(${QTGSETTINGS_INCLUDE_DIRS})
 
-target_link_libraries(UbuntuNotificationsPanel ${GIO_LDFLAGS} ${QTGSETTINGS_LDFLAGS})
-qt5_use_modules(UbuntuNotificationsPanel Qml Quick)
+target_link_libraries(UbuntuNotificationsPanel ${GIO_LDFLAGS} ${QTGSETTINGS_LDFLAGS} Qt5::Qml Qt5::Quick)
 
 set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Ubuntu/SystemSettings/Notifications)
 install(TARGETS UbuntuNotificationsPanel DESTINATION ${PLUG_DIR})

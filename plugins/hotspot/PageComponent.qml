@@ -156,14 +156,15 @@ ItemPage {
             text: i18n.tr("In order to create a hotspot, you need to turn Wi-Fi on.")
 
             Button {
-                text: i18n.tr("Cancel")
-                onClicked: PopupUtils.close(dialogue)
+                objectName: "confirmEnable"
+                text: i18n.tr("Turn on Wi-Fi")
+                color: theme.palette.selected.focus
+                onClicked: enableWifiAction.trigger()
             }
 
             Button {
-                objectName: "confirmEnable"
-                text: i18n.tr("Turn on Wi-Fi")
-                onClicked: enableWifiAction.trigger()
+                text: i18n.tr("Cancel")
+                onClicked: PopupUtils.close(dialogue)
             }
         }
     }

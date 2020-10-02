@@ -74,6 +74,7 @@ ItemPage {
 
                 TextInput {
                     id: passwordField
+                    color: theme.palette.normal.foregroundText
                     readOnly: true
                     text: networkDetails.password
                     echoMode: passwordVisibleSwitch.checked ?
@@ -96,6 +97,7 @@ ItemPage {
                 Button {
                     objectName: "forgetNetwork"
                     text : i18n.tr("Forget this network")
+                    color: UbuntuColors.red
                     anchors {
                         left: parent.left
                         right: parent.right

@@ -15,8 +15,8 @@
  */
 
 import QtQuick 2.4
+import SystemSettings.ListItems 1.0 as SettingsListItems
 import Ubuntu.Components 1.3
-import Ubuntu.Components.ListItems 1.3 as ListItem
 
 Item {
     property alias text: label.text
@@ -35,7 +35,7 @@ Item {
             bottom: parent.bottom
         }
 
-        ListItem.ThinDivider {
+        SettingsListItems.ThinDivider {
             anchors {
                 top: parent.top
             }

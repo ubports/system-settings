@@ -392,6 +392,35 @@ private slots:
         QCOMPARE(update1->state(), Update::State::StateInstallFinished);
         QCOMPARE(update1->downloadId(), QString(""));
     }
+
+    //Test if the updated_at information is set after install only for click updates
+    void testClickUpdatedAtSetLate() {
+        auto update = createUpdate("id", 42);
+        update->setKind(Update::Kind::KindClick);
+        m_db->add(update);
+        m_model->setDownloaded(update->identifier(), update->revision());
+        auto update1 = m_db->get(update->identifier(), update->revision());
+        QCOMPARE(update1->updatedAt(), QDateTime());
+        m_model->setInstalled(update->identifier(), update->revision());
+        update1 = m_db->get(update->identifier(), update->revision());
+        QVERIFY(update1->updatedAt() != QDateTime());
+    }
+
+    //Test if the updated_at information is set after download already for image updates
+    void testImageUpdatedAtSetEarly()
+    {
+        auto update = createUpdate("id", 42);
+        update->setKind(Update::Kind::KindImage);
+        m_db->add(update);
+        m_model->setDownloaded(update->identifier(), update->revision());
+        auto update1 = m_db->get(update->identifier(), update->revision());
+        QDateTime firstDateTime = update1->updatedAt();
+        QVERIFY(firstDateTime != QDateTime());
+        m_model->setInstalled(update->identifier(), update->revision());
+        update1 = m_db->get(update->identifier(), update->revision());
+        QCOMPARE(update1->updatedAt(), firstDateTime);
+    }
+
     void testSetError()
     {
         auto update = createUpdate("id", 42);

@@ -34,12 +34,7 @@ ItemPage {
         id: appsVibrationsNotifyList
         objectName: "appsVibrationsNotifyList"
 
-        anchors {
-            left: parent.left
-            right: parent.right
-            top: parent.top
-            bottom: parent.bottom
-        }
+        anchors.fill: parent
 
         clip: true
         contentHeight: contentItem.childrenRect.height
@@ -57,6 +52,7 @@ ItemPage {
                 }
             }
 
+            //TODO: remove this and use a checkbox - see sound settings for example
             ListItem {
                 height: layout.height + (divider.visible ? divider.height : 0)
                 SlotsLayout {
@@ -85,11 +81,8 @@ ItemPage {
                 }
             }
  
-            ListItem {
-                ListItemLayout {
-                    title.text: i18n.tr("Apps that notify with vibrations:")
-                    title.color: theme.palette.normal.backgroundSecondaryText
-                }
+              SettingsItemTitle {
+                    text: i18n.tr("Apps that notify with vibrations:")
             }
         }
 

@@ -10,7 +10,7 @@ set(PANEL_SOURCES
 )
 
 add_library(UbuntuLauncherPanel MODULE ${PANEL_SOURCES} ${QML_SOURCES})
-qt5_use_modules(UbuntuLauncherPanel Qml Widgets)
+target_link_libraries(UbuntuLauncherPanel Qt5::Qml Qt5::Widgets)
 
 set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Ubuntu/SystemSettings/Launcher)
 install(TARGETS UbuntuLauncherPanel DESTINATION ${PLUG_DIR})

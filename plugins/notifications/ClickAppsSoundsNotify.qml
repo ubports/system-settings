@@ -34,12 +34,7 @@ ItemPage {
         id: appsSoundsNotifyList
         objectName: "appsSoundsNotifyList"
 
-        anchors {
-            left: parent.left
-            right: parent.right
-            top: parent.top
-            bottom: parent.bottom
-        }
+        anchors.fill: parent
 
         clip: true
         contentHeight: contentItem.childrenRect.height

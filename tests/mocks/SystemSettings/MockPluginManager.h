@@ -51,7 +51,7 @@ Q_SIGNALS:
     void filterChanged();
 
 private:
-    QString m_filter = QString::null;
+    QString m_filter = QString();
     QMap<QString, MockItemModel*> m_models;
     QMap<QString, MockItem*> m_plugins;
 };

@@ -18,10 +18,13 @@
  * with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
+//TODO: Go through all different ListItems and replace the deprecated ones
+
 import GSettings 1.0
 import QtQuick 2.4
 import SystemSettings 1.0
 import SystemSettings.ListItems 1.0 as SettingsListItems
+import Ubuntu.Components.ListItems 1.3 as ListItem
 import Ubuntu.Components 1.3
 import Ubuntu.Components.Popups 1.3
 import Ubuntu.SystemSettings.Reset 1.0
@@ -66,82 +69,53 @@ ItemPage {
             anchors.left: parent.left
             anchors.right: parent.right
 
-            Label {
-                anchors {
-                    left: parent.left
-                    right: parent.right
-                    margins: units.gu(2)
-                }
+            SettingsListItems.StandardProgression {
+                showDivider: false
+                id: resetLauncherHomeButton
+                objectName: "resetLauncherHomeButton"
                 text: i18n.tr("Reset Launcher")
-                color: UbuntuColors.orange
-                height: units.gu(6)
-                verticalAlignment: Text.AlignVCenter
-            }
-
-            SettingsListItems.Standard {
-
-                Button {
-                    id: resetLauncherHomeButton
-                    objectName: "resetLauncher"
-                    text: i18n.tr("Reset Launcher")
-                    onClicked: {
-                        buttonActions.source = "ResetLauncherHome.qml";
-                        root.popup = PopupUtils.open(buttonActions.item);
-                    }
+                onClicked: {
+                    buttonActions.source = "ResetLauncherHome.qml";
+                    root.popup = PopupUtils.open(buttonActions.item);
                 }
             }
 
-            Label {
-                anchors {
-                    left: parent.left
-                    right: parent.right
-                    margins: units.gu(2)
-                }
+            ListItem.Caption {
+                text: i18n.tr("The Launcher will be returned to its original contents.")
+            }
+
+             SettingsListItems.StandardProgression {
+                 visible: showAllUI
+                 showDivider: false
+                 id: resetAllSettingsButton
+                 objectName: "resetAllSettingsButton"
+                 text: i18n.tr("Reset all system settings…")
+                 onClicked: {
+                     buttonActions.source = "ResetAllSettings.qml";
+                     root.popup = PopupUtils.open(buttonActions.item);
+                 }
+             }
+
+            ListItem.Caption {
                 visible: showAllUI
-                text: i18n.tr("Reset all system settings…")
-                color: UbuntuColors.orange
-                height: units.gu(6)
-                verticalAlignment: Text.AlignVCenter
+                text: i18n.tr("The contents and layout of the launcher, and the filters in the home screen will be returned to their original settings.")
             }
 
-            SettingsListItems.Standard {
-                visible: showAllUI
-
-                Button {
-                    id: resetAllSettingsButton
-                    text: i18n.tr("Reset all system settings…")
-                    onClicked: {
-                        buttonActions.source = "ResetAllSettings.qml";
-                        root.popup = PopupUtils.open(buttonActions.item);
-                    }
-                }
-            }
-
-            Label {
-                anchors {
-                    left: parent.left
-                    right: parent.right
-                    margins: units.gu(2)
-                }
-                text: i18n.tr("Erase & Reset All")
-                color: UbuntuColors.orange
-                height: units.gu(6)
-                verticalAlignment: Text.AlignVCenter
-            }
-
-            SettingsListItems.Standard {
-
-                Button {
-                    id: eraseEverythingButton
-                    objectName: "factoryReset"
-
-                    text: i18n.tr("Erase & Reset All")
+            SettingsListItems.StandardProgression {
+                 showDivider: false
+                 id: eraseEverythingButton
+                 objectName: "factoryReset"
+                 text: i18n.tr("Erase & Reset All")
                     onClicked: {
                         buttonActions.source = "EraseEverything.qml";
                         root.popup = PopupUtils.open(buttonActions.item);
                     }
-                }
+             }
+
+            ListItem.Caption {
+                text: i18n.tr("All documents, saved games, settings, and other items will be permanently deleted from this device.")
             }
+
         }
     }
 }

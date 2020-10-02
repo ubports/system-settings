@@ -2,8 +2,7 @@
  * This file is part of system-settings
  *
  * Copyright (C) 2015-2016 Canonical Ltd.
- *
- * Contact: Ken VanDine <ken.vandine@canonical.com>
+ * Copyright (C) 2020 Ubports Foundation <developers@ubports.com>
  *
  * This program is free software: you can redistribute it and/or modify it
  * under the terms of the GNU General Public License version 3, as published
@@ -42,25 +41,31 @@ Column {
         visible: repeater.count > 0
     }
 
-    Column {
-        id: col
+    AdaptiveContainer {
+        id: container
         anchors {
             left: parent.left
             right: parent.right
         }
+        layout: apl.columns > 1 ? "column" : "grid"
+        gridItemWidth: units.gu(12)
+        gridColumnSpacing: units.gu(1)
+        gridRowSpacing: units.gu(3)
+
+        Behavior on y { UbuntuNumberAnimation {}}
+        Behavior on height { UbuntuNumberAnimation {}}
 
         Repeater {
             id: repeater
 
+            visible: false // AdaptiveContainer must ignore the Repeater
             model: pluginManager.itemModel(category)
 
             delegate: Loader {
                 id: loader
-                anchors {
-                    left: col.left
-                    right: col.right
-                }
+                property string layout: ""
                 sourceComponent: model.item.entryComponent
+                visible: model.item.visible
                 active: model.item.visible
                 Connections {
                     ignoreUnknownSignals: true
@@ -85,7 +90,22 @@ Column {
                     value: "transparent"
                     when: currentPlugin != model.item.baseName || apl.columns == 1
                 }
+                Binding {
+                    target: loader.item
+                    property: "layout"
+                    value: loader.layout
+                }
             }
         }
+    }
+
+    ListItem {
+        divider {
+            visible: true
+            colorFrom: "#EEEEEE"
+            colorTo: "#EEEEEE"
+        }
+        visible: header.visible && container.layout == "grid"
+        height: divider.height
     }
 }

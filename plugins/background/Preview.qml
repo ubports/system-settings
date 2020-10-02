@@ -20,8 +20,8 @@
 
 import QtQuick 2.4
 import SystemSettings 1.0
+import SystemSettings.ListItems 1.0 as SettingsListItems
 import Ubuntu.Components 1.3
-import Ubuntu.Components.ListItems 1.3 as ListItem
 
 ItemPage {
     id: preview
@@ -82,22 +82,24 @@ ItemPage {
         fillMode: Image.PreserveAspectCrop
     }
 
-    ListItem.ThinDivider {
+    SettingsListItems.ThinDivider {
         id: divider
         anchors.bottom: previewButtons.top
         anchors.bottomMargin: units.gu(2)
     }
 
-    ListItem.Base {
+    ListItem {
         id: previewButtons
         anchors {
             left: parent.left
             right: parent.right
             bottom: parent.bottom
         }
-        showDivider: false
+        divider.visible: false
+        height: buttonRow.height + units.gu(2)
 
         Row {
+            id: buttonRow
             anchors.horizontalCenter: parent.horizontalCenter
             spacing: units.gu(2)
 

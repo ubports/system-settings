@@ -99,15 +99,15 @@ class MockSingleDownload : public QObject
     void errorChanged();
 
 private:
-    QString m_errorMessage = QString::null;
+    QString m_errorMessage = QString();
     bool m_downloading = false;
     bool m_completed = false;
     int m_progress = 0;
     MockMetadata * m_metadata;
     QVariantMap m_headers;
     bool m_autostart = false;
-    QString m_hash = QString::null;
-    QString m_algorithm = QString::null;
+    QString m_hash = QString();
+    QString m_algorithm = QString();
 };
 
 #endif // MOCK_SINGLEDOWNLOAD_H

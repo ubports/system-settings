@@ -133,6 +133,7 @@ ItemPage {
         }
     }
 
+    //Button to stop audio preview, ie. ringtone preview
     ListItem.SingleControl {
         id: stopItem
         anchors.bottom: parent.bottom
@@ -151,7 +152,7 @@ ItemPage {
             Rectangle {
                 anchors.fill: parent
                 radius: width * 0.5
-                border.color: UbuntuColors.warmGrey
+                border.color: theme.palette.normal.raisedText
                 border.width: 1
             }
 
@@ -163,7 +164,7 @@ ItemPage {
                     verticalCenter: parent.verticalCenter
                     horizontalCenter: parent.horizontalCenter
                 }
-                color: UbuntuColors.warmGrey
+                color: theme.palette.normal.raisedText
             }
         }
         Rectangle {
@@ -203,7 +204,9 @@ ItemPage {
     Page {
         id: picker
         visible: false
-        title: i18n.tr("Choose from")
+        header: PageHeader {
+            title: i18n.tr("Choose from")
+        }
 
         ContentPeerPicker {
             id: peerPicker
