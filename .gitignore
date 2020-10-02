@@ -18,8 +18,13 @@ system-settings.pro.user
 /debian/tmp/
 /debian/ubuntu-system-settings/
 /debian/ubuntu-system-settings-example/
+/debian/ubuntu-system-settings-autopilot/
 .cproject
 .project
 .settings
 __pycache__
 *.gch
+tests/autopilot/ubuntu_system_settings.egg-info/
+obj-arm-linux-gnueabihf/
+debian/debhelper-build-stamp
+*.substvars
