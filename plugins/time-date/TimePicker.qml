@@ -45,7 +45,6 @@ Dialog {
 
     Label {
         text: i18n.tr("Time")
-        anchors.horizontalCenter: parent.horizontalCenter
     }
     DatePicker {
         id: timePicker
@@ -55,7 +54,6 @@ Dialog {
 
     Label {
         text: i18n.tr("Date")
-        anchors.horizontalCenter: parent.horizontalCenter
     }
     DatePicker {
         id: datePicker
