@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
 Build-Depends: dbus-test-runner,
                debhelper (>= 9),
-               dh-migrations,
+               dh-migrations:all,
                dh-python,
                python3-setuptools,
                python3-all:any,
