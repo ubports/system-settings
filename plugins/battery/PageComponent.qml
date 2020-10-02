@@ -296,6 +296,14 @@ ItemPage {
 
             SettingsListItems.StandardProgression {
                 text: i18n.tr("Display brightness")
+
+                Icon {
+                    width: units.gu(2.5)
+                    height: width
+                    name: "display-brightness-symbolic"
+                    SlotsLayout.position: SlotsLayout.First
+                }
+
                 onClicked: {
                     var brightnessPlugin = pluginManager.getByName("brightness");
                     if (brightnessPlugin) {
