@@ -2,7 +2,7 @@ include_directories(${GLIB_INCLUDE_DIRS} ${GEONAMES_INCLUDE_DIRS})
 
 add_definitions(-DQT_NO_KEYWORDS)
 
-set(QML_SOURCES ChooseTimeZone.qml PageComponent.qml Scroller.qml TimePicker.qml)
+set(QML_SOURCES ChooseTimeZone.qml PageComponent.qml TimePicker.qml)
 
 add_library(UbuntuTimeDatePanel MODULE plugin.h
   timedate.h
