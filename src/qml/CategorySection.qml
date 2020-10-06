@@ -101,9 +101,7 @@ Column {
 
     ListItem {
         divider {
-            visible: true
-            colorFrom: "#EEEEEE"
-            colorTo: "#EEEEEE"
+            visible: false
         }
         visible: header.visible && container.layout == "grid"
         height: divider.height
