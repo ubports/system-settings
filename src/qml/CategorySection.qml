@@ -99,11 +99,4 @@ Column {
         }
     }
 
-    ListItem {
-        divider {
-            visible: false
-        }
-        visible: header.visible && container.layout == "grid"
-        height: divider.height
-    }
 }
