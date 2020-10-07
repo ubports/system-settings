@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2020-02-11 14:21+0000\n"
-"Last-Translator: Rodrigo Benedito <rodrigojob@yahoo.com.br>\n"
+"PO-Revision-Date: 2020-08-02 19:22+0000\n"
+"Last-Translator: ffsi <fabioihle@hotmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.ubports.com/projects/"
 "ubports/system-settings/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.8\n"
+"X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:42+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -1543,15 +1543,15 @@ msgstr "Janelas"
 #: ../plugins/phone/CallForwarding.qml:45 ../plugins/phone/MultiSim.qml:54
 #: ../plugins/phone/NoSims.qml:28 ../plugins/phone/SingleSim.qml:42
 msgid "Call forwarding"
-msgstr "Encaminhamento de chamadas"
+msgstr "Encaminhamento de chamada"
 
 #: ../plugins/phone/CallForwarding.qml:131
 msgid "Forward every incoming call"
-msgstr "Reencaminhar cada chamada recebida"
+msgstr "Encaminhar todas as chamadas recebidas"
 
 #: ../plugins/phone/CallForwarding.qml:146
 msgid "Redirects all phone calls to another number."
-msgstr "Redireciona todos os telefonemas para outro número."
+msgstr "Redireciona todas as chamadas para outro número."
 
 #: ../plugins/phone/CallForwarding.qml:158
 msgid "Call forwarding status can’t be checked "
@@ -1579,7 +1579,7 @@ msgstr "Contatos…"
 
 #: ../plugins/phone/CallForwarding.qml:274
 msgid "Please select a phone number"
-msgstr "Selecione um número de telefone"
+msgstr "Por favor selecione um número de telefone"
 
 #: ../plugins/phone/CallForwarding.qml:283
 msgid "Numbers"
@@ -1632,7 +1632,7 @@ msgid ""
 "Lets you answer or start a new call while on another call, and switch "
 "between them"
 msgstr ""
-"Permite responder ou iniciar uma nova chamada enquanto estiver em outra e "
+"Permite atender ou iniciar uma nova chamada enquanto estiver em outra, e "
 "alternar entre elas"
 
 #: ../plugins/phone/MultiSim.qml:67 ../plugins/phone/NoSims.qml:42
@@ -1657,7 +1657,7 @@ msgstr "Chamar"
 #: ../plugins/phone/Services.qml:36 ../plugins/phone/SingleSim.qml:55
 #, qt-format
 msgid "%1 Services"
-msgstr "Serviços da %1"
+msgstr "Serviços %1"
 
 #: ../plugins/phone/SingleSim.qml:29
 msgid "SIM"
@@ -2274,7 +2274,7 @@ msgstr "Toque:"
 
 #: ../plugins/sound/PageComponent.qml:141
 msgid "High volume can damage your hearing."
-msgstr "Volume alto pode causar danos à sua audição."
+msgstr "Um volume alto pode prejudicar sua audição."
 
 #: ../plugins/sound/PageComponent.qml:145
 msgid "Phone calls:"
@@ -2624,7 +2624,7 @@ msgstr "Nenhum lugar correspondente"
 #. TRANSLATORS: This is a keyword or name for the time-date plugin which is used while searching
 #: ../plugins/time-date/PageComponent.qml:31 ../build/po/settings.js:370
 msgid "Time and Date"
-msgstr "Data e hora"
+msgstr "Hora e Data"
 
 #: ../plugins/time-date/PageComponent.qml:64
 msgid "Time zone:"
@@ -3055,7 +3055,7 @@ msgstr "Ociosa"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:32
 msgid "Aborted"
-msgstr "Interropido"
+msgstr "Interrompido"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:34
 msgid "Active"

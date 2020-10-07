@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2020-04-12 09:23+0000\n"
+"PO-Revision-Date: 2020-09-15 17:43+0000\n"
 "Last-Translator: Neutrum N <neutro@tutanota.com>\n"
 "Language-Team: Galician <https://translate.ubports.com/projects/ubports/"
 "system-settings/gl/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.8\n"
+"X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:40+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -1545,7 +1545,7 @@ msgstr "Redireccionar chamadas"
 
 #: ../plugins/phone/CallForwarding.qml:131
 msgid "Forward every incoming call"
-msgstr "Redireccionar chamadas entrantes"
+msgstr "Redireccionar todas as chamadas entrantes"
 
 #: ../plugins/phone/CallForwarding.qml:146
 msgid "Redirects all phone calls to another number."
@@ -1569,7 +1569,7 @@ msgstr "Non contesto"
 
 #: ../plugins/phone/CallForwarding.qml:197
 msgid "My phone is unreachable"
-msgstr "O meu teléfono está inaccesíbel"
+msgstr "O meu teléfono está inalcanzábel"
 
 #: ../plugins/phone/CallForwarding.qml:227
 msgid "Contacts…"
@@ -1630,8 +1630,8 @@ msgid ""
 "Lets you answer or start a new call while on another call, and switch "
 "between them"
 msgstr ""
-"Permite contestar ou facer unha chamada cando está atendendo outra, tamén "
-"permite alternar entre elas."
+"Permítelle contestar ou iniciar unha chamada nova mentres está noutra "
+"chamada, e alternar entre elas"
 
 #: ../plugins/phone/MultiSim.qml:67 ../plugins/phone/NoSims.qml:42
 msgid "Services"

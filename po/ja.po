@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-11-10 18:36+0000\n"
+"PO-Revision-Date: 2020-09-26 12:50+0000\n"
 "Last-Translator: M.Sugahara <equaaqua@hotmail.com>\n"
 "Language-Team: Japanese <https://translate.ubports.com/projects/ubports/"
 "system-settings/ja/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.8\n"
+"X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:40+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -1628,7 +1628,7 @@ msgstr ""
 
 #: ../plugins/phone/CallForwarding.qml:382
 msgid "All calls"
-msgstr ""
+msgstr "すべての通話"
 
 #: ../plugins/phone/CallForwarding.qml:384
 #, fuzzy
@@ -1648,9 +1648,8 @@ msgid "Forward to"
 msgstr "転送先"
 
 #: ../plugins/phone/CallForwardItem.qml:171
-#, fuzzy
 msgid "Enter a number"
-msgstr "電話番号"
+msgstr "番号を入力"
 
 #: ../plugins/phone/CallForwardItem.qml:218
 msgid "Call forwarding can’t be changed right now."
@@ -1660,7 +1659,7 @@ msgstr ""
 #: ../plugins/phone/MultiSim.qml:42 ../plugins/phone/NoSims.qml:34
 #: ../plugins/phone/SingleSim.qml:34
 msgid "Call waiting"
-msgstr "通話中着信"
+msgstr "キャッチホン"
 
 #: ../plugins/phone/CallWaiting.qml:101
 msgid ""
@@ -1690,7 +1689,7 @@ msgstr "発信"
 #: ../plugins/phone/Services.qml:36 ../plugins/phone/SingleSim.qml:55
 #, qt-format
 msgid "%1 Services"
-msgstr "サービス: %1"
+msgstr "キャリア %1"
 
 #: ../plugins/phone/SingleSim.qml:29
 msgid "SIM"

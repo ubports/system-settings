@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2019-10-30 02:47+0000\n"
+"PO-Revision-Date: 2020-09-05 14:38+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://translate.ubports.com/projects/"
 "ubports/system-settings/nb/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.8\n"
+"X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:41+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -1545,11 +1545,11 @@ msgstr "Viderekobling av anrop"
 
 #: ../plugins/phone/CallForwarding.qml:131
 msgid "Forward every incoming call"
-msgstr "Viderekoble alle innkommende anrop"
+msgstr "Videresend alle innkommende samtaler"
 
 #: ../plugins/phone/CallForwarding.qml:146
 msgid "Redirects all phone calls to another number."
-msgstr "Videresender alle telefonsamtaler til at annet nummer."
+msgstr "Videresender alle telefonsamtaler til et annet nummer."
 
 #: ../plugins/phone/CallForwarding.qml:158
 msgid "Call forwarding status can’t be checked "
@@ -1557,7 +1557,7 @@ msgstr "Samtaleviderekoblingsstatus kan ikke sjekkes. "
 
 #: ../plugins/phone/CallForwarding.qml:166
 msgid "Forward incoming calls when:"
-msgstr "Viderekoble anrop når:"
+msgstr "Videresend innkommende samtaler når:"
 
 #: ../plugins/phone/CallForwarding.qml:175
 msgid "I’m on another call"
@@ -1569,7 +1569,7 @@ msgstr "Jeg svarer ikke"
 
 #: ../plugins/phone/CallForwarding.qml:197
 msgid "My phone is unreachable"
-msgstr "Min telefon er utilgjengelig"
+msgstr "Telefonen min ikke kan nås"
 
 #: ../plugins/phone/CallForwarding.qml:227
 msgid "Contacts…"
@@ -1577,9 +1577,10 @@ msgstr "Kontakter…"
 
 #: ../plugins/phone/CallForwarding.qml:274
 msgid "Please select a phone number"
-msgstr "Velg et nummer"
+msgstr "Velg et telefonnummer"
 
 #: ../plugins/phone/CallForwarding.qml:283
+#, fuzzy
 msgid "Numbers"
 msgstr "Nummer"
 
@@ -1589,7 +1590,7 @@ msgstr "Kunne ikke videresende til denne kontakten"
 
 #: ../plugins/phone/CallForwarding.qml:303
 msgid "Contact not associated with any phone number."
-msgstr "Kontakten er ikke tilknyttet noe telefonnummer."
+msgstr "Kontakt mangler tilknyttet telefonnummer"
 
 #: ../plugins/phone/CallForwarding.qml:382
 msgid "All calls"
@@ -1603,7 +1604,7 @@ msgstr "Noen anrop"
 #: ../plugins/security-privacy/PageComponent.qml:180
 #: ../plugins/security-privacy/PageComponent.qml:248
 msgid "Off"
-msgstr "Av"
+msgstr "Avslått"
 
 #. TRANSLATORS: This string will be truncated on smaller displays.
 #: ../plugins/phone/CallForwardItem.qml:157
@@ -1630,7 +1631,7 @@ msgid ""
 "Lets you answer or start a new call while on another call, and switch "
 "between them"
 msgstr ""
-"Lar deg besvare eller starte et nytt anrop mens du er i en samtale, og bytte "
+"Lar deg svare eller starte en ny samtale mens du er i en annen, og veksle "
 "mellom dem"
 
 #: ../plugins/phone/MultiSim.qml:67 ../plugins/phone/NoSims.qml:42
@@ -1640,7 +1641,7 @@ msgstr "Tjenester"
 #: ../plugins/phone/PageComponent.qml:102
 #: ../plugins/sound/PageComponent.qml:194
 msgid "Dialpad tones"
-msgstr "Nummertast-lyder"
+msgstr "Toneknappvalg"
 
 #: ../plugins/phone/ServiceInfo.qml:109
 #, qt-format
@@ -1649,7 +1650,7 @@ msgstr "Sist ringt %1"
 
 #: ../plugins/phone/ServiceInfo.qml:119
 msgid "Call"
-msgstr "Ring"
+msgstr "Anrop"
 
 #. TRANSLATORS: %1 is the name of the (network) carrier
 #: ../plugins/phone/Services.qml:36 ../plugins/phone/SingleSim.qml:55
@@ -1659,7 +1660,7 @@ msgstr "%1-tjenester"
 
 #: ../plugins/phone/SingleSim.qml:29
 msgid "SIM"
-msgstr "SIM-kort"
+msgstr "SIM"
 
 #: ../plugins/printing/AddPrinter.qml:34
 #: ../plugins/printing/AddPrinterDetails.qml:54
@@ -2116,7 +2117,7 @@ msgstr "SIM-kortets PIN-kode"
 #: ../plugins/security-privacy/PageComponent.qml:176
 #: ../plugins/security-privacy/PageComponent.qml:248
 msgid "On"
-msgstr "På"
+msgstr "Påslått"
 
 #: ../plugins/security-privacy/PageComponent.qml:187
 msgid "Encryption"
