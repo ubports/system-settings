@@ -95,7 +95,6 @@ ItemPage {
                 text: i18n.tr("Reinstall all apps")
                 onClicked: check()
                 color: theme.palette.normal.positive
-                strokeColor: "transparent"
             }
 
             GlobalUpdateControls {
