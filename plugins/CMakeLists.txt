@@ -1,6 +1,7 @@
 if(ANDR_PROP_FOUND)
     add_subdirectory(about)
     add_subdirectory(brightness)
+    add_subdirectory(nfc)
 endif()
 #add_subdirectory(accessibility)
 add_subdirectory(background)

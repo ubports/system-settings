@@ -1,0 +1,20 @@
+{
+    "icon": "nfc",
+    "name": "NFC",
+    "translations": "ubuntu-system-settings",
+    "category": "network",
+    "priority": 5,
+    "form-factors": [
+        "phone",
+        "tablet"
+    ],
+    "keywords": [
+        "nfc",
+        "near",
+        "field",
+        "communication"
+    ],
+    "has-dynamic-keywords": false,
+    "has-dynamic-visibility": false,
+    "page-component": "PageComponent.qml"
+}
