@@ -18,12 +18,13 @@
  */
 
 import GSettings 1.0
-import QtQuick 2.4
+import QtQuick 2.9
 import QtSystemInfo 5.0
 import SystemSettings 1.0
 import SystemSettings.ListItems 1.0 as SettingsListItems
 import Ubuntu.Components 1.3
 import Ubuntu.SystemSettings.StorageAbout 1.0
+import QtQuick.Layouts 1.3
 
 ItemPage {
     id: storagePage
@@ -227,9 +228,45 @@ ItemPage {
                 }
             }
 
-            Binding {
-                target: valueSelect
-                property: 'selectedIndex'
+                    ListItem {
+                        height: rowL.height + (divider.visible ? divider.height : 0) + units.gu(1)
+                        divider.visible: false
+                        RowLayout {
+                            id: rowL
+                            width: parent.width - units.gu(4)
+                            anchors.horizontalCenter: parent.horizontalCenter
+                            anchors.top: parent.top
+                            spacing: 0
+                            Repeater {
+                                id: repeater
+                                model: [
+                                {text: i18n.tr("Installed"), color: "#f89b0f"},
+                                {text: i18n.tr("Config"), color: "#0e8cba"},
+                                {text: i18n.tr("Data"), color: "#198400"},
+                                {text: i18n.tr("Cache"), color: "#ec2259"}
+                                ]
+                                Label {
+                                    Layout.fillWidth: true
+                                    text: modelData.text
+                                    textSize: Label.Small
+                                    color: theme.palette.normal.backgroundSecondaryText
+                                    horizontalAlignment: Text.AlignHCenter
+                                    Layout.preferredHeight: contentHeight + underline.height + units.gu(0.5)
+                                    Rectangle {
+                                        id: underline
+                                        color: modelData.color
+                                        width: parent.width
+                                        height: units.gu(0.75)
+                                        anchors.bottom: parent.bottom
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    Binding {
+                        target: valueSelect
+                        property: 'selectedIndex'
                 value: (backendInfo.sortRole === ClickRoles.DisplayNameRole) ?
                         0 :
                         1
@@ -246,12 +283,11 @@ ItemPage {
                 model: backendInfo.clickList
                 delegate: ListItem {
                     objectName: "appItem" + displayName
-                    height: appItemLayout.height + (divider.visible ? divider.height : 0)
+                            height: appItemLayout.height + appStorageBar.height + (divider.visible ? divider.height : 0)
 
                     ListItemLayout {
                         id: appItemLayout
                         title.text: displayName
-                                subtitle.text: "Cache: " + Utilities.formatSize(cacheSize) + "\tConfig: " + Utilities.formatSize(configSize)  + "\tData: " + Utilities.formatSize(dataSize)
                         height: units.gu(6)
 
                         IconWithFallback {
@@ -264,13 +300,25 @@ ItemPage {
                             SlotsLayout.position: SlotsLayout.Last
                             horizontalAlignment: Text.AlignRight
                             text: installedSize ?
-                                    Utilities.formatSize(installedSize) :
-                                    i18n.tr("N/A")
+                                            Utilities.formatSize(appTotalSize) :
+                                            i18n.tr("N/A")
+                                }
+                            }
+                            StorageBar {
+                                id: appStorageBar
+                                anchors {
+                                    top: appItemLayout.bottom
+                                }
+                                height: units.gu(2)
+                                barHeight: units.gu(1)
+                                model: ["#f89b0f", "#0e8cba", "#198400", "#ec2259"]
+                                segments: [installedSize, configSize, dataSize, cacheSize]
+                                totalBar: appTotalSize
+                                ready: true
+                            }
                         }
                     }
                 }
-            }
-        }
     }
         }
     }
