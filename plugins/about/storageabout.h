@@ -70,8 +70,36 @@ class StorageAbout : public QObject
                READ getPicturesSize
                NOTIFY sizeReady)
 
+    Q_PROPERTY(quint64 documentsSize
+               READ getDocumentsSize
+               NOTIFY sizeReady)
+
+    Q_PROPERTY(quint64 downloadsSize
+               READ getDownloadsSize
+               NOTIFY sizeReady)
+
     Q_PROPERTY(quint64 homeSize
                READ getHomeSize
+               NOTIFY sizeReady)
+
+    Q_PROPERTY(quint64 anboxSize
+               READ getAnboxSize
+               NOTIFY sizeReady)
+
+    Q_PROPERTY(quint64 libertineSize
+               READ getLibertineSize
+               NOTIFY sizeReady)
+
+    Q_PROPERTY(quint64 appCacheSize
+               READ getAppCacheSize
+               NOTIFY sizeReady)
+
+    Q_PROPERTY(quint64 appConfigSize
+               READ getAppConfigSize
+               NOTIFY sizeReady)
+
+    Q_PROPERTY(quint64 appDataSize
+               READ getAppDataSize
                NOTIFY sizeReady)
 
     Q_PROPERTY(ClickModel::Roles sortRole
@@ -109,7 +137,14 @@ public:
     quint64 getMoviesSize();
     quint64 getAudioSize();
     quint64 getPicturesSize();
+    quint64 getDocumentsSize();
+    quint64 getDownloadsSize();
     quint64 getHomeSize();
+    quint64 getAnboxSize();
+    quint64 getLibertineSize();
+    quint64 getAppCacheSize();
+    quint64 getAppConfigSize();
+    quint64 getAppDataSize();
     Q_INVOKABLE void populateSizes();
     QStringList getMountedVolumes();
     Q_INVOKABLE QString getDevicePath (const QString mount_point) const;
@@ -136,8 +171,15 @@ private:
     quint64 m_moviesSize;
     quint64 m_audioSize;
     quint64 m_picturesSize;
+    quint64 m_documentsSize;
+    quint64 m_downloadsSize;
     quint64 m_otherSize;
     quint64 m_homeSize;
+    quint64 m_anboxSize;
+    quint64 m_libertineSize;
+    quint64 m_appCacheSize;
+    quint64 m_appConfigSize;
+    quint64 m_appDataSize;
 
     QMap<QString, QString> m_mounts;
 
