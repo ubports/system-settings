@@ -30,6 +30,7 @@
 #include <QJsonArray>
 #include <QJsonDocument>
 #include <QJsonObject>
+#include <QDirIterator>
 
 ClickModel::ClickModel(QObject *parent):
     QAbstractTableModel(parent),
@@ -199,6 +200,34 @@ ClickModel::Click ClickModel::buildClick(QVariantMap manifest)
 
     m_totalClickSize += newClick.installSize;
 
+    QString appId = manifest.value("name","").toString();
+
+    QDirIterator cacheIt("/home/phablet/.cache/" + appId, QDirIterator::Subdirectories);
+    qint64 newCacheSize = 0;
+    while (cacheIt.hasNext()) {
+        cacheIt.next();
+        newCacheSize += cacheIt.fileInfo().size();
+    }
+    newClick.cacheSize = newCacheSize;
+
+    QDirIterator configIt("/home/phablet/.config/" + appId, QDirIterator::Subdirectories);
+    qint64 newConfigSize = 0;
+    while (configIt.hasNext()) {
+        configIt.next();
+        newConfigSize += configIt.fileInfo().size();
+    }
+    newClick.configSize = newConfigSize;
+
+    QDirIterator dataIt("/home/phablet/.local/share/" + appId, QDirIterator::Subdirectories);
+    qint64 newDataSize = 0;
+    while (dataIt.hasNext()) {
+        dataIt.next();
+        newDataSize += dataIt.fileInfo().size();
+    }
+    newClick.dataSize = newDataSize;
+
+    newClick.appTotalSize = newClick.installSize + newClick.cacheSize + newClick.configSize + newClick.dataSize;
+
     return newClick;
 }
 
@@ -274,6 +303,10 @@ QHash<int, QByteArray> ClickModel::roleNames() const
 
     roleNames[Qt::DisplayRole] = "displayName";
     roleNames[InstalledSizeRole] = "installedSize";
+    roleNames[CacheSizeRole] = "cacheSize";
+    roleNames[ConfigSizeRole] = "configSize";
+    roleNames[DataSizeRole] = "dataSize";
+    roleNames[AppTotalSizeRole] = "appTotalSize";
     roleNames[IconRole] = "iconPath";
 
     return roleNames;
@@ -295,6 +328,14 @@ QVariant ClickModel::data(const QModelIndex &index, int role) const
             return click.displayName;
     case InstalledSizeRole:
         return click.installSize;
+    case CacheSizeRole:
+        return click.cacheSize;
+    case ConfigSizeRole:
+        return click.configSize;
+    case DataSizeRole:
+        return click.dataSize;
+    case AppTotalSizeRole:
+        return click.appTotalSize;
     case IconRole:
         return click.icon;
     default:

@@ -251,6 +251,7 @@ ItemPage {
                     ListItemLayout {
                         id: appItemLayout
                         title.text: displayName
+                                subtitle.text: "Cache: " + Utilities.formatSize(cacheSize) + "\tConfig: " + Utilities.formatSize(configSize)  + "\tData: " + Utilities.formatSize(dataSize)
                         height: units.gu(6)
 
                         IconWithFallback {

@@ -38,6 +38,10 @@ public:
     enum Roles {
         DisplayNameRole = Qt::DisplayRole,
         InstalledSizeRole = Qt::UserRole + 1,
+        CacheSizeRole,
+        ConfigSizeRole,
+        DataSizeRole,
+        AppTotalSizeRole,
         IconRole
     };
 
@@ -46,6 +50,10 @@ public:
         QString displayName;
         QString icon;
         uint installSize;
+        uint cacheSize;
+        uint configSize;
+        uint dataSize;
+        uint appTotalSize;
     };
 
     // implemented virtual methods from QAbstractTableModel
