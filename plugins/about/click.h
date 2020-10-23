@@ -38,10 +38,10 @@ public:
     enum Roles {
         DisplayNameRole = Qt::DisplayRole,
         InstalledSizeRole = Qt::UserRole + 1,
-        CacheSizeRole,
-        ConfigSizeRole,
-        DataSizeRole,
-        AppTotalSizeRole,
+        CacheSizeRole = Qt::UserRole + 2,
+        ConfigSizeRole = Qt::UserRole + 3,
+        DataSizeRole = Qt::UserRole + 4,
+        AppTotalSizeRole = Qt::UserRole + 5,
         IconRole
     };
 

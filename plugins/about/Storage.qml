@@ -161,72 +161,106 @@ ItemPage {
                 // All of these events come simultaneously
                 onMoviesSizeChanged: ready = true
                 Component.onCompleted: populateSizes()
-                sortRole: settingsId.storageSortByName ?
-                              ClickRoles.DisplayNameRole :
-                              ClickRoles.InstalledSizeRole
-
-            }
-
-            Flickable {
-        id: scrollWidget
-        anchors.fill: parent
-        contentHeight: columnId.height
-
-        Component.onCompleted: storagePage.flickable = scrollWidget
-
-        Column {
-            id: columnId
-            anchors.left: parent.left
-            anchors.right: parent.right
-
-            SettingsListItems.SingleValue {
-                id: diskItem
-                objectName: "diskItem"
-                text: i18n.tr("Total storage")
-                value: Utilities.formatSize(diskSpace)
-                showDivider: false
-            }
-
-            StorageBar {
-                ready: backendInfo.ready
-            }
-
-            StorageItem {
-                objectName: "storageItem"
-                colorName: theme.palette.normal.foreground
-                label: i18n.tr("Free space")
-                value: freediskSpace
-                ready: backendInfo.ready
-            }
-
-            Repeater {
-                model: spaceColors
-
-                StorageItem {
-                    objectName: spaceObjectNames[index]
-                    colorName: modelData
-                    label: spaceLabels[index]
-                    value: spaceValues[index]
-                    ready: backendInfo.ready
-                }
-            }
-
-            ListItem {
-                objectName: "installedAppsItemSelector"
-                height: layout.height + (divider.visible ? divider.height : 0)
-                divider.visible: false
-                SlotsLayout {
-                    id: layout
-                    mainSlot: OptionSelector {
-                        id: valueSelect
-                        width: parent.width - 2 * (layout.padding.leading + layout.padding.trailing)
-                        model: [i18n.tr("By name"), i18n.tr("By size")]
-                        onSelectedIndexChanged:
-                            settingsId.storageSortByName = (selectedIndex == 0)
-                                                           // 0 → by name, 1 → by size
+                sortRole: {
+                    switch(settingsId.storageSort) {
+                    case "name":
+                        return ClickRoles.DisplayNameRole;
+                    case "total-size":
+                        return ClickRoles.AppTotalSizeRole;
+                    case "installed-size":
+                        return ClickRoles.InstalledSizeRole;
+                    case "cache-size":
+                        return ClickRoles.CacheSizeRole;
+                    case "data-size":
+                        return ClickRoles.DataSizeRole;
+                    case "config-size":
+                        return ClickRoles.ConfigSizeRole;
+                    default:
+                        console.log("Unhandled sort role")
+                        return ClickRoles.DisplayNameRole;
                     }
                 }
             }
+
+            Flickable {
+                id: scrollWidget
+                anchors.fill: parent
+                contentHeight: columnId.height
+
+                Component.onCompleted: storagePage.flickable = scrollWidget
+
+                Column {
+                    id: columnId
+                    anchors.left: parent.left
+                    anchors.right: parent.right
+
+                    SettingsListItems.SingleValue {
+                        id: diskItem
+                        objectName: "diskItem"
+                        text: i18n.tr("Total storage")
+                        value: Utilities.formatSize(diskSpace)
+                        showDivider: false
+                    }
+
+                    StorageBar {
+                        ready: backendInfo.ready
+                    }
+
+                    StorageItem {
+                        objectName: "storageItem"
+                        colorName: theme.palette.normal.foreground
+                        label: i18n.tr("Free space")
+                        value: freediskSpace
+                        ready: backendInfo.ready
+                    }
+
+                    Repeater {
+                        model: spaceColors
+
+                        StorageItem {
+                            objectName: spaceObjectNames[index]
+                            colorName: modelData
+                            label: spaceLabels[index]
+                            value: spaceValues[index]
+                            ready: backendInfo.ready
+                        }
+                    }
+
+                    ListItem {
+                        objectName: "installedAppsItemSelector"
+                        height: layout.height + (divider.visible ? divider.height : 0)
+                        divider.visible: false
+                        SlotsLayout {
+                            id: layout
+                            mainSlot: OptionSelector {
+                                id: valueSelect
+                                width: parent.width - 2 * (layout.padding.leading + layout.padding.trailing)
+                                model: [i18n.tr("By name"), i18n.tr("By installation size"), i18n.tr("By cache size"), i18n.tr("By config size"), i18n.tr("By data size"), i18n.tr("By total size")]
+                                onSelectedIndexChanged: {
+                                    switch (selectedIndex) {
+                                    case 0: default:
+                                        settingsId.storageSort = "name"
+                                        break
+                                    case 1:
+                                        settingsId.storageSort = "installed-size"
+                                        break
+                                    case 2:
+                                        settingsId.storageSort = "cache-size"
+                                        break
+                                    case 3:
+                                        settingsId.storageSort = "config-size"
+                                        break
+                                    case 4:
+                                        settingsId.storageSort = "data-size"
+                                        break
+                                    case 5:
+                                        settingsId.storageSort = "total-size"
+                                        break
+                                    }
+                                }
+                            }
+                        }
+                    }
 
                     ListItem {
                         height: rowL.height + (divider.visible ? divider.height : 0) + units.gu(1)
@@ -267,41 +301,66 @@ ItemPage {
                     Binding {
                         target: valueSelect
                         property: 'selectedIndex'
-                value: (backendInfo.sortRole === ClickRoles.DisplayNameRole) ?
-                        0 :
-                        1
-            }
+                        value: {
+                            switch(backendInfo.sortRole) {
+                            case ClickRoles.DisplayNameRole:
+                                return 0;
+                            case ClickRoles.InstalledSizeRole:
+                                return 1;
+                            case ClickRoles.CacheSizeRole:
+                                return 2;
+                            case ClickRoles.ConfigSizeRole:
+                                return 3;
+                            case ClickRoles.DataSizeRole:
+                                return 4;
+                            case ClickRoles.AppTotalSizeRole:
+                                return 5;
+                            }
+                        }
+                    }
 
-            ListView {
-                objectName: "installedAppsListView"
-                anchors.left: parent.left
-                anchors.right: parent.right
-                height: childrenRect.height
-                /* Deactivate the listview flicking, we want to scroll on the
-                 * column */
-                interactive: false
-                model: backendInfo.clickList
-                delegate: ListItem {
-                    objectName: "appItem" + displayName
+                    ListView {
+                        objectName: "installedAppsListView"
+                        anchors.left: parent.left
+                        anchors.right: parent.right
+                        height: childrenRect.height
+                        /* Deactivate the listview flicking, we want to scroll on the
+                         * column */
+                        interactive: false
+                        model: backendInfo.clickList
+                        delegate: ListItem {
+                            objectName: "appItem" + displayName
                             height: appItemLayout.height + appStorageBar.height + (divider.visible ? divider.height : 0)
 
-                    ListItemLayout {
-                        id: appItemLayout
-                        title.text: displayName
-                        height: units.gu(6)
+                            ListItemLayout {
+                                id: appItemLayout
+                                title.text: displayName
+                                height: units.gu(6)
 
-                        IconWithFallback {
-                            SlotsLayout.position: SlotsLayout.First
-                            height: units.gu(4)
-                            source: iconPath
-                            fallbackSource: "image://theme/clear"
-                        }
-                        Label {
-                            SlotsLayout.position: SlotsLayout.Last
-                            horizontalAlignment: Text.AlignRight
-                            text: installedSize ?
-                                            Utilities.formatSize(appTotalSize) :
-                                            i18n.tr("N/A")
+                                IconWithFallback {
+                                    SlotsLayout.position: SlotsLayout.First
+                                    height: units.gu(4)
+                                    source: iconPath
+                                    fallbackSource: "image://theme/clear"
+                                }
+                                Label {
+                                    SlotsLayout.position: SlotsLayout.Last
+                                    horizontalAlignment: Text.AlignRight
+                                    text: {
+                                        switch (valueSelect.selectedIndex) {
+                                        case 0: case 5: default:
+                                            return Utilities.formatSize(appTotalSize)
+                                        case 1:
+                                            return installedSize ? Utilities.formatSize(installedSize) : i18n.tr("N/A")
+                                        case 2:
+                                            return Utilities.formatSize(cacheSize)
+                                        case 3:
+                                            return Utilities.formatSize(configSize)
+                                        case 4:
+                                            return Utilities.formatSize(dataSize)
+                                        }
+                                    }
+
                                 }
                             }
                             StorageBar {
@@ -319,7 +378,7 @@ ItemPage {
                         }
                     }
                 }
-    }
+            }
         }
     }
 }
