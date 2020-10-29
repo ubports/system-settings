@@ -80,7 +80,7 @@ void ClickModel::populateFromDesktopOrIniFile (Click *newClick,
                 desktopOrIniFileName =
                         g_strdup(desktopOrIniFile.fileName().toLocal8Bit().constData());
                 if (!desktopOrIniFile.exists())
-                    goto out;
+                    continue;
 
                 /* replace directory so the icon is correctly loaded */
                 directory = scopeDirectory;
@@ -97,7 +97,7 @@ void ClickModel::populateFromDesktopOrIniFile (Click *newClick,
                    g_strdup(desktopOrIniFile.fileName().toLocal8Bit().constData());
 
                 if (!desktopOrIniFile.exists())
-                    goto out;
+                    continue;
             }
 
             g_debug ("Desktop or ini file: %s", desktopOrIniFileName);
@@ -111,7 +111,7 @@ void ClickModel::populateFromDesktopOrIniFile (Click *newClick,
 
             if (!loaded) {
                 g_warning ("Couldn't parse desktop or ini file %s", desktopOrIniFileName);
-                goto out;
+                continue;
             }
 
             gchar * name = g_key_file_get_locale_string (appinfo,
@@ -149,14 +149,12 @@ void ClickModel::populateFromDesktopOrIniFile (Click *newClick,
                     else if (QIcon::hasThemeIcon(qIcon)) // try the icon theme
                         newClick->icon = QString("icon://theme/%1").arg(qIcon);
                 }
-                goto out;
+                continue;
             }
         }
-out:
-        g_free (desktopOrIniFileName);
-        g_key_file_free (appinfo);
-        return;
     }
+    g_free (desktopOrIniFileName);
+    g_key_file_free (appinfo);
 }
 
 ClickModel::Click ClickModel::buildClick(QVariantMap manifest)
