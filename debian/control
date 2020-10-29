@@ -48,7 +48,6 @@ Build-Depends:
  qml-module-qttest <!nocheck>,
  qml-module-ubuntu-components | qml-module-ubuntu-components-gles <!nocheck>,
  qml-module-ubuntu-settings-components <!nocheck>,
- qt5-default,
  qtbase5-dev,
  qtbase5-private-dev <!nocheck>,
  qtdeclarative5-dev,

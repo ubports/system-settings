@@ -3,11 +3,12 @@
 
 # Uncomment this to turn on verbose mode.
 export DH_VERBOSE=1
+export QT_SELECT=qt5
 
 DEB_HOST_ARCH := $(shell dpkg-architecture -qDEB_HOST_ARCH)
 # Skip tests on the archs they are known to be broken with current configuration
 # Ref.: https://bugs.launchpad.net/ubuntu/+source/qtdeclarative-opensource-src/+bug/1606927
-testskip_architectures := "powerpc arm64"
+testskip_architectures := arm64 powerpc
 
 include /usr/share/dpkg/buildflags.mk
 include /usr/share/dpkg/architecture.mk
@@ -36,9 +37,13 @@ override_dh_auto_clean:
 	rm -rf $(BUILDHOME)
 
 override_dh_auto_test:
-ifneq ($(DEB_HOST_ARCH),$(findstring $(DEB_HOST_ARCH), $(testskip_architectures)))
 	mkdir -p $(BUILDHOME)
+ifeq (,$(filter nocheck,$(DEB_BUILD_OPTIONS)))
+ifneq (,$(filter $(DEB_HOST_ARCH),$(testskip_architectures)))
+	HOME=$(BUILDHOME) -dh_auto_test
+else
 	HOME=$(BUILDHOME) dh_auto_test
+endif
 endif
 
 override_dh_install:
