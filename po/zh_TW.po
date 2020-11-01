@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2020-09-24 19:00+0000\n"
+"PO-Revision-Date: 2020-10-15 10:56+0000\n"
 "Last-Translator: P.-H. Lin <cypressyew@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.ubports.com/projects/"
 "ubports/system-settings/zh_Hant/>\n"
@@ -1524,11 +1524,11 @@ msgstr "通知框"
 #: ../plugins/phone/CallForwarding.qml:45 ../plugins/phone/MultiSim.qml:54
 #: ../plugins/phone/NoSims.qml:28 ../plugins/phone/SingleSim.qml:42
 msgid "Call forwarding"
-msgstr "來電正在轉接中"
+msgstr "通話轉接"
 
 #: ../plugins/phone/CallForwarding.qml:131
 msgid "Forward every incoming call"
-msgstr "轉發所有來電"
+msgstr "轉接所有來電"
 
 #: ../plugins/phone/CallForwarding.qml:146
 msgid "Redirects all phone calls to another number."
@@ -1540,7 +1540,7 @@ msgstr "無法檢查來電轉接狀態 "
 
 #: ../plugins/phone/CallForwarding.qml:166
 msgid "Forward incoming calls when:"
-msgstr "轉發電話時使用："
+msgstr "轉接來電，當："
 
 #: ../plugins/phone/CallForwarding.qml:175
 msgid "I’m on another call"
@@ -1568,15 +1568,15 @@ msgstr "號碼"
 
 #: ../plugins/phone/CallForwarding.qml:302
 msgid "Could not forward to this contact"
-msgstr "無法轉撥此聯絡人"
+msgstr "無法轉接到此聯絡人"
 
 #: ../plugins/phone/CallForwarding.qml:303
 msgid "Contact not associated with any phone number."
-msgstr "聯絡人與任何電話號碼無關。"
+msgstr "聯絡人沒有與任何電話號碼有關聯。"
 
 #: ../plugins/phone/CallForwarding.qml:382
 msgid "All calls"
-msgstr "所有電話"
+msgstr "所有通話"
 
 #: ../plugins/phone/CallForwarding.qml:384
 msgid "Some calls"
@@ -1592,7 +1592,7 @@ msgstr "關"
 #: ../plugins/phone/CallForwardItem.qml:157
 #: ../plugins/phone/CallForwardItem.qml:202
 msgid "Forward to"
-msgstr "轉接到"
+msgstr "轉接至"
 
 #: ../plugins/phone/CallForwardItem.qml:171
 msgid "Enter a number"
@@ -1626,11 +1626,11 @@ msgstr "撥號聲"
 #: ../plugins/phone/ServiceInfo.qml:109
 #, qt-format
 msgid "Last called %1"
-msgstr "最後來電 %1"
+msgstr "最後通話 %1"
 
 #: ../plugins/phone/ServiceInfo.qml:119
 msgid "Call"
-msgstr "通話"
+msgstr "撥號"
 
 #. TRANSLATORS: %1 is the name of the (network) carrier
 #: ../plugins/phone/Services.qml:36 ../plugins/phone/SingleSim.qml:55

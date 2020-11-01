@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2020-08-18 23:28+0000\n"
-"Last-Translator: Efstathios Iosifidis <iefstathios@gmail.com>\n"
+"PO-Revision-Date: 2020-10-29 01:02+0000\n"
+"Last-Translator: George Kitsopoulos <gkitsopoulos@tutanota.com>\n"
 "Language-Team: Greek <https://translate.ubports.com/projects/ubports/"
 "system-settings/el/>\n"
 "Language: el\n"
@@ -3055,7 +3055,7 @@ msgstr "Ενεργοποιημένο"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:46
 msgid "Default"
-msgstr "Προεπιλεγμένο"
+msgstr "Προκαθορισμένο"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:47
 msgid "This is the default printer."

@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2020-09-10 19:05+0000\n"
-"Last-Translator: c4pp4 <c4pp4@seznam.cz>\n"
+"PO-Revision-Date: 2020-11-01 11:28+0000\n"
+"Last-Translator: Milan Korecký <milan.korecky@gmail.com>\n"
 "Language-Team: Czech <https://translate.ubports.com/projects/ubports/"
 "system-settings/cs/>\n"
 "Language: cs\n"
@@ -283,7 +283,7 @@ msgstr "Odstranit obrázek"
 #: ../plugins/background/Components/AddRemove.qml:42
 #: ../plugins/cellular/Components/SimEditor.qml:203
 msgid "Cancel"
-msgstr "Storno"
+msgstr "Zrušit"
 
 #: ../plugins/background/Preview.qml:113
 #: ../plugins/phone/CallForwarding.qml:253
@@ -973,7 +973,7 @@ msgstr "Dojde k odpojení %1."
 #: ../plugins/cellular/PageChooseApn.qml:261
 #, qt-format
 msgid "This disables %1."
-msgstr "Zakáže se % 1."
+msgstr "Zakáže se %1."
 
 #: ../plugins/cellular/PageChooseApn.qml:303
 #: ../plugins/printing/PageComponent.qml:136
@@ -2105,7 +2105,7 @@ msgstr "Zabezpečení"
 
 #: ../plugins/security-privacy/PageComponent.qml:143
 msgid "Fingerprint ID"
-msgstr "Identifikátor otisku prstu"
+msgstr "ID otisku prstu"
 
 #: ../plugins/security-privacy/PageComponent.qml:163
 #: ../plugins/security-privacy/PhoneLocking.qml:32
