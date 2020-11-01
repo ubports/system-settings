@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2020-09-05 14:38+0000\n"
+"PO-Revision-Date: 2020-10-26 15:10+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://translate.ubports.com/projects/"
 "ubports/system-settings/nb/>\n"
@@ -287,7 +287,7 @@ msgstr "Avbryt"
 #: ../plugins/security-privacy/LockSecurity.qml:391
 #: ../plugins/time-date/TimePicker.qml:181
 msgid "Set"
-msgstr "Sett"
+msgstr "Velg"
 
 #. TRANSLATORS: This is a keyword or name for the battery plugin which is used while searching
 #: ../plugins/battery/PageComponent.qml:35 ../build/po/settings.js:60
@@ -676,7 +676,7 @@ msgstr "Sammenkoble"
 
 #: ../plugins/brightness/PageComponent.qml:35
 msgid "Brightness & Display"
-msgstr "Lysstyrke & visning"
+msgstr "Skjerm og lysstyrke"
 
 #. TRANSLATORS: This is a keyword or name for the brightness plugin which is used while searching
 #: ../plugins/brightness/PageComponent.qml:35 ../build/po/settings.js:100
@@ -1569,7 +1569,7 @@ msgstr "Jeg svarer ikke"
 
 #: ../plugins/phone/CallForwarding.qml:197
 msgid "My phone is unreachable"
-msgstr "Telefonen min ikke kan nås"
+msgstr "Min telefon kan ikke nås"
 
 #: ../plugins/phone/CallForwarding.qml:227
 msgid "Contacts…"
@@ -1590,7 +1590,7 @@ msgstr "Kunne ikke videresende til denne kontakten"
 
 #: ../plugins/phone/CallForwarding.qml:303
 msgid "Contact not associated with any phone number."
-msgstr "Kontakt mangler tilknyttet telefonnummer"
+msgstr "Kontakt mangler telefonnummer."
 
 #: ../plugins/phone/CallForwarding.qml:382
 msgid "All calls"
@@ -2531,7 +2531,7 @@ msgstr "Installér…"
 
 #: ../plugins/system-update/UpdateDelegate.qml:145
 msgid "Install"
-msgstr "Installér"
+msgstr "Installer"
 
 #: ../plugins/system-update/UpdateDelegate.qml:149
 msgid "Open"
@@ -3690,7 +3690,7 @@ msgstr "snarveier"
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../build/po/settings.js:266
 msgid "numbers"
-msgstr "numre"
+msgstr "nummer"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../build/po/settings.js:270

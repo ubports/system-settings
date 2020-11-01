@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2020-09-05 11:08+0000\n"
+"PO-Revision-Date: 2020-10-27 17:01+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
 "system-settings/nl/>\n"
@@ -89,7 +89,7 @@ msgstr "Geen"
 
 #: ../plugins/about/PageComponent.qml:131
 msgid "Wi-Fi address"
-msgstr "Wi-Fi-adres"
+msgstr "Wifi-adres"
 
 #: ../plugins/about/PageComponent.qml:139
 msgid "Bluetooth address"
@@ -283,7 +283,7 @@ msgstr "Afbeelding verwijderen"
 #: ../plugins/background/Components/AddRemove.qml:42
 #: ../plugins/cellular/Components/SimEditor.qml:203
 msgid "Cancel"
-msgstr "Afbreken"
+msgstr "Annuleren"
 
 #: ../plugins/background/Preview.qml:113
 #: ../plugins/phone/CallForwarding.qml:253
@@ -405,7 +405,7 @@ msgstr "Wi-Fi-hotspot"
 #: ../plugins/battery/PageComponent.qml:365
 #: ../plugins/wifi/PageComponent.qml:28 ../build/po/settings.js:398
 msgid "Wi-Fi"
-msgstr "Wi-Fi"
+msgstr "Wifi"
 
 #. TRANSLATORS: This is a keyword or name for the bluetooth plugin which is used while searching
 #: ../plugins/battery/PageComponent.qml:401
@@ -1181,15 +1181,15 @@ msgstr "Hotspot instellen…"
 
 #: ../plugins/hotspot/PageComponent.qml:155
 msgid "Wi-Fi is off"
-msgstr "Wi-Fi is uitgeschakeld"
+msgstr "Wifi is uitgeschakeld"
 
 #: ../plugins/hotspot/PageComponent.qml:156
 msgid "In order to create a hotspot, you need to turn Wi-Fi on."
-msgstr "Schakel Wi-Fi in om een hotspot op te zetten."
+msgstr "Schakel Wifi in om een hotspot op te zetten."
 
 #: ../plugins/hotspot/PageComponent.qml:165
 msgid "Turn on Wi-Fi"
-msgstr "Wi-Fi inschakelen"
+msgstr "Wifi inschakelen"
 
 #: ../plugins/language/DisplayLanguage.qml:36
 msgid "Display language"
@@ -1892,15 +1892,15 @@ msgstr "Nokia HERE"
 
 #: ../plugins/security-privacy/Location.qml:96
 msgid "Let the device detect your location:"
-msgstr "Laat het apparaat je locatie opvragen:"
+msgstr "Geef het apparaat toegang tot je locatie:"
 
 #: ../plugins/security-privacy/Location.qml:175
 msgid "Using GPS only (less accurate)"
-msgstr "Via GPS (minder nauwkeurig)"
+msgstr "Via gps (minder nauwkeurig)"
 
 #: ../plugins/security-privacy/Location.qml:176
 msgid "Using GPS"
-msgstr "Via GPS"
+msgstr "Via gps"
 
 #: ../plugins/security-privacy/Location.qml:188
 #, qt-format
@@ -1908,7 +1908,7 @@ msgid ""
 "Using GPS, anonymized Wi-Fi and cellular network info.<br>By selecting this "
 "option you accept the <a href='%1'>Nokia HERE terms and conditions</a>."
 msgstr ""
-"Via GPS, geanonimiseerde Wi-Fi- en mobiele netwerkinformatie.<br>Als je deze "
+"Via gps, geanonimiseerde wifi- en mobiele netwerkinformatie.<br>Als je deze "
 "optie kiest, ga je akkoord met de <a href='%1'>algemene voorwaarden van "
 "Nokia HERE</a>."
 
@@ -1918,7 +1918,7 @@ msgid ""
 "Using GPS and anonymized Wi-Fi info.<br>By selecting this option you accept "
 "the <a href='%1'>Nokia HERE terms and conditions</a>."
 msgstr ""
-"Via GPS en geanonimiseerde Wi-Fi-informatie.<br>Als je deze optie kiest, ga "
+"Via gps en geanonimiseerde wifi-informatie.<br>Als je deze optie kiest, ga "
 "je akkoord met de <a href='%1'>algemene voorwaarden van Nokia HERE</a>."
 
 #: ../plugins/security-privacy/Location.qml:195
@@ -1930,50 +1930,50 @@ msgid ""
 "Uses GPS to detect your rough location. When off, GPS turns off to save "
 "battery."
 msgstr ""
-"GPS wordt gebruikt om je locatie bij benadering te bepalen. Schakel GPS uit "
-"om je accu te sparen."
+"GPS wordt gebruikt om je locatie bij benadering te bepalen. Schakel gps uit "
+"om het accuverbruik te verminderen."
 
 #: ../plugins/security-privacy/Location.qml:214
 msgid ""
 "Uses WiFi and GPS to detect your rough location. Turning off location "
 "detection saves battery."
 msgstr ""
-"GPS en Wi-Fi worden gebruikt om je locatie bij benadering te bepalen. "
-"Schakel locatiebepaling uit om je accu te sparen."
+"GPS en wifi worden gebruikt om je locatie bij benadering te bepalen. Schakel "
+"locatiebepaling uit om het accuverbruik te verminderen."
 
 #: ../plugins/security-privacy/Location.qml:216
 msgid ""
 "Uses WiFi (currently off) and GPS to detect your rough location. Turning off "
 "location detection saves battery."
 msgstr ""
-"GPS en Wi-Fi (momenteel uit) worden gebruikt om je locatie bij benadering te "
-"bepalen. Schakel locatiebepaling uit om je accu te sparen."
+"GPS en wifi (momenteel uit) worden gebruikt om je locatie bij benadering te "
+"bepalen. Schakel locatiebepaling uit om het accuverbruik te verminderen."
 
 #: ../plugins/security-privacy/Location.qml:218
 msgid ""
 "Uses WiFi, cell tower locations, and GPS to detect your rough location. "
 "Turning off location detection saves battery."
 msgstr ""
-"GPS, Wi-Fi en mobiele zendmasten wordet gebruikt om je locatie bij "
-"benadering te bepalen. Schakel locatiebepaling uit om je accu te sparen."
+"GPS, wifi en mobiele zendmasten worden gebruikt om je locatie bij benadering "
+"te bepalen. Schakel locatiebepaling uit om het accuverbruik te verminderen."
 
 #: ../plugins/security-privacy/Location.qml:220
 msgid ""
 "Uses WiFi, cell tower locations (no current cellular connection), and GPS to "
 "detect your rough location. Turning off location detection saves battery."
 msgstr ""
-"Wi-Fi, mobiele zendmasten (momenteel geen mobiele verbinding) en GPS worden "
+"Wifi, mobiele zendmasten (momenteel geen mobiele verbinding) en gps worden "
 "gebruikt om je locatie bij benadering te bepalen. Schakel locatiebepaling "
-"uit om je accu te sparen."
+"uit om het accuverbruik te verminderen."
 
 #: ../plugins/security-privacy/Location.qml:222
 msgid ""
 "Uses WiFi (currently off), cell tower locations, and GPS to detect your "
 "rough location. Turning off location detection saves battery."
 msgstr ""
-"Wi-Fi (momenteel uit), mobiele zendmasten en GPS worden gebruikt om je "
-"locatie bij benadering te bepalen. Schakel locatiebepaling uit om je accu te "
-"sparen."
+"Wifi (momenteel uit), mobiele zendmasten en gps worden gebruikt om je "
+"locatie bij benadering te bepalen. Schakel locatiebepaling uit om het "
+"accuverbruik te verminderen."
 
 #: ../plugins/security-privacy/Location.qml:224
 msgid ""
@@ -1981,17 +1981,17 @@ msgid ""
 "connection), and GPS to detect your rough location. Turning off location "
 "detection saves battery."
 msgstr ""
-"Wi-Fi (momenteel uit), mobiele zendmasten (momenteel geen mobiele verbinding)"
-" en GPS worden gebruikt om je locatie bij benadering te bepalen. Schakel "
-"locatiebepaling uit om je accu te sparen."
+"Wifi (momenteel uit), mobiele zendmasten (momenteel geen mobiele verbinding) "
+"en gps worden gebruikt om je locatie bij benadering te bepalen. Schakel "
+"locatiebepaling uit om het accuverbruik te verminderen."
 
 #: ../plugins/security-privacy/Location.qml:231
 msgid "Let apps access this location:"
-msgstr "Laat apps toegang hebben tot deze locatie:"
+msgstr "Geef apps toegang tot deze locatie:"
 
 #: ../plugins/security-privacy/Location.qml:254
 msgid "None requested"
-msgstr "Niet aangevraagd"
+msgstr "Geen aanvragen"
 
 #: ../plugins/security-privacy/LockSecurity.qml:137
 #: ../plugins/security-privacy/LockSecurity.qml:563
@@ -2378,11 +2378,11 @@ msgstr "Toekomstige updates automatisch downloaden:"
 
 #: ../plugins/system-update/Configuration.qml:55
 msgid "When on WiFi"
-msgstr "Alleen via Wi-Fi"
+msgstr "Alleen via wifi"
 
 #: ../plugins/system-update/Configuration.qml:57
 msgid "On any data connection"
-msgstr "Via elke gegevensverbinding"
+msgstr "Via elke dataverbinding"
 
 #: ../plugins/system-update/Configuration.qml:58
 msgid "Data charges may apply."
@@ -2592,7 +2592,7 @@ msgstr "Het bijwerken is mislukt"
 
 #: ../plugins/system-update/UpdateSettings.qml:60
 msgid "On WiFi"
-msgstr "Via Wi-Fi"
+msgstr "Via wifi"
 
 #: ../plugins/system-update/UpdateSettings.qml:62
 msgid "Always"
@@ -2727,7 +2727,7 @@ msgstr "Netwerkinformatie"
 
 #: ../plugins/wifi/NetworkDetails.qml:65
 msgid "Last connected"
-msgstr "Laatste keer verbonden"
+msgstr "Recentste verbinding"
 
 #: ../plugins/wifi/NetworkDetails.qml:98
 #: ../plugins/wifi/NetworkDetailsBrief.qml:55
@@ -2740,7 +2740,7 @@ msgstr "IP-adres"
 
 #: ../plugins/wifi/OtherNetwork.qml:92
 msgid "Connect to Wi‑Fi"
-msgstr "Verbinden met Wi-Fi"
+msgstr "Verbinden met wifi"
 
 #: ../plugins/wifi/OtherNetwork.qml:93
 msgid "Connect to Hidden Network"
@@ -2752,7 +2752,7 @@ msgstr "Netwerknaam"
 
 #: ../plugins/wifi/OtherNetwork.qml:298
 msgid "SSID"
-msgstr "Wi-Fi-naam (SSID)"
+msgstr "Wifi-naam (SSID)"
 
 #: ../plugins/wifi/OtherNetwork.qml:319
 msgid "WPA & WPA2 Personal"
@@ -2799,7 +2799,7 @@ msgstr "%1…"
 #: ../plugins/wifi/certhandler.cpp:193 ../plugins/wifi/certhandler.cpp:225
 #: ../plugins/wifi/certhandler.cpp:290 ../plugins/wifi/certhandler.cpp:319
 msgid "Choose…"
-msgstr "Kies…"
+msgstr "Kiezen…"
 
 #. TRANSLATORS: The first position is the name of
 #. the organization that has issued the certificate.
@@ -3936,7 +3936,7 @@ msgstr "wifi"
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../build/po/settings.js:406
 msgid "WiFi"
-msgstr "Wi-Fi"
+msgstr "Wifi"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../build/po/settings.js:412

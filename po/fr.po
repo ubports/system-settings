@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2020-09-06 09:58+0000\n"
+"PO-Revision-Date: 2020-10-28 18:48+0000\n"
 "Last-Translator: Anne Onyme <anneonyme017@netcourrier.com>\n"
 "Language-Team: French <https://translate.ubports.com/projects/ubports/"
 "system-settings/fr/>\n"
@@ -2694,7 +2694,7 @@ msgstr "Année"
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
 #: ../plugins/vpn/PageComponent.qml:31 ../build/po/settings.js:380
 msgid "VPN"
-msgstr "Réseau Privé Virtuel"
+msgstr "RPV"
 
 #: ../plugins/vpn/PageComponent.qml:76
 msgid ""

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2020-07-11 21:01+0000\n"
+"PO-Revision-Date: 2020-10-27 14:16+0000\n"
 "Last-Translator: Ivo Xavier <ivofernandes12@gmail.com>\n"
 "Language-Team: Portuguese <https://translate.ubports.com/projects/ubports/"
 "system-settings/pt/>\n"
@@ -1142,7 +1142,7 @@ msgstr "Iniciar o Hotspot vai ligar o Wi-Fi."
 #: ../plugins/security-privacy/LockSecurity.qml:389
 #: ../plugins/security-privacy/SimPin.qml:187
 msgid "Change"
-msgstr "Alterar"
+msgstr "Modificar"
 
 #: ../plugins/hotspot/HotspotSetup.qml:267
 msgid "Start"
@@ -1581,7 +1581,7 @@ msgstr "Contactos…"
 
 #: ../plugins/phone/CallForwarding.qml:274
 msgid "Please select a phone number"
-msgstr "Por favor escolha um número de telefone"
+msgstr "Por favor, selecione um número de telefone"
 
 #: ../plugins/phone/CallForwarding.qml:283
 msgid "Numbers"
@@ -1653,7 +1653,7 @@ msgstr "Última chamada %1"
 
 #: ../plugins/phone/ServiceInfo.qml:119
 msgid "Call"
-msgstr "Chamada"
+msgstr "Chamar"
 
 #. TRANSLATORS: %1 is the name of the (network) carrier
 #: ../plugins/phone/Services.qml:36 ../plugins/phone/SingleSim.qml:55

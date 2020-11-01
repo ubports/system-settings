@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2020-09-18 15:59+0000\n"
+"PO-Revision-Date: 2020-10-26 22:41+0000\n"
 "Last-Translator: Adria <adriamartinmor@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports/"
 "system-settings/sc/>\n"
@@ -85,7 +85,7 @@ msgstr "Nùmeru de sèrie"
 #: ../plugins/wifi/certhandler.cpp:192 ../plugins/wifi/certhandler.cpp:224
 #: ../plugins/wifi/certhandler.cpp:289 ../plugins/wifi/certhandler.cpp:318
 msgid "None"
-msgstr "Perunu"
+msgstr "Peruna"
 
 #: ../plugins/about/PageComponent.qml:131
 msgid "Wi-Fi address"
@@ -2994,7 +2994,7 @@ msgstr "Pro is messàgios, imprea:"
 #. this word must be less than 5 characters
 #: ../plugins/cellular/Components/LabelTextField.qml:51
 msgid "Next"
-msgstr "Imbeniente"
+msgstr "A in antis"
 
 #: ../plugins/cellular/Components/MultiSim.qml:55
 #: ../plugins/cellular/Components/SingleSim.qml:105
