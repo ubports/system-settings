@@ -189,14 +189,6 @@ ItemPage {
                 StorageBar {
                     ready: backendInfo.ready
                 }
-                
-                StorageItem {
-                    objectName: "storageItem"
-                    colorName: theme.palette.normal.foreground
-                    label: i18n.tr("Free space")
-                    value: freediskSpace
-                    ready: backendInfo.ready
-                }
 
                 Repeater {
                     model: spaceColors
@@ -208,6 +200,14 @@ ItemPage {
                         value: spaceValues[index]
                         ready: backendInfo.ready
                     }
+                }
+
+                StorageItem {
+                    objectName: "storageItem"
+                    colorName: theme.palette.normal.foreground
+                    label: i18n.tr("Free space")
+                    value: freediskSpace
+                    ready: backendInfo.ready
                 }
 
                 ListItem {
