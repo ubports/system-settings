@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2020-10-26 15:10+0000\n"
+"PO-Revision-Date: 2020-11-04 00:40+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://translate.ubports.com/projects/"
 "ubports/system-settings/nb/>\n"
@@ -90,7 +90,7 @@ msgstr "Trådløs nettverksadresse"
 
 #: ../plugins/about/PageComponent.qml:139
 msgid "Bluetooth address"
-msgstr "Blåtann-adresse"
+msgstr "Blåtannsadresse"
 
 #: ../plugins/about/PageComponent.qml:150 ../plugins/about/Storage.qml:32
 msgid "Storage"
@@ -201,11 +201,11 @@ msgstr "OS-oppbygningsdetaljer"
 
 #: ../plugins/about/Version.qml:62
 msgid "OS build number"
-msgstr "OS-oppbygningsnummer"
+msgstr "OS-byggnummer"
 
 #: ../plugins/about/Version.qml:68
 msgid "UBports Image part"
-msgstr "UBports bildedel"
+msgstr "UBports-avtrykksdel"
 
 #: ../plugins/about/Version.qml:76
 msgid "Ubuntu build description"
@@ -213,7 +213,7 @@ msgstr "Beskrivelse av Ubuntu-oppbygning"
 
 #: ../plugins/about/Version.qml:82
 msgid "Device Image part"
-msgstr "Enhetsbildedel"
+msgstr "Enhetsavtrykksdel"
 
 #: ../plugins/about/Version.qml:89
 msgid "Device build description"
@@ -221,7 +221,7 @@ msgstr "Beskrivelse av enhetsoppbygning"
 
 #: ../plugins/about/Version.qml:96
 msgid "Customization Image part"
-msgstr "Tilpasningsbildedel"
+msgstr "Tilpasningsavtrykksdel"
 
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../plugins/background/MainPage.qml:38 ../build/po/settings.js:44
@@ -390,7 +390,7 @@ msgstr[1] "Etter %1 sekunder"
 #, qt-format
 msgid "After %1 minute"
 msgid_plural "After %1 minutes"
-msgstr[0] "Etter %1 minutt"
+msgstr[0] "Etter ett minutt"
 msgstr[1] "Etter %1 minutter"
 
 #. TRANSLATORS: “Wi-Fi used for hotspot” is hidden.
@@ -1295,7 +1295,7 @@ msgstr "Auto-majuskel"
 
 #: ../plugins/language/PageComponent.qml:265
 msgid "Turns on Shift to capitalize the first letter of each sentence."
-msgstr "Gir automatisk stor forbokstav i hver setning."
+msgstr "Stor forbokstav i hver setning automatisk."
 
 #: ../plugins/language/PageComponent.qml:272
 msgid "Auto punctuation"
@@ -1423,8 +1423,8 @@ msgid ""
 "You need to use a Bluetooth mouse or touchpad with this display. Make sure "
 "it is close to the device and its batteries are charged."
 msgstr ""
-"Du må bruke en Blåtann-mus eller -pekeflate med denne skjermen. Forsikre deg "
-"om at den er nær enheten og at dens batterier er oppladet."
+"Du må bruke en Blåtannsmus eller -pekeflate med denne skjermen. Forsikre deg "
+"om at den oppladet og nær enheten."
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../plugins/mouse/PageComponent.qml:29 ../build/po/settings.js:200
@@ -2527,7 +2527,7 @@ msgstr "Sett på pause"
 
 #: ../plugins/system-update/UpdateDelegate.qml:143
 msgid "Install…"
-msgstr "Installér…"
+msgstr "Installer…"
 
 #: ../plugins/system-update/UpdateDelegate.qml:145
 msgid "Install"

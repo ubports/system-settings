@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2020-09-05 11:57+0000\n"
-"Last-Translator: Josué <j2g2rp@gmail.com>\n"
+"PO-Revision-Date: 2020-11-01 19:29+0000\n"
+"Last-Translator: Iñaki Aliaga <him@mint.lgbt>\n"
 "Language-Team: Spanish <https://translate.ubports.com/projects/ubports/"
 "system-settings/es/>\n"
 "Language: es\n"
@@ -1144,7 +1144,7 @@ msgstr "Iniciar el punto de acceso encenderá la conexión inalámbrica."
 #: ../plugins/security-privacy/LockSecurity.qml:389
 #: ../plugins/security-privacy/SimPin.qml:187
 msgid "Change"
-msgstr "Cambio"
+msgstr "Cambiar"
 
 #: ../plugins/hotspot/HotspotSetup.qml:267
 msgid "Start"
@@ -2105,7 +2105,7 @@ msgstr "Seguridad"
 
 #: ../plugins/security-privacy/PageComponent.qml:143
 msgid "Fingerprint ID"
-msgstr "Identificación de huella dactilar"
+msgstr "Identificación por Huella"
 
 #: ../plugins/security-privacy/PageComponent.qml:163
 #: ../plugins/security-privacy/PhoneLocking.qml:32
@@ -2976,7 +2976,7 @@ msgstr "Para mensajes, usar:"
 #. this word must be less than 5 characters
 #: ../plugins/cellular/Components/LabelTextField.qml:51
 msgid "Next"
-msgstr "Sig."
+msgstr "Siguiente"
 
 #: ../plugins/cellular/Components/MultiSim.qml:55
 #: ../plugins/cellular/Components/SingleSim.qml:105

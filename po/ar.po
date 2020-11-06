@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2020-09-05 23:16+0000\n"
-"Last-Translator: tamer dab <dabsantamer@yahoo.com>\n"
+"PO-Revision-Date: 2020-11-06 19:46+0000\n"
+"Last-Translator: abidin <abidin24@tutanota.com>\n"
 "Language-Team: Arabic <https://translate.ubports.com/projects/ubports/"
 "system-settings/ar/>\n"
 "Language: ar\n"
@@ -27,11 +27,11 @@ msgstr "إعدادات النظام"
 
 #: ubuntu-system-settings.desktop.in.in.h:2
 msgid "System;"
-msgstr "النظام"
+msgstr "النظام;"
 
 #: ubuntu-system-settings.desktop.in.in.h:3
 msgid "Preferences;Settings;"
-msgstr "خيارات إعدادات"
+msgstr "خيارات;إعدادات;"
 
 #: ../plugins/about/DevMode.qml:35 ../plugins/about/DevMode.qml:90
 msgid "Developer Mode"
@@ -47,7 +47,7 @@ msgstr ""
 
 #: ../plugins/about/DevMode.qml:110
 msgid "You need a passcode or passphrase set to use Developer Mode."
-msgstr "تحتاج لتعيين رمز ولوج أو كلمة ولوج لتفعيل وضع المطور."
+msgstr "تحتاج لتعيين رمز ولوج أو عبارة ولوج لتفعيل وضع المطور."
 
 #: ../plugins/about/DevMode.qml:116
 #: ../plugins/security-privacy/LockSecurity.qml:36
@@ -57,7 +57,7 @@ msgstr "قفل الأمان"
 
 #: ../plugins/about/License.qml:30
 msgid "Sorry, this license could not be displayed."
-msgstr "معذرة, هذه العقدة ليست للعرض."
+msgstr "معذرة, تعذر عرض هذه الرخصة."
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../plugins/about/PageComponent.qml:35 ../build/po/settings.js:2
@@ -92,7 +92,7 @@ msgstr "عنوان الواي-فاي"
 
 #: ../plugins/about/PageComponent.qml:139
 msgid "Bluetooth address"
-msgstr "عنوان البلوتوت"
+msgstr "عنوان البلوتوث"
 
 #: ../plugins/about/PageComponent.qml:150 ../plugins/about/Storage.qml:32
 msgid "Storage"
@@ -102,11 +102,11 @@ msgstr "التخزين"
 #: ../plugins/about/PageComponent.qml:152
 #, qt-format
 msgid "%1 free"
-msgstr "%1 مجاني"
+msgstr "%1 حرة"
 
 #: ../plugins/about/PageComponent.qml:160
 msgid "Software:"
-msgstr "البرنامج:"
+msgstr "البرمجية:"
 
 #: ../plugins/about/PageComponent.qml:172
 msgid "OS"
@@ -150,11 +150,11 @@ msgstr "وضع المطور"
 
 #: ../plugins/about/Storage.qml:44
 msgid "Scanning"
-msgstr "فحص"
+msgstr "يفحص"
 
 #: ../plugins/about/Storage.qml:106
 msgid "Used by Ubuntu"
-msgstr "مستخدمة من قبل أبونتو"
+msgstr "يستخدمه أبونتو"
 
 #: ../plugins/about/Storage.qml:107
 msgid "Videos"
@@ -174,7 +174,7 @@ msgstr "ملفات أخرى"
 
 #: ../plugins/about/Storage.qml:111
 msgid "Used by apps"
-msgstr "مستخدمة من قبل تطبيقات"
+msgstr "تستخدمه تطبيقات"
 
 #: ../plugins/about/Storage.qml:159
 msgid "Total storage"
@@ -182,7 +182,7 @@ msgstr "مساحة التخزين الكلية"
 
 #: ../plugins/about/Storage.qml:171
 msgid "Free space"
-msgstr "مساحة فارغة"
+msgstr "مساحة حرة"
 
 #: ../plugins/about/Storage.qml:191
 msgid "By name"
@@ -199,11 +199,11 @@ msgstr "غير متوفر"
 
 #: ../plugins/about/Version.qml:35
 msgid "OS Build Details"
-msgstr ""
+msgstr "تفاصيل بناء النظام"
 
 #: ../plugins/about/Version.qml:62
 msgid "OS build number"
-msgstr ""
+msgstr "رقم بناء النظام"
 
 #: ../plugins/about/Version.qml:68
 msgid "UBports Image part"
@@ -211,7 +211,7 @@ msgstr ""
 
 #: ../plugins/about/Version.qml:76
 msgid "Ubuntu build description"
-msgstr ""
+msgstr "وصف بناء أبونتو"
 
 #: ../plugins/about/Version.qml:82
 msgid "Device Image part"
@@ -219,7 +219,7 @@ msgstr ""
 
 #: ../plugins/about/Version.qml:89
 msgid "Device build description"
-msgstr ""
+msgstr "وصف بناء الجهاز"
 
 #: ../plugins/about/Version.qml:96
 msgid "Customization Image part"
@@ -236,7 +236,7 @@ msgstr "فنون أوبونتو"
 
 #: ../plugins/background/MainPage.qml:107
 msgid "Custom"
-msgstr ""
+msgstr "مخصص"
 
 #: ../plugins/background/MainPage.qml:117
 #, fuzzy
@@ -245,15 +245,16 @@ msgstr "الخلفية"
 
 #: ../plugins/background/MainPage.qml:130
 msgid "Opacity:"
-msgstr ""
+msgstr "الشفافية:"
 
 #: ../plugins/background/Preview.qml:69
+#, fuzzy
 msgid "Preview"
-msgstr ""
+msgstr "معاينة"
 
 #: ../plugins/background/Preview.qml:107
 msgid "Remove image"
-msgstr ""
+msgstr "أزل صورة"
 
 #: ../plugins/background/Preview.qml:107
 #: ../plugins/bluetooth/ConfirmPasskeyDialog.qml:49
@@ -283,7 +284,7 @@ msgstr ""
 #: ../plugins/background/Components/AddRemove.qml:42
 #: ../plugins/cellular/Components/SimEditor.qml:203
 msgid "Cancel"
-msgstr "إلغاء"
+msgstr "ألغ"
 
 #: ../plugins/background/Preview.qml:113
 #: ../plugins/phone/CallForwarding.qml:253
@@ -346,12 +347,12 @@ msgstr "%1%"
 #: ../plugins/battery/PageComponent.qml:190
 #: ../plugins/battery/PageComponent.qml:192
 msgid "Yesterday"
-msgstr "في الامس"
+msgstr "أمس"
 
 #: ../plugins/battery/PageComponent.qml:198
 #: ../plugins/battery/PageComponent.qml:200
 msgid "Today"
-msgstr ""
+msgstr "اليوم"
 
 #: ../plugins/battery/PageComponent.qml:270
 msgid "Charging now"
@@ -372,7 +373,7 @@ msgstr "طرق للحد من استهلاك البطارية:"
 #: ../plugins/battery/PageComponent.qml:297
 #: ../plugins/brightness/PageComponent.qml:84
 msgid "Display brightness"
-msgstr ""
+msgstr "سطوع الشاشة"
 
 #: ../plugins/battery/PageComponent.qml:314
 #: ../plugins/security-privacy/PhoneLocking.qml:89
@@ -387,15 +388,15 @@ msgstr "السُبات عند الخمول"
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery/PageComponent.qml:322
 #: ../plugins/security-privacy/PhoneLocking.qml:98
-#, fuzzy, qt-format
+#, qt-format
 msgid "After %1 second"
 msgid_plural "After %1 seconds"
-msgstr[0] "بعد أقل من دقيقة (%1)"
-msgstr[1] "بعد دقيقة واحدة (%1)"
-msgstr[2] "بعد دقيقتين (%1)"
-msgstr[3] "بعد %1 دقائق"
-msgstr[4] "بعد %1 دقيقة"
-msgstr[5] "بعد %1 دقيقة"
+msgstr[0] "بعد أقل من ثانية (%1)"
+msgstr[1] "بعد ثانية واحدة (%1)"
+msgstr[2] "بعد ثانيتين (%1)"
+msgstr[3] "بعد %1 ثوان"
+msgstr[4] "بعد %1 ثانية"
+msgstr[5] "بعد %1 ثانية"
 
 #. TRANSLATORS: %1 is the number of minutes
 #: ../plugins/battery/PageComponent.qml:326
@@ -435,9 +436,8 @@ msgid "Bluetooth"
 msgstr "بلوتوث"
 
 #: ../plugins/battery/SleepValues.qml:74
-#, fuzzy
 msgid "Lock the device when it's not in use:"
-msgstr "إيصاد الهاتف عندما لا يكون قيد الاستخدام:"
+msgstr "أوصد الهاتف عندما لا يكون قيد الاستخدام:"
 
 #: ../plugins/battery/SleepValues.qml:75
 #, fuzzy
@@ -446,15 +446,15 @@ msgstr "وضع الهاتف في وضع السُبات عندما لا يكون 
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery/SleepValues.qml:86
-#, fuzzy, qt-format
+#, qt-format
 msgid "After %1 seconds"
 msgid_plural "After %1 seconds"
-msgstr[0] "بعد أقل من دقيقة (%1)"
-msgstr[1] "بعد دقيقة واحدة (%1)"
-msgstr[2] "بعد دقيقتين (%1)"
-msgstr[3] "بعد %1 دقائق"
-msgstr[4] "بعد %1 دقيقة"
-msgstr[5] "بعد %1 دقيقة"
+msgstr[0] "بعد أقل من ثانية (%1)"
+msgstr[1] "بعد ثانية واحدة (%1)"
+msgstr[2] "بعد ثانيتين (%1)"
+msgstr[3] "بعد %1 ثوان"
+msgstr[4] "بعد %1 ثانية"
+msgstr[5] "بعد %1 ثانية"
 
 #: ../plugins/battery/SleepValues.qml:130
 #, fuzzy
@@ -480,15 +480,15 @@ msgstr "طلب اقتران بلوتوث."
 #, qt-format
 msgid ""
 "The device %1 wants to pair with this device. Do you want to allow this?"
-msgstr ""
+msgstr "هل تسمح ل%1 بالاقتران بجهازك؟"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:39
 msgid "Allow"
-msgstr ""
+msgstr "اسمح"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:46
 msgid "Refuse"
-msgstr ""
+msgstr "ارفض"
 
 #: ../plugins/bluetooth/ConfirmPasskeyDialog.qml:28
 #: ../plugins/bluetooth/DisplayPasskeyDialog.qml:26
@@ -515,16 +515,16 @@ msgstr "تأكيد رقم الهوية (PIN)"
 #: ../plugins/brightness/WifiDisplays.qml:172
 #: ../plugins/wifi/AccessPoint.qml:51 ../plugins/wifi/StandardMenuItem.qml:31
 msgid "Connected"
-msgstr ""
+msgstr "متصل"
 
 #: ../plugins/bluetooth/DevicePage.qml:38
 #: ../plugins/bluetooth/PageComponent.qml:290
 msgid "Connecting…"
-msgstr ""
+msgstr "يتصل…"
 
 #: ../plugins/bluetooth/DevicePage.qml:39
 msgid "Disconnecting…"
-msgstr ""
+msgstr "يقطع الاتصال…"
 
 #: ../plugins/bluetooth/DevicePage.qml:40
 msgid "Disconnected"
@@ -533,7 +533,7 @@ msgstr ""
 #: ../plugins/bluetooth/DevicePage.qml:41 ../plugins/hotspot/Common.qml:94
 #: ../plugins/system-update/UpdateSettings.qml:64 ../plugins/wifi/Common.qml:96
 msgid "Unknown"
-msgstr ""
+msgstr "مجهول"
 
 #: ../plugins/bluetooth/DevicePage.qml:47
 msgid "Computer"
@@ -633,7 +633,7 @@ msgstr "النوع"
 #: ../plugins/bluetooth/DevicePage.qml:124
 #: ../plugins/printing/printer-sub-pages/Status.qml:26
 msgid "Status"
-msgstr ""
+msgstr "الحالة"
 
 #: ../plugins/bluetooth/DevicePage.qml:128
 msgid "Signal Strength"
@@ -652,11 +652,11 @@ msgstr "اقطع الاتصال"
 
 #: ../plugins/bluetooth/DevicePage.qml:150 ../plugins/wifi/OtherNetwork.qml:905
 msgid "Connect"
-msgstr ""
+msgstr "اتصل"
 
 #: ../plugins/bluetooth/DevicePage.qml:172
 msgid "Forget this device"
-msgstr ""
+msgstr "انسى هذا الجهاز"
 
 #. TRANSLATORS: %1 is the name of the bluetooth device being paired
 #: ../plugins/bluetooth/DisplayPasskeyDialog.qml:35
@@ -666,30 +666,30 @@ msgid "Please enter the following PIN on %1 and press “Enter” on the keyboar
 msgstr ""
 
 #: ../plugins/bluetooth/PageComponent.qml:252
+#, fuzzy
 msgid "Discoverable"
-msgstr ""
+msgstr "قابل للاكتشاف"
 
 #: ../plugins/bluetooth/PageComponent.qml:252
 msgid "Not discoverable"
-msgstr ""
+msgstr "ليس قابلا للاكتشاف"
 
 #: ../plugins/bluetooth/PageComponent.qml:260
 #: ../plugins/bluetooth/PageComponent.qml:319
-#, fuzzy
 msgid "Searching…"
-msgstr "البحث"
+msgstr "يبحث…"
 
 #: ../plugins/bluetooth/PageComponent.qml:269
 msgid "Connected devices:"
-msgstr ""
+msgstr "الأجهزة المتصلة:"
 
 #: ../plugins/bluetooth/PageComponent.qml:309
 msgid "Connect another device:"
-msgstr ""
+msgstr "اتصل بجهاز آخر:"
 
 #: ../plugins/bluetooth/PageComponent.qml:309
 msgid "Connect a device:"
-msgstr ""
+msgstr "اتصل بجهاز:"
 
 #: ../plugins/bluetooth/PageComponent.qml:352
 msgid "None detected"
@@ -707,9 +707,8 @@ msgid "Pair"
 msgstr "اقتران"
 
 #: ../plugins/brightness/PageComponent.qml:35
-#, fuzzy
 msgid "Brightness & Display"
-msgstr "السطوع"
+msgstr "السطوع والعرض"
 
 #. TRANSLATORS: This is a keyword or name for the brightness plugin which is used while searching
 #: ../plugins/brightness/PageComponent.qml:35 ../build/po/settings.js:100
@@ -718,7 +717,7 @@ msgstr "السطوع"
 
 #: ../plugins/brightness/PageComponent.qml:116
 msgid "Adjust automatically"
-msgstr ""
+msgstr "اضبط تلقائيا"
 
 #: ../plugins/brightness/PageComponent.qml:131
 msgid "Brightens and dims the display to suit the surroundings."
@@ -726,55 +725,51 @@ msgstr ""
 
 #: ../plugins/brightness/PageComponent.qml:140
 msgid "External display"
-msgstr ""
+msgstr "شاشة عرض منفصلة"
 
 #: ../plugins/brightness/PageComponent.qml:158
 msgid "Wireless display"
-msgstr ""
+msgstr "شاشة عرض لا سلكية"
 
 #: ../plugins/brightness/PageComponent.qml:159
 #: ../plugins/brightness/WifiDisplays.qml:128
 #: ../plugins/brightness/WifiDisplays.qml:172
-#, fuzzy
 msgid "Not connected"
-msgstr "لم يكتشف شيئا"
+msgstr "لم يتصل"
 
 #: ../plugins/brightness/WifiDisplays.qml:27
 msgid "Wireless Display"
-msgstr ""
+msgstr "شاشة عرض لاسلكية"
 
 #: ../plugins/brightness/WifiDisplays.qml:100
-#, fuzzy
 msgid "No displays detected"
-msgstr "لم يكتشف شيئا"
+msgstr "لم يكتشف أي شاشة عرض"
 
 #: ../plugins/brightness/WifiDisplays.qml:113
 msgid "Connected display:"
-msgstr ""
+msgstr "شاشة عرض متصلة:"
 
 #: ../plugins/brightness/WifiDisplays.qml:128
-#, fuzzy
 msgid "Connecting"
-msgstr "اقطع الاتصال"
+msgstr "يتصل"
 
 #: ../plugins/brightness/WifiDisplays.qml:146
 msgid "Use another display:"
-msgstr ""
+msgstr "استخدم شاشة عرض أخرى:"
 
 #: ../plugins/brightness/WifiDisplays.qml:146
-#, fuzzy
 msgid "Choose a display:"
-msgstr "اختيار عبارة سرية"
+msgstr "اختر شاشة عرض:"
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:32
-#, fuzzy, qt-format
+#, qt-format
 msgid "This device failed to connect to %1."
-msgstr "اقطع الاتصال"
+msgstr "فشل الاتصال بـ %1."
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:34
 #, qt-format
 msgid "There was an unknown error connecting to %1."
-msgstr ""
+msgstr "حدث خطأ عير معروف أثناء الاتصال بـ %1."
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:38
 #: ../plugins/phone/CallForwarding.qml:305
@@ -782,11 +777,11 @@ msgstr ""
 #: ../plugins/vpn/PageComponent.qml:123
 #: ../plugins/cellular/Components/SimEditor.qml:214
 msgid "OK"
-msgstr ""
+msgstr "موافق"
 
 #: ../plugins/cellular/PageApnEditor.qml:71
 msgid "Edit"
-msgstr "تحرير"
+msgstr "حرر"
 
 #: ../plugins/cellular/PageApnEditor.qml:71
 msgid "New APN"
@@ -794,7 +789,7 @@ msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:132
 msgid "Used for:"
-msgstr ""
+msgstr "يستخدم لـ:"
 
 #: ../plugins/cellular/PageApnEditor.qml:136
 #: ../plugins/cellular/PageChooseApn.qml:107
@@ -804,7 +799,7 @@ msgstr ""
 #: ../plugins/cellular/PageApnEditor.qml:137
 #: ../plugins/cellular/PageChooseApn.qml:109
 msgid "Internet"
-msgstr ""
+msgstr "إنترنت"
 
 #: ../plugins/cellular/PageApnEditor.qml:138
 #: ../plugins/cellular/PageChooseApn.qml:113
@@ -843,7 +838,7 @@ msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:234
 msgid "Proxy"
-msgstr ""
+msgstr "وسيط"
 
 #: ../plugins/cellular/PageApnEditor.qml:244
 msgid "Enter message proxy"
@@ -851,35 +846,33 @@ msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:289
 msgid "Proxy port"
-msgstr ""
+msgstr "منفذ الوسيط"
 
 #: ../plugins/cellular/PageApnEditor.qml:300
 msgid "Enter message proxy port"
 msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:318
-#, fuzzy
 msgid "User name"
-msgstr "حسب الاسم"
+msgstr "اسم مستخدم"
 
 #: ../plugins/cellular/PageApnEditor.qml:328
 msgid "Enter username"
-msgstr ""
+msgstr "أدخل اسم المستخدم"
 
 #: ../plugins/cellular/PageApnEditor.qml:341
 #: ../plugins/wifi/NetworkDetails.qml:72 ../plugins/wifi/OtherNetwork.qml:786
 msgid "Password"
-msgstr ""
+msgstr "كلمة السر"
 
 #: ../plugins/cellular/PageApnEditor.qml:353
 msgid "Enter password"
-msgstr ""
+msgstr "أدخل كلمة السر"
 
 #: ../plugins/cellular/PageApnEditor.qml:367
 #: ../plugins/wifi/OtherNetwork.qml:338
-#, fuzzy
 msgid "Authentication"
-msgstr "تدوير الشاشة"
+msgstr "استيثاق"
 
 #: ../plugins/cellular/PageApnEditor.qml:372
 msgid "PAP or CHAP"
@@ -897,19 +890,19 @@ msgstr "الهاتف فقط"
 
 #: ../plugins/cellular/PageApnEditor.qml:385
 msgid "Protocol"
-msgstr ""
+msgstr "الميفاق"
 
 #: ../plugins/cellular/PageApnEditor.qml:389
 msgid "IPv4"
-msgstr ""
+msgstr "IPv4"
 
 #: ../plugins/cellular/PageApnEditor.qml:390
 msgid "IPv6"
-msgstr ""
+msgstr "IPv6"
 
 #: ../plugins/cellular/PageApnEditor.qml:391
 msgid "IPv4v6"
-msgstr ""
+msgstr "IPv4v6"
 
 #: ../plugins/cellular/PageCarrierAndApn.qml:27
 #: ../plugins/cellular/Components/SingleSim.qml:110
@@ -941,9 +934,8 @@ msgid "LTE APN"
 msgstr ""
 
 #: ../plugins/cellular/PageChooseApn.qml:156
-#, fuzzy
 msgid "Reset All APN Settings…"
-msgstr "أعد ضبط جميع إعدادات النظام..."
+msgstr "أعد ضبط جميع إعدادات APN…"
 
 #: ../plugins/cellular/PageChooseApn.qml:165
 msgid "Reset APN Settings"
@@ -956,7 +948,7 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../plugins/cellular/PageChooseApn.qml:169 ../build/po/settings.js:294
 msgid "Reset"
-msgstr ""
+msgstr "صفِّر"
 
 #. TRANSLATORS: %1 is the MMS APN that the user has chosen to be
 #. “preferred”.
@@ -986,34 +978,33 @@ msgstr ""
 
 #: ../plugins/cellular/PageChooseApn.qml:232
 #: ../plugins/cellular/PageChooseApn.qml:265
-#, fuzzy
 msgid "Disable"
-msgstr "لوحي"
+msgstr "عطّل"
 
 #: ../plugins/cellular/PageChooseApn.qml:254
-#, fuzzy, qt-format
+#, qt-format
 msgid "Disconnect %1"
-msgstr "اقطع الاتصال"
+msgstr "اقطع الاتصال ب %1"
 
 #: ../plugins/cellular/PageChooseApn.qml:255
 #, qt-format
 msgid "Disable %1"
-msgstr ""
+msgstr "عطّل %1"
 
 #: ../plugins/cellular/PageChooseApn.qml:260
-#, fuzzy, qt-format
+#, qt-format
 msgid "This disconnects %1."
-msgstr "اقطع الاتصال"
+msgstr "يقطع الاتصال بـ %1."
 
 #: ../plugins/cellular/PageChooseApn.qml:261
 #, qt-format
 msgid "This disables %1."
-msgstr ""
+msgstr "يعطل %1."
 
 #: ../plugins/cellular/PageChooseApn.qml:303
 #: ../plugins/printing/PageComponent.qml:136
 msgid "Delete"
-msgstr "حذف"
+msgstr "احذف"
 
 #: ../plugins/cellular/PageChooseCarrier.qml:153
 #: ../plugins/time-date/ChooseTimeZone.qml:51
@@ -1028,11 +1019,11 @@ msgstr "شبكة الاتصال الخلوي"
 
 #: ../plugins/hotspot/Common.qml:34 ../plugins/wifi/Common.qml:36
 msgid "Unknown error"
-msgstr ""
+msgstr "خطأ مجهول"
 
 #: ../plugins/hotspot/Common.qml:36 ../plugins/wifi/Common.qml:38
 msgid "No reason given"
-msgstr ""
+msgstr "لم يُعطى سبب"
 
 #: ../plugins/hotspot/Common.qml:38 ../plugins/wifi/Common.qml:40
 msgid "Device is now managed"
@@ -1053,11 +1044,11 @@ msgstr ""
 
 #: ../plugins/hotspot/Common.qml:46 ../plugins/wifi/Common.qml:48
 msgid "The IP configuration is no longer valid"
-msgstr ""
+msgstr "تضبيطات IP لم تعد صالحة"
 
 #: ../plugins/hotspot/Common.qml:48 ../plugins/wifi/Common.qml:50
 msgid "Your authentication details were incorrect"
-msgstr ""
+msgstr "معلومات الاستيثاق خاطئة"
 
 #: ../plugins/hotspot/Common.qml:50 ../plugins/wifi/Common.qml:52
 msgid "802.1X supplicant disconnected"
@@ -1077,19 +1068,20 @@ msgstr ""
 
 #: ../plugins/hotspot/Common.qml:58 ../plugins/wifi/Common.qml:60
 msgid "DHCP client failed to start"
-msgstr ""
+msgstr "فشل تشغيل عميل DHCP"
 
 #: ../plugins/hotspot/Common.qml:60 ../plugins/wifi/Common.qml:62
 msgid "DHCP client error"
-msgstr ""
+msgstr "خطأ في عميل DHCP"
 
 #: ../plugins/hotspot/Common.qml:62 ../plugins/wifi/Common.qml:64
 msgid "DHCP client failed"
-msgstr ""
+msgstr "فشل عميل DHCP"
 
 #: ../plugins/hotspot/Common.qml:64 ../plugins/wifi/Common.qml:66
+#, fuzzy
 msgid "Shared connection service failed to start"
-msgstr ""
+msgstr "فشل تشغيل خدمة مشاركة الاتصال"
 
 #: ../plugins/hotspot/Common.qml:66 ../plugins/wifi/Common.qml:68
 msgid "Shared connection service failed"
@@ -1101,19 +1093,19 @@ msgstr ""
 
 #: ../plugins/hotspot/Common.qml:70 ../plugins/wifi/Common.qml:72
 msgid "The device was removed"
-msgstr ""
+msgstr "أُزيل الجهاز"
 
 #: ../plugins/hotspot/Common.qml:72 ../plugins/wifi/Common.qml:74
 msgid "NetworkManager went to sleep"
-msgstr ""
+msgstr "أُسبت مدير الشبكة"
 
 #: ../plugins/hotspot/Common.qml:74 ../plugins/wifi/Common.qml:76
 msgid "The device's active connection disappeared"
-msgstr ""
+msgstr "اختفى الاتصال النشط للجهاز"
 
 #: ../plugins/hotspot/Common.qml:76 ../plugins/wifi/Common.qml:78
 msgid "Device disconnected by user or client"
-msgstr ""
+msgstr "قطع المستخدم أو العميل الاتصال"
 
 #: ../plugins/hotspot/Common.qml:78 ../plugins/wifi/Common.qml:80
 msgid "The device's existing connection was assumed"
@@ -1125,11 +1117,11 @@ msgstr ""
 
 #: ../plugins/hotspot/Common.qml:82 ../plugins/wifi/Common.qml:84
 msgid "The modem could not be found"
-msgstr ""
+msgstr "تعذر العثور على المودم"
 
 #: ../plugins/hotspot/Common.qml:84 ../plugins/wifi/Common.qml:86
 msgid "The Bluetooth connection failed or timed out"
-msgstr ""
+msgstr "فشل اتصال بلوتوث أو انتهت مهلته"
 
 #: ../plugins/hotspot/Common.qml:86 ../plugins/wifi/Common.qml:88
 msgid "A dependency of the connection failed"
@@ -1137,11 +1129,11 @@ msgstr ""
 
 #: ../plugins/hotspot/Common.qml:88 ../plugins/wifi/Common.qml:90
 msgid "ModemManager is unavailable"
-msgstr ""
+msgstr "مدير المودم ليس متاحًا"
 
 #: ../plugins/hotspot/Common.qml:90 ../plugins/wifi/Common.qml:92
 msgid "The Wi-Fi network could not be found"
-msgstr ""
+msgstr "لم يُعثر على اتصال الواي فاي"
 
 #: ../plugins/hotspot/Common.qml:92 ../plugins/wifi/Common.qml:94
 msgid "A secondary connection of the base connection failed"
@@ -1149,39 +1141,38 @@ msgstr ""
 
 #: ../plugins/hotspot/HotspotSetup.qml:61
 msgid "Change Hotspot Setup"
-msgstr ""
+msgstr "غيّر إعداد نقطة الاتصال"
 
 #: ../plugins/hotspot/HotspotSetup.qml:61
 msgid "Set Up Hotspot"
-msgstr ""
+msgstr "أعدد نقطة اتصال"
 
 #: ../plugins/hotspot/HotspotSetup.qml:167
 msgid "Hotspot name"
-msgstr ""
+msgstr "اسم نقطة الاتصال"
 
 #: ../plugins/hotspot/HotspotSetup.qml:168
-#, fuzzy
 msgid "Choose a name"
-msgstr "اختيار عبارة سرية"
+msgstr "اختر اسمًا"
 
 #: ../plugins/hotspot/HotspotSetup.qml:185
 msgid "Require a password (recommended):"
-msgstr ""
+msgstr "كلمة السر مطلوبة (مستحسن):"
 
 #: ../plugins/hotspot/HotspotSetup.qml:216
 #: ../plugins/wifi/NetworkDetails.qml:86 ../plugins/wifi/OtherNetwork.qml:821
 msgid "Show password"
-msgstr ""
+msgstr "اعرض كلمة السر"
 
 #: ../plugins/hotspot/HotspotSetup.qml:237
 msgid "Starting the hotspot will turn on Wi-Fi."
-msgstr ""
+msgstr "تشغيل نقطة الاتصال سيفعل الواي فاي."
 
 #: ../plugins/hotspot/HotspotSetup.qml:266
 #: ../plugins/security-privacy/LockSecurity.qml:389
 #: ../plugins/security-privacy/SimPin.qml:187
 msgid "Change"
-msgstr ""
+msgstr "غيِّر"
 
 #: ../plugins/hotspot/HotspotSetup.qml:267
 msgid "Start"
@@ -1191,7 +1182,7 @@ msgstr ""
 #: ../plugins/hotspot/PageComponent.qml:33
 #: ../plugins/hotspot/PageComponent.qml:85 ../build/po/settings.js:160
 msgid "Hotspot"
-msgstr ""
+msgstr "نقطة اتصال"
 
 #: ../plugins/hotspot/PageComponent.qml:114
 msgid ""
@@ -1587,7 +1578,7 @@ msgstr ""
 #: ../plugins/phone/CallForwarding.qml:45 ../plugins/phone/MultiSim.qml:54
 #: ../plugins/phone/NoSims.qml:28 ../plugins/phone/SingleSim.qml:42
 msgid "Call forwarding"
-msgstr "تحويل المكالمات"
+msgstr "تحويل المكالمة"
 
 #: ../plugins/phone/CallForwarding.qml:131
 msgid "Forward every incoming call"
@@ -1639,7 +1630,7 @@ msgstr ""
 
 #: ../plugins/phone/CallForwarding.qml:382
 msgid "All calls"
-msgstr ""
+msgstr "كل المكالمات"
 
 #: ../plugins/phone/CallForwarding.qml:384
 #, fuzzy
@@ -1696,7 +1687,7 @@ msgstr ""
 
 #: ../plugins/phone/ServiceInfo.qml:119
 msgid "Call"
-msgstr "اتصال"
+msgstr "اتصل"
 
 #. TRANSLATORS: %1 is the name of the (network) carrier
 #: ../plugins/phone/Services.qml:36 ../plugins/phone/SingleSim.qml:55
@@ -3120,12 +3111,13 @@ msgid "Shared"
 msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:30
+#, fuzzy
 msgid "Idle"
-msgstr ""
+msgstr "ساكن"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:32
 msgid "Aborted"
-msgstr ""
+msgstr "أُلغي"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:34
 msgid "Active"
@@ -3133,7 +3125,7 @@ msgstr "نشطة"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:36
 msgid "Stopped"
-msgstr ""
+msgstr "متوقف"
 
 #. TRANSLATORS: %1 is the overall state of the printer, %2 is a more
 #. detailed message from the printer itself.
@@ -3143,9 +3135,8 @@ msgid "%1 — %2"
 msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:43
-#, fuzzy
 msgid "No messages"
-msgstr "الرسائل:"
+msgstr "لا رسائل"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:48
 msgid "Jobs"
