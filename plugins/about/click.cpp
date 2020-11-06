@@ -43,119 +43,92 @@ ClickModel::ClickModel(QObject *parent):
  *
  * Will set with information from the first desktop or ini file found and parsed.
  */
-void ClickModel::populateFromDesktopOrIniFile (Click *newClick,
-                                               QVariantMap hooks,
-                                               QDir directory,
-                                               QString name)
+void ClickModel::populateFromDesktopFile (Click *newClick,
+                                          QVariantMap hooks,
+                                          const QString& name,
+                                          const QString& version)
 {
     QVariantMap appHooks;
-    GKeyFile *appinfo = g_key_file_new();
-    gchar *desktopOrIniFileName = nullptr;
+    gchar *desktopFileName = nullptr;
 
     QVariantMap::ConstIterator begin(hooks.constBegin());
     QVariantMap::ConstIterator end(hooks.constEnd());
 
-    const gchar *keyGroup = G_KEY_FILE_DESKTOP_GROUP;
-    const gchar *keyName = G_KEY_FILE_DESKTOP_KEY_NAME;
-
-    // Look through the hooks for a 'desktop' key which points to a desktop
-    // file referring to this app, or a 'scope' key pointing to an ini
+    // Look through the hooks for first 'desktop' key for an icon to use
     while (begin != end) {
+        GKeyFile *appinfo = g_key_file_new();
+        auto app = begin.key();
         appHooks = (*begin++).toMap();
-        if (!appHooks.isEmpty() &&
-            (appHooks.contains("desktop") || appHooks.contains("scope")) &&
-            directory.exists()) {
 
-            if (appHooks.contains("scope"))
-            {
-                keyGroup = "ScopeConfig";
-                keyName = "DisplayName";
-                QString scope(appHooks.value("scope", "").toString());
+        if (!appHooks.isEmpty() && appHooks.contains("desktop")) {
+            auto appid = g_strdup_printf("%s_%s_%s.desktop",
+                                         name.toLocal8Bit().constData(),
+                                         app.toLocal8Bit().constData(),
+                                         version.toLocal8Bit().constData());
+            g_debug ("Checking app: %s", appid);
 
-                QDir scopeDirectory(directory.absoluteFilePath(scope));
+            desktopFileName =
+                g_build_filename(g_get_user_data_dir(),
+                                 "applications",
+                                 appid,
+                                 nullptr);
+            g_free (appid);
 
-                /* the config is 'name_scope.ini' */
-                QFile desktopOrIniFile(scopeDirectory.absoluteFilePath(
-                                           name + "_" + scope + ".ini"));
-                desktopOrIniFileName =
-                        g_strdup(desktopOrIniFile.fileName().toLocal8Bit().constData());
-                if (!desktopOrIniFile.exists())
-                    goto out;
+            if (!QFile::exists(desktopFileName))
+                goto out;
 
-                /* replace directory so the icon is correctly loaded */
-                directory = scopeDirectory;
-            }
-            else
-            {
-                keyGroup = G_KEY_FILE_DESKTOP_GROUP;
-                keyName = G_KEY_FILE_DESKTOP_KEY_NAME;
-
-                QFile desktopOrIniFile(directory.absoluteFilePath(
-                                      appHooks.value("desktop", "undefined").toString()));
-
-                desktopOrIniFileName =
-                   g_strdup(desktopOrIniFile.fileName().toLocal8Bit().constData());
-
-                if (!desktopOrIniFile.exists())
-                    goto out;
-            }
-
-            g_debug ("Desktop or ini file: %s", desktopOrIniFileName);
-
+            g_debug ("Desktop file: %s", desktopFileName);
 
 
             gboolean loaded = g_key_file_load_from_file(appinfo,
-                                                        desktopOrIniFileName,
+                                                        desktopFileName,
                                                         G_KEY_FILE_NONE,
                                                         nullptr);
 
             if (!loaded) {
-                g_warning ("Couldn't parse desktop or ini file %s", desktopOrIniFileName);
+                g_warning ("Couldn't parse desktop file %s", desktopFileName);
                 goto out;
             }
 
-            gchar * name = g_key_file_get_locale_string (appinfo,
-                                                  keyGroup,
-                                                  keyName,
-                                                  nullptr,
-                                                  nullptr);
+            // Only load display name if not set from click manifest
+            if (newClick->displayName.isEmpty()) {
+                gchar * title = g_key_file_get_locale_string (appinfo,
+                                                              G_KEY_FILE_DESKTOP_GROUP,
+                                                              G_KEY_FILE_DESKTOP_KEY_NAME,
+                                                              nullptr,
+                                                              nullptr);
 
-            if (name) {
-                g_debug ("Name is %s", name);
-                newClick->displayName = name;
-                g_free (name);
-                name = nullptr;
+                if (title) {
+                    g_debug ("Title is %s", title);
+                    newClick->displayName = title;
+                    g_free (title);
+                    title = nullptr;
+                }
             }
 
             // Overwrite the icon with the .desktop or ini file's one if we have it.
             // This is the one that the app scope displays so use that if we
             // can.
             gchar * icon = g_key_file_get_string (appinfo,
-                                                  keyGroup,
+                                                  G_KEY_FILE_DESKTOP_GROUP,
                                                   G_KEY_FILE_DESKTOP_KEY_ICON,
                                                   nullptr);
 
             if (icon) {
                 g_debug ("Icon is %s", icon);
-                QFile iconFile(icon);
-                if (iconFile.exists()) {
+                if (QFile::exists(icon)) {
                     newClick->icon = icon;
-                } else {
-                    QString qIcon(QString::fromLocal8Bit(icon));
-                    iconFile.setFileName(directory.absoluteFilePath(
-                                QDir::cleanPath(qIcon)));
-                    if (iconFile.exists())
-                        newClick->icon = iconFile.fileName();
-                    else if (QIcon::hasThemeIcon(qIcon)) // try the icon theme
-                        newClick->icon = QString("icon://theme/%1").arg(qIcon);
                 }
-                goto out;
+                g_free(icon);
             }
         }
 out:
-        g_free (desktopOrIniFileName);
+        g_free (desktopFileName);
         g_key_file_free (appinfo);
-        return;
+
+        if (!newClick->icon.isEmpty()) {
+            break;
+        }
     }
 }
 
@@ -164,8 +137,8 @@ ClickModel::Click ClickModel::buildClick(QVariantMap manifest)
     Click newClick;
     QDir directory;
 
-    newClick.name = manifest.value("title",
-                              gettext("Unknown title")).toString();
+    newClick.displayName = manifest.value("title",
+                                          gettext("Unknown title")).toString();
 
     // This key is the base directory where the click package is installed to.
     // We'll look for files relative to this.
@@ -188,10 +161,10 @@ ClickModel::Click ClickModel::buildClick(QVariantMap manifest)
     QVariant hooks(manifest.value("hooks"));
 
     if (hooks.isValid()) {
-        QVariantMap allHooks(hooks.toMap());
-        // The desktop or ini file contains an icon and the display name
-        populateFromDesktopOrIniFile(&newClick, allHooks, directory,
-                                     manifest.value("name", "").toString());
+        auto name = manifest.value("name", "unknown").toString();
+        auto version = manifest.value("version", "0.0").toString();
+        // Load the icon from the first app hook's desktop file
+        populateFromDesktopFile(&newClick, hooks.toMap(), name, version);
    }
 
     newClick.installSize = manifest.value("installed-size",
@@ -289,10 +262,7 @@ QVariant ClickModel::data(const QModelIndex &index, int role) const
 
     switch (role) {
     case Qt::DisplayRole:
-        if (click.displayName.isEmpty() || click.displayName.isNull())
-            return click.name;
-        else
-            return click.displayName;
+        return click.displayName;
     case InstalledSizeRole:
         return click.installSize;
     case IconRole:
