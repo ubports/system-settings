@@ -167,110 +167,110 @@ ItemPage {
             }
 
             Flickable {
-        id: scrollWidget
-        anchors.fill: parent
-        contentHeight: columnId.height
+            id: scrollWidget
+            anchors.fill: parent
+            contentHeight: columnId.height
 
-        Component.onCompleted: storagePage.flickable = scrollWidget
+            Component.onCompleted: storagePage.flickable = scrollWidget
 
-        Column {
-            id: columnId
-            anchors.left: parent.left
-            anchors.right: parent.right
-
-            SettingsListItems.SingleValue {
-                id: diskItem
-                objectName: "diskItem"
-                text: i18n.tr("Total storage")
-                value: Utilities.formatSize(diskSpace)
-                showDivider: false
-            }
-
-            StorageBar {
-                ready: backendInfo.ready
-            }
-
-            StorageItem {
-                objectName: "storageItem"
-                colorName: theme.palette.normal.foreground
-                label: i18n.tr("Free space")
-                value: freediskSpace
-                ready: backendInfo.ready
-            }
-
-            Repeater {
-                model: spaceColors
-
-                StorageItem {
-                    objectName: spaceObjectNames[index]
-                    colorName: modelData
-                    label: spaceLabels[index]
-                    value: spaceValues[index]
-                    ready: backendInfo.ready
-                }
-            }
-
-            ListItem {
-                objectName: "installedAppsItemSelector"
-                height: layout.height + (divider.visible ? divider.height : 0)
-                divider.visible: false
-                SlotsLayout {
-                    id: layout
-                    mainSlot: OptionSelector {
-                        id: valueSelect
-                        width: parent.width - 2 * (layout.padding.leading + layout.padding.trailing)
-                        model: [i18n.tr("By name"), i18n.tr("By size")]
-                        onSelectedIndexChanged:
-                            settingsId.storageSortByName = (selectedIndex == 0)
-                                                           // 0 → by name, 1 → by size
-                    }
-                }
-            }
-
-            Binding {
-                target: valueSelect
-                property: 'selectedIndex'
-                value: (backendInfo.sortRole === ClickRoles.DisplayNameRole) ?
-                        0 :
-                        1
-            }
-
-            ListView {
-                objectName: "installedAppsListView"
+            Column {
+                id: columnId
                 anchors.left: parent.left
                 anchors.right: parent.right
-                height: childrenRect.height
-                /* Deactivate the listview flicking, we want to scroll on the
-                 * column */
-                interactive: false
-                model: backendInfo.clickList
-                delegate: ListItem {
-                    objectName: "appItem" + displayName
-                    height: appItemLayout.height + (divider.visible ? divider.height : 0)
 
-                    ListItemLayout {
-                        id: appItemLayout
-                        title.text: displayName
-                        height: units.gu(6)
+                SettingsListItems.SingleValue {
+                    id: diskItem
+                    objectName: "diskItem"
+                    text: i18n.tr("Total storage")
+                    value: Utilities.formatSize(diskSpace)
+                    showDivider: false
+                }
 
-                        IconWithFallback {
-                            SlotsLayout.position: SlotsLayout.First
-                            height: units.gu(4)
-                            source: iconPath
-                            fallbackSource: "image://theme/clear"
+                StorageBar {
+                    ready: backendInfo.ready
+                }
+                
+                StorageItem {
+                    objectName: "storageItem"
+                    colorName: theme.palette.normal.foreground
+                    label: i18n.tr("Free space")
+                    value: freediskSpace
+                    ready: backendInfo.ready
+                }
+
+                Repeater {
+                    model: spaceColors
+
+                    StorageItem {
+                        objectName: spaceObjectNames[index]
+                        colorName: modelData
+                        label: spaceLabels[index]
+                        value: spaceValues[index]
+                        ready: backendInfo.ready
+                    }
+                }
+
+                ListItem {
+                    objectName: "installedAppsItemSelector"
+                    height: layout.height + (divider.visible ? divider.height : 0)
+                    divider.visible: false
+                    SlotsLayout {
+                        id: layout
+                        mainSlot: OptionSelector {
+                            id: valueSelect
+                            width: parent.width - 2 * (layout.padding.leading + layout.padding.trailing)
+                            model: [i18n.tr("By name"), i18n.tr("By size")]
+                            onSelectedIndexChanged:
+                                settingsId.storageSortByName = (selectedIndex == 0)
+                                                               // 0 → by name, 1 → by size
                         }
-                        Label {
-                            SlotsLayout.position: SlotsLayout.Last
-                            horizontalAlignment: Text.AlignRight
-                            text: installedSize ?
-                                    Utilities.formatSize(installedSize) :
-                                    i18n.tr("N/A")
+                    }
+                }
+
+                Binding {
+                    target: valueSelect
+                    property: 'selectedIndex'
+                    value: (backendInfo.sortRole === ClickRoles.DisplayNameRole) ?
+                            0 :
+                            1
+                }
+
+                ListView {
+                    objectName: "installedAppsListView"
+                    anchors.left: parent.left
+                    anchors.right: parent.right
+                    height: childrenRect.height
+                    /* Deactivate the listview flicking, we want to scroll on the
+                     * column */
+                    interactive: false
+                    model: backendInfo.clickList
+                    delegate: ListItem {
+                        objectName: "appItem" + displayName
+                        height: appItemLayout.height + (divider.visible ? divider.height : 0)
+
+                        ListItemLayout {
+                            id: appItemLayout
+                            title.text: displayName
+                            height: units.gu(6)
+
+                            IconWithFallback {
+                                SlotsLayout.position: SlotsLayout.First
+                                height: units.gu(4)
+                                source: iconPath
+                                fallbackSource: "image://theme/clear"
+                            }
+                            Label {
+                                SlotsLayout.position: SlotsLayout.Last
+                                horizontalAlignment: Text.AlignRight
+                                text: installedSize ?
+                                        Utilities.formatSize(installedSize) :
+                                        i18n.tr("N/A")
+                            }
                         }
                     }
                 }
             }
         }
-    }
         }
     }
 }
