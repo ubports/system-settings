@@ -30,6 +30,7 @@ Item {
         anchors.fill: parent
 
         Repeater {
+            id: colorsRepeater
             model: spaceColors
 
             Rectangle {
@@ -41,6 +42,22 @@ Item {
                         duration: UbuntuAnimation.SlowDuration
                         easing: UbuntuAnimation.StandardEasing
                     }
+                }
+                Rectangle {
+                    height: parent.height
+                    width: Math.min(units.dp(1), parent.width) / 2
+                    color: theme.palette.normal.background
+                    anchors.left: parent.left
+                    z: parent.z +1
+                    visible: index != 0
+                }
+                Rectangle {
+                    height: parent.height
+                    width: Math.min(units.dp(1), parent.width) / 2
+                    color: theme.palette.normal.background
+                    anchors.right: parent.right
+                    z: parent.z +1
+                    visible: index != colorsRepeater.count - 1
                 }
             }
         }

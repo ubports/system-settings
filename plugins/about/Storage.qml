@@ -105,16 +105,16 @@ ItemPage {
                                                backendInfo.libertineSize
             //TODO: Let's consider use unified colors in a ¿file?
             property variant spaceColors: [
-                UbuntuColors.orange,
-                "#a52a00", //System Maroon
-                "#006a97", //System Blue
-                "#198400", //Dark System Green
-                "#9542c4", //from suru colors app
-                "#d07810", //from suru colors app
-                "#009688", //Anbox greenish
-                "#5d5d5d", //Libertine grey hat
-                "#f5d412", //System Yellow
-                UbuntuColors.lightAubergine]
+                "#f67936",
+                "#f8ae46",
+                "#edb55f",
+                "#d1c35f",
+                "#9dd93f",
+                "#82ce5f",
+                "#76a8b6",
+                "#8891c1",
+                "#a77eaa",
+                "#cb556c"]
             property variant spaceLabels: [
                 i18n.tr("Used by Ubuntu"),
                 i18n.tr("Videos"),
