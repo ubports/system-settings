@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2020-10-28 18:48+0000\n"
+"PO-Revision-Date: 2020-11-01 14:25+0000\n"
 "Last-Translator: Anne Onyme <anneonyme017@netcourrier.com>\n"
 "Language-Team: French <https://translate.ubports.com/projects/ubports/"
 "system-settings/fr/>\n"
@@ -1151,7 +1151,7 @@ msgstr "Le démarrage du point d'accès allumera le Wi-Fi."
 #: ../plugins/security-privacy/LockSecurity.qml:389
 #: ../plugins/security-privacy/SimPin.qml:187
 msgid "Change"
-msgstr "Changer"
+msgstr "Modifier"
 
 #: ../plugins/hotspot/HotspotSetup.qml:267
 msgid "Start"
