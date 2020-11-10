@@ -26,5 +26,6 @@ __pycache__
 *.gch
 tests/autopilot/ubuntu_system_settings.egg-info/
 obj-arm-linux-gnueabihf/
+obj-aarch64-linux-gnu/
 debian/debhelper-build-stamp
 *.substvars
