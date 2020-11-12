@@ -46,6 +46,10 @@
 #include <hybris/properties/properties.h>
 #include <QDBusReply>
 
+#define CACHE_FOLDER "/home/phablet/.cache/"
+#define APPDATA_FOLDER "/home/phablet/.local/share/"
+#define CONFIG_FOLDER "/home/phablet/.config/"
+
 namespace {
     const QString PROPERTY_SERVICE_PATH = "/com/canonical/PropertyService";
     const QString PROPERTY_SERVICE_OBJ = "com.canonical.PropertyService";
@@ -287,6 +291,31 @@ void StorageAbout::setSortRole(ClickModel::Roles newRole)
 quint64 StorageAbout::getClickSize() const
 {
     return m_clickModel.getClickSize();
+}
+
+quint64 StorageAbout::getBiggestAppTotalSize() const
+{
+    return m_clickModel.getBiggestAppTotalSize();
+}
+
+QVariant StorageAbout::getBiggestInstallSize() const
+{
+    return m_clickModel.getBiggestInstallSize();
+}
+
+quint64 StorageAbout::getBiggestConfigSize() const
+{
+    return m_clickModel.getBiggestConfigSize();
+}
+
+quint64 StorageAbout::getBiggestCacheSize() const
+{
+    return m_clickModel.getBiggestCacheSize();
+}
+
+quint64 StorageAbout::getBiggestDataSize() const
+{
+    return m_clickModel.getBiggestDataSize();
 }
 
 quint64 StorageAbout::getMoviesSize()

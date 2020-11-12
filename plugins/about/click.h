@@ -62,6 +62,11 @@ public:
     QVariant data (const QModelIndex &index, int role = Qt::DisplayRole) const;
     QHash<int, QByteArray> roleNames() const;
     quint64 getClickSize() const;
+    quint64 getBiggestAppTotalSize() const;
+    quint64 getBiggestConfigSize() const;
+    quint64 getBiggestCacheSize() const;
+    quint64 getBiggestDataSize() const;
+    quint64 getBiggestInstallSize() const;
 
 private:
     void populateFromDesktopOrIniFile(Click *newClick,
@@ -73,6 +78,11 @@ private:
 
     QList<Click> m_clickPackages;
     int m_totalClickSize;
+    uint m_biggestAppTotalSize;
+    uint m_biggestConfigSize;
+    uint m_biggestCacheSize;
+    uint m_biggestDataSize;
+    uint m_biggestInstallSize;
 
 };
 

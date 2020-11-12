@@ -158,8 +158,7 @@ ItemPage {
             UbuntuStorageAboutPanel {
                 id: backendInfo
                 property bool ready: false
-                // All of these events come simultaneously
-                onMoviesSizeChanged: ready = true
+                onSizeReady: ready = true
                 Component.onCompleted: populateSizes()
                 sortRole: {
                     switch(settingsId.storageSort) {
@@ -176,7 +175,7 @@ ItemPage {
                     case "config-size":
                         return ClickRoles.ConfigSizeRole;
                     default:
-                        console.log("Unhandled sort role")
+                        console.log("Unhandled sort role: "+settingsId.storageSort)
                         return ClickRoles.DisplayNameRole;
                     }
                 }
@@ -262,80 +261,49 @@ ItemPage {
                         }
                     }
 
-                    ListItem {
-                        height: rowL.height + (divider.visible ? divider.height : 0) + units.gu(1)
-                        divider.visible: false
-                        RowLayout {
-                            id: rowL
-                            width: parent.width - units.gu(4)
-                            anchors.horizontalCenter: parent.horizontalCenter
-                            anchors.top: parent.top
-                            spacing: 0
-                            Repeater {
-                                id: repeater
-                                model: [
-                                {text: i18n.tr("Installed"), color: "#f89b0f"},
-                                {text: i18n.tr("Config"), color: "#0e8cba"},
-                                {text: i18n.tr("Data"), color: "#198400"},
-                                {text: i18n.tr("Cache"), color: "#ec2259"}
-                                ]
-                                Label {
-                                    Layout.fillWidth: true
-                                    text: modelData.text
-                                    textSize: Label.Small
-                                    color: theme.palette.normal.backgroundSecondaryText
-                                    horizontalAlignment: Text.AlignHCenter
-                                    Layout.preferredHeight: contentHeight + underline.height + units.gu(0.5)
-                                    Rectangle {
-                                        id: underline
-                                        color: modelData.color
-                                        width: parent.width
-                                        height: units.gu(0.75)
-                                        anchors.bottom: parent.bottom
-                                    }
-                                }
-                            }
-                        }
-                    }
-
                     Binding {
                         target: valueSelect
                         property: 'selectedIndex'
                         value: {
                             switch(backendInfo.sortRole) {
                             case ClickRoles.DisplayNameRole:
-                                return 0;
+                                return 0
                             case ClickRoles.InstalledSizeRole:
-                                return 1;
+                                return 1
                             case ClickRoles.CacheSizeRole:
-                                return 2;
+                                return 2
                             case ClickRoles.ConfigSizeRole:
-                                return 3;
+                                return 3
                             case ClickRoles.DataSizeRole:
-                                return 4;
+                                return 4
                             case ClickRoles.AppTotalSizeRole:
-                                return 5;
+                                return 5
                             }
                         }
                     }
 
                     ListView {
+                        id: listView
                         objectName: "installedAppsListView"
-                        anchors.left: parent.left
-                        anchors.right: parent.right
+                        anchors {
+                            left: parent.left
+                            right: parent.right
+                        }
                         height: childrenRect.height
                         /* Deactivate the listview flicking, we want to scroll on the
                          * column */
                         interactive: false
                         model: backendInfo.clickList
+                        ViewItems.expansionFlags: ViewItems.CollapseOnOutsidePress
                         delegate: ListItem {
+                            id: appListItem
                             objectName: "appItem" + displayName
-                            height: appItemLayout.height + appStorageBar.height + (divider.visible ? divider.height : 0)
+                            height: h
+                            property var h: appItemLayout.height + (divider.visible ? divider.height : 0)
+                            expansion.height: h + expansionLoader.height
 
-                            ListItemLayout {
+                            SlotsLayout {
                                 id: appItemLayout
-                                title.text: displayName
-                                height: units.gu(6)
 
                                 IconWithFallback {
                                     SlotsLayout.position: SlotsLayout.First
@@ -343,38 +311,109 @@ ItemPage {
                                     source: iconPath
                                     fallbackSource: "image://theme/clear"
                                 }
-                                Label {
-                                    SlotsLayout.position: SlotsLayout.Last
-                                    horizontalAlignment: Text.AlignRight
-                                    text: {
-                                        switch (valueSelect.selectedIndex) {
-                                        case 0: case 5: default:
-                                            return Utilities.formatSize(appTotalSize)
-                                        case 1:
-                                            return installedSize ? Utilities.formatSize(installedSize) : i18n.tr("N/A")
-                                        case 2:
-                                            return Utilities.formatSize(cacheSize)
-                                        case 3:
-                                            return Utilities.formatSize(configSize)
-                                        case 4:
-                                            return Utilities.formatSize(dataSize)
+                                mainSlot: Column {
+                                    spacing: units.gu(1)
+                                    RowLayout {
+                                        width: parent.width
+                                        Label {
+                                            text: displayName
+                                            Layout.fillWidth: true
+                                        }
+                                        Label {
+                                            horizontalAlignment: Text.AlignRight
+                                            text: {
+                                                switch (valueSelect.selectedIndex) {
+                                                case 0: case 5: default:
+                                                    return Utilities.formatSize(appTotalSize)
+                                                case 1:
+                                                    return installedSize ? Utilities.formatSize(installedSize) : i18n.tr("N/A")
+                                                case 2:
+                                                    return Utilities.formatSize(cacheSize)
+                                                case 3:
+                                                    return Utilities.formatSize(configSize)
+                                                case 4:
+                                                    return Utilities.formatSize(dataSize)
+                                                }
+                                            }
                                         }
                                     }
-
+                                    Item {
+                                        height: units.gu(0.5)
+                                        width: parent.width
+                                        Rectangle {
+                                            color: theme.palette.normal.activity
+                                            radius: units.dp(2)
+                                            height: parent.height
+                                            property var arrayBiggestValue: [backendInfo.biggestAppTotalSize, backendInfo.biggestInstallSize, backendInfo.biggestCacheSize, backendInfo.biggestConfigSize, backendInfo.biggestDataSize, backendInfo.biggestAppTotalSize]
+                                            property var array: [appTotalSize, installedSize, cacheSize, configSize, dataSize, appTotalSize]
+                                            width: array[valueSelect.selectedIndex] / arrayBiggestValue[valueSelect.selectedIndex] * parent.width
+                                            Behavior on width { UbuntuNumberAnimation { duration: UbuntuAnimation.BriskDuration } }
+                                        }
+                                    }
                                 }
                             }
-                            StorageBar {
-                                id: appStorageBar
+
+                            Loader {
+                                id: expansionLoader
                                 anchors {
                                     top: appItemLayout.bottom
+                                    topMargin: units.gu(1)
+                                    horizontalCenter: parent.horizontalCenter
                                 }
-                                height: units.gu(2)
-                                barHeight: units.gu(1)
-                                model: ["#f89b0f", "#0e8cba", "#198400", "#ec2259"]
-                                segments: [installedSize, configSize, dataSize, cacheSize]
-                                totalBar: appTotalSize
-                                ready: true
+                                width: parent.width - units.gu(4)
+                                sourceComponent: Component {
+                                    Column {
+                                        spacing: units.gu(1)
+                                        bottomPadding: units.gu(3)
+                                        GridLayout {
+                                            anchors.left: parent.left
+                                            anchors.right: parent.right
+                                            columnSpacing: units.gu(2)
+                                            rowSpacing: units.gu(1)
+                                            rows: 4
+                                            flow: GridLayout.TopToBottom
+                                            Repeater {
+                                                id: mainRepeater
+                                                model: [
+                                                {text: i18n.tr("Application size"), value: installedSize},
+                                                {text: i18n.tr("Config size"), value: configSize},
+                                                {text: i18n.tr("Data size"), value: dataSize},
+                                                {text: i18n.tr("Cache size"), value: cacheSize}
+                                                ]
+                                                Column {
+                                                    Layout.fillWidth: true
+                                                    spacing: units.gu(1)
+                                                    Label {
+                                                        text: modelData.text
+                                                    }
+                                                    Item {
+                                                        height: units.gu(0.5)
+                                                        width: parent.width
+                                                        Rectangle {
+                                                            color: theme.palette.normal.activity
+                                                            radius: units.dp(2)
+                                                            height: parent.height
+                                                            width: modelData.value / appTotalSize * parent.width
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            Repeater {
+                                                model: [installedSize, configSize, dataSize, cacheSize]
+                                                Label {
+                                                    Layout.alignment: Qt.AlignRight
+                                                    textSize: Label.Small
+                                                    text: Utilities.formatSize(modelData)
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                active: appListItem.expansion.expanded
+
                             }
+
+                            onClicked: expansion.expanded = !expansion.expanded
                         }
                     }
                 }

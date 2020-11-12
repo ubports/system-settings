@@ -54,6 +54,26 @@ class StorageAbout : public QObject
                READ getClickSize
                CONSTANT)
 
+    Q_PROPERTY(quint64 biggestAppTotalSize
+               READ getBiggestAppTotalSize
+               CONSTANT)
+
+    Q_PROPERTY(QVariant biggestInstallSize
+               READ getBiggestInstallSize
+               CONSTANT)
+
+    Q_PROPERTY(quint64 biggestConfigSize
+               READ getBiggestConfigSize
+               CONSTANT)
+
+    Q_PROPERTY(quint64 biggestCacheSize
+               READ getBiggestCacheSize
+               CONSTANT)
+
+    Q_PROPERTY(quint64 biggestDataSize
+               READ getBiggestDataSize
+               CONSTANT)
+
     Q_PROPERTY(QStringList mountedVolumes
                READ getMountedVolumes
                CONSTANT)
@@ -134,6 +154,11 @@ public:
     ClickModel::Roles getSortRole();
     void setSortRole(ClickModel::Roles newRole);
     quint64 getClickSize() const;
+    quint64 getBiggestAppTotalSize() const;
+    QVariant getBiggestInstallSize() const;
+    quint64 getBiggestConfigSize() const;
+    quint64 getBiggestCacheSize() const;
+    quint64 getBiggestDataSize() const;
     quint64 getMoviesSize();
     quint64 getAudioSize();
     quint64 getPicturesSize();

@@ -32,9 +32,16 @@
 #include <QJsonObject>
 #include <QDirIterator>
 
+#include <algorithm>
+
 ClickModel::ClickModel(QObject *parent):
     QAbstractTableModel(parent),
-    m_totalClickSize(0)
+    m_totalClickSize(0),
+    m_biggestAppTotalSize(0),
+    m_biggestConfigSize(0),
+    m_biggestCacheSize(0),
+    m_biggestDataSize(0),
+    m_biggestInstallSize(0)
 {
     m_clickPackages = buildClickList();
 }
@@ -228,6 +235,13 @@ ClickModel::Click ClickModel::buildClick(QVariantMap manifest)
 
     newClick.appTotalSize = newClick.installSize + newClick.cacheSize + newClick.configSize + newClick.dataSize;
 
+    m_biggestAppTotalSize = std::max(newClick.appTotalSize, m_biggestAppTotalSize);
+
+    m_biggestDataSize = std::max(newClick.dataSize, m_biggestDataSize);
+    m_biggestConfigSize = std::max(newClick.configSize, m_biggestConfigSize);
+    m_biggestCacheSize = std::max(newClick.cacheSize, m_biggestCacheSize);
+    m_biggestInstallSize = std::max(newClick.installSize, m_biggestInstallSize);
+
     return newClick;
 }
 
@@ -347,6 +361,31 @@ QVariant ClickModel::data(const QModelIndex &index, int role) const
 quint64 ClickModel::getClickSize() const
 {
     return m_totalClickSize;
+}
+
+quint64 ClickModel::getBiggestAppTotalSize() const
+{
+    return m_biggestAppTotalSize;
+}
+
+quint64 ClickModel::getBiggestDataSize() const
+{
+    return m_biggestDataSize;
+}
+
+quint64 ClickModel::getBiggestConfigSize() const
+{
+    return m_biggestConfigSize;
+}
+
+quint64 ClickModel::getBiggestCacheSize() const
+{
+    return m_biggestCacheSize;
+}
+
+quint64 ClickModel::getBiggestInstallSize() const
+{
+    return m_biggestInstallSize;
 }
 
 ClickModel::~ClickModel()
