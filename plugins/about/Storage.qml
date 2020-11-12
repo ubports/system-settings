@@ -23,6 +23,7 @@ import QtSystemInfo 5.0
 import SystemSettings 1.0
 import SystemSettings.ListItems 1.0 as SettingsListItems
 import Ubuntu.Components 1.3
+import Ubuntu.Components.Popups 1.3
 import Ubuntu.SystemSettings.StorageAbout 1.0
 import QtQuick.Layouts 1.3
 
@@ -364,7 +365,7 @@ ItemPage {
                                 sourceComponent: Component {
                                     Column {
                                         spacing: units.gu(1)
-                                        bottomPadding: units.gu(3)
+                                        bottomPadding: units.gu(2)
                                         GridLayout {
                                             anchors.left: parent.left
                                             anchors.right: parent.right
@@ -372,6 +373,20 @@ ItemPage {
                                             rowSpacing: units.gu(1)
                                             rows: 4
                                             flow: GridLayout.TopToBottom
+                                            Item {
+                                                width: 1; height: 1
+                                            }
+                                            Repeater {
+                                                id: checkboxRepeater
+                                                model: 3
+                                                CheckBox {
+                                                    onCheckedChanged: {
+                                                        clearButton.updateText()
+                                                        clearButton.updateEnabled(checked)
+                                                        uninstallButton.updateText()
+                                                    }
+                                                }
+                                            }
                                             Repeater {
                                                 id: mainRepeater
                                                 model: [
@@ -407,14 +422,221 @@ ItemPage {
                                                 }
                                             }
                                         }
+                                        Row {
+                                            anchors.right: parent.right
+                                            spacing: units.gu(1)
+                                            Button {
+                                                id: uninstallButton
+                                                text: i18n.tr("Uninstall")
+
+                                                onClicked: {
+                                                    var checkboxesValues = [];
+                                                    for (var i = 0; i < 3; i++) {
+                                                        checkboxesValues[i] = checkboxRepeater.itemAt(i).checked
+                                                    }
+                                                    var popup = PopupUtils.open(uninstallDialog, null, {"checkboxesValues": checkboxesValues})
+                                                    // TRANSLATORS: %1 is the name of the application
+                                                    popup.title = i18n.tr("Uninstall %1").arg(displayName)
+                                                    popup.text = i18n.tr("Are you sure you want to uninstall this app?")
+                                                    popup.folderSizes = [configSize, dataSize, cacheSize]
+                                                    popup.selectedOption = (checkboxRepeater.itemAt(0).checked ||
+                                                                            checkboxRepeater.itemAt(1).checked ||
+                                                                            checkboxRepeater.itemAt(2).checked)
+                                                                            ? 2 : 1
+                                                    popup.accepted.connect(function(config, appData, cache) {
+                                                        appListItem.expansion.expanded = false
+                                                        backendInfo.uninstallApp(appId, version)
+                                                        if (config)
+                                                            backendInfo.clearAppConfig(appId)
+
+                                                        if (appData)
+                                                            backendInfo.clearAppData(appId)
+
+                                                        if (cache)
+                                                            backendInfo.clearAppCache(appId)
+                                                        backendInfo.refresh();
+                                                    })
+                                                }
+                                                function updateText() {
+                                                    text = (checkboxRepeater.itemAt(0).checked ||
+                                                            checkboxRepeater.itemAt(1).checked ||
+                                                            checkboxRepeater.itemAt(2).checked)
+                                                            ? i18n.tr("Uninstall & Clear")
+                                                            : i18n.tr("Uninstall")
+                                                }
+                                            }
+                                            Button {
+                                                id: clearButton
+                                                color: theme.palette.normal.negative
+                                                text: i18n.tr("Clear")
+
+                                                enabled: false
+                                                onClicked: {
+                                                    var checkboxesValues = [];
+                                                    for (var i = 0; i < 3; i++) {
+                                                        checkboxesValues[i] = checkboxRepeater.itemAt(i).checked
+                                                    }
+                                                    var popup = PopupUtils.open(uninstallDialog, null, {"checkboxesValues": checkboxesValues})
+                                                    popup.uninstall = false
+                                                    // TRANSLATORS: %1 is the name of the application
+                                                    popup.title = i18n.tr("Clear %1 data").arg(displayName)
+                                                    popup.text = i18n.tr("Are you sure you want to clear the following files?")
+                                                    popup.folderSizes = [configSize, dataSize, cacheSize]
+                                                    popup.accepted.connect(function(config, appData, cache) {
+                                                        appListItem.expansion.expanded = false
+                                                        if (config)
+                                                            backendInfo.clearAppConfig(appId)
+
+                                                        if (appData)
+                                                            backendInfo.clearAppData(appId)
+
+                                                        if (cache)
+                                                            backendInfo.clearAppCache(appId)
+                                                        backendInfo.refresh();
+                                                    })
+                                                }
+                                                function updateText() {
+                                                    var selectedSize = 0;
+                                                    for (var i = 0; i < 3; i++) {
+                                                        if (checkboxRepeater.itemAt(i).checked) {
+                                                            selectedSize += mainRepeater.model[i + 1].value
+                                                        }
+                                                    }
+                                                    text = selectedSize == 0 ? i18n.tr("Clear")
+                                                                             : i18n.tr("Clear (%1)").arg(Utilities.formatSize(selectedSize))
+                                                }
+                                                function updateEnabled(checked) {
+                                                    if (checked) {
+                                                        // at least one checkbox is checked
+                                                        enabled = true
+                                                    }
+                                                    else {
+                                                        for (var i = 0; i < 3; i++) {
+                                                            if (checkboxRepeater.itemAt(i).checked) {
+                                                                enabled = true
+                                                                return
+                                                            }
+                                                        }
+                                                        enabled = false
+                                                    }
+                                                }
+                                            }
+                                        }
                                     }
                                 }
                                 active: appListItem.expansion.expanded
-
                             }
 
-                            onClicked: expansion.expanded = !expansion.expanded
+                            onClicked: selectMode ? selected = !selected : expansion.expanded = !expansion.expanded
                         }
+                    }
+                }
+            }
+
+            Component {
+                id: uninstallDialog
+                Dialog {
+                    id: uninstallDialogue
+                    signal accepted(var config, var appData, var cache)
+                    property bool uninstall: true
+                    property var checkboxesValues: []
+                    property var folderSizes: []
+                    property int selectedOption: 0
+                    OptionSelector {
+                        id: appDataSelector
+                        visible: uninstall
+                        expanded: true
+                        width: parent.width
+                        selectedIndex: selectedOption
+                        model: [
+                        i18n.tr("Keep app data"),
+                        i18n.tr("Delete all app data"),
+                        i18n.tr("Choose what to delete")
+                        ]
+                    }
+                    Column {
+                        width: parent.width
+                        height: visible ? implicitHeight : 0
+                        opacity: uninstall ? (appDataSelector.selectedIndex == 2 ? 1 : 0) : 1
+                        visible: opacity > 0
+                        spacing: units.gu(1)
+                        Behavior on height { UbuntuNumberAnimation {} }
+                        Behavior on opacity { UbuntuNumberAnimation {} }
+                        Repeater {
+                            id: popupRepeater
+                            model: [
+                            // TRANSLATORS: %1 is the size of the config files of the app
+                            i18n.tr("Config (%1):"),
+                            // TRANSLATORS: %1 is the size of the data files of the app
+                            i18n.tr("App data (%1):"),
+                            // TRANSLATORS: %1 is the size of the cache files of the app
+                            i18n.tr("Cache (%1):")
+                            ]
+                            RowLayout {
+                                spacing: units.gu(1)
+                                property alias checked: checkbox.checked
+                                visible: uninstall ? true : checked
+                                width: parent.width
+                                Label {
+                                    text: modelData.arg(Utilities.formatSize(folderSizes[index]))
+                                    Layout.fillWidth: true
+                                    MouseArea {
+                                        anchors.fill: parent
+                                        onClicked: checkbox.checked = !checkbox.checked
+                                    }
+                                }
+                                CheckBox {
+                                    id: checkbox
+                                    checked: uninstallDialogue.checkboxesValues[index]
+                                    enabled: uninstall
+                                }
+                            }
+                        }
+                    }
+                    Button {
+                        text: {
+                            if (uninstall) {
+                                switch(appDataSelector.selectedIndex) {
+                                case 0:
+                                    return i18n.tr("Uninstall")
+                                case 1:
+                                    return i18n.tr("Uninstall & Clear all")
+                                case 2:
+                                    return (popupRepeater.itemAt(0).checked ||
+                                            popupRepeater.itemAt(1).checked ||
+                                            popupRepeater.itemAt(2).checked)
+                                            ? i18n.tr("Uninstall & Clear selected") : i18n.tr("Uninstall")
+                                }
+                            } else {
+                                return i18n.tr("Clear")
+                            }
+                        }
+                        color: theme.palette.normal.negative
+                        onClicked:  {
+                            PopupUtils.close(uninstallDialogue)
+                            if (uninstall) {
+                                switch (appDataSelector.selectedIndex) {
+                                case 0:
+                                    uninstallDialogue.accepted(false, false, false); break;
+                                case 1:
+                                    uninstallDialogue.accepted(true, true, true); break;
+                                case 2:
+                                    uninstallDialogue.accepted(popupRepeater.itemAt(0).checked,
+                                                               popupRepeater.itemAt(1).checked,
+                                                               popupRepeater.itemAt(2).checked)
+                                    break;
+                                }
+                            }
+                            else {
+                                uninstallDialogue.accepted(popupRepeater.itemAt(0).checked,
+                                                           popupRepeater.itemAt(1).checked,
+                                                           popupRepeater.itemAt(2).checked)
+                            }
+                        }
+                    }
+                    Button {
+                        text: i18n.tr("Cancel")
+                        onClicked: PopupUtils.close(uninstallDialogue)
                     }
                 }
             }

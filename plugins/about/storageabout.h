@@ -52,27 +52,27 @@ class StorageAbout : public QObject
 
     Q_PROPERTY(quint64 totalClickSize
                READ getClickSize
-               CONSTANT)
+               NOTIFY clickListChanged)
 
     Q_PROPERTY(quint64 biggestAppTotalSize
                READ getBiggestAppTotalSize
-               CONSTANT)
+               NOTIFY clickListChanged)
 
     Q_PROPERTY(QVariant biggestInstallSize
                READ getBiggestInstallSize
-               CONSTANT)
+               NOTIFY clickListChanged)
 
     Q_PROPERTY(quint64 biggestConfigSize
                READ getBiggestConfigSize
-               CONSTANT)
+               NOTIFY clickListChanged)
 
     Q_PROPERTY(quint64 biggestCacheSize
                READ getBiggestCacheSize
-               CONSTANT)
+               NOTIFY clickListChanged)
 
     Q_PROPERTY(quint64 biggestDataSize
                READ getBiggestDataSize
-               CONSTANT)
+               NOTIFY clickListChanged)
 
     Q_PROPERTY(QStringList mountedVolumes
                READ getMountedVolumes
@@ -179,10 +179,16 @@ public:
     bool getDeveloperMode();
     void setDeveloperMode(bool newMode);
     bool getDeveloperModeCapable() const;
+    Q_INVOKABLE void clearAppData(const QString &appId);
+    Q_INVOKABLE void clearAppCache(const QString &appId);
+    Q_INVOKABLE void clearAppConfig(const QString &appId);
+    Q_INVOKABLE void uninstallApp(const QString &appId, const QString &version);
+    Q_INVOKABLE void refresh();
 
 Q_SIGNALS:
     void sortRoleChanged();
     void sizeReady();
+    void clickListChanged();
 
 private:
     void prepareMountedVolumes();

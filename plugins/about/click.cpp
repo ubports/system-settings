@@ -207,9 +207,9 @@ ClickModel::Click ClickModel::buildClick(QVariantMap manifest)
 
     m_totalClickSize += newClick.installSize;
 
-    QString appId = manifest.value("name","").toString();
+    newClick.appId = manifest.value("name","").toString();
 
-    QDirIterator cacheIt("/home/phablet/.cache/" + appId, QDirIterator::Subdirectories);
+    QDirIterator cacheIt("/home/phablet/.cache/" + newClick.appId, QDirIterator::Subdirectories);
     qint64 newCacheSize = 0;
     while (cacheIt.hasNext()) {
         cacheIt.next();
@@ -217,7 +217,7 @@ ClickModel::Click ClickModel::buildClick(QVariantMap manifest)
     }
     newClick.cacheSize = newCacheSize;
 
-    QDirIterator configIt("/home/phablet/.config/" + appId, QDirIterator::Subdirectories);
+    QDirIterator configIt("/home/phablet/.config/" + newClick.appId, QDirIterator::Subdirectories);
     qint64 newConfigSize = 0;
     while (configIt.hasNext()) {
         configIt.next();
@@ -225,7 +225,7 @@ ClickModel::Click ClickModel::buildClick(QVariantMap manifest)
     }
     newClick.configSize = newConfigSize;
 
-    QDirIterator dataIt("/home/phablet/.local/share/" + appId, QDirIterator::Subdirectories);
+    QDirIterator dataIt("/home/phablet/.local/share/" + newClick.appId, QDirIterator::Subdirectories);
     qint64 newDataSize = 0;
     while (dataIt.hasNext()) {
         dataIt.next();
@@ -241,6 +241,8 @@ ClickModel::Click ClickModel::buildClick(QVariantMap manifest)
     m_biggestConfigSize = std::max(newClick.configSize, m_biggestConfigSize);
     m_biggestCacheSize = std::max(newClick.cacheSize, m_biggestCacheSize);
     m_biggestInstallSize = std::max(newClick.installSize, m_biggestInstallSize);
+
+    newClick.version = manifest.value("version","").toString();
 
     return newClick;
 }
@@ -321,6 +323,8 @@ QHash<int, QByteArray> ClickModel::roleNames() const
     roleNames[ConfigSizeRole] = "configSize";
     roleNames[DataSizeRole] = "dataSize";
     roleNames[AppTotalSizeRole] = "appTotalSize";
+    roleNames[AppIdRole] = "appId";
+    roleNames[VersionRole] = "version";
     roleNames[IconRole] = "iconPath";
 
     return roleNames;
@@ -350,6 +354,10 @@ QVariant ClickModel::data(const QModelIndex &index, int role) const
         return click.dataSize;
     case AppTotalSizeRole:
         return click.appTotalSize;
+    case AppIdRole:
+        return click.appId;
+    case VersionRole:
+        return click.version;
     case IconRole:
         return click.icon;
     default:
@@ -386,6 +394,17 @@ quint64 ClickModel::getBiggestCacheSize() const
 quint64 ClickModel::getBiggestInstallSize() const
 {
     return m_biggestInstallSize;
+}
+
+void ClickModel::refresh()
+{
+    m_totalClickSize = 0;
+    m_biggestAppTotalSize = 0;
+    m_biggestDataSize = 0;
+    m_biggestConfigSize = 0;
+    m_biggestCacheSize = 0;
+    m_biggestInstallSize = 0;
+    m_clickPackages = buildClickList();
 }
 
 ClickModel::~ClickModel()

@@ -42,6 +42,8 @@ public:
         ConfigSizeRole = Qt::UserRole + 3,
         DataSizeRole = Qt::UserRole + 4,
         AppTotalSizeRole = Qt::UserRole + 5,
+        AppIdRole,
+        VersionRole,
         IconRole
     };
 
@@ -49,6 +51,8 @@ public:
         QString name;
         QString displayName;
         QString icon;
+        QString appId;
+        QString version;
         uint installSize;
         uint cacheSize;
         uint configSize;
@@ -67,6 +71,7 @@ public:
     quint64 getBiggestCacheSize() const;
     quint64 getBiggestDataSize() const;
     quint64 getBiggestInstallSize() const;
+    void refresh();
 
 private:
     void populateFromDesktopOrIniFile(Click *newClick,

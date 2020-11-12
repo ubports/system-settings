@@ -630,6 +630,52 @@ qint64 StorageAbout::getTotalSpace(const QString mount_point)
     return -1;
 }
 
+void StorageAbout::clearAppData(const QString &appId)
+{
+    QDir d(APPDATA_FOLDER + appId);
+
+    if (d.exists())
+        d.removeRecursively();
+
+    populateSizes();
+}
+
+void StorageAbout::clearAppCache(const QString &appId)
+{
+    QDir d(CACHE_FOLDER + appId);
+
+    if (d.exists())
+        d.removeRecursively();
+
+    populateSizes();
+}
+
+void StorageAbout::clearAppConfig(const QString &appId)
+{
+    QDir d(CONFIG_FOLDER + appId);
+
+    if (d.exists())
+        d.removeRecursively();
+
+    populateSizes();
+}
+
+void StorageAbout::uninstallApp(const QString &appId, const QString &version)
+{
+    QProcess p;
+    p.start("pkcon", QStringList() << "remove" << appId + ";" + version + ";all;local:click", QIODevice::ReadOnly);
+    p.waitForFinished();
+
+    populateSizes();
+}
+
+void StorageAbout::refresh()
+{
+    m_clickModel.refresh();
+    m_clickFilterProxy.invalidate();
+    Q_EMIT clickListChanged();
+}
+
 StorageAbout::~StorageAbout() {
     if (m_cancellable) {
         g_cancellable_cancel(m_cancellable);
