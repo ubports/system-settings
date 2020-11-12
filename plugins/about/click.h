@@ -42,7 +42,6 @@ public:
     };
 
     struct Click {
-        QString name;
         QString displayName;
         QString icon;
         uint installSize;
@@ -56,10 +55,10 @@ public:
     quint64 getClickSize() const;
 
 private:
-    void populateFromDesktopOrIniFile(Click *newClick,
-                                      QVariantMap hooks,
-                                      QDir directory,
-                                      QString name);
+    void populateFromDesktopFile(Click *newClick,
+                                 QVariantMap hooks,
+                                 const QString& name,
+                                 const QString& version);
     Click buildClick(QVariantMap manifest);
     QList<Click> buildClickList();
 
