@@ -189,6 +189,12 @@ ItemPage {
 
                 Component.onCompleted: storagePage.flickable = scrollWidget
 
+                PullToRefresh {
+                    parent: scrollWidget
+                    refreshing: backendInfo.refreshing
+                    onRefresh: backendInfo.refreshAsync()
+                }
+
                 Column {
                     id: columnId
                     anchors.left: parent.left
@@ -454,7 +460,7 @@ ItemPage {
 
                                                         if (cache)
                                                             backendInfo.clearAppCache(appId)
-                                                        backendInfo.refresh();
+                                                        backendInfo.refreshAsync();
                                                     })
                                                 }
                                                 function updateText() {
@@ -492,7 +498,7 @@ ItemPage {
 
                                                         if (cache)
                                                             backendInfo.clearAppCache(appId)
-                                                        backendInfo.refresh();
+                                                        backendInfo.refreshAsync();
                                                     })
                                                 }
                                                 function updateText() {

@@ -30,7 +30,7 @@ add_library(UbuntuStorageAboutPanel MODULE
     ${QML_SOURCES} # So they show up in Qt designer.
 )
 
-target_link_libraries(UbuntuStorageAboutPanel Qt5::Qml Qt5::Quick Qt5::DBus
+target_link_libraries(UbuntuStorageAboutPanel Qt5::Qml Qt5::Quick Qt5::DBus Qt5::Concurrent
 ${ANDR_PROP_LDFLAGS} ${GLIB_LDFLAGS} ${GIO_LDFLAGS} ${CLICK_LDFLAGS} uss-systemimage)
 
 

@@ -142,6 +142,10 @@ class StorageAbout : public QObject
                READ getDeveloperModeCapable
                 CONSTANT)
 
+    Q_PROPERTY(bool refreshing
+               READ getRefreshing
+               NOTIFY refreshingChanged)
+
 public:
     explicit StorageAbout(QObject *parent = 0);
     ~StorageAbout();
@@ -183,12 +187,19 @@ public:
     Q_INVOKABLE void clearAppCache(const QString &appId);
     Q_INVOKABLE void clearAppConfig(const QString &appId);
     Q_INVOKABLE void uninstallApp(const QString &appId, const QString &version);
-    Q_INVOKABLE void refresh();
+    bool getRefreshing() const;
+    void setRefreshing(const bool refreshing);
+    Q_INVOKABLE void refreshAsync();
+    void refresh();
+
+public Q_SLOTS:
+    void endRefresh();
 
 Q_SIGNALS:
     void sortRoleChanged();
     void sizeReady();
     void clickListChanged();
+    void refreshingChanged();
 
 private:
     void prepareMountedVolumes();
@@ -211,6 +222,8 @@ private:
     quint64 m_appCacheSize;
     quint64 m_appConfigSize;
     quint64 m_appDataSize;
+    bool m_refreshing;
+
 
     QMap<QString, QString> m_mounts;
 

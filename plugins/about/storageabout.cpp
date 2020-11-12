@@ -45,6 +45,7 @@
 #include <QVariant>
 #include <hybris/properties/properties.h>
 #include <QDBusReply>
+#include <QtConcurrent>
 
 #define CACHE_FOLDER "/home/phablet/.cache/"
 #define APPDATA_FOLDER "/home/phablet/.local/share/"
@@ -156,6 +157,7 @@ StorageAbout::StorageAbout(QObject *parent) :
     m_appCacheSize(0),
     m_appConfigSize(0),
     m_appDataSize(0),
+    m_refreshing(false),
     m_propertyService(new QDBusInterface(PROPERTY_SERVICE_OBJ,
         PROPERTY_SERVICE_PATH,
         PROPERTY_SERVICE_OBJ,
@@ -669,11 +671,45 @@ void StorageAbout::uninstallApp(const QString &appId, const QString &version)
     populateSizes();
 }
 
+bool StorageAbout::getRefreshing() const
+{
+    return m_refreshing;
+}
+
+void StorageAbout::setRefreshing(const bool refreshing)
+{
+    if (refreshing != m_refreshing) {
+        m_refreshing = refreshing;
+        Q_EMIT refreshingChanged();
+    }
+}
+
+void StorageAbout::endRefresh()
+{
+    qDebug() << "ending refresh";
+    m_clickFilterProxy.invalidate();
+    setRefreshing(false);
+    Q_EMIT clickListChanged();
+}
+
 void StorageAbout::refresh()
 {
+    qDebug() << "starting refresh";
     m_clickModel.refresh();
-    m_clickFilterProxy.invalidate();
-    Q_EMIT clickListChanged();
+    qDebug() << "starting refresh 2";
+}
+
+void StorageAbout::refreshAsync()
+{
+    setRefreshing(true);
+    QFutureWatcher<void> watcher;
+    auto c = connect(&watcher, SIGNAL(finished()), this, SLOT(endRefresh()));
+
+    qDebug() << "connection result" << static_cast<bool>(c);
+
+    // Start the computation.
+    QFuture<void> future = QtConcurrent::run(this, &StorageAbout::refresh);
+    watcher.setFuture(future);
 }
 
 StorageAbout::~StorageAbout() {
