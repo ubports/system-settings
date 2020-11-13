@@ -310,7 +310,7 @@ int ClickModel::columnCount(const QModelIndex &parent) const
 {
     if (parent.isValid())
         return 0;
-    return 7; //Display, total size, installed size, data size, cache size, config size, icon
+    return 9; //Display, total size, installed size, data size, cache size, config size, app id, version, icon
 }
 
 QHash<int, QByteArray> ClickModel::roleNames() const
