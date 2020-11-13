@@ -42,8 +42,8 @@ public:
         ConfigSizeRole = Qt::UserRole + 3,
         DataSizeRole = Qt::UserRole + 4,
         AppTotalSizeRole = Qt::UserRole + 5,
-        AppIdRole,
-        VersionRole,
+        AppIdRole = Qt::UserRole + 6,
+        VersionRole = Qt::UserRole + 7,
         IconRole
     };
 

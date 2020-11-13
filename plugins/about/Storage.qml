@@ -184,8 +184,14 @@ ItemPage {
 
             Flickable {
                 id: scrollWidget
-                anchors.fill: parent
+                anchors {
+                    right: parent.right
+                    left: parent.left
+                    top: parent.top
+                    bottom: bottomBar.top
+                }
                 contentHeight: columnId.height
+                clip: true
 
                 Component.onCompleted: storagePage.flickable = scrollWidget
 
@@ -313,12 +319,38 @@ ItemPage {
                         model: backendInfo.clickList
                         ViewItems.expansionFlags: ViewItems.CollapseOnOutsidePress
                         ViewItems.expandedIndices: [0]
+                        ViewItems.onSelectedIndicesChanged: {
+                            var text = ""
+                            for (var i = 0; i < ViewItems.selectedIndices.length; i++) {
+                                var idx = backendInfo.clickList.index(ViewItems.selectedIndices[i], 0);
+                                var name = backendInfo.clickList.data(idx, Qt.DisplayRole);
+                                // var name = backendInfo.clickList.data(idx, Qt.DisplayRole);
+                                text += name
+                                if (i != ViewItems.selectedIndices.length - 1)
+                                    text += ", "
+                            }
+                            if (ViewItems.selectedIndices.length == 0)
+                                text = i18n.tr("<i>No app selected...<i>")
+                            bottomLayout.title.text = text
+                        }
                         delegate: ListItem {
                             id: appListItem
                             objectName: "appItem" + displayName
                             height: h
                             property var h: appItemLayout.height + (divider.visible ? divider.height : 0)
                             expansion.height: h + expansionLoader.height
+                            onPressAndHold: {
+                                selectMode = !selectMode
+                                if (selectMode) {
+                                    selected = true
+                                    if (listView.ViewItems.expandedIndices.length > 0)
+                                        listView.ViewItems.expandedIndices = []
+                                }
+                            }
+                            onSelectModeChanged: {
+                                if (!selectMode)
+                                    listView.ViewItems.selectedIndices = []
+                            }
 
                             SlotsLayout {
                                 id: appItemLayout
@@ -365,7 +397,6 @@ ItemPage {
                                             property var arrayBiggestValue: [backendInfo.biggestAppTotalSize, backendInfo.biggestInstallSize, backendInfo.biggestCacheSize, backendInfo.biggestConfigSize, backendInfo.biggestDataSize, backendInfo.biggestAppTotalSize]
                                             property var array: [appTotalSize, installedSize, cacheSize, configSize, dataSize, appTotalSize]
                                             width: array[valueSelect.selectedIndex] / arrayBiggestValue[valueSelect.selectedIndex] * parent.width
-                                            Behavior on width { UbuntuNumberAnimation { duration: UbuntuAnimation.BriskDuration } }
                                         }
                                     }
                                 }
@@ -550,6 +581,75 @@ ItemPage {
                 }
             }
 
+            ListItem {
+                id: bottomBar
+                visible: listView.ViewItems.selectMode
+                height: bottomLayout.height
+                divider.visible: false
+                anchors {
+                    bottom: parent.bottom
+                    bottomMargin: visible ? 0 : -height
+                    Behavior on bottomMargin { UbuntuNumberAnimation {} }
+                }
+                Rectangle {
+                    width: parent.width
+                    height: units.dp(1)
+                    color: theme.palette.normal.base
+                }
+                ListItemLayout {
+                    id: bottomLayout
+                    title {
+                        text: " "
+                        maximumLineCount: 5
+                    }
+                    Icon {
+                        name: "close"
+                        width: units.gu(2)
+                        SlotsLayout.position: SlotsLayout.Leading
+                        SlotsLayout.overrideVerticalPositioning: true
+                        anchors.verticalCenter: parent.verticalCenter
+                        MouseArea {
+                            anchors.fill: parent
+                            onClicked: {
+                                listView.ViewItems.selectMode = false
+                                listView.ViewItems.selectedIndices = []
+                            }
+                        }
+                    }
+                    Button {
+                        text: i18n.tr("Clear")
+                        color: theme.palette.normal.negative
+                        enabled: listView.ViewItems.selectedIndices.length != 0
+                        SlotsLayout.position: SlotsLayout.Last
+                        SlotsLayout.overrideVerticalPositioning: true
+                        anchors.verticalCenter: parent.verticalCenter
+                        onClicked: {
+                            var popup = PopupUtils.open(bulkDialog)
+                            popup.text += "\n" + bottomLayout.title.text
+                            popup.accepted.connect(function(dataTypeIndex) {
+                                for (var i = 0; i < listView.ViewItems.selectedIndices.length; i++) {
+                                    var idx = backendInfo.clickList.index(listView.ViewItems.selectedIndices[i], 0);
+                                    var appId = backendInfo.clickList.data(idx, Qt.UserRole + 6);
+                                    switch (dataTypeIndex) {
+                                    case 0:
+                                        backendInfo.clearAppConfig(appId)
+                                        break
+                                    case 1:
+                                        backendInfo.clearAppData(appId)
+                                        break
+                                    case 2:
+                                        backendInfo.clearAppCache(appId)
+                                        break
+                                    }
+                                }
+                                listView.ViewItems.selectMode = false
+                                backendInfo.refreshAsync()
+                            })
+                        }
+                    }
+                }
+            }
+
             Component {
                 id: uninstallDialog
                 Dialog {
@@ -654,6 +754,50 @@ ItemPage {
                     Button {
                         text: i18n.tr("Cancel")
                         onClicked: PopupUtils.close(uninstallDialogue)
+                    }
+                }
+            }
+            Component {
+                id: bulkDialog
+                Dialog {
+                    id: bulkDialogue
+                    signal accepted(var dataTypeIndex)
+                    title: i18n.tr("Select data type to be cleared")
+                    text: i18n.tr("Which type of data do you want to clear for the selected apps?")
+                    OptionSelector {
+                        id: dataTypeSelector
+                        expanded: true
+                        width: parent.width
+                        selectedIndex: {
+                            switch (valueSelect.selectedIndex) {
+                            case 0: case 1: case 5: default:
+                                return -1
+                            case 2:
+                                return 2
+                            case 3:
+                                return 0
+                            case 4:
+                                return 1
+                            }
+                        }
+                        model: [
+                        i18n.tr("Config"),
+                        i18n.tr("App data"),
+                        i18n.tr("Cache")
+                        ]
+                    }
+                    Button {
+                        text: i18n.tr("Bulk clear")
+                        color: theme.palette.normal.negative
+                        enabled: dataTypeSelector != -1
+                        onClicked:  {
+                            PopupUtils.close(bulkDialogue)
+                            bulkDialogue.accepted(dataTypeSelector.selectedIndex)
+                        }
+                    }
+                    Button {
+                        text: i18n.tr("Cancel")
+                        onClicked: PopupUtils.close(bulkDialogue)
                     }
                 }
             }
