@@ -241,8 +241,18 @@ ItemPage {
                             mainSlot: OptionSelector {
                                 id: valueSelect
                                 width: parent.width - 2 * (layout.padding.leading + layout.padding.trailing)
-                                model: [i18n.tr("By name"), i18n.tr("By installation size"), i18n.tr("By cache size"), i18n.tr("By config size"), i18n.tr("By data size"), i18n.tr("By total size")]
+                                model: [
+                                i18n.tr("By name"),
+                                i18n.tr("By installation size"),
+                                i18n.tr("By cache size"),
+                                i18n.tr("By config size"),
+                                i18n.tr("By data size"),
+                                i18n.tr("By total size")
+                                ]
                                 onSelectedIndexChanged: {
+                                    // collapse the expanded ListItem
+                                    listView.ViewItems.expandedIndices = []
+
                                     switch (selectedIndex) {
                                     case 0: default:
                                         settingsId.storageSort = "name"
@@ -302,6 +312,7 @@ ItemPage {
                         interactive: false
                         model: backendInfo.clickList
                         ViewItems.expansionFlags: ViewItems.CollapseOnOutsidePress
+                        ViewItems.expandedIndices: [0]
                         delegate: ListItem {
                             id: appListItem
                             objectName: "appItem" + displayName
