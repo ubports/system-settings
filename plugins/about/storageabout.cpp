@@ -158,6 +158,7 @@ StorageAbout::StorageAbout(QObject *parent) :
     m_appConfigSize(0),
     m_appDataSize(0),
     m_refreshing(false),
+    m_refreshWatcher(),
     m_propertyService(new QDBusInterface(PROPERTY_SERVICE_OBJ,
         PROPERTY_SERVICE_PATH,
         PROPERTY_SERVICE_OBJ,
@@ -686,7 +687,6 @@ void StorageAbout::setRefreshing(const bool refreshing)
 
 void StorageAbout::endRefresh()
 {
-    qDebug() << "ending refresh";
     m_clickFilterProxy.invalidate();
     setRefreshing(false);
     Q_EMIT clickListChanged();
@@ -694,22 +694,17 @@ void StorageAbout::endRefresh()
 
 void StorageAbout::refresh()
 {
-    qDebug() << "starting refresh";
     m_clickModel.refresh();
-    qDebug() << "starting refresh 2";
 }
 
 void StorageAbout::refreshAsync()
 {
     setRefreshing(true);
-    QFutureWatcher<void> watcher;
-    auto c = connect(&watcher, SIGNAL(finished()), this, SLOT(endRefresh()));
-
-    qDebug() << "connection result" << static_cast<bool>(c);
+    connect(&m_refreshWatcher, SIGNAL(finished()), this, SLOT(endRefresh()));
 
     // Start the computation.
     QFuture<void> future = QtConcurrent::run(this, &StorageAbout::refresh);
-    watcher.setFuture(future);
+    m_refreshWatcher.setFuture(future);
 }
 
 StorageAbout::~StorageAbout() {

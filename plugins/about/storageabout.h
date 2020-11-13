@@ -30,7 +30,7 @@
 #include <QProcess>
 #include <QVariant>
 #include <QDBusInterface>
-
+#include <QFutureWatcher>
 
 class StorageAbout : public QObject
 {
@@ -190,7 +190,6 @@ public:
     bool getRefreshing() const;
     void setRefreshing(const bool refreshing);
     Q_INVOKABLE void refreshAsync();
-    void refresh();
 
 public Q_SLOTS:
     void endRefresh();
@@ -203,6 +202,7 @@ Q_SIGNALS:
 
 private:
     void prepareMountedVolumes();
+    void refresh();
     QStringList m_mountedVolumes;
     QString m_serialNumber;
     QString m_vendorString;
@@ -223,6 +223,7 @@ private:
     quint64 m_appConfigSize;
     quint64 m_appDataSize;
     bool m_refreshing;
+    QFutureWatcher<void> m_refreshWatcher;
 
 
     QMap<QString, QString> m_mounts;
