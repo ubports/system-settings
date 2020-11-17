@@ -148,15 +148,8 @@ StorageAbout::StorageAbout(QObject *parent) :
     m_moviesSize(0),
     m_audioSize(0),
     m_picturesSize(0),
-    m_documentsSize(0),
-    m_downloadsSize(0),
     m_otherSize(0),
     m_homeSize(0),
-    m_anboxSize(0),
-    m_libertineSize(0),
-    m_appCacheSize(0),
-    m_appConfigSize(0),
-    m_appDataSize(0),
     m_refreshing(false),
     m_refreshWatcher(),
     m_propertyService(new QDBusInterface(PROPERTY_SERVICE_OBJ,
@@ -335,46 +328,10 @@ quint64 StorageAbout::getPicturesSize()
     return m_picturesSize;
 }
 
-quint64 StorageAbout::getDocumentsSize()
-{
-    return m_documentsSize;
-}
-
-quint64 StorageAbout::getDownloadsSize()
-{
-    return m_downloadsSize;
-}
-
 quint64 StorageAbout::getHomeSize()
 {
     return m_homeSize;
 }
-
-quint64 StorageAbout::getAnboxSize()
-{
-    return m_anboxSize;
-}
-
-quint64 StorageAbout::getLibertineSize()
-{
-    return m_libertineSize;
-}
-
-quint64 StorageAbout::getAppCacheSize()
-{
-    return m_appCacheSize;
-}
-
-quint64 StorageAbout::getAppConfigSize()
-{
-    return m_appConfigSize;
-}
-
-quint64 StorageAbout::getAppDataSize()
-{
-    return m_appDataSize;
-}
-
 
 void StorageAbout::populateSizes()
 {
@@ -402,52 +359,10 @@ void StorageAbout::populateSizes()
                 new MeasureData(running_ptr, this, &m_picturesSize,
                                 m_cancellable));
 
-    measure_special_file(
-                G_USER_DIRECTORY_DOCUMENTS,
-                measure_finished,
-                new MeasureData(running_ptr, this, &m_documentsSize,
-                                m_cancellable));
-
-    measure_special_file(
-                G_USER_DIRECTORY_DOWNLOAD,
-                measure_finished,
-                new MeasureData(running_ptr, this, &m_downloadsSize,
-                                m_cancellable));
-
     measure_file(
                 g_get_home_dir(),
                 measure_finished,
                 new MeasureData(running_ptr, this, &m_homeSize,
-                                m_cancellable));
-
-    measure_file(
-                "/home/phablet/anbox-data",
-                measure_finished,
-                new MeasureData(running_ptr, this, &m_anboxSize,
-                                m_cancellable));
-
-    measure_file(
-                "/home/phablet/.cache/libertine-container",
-                measure_finished,
-                new MeasureData(running_ptr, this, &m_libertineSize,
-                                m_cancellable));
-
-    measure_file(
-                "/home/phablet/.cache",
-                measure_finished,
-                new MeasureData(running_ptr, this, &m_appCacheSize,
-                                m_cancellable));
-
-    measure_file(
-                "/home/phablet/.config",
-                measure_finished,
-                new MeasureData(running_ptr, this, &m_appConfigSize,
-                                m_cancellable));
-
-    measure_file(
-                "/home/phablet/.local/share",
-                measure_finished,
-                new MeasureData(running_ptr, this, &m_appDataSize,
                                 m_cancellable));
 }
 
@@ -469,7 +384,7 @@ void StorageAbout::prepareMountedVolumes()
             /* Only check devices once */
             if (checked.contains(drive))
                 continue;
-
+             
             checked.append(drive);
             QString devicePath(getDevicePath(drive));
             if (devicePath.isEmpty() || m_mountedVolumes.contains(drive))

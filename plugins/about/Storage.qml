@@ -92,29 +92,16 @@ ItemPage {
             property real otherSize: diskSpace -
                                      freediskSpace -
                                      usedByUbuntu -
-                                     clickAndAppDataSize -
+                                     backendInfo.totalClickSize -
                                      backendInfo.moviesSize -
-                                     backendInfo.audioSize -
                                      backendInfo.picturesSize -
-                                     backendInfo.documentsSize -
-                                     backendInfo.downloadsSize -
-                                     backendInfo.anboxSize -
-                                     backendInfo.libertineSize
-            property real clickAndAppDataSize: backendInfo.totalClickSize +
-                                               backendInfo.appCacheSize +
-                                               backendInfo.appConfigSize +
-                                               backendInfo.appDataSize -
-                                               backendInfo.libertineSize
+                                     backendInfo.audioSize
             //TODO: Let's consider use unified colors in a ¿file?
             property variant spaceColors: [
                 UbuntuColors.orange,
                 "#a52a00", //System Maroon
                 "#006a97", //System Blue
                 "#198400", //Dark System Green
-                "#9542c4", //from suru colors app
-                "#d07810", //from suru colors app
-                "#009688", //Anbox greenish
-                "#5d5d5d", //Libertine grey hat
                 "#f5d412", //System Yellow
                 UbuntuColors.lightAubergine]
             property variant spaceLabels: [
@@ -122,10 +109,6 @@ ItemPage {
                 i18n.tr("Videos"),
                 i18n.tr("Audio"),
                 i18n.tr("Pictures"),
-                i18n.tr("Documents"),
-                i18n.tr("Downloads"),
-                i18n.tr("Anbox"),
-                i18n.tr("Libertine"),
                 i18n.tr("Other files"),
                 i18n.tr("Used by apps")]
             property variant spaceValues: [
@@ -133,21 +116,13 @@ ItemPage {
                 backendInfo.moviesSize,
                 backendInfo.audioSize,
                 backendInfo.picturesSize,
-                backendInfo.documentsSize,
-                backendInfo.downloadsSize,
-                backendInfo.anboxSize,
-                backendInfo.libertineSize,
                 otherSize, //Other Files
-                clickAndAppDataSize]
+                backendInfo.totalClickSize]
             property variant spaceObjectNames: [
                 "usedByUbuntuItem",
                 "moviesItem",
                 "audioItem",
                 "picturesItem",
-                "documentsItem",
-                "downloadsItem",
-                "anboxItem",
-                "libertineItem",
                 "otherFilesItem",
                 "usedByAppsItem"]
 
