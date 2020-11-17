@@ -384,7 +384,7 @@ void StorageAbout::prepareMountedVolumes()
             /* Only check devices once */
             if (checked.contains(drive))
                 continue;
-             
+
             checked.append(drive);
             QString devicePath(getDevicePath(drive));
             if (devicePath.isEmpty() || m_mountedVolumes.contains(drive))
@@ -554,8 +554,6 @@ void StorageAbout::clearAppData(const QString &appId)
 
     if (d.exists())
         d.removeRecursively();
-
-    populateSizes();
 }
 
 void StorageAbout::clearAppCache(const QString &appId)
@@ -564,8 +562,6 @@ void StorageAbout::clearAppCache(const QString &appId)
 
     if (d.exists())
         d.removeRecursively();
-
-    populateSizes();
 }
 
 void StorageAbout::clearAppConfig(const QString &appId)
@@ -574,8 +570,6 @@ void StorageAbout::clearAppConfig(const QString &appId)
 
     if (d.exists())
         d.removeRecursively();
-
-    populateSizes();
 }
 
 void StorageAbout::uninstallApp(const QString &appId, const QString &version)
@@ -583,8 +577,6 @@ void StorageAbout::uninstallApp(const QString &appId, const QString &version)
     QProcess p;
     p.start("pkcon", QStringList() << "remove" << appId + ";" + version + ";all;local:click", QIODevice::ReadOnly);
     p.waitForFinished();
-
-    populateSizes();
 }
 
 bool StorageAbout::getRefreshing() const
@@ -609,6 +601,7 @@ void StorageAbout::endRefresh()
 
 void StorageAbout::refresh()
 {
+    populateSizes();
     m_clickModel.refresh();
 }
 

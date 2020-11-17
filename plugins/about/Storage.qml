@@ -174,6 +174,7 @@ ItemPage {
                     parent: scrollWidget
                     refreshing: backendInfo.refreshing
                     onRefresh: backendInfo.refreshAsync()
+                    enabled: backendInfo.ready
                 }
 
                 Column {
