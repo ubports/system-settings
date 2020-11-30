@@ -180,29 +180,6 @@ ItemPage {
                 }
                 text: i18n.tr("Show week numbers")
             }
-            
-            /* Hidden for now because it stopped working sometime in the past
-            SettingsListItems.Icon {
-                id: eventsListItem
-                text: i18n.tr("Events")
-                iconName: "event"
-
-                Loader {
-                    sourceComponent: Switch {
-                        id: eventsSwitch
-                        property bool serverChecked: indicatorDatetime.showEvents
-
-                        USC.ServerPropertySynchroniser {
-                            userTarget: eventsSwitch
-                            userProperty: "checked"
-                            serverTarget: eventsSwitch
-                            serverProperty: "serverChecked"
-
-                            onSyncTriggered: indicatorDatetime.showEvents = checked
-                        }
-                    }
-                }
-            } */
         }
     }
 }
