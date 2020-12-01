@@ -55,23 +55,25 @@ Item {
             return findInvisibleChild(instance, "unity8Settings");
         }
 
-        function test_no_large_screen_label_necessary() {
-            /* I.e. you're on a large screen, and the screen USS is rendered on
-            is that screen. Assumes currentScreenNumber is 0. */
+        function test_no_always_show_launcher_switch() {
+            /* I.e. No large screen is available. Assumes currentScreenNumber is 0. */
             var label = findChild(instance, "largeScreenLabel");
-            LauncherPanelPlugin.setScreenGeometry(0, 0, 0, largeScreen, 100);
+            var toggle = findChild(instance, "alwaysShowLauncher");
+            LauncherPanelPlugin.setScreenGeometry(0, 0, 0, 100, 100);
             LauncherPanelPlugin.setScreens(1);
             verify(!label.visible);
+            verify(!toggle.visible);
         }
 
-        function test_large_screen_label_should_show() {
-            /* I.e. you're on a small screen, but there's a large screen
-            somewhere and USS is rendered onto that screen. */
+        function test_always_show_launcher_switch_show() {
+            /* I.e. There's a large screen available. */
             var label = findChild(instance, "largeScreenLabel");
+            var toggle = findChild(instance, "alwaysShowLauncher");
             LauncherPanelPlugin.setScreenGeometry(0, 0, 0, 100, 100); // small
             LauncherPanelPlugin.setScreenGeometry(1, 0, 0, largeScreen, 100);
             LauncherPanelPlugin.setScreens(2);
             verify(label.visible);
+            verify(toggle.visible);
         }
 
         function test_always_show_launcher_switch() {
