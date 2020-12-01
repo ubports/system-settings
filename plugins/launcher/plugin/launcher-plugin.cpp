@@ -53,23 +53,7 @@ LauncherItem::LauncherItem(const QVariantMap &staticData, QObject *parent):
         }
     }
 
-    // Show only if some screen is larger than the threshold.
-    QQmlEngine engine;
-    LauncherPanelPluginImpl panel;
-    QString folder(env.value("SNAP", QString()) + LAUNCHER_PLUGIN_QML_DIR);
-    QQmlComponent guAccessorComponent(
-        &engine, QUrl::fromLocalFile(folder + "/GuAccessor.qml")
-    );
-    QScopedPointer<QObject> guAccessor(guAccessorComponent.create());
-    int largeScreenThreshold = guAccessor->property("largeScreenThreshold").toInt();
-    for (int i = 0; i < panel.screens(); i++) {
-        if (panel.screenGeometry(i).width() > largeScreenThreshold) {
-            setVisibility(true);
-            return;
-        }
-    }
-
-    setVisibility(false);
+    setVisibility(true);
 }
 
 void LauncherItem::setVisibility(bool visible)
