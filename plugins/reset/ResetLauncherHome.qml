@@ -47,7 +47,7 @@ Component {
                 dialog.state = "clicked";
                 unitySettings.schema.reset("favorites");
                 unitySettings.schema.reset("items");
-                root.done();
+                PopupUtils.close(dialog);
             }
         }
         Button {
