@@ -79,26 +79,59 @@ ItemPage {
                 }
             }
 
-            Menus.SliderMenu {
+            Label {
+                anchors {
+                    left: parent.left
+                    right: parent.right
+                    margins: units.gu(2)
+                }
                 text: i18n.tr("Icon size:")
+                height: units.gu(6)
+                verticalAlignment: Text.AlignVCenter
+            }
 
-                id: iconWidth
-                objectName: "iconWidth"
-                function formatValue(v) { return v.toFixed(2) }
-                minimumValue: 6
-                maximumValue: 12
-                value: unity8Settings.launcherWidth
-                live: true
+            ListItem {
 
-                property real serverValue: unity8Settings.launcherWidth
-                USC.ServerPropertySynchroniser {
-                    userTarget: iconWidth
-                    userProperty: "value"
-                    serverTarget: iconWidth
-                    serverProperty: "serverValue"
-                    maximumWaitBufferInterval: 16
+                Button {
+                    id: widthResetButton
+                    anchors.verticalCenter: parent.verticalCenter
+                    anchors.left: parent.left
+                    anchors.leftMargin: units.gu(2)
 
-                    onSyncTriggered: unity8Settings.launcherWidth = value
+                    action: Action {
+                        text: i18n.tr("Reset")
+                        onTriggered: {
+                            unity8Settings.schema.reset("launcherWidth")
+                        }
+                    }
+                }
+
+                Slider {
+                    id: iconWidth
+                    objectName: "iconWidth"
+                    function formatValue(v) { return v.toFixed(2) }
+                    minimumValue: 6
+                    maximumValue: 12
+                    value: unity8Settings.launcherWidth
+                    live: true
+
+                    anchors {
+                        verticalCenter: parent.verticalCenter
+                        left: widthResetButton.right
+                        right: parent.right
+                        margins: units.gu(2)
+                    }
+
+                    property real serverValue: unity8Settings.launcherWidth
+                    USC.ServerPropertySynchroniser {
+                        userTarget: iconWidth
+                        userProperty: "value"
+                        serverTarget: iconWidth
+                        serverProperty: "serverValue"
+                        maximumWaitBufferInterval: 16
+
+                        onSyncTriggered: unity8Settings.launcherWidth = value
+                    }
                 }
             }
         }
