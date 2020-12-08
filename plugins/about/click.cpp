@@ -48,34 +48,28 @@ void ClickModel::populateFromDesktopFile (Click *newClick,
                                           const QString& name,
                                           const QString& version)
 {
-    QVariantMap appHooks;
-    gchar *desktopFileName = nullptr;
-
     QVariantMap::ConstIterator begin(hooks.constBegin());
     QVariantMap::ConstIterator end(hooks.constEnd());
 
     // Look through the hooks for first 'desktop' key for an icon to use
     while (begin != end) {
-        GKeyFile *appinfo = g_key_file_new();
         auto app = begin.key();
-        appHooks = (*begin++).toMap();
+        QVariantMap appHooks = (*begin++).toMap();
 
         if (!appHooks.isEmpty() && appHooks.contains("desktop")) {
+	    auto appinfo = g_key_file_new();
             auto appid = g_strdup_printf("%s_%s_%s.desktop",
                                          name.toLocal8Bit().constData(),
                                          app.toLocal8Bit().constData(),
                                          version.toLocal8Bit().constData());
             g_debug ("Checking app: %s", appid);
 
-            desktopFileName =
+            auto desktopFileName =
                 g_build_filename(g_get_user_data_dir(),
                                  "applications",
                                  appid,
                                  nullptr);
             g_free (appid);
-
-            if (!QFile::exists(desktopFileName))
-                goto out;
 
             g_debug ("Desktop file: %s", desktopFileName);
 
@@ -87,11 +81,10 @@ void ClickModel::populateFromDesktopFile (Click *newClick,
 
             if (!loaded) {
                 g_warning ("Couldn't parse desktop file %s", desktopFileName);
-                goto out;
             }
 
             // Only load display name if not set from click manifest
-            if (newClick->displayName.isEmpty()) {
+            if (loaded && newClick->displayName.isEmpty()) {
                 gchar * title = g_key_file_get_locale_string (appinfo,
                                                               G_KEY_FILE_DESKTOP_GROUP,
                                                               G_KEY_FILE_DESKTOP_KEY_NAME,
@@ -109,10 +102,10 @@ void ClickModel::populateFromDesktopFile (Click *newClick,
             // Overwrite the icon with the .desktop or ini file's one if we have it.
             // This is the one that the app scope displays so use that if we
             // can.
-            gchar * icon = g_key_file_get_string (appinfo,
+            gchar * icon = loaded ? g_key_file_get_string (appinfo,
                                                   G_KEY_FILE_DESKTOP_GROUP,
                                                   G_KEY_FILE_DESKTOP_KEY_ICON,
-                                                  nullptr);
+                                                  nullptr) : nullptr;
 
             if (icon) {
                 g_debug ("Icon is %s", icon);
@@ -121,10 +114,10 @@ void ClickModel::populateFromDesktopFile (Click *newClick,
                 }
                 g_free(icon);
             }
+
+            g_free (desktopFileName);
+            g_key_file_free (appinfo);
         }
-out:
-        g_free (desktopFileName);
-        g_key_file_free (appinfo);
 
         if (!newClick->icon.isEmpty()) {
             break;
