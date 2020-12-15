@@ -1,5 +1,7 @@
 set(QML_SOURCES
     PageComponent.qml
+    ImportOvpnPageComponent.qml
+    OvpnPicker.qml
 )
 
 install(FILES vpn.settings DESTINATION ${PLUGIN_MANIFEST_DIR})

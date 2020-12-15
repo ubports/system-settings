@@ -33,6 +33,8 @@ ItemPage {
     flickable: scrollWidget
 
     property var diag
+    property var loginPageCompo
+    property var passwordPageCompo
 
     function openConnection(connection, isNew) {
         pageStack.addPageToNextColumn(root, vpnEditorDialog, {
@@ -66,21 +68,42 @@ ItemPage {
                 onClickedConnection: previewConnection(connection)
             }
 
-            ListItem.Caption {
-                // We do not yet support configuration files.
-                visible: false
-                anchors {
-                    left: parent.left
-                    right: parent.right
+            ListItem.SingleControl {
+                control: Button {
+                    objectName: "addVpnButton"
+                    text : i18n.tr("Add Manual Configuration…")
+                    onClicked: {
+                        loginPageCompo = undefined;
+                        passwordPageCompo = undefined;
+                        Connectivity.vpnConnections.add(VpnConnection.OPENVPN);
+                    }
                 }
-                text : i18n.tr("To add a VPN configuration, download its config file or configure it manually.")
             }
 
             ListItem.SingleControl {
                 control: Button {
                     objectName: "addVpnButton"
-                    text : i18n.tr("Add Manual Configuration…")
-                    onClicked: Connectivity.vpnConnections.add(VpnConnection.OPENVPN)
+                    text : i18n.tr("Add ovpn File...")
+                    onClicked: {
+                        var pickerDialog = PopupUtils.open(
+                            Qt.resolvedUrl("./OvpnPicker.qml")
+                        );
+                        pickerDialog.fileImportSignal.connect(function (files) {
+                            var filesCompo = [];
+                            for (var i=0; i<files.length; i++) {
+                                filesCompo.push({
+                                    path: files[i], 
+                                    displayName: files[i].split("/")[files[i].split("/").length - 1], 
+                                    checked: true
+                                })
+                            }
+                            if (filesCompo.length > 0) {
+                                pageStack.addPageToNextColumn(root, importOvpnPage, {
+                                    files: filesCompo
+                                });
+                            }
+                        });
+                    }
                 }
             }
         }
@@ -127,8 +150,55 @@ ItemPage {
         }
     }
 
+    Component {
+        id: importOvpnPage
+        ImportOvpnPageComponent {
+            onValidate: {
+                loginPageCompo = login;
+                passwordPageCompo = password;
+                for (var i=0; i<selected.length; i++) {
+                    Connectivity.vpnConnections.importFile(VpnConnection.OPENVPN, selected[i]);
+                }
+            }
+            onCancel: {
+                loginPageCompo = undefined;
+                passwordPageCompo = undefined;
+            }
+        }            
+    }
+
+    onPushedOntoStack: {
+        if (pluginOptions) {
+            var filesCompo = [];
+            for (var ovpnfile in pluginOptions) {
+                if (ovpnfile.startsWith("ovpn_filepath")) {
+                    filesCompo.push({
+                        path: pluginOptions[ovpnfile], 
+                        displayName: pluginOptions[ovpnfile].split("/")[pluginOptions[ovpnfile].split("/").length - 1], 
+                        checked: true
+                    });
+                    pluginOptions[ovpnfile] = undefined;
+                }
+            }
+            if (filesCompo.length > 0) {
+                pageStack.addPageToNextColumn(root, importOvpnPage, { files: filesCompo });
+            }
+        }
+    }
+
     Connections {
         target: Connectivity.vpnConnections
-        onAddFinished: openConnection(connection, true)
+        onAddFinished: {
+            if (loginPageCompo || passwordPageCompo) {
+                if (loginPageCompo) {
+                    connection.username = loginPageCompo;
+                }
+                if (passwordPageCompo) {
+                    connection.password = passwordPageCompo;
+                }
+            } else {
+                openConnection(connection, true)
+            }
+        }
     }
 }
