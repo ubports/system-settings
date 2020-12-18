@@ -174,6 +174,14 @@ QString StorageAbout::vendorString()
         char modelBuffer[PROP_VALUE_MAX];
         property_get("ro.product.manufacturer", manufacturerBuffer, "");
         property_get("ro.product.model", modelBuffer, "");
+
+        // Special case for devices using generic Halium system.img
+        if (QString(manufacturerBuffer).startsWith("halium", Qt::CaseInsensitive))
+        {
+            property_get("ro.product.vendor.manufacturer", manufacturerBuffer, "");
+            property_get("ro.product.vendor.model", modelBuffer, "");
+        }
+
         m_vendorString = QString("%1 %2").arg(manufacturerBuffer).arg(modelBuffer);
     }
 
