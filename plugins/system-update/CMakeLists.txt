@@ -6,6 +6,7 @@ set(QML_SOURCES
     DownloadHandler.qml
     GlobalUpdateControls.qml
     ImageUpdatePrompt.qml
+    InstallationFailed.qml
     PageComponent.qml
     UpdateDelegate.qml
     UpdateSettings.qml
