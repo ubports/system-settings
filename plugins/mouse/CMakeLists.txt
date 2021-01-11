@@ -16,7 +16,7 @@ set(PANEL_SOURCES
     ${QML_SOURCES}
 )
 
-configure_file(qmldir.in qmldir)
+configure_file(qmldir.in qmldir COPYONLY)
 add_definitions(-DQT_NO_KEYWORDS)
 add_library(UbuntuMousePanel MODULE ${PANEL_SOURCES} ${QML_SOURCES})
 
