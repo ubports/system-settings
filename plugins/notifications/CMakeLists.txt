@@ -23,7 +23,7 @@ set(ubuntu_notifications_panel_SRCS
     click_applications_notify_model.cpp
     )
 
-configure_file(qmldir.in qmldir)
+configure_file(qmldir.in qmldir COPYONLY)
 add_library(UbuntuNotificationsPanel MODULE ${ubuntu_notifications_panel_HDRS} ${ubuntu_notifications_panel_SRCS} ${QML_SOURCES})
 
 add_definitions(-DQT_NO_KEYWORDS)
