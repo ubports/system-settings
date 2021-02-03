@@ -116,7 +116,7 @@ ItemPage {
 
     GSettings {
         id: powerSettings
-        schema.id: usePowerd ? "com.ubuntu.touch.system" : "org.gnome.desktop.session"
+        schema.id: root.usePowerd ? "com.ubuntu.touch.system" : "org.gnome.desktop.session"
     }
 
     Flickable {
