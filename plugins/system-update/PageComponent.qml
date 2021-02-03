@@ -36,6 +36,17 @@ ItemPage {
     header: PageHeader {
         title: i18n.tr("Updates")
         flickable: scrollWidget
+
+        trailingActionBar.actions: [
+            Action {
+                iconName: "settings"
+                text: i18n.tr("Update settings")
+                onTriggered: {
+                    onClicked: pageStack.addPageToNextColumn(
+                        root, Qt.resolvedUrl("UpdateSettings.qml"))
+                }
+            }
+        ]
     }
 
 
@@ -365,16 +376,6 @@ ItemPage {
             bottom: parent.bottom
             left: parent.left
             right: parent.right
-        }
-
-        ListItem.ThinDivider {}
-
-        ListItem.SingleValue {
-            objectName: "configuration"
-            text: i18n.tr("Update settings")
-            progression: true
-            onClicked: pageStack.addPageToNextColumn(
-                root, Qt.resolvedUrl("UpdateSettings.qml"))
         }
     }
 
