@@ -43,7 +43,7 @@ ItemPage {
                 themeSelector.selectedIndex = curIndex
         }
         Component.onCompleted: {
-            themeSelector.selectedIndex = themeModel.findIndex(function(data){return data.value === settings.theme})
+            themeSelector.selectedIndex = root.themeModel.findIndex(function(data){return data.value === settings.theme})
         }
     }
 
