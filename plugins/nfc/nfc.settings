@@ -15,6 +15,6 @@
         "communication"
     ],
     "has-dynamic-keywords": false,
-    "has-dynamic-visibility": false,
+    "has-dynamic-visibility": true,
     "page-component": "PageComponent.qml"
 }
