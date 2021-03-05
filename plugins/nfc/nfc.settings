@@ -1,4 +1,5 @@
 {
+    "plugin": "nfc-plugin",
     "icon": "nfc",
     "name": "NFC",
     "translations": "ubuntu-system-settings",
