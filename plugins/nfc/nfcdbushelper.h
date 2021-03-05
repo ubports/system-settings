@@ -30,20 +30,20 @@
 class NfcDbusHelper final : public QObject {
     Q_OBJECT
     Q_PROPERTY(bool hasAdapter READ hasAdapter NOTIFY hasAdapterChanged)
-    //Q_PROPERTY(bool enabled READ enabled WRITE setEnabled NOTIFY enabledChanged)
+    Q_PROPERTY(bool enabled READ enabled WRITE setEnabled NOTIFY enabledChanged)
 
 public:
     explicit NfcDbusHelper(QObject *parent = nullptr);
     ~NfcDbusHelper() {};
 
 public Q_SLOTS:
-	bool hasAdapter();
-	bool enabled();
+    bool hasAdapter();
+    bool enabled();
     void setEnabled(const bool value);
 
 Q_SIGNALS:
-	void hasAdapterChanged();
-	void enabledChanged(bool value);
+    void hasAdapterChanged();
+    void enabledChanged(bool value);
 
 private:
     QDBusInterface* m_nfcdDaemonInterface = nullptr;

@@ -1,3 +1,5 @@
+add_subdirectory(plugin)
+
 set(QML_SOURCES PageComponent.qml)
 
 add_library(UbuntuNfcPanel MODULE
