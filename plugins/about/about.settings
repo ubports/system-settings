@@ -2,7 +2,7 @@
     "icon": "info",
     "name": "About",
     "translations": "ubuntu-system-settings",
-    "category": "uncategorized-bottom",
+    "category": "system",
     "priority": 0,
     "keywords": [
         "about",
