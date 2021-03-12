@@ -1,5 +1,5 @@
 {
-    "icon": "ubuntu-logo-symbolic",
+    "icon": "preferences-system-updates-symbolic",
     "name": "Updates available",
     "translations": "ubuntu-system-settings",
     "category": "uncategorized-top",
