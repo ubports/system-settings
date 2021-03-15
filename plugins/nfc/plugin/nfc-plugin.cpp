@@ -1,9 +1,10 @@
 /*
  * This file is part of system-settings
  *
+ * Copyright (C) 2020 UBports Foundation
  * Copyright (C) 2015 Canonical Ltd.
  *
- * Contact: Ken VanDine <ken.vandine@canonical.com>
+ * Contact: Alfred Neumayer <dev.beidl@gmail.com>
  *
  * This program is free software: you can redistribute it and/or modify it
  * under the terms of the GNU General Public License version 3, as published
