@@ -58,12 +58,7 @@ NfcItem::NfcItem(const QVariantMap &staticData, QObject *parent):
         }
     }
 
-    bool supportedDevice(false);
-    supportedDevice = this->m_nfcDbusHelper.hasAdapter();
-    connect(&this->m_nfcDbusHelper, &NfcDbusHelper::hasAdapterChanged,
-            this, [=](){
-                setVisibility(this->m_nfcDbusHelper.hasAdapter());
-            });
+    const bool supportedDevice = this->m_nfcDbusHelper.hasAdapter();
     setVisibility(supportedDevice);
 }
 
