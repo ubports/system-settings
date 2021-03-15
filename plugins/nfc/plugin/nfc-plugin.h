@@ -1,9 +1,10 @@
 /*
  * This file is part of system-settings
  *
+ * Copyright (C) 2020 UBports Foundation
  * Copyright (C) 2015 Canonical Ltd.
  *
- * Contact: Ken VanDine <ken.vandine@canonical.com>
+ * Contact: Alfred Neumayer <dev.beidl@gmail.com>
  *
  * This program is free software: you can redistribute it and/or modify it
  * under the terms of the GNU General Public License version 3, as published
@@ -18,8 +19,8 @@
  * with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#ifndef SYSTEM_SETTINGS_CELLULAR_PLUGIN_H
-#define SYSTEM_SETTINGS_CELLULAR_PLUGIN_H
+#ifndef SYSTEM_SETTINGS_NFC_PLUGIN_H
+#define SYSTEM_SETTINGS_NFC_PLUGIN_H
 
 #include <QObject>
 #include <SystemSettings/PluginInterface>
@@ -35,4 +36,4 @@ public:
                                          QObject *parent = 0);
 };
 
-#endif // SYSTEM_SETTINGS_CELLULAR_PLUGIN_H
+#endif // SYSTEM_SETTINGS_NFC_PLUGIN_H
