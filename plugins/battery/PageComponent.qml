@@ -293,11 +293,7 @@ ItemPage {
                 }
                 showDivider: false
             }
-            
-            SettingsItemTitle {
-                text: i18n.tr("In the top panel:")
-            }
-            
+
             SettingsListItems.Standard {
                 CheckBox {
                     objectName: "batteryPercentage"
@@ -307,7 +303,7 @@ ItemPage {
                     Component.onCompleted: checked = serverChecked
                     onTriggered: indicatorSettings.showPercentage = checked
                 }
-                text: i18n.tr("Show battery percentage")
+                text: i18n.tr("Show battery percentage in indicator")
             }
 
             SettingsItemTitle {
