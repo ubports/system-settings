@@ -17,8 +17,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#ifndef NFC_DBUS_HELPER
-#define NFC_DBUS_HELPER
+#pragma once
 
 #include <QObject>
 #include <QtDBus>
@@ -50,5 +49,3 @@ private:
     QDBusInterface* m_nfcdSettingsInterface = nullptr;
 };
 
-
-#endif
