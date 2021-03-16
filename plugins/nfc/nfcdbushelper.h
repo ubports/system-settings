@@ -39,7 +39,7 @@ public:
 public Q_SLOTS:
     bool hasAdapter();
     bool enabled();
-    void setEnabled(const bool value);
+    void setEnabled(bool value);
 
 Q_SIGNALS:
     void hasAdapterChanged();
