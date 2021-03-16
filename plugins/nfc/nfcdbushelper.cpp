@@ -68,7 +68,7 @@ bool NfcDbusHelper::enabled()
     return value.isValid() && value.value();
 }
 
-void NfcDbusHelper::setEnabled(const bool value)
+void NfcDbusHelper::setEnabled(bool value)
 {
     this->m_nfcdSettingsInterface->call(NFCD_SETTINGS_METHOD_SETENABLED, value);
 }
