@@ -15,8 +15,7 @@
  *
 */
 
-#ifndef PLUGIN_H
-#define PLUGIN_H
+#pragma once
 
 #include <QtQml/QQmlEngine>
 #include <QtQml/QQmlExtensionPlugin>
@@ -30,5 +29,3 @@ public:
     void registerTypes(const char *uri);
     void initializeEngine(QQmlEngine *engine, const char *uri);
 };
-
-#endif // PLUGIN_H

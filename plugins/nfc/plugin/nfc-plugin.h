@@ -19,8 +19,7 @@
  * with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#ifndef SYSTEM_SETTINGS_NFC_PLUGIN_H
-#define SYSTEM_SETTINGS_NFC_PLUGIN_H
+#pragma once
 
 #include <QObject>
 #include <SystemSettings/PluginInterface>
@@ -36,4 +35,3 @@ public:
                                          QObject *parent = 0);
 };
 
-#endif // SYSTEM_SETTINGS_NFC_PLUGIN_H
