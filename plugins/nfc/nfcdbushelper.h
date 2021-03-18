@@ -42,10 +42,14 @@ public Q_SLOTS:
 
 Q_SIGNALS:
     void hasAdapterChanged();
-    void enabledChanged(bool value);
+    void enabledChanged();
+
+private Q_SLOTS:
+    void handleEnabledChanged(bool enabled);
+    void handleEnableError(QDBusError error);
 
 private:
+    bool m_enabled = false;
     QDBusInterface* m_nfcdDaemonInterface = nullptr;
     QDBusInterface* m_nfcdSettingsInterface = nullptr;
 };
-
