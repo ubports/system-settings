@@ -50,8 +50,26 @@ NfcDbusHelper::NfcDbusHelper(QObject *parent) : QObject(parent)
         QDBusConnection::systemBus(),
         this);
 
+    QDBusReply<bool> initialEnabledValue =
+        this->m_nfcdSettingsInterface->call(NFCD_SETTINGS_METHOD_GETENABLED);
+    this->m_enabled = initialEnabledValue.isValid() && initialEnabledValue.value();
+
     connect(this->m_nfcdSettingsInterface, SIGNAL(EnabledChanged(bool)),
-            this, SIGNAL(enabledChanged(bool)));
+            this, SLOT(handleEnabledChanged(bool)));
+}
+
+void NfcDbusHelper::handleEnabledChanged(bool enabled)
+{
+    if (this->m_enabled == enabled)
+        return;
+
+    this->m_enabled = enabled;
+    Q_EMIT enabledChanged();
+}
+
+void NfcDbusHelper::handleEnableError(QDBusError error)
+{
+    qWarning() << "Failed to change NFC enable state," << error.message();
 }
 
 bool NfcDbusHelper::hasAdapter()
@@ -63,12 +81,16 @@ bool NfcDbusHelper::hasAdapter()
 
 bool NfcDbusHelper::enabled()
 {
-    QDBusReply<bool> value =
-        this->m_nfcdSettingsInterface->call(NFCD_SETTINGS_METHOD_GETENABLED);
-    return value.isValid() && value.value();
+    return this->m_enabled;
 }
 
 void NfcDbusHelper::setEnabled(bool value)
 {
-    this->m_nfcdSettingsInterface->call(NFCD_SETTINGS_METHOD_SETENABLED, value);
+    QVariantList args;
+    args.append(QVariant(value));
+
+    this->m_nfcdSettingsInterface->callWithCallback(NFCD_SETTINGS_METHOD_SETENABLED,
+                                                    args, this,
+                                                    SLOT(handleEnabledChanged(bool)),
+                                                    SLOT(handleEnableError(QDBusError)));
 }
