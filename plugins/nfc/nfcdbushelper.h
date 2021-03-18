@@ -29,7 +29,6 @@
 class NfcDbusHelper final : public QObject {
     Q_OBJECT
     Q_PROPERTY(bool hasAdapter READ hasAdapter NOTIFY hasAdapterChanged)
-    Q_PROPERTY(bool enabled READ enabled WRITE setEnabled NOTIFY enabledChanged)
 
 public:
     explicit NfcDbusHelper(QObject *parent = nullptr);
@@ -46,6 +45,7 @@ Q_SIGNALS:
 
 private Q_SLOTS:
     void handleEnabledChanged(bool enabled);
+    void handleSetEnabledDone();
     void handleEnableError(QDBusError error);
 
 private:

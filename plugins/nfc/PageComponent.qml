@@ -48,14 +48,11 @@ ItemPage {
                 Switch {
                     id: control
                     objectName: "nfcSwitch"
-                    checked: DbusHelper.enabled;
+                    checked: DbusHelper.enabled()
                     SlotsLayout.position: SlotsLayout.Trailing
                     onCheckedChanged: {
                         DbusHelper.setEnabled(checked)
                     }
-                    /*Component.onCompleted: {
-                        checked = DbusHelper.enabled()
-                    }*/
                 }
             }
         }

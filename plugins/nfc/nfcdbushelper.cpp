@@ -67,6 +67,11 @@ void NfcDbusHelper::handleEnabledChanged(bool enabled)
     Q_EMIT enabledChanged();
 }
 
+void NfcDbusHelper::handleSetEnabledDone()
+{
+    qDebug() << "NFC enabled changed";
+}
+
 void NfcDbusHelper::handleEnableError(QDBusError error)
 {
     qWarning() << "Failed to change NFC enable state," << error.message();
@@ -91,6 +96,6 @@ void NfcDbusHelper::setEnabled(bool value)
 
     this->m_nfcdSettingsInterface->callWithCallback(NFCD_SETTINGS_METHOD_SETENABLED,
                                                     args, this,
-                                                    SLOT(handleEnabledChanged(bool)),
+                                                    SLOT(handleSetEnabledDone()),
                                                     SLOT(handleEnableError(QDBusError)));
 }
