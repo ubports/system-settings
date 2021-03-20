@@ -25,6 +25,7 @@ import Ubuntu.Components 1.3
 import Ubuntu.Components.ListItems 1.3 as ListItems
 import Ubuntu.Components.Popups 1.3
 import Ubuntu.SystemSettings.TimeDate 1.1
+import GSettings 1.0
 
 ItemPage {
     id: root
@@ -39,6 +40,11 @@ ItemPage {
         var offset = new Date().getTimezoneOffset() / -60
         var plus = offset >= 0 ? "+" : ""
         return "UTC" + plus + offset
+    }
+
+    GSettings {
+        id: indicatorDatetime
+        schema.id: "com.canonical.indicator.datetime"
     }
 
     UbuntuTimeDatePanel {
@@ -130,6 +136,74 @@ ItemPage {
                                     // Milliseconds to microseconds
                                     timeDatePanel.setTime(newDate.getTime() * 1000)
                     })
+                }
+            }
+
+            SettingsItemTitle {
+                text: i18n.tr("Show in indicator:")
+            }
+
+            SettingsListItems.Icon {
+                id: showCalendar
+                objectName: "showCalendar"
+                text: i18n.tr("Calendar")
+                iconName: "calendar"
+
+                Switch {
+                    id: showCalendarSwitch
+                    objectName: "showCalendarSwitch"
+                    checked: indicatorDatetime.showCalendar
+                    onTriggered: indicatorDatetime.showCalendar = checked
+                }
+            }
+
+            SettingsListItems.Standard {
+                id: showWeekNumbers
+                objectName: "showWeekNumbers"
+                visible: indicatorDatetime.showCalendar
+                text: i18n.tr("Show week numbers")
+                anchors.left: parent.left
+                anchors.leftMargin: units.gu(2)
+
+                CheckBox {
+                    objectName: "showWeekNumbersCheckbox"
+                    SlotsLayout.position: SlotsLayout.First
+                    property bool serverChecked: indicatorDatetime.showWeekNumbers
+                    onServerCheckedChanged: checked = serverChecked
+                    Component.onCompleted: checked = serverChecked
+                    onTriggered: indicatorDatetime.showWeekNumbers = checked
+                }
+            }
+
+            SettingsListItems.Icon {
+                id: showEvents
+                objectName: "showEvents"
+                text: i18n.tr("Events")
+                iconName: "event"
+
+                Switch {
+                    id: showEventsSwitch
+                    objectName: "showEventsSwitch"
+                    checked: indicatorDatetime.showEvents
+                    onTriggered: indicatorDatetime.showEvents = checked
+                }
+            }
+            
+            SettingsListItems.Standard {
+                id: showAlarms
+                objectName: "showAlarms"
+                visible: indicatorDatetime.showEvents
+                text: i18n.tr("Include alarms")
+                anchors.left: parent.left
+                anchors.leftMargin: units.gu(2)
+                
+                CheckBox {
+                    objectName: "showAlarmsCheckbox"
+                    SlotsLayout.position: SlotsLayout.First
+                    property bool serverChecked: indicatorDatetime.showAlarms
+                    onServerCheckedChanged: checked = serverChecked
+                    Component.onCompleted: checked = serverChecked
+                    onTriggered: indicatorDatetime.showAlarms = checked
                 }
             }
         }
