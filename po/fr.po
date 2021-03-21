@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2020-11-01 14:25+0000\n"
+"PO-Revision-Date: 2021-03-18 20:39+0000\n"
 "Last-Translator: Anne Onyme <anneonyme017@netcourrier.com>\n"
 "Language-Team: French <https://translate.ubports.com/projects/ubports/"
 "system-settings/fr/>\n"
@@ -2083,7 +2083,7 @@ msgstr "Un code à 4 chiffres"
 #: ../plugins/security-privacy/LockSecurity.qml:469
 #: ../plugins/security-privacy/PhoneLocking.qml:62
 msgid "Passphrase"
-msgstr "Un mot de passe"
+msgstr "Mot de passe"
 
 #: ../plugins/security-privacy/LockSecurity.qml:470
 #: ../plugins/security-privacy/PhoneLocking.qml:63
@@ -2580,7 +2580,7 @@ msgstr "En attente du téléchargement"
 
 #: ../plugins/system-update/UpdateDelegate.qml:238
 msgid "Downloading"
-msgstr "Téléchargement"
+msgstr "Téléchargement en cours"
 
 #. TRANSLATORS: %1 is the human readable amount
 #. of bytes downloaded, and %2 is the total to be
@@ -2759,7 +2759,7 @@ msgstr "Adresse IP"
 
 #: ../plugins/wifi/OtherNetwork.qml:92
 msgid "Connect to Wi‑Fi"
-msgstr "Se connecter au Wi-Fi"
+msgstr "Connecter au Wi-Fi"
 
 #: ../plugins/wifi/OtherNetwork.qml:93
 msgid "Connect to Hidden Network"

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-05 20:03+0000\n"
-"PO-Revision-Date: 2020-05-26 22:24+0000\n"
+"PO-Revision-Date: 2021-03-14 01:00+0000\n"
 "Last-Translator: Ryan Argente <rargente@lonerider.one>\n"
 "Language-Team: French (Canada) <https://translate.ubports.com/projects/"
 "ubports/system-settings/fr_CA/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.8\n"
+"X-Generator: Weblate 3.11.3\n"
 
 #: ../plugins/about/DevMode.qml:34 ../plugins/about/DevMode.qml:90
 msgid "Developer Mode"
@@ -456,7 +456,7 @@ msgstr "Demande d'autorisation d'appairage via Bluetooth"
 msgid ""
 "The device %1 wants to pair with this device. Do you want to allow this?"
 msgstr ""
-"L'appareil %1 veut s’appairer avec cet appareil. Voulez-vous autoriser ceci ?"
+"L'appareil %1 veut s’appairer avec cet appareil. Voulez-vous autoriser ceci?"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:39
 msgid "Allow"
@@ -998,7 +998,7 @@ msgstr "Réinitialiser les paramètres des APNs"
 
 #: ../plugins/cellular/PageChooseApn.qml:166
 msgid "Are you sure that you want to Reset APN Settings?"
-msgstr "Voulez-vous vraiment réinitialiser les paramètres des APNs ?"
+msgstr "Voulez-vous vraiment réinitialiser les paramètres des APNs?"
 
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../plugins/cellular/PageChooseApn.qml:169 settings.js:210
@@ -2048,7 +2048,7 @@ msgstr "Applications qui ont demandé l'accès à votre position"
 
 #: ../plugins/security-privacy/AppAccess.qml:87
 msgid "Microphone"
-msgstr "Microphone"
+msgstr "Micro"
 
 #: ../plugins/security-privacy/AppAccess.qml:88
 msgid "Apps that have requested access to your microphone"
@@ -2916,11 +2916,11 @@ msgstr "Ajouter un certificat?"
 
 #: ../plugins/wifi/CertDialog.qml:24
 msgid "Add key?"
-msgstr "Ajouter une clé ?"
+msgstr "Ajouter une clé?"
 
 #: ../plugins/wifi/CertDialog.qml:26
 msgid "Add pac file?"
-msgstr "Ajouter un fichier .pac ?"
+msgstr "Ajouter un fichier .pac?"
 
 #: ../plugins/wifi/CertDialog.qml:36
 msgid "Content:"

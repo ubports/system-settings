@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2020-10-15 10:56+0000\n"
-"Last-Translator: P.-H. Lin <cypressyew@gmail.com>\n"
+"PO-Revision-Date: 2021-02-21 01:01+0000\n"
+"Last-Translator: louies0623 <louies0623@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.ubports.com/projects/"
 "ubports/system-settings/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -198,7 +198,7 @@ msgstr "不適用"
 
 #: ../plugins/about/Version.qml:35
 msgid "OS Build Details"
-msgstr "作業系統構建細節"
+msgstr "作業系統構建詳細內容"
 
 #: ../plugins/about/Version.qml:62
 msgid "OS build number"
@@ -420,7 +420,7 @@ msgstr "當裝置不使用時過了這段時間後睡眠："
 #, qt-format
 msgid "After %1 seconds"
 msgid_plural "After %1 seconds"
-msgstr[0] "%1 分鐘之後"
+msgstr[0] "在 %1 秒鐘之後"
 
 #: ../plugins/battery/SleepValues.qml:130
 msgid ""
@@ -476,7 +476,7 @@ msgstr "確認 PIN 碼"
 #: ../plugins/brightness/WifiDisplays.qml:172
 #: ../plugins/wifi/AccessPoint.qml:51 ../plugins/wifi/StandardMenuItem.qml:31
 msgid "Connected"
-msgstr "已連接"
+msgstr "已連線"
 
 #: ../plugins/bluetooth/DevicePage.qml:38
 #: ../plugins/bluetooth/PageComponent.qml:290
@@ -1532,7 +1532,7 @@ msgstr "轉接所有來電"
 
 #: ../plugins/phone/CallForwarding.qml:146
 msgid "Redirects all phone calls to another number."
-msgstr "將所有電話重新定向到另一個號碼。"
+msgstr "將所有手機通話重新導向到另一個號碼。"
 
 #: ../plugins/phone/CallForwarding.qml:158
 msgid "Call forwarding status can’t be checked "
@@ -1552,7 +1552,7 @@ msgstr "我無法回覆"
 
 #: ../plugins/phone/CallForwarding.qml:197
 msgid "My phone is unreachable"
-msgstr "我的手機無法存取"
+msgstr "我的電話無法接通"
 
 #: ../plugins/phone/CallForwarding.qml:227
 msgid "Contacts…"
@@ -1580,7 +1580,7 @@ msgstr "所有通話"
 
 #: ../plugins/phone/CallForwarding.qml:384
 msgid "Some calls"
-msgstr "有幾個來電"
+msgstr "一些通話"
 
 #: ../plugins/phone/CallForwarding.qml:386
 #: ../plugins/security-privacy/PageComponent.qml:180
@@ -1606,13 +1606,13 @@ msgstr "來電正在轉接中目前無法更改。"
 #: ../plugins/phone/MultiSim.qml:42 ../plugins/phone/NoSims.qml:34
 #: ../plugins/phone/SingleSim.qml:34
 msgid "Call waiting"
-msgstr "來電待接"
+msgstr "等候通話"
 
 #: ../plugins/phone/CallWaiting.qml:101
 msgid ""
 "Lets you answer or start a new call while on another call, and switch "
 "between them"
-msgstr "讓您在接聽電話時接聽另一個電話、或開始另一個電話，又或在兩者之間切換"
+msgstr "讓您在接聽其他電話時，同時接聽或開始一個新的通話，並可以在它們之間做切換"
 
 #: ../plugins/phone/MultiSim.qml:67 ../plugins/phone/NoSims.qml:42
 msgid "Services"
@@ -1856,7 +1856,7 @@ msgstr "應用程式可能還需要訪問在線帳戶。"
 
 #: ../plugins/security-privacy/AppAccess.qml:123
 msgid "Online Accounts…"
-msgstr "在線帳戶…"
+msgstr "線上帳戶…"
 
 #: ../plugins/security-privacy/here-terms.qml:24
 msgid "Nokia HERE"
@@ -2363,7 +2363,7 @@ msgstr "安裝完成後，裝置將自動重新啟動。"
 
 #: ../plugins/system-update/FirmwareUpdate.qml:185
 msgid "Install and restart now"
-msgstr "現在重新啟動並安裝"
+msgstr "立即安裝並重新啟動"
 
 #: ../plugins/system-update/FirmwareUpdate.qml:228
 msgid ""
@@ -2665,7 +2665,7 @@ msgstr "儲存"
 
 #: ../plugins/wifi/NetworkDetails.qml:38
 msgid "Network details"
-msgstr "網路細節"
+msgstr "網路詳細內容"
 
 #: ../plugins/wifi/NetworkDetails.qml:65
 msgid "Last connected"
@@ -2682,7 +2682,7 @@ msgstr "IP 位址"
 
 #: ../plugins/wifi/OtherNetwork.qml:92
 msgid "Connect to Wi‑Fi"
-msgstr "連接到 Wi‑Fi"
+msgstr "連接至 Wi-Fi"
 
 #: ../plugins/wifi/OtherNetwork.qml:93
 msgid "Connect to Hidden Network"

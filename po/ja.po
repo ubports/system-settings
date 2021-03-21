@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2020-09-26 12:50+0000\n"
-"Last-Translator: M.Sugahara <equaaqua@hotmail.com>\n"
+"PO-Revision-Date: 2021-03-02 03:27+0000\n"
+"Last-Translator: kaito419 <m.k419sabuaka@gmail.com>\n"
 "Language-Team: Japanese <https://translate.ubports.com/projects/ubports/"
 "system-settings/ja/>\n"
 "Language: ja\n"
@@ -26,7 +26,7 @@ msgstr "システム設定"
 
 #: ubuntu-system-settings.desktop.in.in.h:2
 msgid "System;"
-msgstr "System:システム;"
+msgstr "システム;"
 
 #: ubuntu-system-settings.desktop.in.in.h:3
 msgid "Preferences;Settings;"
@@ -37,17 +37,14 @@ msgid "Developer Mode"
 msgstr "開発者モード"
 
 #: ../plugins/about/DevMode.qml:84
-#, fuzzy
 msgid ""
 "In Developer Mode, anyone can access, change or delete anything on this "
 "device by connecting it to another device."
-msgstr ""
-"開発者モードは、この電話に他のデバイスから接続すれば、誰もが全てにアクセス、"
-"変更、削除ができます。"
+msgstr "開発者モードでは、この電話に他のデバイスから接続すると、誰でも全てにアクセス、変更、削除ができます。"
 
 #: ../plugins/about/DevMode.qml:110
 msgid "You need a passcode or passphrase set to use Developer Mode."
-msgstr ""
+msgstr "開発者モードを使用するには、パスコードまたはパスフレーズを設定する必要があります。"
 
 #: ../plugins/about/DevMode.qml:116
 #: ../plugins/security-privacy/LockSecurity.qml:36
@@ -150,7 +147,7 @@ msgstr "開発者モード"
 
 #: ../plugins/about/Storage.qml:44
 msgid "Scanning"
-msgstr ""
+msgstr "スキャン中"
 
 #: ../plugins/about/Storage.qml:106
 msgid "Used by Ubuntu"
@@ -206,9 +203,8 @@ msgid "OS build number"
 msgstr "OSビルド番号"
 
 #: ../plugins/about/Version.qml:68
-#, fuzzy
 msgid "UBports Image part"
-msgstr "Ubuntuイメージ"
+msgstr "UBports イメージ"
 
 #: ../plugins/about/Version.qml:76
 msgid "Ubuntu build description"
@@ -372,10 +368,10 @@ msgstr "無操作時にスリープする"
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery/PageComponent.qml:322
 #: ../plugins/security-privacy/PhoneLocking.qml:98
-#, fuzzy, qt-format
+#, qt-format
 msgid "After %1 second"
 msgid_plural "After %1 seconds"
-msgstr[0] "%1分後"
+msgstr[0] "%1秒後"
 
 #. TRANSLATORS: %1 is the number of minutes
 #: ../plugins/battery/PageComponent.qml:326
@@ -393,7 +389,6 @@ msgstr[0] "%1分後"
 
 #. TRANSLATORS: “Wi-Fi used for hotspot” is hidden.
 #: ../plugins/battery/PageComponent.qml:365
-#, fuzzy
 msgid "Wi-Fi used for hotspot"
 msgstr "Wi-Fiテザリング"
 
@@ -411,55 +406,48 @@ msgid "Bluetooth"
 msgstr "Bluetooth"
 
 #: ../plugins/battery/SleepValues.qml:74
-#, fuzzy
 msgid "Lock the device when it's not in use:"
 msgstr "指定した時間操作されなかったらスマートフォンをロックする："
 
 #: ../plugins/battery/SleepValues.qml:75
-#, fuzzy
 msgid "Put the device to sleep when it is not in use:"
 msgstr "指定した時間操作されなかったらスマートフォンをスリープする："
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery/SleepValues.qml:86
-#, fuzzy, qt-format
+#, qt-format
 msgid "After %1 seconds"
 msgid_plural "After %1 seconds"
-msgstr[0] "%1分後"
+msgstr[0] "%1秒後"
 
 #: ../plugins/battery/SleepValues.qml:130
-#, fuzzy
 msgid ""
 "Shorter times are more secure. Device won't lock during calls or video "
 "playback."
-msgstr ""
-"安全のため、時間はこれよりも短く設定するべきです。電話機は呼び出しやビデオ再"
-"生中はロックされません。"
+msgstr "短い方が安全です。端末は通話中やビデオ再生中はロックされません。"
 
 #: ../plugins/battery/SleepValues.qml:130
-#, fuzzy
 msgid "Device won’t sleep during calls or video playback."
 msgstr "通話中やビデオ再生中はスリープしません。"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:26
-#, fuzzy
 msgid "Bluetooth Pairing Authorization Request"
-msgstr "Bluetoothのペアリング要求"
+msgstr "Bluetoothペアリング要求"
 
 #. TRANSLATORS: %1 is the name of the bluetooth device which requires authorization
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:34
 #, qt-format
 msgid ""
 "The device %1 wants to pair with this device. Do you want to allow this?"
-msgstr ""
+msgstr "デバイス%1はこのデバイスとペアリングしようとしています。許可しますか？"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:39
 msgid "Allow"
-msgstr ""
+msgstr "許可"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:46
 msgid "Refuse"
-msgstr ""
+msgstr "拒否"
 
 #: ../plugins/bluetooth/ConfirmPasskeyDialog.qml:28
 #: ../plugins/bluetooth/DisplayPasskeyDialog.qml:26
@@ -473,7 +461,7 @@ msgstr "Bluetoothのペアリング要求"
 #: ../plugins/bluetooth/ConfirmPasskeyDialog.qml:37
 #, qt-format
 msgid "Please confirm that the PIN displayed on '%1' matches this one"
-msgstr "この機械と %1 上のPINが一致しているか確認をしてください。"
+msgstr "表示されているPINが %1 と一致しているか確認をしてください"
 
 #: ../plugins/bluetooth/ConfirmPasskeyDialog.qml:57
 msgid "Confirm PIN"
@@ -634,7 +622,7 @@ msgstr "このデバイスを削除する"
 #: ../plugins/bluetooth/DisplayPinCodeDialog.qml:34
 #, qt-format
 msgid "Please enter the following PIN on %1 and press “Enter” on the keyboard:"
-msgstr ""
+msgstr "%1 のキーボードから次のPINを入力し、Enterキーを押してください:"
 
 #: ../plugins/bluetooth/PageComponent.qml:252
 msgid "Discoverable"
@@ -646,9 +634,8 @@ msgstr "他のデバイスには非表示"
 
 #: ../plugins/bluetooth/PageComponent.qml:260
 #: ../plugins/bluetooth/PageComponent.qml:319
-#, fuzzy
 msgid "Searching…"
-msgstr "再起動…"
+msgstr "検索中…"
 
 #: ../plugins/bluetooth/PageComponent.qml:269
 msgid "Connected devices:"
@@ -678,9 +665,8 @@ msgid "Pair"
 msgstr "ペア"
 
 #: ../plugins/brightness/PageComponent.qml:35
-#, fuzzy
 msgid "Brightness & Display"
-msgstr "明るさ"
+msgstr "明るさ & ディスプレイ"
 
 #. TRANSLATORS: This is a keyword or name for the brightness plugin which is used while searching
 #: ../plugins/brightness/PageComponent.qml:35 ../build/po/settings.js:100
@@ -697,57 +683,51 @@ msgstr "環境に合わせてディスプレイを明るくしたり暗くしま
 
 #: ../plugins/brightness/PageComponent.qml:140
 msgid "External display"
-msgstr ""
+msgstr "外部ディスプレイ"
 
 #: ../plugins/brightness/PageComponent.qml:158
 msgid "Wireless display"
-msgstr ""
+msgstr "ワイヤレスディスプレイ"
 
 #: ../plugins/brightness/PageComponent.qml:159
 #: ../plugins/brightness/WifiDisplays.qml:128
 #: ../plugins/brightness/WifiDisplays.qml:172
-#, fuzzy
 msgid "Not connected"
-msgstr "最終接続日"
+msgstr "接続されていません"
 
 #: ../plugins/brightness/WifiDisplays.qml:27
 msgid "Wireless Display"
-msgstr ""
+msgstr "ワイヤレスディスプレイ"
 
 #: ../plugins/brightness/WifiDisplays.qml:100
-#, fuzzy
 msgid "No displays detected"
-msgstr "見つかりませんでした"
+msgstr "ディスプレイが見つかりませんでした"
 
 #: ../plugins/brightness/WifiDisplays.qml:113
-#, fuzzy
 msgid "Connected display:"
-msgstr "接続済みのデバイス："
+msgstr "接続済みのディスプレイ："
 
 #: ../plugins/brightness/WifiDisplays.qml:128
-#, fuzzy
 msgid "Connecting"
-msgstr "接続しています..."
+msgstr "接続しています"
 
 #: ../plugins/brightness/WifiDisplays.qml:146
-#, fuzzy
 msgid "Use another display:"
-msgstr "他のデバイスに接続する："
+msgstr "他のディスプレイに接続する："
 
 #: ../plugins/brightness/WifiDisplays.qml:146
-#, fuzzy
 msgid "Choose a display:"
-msgstr "パスフレーズの入力"
+msgstr "ディスプレイを選択："
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:32
-#, fuzzy, qt-format
+#, qt-format
 msgid "This device failed to connect to %1."
-msgstr "切断する"
+msgstr "%1に接続できませんでした。"
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:34
 #, qt-format
 msgid "There was an unknown error connecting to %1."
-msgstr ""
+msgstr "%1に接続中にエラーが発生しました。"
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:38
 #: ../plugins/phone/CallForwarding.qml:305
@@ -762,9 +742,8 @@ msgid "Edit"
 msgstr "編集"
 
 #: ../plugins/cellular/PageApnEditor.qml:71
-#, fuzzy
 msgid "New APN"
-msgstr "%1 APN"
+msgstr "新規APN"
 
 #: ../plugins/cellular/PageApnEditor.qml:132
 msgid "Used for:"
@@ -772,9 +751,8 @@ msgstr ""
 
 #: ../plugins/cellular/PageApnEditor.qml:136
 #: ../plugins/cellular/PageChooseApn.qml:107
-#, fuzzy
 msgid "Internet and MMS"
-msgstr "インターネット"
+msgstr "インターネットとMMS"
 
 #: ../plugins/cellular/PageApnEditor.qml:137
 #: ../plugins/cellular/PageChooseApn.qml:109
@@ -789,11 +767,11 @@ msgstr "MMS"
 #: ../plugins/cellular/PageApnEditor.qml:139
 #: ../plugins/cellular/PageChooseApn.qml:111
 msgid "LTE"
-msgstr ""
+msgstr "LTE"
 
 #: ../plugins/cellular/PageApnEditor.qml:166
 msgid "Enter a name describing the APN"
-msgstr ""
+msgstr "APNの名称を入力"
 
 #. TRANSLATORS: This string is a description of a text
 #. field and should thus be concise.
@@ -806,7 +784,7 @@ msgstr "APN"
 
 #: ../plugins/cellular/PageApnEditor.qml:192
 msgid "Enter the name of the access point"
-msgstr ""
+msgstr "アクセスポイントの名称を入力"
 
 #: ../plugins/cellular/PageApnEditor.qml:206
 msgid "MMSC"
@@ -814,7 +792,7 @@ msgstr "MMSC"
 
 #: ../plugins/cellular/PageApnEditor.qml:216
 msgid "Enter message center"
-msgstr ""
+msgstr "メッセージセンターを入力"
 
 #: ../plugins/cellular/PageApnEditor.qml:234
 msgid "Proxy"
@@ -822,26 +800,23 @@ msgstr "プロキシ"
 
 #: ../plugins/cellular/PageApnEditor.qml:244
 msgid "Enter message proxy"
-msgstr ""
+msgstr "メッセージプロキシを入力"
 
 #: ../plugins/cellular/PageApnEditor.qml:289
-#, fuzzy
 msgid "Proxy port"
-msgstr "プロキシ"
+msgstr "プロキシポート"
 
 #: ../plugins/cellular/PageApnEditor.qml:300
 msgid "Enter message proxy port"
-msgstr ""
+msgstr "メッセージプロキシポートを入力"
 
 #: ../plugins/cellular/PageApnEditor.qml:318
-#, fuzzy
 msgid "User name"
 msgstr "ユーザ名"
 
 #: ../plugins/cellular/PageApnEditor.qml:328
-#, fuzzy
 msgid "Enter username"
-msgstr "パスフレーズを入力"
+msgstr "ユーザ名を入力"
 
 #: ../plugins/cellular/PageApnEditor.qml:341
 #: ../plugins/wifi/NetworkDetails.qml:72 ../plugins/wifi/OtherNetwork.qml:786
@@ -849,9 +824,8 @@ msgid "Password"
 msgstr "パスワード"
 
 #: ../plugins/cellular/PageApnEditor.qml:353
-#, fuzzy
 msgid "Enter password"
-msgstr "パスフレーズを入力"
+msgstr "パスワードを入力"
 
 #: ../plugins/cellular/PageApnEditor.qml:367
 #: ../plugins/wifi/OtherNetwork.qml:338
@@ -860,39 +834,36 @@ msgstr "認証"
 
 #: ../plugins/cellular/PageApnEditor.qml:372
 msgid "PAP or CHAP"
-msgstr ""
+msgstr "PAPまたはCHAP"
 
 #: ../plugins/cellular/PageApnEditor.qml:373
-#, fuzzy
 msgid "PAP only"
-msgstr "電話のみ"
+msgstr "PAPのみ"
 
 #: ../plugins/cellular/PageApnEditor.qml:374
-#, fuzzy
 msgid "CHAP only"
-msgstr "電話のみ"
+msgstr "CHAPのみ"
 
 #: ../plugins/cellular/PageApnEditor.qml:385
 msgid "Protocol"
-msgstr ""
+msgstr "プロトコル"
 
 #: ../plugins/cellular/PageApnEditor.qml:389
 msgid "IPv4"
-msgstr ""
+msgstr "IPv4"
 
 #: ../plugins/cellular/PageApnEditor.qml:390
 msgid "IPv6"
-msgstr ""
+msgstr "IPv6"
 
 #: ../plugins/cellular/PageApnEditor.qml:391
 msgid "IPv4v6"
-msgstr ""
+msgstr "IPv4v6"
 
 #: ../plugins/cellular/PageCarrierAndApn.qml:27
 #: ../plugins/cellular/Components/SingleSim.qml:110
-#, fuzzy
 msgid "Carrier & APN"
-msgstr "キャリア"
+msgstr "キャリアとAPN"
 
 #: ../plugins/cellular/PageCarrierAndApn.qml:45
 #: ../plugins/cellular/PageCarrierAndApn.qml:54
@@ -903,37 +874,32 @@ msgid "Carrier"
 msgstr "キャリア"
 
 #: ../plugins/cellular/PageCarriersAndApns.qml:27
-#, fuzzy
 msgid "Carriers & APNs"
-msgstr "キャリア"
+msgstr "キャリアとAPN"
 
 #: ../plugins/cellular/PageChooseApn.qml:85
-#, fuzzy
 msgid "MMS APN"
-msgstr "MMS APN:"
+msgstr "MMS APN"
 
 #: ../plugins/cellular/PageChooseApn.qml:91
-#, fuzzy
 msgid "Internet APN"
-msgstr "インターネット"
+msgstr "インターネットAPN"
 
 #: ../plugins/cellular/PageChooseApn.qml:97
-#, fuzzy
 msgid "LTE APN"
-msgstr "%1 APN"
+msgstr "LTE APN"
 
 #: ../plugins/cellular/PageChooseApn.qml:156
-#, fuzzy
 msgid "Reset All APN Settings…"
-msgstr "システム設定を全てリセット…"
+msgstr "APN設定を全てリセット…"
 
 #: ../plugins/cellular/PageChooseApn.qml:165
 msgid "Reset APN Settings"
-msgstr ""
+msgstr "APN設定をリセット"
 
 #: ../plugins/cellular/PageChooseApn.qml:166
 msgid "Are you sure that you want to Reset APN Settings?"
-msgstr ""
+msgstr "APN設定をリセットしてもよいですか？"
 
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../plugins/cellular/PageChooseApn.qml:169 ../build/po/settings.js:294
@@ -948,7 +914,7 @@ msgstr "リセット"
 #: ../plugins/cellular/PageChooseApn.qml:223
 #, qt-format
 msgid "Prefer %1"
-msgstr ""
+msgstr "%1を優先"
 
 #. TRANSLATORS: %1 is the MMS APN that the user has chosen to be
 #. “preferred”, i.e. used to retrieve MMS messages. %2 is the Internet
@@ -956,7 +922,7 @@ msgstr ""
 #: ../plugins/cellular/PageChooseApn.qml:196
 #, qt-format
 msgid "You have chosen %1 as your preferred MMS APN. "
-msgstr ""
+msgstr "MMS APNに%1を優先するよう選択しました。 "
 
 #. TRANSLATORS: %1 is the Internet APN that the user has chosen to
 #. be “preferred”, i.e. used to connect to the Internet. %2 is the MMS
@@ -964,33 +930,32 @@ msgstr ""
 #: ../plugins/cellular/PageChooseApn.qml:227
 #, qt-format
 msgid "You have chosen %1 as your preferred Internet APN. "
-msgstr ""
+msgstr "インターネットAPNに%1を優先するよう選択しました。 "
 
 #: ../plugins/cellular/PageChooseApn.qml:232
 #: ../plugins/cellular/PageChooseApn.qml:265
-#, fuzzy
 msgid "Disable"
-msgstr "他のデバイスから検知可能"
+msgstr "無効化"
 
 #: ../plugins/cellular/PageChooseApn.qml:254
-#, fuzzy, qt-format
+#, qt-format
 msgid "Disconnect %1"
-msgstr "切断する"
+msgstr "%1から切断する"
 
 #: ../plugins/cellular/PageChooseApn.qml:255
-#, fuzzy, qt-format
+#, qt-format
 msgid "Disable %1"
-msgstr "他のデバイスから検知可能"
+msgstr "%1を無効化する"
 
 #: ../plugins/cellular/PageChooseApn.qml:260
-#, fuzzy, qt-format
+#, qt-format
 msgid "This disconnects %1."
-msgstr "切断する"
+msgstr "%1から切断します。"
 
 #: ../plugins/cellular/PageChooseApn.qml:261
 #, qt-format
 msgid "This disables %1."
-msgstr ""
+msgstr "%1を無効化します。"
 
 #: ../plugins/cellular/PageChooseApn.qml:303
 #: ../plugins/printing/PageComponent.qml:136
@@ -1026,12 +991,12 @@ msgstr "デバイスは現在管理されていません"
 
 #: ../plugins/hotspot/Common.qml:42 ../plugins/wifi/Common.qml:44
 msgid "The device could not be readied for configuration"
-msgstr ""
+msgstr "設定をする準備ができていません"
 
 #: ../plugins/hotspot/Common.qml:44 ../plugins/wifi/Common.qml:46
 msgid ""
 "IP configuration could not be reserved (no available address, timeout, etc.)"
-msgstr ""
+msgstr "IP設定が保存できません（アドレス不足、タイムアウトなど）"
 
 #: ../plugins/hotspot/Common.qml:46 ../plugins/wifi/Common.qml:48
 msgid "The IP configuration is no longer valid"
@@ -1039,7 +1004,7 @@ msgstr "IP設定が有効ではありません"
 
 #: ../plugins/hotspot/Common.qml:48 ../plugins/wifi/Common.qml:50
 msgid "Your authentication details were incorrect"
-msgstr ""
+msgstr "認証情報が間違っています"
 
 #: ../plugins/hotspot/Common.qml:50 ../plugins/wifi/Common.qml:52
 msgid "802.1X supplicant disconnected"
@@ -1055,7 +1020,7 @@ msgstr "802.1X サプリカントが失敗しました"
 
 #: ../plugins/hotspot/Common.qml:56 ../plugins/wifi/Common.qml:58
 msgid "802.1X supplicant took too long to authenticate"
-msgstr ""
+msgstr "認証に対する802.1Xサプリカントの応答が遅すぎます"
 
 #: ../plugins/hotspot/Common.qml:58 ../plugins/wifi/Common.qml:60
 msgid "DHCP client failed to start"
@@ -1130,27 +1095,24 @@ msgid "A secondary connection of the base connection failed"
 msgstr ""
 
 #: ../plugins/hotspot/HotspotSetup.qml:61
-#, fuzzy
 msgid "Change Hotspot Setup"
 msgstr "テザリング設定を変更"
 
 #: ../plugins/hotspot/HotspotSetup.qml:61
-#, fuzzy
 msgid "Set Up Hotspot"
-msgstr "テザリング設定"
+msgstr "テザリングを設定"
 
 #: ../plugins/hotspot/HotspotSetup.qml:167
 msgid "Hotspot name"
 msgstr "テザリング名"
 
 #: ../plugins/hotspot/HotspotSetup.qml:168
-#, fuzzy
 msgid "Choose a name"
-msgstr "パスフレーズの入力"
+msgstr "名前を選択"
 
 #: ../plugins/hotspot/HotspotSetup.qml:185
 msgid "Require a password (recommended):"
-msgstr ""
+msgstr "パスワードを必須にする（推奨）:"
 
 #: ../plugins/hotspot/HotspotSetup.qml:216
 #: ../plugins/wifi/NetworkDetails.qml:86 ../plugins/wifi/OtherNetwork.qml:821
@@ -1159,7 +1121,7 @@ msgstr "パスワードを表示"
 
 #: ../plugins/hotspot/HotspotSetup.qml:237
 msgid "Starting the hotspot will turn on Wi-Fi."
-msgstr ""
+msgstr "テザリングを開始すると Wi-Fi がオンになります。"
 
 #: ../plugins/hotspot/HotspotSetup.qml:266
 #: ../plugins/security-privacy/LockSecurity.qml:389
@@ -1194,28 +1156,24 @@ msgstr ""
 "が発生します。"
 
 #: ../plugins/hotspot/PageComponent.qml:124
-#, fuzzy
 msgid "Change Password/Setup…"
-msgstr "パスコードの変更…"
+msgstr "パスコードの変更/設定…"
 
 #: ../plugins/hotspot/PageComponent.qml:124
-#, fuzzy
 msgid "Set Up Hotspot…"
-msgstr "テザリング設定"
+msgstr "テザリング設定…"
 
 #: ../plugins/hotspot/PageComponent.qml:155
-#, fuzzy
 msgid "Wi-Fi is off"
-msgstr "Wi-Fiテザリング"
+msgstr "Wi-Fiがオフです"
 
 #: ../plugins/hotspot/PageComponent.qml:156
 msgid "In order to create a hotspot, you need to turn Wi-Fi on."
-msgstr ""
+msgstr "テザリングを行うにはWi-Fiをオンにしてください。"
 
 #: ../plugins/hotspot/PageComponent.qml:165
-#, fuzzy
 msgid "Turn on Wi-Fi"
-msgstr "Wi-Fi接続時"
+msgstr "Wi-Fiをオン"
 
 #: ../plugins/language/DisplayLanguage.qml:36
 msgid "Display language"
@@ -1249,27 +1207,27 @@ msgstr "言語を表示…"
 
 #: ../plugins/language/PageComponent.qml:150
 msgid "Enable on-screen keyboard"
-msgstr ""
+msgstr "ソフトウェアキーボードを有効化"
 
 #: ../plugins/language/PageComponent.qml:162
 msgid "On-screen keyboard"
-msgstr ""
+msgstr "ソフトウェアキーボード"
 
 #: ../plugins/language/PageComponent.qml:173
 msgid "External keyboard"
-msgstr ""
+msgstr "外部キーボード"
 
 #: ../plugins/language/PageComponent.qml:184
 msgid "Ambiance"
-msgstr ""
+msgstr "アンビアンス"
 
 #: ../plugins/language/PageComponent.qml:185
 msgid "Suru Dark"
-msgstr ""
+msgstr "Suru ダーク"
 
 #: ../plugins/language/PageComponent.qml:186
 msgid "Suru Black"
-msgstr ""
+msgstr "Suru ブラック"
 
 #: ../plugins/language/PageComponent.qml:187
 msgid "Just White"
@@ -1297,12 +1255,11 @@ msgstr ""
 
 #: ../plugins/language/PageComponent.qml:195
 msgid "On-screen keyboard theme"
-msgstr ""
+msgstr "ソフトウェアキーボードテーマ"
 
 #: ../plugins/language/PageComponent.qml:196
-#, fuzzy
 msgid "Keyboard theme"
-msgstr "キーボード"
+msgstr "キーボードテーマ"
 
 #: ../plugins/language/PageComponent.qml:209
 #: ../plugins/language/PageComponent.qml:218
@@ -1332,9 +1289,8 @@ msgid "Auto punctuation"
 msgstr "記号の自動追加"
 
 #: ../plugins/language/PageComponent.qml:284
-#, fuzzy
 msgid "Inserts a period when you tap Space twice."
-msgstr "スペースを二回タップすることで、ピリオドや引用符、括弧を追加します。"
+msgstr "スペースをダブルタップしてピリオドを入力します。"
 
 #: ../plugins/language/PageComponent.qml:291
 #: ../plugins/sound/PageComponent.qml:251
@@ -1346,22 +1302,20 @@ msgid "Keyboard vibration"
 msgstr "キー操作バイブ"
 
 #: ../plugins/language/PageComponent.qml:313
-#, fuzzy
 msgid "Keyboard opacity"
-msgstr "キーボードレイアウト"
+msgstr "キーボードの透明度"
 
 #: ../plugins/language/PageHardwareKeyboard.qml:33
 msgid "Hardware keyboard"
-msgstr ""
+msgstr "ハードウェアキーボード"
 
 #: ../plugins/language/PageHardwareKeyboard.qml:63
 msgid "Layouts and other sources"
-msgstr ""
+msgstr "配置と入力ソース"
 
 #: ../plugins/language/RebootNecessary.qml:34
-#, fuzzy
 msgid "The device needs to restart for changes to take effect."
-msgstr "変更を反映するには電話の再起動が必要です。"
+msgstr "変更を反映するには端末の再起動が必要です。"
 
 #: ../plugins/language/RebootNecessary.qml:38
 msgid "Restart Now"
@@ -1577,11 +1531,11 @@ msgstr "着信転送"
 
 #: ../plugins/phone/CallForwarding.qml:131
 msgid "Forward every incoming call"
-msgstr ""
+msgstr "全ての着信を転送する"
 
 #: ../plugins/phone/CallForwarding.qml:146
 msgid "Redirects all phone calls to another number."
-msgstr ""
+msgstr "全ての着信を他の番号に転送します。"
 
 #: ../plugins/phone/CallForwarding.qml:158
 msgid "Call forwarding status can’t be checked "

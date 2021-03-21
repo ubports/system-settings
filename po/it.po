@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2020-10-26 19:33+0000\n"
+"PO-Revision-Date: 2021-03-05 06:27+0000\n"
 "Last-Translator: Mike <miguel2000@livecom.it>\n"
 "Language-Team: Italian <https://translate.ubports.com/projects/ubports/"
 "system-settings/it/>\n"
@@ -2418,7 +2418,7 @@ msgstr "Il telefono verrà riavviato per installare l'aggiornamento di sistema."
 
 #: ../plugins/system-update/FirmwareUpdate.qml:185
 msgid "Install and restart now"
-msgstr "Installa e riavvia"
+msgstr "Installa e riavvia adesso"
 
 #: ../plugins/system-update/FirmwareUpdate.qml:228
 msgid ""
@@ -2568,7 +2568,7 @@ msgstr "In attesa del download"
 
 #: ../plugins/system-update/UpdateDelegate.qml:238
 msgid "Downloading"
-msgstr "Download in corso"
+msgstr "Scaricamento in corso"
 
 #. TRANSLATORS: %1 is the human readable amount
 #. of bytes downloaded, and %2 is the total to be
@@ -3044,7 +3044,7 @@ msgstr "Abilitato"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:46
 msgid "Default"
-msgstr "Predefinito"
+msgstr "Predefinita"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:47
 msgid "This is the default printer."
@@ -3115,7 +3115,7 @@ msgstr "Cerca"
 
 #: ../src/qml/MainWindow.qml:246
 msgid "Personal"
-msgstr "Informazioni personali"
+msgstr "Personali"
 
 #: ../src/qml/MainWindow.qml:251
 msgid "System"

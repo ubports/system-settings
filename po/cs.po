@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2020-11-01 14:25+0000\n"
+"PO-Revision-Date: 2021-02-03 19:22+0000\n"
 "Last-Translator: Milan Korecký <milan.korecky@gmail.com>\n"
 "Language-Team: Czech <https://translate.ubports.com/projects/ubports/"
 "system-settings/cs/>\n"
@@ -2236,7 +2236,7 @@ msgstr "Odemknout"
 
 #: ../plugins/security-privacy/SimPin.qml:334
 msgid "Lock"
-msgstr "Uzamknout"
+msgstr "Zamknout"
 
 #: ../plugins/security-privacy/SimPin.qml:413
 msgid "Unlocked"

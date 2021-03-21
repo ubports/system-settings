@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2020-09-11 15:36+0000\n"
-"Last-Translator: tamer dab <dabsantamer@yahoo.com>\n"
+"PO-Revision-Date: 2020-12-25 08:26+0000\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://translate.ubports.com/projects/ubports/"
 "system-settings/he/>\n"
 "Language: he\n"
@@ -282,7 +282,7 @@ msgstr "הסרת תמונה"
 #: ../plugins/background/Components/AddRemove.qml:42
 #: ../plugins/cellular/Components/SimEditor.qml:203
 msgid "Cancel"
-msgstr "בטול"
+msgstr "ביטול"
 
 #: ../plugins/background/Preview.qml:113
 #: ../plugins/phone/CallForwarding.qml:253
@@ -756,7 +756,7 @@ msgstr "אישור"
 
 #: ../plugins/cellular/PageApnEditor.qml:71
 msgid "Edit"
-msgstr "ערוך"
+msgstr "עריכה"
 
 #: ../plugins/cellular/PageApnEditor.qml:71
 msgid "New APN"
@@ -977,7 +977,7 @@ msgstr "זה משבית את %1."
 #: ../plugins/cellular/PageChooseApn.qml:303
 #: ../plugins/printing/PageComponent.qml:136
 msgid "Delete"
-msgstr "מחק"
+msgstr "מחיקה"
 
 #: ../plugins/cellular/PageChooseCarrier.qml:153
 #: ../plugins/time-date/ChooseTimeZone.qml:51
@@ -2700,7 +2700,7 @@ msgstr "אין מידע זמין."
 
 #: ../plugins/wifi/CertDialog.qml:74
 msgid "Save"
-msgstr "שמור"
+msgstr "שמירה"
 
 #: ../plugins/wifi/NetworkDetails.qml:38
 msgid "Network details"

@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2020-10-26 19:33+0000\n"
-"Last-Translator: Florian Leeber <flori@bin.org.in>\n"
+"PO-Revision-Date: 2021-03-09 20:27+0000\n"
+"Last-Translator: Daniel Frost <one@frostinfo.de>\n"
 "Language-Team: German <https://translate.ubports.com/projects/ubports/"
 "system-settings/de/>\n"
 "Language: de\n"
@@ -3110,7 +3110,7 @@ msgstr "Suchen"
 
 #: ../src/qml/MainWindow.qml:246
 msgid "Personal"
-msgstr "Persönliches"
+msgstr "Personen"
 
 #: ../src/qml/MainWindow.qml:251
 msgid "System"
