@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2020-10-27 00:15+0000\n"
+"PO-Revision-Date: 2021-03-05 06:27+0000\n"
 "Last-Translator: Joan CiberSheep <cibersheep@gmail.com>\n"
 "Language-Team: Catalan <https://translate.ubports.com/projects/ubports/"
 "system-settings/ca/>\n"
@@ -2245,7 +2245,7 @@ msgstr "Desbloca"
 
 #: ../plugins/security-privacy/SimPin.qml:334
 msgid "Lock"
-msgstr "Bloca"
+msgstr "Bloqueja"
 
 #: ../plugins/security-privacy/SimPin.qml:413
 msgid "Unlocked"
@@ -2422,7 +2422,7 @@ msgstr "El dispositiu es reiniciarà automàticament després de la instal·laci
 
 #: ../plugins/system-update/FirmwareUpdate.qml:185
 msgid "Install and restart now"
-msgstr "Instal·lar i reiniciar ara"
+msgstr "Instal·la i reinicia ara"
 
 #: ../plugins/system-update/FirmwareUpdate.qml:228
 msgid ""
@@ -2751,7 +2751,7 @@ msgstr "Adreça IP"
 
 #: ../plugins/wifi/OtherNetwork.qml:92
 msgid "Connect to Wi‑Fi"
-msgstr "Connecteu-vos a la xarxa sense fil"
+msgstr "Connecta't a la Wi-Fi"
 
 #: ../plugins/wifi/OtherNetwork.qml:93
 msgid "Connect to Hidden Network"
@@ -3119,7 +3119,7 @@ msgstr "Cerca"
 
 #: ../src/qml/MainWindow.qml:246
 msgid "Personal"
-msgstr "Personal"
+msgstr "Personals"
 
 #: ../src/qml/MainWindow.qml:251
 msgid "System"

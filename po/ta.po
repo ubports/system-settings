@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2014-09-14 20:20+0000\n"
-"Last-Translator: solomon sunder <Unknown>\n"
-"Language-Team: Tamil <ta@li.org>\n"
+"PO-Revision-Date: 2021-01-18 04:27+0000\n"
+"Last-Translator: GK <miscgk@pm.me>\n"
+"Language-Team: Tamil <https://translate.ubports.com/projects/ubports/"
+"system-settings/ta/>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:41+0000\n"
-"X-Generator: Launchpad (build 17628)\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
 msgid "System Settings"
@@ -25,40 +26,44 @@ msgstr "கணினி அமைப்புகள்"
 
 #: ubuntu-system-settings.desktop.in.in.h:2
 msgid "System;"
-msgstr ""
+msgstr "கணினி;"
 
 #: ubuntu-system-settings.desktop.in.in.h:3
 msgid "Preferences;Settings;"
-msgstr "விருப்பங்கள்;அமைப்புகள்"
+msgstr "விருப்பங்கள்;அமைப்புகள்;"
 
 #: ../plugins/about/DevMode.qml:35 ../plugins/about/DevMode.qml:90
 msgid "Developer Mode"
-msgstr ""
+msgstr "'மேம்பாட்டாளர்' முறை"
 
 #: ../plugins/about/DevMode.qml:84
 msgid ""
 "In Developer Mode, anyone can access, change or delete anything on this "
 "device by connecting it to another device."
 msgstr ""
+"'மேம்பாட்டாளர்' முறையில், இந்த சாதனத்தை மற்றொரு சாதனத்துடன் இணத்து, "
+"இதிலிருக்கும் எதையும் அனுகவோ, மாற்றவோ, அழிக்கவோ முடியும்."
 
 #: ../plugins/about/DevMode.qml:110
 msgid "You need a passcode or passphrase set to use Developer Mode."
 msgstr ""
+"'மேம்பாட்டாளர்' முறையை பயன்படுத்த, நீங்கள் கடவுக்குறியீட்டையோ அல்லது "
+"கடவுச்சொல்லையோ அமைக்க வேண்டும்."
 
 #: ../plugins/about/DevMode.qml:116
 #: ../plugins/security-privacy/LockSecurity.qml:36
 #: ../plugins/security-privacy/PhoneLocking.qml:66
 msgid "Lock security"
-msgstr "பாதுகாப்பை பூட்டு"
+msgstr "பூட்டுப் பாதுகாப்பு"
 
 #: ../plugins/about/License.qml:30
 msgid "Sorry, this license could not be displayed."
-msgstr ""
+msgstr "மன்னிக்கவும், இந்த உரிமத்தைக் காண்பிக்க இயலாது."
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../plugins/about/PageComponent.qml:35 ../build/po/settings.js:2
 msgid "About"
-msgstr ""
+msgstr "குறித்து"
 
 #: ../plugins/about/PageComponent.qml:99
 msgid "Serial"
@@ -80,15 +85,15 @@ msgstr "தொடர்"
 #: ../plugins/wifi/certhandler.cpp:192 ../plugins/wifi/certhandler.cpp:224
 #: ../plugins/wifi/certhandler.cpp:289 ../plugins/wifi/certhandler.cpp:318
 msgid "None"
-msgstr "வெற்று"
+msgstr "எதுவுமில்லை"
 
 #: ../plugins/about/PageComponent.qml:131
 msgid "Wi-Fi address"
-msgstr ""
+msgstr "அருகலை முகவரி"
 
 #: ../plugins/about/PageComponent.qml:139
 msgid "Bluetooth address"
-msgstr ""
+msgstr "ப்ளூடூத் முகவரி"
 
 #: ../plugins/about/PageComponent.qml:150 ../plugins/about/Storage.qml:32
 msgid "Storage"
@@ -98,7 +103,7 @@ msgstr "சேமிப்பகம்"
 #: ../plugins/about/PageComponent.qml:152
 #, qt-format
 msgid "%1 free"
-msgstr ""
+msgstr "%1 மீதமுள்ளது"
 
 #: ../plugins/about/PageComponent.qml:160
 msgid "Software:"
@@ -134,7 +139,7 @@ msgstr "சட்டரீதியான:"
 
 #: ../plugins/about/PageComponent.qml:224 ../plugins/about/Software.qml:11
 msgid "Software licenses"
-msgstr "மென்பொருள் உரிமம்"
+msgstr "மென்பொருள் உரிமங்கள்"
 
 #: ../plugins/about/PageComponent.qml:231
 msgid "Regulatory info"
@@ -142,11 +147,11 @@ msgstr "ஒழுங்குமுறை தகவல்"
 
 #: ../plugins/about/PageComponent.qml:238
 msgid "Developer mode"
-msgstr ""
+msgstr "மேம்பாட்டாளர் முறை"
 
 #: ../plugins/about/Storage.qml:44
 msgid "Scanning"
-msgstr ""
+msgstr "ஆய்கிறது"
 
 #: ../plugins/about/Storage.qml:106
 msgid "Used by Ubuntu"
@@ -154,7 +159,7 @@ msgstr "உபுண்டுவால் பயன்படுத்தப்�
 
 #: ../plugins/about/Storage.qml:107
 msgid "Videos"
-msgstr ""
+msgstr "ஒளித்தோற்றங்கள்"
 
 #: ../plugins/about/Storage.qml:108
 msgid "Audio"
@@ -195,61 +200,60 @@ msgstr "பொருந்தாது"
 
 #: ../plugins/about/Version.qml:35
 msgid "OS Build Details"
-msgstr ""
+msgstr "இயங்குதளக் கட்டுமான விவரங்கள்"
 
 #: ../plugins/about/Version.qml:62
 msgid "OS build number"
-msgstr ""
+msgstr "இயங்குதளக் கட்டுமான எண்"
 
 #: ../plugins/about/Version.qml:68
 msgid "UBports Image part"
-msgstr ""
+msgstr "UBports படிமப் பகுதி"
 
 #: ../plugins/about/Version.qml:76
 msgid "Ubuntu build description"
-msgstr ""
+msgstr "உபுண்டு கட்டுமான விரிவுரை"
 
 #: ../plugins/about/Version.qml:82
 msgid "Device Image part"
-msgstr ""
+msgstr "சாதனப் படிமப் பகுதி"
 
 #: ../plugins/about/Version.qml:89
 msgid "Device build description"
-msgstr ""
+msgstr "சாதனசக் கட்டுமான விரிவுரை"
 
 #: ../plugins/about/Version.qml:96
 msgid "Customization Image part"
-msgstr ""
+msgstr "தனிப்பயனாக்கப் படிமப் பகுதி"
 
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../plugins/background/MainPage.qml:38 ../build/po/settings.js:44
 msgid "Background"
-msgstr "பின்னணி"
+msgstr "பின்புலம்"
 
 #: ../plugins/background/MainPage.qml:94
 msgid "Ubuntu Art"
-msgstr ""
+msgstr "உபுண்டு கலை"
 
 #: ../plugins/background/MainPage.qml:107
 msgid "Custom"
-msgstr ""
+msgstr "தனிப்பயன்"
 
 #: ../plugins/background/MainPage.qml:117
-#, fuzzy
 msgid "Dash background"
-msgstr "பின்னணி"
+msgstr "முகப்புப் பின்புலம்"
 
 #: ../plugins/background/MainPage.qml:130
 msgid "Opacity:"
-msgstr ""
+msgstr "ஒளி மழுங்கல்:"
 
 #: ../plugins/background/Preview.qml:69
 msgid "Preview"
-msgstr ""
+msgstr "முன்பார்வை"
 
 #: ../plugins/background/Preview.qml:107
 msgid "Remove image"
-msgstr ""
+msgstr "படிமத்தை நீக்குக"
 
 #: ../plugins/background/Preview.qml:107
 #: ../plugins/bluetooth/ConfirmPasskeyDialog.qml:49
@@ -279,14 +283,14 @@ msgstr ""
 #: ../plugins/background/Components/AddRemove.qml:42
 #: ../plugins/cellular/Components/SimEditor.qml:203
 msgid "Cancel"
-msgstr "ரத்துசெய்"
+msgstr "தவிர்க்க"
 
 #: ../plugins/background/Preview.qml:113
 #: ../plugins/phone/CallForwarding.qml:253
 #: ../plugins/security-privacy/LockSecurity.qml:391
 #: ../plugins/time-date/TimePicker.qml:181
 msgid "Set"
-msgstr "அமை"
+msgstr "அமைக்க"
 
 #. TRANSLATORS: This is a keyword or name for the battery plugin which is used while searching
 #: ../plugins/battery/PageComponent.qml:35 ../build/po/settings.js:60
@@ -315,7 +319,7 @@ msgstr[1] "%1 நிமிடங்களுக்கு முன்"
 msgid "%1 hour ago"
 msgid_plural "%1 hours ago"
 msgstr[0] "%1 மணி நேரத்திற்கு முன்"
-msgstr[1] "%1 மணி நேரத்திற்கு முன்"
+msgstr[1] "%1 மணி நேரங்களுக்கு முன்"
 
 #: ../plugins/battery/PageComponent.qml:104
 msgid "Charge level"
@@ -330,12 +334,12 @@ msgstr "%1%"
 #: ../plugins/battery/PageComponent.qml:190
 #: ../plugins/battery/PageComponent.qml:192
 msgid "Yesterday"
-msgstr ""
+msgstr "நேற்று"
 
 #: ../plugins/battery/PageComponent.qml:198
 #: ../plugins/battery/PageComponent.qml:200
 msgid "Today"
-msgstr ""
+msgstr "இன்று"
 
 #: ../plugins/battery/PageComponent.qml:270
 msgid "Charging now"
@@ -343,7 +347,7 @@ msgstr "இப்போது மின்னேற்றுகிறது"
 
 #: ../plugins/battery/PageComponent.qml:272
 msgid "Last full charge"
-msgstr "முழு மின்கலமும் முடிந்தது"
+msgstr "இறுதியான முழு மின்கலம்"
 
 #: ../plugins/battery/PageComponent.qml:274
 msgid "Fully charged"
@@ -351,31 +355,31 @@ msgstr "முழு மின்கலமும் மின்னேற்ற�
 
 #: ../plugins/battery/PageComponent.qml:293
 msgid "Ways to reduce battery use:"
-msgstr "மின்கலன் பயன்பாட்டடை குறைப்பதற்க்கான வழிகள்:"
+msgstr "மின்கலப் பயன்பாட்டடை குறைப்பதற்க்கான வழிகள்:"
 
 #: ../plugins/battery/PageComponent.qml:297
 #: ../plugins/brightness/PageComponent.qml:84
 msgid "Display brightness"
-msgstr ""
+msgstr "ஒளியளவு"
 
 #: ../plugins/battery/PageComponent.qml:314
 #: ../plugins/security-privacy/PhoneLocking.qml:89
 msgid "Lock when idle"
-msgstr "வேலையற்ற நிலையில் பூட்டு"
+msgstr "வேலையற்ற நிலையில் பூட்டுக"
 
 #: ../plugins/battery/PageComponent.qml:314
 #: ../plugins/security-privacy/PhoneLocking.qml:90
 msgid "Sleep when idle"
-msgstr "வேலையற்ற நிலையில் முடங்கு"
+msgstr "வேலையற்ற நிலையில் உறங்குக"
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery/PageComponent.qml:322
 #: ../plugins/security-privacy/PhoneLocking.qml:98
-#, fuzzy, qt-format
+#, qt-format
 msgid "After %1 second"
 msgid_plural "After %1 seconds"
-msgstr[0] "A %1 நிமிடத்திற்கு பிறகு"
-msgstr[1] "A %1 நிமிடங்களுக்கு பிறகு"
+msgstr[0] "%1 நிமிடத்திற்கு பிறகு"
+msgstr[1] "%1 நிமிடங்களுக்கு பிறகு"
 
 #. TRANSLATORS: %1 is the number of minutes
 #: ../plugins/battery/PageComponent.qml:326
@@ -389,78 +393,74 @@ msgstr[1] "A %1 நிமிடங்களுக்கு பிறகு"
 #, qt-format
 msgid "After %1 minute"
 msgid_plural "After %1 minutes"
-msgstr[0] "A %1 நிமிடத்திற்கு பிறகு"
-msgstr[1] "A %1 நிமிடங்களுக்கு பிறகு"
+msgstr[0] "%1 நிமிடத்திற்கு பிறகு"
+msgstr[1] "%1 நிமிடங்களுக்கு பிறகு"
 
 #. TRANSLATORS: “Wi-Fi used for hotspot” is hidden.
 #: ../plugins/battery/PageComponent.qml:365
 msgid "Wi-Fi used for hotspot"
-msgstr ""
+msgstr "அருகலை, பகிரலைக்காக பயன்படுத்தப்படுகிறது"
 
 #. TRANSLATORS: This is a keyword or name for the wifi plugin which is used while searching
 #: ../plugins/battery/PageComponent.qml:365
 #: ../plugins/wifi/PageComponent.qml:28 ../build/po/settings.js:398
 msgid "Wi-Fi"
-msgstr "வை-பை"
+msgstr "அருகலை"
 
 #. TRANSLATORS: This is a keyword or name for the bluetooth plugin which is used while searching
 #: ../plugins/battery/PageComponent.qml:401
 #: ../plugins/bluetooth/PageComponent.qml:33
 #: ../plugins/bluetooth/PageComponent.qml:235 ../build/po/settings.js:76
 msgid "Bluetooth"
-msgstr "ஃப்ளூடூத்"
+msgstr "ப்ளூடூத்"
 
 #: ../plugins/battery/SleepValues.qml:74
-#, fuzzy
 msgid "Lock the device when it's not in use:"
-msgstr "தொலைப்பேசி பயன்பாட்டில் இல்லாதபோது பூட்டு:"
+msgstr "தொலைப்பேசி, பயன்பாட்டில் இல்லாதபோது பூட்டு:"
 
 #: ../plugins/battery/SleepValues.qml:75
-#, fuzzy
 msgid "Put the device to sleep when it is not in use:"
-msgstr "தொலைப்பேசி பயன்பாட்டில் இல்லாதபோது முடக்கி வை:"
+msgstr "தொலைப்பேசி, பயன்பாட்டில் இல்லாதபோது உறங்கச்செய்:"
 
 #. TRANSLATORS: %1 is the number of seconds
 #: ../plugins/battery/SleepValues.qml:86
-#, fuzzy, qt-format
+#, qt-format
 msgid "After %1 seconds"
 msgid_plural "After %1 seconds"
-msgstr[0] "A %1 நிமிடத்திற்கு பிறகு"
-msgstr[1] "A %1 நிமிடங்களுக்கு பிறகு"
+msgstr[0] "%1 வினாடிக்குப் பிறகு"
+msgstr[1] "%1 வினாடிகளுக்குப் பிறகு"
 
 #: ../plugins/battery/SleepValues.qml:130
-#, fuzzy
 msgid ""
 "Shorter times are more secure. Device won't lock during calls or video "
 "playback."
 msgstr ""
-"குறைந்த நேர்ங்கள் அதிக பாதுகாப்பானது. படம் பார்க்கும்பொழுது அல்லது "
-"அழைப்பிலிருக்கும்போதும் தொலைப்பேசி பூட்டிக்கொள்ளாது."
+"குறைவான நேரங்களே அதிகப் பாதுகாப்பானது. படம் பார்க்கும்பொழுதோ அல்லது "
+"அழைப்பிலிருக்கும் பொழுதோ சாதனம் பூட்டப்படாது."
 
 #: ../plugins/battery/SleepValues.qml:130
-#, fuzzy
 msgid "Device won’t sleep during calls or video playback."
-msgstr "தொலைப்பேசியானது அழைப்பில் அல்லது படம் பாரக்கும் பொழுதும் முடங்காது."
+msgstr ""
+"சாதனம் அழைப்பிலிருக்கும் பொழுதோ அல்லது படம் பார்க்கும் பொழுதோ உறங்காது."
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:26
-#, fuzzy
 msgid "Bluetooth Pairing Authorization Request"
-msgstr "ப்ளூடூத் இணக்கத்திற்க்கான கோரிக்கை"
+msgstr "ப்ளூடூத் இணைப்பிற்கான அதிகாரக்கோரிக்கை"
 
 #. TRANSLATORS: %1 is the name of the bluetooth device which requires authorization
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:34
 #, qt-format
 msgid ""
 "The device %1 wants to pair with this device. Do you want to allow this?"
-msgstr ""
+msgstr "இந்தச் சாதனத்துடன் இணைய %1 சாதனம் விரும்புகிறது. இதை அனுமதிக்கவா?"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:39
 msgid "Allow"
-msgstr ""
+msgstr "அனுமதி"
 
 #: ../plugins/bluetooth/AuthorizationRequestDialog.qml:46
 msgid "Refuse"
-msgstr ""
+msgstr "மறுத்துவிடு"
 
 #: ../plugins/bluetooth/ConfirmPasskeyDialog.qml:28
 #: ../plugins/bluetooth/DisplayPasskeyDialog.qml:26
@@ -468,17 +468,19 @@ msgstr ""
 #: ../plugins/bluetooth/ProvidePasskeyDialog.qml:28
 #: ../plugins/bluetooth/ProvidePinCodeDialog.qml:28
 msgid "Bluetooth Pairing Request"
-msgstr "ப்ளூடூத் இணக்கத்திற்க்கான கோரிக்கை"
+msgstr "ப்ளூடூத் இணைப்பிற்கான கோரிக்கை"
 
 #. TRANSLATORS: %1 is the name of the bluetooth device being paired
 #: ../plugins/bluetooth/ConfirmPasskeyDialog.qml:37
 #, qt-format
 msgid "Please confirm that the PIN displayed on '%1' matches this one"
-msgstr "தயவுச்செய்து %1 இல் காட்டப்பட்ட PIN இதனுடன் பொருந்துகிறதா என உறுதிப்படுத்தவும்"
+msgstr ""
+"தயவுச்செய்து '%1' இல் காட்டப்பட்ட குறியீடு, இதனுடன் பொருந்துகிறதா என "
+"உறுதிப்படுத்தவும்"
 
 #: ../plugins/bluetooth/ConfirmPasskeyDialog.qml:57
 msgid "Confirm PIN"
-msgstr "PIN ஐ உறுதிச்செய்"
+msgstr "குறியீட்டை உறுதி செய்க"
 
 #: ../plugins/bluetooth/DevicePage.qml:37
 #: ../plugins/bluetooth/PageComponent.qml:290
@@ -487,25 +489,25 @@ msgstr "PIN ஐ உறுதிச்செய்"
 #: ../plugins/brightness/WifiDisplays.qml:172
 #: ../plugins/wifi/AccessPoint.qml:51 ../plugins/wifi/StandardMenuItem.qml:31
 msgid "Connected"
-msgstr ""
+msgstr "இணந்தது"
 
 #: ../plugins/bluetooth/DevicePage.qml:38
 #: ../plugins/bluetooth/PageComponent.qml:290
 msgid "Connecting…"
-msgstr ""
+msgstr "இணைக்கிறது…"
 
 #: ../plugins/bluetooth/DevicePage.qml:39
 msgid "Disconnecting…"
-msgstr ""
+msgstr "இணைப்பைத் துண்டிக்கிறது…"
 
 #: ../plugins/bluetooth/DevicePage.qml:40
 msgid "Disconnected"
-msgstr ""
+msgstr "இணைப்புத் துண்டிக்கப்பட்டது"
 
 #: ../plugins/bluetooth/DevicePage.qml:41 ../plugins/hotspot/Common.qml:94
 #: ../plugins/system-update/UpdateSettings.qml:64 ../plugins/wifi/Common.qml:96
 msgid "Unknown"
-msgstr ""
+msgstr "தெரியாதவை"
 
 #: ../plugins/bluetooth/DevicePage.qml:47
 msgid "Computer"
@@ -516,23 +518,23 @@ msgstr "கணினி"
 #: ../plugins/bluetooth/DevicePage.qml:49 ../plugins/phone/PageComponent.qml:32
 #: ../build/po/settings.js:250
 msgid "Phone"
-msgstr "தொலைபேசி"
+msgstr "தொலைபேசி"
 
 #: ../plugins/bluetooth/DevicePage.qml:50
 msgid "Modem"
-msgstr "மோடம்"
+msgstr "இணக்கி (Modem)"
 
 #: ../plugins/bluetooth/DevicePage.qml:51 ../src/qml/MainWindow.qml:241
 msgid "Network"
-msgstr "பிணையம்"
+msgstr "இணைப்பு"
 
 #: ../plugins/bluetooth/DevicePage.qml:52
 msgid "Headset"
-msgstr "ஹெட்செட்"
+msgstr "காதொலிப்பான்"
 
 #: ../plugins/bluetooth/DevicePage.qml:53
 msgid "Headphones"
-msgstr "ஹெட்போன்கள்"
+msgstr "காதொலிப்பான்கள்"
 
 #: ../plugins/bluetooth/DevicePage.qml:54
 msgid "Video"
@@ -544,7 +546,7 @@ msgstr "மற்ற ஓலிகள்"
 
 #: ../plugins/bluetooth/DevicePage.qml:56
 msgid "Joypad"
-msgstr "ஜாய்பேடு"
+msgstr "Joypad"
 
 #: ../plugins/bluetooth/DevicePage.qml:57
 msgid "Keyboard"
@@ -552,24 +554,24 @@ msgstr "விசைப்பலகை"
 
 #: ../plugins/bluetooth/DevicePage.qml:58
 msgid "Tablet"
-msgstr "தொடுபலகை"
+msgstr "வரைப்பட்டிகை (Tablet)"
 
 #: ../plugins/bluetooth/DevicePage.qml:59 ../plugins/mouse/Connected.qml:48
 msgid "Mouse"
-msgstr "எலியன்"
+msgstr "சுட்டி"
 
 #: ../plugins/bluetooth/DevicePage.qml:60
 msgid "Printer"
-msgstr "அச்சுப்பொறி"
+msgstr "அச்சுப்பொறி"
 
 #: ../plugins/bluetooth/DevicePage.qml:61
 #: ../plugins/security-privacy/AppAccess.qml:75
 msgid "Camera"
-msgstr "புகைபட கருவி"
+msgstr "நிழற்படக் கருவி"
 
 #: ../plugins/bluetooth/DevicePage.qml:62
 msgid "Watch"
-msgstr ""
+msgstr "கைக்கடிகாரம்"
 
 #: ../plugins/bluetooth/DevicePage.qml:63
 msgid "Other"
@@ -577,11 +579,11 @@ msgstr "மற்றவை"
 
 #: ../plugins/bluetooth/DevicePage.qml:69
 msgid "Excellent"
-msgstr "அற்புதம்"
+msgstr "மிகச்சிறந்த"
 
 #: ../plugins/bluetooth/DevicePage.qml:70
 msgid "Good"
-msgstr "நன்று"
+msgstr "நன்றான"
 
 #: ../plugins/bluetooth/DevicePage.qml:71
 msgid "Fair"
@@ -589,7 +591,7 @@ msgstr "மிதமான"
 
 #: ../plugins/bluetooth/DevicePage.qml:72
 msgid "Poor"
-msgstr "மோசம்"
+msgstr "மோசமான"
 
 #: ../plugins/bluetooth/DevicePage.qml:106
 #: ../plugins/cellular/PageApnEditor.qml:157
@@ -605,16 +607,16 @@ msgstr "வகை"
 #: ../plugins/bluetooth/DevicePage.qml:124
 #: ../plugins/printing/printer-sub-pages/Status.qml:26
 msgid "Status"
-msgstr ""
+msgstr "நிலைப்பாடு"
 
 #: ../plugins/bluetooth/DevicePage.qml:128
 msgid "Signal Strength"
-msgstr "சமிக்ஞை வலிமை"
+msgstr "சமிக்கையின் வலிமை"
 
 #: ../plugins/bluetooth/DevicePage.qml:133
 #: ../plugins/bluetooth/PageComponent.qml:358
 msgid "Connect automatically when detected:"
-msgstr ""
+msgstr "கண்டறியப்பட்டால் தானாகவே இணைக்கவும்:"
 
 #: ../plugins/bluetooth/DevicePage.qml:150
 #: ../plugins/cellular/PageChooseApn.qml:201
@@ -624,129 +626,123 @@ msgstr "துண்டிக்கவும்"
 
 #: ../plugins/bluetooth/DevicePage.qml:150 ../plugins/wifi/OtherNetwork.qml:905
 msgid "Connect"
-msgstr "இணை"
+msgstr "இணைக்கவும்"
 
 #: ../plugins/bluetooth/DevicePage.qml:172
 msgid "Forget this device"
-msgstr ""
+msgstr "இந்தச் சாதனத்தை மறக்கவும்"
 
 #. TRANSLATORS: %1 is the name of the bluetooth device being paired
 #: ../plugins/bluetooth/DisplayPasskeyDialog.qml:35
 #: ../plugins/bluetooth/DisplayPinCodeDialog.qml:34
 #, qt-format
 msgid "Please enter the following PIN on %1 and press “Enter” on the keyboard:"
-msgstr ""
+msgstr "பின்வரும் குறியீடை %1-ல் உள்ளிட்டு, \"Enter\" விசையைத் தட்டுக:"
 
 #: ../plugins/bluetooth/PageComponent.qml:252
 msgid "Discoverable"
-msgstr ""
+msgstr "கண்டுபிடிக்கத்தக்க"
 
 #: ../plugins/bluetooth/PageComponent.qml:252
 msgid "Not discoverable"
-msgstr ""
+msgstr "கண்டுபிடிக்க முடியாத"
 
 #: ../plugins/bluetooth/PageComponent.qml:260
 #: ../plugins/bluetooth/PageComponent.qml:319
-#, fuzzy
 msgid "Searching…"
-msgstr "தெடு"
+msgstr "தெடுகின்றது…"
 
 #: ../plugins/bluetooth/PageComponent.qml:269
 msgid "Connected devices:"
-msgstr ""
+msgstr "இணைந்தச் சாதனங்கள்:"
 
 #: ../plugins/bluetooth/PageComponent.qml:309
 msgid "Connect another device:"
-msgstr ""
+msgstr "மற்றொரு சாதனத்தை இணைக்க:"
 
 #: ../plugins/bluetooth/PageComponent.qml:309
 msgid "Connect a device:"
-msgstr ""
+msgstr "சாதனத்தை இணைக்க:"
 
 #: ../plugins/bluetooth/PageComponent.qml:352
 msgid "None detected"
-msgstr "எதையும் காணவில்லை"
+msgstr "எதுவும் கண்டறியப்படவில்லை"
 
 #: ../plugins/bluetooth/ProvidePasskeyDialog.qml:36
 #: ../plugins/bluetooth/ProvidePinCodeDialog.qml:36
 #, qt-format
 msgid "PIN for '%1'"
-msgstr "'%1' க்கான PIN"
+msgstr "'%1'-ற்கான குறியீட்டு எண்"
 
 #: ../plugins/bluetooth/ProvidePasskeyDialog.qml:62
 #: ../plugins/bluetooth/ProvidePinCodeDialog.qml:63
 msgid "Pair"
-msgstr "சோடி"
+msgstr "இணை"
 
 #: ../plugins/brightness/PageComponent.qml:35
-#, fuzzy
 msgid "Brightness & Display"
-msgstr "வெளிச்சம்"
+msgstr "ஒளிர்வளவு & திரை"
 
 #. TRANSLATORS: This is a keyword or name for the brightness plugin which is used while searching
 #: ../plugins/brightness/PageComponent.qml:35 ../build/po/settings.js:100
 msgid "Brightness"
-msgstr "வெளிச்சம்"
+msgstr "ஒளிர்வளவு"
 
 #: ../plugins/brightness/PageComponent.qml:116
 msgid "Adjust automatically"
-msgstr ""
+msgstr "தானாகவே ஒழுங்குபடுத்து"
 
 #: ../plugins/brightness/PageComponent.qml:131
 msgid "Brightens and dims the display to suit the surroundings."
-msgstr ""
+msgstr "சுற்றுச் சூழலலிற்கேற்றவாரு திரையை ஒளிர மற்றும் மழுங்கச் செய்யும்."
 
 #: ../plugins/brightness/PageComponent.qml:140
 msgid "External display"
-msgstr ""
+msgstr "வெளிப்புறத் திரை"
 
 #: ../plugins/brightness/PageComponent.qml:158
 msgid "Wireless display"
-msgstr ""
+msgstr "அருகலைத் திரை"
 
 #: ../plugins/brightness/PageComponent.qml:159
 #: ../plugins/brightness/WifiDisplays.qml:128
 #: ../plugins/brightness/WifiDisplays.qml:172
-#, fuzzy
 msgid "Not connected"
-msgstr "எதையும் காணவில்லை"
+msgstr "இணைப்பிலில்லை"
 
 #: ../plugins/brightness/WifiDisplays.qml:27
 msgid "Wireless Display"
-msgstr ""
+msgstr "அருகலைத் திரை"
 
 #: ../plugins/brightness/WifiDisplays.qml:100
-#, fuzzy
 msgid "No displays detected"
-msgstr "எதையும் காணவில்லை"
+msgstr "எந்தத் திரையும் கண்டறியப்படவில்லை"
 
 #: ../plugins/brightness/WifiDisplays.qml:113
 msgid "Connected display:"
-msgstr ""
+msgstr "இணைந்த திரை:"
 
 #: ../plugins/brightness/WifiDisplays.qml:128
-#, fuzzy
 msgid "Connecting"
-msgstr "இணை"
+msgstr "இணைக்கின்றது"
 
 #: ../plugins/brightness/WifiDisplays.qml:146
 msgid "Use another display:"
-msgstr ""
+msgstr "வேறு திரையைப் பயன்படுத்துக:"
 
 #: ../plugins/brightness/WifiDisplays.qml:146
-#, fuzzy
 msgid "Choose a display:"
-msgstr "கடவுச்சொல்லை தேர்வுச்செய்"
+msgstr "திரையைத் தேர்வுசெய்க:"
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:32
-#, fuzzy, qt-format
+#, qt-format
 msgid "This device failed to connect to %1."
-msgstr "துண்டிக்கவும்"
+msgstr "%1 சாதனத்துடன் இணைக்க இயலவில்லை."
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:34
 #, qt-format
 msgid "There was an unknown error connecting to %1."
-msgstr ""
+msgstr "%1 இணைக்கும்பொழுது தெறியாத பிழை ஏற்பட்டுவிட்டது."
 
 #: ../plugins/brightness/WifiDisplaysAlert.qml:38
 #: ../plugins/phone/CallForwarding.qml:305
@@ -754,43 +750,43 @@ msgstr ""
 #: ../plugins/vpn/PageComponent.qml:123
 #: ../plugins/cellular/Components/SimEditor.qml:214
 msgid "OK"
-msgstr ""
+msgstr "சரி"
 
 #: ../plugins/cellular/PageApnEditor.qml:71
 msgid "Edit"
-msgstr ""
+msgstr "திருத்துக"
 
 #: ../plugins/cellular/PageApnEditor.qml:71
 msgid "New APN"
-msgstr ""
+msgstr "புதிய APN"
 
 #: ../plugins/cellular/PageApnEditor.qml:132
 msgid "Used for:"
-msgstr ""
+msgstr "இதற்காக பயன்படுத்தவும்:"
 
 #: ../plugins/cellular/PageApnEditor.qml:136
 #: ../plugins/cellular/PageChooseApn.qml:107
 msgid "Internet and MMS"
-msgstr ""
+msgstr "இணையம் மற்றும் MMS"
 
 #: ../plugins/cellular/PageApnEditor.qml:137
 #: ../plugins/cellular/PageChooseApn.qml:109
 msgid "Internet"
-msgstr ""
+msgstr "இணையம்"
 
 #: ../plugins/cellular/PageApnEditor.qml:138
 #: ../plugins/cellular/PageChooseApn.qml:113
 msgid "MMS"
-msgstr ""
+msgstr "MMS"
 
 #: ../plugins/cellular/PageApnEditor.qml:139
 #: ../plugins/cellular/PageChooseApn.qml:111
 msgid "LTE"
-msgstr ""
+msgstr "LTE"
 
 #: ../plugins/cellular/PageApnEditor.qml:166
 msgid "Enter a name describing the APN"
-msgstr ""
+msgstr "APN-ஐ விவரிக்கும் பெயரை உள்ளிடவும்"
 
 #. TRANSLATORS: This string is a description of a text
 #. field and should thus be concise.
@@ -799,95 +795,90 @@ msgstr ""
 #: ../plugins/cellular/PageCarriersAndApns.qml:71
 #: ../plugins/cellular/PageChooseApn.qml:41
 msgid "APN"
-msgstr ""
+msgstr "APN"
 
 #: ../plugins/cellular/PageApnEditor.qml:192
 msgid "Enter the name of the access point"
-msgstr ""
+msgstr "அருகலை அணுகல் புள்ளியின் பெயரை உள்ளிடுக"
 
 #: ../plugins/cellular/PageApnEditor.qml:206
 msgid "MMSC"
-msgstr ""
+msgstr "MMSC"
 
 #: ../plugins/cellular/PageApnEditor.qml:216
 msgid "Enter message center"
-msgstr ""
+msgstr "செய்தி மையத்தை உள்ளிடுக"
 
 #: ../plugins/cellular/PageApnEditor.qml:234
 msgid "Proxy"
-msgstr ""
+msgstr "பதிலி (Proxy)"
 
 #: ../plugins/cellular/PageApnEditor.qml:244
 msgid "Enter message proxy"
-msgstr ""
+msgstr "செய்திப்பதிலியை உள்ளிடுக"
 
 #: ../plugins/cellular/PageApnEditor.qml:289
 msgid "Proxy port"
-msgstr ""
+msgstr "பதிலி முனைமுகம் (port)"
 
 #: ../plugins/cellular/PageApnEditor.qml:300
 msgid "Enter message proxy port"
-msgstr ""
+msgstr "செய்திப் பதிலியின் முனைமுகத்தை உள்ளிடுக"
 
 #: ../plugins/cellular/PageApnEditor.qml:318
-#, fuzzy
 msgid "User name"
-msgstr "பெயரால்"
+msgstr "பயனர்பெயர்"
 
 #: ../plugins/cellular/PageApnEditor.qml:328
 msgid "Enter username"
-msgstr ""
+msgstr "பயனர்பெயரை உள்ளிடுக"
 
 #: ../plugins/cellular/PageApnEditor.qml:341
 #: ../plugins/wifi/NetworkDetails.qml:72 ../plugins/wifi/OtherNetwork.qml:786
 msgid "Password"
-msgstr "கடவுச்சொல்:"
+msgstr "கடவுச்சொல்"
 
 #: ../plugins/cellular/PageApnEditor.qml:353
-#, fuzzy
 msgid "Enter password"
-msgstr "கடவுச்சொல்லைக் காண்பி"
+msgstr "கடவுச்சொல்லை உள்ளிடுக"
 
 #: ../plugins/cellular/PageApnEditor.qml:367
 #: ../plugins/wifi/OtherNetwork.qml:338
-#, fuzzy
 msgid "Authentication"
-msgstr "தானாக பெரிய எழுத்தாக்குதல்"
+msgstr "உறுதிப்பாடு"
 
 #: ../plugins/cellular/PageApnEditor.qml:372
 msgid "PAP or CHAP"
-msgstr ""
+msgstr "PAP அல்லது CHAP"
 
 #: ../plugins/cellular/PageApnEditor.qml:373
-#, fuzzy
 msgid "PAP only"
-msgstr "தொலைப்பேசி மட்டும்"
+msgstr "PAP மட்டும்"
 
 #: ../plugins/cellular/PageApnEditor.qml:374
-#, fuzzy
 msgid "CHAP only"
-msgstr "தொலைப்பேசி மட்டும்"
+msgstr "CHAP மட்டும்"
 
 #: ../plugins/cellular/PageApnEditor.qml:385
 msgid "Protocol"
-msgstr ""
+msgstr "நெறிமுறை"
 
 #: ../plugins/cellular/PageApnEditor.qml:389
 msgid "IPv4"
-msgstr ""
+msgstr "IPv4"
 
 #: ../plugins/cellular/PageApnEditor.qml:390
 msgid "IPv6"
-msgstr ""
+msgstr "IPv6"
 
 #: ../plugins/cellular/PageApnEditor.qml:391
 msgid "IPv4v6"
-msgstr ""
+msgstr "IPv4v6"
 
 #: ../plugins/cellular/PageCarrierAndApn.qml:27
 #: ../plugins/cellular/Components/SingleSim.qml:110
 msgid "Carrier & APN"
-msgstr ""
+msgstr "கடத்தி & APN"
 
 #: ../plugins/cellular/PageCarrierAndApn.qml:45
 #: ../plugins/cellular/PageCarrierAndApn.qml:54
@@ -895,41 +886,40 @@ msgstr ""
 #: ../plugins/cellular/PageChooseCarrier.qml:32
 #: ../plugins/cellular/PageChooseCarrier.qml:129
 msgid "Carrier"
-msgstr ""
+msgstr "கடத்தி"
 
 #: ../plugins/cellular/PageCarriersAndApns.qml:27
 msgid "Carriers & APNs"
-msgstr ""
+msgstr "கடத்தி & APNs"
 
 #: ../plugins/cellular/PageChooseApn.qml:85
 msgid "MMS APN"
-msgstr ""
+msgstr "MMS APN"
 
 #: ../plugins/cellular/PageChooseApn.qml:91
 msgid "Internet APN"
-msgstr ""
+msgstr "இணைய APN"
 
 #: ../plugins/cellular/PageChooseApn.qml:97
 msgid "LTE APN"
-msgstr ""
+msgstr "LTE APN"
 
 #: ../plugins/cellular/PageChooseApn.qml:156
-#, fuzzy
 msgid "Reset All APN Settings…"
-msgstr "அனைத்து கணினி அமைப்புகளையும் மீட்டமை..."
+msgstr "அனைத்து APN அமைப்புகளையும் மீட்டமை…"
 
 #: ../plugins/cellular/PageChooseApn.qml:165
 msgid "Reset APN Settings"
-msgstr ""
+msgstr "APN அமைப்புகளை மீட்டமை"
 
 #: ../plugins/cellular/PageChooseApn.qml:166
 msgid "Are you sure that you want to Reset APN Settings?"
-msgstr ""
+msgstr "உறுதியாக APN அமைப்புகளை மீட்டமைக்கவா?"
 
 #. TRANSLATORS: This is a keyword or name for the reset plugin which is used while searching
 #: ../plugins/cellular/PageChooseApn.qml:169 ../build/po/settings.js:294
 msgid "Reset"
-msgstr ""
+msgstr "மீட்டமை"
 
 #. TRANSLATORS: %1 is the MMS APN that the user has chosen to be
 #. “preferred”.
@@ -939,7 +929,7 @@ msgstr ""
 #: ../plugins/cellular/PageChooseApn.qml:223
 #, qt-format
 msgid "Prefer %1"
-msgstr ""
+msgstr "%1-ஐ முன்மதி"
 
 #. TRANSLATORS: %1 is the MMS APN that the user has chosen to be
 #. “preferred”, i.e. used to retrieve MMS messages. %2 is the Internet
@@ -947,7 +937,7 @@ msgstr ""
 #: ../plugins/cellular/PageChooseApn.qml:196
 #, qt-format
 msgid "You have chosen %1 as your preferred MMS APN. "
-msgstr ""
+msgstr "உங்கள் MMS APN-ன் விருப்பத்தேர்வாக %1-ஐ தேர்வுசெய்துள்ளீர்கள். "
 
 #. TRANSLATORS: %1 is the Internet APN that the user has chosen to
 #. be “preferred”, i.e. used to connect to the Internet. %2 is the MMS
@@ -955,38 +945,37 @@ msgstr ""
 #: ../plugins/cellular/PageChooseApn.qml:227
 #, qt-format
 msgid "You have chosen %1 as your preferred Internet APN. "
-msgstr ""
+msgstr "உங்கள் இணைய APN-ன் விருப்பத்தேர்வாக %1-ஐ தேர்வுசெய்துள்ளீர்கள். "
 
 #: ../plugins/cellular/PageChooseApn.qml:232
 #: ../plugins/cellular/PageChooseApn.qml:265
-#, fuzzy
 msgid "Disable"
-msgstr "தொடுபலகை"
+msgstr "முடக்கு"
 
 #: ../plugins/cellular/PageChooseApn.qml:254
-#, fuzzy, qt-format
+#, qt-format
 msgid "Disconnect %1"
-msgstr "துண்டிக்கவும்"
+msgstr "%1-ஐ துண்டிக்கவும்"
 
 #: ../plugins/cellular/PageChooseApn.qml:255
 #, qt-format
 msgid "Disable %1"
-msgstr ""
+msgstr "%1-ஐ முடக்கவும்"
 
 #: ../plugins/cellular/PageChooseApn.qml:260
-#, fuzzy, qt-format
+#, qt-format
 msgid "This disconnects %1."
-msgstr "துண்டிக்கவும்"
+msgstr "இது %1-ஐ துண்டிக்கும்."
 
 #: ../plugins/cellular/PageChooseApn.qml:261
 #, qt-format
 msgid "This disables %1."
-msgstr ""
+msgstr "இது %1-ஐ முடக்கும்."
 
 #: ../plugins/cellular/PageChooseApn.qml:303
 #: ../plugins/printing/PageComponent.qml:136
 msgid "Delete"
-msgstr ""
+msgstr "நீக்குக"
 
 #: ../plugins/cellular/PageChooseCarrier.qml:153
 #: ../plugins/time-date/ChooseTimeZone.qml:51
@@ -997,76 +986,78 @@ msgstr "தன்னிச்சையாக"
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../plugins/cellular/PageComponent.qml:32 ../build/po/settings.js:112
 msgid "Cellular"
-msgstr "செல்லுலார்"
+msgstr "Cellular"
 
 #: ../plugins/hotspot/Common.qml:34 ../plugins/wifi/Common.qml:36
 msgid "Unknown error"
-msgstr ""
+msgstr "தெறியாத பிழை"
 
 #: ../plugins/hotspot/Common.qml:36 ../plugins/wifi/Common.qml:38
 msgid "No reason given"
-msgstr ""
+msgstr "எந்தக் காரணமும் கொடுக்கப்படவில்லை"
 
 #: ../plugins/hotspot/Common.qml:38 ../plugins/wifi/Common.qml:40
 msgid "Device is now managed"
-msgstr ""
+msgstr "சாதனம் இப்பொழுது நிர்வகிக்கப்படுகிறது"
 
 #: ../plugins/hotspot/Common.qml:40 ../plugins/wifi/Common.qml:42
 msgid "Device is now unmanaged"
-msgstr ""
+msgstr "சாதனம் இப்பொழுது நிர்வகிக்கப்படவில்லை"
 
 #: ../plugins/hotspot/Common.qml:42 ../plugins/wifi/Common.qml:44
 msgid "The device could not be readied for configuration"
-msgstr ""
+msgstr "சாதனத்தை உள்ளமைப்புக்கு ஆயத்தமாக்க இயலவில்லை"
 
 #: ../plugins/hotspot/Common.qml:44 ../plugins/wifi/Common.qml:46
 msgid ""
 "IP configuration could not be reserved (no available address, timeout, etc.)"
 msgstr ""
+"IP உள்ளமைவை சேமித்துவைக்க இயலவில்லை (முகவரி இல்லை, நேரம் கடந்துவிட்டநிலை "
+"போன்றவையால்)"
 
 #: ../plugins/hotspot/Common.qml:46 ../plugins/wifi/Common.qml:48
 msgid "The IP configuration is no longer valid"
-msgstr ""
+msgstr "IP உள்ளமைவு ஏற்கத்தக்கதாக இல்லை"
 
 #: ../plugins/hotspot/Common.qml:48 ../plugins/wifi/Common.qml:50
 msgid "Your authentication details were incorrect"
-msgstr ""
+msgstr "உங்களை உறுதிப்படுத்த அளித்த விவரங்கள் தவறானவை"
 
 #: ../plugins/hotspot/Common.qml:50 ../plugins/wifi/Common.qml:52
 msgid "802.1X supplicant disconnected"
-msgstr ""
+msgstr "801.1X விண்ணப்பதாரர் துண்டிக்கப்பட்டார்"
 
 #: ../plugins/hotspot/Common.qml:52 ../plugins/wifi/Common.qml:54
 msgid "802.1X supplicant configuration failed"
-msgstr ""
+msgstr "802.1X விண்ணப்பதாரரின் உள்ளமைவு தோழ்வியுற்றது"
 
 #: ../plugins/hotspot/Common.qml:54 ../plugins/wifi/Common.qml:56
 msgid "802.1X supplicant failed"
-msgstr ""
+msgstr "802.1X விண்ணப்பதாரர் தோழ்வியடைந்தார்"
 
 #: ../plugins/hotspot/Common.qml:56 ../plugins/wifi/Common.qml:58
 msgid "802.1X supplicant took too long to authenticate"
-msgstr ""
+msgstr "802.1X விண்ணப்பதாரரை உறுதிப்படுத்த நீண்ட நேரமானது"
 
 #: ../plugins/hotspot/Common.qml:58 ../plugins/wifi/Common.qml:60
 msgid "DHCP client failed to start"
-msgstr ""
+msgstr "DCHP சேவைபயனர் தொடங்குவதற்கு தோழ்வியடைந்தது"
 
 #: ../plugins/hotspot/Common.qml:60 ../plugins/wifi/Common.qml:62
 msgid "DHCP client error"
-msgstr ""
+msgstr "DHCP சேவைபயனரின் பிழை"
 
 #: ../plugins/hotspot/Common.qml:62 ../plugins/wifi/Common.qml:64
 msgid "DHCP client failed"
-msgstr ""
+msgstr "DHCP சேவைபயனர் தோழ்வியடைந்தது"
 
 #: ../plugins/hotspot/Common.qml:64 ../plugins/wifi/Common.qml:66
 msgid "Shared connection service failed to start"
-msgstr ""
+msgstr "பகிரிணைப்புச் சேவை தொடங்கத் தோழ்வியுற்றது"
 
 #: ../plugins/hotspot/Common.qml:66 ../plugins/wifi/Common.qml:68
 msgid "Shared connection service failed"
-msgstr ""
+msgstr "பகிரிணைப்புச் சேவை தோழ்வியுற்றது"
 
 #: ../plugins/hotspot/Common.qml:68 ../plugins/wifi/Common.qml:70
 msgid "Necessary firmware for the device may be missing"
@@ -1154,17 +1145,17 @@ msgstr ""
 #: ../plugins/security-privacy/LockSecurity.qml:389
 #: ../plugins/security-privacy/SimPin.qml:187
 msgid "Change"
-msgstr ""
+msgstr "மாற்றுக"
 
 #: ../plugins/hotspot/HotspotSetup.qml:267
 msgid "Start"
-msgstr ""
+msgstr "தொடங்குக"
 
 #. TRANSLATORS: This is a keyword or name for the hotspot plugin which is used while searching
 #: ../plugins/hotspot/PageComponent.qml:33
 #: ../plugins/hotspot/PageComponent.qml:85 ../build/po/settings.js:160
 msgid "Hotspot"
-msgstr ""
+msgstr "பகிரலை"
 
 #: ../plugins/hotspot/PageComponent.qml:114
 msgid ""
@@ -1504,9 +1495,8 @@ msgid "Apps that notify with sound:"
 msgstr ""
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:30
-#, fuzzy
 msgid "Vibration"
-msgstr "அலறும்பொது அதிரும்படி வை"
+msgstr "அதிர்வு"
 
 #: ../plugins/notifications/ClickAppsVibrationsNotify.qml:50
 #, fuzzy
@@ -1557,15 +1547,15 @@ msgstr ""
 #: ../plugins/phone/CallForwarding.qml:45 ../plugins/phone/MultiSim.qml:54
 #: ../plugins/phone/NoSims.qml:28 ../plugins/phone/SingleSim.qml:42
 msgid "Call forwarding"
-msgstr "அழைப்பை முன்னனுப்புகிறது"
+msgstr "அழைப்பு முன்னனுப்பப்படுகிறது"
 
 #: ../plugins/phone/CallForwarding.qml:131
 msgid "Forward every incoming call"
-msgstr ""
+msgstr "ஒவ்வொரு உள்வரும் அழைப்பையும் முன்னனுப்பு"
 
 #: ../plugins/phone/CallForwarding.qml:146
 msgid "Redirects all phone calls to another number."
-msgstr ""
+msgstr "எல்லா அழைப்புகளையும் மற்றொரு எண்ணிற்கு வழிமாற்றுக."
 
 #: ../plugins/phone/CallForwarding.qml:158
 msgid "Call forwarding status can’t be checked "
@@ -1573,7 +1563,7 @@ msgstr ""
 
 #: ../plugins/phone/CallForwarding.qml:166
 msgid "Forward incoming calls when:"
-msgstr ""
+msgstr "உள்வரும் அழைப்பை எப்பொழுது முன்னனுப்புக:"
 
 #: ../plugins/phone/CallForwarding.qml:175
 msgid "I’m on another call"
@@ -1585,7 +1575,7 @@ msgstr ""
 
 #: ../plugins/phone/CallForwarding.qml:197
 msgid "My phone is unreachable"
-msgstr ""
+msgstr "எனது தொலைபேசி தொடர்பிலில்லை"
 
 #: ../plugins/phone/CallForwarding.qml:227
 msgid "Contacts…"
@@ -1593,44 +1583,43 @@ msgstr ""
 
 #: ../plugins/phone/CallForwarding.qml:274
 msgid "Please select a phone number"
-msgstr ""
+msgstr "தொலைபேசி எண்ணைத் தேர்வு செய்க"
 
 #: ../plugins/phone/CallForwarding.qml:283
 msgid "Numbers"
-msgstr ""
+msgstr "எண்கள்"
 
 #: ../plugins/phone/CallForwarding.qml:302
 msgid "Could not forward to this contact"
-msgstr ""
+msgstr "இந்தத் தொடர்பை முன்னனுப்ப முடியவில்லை"
 
 #: ../plugins/phone/CallForwarding.qml:303
 msgid "Contact not associated with any phone number."
-msgstr ""
+msgstr "இந்தத் தொடர்புடன் சேர்ந்த தொலைபேசி எண் எதுவுமில்லை."
 
 #: ../plugins/phone/CallForwarding.qml:382
 msgid "All calls"
-msgstr ""
+msgstr "அனைத்து அழைப்புகள்"
 
 #: ../plugins/phone/CallForwarding.qml:384
-#, fuzzy
 msgid "Some calls"
-msgstr "தொலைப்பேசி அழைப்புகள்:"
+msgstr "சில அழைப்புகள்"
 
 #: ../plugins/phone/CallForwarding.qml:386
 #: ../plugins/security-privacy/PageComponent.qml:180
 #: ../plugins/security-privacy/PageComponent.qml:248
 msgid "Off"
-msgstr ""
+msgstr "அணை"
 
 #. TRANSLATORS: This string will be truncated on smaller displays.
 #: ../plugins/phone/CallForwardItem.qml:157
 #: ../plugins/phone/CallForwardItem.qml:202
 msgid "Forward to"
-msgstr ""
+msgstr "முன்னனுப்பு எண்"
 
 #: ../plugins/phone/CallForwardItem.qml:171
 msgid "Enter a number"
-msgstr ""
+msgstr "எண்ணை உள்ளிடுக"
 
 #: ../plugins/phone/CallForwardItem.qml:218
 msgid "Call forwarding can’t be changed right now."
@@ -1647,22 +1636,22 @@ msgid ""
 "Lets you answer or start a new call while on another call, and switch "
 "between them"
 msgstr ""
-"நீங்க பதலளிங்க அல்லது மற்றொரு அழைப்பிலிருக்கும் பொது புதிய அழைப்பை உருவாக்கு, "
-"அவற்றிரண்டிற்கும் இடையில் மாற்றும் கொள்"
+"உங்களை பதிலளிக்க அல்லது மற்றொரு அழைப்பிலிருக்கும்பொழுது புதிய அழைப்பை "
+"உருவாக்கி, அவ்விரண்டிற்குமிடையில் மாற்றவைக்கும்"
 
 #: ../plugins/phone/MultiSim.qml:67 ../plugins/phone/NoSims.qml:42
 msgid "Services"
-msgstr ""
+msgstr "சேவைகள்"
 
 #: ../plugins/phone/PageComponent.qml:102
 #: ../plugins/sound/PageComponent.qml:194
 msgid "Dialpad tones"
-msgstr ""
+msgstr "அழைப்புத்தளத்தின் ஒளிகள்"
 
 #: ../plugins/phone/ServiceInfo.qml:109
 #, qt-format
 msgid "Last called %1"
-msgstr ""
+msgstr "கடைசி அழைப்பு %1"
 
 #: ../plugins/phone/ServiceInfo.qml:119
 msgid "Call"
@@ -1672,11 +1661,11 @@ msgstr "அழை"
 #: ../plugins/phone/Services.qml:36 ../plugins/phone/SingleSim.qml:55
 #, qt-format
 msgid "%1 Services"
-msgstr "%1 சேவைகள்"
+msgstr "%1-ன் சேவைகள்"
 
 #: ../plugins/phone/SingleSim.qml:29
 msgid "SIM"
-msgstr "சிம்"
+msgstr "செறிவட்டை"
 
 #: ../plugins/printing/AddPrinter.qml:34
 #: ../plugins/printing/AddPrinterDetails.qml:54
@@ -1704,7 +1693,7 @@ msgstr ""
 
 #: ../plugins/printing/AddPrinterDetails.qml:44
 msgid "Back"
-msgstr ""
+msgstr "பின்செல்"
 
 #: ../plugins/printing/AddPrinterDetails.qml:137
 #, fuzzy
@@ -1725,7 +1714,7 @@ msgstr "அச்சுப்பொறி"
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:32
 #: ../plugins/printing/printer-sub-pages/Status.qml:66
 msgid "Description"
-msgstr ""
+msgstr "விரிவுரை"
 
 #: ../plugins/printing/AddPrinterDetails.qml:204
 #: ../plugins/printing/AddPrinterDetails.qml:211
@@ -1767,9 +1756,8 @@ msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../plugins/printing/PageComponent.qml:32 ../build/po/settings.js:268
-#, fuzzy
 msgid "Printing"
-msgstr "அச்சுப்பொறி"
+msgstr "அச்சிடுகிறது"
 
 #: ../plugins/printing/PageComponent.qml:45
 msgid "Manager Printer Jobs"
@@ -1900,7 +1888,7 @@ msgstr ""
 
 #: ../plugins/security-privacy/AppAccess.qml:103
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: ../plugins/security-privacy/AppAccess.qml:118
 msgid "Apps may also request access to online accounts."
@@ -2141,7 +2129,7 @@ msgstr "சிம் PIN"
 #: ../plugins/security-privacy/PageComponent.qml:176
 #: ../plugins/security-privacy/PageComponent.qml:248
 msgid "On"
-msgstr ""
+msgstr "இயக்கு"
 
 #: ../plugins/security-privacy/PageComponent.qml:187
 msgid "Encryption"
@@ -2168,7 +2156,7 @@ msgstr "வரவேற்ப்பு திரை செய்திகள்"
 #: ../plugins/security-privacy/PhoneLocking.qml:60
 msgctxt "Unlock with swipe"
 msgid "None"
-msgstr ""
+msgstr "எதுவுமில்லை"
 
 #: ../plugins/security-privacy/PhoneLocking.qml:61
 msgid "Passcode"
@@ -2247,7 +2235,7 @@ msgstr ""
 
 #: ../plugins/security-privacy/SimPin.qml:334
 msgid "Unlock"
-msgstr ""
+msgstr "பூட்டை நீக்கு"
 
 #: ../plugins/security-privacy/SimPin.qml:334
 msgid "Lock"
@@ -2350,7 +2338,7 @@ msgstr "கேரியர் தேர்வு:"
 #: ../plugins/system-update/ChangelogExpander.qml:42
 #, qt-format
 msgid "Version %1"
-msgstr ""
+msgstr "பதிப்பு %1"
 
 #: ../plugins/system-update/ChannelSettings.qml:32
 msgid "Channel settings"
@@ -2449,7 +2437,7 @@ msgstr "புதுப்பித்தல்களுக்கு தேட�
 
 #: ../plugins/system-update/GlobalUpdateControls.qml:89
 msgid "Stop"
-msgstr ""
+msgstr "நிறுத்துக"
 
 #. TRANSLATORS: %1 is number of software updates available.
 #: ../plugins/system-update/GlobalUpdateControls.qml:116
@@ -2548,11 +2536,11 @@ msgstr "பதவிறக்கம்"
 
 #: ../plugins/system-update/UpdateDelegate.qml:132
 msgid "Resume"
-msgstr ""
+msgstr "மீள்த்தொடர்க"
 
 #: ../plugins/system-update/UpdateDelegate.qml:139
 msgid "Pause"
-msgstr ""
+msgstr "இடைநிறுத்துக"
 
 #: ../plugins/system-update/UpdateDelegate.qml:143
 msgid "Install…"
@@ -2572,7 +2560,7 @@ msgstr ""
 
 #: ../plugins/system-update/UpdateDelegate.qml:232
 msgid "Paused"
-msgstr ""
+msgstr "இடைநிறுத்தப்பட்டது"
 
 #: ../plugins/system-update/UpdateDelegate.qml:235
 #, fuzzy
@@ -2741,7 +2729,7 @@ msgstr "எல்லா அமைப்புகளும் இருக்க�
 
 #: ../plugins/wifi/CertDialog.qml:74
 msgid "Save"
-msgstr ""
+msgstr "சேமி"
 
 #: ../plugins/wifi/NetworkDetails.qml:38
 msgid "Network details"
@@ -2787,7 +2775,7 @@ msgstr "WPA & WPA2 தனிப்பட்ட"
 
 #: ../plugins/wifi/OtherNetwork.qml:321
 msgid "WEP"
-msgstr ""
+msgstr "WEP பாதுகாக்கபட்ட அறுகலை"
 
 #: ../plugins/wifi/OtherNetwork.qml:322
 msgid "Dynamic WEP (802.1x)"
@@ -2873,7 +2861,7 @@ msgstr ""
 
 #: ../plugins/wifi/OtherNetwork.qml:686
 msgid "Disabled"
-msgstr ""
+msgstr "முடக்கப்பட்டது"
 
 #: ../plugins/wifi/OtherNetwork.qml:687
 msgid "Anonymous"
@@ -2936,7 +2924,7 @@ msgstr ""
 
 #: ../plugins/wifi/RemoveBackground.qml:28
 msgid "Clear"
-msgstr ""
+msgstr "துடை"
 
 #: ../plugins/background/Components/AddRemove.qml:52
 msgid "No images selected"
@@ -2958,15 +2946,13 @@ msgid "Remove images…"
 msgstr ""
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:36
-#, fuzzy
 msgid "Cellular data"
-msgstr "செல்லுலார்"
+msgstr "நகர்ப்பேசித் தரவுன"
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:73
 #: ../plugins/cellular/Components/NoSim.qml:36
-#, fuzzy
 msgid "No SIM detected"
-msgstr "எதையும் காணவில்லை"
+msgstr "செறிவட்டை எதுவும் காணப்படவில்லை"
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:81
 #: ../plugins/cellular/Components/NoSim.qml:45
@@ -3000,7 +2986,7 @@ msgstr ""
 #. this word must be less than 5 characters
 #: ../plugins/cellular/Components/LabelTextField.qml:51
 msgid "Next"
-msgstr ""
+msgstr "அடுத்து"
 
 #: ../plugins/cellular/Components/MultiSim.qml:55
 #: ../plugins/cellular/Components/SingleSim.qml:105
@@ -3039,7 +3025,7 @@ msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/CopiesAndPages.qml:26
 msgid "Copies"
-msgstr ""
+msgstr "நகல்கள்"
 
 #: ../plugins/printing/printer-sub-pages/CopiesAndPages.qml:46
 msgid "Paper size"
@@ -3055,7 +3041,7 @@ msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:75
 msgid "Quality"
-msgstr ""
+msgstr "தரம்"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:27
 #, fuzzy
@@ -3064,7 +3050,7 @@ msgstr "தொடுபலகை"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:46
 msgid "Default"
-msgstr ""
+msgstr "இயல்புநிலை"
 
 #: ../plugins/printing/printer-sub-pages/Policies.qml:47
 msgid "This is the default printer."
@@ -3080,19 +3066,19 @@ msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:30
 msgid "Idle"
-msgstr ""
+msgstr "விளைவற்ற"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:32
 msgid "Aborted"
-msgstr ""
+msgstr "முறிவுற்றது"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:34
 msgid "Active"
-msgstr ""
+msgstr "செயலில்"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:36
 msgid "Stopped"
-msgstr ""
+msgstr "நின்றது"
 
 #. TRANSLATORS: %1 is the overall state of the printer, %2 is a more
 #. detailed message from the printer itself.
@@ -3103,7 +3089,7 @@ msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:43
 msgid "No messages"
-msgstr ""
+msgstr "செய்திகள் இல்லை"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:48
 msgid "Jobs"
@@ -3114,9 +3100,8 @@ msgid "Manage Print Jobs"
 msgstr ""
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:78
-#, fuzzy
 msgid "Address"
-msgstr "ஐபி  முகவரி"
+msgstr "முகவரி"
 
 #: ../plugins/printing/printer-sub-pages/Status.qml:84
 #, fuzzy
@@ -3133,7 +3118,7 @@ msgstr ""
 
 #: ../src/qml/MainWindow.qml:203
 msgid "Search"
-msgstr "தெடு"
+msgstr "தெடுக"
 
 #: ../src/qml/MainWindow.qml:246
 msgid "Personal"
@@ -3163,7 +3148,7 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../build/po/settings.js:10 ../build/po/settings.js:252
 msgid "phone"
-msgstr ""
+msgstr "தொலைபேசி"
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../build/po/settings.js:12
@@ -3178,7 +3163,7 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../build/po/settings.js:16
 msgid "serial"
-msgstr ""
+msgstr "தொடர்"
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
@@ -3186,7 +3171,7 @@ msgstr ""
 #: ../build/po/settings.js:18 ../build/po/settings.js:394
 #: ../build/po/settings.js:416
 msgid "address"
-msgstr ""
+msgstr "முகவரி"
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../build/po/settings.js:20
@@ -3275,7 +3260,7 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../build/po/settings.js:54
 msgid "photo"
-msgstr ""
+msgstr "நிழற்படம்"
 
 #. TRANSLATORS: This is a keyword or name for the background plugin which is used while searching
 #: ../build/po/settings.js:56
@@ -3367,7 +3352,7 @@ msgstr "கம்பியில்லா"
 #: ../build/po/settings.js:94 ../build/po/settings.js:384
 #: ../build/po/settings.js:408
 msgid "connect"
-msgstr ""
+msgstr "இணைக்கவும்"
 
 #. TRANSLATORS: This is a keyword or name for the bluetooth plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the vpn plugin which is used while searching
@@ -3375,7 +3360,7 @@ msgstr ""
 #: ../build/po/settings.js:96 ../build/po/settings.js:386
 #: ../build/po/settings.js:410
 msgid "disconnect"
-msgstr ""
+msgstr "துண்டிக்கவும்"
 
 #. TRANSLATORS: This is a keyword or name for the bluetooth plugin which is used while searching
 #: ../build/po/settings.js:98
@@ -3432,7 +3417,7 @@ msgstr "பிணையம்"
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../build/po/settings.js:118
 msgid "mobile"
-msgstr ""
+msgstr "அலைபேசி"
 
 #. TRANSLATORS: This is a keyword or name for the cellular plugin which is used while searching
 #: ../build/po/settings.js:120
@@ -3508,7 +3493,7 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the flight-mode plugin which is used while searching
 #: ../build/po/settings.js:148
 msgid "Flight Mode"
-msgstr ""
+msgstr "விமான முறை"
 
 #. TRANSLATORS: This is a keyword or name for the flight-mode plugin which is used while searching
 #: ../build/po/settings.js:150
@@ -3549,7 +3534,7 @@ msgstr "மொழி"
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../build/po/settings.js:172 ../build/po/settings.js:344
 msgid "keyboard"
-msgstr ""
+msgstr "விசைப்பலகை"
 
 #. TRANSLATORS: This is a keyword or name for the language plugin which is used while searching
 #: ../build/po/settings.js:174
@@ -3598,9 +3583,8 @@ msgstr ""
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../build/po/settings.js:202
-#, fuzzy
 msgid "mouse"
-msgstr "எலியன்"
+msgstr "சுட்டி"
 
 #. TRANSLATORS: This is a keyword or name for the mouse plugin which is used while searching
 #: ../build/po/settings.js:204
@@ -3714,7 +3698,7 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../build/po/settings.js:260
 msgid "call"
-msgstr ""
+msgstr "அழை"
 
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
@@ -3730,7 +3714,7 @@ msgstr ""
 #. TRANSLATORS: This is a keyword or name for the phone plugin which is used while searching
 #: ../build/po/settings.js:266
 msgid "numbers"
-msgstr ""
+msgstr "எண்கள்"
 
 #. TRANSLATORS: This is a keyword or name for the printing plugin which is used while searching
 #: ../build/po/settings.js:270

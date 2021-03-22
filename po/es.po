@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2020-11-01 19:29+0000\n"
-"Last-Translator: Iñaki Aliaga <him@mint.lgbt>\n"
+"PO-Revision-Date: 2021-03-15 11:27+0000\n"
+"Last-Translator: Josué <j2g2rp@gmail.com>\n"
 "Language-Team: Spanish <https://translate.ubports.com/projects/ubports/"
 "system-settings/es/>\n"
 "Language: es\n"
@@ -2519,7 +2519,7 @@ msgstr ""
 
 #: ../plugins/system-update/UpdateDelegate.qml:119
 msgid "Retry"
-msgstr "Volver a intentar"
+msgstr "Reintentar"
 
 #: ../plugins/system-update/UpdateDelegate.qml:124
 msgid "Update"
@@ -2742,7 +2742,7 @@ msgstr "Dirección IP"
 
 #: ../plugins/wifi/OtherNetwork.qml:92
 msgid "Connect to Wi‑Fi"
-msgstr "Conectar a WI-FI"
+msgstr "Conectar con wifi"
 
 #: ../plugins/wifi/OtherNetwork.qml:93
 msgid "Connect to Hidden Network"

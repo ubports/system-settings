@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2020-10-26 19:33+0000\n"
+"PO-Revision-Date: 2021-03-05 06:27+0000\n"
 "Last-Translator: dano6 <dano.kutka@gmail.com>\n"
 "Language-Team: Slovak <https://translate.ubports.com/projects/ubports/"
 "system-settings/sk/>\n"
@@ -3097,7 +3097,7 @@ msgstr "Hľadať"
 
 #: ../src/qml/MainWindow.qml:246
 msgid "Personal"
-msgstr "Vlastný"
+msgstr "Osobné"
 
 #: ../src/qml/MainWindow.qml:251
 msgid "System"

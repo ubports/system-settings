@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2020-02-11 14:21+0000\n"
-"Last-Translator: Bence László <bencelaszlo@protonmail.com>\n"
+"PO-Revision-Date: 2021-01-28 22:27+0000\n"
+"Last-Translator: Adam <padamyno@gmail.com>\n"
 "Language-Team: Hungarian <https://translate.ubports.com/projects/ubports/"
 "system-settings/hu/>\n"
 "Language: hu\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.8\n"
+"X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:40+0000\n"
 
 #: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
@@ -61,9 +61,8 @@ msgstr "Elnézést, ez a licenc nem jeleníthető meg."
 
 #. TRANSLATORS: This is a keyword or name for the about plugin which is used while searching
 #: ../plugins/about/PageComponent.qml:35 ../build/po/settings.js:2
-#, fuzzy
 msgid "About"
-msgstr "névjegy"
+msgstr "Bővebben"
 
 #: ../plugins/about/PageComponent.qml:99
 msgid "Serial"
@@ -285,7 +284,7 @@ msgstr "Kép eltávolítása"
 #: ../plugins/background/Components/AddRemove.qml:42
 #: ../plugins/cellular/Components/SimEditor.qml:203
 msgid "Cancel"
-msgstr "Mégse"
+msgstr "Mégsem"
 
 #: ../plugins/background/Preview.qml:113
 #: ../plugins/phone/CallForwarding.qml:253
@@ -540,7 +539,7 @@ msgstr "Fejhallgató"
 
 #: ../plugins/bluetooth/DevicePage.qml:53
 msgid "Headphones"
-msgstr "Fülhallgatók"
+msgstr "Fejhallgató"
 
 #: ../plugins/bluetooth/DevicePage.qml:54
 msgid "Video"
@@ -768,7 +767,7 @@ msgstr ""
 #: ../plugins/vpn/PageComponent.qml:123
 #: ../plugins/cellular/Components/SimEditor.qml:214
 msgid "OK"
-msgstr "Ok"
+msgstr "OK"
 
 #: ../plugins/cellular/PageApnEditor.qml:71
 msgid "Edit"
@@ -1009,7 +1008,7 @@ msgstr ""
 #: ../plugins/cellular/PageChooseApn.qml:303
 #: ../plugins/printing/PageComponent.qml:136
 msgid "Delete"
-msgstr ""
+msgstr "Törlés"
 
 #: ../plugins/cellular/PageChooseCarrier.qml:153
 #: ../plugins/time-date/ChooseTimeZone.qml:51
@@ -1644,14 +1643,12 @@ msgid "Contacts…"
 msgstr ""
 
 #: ../plugins/phone/CallForwarding.qml:274
-#, fuzzy
 msgid "Please select a phone number"
-msgstr "Telefonszám"
+msgstr "Válasszon telefonszámot"
 
 #: ../plugins/phone/CallForwarding.qml:283
-#, fuzzy
 msgid "Numbers"
-msgstr "számok"
+msgstr "Telefonszámok"
 
 #: ../plugins/phone/CallForwarding.qml:302
 msgid "Could not forward to this contact"
@@ -1684,9 +1681,8 @@ msgid "Forward to"
 msgstr "Továbbítás"
 
 #: ../plugins/phone/CallForwardItem.qml:171
-#, fuzzy
 msgid "Enter a number"
-msgstr "Telefonszám"
+msgstr "Szám megadása"
 
 #: ../plugins/phone/CallForwardItem.qml:218
 msgid "Call forwarding can’t be changed right now."
@@ -1782,9 +1778,8 @@ msgstr "Nyomtató"
 #: ../plugins/printing/AddPrinterDetails.qml:202
 #: ../plugins/printing/printer-sub-pages/GeneralSettings.qml:32
 #: ../plugins/printing/printer-sub-pages/Status.qml:66
-#, fuzzy
 msgid "Description"
-msgstr "Titkosítás"
+msgstr "Leírás"
 
 #: ../plugins/printing/AddPrinterDetails.qml:204
 #: ../plugins/printing/AddPrinterDetails.qml:211
@@ -1797,7 +1792,7 @@ msgstr ""
 #: ../plugins/security-privacy/PageComponent.qml:240
 #: ../plugins/printing/printer-sub-pages/Status.qml:72
 msgid "Location"
-msgstr "Tartózkodási hely"
+msgstr "Helyszín"
 
 #: ../plugins/printing/AddPrinterDetails.qml:219
 msgid "Driver"
@@ -2363,7 +2358,7 @@ msgstr ""
 
 #: ../plugins/sound/PageComponent.qml:76
 msgid "Silent Mode"
-msgstr "Csendes üzemmód"
+msgstr "Néma üzemmód"
 
 #: ../plugins/sound/PageComponent.qml:100
 msgid "Ringer:"
@@ -2371,7 +2366,7 @@ msgstr "Csengőhang:"
 
 #: ../plugins/sound/PageComponent.qml:141
 msgid "High volume can damage your hearing."
-msgstr ""
+msgstr "A magas hangerőszint károsíthatja a hallást."
 
 #: ../plugins/sound/PageComponent.qml:145
 msgid "Phone calls:"
@@ -3055,9 +3050,8 @@ msgid "Remove images…"
 msgstr "Képek eltávolítása"
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:36
-#, fuzzy
 msgid "Cellular data"
-msgstr "Mobiladatok:"
+msgstr "Mobiladatok"
 
 #: ../plugins/cellular/Components/DataMultiSim.qml:73
 #: ../plugins/cellular/Components/NoSim.qml:36
@@ -3100,7 +3094,7 @@ msgstr "Üzenetekhez használja:"
 #. this word must be less than 5 characters
 #: ../plugins/cellular/Components/LabelTextField.qml:51
 msgid "Next"
-msgstr ""
+msgstr "Köv."
 
 #: ../plugins/cellular/Components/MultiSim.qml:55
 #: ../plugins/cellular/Components/SingleSim.qml:105
@@ -3981,7 +3975,7 @@ msgstr "hang"
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../build/po/settings.js:334
 msgid "silent"
-msgstr "csendes"
+msgstr "néma"
 
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../build/po/settings.js:336
@@ -4001,7 +3995,7 @@ msgstr "üzenet"
 #. TRANSLATORS: This is a keyword or name for the sound plugin which is used while searching
 #: ../build/po/settings.js:346
 msgid "volume"
-msgstr "hangerő"
+msgstr "Hangerő"
 
 #. TRANSLATORS: This is a keyword or name for the system-update plugin which is used while searching
 #: ../build/po/settings.js:350
