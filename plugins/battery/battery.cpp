@@ -69,6 +69,7 @@ void Battery::buildDeviceString() {
         g_object_get(device, "kind", &kind, nullptr);
         if (kind == UP_DEVICE_KIND_BATTERY) {
             m_deviceString = QString(up_device_get_object_path(device));
+            qWarning() << "Selected device:" << m_deviceString;
         }
     }
 
