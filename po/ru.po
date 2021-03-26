@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
-"PO-Revision-Date: 2021-03-25 07:08+0000\n"
+"PO-Revision-Date: 2021-03-26 09:58+0000\n"
 "Last-Translator: vokaliz <vokaliz@protonmail.com>\n"
 "Language-Team: Russian <https://translate.ubports.com/projects/ubports/"
 "system-settings/ru/>\n"
@@ -86,7 +86,7 @@ msgstr "Серийный номер"
 #: ../plugins/wifi/certhandler.cpp:192 ../plugins/wifi/certhandler.cpp:224
 #: ../plugins/wifi/certhandler.cpp:289 ../plugins/wifi/certhandler.cpp:318
 msgid "None"
-msgstr "Отсутствует"
+msgstr "Никто"
 
 #: ../plugins/about/PageComponent.qml:131
 msgid "Wi-Fi address"
@@ -2078,7 +2078,7 @@ msgstr "4-значный код"
 #: ../plugins/security-privacy/LockSecurity.qml:469
 #: ../plugins/security-privacy/PhoneLocking.qml:62
 msgid "Passphrase"
-msgstr "Кодовая фраза"
+msgstr "Пароль-фраза"
 
 #: ../plugins/security-privacy/LockSecurity.qml:470
 #: ../plugins/security-privacy/PhoneLocking.qml:63
@@ -2425,7 +2425,7 @@ msgstr "После завершения установки устройство 
 
 #: ../plugins/system-update/FirmwareUpdate.qml:185
 msgid "Install and restart now"
-msgstr "Установить (требуется перезагрузка)"
+msgstr "Установить и сразу перезагрузить"
 
 #: ../plugins/system-update/FirmwareUpdate.qml:228
 msgid ""
@@ -2751,7 +2751,7 @@ msgstr "IP-адрес"
 
 #: ../plugins/wifi/OtherNetwork.qml:92
 msgid "Connect to Wi‑Fi"
-msgstr "Подключится к Wi-Fi"
+msgstr "Подключение к Wi‑Fi"
 
 #: ../plugins/wifi/OtherNetwork.qml:93
 msgid "Connect to Hidden Network"
