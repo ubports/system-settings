@@ -17,7 +17,7 @@
 import QtQuick 2.4
 import SystemSettings 1.0
 import SystemSettings.ListItems 1.0 as SettingsListItems
-import Ubuntu.Components 1.3
+import Lomiri.Components 1.3
 import Ubuntu.SystemSettings.Wifi 1.0
 import QMenuModel 0.1
 
@@ -40,19 +40,19 @@ ItemPage {
                 NumberAnimation {
                     property: "opacity"
                     to: 0
-                    duration: UbuntuAnimation.SnapDuration
+                    duration: LomiriAnimation.SnapDuration
                 }
                 NumberAnimation {
                     property: "height"
                     to: 0
-                    duration: UbuntuAnimation.SnapDuration
+                    duration: LomiriAnimation.SnapDuration
                 }
             }
         }
         removeDisplaced: Transition {
             NumberAnimation {
                 property: "y"
-                duration: UbuntuAnimation.SnapDuration
+                duration: LomiriAnimation.SnapDuration
             }
         }
         delegate: SettingsListItems.StandardProgression {

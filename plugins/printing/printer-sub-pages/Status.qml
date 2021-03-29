@@ -18,8 +18,8 @@
 
 import QtQuick 2.4
 import SystemSettings.ListItems 1.0 as SettingsListItems
-import Ubuntu.Components 1.3
-import Ubuntu.Components.Extras.Printers 0.1
+import Lomiri.Components 1.3
+import Lomiri.Components.Extras.Printers 0.1
 
 Column {
     SettingsListItems.Standard {

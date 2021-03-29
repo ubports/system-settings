@@ -20,9 +20,9 @@ import QtQuick 2.4
 import QtQuick.Layouts 1.3
 import SystemSettings 1.0
 import SystemSettings.ListItems 1.0 as SettingsListItems
-import Ubuntu.Components 1.3
-import Ubuntu.Components.Popups 1.3
-import Ubuntu.Components.ListItems 1.3 as ListItems
+import Lomiri.Components 1.3
+import Lomiri.Components.Popups 1.3
+import Lomiri.Components.ListItems 1.3 as ListItems
 
 Column {
     height: childrenRect.height

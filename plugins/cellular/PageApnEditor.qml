@@ -21,9 +21,9 @@
 
 import QtQuick 2.4
 import SystemSettings 1.0
-import Ubuntu.Components 1.3
-import Ubuntu.Components.Popups 1.3
-import Ubuntu.Components.ListItems 1.3 as ListItem
+import Lomiri.Components 1.3
+import Lomiri.Components.Popups 1.3
+import Lomiri.Components.ListItems 1.3 as ListItem
 import MeeGo.QOfono 0.2
 import "Components" as LocalComponents
 import "apn_editor.js" as Editor

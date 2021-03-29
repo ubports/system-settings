@@ -21,7 +21,7 @@ import QtQuick 2.4
 import QtSystemInfo 5.0
 import SystemSettings 1.0
 import SystemSettings.ListItems 1.0 as SettingsListItems
-import Ubuntu.Components 1.3
+import Lomiri.Components 1.3
 import Ubuntu.SystemSettings.StorageAbout 1.0
 import Ubuntu.SystemSettings.Bluetooth 1.0
 import MeeGo.QOfono 0.2

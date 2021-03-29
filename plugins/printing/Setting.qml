@@ -20,7 +20,7 @@ import QtQuick 2.4
 import QtQuick.Layouts 1.1
 import SystemSettings 1.0
 import SystemSettings.ListItems 1.0 as SettingsListItems
-import Ubuntu.Components 1.3
+import Lomiri.Components 1.3
 
 ItemPage {
     id: settingPage

@@ -22,8 +22,8 @@
 import QtQuick 2.4
 import QtQuick.Layouts 1.1
 import SystemSettings 1.0
-import Ubuntu.Components 1.3
-import Ubuntu.Components.ListItems 1.3 as ListItem
+import Lomiri.Components 1.3
+import Lomiri.Components.ListItems 1.3 as ListItem
 import MeeGo.QOfono 0.2
 import "carriers.js" as CHelper
 
@@ -138,7 +138,7 @@ ItemPage {
                     opacity: scanning || working ? 1 : 0
                     Behavior on opacity {
                         NumberAnimation {
-                            duration: UbuntuAnimation.SnapDuration
+                            duration: LomiriAnimation.SnapDuration
                         }
                     }
                 }
@@ -197,13 +197,13 @@ ItemPage {
 
                 Behavior on height {
                     NumberAnimation {
-                        duration: UbuntuAnimation.SnapDuration
+                        duration: LomiriAnimation.SnapDuration
                     }
                 }
 
                 Behavior on opacity {
                     NumberAnimation {
-                        duration: UbuntuAnimation.SnapDuration
+                        duration: LomiriAnimation.SnapDuration
                     }
                 }
             }
@@ -246,13 +246,13 @@ ItemPage {
 
                 Behavior on height {
                     NumberAnimation {
-                        duration: UbuntuAnimation.SnapDuration
+                        duration: LomiriAnimation.SnapDuration
                     }
                 }
 
                 Behavior on opacity {
                     NumberAnimation {
-                        duration: UbuntuAnimation.SnapDuration
+                        duration: LomiriAnimation.SnapDuration
                     }
                 }
             }

@@ -18,7 +18,7 @@
 
 import QtQuick 2.4
 import QtTest 1.0
-import Ubuntu.Components 1.3
+import Lomiri.Components 1.3
 import Ubuntu.Connectivity 1.0
 import Ubuntu.DownloadManager 1.2
 import Ubuntu.SystemSettings.Update 1.0

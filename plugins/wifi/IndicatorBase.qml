@@ -20,7 +20,7 @@
 import QtQuick 2.4
 import QMenuModel 0.1 as QMenuModel
 import SystemSettings 1.0
-import Ubuntu.Components 1.3
+import Lomiri.Components 1.3
 
 ItemPage {
     id: indicatorItem

@@ -22,8 +22,8 @@ import QMenuModel 0.1
 import QtQuick 2.0
 import SystemSettings 1.0
 import SystemSettings.ListItems 1.0 as SettingsListItems
-import Ubuntu.Components 1.3
-import Ubuntu.Components.Popups 1.3
+import Lomiri.Components 1.3
+import Lomiri.Components.Popups 1.3
 import Ubuntu.SystemSettings.Bluetooth 1.0
 
 Page {

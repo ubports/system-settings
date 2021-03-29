@@ -19,7 +19,7 @@
  */
 
 import QtQuick 2.0
-import Ubuntu.Components 1.3
+import Lomiri.Components 1.3
 
 Item {
     /* this property will come from Mir */
@@ -59,7 +59,7 @@ Item {
         height: parent.height
         width: height
         enabled: !safetyDelayTimer.running
-        UbuntuShape {
+        LomiriShape {
             anchors.fill: parent
             color: "lightgray"
 

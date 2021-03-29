@@ -19,7 +19,7 @@
 
 import QtQuick 2.4
 import SystemSettings.ListItems 1.0 as SettingsListItems
-import Ubuntu.Components 1.3
+import Lomiri.Components 1.3
 
 SettingsListItems.IconProgression {
     id: root

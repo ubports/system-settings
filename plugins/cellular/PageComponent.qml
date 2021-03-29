@@ -21,7 +21,7 @@
 import QtQuick 2.4
 import SystemSettings 1.0
 import Ubuntu.SystemSettings.Cellular 1.0
-import Ubuntu.Components 1.3
+import Lomiri.Components 1.3
 import MeeGo.QOfono 0.2
 import QMenuModel 0.1
 import "Components" as LocalComponents
@@ -121,7 +121,7 @@ ItemPage {
 
         Behavior on opacity {
             PropertyAnimation {
-               duration: UbuntuAnimation.SlowDuration
+               duration: LomiriAnimation.SlowDuration
             }
         }
     }
@@ -143,7 +143,7 @@ ItemPage {
 
         Behavior on opacity {
             PropertyAnimation {
-                duration: UbuntuAnimation.SlowDuration
+                duration: LomiriAnimation.SlowDuration
             }
         }
 

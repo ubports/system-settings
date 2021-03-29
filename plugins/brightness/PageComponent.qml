@@ -21,8 +21,8 @@
 import GSettings 1.0
 import QtQuick 2.4
 import SystemSettings 1.0
-import Ubuntu.Components 1.3
-import Ubuntu.Components.ListItems 1.3 as ListItem
+import Lomiri.Components 1.3
+import Lomiri.Components.ListItems 1.3 as ListItem
 import Ubuntu.SystemSettings.Brightness 1.0
 import Ubuntu.Settings.Menus 0.1 as Menus
 import Ubuntu.Settings.Components 0.1 as USC

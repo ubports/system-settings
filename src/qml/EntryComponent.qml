@@ -17,7 +17,7 @@
  */
 
 import QtQuick 2.4
-import Ubuntu.Components 1.3
+import Lomiri.Components 1.3
 
 Item {
     id: root
@@ -39,7 +39,7 @@ Item {
         color: root.color
         opacity: root.layout == "column" ? 1 : 0
         onClicked: root.clicked()
-        Behavior on opacity { UbuntuNumberAnimation {}}
+        Behavior on opacity { LomiriNumberAnimation {}}
     }
 
     EntryComponentGrid {
@@ -50,6 +50,6 @@ Item {
         color: root.color
         opacity: root.layout == "grid" ? 1 : 0
         onClicked: root.clicked()
-        Behavior on opacity { UbuntuNumberAnimation {}}
+        Behavior on opacity { LomiriNumberAnimation {}}
     }
 }

@@ -22,8 +22,8 @@ import QtQuick 2.4
 import GSettings 1.0
 import SystemSettings 1.0
 import Ubuntu.Content 1.3
-import Ubuntu.Components 1.3
-import Ubuntu.Components.Popups 1.3
+import Lomiri.Components 1.3
+import Lomiri.Components.Popups 1.3
 import Ubuntu.SystemSettings.Background 1.0
 import "utilities.js" as Utilities
 

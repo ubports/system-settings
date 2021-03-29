@@ -22,9 +22,9 @@ import QMenuModel 0.1
 import QtQuick 2.4
 import QtQuick.Layouts 1.1
 import SystemSettings 1.0
-import Ubuntu.Components 1.3
-import Ubuntu.Components.ListItems 1.3 as ListItem
-import Ubuntu.Components.Popups 1.3
+import Lomiri.Components 1.3
+import Lomiri.Components.ListItems 1.3 as ListItem
+import Lomiri.Components.Popups 1.3
 import Ubuntu.SystemSettings.Update 1.0
 import Ubuntu.Connectivity 1.0
 
@@ -107,7 +107,7 @@ ItemPage {
           spacing: units.gu(3)
           opacity: spinner.visible ? 0.5 : 1
           Behavior on opacity {
-              UbuntuNumberAnimation {}
+              LomiriNumberAnimation {}
           }
 
           Rectangle {
@@ -202,7 +202,7 @@ ItemPage {
               scale: button.pressed ? 0.98 : 1.0
               Behavior on scale {
                   ScaleAnimator {
-                      duration: UbuntuAnimation.SnapDuration
+                      duration: LomiriAnimation.SnapDuration
                       easing.type: Easing.Linear
                   }
               }

@@ -22,10 +22,10 @@ import QtQuick 2.4
 import QtSystemInfo 5.5
 import GSettings 1.0
 import SystemSettings 1.0
-import Ubuntu.Components 1.3
-import Ubuntu.Components.Popups 1.3
+import Lomiri.Components 1.3
+import Lomiri.Components.Popups 1.3
 import SystemSettings.ListItems 1.0 as SettingsListItems
-import Ubuntu.Components.ListItems 1.3 as ListItem
+import Lomiri.Components.ListItems 1.3 as ListItem
 import Ubuntu.Settings.Menus 0.1 as Menus
 import Ubuntu.SystemSettings.LanguagePlugin 1.0
 import Ubuntu.Settings.Components 0.1 as USC

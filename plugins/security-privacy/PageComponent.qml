@@ -23,8 +23,8 @@ import GSettings 1.0
 import QMenuModel 0.1
 import QtQuick 2.4
 import SystemSettings.ListItems 1.0 as SettingsListItems
-import Ubuntu.Components 1.3
-import Ubuntu.Components.ListItems 1.3 as ListItems
+import Lomiri.Components 1.3
+import Lomiri.Components.ListItems 1.3 as ListItems
 import SystemSettings 1.0
 import Ubuntu.Settings.Fingerprint 0.1
 import Ubuntu.SystemSettings.Battery 1.0

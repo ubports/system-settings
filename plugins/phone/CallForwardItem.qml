@@ -19,9 +19,9 @@
  */
 
 import QtQuick 2.4
-import Ubuntu.Components 1.3
-import Ubuntu.Components.ListItems 1.3 as ListItem
-import Ubuntu.Components.Themes.Ambiance 0.1
+import Lomiri.Components 1.3
+import Lomiri.Components.ListItems 1.3 as ListItem
+import Lomiri.Components.Themes.Ambiance 0.1
 import MeeGo.QOfono 0.2
 import "callForwardingUtils.js" as Utils
 
@@ -189,7 +189,7 @@ Column {
 
         Behavior on height {
             NumberAnimation {
-                duration: UbuntuAnimation.SnapDuration
+                duration: LomiriAnimation.SnapDuration
             }
         }
     }

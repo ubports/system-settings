@@ -18,8 +18,8 @@
 
 import QtQuick 2.4
 import QtQuick.Layouts 1.1
-import Ubuntu.Components 1.3
-import Ubuntu.Components.ListItems 1.3 as ListItems
+import Lomiri.Components 1.3
+import Lomiri.Components.ListItems 1.3 as ListItems
 import Ubuntu.SystemSettings.Update 1.0
 
 Item {
@@ -47,7 +47,7 @@ Item {
     signal install()
 
     Behavior on height {
-        UbuntuNumberAnimation {}
+        LomiriNumberAnimation {}
     }
 
     RowLayout {
@@ -59,7 +59,7 @@ Item {
         }
 
         Behavior on opacity {
-            UbuntuNumberAnimation {}
+            LomiriNumberAnimation {}
         }
 
         opacity: visible ? 1 : 0
@@ -101,7 +101,7 @@ Item {
         spacing: units.gu(2)
 
         Behavior on opacity {
-            UbuntuNumberAnimation {}
+            LomiriNumberAnimation {}
         }
 
         opacity: visible ? 1 : 0

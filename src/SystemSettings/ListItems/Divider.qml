@@ -16,7 +16,7 @@
  * with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-import Ubuntu.Components.ListItems 1.3 as ListItem
+import Lomiri.Components.ListItems 1.3 as ListItem
 
 ListItem.Divider {
 }

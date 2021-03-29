@@ -22,7 +22,7 @@ import QtQuick 2.4
 import QtQuick.Layouts 1.1
 import SystemSettings 1.0
 import SystemSettings.ListItems 1.0 as SettingsListItems
-import Ubuntu.Components 1.3
+import Lomiri.Components 1.3
 import Ubuntu.SystemSettings.Wifi 1.0
 
 ItemPage {
@@ -97,7 +97,7 @@ ItemPage {
                 Button {
                     objectName: "forgetNetwork"
                     text : i18n.tr("Forget this network")
-                    color: UbuntuColors.red
+                    color: LomiriColors.red
                     anchors {
                         left: parent.left
                         right: parent.right

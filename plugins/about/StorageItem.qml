@@ -1,5 +1,5 @@
 import QtQuick 2.4
-import Ubuntu.Components 1.3
+import Lomiri.Components 1.3
 
 Item {
     property string label
@@ -13,7 +13,7 @@ Item {
     Row {
         spacing: units.gu(1)
 
-        UbuntuShape {
+        LomiriShape {
             anchors.verticalCenter: parent.verticalCenter
             width: units.gu(3)
             height: units.gu(2)

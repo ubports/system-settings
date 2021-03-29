@@ -21,9 +21,9 @@
 
 import QtQuick 2.4
 import QtQuick.Layouts 1.1
-import Ubuntu.Components 1.3
-import Ubuntu.Components.ListItems 1.3 as ListItems
-import Ubuntu.Components.Themes 1.3
+import Lomiri.Components 1.3
+import Lomiri.Components.ListItems 1.3 as ListItems
+import Lomiri.Components.Themes 1.3
 import Ubuntu.SystemSettings.Update 1.0
 
 ListItem {
@@ -52,7 +52,7 @@ ListItem {
 
     height: layout.height + (divider.visible ? divider.height : 0)
     Behavior on height {
-        animation: UbuntuNumberAnimation {}
+        animation: LomiriNumberAnimation {}
     }
 
     SlotsLayout {
@@ -344,7 +344,7 @@ ListItem {
                 showProgressPercentage: false
 
                 Behavior on value {
-                    animation: UbuntuNumberAnimation {}
+                    animation: LomiriNumberAnimation {}
                 }
             } // Progress bar
 
@@ -365,7 +365,7 @@ ListItem {
                 opacity: visible ? 1 : 0
 
                 Behavior on opacity {
-                    animation: UbuntuNumberAnimation {}
+                    animation: LomiriNumberAnimation {}
                 }
 
                 Label {
@@ -391,7 +391,7 @@ ListItem {
                 mipmap: true
             }
 
-            UbuntuShape {
+            LomiriShape {
                 id: shape
                 visible: kind !== Update.KindImage && !fallback.visible
                 anchors.fill: parent

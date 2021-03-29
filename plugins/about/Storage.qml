@@ -22,7 +22,7 @@ import QtQuick 2.4
 import QtSystemInfo 5.0
 import SystemSettings 1.0
 import SystemSettings.ListItems 1.0 as SettingsListItems
-import Ubuntu.Components 1.3
+import Lomiri.Components 1.3
 import Ubuntu.SystemSettings.StorageAbout 1.0
 
 ItemPage {
@@ -96,12 +96,12 @@ ItemPage {
                                      backendInfo.audioSize
             //TODO: Let's consider use unified colors in a ¿file?
             property variant spaceColors: [
-                UbuntuColors.orange,
+                LomiriColors.orange,
                 "#a52a00", //System Maroon
                 "#006a97", //System Blue
                 "#198400", //Dark System Green
                 "#f5d412", //System Yellow
-                UbuntuColors.lightAubergine]
+                LomiriColors.lightAubergine]
             property variant spaceLabels: [
                 i18n.tr("Used by Ubuntu"),
                 i18n.tr("Videos"),
