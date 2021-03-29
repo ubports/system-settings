@@ -19,8 +19,8 @@
 
 import QtQuick 2.4
 import QMenuModel 0.1 as QMenuModel
-import Ubuntu.Settings.Menus 0.1 as Menus
-import Ubuntu.Settings.Components 0.1 as USC
+import Lomiri.Settings.Menus 0.1 as Menus
+import Lomiri.Settings.Components 0.1 as LSC
 
 Item {
     id: menuFactory
@@ -87,7 +87,7 @@ Item {
             checked: serverChecked
             enabled: menu && menu.sensitive || false
 
-            USC.ServerPropertySynchroniser {
+            LSC.ServerPropertySynchroniser {
                 userTarget: switchItem
                 userProperty: "checked"
                 serverTarget: switchItem
@@ -159,7 +159,7 @@ Item {
                 loadAttributes();
             }
 
-            resources: USC.ServerPropertySynchroniser {
+            resources: LSC.ServerPropertySynchroniser {
                 userTarget: apItem
                 userProperty: "active"
                 userTrigger: "onActivate"

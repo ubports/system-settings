@@ -26,7 +26,7 @@ import SystemSettings.ListItems 1.0 as SettingsListItems
 import Lomiri.Components 1.3
 import Lomiri.Components.ListItems 1.3 as ListItems
 import SystemSettings 1.0
-import Ubuntu.Settings.Fingerprint 0.1
+import Lomiri.Settings.Fingerprint 0.1
 import Ubuntu.SystemSettings.Battery 1.0
 import Ubuntu.SystemSettings.SecurityPrivacy 1.0
 import MeeGo.QOfono 0.2

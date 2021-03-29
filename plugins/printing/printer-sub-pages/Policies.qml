@@ -20,7 +20,7 @@ import QtQuick 2.4
 import SystemSettings.ListItems 1.0 as SettingsListItems
 import Lomiri.Components 1.3
 import Lomiri.Components.Extras.Printers 0.1
-import Ubuntu.Settings.Components 0.1 as USC
+import Lomiri.Settings.Components 0.1 as LSC
 
 Column {
     SettingsListItems.Standard {
@@ -31,7 +31,7 @@ Column {
 
             property bool serverChecked: printer.printerEnabled
 
-            USC.ServerPropertySynchroniser {
+            LSC.ServerPropertySynchroniser {
                 userTarget: enabledSwitch
                 userProperty: "checked"
                 serverTarget: enabledSwitch

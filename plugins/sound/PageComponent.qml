@@ -24,8 +24,8 @@ import Lomiri.Components 1.3
 import SystemSettings 1.0
 import SystemSettings.ListItems 1.0 as SettingsListItems
 import Ubuntu.SystemSettings.Sound 1.0
-import Ubuntu.Settings.Menus 0.1 as Menus
-import Ubuntu.Settings.Components 0.1 as USC
+import Lomiri.Settings.Menus 0.1 as Menus
+import Lomiri.Settings.Components 0.1 as LSC
 import QMenuModel 0.1
 import Ubuntu.Connectivity 1.0
 
@@ -80,7 +80,7 @@ ItemPage {
                     objectName: "silentMode"
                     property bool serverChecked: soundActionGroup.silentMode.state
 
-                    USC.ServerPropertySynchroniser {
+                    LSC.ServerPropertySynchroniser {
                         userTarget: silentModeSwitch
                         userProperty: "checked"
                         serverTarget: silentModeSwitch
@@ -124,7 +124,7 @@ ItemPage {
 
                     property real serverValue: soundActionGroup.volume.state
 
-                    USC.ServerPropertySynchroniser {
+                    LSC.ServerPropertySynchroniser {
                         userTarget: volumeSlider
                         userProperty: "value"
                         serverTarget: volumeSlider

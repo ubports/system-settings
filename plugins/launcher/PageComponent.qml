@@ -21,8 +21,8 @@ import QtQuick 2.4
 import SystemSettings 1.0
 import SystemSettings.ListItems 1.0 as SettingsListItems
 import Lomiri.Components 1.3
-import Ubuntu.Settings.Components 0.1 as USC
-import Ubuntu.Settings.Menus 0.1 as Menus
+import Lomiri.Settings.Components 0.1 as LSC
+import Lomiri.Settings.Menus 0.1 as Menus
 import Ubuntu.SystemSettings.Launcher 1.0
 
 ItemPage {
@@ -93,7 +93,7 @@ ItemPage {
                 live: true
 
                 property real serverValue: unity8Settings.launcherWidth
-                USC.ServerPropertySynchroniser {
+                LSC.ServerPropertySynchroniser {
                     userTarget: iconWidth
                     userProperty: "value"
                     serverTarget: iconWidth

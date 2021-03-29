@@ -22,8 +22,8 @@ import QtQuick 2.0
 import SystemSettings 1.0
 import Lomiri.Components 1.3
 import Lomiri.Components.ListItems 1.3 as ListItem
-import Ubuntu.Settings.Menus 0.1 as Menus
-import Ubuntu.Settings.Components 0.1 as USC
+import Lomiri.Settings.Menus 0.1 as Menus
+import Lomiri.Settings.Components 0.1 as LSC
 import Ubuntu.SystemSettings.Mouse 1.0
 
 Column {
@@ -72,7 +72,7 @@ Column {
                 value: backend.mouseCursorSpeed
                 live: true
                 property real serverValue: enabled ? backend.mouseCursorSpeed : 0.0
-                USC.ServerPropertySynchroniser {
+                LSC.ServerPropertySynchroniser {
                     userTarget: mouseMoveSpeed
                     userProperty: "value"
                     serverTarget: mouseMoveSpeed
@@ -108,7 +108,7 @@ Column {
                 value: backend.mouseScrollSpeed
                 live: true
                 property real serverValue: enabled ? backend.mouseScrollSpeed : 0.0
-                USC.ServerPropertySynchroniser {
+                LSC.ServerPropertySynchroniser {
                     userTarget: mouseScrollSpeed
                     userProperty: "value"
                     serverTarget: mouseScrollSpeed
@@ -144,7 +144,7 @@ Column {
                 value: backend.mouseDoubleClickSpeed
                 live: true
                 property int serverValue: enabled ? backend.mouseDoubleClickSpeed : 0
-                USC.ServerPropertySynchroniser {
+                LSC.ServerPropertySynchroniser {
                     userTarget: mouseDoubleClickSpeed
                     userProperty: "value"
                     serverTarget: mouseDoubleClickSpeed
@@ -238,7 +238,7 @@ Column {
                 value: backend.touchpadCursorSpeed
                 live: true
                 property real serverValue: enabled ? backend.touchpadCursorSpeed : 0.0
-                USC.ServerPropertySynchroniser {
+                LSC.ServerPropertySynchroniser {
                     userTarget: touchMoveSpeed
                     userProperty: "value"
                     serverTarget: touchMoveSpeed
@@ -274,7 +274,7 @@ Column {
                 value: backend.touchpadScrollSpeed
                 live: true
                 property real serverValue: enabled ? backend.touchpadScrollSpeed : 0.0
-                USC.ServerPropertySynchroniser {
+                LSC.ServerPropertySynchroniser {
                     userTarget: touchScrollSpeed
                     userProperty: "value"
                     serverTarget: touchScrollSpeed
@@ -311,7 +311,7 @@ Column {
                 value: backend.touchpadDoubleClickSpeed
                 live: true
                 property int serverValue: enabled ? backend.touchpadDoubleClickSpeed : 0
-                USC.ServerPropertySynchroniser {
+                LSC.ServerPropertySynchroniser {
                     userTarget: touchClickSpeed
                     userProperty: "value"
                     serverTarget: touchClickSpeed

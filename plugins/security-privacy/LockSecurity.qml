@@ -27,7 +27,7 @@ import SystemSettings.ListItems 1.0 as SettingsListItems
 import Lomiri.Components 1.3
 import Lomiri.Components.ListItems 1.3 as ListItems
 import Lomiri.Components.Popups 1.3
-import Ubuntu.Settings.Fingerprint 0.1
+import Lomiri.Settings.Fingerprint 0.1
 import Ubuntu.SystemSettings.SecurityPrivacy 1.0
 
 ItemPage {
@@ -617,7 +617,7 @@ ItemPage {
 
     User {
         id: user
-        uid: UbuntuSettingsFingerprint.uid
+        uid: LomiriSettingsFingerprint.uid
     }
 
 }

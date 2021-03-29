@@ -25,7 +25,7 @@ import SystemSettings.ListItems 1.0 as SettingsListItems
 import Lomiri.Components 1.3
 import Lomiri.Components.Popups 1.3
 import Ubuntu.SystemSettings.Bluetooth 1.0
-import Ubuntu.Settings.Components 0.1 as USC
+import Lomiri.Settings.Components 0.1 as LSC
 
 
 ItemPage {
@@ -236,7 +236,7 @@ ItemPage {
                 Switch {
                     id: btSwitch
                     property bool serverChecked: bluetoothActionGroup.enabled.state != undefined ? bluetoothActionGroup.enabled.state : false
-                    USC.ServerPropertySynchroniser {
+                    LSC.ServerPropertySynchroniser {
                         userTarget: btSwitch
                         userProperty: "checked"
                         serverTarget: btSwitch

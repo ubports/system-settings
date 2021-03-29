@@ -22,7 +22,7 @@ import QtQuick 2.4
 import SystemSettings.ListItems 1.0 as SettingsListItems
 import Lomiri.Components 1.3
 import Ubuntu.SystemSettings.FlightMode 1.0 as FlightMode
-import Ubuntu.Settings.Components 0.1 as USC
+import Lomiri.Settings.Components 0.1 as LSC
 
 
 SettingsListItems.Icon {
@@ -33,7 +33,7 @@ SettingsListItems.Icon {
         id: switchItem
 
         SlotsLayout.position: SlotsLayout.Trailing
-        USC.ServerPropertySynchroniser {
+        LSC.ServerPropertySynchroniser {
             userTarget: switchItem
             userProperty: "checked"
             serverTarget: helper

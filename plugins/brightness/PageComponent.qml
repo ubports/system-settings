@@ -24,8 +24,8 @@ import SystemSettings 1.0
 import Lomiri.Components 1.3
 import Lomiri.Components.ListItems 1.3 as ListItem
 import Ubuntu.SystemSettings.Brightness 1.0
-import Ubuntu.Settings.Menus 0.1 as Menus
-import Ubuntu.Settings.Components 0.1 as USC
+import Lomiri.Settings.Menus 0.1 as Menus
+import Lomiri.Settings.Components 0.1 as LSC
 import QMenuModel 0.1
 
 ItemPage {
@@ -99,7 +99,7 @@ ItemPage {
 
                 property real serverValue: enabled ? indicatorPower.brightness.state * 100 : 0.0
 
-                USC.ServerPropertySynchroniser {
+                LSC.ServerPropertySynchroniser {
                     userTarget: brightnessSlider
                     userProperty: "value"
                     serverTarget: brightnessSlider
