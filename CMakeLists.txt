@@ -1,4 +1,4 @@
-project(ubuntu-system-settings C CXX)
+project(lomiri-system-settings C CXX)
 cmake_minimum_required(VERSION 2.8.10)
 
 if(${PROJECT_BINARY_DIR} STREQUAL ${PROJECT_SOURCE_DIR})

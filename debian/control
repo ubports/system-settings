@@ -1,4 +1,4 @@
-Source: ubuntu-system-settings
+Source: lomiri-system-settings
 Section: gnome
 Priority: optional
 Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
