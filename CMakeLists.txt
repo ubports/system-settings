@@ -51,7 +51,6 @@ pkg_search_module(ACCOUNTSSERVICE REQUIRED accountsservice)
 pkg_search_module(GEONAMES REQUIRED geonames)
 pkg_search_module(ICU REQUIRED icu-i18n)
 pkg_search_module(ANDR_PROP libandroid-properties)
-pkg_search_module(POLKIT_AGENT polkit-agent-1)
 pkg_search_module(CLICK REQUIRED click-0.4)
 pkg_check_modules(QTGSETTINGS REQUIRED gsettings-qt)
 

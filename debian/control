@@ -22,12 +22,10 @@ Build-Depends:
  libgnome-desktop-3-dev,
  libgsettings-qt-dev,
  libicu-dev,
- libpolkit-agent-1-dev,
  libqmenumodel-dev,
  libqt5sql5-sqlite <!nocheck>,
  libqtdbusmock1-dev (>= 0.2+14.04.20140724) <!nocheck>,
  libqtdbustest1-dev <!nocheck>,
- libtrust-store-dev,
  libudev-dev,
  libupower-glib-dev,
  pep8 <!nocheck>,
@@ -51,9 +49,6 @@ Build-Depends:
  qtbase5-private-dev <!nocheck>,
  qtdeclarative5-dev,
  qtdeclarative5-dev-tools,
- qtdeclarative5-ubuntu-download-manager0.1 (>= 1.3~),
- qtdeclarative5-ubuntu-history0.1,
- qtdeclarative5-ubuntu-keyboard-extensions0.1 [armhf arm64 amd64 i386],
  xvfb <!nocheck>,
 Standards-Version: 3.9.6
 Homepage: https://github.com/ubports/system-settings

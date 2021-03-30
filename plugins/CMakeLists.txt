@@ -7,7 +7,9 @@ endif()
 add_subdirectory(background)
 add_subdirectory(battery)
 add_subdirectory(bluetooth)
-add_subdirectory(cellular)
+# TODO(Ratchanan): separate the plugin to an independent package
+# Additional deps: qtdeclarative5-ubuntu-keyboard-extensions0.1 ("enterKeyText")
+# add_subdirectory(cellular)
 add_subdirectory(example)
 add_subdirectory(flight-mode)
 add_subdirectory(hotspot)
@@ -16,12 +18,18 @@ add_subdirectory(launcher)
 add_subdirectory(mouse)
 add_subdirectory(notifications)
 add_subdirectory(orientation-lock)
-add_subdirectory(phone)
+# TODO(Ratchanan): separate the plugin to an independent package
+# Additional deps: qtdeclarative5-ubuntu-history0.1
+# add_subdirectory(phone)
 add_subdirectory(printing)
 add_subdirectory(reset)
-add_subdirectory(security-privacy)
+# TODO(Ratchanan): separate the plugin to an independent package
+# Additional deps: trust-store
+# add_subdirectory(security-privacy)
 add_subdirectory(sound)
-add_subdirectory(system-update)
+# TODO(Ratchanan): separate the plugin to an independent package
+# Additional deps: lomiri-download-manager
+# add_subdirectory(system-update)
 add_subdirectory(time-date)
 add_subdirectory(vpn)
 add_subdirectory(wifi)
