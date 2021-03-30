@@ -29,7 +29,6 @@ Build-Depends:
  libqtdbustest1-dev <!nocheck>,
  libtrust-store-dev,
  libudev-dev,
- libunity-api-dev,
  libupower-glib-dev,
  pep8 <!nocheck>,
  pkg-config,
