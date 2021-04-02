@@ -15,7 +15,7 @@
  */
 
 
-#include "plugin.h"
+#include "ubuntutestplugin.h"
 #include "testutil.h"
 #include "TouchEventSequenceWrapper.h"
 

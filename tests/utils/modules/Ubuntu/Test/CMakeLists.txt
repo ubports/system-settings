@@ -2,7 +2,7 @@ add_definitions(-DQT_NO_KEYWORDS)
 
 set(UbuntuTestQML_SOURCES
     testutil.cpp
-    plugin.cpp
+    ubuntutestplugin.cpp
     TouchEventSequenceWrapper.cpp
 )
 
