@@ -177,7 +177,7 @@ class DualSimCellularTestCase(CellularBaseTestCase):
         sim = '/ril_0'
         try:
             old_name = self.obj_phone.GetSimNames()[sim]
-        except:
+        except Exception:
             old_name = 'SIM 1'
         new_name = 'FOO BAR'
         self.cellular_page.set_name(sim, new_name)
@@ -196,7 +196,7 @@ class DualSimCellularTestCase(CellularBaseTestCase):
 
         try:
             old_name = self.obj_phone.GetSimNames()[sim]
-        except:
+        except Exception:
             old_name = 'SIM 2'
 
         new_name = 'BAR BAZ'
