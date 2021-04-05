@@ -23,7 +23,7 @@
 
 #include <QString>
 
-namespace SystemSettings {
+namespace LomiriSystemSettings {
 
 void initTr(const char *domain, const char *localeDir);
 QString _(const char *text, const char *domain = 0);

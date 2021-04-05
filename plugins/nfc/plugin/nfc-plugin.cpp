@@ -26,11 +26,11 @@
 #include <QDBusPendingReply>
 #include <QProcessEnvironment>
 #include <QtDBus>
-#include <SystemSettings/ItemBase>
+#include <LomiriSystemSettings/ItemBase>
 
 #include "../nfcdbushelper.h"
 
-using namespace SystemSettings;
+using namespace LomiriSystemSettings;
 
 class NfcItem: public ItemBase
 {

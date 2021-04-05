@@ -25,7 +25,7 @@
 #include <QQmlComponent>
 #include <QVariantMap>
 
-namespace SystemSettings {
+namespace LomiriSystemSettings {
 
 extern const QLatin1String keyName;
 extern const QLatin1String keyIcon;

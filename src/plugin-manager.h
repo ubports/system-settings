@@ -27,7 +27,7 @@
 
 class QAbstractItemModel;
 
-namespace SystemSettings {
+namespace LomiriSystemSettings {
 
 class Plugin;
 

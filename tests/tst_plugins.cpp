@@ -29,7 +29,7 @@
 #include <QSignalSpy>
 #include <QTest>
 
-using namespace SystemSettings;
+using namespace LomiriSystemSettings;
 
 class PluginsTest: public QObject
 {

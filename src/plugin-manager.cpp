@@ -31,11 +31,11 @@
 #include <QStandardPaths>
 #include <QStringList>
 
-using namespace SystemSettings;
+using namespace LomiriSystemSettings;
 
 static const QLatin1String baseDir{MANIFEST_DIR};
 
-namespace SystemSettings {
+namespace LomiriSystemSettings {
 
 class PluginManagerPrivate
 {

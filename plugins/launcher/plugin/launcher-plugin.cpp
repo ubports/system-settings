@@ -28,7 +28,7 @@
 #include <QScopedPointer>
 #include <QUrl>
 
-using namespace SystemSettings;
+using namespace LomiriSystemSettings;
 
 class LauncherItem: public ItemBase
 {

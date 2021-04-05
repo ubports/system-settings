@@ -36,12 +36,12 @@
 #include <LomiriSystemSettings/ItemBase>
 #include <LomiriSystemSettings/PluginInterface>
 
-using namespace SystemSettings;
+using namespace LomiriSystemSettings;
 
 static const QLatin1String pluginModuleDir{PLUGIN_MODULE_DIR};
 static const QLatin1String pluginQmlDir{QML_DIR};
 
-namespace SystemSettings {
+namespace LomiriSystemSettings {
 
 class PluginPrivate
 {
@@ -119,13 +119,13 @@ bool PluginPrivate::ensureLoaded() const
         return false;
     }
 
-    m_plugin2 = qobject_cast<SystemSettings::PluginInterface2*>(
+    m_plugin2 = qobject_cast<LomiriSystemSettings::PluginInterface2*>(
                 m_loader.instance());
 
     if (m_plugin2)
         m_plugin = m_plugin2;
     else
-        m_plugin = qobject_cast<SystemSettings::PluginInterface*>(
+        m_plugin = qobject_cast<LomiriSystemSettings::PluginInterface*>(
                     m_loader.instance());
 
     if (Q_UNLIKELY(m_plugin == 0)) {

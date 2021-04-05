@@ -28,7 +28,7 @@
 
 class QFileInfo;
 
-namespace SystemSettings {
+namespace LomiriSystemSettings {
 
 class PluginPrivate;
 class Plugin: public QObject

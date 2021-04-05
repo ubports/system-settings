@@ -27,7 +27,7 @@
 #include <QtDBus>
 #include <LomiriSystemSettings/ItemBase>
 
-using namespace SystemSettings;
+using namespace LomiriSystemSettings;
 
 class CellularItem: public ItemBase
 {

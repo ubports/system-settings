@@ -27,7 +27,7 @@
 #include <glib.h>
 #include <libupower-glib/upower.h>
 
-using namespace SystemSettings;
+using namespace LomiriSystemSettings;
 
 class BatteryItem: public ItemBase
 {

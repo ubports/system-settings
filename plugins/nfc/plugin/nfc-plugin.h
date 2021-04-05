@@ -22,16 +22,16 @@
 #pragma once
 
 #include <QObject>
-#include <SystemSettings/PluginInterface>
+#include <LomiriSystemSettings/PluginInterface>
 
-class NfcPlugin: public QObject, public SystemSettings::PluginInterface2
+class NfcPlugin: public QObject, public LomiriSystemSettings::PluginInterface2
 {
     Q_OBJECT
-    Q_PLUGIN_METADATA(IID "com.ubuntu.SystemSettings.PluginInterface/2.0")
-    Q_INTERFACES(SystemSettings::PluginInterface2)
+    Q_PLUGIN_METADATA(IID "com.lomiri.SystemSettings.PluginInterface/2.0")
+    Q_INTERFACES(LomiriSystemSettings::PluginInterface2)
 
 public:
-    SystemSettings::ItemBase *createItem(const QVariantMap &staticData,
+    LomiriSystemSettings::ItemBase *createItem(const QVariantMap &staticData,
                                          QObject *parent = 0);
 };
 

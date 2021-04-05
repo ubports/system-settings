@@ -31,7 +31,7 @@ QString _(const char *text){
     return QString::fromUtf8(dgettext(0, text));
 }
 
-using namespace SystemSettings;
+using namespace LomiriSystemSettings;
 
 class BrightnessItem: public ItemBase
 {

@@ -227,7 +227,7 @@ QString QSystemImage::cancelUpdate() {
         return reply.argumentAt<0>();
     } else {
         qWarning() << reply.error().message();
-        return SystemSettings::_(
+        return LomiriSystemSettings::_(
             "Can't cancel current request (can't contact service)"
         );
     }
@@ -240,7 +240,7 @@ QString QSystemImage::pauseDownload() {
         return reply.argumentAt<0>();
     } else {
         qWarning() << reply.error().message();
-        return SystemSettings::_(
+        return LomiriSystemSettings::_(
             "Can't pause current request (can't contact service)"
         );
     }
@@ -365,19 +365,19 @@ int QSystemImage::currentBuildNumber() const
 QString QSystemImage::currentUbportsBuildNumber() const
 {
     QString val = m_detailedVersion.value("ubports").toString();
-    return val.isEmpty() ? SystemSettings::_("Unavailable") : val;
+    return val.isEmpty() ? LomiriSystemSettings::_("Unavailable") : val;
 }
 
 QString QSystemImage::currentDeviceBuildNumber() const
 {
     QString val = m_detailedVersion.value("device").toString();
-    return val.isEmpty() ? SystemSettings::_("Unavailable") : val;
+    return val.isEmpty() ? LomiriSystemSettings::_("Unavailable") : val;
 }
 
 QString QSystemImage::currentCustomBuildNumber() const
 {
     QString val = m_detailedVersion.value("custom").toString();
-    return val.isEmpty() ? SystemSettings::_("Unavailable") : val;
+    return val.isEmpty() ? LomiriSystemSettings::_("Unavailable") : val;
 }
 
 int QSystemImage::targetBuildNumber() const

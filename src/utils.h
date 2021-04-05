@@ -25,7 +25,7 @@
 #include <QStringList>
 #include <QVariantMap>
 
-namespace SystemSettings {
+namespace LomiriSystemSettings {
 
 void parsePluginOptions(const QStringList &arguments, QString &defaultPlugin,
                         QVariantMap &pluginOptions);

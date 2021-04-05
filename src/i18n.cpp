@@ -23,7 +23,7 @@
 
 #include <libintl.h>
 
-namespace SystemSettings {
+namespace LomiriSystemSettings {
 
 void initTr(const char *domain, const char *localeDir)
 {

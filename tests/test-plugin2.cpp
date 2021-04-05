@@ -22,7 +22,7 @@
 
 #include <QDebug>
 
-using namespace SystemSettings;
+using namespace LomiriSystemSettings;
 
 TestPlugin2::TestPlugin2():
     QObject()

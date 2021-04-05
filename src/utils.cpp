@@ -29,7 +29,7 @@
 
 typedef QPair<QString,QString> StringPair;
 
-namespace SystemSettings {
+namespace LomiriSystemSettings {
 
 void parsePluginOptions(const QStringList &arguments, QString &defaultPlugin,
                         QVariantMap &pluginOptions)

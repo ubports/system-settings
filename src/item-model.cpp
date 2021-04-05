@@ -26,9 +26,9 @@
 #include "debug.h"
 #include "plugin.h"
 
-using namespace SystemSettings;
+using namespace LomiriSystemSettings;
 
-namespace SystemSettings {
+namespace LomiriSystemSettings {
 
 class ItemModelPrivate
 {

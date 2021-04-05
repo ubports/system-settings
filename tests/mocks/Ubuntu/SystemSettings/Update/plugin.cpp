@@ -55,7 +55,7 @@ void BackendPlugin::initializeEngine(QQmlEngine *engine, const char *uri)
 {
     QQmlExtensionPlugin::initializeEngine(engine, uri);
     QQmlContext* context = engine->rootContext();
-    auto utils = new SystemSettings::Utilities;
+    auto utils = new LomiriSystemSettings::Utilities;
     context->setContextProperty("Utilities", utils);
     context->setContextProperty("showAllUI", true);
     context->setContextProperty("pluginOptions", QVariantMap());

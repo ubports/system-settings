@@ -24,7 +24,7 @@
 #include <QAbstractListModel>
 #include <QSortFilterProxyModel>
 
-namespace SystemSettings {
+namespace LomiriSystemSettings {
 
 class Plugin;
 

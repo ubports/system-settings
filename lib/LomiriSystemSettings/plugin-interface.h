@@ -24,7 +24,7 @@
 #include <QObject>
 #include <QVariantMap>
 
-namespace SystemSettings {
+namespace LomiriSystemSettings {
 
 class ItemBase;
 
@@ -44,9 +44,9 @@ public:
 
 } // namespace
 
-Q_DECLARE_INTERFACE(SystemSettings::PluginInterface,
-                    "com.ubuntu.SystemSettings.PluginInterface")
-Q_DECLARE_INTERFACE(SystemSettings::PluginInterface2,
-                    "com.ubuntu.SystemSettings.PluginInterface/2.0")
+Q_DECLARE_INTERFACE(LomiriSystemSettings::PluginInterface,
+                    "com.lomiri.SystemSettings.PluginInterface")
+Q_DECLARE_INTERFACE(LomiriSystemSettings::PluginInterface2,
+                    "com.lomiri.SystemSettings.PluginInterface/2.0")
 
 #endif // SYSTEM_SETTINGS_PLUGIN_INTERFACE_H

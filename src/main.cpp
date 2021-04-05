@@ -34,7 +34,7 @@
 #include <QtQml/QQmlDebuggingEnabler>
 static QQmlDebuggingEnabler debuggingEnabler(false);
 
-using namespace SystemSettings;
+using namespace LomiriSystemSettings;
 
 int main(int argc, char **argv)
 {
@@ -71,7 +71,7 @@ int main(int argc, char **argv)
     QObject::connect(view.engine(), SIGNAL(quit()), &app, SLOT(quit()),
                      Qt::QueuedConnection);
     qmlRegisterType<QAbstractItemModel>();
-    qmlRegisterType<SystemSettings::PluginManager>("SystemSettings", 1, 0, "PluginManager");
+    qmlRegisterType<LomiriSystemSettings::PluginManager>("SystemSettings", 1, 0, "PluginManager");
     view.engine()->rootContext()->setContextProperty("Utilities", &utils);
     view.setResizeMode(QQuickView::SizeRootObjectToView);
     view.engine()->addImportPath(mountPoint + PLUGIN_PRIVATE_MODULE_DIR);

@@ -24,7 +24,7 @@
 #include <QObject>
 #include <QTest>
 
-using namespace SystemSettings;
+using namespace LomiriSystemSettings;
 
 class ArgumentsTest: public QObject
 {

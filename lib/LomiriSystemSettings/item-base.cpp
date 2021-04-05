@@ -23,9 +23,9 @@
 
 #include <QStringList>
 
-using namespace SystemSettings;
+using namespace LomiriSystemSettings;
 
-namespace SystemSettings {
+namespace LomiriSystemSettings {
 
 const QLatin1String keyName("name");
 const QLatin1String keyIcon("icon");

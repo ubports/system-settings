@@ -27,7 +27,7 @@
 #include <QtDBus>
 #include <LomiriSystemSettings/ItemBase>
 
-using namespace SystemSettings;
+using namespace LomiriSystemSettings;
 
 typedef QMap<QString,QString> VersionDetail;
 Q_DECLARE_METATYPE(VersionDetail)

@@ -24,7 +24,7 @@
 #include <QStringList>
 #include <LomiriSystemSettings/ItemBase>
 
-using namespace SystemSettings;
+using namespace LomiriSystemSettings;
 
 class TestItem: public ItemBase
 {
