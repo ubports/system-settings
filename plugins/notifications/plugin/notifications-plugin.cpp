@@ -18,7 +18,7 @@
 
 #include "notifications-plugin.h"
 
-#include <SystemSettings/ItemBase>
+#include <LomiriSystemSettings/ItemBase>
 
 using namespace SystemSettings;
 

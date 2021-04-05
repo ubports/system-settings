@@ -22,7 +22,7 @@
 #define SYSTEM_SETTINGS_PHONE_PLUGIN_H
 
 #include <QObject>
-#include <SystemSettings/PluginInterface>
+#include <LomiriSystemSettings/PluginInterface>
 
 class PhonePlugin: public QObject, public SystemSettings::PluginInterface2
 {

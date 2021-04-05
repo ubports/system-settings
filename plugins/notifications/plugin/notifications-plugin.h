@@ -20,7 +20,7 @@
 #define SYSTEM_SETTINGS_NOTIFICATIONS_PLUGIN_H
 
 #include <QObject>
-#include <SystemSettings/PluginInterface>
+#include <LomiriSystemSettings/PluginInterface>
 
 class NotificationsPlugin: public QObject, public SystemSettings::PluginInterface2
 {

@@ -1,1 +1,1 @@
-add_subdirectory(SystemSettings)
+add_subdirectory(LomiriSystemSettings)

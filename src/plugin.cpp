@@ -33,8 +33,8 @@
 #include <QStringList>
 #include <QVariantMap>
 
-#include <SystemSettings/ItemBase>
-#include <SystemSettings/PluginInterface>
+#include <LomiriSystemSettings/ItemBase>
+#include <LomiriSystemSettings/PluginInterface>
 
 using namespace SystemSettings;
 

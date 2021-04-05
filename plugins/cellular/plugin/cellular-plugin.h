@@ -22,7 +22,7 @@
 #define SYSTEM_SETTINGS_CELLULAR_PLUGIN_H
 
 #include <QObject>
-#include <SystemSettings/PluginInterface>
+#include <LomiriSystemSettings/PluginInterface>
 
 class CellularPlugin: public QObject, public SystemSettings::PluginInterface2
 {

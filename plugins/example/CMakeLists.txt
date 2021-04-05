@@ -2,7 +2,7 @@ include_directories(${CMAKE_CURRENT_BINARY_DIR})
 
 set(QML_SOURCES PageComponent.qml)
 add_library(example-plugin MODULE example-plugin.cpp example-plugin.h ${QML_SOURCES})
-target_link_libraries(example-plugin Qt5::Qml Qt5::Core SystemSettings)
+target_link_libraries(example-plugin Qt5::Qml Qt5::Core LomiriSystemSettings)
 
 # This plugin is only an example so let's not install it.
 #install(FILES example.settings DESTINATION ${PLUGIN_MANIFEST_DIR})

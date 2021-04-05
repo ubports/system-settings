@@ -20,10 +20,10 @@ add_definitions(-DSYSTEM_IMAGE_DBUS_TEMPLATE="${CMAKE_SOURCE_DIR}/tests/autopilo
 add_definitions(-DI18N_DOMAIN="ubuntu-system-settings")
 
 add_library(test-plugin SHARED test-plugin.cpp test-plugin.h)
-target_link_librarieS(test-plugin SystemSettings Qt5::Core Qt5::Qml)
+target_link_librarieS(test-plugin LomiriSystemSettings Qt5::Core Qt5::Qml)
 
 add_library(test-plugin2 SHARED test-plugin2.cpp test-plugin2.h)
-target_link_librarieS(test-plugin2 SystemSettings Qt5::Core Qt5::Qml)
+target_link_librarieS(test-plugin2 LomiriSystemSettings Qt5::Core Qt5::Qml)
 
 add_executable(tst-plugins
     tst_plugins.cpp
@@ -42,7 +42,7 @@ add_executable(tst-arguments
     ../src/utils.cpp
 )
 
-target_link_libraries(tst-plugins Qt5::Core Qt5::Qml Qt5::Test SystemSettings ${GLIB_LDFLAGS})
+target_link_libraries(tst-plugins Qt5::Core Qt5::Qml Qt5::Test LomiriSystemSettings ${GLIB_LDFLAGS})
 add_test(tst-plugins tst-plugins)
 set_tests_properties(tst-plugins PROPERTIES ENVIRONMENT
     "QT_QPA_PLATFORM=minimal;XDG_DATA_DIRS=${CMAKE_CURRENT_SOURCE_DIR}"

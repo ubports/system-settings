@@ -22,7 +22,7 @@
 
 #include <QDebug>
 #include <QStringList>
-#include <SystemSettings/ItemBase>
+#include <LomiriSystemSettings/ItemBase>
 
 #include <glib.h>
 #include <libupower-glib/upower.h>

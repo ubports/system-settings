@@ -22,7 +22,7 @@
 #define SYSTEM_SETTINGS_EXAMPLE_PLUGIN_H
 
 #include <QObject>
-#include <SystemSettings/PluginInterface>
+#include <LomiriSystemSettings/PluginInterface>
 
 class ExamplePlugin: public QObject, public SystemSettings::PluginInterface
 {

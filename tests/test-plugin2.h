@@ -22,7 +22,7 @@
 #define SYSTEM_SETTINGS_TEST_PLUGIN2_H
 
 #include <QObject>
-#include <SystemSettings/PluginInterface>
+#include <LomiriSystemSettings/PluginInterface>
 
 class TestPlugin2: public QObject, public SystemSettings::PluginInterface2
 {

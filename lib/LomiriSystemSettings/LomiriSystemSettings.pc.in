@@ -7,8 +7,8 @@ plugin_module_dir=${libdir}/@PLUGIN_MODULE_DIR_BASE@
 plugin_private_module_dir=${libdir}/@PLUGIN_PRIVATE_MODULE_DIR_BASE@
 plugin_qml_dir=${prefix}/@PLUGIN_QML_DIR_BASE@
 
-Name: SystemSettings
-Description: Ubuntu Touch system settings plug-in development
+Name: LomiriSystemSettings
+Description: Lomiri system settings plug-in development
 Version: @PROJECT_VERSION@
 Requires: Qt5Core Qt5Qml
 Libs: -L${libdir} -l@SYSTEMSETTINGS_LIB@

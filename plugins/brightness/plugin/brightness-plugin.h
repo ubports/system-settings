@@ -22,7 +22,7 @@
 #define SYSTEM_SETTINGS_BRIGHTNESS_PLUGIN_H
 
 #include <QObject>
-#include <SystemSettings/PluginInterface>
+#include <LomiriSystemSettings/PluginInterface>
 
 class BrightnessPlugin: public QObject, public SystemSettings::PluginInterface2
 {

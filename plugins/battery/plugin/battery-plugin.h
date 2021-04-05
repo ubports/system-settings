@@ -22,7 +22,7 @@
 #define SYSTEM_SETTINGS_BATTERY_PLUGIN_H
 
 #include <QObject>
-#include <SystemSettings/PluginInterface>
+#include <LomiriSystemSettings/PluginInterface>
 
 class BatteryPlugin: public QObject, public SystemSettings::PluginInterface2
 {

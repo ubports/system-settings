@@ -24,7 +24,7 @@
 #include <QDebug>
 #include <QDBusInterface>
 #include <QStringList>
-#include <SystemSettings/ItemBase>
+#include <LomiriSystemSettings/ItemBase>
 
 #include <libintl.h>
 QString _(const char *text){

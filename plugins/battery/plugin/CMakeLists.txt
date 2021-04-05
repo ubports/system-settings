@@ -6,5 +6,5 @@ add_definitions(-DQT_NO_KEYWORDS)
 
 
 add_library(battery-plugin SHARED battery-plugin.h battery-plugin.cpp)
-target_link_libraries(battery-plugin Qt5::Core Qt5::Qml SystemSettings ${GLIB_LDFLAGS} ${UPOWER_GLIB_LDFLAGS})
+target_link_libraries(battery-plugin Qt5::Core Qt5::Qml LomiriSystemSettings ${GLIB_LDFLAGS} ${UPOWER_GLIB_LDFLAGS})
 install(TARGETS battery-plugin DESTINATION ${PLUGIN_MODULE_DIR})
