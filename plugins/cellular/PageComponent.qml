@@ -20,7 +20,7 @@
 
 import QtQuick 2.4
 import SystemSettings 1.0
-import Ubuntu.SystemSettings.Cellular 1.0
+import Lomiri.SystemSettings.Cellular 1.0
 import Lomiri.Components 1.3
 import MeeGo.QOfono 0.2
 import QMenuModel 0.1

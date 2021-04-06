@@ -1,2 +1,2 @@
-module Ubuntu.SystemSettings.FlightMode
+module Lomiri.SystemSettings.FlightMode
 plugin FlightModeHelper

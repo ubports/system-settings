@@ -36,7 +36,7 @@ QObject* dbusProvider(QQmlEngine* engine, QJSEngine* /* scriptEngine */)
 
 void BackendPlugin::registerTypes(const char *uri)
 {
-    Q_ASSERT(uri == QLatin1String("Ubuntu.SystemSettings.Nfc"));
+    Q_ASSERT(uri == QLatin1String("Lomiri.SystemSettings.Nfc"));
     qmlRegisterSingletonType<NfcDbusHelper>(uri, 1, 0, "DbusHelper", dbusProvider);
 }
 

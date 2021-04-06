@@ -17,7 +17,7 @@
  */
 
 import QtQuick 2.4
-import Ubuntu.SystemSettings.Update 1.0
+import Lomiri.SystemSettings.Update 1.0
 
 UpdateDelegate {
     id: update

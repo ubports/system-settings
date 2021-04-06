@@ -23,7 +23,7 @@ import QtQuick 2.4
 import Lomiri.Components 1.3
 import SystemSettings 1.0
 import SystemSettings.ListItems 1.0 as SettingsListItems
-import Ubuntu.SystemSettings.Sound 1.0
+import Lomiri.SystemSettings.Sound 1.0
 import Lomiri.Settings.Menus 0.1 as Menus
 import Lomiri.Settings.Components 0.1 as LSC
 import QMenuModel 0.1

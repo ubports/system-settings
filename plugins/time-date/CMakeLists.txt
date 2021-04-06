@@ -4,7 +4,7 @@ add_definitions(-DQT_NO_KEYWORDS)
 
 set(QML_SOURCES ChooseTimeZone.qml PageComponent.qml TimePicker.qml)
 
-add_library(UbuntuTimeDatePanel MODULE plugin.h
+add_library(LomiriTimeDatePanel MODULE plugin.h
   timedate.h
   timezonelocationmodel.h
   plugin.cpp
@@ -12,11 +12,11 @@ add_library(UbuntuTimeDatePanel MODULE plugin.h
   timezonelocationmodel.cpp
   ${QML_SOURCES}
 )
-target_link_libraries(UbuntuTimeDatePanel Qt5::Qml Qt5::Quick Qt5::DBus Qt5::Concurrent ${GLIB_LDFLAGS} ${GEONAMES_LDFLAGS})
+target_link_libraries(LomiriTimeDatePanel Qt5::Qml Qt5::Quick Qt5::DBus Qt5::Concurrent ${GLIB_LDFLAGS} ${GEONAMES_LDFLAGS})
 
 
-set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Ubuntu/SystemSettings/TimeDate)
-install(TARGETS UbuntuTimeDatePanel DESTINATION ${PLUG_DIR})
+set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Lomiri/SystemSettings/TimeDate)
+install(TARGETS LomiriTimeDatePanel DESTINATION ${PLUG_DIR})
 install(FILES qmldir DESTINATION ${PLUG_DIR})
 install(FILES ${QML_SOURCES} DESTINATION ${PLUGIN_QML_DIR}/time-date)
 

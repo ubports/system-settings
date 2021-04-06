@@ -23,7 +23,7 @@ import QtSystemInfo 5.0
 import SystemSettings 1.0
 import SystemSettings.ListItems 1.0 as SettingsListItems
 import Lomiri.Components 1.3
-import Ubuntu.SystemSettings.StorageAbout 1.0
+import Lomiri.SystemSettings.StorageAbout 1.0
 
 ItemPage {
     id: storagePage

@@ -34,7 +34,7 @@ static QObject *connectivitySingeltonProvider(QQmlEngine *engine, QJSEngine *scr
 
 void BackendPlugin::registerTypes(const char *uri)
 {
-    Q_ASSERT(uri == QLatin1String("Ubuntu.SystemSettings.SecurityPrivacy"));
+    Q_ASSERT(uri == QLatin1String("Lomiri.SystemSettings.SecurityPrivacy"));
     qmlRegisterSingletonType<Connectivity>(uri, 1, 0, "Connectivity", connectivitySingeltonProvider);
     qmlRegisterType<SecurityPrivacy>(uri, 1, 0, "UbuntuSecurityPrivacyPanel");
     qmlRegisterType<TrustStoreModel>(uri, 1, 0, "TrustStoreModel");

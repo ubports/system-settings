@@ -14,13 +14,13 @@ set(MOCK_WIFI_SRCS
     plugin.cpp
 )
 
-add_library(MockUbuntuWifiPanel SHARED ${MOCK_WIFI_SRCS})
+add_library(MockLomiriWifiPanel SHARED ${MOCK_WIFI_SRCS})
 
-target_link_libraries(MockUbuntuWifiPanel
+target_link_libraries(MockLomiriWifiPanel
     ${Qt5Core_LIBRARIES}
     ${Qt5Quick_LIBRARIES}
     ${Qt5Qml_LIBRARIES}
 )
 
-add_uss_mock(Ubuntu.SystemSettings.Wifi 1.0 Ubuntu/SystemSettings/Wifi
-             TARGETS MockUbuntuWifiPanel)
+add_uss_mock(Lomiri.SystemSettings.Wifi 1.0 Lomiri/SystemSettings/Wifi
+             TARGETS MockLomiriWifiPanel)

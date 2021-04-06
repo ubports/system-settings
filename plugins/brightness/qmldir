@@ -1,2 +1,2 @@
-module Ubuntu.SystemSettings.Brightness
-plugin UbuntuBrightnessPanel
+module Lomiri.SystemSettings.Brightness
+plugin LomiriBrightnessPanel

@@ -1,0 +1,2 @@
+module Lomiri.SystemSettings.Update
+plugin MockSystemUpdate

@@ -12,7 +12,7 @@ add_custom_target(hotspot-holder
 COMMAND echo This is just a dummy.
 SOURCES ${QML_SOURCES})
 
-set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Ubuntu/SystemSettings/Hotspot)
+set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Lomiri/SystemSettings/Hotspot)
 
 install(FILES qmldir DESTINATION ${PLUG_DIR})
 install(FILES hotspot.settings DESTINATION ${PLUGIN_MANIFEST_DIR})

@@ -1,2 +1,2 @@
-module Ubuntu.SystemSettings.LanguagePlugin
-plugin UbuntuLanguagePlugin
+module Lomiri.SystemSettings.LanguagePlugin
+plugin LomiriLanguagePlugin

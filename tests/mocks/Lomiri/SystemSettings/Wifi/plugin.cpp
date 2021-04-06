@@ -33,7 +33,7 @@ MAKE_SINGLETON_FACTORY(MockDbusHelper)
 
 void BackendPlugin::registerTypes(const char *uri)
 {
-    Q_ASSERT(uri == QLatin1String("Ubuntu.SystemSettings.Wifi"));
+    Q_ASSERT(uri == QLatin1String("Lomiri.SystemSettings.Wifi"));
     qmlRegisterSingletonType<MockDbusHelper>(uri, 1, 0, "DbusHelper", MockDbusHelper_singleton_factory);
     qmlRegisterType<MockCertificateListModel>(uri, 1, 0, "CertificateListModel");
     qmlRegisterType<MockPrivatekeyListModel>(uri, 1, 0, "PrivatekeyListModel");

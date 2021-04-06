@@ -53,15 +53,15 @@ target_link_libraries(UpdatePlugin
     lss-systemimage
 )
 
-add_library(UbuntuUpdatePanel MODULE
+add_library(LomiriUpdatePanel MODULE
     plugin.cpp
     ${QML_SOURCES}
 )
-target_link_libraries(UbuntuUpdatePanel Qt5::Qml Qt5::Quick Qt5::DBus UpdatePlugin)
+target_link_libraries(LomiriUpdatePanel Qt5::Qml Qt5::Quick Qt5::DBus UpdatePlugin)
 
-set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Ubuntu/SystemSettings/Update)
+set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Lomiri/SystemSettings/Update)
 install(TARGETS UpdatePlugin DESTINATION ${PLUGIN_MODULE_DIR})
-install(TARGETS UbuntuUpdatePanel DESTINATION ${PLUG_DIR})
+install(TARGETS LomiriUpdatePanel DESTINATION ${PLUG_DIR})
 install(FILES qmldir.in DESTINATION ${PLUG_DIR} RENAME qmldir)
 install(FILES ${QML_SOURCES} DESTINATION ${PLUGIN_QML_DIR}/system-update)
 

@@ -24,7 +24,7 @@ import SystemSettings.ListItems 1.0 as SettingsListItems
 import Lomiri.Components 1.3
 import Lomiri.Components.ListItems 1.3 as ListItems
 import Lomiri.Components.Popups 1.3
-import Ubuntu.SystemSettings.TimeDate 1.1
+import Lomiri.SystemSettings.TimeDate 1.1
 
 ItemPage {
     id: root

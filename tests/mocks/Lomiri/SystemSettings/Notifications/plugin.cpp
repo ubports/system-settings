@@ -31,7 +31,7 @@ MAKE_SINGLETON_FACTORY(MockClickApplicationsModel)
 
 void BackendPlugin::registerTypes(const char *uri)
 {
-    Q_ASSERT(uri == QLatin1String("Ubuntu.SystemSettings.Notifications"));
+    Q_ASSERT(uri == QLatin1String("Lomiri.SystemSettings.Notifications"));
     qmlRegisterSingletonType<MockClickApplicationsModel>(uri, 1, 0, "ClickApplicationsModel", MockClickApplicationsModel_singleton_factory);
     qmlRegisterType<MockClickApplicationsNotifyModel>(uri, 1, 0, "ClickApplicationsNotifyModel");
 }

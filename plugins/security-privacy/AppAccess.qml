@@ -22,7 +22,7 @@ import SystemSettings 1.0
 import SystemSettings.ListItems 1.0 as SettingsListItems
 import Lomiri.Components 1.3
 import Lomiri.Components.ListItems 1.3 as ListItems
-import Ubuntu.SystemSettings.SecurityPrivacy 1.0
+import Lomiri.SystemSettings.SecurityPrivacy 1.0
 
 ItemPage {
     id: root

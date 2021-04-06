@@ -20,7 +20,7 @@ import SystemSettings 1.0
 import Lomiri.Components 1.3
 import Lomiri.Components.ListItems 1.3 as ListItems
 import Lomiri.Components.Popups 1.3
-import Ubuntu.SystemSettings.Wifi 1.0
+import Lomiri.SystemSettings.Wifi 1.0
 
 Component {
 

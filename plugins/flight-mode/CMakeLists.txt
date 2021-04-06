@@ -13,7 +13,7 @@ add_library(FlightModeHelper MODULE
   ${QML_SOURCES}
 )
 target_link_libraries(FlightModeHelper Qt5::Qml Qt5::Quick Qt5::DBus)
-set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Ubuntu/SystemSettings/FlightMode)
+set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Lomiri/SystemSettings/FlightMode)
 
 install(FILES ${QML_SOURCES} DESTINATION ${PLUGIN_QML_DIR}/flight-mode)
 

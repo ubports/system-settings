@@ -23,7 +23,7 @@ import SystemSettings.ListItems 1.0 as SettingsListItems
 import Lomiri.Components 1.3
 import Lomiri.Settings.Components 0.1 as LSC
 import Lomiri.Settings.Menus 0.1 as Menus
-import Ubuntu.SystemSettings.Launcher 1.0
+import Lomiri.SystemSettings.Launcher 1.0
 
 ItemPage {
     id: root

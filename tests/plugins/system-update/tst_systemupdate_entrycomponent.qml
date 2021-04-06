@@ -21,7 +21,7 @@ import QtTest 1.0
 import Lomiri.Components 1.3
 import Ubuntu.Connectivity 1.0
 import Ubuntu.DownloadManager 1.2
-import Ubuntu.SystemSettings.Update 1.0
+import Lomiri.SystemSettings.Update 1.0
 import Ubuntu.Test 0.1
 
 import Source 1.0

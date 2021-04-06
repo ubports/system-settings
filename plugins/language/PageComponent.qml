@@ -27,7 +27,7 @@ import Lomiri.Components.Popups 1.3
 import SystemSettings.ListItems 1.0 as SettingsListItems
 import Lomiri.Components.ListItems 1.3 as ListItem
 import Lomiri.Settings.Menus 0.1 as Menus
-import Ubuntu.SystemSettings.LanguagePlugin 1.0
+import Lomiri.SystemSettings.LanguagePlugin 1.0
 import Lomiri.Settings.Components 0.1 as LSC
 
 ItemPage {

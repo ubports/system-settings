@@ -1,2 +1,2 @@
-module Ubuntu.SystemSettings.TimeDate
-plugin UbuntuTimeDatePanel
+module Lomiri.SystemSettings.TimeDate
+plugin LomiriTimeDatePanel

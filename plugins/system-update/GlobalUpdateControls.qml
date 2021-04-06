@@ -20,7 +20,7 @@ import QtQuick 2.4
 import QtQuick.Layouts 1.1
 import Lomiri.Components 1.3
 import Lomiri.Components.ListItems 1.3 as ListItems
-import Ubuntu.SystemSettings.Update 1.0
+import Lomiri.SystemSettings.Update 1.0
 
 Item {
     id: globalUpdateControls

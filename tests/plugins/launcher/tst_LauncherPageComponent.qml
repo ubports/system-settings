@@ -21,7 +21,7 @@ import QtTest 1.0
 import Ubuntu.Test 0.1
 
 import Source 1.0
-import Ubuntu.SystemSettings.Launcher 1.0
+import Lomiri.SystemSettings.Launcher 1.0
 
 Item {
     id: testRoot

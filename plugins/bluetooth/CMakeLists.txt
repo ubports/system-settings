@@ -11,7 +11,7 @@ DevicePage.qml
 PageComponent.qml
 )
 
-add_library(UbuntuBluetoothPanel MODULE
+add_library(LomiriBluetoothPanel MODULE
   bluez_adapter1.cpp
   bluez_agentmanager1.cpp
   bluez_device1.cpp
@@ -38,10 +38,10 @@ add_library(UbuntuBluetoothPanel MODULE
   ${QML_SOURCES}
 )
 
-target_link_libraries(UbuntuBluetoothPanel Qt5::Qml Qt5::Quick Qt5::DBus)
+target_link_libraries(LomiriBluetoothPanel Qt5::Qml Qt5::Quick Qt5::DBus)
 
-set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Ubuntu/SystemSettings/Bluetooth)
-install(TARGETS UbuntuBluetoothPanel DESTINATION ${PLUG_DIR})
+set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Lomiri/SystemSettings/Bluetooth)
+install(TARGETS LomiriBluetoothPanel DESTINATION ${PLUG_DIR})
 install(FILES qmldir DESTINATION ${PLUG_DIR})
 install(FILES ${QML_SOURCES} DESTINATION ${PLUGIN_QML_DIR}/bluetooth)
 

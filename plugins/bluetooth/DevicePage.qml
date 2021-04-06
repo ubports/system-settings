@@ -24,7 +24,7 @@ import SystemSettings 1.0
 import SystemSettings.ListItems 1.0 as SettingsListItems
 import Lomiri.Components 1.3
 import Lomiri.Components.Popups 1.3
-import Ubuntu.SystemSettings.Bluetooth 1.0
+import Lomiri.SystemSettings.Bluetooth 1.0
 
 Page {
     id: connectedDevicePage

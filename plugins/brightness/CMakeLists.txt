@@ -7,7 +7,7 @@ set(QML_SOURCES
     WifiDisplaysAlert.qml
 )
 
-add_library(UbuntuBrightnessPanel MODULE
+add_library(LomiriBrightnessPanel MODULE
                 aethercast/aethercast_helper.h
                 aethercast/aethercast_device.h
                 aethercast/aethercast_manager.h
@@ -28,10 +28,10 @@ add_library(UbuntuBrightnessPanel MODULE
                 plugin.cpp
                 brightness.cpp
                 ${QML_SOURCES})
-target_link_libraries(UbuntuBrightnessPanel Qt5::Quick Qt5::Qml Qt5::DBus LomiriSystemSettings ${ANDR_PROP_LDFLAGS})
+target_link_libraries(LomiriBrightnessPanel Qt5::Quick Qt5::Qml Qt5::DBus LomiriSystemSettings ${ANDR_PROP_LDFLAGS})
 
-set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Ubuntu/SystemSettings/Brightness)
-install(TARGETS UbuntuBrightnessPanel DESTINATION ${PLUG_DIR})
+set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Lomiri/SystemSettings/Brightness)
+install(TARGETS LomiriBrightnessPanel DESTINATION ${PLUG_DIR})
 install(FILES qmldir DESTINATION ${PLUG_DIR})
 install(FILES brightness.settings DESTINATION ${PLUGIN_MANIFEST_DIR})
 install(FILES settings-brightness.svg DESTINATION ${PLUGIN_MANIFEST_DIR}/icons)

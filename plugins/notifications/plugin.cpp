@@ -37,7 +37,7 @@ MAKE_SINGLETON_FACTORY(ClickApplicationsModel)
 
 void BackendPlugin::registerTypes(const char *uri)
 {
-    Q_ASSERT(uri == QLatin1String("Ubuntu.SystemSettings.Notifications"));
+    Q_ASSERT(uri == QLatin1String("Lomiri.SystemSettings.Notifications"));
 
     qmlRegisterSingletonType<GeneralNotificationSettings>(uri, 1, 0, "GeneralNotificationSettings", GeneralNotificationSettings_singleton_factory);
     qmlRegisterSingletonType<ClickApplicationsModel>(uri, 1, 0, "ClickApplicationsModel", ClickApplicationsModel_singleton_factory);

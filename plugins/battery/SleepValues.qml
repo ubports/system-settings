@@ -26,7 +26,7 @@ import QtQuick 2.7
 import Lomiri.Components 1.3
 import Lomiri.Components.ListItems 1.3 as ListItem
 import SystemSettings 1.0
-import Ubuntu.SystemSettings.Battery 1.0
+import Lomiri.SystemSettings.Battery 1.0
 
 ItemPage {
     id: root

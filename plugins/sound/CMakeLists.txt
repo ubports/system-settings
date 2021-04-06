@@ -3,12 +3,12 @@ set(QML_SOURCES
     SoundsList.qml
 )
 
-add_library(UbuntuSoundPanel MODULE plugin.h sound.h plugin.cpp sound.cpp
+add_library(LomiriSoundPanel MODULE plugin.h sound.h plugin.cpp sound.cpp
 ${QML_SOURCES})
-target_link_libraries(UbuntuSoundPanel lss-accountsservice Qt5::Qml Qt5::Quick Qt5::DBus)
+target_link_libraries(LomiriSoundPanel lss-accountsservice Qt5::Qml Qt5::Quick Qt5::DBus)
 
-set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Ubuntu/SystemSettings/Sound)
-install(TARGETS UbuntuSoundPanel DESTINATION ${PLUG_DIR})
+set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Lomiri/SystemSettings/Sound)
+install(TARGETS LomiriSoundPanel DESTINATION ${PLUG_DIR})
 install(FILES qmldir DESTINATION ${PLUG_DIR})
 install(FILES ${QML_SOURCES} DESTINATION ${PLUGIN_QML_DIR}/sound)
 

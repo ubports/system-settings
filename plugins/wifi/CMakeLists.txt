@@ -20,7 +20,7 @@ StandardMenuItem.qml
 SwitchMenuItem.qml
 )
 
-add_library(UbuntuWifiPanel MODULE
+add_library(LomiriWifiPanel MODULE
   certhandler.cpp
   plugin.cpp
   previousnetworkmodel.cpp
@@ -36,10 +36,10 @@ add_library(UbuntuWifiPanel MODULE
   wifidbushelper.h
   ${QML_SOURCES}
 )
-target_link_libraries(UbuntuWifiPanel Qt5::Qml Qt5::Quick Qt5::DBus)
+target_link_libraries(LomiriWifiPanel Qt5::Qml Qt5::Quick Qt5::DBus)
 
-set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Ubuntu/SystemSettings/Wifi)
-install(TARGETS UbuntuWifiPanel DESTINATION ${PLUG_DIR})
+set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Lomiri/SystemSettings/Wifi)
+install(TARGETS LomiriWifiPanel DESTINATION ${PLUG_DIR})
 install(FILES qmldir.in DESTINATION ${PLUG_DIR} RENAME qmldir)
 install(FILES wifi.settings DESTINATION ${PLUGIN_MANIFEST_DIR})
 install(FILES settings-wifi.svg DESTINATION ${PLUGIN_MANIFEST_DIR}/icons)

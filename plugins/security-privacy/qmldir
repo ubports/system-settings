@@ -1,2 +1,2 @@
-module Ubuntu.SystemSettings.SecurityPrivacy
-plugin UbuntuSecurityPrivacyPanel
+module Lomiri.SystemSettings.SecurityPrivacy
+plugin LomiriSecurityPrivacyPanel

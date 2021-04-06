@@ -1,2 +1,2 @@
-module Ubuntu.SystemSettings.Wifi
-plugin UbuntuWifiPanel
+module Lomiri.SystemSettings.Wifi
+plugin LomiriWifiPanel

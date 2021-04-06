@@ -13,9 +13,9 @@ set(MOCK_NOTIFICATIONS_SRCS
     plugin.cpp
 )
 
-add_library(MockUbuntuNotificationsPanel MODULE ${MOCK_NOTIFICATIONS_SRCS})
+add_library(MockLomiriNotificationsPanel MODULE ${MOCK_NOTIFICATIONS_SRCS})
 
-target_link_libraries(MockUbuntuNotificationsPanel ${GIO_LDFLAGS} ${QTGSETTINGS_LDFLAGS} Qt5::Qml Qt5::Quick Qt5::Core)
+target_link_libraries(MockLomiriNotificationsPanel ${GIO_LDFLAGS} ${QTGSETTINGS_LDFLAGS} Qt5::Qml Qt5::Quick Qt5::Core)
 
-add_uss_mock(Ubuntu.SystemSettings.Notifications 1.0 Ubuntu/SystemSettings/Notifications
-             TARGETS MockUbuntuNotificationsPanel)
+add_uss_mock(Lomiri.SystemSettings.Notifications 1.0 Lomiri/SystemSettings/Notifications
+             TARGETS MockLomiriNotificationsPanel)

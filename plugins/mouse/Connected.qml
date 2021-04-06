@@ -24,7 +24,7 @@ import Lomiri.Components 1.3
 import Lomiri.Components.ListItems 1.3 as ListItem
 import Lomiri.Settings.Menus 0.1 as Menus
 import Lomiri.Settings.Components 0.1 as LSC
-import Ubuntu.SystemSettings.Mouse 1.0
+import Lomiri.SystemSettings.Mouse 1.0
 
 Column {
     anchors {

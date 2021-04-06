@@ -9,14 +9,14 @@ set(QML_SOURCES
     ClickAppsVibrationsNotify.qml
     )
 
-set(ubuntu_notifications_panel_HDRS
+set(lomiri_notifications_panel_HDRS
     plugin.h
     general_notification_settings.h
     click_applications_model.h
     click_applications_notify_model.h
     )
 
-set(ubuntu_notifications_panel_SRCS
+set(lomiri_notifications_panel_SRCS
     plugin.cpp
     general_notification_settings.cpp
     click_applications_model.cpp
@@ -24,16 +24,16 @@ set(ubuntu_notifications_panel_SRCS
     )
 
 configure_file(qmldir.in qmldir COPYONLY)
-add_library(UbuntuNotificationsPanel MODULE ${ubuntu_notifications_panel_HDRS} ${ubuntu_notifications_panel_SRCS} ${QML_SOURCES})
+add_library(LomiriNotificationsPanel MODULE ${lomiri_notifications_panel_HDRS} ${lomiri_notifications_panel_SRCS} ${QML_SOURCES})
 
 add_definitions(-DQT_NO_KEYWORDS)
 include_directories(${GIO_INCLUDE_DIRS})
 include_directories(${QTGSETTINGS_INCLUDE_DIRS})
 
-target_link_libraries(UbuntuNotificationsPanel ${GIO_LDFLAGS} ${QTGSETTINGS_LDFLAGS} Qt5::Qml Qt5::Quick)
+target_link_libraries(LomiriNotificationsPanel ${GIO_LDFLAGS} ${QTGSETTINGS_LDFLAGS} Qt5::Qml Qt5::Quick)
 
-set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Ubuntu/SystemSettings/Notifications)
-install(TARGETS UbuntuNotificationsPanel DESTINATION ${PLUG_DIR})
+set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Lomiri/SystemSettings/Notifications)
+install(TARGETS LomiriNotificationsPanel DESTINATION ${PLUG_DIR})
 install(FILES ${CMAKE_CURRENT_BINARY_DIR}/qmldir DESTINATION ${PLUG_DIR})
 install(FILES ${QML_SOURCES} DESTINATION ${PLUGIN_QML_DIR}/notifications)
 

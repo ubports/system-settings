@@ -21,7 +21,7 @@ add_custom_target(printing-holder
 COMMAND echo This is just a dummy.
 SOURCES ${QML_SOURCES})
 
-set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Ubuntu/SystemSettings/Printing)
+set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Lomiri/SystemSettings/Printing)
 
 install(FILES qmldir.in DESTINATION ${PLUG_DIR} RENAME qmldir)
 install(FILES printing.settings DESTINATION ${PLUGIN_MANIFEST_DIR})

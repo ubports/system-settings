@@ -23,7 +23,7 @@ import SystemSettings 1.0
 import Lomiri.Components 1.3
 import SystemSettings.ListItems 1.0 as SettingsListItems
 import Ubuntu.Connectivity 1.0
-import Ubuntu.SystemSettings.Update 1.0
+import Lomiri.SystemSettings.Update 1.0
 
 
 ItemPage {

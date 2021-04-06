@@ -32,7 +32,7 @@ MAKE_SINGLETON_FACTORY(LauncherPanelPluginImpl)
 
 void BackendPlugin::registerTypes(const char *uri)
 {
-    Q_ASSERT(uri == QLatin1String("Ubuntu.SystemSettings.Launcher"));
+    Q_ASSERT(uri == QLatin1String("Lomiri.SystemSettings.Launcher"));
     qmlRegisterSingletonType<LauncherPanelPluginImpl>(
         uri, 1, 0, "LauncherPanelPlugin", LauncherPanelPluginImpl_singleton_factory
     );

@@ -1,2 +1,2 @@
-module Ubuntu.SystemSettings.Update
-plugin UbuntuUpdatePanel
+module Lomiri.SystemSettings.Update
+plugin LomiriUpdatePanel

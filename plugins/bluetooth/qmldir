@@ -1,2 +1,2 @@
-module Ubuntu.SystemSettings.Bluetooth
-plugin UbuntuBluetoothPanel
+module Lomiri.SystemSettings.Bluetooth
+plugin LomiriBluetoothPanel

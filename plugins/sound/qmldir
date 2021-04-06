@@ -1,2 +1,2 @@
-module Ubuntu.SystemSettings.Sound
-plugin UbuntuSoundPanel
+module Lomiri.SystemSettings.Sound
+plugin LomiriSoundPanel

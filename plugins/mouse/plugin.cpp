@@ -23,7 +23,7 @@
 
 void BackendPlugin::registerTypes(const char *uri)
 {
-    Q_ASSERT(uri == QLatin1String("Ubuntu.SystemSettings.Mouse"));
+    Q_ASSERT(uri == QLatin1String("Lomiri.SystemSettings.Mouse"));
     qmlRegisterType<Mouse>(uri, 1, 0, "UbuntuMousePanel");
 }
 

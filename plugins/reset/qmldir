@@ -1,2 +1,2 @@
-module Ubuntu.SystemSettings.Reset
-plugin UbuntuResetPanel
+module Lomiri.SystemSettings.Reset
+plugin LomiriResetPanel

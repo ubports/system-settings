@@ -19,7 +19,7 @@ import SystemSettings 1.0
 import Lomiri.Components 1.3
 import Lomiri.Components.ListItems 1.3 as ListItem
 import Lomiri.Components.Popups 1.3
-import Ubuntu.SystemSettings.Brightness 1.0
+import Lomiri.SystemSettings.Brightness 1.0
 
 ItemPage {
     id: wifiDisplays

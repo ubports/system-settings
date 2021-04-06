@@ -43,7 +43,7 @@ static QObject *umSingletonProvider(QQmlEngine *engine, QJSEngine *scriptEngine)
 
 void BackendPlugin::registerTypes(const char *uri)
 {
-    Q_ASSERT(uri == QLatin1String("Ubuntu.SystemSettings.Update"));
+    Q_ASSERT(uri == QLatin1String("Lomiri.SystemSettings.Update"));
     qmlRegisterSingletonType<MockUpdateManager>(uri, 1, 0, "UpdateManager", umSingletonProvider);
     qmlRegisterUncreatableType<Update>(uri, 1, 0, "Update", "Used for enums only.");
     qmlRegisterSingletonType<MockSystemImage>(uri, 1, 0, "SystemImage", siSingletonProvider);

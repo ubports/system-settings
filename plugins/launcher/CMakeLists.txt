@@ -9,11 +9,11 @@ set(PANEL_SOURCES
     ${QML_SOURCES}
 )
 
-add_library(UbuntuLauncherPanel MODULE ${PANEL_SOURCES} ${QML_SOURCES})
-target_link_libraries(UbuntuLauncherPanel Qt5::Qml Qt5::Widgets)
+add_library(LomiriLauncherPanel MODULE ${PANEL_SOURCES} ${QML_SOURCES})
+target_link_libraries(LomiriLauncherPanel Qt5::Qml Qt5::Widgets)
 
-set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Ubuntu/SystemSettings/Launcher)
-install(TARGETS UbuntuLauncherPanel DESTINATION ${PLUG_DIR})
+set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Lomiri/SystemSettings/Launcher)
+install(TARGETS LomiriLauncherPanel DESTINATION ${PLUG_DIR})
 install(FILES qmldir.in DESTINATION ${PLUG_DIR} RENAME qmldir)
 
 install(FILES launcher.settings DESTINATION ${PLUGIN_MANIFEST_DIR})

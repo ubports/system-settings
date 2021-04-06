@@ -22,7 +22,7 @@ import GSettings 1.0
 import SystemSettings 1.0
 import SystemSettings.ListItems 1.0 as SettingsListItems
 import Lomiri.Components 1.3
-import Ubuntu.SystemSettings.Cellular 1.0
+import Lomiri.SystemSettings.Cellular 1.0
 import Lomiri.Components.ListItems 1.3 as ListItems
 
 Column {

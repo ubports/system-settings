@@ -18,7 +18,7 @@ set(QML_SOURCES
 )
 
 
-add_library(UbuntuCellularPanel MODULE
+add_library(LomiriCellularPanel MODULE
   plugin.cpp
   plugin.h
   cellular.cpp
@@ -30,10 +30,10 @@ add_library(UbuntuCellularPanel MODULE
   nm_settings_connection_proxy.h
   ${QML_SOURCES}
 )
-target_link_libraries(UbuntuCellularPanel lss-accountsservice Qt5::Qml Qt5::Quick Qt5::DBus)
+target_link_libraries(LomiriCellularPanel lss-accountsservice Qt5::Qml Qt5::Quick Qt5::DBus)
 
-set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Ubuntu/SystemSettings/Cellular)
-install(TARGETS UbuntuCellularPanel DESTINATION ${PLUG_DIR})
+set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Lomiri/SystemSettings/Cellular)
+install(TARGETS LomiriCellularPanel DESTINATION ${PLUG_DIR})
 install(FILES qmldir DESTINATION ${PLUG_DIR})
 install(FILES ${QML_SOURCES} DESTINATION ${PLUGIN_QML_DIR}/cellular)
 install(FILES settings-cellular.svg DESTINATION ${PLUGIN_MANIFEST_DIR}/icons)

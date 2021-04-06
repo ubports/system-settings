@@ -1,2 +1,2 @@
-module Ubuntu.SystemSettings.Background
-plugin UbuntuBackgroundPanel
+module Lomiri.SystemSettings.Background
+plugin LomiriBackgroundPanel

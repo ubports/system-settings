@@ -20,7 +20,7 @@ set(QML_SOURCES
     fakepkgslist.xml
 )
 
-add_library(UbuntuStorageAboutPanel MODULE
+add_library(LomiriStorageAboutPanel MODULE
     plugin.cpp
     storageabout.cpp
     click.cpp
@@ -30,12 +30,12 @@ add_library(UbuntuStorageAboutPanel MODULE
     ${QML_SOURCES} # So they show up in Qt designer.
 )
 
-target_link_libraries(UbuntuStorageAboutPanel Qt5::Qml Qt5::Quick Qt5::DBus
+target_link_libraries(LomiriStorageAboutPanel Qt5::Qml Qt5::Quick Qt5::DBus
 ${ANDR_PROP_LDFLAGS} ${GLIB_LDFLAGS} ${GIO_LDFLAGS} ${CLICK_LDFLAGS} lss-systemimage)
 
 
-set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Ubuntu/SystemSettings/StorageAbout)
-install(TARGETS UbuntuStorageAboutPanel DESTINATION ${PLUG_DIR})
+set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Lomiri/SystemSettings/StorageAbout)
+install(TARGETS LomiriStorageAboutPanel DESTINATION ${PLUG_DIR})
 install(FILES qmldir DESTINATION ${PLUG_DIR})
 install(FILES ${QML_SOURCES} DESTINATION ${PLUGIN_QML_DIR}/about)
 install(FILES settings-about.svg DESTINATION ${PLUGIN_MANIFEST_DIR}/icons)

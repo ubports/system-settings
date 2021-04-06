@@ -18,7 +18,7 @@
 
 import QtQuick 2.4
 import Lomiri.Components 1.3
-import Ubuntu.SystemSettings.Notifications 1.0
+import Lomiri.SystemSettings.Notifications 1.0
 import SystemSettings 1.0
 
 ItemPage {

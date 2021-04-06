@@ -24,7 +24,7 @@ import SystemSettings 1.0
 import Ubuntu.Content 1.3
 import Lomiri.Components 1.3
 import Lomiri.Components.Popups 1.3
-import Ubuntu.SystemSettings.Background 1.0
+import Lomiri.SystemSettings.Background 1.0
 import "utilities.js" as Utilities
 
 ItemPage {

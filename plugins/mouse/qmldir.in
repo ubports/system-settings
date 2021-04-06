@@ -1,2 +1,2 @@
-module Ubuntu.SystemSettings.Mouse
-plugin UbuntuMousePanel
+module Lomiri.SystemSettings.Mouse
+plugin LomiriMousePanel

@@ -1,2 +1,2 @@
-module Ubuntu.SystemSettings.Notifications
-plugin UbuntuNotificationsPanel
+module Lomiri.SystemSettings.Notifications
+plugin LomiriNotificationsPanel

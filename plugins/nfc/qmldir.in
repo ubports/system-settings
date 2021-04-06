@@ -1,2 +1,2 @@
-module Ubuntu.SystemSettings.Nfc
-plugin UbuntuNfcPanel
+module Lomiri.SystemSettings.Nfc
+plugin LomiriNfcPanel
