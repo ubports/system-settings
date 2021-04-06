@@ -838,7 +838,7 @@ class BackgroundBaseTestCase(
 
         # patch env variable
         self.useFixture(EnvironmentVariable(
-            'SYSTEM_SETTINGS_UBUNTU_ART_DIR', art_dir))
+            'SYSTEM_SETTINGS_SYSTEM_ART_DIR', art_dir))
 
         super(BackgroundBaseTestCase, self).setUp('background')
         self.assertThat(self.main_view.background_page.active,

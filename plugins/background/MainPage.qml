@@ -75,14 +75,14 @@ ItemPage {
             }
 
             WallpaperGrid {
-                id: uArtGrid
-                objectName: "UbuntuArtGrid"
+                id: systemArtGrid
+                objectName: "SystemArtGrid"
                 anchors.left: parent.left
                 anchors.right: parent.right
                 columns: 3
-                bgmodel: backgroundPanel.ubuntuArt
+                bgmodel: backgroundPanel.systemArt
                 backgroundPanel: backgroundPanel
-                title: i18n.tr("Ubuntu Art")
+                title: i18n.tr("System Art")
                 current: welcomeBackground
                 onSelected: preview({ uri: uri })
             }

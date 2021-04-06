@@ -41,9 +41,9 @@ class Background : public QObject
                 READ customBackgrounds
                 NOTIFY customBackgroundsChanged )
 
-    Q_PROPERTY( QStringList ubuntuArt
-                READ ubuntuArt
-                NOTIFY ubuntuArtChanged )
+    Q_PROPERTY( QStringList systemArt
+                READ systemArt
+                NOTIFY systemArtChanged )
 
     Q_PROPERTY( QString defaultBackgroundFile
                 READ defaultBackgroundFile
@@ -58,7 +58,7 @@ public:
     Q_INVOKABLE bool fileExists(const QString &file);
     Q_INVOKABLE void rmFile(const QString &file);
     QStringList customBackgrounds();
-    QStringList ubuntuArt();
+    QStringList systemArt();
     QString defaultBackgroundFile() const;
 
 public Q_SLOTS:
@@ -67,14 +67,14 @@ public Q_SLOTS:
 Q_SIGNALS:
     void backgroundFileChanged();
     void customBackgroundsChanged();
-    void ubuntuArtChanged();
+    void systemArtChanged();
 
 private:
     AccountsService m_accountsService;
-    QStringList m_ubuntuArt;
+    QStringList m_systemArt;
     QStringList m_customBackgrounds;
     void updateCustomBackgrounds();
-    void updateUbuntuArt();
+    void updateSystemArt();
     QString m_backgroundFile;
     QString getBackgroundFile();
     QDir getCustomBackgroundFolder();

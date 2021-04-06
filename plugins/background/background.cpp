@@ -36,7 +36,7 @@ Background::Background(QObject *parent) :
                      SIGNAL (changed ()),
                      this,
                      SLOT (slotChanged()));
-    updateUbuntuArt();
+    updateSystemArt();
     updateCustomBackgrounds();
 }
 
@@ -168,7 +168,7 @@ QUrl Background::prepareBackgroundFile(const QUrl &url, bool shareWithGreeter)
                                      newPath.path().toUtf8().data()) == 0 ||
                                QFile::copy(url.path(), newPath.path()))))
             {
-                updateUbuntuArt();
+                updateSystemArt();
                 updateCustomBackgrounds();
                 prepared = newPath;
             }
@@ -198,14 +198,14 @@ QDir Background::getContentHubFolder()
     return QStandardPaths::writableLocation(QStandardPaths::DataLocation) + "/Pictures";
 }
 
-QStringList Background::ubuntuArt()
+QStringList Background::systemArt()
 {
-    return m_ubuntuArt;
+    return m_systemArt;
 }
 
-void Background::updateUbuntuArt()
+void Background::updateSystemArt()
 {
-    QString envDir(qgetenv("SYSTEM_SETTINGS_UBUNTU_ART_DIR"));
+    QString envDir(qgetenv("SYSTEM_SETTINGS_SYSTEM_ART_DIR"));
     QDir dir;
     QDir copiedBackgroundDir;
 
@@ -217,7 +217,7 @@ void Background::updateUbuntuArt()
         copiedBackgroundDir = getCopiedSystemBackgroundFolder();
     }
 
-    m_ubuntuArt.clear();
+    m_systemArt.clear();
 
     dir.setFilter(QDir::Files | QDir::NoSymLinks);
     dir.setSorting(QDir::Name);
@@ -230,10 +230,10 @@ void Background::updateUbuntuArt()
         if (copiedBackgroundDir.exists(f.fileName()))
             absPath = copiedBackgroundDir.absoluteFilePath(f.fileName());
 
-        m_ubuntuArt.append(QUrl::fromLocalFile(absPath).toString());
+        m_systemArt.append(QUrl::fromLocalFile(absPath).toString());
     }
 
-    Q_EMIT ubuntuArtChanged();
+    Q_EMIT systemArtChanged();
 }
 
 bool Background::fileExists(const QString &file)
@@ -262,7 +262,7 @@ void Background::rmFile(const QString &file)
     if (filePath.exists())
     {
         if (filePath.remove()) {
-            updateUbuntuArt();
+            updateSystemArt();
             updateCustomBackgrounds();
         }
     }
