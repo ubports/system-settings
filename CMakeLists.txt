@@ -86,7 +86,7 @@ set(PUSH_HELPER_DIR "lib/ubuntu-push-client/legacy-helpers")
 
 SET(CMAKE_INSTALL_RPATH "${PLUGIN_MODULE_DIR}")
 
-set(DESKTOP_FILE ubuntu-system-settings.desktop)
+set(DESKTOP_FILE lomiri-system-settings.desktop)
 set(GETTEXT_PACKAGE ubuntu-system-settings)
 
 add_subdirectory(po)
@@ -111,7 +111,7 @@ add_custom_target(${DESKTOP_FILE} ALL
 install(FILES ${CMAKE_CURRENT_BINARY_DIR}/${DESKTOP_FILE}
         DESTINATION ${CMAKE_INSTALL_DATADIR}/applications)
 
-install(FILES ubuntu-system-settings.url-dispatcher DESTINATION share/url-dispatcher/urls)
+install(FILES lomiri-system-settings.url-dispatcher DESTINATION share/url-dispatcher/urls)
 install(FILES screenshot.png DESTINATION ${SETTINGS_SHARE_DIR})
 install(FILES system-settings.svg DESTINATION ${SETTINGS_SHARE_DIR})
 install(FILES system-settings-app-splash.svg DESTINATION ${SETTINGS_SHARE_DIR})

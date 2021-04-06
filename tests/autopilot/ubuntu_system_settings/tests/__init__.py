@@ -84,8 +84,8 @@ class UbuntuSystemSettingsTestCase(
 
     """Base class for Ubuntu System Settings."""
 
-    BINARY = 'system-settings'
-    DESKTOP_FILE = '/usr/share/applications/ubuntu-system-settings.desktop'
+    BINARY = 'lomiri-system-settings'
+    DESKTOP_FILE = '/usr/share/applications/lomiri-system-settings.desktop'
 
     def setUp(self, panel=None):
         super(UbuntuSystemSettingsTestCase, self).setUp()

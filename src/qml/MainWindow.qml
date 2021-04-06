@@ -27,7 +27,7 @@ MainView {
     id: main
     implicitWidth: units.gu(140)
     implicitHeight: units.gu(90)
-    applicationName: "ubuntu-system-settings"
+    applicationName: "lomiri-system-settings"
     objectName: "systemSettingsMainView"
     automaticOrientation: true
     anchorToKeyboard: true
