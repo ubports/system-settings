@@ -140,7 +140,7 @@ Column {
     }
 
 
-    UbuntuCellularPanel {
+    LomiriCellularPanel {
         id: phoneSettings
         Component.onCompleted: {
             // set default names

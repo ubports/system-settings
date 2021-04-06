@@ -45,7 +45,7 @@ ItemPage {
         root.currentDevice = null
     }
 
-    UbuntuBluetoothPanel {
+    LomiriBluetoothPanel {
         id: backend
 
         onDevicePairingDone: {

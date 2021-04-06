@@ -35,7 +35,7 @@ void BackendPlugin::registerTypes(const char *uri)
 {
     Q_ASSERT(uri == QLatin1String("Lomiri.SystemSettings.Cellular"));
     qmlRegisterSingletonType<Connectivity>(uri, 1, 0, "Connectivity", connectivitySingeltonProvider);
-    qmlRegisterType<Cellular>(uri, 1, 0, "UbuntuCellularPanel");
+    qmlRegisterType<Cellular>(uri, 1, 0, "LomiriCellularPanel");
 
 }
 

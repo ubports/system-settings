@@ -39,7 +39,7 @@ ItemPage {
     title: i18n.tr("Sound")
     flickable: scrollWidget
 
-    UbuntuSoundPanel { id: backendInfo }
+    LomiriSoundPanel { id: backendInfo }
 
     GSettings {
         id: keyboardSettings

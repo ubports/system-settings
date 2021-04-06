@@ -32,7 +32,7 @@ void BackendPlugin::registerTypes(const char *uri)
     Q_ASSERT(uri == QLatin1String("Lomiri.SystemSettings.LanguagePlugin"));
 
     qmlRegisterType<SubsetModel>(uri, 1, 0, "SubsetModel");
-    qmlRegisterType<LanguagePlugin>(uri, 1, 0, "UbuntuLanguagePlugin");
+    qmlRegisterType<LanguagePlugin>(uri, 1, 0, "LomiriLanguagePlugin");
     qmlRegisterType<OnScreenKeyboardPlugin>(uri, 1, 0, "OnScreenKeyboardPlugin");
     qmlRegisterType<HardwareKeyboardPlugin>(uri, 1, 0, "HardwareKeyboardPlugin");
 }

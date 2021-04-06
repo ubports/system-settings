@@ -11,7 +11,7 @@ ItemPage {
     title: i18n.tr("Software licenses")
     flickable: softwareList
 
-    UbuntuStorageAboutPanel {
+    LomiriStorageAboutPanel {
         id: backendInfo
     }
 

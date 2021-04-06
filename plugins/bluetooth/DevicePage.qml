@@ -30,7 +30,7 @@ Page {
     id: connectedDevicePage
 
     property Item root: null
-    property UbuntuBluetoothPanel backend: null
+    property LomiriBluetoothPanel backend: null
 
     function getStatusString(connection) {
       switch (connection) {

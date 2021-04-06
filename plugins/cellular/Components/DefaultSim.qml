@@ -33,7 +33,7 @@ Column {
         return [i18n.tr("Ask me each time"), sims[0].title, sims[1].title][index];
     }
 
-    UbuntuCellularPanel {
+    LomiriCellularPanel {
         id: phoneSettings
     }
 

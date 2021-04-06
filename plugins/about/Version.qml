@@ -35,7 +35,7 @@ ItemPage {
 
     property string version
 
-    UbuntuStorageAboutPanel {
+    LomiriStorageAboutPanel {
         id: storedInfo
     }
 

@@ -129,7 +129,7 @@ ItemPage {
                 schema.id: "com.ubuntu.touch.system-settings"
             }
 
-            UbuntuStorageAboutPanel {
+            LomiriStorageAboutPanel {
                 id: backendInfo
                 property bool ready: false
                 // All of these events come simultaneously

@@ -29,7 +29,7 @@ void BackendPlugin::registerTypes(const char *uri)
 {
     Q_ASSERT(uri == QLatin1String("Lomiri.SystemSettings.TimeDate"));
 
-    qmlRegisterType<TimeDate>(uri, 1, 1, "UbuntuTimeDatePanel");
+    qmlRegisterType<TimeDate>(uri, 1, 1, "LomiriTimeDatePanel");
 }
 
 void BackendPlugin::initializeEngine(QQmlEngine *engine, const char *uri)

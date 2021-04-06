@@ -29,7 +29,7 @@ void BackendPlugin::registerTypes(const char *uri)
 {
     Q_ASSERT(uri == QLatin1String("Lomiri.SystemSettings.Sound"));
 
-    qmlRegisterType<Sound>(uri, 1, 0, "UbuntuSoundPanel");
+    qmlRegisterType<Sound>(uri, 1, 0, "LomiriSoundPanel");
 }
 
 void BackendPlugin::initializeEngine(QQmlEngine *engine, const char *uri)

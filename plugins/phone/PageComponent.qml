@@ -71,7 +71,7 @@ ItemPage {
         }
     }
 
-    UbuntuSoundPanel { id: soundPlugin }
+    LomiriSoundPanel { id: soundPlugin }
 
     Flickable {
         id: flick

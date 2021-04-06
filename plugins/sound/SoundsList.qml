@@ -34,7 +34,7 @@ ItemPage {
         return backendInfo.listSounds([soundsDir, customDir])
     }
 
-    UbuntuSoundPanel {
+    LomiriSoundPanel {
         id: backendInfo
         onIncomingCallSoundChanged: {
             if (soundType == 0)

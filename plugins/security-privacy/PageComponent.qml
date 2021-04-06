@@ -80,11 +80,11 @@ ItemPage {
         }
     }
 
-    UbuntuSecurityPrivacyPanel {
+    LomiriSecurityPrivacyPanel {
         id: securityPrivacy
     }
 
-    UbuntuBatteryPanel {
+    LomiriBatteryPanel {
         id: batteryBackend
     }
 
@@ -142,7 +142,7 @@ ItemPage {
                 objectName: "fingerprintControl"
                 text: i18n.tr("Fingerprint ID")
                 onClicked: pageStack.addPageToNextColumn(root, fingeprintPage, {
-                    passcodeSet: securityPrivacy.securityType !== UbuntuSecurityPrivacyPanel.Swipe
+                    passcodeSet: securityPrivacy.securityType !== LomiriSecurityPrivacyPanel.Swipe
                 })
                 visible: Biometryd.available || showAllUI
             }

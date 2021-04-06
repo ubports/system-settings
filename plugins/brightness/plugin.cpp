@@ -36,7 +36,7 @@ void BackendPlugin::registerTypes(const char *uri)
     qDBusRegisterMetaType<InterfaceList>();
     qDBusRegisterMetaType<ManagedObjectList>();
 
-    qmlRegisterType<Brightness>(uri, 1, 0, "UbuntuBrightnessPanel");
+    qmlRegisterType<Brightness>(uri, 1, 0, "LomiriBrightnessPanel");
     qmlRegisterType<Device>(uri, 1, 0, "AethercastDevice");
     qmlRegisterType<Displays>(uri, 1, 0, "AethercastDisplays");
 }

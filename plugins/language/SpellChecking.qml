@@ -29,7 +29,7 @@ ItemPage {
     title: i18n.tr("Spell checking")
     flickable: scrollWidget
 
-    UbuntuLanguagePlugin {
+    LomiriLanguagePlugin {
         id: plugin
     }
 

@@ -35,7 +35,7 @@ ItemPage {
     property bool usePowerd
     property var powerSettings
 
-    UbuntuSecurityPrivacyPanel {
+    LomiriSecurityPrivacyPanel {
         id: securityPrivacy
     }
 
@@ -68,13 +68,13 @@ ItemPage {
                     if (securityPrivacy.enableFingerprintIdentification)
                         return fingerprint
                     switch (securityPrivacy.securityType) {
-                        case UbuntuSecurityPrivacyPanel.Swipe:
+                        case LomiriSecurityPrivacyPanel.Swipe:
                             return swipe
-                        case UbuntuSecurityPrivacyPanel.Passcode:
+                        case LomiriSecurityPrivacyPanel.Passcode:
                             return passcode
-                        case UbuntuSecurityPrivacyPanel.Passphrase:
+                        case LomiriSecurityPrivacyPanel.Passphrase:
                             return passphrase
-                        case UbuntuSecurityPrivacyPanel.Fingerprint:
+                        case LomiriSecurityPrivacyPanel.Fingerprint:
                             return fingerprint
                     }
                 }
@@ -85,7 +85,7 @@ ItemPage {
             SettingsListItems.SingleValueProgression {
                 objectName: "lockTimeout"
                 property bool lockOnSuspend: securityPrivacy.securityType !==
-                                                UbuntuSecurityPrivacyPanel.Swipe
+                                                LomiriSecurityPrivacyPanel.Swipe
                 text: lockOnSuspend ? i18n.tr("Lock when idle")
                                     : i18n.tr("Sleep when idle")
                 value: {
@@ -138,7 +138,7 @@ ItemPage {
                 text: i18n.tr("Launcher")
                 CheckBox {
                     id: launcherCheck
-                    enabled: securityPrivacy.securityType !== UbuntuSecurityPrivacyPanel.Swipe
+                    enabled: securityPrivacy.securityType !== LomiriSecurityPrivacyPanel.Swipe
 
                     property bool serverChecked: securityPrivacy.enableLauncherWhileLocked || !enabled
                     onServerCheckedChanged: checked = serverChecked
@@ -152,7 +152,7 @@ ItemPage {
                 text: i18n.tr("Notifications and quick settings")
                  CheckBox {
                     id: indicatorsCheck
-                    enabled: securityPrivacy.securityType !== UbuntuSecurityPrivacyPanel.Swipe
+                    enabled: securityPrivacy.securityType !== LomiriSecurityPrivacyPanel.Swipe
 
                     property bool serverChecked: securityPrivacy.enableIndicatorsWhileLocked || !enabled
                     onServerCheckedChanged: checked = serverChecked
@@ -163,7 +163,7 @@ ItemPage {
 
             ListItems.Caption {
                 visible: lockedPermissions.visible
-                text: securityPrivacy.securityType === UbuntuSecurityPrivacyPanel.Swipe ?
+                text: securityPrivacy.securityType === LomiriSecurityPrivacyPanel.Swipe ?
                       i18n.tr("Turn on lock security to restrict access when the device is locked.") :
                       i18n.tr("Other apps and functions will prompt you to unlock.")
             }

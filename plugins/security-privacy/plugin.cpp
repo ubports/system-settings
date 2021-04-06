@@ -36,7 +36,7 @@ void BackendPlugin::registerTypes(const char *uri)
 {
     Q_ASSERT(uri == QLatin1String("Lomiri.SystemSettings.SecurityPrivacy"));
     qmlRegisterSingletonType<Connectivity>(uri, 1, 0, "Connectivity", connectivitySingeltonProvider);
-    qmlRegisterType<SecurityPrivacy>(uri, 1, 0, "UbuntuSecurityPrivacyPanel");
+    qmlRegisterType<SecurityPrivacy>(uri, 1, 0, "LomiriSecurityPrivacyPanel");
     qmlRegisterType<TrustStoreModel>(uri, 1, 0, "TrustStoreModel");
 }
 

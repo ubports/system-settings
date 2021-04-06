@@ -37,7 +37,7 @@ ItemPage {
     property bool lockOnSuspend
     readonly property variant idleValues: [30, 60, 120, 180, 240, 300, 600, 0]
 
-    UbuntuBatteryPanel {
+    LomiriBatteryPanel {
         id: batteryBackend
     }
 

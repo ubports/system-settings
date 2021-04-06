@@ -35,7 +35,7 @@ void BackendPlugin::registerTypes(const char *uri)
     qDBusRegisterMetaType<ManagedObjectList>();
 
     // .. now register our real QML types
-    qmlRegisterType<Bluetooth>(uri, 1, 0, "UbuntuBluetoothPanel");
+    qmlRegisterType<Bluetooth>(uri, 1, 0, "LomiriBluetoothPanel");
     qmlRegisterType<Device>(uri, 1, 0, "Device");
     qmlRegisterType<Device>(uri, 1, 0, "Agent");
     qRegisterMetaType<Device*>("Device*");

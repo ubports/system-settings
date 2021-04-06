@@ -25,7 +25,7 @@ ItemPage {
     flickable: scrollWidget
     id: termsPage
 
-    UbuntuSecurityPrivacyPanel {
+    LomiriSecurityPrivacyPanel {
         id: securityPrivacy
     }
 

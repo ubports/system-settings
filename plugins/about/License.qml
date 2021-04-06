@@ -11,7 +11,7 @@ ItemPage {
     title: binary
     flickable: scrollWidget
 
-    UbuntuStorageAboutPanel {
+    LomiriStorageAboutPanel {
         id: backendInfo
     }
 

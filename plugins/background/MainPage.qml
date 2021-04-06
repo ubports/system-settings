@@ -54,7 +54,7 @@ ItemPage {
     }
 
     // qml bindings for background stuff
-    UbuntuBackgroundPanel {
+    LomiriBackgroundPanel {
         id: backgroundPanel
     }
 

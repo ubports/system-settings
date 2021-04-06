@@ -33,7 +33,7 @@ Column {
     }
     height: childrenRect.height
     
-    UbuntuMousePanel {
+    LomiriMousePanel {
         id: backend
     }
     

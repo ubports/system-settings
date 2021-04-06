@@ -55,19 +55,19 @@ ItemPage {
     property var dialog: null
     property int enrolledFingerprints: 0
 
-    UbuntuSecurityPrivacyPanel {
+    LomiriSecurityPrivacyPanel {
         id: securityPrivacy
     }
 
     function methodToIndex(method) {
         switch (method) {
-            case UbuntuSecurityPrivacyPanel.Swipe:
+            case LomiriSecurityPrivacyPanel.Swipe:
                 return 0
-            case UbuntuSecurityPrivacyPanel.Passcode:
+            case LomiriSecurityPrivacyPanel.Passcode:
                 return 1
-            case UbuntuSecurityPrivacyPanel.Passphrase:
+            case LomiriSecurityPrivacyPanel.Passphrase:
                 return 2
-            case UbuntuSecurityPrivacyPanel.Fingerprint:
+            case LomiriSecurityPrivacyPanel.Fingerprint:
                 return 3
         }
     }
@@ -75,13 +75,13 @@ ItemPage {
     function indexToMethod(index) {
         switch (index) {
             case 0:
-                return UbuntuSecurityPrivacyPanel.Swipe
+                return LomiriSecurityPrivacyPanel.Swipe
             case 1:
-                return UbuntuSecurityPrivacyPanel.Passcode
+                return LomiriSecurityPrivacyPanel.Passcode
             case 2:
-                return UbuntuSecurityPrivacyPanel.Passphrase
+                return LomiriSecurityPrivacyPanel.Passphrase
             case 3:
-                return UbuntuSecurityPrivacyPanel.Fingerprint
+                return LomiriSecurityPrivacyPanel.Fingerprint
         }
     }
 
@@ -133,20 +133,20 @@ ItemPage {
                 if (changeSecurityDialog.newMethod ==
                         changeSecurityDialog.oldMethod) { // Changing existing
                     switch (changeSecurityDialog.newMethod) {
-                    case UbuntuSecurityPrivacyPanel.Passcode:
+                    case LomiriSecurityPrivacyPanel.Passcode:
                         return i18n.tr("Change passcode…")
-                    case UbuntuSecurityPrivacyPanel.Passphrase:
+                    case LomiriSecurityPrivacyPanel.Passphrase:
                         return i18n.tr("Change passphrase…")
                     default: // To stop the runtime complaining
                         return ""
                     }
                 } else {
                     switch (changeSecurityDialog.newMethod) {
-                    case UbuntuSecurityPrivacyPanel.Swipe:
+                    case LomiriSecurityPrivacyPanel.Swipe:
                         return i18n.tr("Switch to swipe")
-                    case UbuntuSecurityPrivacyPanel.Passcode:
+                    case LomiriSecurityPrivacyPanel.Passcode:
                         return i18n.tr("Switch to passcode")
-                    case UbuntuSecurityPrivacyPanel.Passphrase:
+                    case LomiriSecurityPrivacyPanel.Passphrase:
                         return i18n.tr("Switch to passphrase")
                     }
                 }
@@ -155,9 +155,9 @@ ItemPage {
             Label {
                 text: {
                     switch (changeSecurityDialog.oldMethod) {
-                    case UbuntuSecurityPrivacyPanel.Passcode:
+                    case LomiriSecurityPrivacyPanel.Passcode:
                         return i18n.tr("Existing passcode")
-                    case UbuntuSecurityPrivacyPanel.Passphrase:
+                    case LomiriSecurityPrivacyPanel.Passphrase:
                         return i18n.tr("Existing passphrase")
                     // Shouldn't be reached when visible but still evaluated
                     default:
@@ -174,10 +174,10 @@ ItemPage {
                 echoMode: TextInput.Password
                 inputMethodHints: {
                     if (changeSecurityDialog.oldMethod ===
-                            UbuntuSecurityPrivacyPanel.Passphrase)
+                            LomiriSecurityPrivacyPanel.Passphrase)
                         return Qt.ImhNoAutoUppercase | Qt.ImhSensitiveData
                     else if (changeSecurityDialog.oldMethod ===
-                             UbuntuSecurityPrivacyPanel.Passcode)
+                             LomiriSecurityPrivacyPanel.Passcode)
                         return Qt.ImhNoAutoUppercase |
                                Qt.ImhSensitiveData |
                                Qt.ImhDigitsOnly
@@ -185,16 +185,16 @@ ItemPage {
                         return Qt.ImhNone
                 }
                 visible: changeSecurityDialog.oldMethod ===
-                            UbuntuSecurityPrivacyPanel.Passphrase ||
+                            LomiriSecurityPrivacyPanel.Passphrase ||
                          changeSecurityDialog.oldMethod ===
-                             UbuntuSecurityPrivacyPanel.Passcode
+                             LomiriSecurityPrivacyPanel.Passcode
                 onTextChanged: {
                     if (changeSecurityDialog.newMethod ===
-                            UbuntuSecurityPrivacyPanel.Swipe)
+                            LomiriSecurityPrivacyPanel.Swipe)
                         confirmButton.enabled = text.length > 0
                 }
                 Component.onCompleted: {
-                    if (securityPrivacy.securityType !== UbuntuSecurityPrivacyPanel.Swipe)
+                    if (securityPrivacy.securityType !== LomiriSecurityPrivacyPanel.Swipe)
                         forceActiveFocus()
                 }
             }
@@ -206,7 +206,7 @@ ItemPage {
                 property: "validator"
                 value:  passcodeValidator
                 when: changeSecurityDialog.oldMethod ===
-                    UbuntuSecurityPrivacyPanel.Passcode
+                    LomiriSecurityPrivacyPanel.Passcode
             }
 
             Binding {
@@ -214,7 +214,7 @@ ItemPage {
                 property: "maximumLength"
                 value:  4
                 when: changeSecurityDialog.oldMethod ===
-                    UbuntuSecurityPrivacyPanel.Passcode
+                    LomiriSecurityPrivacyPanel.Passcode
             }
 
             Label {
@@ -227,9 +227,9 @@ ItemPage {
             Label {
                 text: {
                     switch (changeSecurityDialog.newMethod) {
-                    case UbuntuSecurityPrivacyPanel.Passcode:
+                    case LomiriSecurityPrivacyPanel.Passcode:
                         return i18n.tr("Choose passcode")
-                    case UbuntuSecurityPrivacyPanel.Passphrase:
+                    case LomiriSecurityPrivacyPanel.Passphrase:
                         return i18n.tr("Choose passphrase")
                     // Shouldn't be reached when visible but still evaluated
                     default:
@@ -245,10 +245,10 @@ ItemPage {
                 echoMode: TextInput.Password
                 inputMethodHints: {
                     if (changeSecurityDialog.newMethod ===
-                            UbuntuSecurityPrivacyPanel.Passphrase)
+                            LomiriSecurityPrivacyPanel.Passphrase)
                         return Qt.ImhNoAutoUppercase | Qt.ImhSensitiveData
                     else if (changeSecurityDialog.newMethod ===
-                             UbuntuSecurityPrivacyPanel.Passcode)
+                             LomiriSecurityPrivacyPanel.Passcode)
                         return Qt.ImhNoAutoUppercase |
                                Qt.ImhSensitiveData |
                                Qt.ImhDigitsOnly
@@ -256,12 +256,12 @@ ItemPage {
                         return Qt.ImhNone
                 }
                 visible: changeSecurityDialog.newMethod ===
-                            UbuntuSecurityPrivacyPanel.Passcode ||
+                            LomiriSecurityPrivacyPanel.Passcode ||
                          changeSecurityDialog.newMethod ===
-                            UbuntuSecurityPrivacyPanel.Passphrase
+                            LomiriSecurityPrivacyPanel.Passphrase
                 onTextChanged: { displayMismatchWarning() }
                 Component.onCompleted: {
-                    if (securityPrivacy.securityType === UbuntuSecurityPrivacyPanel.Swipe)
+                    if (securityPrivacy.securityType === LomiriSecurityPrivacyPanel.Swipe)
                         forceActiveFocus()
                 }
             }
@@ -273,7 +273,7 @@ ItemPage {
                 property: "validator"
                 value: passcodeValidator
                 when: changeSecurityDialog.newMethod ===
-                    UbuntuSecurityPrivacyPanel.Passcode
+                    LomiriSecurityPrivacyPanel.Passcode
             }
 
             Binding {
@@ -281,15 +281,15 @@ ItemPage {
                 property: "maximumLength"
                 value:  4
                 when: changeSecurityDialog.newMethod ===
-                    UbuntuSecurityPrivacyPanel.Passcode
+                    LomiriSecurityPrivacyPanel.Passcode
             }
 
             Label {
                 text: {
                     switch (changeSecurityDialog.newMethod) {
-                    case UbuntuSecurityPrivacyPanel.Passcode:
+                    case LomiriSecurityPrivacyPanel.Passcode:
                         return i18n.tr("Confirm passcode")
-                    case UbuntuSecurityPrivacyPanel.Passphrase:
+                    case LomiriSecurityPrivacyPanel.Passphrase:
                         return i18n.tr("Confirm passphrase")
                     // Shouldn't be reached when visible but still evaluated
                     default:
@@ -304,10 +304,10 @@ ItemPage {
                 echoMode: TextInput.Password
                 inputMethodHints: {
                     if (changeSecurityDialog.newMethod ===
-                            UbuntuSecurityPrivacyPanel.Passphrase)
+                            LomiriSecurityPrivacyPanel.Passphrase)
                         return Qt.ImhNoAutoUppercase | Qt.ImhSensitiveData
                     else if (changeSecurityDialog.newMethod ===
-                             UbuntuSecurityPrivacyPanel.Passcode)
+                             LomiriSecurityPrivacyPanel.Passcode)
                         return Qt.ImhNoAutoUppercase |
                                Qt.ImhSensitiveData |
                                Qt.ImhDigitsOnly
@@ -315,9 +315,9 @@ ItemPage {
                         return Qt.ImhNone
                 }
                 visible: changeSecurityDialog.newMethod ===
-                            UbuntuSecurityPrivacyPanel.Passcode ||
+                            LomiriSecurityPrivacyPanel.Passcode ||
                          changeSecurityDialog.newMethod ===
-                            UbuntuSecurityPrivacyPanel.Passphrase
+                            LomiriSecurityPrivacyPanel.Passphrase
                 onTextChanged: { displayMismatchWarning() }
             }
 
@@ -328,7 +328,7 @@ ItemPage {
                 property: "validator"
                 value:  passcodeValidator
                 when: changeSecurityDialog.newMethod ===
-                    UbuntuSecurityPrivacyPanel.Passcode
+                    LomiriSecurityPrivacyPanel.Passcode
             }
 
             Binding {
@@ -336,7 +336,7 @@ ItemPage {
                 property: "maximumLength"
                 value:  4
                 when: changeSecurityDialog.newMethod ===
-                    UbuntuSecurityPrivacyPanel.Passcode
+                    LomiriSecurityPrivacyPanel.Passcode
             }
 
             Label {
@@ -344,10 +344,10 @@ ItemPage {
                 wrapMode: Text.Wrap
                 text: {
                     if (changeSecurityDialog.newMethod ===
-                            UbuntuSecurityPrivacyPanel.Passcode)
+                            LomiriSecurityPrivacyPanel.Passcode)
                         return i18n.tr("Those passcodes don't match. Try again.")
                     if (changeSecurityDialog.newMethod ===
-                            UbuntuSecurityPrivacyPanel.Passphrase)
+                            LomiriSecurityPrivacyPanel.Passphrase)
                         return i18n.tr("Those passphrases don't match. Try again.")
 
                     //Fallback to prevent warnings. Not displayed.
@@ -367,7 +367,7 @@ ItemPage {
                         PopupUtils.close(changeSecurityDialog);
                         var newSelectedIndex;
                         if (securityPrivacy.enableFingerprintIdentification) {
-                            newSelectedIndex = methodToIndex(UbuntuSecurityPrivacyPanel.Fingerprint);
+                            newSelectedIndex = methodToIndex(LomiriSecurityPrivacyPanel.Fingerprint);
                         } else {
                             newSelectedIndex = methodToIndex(securityPrivacy.securityType);
                         }
@@ -382,7 +382,7 @@ ItemPage {
 
                     text: {
                         if (changeSecurityDialog.newMethod ===
-                                UbuntuSecurityPrivacyPanel.Swipe)
+                                LomiriSecurityPrivacyPanel.Swipe)
                             return i18n.tr("Unset")
                         else if (changeSecurityDialog.oldMethod ===
                                 changeSecurityDialog.newMethod)
@@ -393,19 +393,19 @@ ItemPage {
                     /* see https://wiki.ubuntu.com/SecurityAndPrivacySettings#Phone for details */
                     enabled: /* Validate the old method, it's either swipe or a secret which needs
                                 to be valid, 4 digits for the passcode or > 0 for a passphrase */
-                             (changeSecurityDialog.oldMethod === UbuntuSecurityPrivacyPanel.Swipe ||
-                              ((changeSecurityDialog.oldMethod === UbuntuSecurityPrivacyPanel.Passcode &&
+                             (changeSecurityDialog.oldMethod === LomiriSecurityPrivacyPanel.Swipe ||
+                              ((changeSecurityDialog.oldMethod === LomiriSecurityPrivacyPanel.Passcode &&
                                 currentInput.text.length === 4) ||
-                               (changeSecurityDialog.oldMethod === UbuntuSecurityPrivacyPanel.Passphrase &&
+                               (changeSecurityDialog.oldMethod === LomiriSecurityPrivacyPanel.Passphrase &&
                                 currentInput.text.length > 0))) &&
                              /* Validate the new auth method, either it's a passcode and the code needs to be 4 digits */
-                             ((changeSecurityDialog.newMethod === UbuntuSecurityPrivacyPanel.Passcode &&
+                             ((changeSecurityDialog.newMethod === LomiriSecurityPrivacyPanel.Passcode &&
                               newInput.text.length === 4 && confirmInput.text.length === 4) ||
                              /* or a passphrase and then > 0 */
-                             (changeSecurityDialog.newMethod === UbuntuSecurityPrivacyPanel.Passphrase &&
+                             (changeSecurityDialog.newMethod === LomiriSecurityPrivacyPanel.Passphrase &&
                               newInput.text.length > 0 && confirmInput.text.length > 0) ||
                              /* or to be swipe */
-                             changeSecurityDialog.newMethod === UbuntuSecurityPrivacyPanel.Swipe)
+                             changeSecurityDialog.newMethod === LomiriSecurityPrivacyPanel.Swipe)
 
                     onClicked: {
                         changeSecurityDialog.enabled = false
@@ -507,9 +507,9 @@ ItemPage {
                         // has chosen FP ident and there are more than 0 enrolled
                         // FPs and there's a pass{code|phrase} set.
                         var passSet = (securityPrivacy.securityType ===
-                                       UbuntuSecurityPrivacyPanel.Passcode
+                                       LomiriSecurityPrivacyPanel.Passcode
                                        || securityPrivacy.securityType ===
-                                       UbuntuSecurityPrivacyPanel.Passphrase);
+                                       LomiriSecurityPrivacyPanel.Passphrase);
                         var haveFps = page.enrolledFingerprints > 0;
                         return index !== 3 || (haveFps && passSet);
                     }
@@ -544,7 +544,7 @@ ItemPage {
                 property: "selectedIndex"
                 value: {
                     if (securityPrivacy.enableFingerprintIdentification) {
-                        return methodToIndex(UbuntuSecurityPrivacyPanel.Fingerprint);
+                        return methodToIndex(LomiriSecurityPrivacyPanel.Fingerprint);
                     } else {
                         return methodToIndex(securityPrivacy.securityType);
                     }
@@ -555,16 +555,16 @@ ItemPage {
 
                 id: changeControl
                 visible: securityPrivacy.securityType ===
-                         UbuntuSecurityPrivacyPanel.Passcode &&
+                         LomiriSecurityPrivacyPanel.Passcode &&
                          securityPrivacy.securityType ===
-                         UbuntuSecurityPrivacyPanel.Passphrase
+                         LomiriSecurityPrivacyPanel.Passphrase
 
                 Button {
                     property string changePasscode: i18n.tr("Change passcode…")
                     property string changePassphrase: i18n.tr("Change passphrase…")
 
                     property bool passcode: securityPrivacy.securityType ===
-                                            UbuntuSecurityPrivacyPanel.Passcode
+                                            LomiriSecurityPrivacyPanel.Passcode
 
                     objectName: "changePass"
                     enabled: parent.visible

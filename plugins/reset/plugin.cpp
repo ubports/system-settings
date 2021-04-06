@@ -25,7 +25,7 @@
 void BackendPlugin::registerTypes(const char *uri)
 {
     Q_ASSERT(uri == QLatin1String("Lomiri.SystemSettings.Reset"));
-    qmlRegisterType<Reset>(uri, 1, 0, "UbuntuResetPanel");
+    qmlRegisterType<Reset>(uri, 1, 0, "LomiriResetPanel");
 }
 
 void BackendPlugin::initializeEngine(QQmlEngine *engine, const char *uri)

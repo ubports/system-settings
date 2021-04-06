@@ -34,11 +34,11 @@ ItemPage {
     title: i18n.tr("Developer Mode")
     flickable: scrollWidget
 
-    UbuntuStorageAboutPanel {
+    LomiriStorageAboutPanel {
         id: storedInfo
     }
 
-    UbuntuSecurityPrivacyPanel {
+    LomiriSecurityPrivacyPanel {
         id: securityPrivacy
     }
 
@@ -86,7 +86,7 @@ ItemPage {
             }
 
             SettingsListItems.Standard {
-                enabled: securityPrivacy.securityType !== UbuntuSecurityPrivacyPanel.Swipe
+                enabled: securityPrivacy.securityType !== LomiriSecurityPrivacyPanel.Swipe
                 text: i18n.tr("Developer Mode")
                 Switch {
                     id: devModeSwitch

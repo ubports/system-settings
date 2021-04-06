@@ -34,11 +34,11 @@ ItemPage {
     flickable: scrollWidget
     property var modemsSorted: []
 
-    UbuntuStorageAboutPanel {
+    LomiriStorageAboutPanel {
         id: backendInfos
     }
 
-    UbuntuBluetoothPanel {
+    LomiriBluetoothPanel {
         id: bluetooth
     }
 

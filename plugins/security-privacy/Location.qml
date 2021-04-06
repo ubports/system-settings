@@ -58,7 +58,7 @@ ItemPage {
         optionsModel.createModel();
     }
 
-    UbuntuSecurityPrivacyPanel {
+    LomiriSecurityPrivacyPanel {
         id: securityPrivacy
     }
 

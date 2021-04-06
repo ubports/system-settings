@@ -41,7 +41,7 @@ ItemPage {
         return "UTC" + plus + offset
     }
 
-    UbuntuTimeDatePanel {
+    LomiriTimeDatePanel {
         id: timeDatePanel
         onTimeZoneChanged: {
             // Inform the JS engine that the TZ has been updated

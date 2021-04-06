@@ -50,7 +50,7 @@ ItemPage {
         asynchronous: false
     }
 
-    UbuntuResetPanel {
+    LomiriResetPanel {
         id: resetBackend
     }
 

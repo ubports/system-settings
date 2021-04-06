@@ -29,7 +29,7 @@ ItemPage {
     id: changeTimeZonePage
     title: i18n.tr("Time zone")
     flickable: locationsListView
-    property UbuntuTimeDatePanel timeDatePanel
+    property LomiriTimeDatePanel timeDatePanel
 
     Timer {
         id: goBackTimer

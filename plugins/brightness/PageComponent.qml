@@ -51,7 +51,7 @@ ItemPage {
         }
     }
 
-    UbuntuBrightnessPanel {
+    LomiriBrightnessPanel {
         id: brightnessPanel
     }
 

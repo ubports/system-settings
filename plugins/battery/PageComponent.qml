@@ -55,7 +55,7 @@ ItemPage {
         schema.id: batteryBackend.powerdRunning ? "com.ubuntu.touch.system" : "org.gnome.desktop.session"
     }
 
-    UbuntuSecurityPrivacyPanel {
+    LomiriSecurityPrivacyPanel {
         id: securityPrivacy
     }
 
@@ -70,7 +70,7 @@ ItemPage {
         Component.onCompleted: start()
     }
 
-    UbuntuBatteryPanel {
+    LomiriBatteryPanel {
         id: batteryBackend
     }
 
@@ -319,7 +319,7 @@ ItemPage {
             SettingsListItems.SingleValueProgression {
                 property bool lockOnSuspend:
                     securityPrivacy.securityType !==
-                        UbuntuSecurityPrivacyPanel.Swipe
+                        LomiriSecurityPrivacyPanel.Swipe
                 text: lockOnSuspend ? i18n.tr("Lock when idle") : i18n.tr("Sleep when idle")
                 value: {
                     if (batteryBackend.powerdRunning ) {

@@ -58,7 +58,7 @@ ItemPage {
         }
     }
 
-    UbuntuLanguagePlugin {
+    LomiriLanguagePlugin {
         id: plugin
     }
 
