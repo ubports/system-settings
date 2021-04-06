@@ -83,13 +83,13 @@ ItemPage {
                 return backendInfo.getFreeSpace("/home")
             }
 
-            property real usedByUbuntu: diskSpace -
+            property real usedBySystem: diskSpace -
                                         freediskSpace -
                                         backendInfo.homeSize -
                                         backendInfo.totalClickSize
             property real otherSize: diskSpace -
                                      freediskSpace -
-                                     usedByUbuntu -
+                                     usedBySystem -
                                      backendInfo.totalClickSize -
                                      backendInfo.moviesSize -
                                      backendInfo.picturesSize -
@@ -103,21 +103,21 @@ ItemPage {
                 "#f5d412", //System Yellow
                 LomiriColors.lightAubergine]
             property variant spaceLabels: [
-                i18n.tr("Used by Ubuntu"),
+                i18n.tr("Used by system"),
                 i18n.tr("Videos"),
                 i18n.tr("Audio"),
                 i18n.tr("Pictures"),
                 i18n.tr("Other files"),
                 i18n.tr("Used by apps")]
             property variant spaceValues: [
-                usedByUbuntu, // Used by Ubuntu
+                usedBySystem, // Used by system
                 backendInfo.moviesSize,
                 backendInfo.audioSize,
                 backendInfo.picturesSize,
                 otherSize, //Other Files
                 backendInfo.totalClickSize]
             property variant spaceObjectNames: [
-                "usedByUbuntuItem",
+                "usedBySystemItem",
                 "moviesItem",
                 "audioItem",
                 "picturesItem",
