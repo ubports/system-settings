@@ -31,7 +31,7 @@ add_library(UbuntuStorageAboutPanel MODULE
 )
 
 target_link_libraries(UbuntuStorageAboutPanel Qt5::Qml Qt5::Quick Qt5::DBus
-${ANDR_PROP_LDFLAGS} ${GLIB_LDFLAGS} ${GIO_LDFLAGS} ${CLICK_LDFLAGS} uss-systemimage)
+${ANDR_PROP_LDFLAGS} ${GLIB_LDFLAGS} ${GIO_LDFLAGS} ${CLICK_LDFLAGS} lss-systemimage)
 
 
 set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Ubuntu/SystemSettings/StorageAbout)

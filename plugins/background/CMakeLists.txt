@@ -10,7 +10,7 @@ add_library(UbuntuBackgroundPanel MODULE
 plugin.cpp background.cpp plugin.h background.h
 ${QML_SOURCES}) # So they show up in Qt designer.
 
-target_link_libraries(UbuntuBackgroundPanel Qt5::Qml Qt5::Quick Qt5::DBus uss-accountsservice)
+target_link_libraries(UbuntuBackgroundPanel Qt5::Qml Qt5::Quick Qt5::DBus lss-accountsservice)
 
 set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Ubuntu/SystemSettings/Background)
 install(TARGETS UbuntuBackgroundPanel DESTINATION ${PLUG_DIR})

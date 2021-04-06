@@ -27,7 +27,7 @@ include_directories(${CMAKE_CURRENT_BINARY_DIR}
 set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Ubuntu/SystemSettings/Mouse)
 target_link_libraries (UbuntuMousePanel
     Qt5::Qml Qt5::Quick Qt5::DBus
-    uss-accountsservice
+    lss-accountsservice
     ${ACCOUNTSSERVICE_LDFLAGS}
     ${GOBJECT_LDFLAGS}
     ${GLIB_LDFLAGS}

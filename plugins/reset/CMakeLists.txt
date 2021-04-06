@@ -13,7 +13,7 @@ add_library(UbuntuResetPanel MODULE
   ${QML_SOURCES}
 )
 
-target_link_libraries(UbuntuResetPanel Qt5::Qml Qt5::Quick Qt5::DBus uss-accountsservice)
+target_link_libraries(UbuntuResetPanel Qt5::Qml Qt5::Quick Qt5::DBus lss-accountsservice)
 
 set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Ubuntu/SystemSettings/Reset)
 install(TARGETS UbuntuResetPanel DESTINATION ${PLUG_DIR})

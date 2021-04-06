@@ -50,7 +50,7 @@ target_link_libraries(UpdatePlugin
     Qt5::Sql
 
     apt-pkg
-    uss-systemimage
+    lss-systemimage
 )
 
 add_library(UbuntuUpdatePanel MODULE

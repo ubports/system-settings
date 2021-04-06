@@ -54,7 +54,7 @@ include_directories(
 set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Ubuntu/SystemSettings/SecurityPrivacy)
 target_link_libraries (UbuntuSecurityPrivacyPanel
     Qt5::Qml Qt5::Quick Qt5::DBus
-    uss-accountsservice
+    lss-accountsservice
     ${ACCOUNTSSERVICE_LDFLAGS}
     ${GOBJECT_LDFLAGS}
     ${TRUST_STORE_LDFLAGS}

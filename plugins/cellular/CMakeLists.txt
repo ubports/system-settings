@@ -30,7 +30,7 @@ add_library(UbuntuCellularPanel MODULE
   nm_settings_connection_proxy.h
   ${QML_SOURCES}
 )
-target_link_libraries(UbuntuCellularPanel uss-accountsservice Qt5::Qml Qt5::Quick Qt5::DBus)
+target_link_libraries(UbuntuCellularPanel lss-accountsservice Qt5::Qml Qt5::Quick Qt5::DBus)
 
 set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Ubuntu/SystemSettings/Cellular)
 install(TARGETS UbuntuCellularPanel DESTINATION ${PLUG_DIR})

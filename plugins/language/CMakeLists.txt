@@ -19,7 +19,7 @@ add_library(UbuntuLanguagePlugin MODULE
  keyboard-layout.cpp language-plugin.cpp plugin.cpp subset-model.cpp onscreenkeyboard-plugin.cpp hardwarekeyboard-plugin.cpp
  keyboard-layout.h language-plugin.h plugin.h subset-model.h onscreenkeyboard-plugin.h hardwarekeyboard-plugin.h
  ${QML_SOURCES})
-target_link_libraries(UbuntuLanguagePlugin Qt5::Qml Qt5::Quick Qt5::DBus uss-accountsservice uss-sessionservice ${GD3_LDFLAGS} ${GLIB_LDFLAGS} ${GIO_LDFLAGS} ${ACCOUNTSSERVICE_LDFLAGS} ${ICU_LDFLAGS})
+target_link_libraries(UbuntuLanguagePlugin Qt5::Qml Qt5::Quick Qt5::DBus lss-accountsservice lss-sessionservice ${GD3_LDFLAGS} ${GLIB_LDFLAGS} ${GIO_LDFLAGS} ${ACCOUNTSSERVICE_LDFLAGS} ${ICU_LDFLAGS})
 
 set(PLUG_DIR ${PLUGIN_PRIVATE_MODULE_DIR}/Ubuntu/SystemSettings/LanguagePlugin)
 install(TARGETS UbuntuLanguagePlugin DESTINATION ${PLUG_DIR})
