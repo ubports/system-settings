@@ -185,7 +185,7 @@ QDir Background::getCustomBackgroundFolder()
     if (dataDir.isEmpty())
         return getContentHubFolder();
     else
-        return dataDir + "/ubuntu-system-settings/Pictures";
+        return dataDir + "/lomiri-system-settings/Pictures";
 }
 
 QDir Background::getCopiedSystemBackgroundFolder()
