@@ -1,0 +1,3 @@
+module Lomiri.Settings.Test
+plugin LomiriSettingsTestQml
+LSTTestCase 0.1 LSTTestCase.qml

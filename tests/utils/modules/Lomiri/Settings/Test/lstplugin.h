@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2012, 2013, 2016 Canonical, Ltd.
+ * Copyright (C) 2012, 2013 Canonical, Ltd.
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -15,34 +15,19 @@
  */
 
 
-#ifndef TESTUTIL_H
-#define TESTUTIL_H
+#ifndef LOMIRI_SETTINGS_TEST_PLUGIN_H
+#define LOMIRI_SETTINGS_TEST_PLUGIN_H
 
-#include "TouchEventSequenceWrapper.h"
-#include <QtQuick/QQuickItem>
+#include <QQmlExtensionPlugin>
 
-class QTouchDevice;
-
-class TestUtil : public QObject
+class LomiriSettingsTestPlugin : public QQmlExtensionPlugin
 {
     Q_OBJECT
-    Q_DISABLE_COPY(TestUtil)
+    Q_PLUGIN_METADATA(IID "org.qt-project.Qt.QQmlExtensionInterface")
 
 public:
-    TestUtil(QObject *parent = 0);
-    ~TestUtil();
-
-    Q_INVOKABLE bool isInstanceOf(QObject*, QString);
-    Q_INVOKABLE TouchEventSequenceWrapper *touchEvent();
-
-private:
-    void ensureTargetWindow();
-    void ensureTouchDevice();
-
-    QWindow *m_targetWindow;
-    QTouchDevice *m_touchDevice;
+    void registerTypes(const char *uri);
+    void initializeEngine(QQmlEngine *engine, const char *uri);
 };
 
-QML_DECLARE_TYPE(TestUtil)
-
-#endif // TESTUTIL_H
+#endif // LOMIRI_SETTINGS_TEST_PLUGIN_H

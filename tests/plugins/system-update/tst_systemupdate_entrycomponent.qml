@@ -22,7 +22,7 @@ import Lomiri.Components 1.3
 import Ubuntu.Connectivity 1.0
 import Ubuntu.DownloadManager 1.2
 import Lomiri.SystemSettings.Update 1.0
-import Ubuntu.Test 0.1
+import Lomiri.Settings.Test 0.1
 
 import Source 1.0
 
@@ -42,7 +42,7 @@ Item {
     }
 
     // Test suite when there's no Image update.
-    UbuntuTestCase {
+    LSTTestCase {
         name: "EntryComponentNoImageUpdateTestCase"
         when: windowShown
 
@@ -75,7 +75,7 @@ Item {
     }
 
     // Test suite for when we have an image update.
-    UbuntuTestCase {
+    LSTTestCase {
         name: "EntryComponentImageUpdateTestCase"
         when: windowShown
 

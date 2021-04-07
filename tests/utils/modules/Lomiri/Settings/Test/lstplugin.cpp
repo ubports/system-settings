@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2012, 2013, 2016 Canonical, Ltd.
+ * Copyright (C) 2012, 2013 Canonical, Ltd.
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -15,7 +15,7 @@
  */
 
 
-#include "ubuntutestplugin.h"
+#include "lstplugin.h"
 #include "testutil.h"
 #include "TouchEventSequenceWrapper.h"
 
@@ -37,16 +37,16 @@ static QObject *testutil_provider(QQmlEngine* /* engine */, QJSEngine* /* script
     return new TestUtil();
 }
 
-void UbuntuTestPlugin::registerTypes(const char *uri)
+void LomiriSettingsTestPlugin::registerTypes(const char *uri)
 {
-    Q_ASSERT(QLatin1String(uri) == QLatin1String("Ubuntu.Test"));
-    // @uri Ubuntu.Test
+    Q_ASSERT(QLatin1String(uri) == QLatin1String("Lomiri.Settings.Test"));
+    // @uri Lomiri.Settings.Test
     qmlRegisterSingletonType<TestUtil>(uri, 0, 1, "Util", testutil_provider);
     qmlRegisterUncreatableType<TouchEventSequenceWrapper>(uri, 0, 1, "TouchEventSequence",
             "You cannot directly create a TouchEventSequence object.");
 }
 
-void UbuntuTestPlugin::initializeEngine(QQmlEngine *engine, const char *uri)
+void LomiriSettingsTestPlugin::initializeEngine(QQmlEngine *engine, const char *uri)
 {
     Q_UNUSED(uri);
     Q_UNUSED(engine);

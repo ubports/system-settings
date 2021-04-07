@@ -20,7 +20,7 @@ import QtQuick 2.4
 import QtTest 1.0
 import Lomiri.Components 1.3
 import Lomiri.SystemSettings.Update 1.0
-import Ubuntu.Test 0.1
+import Lomiri.Settings.Test 0.1
 
 import Source 1.0
 
@@ -40,7 +40,7 @@ Item {
     /* We address all the states which are enumerated in the
      * spec, <https://wiki.ubuntu.com/SoftwareUpdates#Phone>.
      */
-    UbuntuTestCase {
+    LSTTestCase {
         name: "UpdateTest"
         when: windowShown
 

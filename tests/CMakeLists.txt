@@ -72,7 +72,7 @@ add_subdirectory(utils)
 
 # QML tests that require graphical capabilities.
 add_custom_target(qmluitests)
-add_dependencies(qmluitests UbuntuTest)
+add_dependencies(qmluitests LomiriSettingsTest)
 
 add_custom_target(qmltests)
 add_dependencies(qmltests qmluitests)

@@ -21,7 +21,7 @@ import QtTest 1.0
 import SystemSettings 1.0
 import SystemSettings.ListItems 1.0 as SettingsListItems
 import Lomiri.Components 1.3
-import Ubuntu.Test 0.1
+import Lomiri.Settings.Test 0.1
 
 Item {
     id: testRoot
@@ -44,7 +44,7 @@ Item {
         }
     }
 
-    UbuntuTestCase {
+    LSTTestCase {
         name: "DefaultPluginMainWindowTest"
         when: windowShown
 
@@ -53,7 +53,7 @@ Item {
         }
     }
 
-    UbuntuTestCase {
+    LSTTestCase {
         name: "MainWindowTests"
         when: windowShown
 
@@ -87,7 +87,7 @@ Item {
         }
     }
 
-    UbuntuTestCase {
+    LSTTestCase {
         name: "MainWindowAPLTests"
         when: windowShown
 

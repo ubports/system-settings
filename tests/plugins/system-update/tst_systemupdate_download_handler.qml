@@ -21,7 +21,7 @@ import QtTest 1.0
 import Lomiri.Components 1.3
 import Ubuntu.DownloadManager 1.2
 import Lomiri.SystemSettings.Update 1.0
-import Ubuntu.Test 0.1
+import Lomiri.Settings.Test 0.1
 
 import Source 1.0
 
@@ -61,7 +61,7 @@ Item {
         }
     }
 
-    UbuntuTestCase {
+    LSTTestCase {
         name: "DownloadHandlerTestWithExistingDownload"
         when: windowShown
 
@@ -170,7 +170,7 @@ Item {
         }
     }
 
-    UbuntuTestCase {
+    LSTTestCase {
         name: "DownloadHandlerTestNoExistingDownloads"
         when: windowShown
 

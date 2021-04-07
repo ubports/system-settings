@@ -20,7 +20,7 @@
 import QtQuick 2.4
 import QtTest 1.0
 import Lomiri.Components 1.3
-import Ubuntu.Test 0.1
+import Lomiri.Settings.Test 0.1
 
 import Source 1.0
 
@@ -36,7 +36,7 @@ Item {
         doubleTapSpeed: 200
     }
 
-    UbuntuTestCase {
+    LSTTestCase {
         name: "MouseTapAreaTest"
         id: test1
         when: windowShown

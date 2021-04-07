@@ -18,7 +18,7 @@
 
 import QtQuick 2.4
 import QtTest 1.0
-import Ubuntu.Test 0.1
+import Lomiri.Settings.Test 0.1
 
 import Source 1.0
 import Lomiri.SystemSettings.Launcher 1.0
@@ -37,7 +37,7 @@ Item {
         }
     }
 
-    UbuntuTestCase {
+    LSTTestCase {
         name: "LauncherPageComponent"
         when: windowShown
 

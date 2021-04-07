@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2012, 2013, 2016 Canonical, Ltd.
+ * Copyright (C) 2012, 2013 Canonical, Ltd.
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -15,19 +15,34 @@
  */
 
 
-#ifndef UBUNTU_TEST_PLUGIN_H
-#define UBUNTU_TEST_PLUGIN_H
+#ifndef TESTUTIL_H
+#define TESTUTIL_H
 
-#include <QQmlExtensionPlugin>
+#include "TouchEventSequenceWrapper.h"
+#include <QtQuick/QQuickItem>
 
-class UbuntuTestPlugin : public QQmlExtensionPlugin
+class QTouchDevice;
+
+class TestUtil : public QObject
 {
     Q_OBJECT
-    Q_PLUGIN_METADATA(IID "org.qt-project.Qt.QQmlExtensionInterface")
+    Q_DISABLE_COPY(TestUtil)
 
 public:
-    void registerTypes(const char *uri);
-    void initializeEngine(QQmlEngine *engine, const char *uri);
+    TestUtil(QObject *parent = 0);
+    ~TestUtil();
+
+    Q_INVOKABLE bool isInstanceOf(QObject*, QString);
+    Q_INVOKABLE TouchEventSequenceWrapper *touchEvent();
+
+private:
+    void ensureTargetWindow();
+    void ensureTouchDevice();
+
+    QWindow *m_targetWindow;
+    QTouchDevice *m_touchDevice;
 };
 
-#endif // UBUNTU_TEST_PLUGIN_H
+QML_DECLARE_TYPE(TestUtil)
+
+#endif // TESTUTIL_H

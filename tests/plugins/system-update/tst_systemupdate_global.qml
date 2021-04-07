@@ -20,7 +20,7 @@ import QtQuick 2.4
 import QtTest 1.0
 import Lomiri.Components 1.3
 import Lomiri.SystemSettings.Update 1.0
-import Ubuntu.Test 0.1
+import Lomiri.Settings.Test 0.1
 
 import Source 1.0
 
@@ -51,7 +51,7 @@ Item {
         signalName: "requestInstall"
     }
 
-    UbuntuTestCase {
+    LSTTestCase {
         name: "GlobalTest"
         when: windowShown
 

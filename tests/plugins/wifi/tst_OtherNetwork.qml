@@ -21,7 +21,7 @@ import QtTest 1.0
 import Lomiri.Components 1.3
 import Lomiri.Components.Popups 1.3
 import Lomiri.SystemSettings.Wifi 1.0
-import Ubuntu.Test 0.1
+import Lomiri.Settings.Test 0.1
 
 import WifiSource 1.0
 
@@ -34,7 +34,7 @@ Item {
         id: otherNetworkDialog
     }
 
-    UbuntuTestCase {
+    LSTTestCase {
         name: "OtherNetworkTest"
         when: windowShown
 
