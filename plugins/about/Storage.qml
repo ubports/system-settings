@@ -126,7 +126,7 @@ ItemPage {
 
             GSettings {
                 id: settingsId
-                schema.id: "com.ubuntu.touch.system-settings"
+                schema.id: "com.lomiri.lomiri-system-settings"
             }
 
             LomiriStorageAboutPanel {

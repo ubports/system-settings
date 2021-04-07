@@ -64,6 +64,6 @@ Item {
 
     GSettings {
         id: settings
-        schema.id: "com.ubuntu.touch.system-settings"
+        schema.id: "com.lomiri.lomiri-system-settings"
     }
 }
