@@ -115,7 +115,7 @@ install(FILES lomiri-system-settings.url-dispatcher DESTINATION share/url-dispat
 install(FILES screenshot.png DESTINATION ${SETTINGS_SHARE_DIR})
 install(FILES system-settings.svg DESTINATION ${SETTINGS_SHARE_DIR})
 install(FILES system-settings-app-splash.svg DESTINATION ${SETTINGS_SHARE_DIR})
-install(PROGRAMS push-helper/software_updates_helper.py DESTINATION ${PUSH_HELPER_DIR} RENAME ubuntu-system-settings)
+install(PROGRAMS push-helper/software_updates_helper.py DESTINATION ${PUSH_HELPER_DIR} RENAME lomiri-system-settings)
 
 if(cmake_build_type_lower MATCHES coverage)
   ENABLE_COVERAGE_REPORT(TARGETS system-settings FILTER /usr/include ${CMAKE_SOURCE_DIR}/tests/* ${CMAKE_BINARY_DIR}/*)
