@@ -16,7 +16,7 @@ add_definitions(-DPLUGIN_MANIFEST_DIR="${CMAKE_CURRENT_SOURCE_DIR}/data")
 add_definitions(-DQML_TEST_DIR="${CMAKE_CURRENT_SOURCE_DIR}")
 add_definitions(-DQML_DIR="${CMAKE_CURRENT_BINARY_DIR}")
 add_definitions(-DPLUGIN_QML_DIR="${CMAKE_CURRENT_BINARY_DIR}")
-add_definitions(-DSYSTEM_IMAGE_DBUS_TEMPLATE="${CMAKE_SOURCE_DIR}/tests/autopilot/ubuntu_system_settings/tests/systemimage.py")
+add_definitions(-DSYSTEM_IMAGE_DBUS_TEMPLATE="${CMAKE_SOURCE_DIR}/tests/autopilot/lomiri_system_settings/tests/systemimage.py")
 
 add_library(test-plugin SHARED test-plugin.cpp test-plugin.h)
 target_link_librarieS(test-plugin LomiriSystemSettings Qt5::Core Qt5::Qml)

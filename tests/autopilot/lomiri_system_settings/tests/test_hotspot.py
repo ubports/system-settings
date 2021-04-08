@@ -8,9 +8,9 @@
 from autopilot.matchers import Eventually
 from testtools.matchers import Equals
 
-from ubuntu_system_settings.tests import HotspotBaseTestCase
+from lomiri_system_settings.tests import HotspotBaseTestCase
 
-from ubuntu_system_settings.tests.connectivity import (
+from lomiri_system_settings.tests.connectivity import (
     PRIV_IFACE as CTV_PRIV_IFACE, NETS_IFACE as CTV_NETS_IFACE
 )
 

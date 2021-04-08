@@ -13,11 +13,11 @@ from autopilot.matchers import Eventually
 from testtools.matchers import Equals, raises, StartsWith
 from unittest import skip
 
-from ubuntu_system_settings.tests import (
+from lomiri_system_settings.tests import (
     CellularBaseTestCase, RDO_IFACE,
     NETREG_IFACE, ACCOUNTS_PHONE_IFACE, CON_IFACE)
 
-from ubuntu_system_settings.tests.connectivity import (
+from lomiri_system_settings.tests.connectivity import (
     SIM_IFACE as CTV_SIM_IFACE
 )
 

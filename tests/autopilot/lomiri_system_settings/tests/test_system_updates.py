@@ -9,7 +9,7 @@ from __future__ import absolute_import
 
 from fixtures import EnvironmentVariable
 from testtools.matchers import NotEquals
-from ubuntu_system_settings.tests import SystemUpdatesBaseTestCase
+from lomiri_system_settings.tests import SystemUpdatesBaseTestCase
 
 
 class SystemUpdatesTestCases(SystemUpdatesBaseTestCase):

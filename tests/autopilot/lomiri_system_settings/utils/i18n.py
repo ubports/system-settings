@@ -8,7 +8,7 @@
 import locale
 import gettext
 
-APP_NAME = 'ubuntu-system-settings'
+APP_NAME = 'lomiri-system-settings'
 LOCALE_DIR = '/usr/share/locale/'
 
 lc, encoding = locale.getdefaultlocale()

@@ -11,8 +11,8 @@ import os
 
 from testtools.matchers import Equals
 
-from ubuntu_system_settings.tests import BackgroundBaseTestCase
-from ubuntu_system_settings.utils.i18n import ugettext as _
+from lomiri_system_settings.tests import BackgroundBaseTestCase
+from lomiri_system_settings.utils.i18n import ugettext as _
 
 
 def get_wallpapers_from_grid(grid):

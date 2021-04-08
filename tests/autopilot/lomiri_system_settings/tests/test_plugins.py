@@ -9,17 +9,17 @@ from autopilot.introspection.dbus import StateNotFoundError
 from autopilot.matchers import Eventually
 from testtools.matchers import Equals, NotEquals, raises
 
-from ubuntu_system_settings.tests import (
-    UbuntuSystemSettingsTestCase,
-    UbuntuSystemSettingsUpowerTestCase,
-    UbuntuSystemSettingsBatteryTestCase,
-    UbuntuSystemSettingsHotspotTestCase
+from lomiri_system_settings.tests import (
+    LomiriSystemSettingsTestCase,
+    LomiriSystemSettingsUpowerTestCase,
+    LomiriSystemSettingsBatteryTestCase,
+    LomiriSystemSettingsHotspotTestCase
 )
-from ubuntu_system_settings.utils.i18n import ugettext as _
+from lomiri_system_settings.utils.i18n import ugettext as _
 
 
-class SystemSettingsTestCases(UbuntuSystemSettingsTestCase):
-    """ Tests for Ubuntu System Settings """
+class SystemSettingsTestCases(LomiriSystemSettingsTestCase):
+    """ Tests for Lomiri System Settings """
 
     def setUp(self):
         super(SystemSettingsTestCases, self).setUp()
@@ -145,7 +145,7 @@ class SystemSettingsTestCases(UbuntuSystemSettingsTestCase):
         self.assertThat(plugin, NotEquals(None))
 
 
-class SystemSettingsUpowerTestCases(UbuntuSystemSettingsUpowerTestCase):
+class SystemSettingsUpowerTestCases(LomiriSystemSettingsUpowerTestCase):
     def setUp(self):
         super(SystemSettingsUpowerTestCases, self).setUp()
 
@@ -166,7 +166,7 @@ class SystemSettingsUpowerTestCases(UbuntuSystemSettingsUpowerTestCase):
         self.assertThat(plugin, NotEquals(None))
 
 
-class SystemSettingsBatteryTestCases(UbuntuSystemSettingsBatteryTestCase):
+class SystemSettingsBatteryTestCases(LomiriSystemSettingsBatteryTestCase):
     def setUp(self):
         super(SystemSettingsBatteryTestCases, self).setUp()
 
@@ -178,7 +178,7 @@ class SystemSettingsBatteryTestCases(UbuntuSystemSettingsBatteryTestCase):
         self.assertThat(plugin, NotEquals(None))
 
 
-class SystemSettingsHotspotTestCases(UbuntuSystemSettingsHotspotTestCase):
+class SystemSettingsHotspotTestCases(LomiriSystemSettingsHotspotTestCase):
 
     def test_hotspot_plugin(self):
         """ Checks whether the Hotspot plugin is available for supported device
@@ -190,7 +190,7 @@ class SystemSettingsHotspotTestCases(UbuntuSystemSettingsHotspotTestCase):
 
 
 class SystemSettingsHotspotUnsupportedTestCases(
-        UbuntuSystemSettingsHotspotTestCase):
+        LomiriSystemSettingsHotspotTestCase):
 
     # TODO: remove device parameter once lp:1434591 has been resolved.
     systemimage_parameters = {'device': 'mako'}

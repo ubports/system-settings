@@ -17,14 +17,14 @@ from autopilot.platform import model
 from testtools import skipIf
 from testtools.matchers import Equals, NotEquals, Contains
 
-from ubuntu_system_settings.tests import (
+from lomiri_system_settings.tests import (
     AboutBaseTestCase,
     AboutSystemImageBaseTestCase,
     AboutOfonoBaseTestCase,
     StorageBaseTestCase,
     LicenseBaseTestCase
 )
-from ubuntu_system_settings.utils.i18n import ugettext as _
+from lomiri_system_settings.utils.i18n import ugettext as _
 
 import dbus
 

@@ -13,7 +13,7 @@
 # You should have received a copy of the GNU Lesser General Public License
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 
-""" Tests for Ubuntu System Settings """
+""" Tests for Lomiri System Settings """
 
 from __future__ import absolute_import
 
@@ -34,10 +34,10 @@ from dbusmock.templates.networkmanager import (InfrastructureMode,
 from fixtures import EnvironmentVariable
 from gi.repository import UPowerGlib
 from testtools.matchers import Equals, NotEquals, GreaterThan
-from ubuntu_system_settings.utils.mock_update_click_server import (
+from lomiri_system_settings.utils.mock_update_click_server import (
     Manager
 )
-from ubuntu_system_settings.tests.connectivity import (
+from lomiri_system_settings.tests.connectivity import (
     PRIV_OBJ as CTV_PRIV_OBJ, NETS_OBJ as CTV_NETS_OBJ,
     MAIN_IFACE as CTV_IFACE
 )
@@ -79,16 +79,16 @@ UPOWER_VERSION = str(UPowerGlib.MAJOR_VERSION)
 UPOWER_VERSION += '.' + str(UPowerGlib.MINOR_VERSION)
 
 
-class UbuntuSystemSettingsTestCase(
+class LomiriSystemSettingsTestCase(
         ubuntuuitoolkit.base.UbuntuUIToolkitAppTestCase):
 
-    """Base class for Ubuntu System Settings."""
+    """Base class for Lomiri System Settings."""
 
     BINARY = 'lomiri-system-settings'
     DESKTOP_FILE = '/usr/share/applications/lomiri-system-settings.desktop'
 
     def setUp(self, panel=None):
-        super(UbuntuSystemSettingsTestCase, self).setUp()
+        super(LomiriSystemSettingsTestCase, self).setUp()
         self.system_settings = self.launch(panel)
         self.main_view = self.system_settings.main_view
         self.assertThat(
@@ -136,10 +136,10 @@ class UbuntuSystemSettingsTestCase(
             cls.stop_dbus(dbusmock.DBusTestCase.session_bus_pid)
             del os.environ['DBUS_SESSION_BUS_ADDRESS']
             dbusmock.DBusTestCase.session_bus_pid = None
-        super(UbuntuSystemSettingsTestCase, cls).tearDownClass()
+        super(LomiriSystemSettingsTestCase, cls).tearDownClass()
 
 
-class UbuntuSystemSettingsUpowerTestCase(UbuntuSystemSettingsTestCase,
+class LomiriSystemSettingsUpowerTestCase(LomiriSystemSettingsTestCase,
                                          dbusmock.DBusTestCase):
     """Base class for battery tests that mocks Upower"""
 
@@ -156,7 +156,7 @@ class UbuntuSystemSettingsUpowerTestCase(UbuntuSystemSettingsTestCase,
             stdout=subprocess.PIPE)
         self.dbusmock = dbus.Interface(self.obj_upower, dbusmock.MOCK_IFACE)
         self.obj_upower.Reset()
-        super(UbuntuSystemSettingsUpowerTestCase, self).setUp()
+        super(LomiriSystemSettingsUpowerTestCase, self).setUp()
 
     def add_mock_battery(self):
         """ Make sure we have a battery """
@@ -167,18 +167,18 @@ class UbuntuSystemSettingsUpowerTestCase(UbuntuSystemSettingsTestCase,
     def tearDown(self):
         self.p_mock.terminate()
         self.p_mock.wait()
-        super(UbuntuSystemSettingsUpowerTestCase, self).tearDown()
+        super(LomiriSystemSettingsUpowerTestCase, self).tearDown()
 
 
-class UbuntuSystemSettingsBatteryTestCase(UbuntuSystemSettingsUpowerTestCase):
+class LomiriSystemSettingsBatteryTestCase(LomiriSystemSettingsUpowerTestCase):
     """ Base class for tests which rely on the presence of a battery """
 
     def setUp(self):
-        super(UbuntuSystemSettingsBatteryTestCase, self).setUp()
+        super(LomiriSystemSettingsBatteryTestCase, self).setUp()
         self.add_mock_battery()
 
 
-class UbuntuSystemSettingsHotspotTestCase(UbuntuSystemSettingsTestCase,
+class LomiriSystemSettingsHotspotTestCase(LomiriSystemSettingsTestCase,
                                           dbusmock.DBusTestCase):
     """Base class for tests that tests the hotspot functionality."""
     connectivity_parameters = {}
@@ -196,7 +196,7 @@ class UbuntuSystemSettingsHotspotTestCase(UbuntuSystemSettingsTestCase,
             si_tmpl, parameters=cls.systemimage_parameters,
             stdout=subprocess.PIPE)
 
-        super(UbuntuSystemSettingsHotspotTestCase, cls).setUpClass()
+        super(LomiriSystemSettingsHotspotTestCase, cls).setUpClass()
 
     def setUp(self):
         if is_process_running(INDICATOR_NETWORK):
@@ -226,14 +226,14 @@ class UbuntuSystemSettingsHotspotTestCase(UbuntuSystemSettingsTestCase,
         # Required since this test needs to dismiss the OSK.
         self.useFixture(EnvironmentVariable("UITK_USE_MALIIT", "1"))
 
-        super(UbuntuSystemSettingsHotspotTestCase, self).setUp()
+        super(LomiriSystemSettingsHotspotTestCase, self).setUp()
 
     def tearDown(self):
         self.ctv_mock.terminate()
         self.ctv_mock.wait()
         self.inetwork_mock.terminate()
         self.inetwork_mock.wait()
-        super(UbuntuSystemSettingsHotspotTestCase, self).tearDown()
+        super(LomiriSystemSettingsHotspotTestCase, self).tearDown()
 
     @classmethod
     def tearDownClass(cls):
@@ -247,10 +247,10 @@ class UbuntuSystemSettingsHotspotTestCase(UbuntuSystemSettingsTestCase,
             cls.stop_dbus(dbusmock.DBusTestCase.session_bus_pid)
             del os.environ['DBUS_SESSION_BUS_ADDRESS']
             dbusmock.DBusTestCase.session_bus_pid = None
-        super(UbuntuSystemSettingsHotspotTestCase, cls).tearDownClass()
+        super(LomiriSystemSettingsHotspotTestCase, cls).tearDownClass()
 
 
-class UbuntuSystemSettingsOfonoTestCase(UbuntuSystemSettingsTestCase,
+class LomiriSystemSettingsOfonoTestCase(LomiriSystemSettingsTestCase,
                                         dbusmock.DBusTestCase):
     """Class for cellular tests which sets up an Ofono mock """
 
@@ -412,12 +412,12 @@ class UbuntuSystemSettingsOfonoTestCase(UbuntuSystemSettingsTestCase,
     def setUpClass(cls):
         cls.start_system_bus()
         cls.dbus_con = cls.get_dbus(True)
-        super(UbuntuSystemSettingsOfonoTestCase, cls).setUpClass()
+        super(LomiriSystemSettingsOfonoTestCase, cls).setUpClass()
 
     def tearDown(self):
         self.p_mock.terminate()
         self.p_mock.wait()
-        super(UbuntuSystemSettingsOfonoTestCase, self).tearDown()
+        super(LomiriSystemSettingsOfonoTestCase, self).tearDown()
 
     def setUp(self, panel=None):
         template = os.path.join(os.path.dirname(__file__), 'ofono.py')
@@ -431,7 +431,7 @@ class UbuntuSystemSettingsOfonoTestCase(UbuntuSystemSettingsTestCase,
         if self.use_sims == 2:
             self.add_sim2()
 
-        super(UbuntuSystemSettingsOfonoTestCase, self).setUp()
+        super(LomiriSystemSettingsOfonoTestCase, self).setUp()
 
     def get_default_sim_for_calls_selector(self, text):
         return self.cellular_page.select_single(
@@ -444,7 +444,7 @@ class UbuntuSystemSettingsOfonoTestCase(UbuntuSystemSettingsTestCase,
         )
 
 
-class CellularBaseTestCase(UbuntuSystemSettingsOfonoTestCase):
+class CellularBaseTestCase(LomiriSystemSettingsOfonoTestCase):
 
     connectivity_parameters = {
         'Status': 'online'
@@ -594,14 +594,14 @@ class CellularBaseTestCase(UbuntuSystemSettingsOfonoTestCase):
         super(CellularBaseTestCase, self).tearDown()
 
 
-class HotspotBaseTestCase(UbuntuSystemSettingsHotspotTestCase):
+class HotspotBaseTestCase(LomiriSystemSettingsHotspotTestCase):
 
     def setUp(self):
         super(HotspotBaseTestCase, self).setUp()
         self.hotspot_page = self.main_view.go_to_hotspot_page()
 
 
-class BluetoothBaseTestCase(UbuntuSystemSettingsTestCase):
+class BluetoothBaseTestCase(LomiriSystemSettingsTestCase):
 
     def setUp(self):
         """ Go to Bluetooth page """
@@ -609,7 +609,7 @@ class BluetoothBaseTestCase(UbuntuSystemSettingsTestCase):
         self.bluetooth_page = self.main_view.go_to_bluetooth_page()
 
 
-class PhoneOfonoBaseTestCase(UbuntuSystemSettingsOfonoTestCase):
+class PhoneOfonoBaseTestCase(LomiriSystemSettingsOfonoTestCase):
     def setUp(self):
         """ Go to Phone page """
         self.useFixture(EnvironmentVariable("USS_SHOW_ALL_UI", "1"))
@@ -617,14 +617,14 @@ class PhoneOfonoBaseTestCase(UbuntuSystemSettingsOfonoTestCase):
         self.phone_page = self.main_view.go_to_phone_page()
 
 
-class AboutBaseTestCase(UbuntuSystemSettingsTestCase):
+class AboutBaseTestCase(LomiriSystemSettingsTestCase):
     def setUp(self):
         """Go to About page."""
         super(AboutBaseTestCase, self).setUp()
         self.about_page = self.main_view.go_to_about_page()
 
 
-class AboutOfonoBaseTestCase(UbuntuSystemSettingsOfonoTestCase):
+class AboutOfonoBaseTestCase(LomiriSystemSettingsOfonoTestCase):
     def setUp(self):
         """Go to About page."""
         super(AboutOfonoBaseTestCase, self).setUp()
@@ -698,7 +698,7 @@ class LicenseBaseTestCase(AboutBaseTestCase):
         self.licenses_page = self.about_page.go_to_software_licenses()
 
 
-class SystemUpdatesBaseTestCase(UbuntuSystemSettingsTestCase,
+class SystemUpdatesBaseTestCase(LomiriSystemSettingsTestCase,
                                 dbusmock.DBusTestCase):
     """Base class for SystemUpdates page tests."""
 
@@ -773,7 +773,7 @@ class SystemUpdatesBaseTestCase(UbuntuSystemSettingsTestCase,
 
 
 class BackgroundBaseTestCase(
-        UbuntuSystemSettingsTestCase,
+        LomiriSystemSettingsTestCase,
         dbusmock.DBusTestCase):
     """ Base class for Background tests """
 
@@ -851,7 +851,7 @@ class BackgroundBaseTestCase(
 
 
 class SoundBaseTestCase(
-        UbuntuSystemSettingsTestCase,
+        LomiriSystemSettingsTestCase,
         dbusmock.DBusTestCase):
     """ Base class for sound settings tests"""
 
@@ -1016,7 +1016,7 @@ class SoundBaseTestCase(
         subprocess.call(['initctl', 'stop', 'indicator-sound'])
 
 
-class ResetBaseTestCase(UbuntuSystemSettingsTestCase,
+class ResetBaseTestCase(LomiriSystemSettingsTestCase,
                         dbusmock.DBusTestCase):
     """ Base class for reset settings tests"""
 
@@ -1048,7 +1048,7 @@ class ResetBaseTestCase(UbuntuSystemSettingsTestCase,
         super(ResetBaseTestCase, self).tearDown()
 
 
-class SecurityBaseTestCase(UbuntuSystemSettingsOfonoTestCase):
+class SecurityBaseTestCase(LomiriSystemSettingsOfonoTestCase):
     """ Base class for security and privacy settings tests"""
 
     def setUp(self):
@@ -1059,7 +1059,7 @@ class SecurityBaseTestCase(UbuntuSystemSettingsOfonoTestCase):
         super(SecurityBaseTestCase, self).tearDown()
 
 
-class LanguageBaseTestCase(UbuntuSystemSettingsTestCase,
+class LanguageBaseTestCase(LomiriSystemSettingsTestCase,
                            dbusmock.DBusTestCase):
     """ Base class for language settings tests"""
 
@@ -1092,7 +1092,7 @@ class LanguageBaseTestCase(UbuntuSystemSettingsTestCase,
         super(LanguageBaseTestCase, self).tearDown()
 
 
-class UbuntuSystemSettingsVpnTestCase(UbuntuSystemSettingsTestCase,
+class LomiriSystemSettingsVpnTestCase(LomiriSystemSettingsTestCase,
                                       dbusmock.DBusTestCase):
     """Base class for tests that tests the vpn functionality."""
     connectivity_parameters = {}
@@ -1104,7 +1104,7 @@ class UbuntuSystemSettingsVpnTestCase(UbuntuSystemSettingsTestCase,
 
         cls.start_system_bus()
 
-        super(UbuntuSystemSettingsVpnTestCase, cls).setUpClass()
+        super(LomiriSystemSettingsVpnTestCase, cls).setUpClass()
 
     def setUp(self):
         if is_process_running(INDICATOR_NETWORK):
@@ -1120,12 +1120,12 @@ class UbuntuSystemSettingsVpnTestCase(UbuntuSystemSettingsTestCase,
             self.session_con.get_object(CTV_IFACE, CTV_PRIV_OBJ),
             'org.freedesktop.DBus.Properties')
 
-        super(UbuntuSystemSettingsVpnTestCase, self).setUp()
+        super(LomiriSystemSettingsVpnTestCase, self).setUp()
 
     def tearDown(self):
         self.ctv_mock.terminate()
         self.ctv_mock.wait()
-        super(UbuntuSystemSettingsVpnTestCase, self).tearDown()
+        super(LomiriSystemSettingsVpnTestCase, self).tearDown()
 
     @classmethod
     def tearDownClass(cls):
@@ -1137,10 +1137,10 @@ class UbuntuSystemSettingsVpnTestCase(UbuntuSystemSettingsTestCase,
             cls.stop_dbus(dbusmock.DBusTestCase.session_bus_pid)
             del os.environ['DBUS_SESSION_BUS_ADDRESS']
             dbusmock.DBusTestCase.session_bus_pid = None
-        super(UbuntuSystemSettingsVpnTestCase, cls).tearDownClass()
+        super(LomiriSystemSettingsVpnTestCase, cls).tearDownClass()
 
 
-class VpnBaseTestCase(UbuntuSystemSettingsVpnTestCase):
+class VpnBaseTestCase(LomiriSystemSettingsVpnTestCase):
 
     def setUp(self):
         super(VpnBaseTestCase, self).setUp()
@@ -1155,7 +1155,7 @@ class VpnBaseTestCase(UbuntuSystemSettingsVpnTestCase):
         )
 
 
-class WifiBaseTestCase(UbuntuSystemSettingsTestCase,
+class WifiBaseTestCase(LomiriSystemSettingsTestCase,
                        dbusmock.DBusTestCase):
     """ Base class for wifi settings tests"""
 

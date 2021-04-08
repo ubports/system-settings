@@ -9,8 +9,8 @@ from time import sleep
 from autopilot.matchers import Eventually
 from testtools.matchers import Equals, NotEquals
 
-from ubuntu_system_settings.tests import SoundBaseTestCase
-from ubuntu_system_settings.utils.i18n import ugettext as _
+from lomiri_system_settings.tests import SoundBaseTestCase
+from lomiri_system_settings.utils.i18n import ugettext as _
 
 
 class SoundTestCase(SoundBaseTestCase):

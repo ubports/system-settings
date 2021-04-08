@@ -6,7 +6,7 @@ include_directories(
     ${QTDBUSTEST_INCLUDE_DIRS}
 )
 
-add_definitions(-DNETWORK_MANAGER_TEMPLATE="${CMAKE_SOURCE_DIR}/tests/autopilot/ubuntu_system_settings/tests/networkmanager.py")
+add_definitions(-DNETWORK_MANAGER_TEMPLATE="${CMAKE_SOURCE_DIR}/tests/autopilot/lomiri_system_settings/tests/networkmanager.py")
 
 add_executable(tst-wifidbushelper
     tst_wifidbushelper.cpp

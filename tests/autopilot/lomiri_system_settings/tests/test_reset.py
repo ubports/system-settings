@@ -13,8 +13,8 @@ from autopilot.matchers import Eventually
 from gi.repository import Gio, GLib
 from testtools.matchers import Contains, Equals
 
-from ubuntu_system_settings.tests import ResetBaseTestCase
-from ubuntu_system_settings.utils.i18n import ugettext as _
+from lomiri_system_settings.tests import ResetBaseTestCase
+from lomiri_system_settings.utils.i18n import ugettext as _
 
 
 class ResetTestCase(ResetBaseTestCase):

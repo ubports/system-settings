@@ -10,7 +10,7 @@ from __future__ import absolute_import
 from autopilot.matchers import Eventually
 from testtools.matchers import NotEquals
 
-from ubuntu_system_settings.tests import SoundBaseTestCase
+from lomiri_system_settings.tests import SoundBaseTestCase
 
 
 class PhoneSoundTestCase(SoundBaseTestCase):

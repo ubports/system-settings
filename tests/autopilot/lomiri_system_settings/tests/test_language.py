@@ -9,8 +9,8 @@ from __future__ import absolute_import
 
 from autopilot.matchers import Eventually
 from testtools.matchers import Contains, Equals
-from ubuntu_system_settings.tests import LanguageBaseTestCase
-from ubuntu_system_settings.utils.i18n import ugettext as _
+from lomiri_system_settings.tests import LanguageBaseTestCase
+from lomiri_system_settings.utils.i18n import ugettext as _
 
 
 class LanguageTestCase(LanguageBaseTestCase):

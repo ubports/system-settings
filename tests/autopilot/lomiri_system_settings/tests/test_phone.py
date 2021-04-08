@@ -12,7 +12,7 @@ from testtools.matchers import Contains, Equals
 
 from time import sleep
 
-from ubuntu_system_settings.tests import (
+from lomiri_system_settings.tests import (
     PhoneOfonoBaseTestCase,
     CALL_FWD_IFACE,
     CALL_SETTINGS_IFACE,

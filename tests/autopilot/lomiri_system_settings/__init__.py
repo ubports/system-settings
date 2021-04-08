@@ -17,13 +17,13 @@
 
 from autopilot import introspection
 from autopilot.exceptions import StateNotFoundError
-from ubuntu_system_settings.utils.i18n import ugettext as _
+from lomiri_system_settings.utils.i18n import ugettext as _
 
 import logging
 from time import sleep
 import autopilot.logging
 import ubuntuuitoolkit
-import ubuntu_system_settings.utils as utils
+import lomiri_system_settings.utils as utils
 
 # TODO This is a workaround for bug #1327325 that will make phabet-test-run
 # fail if something is printed to stdout.
@@ -40,8 +40,8 @@ class SystemSettings(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
         name = introspection.get_classname_from_path(path)
         return ((name == b'SystemSettings' and
                  state['applicationName'][1] == 'SystemSettings') or
-                (name == b'ubuntu-system-settings' and
-                 state['applicationName'][1] == 'ubuntu-system-settings'))
+                (name == b'lomiri-system-settings' and
+                 state['applicationName'][1] == 'lomiri-system-settings'))
 
     @property
     def main_view(self):

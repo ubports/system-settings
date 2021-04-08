@@ -8,12 +8,12 @@
 from autopilot.matchers import Eventually
 from gi.repository import Gio, GLib
 from testtools.matchers import Equals
-from ubuntu_system_settings.tests import UbuntuSystemSettingsTestCase
+from lomiri_system_settings.tests import LomiriSystemSettingsTestCase
 
-""" Tests for Ubuntu System Settings """
+""" Tests for Lomiri System Settings """
 
 
-class MainTestCase(UbuntuSystemSettingsTestCase):
+class MainTestCase(LomiriSystemSettingsTestCase):
     """ Tests for Search """
 
     def setUp(self):

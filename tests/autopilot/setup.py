@@ -12,15 +12,15 @@ import setuptools
 
 
 setuptools.setup(
-    name='ubuntu-system-settings',
+    name='lomiri-system-settings',
     version='0.1',
-    description='Ubuntu System Settings autopilot tests.',
-    url='https://launchpad.net/ubuntu-system-settings',
+    description='Lomiri System Settings autopilot tests.',
+    url='https://gitlab.com/ubports/core/lomiri-system-settings',
     license='GPLv3',
     packages=setuptools.find_packages(),
     package_dir={
-        'ubuntu_system_settings': './ubuntu_system_settings'},
+        'lomiri_system_settings': './lomiri_system_settings'},
     package_data={
-        'ubuntu_system_settings': ['background_images/*.jpg'],
+        'lomiri_system_settings': ['background_images/*.jpg'],
     }
 )

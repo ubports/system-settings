@@ -10,11 +10,11 @@ from time import sleep
 from testtools.matchers import Equals, NotEquals
 from autopilot.matchers import Eventually
 
-from ubuntu_system_settings.tests import (
+from lomiri_system_settings.tests import (
     SecurityBaseTestCase,
     SIM_IFACE)
 
-from ubuntu_system_settings.utils.i18n import ugettext as _
+from lomiri_system_settings.utils.i18n import ugettext as _
 from ubuntuuitoolkit import emulators as toolkit_emulators
 
 

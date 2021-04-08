@@ -12,9 +12,9 @@ import dbus
 from autopilot.matchers import Eventually
 from testtools.matchers import Equals
 from time import sleep
-from ubuntu_system_settings.tests import (WifiBaseTestCase,
+from lomiri_system_settings.tests import (WifiBaseTestCase,
                                           WifiWithSSIDBaseTestCase)
-from ubuntu_system_settings.utils.i18n import ugettext as _
+from lomiri_system_settings.utils.i18n import ugettext as _
 
 
 class WifiEnabledTestCase(WifiBaseTestCase):
