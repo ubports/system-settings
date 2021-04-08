@@ -1,5 +1,5 @@
 /*
- * This file is part of ubuntu-system-settings
+ * This file is part of lomiri-system-settings
  *
  * Copyright (C) 2013-2016 Canonical Ltd.
  *
