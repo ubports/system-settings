@@ -22,5 +22,5 @@ target_link_libraries(MockLomiriWifiPanel
     ${Qt5Qml_LIBRARIES}
 )
 
-add_uss_mock(Lomiri.SystemSettings.Wifi 1.0 Lomiri/SystemSettings/Wifi
+add_lss_mock(Lomiri.SystemSettings.Wifi 1.0 Lomiri/SystemSettings/Wifi
              TARGETS MockLomiriWifiPanel)

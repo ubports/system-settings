@@ -16,4 +16,4 @@ target_link_libraries(FakeGSettingsQml
   Qt5::Qml
 )
 
-add_uss_mock(GSettings 1.0 GSettings.1.0 TARGETS FakeGSettingsQml)
+add_lss_mock(GSettings 1.0 GSettings.1.0 TARGETS FakeGSettingsQml)

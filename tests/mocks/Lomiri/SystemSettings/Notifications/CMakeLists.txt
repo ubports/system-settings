@@ -17,5 +17,5 @@ add_library(MockLomiriNotificationsPanel MODULE ${MOCK_NOTIFICATIONS_SRCS})
 
 target_link_libraries(MockLomiriNotificationsPanel ${GIO_LDFLAGS} ${QTGSETTINGS_LDFLAGS} Qt5::Qml Qt5::Quick Qt5::Core)
 
-add_uss_mock(Lomiri.SystemSettings.Notifications 1.0 Lomiri/SystemSettings/Notifications
+add_lss_mock(Lomiri.SystemSettings.Notifications 1.0 Lomiri/SystemSettings/Notifications
              TARGETS MockLomiriNotificationsPanel)

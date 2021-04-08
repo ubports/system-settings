@@ -21,4 +21,4 @@ set_target_properties(QMenuModelQml PROPERTIES
                       OUTPUT_NAME qmenumodel
                       VERSION 0)
 
-add_uss_mock(QMenuModel 0.1 QMenuModel TARGETS QMenuModelQml)
+add_lss_mock(QMenuModel 0.1 QMenuModel TARGETS QMenuModelQml)

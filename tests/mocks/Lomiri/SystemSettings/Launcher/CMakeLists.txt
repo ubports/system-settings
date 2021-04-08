@@ -16,5 +16,5 @@ add_library(MockLauncherPanelPlugin SHARED ${MOCK_LAUNCHER_SRCS})
 
 target_link_libraries(MockLauncherPanelPlugin Qt5::Qml)
 
-add_uss_mock(Lomiri.SystemSettings.Launcher 1.0 Lomiri/SystemSettings/Launcher
+add_lss_mock(Lomiri.SystemSettings.Launcher 1.0 Lomiri/SystemSettings/Launcher
              TARGETS MockLauncherPanelPlugin)
