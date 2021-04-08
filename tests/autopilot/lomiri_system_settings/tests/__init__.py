@@ -22,7 +22,7 @@ import dbusmock
 import os
 import random
 import subprocess
-import ubuntuuitoolkit
+import lomiriuitoolkit
 
 from datetime import datetime
 from time import sleep
@@ -41,7 +41,7 @@ from lomiri_system_settings.tests.connectivity import (
     PRIV_OBJ as CTV_PRIV_OBJ, NETS_OBJ as CTV_NETS_OBJ,
     MAIN_IFACE as CTV_IFACE
 )
-from ubuntuuitoolkit._custom_proxy_objects._common import (
+from lomiriuitoolkit._custom_proxy_objects._common import (
     is_process_running, _start_process, _stop_process)
 
 
@@ -80,7 +80,7 @@ UPOWER_VERSION += '.' + str(UPowerGlib.MINOR_VERSION)
 
 
 class LomiriSystemSettingsTestCase(
-        ubuntuuitoolkit.base.UbuntuUIToolkitAppTestCase):
+        lomiriuitoolkit.base.LomiriUIToolkitAppTestCase):
 
     """Base class for Lomiri System Settings."""
 
@@ -123,7 +123,7 @@ class LomiriSystemSettingsTestCase(
         return self.launch_test_application(
             *params,
             app_type='qt',
-            emulator_base=ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase,
+            emulator_base=lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase,
             capture_output=True)
 
     @classmethod

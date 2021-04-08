@@ -22,7 +22,7 @@ from lomiri_system_settings.utils.i18n import ugettext as _
 import logging
 from time import sleep
 import autopilot.logging
-import ubuntuuitoolkit
+import lomiriuitoolkit
 import lomiri_system_settings.utils as utils
 
 # TODO This is a workaround for bug #1327325 that will make phabet-test-run
@@ -31,7 +31,7 @@ logging.basicConfig(filename='warning.log', level=logging.WARNING)
 logger = logging.getLogger(__name__)
 
 
-class SystemSettings(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
+class SystemSettings(lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase):
 
     """Helper class for System Settings application"""
 
@@ -49,7 +49,7 @@ class SystemSettings(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
         return self.select_single(objectName='systemSettingsMainView')
 
 
-class SystemSettingsMainWindow(ubuntuuitoolkit.MainView):
+class SystemSettingsMainWindow(lomiriuitoolkit.MainView):
 
     """Autopilot helper for the Main Window."""
 
@@ -182,7 +182,7 @@ class SystemSettingsMainWindow(ubuntuuitoolkit.MainView):
     @property
     def _orientation_lock_switch(self):
         return self.wait_select_single(
-            ubuntuuitoolkit.CheckBox,
+            lomiriuitoolkit.CheckBox,
             objectName='orientationLockSwitch')
 
     def enable_orientation_lock(self):
@@ -192,7 +192,7 @@ class SystemSettingsMainWindow(ubuntuuitoolkit.MainView):
         self._orientation_lock_switch.uncheck()
 
 
-class Dialog(ubuntuuitoolkit.Dialog):
+class Dialog(lomiriuitoolkit.Dialog):
     # XXX A new Dialog custom proxy object was added to the toolkit.
     # Because of https://bugs.launchpad.net/autopilot-qt/+bug/1341671
     # we need to make sure it does not match in any selection.
@@ -202,13 +202,13 @@ class Dialog(ubuntuuitoolkit.Dialog):
         return False
 
 
-class LabelTextField(ubuntuuitoolkit.TextField):
+class LabelTextField(lomiriuitoolkit.TextField):
     """LabelTextField is a component local to the APN Editor in the cellular
     plugin."""
     pass
 
 
-class CellularPage(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
+class CellularPage(lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase):
 
     """Autopilot helper for the Cellular page."""
 
@@ -350,7 +350,7 @@ class CellularPage(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
         self.pointing_device.click_object(ok)
 
 
-class HotspotPage(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
+class HotspotPage(lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase):
 
     """Autopilot helper for Hotspot page."""
 
@@ -365,7 +365,7 @@ class HotspotPage(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
     @property
     def _switch(self):
         return self.wait_select_single(
-            ubuntuuitoolkit.CheckBox,
+            lomiriuitoolkit.CheckBox,
             objectName='hotspotSwitch')
 
     @autopilot.logging.log_action(logger.debug)
@@ -420,7 +420,7 @@ class HotspotPage(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
 
 
 class HotspotEnableWifiDialog(
-        ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
+        lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase):
     """Autopilot helper for the 'Turn on Wi-Fi' dialog in hotspot panel."""
 
     @classmethod
@@ -437,7 +437,7 @@ class HotspotEnableWifiDialog(
         self.pointing_device.click_object(button)
 
 
-class HotspotSetup(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
+class HotspotSetup(lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase):
 
     """Autopilot helper for Hotspot setup."""
 
@@ -452,13 +452,13 @@ class HotspotSetup(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
     @property
     def _ssid_field(self):
         return self.wait_select_single(
-            ubuntuuitoolkit.TextField,
+            lomiriuitoolkit.TextField,
             objectName='ssidField')
 
     @property
     def _password_field(self):
         return self.wait_select_single(
-            ubuntuuitoolkit.TextField,
+            lomiriuitoolkit.TextField,
             objectName='passwordField')
 
     @property
@@ -491,7 +491,7 @@ class HotspotSetup(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
         self.pointing_device.click_object(self._enable_button)
 
 
-class BluetoothPage(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
+class BluetoothPage(lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase):
 
     """Autopilot helper for Bluetooth page."""
 
@@ -519,7 +519,7 @@ class BluetoothPage(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
                 disconnected_list.select_many('LabelVisual')]
 
 
-class PageCarrierAndApn(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
+class PageCarrierAndApn(lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase):
 
     """Autopilot helper for carrier/apn entry page (singlesim)."""
     @autopilot.logging.log_action(logger.debug)
@@ -548,7 +548,7 @@ class PageCarrierAndApn(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
 
 
 class PageCarriersAndApns(
-        ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
+        lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase):
     """Autopilot helper for carrier/apn entry page (multisim)."""
     @autopilot.logging.log_action(logger.debug)
     def open_carrier(self, sim):
@@ -563,7 +563,7 @@ class PageCarriersAndApns(
             objectName='chooseCarrierPage')
 
 
-class PageChooseCarrier(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
+class PageChooseCarrier(lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase):
 
     """Autopilot helper for carrier selection page"""
 
@@ -591,7 +591,7 @@ class PageChooseCarrier(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
         self.pointing_device.click_object(item)
 
 
-class PageChooseApn(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
+class PageChooseApn(lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase):
 
     """Autopilot helper for apn editor page"""
 
@@ -634,7 +634,7 @@ class PageChooseApn(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
             objectName='apnEditor')
 
 
-class PageApnEditor(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
+class PageApnEditor(lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase):
 
     """Autopilot helper for apn editor page"""
 
@@ -701,7 +701,7 @@ class PageApnEditor(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
         header.click_action_button('saveApn')
 
 
-class SecurityPage(ubuntuuitoolkit.QQuickFlickable):
+class SecurityPage(lomiriuitoolkit.QQuickFlickable):
 
     """Autopilot helper for the Security page."""
 
@@ -723,7 +723,7 @@ class SecurityPage(ubuntuuitoolkit.QQuickFlickable):
         )
 
 
-class SimPin(ubuntuuitoolkit.QQuickFlickable):
+class SimPin(lomiriuitoolkit.QQuickFlickable):
 
     """Autopilot helper for the SimPin Page."""
 
@@ -756,7 +756,7 @@ class SimPin(ubuntuuitoolkit.QQuickFlickable):
         self.pointing_device.click_object(lock_unlock_button)
 
 
-class TimeAndDatePage(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
+class TimeAndDatePage(lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase):
 
     """Autopilot helper for the TimeAndDate page."""
 
@@ -769,7 +769,7 @@ class TimeAndDatePage(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
         return False
 
 
-class SoundPage(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
+class SoundPage(lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase):
 
     """Autopilot helper for the Sound page."""
 
@@ -782,7 +782,7 @@ class SoundPage(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
         return False
 
 
-class AboutPage(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
+class AboutPage(lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase):
 
     """Autopilot helper for the About page."""
 
@@ -855,7 +855,7 @@ class AboutPage(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
         return number.value
 
 
-class LicensesPage(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
+class LicensesPage(lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase):
 
     """Autopilot helper for the Licenses page."""
 
@@ -868,7 +868,7 @@ class LicensesPage(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
         return False
 
 
-class SystemUpdatesPage(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
+class SystemUpdatesPage(lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase):
 
     """Autopilot helper for the System Updates page."""
 
@@ -885,7 +885,7 @@ class SystemUpdatesPage(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
         self.pointing_device.click_object(btn)
 
 
-class PhonePage(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
+class PhonePage(lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase):
 
     """Autopilot helper for the Phone page."""
 
@@ -941,7 +941,7 @@ class PhonePage(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
     def _dialpad_sounds(self):
         """The dialpad sounds switch."""
         return self.wait_select_single(
-            ubuntuuitoolkit.CheckBox,
+            lomiriuitoolkit.CheckBox,
             objectName='dialpadSounds')
 
     @autopilot.logging.log_action(logger.info)
@@ -1135,14 +1135,14 @@ class PhonePage(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
         return fwd_page.get_forward_when_unreachable()
 
 
-class CallWaiting(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
+class CallWaiting(lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase):
 
     """Autopilot helper for the Call waiting page."""
 
     @property
     def _switch(self):
         return self.wait_select_single(
-            ubuntuuitoolkit.CheckBox,
+            lomiriuitoolkit.CheckBox,
             objectName='callWaitingSwitch')
 
     def enable_call_waiting(self):
@@ -1152,7 +1152,7 @@ class CallWaiting(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
         self._switch.uncheck()
 
 
-class CallForwarding(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
+class CallForwarding(lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase):
 
     """Autopilot helper for the Call forwarding page."""
 
@@ -1170,7 +1170,7 @@ class CallForwarding(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
         :param rule: The string representation of the rule.
         :param value: The new value of the CheckBox.
         """
-        check = self.wait_select_single(ubuntuuitoolkit.CheckBox,
+        check = self.wait_select_single(lomiriuitoolkit.CheckBox,
                                         objectName='check_%s' % rule)
         if value:
             check.check()
@@ -1293,7 +1293,7 @@ class CallForwarding(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
         return self._get_rule('voiceNotReachable')
 
 
-class Services(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
+class Services(lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase):
 
     """Autopilot helper for the Sim Services page."""
 
@@ -1303,7 +1303,7 @@ class Services(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
         pass
 
 
-class ResetPage(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
+class ResetPage(lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase):
 
     """Autopilot helper for the Reset page."""
 
@@ -1361,7 +1361,7 @@ class ResetPage(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
 
 
 class ResetLauncherConfirmationDialog(
-        ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
+        lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase):
 
     """Autopilot helper for the Reset Launcher Confirmation dialog."""
 
@@ -1380,7 +1380,7 @@ class ResetLauncherConfirmationDialog(
 
 
 class FactoryResetConfirmationDialog(
-        ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
+        lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase):
 
     """Autopilot helper for the Reset Launcher Confirmation dialog."""
 
@@ -1398,7 +1398,7 @@ class FactoryResetConfirmationDialog(
         self.pointing_device.click_object(button)
 
 
-class LanguagePage(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
+class LanguagePage(lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase):
 
     """Autopilot helper for the Language page."""
 
@@ -1436,7 +1436,7 @@ class LanguagePage(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
         return self.get_root_instance()
 
 
-class DisplayLanguage(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
+class DisplayLanguage(lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase):
 
     """Autopilot helper for the Display Language dialog."""
 
@@ -1472,7 +1472,7 @@ class DisplayLanguage(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
 
 
 class RebootNecessary(
-        ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
+        lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase):
 
     """Autopilot helper for the Reboot Necessary dialog."""
 
@@ -1495,7 +1495,7 @@ class RebootNecessary(
         self.pointing_device.click_object(button)
 
 
-class WifiPage(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
+class WifiPage(lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase):
 
     """Autopilot helper for the WiFi page."""
 
@@ -1574,7 +1574,7 @@ class WifiPage(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
 
 
 class OtherNetwork(
-        ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
+        lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase):
 
     """Autopilot helper for the Connect to Hidden Network dialog."""
 
@@ -1608,7 +1608,7 @@ class OtherNetwork(
 
 
 class PreviousNetworks(
-        ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
+        lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase):
 
     """Autopilot helper for the Previous Networks page."""
 
@@ -1633,7 +1633,7 @@ class PreviousNetworks(
 
 
 class NetworkDetails(
-        ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
+        lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase):
 
     """Autopilot helper for the Networks Details page."""
 
@@ -1647,7 +1647,7 @@ class NetworkDetails(
         self.pointing_device.click_object(button)
 
 
-class VpnPage(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
+class VpnPage(lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase):
 
     """Autopilot helper for the VPN page."""
 
@@ -1685,38 +1685,38 @@ class VpnPage(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
 
 
 class VpnEditor(
-    ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase
+    lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase
 ):
     """Autopilot helper for vpn change dialog."""
 
     @property
     def _openvpn_server_field(self):
         return self.wait_select_single(
-            ubuntuuitoolkit.TextField,
+            lomiriuitoolkit.TextField,
             objectName='vpnOpenvpnServerField')
 
     @property
     def _openvpn_port_field(self):
         return self.wait_select_single(
-            ubuntuuitoolkit.TextField,
+            lomiriuitoolkit.TextField,
             objectName='vpnOpenvpnPortField')
 
     @property
     def _openvpn_custom_port_toggle(self):
         return self.wait_select_single(
-            ubuntuuitoolkit.CheckBox,
+            lomiriuitoolkit.CheckBox,
             objectName='vpnOpenvpnCustomPortToggle')
 
     @property
     def _openvpn_tcp_toggle(self):
         return self.wait_select_single(
-            ubuntuuitoolkit.CheckBox,
+            lomiriuitoolkit.CheckBox,
             objectName='vpnOpenvpnTcpToggle')
 
     @property
     def _openvpn_udp_toggle(self):
         return self.wait_select_single(
-            ubuntuuitoolkit.CheckBox,
+            lomiriuitoolkit.CheckBox,
             objectName='vpnOpenvpnUdpToggle')
 
     @property

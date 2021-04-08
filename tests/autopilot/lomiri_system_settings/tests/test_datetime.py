@@ -15,7 +15,7 @@ from testtools.matchers import Equals, GreaterThan
 from lomiri_system_settings.tests import LomiriSystemSettingsTestCase
 from lomiri_system_settings.utils.i18n import ugettext as _
 
-from ubuntuuitoolkit import emulators as toolkit_emulators
+from lomiriuitoolkit import emulators as toolkit_emulators
 
 
 class TimeDateTestCase(LomiriSystemSettingsTestCase,
