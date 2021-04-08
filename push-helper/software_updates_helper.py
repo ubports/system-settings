@@ -142,7 +142,7 @@ def main():
     obj = {}
     if arg == "system-image-update":
         logging.debug("system-image-update; requesting regular notification.")
-        icon = "/usr/share/ubuntu/settings/system/icons/" + \
+        icon = "/usr/share/lomiri-system-settings/icons/" + \
                "settings-system-update.svg"
         obj = {
             "notification": {
