@@ -1,6 +1,6 @@
 The System Settings application for Ubuntu Touch.
 
-The upstream project is hosted on launchpad, the design on the Ubuntu wiki:
-https://launchpad.net/ubuntu-system-settings
+The upstream project is hosted on GitLab, the design on the Ubuntu wiki:
+https://gitlab.com/ubports/core/lomiri-system-settings
 https://wiki.ubuntu.com/SystemSettings
 
