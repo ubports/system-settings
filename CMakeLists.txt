@@ -87,7 +87,7 @@ set(PUSH_HELPER_DIR "lib/ubuntu-push-client/legacy-helpers")
 SET(CMAKE_INSTALL_RPATH "${PLUGIN_MODULE_DIR}")
 
 set(DESKTOP_FILE lomiri-system-settings.desktop)
-set(GETTEXT_PACKAGE ubuntu-system-settings)
+set(GETTEXT_PACKAGE lomiri-system-settings)
 
 add_subdirectory(po)
 add_subdirectory(schema)

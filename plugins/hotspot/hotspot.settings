@@ -2,7 +2,7 @@
     "icon": "preferences-network-hotspot-symbolic",
     "name": "Hotspot",
     "plugin": "hotspot-plugin",
-    "translations": "ubuntu-system-settings",
+    "translations": "lomiri-system-settings",
     "category": "network",
     "priority": 2,
     "form-factors": [

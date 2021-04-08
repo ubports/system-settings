@@ -1,7 +1,7 @@
 {
     "icon": "ubuntu-logo-symbolic",
     "name": "Updates available",
-    "translations": "ubuntu-system-settings",
+    "translations": "lomiri-system-settings",
     "category": "uncategorized-top",
     "priority": 2,
     "has-dynamic-keywords": false,

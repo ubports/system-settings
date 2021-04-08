@@ -25,7 +25,7 @@ import logging
 import logging.handlers
 from xdg.BaseDirectory import save_cache_path
 
-_ = gettext.translation('ubuntu-system-settings', fallback=True).gettext
+_ = gettext.translation('lomiri-system-settings', fallback=True).gettext
 
 SYS_UPDATE = "system-image-update"
 

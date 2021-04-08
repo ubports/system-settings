@@ -1,7 +1,7 @@
 {
     "icon": "preferences-system-time-symbolic",
     "name": "Time and Date",
-    "translations": "ubuntu-system-settings",
+    "translations": "lomiri-system-settings",
     "category": "system",
     "priority": 3,
     "keywords": [

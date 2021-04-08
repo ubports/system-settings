@@ -1,7 +1,7 @@
 {
     "icon": "orientation-lock",
     "name": "Rotation Lock",
-    "translations": "ubuntu-system-settings",
+    "translations": "lomiri-system-settings",
     "category": "uncategorized-top",
     "priority": 1,
     "form-factors": [

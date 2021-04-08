@@ -1,7 +1,7 @@
 {
     "icon": "printer-symbolic",
     "name": "Printing",
-    "translations": "ubuntu-system-settings",
+    "translations": "lomiri-system-settings",
     "category": "system",
     "priority": 1,
     "keywords": [

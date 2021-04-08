@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Canonical Ltd.
-# This file is distributed under the same license as the ubuntu-system-settings package.
+# This file is distributed under the same license as the lomiri-system-settings package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: ubuntu-system-settings\n"
+"Project-Id-Version: lomiri-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 21:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -3042,7 +3042,7 @@ msgstr ""
 msgid "Opaque"
 msgstr ""
 
-#: ../src/qml/MainWindow.qml:170 ubuntu-system-settings.desktop.in.in.h:1
+#: ../src/qml/MainWindow.qml:170 lomiri-system-settings.desktop.in.in.h:1
 msgid "System Settings"
 msgstr ""
 
@@ -3912,10 +3912,10 @@ msgstr ""
 msgid "stereo"
 msgstr ""
 
-#: ubuntu-system-settings.desktop.in.in.h:2
+#: lomiri-system-settings.desktop.in.in.h:2
 msgid "System;"
 msgstr ""
 
-#: ubuntu-system-settings.desktop.in.in.h:3
+#: lomiri-system-settings.desktop.in.in.h:3
 msgid "Preferences;Settings;"
 msgstr ""

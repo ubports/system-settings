@@ -2,7 +2,7 @@
     "plugin": "brightness-plugin",
     "icon": "display-brightness-symbolic",
     "name": "Brightness",
-    "translations": "ubuntu-system-settings",
+    "translations": "lomiri-system-settings",
     "category": "system",
     "priority": 4,
     "keywords": [

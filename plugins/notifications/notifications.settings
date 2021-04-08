@@ -2,7 +2,7 @@
     "icon": "preferences-desktop-notifications-symbolic",
     "name": "Notifications",
     "plugin": "notifications-plugin",
-    "translations": "ubuntu-system-settings",
+    "translations": "lomiri-system-settings",
     "category": "personal",
     "priority": 5,
     "keywords": [

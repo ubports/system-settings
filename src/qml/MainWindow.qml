@@ -71,8 +71,8 @@ MainView {
     }
 
     Component.onCompleted: {
-        i18n.domain = "ubuntu-system-settings"
-        i18n.bindtextdomain("ubuntu-system-settings", i18nDirectory)
+        i18n.domain = "lomiri-system-settings"
+        i18n.bindtextdomain("lomiri-system-settings", i18nDirectory)
 
         if (defaultPlugin) {
             if (!loadPluginByName(defaultPlugin, pluginOptions))

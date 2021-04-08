@@ -1,7 +1,7 @@
 {
     "icon": "preferences-desktop-accessibility-symbolic",
     "name": "Accessibility",
-    "translations": "ubuntu-system-settings",
+    "translations": "lomiri-system-settings",
     "category": "personal",
     "priority": 4,
     "keywords": [

@@ -1,7 +1,7 @@
 {
     "icon": "preferences-system-privacy-symbolic",
     "name": "Security & Privacy",
-    "translations": "ubuntu-system-settings",
+    "translations": "lomiri-system-settings",
     "category": "system",
     "priority": 4,
     "keywords": [

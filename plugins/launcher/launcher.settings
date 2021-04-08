@@ -2,7 +2,7 @@
     "name": "Launcher",
     "icon": "preferences-desktop-launcher-symbolic",
     "plugin": "launcher-plugin",
-    "translations": "ubuntu-system-settings",
+    "translations": "lomiri-system-settings",
     "category": "personal",
     "keywords": [
         "launcher",

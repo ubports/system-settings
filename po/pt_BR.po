@@ -1,11 +1,11 @@
-# Brazilian Portuguese translation for ubuntu-system-settings
+# Brazilian Portuguese translation for lomiri-system-settings
 # Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
-# This file is distributed under the same license as the ubuntu-system-settings package.
+# This file is distributed under the same license as the lomiri-system-settings package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: ubuntu-system-settings\n"
+"Project-Id-Version: lomiri-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
 "PO-Revision-Date: 2020-08-02 19:22+0000\n"
@@ -20,15 +20,15 @@ msgstr ""
 "X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:42+0000\n"
 
-#: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
+#: lomiri-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
 msgid "System Settings"
 msgstr "Configurações"
 
-#: ubuntu-system-settings.desktop.in.in.h:2
+#: lomiri-system-settings.desktop.in.in.h:2
 msgid "System;"
 msgstr "Sistema;"
 
-#: ubuntu-system-settings.desktop.in.in.h:3
+#: lomiri-system-settings.desktop.in.in.h:3
 msgid "Preferences;Settings;"
 msgstr "Preferências;Configurações;"
 

@@ -1,7 +1,7 @@
 {
     "icon": "preferences-desktop-locale-symbolic",
     "name": "Language & Text",
-    "translations": "ubuntu-system-settings",
+    "translations": "lomiri-system-settings",
     "category": "personal",
     "priority": 2,
     "keywords": [

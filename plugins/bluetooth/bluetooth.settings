@@ -1,7 +1,7 @@
 {
     "icon": "bluetooth-active",
     "name": "Bluetooth",
-    "translations": "ubuntu-system-settings",
+    "translations": "lomiri-system-settings",
     "category": "network",
     "priority": 2,
     "keywords": [

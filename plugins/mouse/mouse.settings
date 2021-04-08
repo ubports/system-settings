@@ -1,7 +1,7 @@
 {
     "icon": "input-mouse-symbolic",
     "name": "Mouse & Touchpad",
-    "translations": "ubuntu-system-settings",
+    "translations": "lomiri-system-settings",
     "category": "system",
     "priority": 3,
     "form-factors": [

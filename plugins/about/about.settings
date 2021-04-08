@@ -1,7 +1,7 @@
 {
     "icon": "info",
     "name": "About",
-    "translations": "ubuntu-system-settings",
+    "translations": "lomiri-system-settings",
     "category": "uncategorized-bottom",
     "priority": 0,
     "keywords": [

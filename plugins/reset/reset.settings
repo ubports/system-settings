@@ -1,7 +1,7 @@
 {
     "icon": "reset",
     "name": "Reset",
-    "translations": "ubuntu-system-settings",
+    "translations": "lomiri-system-settings",
     "category": "uncategorized-bottom",
     "priority": 1,
     "keywords": [

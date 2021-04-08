@@ -1,11 +1,11 @@
-# Interlingua translation for ubuntu-system-settings
+# Interlingua translation for lomiri-system-settings
 # Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
-# This file is distributed under the same license as the ubuntu-system-settings package.
+# This file is distributed under the same license as the lomiri-system-settings package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: ubuntu-system-settings\n"
+"Project-Id-Version: lomiri-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
 "PO-Revision-Date: 2015-04-29 15:55+0000\n"
@@ -19,15 +19,15 @@ msgstr ""
 "X-Launchpad-Export-Date: 2015-07-16 05:40+0000\n"
 "X-Generator: Launchpad (build 17628)\n"
 
-#: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
+#: lomiri-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
 msgid "System Settings"
 msgstr "Preparationes del systema"
 
-#: ubuntu-system-settings.desktop.in.in.h:2
+#: lomiri-system-settings.desktop.in.in.h:2
 msgid "System;"
 msgstr "Systema;"
 
-#: ubuntu-system-settings.desktop.in.in.h:3
+#: lomiri-system-settings.desktop.in.in.h:3
 msgid "Preferences;Settings;"
 msgstr "Preferentias;preparationes;"
 

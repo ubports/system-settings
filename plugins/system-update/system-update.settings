@@ -1,7 +1,7 @@
 {
     "icon": "preferences-system-updates-symbolic",
     "name": "Updates",
-    "translations": "ubuntu-system-settings",
+    "translations": "lomiri-system-settings",
     "category": "system",
     "priority": 5,
     "keywords": [

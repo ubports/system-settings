@@ -16,7 +16,7 @@ import unittest
 from unittest import mock
 
 import gettext
-_ = gettext.translation('ubuntu-system-settings', fallback=True).gettext
+_ = gettext.translation('lomiri-system-settings', fallback=True).gettext
 
 HELPER_DIR = '@CMAKE_CURRENT_SOURCE_DIR@/../push-helper/'
 sys.path.append(HELPER_DIR)

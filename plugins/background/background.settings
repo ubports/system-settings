@@ -1,6 +1,6 @@
 {
     "icon": "preferences-desktop-wallpaper-symbolic",
-    "translations": "ubuntu-system-settings",
+    "translations": "lomiri-system-settings",
     "name": "Background",
     "category": "personal",
     "priority": 0,

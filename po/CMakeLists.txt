@@ -28,9 +28,9 @@ add_custom_target(settings.js
 add_custom_target(pot-desktop
     COMMAND ${INTLTOOL_EXTRACT} --update --type=gettext/ini
                             --srcdir=${CMAKE_SOURCE_DIR} ${DESKTOP_FILE_IN_IN}
-    COMMAND ${XGETTEXT_BIN} -o ubuntu-system-settings.pot
+    COMMAND ${XGETTEXT_BIN} -o lomiri-system-settings.pot
                             --copyright=\"Canonical Ltd.\"
-                            --package-name ubuntu-system-settings
+                            --package-name lomiri-system-settings
                             --qt --c++ --add-comments=TRANSLATORS
                             --keyword=N_ --from-code=UTF-8
                             --sort-by-file
@@ -39,10 +39,10 @@ add_custom_target(pot-desktop
 )
 
 add_custom_target(pot-qml
-    COMMAND ${XGETTEXT_BIN} -o ubuntu-system-settings.pot
+    COMMAND ${XGETTEXT_BIN} -o lomiri-system-settings.pot
                             --join-existing
                             --copyright=\"Canonical Ltd.\"
-                            --package-name ubuntu-system-settings
+                            --package-name lomiri-system-settings
                             --qt --c++ --add-comments=TRANSLATORS
                             --keyword=QT_TR_NOOP --keyword=ctr:1c,2
                             --keyword=tr --keyword=tr:1,2 --from-code=UTF-8
@@ -53,10 +53,10 @@ add_custom_target(pot-qml
 )
 
 add_custom_target(pot-cpp
-    COMMAND ${XGETTEXT_BIN} -o ubuntu-system-settings.pot
+    COMMAND ${XGETTEXT_BIN} -o lomiri-system-settings.pot
                             --join-existing
                             --copyright=\"Canonical Ltd.\"
-                            --package-name ubuntu-system-settings
+                            --package-name lomiri-system-settings
                             --qt --c++ --add-comments=TRANSLATORS
                             --keyword=_ --from-code=UTF-8
                             --sort-by-file
@@ -66,10 +66,10 @@ add_custom_target(pot-cpp
 )
 
 add_custom_target(pot-py
-    COMMAND ${XGETTEXT_BIN} -o ubuntu-system-settings.pot
+    COMMAND ${XGETTEXT_BIN} -o lomiri-system-settings.pot
                             --join-existing
                             --copyright=\"Canonical Ltd.\"
-                            --package-name ubuntu-system-settings
+                            --package-name lomiri-system-settings
                             --add-comments=TRANSLATORS
                             --keyword=_
                             --sort-by-file
@@ -89,6 +89,6 @@ foreach(i ${languages})
   add_custom_target(${i}gen ALL DEPENDS ${i}.mo)
   install(FILES ${CMAKE_CURRENT_BINARY_DIR}/${i}.mo 
   DESTINATION share/locale/${i}/LC_MESSAGES
-  RENAME ubuntu-system-settings.mo)
+  RENAME lomiri-system-settings.mo)
 endforeach()
 

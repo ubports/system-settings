@@ -1,6 +1,6 @@
-# Danish translation for ubuntu-system-settings
+# Danish translation for lomiri-system-settings
 # Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
-# This file is distributed under the same license as the ubuntu-system-settings package.
+# This file is distributed under the same license as the lomiri-system-settings package.
 #
 # Ask Hjorth Larsen <asklarsen@gmail.com>, 2014.
 #
@@ -10,7 +10,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: ubuntu-system-settings\n"
+"Project-Id-Version: lomiri-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-18 11:12-0600\n"
 "PO-Revision-Date: 2020-08-09 07:30+0000\n"
@@ -25,15 +25,15 @@ msgstr ""
 "X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2015-07-16 05:40+0000\n"
 
-#: ubuntu-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
+#: lomiri-system-settings.desktop.in.in.h:1 ../src/qml/MainWindow.qml:170
 msgid "System Settings"
 msgstr "Systemindstillinger"
 
-#: ubuntu-system-settings.desktop.in.in.h:2
+#: lomiri-system-settings.desktop.in.in.h:2
 msgid "System;"
 msgstr "System;"
 
-#: ubuntu-system-settings.desktop.in.in.h:3
+#: lomiri-system-settings.desktop.in.in.h:3
 msgid "Preferences;Settings;"
 msgstr "Indstillinger;Opsætning;"
 

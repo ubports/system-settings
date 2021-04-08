@@ -1,7 +1,7 @@
 {
     "icon": "network-vpn",
     "name": "VPN",
-    "translations": "ubuntu-system-settings",
+    "translations": "lomiri-system-settings",
     "category": "network",
     "priority": 3,
     "keywords": [

@@ -2,7 +2,7 @@
     "plugin": "cellular-plugin",
     "icon": "gsm-3g-high",
     "name": "Cellular",
-    "translations": "ubuntu-system-settings",
+    "translations": "lomiri-system-settings",
     "category": "network",
     "priority": 1,
     "form-factors": [

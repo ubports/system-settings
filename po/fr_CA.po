@@ -1,11 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Canonical Ltd.
-# This file is distributed under the same license as the ubuntu-system-settings package.
+# This file is distributed under the same license as the lomiri-system-settings package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: ubuntu-system-settings\n"
+"Project-Id-Version: lomiri-system-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-05 20:03+0000\n"
 "PO-Revision-Date: 2021-03-14 01:00+0000\n"
@@ -3139,7 +3139,7 @@ msgstr "Clé publique"
 msgid "Opaque"
 msgstr "Opaque"
 
-#: ../src/qml/MainWindow.qml:170 ubuntu-system-settings.desktop.in.in.h:1
+#: ../src/qml/MainWindow.qml:170 lomiri-system-settings.desktop.in.in.h:1
 msgid "System Settings"
 msgstr "Paramètres du système"
 
@@ -3992,10 +3992,10 @@ msgstr "laser"
 msgid "ink"
 msgstr "encre"
 
-#: ubuntu-system-settings.desktop.in.in.h:2
+#: lomiri-system-settings.desktop.in.in.h:2
 msgid "System;"
 msgstr "Système;"
 
-#: ubuntu-system-settings.desktop.in.in.h:3
+#: lomiri-system-settings.desktop.in.in.h:3
 msgid "Preferences;Settings;"
 msgstr "Préférences;Réglages;"
