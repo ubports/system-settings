@@ -1,5 +1,6 @@
 build
 /build
+/obj-*
 *.debhelper
 *.log
 *.moc
@@ -13,11 +14,11 @@ src/qrc_ui.cpp
 src/system-settings
 system-settings.pro.user
 /debian/files
-/debian/libsystemsettings-dev/
-/debian/libsystemsettings1/
+/debian/liblomirisystemsettings-dev/
+/debian/liblomirisystemsettings1/
 /debian/tmp/
-/debian/ubuntu-system-settings/
-/debian/ubuntu-system-settings-example/
+/debian/lomiri-system-settings/
+/debian/lomiri-system-settings-autopilot/
 .cproject
 .project
 .settings
