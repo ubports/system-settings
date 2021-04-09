@@ -1,0 +1,2 @@
+lomiri-system-settings binary: extra-license-file usr/share/lomiri-system-settings/qml-plugins/about/License.qml
+lomiri-system-settings: binary-without-manpage usr/bin/lomiri-system-settings

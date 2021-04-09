@@ -59,7 +59,7 @@ Vcs-Git: https://github.com/ubports/system-settings
 X-Python3-Version: >= 3.2
 X-Ubuntu-Use-Langpack: yes
 
-Package: ubuntu-system-settings
+Package: lomiri-system-settings
 Architecture: any
 Depends:
  accountsservice,
@@ -112,12 +112,12 @@ Breaks:
  ubuntu-push-client (<<0.61),
 Replaces:
  ubuntu-push-client (<<0.61),
-Description: System Settings application for Ubuntu Touch
- This package contains the System Settings application used on the
- Ubuntu Touch images, it's designed for phones, tablets and convergent
+Description: System Settings application for Lomiri
+ Lomiri-system-settings is the System Settings application used in Lomiri
+ desktop environment. it's designed for phones, tablets and convergent
  devices.
 
-Package: libsystemsettings1
+Package: liblomirisystemsettings1
 Section: libs
 Architecture: any
 Multi-Arch: same
@@ -127,12 +127,14 @@ Depends:
 Pre-Depends:
  dpkg (>= 1.15.6~),
  ${misc:Pre-Depends},
-Description: System Settings Library for Ubuntu Touch
- This package contains the System Settings application used on the
- Ubuntu Touch images, it's designed for phones, tablets and convergent
+Description: System Settings application for Lomiri - plug-in library
+ Lomiri-system-settings is the System Settings application used in Lomiri
+ desktop environment. it's designed for phones, tablets and convergent
  devices.
+ .
+ This package contains the library used by settings plugins.
 
-Package: libsystemsettings-dev
+Package: liblomirisystemsettings-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
@@ -143,12 +145,14 @@ Depends:
 Pre-Depends:
  dpkg (>= 1.15.6~),
  ${misc:Pre-Depends},
-Description: System Settings for Ubuntu Touch - development files
- This package contains the System Settings application used on the
- Ubuntu Touch images, it's designed for phones, tablets and convergent
+Description: System Settings application for Lomiri - plug-in development files
+ Lomiri-system-settings is the System Settings application used in Lomiri
+ desktop environment. it's designed for phones, tablets and convergent
  devices.
+ .
+ This package contains the plug-in library's development files.
 
-Package: ubuntu-system-settings-autopilot
+Package: lomiri-system-settings-autopilot
 Architecture: all
 Depends:
  dpkg-dev,
@@ -162,7 +166,9 @@ Depends:
  ubuntu-ui-toolkit-autopilot,
  ${misc:Depends},
  ${python3:Depends},
-Description: System Settings for Ubuntu Touch - Autopilot tests
- This package contains the System Settings application used on the
- Ubuntu Touch images, it's designed for phones, tablets and convergent
+Description: System Settings application for Lomiri - Autopilot tests
+ Lomiri-system-settings is the System Settings application used in Lomiri
+ desktop environment. it's designed for phones, tablets and convergent
  devices.
+ .
+ This package contains the autopilot tests for lomiri-system-settings.

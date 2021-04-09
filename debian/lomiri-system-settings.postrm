@@ -2,7 +2,7 @@
 set -e
 
 if [ "$1" = "purge" ] ; then
-    rm -rf /var/lib/lightdm-data/*/ubuntu-system-settings/
+    rm -rf /var/lib/lightdm-data/*/lomiri-system-settings/
 fi
 
 #DEBHELPER#
